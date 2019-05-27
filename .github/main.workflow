@@ -4,7 +4,7 @@ workflow "lighthouse" {
 }
 
 action "release publishable" {
-  uses = "./actions/release-publishable"
+  uses = "./.github/actions/release-publishable"
 }
 
 action "publish" {
