@@ -2,9 +2,9 @@
 
 set -e
 
-action=$(jq -r .ref "$GITHUB_EVENT_PATH")
+action=$(jq -r .action "$GITHUB_EVENT_PATH")
 
-if "$ACTION" == "a"; then
+if "$ACTION" == "created"; then
   exit 0
 fi
 

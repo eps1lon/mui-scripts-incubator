@@ -1,5 +1,5 @@
 workflow "lighthouse" {
-  on = "push"
+  on = "release"
   resolves = ["publish"]
 }
 
