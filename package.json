@@ -1,6 +1,6 @@
 {
   "name": "@eps1lon/mui-scripts",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "scripts for material-ui maintainers",
   "bin": {
     "mui-lighthouse": "./bin/lightouse-audit.js"

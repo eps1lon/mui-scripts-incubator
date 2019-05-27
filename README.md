@@ -25,7 +25,7 @@ If you don't want to install the package globally you can use `npx` instead:
 
 ```sh
 # audit specific pr
-$ mui lighthouse $PR_NUMBER
+$ mui lighthouse $PR_NUMBER > $PR_NUMBER.json
 # audit master
-$ mui lighthouse
+$ mui lighthouse > master.json
 ```

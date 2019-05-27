@@ -6,6 +6,18 @@ const url = require("url");
 const { promisify } = require("util");
 
 const exec = promisify(childProcess.exec);
+/**
+ *
+ * @param {object} report
+ */
+function writeReport(report) {
+  return new Promise((resolve, reject) => {
+    process.stdout.write(JSON.stringify(report, null, 2), error => {
+      if (error) reject(error);
+      resolve();
+    });
+  });
+}
 
 function skipAudit(audit) {
   const complainsOnlyAboutCarbonAds =
@@ -40,10 +52,6 @@ const runOnMaster = Number.isNaN(prNumber);
 const lighthouseUrl = runOnMaster
   ? "https://material-ui.netlify.com/"
   : `https://deploy-preview-${prNumber}--material-ui.netlify.com/`;
-const outputPath = path.join(
-  __dirname,
-  `../__snapshots__/lighthouse/${runOnMaster ? "master" : prNumber}.json`
-);
 
 run(lighthouseUrl).catch(error => {
   console.error(error);
@@ -56,7 +64,6 @@ async function run(inputUrl) {
       const pageUrl = url.resolve(inputUrl, page);
 
       const args = [pageUrl, "--output json", ...lighthouseArgs].join(" ");
-      console.log(`running lighthouse ${args}`);
       const { stdout } = await exec(`yarn --silent lighthouse ${args}`);
 
       const report = JSON.parse(stdout);
@@ -79,6 +86,5 @@ async function run(inputUrl) {
     })
   );
 
-  await fse.writeJSON(outputPath, reports.filter(Boolean), { spaces: 2 });
-  console.log(`report ready in ${outputPath}`);
+  await writeReport(reports.filter(Boolean));
 }
