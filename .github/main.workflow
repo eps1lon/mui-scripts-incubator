@@ -5,7 +5,7 @@ workflow "lighthouse" {
 
 action "release publishable" {
   uses = "docker://stedolan/jq"
-  args = "-r .ref \"$GITHUB_EVENT_PATH\""
+  runs = "./release-publishable.sh"
 }
 
 action "publish" {
