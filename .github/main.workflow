@@ -1,5 +1,5 @@
 workflow "lighthouse" {
-  on = "release"
+  on = "push"
   resolves = ["publish"]
 }
 
@@ -9,6 +9,6 @@ action "release publishable" {
 
 action "publish" {
   uses = "actions/npm@master"
-  args = "install"
+  args = "publish"
   needs = ["release publishable"]
 }
