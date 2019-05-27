@@ -1,5 +1,5 @@
 {
-  "name": "mui-scripts",
+  "name": "@eps1lon/mui-scripts",
   "version": "0.0.2",
   "description": "scripts for material-ui maintainers",
   "bin": {
@@ -12,5 +12,12 @@
   "dependencies": {
     "fs-extra": "^8.0.1",
     "lighthouse": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:eps1lon/mui-scripts-incubator.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
