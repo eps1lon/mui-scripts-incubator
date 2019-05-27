@@ -29,7 +29,21 @@ function skipAudit(audit) {
 }
 const pages = [
   "/",
+  // Layout
+  "/components/box",
+  "/components/container",
+  "/components/grid",
+  "/components/grid-list",
+  // Inputs
   "/components/autocomplete",
+  "/components/buttons",
+  "/components/checkboxes",
+  "/components/pickers",
+  "/components/radio-buttons",
+  "/components/selects",
+  "/components/switches",
+  "/components/text-fields",
+  "/components/transfer-list",
   // Navigation
   "/components/bottom-navigation",
   "/components/breadcrumbs",
@@ -37,7 +51,36 @@ const pages = [
   "/components/links",
   "/components/menus",
   "/components/steppers",
-  "/components/tabs"
+  "/components/tabs",
+  // Surfaces
+  "/components/app-bar",
+  "/components/paper",
+  "/components/cards",
+  "/components/expansion-panels",
+  // Feedback
+  "/components/progress",
+  "/components/dialogs",
+  "/components/snackbars",
+  // data display
+  "/components/avatars",
+  "/components/badges",
+  "/components/chips",
+  "/components/dividers",
+  "/components/icons",
+  "/components/lists",
+  "/components/tables",
+  "/components/tooltips",
+  "/components/typography",
+  // Utils
+  "/components/click-away-listener",
+  "/components/css-baseline",
+  "/components/modal",
+  "/components/no-ssr",
+  "/components/popover",
+  "/components/popper",
+  "/components/portal",
+  "/components/transitions",
+  "/components/use-media-query"
 ];
 /**
  * skip color-contrast because its an issue with the theme i.e. designer
