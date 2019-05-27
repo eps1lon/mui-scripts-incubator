@@ -11,4 +11,5 @@ action "publish" {
   uses = "actions/npm@master"
   args = "publish"
   needs = ["release publishable"]
+  secrets = ["NPM_AUTH_TOKEN"]
 }
