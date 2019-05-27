@@ -4,8 +4,7 @@ workflow "lighthouse" {
 }
 
 action "release publishable" {
-  uses = "docker://stedolan/jq"
-  runs = "./release-publishable.sh"
+  uses = "./actions/release-publishable"
 }
 
 action "publish" {
