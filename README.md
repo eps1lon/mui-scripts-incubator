@@ -4,4 +4,9 @@ material-ui scripts incubator
 
 ## lighthouse audit
 
-`$ node lib/index.js $PR_NUMBER`
+```sh
+# audit specific pr
+$ node lib/index.js $PR_NUMBER
+# audit master
+$ node lib/index.js
+```
