@@ -17,6 +17,9 @@
     "type": "git",
     "url": "ssh://git@github.com:eps1lon/mui-scripts-incubator.git"
   },
+  "files": [
+    "bin"
+  ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   }
