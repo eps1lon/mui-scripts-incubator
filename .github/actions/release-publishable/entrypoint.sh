@@ -8,5 +8,5 @@ if "$ACTION" == "a"; then
   exit 0
 fi
 
-echo "release was not created"
+echo "release was not created but $action instead"
 exit 78
