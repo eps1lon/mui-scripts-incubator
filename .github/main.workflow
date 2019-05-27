@@ -8,8 +8,8 @@ action "release publishable" {
 }
 
 action "publish" {
+  needs = ["release publishable"]
   uses = "actions/npm@master"
   args = "publish --access public"
-  needs = ["release publishable"]
-  secrets = ["NPM_AUTH_TOKEN"]
+  secrets = ["NPM_TOKEN"]
 }
