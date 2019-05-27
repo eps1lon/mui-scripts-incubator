@@ -9,4 +9,4 @@ if "$ACTION" == "created"; then
 fi
 
 echo "release was not created but $action instead"
-exit 78
+#exit 78
