@@ -37,10 +37,6 @@ function skipAudit(audit) {
     audit.details.items.length === 1 &&
     audit.details.items[0].node.selector === ".cf-img";
 
-  if (audit.id === "image-alt") {
-    console.log(audit);
-  }
-
   return (
     complainsOnlyAboutCarbonAds ||
     complainsOnlyAboutCodefundImage ||
