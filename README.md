@@ -17,15 +17,30 @@ $ yarn global add @eps1lon/mui-scripts
 If you don't want to install the package globally you can use `npx` instead:
 
 ```diff
-- $ mui-lighthouse
-+ $ npx -p @eps1lon/mui-scripts mui-lighthouse
+- $ @eps1lon/mui-scripts
++ $ npx @eps1lon/mui-scripts
+```
+
+## usage
+
+```bash
+$ @eps1lon/mui-scripts --help
+entrypoint.js [command]
+
+Commands:
+  entrypoint.js lighthouse-audit            audit pages with lighthouse
+  [pr-number]
+
+Options:
+  --version  Show version number                                       [boolean]
+  --help     Show help                                                 [boolean]
 ```
 
 ## lighthouse audit
 
 ```sh
 # audit specific pr
-$ mui lighthouse $PR_NUMBER > $PR_NUMBER.json
+$ @eps1lon/mui-scripts lighthouse-audit $PR_NUMBER > $PR_NUMBER.json
 # audit master
-$ mui lighthouse > master.json
+$ @eps1lon/mui-scripts lighthouse-audit > master.json
 ```
