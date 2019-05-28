@@ -27,7 +27,25 @@ function skipAudit(audit) {
     audit.details.items.length === 1 &&
     audit.details.items[0].node.selector === ".carbon-img";
 
-  return complainsOnlyAboutCarbonAds;
+  const complainsOnlyAboutCodefundLink =
+    audit.id === "link-name" &&
+    audit.details.items.length === 1 &&
+    audit.details.items[0].node.selector === ".cf-img-wrapper";
+
+  const complainsOnlyAboutCodefundImage =
+    audit.id === "image-alt" &&
+    audit.details.items.length === 1 &&
+    audit.details.items[0].node.selector === ".cf-img";
+
+  if (audit.id === "image-alt") {
+    console.log(audit);
+  }
+
+  return (
+    complainsOnlyAboutCarbonAds ||
+    complainsOnlyAboutCodefundImage ||
+    complainsOnlyAboutCodefundLink
+  );
 }
 const pages = [
   "/",
