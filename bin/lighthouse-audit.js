@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 const childProcess = require("child_process");
-const fse = require("fs-extra");
 const _ = require("lodash");
-const path = require("path");
 const url = require("url");
 const { promisify } = require("util");
 
@@ -113,6 +111,7 @@ const lighthouseUrl = runOnMaster
   : `https://deploy-preview-${prNumber}--material-ui.netlify.com/`;
 
 run(lighthouseUrl).catch(error => {
+  // eslint-disable-next-line no-console
   console.error(error);
   process.exit(1);
 });

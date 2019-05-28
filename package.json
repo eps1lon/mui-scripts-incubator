@@ -18,10 +18,21 @@
     "type": "git",
     "url": "ssh://git@github.com:eps1lon/mui-scripts-incubator.git"
   },
+  "scripts": {
+    "format:base": "prettier \"bin/**/*.js\"",
+    "format:check": "yarn format:base --check",
+    "format": "yarn format:base --write",
+    "lint": "eslint \"bin/**/*.js\"",
+    "prepublishOnly": "yarn format:check && yarn lint"
+  },
   "files": [
     "bin"
   ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "prettier": "^1.17.1"
   }
 }
