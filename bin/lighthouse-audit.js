@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const childProcess = require("child_process");
 const fse = require("fs-extra");
+const _ = require("lodash");
 const path = require("path");
 const url = require("url");
 const { promisify } = require("util");
@@ -19,6 +20,7 @@ function writeReport(report) {
   });
 }
 
+const concurrency = 5;
 function skipAudit(audit) {
   const complainsOnlyAboutCarbonAds =
     audit.id === "link-name" &&
@@ -102,32 +104,44 @@ run(lighthouseUrl).catch(error => {
 });
 
 async function run(inputUrl) {
-  const reports = await Promise.all(
-    pages.map(async page => {
-      const pageUrl = url.resolve(inputUrl, page);
+  const chunks = _.chunk(pages, concurrency);
+  const auditedChunks = [];
 
-      const args = [pageUrl, "--output json", ...lighthouseArgs].join(" ");
-      const { stdout } = await exec(`yarn --silent lighthouse ${args}`);
+  // chunks serial but each page in a chunk is processed concurrently
+  for (const chunk of chunks) {
+    const auditedChunk = await Promise.all(
+      chunk.map(page => {
+        return auditPage(inputUrl, page);
+      })
+    );
 
-      const report = JSON.parse(stdout);
-      const snapshot = Object.values(report.audits)
-        .filter(audit => {
-          return audit.score === 0 && !skipAudit(audit);
-        })
-        .map(audit => {
-          return audit.title;
-        })
-        .sort((a, b) => a.localeCompare(b));
+    auditedChunks.push(auditedChunk);
+  }
 
-      const isEmptySnapshot = snapshot.length === 0;
-
-      if (isEmptySnapshot) {
-        return null;
-      }
-
-      return { page, snapshot };
-    })
-  );
-
+  const reports = _.flatten(auditedChunks);
   await writeReport(reports.filter(Boolean));
+}
+
+async function auditPage(inputUrl, page) {
+  const pageUrl = url.resolve(inputUrl, page);
+  const args = [pageUrl, "--output json", ...lighthouseArgs].join(" ");
+  const { stdout } = await exec(`yarn --silent lighthouse ${args}`);
+
+  const report = JSON.parse(stdout);
+  const snapshot = Object.values(report.audits)
+    .filter(audit => {
+      return audit.score === 0 && !skipAudit(audit);
+    })
+    .map(audit => {
+      return audit.title;
+    })
+    .sort((a, b) => a.localeCompare(b));
+
+  const isEmptySnapshot = snapshot.length === 0;
+
+  if (isEmptySnapshot) {
+    return null;
+  }
+
+  return { page, snapshot };
 }

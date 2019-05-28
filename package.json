@@ -1,6 +1,6 @@
 {
   "name": "@eps1lon/mui-scripts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "scripts for material-ui maintainers",
   "bin": {
     "mui-lighthouse": "./bin/lightouse-audit.js"
@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "fs-extra": "^8.0.1",
-    "lighthouse": "^5.0.0"
+    "lighthouse": "^5.0.0",
+    "lodash": "^4.17.11"
   },
   "repository": {
     "type": "git",
