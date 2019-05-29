@@ -28,6 +28,7 @@ steps:
     displayName: "check code semantics"
 
   - task: Npm@1
+    continueOnError: "true"
     inputs:
       command: publish
       publishEndpoint: github
