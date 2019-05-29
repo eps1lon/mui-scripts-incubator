@@ -1,6 +1,6 @@
 {
   "name": "@eps1lon/mui-scripts",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "scripts for material-ui maintainers",
   "bin": "bin/entrypoint.js",
   "license": "MIT",
