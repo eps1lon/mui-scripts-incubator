@@ -28,7 +28,7 @@ steps:
     displayName: "check code semantics"
 
   - task: Npm@1
-  inputs:
-    command: publish
-    publishRegistry: useFeed
-    publishFeed: github 
+    inputs:
+      command: publish
+      publishEndpoint: github
+    displayName: "publish if version changed"
