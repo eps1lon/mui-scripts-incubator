@@ -26,3 +26,9 @@ steps:
   - script: |
       yarn lint
     displayName: "check code semantics"
+
+  - task: Npm@1
+  inputs:
+    command: publish
+    publishRegistry: useFeed
+    publishFeed: github 

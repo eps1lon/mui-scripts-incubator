@@ -26,9 +26,6 @@
   "files": [
     "bin"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "devDependencies": {
     "eslint": "^5.16.0",
     "prettier": "^1.17.1"
