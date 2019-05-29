@@ -4,17 +4,25 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 trigger:
-- master
+  - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: "ubuntu-latest"
 
 steps:
-- task: NodeTool@0
-  inputs:
-    versionSpec: '12.x'
-  displayName: 'Install Node.js'
+  - task: NodeTool@0
+    inputs:
+      versionSpec: "12.x"
+    displayName: "Install Node.js"
 
-- script: |
-    yarn install
-  displayName: 'install dependencies'
+  - script: |
+      yarn install
+    displayName: "install dependencies"
+
+  - script: |
+      yarn format:check
+    displayName: "check code style"
+
+  - script: |
+      yarn lint
+    displayName: "check code semantics"
