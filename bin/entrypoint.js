@@ -12,7 +12,7 @@ require("yargs")
       });
     },
     handler: argv => {
-      lighthouseAudit({ prNumber: argv["pr-number"] });
+      lighthouseAudit({ prNumber: +argv["pr-number"] });
     }
   })
   .help().argv;
