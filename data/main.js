@@ -14,7 +14,7 @@ async function main() {
   const dataPath = path.join(__dirname, "./used-by-repositories.json");
 
   dependentRepositories(dataPath)
-    .pipe(filterInteresting())
+    .pipe(filterInteresting(repository => repository.stars > 100))
     .on("data", createMonitor("filterInteresting"))
     .pipe(downloadRepo())
     .on("data", createMonitor("downloadRepo"))
@@ -26,7 +26,7 @@ async function main() {
 
 function createMonitor(name) {
   return function monitor(data) {
-    console.log(`received data on ${name}: ${typeof data}`);
+    console.log(`received data on ${name}: ${data.orgName}/${data.repoName}`);
     //console.log(data);
   };
 }

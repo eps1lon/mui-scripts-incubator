@@ -2,12 +2,14 @@ const stream = require("stream");
 
 module.exports = filterInteresting;
 
-function filterInteresting() {
-  return new FilterInteresting();
-}
-
-class FilterInteresting extends stream.PassThrough {
-  constructor(options) {
-    super({ ...options, objectMode: true });
-  }
+function filterInteresting(isInteresting) {
+  return new stream.Transform({
+    objectMode: true,
+    transform(repository, encoding, callback) {
+      if (isInteresting(repository)) {
+        this.push(repository);
+      }
+      callback();
+    }
+  });
 }
