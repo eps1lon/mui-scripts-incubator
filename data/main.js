@@ -26,7 +26,7 @@ async function main() {
 
 function createMonitor(name) {
   return function monitor(data) {
-    console.log(`received data on ${name}`);
-    console.log(data);
+    console.log(`received data on ${name}: ${typeof data}`);
+    //console.log(data);
   };
 }

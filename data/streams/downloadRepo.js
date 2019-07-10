@@ -6,4 +6,8 @@ function downloadRepo() {
   return new DownloadRepo();
 }
 
-class DownloadRepo extends stream.PassThrough {}
+class DownloadRepo extends stream.PassThrough {
+  constructor(options) {
+    super({ ...options, objectMode: true });
+  }
+}
