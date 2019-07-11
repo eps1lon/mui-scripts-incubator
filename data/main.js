@@ -18,9 +18,9 @@ main({
   repository: "mui-org/material-ui",
   filter: dependent => dependent.stars >= 0,
   // repository memory usage is relatively stable (object with fixed properties)
-  maxRepositoriesInMemory: 16 * 64,
+  maxRepositoriesInMemory: 16 * 8192,
   // file memory usage can vary due to dynamic length
-  maxFilesInMemory: 16 * 64,
+  maxFilesInMemory: 16 * 1024,
   outputPath: path.resolve(process.cwd(), process.argv[2])
 });
 
@@ -70,7 +70,7 @@ function PressureMeter(props) {
     <Box width={15}>
       <Text>{prefix}: </Text>
       <Color rgb={[255 * value, 255 * (1 - value), 0]}>
-        {"█".repeat(Math.floor(value * 10))}
+        {"█".repeat(Math.ceil(value * 10))}
       </Color>
     </Box>
   );
@@ -211,7 +211,8 @@ function Main(props) {
       {interesting.latest && (
         <Box>
           <Pressure {...interestingPressure} />
-          interesting repository: {interesting.progress}
+          interesting repository: {interesting.progress} (
+          {repositoryToString(interesting.latest)})
         </Box>
       )}
       {downloadedFiles.latest !== null && (

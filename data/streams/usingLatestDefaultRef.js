@@ -17,45 +17,57 @@ function usingLatestDefaultRef(ghApiToken, options = {}) {
     highWaterMark,
     objectMode: true,
     transform(repository, encoding, callback) {
-      graphql(
-        `
-          query($orgName: String!, $repoName: String!) {
-            repository(owner: $orgName, name: $repoName) {
-              defaultBranchRef {
-                target {
-                  oid
+      // github allows 5000 requests per hour, we're throttling prematurely
+      // to never exceed it
+      sleep(Math.ceil((5000 / 3600) * 1000))
+        .then(() => {
+          return graphql(
+            `
+              query($orgName: String!, $repoName: String!) {
+                repository(owner: $orgName, name: $repoName) {
+                  defaultBranchRef {
+                    target {
+                      oid
+                    }
+                  }
+                }
+                rateLimit {
+                  cost
+                  limit
+                  remaining
+                  resetAt
                 }
               }
+            `,
+            {
+              headers: {
+                authorization: `token ${ghApiToken}`
+              },
+              orgName: repository.orgName,
+              repoName: repository.repoName
             }
-            rateLimit {
-              cost
-              limit
-              remaining
-              resetAt
+          );
+        })
+        .then(response => {
+          const {
+            rateLimit,
+            repository: {
+              defaultBranchRef: {
+                target: { oid }
+              }
             }
-          }
-        `,
-        {
-          headers: {
-            authorization: `token ${ghApiToken}`
-          },
-          orgName: repository.orgName,
-          repoName: repository.repoName
-        }
-      ).then(response => {
-        const {
-          rateLimit,
-          repository: {
-            defaultBranchRef: {
-              target: { oid }
-            }
-          }
-        } = response;
+          } = response;
 
-        onRateLimitChange(rateLimit.remaining);
-        this.push({ ...repository, ref: oid });
-        callback();
-      });
+          onRateLimitChange(rateLimit.remaining);
+          this.push({ ...repository, ref: oid });
+          callback();
+        });
     }
+  });
+}
+
+function sleep(ms) {
+  return new Promise(resolve => {
+    setTimeout(() => resolve(), ms);
   });
 }
