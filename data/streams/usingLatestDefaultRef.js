@@ -14,7 +14,7 @@ function usingLatestDefaultRef(ghApiToken, options = {}) {
   const { highWaterMark, onRateLimitChange = () => {} } = options;
 
   return new stream.Transform({
-    highWaterMark: 16 * 2,
+    highWaterMark,
     objectMode: true,
     transform(repository, encoding, callback) {
       graphql(
