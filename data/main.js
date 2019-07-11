@@ -122,6 +122,7 @@ function Main(props) {
   const [orgName, repoName] = repository.split("/");
 
   const [dependents, nextDependent] = useProgress();
+  const [dependentsPressure, onDependentsPressureChange] = usePressure();
 
   const [interesting, nextInteresting] = useProgress();
   const [interestingPressure, onInterestingPressureChange] = usePressure();
@@ -151,7 +152,9 @@ function Main(props) {
 
     pipeline(
       // usedBy
-      usedBy(orgName, repoName).on("data", nextDependent),
+      usedBy(orgName, repoName, {
+        onPressureChange: onDependentsPressureChange
+      }).on("data", nextDependent),
       // => filterInteresting
       filterInteresting(isInterestingRepository, {
         highWaterMark: maxRepositoriesInMemory,
@@ -200,6 +203,7 @@ function Main(props) {
       </Box>
       {dependents.latest && (
         <Box>
+          <Pressure {...dependentsPressure} />
           dependents: {dependents.progress} (
           {repositoryToString(dependents.latest)})
         </Box>

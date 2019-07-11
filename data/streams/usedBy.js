@@ -16,20 +16,35 @@ module.exports = usedBy;
  *
  * @param {string} orgName
  * @param {string} repoName
+ * @param {object} [options]
+ * @param {(readable: number, writeable: number)} [options.onPressureChange]
  * @returns {import('stream').Readable} chunks are {DependentRepository}
  */
-function usedBy(orgName, repoName) {
+function usedBy(orgName, repoName, options = {}) {
   const startUrl = `https://github.com/${orgName}/${repoName}/network/dependents?dependent_type=REPOSITORY`;
   const allUsedBy = loadAllUsedBy(startUrl, { delay: 3000 });
+  const { onPressureChange = () => {} } = options;
 
   return new stream.Readable({
     objectMode: true,
     async read() {
       for await (const repository of allUsedBy) {
-        if (!this.push(repository)) {
+        const backpressure = !this.push(repository);
+
+        onPressureChange(
+          this.readableLength / this.readableHighWaterMark,
+          this.writable / this.writableHighWaterMark
+        );
+
+        if (backpressure) {
           return;
         }
       }
+
+      onPressureChange(
+        this.readableLength / this.readableHighWaterMark,
+        this.writable / this.writableHighWaterMark
+      );
 
       // loop exited uninterrupted => generator at end
       this.push(null);
