@@ -5,8 +5,10 @@ module.exports = usingLatestDefaultRef;
 
 /**
  * given { repoName, orgName } find the latest ref on the default branch
+ * @param {string} ghApiToken
+ * @param {(remainingScore: number) => void}
  */
-function usingLatestDefaultRef(ghApiToken) {
+function usingLatestDefaultRef(ghApiToken, onRateLimitChange = () => {}) {
   return new stream.Transform({
     objectMode: true,
     transform(repository, encoding, callback) {
@@ -44,8 +46,8 @@ function usingLatestDefaultRef(ghApiToken) {
             }
           }
         } = response;
-        console.log(`${rateLimit.remaining} remaining API requests`);
 
+        onRateLimitChange(rateLimit.remaining);
         this.push({ ...repository, ref: oid });
         callback();
       });
