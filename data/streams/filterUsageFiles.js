@@ -17,7 +17,6 @@ function filterUsageFiles() {
             this.push({ name: fileName, repository, source });
           }
           callback();
-          entry.autodrain();
         });
       } else {
         entry.autodrain();

@@ -1,5 +1,4 @@
-const path = require("path");
-const dependentRepositories = require("./streams/dependentRepositories");
+const usedBy = require("./streams/usedBy");
 const filterInteresting = require("./streams/filterInteresting");
 const downloadRepo = require("./streams/downloadRepo");
 const filterUsageFiles = require("./streams/filterUsageFiles");
@@ -11,13 +10,16 @@ main().catch(err => {
 });
 
 async function main() {
-  const dataPath = path.join(__dirname, "./used-by-repositories.json");
-
-  dependentRepositories(dataPath)
+  usedBy("mui-org", "material-ui")
     .pipe(
-      filterInteresting(repository => repository.stars > 100).on(
+      filterInteresting(repository => repository.stars >= 0).on(
         "data",
-        createMonitor("filterInteresting")
+        repository =>
+          console.log(
+            `interesting repository ${repository.orgName}/${
+              repository.repoName
+            }`
+          )
       )
     )
     .pipe(

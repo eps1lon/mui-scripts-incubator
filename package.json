@@ -15,7 +15,7 @@
     "lighthouse": "^5.1.0",
     "lodash": "^4.17.15",
     "node-fetch": "^2.6.0",
-    "node-unzip-2": "^0.2.8",
+    "unzipper": "^0.10.1",
     "yargs": "^13.3.0"
   },
   "repository": {

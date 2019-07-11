@@ -1,6 +1,6 @@
 const fetch = require("node-fetch");
 const stream = require("stream");
-const unzip = require("node-unzip-2");
+const unzip = require("unzipper");
 
 module.exports = downloadRepo;
 
@@ -14,17 +14,21 @@ function downloadRepo() {
       const url = `${repoUrl}/archive/master.zip`;
 
       fetch(url).then(response => {
-        const unzipping = response.body.pipe(unzip.Parse());
-        unzipping.on("entry", entry => {
-          if (entry.type === "File") {
-            this.push({ entry, repository });
-          } else {
-            entry.autodrain();
-          }
-        });
-        response.body.on("end", () => {
-          callback();
-        });
+        stream
+          .pipeline(response.body, unzip.Parse(), error => {
+            if (error) {
+              // don't know what to do with it
+              console.error(error);
+            }
+            callback();
+          })
+          .on("entry", entry => {
+            if (entry.type === "File") {
+              this.push({ entry, repository });
+            } else {
+              entry.autodrain();
+            }
+          });
       });
     }
   });
