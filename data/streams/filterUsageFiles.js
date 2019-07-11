@@ -2,11 +2,20 @@ const stream = require("stream");
 
 module.exports = filterUsageFiles;
 
-function filterUsageFiles() {
+/**
+ *
+ * @param {object} [options]
+ * @param {number} [options.highWaterMark]
+ */
+function filterUsageFiles(options = {}) {
+  const { highWaterMark } = options;
+
   return new stream.Transform({
+    highWaterMark,
     objectMode: true,
     transform({ entry, repository }, encoding, callback) {
-      if (/\.(jsx?|tsx?)$/.test(entry.path)) {
+      // some people actually have their node modules in source control
+      if (isPossiblyJs(entry) && !isNodeModule(entry)) {
         readTextEntry(entry).then(source => {
           const fileName = entry.path.replace(
             `${repository.repoName}-${repository.ref}/`,
@@ -24,6 +33,22 @@ function filterUsageFiles() {
       }
     }
   });
+}
+
+/**
+ *
+ * @param {{path: string}} entry
+ */
+function isPossiblyJs(entry) {
+  return /\.(jsx?|tsx?)$/.test(entry.path);
+}
+
+/**
+ *
+ * @param {{path:string}} entry
+ */
+function isNodeModule(entry) {
+  return /\/node_modules\//.test(entry.path);
 }
 
 function readTextEntry(entry) {

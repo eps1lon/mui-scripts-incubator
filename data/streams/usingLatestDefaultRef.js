@@ -6,10 +6,15 @@ module.exports = usingLatestDefaultRef;
 /**
  * given { repoName, orgName } find the latest ref on the default branch
  * @param {string} ghApiToken
- * @param {(remainingScore: number) => void}
+ * @param {object} [options]
+ * @param {(remainingScore: number) => void} [options.onRateLimitChange]
+ * @param {number} [options.highWaterMark]
  */
-function usingLatestDefaultRef(ghApiToken, onRateLimitChange = () => {}) {
+function usingLatestDefaultRef(ghApiToken, options = {}) {
+  const { highWaterMark, onRateLimitChange = () => {} } = options;
+
   return new stream.Transform({
+    highWaterMark: 16 * 2,
     objectMode: true,
     transform(repository, encoding, callback) {
       graphql(

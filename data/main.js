@@ -16,7 +16,12 @@ const pipeline = util.promisify(stream.pipeline);
 
 main({
   repository: "mui-org/material-ui",
-  filter: dependent => dependent.stars >= 0
+  filter: dependent => dependent.stars >= 0,
+  // repository memory usage is relatively stable (object with fixed properties)
+  maxRepositoriesInMemory: 16 * 64,
+  // file memory usage can vary due to dynamic length
+  maxFilesInMemory: 16 * 64,
+  outputPath: path.resolve(process.cwd(), process.argv[2])
 });
 
 /**
@@ -59,9 +64,19 @@ function repositoryToString(repository) {
 
 /**
  * never change props, to be sure encode all props in a `key`
+ *
+ * usedBy => filterInteresting => usingLatestDefaultRef => downloadRepo => filterUsageFiles
+ * => filterUsageCode => JSON output
  */
 function Main(props) {
-  const { isInterestingRepository, onEnd, outputPath, repository } = props;
+  const {
+    isInterestingRepository,
+    maxFilesInMemory,
+    maxRepositoriesInMemory,
+    onEnd,
+    outputPath,
+    repository
+  } = props;
 
   const [orgName, repoName] = repository.split("/");
 
@@ -72,22 +87,39 @@ function Main(props) {
   const [filesWithUsage, nextFileWithUsage] = useProgress();
   const [codeUsages, nextCodeUsage] = useProgress();
   const [isRunning, running] = React.useState(false);
-
   const [remainingGhApiScore, setRemainingGhApiScore] = React.useState(null);
 
   React.useEffect(() => {
     running(true);
 
     pipeline(
+      // usedBy
       usedBy(orgName, repoName).on("data", nextDependent),
-      filterInteresting(isInterestingRepository).on("data", nextInteresting),
-      usingLatestDefaultRef(
-        process.env.GITHUB_API_TOKEN,
-        setRemainingGhApiScore
-      ).on("data", nextLatestRef),
-      downloadRepo().on("data", nextDownloadedFile),
-      filterUsageFiles().on("data", nextFileWithUsage),
-      filterUsageCode().on("data", nextCodeUsage),
+      // => filterInteresting
+      filterInteresting(isInterestingRepository, {
+        highWaterMark: maxRepositoriesInMemory
+      }).on("data", nextInteresting),
+      // => usingLatestDefaultRef
+      usingLatestDefaultRef(process.env.GITHUB_API_TOKEN, {
+        highWaterMark: maxRepositoriesInMemory,
+        onRateLimitChange: setRemainingGhApiScore
+      }).on("data", nextLatestRef),
+      // => downloadRepo
+      downloadRepo({ highWaterMark: maxRepositoriesInMemory }).on(
+        "data",
+        nextDownloadedFile
+      ),
+      // => filterUsageFiles
+      filterUsageFiles({ highWaterMark: maxFilesInMemory }).on(
+        "data",
+        nextFileWithUsage
+      ),
+      // => filterUsageCode
+      filterUsageCode({ highWaterMark: maxFilesInMemory }).on(
+        "data",
+        nextCodeUsage
+      ),
+      // => jsonOutput
       JSONStream.stringify("[\n", "\n,", "\n]\n"),
       fs.createWriteStream(outputPath)
     ).then(() => {
@@ -138,14 +170,31 @@ function Main(props) {
   );
 }
 
-function main({ filter, repository }) {
+/**
+ *
+ * @param {object} param0
+ * @param {string} param0.repository
+ * @param {(repository: object) => boolean} param0.filter
+ * @param {number} param0.maxFilesInMemory
+ * @param {number} param0.maxRepositoriesInMemory
+ * @param {string} param0.outputPath
+ */
+function main({
+  repository,
+  filter,
+  maxFilesInMemory,
+  maxRepositoriesInMemory,
+  outputPath
+}) {
   return new Promise(resolve => {
     render(
       <Main
         key={repository}
-        isInterestingRepository={filter}
         repository={repository}
-        outputPath={path.resolve(process.cwd(), process.argv[2])}
+        isInterestingRepository={filter}
+        maxFilesInMemory={maxFilesInMemory}
+        maxRepositoriesInMemory={maxRepositoriesInMemory}
+        outputPath={outputPath}
         onEnd={() => resolve()}
       />
     );

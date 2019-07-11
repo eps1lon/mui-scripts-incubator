@@ -4,8 +4,17 @@ const unzip = require("unzipper");
 
 module.exports = downloadRepo;
 
-function downloadRepo() {
+/**
+ * repository => files[]
+ *
+ * @param {object} [options]
+ * @param {number} [options.highWaterMark]
+ */
+function downloadRepo(options = {}) {
+  const { highWaterMark } = options;
+
   return new stream.Transform({
+    highWaterMark,
     objectMode: true,
     transform(repository, encoding, callback) {
       const repoUrl = `https://github.com/${repository.orgName}/${

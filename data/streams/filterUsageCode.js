@@ -2,8 +2,16 @@ const stream = require("stream");
 
 module.exports = filterUsageCode;
 
-function filterUsageCode() {
+/**
+ *
+ * @param {object} options
+ * @param {number} [options.highWaterMark]
+ */
+function filterUsageCode(options = {}) {
+  const { highWaterMark } = options;
+
   return new stream.Transform({
+    highWaterMark,
     objectMode: true,
     /**
      *

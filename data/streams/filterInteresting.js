@@ -2,8 +2,16 @@ const stream = require("stream");
 
 module.exports = filterInteresting;
 
-function filterInteresting(isInteresting) {
+/**
+ *
+ * @param {object} [options]
+ * @param {number} [options.highWaterMark]
+ */
+function filterInteresting(isInteresting, options = {}) {
+  const { highWaterMark } = options;
+
   return new stream.Transform({
+    highWaterMark,
     objectMode: true,
     transform(repository, encoding, callback) {
       if (isInteresting(repository)) {
