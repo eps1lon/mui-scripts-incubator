@@ -20,8 +20,8 @@
     "lodash": "^4.17.15",
     "node-fetch": "^2.6.0",
     "react": "^16.8.6",
-    "unzipper": "^0.10.1",
-    "yargs": "^13.3.0"
+    "yargs": "^13.3.0",
+    "yauzl": "^2.10.0"
   },
   "repository": {
     "type": "git",

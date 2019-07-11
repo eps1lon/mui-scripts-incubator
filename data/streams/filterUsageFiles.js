@@ -14,52 +14,43 @@ function filterUsageFiles(options = {}) {
   return new stream.Transform({
     highWaterMark,
     objectMode: true,
-    transform({ entry, repository }, encoding, callback) {
+    transform({ fileName, repository, source }, encoding, callback) {
       onPressureChange(
         this.readableLength / this.readableHighWaterMark,
         this.writable / this.writableHighWaterMark
       );
 
       // some people actually have their node modules in source control
-      if (isPossiblyJs(entry) && !isNodeModule(entry)) {
-        readTextEntry(entry).then(source => {
-          const fileName = entry.path.replace(
-            `${repository.repoName}-${repository.ref}/`,
-            ""
-          );
+      if (isPossiblyJs(fileName) && !isNodeModule(fileName)) {
+        const name = entry.path.replace(
+          `${repository.repoName}-${repository.ref}/`,
+          ""
+        );
 
-          if (source.indexOf("@material-ui")) {
-            this.push({ name: fileName, repository, source });
-          }
-
-          onPressureChange(
-            this.readableLength / this.readableHighWaterMark,
-            this.writable / this.writableHighWaterMark
-          );
-          callback();
-        });
-      } else {
-        entry.autodrain();
-        callback();
+        if (source.indexOf("@material-ui")) {
+          this.push({ name, repository, source });
+        }
       }
+
+      callback();
     }
   });
 }
 
 /**
  *
- * @param {{path: string}} entry
+ * @param {string} entry
  */
-function isPossiblyJs(entry) {
-  return /\.(jsx?|tsx?)$/.test(entry.path);
+function isPossiblyJs(fileName) {
+  return /\.(jsx?|tsx?)$/.test(fileName);
 }
 
 /**
  *
- * @param {{path:string}} entry
+ * @param {string} entry
  */
-function isNodeModule(entry) {
-  return /\/node_modules\//.test(entry.path);
+function isNodeModule(fileName) {
+  return /\/node_modules\//.test(fileName);
 }
 
 function readTextEntry(entry) {

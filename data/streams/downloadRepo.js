@@ -1,6 +1,9 @@
 const fetch = require("node-fetch");
 const stream = require("stream");
-const unzip = require("unzipper");
+const util = require("util");
+const yauzl = require("yauzl");
+
+const zipFileFromBuffer = util.promisify(yauzl.fromBuffer);
 
 module.exports = downloadRepo;
 
@@ -28,29 +31,56 @@ function downloadRepo(options = {}) {
       }`;
       const url = `${repoUrl}/archive/${repository.ref}.zip`;
 
-      fetch(url).then(response => {
-        stream.pipeline(
-          response.body.on("end", () => callback()),
-          unzip.Parse().on("entry", entry => {
-            if (entry.type === "File") {
-              this.push({ entry, repository });
-              onPressureChange(
-                this.readableLength / this.readableHighWaterMark,
-                this.writable / this.writableHighWaterMark
-              );
-            } else {
-              entry.autodrain();
+      fetch(url)
+        .then(response => {
+          return response.buffer();
+        })
+        .then(buffer => {
+          return zipFileFromBuffer(buffer);
+        })
+        .then(zipFile => {
+          zipFile.on("entry", entry => {
+            const isFile = !entry.fileName.endsWith("/");
+            if (isFile) {
+              zipFile.openReadStream(entry, (error, readStream) => {
+                if (error) throw error;
+
+                streamIntoBuffer(readStream).then(buffer => {
+                  onPressureChange(
+                    this.readableLength / this.readableHighWaterMark,
+                    this.writable / this.writableHighWaterMark
+                  );
+                  this.push({
+                    path: entry.fileName,
+                    source: buffer.toString("utf8"),
+                    repository
+                  });
+                });
+              });
             }
-          }),
-          error => {
-            if (error) {
-              // don't know what to do with it
-              console.error(error);
-            }
+          });
+          zipFile.on("end", () => {
+            onPressureChange(
+              this.readableLength / this.readableHighWaterMark,
+              this.writable / this.writableHighWaterMark
+            );
             callback();
-          }
-        );
-      });
+          });
+        });
     }
+  });
+}
+
+/**
+ * https://stackoverflow.com/a/14269536/3406963
+ * @param {import('stream').Readable} stream
+ * @returns {Promise<Buffer>}
+ */
+function streamIntoBuffer(stream) {
+  return new Promise((resolve, reject) => {
+    const chunks = [];
+    stream.on("data", chunk => chunks.push(chunk));
+    stream.on("end", () => resolve(Buffer.concat(chunks)));
+    stream.on("error", error => reject(error));
   });
 }
