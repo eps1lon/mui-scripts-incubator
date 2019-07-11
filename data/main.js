@@ -5,6 +5,7 @@ const filterInteresting = require("./streams/filterInteresting");
 const downloadRepo = require("./streams/downloadRepo");
 const filterUsageFiles = require("./streams/filterUsageFiles");
 const filterUsageCode = require("./streams/filterUsageCode");
+const usingLatestDefaultRef = require("./streams/usingLatestDefaultRef");
 
 const pipeline = util.promisify(stream.pipeline);
 
@@ -23,6 +24,7 @@ async function main() {
           `interesting repository ${repository.orgName}/${repository.repoName}`
         )
     ),
+    usingLatestDefaultRef(process.env.GITHUB_API_TOKEN),
     downloadRepo().on("data", ({ entry, repository }) => {
       console.log(
         `downloaded ${entry.path} in ${repository.orgName}/${
@@ -38,7 +40,8 @@ async function main() {
       );
     }),
     filterUsageCode(),
-    new stream.PassThrough({objectMode: tru})
+    new stream.PassThrough({ objectMode: true }).on("data", data => {
+      console.log("usage", data);
+    })
   );
-
 }

@@ -9,7 +9,7 @@ function filterUsageFiles() {
       if (/\.(jsx?|tsx?)$/.test(entry.path)) {
         readTextEntry(entry).then(source => {
           const fileName = entry.path.replace(
-            `${repository.repoName}-master/`,
+            `${repository.repoName}-${repository.ref}/`,
             ""
           );
 

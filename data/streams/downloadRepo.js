@@ -11,7 +11,7 @@ function downloadRepo() {
       const repoUrl = `https://github.com/${repository.orgName}/${
         repository.repoName
       }`;
-      const url = `${repoUrl}/archive/master.zip`;
+      const url = `${repoUrl}/archive/${repository.ref}.zip`;
 
       fetch(url).then(response => {
         stream
