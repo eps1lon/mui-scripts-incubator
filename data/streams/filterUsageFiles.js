@@ -22,7 +22,7 @@ function filterUsageFiles(options = {}) {
 
       // some people actually have their node modules in source control
       if (isPossiblyJs(fileName) && !isNodeModule(fileName)) {
-        const name = entry.path.replace(
+        const name = fileName.replace(
           `${repository.repoName}-${repository.ref}/`,
           ""
         );

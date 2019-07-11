@@ -51,7 +51,7 @@ function downloadRepo(options = {}) {
                     this.writable / this.writableHighWaterMark
                   );
                   this.push({
-                    path: entry.fileName,
+                    fileName: entry.fileName,
                     source: buffer.toString("utf8"),
                     repository
                   });
