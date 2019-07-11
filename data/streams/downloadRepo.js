@@ -1,6 +1,9 @@
 const fetch = require("node-fetch");
 const stream = require("stream");
 const unzip = require("unzipper");
+const util = require("util");
+
+const pipeline = util.promisify(stream.pipeline);
 
 module.exports = downloadRepo;
 
@@ -28,27 +31,24 @@ function downloadRepo(options = {}) {
       }`;
       const url = `${repoUrl}/archive/${repository.ref}.zip`;
 
-      fetch(url).then(response => {
-        stream
-          .pipeline(response.body, unzip.Parse(), error => {
-            if (error) {
-              // don't know what to do with it
-              console.error(error);
-            }
-            callback();
-          })
-          .on("entry", entry => {
-            if (entry.type === "File") {
-              this.push({ entry, repository });
-              onPressureChange(
-                this.readableLength / this.readableHighWaterMark,
-                this.writable / this.writableHighWaterMark
-              );
-            } else {
-              entry.autodrain();
-            }
-          });
-      });
+      fetch(url)
+        .then(response => {
+          return pipeline(
+            response.body,
+            unzip.Parse().on("entry", entry => {
+              if (entry.type === "File") {
+                this.push({ entry, repository });
+                onPressureChange(
+                  this.readableLength / this.readableHighWaterMark,
+                  this.writable / this.writableHighWaterMark
+                );
+              } else {
+                entry.autodrain();
+              }
+            })
+          );
+        })
+        .then(() => callback());
     }
   });
 }
