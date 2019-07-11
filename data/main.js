@@ -12,9 +12,12 @@ const filterUsageFiles = require("./streams/filterUsageFiles");
 const filterUsageCode = require("./streams/filterUsageCode");
 const usingLatestDefaultRef = require("./streams/usingLatestDefaultRef");
 
-const jsx = React.createElement;
-
 const pipeline = util.promisify(stream.pipeline);
+
+main({
+  repository: "mui-org/material-ui",
+  filter: dependent => dependent.stars >= 100
+});
 
 /**
  * @returns {[{latest: T, progress: number}, (next: T) => void]}
@@ -54,8 +57,13 @@ function repositoryToString(repository) {
   return `${repository.orgName}/${repository.repoName}`;
 }
 
+/**
+ * never change props, to be sure encode all props in a `key`
+ */
 function Main(props) {
-  const { isInterestingRepository, onEnd, outputPath } = props;
+  const { isInterestingRepository, onEnd, outputPath, repository } = props;
+
+  const [orgName, repoName] = repository.split("/");
 
   const [dependents, nextDependent] = useProgress();
   const [interesting, nextInteresting] = useProgress();
@@ -71,7 +79,7 @@ function Main(props) {
     running(true);
 
     pipeline(
-      usedBy("mui-org", "material-ui").on("data", nextDependent),
+      usedBy(orgName, repoName).on("data", nextDependent),
       filterInteresting(isInterestingRepository).on("data", nextInteresting),
       usingLatestDefaultRef(
         process.env.GITHUB_API_TOKEN,
@@ -86,7 +94,9 @@ function Main(props) {
       running(false);
       onEnd();
     });
-  }, [outputPath]);
+
+    // TODO return pipeline close?
+  }, []);
 
   return (
     <Box flexDirection="column">
@@ -128,10 +138,16 @@ function Main(props) {
   );
 }
 
-render(
-  <Main
-    isInterestingRepository={repository => repository.stars >= 100}
-    outputPath={path.resolve(process.cwd(), process.argv[2])}
-    onEnd={() => console.log("done")}
-  />
-);
+function main({ filter, repository }) {
+  return new Promise(resolve => {
+    render(
+      <Main
+        key={repository}
+        isInterestingRepository={filter}
+        repository={repository}
+        outputPath={path.resolve(process.cwd(), process.argv[2])}
+        onEnd={() => resolve()}
+      />
+    );
+  });
+}
