@@ -1,3 +1,6 @@
+const fs = require("fs");
+const JSONStream = require("JSONStream");
+const path = require("path");
 const stream = require("stream");
 const util = require("util");
 const usedBy = require("./streams/usedBy");
@@ -15,14 +18,15 @@ main().catch(err => {
 });
 
 async function main() {
+  const outputPath = path.resolve(process.cwd(), process.argv[2]);
+  const isInterestingRepository = repository => repository.stars >= 10;
+
   await pipeline(
     usedBy("mui-org", "material-ui"),
-    filterInteresting(repository => repository.stars >= 0).on(
-      "data",
-      repository =>
-        console.log(
-          `interesting repository ${repository.orgName}/${repository.repoName}`
-        )
+    filterInteresting(isInterestingRepository).on("data", repository =>
+      console.log(
+        `interesting repository ${repository.orgName}/${repository.repoName}`
+      )
     ),
     usingLatestDefaultRef(process.env.GITHUB_API_TOKEN),
     downloadRepo().on("data", ({ entry, repository }) => {
@@ -40,8 +44,7 @@ async function main() {
       );
     }),
     filterUsageCode(),
-    new stream.PassThrough({ objectMode: true }).on("data", data => {
-      console.log("usage", data);
-    })
+    JSONStream.stringify("[\n", "\n,", "\n]\n"),
+    fs.createWriteStream(outputPath)
   );
 }
