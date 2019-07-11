@@ -16,7 +16,7 @@ const pipeline = util.promisify(stream.pipeline);
 
 main({
   repository: "mui-org/material-ui",
-  filter: dependent => dependent.stars >= 100
+  filter: dependent => dependent.stars >= 0
 });
 
 /**
