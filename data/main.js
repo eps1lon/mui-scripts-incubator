@@ -1,5 +1,5 @@
 const fs = require("fs");
-const { render, Color, Box } = require("ink");
+const { render, Color, Box, Text } = require("ink");
 const JSONStream = require("JSONStream");
 const path = require("path");
 const React = require("react");
@@ -50,6 +50,47 @@ function useProgress(initialLatest = null) {
   return [state, setNext];
 }
 
+function usePressure() {
+  const [readable, setReadable] = React.useState(0.0);
+  const [writeable, setWriteable] = React.useState(0.0);
+
+  return [
+    { readable, writeable },
+    function onPressureChange(nextReadable, nextWriteable) {
+      setReadable(nextReadable);
+      setWriteable(nextWriteable);
+    }
+  ];
+}
+
+function PressureMeter(props) {
+  const { prefix, value } = props;
+
+  return (
+    <Box width={15}>
+      <Text>{prefix}: </Text>
+      <Color rgb={[255 * value, 255 * (1 - value), 0]}>
+        {"█".repeat(Math.floor(value * 10))}
+      </Color>
+    </Box>
+  );
+}
+
+/**
+ * Renders the given pressure as a progress bar. High pressure is red, low is green
+ * @param {object} props
+ */
+function Pressure(props) {
+  const { readable, writeable } = props;
+
+  return (
+    <React.Fragment>
+      <PressureMeter prefix="R" value={readable} />
+      <PressureMeter prefix="W" value={writeable} />
+    </React.Fragment>
+  );
+}
+
 /**
  *
  * @param {{orgName: string, repoName: string} | null} repository
@@ -81,11 +122,27 @@ function Main(props) {
   const [orgName, repoName] = repository.split("/");
 
   const [dependents, nextDependent] = useProgress();
+
   const [interesting, nextInteresting] = useProgress();
+  const [interestingPressure, onInterestingPressureChange] = usePressure();
+
   const [latestRefs, nextLatestRef] = useProgress();
+
   const [downloadedFiles, nextDownloadedFile] = useProgress();
+  const [
+    downloadedFilesPressure,
+    onDownloadedFilesPressureChange
+  ] = usePressure();
+
   const [filesWithUsage, nextFileWithUsage] = useProgress();
+  const [
+    filesWithUsagePressure,
+    onFilesWithUsagePressureChange
+  ] = usePressure();
+
   const [codeUsages, nextCodeUsage] = useProgress();
+  const [codeUsagesPressure, onCodeUsagesPressureChange] = usePressure();
+
   const [isRunning, running] = React.useState(false);
   const [remainingGhApiScore, setRemainingGhApiScore] = React.useState(null);
 
@@ -97,7 +154,8 @@ function Main(props) {
       usedBy(orgName, repoName).on("data", nextDependent),
       // => filterInteresting
       filterInteresting(isInterestingRepository, {
-        highWaterMark: maxRepositoriesInMemory
+        highWaterMark: maxRepositoriesInMemory,
+        onPressureChange: onInterestingPressureChange
       }).on("data", nextInteresting),
       // => usingLatestDefaultRef
       usingLatestDefaultRef(process.env.GITHUB_API_TOKEN, {
@@ -105,20 +163,20 @@ function Main(props) {
         onRateLimitChange: setRemainingGhApiScore
       }).on("data", nextLatestRef),
       // => downloadRepo
-      downloadRepo({ highWaterMark: maxRepositoriesInMemory }).on(
-        "data",
-        nextDownloadedFile
-      ),
+      downloadRepo({
+        highWaterMark: maxRepositoriesInMemory,
+        onPressureChange: onDownloadedFilesPressureChange
+      }).on("data", nextDownloadedFile),
       // => filterUsageFiles
-      filterUsageFiles({ highWaterMark: maxFilesInMemory }).on(
-        "data",
-        nextFileWithUsage
-      ),
+      filterUsageFiles({
+        highWaterMark: maxFilesInMemory,
+        onPressureChange: onFilesWithUsagePressureChange
+      }).on("data", nextFileWithUsage),
       // => filterUsageCode
-      filterUsageCode({ highWaterMark: maxFilesInMemory }).on(
-        "data",
-        nextCodeUsage
-      ),
+      filterUsageCode({
+        highWaterMark: maxFilesInMemory,
+        onPressureChange: onCodeUsagesPressureChange
+      }).on("data", nextCodeUsage),
       // => jsonOutput
       JSONStream.stringify("[\n", "\n,", "\n]\n"),
       fs.createWriteStream(outputPath)
@@ -148,23 +206,21 @@ function Main(props) {
       )}
       {interesting.latest && (
         <Box>
-          interesting repository: {interesting.progress} (
-          {repositoryToString(interesting.latest)})
+          <Pressure {...interestingPressure} />
+          interesting repository: {interesting.progress}
         </Box>
       )}
       {downloadedFiles.latest !== null && (
         <Box>
-          downloads: {downloadedFiles.progress} (
-          {downloadedFiles.latest.entry.path})
+          <Pressure {...downloadedFilesPressure} />
+          downloads: {downloadedFiles.progress}
         </Box>
       )}
       {filesWithUsage.latest !== null && (
-        <React.Fragment>
-          <Box>
-            files with usage: {filesWithUsage.progress} (
-            {filesWithUsage.latest.name})
-          </Box>
-        </React.Fragment>
+        <Box>
+          <Pressure {...filesWithUsagePressure} />
+          files with usage: {filesWithUsage.progress}
+        </Box>
       )}
     </Box>
   );

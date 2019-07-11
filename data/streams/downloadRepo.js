@@ -9,14 +9,20 @@ module.exports = downloadRepo;
  *
  * @param {object} [options]
  * @param {number} [options.highWaterMark]
+ * @param {(readable: number, writeable: number)} [options.onPressureChange]
  */
 function downloadRepo(options = {}) {
-  const { highWaterMark } = options;
+  const { highWaterMark, onPressureChange = () => {} } = options;
 
   return new stream.Transform({
     highWaterMark,
     objectMode: true,
     transform(repository, encoding, callback) {
+      onPressureChange(
+        this.readableLength / this.readableHighWaterMark,
+        this.writable / this.writableHighWaterMark
+      );
+
       const repoUrl = `https://github.com/${repository.orgName}/${
         repository.repoName
       }`;
@@ -34,6 +40,10 @@ function downloadRepo(options = {}) {
           .on("entry", entry => {
             if (entry.type === "File") {
               this.push({ entry, repository });
+              onPressureChange(
+                this.readableLength / this.readableHighWaterMark,
+                this.writable / this.writableHighWaterMark
+              );
             } else {
               entry.autodrain();
             }

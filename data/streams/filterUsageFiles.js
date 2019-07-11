@@ -6,14 +6,20 @@ module.exports = filterUsageFiles;
  *
  * @param {object} [options]
  * @param {number} [options.highWaterMark]
+ * @param {(readable: number, writeable: number)} [options.onPressureChange]
  */
 function filterUsageFiles(options = {}) {
-  const { highWaterMark } = options;
+  const { highWaterMark, onPressureChange = () => {} } = options;
 
   return new stream.Transform({
     highWaterMark,
     objectMode: true,
     transform({ entry, repository }, encoding, callback) {
+      onPressureChange(
+        this.readableLength / this.readableHighWaterMark,
+        this.writable / this.writableHighWaterMark
+      );
+
       // some people actually have their node modules in source control
       if (isPossiblyJs(entry) && !isNodeModule(entry)) {
         readTextEntry(entry).then(source => {
@@ -25,6 +31,11 @@ function filterUsageFiles(options = {}) {
           if (source.indexOf("@material-ui")) {
             this.push({ name: fileName, repository, source });
           }
+
+          onPressureChange(
+            this.readableLength / this.readableHighWaterMark,
+            this.writable / this.writableHighWaterMark
+          );
           callback();
         });
       } else {

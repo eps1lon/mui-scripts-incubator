@@ -6,9 +6,10 @@ module.exports = filterInteresting;
  *
  * @param {object} [options]
  * @param {number} [options.highWaterMark]
+ * @param {(readable: number, writeable: number)} [options.onPressureChange]
  */
 function filterInteresting(isInteresting, options = {}) {
-  const { highWaterMark } = options;
+  const { highWaterMark, onPressureChange = () => {} } = options;
 
   return new stream.Transform({
     highWaterMark,
@@ -17,6 +18,10 @@ function filterInteresting(isInteresting, options = {}) {
       if (isInteresting(repository)) {
         this.push(repository);
       }
+      onPressureChange(
+        this.readableLength / this.readableHighWaterMark,
+        this.writable / this.writableHighWaterMark
+      );
       callback();
     }
   });

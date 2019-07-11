@@ -6,9 +6,10 @@ module.exports = filterUsageCode;
  *
  * @param {object} options
  * @param {number} [options.highWaterMark]
+ * @param {(readable: number, writeable: number)} [options.onPressureChange]
  */
 function filterUsageCode(options = {}) {
-  const { highWaterMark } = options;
+  const { highWaterMark, onPressureChange = () => {} } = options;
 
   return new stream.Transform({
     highWaterMark,
@@ -23,6 +24,10 @@ function filterUsageCode(options = {}) {
       if (file.source.includes("@material-ui")) {
         this.push(file);
       }
+      onPressureChange(
+        this.readableLength / this.readableHighWaterMark,
+        this.writable / this.writableHighWaterMark
+      );
       callback();
     }
   });
