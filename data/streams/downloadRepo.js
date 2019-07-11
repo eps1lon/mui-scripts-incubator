@@ -14,8 +14,10 @@ function downloadRepo() {
       const url = `${repoUrl}/archive/${repository.ref}.zip`;
 
       fetch(url).then(response => {
+        console.log(`unzipping ${repository.repoName}`);
         stream
           .pipeline(response.body, unzip.Parse(), error => {
+            console.log(`done unzipping ${repository.repoName}`);
             if (error) {
               // don't know what to do with it
               console.error(error);

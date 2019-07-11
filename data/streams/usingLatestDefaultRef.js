@@ -44,6 +44,7 @@ function usingLatestDefaultRef(ghApiToken) {
             }
           }
         } = response;
+        console.log(`${rateLimit.remaining} remaining API requests`);
 
         this.push({ ...repository, ref: oid });
         callback();

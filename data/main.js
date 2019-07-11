@@ -19,7 +19,7 @@ main().catch(err => {
 
 async function main() {
   const outputPath = path.resolve(process.cwd(), process.argv[2]);
-  const isInterestingRepository = repository => repository.stars >= 10;
+  const isInterestingRepository = repository => repository.stars >= 100;
 
   await pipeline(
     usedBy("mui-org", "material-ui"),
@@ -29,20 +29,8 @@ async function main() {
       )
     ),
     usingLatestDefaultRef(process.env.GITHUB_API_TOKEN),
-    downloadRepo().on("data", ({ entry, repository }) => {
-      console.log(
-        `downloaded ${entry.path} in ${repository.orgName}/${
-          repository.repoName
-        }`
-      );
-    }),
-    filterUsageFiles().on("data", file => {
-      console.log(
-        `file with mui usage: ${file.name} in ${file.repository.orgName}/${
-          file.repository.repoName
-        }`
-      );
-    }),
+    downloadRepo(),
+    filterUsageFiles(),
     filterUsageCode(),
     JSONStream.stringify("[\n", "\n,", "\n]\n"),
     fs.createWriteStream(outputPath)
