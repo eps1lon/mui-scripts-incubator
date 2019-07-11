@@ -14,12 +14,31 @@ async function main() {
   const dataPath = path.join(__dirname, "./used-by-repositories.json");
 
   dependentRepositories(dataPath)
-    .pipe(filterInteresting(repository => repository.stars > 100))
-    .on("data", createMonitor("filterInteresting"))
-    .pipe(downloadRepo())
-    .on("data", createMonitor("downloadRepo"))
-    .pipe(filterUsageFiles())
-    .on("data", createMonitor("filterUsageFiles"))
+    .pipe(
+      filterInteresting(repository => repository.stars > 100).on(
+        "data",
+        createMonitor("filterInteresting")
+      )
+    )
+    .pipe(
+      downloadRepo().on("data", ({ entry, repository }) => {
+        console.log(
+          `downloaded ${entry.path} in ${repository.orgName}/${
+            repository.repoName
+          }`
+        );
+      })
+    )
+    .pipe(
+      filterUsageFiles().on("data", file => {
+        console.log(
+          `file with mui usage: ${file.name} in ${file.repository.orgName}/${
+            file.repository.repoName
+          }`
+        );
+      })
+    )
+
     .pipe(filterUsageCode())
     .on("data", createMonitor("filterUsageCode"));
 }
