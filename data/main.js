@@ -16,7 +16,7 @@ const pipeline = util.promisify(stream.pipeline);
 
 main({
   repository: "mui-org/material-ui",
-  filter: dependent => dependent.stars >= 0,
+  filter: dependent => dependent.stars >= 1,
   // repository memory usage is relatively stable (object with fixed properties)
   maxRepositoriesInMemory: 16 * 8192,
   // file memory usage can vary due to dynamic length
