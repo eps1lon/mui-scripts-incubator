@@ -43,6 +43,9 @@ steps:
       targetFolder: 'artifacts/$(Build.SourceBranchName)'
       filesAcl: 'public-read'
     displayName: "Upload distributable to S3"
+    env:
+      AWS_ACCESS_KEY_ID: $(AWS_ACCESS_KEY_ID)
+      AWS_SECRET_ACCESS_KEY: $(AWS_SECRET_ACCESS_KEY)
 
   - task: Npm@1
     continueOnError: "true"
