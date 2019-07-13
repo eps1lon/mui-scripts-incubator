@@ -35,6 +35,15 @@ steps:
       npm pack
     displayName: "Pack distributable"
 
+  - task: S3Upload@1
+    inputs:
+      regionName: 'eu-central-1'
+      bucketName: 'eps1lon-mui-scripts'
+      globExpressions: '*.tgz'
+      targetFolder: 'artifacts/$(Build.SourceBranchName)'
+      filesAcl: 'public-read'
+    displayName: "Upload distributable to S3"
+
   - task: Npm@1
     continueOnError: "true"
     inputs:
