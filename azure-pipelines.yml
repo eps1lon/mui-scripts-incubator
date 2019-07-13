@@ -26,6 +26,13 @@ steps:
   - script: |
       yarn lint
     displayName: "check code semantics"
+  
+  - script: |
+      npm version 0.0.0-canary.$(Build.SourceVersion)
+
+  - script: |
+      npm pack
+    displayName: "Pack distributable"
 
   - task: Npm@1
     continueOnError: "true"
