@@ -28,7 +28,7 @@ steps:
     displayName: "check code semantics"
   
   - script: |
-      npm version 0.0.0-canary.$(Build.SourceVersion)
+      npm version 0.0.0-canary.$(Build.SourceVersion) --no-git-tag-version
 
   - script: |
       npm pack
