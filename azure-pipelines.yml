@@ -29,6 +29,7 @@ steps:
   
   - script: |
       npm version 0.0.0-canary.$(Build.SourceVersion) --no-git-tag-version
+    displayName: "Set canary version"
 
   - script: |
       npm pack
