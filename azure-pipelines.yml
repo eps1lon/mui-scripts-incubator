@@ -40,9 +40,9 @@ steps:
       regionName: 'eu-central-1'
       bucketName: 'eps1lon-mui-scripts'
       globExpressions: '*.tgz'
-      targetFolder: 'artifacts/$(Build.SourceBranchName)'
+      targetFolder: 'artifacts/$(Build.SourceBranchName)/$(Build.SourceVersion)'
       filesAcl: 'public-read'
-    displayName: "Upload distributable to S3"
+    displayName: "Upload distributables to S3"
     env:
       AWS_ACCESS_KEY_ID: $(AWS_ACCESS_KEY_ID)
       AWS_SECRET_ACCESS_KEY: $(AWS_SECRET_ACCESS_KEY)
