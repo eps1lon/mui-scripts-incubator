@@ -17,7 +17,7 @@ function filterUsageFiles(options = {}) {
     transform({ fileName, repository, source }, encoding, callback) {
       onPressureChange(
         this.readableLength / this.readableHighWaterMark,
-        this.writable / this.writableHighWaterMark
+        this.writableLength / this.writableHighWaterMark
       );
 
       // some people actually have their node modules in source control

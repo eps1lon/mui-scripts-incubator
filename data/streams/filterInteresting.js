@@ -20,7 +20,7 @@ function filterInteresting(isInteresting, options = {}) {
       }
       onPressureChange(
         this.readableLength / this.readableHighWaterMark,
-        this.writable / this.writableHighWaterMark
+        this.writableLength / this.writableHighWaterMark
       );
       callback();
     }

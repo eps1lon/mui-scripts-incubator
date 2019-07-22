@@ -23,7 +23,7 @@ function downloadRepo(options = {}) {
     transform(repository, encoding, callback) {
       onPressureChange(
         this.readableLength / this.readableHighWaterMark,
-        this.writable / this.writableHighWaterMark
+        this.writableLength / this.writableHighWaterMark
       );
 
       const repoUrl = `https://github.com/${repository.orgName}/${
@@ -58,7 +58,7 @@ function downloadRepo(options = {}) {
                     buffer => {
                       onPressureChange(
                         this.readableLength / this.readableHighWaterMark,
-                        this.writable / this.writableHighWaterMark
+                        this.writableLength / this.writableHighWaterMark
                       );
                       this.push({
                         fileName: entry.fileName,
@@ -87,7 +87,7 @@ function downloadRepo(options = {}) {
           callback();
           onPressureChange(
             this.readableLength / this.readableHighWaterMark,
-            this.writable / this.writableHighWaterMark
+            this.writableLength / this.writableHighWaterMark
           );
         });
     }

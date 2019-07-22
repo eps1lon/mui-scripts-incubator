@@ -34,7 +34,7 @@ function usedBy(orgName, repoName, options = {}) {
 
         onPressureChange(
           this.readableLength / this.readableHighWaterMark,
-          this.writable / this.writableHighWaterMark
+          this.writableLength / this.writableHighWaterMark
         );
 
         if (backpressure) {
@@ -44,7 +44,7 @@ function usedBy(orgName, repoName, options = {}) {
 
       onPressureChange(
         this.readableLength / this.readableHighWaterMark,
-        this.writable / this.writableHighWaterMark
+        this.writableLength / this.writableHighWaterMark
       );
 
       // loop exited uninterrupted => generator at end
