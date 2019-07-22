@@ -61,6 +61,9 @@ function usingLatestDefaultRef(ghApiToken, options = {}) {
           onRateLimitChange(rateLimit.remaining);
           this.push({ ...repository, ref: oid });
           callback();
+        })
+        .catch(error => {
+          this.emit("error", error);
         });
     }
   });

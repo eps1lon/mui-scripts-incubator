@@ -24,6 +24,9 @@ main({
   // file memory usage can vary due to dynamic length
   maxFilesInMemory: 16 * 1024,
   outputPath: path.resolve(process.cwd(), process.argv[2])
+}).catch(error => {
+  console.error(error);
+  process.exit(1);
 });
 
 /**
@@ -117,6 +120,7 @@ function Main(props) {
     maxFilesInMemory,
     maxRepositoriesInMemory,
     onEnd,
+    onError,
     outputPath,
     packageId,
     repository
@@ -187,10 +191,11 @@ function Main(props) {
       // => jsonOutput
       JSONStream.stringify("[\n", "\n,", "\n]\n"),
       fs.createWriteStream(outputPath)
-    ).then(() => {
-      running(false);
-      onEnd();
-    });
+    )
+      .then(onEnd, onError)
+      .finally(() => {
+        running(false);
+      });
 
     // TODO return pipeline close?
   }, []);
@@ -253,7 +258,7 @@ function main({
   outputPath,
   packageId
 }) {
-  return new Promise(resolve => {
+  return new Promise((resolve, reject) => {
     render(
       <Main
         key={repository}
@@ -262,7 +267,8 @@ function main({
         maxFilesInMemory={maxFilesInMemory}
         maxRepositoriesInMemory={maxRepositoriesInMemory}
         outputPath={outputPath}
-        onEnd={() => resolve()}
+        onEnd={resolve}
+        onError={reject}
         packageId={packageId}
       />
     );

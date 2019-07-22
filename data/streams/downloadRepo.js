@@ -43,19 +43,27 @@ function downloadRepo(options = {}) {
             const isFile = !entry.fileName.endsWith("/");
             if (isFile) {
               zipFile.openReadStream(entry, (error, readStream) => {
-                if (error) throw error;
+                if (error) {
+                  this.emit("error", error);
+                  return;
+                }
 
-                streamIntoBuffer(readStream).then(buffer => {
-                  onPressureChange(
-                    this.readableLength / this.readableHighWaterMark,
-                    this.writable / this.writableHighWaterMark
-                  );
-                  this.push({
-                    fileName: entry.fileName,
-                    source: buffer.toString("utf8"),
-                    repository
-                  });
-                });
+                streamIntoBuffer(readStream).then(
+                  buffer => {
+                    onPressureChange(
+                      this.readableLength / this.readableHighWaterMark,
+                      this.writable / this.writableHighWaterMark
+                    );
+                    this.push({
+                      fileName: entry.fileName,
+                      source: buffer.toString("utf8"),
+                      repository
+                    });
+                  },
+                  reason => {
+                    this.emit("error", new Error(reason));
+                  }
+                );
               });
             }
           });
@@ -66,6 +74,12 @@ function downloadRepo(options = {}) {
             );
             callback();
           });
+          zipFile.on("error", error => {
+            this.emit("error", error);
+          });
+        })
+        .catch(error => {
+          this.emit("error", error);
         });
     }
   });
