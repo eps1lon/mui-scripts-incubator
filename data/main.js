@@ -16,6 +16,8 @@ const pipeline = util.promisify(stream.pipeline);
 
 main({
   repository: "mui-org/material-ui",
+  // @material-ui/core
+  packageId: "UGFja2FnZS00NTUzMzAxNTM",
   filter: dependent => dependent.stars >= 1,
   // repository memory usage is relatively stable (object with fixed properties)
   maxRepositoriesInMemory: 16 * 8192,
@@ -116,6 +118,7 @@ function Main(props) {
     maxRepositoriesInMemory,
     onEnd,
     outputPath,
+    packageId,
     repository
   } = props;
 
@@ -153,7 +156,8 @@ function Main(props) {
     pipeline(
       // usedBy
       usedBy(orgName, repoName, {
-        onPressureChange: onDependentsPressureChange
+        onPressureChange: onDependentsPressureChange,
+        packageId
       }).on("data", nextDependent),
       // => filterInteresting
       filterInteresting(isInterestingRepository, {
@@ -239,13 +243,15 @@ function Main(props) {
  * @param {number} param0.maxFilesInMemory
  * @param {number} param0.maxRepositoriesInMemory
  * @param {string} param0.outputPath
+ * @param {string} param0.packageId
  */
 function main({
   repository,
   filter,
   maxFilesInMemory,
   maxRepositoriesInMemory,
-  outputPath
+  outputPath,
+  packageId
 }) {
   return new Promise(resolve => {
     render(
@@ -257,6 +263,7 @@ function main({
         maxRepositoriesInMemory={maxRepositoriesInMemory}
         outputPath={outputPath}
         onEnd={() => resolve()}
+        packageId={packageId}
       />
     );
   });

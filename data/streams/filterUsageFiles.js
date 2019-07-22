@@ -21,7 +21,10 @@ function filterUsageFiles(options = {}) {
       );
 
       // some people actually have their node modules in source control
-      if (isPossiblyJs(fileName) && !isNodeModule(fileName)) {
+      if (
+        (isPossiblyJs(fileName) && !isNodeModule(fileName)) ||
+        isPackageMetaData(fileName)
+      ) {
         const name = fileName.replace(
           `${repository.repoName}-${repository.ref}/`,
           ""
@@ -51,6 +54,14 @@ function isPossiblyJs(fileName) {
  */
 function isNodeModule(fileName) {
   return /\/node_modules\//.test(fileName);
+}
+
+/**
+ *
+ * @param {string} fileName
+ */
+function isPackageMetaData(fileName) {
+  return /\/package\.json$/.test(fileName);
 }
 
 function readTextEntry(entry) {
