@@ -39,47 +39,56 @@ function downloadRepo(options = {}) {
           return zipFileFromBuffer(buffer);
         })
         .then(zipFile => {
-          zipFile.on("entry", entry => {
-            const isFile = !entry.fileName.endsWith("/");
-            if (isFile) {
-              zipFile.openReadStream(entry, (error, readStream) => {
-                if (error) {
-                  this.emit("error", error);
-                  return;
-                }
-
-                streamIntoBuffer(readStream).then(
-                  buffer => {
-                    onPressureChange(
-                      this.readableLength / this.readableHighWaterMark,
-                      this.writable / this.writableHighWaterMark
-                    );
+          return new Promise((resolve, reject) => {
+            zipFile.on("entry", entry => {
+              const isFile = !entry.fileName.endsWith("/");
+              if (isFile) {
+                zipFile.openReadStream(entry, (error, readStream) => {
+                  if (error) {
                     this.push({
                       fileName: entry.fileName,
-                      source: buffer.toString("utf8"),
-                      repository
+                      source: "",
+                      repository,
+                      error: String(error)
                     });
-                  },
-                  reason => {
-                    this.emit("error", new Error(reason));
+                    return;
                   }
-                );
-              });
-            }
-          });
-          zipFile.on("end", () => {
-            onPressureChange(
-              this.readableLength / this.readableHighWaterMark,
-              this.writable / this.writableHighWaterMark
-            );
-            callback();
-          });
-          zipFile.on("error", error => {
-            this.emit("error", error);
+
+                  streamIntoBuffer(readStream).then(
+                    buffer => {
+                      onPressureChange(
+                        this.readableLength / this.readableHighWaterMark,
+                        this.writable / this.writableHighWaterMark
+                      );
+                      this.push({
+                        fileName: entry.fileName,
+                        source: buffer.toString("utf8"),
+                        repository
+                      });
+                    },
+                    reason => {
+                      this.push({
+                        fileName: entry.fileName,
+                        source: "",
+                        repository,
+                        error: String(reason)
+                      });
+                    }
+                  );
+                });
+              }
+            });
+            zipFile.on("end", resolve);
+            zipFile.on("error", reject);
           });
         })
-        .catch(error => {
-          this.emit("error", error);
+        .catch(error => {})
+        .finally(() => {
+          callback();
+          onPressureChange(
+            this.readableLength / this.readableHighWaterMark,
+            this.writable / this.writableHighWaterMark
+          );
         });
     }
   });
