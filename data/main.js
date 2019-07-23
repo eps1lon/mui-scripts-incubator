@@ -19,6 +19,7 @@ main({
   // @material-ui/core
   packageId: "UGFja2FnZS00NTUzMzAxNTM",
   filter: dependent => dependent.stars >= 1,
+  githubAPIToken: process.env.GITHUB_API_TOKEN,
   // repository memory usage is relatively stable (object with fixed properties)
   maxRepositoriesInMemory: 16 * 8192,
   // file memory usage can vary due to dynamic length
@@ -117,6 +118,7 @@ function repositoryToString(repository) {
 function Main(props) {
   const {
     isInterestingRepository,
+    githubAPIToken,
     maxFilesInMemory,
     maxRepositoriesInMemory,
     onEnd,
@@ -169,7 +171,7 @@ function Main(props) {
         onPressureChange: onInterestingPressureChange
       }).on("data", nextInteresting),
       // => usingLatestDefaultRef
-      usingLatestDefaultRef(process.env.GITHUB_API_TOKEN, {
+      usingLatestDefaultRef(githubAPIToken, {
         highWaterMark: maxRepositoriesInMemory,
         onRateLimitChange: setRemainingGhApiScore
       }).on("data", nextLatestRef),
@@ -245,6 +247,7 @@ function Main(props) {
  * @param {object} param0
  * @param {string} param0.repository
  * @param {(repository: object) => boolean} param0.filter
+ * @param {string} param0.githubAPIToken
  * @param {number} param0.maxFilesInMemory
  * @param {number} param0.maxRepositoriesInMemory
  * @param {string} param0.outputPath
@@ -253,6 +256,7 @@ function Main(props) {
 function main({
   repository,
   filter,
+  githubAPIToken,
   maxFilesInMemory,
   maxRepositoriesInMemory,
   outputPath,
@@ -263,6 +267,7 @@ function main({
       <Main
         key={repository}
         repository={repository}
+        githubAPIToken={githubAPIToken}
         isInterestingRepository={filter}
         maxFilesInMemory={maxFilesInMemory}
         maxRepositoriesInMemory={maxRepositoriesInMemory}
