@@ -31,19 +31,26 @@ main({
 });
 
 /**
- * @returns {[{latest: T, progress: number}, (next: T) => void]}
+ * @returns {[{done: boolean,latest: T, progress: number}, (next: T) => void]}
  */
 function useProgress(initialLatest = null) {
   const [state, dispatch] = React.useReducer(
     (prevState, action) => {
       switch (action.type) {
+        case "done":
+          return { ...prevState, done: true };
         case "next":
-          return { latest: action.payload, progress: prevState.progress + 1 };
+          return {
+            latest: action.payload,
+            progress: prevState.progress + 1,
+            done: false
+          };
         default:
           throw new Error(`unrecognized action '${action.type}'`);
       }
     },
     {
+      done: false,
       progress: 0,
       latest: initialLatest
     }
@@ -53,7 +60,11 @@ function useProgress(initialLatest = null) {
     dispatch({ type: "next", payload: next })
   );
 
-  return [state, setNext];
+  function setDone() {
+    dispatch({ type: "done" });
+  }
+
+  return [state, setNext, setDone];
 }
 
 function usePressure() {
@@ -130,27 +141,31 @@ function Main(props) {
 
   const [orgName, repoName] = repository.split("/");
 
-  const [dependents, nextDependent] = useProgress();
+  const [dependents, nextDependent, dependentsDone] = useProgress();
   const [dependentsPressure, onDependentsPressureChange] = usePressure();
 
-  const [interesting, nextInteresting] = useProgress();
+  const [interesting, nextInteresting, interestingDone] = useProgress();
   const [interestingPressure, onInterestingPressureChange] = usePressure();
 
-  const [latestRefs, nextLatestRef] = useProgress();
+  const [latestRefs, nextLatestRef, latestRefsDone] = useProgress();
 
-  const [downloadedFiles, nextDownloadedFile] = useProgress();
+  const [
+    downloadedFiles,
+    nextDownloadedFile,
+    downloadedFilesDone
+  ] = useProgress();
   const [
     downloadedFilesPressure,
     onDownloadedFilesPressureChange
   ] = usePressure();
 
-  const [filesWithUsage, nextFileWithUsage] = useProgress();
+  const [filesWithUsage, nextFileWithUsage, filesWithUsageDone] = useProgress();
   const [
     filesWithUsagePressure,
     onFilesWithUsagePressureChange
   ] = usePressure();
 
-  const [codeUsages, nextCodeUsage] = useProgress();
+  const [codeUsages, nextCodeUsage, codeUsagesDone] = useProgress();
   const [codeUsagesPressure, onCodeUsagesPressureChange] = usePressure();
 
   const [isRunning, running] = React.useState(false);
@@ -164,32 +179,44 @@ function Main(props) {
       usedBy(orgName, repoName, {
         onPressureChange: onDependentsPressureChange,
         packageId
-      }).on("data", nextDependent),
+      })
+        .on("data", nextDependent)
+        .on("end", dependentsDone),
       // => filterInteresting
       filterInteresting(isInterestingRepository, {
         highWaterMark: maxRepositoriesInMemory,
         onPressureChange: onInterestingPressureChange
-      }).on("data", nextInteresting),
+      })
+        .on("data", nextInteresting)
+        .on("end", interestingDone),
       // => usingLatestDefaultRef
       usingLatestDefaultRef(githubAPIToken, {
         highWaterMark: maxRepositoriesInMemory,
         onRateLimitChange: setRemainingGhApiScore
-      }).on("data", nextLatestRef),
+      })
+        .on("data", nextLatestRef)
+        .on("end", latestRefsDone),
       // => downloadRepo
       downloadRepo({
         highWaterMark: maxRepositoriesInMemory,
         onPressureChange: onDownloadedFilesPressureChange
-      }).on("data", nextDownloadedFile),
+      })
+        .on("data", nextDownloadedFile)
+        .on("end", downloadedFilesDone),
       // => filterUsageFiles
       filterUsageFiles({
         highWaterMark: maxFilesInMemory,
         onPressureChange: onFilesWithUsagePressureChange
-      }).on("data", nextFileWithUsage),
+      })
+        .on("data", nextFileWithUsage)
+        .on("end", filesWithUsageDone),
       // => filterUsageCode
       filterUsageCode({
         highWaterMark: maxFilesInMemory,
         onPressureChange: onCodeUsagesPressureChange
-      }).on("data", nextCodeUsage),
+      })
+        .on("data", nextCodeUsage)
+        .on("end", codeUsagesDone),
       // => jsonOutput
       JSONStream.stringify("[\n", "\n,", "\n]\n"),
       fs.createWriteStream(outputPath)
@@ -215,14 +242,16 @@ function Main(props) {
       {dependents.latest && (
         <Box>
           <Pressure {...dependentsPressure} />
-          dependents: {dependents.progress} (
+          dependents: {dependents.progress}
+          {dependents.done && " - done"} (
           {repositoryToString(dependents.latest)})
         </Box>
       )}
       {interesting.latest && (
         <Box>
           <Pressure {...interestingPressure} />
-          interesting repository: {interesting.progress} (
+          interesting repository: {interesting.progress}
+          {interesting.done && " - done"} (
           {repositoryToString(interesting.latest)})
         </Box>
       )}
@@ -230,12 +259,14 @@ function Main(props) {
         <Box>
           <Pressure {...downloadedFilesPressure} />
           downloads: {downloadedFiles.progress}
+          {downloadedFiles.done && " - done"}
         </Box>
       )}
       {filesWithUsage.latest !== null && (
         <Box>
           <Pressure {...filesWithUsagePressure} />
           files with usage: {filesWithUsage.progress}
+          {filesWithUsage.done && " - done"}
         </Box>
       )}
     </Box>
