@@ -4,12 +4,6 @@ material-ui scripts incubator
 
 ## install
 
-In your .npmrc:
-
-```
-@eps1lon:registry=https://npm.pkg.github.com/
-```
-
 ```bash
 $ yarn global add @eps1lon/mui-scripts
 ```
