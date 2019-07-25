@@ -48,20 +48,36 @@ function usingLatestDefaultRef(ghApiToken, options = {}) {
             }
           );
         })
-        .then(response => {
-          const {
-            rateLimit,
-            repository: {
-              defaultBranchRef: {
-                target: { oid }
+        .then(
+          response => {
+            const {
+              rateLimit,
+              repository: {
+                defaultBranchRef: {
+                  target: { oid }
+                }
+              }
+            } = response;
+
+            onRateLimitChange(rateLimit.remaining);
+            this.push({ ...repository, ref: oid });
+            callback();
+          },
+          reason => {
+            // ignore not found errors, can happen between crawling github and fetch from the api
+            if (reason.name === "GraphqlError") {
+              const [firstError, ...otherErrors] = reason.errors;
+              const isOnlyNotFoundError =
+                otherErrors.length === 0 && firstError.type === "NOT_FOUND";
+
+              if (isOnlyNotFoundError) {
+                return;
               }
             }
-          } = response;
 
-          onRateLimitChange(rateLimit.remaining);
-          this.push({ ...repository, ref: oid });
-          callback();
-        })
+            throw reason;
+          }
+        )
         .catch(error => {
           this.emit("error", error);
         });
