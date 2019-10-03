@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@octokit/graphql": "^3.0.1",
-    "lighthouse": "^5.2.0",
+    "lighthouse": "^5.5.0",
     "lodash": "^4.17.15",
     "yargs": "^14.0.0"
   },
