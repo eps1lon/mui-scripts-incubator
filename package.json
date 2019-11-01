@@ -8,7 +8,7 @@
     "node": "^12.0.0"
   },
   "dependencies": {
-    "@octokit/graphql": "^3.0.1",
+    "@octokit/graphql": "^4.3.0",
     "lighthouse": "^5.2.0",
     "lodash": "^4.17.15",
     "yargs": "^14.2.0"
