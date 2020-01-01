@@ -29,7 +29,7 @@
     "lib"
   ],
   "devDependencies": {
-    "eslint": "^6.7.2",
+    "eslint": "^6.8.0",
     "prettier": "^1.19.1"
   }
 }
