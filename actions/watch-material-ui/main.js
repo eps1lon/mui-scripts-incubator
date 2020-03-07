@@ -6,6 +6,8 @@ const { promisify } = require("util");
 const exec = promisify(childProcess.exec);
 
 main().catch(error => {
+  core.error(error.stdout);
+  core.error(error.stderr);
   core.setFailed(error.message);
 });
 
