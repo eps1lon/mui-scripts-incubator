@@ -15,7 +15,7 @@ async function main() {
   const { eventName, event } = github.context;
 
   if (eventName === "push") {
-    await a11ySnapshot({ argv: "--updateSnapshot" });
+    await a11ySnapshot({ argv: "--updateSnapshot --runInBand" });
 
     const { stdout: gotUpdated } = await git("status --porcelain");
     if (gotUpdated) {
