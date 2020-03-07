@@ -14,37 +14,35 @@ main().catch(error => {
 async function main() {
   const { eventName, event } = github.context;
 
-  // TODO "repository_dispatch"
-  if (eventName === "push") {
-    const prNumber = Number.NaN; //+event.client_payload.pr_number;
-    await a11ySnapshot({
-      argv: "--updateSnapshot --runInBand",
-      prNumber
+  const prNumber =
+    eventName === "push" ? Number.NaN : +event.client_payload.pr_number;
+  await a11ySnapshot({
+    argv: "--updateSnapshot --runInBand",
+    prNumber
+  });
+
+  const muiBranch = Number.isNaN(prNumber) ? "master" : `pr/${prNumber}`;
+
+  const { stdout: gotUpdated } = await git("status --porcelain");
+  if (gotUpdated) {
+    await git('config --local user.email "action@github.com"');
+    await git('config --local user.name "GitHub Action"');
+
+    const branch = `github-actions/fix/${muiBranch}`;
+    await git(`checkout -b ${branch}`);
+    await git("add -A");
+    await git('commit -m "Update snapshots"');
+
+    await git(`push origin -f ${branch}`);
+    const octokit = new github.GitHub(core.getInput("token"));
+    await octokit.pulls.create({
+      owner: github.context.repo.owner,
+      repo: github.context.repo.repo,
+      base: "master",
+      head: branch,
+      title: `Update snapshots for ${muiBranch}`,
+      maintainer_can_modify: true
     });
-
-    const muiBranch = Number.isNaN(prNumber) ? "master" : `pr/${prNumber}`;
-
-    const { stdout: gotUpdated } = await git("status --porcelain");
-    if (gotUpdated) {
-      await git('config --local user.email "action@github.com"');
-      await git('config --local user.name "GitHub Action"');
-
-      const branch = `github-actions/fix/${muiBranch}`;
-      await git(`checkout -b ${branch}`);
-      await git("add -A");
-      await git('commit -m "Update snapshots"');
-
-      await git(`push origin -f ${branch}`);
-      const octokit = new github.GitHub(core.getInput("token"));
-      await octokit.pulls.create({
-        owner: github.context.repo.owner,
-        repo: github.context.repo.repo,
-        base: "master",
-        head: branch,
-        title: `Update snapshots for ${muiBranch}`,
-        maintainer_can_modify: true
-      });
-    }
   }
 }
 
