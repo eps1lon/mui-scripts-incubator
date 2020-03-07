@@ -12,19 +12,18 @@ main().catch(error => {
 });
 
 async function main() {
-  const { eventName, payload, event } = github.context;
+  const { eventName, payload } = github.context;
 
-  console.log(payload);
-  console.log(event);
   const prNumber =
     eventName === "push" ? Number.NaN : +payload.client_payload.pr_number;
+  const isPr = Number.isNaN(prNumber) === false;
+  const muiBranch = !isPr ? "master" : `pr/${prNumber}`;
+  core.info(isPr ? "using master" : `using deploy preview #${prNumber}`);
+
   await a11ySnapshot({
     argv: "--updateSnapshot --runInBand",
     prNumber
   });
-
-  const isPr = Number.isNaN(prNumber) === false;
-  const muiBranch = !isPr ? "master" : `pr/${prNumber}`;
 
   const { stdout: gotUpdated } = await git("status --porcelain");
   if (gotUpdated) {
