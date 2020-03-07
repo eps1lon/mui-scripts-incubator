@@ -49,6 +49,9 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
       "Twitter Follow Button"
     </Iframe>
     <link>
+      "Follow"
+    </link>
+    <link>
       "Get Professional Support"
     </link>
     <text>
@@ -301,13 +304,11 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
       a list of options."
     </text>
     <link>
-      "ads via Carbon"
+      "Segment V2 Send data to any tool without having to implement a new API
+      every time."
     </link>
     <link>
-      "Adobe Creative Cloud for Teams starting at $33.99 per month."
-    </link>
-    <link>
-      "ads via Carbon"
+      "ad by CodeFund"
     </link>
     <heading level="2">
       "Simple Select"
