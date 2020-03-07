@@ -45,9 +45,9 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
     <link>
       "Star"
     </link>
-    <Iframe>
-      "Twitter Follow Button"
-    </Iframe>
+    <link>
+      "Follow"
+    </link>
     <link>
       "Get Professional Support"
     </link>
