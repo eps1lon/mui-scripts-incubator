@@ -47,6 +47,6 @@ async function main() {
 async function git(command, ...args) {
   const { stdout, stderr } = await exec(`git ${command}`, ...args);
   if (stdout) core.info(stdout);
-  if (stderr) core.error(stderr);
+  //if (stderr) core.error(stderr);
   return { stdout, stderr };
 }
