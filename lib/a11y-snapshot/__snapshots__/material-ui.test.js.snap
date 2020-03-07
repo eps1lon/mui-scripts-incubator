@@ -21,7 +21,7 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
   </combobox>
   <link description="GitHub repository">GitHub repository</link>
   <main>
-    <heading level="1">MATERIAL-UI</heading>
+    <heading level="2">MATERIAL-UI</heading>
     <heading level="2">
       React components for faster and easier web development. Build your own
       design system, or start with Material Design.
