@@ -14,15 +14,22 @@ main().catch(error => {
 async function main() {
   const { eventName, event } = github.context;
 
+  // TODO "repository_dispatch"
   if (eventName === "push") {
-    await a11ySnapshot({ argv: "--updateSnapshot --runInBand" });
+    const prNumber = Number.NaN; //+event.client_payload.pr_number;
+    await a11ySnapshot({
+      argv: "--updateSnapshot --runInBand",
+      prNumber
+    });
+
+    const muiBranch = Number.isNaN(prNumber) ? "master" : `pr/${prNumber}`;
 
     const { stdout: gotUpdated } = await git("status --porcelain");
     if (gotUpdated) {
       await git('config --local user.email "action@github.com"');
       await git('config --local user.name "GitHub Action"');
 
-      const branch = `github-actions/fix/master`;
+      const branch = `github-actions/fix/${muiBranch}`;
       await git(`checkout -b ${branch}`);
       await git("add -A");
       await git('commit -m "Update snapshots"');
@@ -34,25 +41,13 @@ async function main() {
         repo: github.context.repo.repo,
         base: "master",
         head: branch,
-        title: "Update snapshots",
+        title: `Update snapshots for ${muiBranch}`,
         maintainer_can_modify: true
       });
     }
-  } else if (eventName === "repository_dispatch") {
-    a11ySnapshot({
-      argv: "--updateSnapshot",
-      prNumber: event.client_payload.pr_number
-    });
   }
 }
 
-async function gitSilent(command, ...args) {
-  try {
-    await exec(`git ${command}`, ...args);
-  } catch (error) {
-    // silent
-  }
-}
 async function git(command, ...args) {
   const { stdout, stderr } = await exec(`git ${command}`, ...args);
   if (stdout) core.info(stdout);
