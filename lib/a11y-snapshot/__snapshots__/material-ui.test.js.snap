@@ -296,19 +296,6 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     <heading level="1">
       "Select"
     </heading>
-    <text>
-      "Select components are used for collecting user provided information from
-      a list of options."
-    </text>
-    <link>
-      "ads via Carbon"
-    </link>
-    <link>
-      "Adobe Creative Cloud for Teams starting at $33.99 per month."
-    </link>
-    <link>
-      "ads via Carbon"
-    </link>
     <heading level="2">
       "Simple Select"
     </heading>

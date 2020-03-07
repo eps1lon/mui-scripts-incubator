@@ -27,6 +27,10 @@ steps:
       yarn lint
     displayName: "check code semantics"
 
+  - script: |
+      yarn a11y-snapshot --runInBand
+    displayName: "test"
+
   - task: Npm@1
     continueOnError: "true"
     inputs:
