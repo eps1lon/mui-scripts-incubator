@@ -24,13 +24,7 @@ async function main() {
       const branch = `github-actions/fix/master`;
       await git(`checkout -b ${branch}`);
       await git("add -A");
-      try {
-        const { stdout, stderr } = await git('commit -m "Update snapshots"');
-        console.log(stdout);
-        console.error(stderr);
-      } catch (error) {
-        console.error(error);
-      }
+      await git('commit -m "Update snapshots"');
 
       // await git(`push origin ${branch}`);
       //const octokit = new github.GitHub(core.getInput("token"));
