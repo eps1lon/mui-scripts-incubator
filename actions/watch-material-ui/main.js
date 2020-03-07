@@ -23,7 +23,7 @@ async function main() {
       await git('config --local user.name "GitHub Action"');
 
       const branch = `github-actions/fix/master`;
-      await git(`branch -D ${branch}`);
+      await gitSilent(`branch -D ${branch}`);
       await git(`checkout -b ${branch}`);
       await git("add -A");
       await git('commit -m "Update snapshots"');
@@ -47,6 +47,13 @@ async function main() {
   }
 }
 
+async function gitSilent(command, ...args) {
+  try {
+    await exec(`git ${command}`, ...args);
+  } catch (error) {
+    // silent
+  }
+}
 async function git(command, ...args) {
   const { stdout, stderr } = await exec(`git ${command}`, ...args);
   if (stdout) core.info(stdout);
