@@ -28,12 +28,14 @@ async function main() {
       await git("add -A");
       await git('commit -m "Update snapshots"');
 
-      // await git(`push origin ${branch}`);
-      //const octokit = new github.GitHub(core.getInput("token"));
-      /* octokit.pulls.create({
-      owner: github.context.repo.owner,
-      repo: github.context.repo.repo
-    }); */
+      await git(`push origin ${branch}`);
+      const octokit = new github.GitHub(core.getInput("token"));
+      octokit.pulls.create({
+        owner: github.context.repo.owner,
+        repo: github.context.repo.repo,
+        base: "master",
+        head: branch
+      });
     }
   } else if (eventName === "repository_dispatch") {
     a11ySnapshot({
@@ -43,6 +45,9 @@ async function main() {
   }
 }
 
-function git(command, ...args) {
-  return exec(`git ${command}`, ...args);
+async function git(command, ...args) {
+  const { stdout, stderr } = await exec(`git ${command}`, ...args);
+  core.info(stderr);
+  core.error(stderr);
+  return { stdout, stderr };
 }
