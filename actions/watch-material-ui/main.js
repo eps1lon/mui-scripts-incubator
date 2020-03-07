@@ -23,12 +23,11 @@ async function main() {
       await git('config --local user.name "GitHub Action"');
 
       const branch = `github-actions/fix/master`;
-      await gitSilent(`branch -D ${branch}`);
       await git(`checkout -b ${branch}`);
       await git("add -A");
       await git('commit -m "Update snapshots"');
 
-      await git(`push origin ${branch}`);
+      await git(`push origin -f ${branch}`);
       const octokit = new github.GitHub(core.getInput("token"));
       await octokit.pulls.create({
         owner: github.context.repo.owner,
