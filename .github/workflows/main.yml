@@ -6,11 +6,11 @@ jobs:
   a11y-snapshot:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup node
+      - uses: actions/checkout@v2
+      - name: Setup node
         uses: actions/setup-node@v1
         with:
-          node-version: '12.x'
-    - name: install
-      run: yarn install
-    - uses: ./github/.actions/watch-material-ui
+          node-version: "12.x"
+      - name: install
+        run: yarn install
+      - uses: ./github/.actions/watch-material-ui
