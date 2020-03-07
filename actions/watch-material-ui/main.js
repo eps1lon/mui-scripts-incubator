@@ -18,7 +18,7 @@ async function main() {
     eventName === "push" ? Number.NaN : +payload.client_payload.pr_number;
   const isPr = Number.isNaN(prNumber) === false;
   const muiBranch = !isPr ? "master" : `pr/${prNumber}`;
-  core.info(isPr ? "using master" : `using deploy preview #${prNumber}`);
+  core.info(!isPr ? "using master" : `using deploy preview #${prNumber}`);
 
   await a11ySnapshot({
     argv: "--updateSnapshot --runInBand",
