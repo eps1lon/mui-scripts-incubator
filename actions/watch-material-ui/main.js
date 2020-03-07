@@ -14,8 +14,15 @@ main().catch(error => {
 async function main() {
   const { eventName, payload } = github.context;
 
-  const prNumber =
-    eventName === "push" ? Number.NaN : +payload.client_payload.pr_number;
+  const targetUrl =
+    eventName === "push"
+      ? "https://material-ui.netlify.com/"
+      : payload.client_payload.target_url;
+  core.info(`client_payload: ${JSON.stringify(payload.client_payload)}`);
+
+  const prNumberMatch = targetUrl.match(/deploy-preview-(\d+)/);
+  const prNumber = prNumberMatch === null ? Number.NaN : +prNumberMatch[1];
+
   const isPr = Number.isNaN(prNumber) === false;
   const muiBranch = !isPr ? "master" : `pr/${prNumber}`;
   core.info(!isPr ? "using master" : `using deploy preview #${prNumber}`);
