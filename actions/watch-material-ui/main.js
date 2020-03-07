@@ -12,8 +12,10 @@ main().catch(error => {
 });
 
 async function main() {
-  const { eventName, payload } = github.context;
+  const { eventName, payload, event } = github.context;
 
+  console.log(payload);
+  console.log(event);
   const prNumber =
     eventName === "push" ? Number.NaN : +payload.client_payload.pr_number;
   await a11ySnapshot({
