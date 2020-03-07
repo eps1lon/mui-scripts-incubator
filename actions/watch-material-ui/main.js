@@ -12,10 +12,10 @@ main().catch(error => {
 });
 
 async function main() {
-  const { eventName, event } = github.context;
+  const { eventName, payload } = github.context;
 
   const prNumber =
-    eventName === "push" ? Number.NaN : +event.client_payload.pr_number;
+    eventName === "push" ? Number.NaN : +payload.client_payload.pr_number;
   await a11ySnapshot({
     argv: "--updateSnapshot --runInBand",
     prNumber
