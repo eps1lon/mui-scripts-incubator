@@ -33,7 +33,9 @@ async function main() {
         owner: github.context.repo.owner,
         repo: github.context.repo.repo,
         base: "master",
-        head: branch
+        head: branch,
+        title: "Update snapshots",
+        maintainer_can_modify: true
       });
     }
   } else if (eventName === "repository_dispatch") {
