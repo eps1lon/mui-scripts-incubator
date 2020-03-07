@@ -15,15 +15,18 @@ async function main() {
   if (eventName === "push") {
     a11ySnapshot({ argv: "--updateSnapshot" });
 
-    const gotUpdated = await exec("git status --porcelain");
+    const gotUpdated = await git("status --porcelain");
     core.info(gotUpdated);
     if (gotUpdated) {
-      const branch = `github-actions/fix/master`;
-      await exec(`git checkout -b ${branch}`);
-      await exec("git add -A");
-      await exec('git commit -m "Update snapshots"');
+      await git('config --local user.email "action@github.com"');
+      await git('config --local user.name "GitHub Action"');
 
-      // await exec(`git push origin ${branch}`);
+      const branch = `github-actions/fix/master`;
+      await git(`checkout -b ${branch}`);
+      await git("add -A");
+      await git('commit -m "Update snapshots"');
+
+      // await git(`push origin ${branch}`);
       //const octokit = new github.GitHub(core.getInput("token"));
       /* octokit.pulls.create({
       owner: github.context.repo.owner,
@@ -36,4 +39,8 @@ async function main() {
       prNumber: event.client_payload.pr_number
     });
   }
+}
+
+function git(command, ...args) {
+  return exec(`git ${command}`, ...args);
 }
