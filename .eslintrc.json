@@ -1,6 +1,6 @@
 {
   "env": {
-    "browser": true,
+    "node": true,
     "commonjs": true,
     "es6": true
   },
@@ -13,5 +13,20 @@
   "parserOptions": {
     "ecmaVersion": 2018
   },
-  "rules": {}
+  "rules": {},
+  "overrides": [
+    {
+      "files": "lib/a11y-snapshot/**/*.test.js",
+
+      "globals": {
+        "expect": true,
+        "describe": true,
+        "it": true,
+        "page": true,
+        "browser": true,
+        "context": true,
+        "jestPuppeteer": true
+      }
+    }
+  ]
 }

@@ -1,0 +1,2 @@
+# jest.config passes this into `globals`
+/globals.json
