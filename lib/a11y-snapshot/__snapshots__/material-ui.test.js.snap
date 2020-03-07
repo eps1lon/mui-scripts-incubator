@@ -296,10 +296,6 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     <heading level="1">
       "Select"
     </heading>
-    <text>
-      "Select components are used for collecting user provided information from
-      a list of options."
-    </text>
     <heading level="2">
       "Simple Select"
     </heading>
