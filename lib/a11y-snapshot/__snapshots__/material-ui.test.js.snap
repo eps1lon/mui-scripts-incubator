@@ -2,1009 +2,459 @@
 
 exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
 <WebArea>
-  "Material-UI: A popular React UI framework"
-  <link>
-    "Skip to content"
-  </link>
-  <button>
-    "Open main navigation"
-  </button>
+  Material-UI: A popular React UI framework
+  <link>Skip to content</link>
+  <button>Open main navigation</button>
   <combobox autocomplete="list" haspopup="listbox">
-    "Search"
+    Search
   </combobox>
   <combobox description="Change language" haspopup="menu">
-    "Change language"
+    Change language
   </combobox>
-  <link description="Edit website colors">
-    "Edit website colors"
-  </link>
-  <button description="Toggle light/dark theme">
-    "Toggle light/dark theme"
-  </button>
+  <link description="Edit website colors">Edit website colors</link>
+  <button description="Toggle light/dark theme">Toggle light/dark theme</button>
   <button description="Toggle right-to-left/left-to-right">
-    "Toggle right-to-left/left-to-right"
+    Toggle right-to-left/left-to-right
   </button>
   <combobox description="Toggle notifications panel" haspopup="menu">
-    "Toggle notifications panel"
+    Toggle notifications panel
   </combobox>
-  <link description="GitHub repository">
-    "GitHub repository"
-  </link>
+  <link description="GitHub repository">GitHub repository</link>
   <main>
-    ""
-    <heading level="1">
-      "MATERIAL-UI"
-    </heading>
+    <heading level="1">MATERIAL-UI</heading>
     <heading level="2">
-      "React components for faster and easier web development. Build your own
-      design system, or start with Material Design."
+      React components for faster and easier web development. Build your own
+      design system, or start with Material Design.
     </heading>
-    <link>
-      "GET STARTED"
-    </link>
-    <link>
-      "Star"
-    </link>
-    <Iframe>
-      "Twitter Follow Button"
-    </Iframe>
-    <link>
-      "Get Professional Support"
-    </link>
+    <link>GET STARTED</link>
+    <link>Star</link>
+    <Iframe>Twitter Follow Button</Iframe>
+    <link>Get Professional Support</link>
+    <text>A quick word from our sponsors:</text>
+    <link>a random quick word</link>
+    <heading level="3">Installation</heading>
     <text>
-      "A quick word from our sponsors:"
+      Install Material-UI's source files via npm. We take care of injecting
+      the CSS needed.$ npm install @material-ui/core
     </text>
-    <link>
-      "a random quick word"
-    </link>
-    <heading level="3">
-      "Installation"
-    </heading>
+    <link>or use a CDN.</link>
     <text>
-      "Install Material-UI's source files via npm. We take care of
-      injecting the CSS needed.$ npm install @material-ui/core"
+      Load the default Roboto
+      font.<linkrel="stylesheet"href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
     </text>
-    <link>
-      "or use a CDN."
-    </link>
+    <link>READ INSTALLATION DOCS</link>
+    <heading level="3">Usage</heading>
     <text>
-      "Load the default Roboto
-      font.<linkrel="stylesheet"href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>"
-    </text>
-    <link>
-      "READ INSTALLATION DOCS"
-    </link>
-    <heading level="3">
-      "Usage"
-    </heading>
-    <text>
-      "Material-UI components work without any additional setup, and don't
+      Material-UI components work without any additional setup, and don't
       pollute the global
       scope.importReactfrom'react';importButtonfrom'@material-ui/core/Button';constApp=()=>(<Buttonvariant="contained"color="primary">Hello
-      World</Button>);"
+      World</Button>);
     </text>
-    <link>
-      "EXPLORE THE DOCS"
-    </link>
-    <heading level="2">
-      "Premium themes"
-    </heading>
+    <link>EXPLORE THE DOCS</link>
+    <heading level="2">Premium themes</heading>
     <text>
-      "Take your project to the next level with premium themes from our store –
-      all built on Material-UI."
+      Take your project to the next level with premium themes from our store –
+      all built on Material-UI.
     </text>
-    <link>
-      "Browse themes"
-    </link>
-    <link>
-      "BROWSE THEMES"
-    </link>
-    <heading level="2">
-      "Material-UI's sponsors"
-    </heading>
+    <link>Browse themes</link>
+    <link>BROWSE THEMES</link>
+    <heading level="2">Material-UI's sponsors</heading>
     <text>
-      "The continued development and maintenance of Material-UI is made possible
-      by these generous sponsors:"
+      The continued development and maintenance of Material-UI is made possible
+      by these generous sponsors:
     </text>
-    <heading level="3">
-      "Diamond 💎"
-    </heading>
+    <heading level="3">Diamond 💎</heading>
+    <text>3/3 slots available</text>
+    <heading level="3">Gold 🏆</heading>
+    <link>tidelift</link>
+    <link>bitsrc</link>
+    <link>call-em-all</link>
+    <heading level="3">There are more!</heading>
+    <text>See the full list of</text>
+    <link>our sponsors</link>
     <text>
-      "3/3 slots available"
+      , and learn how you can contribute to the future of Material-UI.
     </text>
-    <heading level="3">
-      "Gold 🏆"
-    </heading>
-    <link>
-      "tidelift"
-    </link>
-    <link>
-      "bitsrc"
-    </link>
-    <link>
-      "call-em-all"
-    </link>
-    <heading level="3">
-      "There are more!"
-    </heading>
-    <text>
-      "See the full list of"
-    </text>
-    <link>
-      "our sponsors"
-    </link>
-    <text>
-      ", and learn how you can contribute to the future of Material-UI."
-    </text>
-    <heading level="2">
-      "Praise for Material-UI"
-    </heading>
-    <text>
-      "a random quote about Material-UI"
-    </text>
-    <link>
-      "a random quote about Material-UI"
-    </link>
-    <link>
-      "a random quote about Material-UI"
-    </link>
-    <link>
-      "a random quote about Material-UI"
-    </link>
-    <heading level="2">
-      "a random quote about Material-UI"
-    </heading>
-    <text>
-      "Join these and other great organisations!"
-    </text>
-    <img>
-      "NASA"
-    </img>
-    <img>
-      "Walmart Labs"
-    </img>
-    <img>
-      "Capgemini"
-    </img>
-    <img>
-      "Uniqlo"
-    </img>
-    <img>
-      "Bethesda"
-    </img>
-    <img>
-      "J.P. Morgan"
-    </img>
-    <img>
-      "Shutterstock"
-    </img>
-    <img>
-      "Netflix"
-    </img>
-    <img>
-      "Coursera"
-    </img>
-    <img>
-      "Amazon"
-    </img>
-    <img>
-      "Unity"
-    </img>
-    <text>
-      "Are you using Material-UI?"
-    </text>
-    <link>
-      "LET US KNOW!"
-    </link>
+    <heading level="2">Praise for Material-UI</heading>
+    <text>a random quote about Material-UI</text>
+    <link>a random quote about Material-UI</link>
+    <link>a random quote about Material-UI</link>
+    <link>a random quote about Material-UI</link>
+    <heading level="2">a random quote about Material-UI</heading>
+    <text>Join these and other great organisations!</text>
+    <img>NASA</img>
+    <img>Walmart Labs</img>
+    <img>Capgemini</img>
+    <img>Uniqlo</img>
+    <img>Bethesda</img>
+    <img>J.P. Morgan</img>
+    <img>Shutterstock</img>
+    <img>Netflix</img>
+    <img>Coursera</img>
+    <img>Amazon</img>
+    <img>Unity</img>
+    <text>Are you using Material-UI?</text>
+    <link>LET US KNOW!</link>
   </main>
-  <link>
-    "Material-UI"
-  </link>
-  <heading level="2">
-    "Community"
-  </heading>
-  <link>
-    "GitHub"
-  </link>
-  <link>
-    "Twitter"
-  </link>
-  <link>
-    "StackOverflow"
-  </link>
-  <link>
-    "Team"
-  </link>
-  <heading level="2">
-    "Resources"
-  </heading>
-  <link>
-    "Support"
-  </link>
-  <link>
-    "Blog"
-  </link>
-  <link>
-    "Material Icons"
-  </link>
-  <heading level="2">
-    "Company"
-  </heading>
-  <link>
-    "About"
-  </link>
-  <link>
-    "Contact Us"
-  </link>
-  <link>
-    "Jobs"
-  </link>
-  <text>
-    "Currently"
-  </text>
-  <link>
-    "v4.9.5. View versions page."
-  </link>
-  <text>
-    ". Released under the"
-  </text>
-  <link>
-    "MIT License"
-  </link>
-  <text>
-    ".Copyright ©2020Material-UI."
-  </text>
-</WebArea>
+  <link>Material-UI</link>
+  <heading level="2">Community</heading>
+  <link>GitHub</link>
+  <link>Twitter</link>
+  <link>StackOverflow</link>
+  <link>Team</link>
+  <heading level="2">Resources</heading>
+  <link>Support</link>
+  <link>Blog</link>
+  <link>Material Icons</link>
+  <heading level="2">Company</heading>
+  <link>About</link>
+  <link>Contact Us</link>
+  <link>Jobs</link>
+  <text>Currently</text>
+  <link>v4.9.5. View versions page.</link>
+  <text>. Released under the</text>
+  <link>MIT License</link>
+  <text>.Copyright ©2020Material-UI.</text>
+</WebArea>;
 
 `;
 
 exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`] = `
 <WebArea>
-  "Select React component - Material-UI"
-  <link>
-    "Skip to content"
-  </link>
-  <button>
-    "Open main navigation"
-  </button>
+  Select React component - Material-UI
+  <link>Skip to content</link>
+  <button>Open main navigation</button>
   <combobox autocomplete="list" haspopup="listbox">
-    "Search"
+    Search
   </combobox>
   <combobox description="Change language" haspopup="menu">
-    "Change language"
+    Change language
   </combobox>
-  <link description="Edit website colors">
-    "Edit website colors"
-  </link>
-  <button description="Toggle light/dark theme">
-    "Toggle light/dark theme"
-  </button>
+  <link description="Edit website colors">Edit website colors</link>
+  <button description="Toggle light/dark theme">Toggle light/dark theme</button>
   <button description="Toggle right-to-left/left-to-right">
-    "Toggle right-to-left/left-to-right"
+    Toggle right-to-left/left-to-right
   </button>
   <combobox description="Toggle notifications panel" haspopup="menu">
-    "Toggle notifications panel"
+    Toggle notifications panel
   </combobox>
-  <link description="GitHub repository">
-    "GitHub repository"
-  </link>
+  <link description="GitHub repository">GitHub repository</link>
   <main>
-    ""
-    <link>
-      "EDIT THIS PAGE"
-    </link>
-    <heading level="1">
-      "Select"
-    </heading>
-    <heading level="2">
-      "Simple Select"
-    </heading>
+    <link>EDIT THIS PAGE</link>
+    <heading level="1">Select</heading>
+    <heading level="2">Simple Select</heading>
     <text>
-      "Menus are positioned over their emitting elements such that the currently
-      selected menu item appears on top of the emitting element."
+      Menus are positioned over their emitting elements such that the currently
+      selected menu item appears on top of the emitting element.
     </text>
     <generic>
-      "Age Age ​Age Age ​ Some important helper textWithout labelAge Age Label +
+      Age Age ​Age Age ​ Some important helper textWithout labelAge Age Label +
       placeholderName Name ​ DisabledName Name ​ ErrorName Name ​ Read onlyAge
       Age ​ Auto widthPlaceholder PlaceholderAge * Age ​ RequiredAge Age ​Age
-      Age ​"
-      <text>
-        "Age "
-      </text>
-      <combobox haspopup="listbox">
-        "Age ​"
-      </combobox>
-      <text>
-        "Age "
-      </text>
-      <combobox haspopup="listbox">
-        "Age ​"
-      </combobox>
-      <text>
-        "Some important helper text "
-      </text>
-      <combobox haspopup="listbox">
-        ""
-      </combobox>
-      <text>
-        "Without labelAge "
-      </text>
-      <combobox haspopup="listbox">
-        "Age"
-      </combobox>
-      <text>
-        "Label + placeholderName "
-      </text>
-      <combobox haspopup="listbox">
-        "Name ​"
-      </combobox>
-      <text>
-        "DisabledName "
-      </text>
-      <combobox haspopup="listbox">
-        "Name ​"
-      </combobox>
-      <text>
-        "ErrorName "
-      </text>
-      <combobox haspopup="listbox">
-        "Name ​"
-      </combobox>
-      <text>
-        "Read onlyAge "
-      </text>
-      <combobox haspopup="listbox">
-        "Age ​"
-      </combobox>
-      <text>
-        "Auto width "
-      </text>
-      <combobox haspopup="listbox">
-        "Placeholder"
-      </combobox>
-      <text>
-        "PlaceholderAge * "
-      </text>
-      <combobox haspopup="listbox">
-        "Age * ​"
-      </combobox>
-      <text>
-        "RequiredAge"
-      </text>
-      <combobox haspopup="listbox">
-        "Age ​"
-      </combobox>
-      <text>
-        "Age "
-      </text>
-      <combobox haspopup="listbox">
-        "Age ​"
-      </combobox>
+      Age ​<text>Age </text>
+      <combobox haspopup="listbox">Age ​</combobox>
+      <text>Age </text>
+      <combobox haspopup="listbox">Age ​</combobox>
+      <text>Some important helper text </text>
+      <combobox haspopup="listbox"></combobox>
+      <text>Without labelAge </text>
+      <combobox haspopup="listbox">Age</combobox>
+      <text>Label + placeholderName </text>
+      <combobox haspopup="listbox">Name ​</combobox>
+      <text>DisabledName </text>
+      <combobox haspopup="listbox">Name ​</combobox>
+      <text>ErrorName </text>
+      <combobox haspopup="listbox">Name ​</combobox>
+      <text>Read onlyAge </text>
+      <combobox haspopup="listbox">Age ​</combobox>
+      <text>Auto width </text>
+      <combobox haspopup="listbox">Placeholder</combobox>
+      <text>PlaceholderAge * </text>
+      <combobox haspopup="listbox">Age * ​</combobox>
+      <text>RequiredAge</text>
+      <combobox haspopup="listbox">Age ​</combobox>
+      <text>Age </text>
+      <combobox haspopup="listbox">Age ​</combobox>
     </generic>
-    <button pressed="true">
-      "Show JavaScript source"
-    </button>
-    <button pressed="false">
-      "Show TypeScript source"
-    </button>
-    <button description="Show the source">
-      "Show the source"
-    </button>
-    <button description="Edit in CodeSandbox">
-      "Edit in CodeSandbox"
-    </button>
-    <button description="Copy the source">
-      "Copy the source"
-    </button>
-    <combobox haspopup="menu">
-      "See more"
-    </combobox>
-    <heading level="2">
-      "Advanced features"
-    </heading>
+    <button pressed="true">Show JavaScript source</button>
+    <button pressed="false">Show TypeScript source</button>
+    <button description="Show the source">Show the source</button>
+    <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
+    <button description="Copy the source">Copy the source</button>
+    <combobox haspopup="menu">See more</combobox>
+    <heading level="2">Advanced features</heading>
     <text>
-      "The Select component is meant to be interchangeable with a
+      The Select component is meant to be interchangeable with a
       native<select>element.If you are looking for more advanced features,
       like combobox, multiselect, autocomplete, async or creatable support, head
-      to the"
+      to the
     </text>
-    <link>
-      "component"
-    </link>
+    <link>component</link>
     <text>
-      ". It's also meant to be an improved version of the
-      "react-select" package."
+      . It's also meant to be an improved version of the
+      "react-select" package.
     </text>
-    <heading level="2">
-      "Native Select"
-    </heading>
+    <heading level="2">Native Select</heading>
     <text>
-      "As the user experience can be improved on mobile using the native select
-      of the platform, we allow such pattern."
+      As the user experience can be improved on mobile using the native select
+      of the platform, we allow such pattern.
     </text>
     <generic>
-      "AgeAge Some important helper textage With visually hidden labelAge None
+      AgeAge Some important helper textage With visually hidden labelAge None
       Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-      Uncontrolledage PlaceholderAge * RequiredAgeAge"
-      <text>
-        "Age "
-      </text>
+      Uncontrolledage PlaceholderAge * RequiredAgeAge
+      <text>Age </text>
       <combobox>
-        "Age"
-        <menuitem selected="true">
-          ""
-        </menuitem>
-        <menuitem>
-          "Ten"
-        </menuitem>
-        <menuitem>
-          "Twenty"
-        </menuitem>
-        <menuitem>
-          "Thirty"
-        </menuitem>
+        Age
+        <menuitem selected="true"></menuitem>
+        <menuitem>Ten</menuitem>
+        <menuitem>Twenty</menuitem>
+        <menuitem>Thirty</menuitem>
       </combobox>
-      <text>
-        "Age "
-      </text>
+      <text>Age </text>
       <combobox>
-        "Age"
-        <menuitem selected="true">
-          ""
-        </menuitem>
-        <menuitem>
-          "Ten"
-        </menuitem>
-        <menuitem>
-          "Twenty"
-        </menuitem>
-        <menuitem>
-          "Thirty"
-        </menuitem>
+        Age
+        <menuitem selected="true"></menuitem>
+        <menuitem>Ten</menuitem>
+        <menuitem>Twenty</menuitem>
+        <menuitem>Thirty</menuitem>
       </combobox>
-      <text>
-        "Some important helper text "
-      </text>
+      <text>Some important helper text </text>
       <combobox value="None">
-        "age"
-        <menuitem selected="true">
-          "None"
-        </menuitem>
-        <menuitem>
-          "Ten"
-        </menuitem>
-        <menuitem>
-          "Twenty"
-        </menuitem>
-        <menuitem>
-          "Thirty"
-        </menuitem>
+        age
+        <menuitem selected="true">None</menuitem>
+        <menuitem>Ten</menuitem>
+        <menuitem>Twenty</menuitem>
+        <menuitem>Thirty</menuitem>
       </combobox>
-      <text>
-        "With visually hidden labelAge "
-      </text>
+      <text>With visually hidden labelAge </text>
       <combobox value="None">
-        "Age"
-        <menuitem selected="true">
-          "None"
-        </menuitem>
-        <menuitem>
-          "Ten"
-        </menuitem>
-        <menuitem>
-          "Twenty"
-        </menuitem>
-        <menuitem>
-          "Thirty"
-        </menuitem>
+        Age
+        <menuitem selected="true">None</menuitem>
+        <menuitem>Ten</menuitem>
+        <menuitem>Twenty</menuitem>
+        <menuitem>Thirty</menuitem>
       </combobox>
-      <text>
-        "Label + placeholderName "
-      </text>
+      <text>Label + placeholderName </text>
       <combobox value="Hai" disabled="true">
-        "Name"
-        <menuitem>
-          ""
-        </menuitem>
-        <menuitem selected="true">
-          "Hai"
-        </menuitem>
-        <menuitem>
-          "Olivier"
-        </menuitem>
-        <menuitem>
-          "Kevin"
-        </menuitem>
+        Name
+        <menuitem></menuitem>
+        <menuitem selected="true">Hai</menuitem>
+        <menuitem>Olivier</menuitem>
+        <menuitem>Kevin</menuitem>
       </combobox>
-      <text>
-        "DisabledName "
-      </text>
+      <text>DisabledName </text>
       <combobox value="Hai" invalid="true">
-        "Name"
-        <menuitem>
-          ""
-        </menuitem>
-        <menuitem selected="true">
-          "Hai"
-        </menuitem>
-        <menuitem>
-          "Olivier"
-        </menuitem>
-        <menuitem>
-          "Kevin"
-        </menuitem>
+        Name
+        <menuitem></menuitem>
+        <menuitem selected="true">Hai</menuitem>
+        <menuitem>Olivier</menuitem>
+        <menuitem>Kevin</menuitem>
       </combobox>
-      <text>
-        "ErrorName "
-      </text>
+      <text>ErrorName </text>
       <combobox value="Thirty">
-        "Name"
-        <menuitem>
-          ""
-        </menuitem>
-        <menuitem>
-          "Ten"
-        </menuitem>
-        <menuitem>
-          "Twenty"
-        </menuitem>
-        <menuitem selected="true">
-          "Thirty"
-        </menuitem>
+        Name
+        <menuitem></menuitem>
+        <menuitem>Ten</menuitem>
+        <menuitem>Twenty</menuitem>
+        <menuitem selected="true">Thirty</menuitem>
       </combobox>
-      <text>
-        "Uncontrolled "
-      </text>
+      <text>Uncontrolled </text>
       <combobox value="Placeholder">
-        "age"
-        <menuitem selected="true">
-          "Placeholder"
-        </menuitem>
-        <menuitem>
-          "Ten"
-        </menuitem>
-        <menuitem>
-          "Twenty"
-        </menuitem>
-        <menuitem>
-          "Thirty"
-        </menuitem>
+        age
+        <menuitem selected="true">Placeholder</menuitem>
+        <menuitem>Ten</menuitem>
+        <menuitem>Twenty</menuitem>
+        <menuitem>Thirty</menuitem>
       </combobox>
-      <text>
-        "PlaceholderAge * "
-      </text>
+      <text>PlaceholderAge * </text>
       <combobox>
-        "Age *"
-        <menuitem selected="true">
-          ""
-        </menuitem>
-        <menuitem>
-          "Ten"
-        </menuitem>
-        <menuitem>
-          "Twenty"
-        </menuitem>
-        <menuitem>
-          "Thirty"
-        </menuitem>
+        Age *
+        <menuitem selected="true"></menuitem>
+        <menuitem>Ten</menuitem>
+        <menuitem>Twenty</menuitem>
+        <menuitem>Thirty</menuitem>
       </combobox>
-      <text>
-        "RequiredAge"
-      </text>
+      <text>RequiredAge</text>
       <combobox>
-        "Age"
-        <menuitem selected="true">
-          ""
-        </menuitem>
-        <menuitem>
-          "Ten"
-        </menuitem>
-        <menuitem>
-          "Twenty"
-        </menuitem>
-        <menuitem>
-          "Thirty"
-        </menuitem>
+        Age
+        <menuitem selected="true"></menuitem>
+        <menuitem>Ten</menuitem>
+        <menuitem>Twenty</menuitem>
+        <menuitem>Thirty</menuitem>
       </combobox>
-      <text>
-        "Age "
-      </text>
+      <text>Age </text>
       <combobox>
-        "Age"
-        <menuitem selected="true">
-          ""
-        </menuitem>
-        <menuitem>
-          "Ten"
-        </menuitem>
-        <menuitem>
-          "Twenty"
-        </menuitem>
-        <menuitem>
-          "Thirty"
-        </menuitem>
+        Age
+        <menuitem selected="true"></menuitem>
+        <menuitem>Ten</menuitem>
+        <menuitem>Twenty</menuitem>
+        <menuitem>Thirty</menuitem>
       </combobox>
     </generic>
-    <button pressed="true">
-      "Show JavaScript source"
-    </button>
-    <button pressed="false">
-      "Show TypeScript source"
-    </button>
-    <button description="Show the source">
-      "Show the source"
-    </button>
-    <button description="Edit in CodeSandbox">
-      "Edit in CodeSandbox"
-    </button>
-    <button description="Copy the source">
-      "Copy the source"
-    </button>
-    <combobox haspopup="menu">
-      "See more"
-    </combobox>
-    <heading level="2">
-      "Text Fields"
-    </heading>
+    <button pressed="true">Show JavaScript source</button>
+    <button pressed="false">Show TypeScript source</button>
+    <button description="Show the source">Show the source</button>
+    <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
+    <button description="Copy the source">Copy the source</button>
+    <combobox haspopup="menu">See more</combobox>
+    <heading level="2">Text Fields</heading>
     <text>
-      "TheTextFieldwrapper component is a complete form control including a
-      label, input and help text. You can find an example with the select mode"
+      TheTextFieldwrapper component is a complete form control including a
+      label, input and help text. You can find an example with the select mode
     </text>
-    <link>
-      "in this section"
-    </link>
+    <link>in this section</link>
+    <text>.</text>
+    <heading level="2">Customized selects</heading>
     <text>
-      "."
+      Here are some examples of customizing the component. You can learn more
+      about this in the
     </text>
-    <heading level="2">
-      "Customized selects"
-    </heading>
+    <link>overrides documentation page</link>
     <text>
-      "Here are some examples of customizing the component. You can learn more
-      about this in the"
-    </text>
-    <link>
-      "overrides documentation page"
-    </link>
-    <text>
-      ".The first step is to style theInputBasecomponent. Once it's styled,
+      .The first step is to style theInputBasecomponent. Once it's styled,
       you can either use it directly as a text field or provide it to the
-      selectinputproperty to have aselectfield."
+      selectinputproperty to have aselectfield.
     </text>
     <generic>
-      "AgeAge Age ​Age"
-      <text>
-        "Age"
-      </text>
-      <textbox>
-        "Age"
-      </textbox>
-      <text>
-        "Age"
-      </text>
-      <combobox haspopup="listbox">
-        "Age ​"
-      </combobox>
-      <text>
-        "Age"
-      </text>
+      AgeAge Age ​Age
+      <text>Age</text>
+      <textbox>Age</textbox>
+      <text>Age</text>
+      <combobox haspopup="listbox">Age ​</combobox>
+      <text>Age</text>
       <combobox>
-        "Age"
-        <menuitem selected="true">
-          ""
-        </menuitem>
-        <menuitem>
-          "Ten"
-        </menuitem>
-        <menuitem>
-          "Twenty"
-        </menuitem>
-        <menuitem>
-          "Thirty"
-        </menuitem>
+        Age
+        <menuitem selected="true"></menuitem>
+        <menuitem>Ten</menuitem>
+        <menuitem>Twenty</menuitem>
+        <menuitem>Thirty</menuitem>
       </combobox>
     </generic>
-    <button pressed="true">
-      "Show JavaScript source"
-    </button>
-    <button pressed="false">
-      "Show TypeScript source"
-    </button>
-    <button description="Show the source">
-      "Show the source"
-    </button>
-    <button description="Edit in CodeSandbox">
-      "Edit in CodeSandbox"
-    </button>
-    <button description="Copy the source">
-      "Copy the source"
-    </button>
-    <combobox haspopup="menu">
-      "See more"
-    </combobox>
-    <heading level="2">
-      "Multiple Select"
-    </heading>
+    <button pressed="true">Show JavaScript source</button>
+    <button pressed="false">Show TypeScript source</button>
+    <button description="Show the source">Show the source</button>
+    <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
+    <button description="Copy the source">Copy the source</button>
+    <combobox haspopup="menu">See more</combobox>
+    <heading level="2">Multiple Select</heading>
     <text>
-      "TheSelectcomponent can handle multiple selections. It's enabled with
+      TheSelectcomponent can handle multiple selections. It's enabled with
       themultipleproperty.Like with the single selection, you can pull out the
       new value by accessingevent.target.valuein theonChangecallback. It's
-      always an array."
+      always an array.
     </text>
     <generic>
-      "Name Name ​Tag Tag ​Chip Chip ​Native"
-      <text>
-        "Name "
-      </text>
-      <combobox haspopup="listbox">
-        "Name ​"
-      </combobox>
-      <text>
-        "Tag "
-      </text>
-      <combobox haspopup="listbox">
-        "Tag ​"
-      </combobox>
-      <text>
-        "Chip "
-      </text>
-      <combobox haspopup="listbox">
-        "Chip ​"
-      </combobox>
-      <text>
-        " "
-      </text>
-      <combobox haspopup="listbox">
-        ""
-      </combobox>
-      <text>
-        "Native "
-      </text>
+      Name Name ​Tag Tag ​Chip Chip ​Native
+      <text>Name </text>
+      <combobox haspopup="listbox">Name ​</combobox>
+      <text>Tag </text>
+      <combobox haspopup="listbox">Tag ​</combobox>
+      <text>Chip </text>
+      <combobox haspopup="listbox">Chip ​</combobox>
+      <text> </text>
+      <combobox haspopup="listbox"></combobox>
+      <text>Native </text>
       <listbox multiselectable="true">
-        "Native"
-        <option>
-          "Oliver Hansen"
-        </option>
-        <option>
-          "Van Henry"
-        </option>
-        <option>
-          "April Tucker"
-        </option>
-        <option>
-          "Ralph Hubbard"
-        </option>
-        <option>
-          "Omar Alexander"
-        </option>
-        <option>
-          "Carlos Abbott"
-        </option>
-        <option>
-          "Miriam Wagner"
-        </option>
-        <option>
-          "Bradley Wilkerson"
-        </option>
-        <option>
-          "Virginia Andrews"
-        </option>
-        <option>
-          "Kelly Snyder"
-        </option>
+        Native
+        <option>Oliver Hansen</option>
+        <option>Van Henry</option>
+        <option>April Tucker</option>
+        <option>Ralph Hubbard</option>
+        <option>Omar Alexander</option>
+        <option>Carlos Abbott</option>
+        <option>Miriam Wagner</option>
+        <option>Bradley Wilkerson</option>
+        <option>Virginia Andrews</option>
+        <option>Kelly Snyder</option>
       </listbox>
     </generic>
-    <button pressed="true">
-      "Show JavaScript source"
-    </button>
-    <button pressed="false">
-      "Show TypeScript source"
-    </button>
-    <button description="Show the source">
-      "Show the source"
-    </button>
-    <button description="Edit in CodeSandbox">
-      "Edit in CodeSandbox"
-    </button>
-    <button description="Copy the source">
-      "Copy the source"
-    </button>
-    <combobox haspopup="menu">
-      "See more"
-    </combobox>
-    <heading level="2">
-      "Controlled Open Select"
-    </heading>
+    <button pressed="true">Show JavaScript source</button>
+    <button pressed="false">Show TypeScript source</button>
+    <button description="Show the source">Show the source</button>
+    <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
+    <button description="Copy the source">Copy the source</button>
+    <combobox haspopup="menu">See more</combobox>
+    <heading level="2">Controlled Open Select</heading>
     <generic>
-      "OPEN THE SELECT Age Age ​"
-      <button>
-        "OPEN THE SELECT"
-      </button>
-      <text>
-        "Age "
-      </text>
-      <combobox haspopup="listbox">
-        "Age ​"
-      </combobox>
+      OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
+      <text>Age </text>
+      <combobox haspopup="listbox">Age ​</combobox>
     </generic>
-    <button pressed="true">
-      "Show JavaScript source"
-    </button>
-    <button pressed="false">
-      "Show TypeScript source"
-    </button>
-    <button description="Show the source">
-      "Show the source"
-    </button>
-    <button description="Edit in CodeSandbox">
-      "Edit in CodeSandbox"
-    </button>
-    <button description="Copy the source">
-      "Copy the source"
-    </button>
-    <combobox haspopup="menu">
-      "See more"
-    </combobox>
-    <heading level="2">
-      "With a Dialog"
-    </heading>
+    <button pressed="true">Show JavaScript source</button>
+    <button pressed="false">Show TypeScript source</button>
+    <button description="Show the source">Show the source</button>
+    <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
+    <button description="Copy the source">Copy the source</button>
+    <combobox haspopup="menu">See more</combobox>
+    <heading level="2">With a Dialog</heading>
     <text>
-      "While it's discouraged by the Material Design specification, you can
-      use a select inside a dialog."
+      While it's discouraged by the Material Design specification, you can
+      use a select inside a dialog.
     </text>
     <generic>
-      "OPEN SELECT DIALOG"
-      <button>
-        "OPEN SELECT DIALOG"
-      </button>
+      OPEN SELECT DIALOG
+      <button>OPEN SELECT DIALOG</button>
     </generic>
-    <button pressed="true">
-      "Show JavaScript source"
-    </button>
-    <button pressed="false">
-      "Show TypeScript source"
-    </button>
-    <button description="Show the source">
-      "Show the source"
-    </button>
-    <button description="Edit in CodeSandbox">
-      "Edit in CodeSandbox"
-    </button>
-    <button description="Copy the source">
-      "Copy the source"
-    </button>
-    <combobox haspopup="menu">
-      "See more"
-    </combobox>
-    <heading level="2">
-      "Grouping"
-    </heading>
+    <button pressed="true">Show JavaScript source</button>
+    <button pressed="false">Show TypeScript source</button>
+    <button description="Show the source">Show the source</button>
+    <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
+    <button description="Copy the source">Copy the source</button>
+    <combobox haspopup="menu">See more</combobox>
+    <heading level="2">Grouping</heading>
     <text>
-      "Display categories with theListSubheadercomponent or the
-      native<optgroup>element."
+      Display categories with theListSubheadercomponent or the
+      native<optgroup>element.
     </text>
     <generic>
-      "GroupingGrouping ​"
-      <text>
-        "Grouping "
-      </text>
+      GroupingGrouping ​<text>Grouping </text>
       <combobox>
-        ""
-        <menuitem selected="true">
-          ""
-        </menuitem>
-        <menuitem>
-          "Option 1"
-        </menuitem>
-        <menuitem>
-          "Option 2"
-        </menuitem>
-        <menuitem>
-          "Option 3"
-        </menuitem>
-        <menuitem>
-          "Option 4"
-        </menuitem>
+        <menuitem selected="true"></menuitem>
+        <menuitem>Option 1</menuitem>
+        <menuitem>Option 2</menuitem>
+        <menuitem>Option 3</menuitem>
+        <menuitem>Option 4</menuitem>
       </combobox>
-      <text>
-        "Grouping "
-      </text>
-      <combobox haspopup="listbox">
-        "​"
-      </combobox>
+      <text>Grouping </text>
+      <combobox haspopup="listbox">​</combobox>
     </generic>
-    <button pressed="true">
-      "Show JavaScript source"
-    </button>
-    <button pressed="false">
-      "Show TypeScript source"
-    </button>
-    <button description="Show the source">
-      "Show the source"
-    </button>
-    <button description="Edit in CodeSandbox">
-      "Edit in CodeSandbox"
-    </button>
-    <button description="Copy the source">
-      "Copy the source"
-    </button>
-    <combobox haspopup="menu">
-      "See more"
-    </combobox>
-    <heading level="2">
-      "Accessibility"
-    </heading>
+    <button pressed="true">Show JavaScript source</button>
+    <button pressed="false">Show TypeScript source</button>
+    <button description="Show the source">Show the source</button>
+    <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
+    <button description="Copy the source">Copy the source</button>
+    <combobox haspopup="menu">See more</combobox>
+    <heading level="2">Accessibility</heading>
     <text>
-      "To properly label yourSelectinput you need an extra element with anidthat
+      To properly label yourSelectinput you need an extra element with anidthat
       contains a label. Thatidneeds to match thelabelIdof
       theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
       aTextFieldwith anidandlabelcreates the proper markup and ids for
-      you:<TextFieldid="select"label="Age"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>"
+      you:<TextFieldid="select"label="Age"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
     </text>
-    <heading level="2">
-      "API"
-    </heading>
-    <text>
-      "•"
-    </text>
-    <link>
-      "<NativeSelect />"
-    </link>
-    <text>
-      "•"
-    </text>
-    <link>
-      "<Select />"
-    </link>
-    <link>
-      "Radio"
-    </link>
-    <link>
-      "Slider"
-    </link>
+    <heading level="2">API</heading>
+    <text>•</text>
+    <link><NativeSelect /></link>
+    <text>•</text>
+    <link><Select /></link>
+    <link>Radio</link>
+    <link>Slider</link>
   </main>
-  <text>
-    "Contents"
-  </text>
-  <link>
-    "Simple Select"
-  </link>
-  <link>
-    "Advanced features"
-  </link>
-  <link>
-    "Native Select"
-  </link>
-  <link>
-    "Text Fields"
-  </link>
-  <link>
-    "Customized selects"
-  </link>
-  <link>
-    "Multiple Select"
-  </link>
-  <link>
-    "Controlled Open Select"
-  </link>
-  <link>
-    "With a Dialog"
-  </link>
-  <link>
-    "Grouping"
-  </link>
-  <link>
-    "Accessibility"
-  </link>
-  <link>
-    "API"
-  </link>
-  <text>
-    "Diamond Sponsors"
-  </text>
-  <link>
-    "Diamond Sponsors"
-  </link>
-</WebArea>
+  <text>Contents</text>
+  <link>Simple Select</link>
+  <link>Advanced features</link>
+  <link>Native Select</link>
+  <link>Text Fields</link>
+  <link>Customized selects</link>
+  <link>Multiple Select</link>
+  <link>Controlled Open Select</link>
+  <link>With a Dialog</link>
+  <link>Grouping</link>
+  <link>Accessibility</link>
+  <link>API</link>
+  <text>Diamond Sponsors</text>
+  <link>Diamond Sponsors</link>
+</WebArea>;
 
 `;
