@@ -30,7 +30,7 @@ async function main() {
 
       await git(`push origin ${branch}`);
       const octokit = new github.GitHub(core.getInput("token"));
-      octokit.pulls.create({
+      await octokit.pulls.create({
         owner: github.context.repo.owner,
         repo: github.context.repo.repo,
         base: "master",
