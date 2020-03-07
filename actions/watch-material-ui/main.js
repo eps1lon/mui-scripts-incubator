@@ -23,6 +23,7 @@ async function main() {
       await git('config --local user.name "GitHub Action"');
 
       const branch = `github-actions/fix/master`;
+      await git(`branch -D ${branch}`);
       await git(`checkout -b ${branch}`);
       await git("add -A");
       await git('commit -m "Update snapshots"');
