@@ -142,6 +142,11 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <main>
     <link>EDIT THIS PAGE</link>
     <heading level="1">Select</heading>
+    <link>
+      bonsaiilabs Learn Material‑UI A course to learn Material-UI while
+      developing a flight search/booking app.
+    </link>
+    <link>ad by Material-UI</link>
     <heading level="2">Simple Select</heading>
     <text>
       Menus are positioned over their emitting elements such that the currently
