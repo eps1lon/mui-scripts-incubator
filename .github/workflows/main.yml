@@ -13,4 +13,4 @@ jobs:
           node-version: "12.x"
       - name: install
         run: yarn install
-      - uses: ./github/.actions/watch-material-ui
+      - uses: ./actions/watch-material-ui
