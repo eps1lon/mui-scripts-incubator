@@ -13,9 +13,9 @@ async function main() {
   const { eventName, event } = github.context;
 
   if (eventName === "push") {
-    a11ySnapshot({ argv: "--updateSnapshot" });
+    await a11ySnapshot({ argv: "--updateSnapshot" });
 
-    const gotUpdated = await git("status --porcelain");
+    const { stdout: gotUpdated } = await git("status --porcelain");
     core.info(gotUpdated);
     if (gotUpdated) {
       await git('config --local user.email "action@github.com"');
