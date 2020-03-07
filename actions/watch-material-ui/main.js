@@ -10,7 +10,7 @@ async function main() {
   const { eventName, event } = github.context;
 
   if (eventName === "push") {
-    a11ySnapshot({ argv: ["--update"] });
+    a11ySnapshot({ argv: ["--updateSnapshot"] });
   } else if (eventName === "repository_dispatch") {
     a11ySnapshot({ prNumber: event.client_payload.pr_number });
   }
