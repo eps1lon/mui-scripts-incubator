@@ -21,7 +21,8 @@ async function main() {
     prNumber
   });
 
-  const muiBranch = Number.isNaN(prNumber) ? "master" : `pr/${prNumber}`;
+  const isPr = Number.isNaN(prNumber) === false;
+  const muiBranch = !isPr ? "master" : `pr/${prNumber}`;
 
   const { stdout: gotUpdated } = await git("status --porcelain");
   if (gotUpdated) {
@@ -41,6 +42,9 @@ async function main() {
       base: "master",
       head: branch,
       title: `Update snapshots for ${muiBranch}`,
+      body: isPr
+        ? `changes of https://github.com/mui-org/material-ui/pull/${prNumber}`
+        : "changes on `master`",
       maintainer_can_modify: true
     });
   }
