@@ -6,6 +6,7 @@ const { promisify } = require("util");
 const exec = promisify(childProcess.exec);
 
 main().catch(error => {
+  console.error(error);
   core.error(error.stdout);
   core.error(error.stderr);
   core.setFailed(error.message);
@@ -47,7 +48,7 @@ async function main() {
 
 async function git(command, ...args) {
   const { stdout, stderr } = await exec(`git ${command}`, ...args);
-  core.info(stderr);
-  core.error(stderr);
+  if (stdout) core.info(stdout);
+  if (stderr) core.error(stderr);
   return { stdout, stderr };
 }
