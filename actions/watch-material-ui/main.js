@@ -6,7 +6,6 @@ const { promisify } = require("util");
 const exec = promisify(childProcess.exec);
 
 main().catch(error => {
-  console.error(error);
   core.error(error.stdout);
   core.error(error.stderr);
   core.setFailed(error.message);
@@ -19,7 +18,6 @@ async function main() {
     await a11ySnapshot({ argv: "--updateSnapshot" });
 
     const { stdout: gotUpdated } = await git("status --porcelain");
-    core.info(gotUpdated);
     if (gotUpdated) {
       await git('config --local user.email "action@github.com"');
       await git('config --local user.name "GitHub Action"');
