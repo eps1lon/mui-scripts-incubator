@@ -20,6 +20,7 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
     Toggle notifications panel
   </combobox>
   <link description="GitHub repository">GitHub repository</link>
+  <text>Drawerswipe area</text>
   <main>
     <heading level="1">MATERIAL-UI</heading>
     <heading level="2">
@@ -139,6 +140,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     Toggle notifications panel
   </combobox>
   <link description="GitHub repository">GitHub repository</link>
+  <text>Drawerswipe area</text>
   <main>
     <link>EDIT THIS PAGE</link>
     <heading level="1">Select</heading>
