@@ -5,9 +5,6 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
   Material-UI: A popular React UI framework
   <link>Skip to content</link>
   <button>Open main navigation</button>
-  <combobox autocomplete="list" haspopup="listbox">
-    Search
-  </combobox>
   <combobox description="Change language" haspopup="menu">
     Change language
   </combobox>
