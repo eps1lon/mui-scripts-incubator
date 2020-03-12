@@ -53,8 +53,8 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
     <link>EXPLORE THE DOCS</link>
     <heading level="2">Premium themes</heading>
     <text>
-      Take your project to the next level with premium themes from our store –
-      all built on Material-UI.
+      Take your project to the next level with premium themes from our official
+      marketplace – all built on Material-UI.
     </text>
     <link>Browse themes</link>
     <link>BROWSE THEMES</link>
@@ -111,7 +111,7 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
   <link>Contact Us</link>
   <link>Jobs</link>
   <text>Currently</text>
-  <link>v4.9.5. View versions page.</link>
+  <link>v4.9.4. View versions page.</link>
   <text>. Released under the</text>
   <link>MIT License</link>
   <text>.Copyright ©2020Material-UI.</text>
