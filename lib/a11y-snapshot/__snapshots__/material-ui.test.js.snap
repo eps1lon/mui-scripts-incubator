@@ -191,8 +191,8 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     </text>
     <link>component</link>
     <text>
-      . It's also meant to be an improved version of the
-      "react-select" package.
+      . It's meant to be an improved version of the
+      "react-select" and "downshift" packages.
     </text>
     <heading level="2">Native Select</heading>
     <text>
