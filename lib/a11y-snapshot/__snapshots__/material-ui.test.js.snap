@@ -200,21 +200,21 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
       of the platform, we allow such pattern.
     </text>
     <generic>
-      AgeAge Some important helper textage With visually hidden labelAge None
-      Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-      Uncontrolledage PlaceholderAge * RequiredAgeAge
+      Age NoneAge None Some important helper textage With visually hidden
+      labelAge None Label + placeholderName Hai DisabledName Hai ErrorName
+      Thirty Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
       <text>Age </text>
-      <combobox>
+      <combobox value="None">
         Age
-        <menuitem selected="true"></menuitem>
+        <menuitem selected="true">None</menuitem>
         <menuitem>Ten</menuitem>
         <menuitem>Twenty</menuitem>
         <menuitem>Thirty</menuitem>
       </combobox>
       <text>Age </text>
-      <combobox>
+      <combobox value="None">
         Age
-        <menuitem selected="true"></menuitem>
+        <menuitem selected="true">None</menuitem>
         <menuitem>Ten</menuitem>
         <menuitem>Twenty</menuitem>
         <menuitem>Thirty</menuitem>
@@ -238,7 +238,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
       <text>Label + placeholderName </text>
       <combobox value="Hai" disabled="true">
         Name
-        <menuitem></menuitem>
+        <menuitem>None</menuitem>
         <menuitem selected="true">Hai</menuitem>
         <menuitem>Olivier</menuitem>
         <menuitem>Kevin</menuitem>
@@ -246,7 +246,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
       <text>DisabledName </text>
       <combobox value="Hai" invalid="true">
         Name
-        <menuitem></menuitem>
+        <menuitem>None</menuitem>
         <menuitem selected="true">Hai</menuitem>
         <menuitem>Olivier</menuitem>
         <menuitem>Kevin</menuitem>
@@ -254,7 +254,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
       <text>ErrorName </text>
       <combobox value="Thirty">
         Name
-        <menuitem></menuitem>
+        <menuitem>None</menuitem>
         <menuitem>Ten</menuitem>
         <menuitem>Twenty</menuitem>
         <menuitem selected="true">Thirty</menuitem>
@@ -268,25 +268,25 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
         <menuitem>Thirty</menuitem>
       </combobox>
       <text>PlaceholderAge * </text>
-      <combobox>
+      <combobox value="None">
         Age *
-        <menuitem selected="true"></menuitem>
+        <menuitem selected="true">None</menuitem>
         <menuitem>Ten</menuitem>
         <menuitem>Twenty</menuitem>
         <menuitem>Thirty</menuitem>
       </combobox>
       <text>RequiredAge</text>
-      <combobox>
+      <combobox value="None">
         Age
-        <menuitem selected="true"></menuitem>
+        <menuitem selected="true">None</menuitem>
         <menuitem>Ten</menuitem>
         <menuitem>Twenty</menuitem>
         <menuitem>Thirty</menuitem>
       </combobox>
       <text>Age </text>
-      <combobox>
+      <combobox value="None">
         Age
-        <menuitem selected="true"></menuitem>
+        <menuitem selected="true">None</menuitem>
         <menuitem>Ten</menuitem>
         <menuitem>Twenty</menuitem>
         <menuitem>Thirty</menuitem>
@@ -317,15 +317,15 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
       selectinputproperty to have aselectfield.
     </text>
     <generic>
-      AgeAge Age ​Age
+      AgeAge Age ​Age none
       <text>Age</text>
       <textbox>Age</textbox>
       <text>Age</text>
       <combobox haspopup="listbox">Age ​</combobox>
       <text>Age</text>
-      <combobox>
+      <combobox value="none">
         Age
-        <menuitem selected="true"></menuitem>
+        <menuitem selected="true">none</menuitem>
         <menuitem>Ten</menuitem>
         <menuitem>Twenty</menuitem>
         <menuitem>Thirty</menuitem>
@@ -408,9 +408,9 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
       native<optgroup>element.
     </text>
     <generic>
-      GroupingGrouping ​<text>Grouping </text>
-      <combobox>
-        <menuitem selected="true"></menuitem>
+      Grouping NoneGrouping ​<text>Grouping </text>
+      <combobox value="None">
+        <menuitem selected="true">None</menuitem>
         <menuitem>Option 1</menuitem>
         <menuitem>Option 2</menuitem>
         <menuitem>Option 3</menuitem>
