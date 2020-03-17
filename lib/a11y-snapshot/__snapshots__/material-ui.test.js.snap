@@ -47,8 +47,8 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
     <text>
       Material-UI components work without any additional setup, and don't
       pollute the global
-      scope.importReactfrom'react';importButtonfrom'@material-ui/core/Button';constApp=()=>(<Buttonvariant="contained"color="primary">Hello
-      World</Button>);
+      scope.importReactfrom'react';import{Button}from'@material-ui/core';functionApp(){return<Buttoncolor="primary">Hello
+      World</Button>;}
     </text>
     <link>EXPLORE THE DOCS</link>
     <heading level="2">Premium themes</heading>
