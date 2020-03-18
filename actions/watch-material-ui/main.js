@@ -15,9 +15,9 @@ async function main() {
   const { eventName, payload } = github.context;
 
   const targetUrl =
-    eventName === "push"
-      ? "https://material-ui.netlify.com/"
-      : payload.client_payload.target_url;
+    eventName === "repository_dispatch"
+      ? payload.client_payload.target_url
+      : "https://material-ui.netlify.com/";
   core.info(`client_payload: ${JSON.stringify(payload.client_payload)}`);
 
   const prNumberMatch = targetUrl.match(/deploy-preview-(\d+)/);
