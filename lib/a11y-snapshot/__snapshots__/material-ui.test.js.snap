@@ -111,7 +111,7 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
   <link>Contact Us</link>
   <link>Jobs</link>
   <text>Currently</text>
-  <link>v4.9.5. View versions page.</link>
+  <link>v4.9.6. View versions page.</link>
   <text>. Released under the</text>
   <link>MIT License</link>
   <text>.Copyright ©2020Material-UI.</text>
