@@ -162,6 +162,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
+  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">Advanced features</heading>
   <text>
@@ -276,6 +277,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
+  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">Text Fields</heading>
   <text>
@@ -315,6 +317,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
+  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">Multiple Select</heading>
   <text>
@@ -353,6 +356,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
+  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">Controlled Open Select</heading>
   <generic>
@@ -365,6 +369,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
+  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">With a Dialog</heading>
   <text>
@@ -380,6 +385,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
+  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">Grouping</heading>
   <text>
@@ -403,6 +409,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
+  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">Accessibility</heading>
   <text>
