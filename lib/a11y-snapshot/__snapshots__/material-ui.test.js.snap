@@ -111,7 +111,7 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
   <link>Contact Us</link>
   <link>Jobs</link>
   <text>Currently</text>
-  <link>v4.9.6. View versions page.</link>
+  <link>v4.9.5. View versions page.</link>
   <text>. Released under the</text>
   <link>MIT License</link>
   <text>.Copyright ©2020Material-UI.</text>
@@ -162,7 +162,6 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">Advanced features</heading>
   <text>
@@ -277,7 +276,6 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">Text Fields</heading>
   <text>
@@ -317,7 +315,6 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">Multiple Select</heading>
   <text>
@@ -356,7 +353,6 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">Controlled Open Select</heading>
   <generic>
@@ -369,7 +365,6 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">With a Dialog</heading>
   <text>
@@ -385,7 +380,6 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">Grouping</heading>
   <text>
@@ -409,7 +403,6 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">Accessibility</heading>
   <text>
@@ -417,7 +410,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
