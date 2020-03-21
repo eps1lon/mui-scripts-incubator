@@ -47,14 +47,14 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
     <text>
       Material-UI components work without any additional setup, and don't
       pollute the global
-      scope.importReactfrom'react';import{Button}from'@material-ui/core';functionApp(){return<Buttoncolor="primary">Hello
-      World</Button>;}
+      scope.importReactfrom'react';importButtonfrom'@material-ui/core/Button';constApp=()=>(<Buttonvariant="contained"color="primary">Hello
+      World</Button>);
     </text>
     <link>EXPLORE THE DOCS</link>
     <heading level="2">Premium themes</heading>
     <text>
-      Take your project to the next level with premium themes from our store –
-      all built on Material-UI.
+      Take your project to the next level with premium themes from our official
+      marketplace – all built on Material-UI.
     </text>
     <link>Browse themes</link>
     <link>BROWSE THEMES</link>
@@ -111,7 +111,7 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
   <link>Contact Us</link>
   <link>Jobs</link>
   <text>Currently</text>
-  <link>v4.9.6. View versions page.</link>
+  <link>v4.9.2. View versions page.</link>
   <text>. Released under the</text>
   <link>MIT License</link>
   <text>.Copyright ©2020Material-UI.</text>
@@ -162,31 +162,18 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
-  <heading level="2">Advanced features</heading>
-  <text>
-    The Select component is meant to be interchangeable with a
-    native<select>element.If you are looking for more advanced features,
-    like combobox, multiselect, autocomplete, async or creatable support, head
-    to the
-  </text>
-  <link>component</link>
-  <text>
-    . It's meant to be an improved version of the "react-select"
-    and "downshift" packages.
-  </text>
   <heading level="2">Native Select</heading>
   <text>
     As the user experience can be improved on mobile using the native select of
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
+    AgeAge Some important helper textage With visually hidden labelAge None
+    Label + placeholderName Hai DisabledName Hai ErrorName Thirty
+    Uncontrolledage PlaceholderAge * RequiredAgeAge
     <text>Age </text>
-    <combobox value="None">
+    <combobox>
       Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
@@ -194,7 +181,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
       <menuitem>Thirty</menuitem>
     </combobox>
     <text>Age </text>
-    <combobox value="None">
+    <combobox>
       Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
@@ -220,7 +207,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     <text>Label + placeholderName </text>
     <combobox value="Hai" disabled="true">
       Name
-      <menuitem>None</menuitem>
+      <menuitem></menuitem>
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
@@ -228,6 +215,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     <text>DisabledName </text>
     <combobox value="Hai" invalid="true">
       Name
+      <menuitem></menuitem>
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
@@ -235,6 +223,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     <text>ErrorName </text>
     <combobox value="Thirty">
       Name
+      <menuitem></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
@@ -248,7 +237,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
       <menuitem>Thirty</menuitem>
     </combobox>
     <text>PlaceholderAge * </text>
-    <combobox value="None">
+    <combobox>
       Age *
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
@@ -256,7 +245,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
       <menuitem>Thirty</menuitem>
     </combobox>
     <text>RequiredAge</text>
-    <combobox value="None">
+    <combobox>
       Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
@@ -264,7 +253,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
       <menuitem>Thirty</menuitem>
     </combobox>
     <text>Age </text>
-    <combobox value="None">
+    <combobox>
       Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
@@ -277,7 +266,6 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">Text Fields</heading>
   <text>
@@ -298,13 +286,13 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    AgeAge Age ​Age
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age</text>
-    <combobox value="None">
+    <combobox>
       Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
@@ -317,7 +305,6 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">Multiple Select</heading>
   <text>
@@ -356,7 +343,6 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">Controlled Open Select</heading>
   <generic>
@@ -369,7 +355,6 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">With a Dialog</heading>
   <text>
@@ -385,7 +370,6 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">Grouping</heading>
   <text>
@@ -393,8 +377,8 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
-    <combobox value="None">
+    GroupingGrouping ​<text>Grouping </text>
+    <combobox>
       <menuitem selected="true"></menuitem>
       <menuitem>Option 1</menuitem>
       <menuitem>Option 2</menuitem>
@@ -409,7 +393,6 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <button description="Show the source">Show the source</button>
   <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
   <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">Accessibility</heading>
   <text>
@@ -417,7 +400,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
