@@ -109,7 +109,6 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
   <heading level="2">Company</heading>
   <link>About</link>
   <link>Contact Us</link>
-  <link>Jobs</link>
   <text>Currently</text>
   <link>v4.9.6. View versions page.</link>
   <text>. Released under the</text>
