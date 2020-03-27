@@ -394,6 +394,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <generic>
     Grouping NoneGrouping ​<text>Grouping </text>
     <combobox value="None">
+      Grouping
       <menuitem selected="true"></menuitem>
       <menuitem>Option 1</menuitem>
       <menuitem>Option 2</menuitem>
