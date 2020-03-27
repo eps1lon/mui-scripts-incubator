@@ -5,9 +5,6 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
   Material-UI: A popular React UI framework
   <link>Skip to content</link>
   <button>Open main navigation</button>
-  <combobox autocomplete="list" haspopup="listbox">
-    Search
-  </combobox>
   <combobox description="Change language" haspopup="menu">
     Change language
   </combobox>
@@ -20,6 +17,7 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
     Toggle notifications panel
   </combobox>
   <link description="GitHub repository">GitHub repository</link>
+  <navigation>Main navigation</navigation>
   <main>
     <heading level="1">MATERIAL-UI</heading>
     <heading level="2">
@@ -28,11 +26,10 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
     </heading>
     <link>GET STARTED</link>
     <link>Star</link>
-    <Iframe>Twitter Follow Button</Iframe>
+    <link>Follow</link>
     <link>Get Professional Support</link>
     <text>A quick word from our sponsors:</text>
-    <link>a random quick word</link>
-    <heading level="3">Installation</heading>
+    <heading level="3">a random quick word</heading>
     <text>
       Install Material-UI's source files via npm. We take care of injecting
       the CSS needed.$ npm install @material-ui/core
@@ -51,50 +48,6 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
       World</Button>;}
     </text>
     <link>EXPLORE THE DOCS</link>
-    <heading level="2">Premium themes</heading>
-    <text>
-      Take your project to the next level with premium themes from our store –
-      all built on Material-UI.
-    </text>
-    <link>Browse themes</link>
-    <link>BROWSE THEMES</link>
-    <heading level="2">Material-UI's sponsors</heading>
-    <text>
-      The continued development and maintenance of Material-UI is made possible
-      by these generous sponsors:
-    </text>
-    <heading level="3">Diamond 💎</heading>
-    <text>3/3 slots available</text>
-    <heading level="3">Gold 🏆</heading>
-    <link>tidelift</link>
-    <link>bitsrc</link>
-    <link>call-em-all</link>
-    <heading level="3">There are more!</heading>
-    <text>See the full list of</text>
-    <link>our sponsors</link>
-    <text>
-      , and learn how you can contribute to the future of Material-UI.
-    </text>
-    <heading level="2">Praise for Material-UI</heading>
-    <text>a random quote about Material-UI</text>
-    <link>a random quote about Material-UI</link>
-    <link>a random quote about Material-UI</link>
-    <link>a random quote about Material-UI</link>
-    <heading level="2">a random quote about Material-UI</heading>
-    <text>Join these and other great organisations!</text>
-    <img>NASA</img>
-    <img>Walmart Labs</img>
-    <img>Capgemini</img>
-    <img>Uniqlo</img>
-    <img>Bethesda</img>
-    <img>J.P. Morgan</img>
-    <img>Shutterstock</img>
-    <img>Netflix</img>
-    <img>Coursera</img>
-    <img>Amazon</img>
-    <img>Unity</img>
-    <text>Are you using Material-UI?</text>
-    <link>LET US KNOW!</link>
   </main>
   <link>Material-UI</link>
   <heading level="2">Community</heading>
