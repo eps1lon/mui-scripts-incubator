@@ -11,15 +11,15 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
   <combobox description="Change language" haspopup="menu">
     Change language
   </combobox>
+  <combobox description="Toggle notifications panel" haspopup="menu">
+    Toggle notifications panel
+  </combobox>
   <link description="Edit website colors">Edit website colors</link>
+  <link description="GitHub repository">GitHub repository</link>
   <button description="Toggle light/dark theme">Toggle light/dark theme</button>
   <button description="Toggle right-to-left/left-to-right">
     Toggle right-to-left/left-to-right
   </button>
-  <combobox description="Toggle notifications panel" haspopup="menu">
-    Toggle notifications panel
-  </combobox>
-  <link description="GitHub repository">GitHub repository</link>
   <main>
     <heading level="1">MATERIAL-UI</heading>
     <heading level="2">
