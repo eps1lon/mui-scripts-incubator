@@ -156,13 +156,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     <text>Age </text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
-  <button pressed="true">Show JavaScript source</button>
-  <button pressed="false">Show TypeScript source</button>
-  <button description="Show the source">Show the source</button>
-  <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
-  <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
-  <combobox haspopup="menu">See more</combobox>
+  <toolbar>demo source</toolbar>
   <heading level="2">Advanced features</heading>
   <text>
     The Select component is meant to be interchangeable with a
@@ -271,13 +265,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
       <menuitem>Thirty</menuitem>
     </combobox>
   </generic>
-  <button pressed="true">Show JavaScript source</button>
-  <button pressed="false">Show TypeScript source</button>
-  <button description="Show the source">Show the source</button>
-  <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
-  <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
-  <combobox haspopup="menu">See more</combobox>
+  <toolbar>demo source</toolbar>
   <heading level="2">Text Fields</heading>
   <text>
     TheTextFieldwrapper component is a complete form control including a label,
@@ -311,13 +299,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
       <menuitem>Thirty</menuitem>
     </combobox>
   </generic>
-  <button pressed="true">Show JavaScript source</button>
-  <button pressed="false">Show TypeScript source</button>
-  <button description="Show the source">Show the source</button>
-  <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
-  <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
-  <combobox haspopup="menu">See more</combobox>
+  <toolbar>demo source</toolbar>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -350,26 +332,14 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
       <option>Kelly Snyder</option>
     </listbox>
   </generic>
-  <button pressed="true">Show JavaScript source</button>
-  <button pressed="false">Show TypeScript source</button>
-  <button description="Show the source">Show the source</button>
-  <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
-  <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
-  <combobox haspopup="menu">See more</combobox>
+  <toolbar>demo source</toolbar>
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
     <text>Age </text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
-  <button pressed="true">Show JavaScript source</button>
-  <button pressed="false">Show TypeScript source</button>
-  <button description="Show the source">Show the source</button>
-  <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
-  <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
-  <combobox haspopup="menu">See more</combobox>
+  <toolbar>demo source</toolbar>
   <heading level="2">With a Dialog</heading>
   <text>
     While it's discouraged by the Material Design specification, you can
@@ -379,13 +349,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     OPEN SELECT DIALOG
     <button>OPEN SELECT DIALOG</button>
   </generic>
-  <button pressed="true">Show JavaScript source</button>
-  <button pressed="false">Show TypeScript source</button>
-  <button description="Show the source">Show the source</button>
-  <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
-  <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
-  <combobox haspopup="menu">See more</combobox>
+  <toolbar>demo source</toolbar>
   <heading level="2">Grouping</heading>
   <text>
     Display categories with theListSubheadercomponent or the
@@ -404,13 +368,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     <text>Grouping </text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
-  <button pressed="true">Show JavaScript source</button>
-  <button pressed="false">Show TypeScript source</button>
-  <button description="Show the source">Show the source</button>
-  <button description="Edit in CodeSandbox">Edit in CodeSandbox</button>
-  <button description="Copy the source">Copy the source</button>
-  <button description="Reset demo">Reset demo</button>
-  <combobox haspopup="menu">See more</combobox>
+  <toolbar>demo source</toolbar>
   <heading level="2">Accessibility</heading>
   <text>
     To properly label yourSelectinput you need an extra element with anidthat
