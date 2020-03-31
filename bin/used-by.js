@@ -5,15 +5,59 @@ const fs = require("fs");
 const JSONStream = require("JSONStream");
 const fetch = require("node-fetch");
 const path = require("path");
+const yargs = require("yargs");
 
-main({ delay: 3000, output: path.join(__dirname, "../result.json") });
+yargs
+  .command({
+    command: "$0 outputPath [repository]",
+    describe: "creates JSON file containing all dependend repositories",
+    builder: command => {
+      return command
+        .positional("outputPath", {
+          describe: "path to the file that should be written",
+          type: "string"
+        })
+        .positional("repository", {
+          describe: "repository to use",
+          type: "string",
+          default: "mui-org/material-ui"
+        })
+        .option("packageId", {
+          // @material-ui/core
+          default: "UGFja2FnZS00NTUzMzAxNTM%3D",
+          describe:
+            "For repositories with multiple packages. Omit for using the default package.",
+          type: "string"
+        })
+        .option("delay", {
+          default: 3000,
+          describe: "Delay in milliseconds between each request to github.com",
+          type: "number"
+        });
+    },
+    handler: argv => {
+      const { delay, outputPath, packageId, repository } = argv;
+      const [owner, name] = repository.split("/");
 
-async function main({ delay, output }) {
+      main({
+        delay,
+        name,
+        owner,
+        packageId,
+        outputPath: path.resolve(outputPath)
+      });
+    }
+  })
+  .help()
+  .strict(true)
+  .version(false)
+  .parse();
+
+async function main({ delay, owner, name, outputPath, packageId }) {
   const outputStream = JSONStream.stringify("[\n", "\n,", "\n]\n");
-  outputStream.pipe(fs.createWriteStream(output));
+  outputStream.pipe(fs.createWriteStream(outputPath));
 
-  const startUrl =
-    "https://github.com/mui-org/material-ui/network/dependents?dependent_type=REPOSITORY";
+  const startUrl = `https://github.com/${owner}/${name}/network/dependents?package_id=${packageId}`;
 
   for await (const result of getResult(startUrl, { delay })) {
     outputStream.write(result);
