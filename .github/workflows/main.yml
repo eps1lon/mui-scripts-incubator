@@ -1,0 +1,25 @@
+name: watch-material-ui
+
+on:
+  push:
+  repository_dispatch:
+  schedule:
+    # run every hour to catch new deploys of master
+    # netlify triggers no status check so I don't know
+    # how I could be notified if it finishes a deploy of master
+    - cron: "0 * * * *"
+
+jobs:
+  a11y-snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+      - name: install
+        run: yarn install
+      - uses: ./actions/watch-material-ui
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}

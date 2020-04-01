@@ -1,0 +1,9 @@
+name: "watch-material-ui"
+description: "Watches mui-org/material-ui and runs experimental workflows"
+runs:
+  using: "node12"
+  main: "main.js"
+inputs:
+  token:
+    description: "GitHub API token"
+    required: true
