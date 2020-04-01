@@ -128,15 +128,15 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout labelAge Age Label +
-    placeholderName Name ​ DisabledName Name ​ ErrorName Name ​ Read onlyAge Age
-    ​ Auto widthPlaceholder PlaceholderAge * Age ​ RequiredAge Age ​Age Age ​
-    <text>Age </text>
+    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
+    Age Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​ Read
+    onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​ RequiredAge Age
+    ​Age Age ​<text>Age </text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Some important helper text </text>
-    <combobox haspopup="listbox"></combobox>
+    <combobox haspopup="listbox">Without label</combobox>
     <text>Without labelAge </text>
     <combobox haspopup="listbox">Age</combobox>
     <text>Label + placeholderName </text>
@@ -148,7 +148,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     <text>Read onlyAge </text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
-    <combobox haspopup="listbox">Placeholder</combobox>
+    <combobox haspopup="listbox">Without label</combobox>
     <text>PlaceholderAge * </text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
@@ -326,7 +326,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Native
+    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
     <text>Name </text>
     <combobox haspopup="listbox">Name ​</combobox>
     <text>Tag </text>
@@ -334,7 +334,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     <text>Chip </text>
     <combobox haspopup="listbox">Chip ​</combobox>
     <text> </text>
-    <combobox haspopup="listbox"></combobox>
+    <combobox haspopup="listbox">Without label</combobox>
     <text>Native </text>
     <listbox multiselectable="true">
       Native
