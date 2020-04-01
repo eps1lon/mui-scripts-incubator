@@ -1,0 +1,3 @@
+*.tgz
+*.json
+!*.used-by.json
