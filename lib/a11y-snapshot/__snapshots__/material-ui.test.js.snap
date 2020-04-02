@@ -27,8 +27,6 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
       design system, or start with Material Design.
     </heading>
     <link>GET STARTED</link>
-    <link>Star</link>
-    <Iframe>Twitter Follow Button</Iframe>
     <link>Get Professional Support</link>
     <text>A quick word from our sponsors:</text>
     <link>a random quick word</link>
