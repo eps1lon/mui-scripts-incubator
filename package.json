@@ -36,6 +36,7 @@
   "devDependencies": {
     "@actions/core": "^1.2.3",
     "@actions/github": "^2.1.1",
+    "@types/puppeteer": "^2.0.1",
     "eslint": "^6.8.0"
   },
   "resolutions": {
