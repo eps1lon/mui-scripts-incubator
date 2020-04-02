@@ -1,45 +1,48 @@
 {
-  "name": "@eps1lon/mui-scripts",
-  "version": "0.4.3",
-  "description": "scripts for material-ui maintainers",
-  "bin": "bin/entrypoint.js",
-  "license": "MIT",
-  "engines": {
-    "node": "^12.0.0"
-  },
-  "dependencies": {
-    "@octokit/graphql": "^4.3.1",
-    "jest": "^25.2.4",
-    "jest-puppeteer": "^4.4.0",
-    "lighthouse": "^5.6.0",
-    "lodash": "^4.17.15",
-    "prettier": "^1.19.1",
-    "puppeteer": "^2.1.1",
-    "yargs": "^15.3.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@github.com:eps1lon/mui-scripts-incubator.git"
-  },
-  "scripts": {
-    "a11y-snapshot": "jest -c lib/a11y-snapshot/jest.config.js",
-    "format:base": "prettier \"bin/**/*.js\"",
-    "format:check": "yarn format:base --check",
-    "format": "yarn format:base --write",
-    "lint": "eslint \"{bin,lib,.github}/**/*.js\"",
-    "prepublishOnly": "yarn format:check && yarn lint"
-  },
-  "files": [
-    "bin",
-    "lib"
-  ],
-  "devDependencies": {
-    "@actions/core": "^1.2.3",
-    "@actions/github": "^2.1.1",
-    "@types/puppeteer": "^2.0.1",
-    "eslint": "^6.8.0"
-  },
-  "resolutions": {
-    "**/minimist": "^1.2.1"
-  }
+	"name": "@eps1lon/mui-scripts",
+	"version": "0.4.3",
+	"description": "scripts for material-ui maintainers",
+	"bin": "bin/entrypoint.js",
+	"license": "MIT",
+	"engines": {
+		"node": "^12.0.0"
+	},
+	"dependencies": {
+		"@octokit/graphql": "^4.3.1",
+		"jest": "^25.2.4",
+		"jest-puppeteer": "^4.4.0",
+		"lighthouse": "^5.6.0",
+		"lodash": "^4.17.15",
+		"prettier": "^2.0.2",
+		"puppeteer": "^2.1.1",
+		"yargs": "^15.3.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "ssh://git@github.com:eps1lon/mui-scripts-incubator.git"
+	},
+	"scripts": {
+		"a11y-snapshot": "jest -c lib/a11y-snapshot/jest.config.js",
+		"format:base": "prettier .",
+		"format:check": "yarn format:base --check",
+		"format": "yarn format:base --write",
+		"lint": "eslint \"{bin,lib,.github}/**/*.js\"",
+		"prepublishOnly": "yarn format:check && yarn lint"
+	},
+	"files": [
+		"bin",
+		"lib"
+	],
+	"devDependencies": {
+		"@actions/core": "^1.2.3",
+		"@actions/github": "^2.1.1",
+		"@types/puppeteer": "^2.0.1",
+		"eslint": "^6.8.0"
+	},
+	"resolutions": {
+		"**/minimist": "^1.2.1"
+	},
+	"prettier": {
+		"useTabs": true
+	}
 }
