@@ -138,9 +138,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     <text>Without labelAge </text>
     <combobox haspopup="listbox">Age</combobox>
     <text>Label + placeholderName </text>
-    <combobox disabled="true" haspopup="listbox">
-      Name ​
-    </combobox>
+    <combobox haspopup="listbox">Name ​</combobox>
     <text>DisabledName </text>
     <combobox haspopup="listbox">Name ​</combobox>
     <text>ErrorName </text>
