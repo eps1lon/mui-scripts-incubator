@@ -22,15 +22,15 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
   </button>
   <main>
     <heading level="1">MATERIAL-UI</heading>
-    <heading level="2">
+    <text>
       React components for faster and easier web development. Build your own
       design system, or start with Material Design.
-    </heading>
+    </text>
     <link>GET STARTED</link>
     <link>Get Professional Support</link>
     <text>A quick word from our sponsors:</text>
     <link>a random quick word</link>
-    <heading level="3">Installation</heading>
+    <heading level="2">Installation</heading>
     <text>
       Install Material-UI's source files via npm. We take care of injecting
       the CSS needed.$ npm install @material-ui/core
@@ -41,7 +41,7 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
       font.<linkrel="stylesheet"href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
     </text>
     <link>READ INSTALLATION DOCS</link>
-    <heading level="3">Usage</heading>
+    <heading level="2">Usage</heading>
     <text>
       Material-UI components work without any additional setup, and don't
       pollute the global
