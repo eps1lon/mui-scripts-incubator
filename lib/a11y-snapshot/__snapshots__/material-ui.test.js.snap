@@ -22,17 +22,17 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
   </button>
   <main>
     <heading level="1">MATERIAL-UI</heading>
-    <heading level="2">
+    <text>
       React components for faster and easier web development. Build your own
       design system, or start with Material Design.
-    </heading>
+    </text>
     <link>GET STARTED</link>
     <link>Star</link>
     <Iframe>Twitter Follow Button</Iframe>
     <link>Get Professional Support</link>
     <text>A quick word from our sponsors:</text>
     <link>a random quick word</link>
-    <heading level="3">Installation</heading>
+    <heading level="2">Installation</heading>
     <text>
       Install Material-UI's source files via npm. We take care of injecting
       the CSS needed.$ npm install @material-ui/core
@@ -43,7 +43,7 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
       font.<linkrel="stylesheet"href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
     </text>
     <link>READ INSTALLATION DOCS</link>
-    <heading level="3">Usage</heading>
+    <heading level="2">Usage</heading>
     <text>
       Material-UI components work without any additional setup, and don't
       pollute the global
@@ -110,7 +110,7 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
   <link>About</link>
   <link>Contact Us</link>
   <text>Currently</text>
-  <link>v4.9.8. View versions page.</link>
+  <link>v4.9.10. View versions page.</link>
   <text>. Released under the</text>
   <link>MIT License</link>
   <text>.Copyright ©2020Material-UI.</text>
@@ -128,19 +128,21 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout labelAge Age Label +
-    placeholderName Name ​ DisabledName Name ​ ErrorName Name ​ Read onlyAge Age
-    ​ Auto widthPlaceholder PlaceholderAge * Age ​ RequiredAge Age ​Age Age ​
-    <text>Age </text>
+    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
+    Age Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​ Read
+    onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​ RequiredAge Age
+    ​Age Age ​<text>Age </text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Some important helper text </text>
-    <combobox haspopup="listbox"></combobox>
+    <combobox haspopup="listbox">Without label</combobox>
     <text>Without labelAge </text>
     <combobox haspopup="listbox">Age</combobox>
     <text>Label + placeholderName </text>
-    <combobox haspopup="listbox">Name ​</combobox>
+    <combobox disabled="true" haspopup="listbox">
+      Name ​
+    </combobox>
     <text>DisabledName </text>
     <combobox haspopup="listbox">Name ​</combobox>
     <text>ErrorName </text>
@@ -148,7 +150,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     <text>Read onlyAge </text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
-    <combobox haspopup="listbox">Placeholder</combobox>
+    <combobox haspopup="listbox">Without label</combobox>
     <text>PlaceholderAge * </text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
@@ -326,7 +328,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Native
+    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
     <text>Name </text>
     <combobox haspopup="listbox">Name ​</combobox>
     <text>Tag </text>
@@ -334,7 +336,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     <text>Chip </text>
     <combobox haspopup="listbox">Chip ​</combobox>
     <text> </text>
-    <combobox haspopup="listbox"></combobox>
+    <combobox haspopup="listbox">Without label</combobox>
     <text>Native </text>
     <listbox multiselectable="true">
       Native
