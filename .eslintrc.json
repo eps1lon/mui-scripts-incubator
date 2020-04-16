@@ -16,17 +16,10 @@
 	"rules": {},
 	"overrides": [
 		{
-			"files": "lib/a11y-snapshot/**/*.test.js",
-
-			"globals": {
-				"expect": true,
-				"describe": true,
-				"it": true,
-				"page": true,
-				"browser": true,
-				"context": true,
-				"jestPuppeteer": true
-			}
+			"env": {
+				"jest": true
+			},
+			"files": "lib/a11y-snapshot/**/*.test.js"
 		}
 	]
 }
