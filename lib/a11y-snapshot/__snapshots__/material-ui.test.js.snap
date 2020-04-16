@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
+exports[`chromium material-ui.netlify.com matches the snapshot on / 1`] = `
 <WebArea>
   Material-UI: A popular React UI framework
   <link>Skip to content</link>
@@ -28,8 +28,8 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
     </text>
     <link>GET STARTED</link>
     <link>Get Professional Support</link>
-    <text>A quick word from our sponsors:</text>
-    <link>a random quick word</link>
+    <text>random sponsor</text>
+    <link value="random href">a random quick word</link>
     <heading level="2">Installation</heading>
     <text>
       Install Material-UI's source files via npm. We take care of injecting
@@ -74,11 +74,11 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
       , and learn how you can contribute to the future of Material-UI.
     </text>
     <heading level="2">Praise for Material-UI</heading>
-    <text>a random quote about Material-UI</text>
-    <link>a random quote about Material-UI</link>
-    <link>a random quote about Material-UI</link>
-    <link>a random quote about Material-UI</link>
-    <heading level="2">a random quote about Material-UI</heading>
+    <text>Here's what some of our users are saying.</text>
+    <link value="random href">a random quote about Material-UI</link>
+    <link value="random href">a random quote about Material-UI</link>
+    <link value="random href">a random quote about Material-UI</link>
+    <heading level="2">Who's using Material-UI?</heading>
     <text>Join these and other great organisations!</text>
     <img>NASA</img>
     <img>Walmart Labs</img>
@@ -116,7 +116,7 @@ exports[`material-ui.netlify.com matches the snapshot on / 1`] = `
 
 `;
 
-exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`] = `
+exports[`chromium material-ui.netlify.com matches the snapshot on /components/selects/ 1`] = `
 <main>
   <link>EDIT THIS PAGE</link>
   <heading level="1">Select</heading>
@@ -127,16 +127,16 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   </text>
   <generic>
     Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​ Read
-    onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​ RequiredAge Age
-    ​Age Age ​<text>Age </text>
+    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
+    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
+    RequiredAge Age ​Age Age ​<text>Age </text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Some important helper text </text>
     <combobox haspopup="listbox">Without label</combobox>
     <text>Without labelAge </text>
-    <combobox haspopup="listbox">Age</combobox>
+    <combobox haspopup="listbox">Age None</combobox>
     <text>Label + placeholderName </text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
@@ -170,7 +170,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     like combobox, multiselect, autocomplete, async or creatable support, head
     to the
   </text>
-  <link>component</link>
+  <link>Autocomplete component</link>
   <text>
     . It's meant to be an improved version of the "react-select"
     and "downshift" packages.
@@ -241,7 +241,7 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
     <text>Uncontrolled </text>
     <combobox value="Placeholder">
       age
-      <menuitem selected="true">Placeholder</menuitem>
+      <menuitem disabled="true">Placeholder</menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
@@ -423,6 +423,736 @@ exports[`material-ui.netlify.com matches the snapshot on /components/selects/ 1`
   <text>•</text>
   <link><NativeSelect /></link>
   <text>•</text>
+  <link><Select /></link>
+  <link>Radio</link>
+  <link>Slider</link>
+</main>;
+
+`;
+
+exports[`firefox material-ui.netlify.com matches the snapshot on / 1`] = `
+<document>
+  Material-UI: A popular React UI framework
+  <link value="https://material-ui.netlify.app/#main-content">
+    Skip to content
+  </link>
+  <button>Open main navigation</button>
+  <combobox autocomplete="list" haspopup="true">
+    Search
+  </combobox>
+  <buttonmenu haspopup="true">Change language</buttonmenu>
+  <buttonmenu haspopup="true">Toggle notifications panel</buttonmenu>
+  <link value="https://material-ui.netlify.app/customization/color/#color-tool">
+    Edit website colors
+  </link>
+  <link value="https://github.com/mui-org/material-ui">GitHub repository</link>
+  <button>Toggle light/dark theme</button>
+  <button>Toggle right-to-left/left-to-right</button>
+  <landmark>Main navigation</landmark>
+  <landmark>
+    <heading level="1">MATERIAL-UI</heading>
+    <text-leaf>
+      React components for faster and easier web development. Build your own
+      design system, or start with Material Design.
+    </text-leaf>
+    <link value="https://material-ui.netlify.app/getting-started/installation/">
+      GET STARTED
+    </link>
+    <link value="https://material-ui.netlify.app/getting-started/support/#professional-support-premium">
+      Get Professional Support
+    </link>
+    <text-leaf>random sponsor</text-leaf>
+    <link value="random href">a random quick word</link>
+    <heading level="2">Installation</heading>
+    <text-leaf>
+      Install Material-UI's source files via npm. We take care of injecting
+      the CSS needed.$ npm install @material-ui/core
+    </text-leaf>
+    <link value="https://github.com/mui-org/material-ui/tree/master/examples/cdn">
+      or use a CDN.
+    </link>
+    <text-leaf>Load the default Roboto font.</text-leaf>
+    <text-container>
+      <text-leaf>
+        <linkrel="stylesheet"href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
+      </text-leaf>
+    </text-container>
+    <link value="https://material-ui.netlify.app/getting-started/installation/">
+      READ INSTALLATION DOCS
+    </link>
+    <heading level="2">Usage</heading>
+    <text-leaf>
+      Material-UI components work without any additional setup, and don't
+      pollute the global scope.import React from'react';import{
+      Button
+      }from'@material-ui/core';functionApp(){return<Buttoncolor="primary">Hello
+      World</Button>;}
+    </text-leaf>
+    <link value="https://material-ui.netlify.app/getting-started/usage/">
+      EXPLORE THE DOCS
+    </link>
+    <heading level="2">Premium themes</heading>
+    <text-leaf>
+      Take your project to the next level with premium themes from our store –
+      all built on Material-UI.
+    </text-leaf>
+    <link value="https://material-ui.com/store/?utm_source=docs&utm_medium=referral&utm_campaign=home-store">
+      Browse themes
+    </link>
+    <link value="https://material-ui.com/store/?utm_source=docs&utm_medium=referral&utm_campaign=home-store">
+      BROWSE THEMES
+    </link>
+    <heading level="2">Material-UI's sponsors</heading>
+    <text-leaf>
+      The continued development and maintenance of Material-UI is made possible
+      by these generous sponsors:
+    </text-leaf>
+    <heading level="3">Diamond 💎</heading>
+    <text-leaf>3/3 slots available</text-leaf>
+    <heading level="3">Gold 🏆</heading>
+    <link value="https://tidelift.com/subscription/pkg/npm-material-ui?utm_source=npm-material-ui&utm_medium=referral&utm_campaign=homepage">
+      tidelift
+    </link>
+    <link value="https://bit.dev/">bitsrc</link>
+    <link value="https://www.call-em-all.com/">call-em-all</link>
+    <heading level="3">There are more!</heading>
+    <text-leaf>See the full list of</text-leaf>
+    <link value="https://material-ui.netlify.app/discover-more/backers/">
+      our sponsors
+    </link>
+    <text-leaf>
+      , and learn how you can contribute to the future of Material-UI.
+    </text-leaf>
+    <heading level="2">Praise for Material-UI</heading>
+    <text-leaf>Here's what some of our users are saying.</text-leaf>
+    <link value="random href">a random quote about Material-UI</link>
+    <link value="random href">a random quote about Material-UI</link>
+    <link value="random href">a random quote about Material-UI</link>
+    <heading level="2">Who's using Material-UI?</heading>
+    <text-leaf>Join these and other great organisations!</text-leaf>
+    <img>NASA</img>
+    <img>Walmart Labs</img>
+    <img>Capgemini</img>
+    <img>Uniqlo</img>
+    <img>Bethesda</img>
+    <img>J.P. Morgan</img>
+    <img>Shutterstock</img>
+    <img>Netflix</img>
+    <img>Coursera</img>
+    <img>Amazon</img>
+    <img>Unity</img>
+    <text-leaf>Are you using Material-UI?</text-leaf>
+    <link value="https://spectrum.chat/material-ui/general/whos-using-material-ui~00e6687a-9b2d-454f-97a6-950d9fde71cf">
+      LET US KNOW!
+    </link>
+  </landmark>
+  <link value="https://material-ui.netlify.app/">Material-UI</link>
+  <heading level="2">Community</heading>
+  <link value="https://github.com/mui-org/material-ui">GitHub</link>
+  <link value="https://twitter.com/MaterialUI">Twitter</link>
+  <link value="https://stackoverflow.com/questions/tagged/material-ui">
+    StackOverflow
+  </link>
+  <link value="https://material-ui.netlify.app/discover-more/team/">Team</link>
+  <heading level="2">Resources</heading>
+  <link value="https://material-ui.netlify.app/getting-started/support/">
+    Support
+  </link>
+  <link value="https://medium.com/material-ui/">Blog</link>
+  <link value="https://material-ui.netlify.app/components/material-icons/">
+    Material Icons
+  </link>
+  <heading level="2">Company</heading>
+  <link value="https://material-ui.netlify.app/company/about/">About</link>
+  <link value="https://material-ui.netlify.app/company/contact/">
+    Contact Us
+  </link>
+  <text-leaf>Currently</text-leaf>
+  <link value="https://material-ui.com/versions/">
+    v4.9.10. View versions page.
+  </link>
+  <text-leaf>. Released under the</text-leaf>
+  <link value="https://github.com/mui-org/material-ui/blob/master/LICENSE">
+    MIT License
+  </link>
+  <text-leaf>. Copyright © 2020 Material-UI.</text-leaf>
+</document>;
+
+`;
+
+exports[`firefox material-ui.netlify.com matches the snapshot on /components/selects/ 1`] = `
+<landmark>
+  <link value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/selects/selects.md">
+    EDIT THIS PAGE
+  </link>
+  <heading level="1">Select</heading>
+  <heading level="2">Simple Select</heading>
+  <text-leaf>
+    Menus are positioned over their emitting elements such that the currently
+    selected menu item appears on top of the emitting element.
+  </text-leaf>
+  <section>
+    <text-leaf>Age</text-leaf>
+    <button haspopup="true">Age ​</button>
+    <text-leaf>Age</text-leaf>
+    <button haspopup="true">Age ​</button>
+    <text-leaf>Some important helper text</text-leaf>
+    <button haspopup="true">Without label</button>
+    <text-leaf>Without labelAge</text-leaf>
+    <button haspopup="true">Age None</button>
+    <text-leaf>Label + placeholderName</text-leaf>
+    <button disabled="true" haspopup="true">
+      Name ​
+    </button>
+    <text-leaf>DisabledName</text-leaf>
+    <button haspopup="true">Name ​</button>
+    <text-leaf>ErrorName</text-leaf>
+    <button haspopup="true">Name ​</button>
+    <text-leaf>Read onlyAge</text-leaf>
+    <button haspopup="true">Age ​</button>
+    <text-leaf>Auto width</text-leaf>
+    <button haspopup="true">Without label</button>
+    <text-leaf>PlaceholderAge*</text-leaf>
+    <button haspopup="true">Age  * ​</button>
+    <text-leaf>RequiredAge</text-leaf>
+    <button haspopup="true">Age ​</button>
+    <text-leaf>Age</text-leaf>
+    <button haspopup="true">Age ​</button>
+  </section>
+  <button>Show the source</button>
+  <button>Edit in CodeSandbox</button>
+  <button>Copy the source</button>
+  <button>Reset demo</button>
+  <buttonmenu haspopup="true">See more</buttonmenu>
+  <heading level="2">Advanced features</heading>
+  <text-leaf>
+    The Select component is meant to be interchangeable with a native
+    <select> element.If you are looking for more advanced features, like
+    combobox, multiselect, autocomplete, async or creatable support, head to the
+  </text-leaf>
+  <link value="https://material-ui.netlify.app/components/autocomplete/">
+    Autocomplete component
+  </link>
+  <text-leaf>
+    . It's meant to be an improved version of the "react-select"
+    and "downshift" packages.
+  </text-leaf>
+  <heading level="2">Native Select</heading>
+  <text-leaf>
+    As the user experience can be improved on mobile using the native select of
+    the platform, we allow such pattern.
+  </text-leaf>
+  <section>
+    <text-leaf>Age</text-leaf>
+    <combobox value="None" haspopup="true">
+      Age
+      <combobox-option selected="true">None</combobox-option>
+      <combobox-option>Ten</combobox-option>
+      <combobox-option>Twenty</combobox-option>
+      <combobox-option>Thirty</combobox-option>
+    </combobox>
+    <text-leaf>Age</text-leaf>
+    <combobox value="None" haspopup="true">
+      Age
+      <combobox-option selected="true">None</combobox-option>
+      <combobox-option>Ten</combobox-option>
+      <combobox-option>Twenty</combobox-option>
+      <combobox-option>Thirty</combobox-option>
+    </combobox>
+    <text-leaf>Some important helper text</text-leaf>
+    <combobox value="None" haspopup="true">
+      age
+      <combobox-option selected="true">None</combobox-option>
+      <combobox-option>Ten</combobox-option>
+      <combobox-option>Twenty</combobox-option>
+      <combobox-option>Thirty</combobox-option>
+    </combobox>
+    <text-leaf>With visually hidden labelAge</text-leaf>
+    <combobox value="None" haspopup="true">
+      Age
+      <combobox-option selected="true">None</combobox-option>
+      <combobox-option>Ten</combobox-option>
+      <combobox-option>Twenty</combobox-option>
+      <combobox-option>Thirty</combobox-option>
+    </combobox>
+    <text-leaf>Label + placeholderName</text-leaf>
+    <combobox value="Hai" disabled="true" haspopup="true">
+      Name
+      <combobox-option>None</combobox-option>
+      <combobox-option selected="true">Hai</combobox-option>
+      <combobox-option level="2">Olivier</combobox-option>
+      <combobox-option level="2">Kevin</combobox-option>
+    </combobox>
+    <text-leaf>DisabledName</text-leaf>
+    <combobox value="Hai" haspopup="true" invalid="true">
+      Name
+      <combobox-option selected="true">Hai</combobox-option>
+      <combobox-option level="2">Olivier</combobox-option>
+      <combobox-option level="2">Kevin</combobox-option>
+    </combobox>
+    <text-leaf>ErrorName</text-leaf>
+    <combobox value="Thirty" haspopup="true">
+      Name
+      <combobox-option>Ten</combobox-option>
+      <combobox-option>Twenty</combobox-option>
+      <combobox-option selected="true">Thirty</combobox-option>
+    </combobox>
+    <text-leaf>Uncontrolled</text-leaf>
+    <combobox value="Placeholder" haspopup="true">
+      age
+      <combobox-option disabled="true" selected="true">
+        Placeholder
+      </combobox-option>
+      <combobox-option>Ten</combobox-option>
+      <combobox-option>Twenty</combobox-option>
+      <combobox-option>Thirty</combobox-option>
+    </combobox>
+    <text-leaf>PlaceholderAge*</text-leaf>
+    <combobox value="None" required="true" haspopup="true" invalid="true">
+      Age  *
+      <combobox-option selected="true">None</combobox-option>
+      <combobox-option>Ten</combobox-option>
+      <combobox-option>Twenty</combobox-option>
+      <combobox-option>Thirty</combobox-option>
+    </combobox>
+    <text-leaf>RequiredAge</text-leaf>
+    <combobox value="None" haspopup="true">
+      Age
+      <combobox-option selected="true">None</combobox-option>
+      <combobox-option>Ten</combobox-option>
+      <combobox-option>Twenty</combobox-option>
+      <combobox-option>Thirty</combobox-option>
+    </combobox>
+    <text-leaf>Age</text-leaf>
+    <combobox value="None" haspopup="true">
+      Age
+      <combobox-option selected="true">None</combobox-option>
+      <combobox-option>Ten</combobox-option>
+      <combobox-option>Twenty</combobox-option>
+      <combobox-option>Thirty</combobox-option>
+    </combobox>
+  </section>
+  <button>Show the source</button>
+  <button>Edit in CodeSandbox</button>
+  <button>Copy the source</button>
+  <button>Reset demo</button>
+  <buttonmenu haspopup="true">See more</buttonmenu>
+  <heading level="2">Text Fields</heading>
+  <text-leaf>
+    The TextField wrapper component is a complete form control including a
+    label, input and help text. You can find an example with the select mode
+  </text-leaf>
+  <link value="https://material-ui.netlify.app/components/text-fields/#select">
+    in this section
+  </link>
+  <text-leaf>.</text-leaf>
+  <heading level="2">Customized selects</heading>
+  <text-leaf>
+    Here are some examples of customizing the component. You can learn more
+    about this in the
+  </text-leaf>
+  <link value="https://material-ui.netlify.app/customization/components/">
+    overrides documentation page
+  </link>
+  <text-leaf>
+    .The first step is to style the InputBase component. Once it's styled,
+    you can either use it directly as a text field or provide it to the select
+    input property to have a select field.
+  </text-leaf>
+  <section>
+    <text-leaf>Age</text-leaf>
+    <textbox>Age</textbox>
+    <text-leaf>Age</text-leaf>
+    <button haspopup="true">Age ​</button>
+    <text-leaf>Age</text-leaf>
+    <combobox value="None" haspopup="true">
+      Age
+      <combobox-option selected="true">None</combobox-option>
+      <combobox-option>Ten</combobox-option>
+      <combobox-option>Twenty</combobox-option>
+      <combobox-option>Thirty</combobox-option>
+    </combobox>
+  </section>
+  <button>Show the source</button>
+  <button>Edit in CodeSandbox</button>
+  <button>Copy the source</button>
+  <button>Reset demo</button>
+  <buttonmenu haspopup="true">See more</buttonmenu>
+  <heading level="2">Multiple Select</heading>
+  <text-leaf>
+    The Select component can handle multiple selections. It's enabled with
+    the multiple property.Like with the single selection, you can pull out the
+    new value by accessing event.target.value in the onChange callback.
+    It's always an array.
+  </text-leaf>
+  <section>
+    <text-leaf>Name</text-leaf>
+    <button haspopup="true">Name ​</button>
+    <text-leaf>Tag</text-leaf>
+    <button haspopup="true">Tag ​</button>
+    <text-leaf>Chip</text-leaf>
+    <button haspopup="true">Chip ​</button>
+    <button haspopup="true">Without label</button>
+    <text-leaf>Native</text-leaf>
+    <listbox multiselectable="true">
+      Native
+      <option>Oliver Hansen</option>
+      <option>Van Henry</option>
+      <option>April Tucker</option>
+      <option>Ralph Hubbard</option>
+      <option>Omar Alexander</option>
+      <option>Carlos Abbott</option>
+      <option>Miriam Wagner</option>
+      <option>Bradley Wilkerson</option>
+      <option>Virginia Andrews</option>
+      <option>Kelly Snyder</option>
+    </listbox>
+  </section>
+  <button>Show the source</button>
+  <button>Edit in CodeSandbox</button>
+  <button>Copy the source</button>
+  <button>Reset demo</button>
+  <buttonmenu haspopup="true">See more</buttonmenu>
+  <heading level="2">Controlled Open Select</heading>
+  <section>
+    <button>OPEN THE SELECT</button>
+    <text-leaf>Age</text-leaf>
+    <button haspopup="true">Age ​</button>
+  </section>
+  <button>Show the source</button>
+  <button>Edit in CodeSandbox</button>
+  <button>Copy the source</button>
+  <button>Reset demo</button>
+  <buttonmenu haspopup="true">See more</buttonmenu>
+  <heading level="2">With a Dialog</heading>
+  <text-leaf>
+    While it's discouraged by the Material Design specification, you can
+    use a select inside a dialog.
+  </text-leaf>
+  <section>
+    <button>OPEN SELECT DIALOG</button>
+  </section>
+  <button>Show the source</button>
+  <button>Edit in CodeSandbox</button>
+  <button>Copy the source</button>
+  <button>Reset demo</button>
+  <buttonmenu haspopup="true">See more</buttonmenu>
+  <heading level="2">Grouping</heading>
+  <text-leaf>
+    Display categories with the ListSubheader component or the native
+    <optgroup> element.
+  </text-leaf>
+  <section>
+    <text-leaf>Grouping</text-leaf>
+    <combobox value="None" haspopup="true">
+      Grouping
+      <combobox-option selected="true">None</combobox-option>
+      <combobox-option level="2">Option 1</combobox-option>
+      <combobox-option level="2">Option 2</combobox-option>
+      <combobox-option level="2">Option 3</combobox-option>
+      <combobox-option level="2">Option 4</combobox-option>
+    </combobox>
+    <text-leaf>Grouping</text-leaf>
+    <button haspopup="true">​</button>
+  </section>
+  <button>Show the source</button>
+  <button>Edit in CodeSandbox</button>
+  <button>Copy the source</button>
+  <button>Reset demo</button>
+  <buttonmenu haspopup="true">See more</buttonmenu>
+  <heading level="2">Accessibility</heading>
+  <text-leaf>
+    To properly label your Select input you need an extra element with an id
+    that contains a label. That id needs to match the labelId of the Select
+    e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
+    a TextField with an id and label creates the proper markup and ids for
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+  </text-leaf>
+  <heading level="2">API</heading>
+  <statictext>•</statictext>
+  <link value="https://material-ui.netlify.app/api/native-select/">
+    <NativeSelect />
+  </link>
+  <statictext>•</statictext>
+  <link value="https://material-ui.netlify.app/api/select/">
+    <Select />
+  </link>
+  <link value="https://material-ui.netlify.app/components/radio-buttons/">
+    Radio
+  </link>
+  <link value="https://material-ui.netlify.app/components/slider/">Slider</link>
+</landmark>;
+
+`;
+
+exports[`webkit material-ui.netlify.com matches the snapshot on / 1`] = `
+<WebArea>
+  Material-UI: A popular React UI framework
+  <link>Skip to content</link>
+  <button>Open main navigation</button>
+  <combobox autocomplete="list" haspopup="listbox">
+    Search
+  </combobox>
+  <button haspopup="menu">Change language</button>
+  <button haspopup="menu">Toggle notifications panel</button>
+  <link>Edit website colors</link>
+  <link>GitHub repository</link>
+  <button>Toggle light/dark theme</button>
+  <button>Toggle right-to-left/left-to-right</button>
+  <main>
+    <heading level="1">MATERIAL-UI</heading>
+    <link>GET STARTED</link>
+    <link>Get Professional Support</link>
+    <link>random sponsor</link>
+    <heading level="2">Installation</heading>
+    <link>or use a CDN.</link>
+    <link>READ INSTALLATION DOCS</link>
+    <heading level="2">Usage</heading>
+    <link>EXPLORE THE DOCS</link>
+    <heading level="2">Premium themes</heading>
+    <link>
+      Browse themes
+      <img>Browse themes</img>
+    </link>
+    <link>BROWSE THEMES</link>
+    <heading level="2">Material-UI's sponsors</heading>
+    <link>
+      tidelift
+      <img>tidelift</img>
+    </link>
+    <link>
+      bitsrc
+      <img>bitsrc</img>
+    </link>
+    <link>
+      call-em-all
+      <img>call-em-all</img>
+    </link>
+    <link>our sponsors</link>
+    <heading level="2">Praise for Material-UI</heading>
+    <link value="random href">a random quote about Material-UI</link>
+    <link value="random href">a random quote about Material-UI</link>
+    <link value="random href">a random quote about Material-UI</link>
+    <heading level="2">Who's using Material-UI?</heading>
+    <SVGRoot>NASA</SVGRoot>
+    <SVGRoot>Walmart Labs</SVGRoot>
+    <SVGRoot>Capgemini</SVGRoot>
+    <SVGRoot>Uniqlo</SVGRoot>
+    <SVGRoot>Bethesda</SVGRoot>
+    <SVGRoot>J.P. Morgan</SVGRoot>
+    <SVGRoot>Shutterstock</SVGRoot>
+    <SVGRoot>Netflix</SVGRoot>
+    <SVGRoot>Coursera</SVGRoot>
+    <SVGRoot>Amazon</SVGRoot>
+    <SVGRoot>Unity</SVGRoot>
+    <link>LET US KNOW!</link>
+  </main>
+  <link>Material-UI</link>
+  <heading level="2">Community</heading>
+  <link>GitHub</link>
+  <link>Twitter</link>
+  <link>StackOverflow</link>
+  <link>Team</link>
+  <heading level="2">Resources</heading>
+  <link>Support</link>
+  <link>Blog</link>
+  <link>Material Icons</link>
+  <heading level="2">Company</heading>
+  <link>About</link>
+  <link>Contact Us</link>
+  <link>v4.9.10. View versions page.</link>
+  <link>MIT License</link>
+</WebArea>;
+
+`;
+
+exports[`webkit material-ui.netlify.com matches the snapshot on /components/selects/ 1`] = `
+<main>
+  <link>EDIT THIS PAGE</link>
+  <heading level="2">Simple Select</heading>
+  <Div>
+    <button haspopup="listbox">Age ​</button>
+    <button haspopup="listbox">Age ​</button>
+    <button haspopup="listbox">Without label</button>
+    <button haspopup="listbox">Age None</button>
+    <button disabled="true" haspopup="listbox">
+      Name ​
+    </button>
+    <button haspopup="listbox">Name ​</button>
+    <button haspopup="listbox">Name ​</button>
+    <button haspopup="listbox">Age ​</button>
+    <button haspopup="listbox">Without label</button>
+    <button haspopup="listbox">Age * ​</button>
+    <button haspopup="listbox">Age ​</button>
+    <button haspopup="listbox">Age ​</button>
+  </Div>
+  <button>Show the source</button>
+  <button>Edit in CodeSandbox</button>
+  <button>Copy the source</button>
+  <button>Reset demo</button>
+  <button haspopup="menu">See more</button>
+  <heading level="2">Advanced features</heading>
+  <link>Autocomplete component</link>
+  <heading level="2">Native Select</heading>
+  <Div>
+    <button value="None">
+      Age
+      <MenuListOption selected="true"></MenuListOption>
+      <MenuListOption value="Ten"></MenuListOption>
+      <MenuListOption value="Twenty"></MenuListOption>
+      <MenuListOption value="Thirty"></MenuListOption>
+    </button>
+    <button value="None">
+      Age
+      <MenuListOption selected="true"></MenuListOption>
+      <MenuListOption value="Ten"></MenuListOption>
+      <MenuListOption value="Twenty"></MenuListOption>
+      <MenuListOption value="Thirty"></MenuListOption>
+    </button>
+    <button value="None">
+      age
+      <MenuListOption value="None" selected="true"></MenuListOption>
+      <MenuListOption value="Ten"></MenuListOption>
+      <MenuListOption value="Twenty"></MenuListOption>
+      <MenuListOption value="Thirty"></MenuListOption>
+    </button>
+    <button value="None">
+      Age
+      <MenuListOption value="None" selected="true"></MenuListOption>
+      <MenuListOption value="Ten"></MenuListOption>
+      <MenuListOption value="Twenty"></MenuListOption>
+      <MenuListOption value="Thirty"></MenuListOption>
+    </button>
+    <button value="Hai" disabled="true">
+      Name
+      <MenuListOption value="None"></MenuListOption>
+      <MenuListOption value="Hai" selected="true"></MenuListOption>
+      <MenuListOption value="Olivier"></MenuListOption>
+      <MenuListOption value="Kevin"></MenuListOption>
+    </button>
+    <button value="Hai" invalid="true">
+      Name
+      <MenuListOption value="Hai" selected="true"></MenuListOption>
+      <MenuListOption value="Olivier"></MenuListOption>
+      <MenuListOption value="Kevin"></MenuListOption>
+    </button>
+    <button value="Thirty">
+      Name
+      <MenuListOption value="Ten"></MenuListOption>
+      <MenuListOption value="Twenty"></MenuListOption>
+      <MenuListOption value="Thirty" selected="true"></MenuListOption>
+    </button>
+    <button value="Placeholder">
+      age
+      <MenuListOption
+        value="Placeholder"
+        disabled="true"
+        selected="true"
+      ></MenuListOption>
+      <MenuListOption value="Ten"></MenuListOption>
+      <MenuListOption value="Twenty"></MenuListOption>
+      <MenuListOption value="Thirty"></MenuListOption>
+    </button>
+    <button value="None" required="true">
+      Age *<MenuListOption selected="true"></MenuListOption>
+      <MenuListOption value="Ten"></MenuListOption>
+      <MenuListOption value="Twenty"></MenuListOption>
+      <MenuListOption value="Thirty"></MenuListOption>
+    </button>
+    <button value="None">
+      Age
+      <MenuListOption selected="true"></MenuListOption>
+      <MenuListOption value="Ten"></MenuListOption>
+      <MenuListOption value="Twenty"></MenuListOption>
+      <MenuListOption value="Thirty"></MenuListOption>
+    </button>
+    <button value="None">
+      Age
+      <MenuListOption selected="true"></MenuListOption>
+      <MenuListOption value="Ten"></MenuListOption>
+      <MenuListOption value="Twenty"></MenuListOption>
+      <MenuListOption value="Thirty"></MenuListOption>
+    </button>
+  </Div>
+  <button>Show the source</button>
+  <button>Edit in CodeSandbox</button>
+  <button>Copy the source</button>
+  <button>Reset demo</button>
+  <button haspopup="menu">See more</button>
+  <heading level="2">Text Fields</heading>
+  <link>in this section</link>
+  <heading level="2">Customized selects</heading>
+  <link>overrides documentation page</link>
+  <Div>
+    <textbox>Age</textbox>
+    <button haspopup="listbox">Age ​</button>
+    <button value="None">
+      Age
+      <MenuListOption selected="true"></MenuListOption>
+      <MenuListOption value="Ten"></MenuListOption>
+      <MenuListOption value="Twenty"></MenuListOption>
+      <MenuListOption value="Thirty"></MenuListOption>
+    </button>
+  </Div>
+  <button>Show the source</button>
+  <button>Edit in CodeSandbox</button>
+  <button>Copy the source</button>
+  <button>Reset demo</button>
+  <button haspopup="menu">See more</button>
+  <heading level="2">Multiple Select</heading>
+  <Div>
+    <button haspopup="listbox">Name ​</button>
+    <button haspopup="listbox">Tag ​</button>
+    <button haspopup="listbox">Chip ​</button>
+    <button haspopup="listbox">Without label</button>
+    <listbox multiselectable="true" orientation="vertical">
+      Native
+    </listbox>
+  </Div>
+  <button>Show the source</button>
+  <button>Edit in CodeSandbox</button>
+  <button>Copy the source</button>
+  <button>Reset demo</button>
+  <button haspopup="menu">See more</button>
+  <heading level="2">Controlled Open Select</heading>
+  <Div>
+    <button>OPEN THE SELECT</button>
+    <button haspopup="listbox">Age ​</button>
+  </Div>
+  <button>Show the source</button>
+  <button>Edit in CodeSandbox</button>
+  <button>Copy the source</button>
+  <button>Reset demo</button>
+  <button haspopup="menu">See more</button>
+  <heading level="2">With a Dialog</heading>
+  <Div>
+    <button>OPEN SELECT DIALOG</button>
+  </Div>
+  <button>Show the source</button>
+  <button>Edit in CodeSandbox</button>
+  <button>Copy the source</button>
+  <button>Reset demo</button>
+  <button haspopup="menu">See more</button>
+  <heading level="2">Grouping</heading>
+  <Div>
+    <button value="None">
+      Grouping
+      <MenuListOption selected="true"></MenuListOption>
+      <MenuListOption value="Option 1"></MenuListOption>
+      <MenuListOption value="Option 2"></MenuListOption>
+      <MenuListOption value="Option 3"></MenuListOption>
+      <MenuListOption value="Option 4"></MenuListOption>
+    </button>
+    <button haspopup="listbox">​</button>
+  </Div>
+  <button>Show the source</button>
+  <button>Edit in CodeSandbox</button>
+  <button>Copy the source</button>
+  <button>Reset demo</button>
+  <button haspopup="menu">See more</button>
+  <heading level="2">Accessibility</heading>
+  <heading level="2">API</heading>
+  <link><NativeSelect /></link>
   <link><Select /></link>
   <link>Radio</link>
   <link>Slider</link>
