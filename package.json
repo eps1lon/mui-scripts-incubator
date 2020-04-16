@@ -10,11 +10,10 @@
 	"dependencies": {
 		"@octokit/graphql": "^4.3.1",
 		"jest": "^25.2.4",
-		"jest-puppeteer": "^4.4.0",
 		"lighthouse": "^5.6.0",
 		"lodash": "^4.17.15",
+		"playwright": "0.12.1",
 		"prettier": "^2.0.2",
-		"puppeteer": "^2.1.1",
 		"yargs": "^15.3.1"
 	},
 	"repository": {
