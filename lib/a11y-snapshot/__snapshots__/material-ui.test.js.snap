@@ -468,11 +468,7 @@ exports[`firefox material-ui.netlify.com matches the snapshot on / 1`] = `
       Install Material-UI's source files via npm. We take care of injecting
       the CSS needed.
     </text-leaf>
-    <text-leaf>$ npm install @material</text-leaf>
-    <text-leaf>-</text-leaf>
-    <text-leaf>ui</text-leaf>
-    <text-leaf>/</text-leaf>
-    <text-leaf>core</text-leaf>
+    <text-leaf>$ npm install @material-ui/core</text-leaf>
     <link value="https://github.com/mui-org/material-ui/tree/master/examples/cdn">
       or use a CDN.
     </link>
