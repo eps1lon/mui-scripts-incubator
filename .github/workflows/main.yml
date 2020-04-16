@@ -18,6 +18,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "12.x"
+      - uses: microsoft/playwright-github-action@v1
       - name: install
         run: yarn install
       - uses: ./actions/watch-material-ui
