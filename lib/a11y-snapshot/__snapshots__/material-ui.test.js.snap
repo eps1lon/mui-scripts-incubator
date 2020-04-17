@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`chromium material-ui.netlify.com matches the snapshot on / 1`] = `
+exports[`chromium / 1`] = `
 <WebArea>
   Material-UI: A popular React UI framework
   <link>Skip to content</link>
@@ -27,6 +27,8 @@ exports[`chromium material-ui.netlify.com matches the snapshot on / 1`] = `
       design system, or start with Material Design.
     </text>
     <link>GET STARTED</link>
+    <link>Star</link>
+    <link>Follow</link>
     <link>Get Professional Support</link>
     <text>random sponsor</text>
     <link value="random href">a random quick word</link>
@@ -116,10 +118,14 @@ exports[`chromium material-ui.netlify.com matches the snapshot on / 1`] = `
 
 `;
 
-exports[`chromium material-ui.netlify.com matches the snapshot on /components/selects/ 1`] = `
+exports[`chromium /components/selects/ 1`] = `
 <main>
   <link>EDIT THIS PAGE</link>
   <heading level="1">Select</heading>
+  <text>
+    Select components are used for collecting user provided information from a
+    list of options.
+  </text>
   <heading level="2">Simple Select</heading>
   <text>
     Menus are positioned over their emitting elements such that the currently
@@ -430,7 +436,7 @@ exports[`chromium material-ui.netlify.com matches the snapshot on /components/se
 
 `;
 
-exports[`firefox material-ui.netlify.com matches the snapshot on / 1`] = `
+exports[`firefox / 1`] = `
 <document>
   Material-UI: A popular React UI framework
   <link value="https://material-ui.netlify.app/#main-content">
@@ -458,6 +464,8 @@ exports[`firefox material-ui.netlify.com matches the snapshot on / 1`] = `
     <link value="https://material-ui.netlify.app/getting-started/installation/">
       GET STARTED
     </link>
+    <link value="https://github.com/mui-org/material-ui">Star</link>
+    <link value="https://twitter.com/@materialui">Follow</link>
     <link value="https://material-ui.netlify.app/getting-started/support/#professional-support-premium">
       Get Professional Support
     </link>
@@ -580,12 +588,16 @@ exports[`firefox material-ui.netlify.com matches the snapshot on / 1`] = `
 
 `;
 
-exports[`firefox material-ui.netlify.com matches the snapshot on /components/selects/ 1`] = `
+exports[`firefox /components/selects/ 1`] = `
 <landmark>
   <link value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/selects/selects.md">
     EDIT THIS PAGE
   </link>
   <heading level="1">Select</heading>
+  <text-leaf>
+    Select components are used for collecting user provided information from a
+    list of options.
+  </text-leaf>
   <heading level="2">Simple Select</heading>
   <text-leaf>
     Menus are positioned over their emitting elements such that the currently
@@ -882,280 +894,5 @@ exports[`firefox material-ui.netlify.com matches the snapshot on /components/sel
   </link>
   <link value="https://material-ui.netlify.app/components/slider/">Slider</link>
 </landmark>;
-
-`;
-
-exports[`webkit material-ui.netlify.com matches the snapshot on / 1`] = `
-<WebArea>
-  Material-UI: A popular React UI framework
-  <link>Skip to content</link>
-  <button>Open main navigation</button>
-  <combobox autocomplete="list" haspopup="listbox">
-    Search
-  </combobox>
-  <button haspopup="menu">Change language</button>
-  <button haspopup="menu">Toggle notifications panel</button>
-  <link>Edit website colors</link>
-  <link>GitHub repository</link>
-  <button>Toggle light/dark theme</button>
-  <button>Toggle right-to-left/left-to-right</button>
-  <main>
-    <heading level="1">MATERIAL-UI</heading>
-    <link>GET STARTED</link>
-    <link>Get Professional Support</link>
-    <link>random sponsor</link>
-    <heading level="2">Installation</heading>
-    <link>or use a CDN.</link>
-    <link>READ INSTALLATION DOCS</link>
-    <heading level="2">Usage</heading>
-    <link>EXPLORE THE DOCS</link>
-    <heading level="2">Premium themes</heading>
-    <link>
-      Browse themes
-      <img>Browse themes</img>
-    </link>
-    <link>BROWSE THEMES</link>
-    <heading level="2">Material-UI's sponsors</heading>
-    <link>
-      tidelift
-      <img>tidelift</img>
-    </link>
-    <link>
-      bitsrc
-      <img>bitsrc</img>
-    </link>
-    <link>
-      call-em-all
-      <img>call-em-all</img>
-    </link>
-    <link>our sponsors</link>
-    <heading level="2">Praise for Material-UI</heading>
-    <link value="random href">a random quote about Material-UI</link>
-    <link value="random href">a random quote about Material-UI</link>
-    <link value="random href">a random quote about Material-UI</link>
-    <heading level="2">Who's using Material-UI?</heading>
-    <SVGRoot>NASA</SVGRoot>
-    <SVGRoot>Walmart Labs</SVGRoot>
-    <SVGRoot>Capgemini</SVGRoot>
-    <SVGRoot>Uniqlo</SVGRoot>
-    <SVGRoot>Bethesda</SVGRoot>
-    <SVGRoot>J.P. Morgan</SVGRoot>
-    <SVGRoot>Shutterstock</SVGRoot>
-    <SVGRoot>Netflix</SVGRoot>
-    <SVGRoot>Coursera</SVGRoot>
-    <SVGRoot>Amazon</SVGRoot>
-    <SVGRoot>Unity</SVGRoot>
-    <link>LET US KNOW!</link>
-  </main>
-  <link>Material-UI</link>
-  <heading level="2">Community</heading>
-  <link>GitHub</link>
-  <link>Twitter</link>
-  <link>StackOverflow</link>
-  <link>Team</link>
-  <heading level="2">Resources</heading>
-  <link>Support</link>
-  <link>Blog</link>
-  <link>Material Icons</link>
-  <heading level="2">Company</heading>
-  <link>About</link>
-  <link>Contact Us</link>
-  <link>v4.9.10. View versions page.</link>
-  <link>MIT License</link>
-</WebArea>;
-
-`;
-
-exports[`webkit material-ui.netlify.com matches the snapshot on /components/selects/ 1`] = `
-<main>
-  <link>EDIT THIS PAGE</link>
-  <heading level="2">Simple Select</heading>
-  <Div>
-    <button haspopup="listbox">Age ​</button>
-    <button haspopup="listbox">Age ​</button>
-    <button haspopup="listbox">Without label</button>
-    <button haspopup="listbox">Age None</button>
-    <button disabled="true" haspopup="listbox">
-      Name ​
-    </button>
-    <button haspopup="listbox">Name ​</button>
-    <button haspopup="listbox">Name ​</button>
-    <button haspopup="listbox">Age ​</button>
-    <button haspopup="listbox">Without label</button>
-    <button haspopup="listbox">Age * ​</button>
-    <button haspopup="listbox">Age ​</button>
-    <button haspopup="listbox">Age ​</button>
-  </Div>
-  <button>Show the source</button>
-  <button>Edit in CodeSandbox</button>
-  <button>Copy the source</button>
-  <button>Reset demo</button>
-  <button haspopup="menu">See more</button>
-  <heading level="2">Advanced features</heading>
-  <link>Autocomplete component</link>
-  <heading level="2">Native Select</heading>
-  <Div>
-    <button value="None">
-      Age
-      <MenuListOption selected="true"></MenuListOption>
-      <MenuListOption value="Ten"></MenuListOption>
-      <MenuListOption value="Twenty"></MenuListOption>
-      <MenuListOption value="Thirty"></MenuListOption>
-    </button>
-    <button value="None">
-      Age
-      <MenuListOption selected="true"></MenuListOption>
-      <MenuListOption value="Ten"></MenuListOption>
-      <MenuListOption value="Twenty"></MenuListOption>
-      <MenuListOption value="Thirty"></MenuListOption>
-    </button>
-    <button value="None">
-      age
-      <MenuListOption value="None" selected="true"></MenuListOption>
-      <MenuListOption value="Ten"></MenuListOption>
-      <MenuListOption value="Twenty"></MenuListOption>
-      <MenuListOption value="Thirty"></MenuListOption>
-    </button>
-    <button value="None">
-      Age
-      <MenuListOption value="None" selected="true"></MenuListOption>
-      <MenuListOption value="Ten"></MenuListOption>
-      <MenuListOption value="Twenty"></MenuListOption>
-      <MenuListOption value="Thirty"></MenuListOption>
-    </button>
-    <button value="Hai" disabled="true">
-      Name
-      <MenuListOption value="None"></MenuListOption>
-      <MenuListOption value="Hai" selected="true"></MenuListOption>
-      <MenuListOption value="Olivier"></MenuListOption>
-      <MenuListOption value="Kevin"></MenuListOption>
-    </button>
-    <button value="Hai" invalid="true">
-      Name
-      <MenuListOption value="Hai" selected="true"></MenuListOption>
-      <MenuListOption value="Olivier"></MenuListOption>
-      <MenuListOption value="Kevin"></MenuListOption>
-    </button>
-    <button value="Thirty">
-      Name
-      <MenuListOption value="Ten"></MenuListOption>
-      <MenuListOption value="Twenty"></MenuListOption>
-      <MenuListOption value="Thirty" selected="true"></MenuListOption>
-    </button>
-    <button value="Placeholder">
-      age
-      <MenuListOption
-        value="Placeholder"
-        disabled="true"
-        selected="true"
-      ></MenuListOption>
-      <MenuListOption value="Ten"></MenuListOption>
-      <MenuListOption value="Twenty"></MenuListOption>
-      <MenuListOption value="Thirty"></MenuListOption>
-    </button>
-    <button value="None" required="true">
-      Age *<MenuListOption selected="true"></MenuListOption>
-      <MenuListOption value="Ten"></MenuListOption>
-      <MenuListOption value="Twenty"></MenuListOption>
-      <MenuListOption value="Thirty"></MenuListOption>
-    </button>
-    <button value="None">
-      Age
-      <MenuListOption selected="true"></MenuListOption>
-      <MenuListOption value="Ten"></MenuListOption>
-      <MenuListOption value="Twenty"></MenuListOption>
-      <MenuListOption value="Thirty"></MenuListOption>
-    </button>
-    <button value="None">
-      Age
-      <MenuListOption selected="true"></MenuListOption>
-      <MenuListOption value="Ten"></MenuListOption>
-      <MenuListOption value="Twenty"></MenuListOption>
-      <MenuListOption value="Thirty"></MenuListOption>
-    </button>
-  </Div>
-  <button>Show the source</button>
-  <button>Edit in CodeSandbox</button>
-  <button>Copy the source</button>
-  <button>Reset demo</button>
-  <button haspopup="menu">See more</button>
-  <heading level="2">Text Fields</heading>
-  <link>in this section</link>
-  <heading level="2">Customized selects</heading>
-  <link>overrides documentation page</link>
-  <Div>
-    <textbox>Age</textbox>
-    <button haspopup="listbox">Age ​</button>
-    <button value="None">
-      Age
-      <MenuListOption selected="true"></MenuListOption>
-      <MenuListOption value="Ten"></MenuListOption>
-      <MenuListOption value="Twenty"></MenuListOption>
-      <MenuListOption value="Thirty"></MenuListOption>
-    </button>
-  </Div>
-  <button>Show the source</button>
-  <button>Edit in CodeSandbox</button>
-  <button>Copy the source</button>
-  <button>Reset demo</button>
-  <button haspopup="menu">See more</button>
-  <heading level="2">Multiple Select</heading>
-  <Div>
-    <button haspopup="listbox">Name ​</button>
-    <button haspopup="listbox">Tag ​</button>
-    <button haspopup="listbox">Chip ​</button>
-    <button haspopup="listbox">Without label</button>
-    <listbox multiselectable="true" orientation="vertical">
-      Native
-    </listbox>
-  </Div>
-  <button>Show the source</button>
-  <button>Edit in CodeSandbox</button>
-  <button>Copy the source</button>
-  <button>Reset demo</button>
-  <button haspopup="menu">See more</button>
-  <heading level="2">Controlled Open Select</heading>
-  <Div>
-    <button>OPEN THE SELECT</button>
-    <button haspopup="listbox">Age ​</button>
-  </Div>
-  <button>Show the source</button>
-  <button>Edit in CodeSandbox</button>
-  <button>Copy the source</button>
-  <button>Reset demo</button>
-  <button haspopup="menu">See more</button>
-  <heading level="2">With a Dialog</heading>
-  <Div>
-    <button>OPEN SELECT DIALOG</button>
-  </Div>
-  <button>Show the source</button>
-  <button>Edit in CodeSandbox</button>
-  <button>Copy the source</button>
-  <button>Reset demo</button>
-  <button haspopup="menu">See more</button>
-  <heading level="2">Grouping</heading>
-  <Div>
-    <button value="None">
-      Grouping
-      <MenuListOption selected="true"></MenuListOption>
-      <MenuListOption value="Option 1"></MenuListOption>
-      <MenuListOption value="Option 2"></MenuListOption>
-      <MenuListOption value="Option 3"></MenuListOption>
-      <MenuListOption value="Option 4"></MenuListOption>
-    </button>
-    <button haspopup="listbox">​</button>
-  </Div>
-  <button>Show the source</button>
-  <button>Edit in CodeSandbox</button>
-  <button>Copy the source</button>
-  <button>Reset demo</button>
-  <button haspopup="menu">See more</button>
-  <heading level="2">Accessibility</heading>
-  <heading level="2">API</heading>
-  <link><NativeSelect /></link>
-  <link><Select /></link>
-  <link>Radio</link>
-  <link>Slider</link>
-</main>;
 
 `;
