@@ -22,17 +22,17 @@ exports[`chromium / 1`] = `
   </button>
   <main>
     <heading level="1">MATERIAL-UI</heading>
-    <text>
+    <heading level="2">
       React components for faster and easier web development. Build your own
       design system, or start with Material Design.
-    </text>
+    </heading>
     <link>GET STARTED</link>
     <link>Star</link>
     <link>Follow</link>
     <link>Get Professional Support</link>
     <text>random sponsor</text>
     <link>a random quick word</link>
-    <heading level="2">Installation</heading>
+    <heading level="3">Installation</heading>
     <text>
       Install Material-UI's source files via npm. We take care of injecting
       the CSS needed.$ npm install @material-ui/core
@@ -43,7 +43,7 @@ exports[`chromium / 1`] = `
       font.<linkrel="stylesheet"href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
     </text>
     <link>READ INSTALLATION DOCS</link>
-    <heading level="2">Usage</heading>
+    <heading level="3">Usage</heading>
     <text>
       Material-UI components work without any additional setup, and don't
       pollute the global
@@ -110,7 +110,7 @@ exports[`chromium / 1`] = `
   <link>About</link>
   <link>Contact Us</link>
   <text>Currently</text>
-  <link>v4.9.10. View versions page.</link>
+  <link>v4.9.8. View versions page.</link>
   <text>. Released under the</text>
   <link>MIT License</link>
   <text>.Copyright ©2020Material-UI.</text>
@@ -144,9 +144,7 @@ exports[`chromium /components/selects/ 1`] = `
     <text>Without labelAge </text>
     <combobox haspopup="listbox">Age None</combobox>
     <text>Label + placeholderName </text>
-    <combobox disabled="true" haspopup="listbox">
-      Name ​
-    </combobox>
+    <combobox haspopup="listbox">Name ​</combobox>
     <text>DisabledName </text>
     <combobox haspopup="listbox">Name ​</combobox>
     <text>ErrorName </text>
@@ -453,17 +451,17 @@ exports[`firefox / 1`] = `
   <landmark>Main navigation</landmark>
   <landmark>
     <heading level="1">MATERIAL-UI</heading>
-    <text>
+    <heading level="2">
       React components for faster and easier web development. Build your own
       design system, or start with Material Design.
-    </text>
+    </heading>
     <link>GET STARTED</link>
     <link>Star</link>
     <link>Follow</link>
     <link>Get Professional Support</link>
     <text>random sponsor</text>
     <link>a random quick word</link>
-    <heading level="2">Installation</heading>
+    <heading level="3">Installation</heading>
     <text>
       Install Material-UI's source files via npm. We take care of injecting
       the CSS needed.$ npm install @material-ui/core
@@ -476,7 +474,7 @@ exports[`firefox / 1`] = `
       </text>
     </text-container>
     <link>READ INSTALLATION DOCS</link>
-    <heading level="2">Usage</heading>
+    <heading level="3">Usage</heading>
     <text>
       Material-UI components work without any additional setup, and don't
       pollute the global scope.import React from'react';import{
@@ -544,7 +542,7 @@ exports[`firefox / 1`] = `
   <link>About</link>
   <link>Contact Us</link>
   <text>Currently</text>
-  <link>v4.9.10. View versions page.</link>
+  <link>v4.9.8. View versions page.</link>
   <text>. Released under the</text>
   <link>MIT License</link>
   <text>. Copyright © 2020 Material-UI.</text>
@@ -575,9 +573,7 @@ exports[`firefox /components/selects/ 1`] = `
     <text>Without labelAge</text>
     <button haspopup="true">Age None</button>
     <text>Label + placeholderName</text>
-    <button disabled="true" haspopup="true">
-      Name ​
-    </button>
+    <button haspopup="true">Name ​</button>
     <text>DisabledName</text>
     <button haspopup="true">Name ​</button>
     <text>ErrorName</text>
