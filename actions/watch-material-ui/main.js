@@ -44,17 +44,21 @@ async function main() {
 
 		await git(`push origin -f ${branch}`);
 		const octokit = new github.GitHub(core.getInput("token"));
-		await octokit.pulls.create({
-			owner: github.context.repo.owner,
-			repo: github.context.repo.repo,
-			base: "master",
-			head: branch,
-			title: `Update snapshots for ${muiBranch}`,
-			body: isPr
-				? `changes of https://github.com/mui-org/material-ui/pull/${prNumber}`
-				: "changes on `master`",
-			maintainer_can_modify: true,
-		});
+		try {
+			await octokit.pulls.create({
+				owner: github.context.repo.owner,
+				repo: github.context.repo.repo,
+				base: "master",
+				head: branch,
+				title: `Update snapshots for ${muiBranch}`,
+				body: isPr
+					? `changes of https://github.com/mui-org/material-ui/pull/${prNumber}`
+					: "changes on `master`",
+				maintainer_can_modify: true,
+			});
+		} catch (error) {
+			core.warning(`'${JSON.stringify(error, null, 2)}'`);
+		}
 	}
 }
 
