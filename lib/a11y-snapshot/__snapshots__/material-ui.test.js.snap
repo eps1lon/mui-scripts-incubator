@@ -126,6 +126,11 @@ exports[`chromium /components/selects/ 1`] = `
     Select components are used for collecting user provided information from a
     list of options.
   </text>
+  <link>
+    Segment V2 SegmentSend data to any tool without having to implement a new
+    API every time.
+  </link>
+  <link>ethical ad by CodeFund</link>
   <heading level="2">Simple Select</heading>
   <text>
     Menus are positioned over their emitting elements such that the currently
