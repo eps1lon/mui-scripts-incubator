@@ -560,6 +560,11 @@ exports[`firefox /components/selects/ 1`] = `
     Select components are used for collecting user provided information from a
     list of options.
   </text>
+  <link>
+    Rollbar (Javascript v2) Rollbar Real-time error monitoring, alerting, and
+    analytics for JavaScript developers 🚀
+  </link>
+  <link>ethical ad by CodeFund</link>
   <heading level="2">Simple Select</heading>
   <text>
     Menus are positioned over their emitting elements such that the currently
