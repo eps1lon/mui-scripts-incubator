@@ -8347,8 +8347,11 @@ exports[`firefox /components/pagination/ 1`] = `
   <heading level="1">Select</heading>
   <text>
     Select components are used for collecting user provided information from a
-    list of options.
+    list of options.Help us keep runningIf you don't mind tech related ads
+    (no tracking or remarketing), and want to keep us running, please whitelist
+    Material-UI in your blocker.Thank you!
   </text>
+  <img>Love</img>
   <heading level="2">Simple Select</heading>
   <text>
     Menus are positioned over their emitting elements such that the currently
@@ -8440,14 +8443,18 @@ exports[`firefox /components/pagination/ 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
