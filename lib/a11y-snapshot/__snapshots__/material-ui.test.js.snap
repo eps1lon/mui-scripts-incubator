@@ -132,34 +132,34 @@ exports[`chromium /api/buttons/ 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -187,10 +187,10 @@ exports[`chromium /api/buttons/ 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -198,7 +198,7 @@ exports[`chromium /api/buttons/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -206,7 +206,7 @@ exports[`chromium /api/buttons/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -214,7 +214,7 @@ exports[`chromium /api/buttons/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -222,7 +222,7 @@ exports[`chromium /api/buttons/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -230,21 +230,21 @@ exports[`chromium /api/buttons/ 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -252,7 +252,7 @@ exports[`chromium /api/buttons/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -268,7 +268,7 @@ exports[`chromium /api/buttons/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -303,7 +303,7 @@ exports[`chromium /api/buttons/ 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -332,16 +332,15 @@ exports[`chromium /api/buttons/ 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -366,7 +365,7 @@ exports[`chromium /api/buttons/ 1`] = `
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -398,7 +397,7 @@ exports[`chromium /api/buttons/ 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -407,7 +406,7 @@ exports[`chromium /api/buttons/ 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -450,34 +449,34 @@ exports[`chromium /api/selects/ 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -505,10 +504,10 @@ exports[`chromium /api/selects/ 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -516,7 +515,7 @@ exports[`chromium /api/selects/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -524,7 +523,7 @@ exports[`chromium /api/selects/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -532,7 +531,7 @@ exports[`chromium /api/selects/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -540,7 +539,7 @@ exports[`chromium /api/selects/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -548,21 +547,21 @@ exports[`chromium /api/selects/ 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -570,7 +569,7 @@ exports[`chromium /api/selects/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -586,7 +585,7 @@ exports[`chromium /api/selects/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -621,7 +620,7 @@ exports[`chromium /api/selects/ 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -650,16 +649,15 @@ exports[`chromium /api/selects/ 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -684,7 +682,7 @@ exports[`chromium /api/selects/ 1`] = `
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -716,7 +714,7 @@ exports[`chromium /api/selects/ 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -725,7 +723,7 @@ exports[`chromium /api/selects/ 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -768,34 +766,34 @@ exports[`chromium /components/breadcrumbs 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -823,10 +821,10 @@ exports[`chromium /components/breadcrumbs 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -834,7 +832,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -842,7 +840,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -850,7 +848,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -858,7 +856,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -866,21 +864,21 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -888,7 +886,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -904,7 +902,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -939,7 +937,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -968,16 +966,15 @@ exports[`chromium /components/breadcrumbs 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -1002,7 +999,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -1034,7 +1031,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -1043,7 +1040,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -1086,34 +1083,34 @@ exports[`chromium /components/button-group/ 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -1141,10 +1138,10 @@ exports[`chromium /components/button-group/ 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -1152,7 +1149,7 @@ exports[`chromium /components/button-group/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -1160,7 +1157,7 @@ exports[`chromium /components/button-group/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -1168,7 +1165,7 @@ exports[`chromium /components/button-group/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -1176,7 +1173,7 @@ exports[`chromium /components/button-group/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -1184,21 +1181,21 @@ exports[`chromium /components/button-group/ 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -1206,7 +1203,7 @@ exports[`chromium /components/button-group/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -1222,7 +1219,7 @@ exports[`chromium /components/button-group/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -1257,7 +1254,7 @@ exports[`chromium /components/button-group/ 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -1286,16 +1283,15 @@ exports[`chromium /components/button-group/ 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -1320,7 +1316,7 @@ exports[`chromium /components/button-group/ 1`] = `
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -1352,7 +1348,7 @@ exports[`chromium /components/button-group/ 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -1361,7 +1357,7 @@ exports[`chromium /components/button-group/ 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -1404,34 +1400,34 @@ exports[`chromium /components/buttons/ 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -1459,10 +1455,10 @@ exports[`chromium /components/buttons/ 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -1470,7 +1466,7 @@ exports[`chromium /components/buttons/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -1478,7 +1474,7 @@ exports[`chromium /components/buttons/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -1486,7 +1482,7 @@ exports[`chromium /components/buttons/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -1494,7 +1490,7 @@ exports[`chromium /components/buttons/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -1502,21 +1498,21 @@ exports[`chromium /components/buttons/ 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -1524,7 +1520,7 @@ exports[`chromium /components/buttons/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -1540,7 +1536,7 @@ exports[`chromium /components/buttons/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -1575,7 +1571,7 @@ exports[`chromium /components/buttons/ 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -1604,16 +1600,15 @@ exports[`chromium /components/buttons/ 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -1638,7 +1633,7 @@ exports[`chromium /components/buttons/ 1`] = `
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -1670,7 +1665,7 @@ exports[`chromium /components/buttons/ 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -1679,7 +1674,7 @@ exports[`chromium /components/buttons/ 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -1722,34 +1717,34 @@ exports[`chromium /components/checkboxes/ 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -1777,10 +1772,10 @@ exports[`chromium /components/checkboxes/ 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -1788,7 +1783,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -1796,7 +1791,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -1804,7 +1799,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -1812,7 +1807,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -1820,21 +1815,21 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -1842,7 +1837,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -1858,7 +1853,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -1893,7 +1888,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -1922,16 +1917,15 @@ exports[`chromium /components/checkboxes/ 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -1956,7 +1950,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -1988,7 +1982,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -1997,7 +1991,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -2040,34 +2034,34 @@ exports[`chromium /components/dialogs/ 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -2095,10 +2089,10 @@ exports[`chromium /components/dialogs/ 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -2106,7 +2100,7 @@ exports[`chromium /components/dialogs/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -2114,7 +2108,7 @@ exports[`chromium /components/dialogs/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -2122,7 +2116,7 @@ exports[`chromium /components/dialogs/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -2130,7 +2124,7 @@ exports[`chromium /components/dialogs/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -2138,21 +2132,21 @@ exports[`chromium /components/dialogs/ 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -2160,7 +2154,7 @@ exports[`chromium /components/dialogs/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -2176,7 +2170,7 @@ exports[`chromium /components/dialogs/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -2211,7 +2205,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -2240,16 +2234,15 @@ exports[`chromium /components/dialogs/ 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -2274,7 +2267,7 @@ exports[`chromium /components/dialogs/ 1`] = `
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -2306,7 +2299,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -2315,7 +2308,7 @@ exports[`chromium /components/dialogs/ 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -2358,34 +2351,34 @@ exports[`chromium /components/pagination/ 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -2413,10 +2406,10 @@ exports[`chromium /components/pagination/ 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -2424,7 +2417,7 @@ exports[`chromium /components/pagination/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -2432,7 +2425,7 @@ exports[`chromium /components/pagination/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -2440,7 +2433,7 @@ exports[`chromium /components/pagination/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -2448,7 +2441,7 @@ exports[`chromium /components/pagination/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -2456,21 +2449,21 @@ exports[`chromium /components/pagination/ 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -2478,7 +2471,7 @@ exports[`chromium /components/pagination/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -2494,7 +2487,7 @@ exports[`chromium /components/pagination/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -2529,7 +2522,7 @@ exports[`chromium /components/pagination/ 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -2558,16 +2551,15 @@ exports[`chromium /components/pagination/ 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -2592,7 +2584,7 @@ exports[`chromium /components/pagination/ 1`] = `
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -2624,7 +2616,7 @@ exports[`chromium /components/pagination/ 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -2633,7 +2625,7 @@ exports[`chromium /components/pagination/ 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -2676,34 +2668,34 @@ exports[`chromium /components/pickers 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -2731,10 +2723,10 @@ exports[`chromium /components/pickers 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -2742,7 +2734,7 @@ exports[`chromium /components/pickers 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -2750,7 +2742,7 @@ exports[`chromium /components/pickers 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -2758,7 +2750,7 @@ exports[`chromium /components/pickers 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -2766,7 +2758,7 @@ exports[`chromium /components/pickers 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -2774,21 +2766,21 @@ exports[`chromium /components/pickers 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -2796,7 +2788,7 @@ exports[`chromium /components/pickers 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -2812,7 +2804,7 @@ exports[`chromium /components/pickers 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -2847,7 +2839,7 @@ exports[`chromium /components/pickers 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -2876,16 +2868,15 @@ exports[`chromium /components/pickers 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -2910,7 +2901,7 @@ exports[`chromium /components/pickers 1`] = `
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -2942,7 +2933,7 @@ exports[`chromium /components/pickers 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -2951,7 +2942,7 @@ exports[`chromium /components/pickers 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -2994,34 +2985,34 @@ exports[`chromium /components/radio-buttons 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -3049,10 +3040,10 @@ exports[`chromium /components/radio-buttons 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -3060,7 +3051,7 @@ exports[`chromium /components/radio-buttons 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -3068,7 +3059,7 @@ exports[`chromium /components/radio-buttons 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -3076,7 +3067,7 @@ exports[`chromium /components/radio-buttons 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -3084,7 +3075,7 @@ exports[`chromium /components/radio-buttons 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -3092,21 +3083,21 @@ exports[`chromium /components/radio-buttons 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -3114,7 +3105,7 @@ exports[`chromium /components/radio-buttons 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -3130,7 +3121,7 @@ exports[`chromium /components/radio-buttons 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -3165,7 +3156,7 @@ exports[`chromium /components/radio-buttons 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -3194,16 +3185,15 @@ exports[`chromium /components/radio-buttons 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -3228,7 +3218,7 @@ exports[`chromium /components/radio-buttons 1`] = `
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -3260,7 +3250,7 @@ exports[`chromium /components/radio-buttons 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -3269,7 +3259,7 @@ exports[`chromium /components/radio-buttons 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -3312,34 +3302,34 @@ exports[`chromium /components/rating/ 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -3367,10 +3357,10 @@ exports[`chromium /components/rating/ 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -3378,7 +3368,7 @@ exports[`chromium /components/rating/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -3386,7 +3376,7 @@ exports[`chromium /components/rating/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -3394,7 +3384,7 @@ exports[`chromium /components/rating/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -3402,7 +3392,7 @@ exports[`chromium /components/rating/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -3410,21 +3400,21 @@ exports[`chromium /components/rating/ 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -3432,7 +3422,7 @@ exports[`chromium /components/rating/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -3448,7 +3438,7 @@ exports[`chromium /components/rating/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -3483,7 +3473,7 @@ exports[`chromium /components/rating/ 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -3512,16 +3502,15 @@ exports[`chromium /components/rating/ 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -3546,7 +3535,7 @@ exports[`chromium /components/rating/ 1`] = `
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -3578,7 +3567,7 @@ exports[`chromium /components/rating/ 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -3587,7 +3576,7 @@ exports[`chromium /components/rating/ 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -3630,34 +3619,34 @@ exports[`chromium /components/selects/ 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -3685,10 +3674,10 @@ exports[`chromium /components/selects/ 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -3696,7 +3685,7 @@ exports[`chromium /components/selects/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -3704,7 +3693,7 @@ exports[`chromium /components/selects/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -3712,7 +3701,7 @@ exports[`chromium /components/selects/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -3720,7 +3709,7 @@ exports[`chromium /components/selects/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -3728,21 +3717,21 @@ exports[`chromium /components/selects/ 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -3750,7 +3739,7 @@ exports[`chromium /components/selects/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -3766,7 +3755,7 @@ exports[`chromium /components/selects/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -3801,7 +3790,7 @@ exports[`chromium /components/selects/ 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -3830,16 +3819,15 @@ exports[`chromium /components/selects/ 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -3864,7 +3852,7 @@ exports[`chromium /components/selects/ 1`] = `
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -3896,7 +3884,7 @@ exports[`chromium /components/selects/ 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -3905,7 +3893,7 @@ exports[`chromium /components/selects/ 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -3948,34 +3936,34 @@ exports[`chromium /components/slider 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -4003,10 +3991,10 @@ exports[`chromium /components/slider 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -4014,7 +4002,7 @@ exports[`chromium /components/slider 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -4022,7 +4010,7 @@ exports[`chromium /components/slider 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -4030,7 +4018,7 @@ exports[`chromium /components/slider 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -4038,7 +4026,7 @@ exports[`chromium /components/slider 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -4046,21 +4034,21 @@ exports[`chromium /components/slider 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -4068,7 +4056,7 @@ exports[`chromium /components/slider 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -4084,7 +4072,7 @@ exports[`chromium /components/slider 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -4119,7 +4107,7 @@ exports[`chromium /components/slider 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -4148,16 +4136,15 @@ exports[`chromium /components/slider 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -4182,7 +4169,7 @@ exports[`chromium /components/slider 1`] = `
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -4214,7 +4201,7 @@ exports[`chromium /components/slider 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -4223,7 +4210,7 @@ exports[`chromium /components/slider 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -4266,34 +4253,34 @@ exports[`chromium /components/switch/ 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -4321,10 +4308,10 @@ exports[`chromium /components/switch/ 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -4332,7 +4319,7 @@ exports[`chromium /components/switch/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -4340,7 +4327,7 @@ exports[`chromium /components/switch/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -4348,7 +4335,7 @@ exports[`chromium /components/switch/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -4356,7 +4343,7 @@ exports[`chromium /components/switch/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -4364,21 +4351,21 @@ exports[`chromium /components/switch/ 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -4386,7 +4373,7 @@ exports[`chromium /components/switch/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -4402,7 +4389,7 @@ exports[`chromium /components/switch/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -4437,7 +4424,7 @@ exports[`chromium /components/switch/ 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -4466,16 +4453,15 @@ exports[`chromium /components/switch/ 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -4500,7 +4486,7 @@ exports[`chromium /components/switch/ 1`] = `
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -4532,7 +4518,7 @@ exports[`chromium /components/switch/ 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -4541,7 +4527,7 @@ exports[`chromium /components/switch/ 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -4584,34 +4570,34 @@ exports[`chromium /components/tabs/ 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -4639,10 +4625,10 @@ exports[`chromium /components/tabs/ 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -4650,7 +4636,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -4658,7 +4644,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -4666,7 +4652,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -4674,7 +4660,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -4682,21 +4668,21 @@ exports[`chromium /components/tabs/ 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -4704,7 +4690,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -4720,7 +4706,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -4755,7 +4741,7 @@ exports[`chromium /components/tabs/ 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -4784,16 +4770,15 @@ exports[`chromium /components/tabs/ 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -4818,7 +4803,7 @@ exports[`chromium /components/tabs/ 1`] = `
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -4850,7 +4835,7 @@ exports[`chromium /components/tabs/ 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -4859,7 +4844,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -4902,34 +4887,34 @@ exports[`chromium /components/text-fields/ 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -4957,10 +4942,10 @@ exports[`chromium /components/text-fields/ 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -4968,7 +4953,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -4976,7 +4961,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -4984,7 +4969,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -4992,7 +4977,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -5000,21 +4985,21 @@ exports[`chromium /components/text-fields/ 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -5022,7 +5007,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -5038,7 +5023,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -5073,7 +5058,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -5102,16 +5087,15 @@ exports[`chromium /components/text-fields/ 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -5136,7 +5120,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -5168,7 +5152,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -5177,7 +5161,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -5208,7 +5192,7 @@ exports[`chromium /components/text-fields/ 1`] = `
 
 exports[`chromium /components/tooltips/ 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">Select</heading>
   <text>
     Select components are used for collecting user provided information from a
@@ -5220,34 +5204,34 @@ exports[`chromium /components/tooltips/ 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -5275,10 +5259,10 @@ exports[`chromium /components/tooltips/ 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -5286,7 +5270,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -5294,7 +5278,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -5302,7 +5286,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -5310,7 +5294,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -5318,21 +5302,21 @@ exports[`chromium /components/tooltips/ 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -5340,7 +5324,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -5356,7 +5340,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -5391,7 +5375,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -5420,16 +5404,15 @@ exports[`chromium /components/tooltips/ 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -5453,8 +5436,8 @@ exports[`chromium /components/tooltips/ 1`] = `
   <combobox haspopup="menu">See more</combobox>
   <heading level="2">Controlled Open Select</heading>
   <generic>
-    OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    Open the select Age Age ​<button>Open the select</button>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -5470,8 +5453,8 @@ exports[`chromium /components/tooltips/ 1`] = `
     use a select inside a dialog.
   </text>
   <generic>
-    OPEN SELECT DIALOG
-    <button>OPEN SELECT DIALOG</button>
+    Open select dialog
+    <button>Open select dialog</button>
   </generic>
   <button pressed="true">Show JavaScript source</button>
   <button pressed="false">Show TypeScript source</button>
@@ -5486,7 +5469,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -5495,7 +5478,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -5538,34 +5521,34 @@ exports[`chromium /components/transfer-list 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -5593,10 +5576,10 @@ exports[`chromium /components/transfer-list 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -5604,7 +5587,7 @@ exports[`chromium /components/transfer-list 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -5612,7 +5595,7 @@ exports[`chromium /components/transfer-list 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -5620,7 +5603,7 @@ exports[`chromium /components/transfer-list 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -5628,7 +5611,7 @@ exports[`chromium /components/transfer-list 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -5636,21 +5619,21 @@ exports[`chromium /components/transfer-list 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -5658,7 +5641,7 @@ exports[`chromium /components/transfer-list 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -5674,7 +5657,7 @@ exports[`chromium /components/transfer-list 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -5709,7 +5692,7 @@ exports[`chromium /components/transfer-list 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -5738,16 +5721,15 @@ exports[`chromium /components/transfer-list 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -5772,7 +5754,7 @@ exports[`chromium /components/transfer-list 1`] = `
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -5804,7 +5786,7 @@ exports[`chromium /components/transfer-list 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -5813,7 +5795,7 @@ exports[`chromium /components/transfer-list 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -5856,34 +5838,34 @@ exports[`chromium /components/tree-view/ 1`] = `
     selected menu item appears on top of the emitting element.
   </text>
   <generic>
-    Age Age ​Age Age ​ Some important helper textWithout label Without labelAge
-    Age None Label + placeholderName Name ​ DisabledName Name ​ ErrorName Name ​
-    Read onlyAge Age ​ Auto widthWithout label PlaceholderAge * Age ​
-    RequiredAge Age ​Age Age ​<text>Age </text>
+    Age Age ​ Age Age ​ Some important helper text Without label Without label
+    Age Age None Label + placeholder Name Name ​ Disabled Name Name ​ Error Name
+    Name ​ Read only Age Age ​ Auto width Without label Placeholder Age * Age ​
+    Required Age Age ​ Age Age ​<text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Without labelAge </text>
+    <text>Without labelAge</text>
     <combobox haspopup="listbox">Age None</combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox disabled="true" haspopup="listbox">
       Name ​
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Read onlyAge </text>
+    <text>Read onlyAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Auto width </text>
+    <text>Auto width</text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox haspopup="listbox">Age * ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -5911,10 +5893,10 @@ exports[`chromium /components/tree-view/ 1`] = `
     the platform, we allow such pattern.
   </text>
   <generic>
-    Age NoneAge None Some important helper textage With visually hidden labelAge
-    None Label + placeholderName Hai DisabledName Hai ErrorName Thirty
-    Uncontrolledage PlaceholderAge * None RequiredAge NoneAge None
-    <text>Age </text>
+    Age None Age None Some important helper text age With visually hidden label
+    Age None Label + placeholder Name Hai Disabled Name Hai Error Name Thirty
+    Uncontrolled age Placeholder Age * None Required Age None Age None
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -5922,7 +5904,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -5930,7 +5912,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Some important helper text </text>
+    <text>Some important helper text</text>
     <combobox value="None">
       age
       <menuitem selected="true">None</menuitem>
@@ -5938,7 +5920,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>With visually hidden labelAge </text>
+    <text>With visually hidden labelAge</text>
     <combobox value="None">
       Age
       <menuitem selected="true">None</menuitem>
@@ -5946,7 +5928,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Label + placeholderName </text>
+    <text>Label + placeholderName</text>
     <combobox value="Hai" disabled="true">
       Name
       <menuitem>None</menuitem>
@@ -5954,21 +5936,21 @@ exports[`chromium /components/tree-view/ 1`] = `
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>DisabledName </text>
+    <text>DisabledName</text>
     <combobox value="Hai" invalid="true">
       Name
       <menuitem selected="true">Hai</menuitem>
       <menuitem>Olivier</menuitem>
       <menuitem>Kevin</menuitem>
     </combobox>
-    <text>ErrorName </text>
+    <text>ErrorName</text>
     <combobox value="Thirty">
       Name
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
     </combobox>
-    <text>Uncontrolled </text>
+    <text>Uncontrolled</text>
     <combobox value="Placeholder">
       age
       <menuitem disabled="true">Placeholder</menuitem>
@@ -5976,7 +5958,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge *</text>
     <combobox value="None">
       Age *
       <menuitem selected="true"></menuitem>
@@ -5992,7 +5974,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>Age </text>
+    <text>Age</text>
     <combobox value="None">
       Age
       <menuitem selected="true"></menuitem>
@@ -6027,7 +6009,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     selectinputproperty to have aselectfield.
   </text>
   <generic>
-    AgeAge Age ​Age None
+    Age Age Age ​ Age None
     <text>Age</text>
     <textbox>Age</textbox>
     <text>Age</text>
@@ -6056,16 +6038,15 @@ exports[`chromium /components/tree-view/ 1`] = `
     an array.
   </text>
   <generic>
-    Name Name ​Tag Tag ​Chip Chip ​Without labelNative
-    <text>Name </text>
+    Name Name ​ Tag Tag ​ Chip Chip ​ Without label Native
+    <text>Name</text>
     <combobox haspopup="listbox">Name ​</combobox>
-    <text>Tag </text>
+    <text>Tag</text>
     <combobox haspopup="listbox">Tag ​</combobox>
-    <text>Chip </text>
+    <text>Chip</text>
     <combobox haspopup="listbox">Chip ​</combobox>
-    <text> </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>Native </text>
+    <text>Native</text>
     <listbox multiselectable="true">
       Native
       <option>Oliver Hansen</option>
@@ -6090,7 +6071,7 @@ exports[`chromium /components/tree-view/ 1`] = `
   <heading level="2">Controlled Open Select</heading>
   <generic>
     OPEN THE SELECT Age Age ​<button>OPEN THE SELECT</button>
-    <text>Age </text>
+    <text>Age</text>
     <combobox haspopup="listbox">Age ​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -6122,7 +6103,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     native<optgroup>element.
   </text>
   <generic>
-    Grouping NoneGrouping ​<text>Grouping </text>
+    Grouping None Grouping ​<text>Grouping</text>
     <combobox value="None">
       Grouping
       <menuitem selected="true"></menuitem>
@@ -6131,7 +6112,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       <menuitem>Option 3</menuitem>
       <menuitem>Option 4</menuitem>
     </combobox>
-    <text>Grouping </text>
+    <text>Grouping</text>
     <combobox haspopup="listbox">​</combobox>
   </generic>
   <button pressed="true">Show JavaScript source</button>
@@ -6181,7 +6162,7 @@ exports[`firefox / 1`] = `
       React components for faster and easier web development. Build your own
       design system, or start with Material Design.
     </text>
-    <link>GET STARTED</link>
+    <link>Get Started</link>
     <link>Star</link>
     <link>Follow</link>
     <link>Get Professional Support</link>
@@ -6193,13 +6174,11 @@ exports[`firefox / 1`] = `
       the CSS needed.$ npm install @material-ui/core
     </text>
     <link>or use a CDN.</link>
-    <text>Load the default Roboto font.</text>
-    <text-container>
-      <text>
-        <linkrel="stylesheet"href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
-      </text>
-    </text-container>
-    <link>READ INSTALLATION DOCS</link>
+    <text>
+      Load the default Roboto
+      font.<linkrel="stylesheet"href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
+    </text>
+    <link>Read installation docs</link>
     <heading level="2">Usage</heading>
     <text>
       Material-UI components work without any additional setup, and don't
@@ -6208,7 +6187,7 @@ exports[`firefox / 1`] = `
       }from'@material-ui/core';functionApp(){return<Buttoncolor="primary">Hello
       World</Button>;}
     </text>
-    <link>EXPLORE THE DOCS</link>
+    <link>Explore the docs</link>
     <heading level="2">Premium themes</heading>
     <text>
       Take your project to the next level with premium themes from our store –
@@ -6256,16 +6235,25 @@ exports[`firefox / 1`] = `
   </landmark>
   <link>Material-UI</link>
   <heading level="2">Community</heading>
+  <statictext>•</statictext>
   <link>GitHub</link>
+  <statictext>•</statictext>
   <link>Twitter</link>
+  <statictext>•</statictext>
   <link>StackOverflow</link>
+  <statictext>•</statictext>
   <link>Team</link>
   <heading level="2">Resources</heading>
+  <statictext>•</statictext>
   <link>Support</link>
+  <statictext>•</statictext>
   <link>Blog</link>
+  <statictext>•</statictext>
   <link>Material Icons</link>
   <heading level="2">Company</heading>
+  <statictext>•</statictext>
   <link>About</link>
+  <statictext>•</statictext>
   <link>Contact Us</link>
   <text>Currently</text>
   <link>v4.9.11. View versions page.</link>
@@ -6278,7 +6266,7 @@ exports[`firefox / 1`] = `
 
 exports[`firefox /api/buttons/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">Select</heading>
   <text>
     Select components are used for collecting user provided information from a
@@ -6311,7 +6299,7 @@ exports[`firefox /api/buttons/ 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -6375,14 +6363,18 @@ exports[`firefox /api/buttons/ 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -6405,7 +6397,7 @@ exports[`firefox /api/buttons/ 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -6507,7 +6499,7 @@ exports[`firefox /api/buttons/ 1`] = `
   <buttonmenu haspopup="true">See more</buttonmenu>
   <heading level="2">Controlled Open Select</heading>
   <section>
-    <button>OPEN THE SELECT</button>
+    <button>Open the select</button>
     <text>Age</text>
     <button haspopup="true">Age ​</button>
   </section>
@@ -6522,7 +6514,7 @@ exports[`firefox /api/buttons/ 1`] = `
     use a select inside a dialog.
   </text>
   <section>
-    <button>OPEN SELECT DIALOG</button>
+    <button>Open select dialog</button>
   </section>
   <button>Show the source</button>
   <button>Edit in CodeSandbox</button>
@@ -6573,7 +6565,7 @@ exports[`firefox /api/buttons/ 1`] = `
 
 exports[`firefox /api/selects/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">Select</heading>
   <text>
     Select components are used for collecting user provided information from a
@@ -6606,7 +6598,7 @@ exports[`firefox /api/selects/ 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -6670,14 +6662,18 @@ exports[`firefox /api/selects/ 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -6700,7 +6696,7 @@ exports[`firefox /api/selects/ 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -6802,7 +6798,7 @@ exports[`firefox /api/selects/ 1`] = `
   <buttonmenu haspopup="true">See more</buttonmenu>
   <heading level="2">Controlled Open Select</heading>
   <section>
-    <button>OPEN THE SELECT</button>
+    <button>Open the select</button>
     <text>Age</text>
     <button haspopup="true">Age ​</button>
   </section>
@@ -6817,7 +6813,7 @@ exports[`firefox /api/selects/ 1`] = `
     use a select inside a dialog.
   </text>
   <section>
-    <button>OPEN SELECT DIALOG</button>
+    <button>Open select dialog</button>
   </section>
   <button>Show the source</button>
   <button>Edit in CodeSandbox</button>
@@ -6901,7 +6897,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -6965,14 +6961,18 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -6995,7 +6995,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -7163,7 +7163,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
 
 exports[`firefox /components/button-group/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">Select</heading>
   <text>
     Select components are used for collecting user provided information from a
@@ -7196,7 +7196,7 @@ exports[`firefox /components/button-group/ 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -7260,14 +7260,18 @@ exports[`firefox /components/button-group/ 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -7290,7 +7294,7 @@ exports[`firefox /components/button-group/ 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -7392,7 +7396,7 @@ exports[`firefox /components/button-group/ 1`] = `
   <buttonmenu haspopup="true">See more</buttonmenu>
   <heading level="2">Controlled Open Select</heading>
   <section>
-    <button>OPEN THE SELECT</button>
+    <button>Open the select</button>
     <text>Age</text>
     <button haspopup="true">Age ​</button>
   </section>
@@ -7407,7 +7411,7 @@ exports[`firefox /components/button-group/ 1`] = `
     use a select inside a dialog.
   </text>
   <section>
-    <button>OPEN SELECT DIALOG</button>
+    <button>Open select dialog</button>
   </section>
   <button>Show the source</button>
   <button>Edit in CodeSandbox</button>
@@ -7458,7 +7462,7 @@ exports[`firefox /components/button-group/ 1`] = `
 
 exports[`firefox /components/buttons/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">Select</heading>
   <text>
     Select components are used for collecting user provided information from a
@@ -7491,7 +7495,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -7555,14 +7559,18 @@ exports[`firefox /components/buttons/ 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -7585,7 +7593,7 @@ exports[`firefox /components/buttons/ 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -7687,7 +7695,7 @@ exports[`firefox /components/buttons/ 1`] = `
   <buttonmenu haspopup="true">See more</buttonmenu>
   <heading level="2">Controlled Open Select</heading>
   <section>
-    <button>OPEN THE SELECT</button>
+    <button>Open the select</button>
     <text>Age</text>
     <button haspopup="true">Age ​</button>
   </section>
@@ -7702,7 +7710,7 @@ exports[`firefox /components/buttons/ 1`] = `
     use a select inside a dialog.
   </text>
   <section>
-    <button>OPEN SELECT DIALOG</button>
+    <button>Open select dialog</button>
   </section>
   <button>Show the source</button>
   <button>Edit in CodeSandbox</button>
@@ -7753,7 +7761,7 @@ exports[`firefox /components/buttons/ 1`] = `
 
 exports[`firefox /components/checkboxes/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">Select</heading>
   <text>
     Select components are used for collecting user provided information from a
@@ -7786,7 +7794,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -7850,14 +7858,18 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -7880,7 +7892,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -7982,7 +7994,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
   <buttonmenu haspopup="true">See more</buttonmenu>
   <heading level="2">Controlled Open Select</heading>
   <section>
-    <button>OPEN THE SELECT</button>
+    <button>Open the select</button>
     <text>Age</text>
     <button haspopup="true">Age ​</button>
   </section>
@@ -7997,7 +8009,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     use a select inside a dialog.
   </text>
   <section>
-    <button>OPEN SELECT DIALOG</button>
+    <button>Open select dialog</button>
   </section>
   <button>Show the source</button>
   <button>Edit in CodeSandbox</button>
@@ -8048,7 +8060,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
 
 exports[`firefox /components/dialogs/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">Select</heading>
   <text>
     Select components are used for collecting user provided information from a
@@ -8081,7 +8093,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -8145,14 +8157,18 @@ exports[`firefox /components/dialogs/ 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -8175,7 +8191,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -8277,7 +8293,7 @@ exports[`firefox /components/dialogs/ 1`] = `
   <buttonmenu haspopup="true">See more</buttonmenu>
   <heading level="2">Controlled Open Select</heading>
   <section>
-    <button>OPEN THE SELECT</button>
+    <button>Open the select</button>
     <text>Age</text>
     <button haspopup="true">Age ​</button>
   </section>
@@ -8292,7 +8308,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     use a select inside a dialog.
   </text>
   <section>
-    <button>OPEN SELECT DIALOG</button>
+    <button>Open select dialog</button>
   </section>
   <button>Show the source</button>
   <button>Edit in CodeSandbox</button>
@@ -8376,7 +8392,7 @@ exports[`firefox /components/pagination/ 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -8440,14 +8456,18 @@ exports[`firefox /components/pagination/ 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -8470,7 +8490,7 @@ exports[`firefox /components/pagination/ 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -8638,7 +8658,7 @@ exports[`firefox /components/pagination/ 1`] = `
 
 exports[`firefox /components/pickers 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">Select</heading>
   <text>
     Select components are used for collecting user provided information from a
@@ -8671,7 +8691,7 @@ exports[`firefox /components/pickers 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -8735,14 +8755,18 @@ exports[`firefox /components/pickers 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -8765,7 +8789,7 @@ exports[`firefox /components/pickers 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -8867,7 +8891,7 @@ exports[`firefox /components/pickers 1`] = `
   <buttonmenu haspopup="true">See more</buttonmenu>
   <heading level="2">Controlled Open Select</heading>
   <section>
-    <button>OPEN THE SELECT</button>
+    <button>Open the select</button>
     <text>Age</text>
     <button haspopup="true">Age ​</button>
   </section>
@@ -8882,7 +8906,7 @@ exports[`firefox /components/pickers 1`] = `
     use a select inside a dialog.
   </text>
   <section>
-    <button>OPEN SELECT DIALOG</button>
+    <button>Open select dialog</button>
   </section>
   <button>Show the source</button>
   <button>Edit in CodeSandbox</button>
@@ -8933,7 +8957,7 @@ exports[`firefox /components/pickers 1`] = `
 
 exports[`firefox /components/radio-buttons 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">Select</heading>
   <text>
     Select components are used for collecting user provided information from a
@@ -8966,7 +8990,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -9030,14 +9054,18 @@ exports[`firefox /components/radio-buttons 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -9060,7 +9088,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -9162,7 +9190,7 @@ exports[`firefox /components/radio-buttons 1`] = `
   <buttonmenu haspopup="true">See more</buttonmenu>
   <heading level="2">Controlled Open Select</heading>
   <section>
-    <button>OPEN THE SELECT</button>
+    <button>Open the select</button>
     <text>Age</text>
     <button haspopup="true">Age ​</button>
   </section>
@@ -9177,7 +9205,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     use a select inside a dialog.
   </text>
   <section>
-    <button>OPEN SELECT DIALOG</button>
+    <button>Open select dialog</button>
   </section>
   <button>Show the source</button>
   <button>Edit in CodeSandbox</button>
@@ -9261,7 +9289,7 @@ exports[`firefox /components/rating/ 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -9325,14 +9353,18 @@ exports[`firefox /components/rating/ 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -9355,7 +9387,7 @@ exports[`firefox /components/rating/ 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -9556,7 +9588,7 @@ exports[`firefox /components/selects/ 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -9620,14 +9652,18 @@ exports[`firefox /components/selects/ 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -9650,7 +9686,7 @@ exports[`firefox /components/selects/ 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -9851,7 +9887,7 @@ exports[`firefox /components/slider 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -9915,14 +9951,18 @@ exports[`firefox /components/slider 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -9945,7 +9985,7 @@ exports[`firefox /components/slider 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -10113,7 +10153,7 @@ exports[`firefox /components/slider 1`] = `
 
 exports[`firefox /components/switch/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">Select</heading>
   <text>
     Select components are used for collecting user provided information from a
@@ -10146,7 +10186,7 @@ exports[`firefox /components/switch/ 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -10210,14 +10250,18 @@ exports[`firefox /components/switch/ 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -10240,7 +10284,7 @@ exports[`firefox /components/switch/ 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -10342,7 +10386,7 @@ exports[`firefox /components/switch/ 1`] = `
   <buttonmenu haspopup="true">See more</buttonmenu>
   <heading level="2">Controlled Open Select</heading>
   <section>
-    <button>OPEN THE SELECT</button>
+    <button>Open the select</button>
     <text>Age</text>
     <button haspopup="true">Age ​</button>
   </section>
@@ -10357,7 +10401,7 @@ exports[`firefox /components/switch/ 1`] = `
     use a select inside a dialog.
   </text>
   <section>
-    <button>OPEN SELECT DIALOG</button>
+    <button>Open select dialog</button>
   </section>
   <button>Show the source</button>
   <button>Edit in CodeSandbox</button>
@@ -10441,7 +10485,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -10505,14 +10549,18 @@ exports[`firefox /components/tabs/ 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -10535,7 +10583,7 @@ exports[`firefox /components/tabs/ 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -10703,7 +10751,7 @@ exports[`firefox /components/tabs/ 1`] = `
 
 exports[`firefox /components/text-fields/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">Select</heading>
   <text>
     Select components are used for collecting user provided information from a
@@ -10736,7 +10784,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -10800,14 +10848,18 @@ exports[`firefox /components/text-fields/ 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -10830,7 +10882,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -10932,7 +10984,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   <buttonmenu haspopup="true">See more</buttonmenu>
   <heading level="2">Controlled Open Select</heading>
   <section>
-    <button>OPEN THE SELECT</button>
+    <button>Open the select</button>
     <text>Age</text>
     <button haspopup="true">Age ​</button>
   </section>
@@ -10947,7 +10999,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     use a select inside a dialog.
   </text>
   <section>
-    <button>OPEN SELECT DIALOG</button>
+    <button>Open select dialog</button>
   </section>
   <button>Show the source</button>
   <button>Edit in CodeSandbox</button>
@@ -11031,7 +11083,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -11095,14 +11147,18 @@ exports[`firefox /components/tooltips/ 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -11125,7 +11181,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -11293,7 +11349,7 @@ exports[`firefox /components/tooltips/ 1`] = `
 
 exports[`firefox /components/transfer-list 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">Select</heading>
   <text>
     Select components are used for collecting user provided information from a
@@ -11326,7 +11382,7 @@ exports[`firefox /components/transfer-list 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -11390,14 +11446,18 @@ exports[`firefox /components/transfer-list 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -11420,7 +11480,7 @@ exports[`firefox /components/transfer-list 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -11522,7 +11582,7 @@ exports[`firefox /components/transfer-list 1`] = `
   <buttonmenu haspopup="true">See more</buttonmenu>
   <heading level="2">Controlled Open Select</heading>
   <section>
-    <button>OPEN THE SELECT</button>
+    <button>Open the select</button>
     <text>Age</text>
     <button haspopup="true">Age ​</button>
   </section>
@@ -11537,7 +11597,7 @@ exports[`firefox /components/transfer-list 1`] = `
     use a select inside a dialog.
   </text>
   <section>
-    <button>OPEN SELECT DIALOG</button>
+    <button>Open select dialog</button>
   </section>
   <button>Show the source</button>
   <button>Edit in CodeSandbox</button>
@@ -11588,7 +11648,7 @@ exports[`firefox /components/transfer-list 1`] = `
 
 exports[`firefox /components/tree-view/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">Select</heading>
   <text>
     Select components are used for collecting user provided information from a
@@ -11621,7 +11681,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
     <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <button haspopup="true">Age * ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -11685,14 +11745,18 @@ exports[`firefox /components/tree-view/ 1`] = `
     <combobox value="Hai" disabled="true" haspopup="true">
       Name
       <option>None</option>
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
     <text>DisabledName</text>
     <combobox value="Hai" haspopup="true" invalid="true">
       Name
-      <option selected="true">Hai</option>
+      <option selected="true" level="2">
+        Hai
+      </option>
       <option level="2">Olivier</option>
       <option level="2">Kevin</option>
     </combobox>
@@ -11715,7 +11779,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     </combobox>
     <text>PlaceholderAge*</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age *
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -11817,7 +11881,7 @@ exports[`firefox /components/tree-view/ 1`] = `
   <buttonmenu haspopup="true">See more</buttonmenu>
   <heading level="2">Controlled Open Select</heading>
   <section>
-    <button>OPEN THE SELECT</button>
+    <button>Open the select</button>
     <text>Age</text>
     <button haspopup="true">Age ​</button>
   </section>
@@ -11832,7 +11896,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     use a select inside a dialog.
   </text>
   <section>
-    <button>OPEN SELECT DIALOG</button>
+    <button>Open select dialog</button>
   </section>
   <button>Show the source</button>
   <button>Edit in CodeSandbox</button>
