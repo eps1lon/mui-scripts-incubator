@@ -56,7 +56,7 @@ exports[`chromium / 1`] = `
       Take your project to the next level with premium themes from our store –
       all built on Material-UI.
     </text>
-    <link>Browse themes</link>
+    <link>Material-UI templates</link>
     <link>BROWSE THEMES</link>
     <heading level="2">Material-UI's sponsors</heading>
     <text>
@@ -6708,7 +6708,7 @@ exports[`firefox / 1`] = `
       Take your project to the next level with premium themes from our store –
       all built on Material-UI.
     </text>
-    <link>Browse themes</link>
+    <link>Material-UI templates</link>
     <link>BROWSE THEMES</link>
     <heading level="2">Material-UI's sponsors</heading>
     <text>
