@@ -154,8 +154,8 @@ exports[`chromium /api/buttons/ 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -253,9 +253,9 @@ exports[`chromium /api/buttons/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -498,8 +498,8 @@ exports[`chromium /api/selects/ 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -597,9 +597,9 @@ exports[`chromium /api/selects/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -842,8 +842,8 @@ exports[`chromium /components/breadcrumbs 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -941,9 +941,9 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -1186,8 +1186,8 @@ exports[`chromium /components/button-group/ 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -1285,9 +1285,9 @@ exports[`chromium /components/button-group/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -1530,8 +1530,8 @@ exports[`chromium /components/buttons/ 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -1629,9 +1629,9 @@ exports[`chromium /components/buttons/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -1874,8 +1874,8 @@ exports[`chromium /components/checkboxes/ 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -1973,9 +1973,9 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -2218,8 +2218,8 @@ exports[`chromium /components/dialogs/ 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -2317,9 +2317,9 @@ exports[`chromium /components/dialogs/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -2562,8 +2562,8 @@ exports[`chromium /components/pagination/ 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -2661,9 +2661,9 @@ exports[`chromium /components/pagination/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -2906,8 +2906,8 @@ exports[`chromium /components/pickers 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -3005,9 +3005,9 @@ exports[`chromium /components/pickers 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -3250,8 +3250,8 @@ exports[`chromium /components/radio-buttons 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -3349,9 +3349,9 @@ exports[`chromium /components/radio-buttons 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -3594,8 +3594,8 @@ exports[`chromium /components/rating/ 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -3693,9 +3693,9 @@ exports[`chromium /components/rating/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -3938,8 +3938,8 @@ exports[`chromium /components/selects/ 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -4037,9 +4037,9 @@ exports[`chromium /components/selects/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -4282,8 +4282,8 @@ exports[`chromium /components/slider 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -4381,9 +4381,9 @@ exports[`chromium /components/slider 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -4626,8 +4626,8 @@ exports[`chromium /components/switch/ 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -4725,9 +4725,9 @@ exports[`chromium /components/switch/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -4970,8 +4970,8 @@ exports[`chromium /components/tabs/ 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -5069,9 +5069,9 @@ exports[`chromium /components/tabs/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -5314,8 +5314,8 @@ exports[`chromium /components/text-fields/ 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -5413,9 +5413,9 @@ exports[`chromium /components/text-fields/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -5658,8 +5658,8 @@ exports[`chromium /components/tooltips/ 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -5757,9 +5757,9 @@ exports[`chromium /components/tooltips/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -6002,8 +6002,8 @@ exports[`chromium /components/transfer-list 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -6101,9 +6101,9 @@ exports[`chromium /components/transfer-list 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -6346,8 +6346,8 @@ exports[`chromium /components/tree-view/ 1`] = `
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Auto width </text>
     <combobox haspopup="listbox">Without label</combobox>
-    <text>PlaceholderAge * </text>
-    <combobox haspopup="listbox">Age * ​</combobox>
+    <text>PlaceholderAge </text>
+    <combobox haspopup="listbox">Age ​</combobox>
     <text>RequiredAge</text>
     <combobox haspopup="listbox">Age ​</combobox>
     <text>Age </text>
@@ -6445,9 +6445,9 @@ exports[`chromium /components/tree-view/ 1`] = `
       <menuitem>Twenty</menuitem>
       <menuitem>Thirty</menuitem>
     </combobox>
-    <text>PlaceholderAge * </text>
+    <text>PlaceholderAge </text>
     <combobox value="None">
-      Age *
+      Age
       <menuitem selected="true"></menuitem>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
@@ -6806,8 +6806,8 @@ exports[`firefox /api/buttons/ 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -6902,9 +6902,9 @@ exports[`firefox /api/buttons/ 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -7122,8 +7122,8 @@ exports[`firefox /api/selects/ 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -7218,9 +7218,9 @@ exports[`firefox /api/selects/ 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -7438,8 +7438,8 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -7534,9 +7534,9 @@ exports[`firefox /components/breadcrumbs 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -7754,8 +7754,8 @@ exports[`firefox /components/button-group/ 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -7850,9 +7850,9 @@ exports[`firefox /components/button-group/ 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -8070,8 +8070,8 @@ exports[`firefox /components/buttons/ 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -8166,9 +8166,9 @@ exports[`firefox /components/buttons/ 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -8386,8 +8386,8 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -8482,9 +8482,9 @@ exports[`firefox /components/checkboxes/ 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -8702,8 +8702,8 @@ exports[`firefox /components/dialogs/ 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -8798,9 +8798,9 @@ exports[`firefox /components/dialogs/ 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -9018,8 +9018,8 @@ exports[`firefox /components/pagination/ 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -9114,9 +9114,9 @@ exports[`firefox /components/pagination/ 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -9334,8 +9334,8 @@ exports[`firefox /components/pickers 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -9430,9 +9430,9 @@ exports[`firefox /components/pickers 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -9650,8 +9650,8 @@ exports[`firefox /components/radio-buttons 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -9746,9 +9746,9 @@ exports[`firefox /components/radio-buttons 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -9966,8 +9966,8 @@ exports[`firefox /components/rating/ 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -10062,9 +10062,9 @@ exports[`firefox /components/rating/ 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -10282,8 +10282,8 @@ exports[`firefox /components/selects/ 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -10378,9 +10378,9 @@ exports[`firefox /components/selects/ 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -10598,8 +10598,8 @@ exports[`firefox /components/slider 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -10694,9 +10694,9 @@ exports[`firefox /components/slider 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -10914,8 +10914,8 @@ exports[`firefox /components/switch/ 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -11010,9 +11010,9 @@ exports[`firefox /components/switch/ 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -11230,8 +11230,8 @@ exports[`firefox /components/tabs/ 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -11326,9 +11326,9 @@ exports[`firefox /components/tabs/ 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -11546,8 +11546,8 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -11642,9 +11642,9 @@ exports[`firefox /components/text-fields/ 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -11862,8 +11862,8 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -11958,9 +11958,9 @@ exports[`firefox /components/tooltips/ 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -12178,8 +12178,8 @@ exports[`firefox /components/transfer-list 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -12274,9 +12274,9 @@ exports[`firefox /components/transfer-list 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
@@ -12494,8 +12494,8 @@ exports[`firefox /components/tree-view/ 1`] = `
     <button haspopup="true">Age ​</button>
     <text>Auto width</text>
     <button haspopup="true">Without label</button>
-    <text>PlaceholderAge*</text>
-    <button haspopup="true">Age  * ​</button>
+    <text>PlaceholderAge</text>
+    <button haspopup="true">Age ​</button>
     <text>RequiredAge</text>
     <button haspopup="true">Age ​</button>
     <text>Age</text>
@@ -12590,9 +12590,9 @@ exports[`firefox /components/tree-view/ 1`] = `
       <option>Twenty</option>
       <option>Thirty</option>
     </combobox>
-    <text>PlaceholderAge*</text>
+    <text>PlaceholderAge</text>
     <combobox value="None" required="true" haspopup="true" invalid="true">
-      Age  *
+      Age
       <option selected="true">None</option>
       <option>Ten</option>
       <option>Twenty</option>
