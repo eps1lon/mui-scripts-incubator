@@ -110,7 +110,7 @@ exports[`chromium / 1`] = `
   <link>About</link>
   <link>Contact Us</link>
   <text>Currently</text>
-  <link>v4.9.11. View versions page.</link>
+  <link>v4.9.12. View versions page.</link>
   <text>. Released under the</text>
   <link>MIT License</link>
   <text>.Copyright ©2020Material-UI.</text>
@@ -6762,7 +6762,7 @@ exports[`firefox / 1`] = `
   <link>About</link>
   <link>Contact Us</link>
   <text>Currently</text>
-  <link>v4.9.11. View versions page.</link>
+  <link>v4.9.12. View versions page.</link>
   <text>. Released under the</text>
   <link>MIT License</link>
   <text>. Copyright © 2020 Material-UI.</text>
