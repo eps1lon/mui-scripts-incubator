@@ -9,7 +9,7 @@
 	},
 	"dependencies": {
 		"@octokit/graphql": "^4.3.1",
-		"jest": "^25.2.4",
+		"jest": "^25.5.3",
 		"lighthouse": "^5.6.0",
 		"lodash": "^4.17.15",
 		"playwright": "0.12.1",
