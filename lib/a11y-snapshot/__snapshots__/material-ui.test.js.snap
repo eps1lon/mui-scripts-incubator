@@ -449,7 +449,14 @@ exports[`chromium /api/buttons/ 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -793,7 +800,14 @@ exports[`chromium /api/selects/ 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -1137,7 +1151,14 @@ exports[`chromium /components/breadcrumbs 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -1481,7 +1502,14 @@ exports[`chromium /components/button-group/ 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -1825,7 +1853,14 @@ exports[`chromium /components/buttons/ 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -2169,7 +2204,14 @@ exports[`chromium /components/checkboxes/ 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -2513,7 +2555,14 @@ exports[`chromium /components/dialogs/ 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -2857,7 +2906,14 @@ exports[`chromium /components/pagination/ 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -3201,7 +3257,14 @@ exports[`chromium /components/pickers 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -3545,7 +3608,14 @@ exports[`chromium /components/radio-buttons 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -3889,7 +3959,14 @@ exports[`chromium /components/rating/ 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -4233,7 +4310,14 @@ exports[`chromium /components/selects/ 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -4577,7 +4661,14 @@ exports[`chromium /components/slider 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -4921,7 +5012,14 @@ exports[`chromium /components/switch/ 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -5265,7 +5363,14 @@ exports[`chromium /components/tabs/ 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -5609,7 +5714,14 @@ exports[`chromium /components/text-fields/ 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -5953,7 +6065,14 @@ exports[`chromium /components/tooltips/ 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -6297,7 +6416,14 @@ exports[`chromium /components/transfer-list 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -6641,7 +6767,14 @@ exports[`chromium /components/tree-view/ 1`] = `
     contains a label. Thatidneeds to match thelabelIdof
     theSelecte.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     aTextFieldwith anidandlabelcreates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of theidattribute of the
+    select element to
+    theInputLabel'shtmlForattribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <text>•</text>
@@ -7073,7 +7206,14 @@ exports[`firefox /api/buttons/ 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
@@ -7389,7 +7529,14 @@ exports[`firefox /api/selects/ 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
@@ -7705,7 +7852,14 @@ exports[`firefox /components/breadcrumbs 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
@@ -8021,7 +8175,14 @@ exports[`firefox /components/button-group/ 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
@@ -8337,7 +8498,14 @@ exports[`firefox /components/buttons/ 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
@@ -8653,7 +8821,14 @@ exports[`firefox /components/checkboxes/ 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
@@ -8969,7 +9144,14 @@ exports[`firefox /components/dialogs/ 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
@@ -9285,7 +9467,14 @@ exports[`firefox /components/pagination/ 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
@@ -9601,7 +9790,14 @@ exports[`firefox /components/pickers 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
@@ -9917,7 +10113,14 @@ exports[`firefox /components/radio-buttons 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
@@ -10233,7 +10436,14 @@ exports[`firefox /components/rating/ 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
@@ -10549,7 +10759,14 @@ exports[`firefox /components/selects/ 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
@@ -10865,7 +11082,14 @@ exports[`firefox /components/slider 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
@@ -11181,7 +11405,14 @@ exports[`firefox /components/switch/ 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
@@ -11497,7 +11728,14 @@ exports[`firefox /components/tabs/ 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
@@ -11813,7 +12051,14 @@ exports[`firefox /components/text-fields/ 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
@@ -12129,7 +12374,14 @@ exports[`firefox /components/tooltips/ 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
@@ -12445,7 +12697,14 @@ exports[`firefox /components/transfer-list 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
@@ -12761,7 +13020,14 @@ exports[`firefox /components/tree-view/ 1`] = `
     that contains a label. That id needs to match the labelId of the Select
     e.g.<InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>Alternatively
     a TextField with an id and label creates the proper markup and ids for
-    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
+    you:<TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>For
+    a
+  </text>
+  <link>native select</link>
+  <text>
+    , you should mention a label by giving the value of the id attribute of the
+    select element to the InputLabel's htmlFor
+    attribute:<InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
   </text>
   <heading level="2">API</heading>
   <statictext>•</statictext>
