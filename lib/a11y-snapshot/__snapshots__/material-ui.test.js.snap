@@ -64,7 +64,8 @@ exports[`chromium / 1`] = `
       by these generous sponsors:
     </text>
     <heading level="3">Diamond 💎</heading>
-    <text>3/3 slots available</text>
+    <link>sencha</link>
+    <text>2/3 slots available</text>
     <heading level="3">Gold 🏆</heading>
     <link>tidelift</link>
     <link>bitsrc</link>
@@ -6849,7 +6850,8 @@ exports[`firefox / 1`] = `
       by these generous sponsors:
     </text>
     <heading level="3">Diamond 💎</heading>
-    <text>3/3 slots available</text>
+    <link>sencha</link>
+    <text>2/3 slots available</text>
     <heading level="3">Gold 🏆</heading>
     <link>tidelift</link>
     <link>bitsrc</link>
