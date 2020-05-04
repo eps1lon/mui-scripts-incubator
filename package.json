@@ -12,7 +12,7 @@
 		"jest": "^25.5.3",
 		"lighthouse": "^5.6.0",
 		"lodash": "^4.17.15",
-		"playwright": "0.12.1",
+		"playwright": "0.16.0",
 		"prettier": "^2.0.5",
 		"yargs": "^15.3.1"
 	},
