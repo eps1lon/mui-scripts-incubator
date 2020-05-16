@@ -333,6 +333,9 @@ exports[`chromium /api/buttons/ 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -684,6 +687,9 @@ exports[`chromium /api/selects/ 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -1035,6 +1041,9 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -1386,6 +1395,9 @@ exports[`chromium /components/button-group/ 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -1737,6 +1749,9 @@ exports[`chromium /components/buttons/ 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -2088,6 +2103,9 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -2439,6 +2457,9 @@ exports[`chromium /components/dialogs/ 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -2790,6 +2811,9 @@ exports[`chromium /components/pagination/ 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -3141,6 +3165,9 @@ exports[`chromium /components/pickers 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -3492,6 +3519,9 @@ exports[`chromium /components/radio-buttons 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -3843,6 +3873,9 @@ exports[`chromium /components/rating/ 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -4194,6 +4227,9 @@ exports[`chromium /components/selects/ 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -4545,6 +4581,9 @@ exports[`chromium /components/slider 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -4896,6 +4935,9 @@ exports[`chromium /components/switch/ 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -5247,6 +5289,9 @@ exports[`chromium /components/tabs/ 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -5598,6 +5643,9 @@ exports[`chromium /components/text-fields/ 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -5949,6 +5997,9 @@ exports[`chromium /components/tooltips/ 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -6300,6 +6351,9 @@ exports[`chromium /components/transfer-list 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -6651,6 +6705,9 @@ exports[`chromium /components/tree-view/ 1`] = `
   </button>
   <button description="Reset demo">Reset demo</button>
   <combobox haspopup="menu">See more</combobox>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     TheSelectcomponent can handle multiple selections. It's enabled with
@@ -7108,6 +7165,9 @@ exports[`firefox /api/buttons/ 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
@@ -7431,6 +7491,9 @@ exports[`firefox /api/selects/ 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
@@ -7754,6 +7817,9 @@ exports[`firefox /components/breadcrumbs 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
@@ -8077,6 +8143,9 @@ exports[`firefox /components/button-group/ 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
@@ -8400,6 +8469,9 @@ exports[`firefox /components/buttons/ 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
@@ -8723,6 +8795,9 @@ exports[`firefox /components/checkboxes/ 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
@@ -9046,6 +9121,9 @@ exports[`firefox /components/dialogs/ 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
@@ -9369,6 +9447,9 @@ exports[`firefox /components/pagination/ 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
@@ -9692,6 +9773,9 @@ exports[`firefox /components/pickers 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
@@ -10015,6 +10099,9 @@ exports[`firefox /components/radio-buttons 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
@@ -10338,6 +10425,9 @@ exports[`firefox /components/rating/ 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
@@ -10661,6 +10751,9 @@ exports[`firefox /components/selects/ 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
@@ -10984,6 +11077,9 @@ exports[`firefox /components/slider 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
@@ -11307,6 +11403,9 @@ exports[`firefox /components/switch/ 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
@@ -11630,6 +11729,9 @@ exports[`firefox /components/tabs/ 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
@@ -11953,6 +12055,9 @@ exports[`firefox /components/text-fields/ 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
@@ -12276,6 +12381,9 @@ exports[`firefox /components/tooltips/ 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
@@ -12599,6 +12707,9 @@ exports[`firefox /components/transfer-list 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
@@ -12922,6 +13033,9 @@ exports[`firefox /components/tree-view/ 1`] = `
   <button>Reset focus to test keyboard navigation</button>
   <button>Reset demo</button>
   <buttonmenu haspopup="true">See more</buttonmenu>
+  <text>🎨 If you are looking for inspiration, you can check</text>
+  <link>MUI Treasury's customization examples</link>
+  <text>.</text>
   <heading level="2">Multiple Select</heading>
   <text>
     The Select component can handle multiple selections. It's enabled with
