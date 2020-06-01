@@ -36,7 +36,7 @@
 		"@actions/core": "^1.2.4",
 		"@actions/github": "^2.2.0",
 		"@types/puppeteer": "^3.0.0",
-		"eslint": "^6.8.0"
+		"eslint": "^7.1.0"
 	},
 	"resolutions": {
 		"**/minimist": "^1.2.1"
