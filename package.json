@@ -34,7 +34,7 @@
 	],
 	"devDependencies": {
 		"@actions/core": "^1.2.4",
-		"@actions/github": "^2.1.1",
+		"@actions/github": "^2.2.0",
 		"@types/puppeteer": "^2.0.1",
 		"eslint": "^6.8.0"
 	},
