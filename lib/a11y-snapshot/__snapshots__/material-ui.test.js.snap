@@ -143,7 +143,7 @@ exports[`chromium /api/button/ 1`] = `
   <text>at the theme level.</text>
   <heading level="2">Props</heading>
   <text>
-    NameTypeDefaultDescriptionchildren *nodeThe content of the
+    NameTypeDefaultDescriptionchildrennodeThe content of the
     button.classesobjectOverride or extend the styles applied to the component.
     See
   </text>
@@ -164,10 +164,10 @@ exports[`chromium /api/button/ 1`] = `
     children.fullWidthboolfalseIftrue, the button will take up the full width of
     its container.hrefstringThe URL to link to when the button is clicked. If
     defined, anaelement will be used as the root
-    node.size'small'| 'medium'| 'large''medium'The
+    node.size'large'| 'medium'| 'small''medium'The
     size of the button.smallis equivalent to the dense button
     styling.startIconnodeElement placed before the
-    children.variant'text'| 'outlined'| 'contained''text'The
+    children.variant'contained'| 'outlined'| 'text''text'The
     variant to use.Therefis forwarded to the root element.Any other props
     supplied will be provided to the root element (
   </text>
@@ -5637,7 +5637,7 @@ exports[`firefox /api/button/ 1`] = `
   <text>at the theme level.</text>
   <heading level="2">Props</heading>
   <text>
-    NameTypeDefaultDescriptionchildren *nodeThe content of the
+    NameTypeDefaultDescriptionchildrennodeThe content of the
     button.classesobjectOverride or extend the styles applied to the component.
     See
   </text>
@@ -5658,10 +5658,10 @@ exports[`firefox /api/button/ 1`] = `
     children.fullWidthboolfalseIf true, the button will take up the full width
     of its container.hrefstringThe URL to link to when the button is clicked. If
     defined, an a element will be used as the root
-    node.size'small'| 'medium'| 'large''medium'The
+    node.size'large'| 'medium'| 'small''medium'The
     size of the button. small is equivalent to the dense button
     styling.startIconnodeElement placed before the
-    children.variant'text'| 'outlined'| 'contained''text'The
+    children.variant'contained'| 'outlined'| 'text''text'The
     variant to use.The ref is forwarded to the root element.Any other props
     supplied will be provided to the root element (
   </text>
