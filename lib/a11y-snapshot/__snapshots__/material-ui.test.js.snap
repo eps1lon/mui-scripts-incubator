@@ -360,9 +360,11 @@ exports[`chromium /api/select/ 1`] = `
     the icon component if the popup is
     open.iconFilled.MuiSelect-iconFilledStyles applied to the icon component
     ifvariant="filled".iconOutlined.MuiSelect-iconOutlinedStyles
-    applied to the icon component ifvariant="outlined".You can
-    override the style of the component thanks to one of these customization
-    points:•With a rule name of the
+    applied to the icon component
+    ifvariant="outlined".nativeInput.MuiSelect-nativeInputStyles
+    applied to the underlying native input component.You can override the style
+    of the component thanks to one of these customization points:•With a rule
+    name of the
   </text>
   <link>classes object prop</link>
   <text>.•With a</text>
@@ -5860,8 +5862,10 @@ exports[`firefox /api/select/ 1`] = `
     the icon component if the popup is
     open.iconFilled.MuiSelect-iconFilledStyles applied to the icon component if
     variant="filled".iconOutlined.MuiSelect-iconOutlinedStyles applied
-    to the icon component if variant="outlined".You can override the
-    style of the component thanks to one of these customization points:
+    to the icon component if
+    variant="outlined".nativeInput.MuiSelect-nativeInputStyles applied
+    to the underlying native input component.You can override the style of the
+    component thanks to one of these customization points:
   </text>
   <statictext>•</statictext>
   <text>With a rule name of the</text>
