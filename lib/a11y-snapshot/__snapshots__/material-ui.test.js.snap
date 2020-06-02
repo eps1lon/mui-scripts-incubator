@@ -9031,7 +9031,9 @@ exports[`firefox /components/tabs/ 1`] = `
   <tab selected="true">ITEM ONE</tab>
   <tab>ITEM TWO</tab>
   <tab>ITEM THREE</tab>
-  <text>Item One</text>
+  <section>
+    <text>Item One</text>
+  </section>
   <button>Show the source</button>
   <button>Edit in CodeSandbox</button>
   <button>Copy the source</button>
