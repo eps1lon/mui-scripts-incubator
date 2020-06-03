@@ -30353,14 +30353,12 @@ exports[`firefox /components/tabs/ 1`] = `
       <text-container></text-container>
     </section>
     <section>
-      <section>
-        <tabpanel>
-          ITEM ONE
-          <paragraph>
-            <text>Item One</text>
-          </paragraph>
-        </tabpanel>
-      </section>
+      <tabpanel>
+        ITEM ONE
+        <paragraph>
+          <text>Item One</text>
+        </paragraph>
+      </tabpanel>
     </section>
   </section>
   <section></section>
