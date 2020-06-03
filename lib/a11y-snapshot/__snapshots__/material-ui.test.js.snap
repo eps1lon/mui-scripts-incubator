@@ -501,8 +501,8 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
-        children *
-        <text>children *</text>
+        children
+        <text>children</text>
       </gridcell>
       <gridcell>
         node
@@ -747,12 +747,12 @@ exports[`chromium /api/button/ 1`] = `
         <text>size</text>
       </gridcell>
       <gridcell>
-        'small' | 'medium' | 'large'
-        <text>'small'</text>
+        'large' | 'medium' | 'small'
+        <text>'large'</text>
         <LineBreak></LineBreak>
         <text>| 'medium'</text>
         <LineBreak></LineBreak>
-        <text>| 'large'</text>
+        <text>| 'small'</text>
       </gridcell>
       <gridcell>
         'medium'
@@ -788,12 +788,12 @@ exports[`chromium /api/button/ 1`] = `
         <text>variant</text>
       </gridcell>
       <gridcell>
-        'text' | 'outlined' | 'contained'
-        <text>'text'</text>
+        'contained' | 'outlined' | 'text'
+        <text>'contained'</text>
         <LineBreak></LineBreak>
         <text>| 'outlined'</text>
         <LineBreak></LineBreak>
-        <text>| 'contained'</text>
+        <text>| 'text'</text>
       </gridcell>
       <gridcell>
         'text'
@@ -18386,7 +18386,7 @@ exports[`firefox /api/button/ 1`] = `
       </row>
       <row>
         <cell>
-          <text>children *</text>
+          <text>children</text>
         </cell>
         <cell>
           <text>node</text>
@@ -18592,11 +18592,11 @@ exports[`firefox /api/button/ 1`] = `
           <text>size</text>
         </cell>
         <cell>
-          <text>'small'</text>
+          <text>'large'</text>
           <whitespace></whitespace>
           <text>| 'medium'</text>
           <whitespace></whitespace>
-          <text>| 'large'</text>
+          <text>| 'small'</text>
         </cell>
         <cell>
           <text>'medium'</text>
@@ -18626,11 +18626,11 @@ exports[`firefox /api/button/ 1`] = `
           <text>variant</text>
         </cell>
         <cell>
-          <text>'text'</text>
+          <text>'contained'</text>
           <whitespace></whitespace>
           <text>| 'outlined'</text>
           <whitespace></whitespace>
-          <text>| 'contained'</text>
+          <text>| 'text'</text>
         </cell>
         <cell>
           <text>'text'</text>
