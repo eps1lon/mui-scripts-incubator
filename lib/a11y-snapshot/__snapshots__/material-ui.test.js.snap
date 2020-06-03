@@ -76,10 +76,7 @@ exports[`chromium / 1`] = `
       <text>Get Professional Support</text>
     </link>
     <text>random sponsor</text>
-    <link>
-      a random quick word
-      <text>Sencha - UI Components for Productive Dev Teams</text>
-    </link>
+    <link>a random quick word</link>
     <SVGRoot></SVGRoot>
     <heading level="2">
       Installation
@@ -353,9 +350,6 @@ exports[`chromium / 1`] = `
   </link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
-  <link>
-    <img description="UI Components for Productive Dev Teams">sencha</img>
-  </link>
   <link>
     Diamond Sponsors
     <SVGRoot></SVGRoot>
@@ -17969,16 +17963,7 @@ exports[`firefox / 1`] = `
           Get Professional Support
         </text>
       </link>
-      <section>
-        random sponsor
-        <text>A quick word from our sponsors:</text>
-        <link>
-          a random quick word
-          <text value="https://www.call-em-all.com/">
-            Call-Em-All - The easy way to message your group
-          </text>
-        </link>
-      </section>
+      <section>random sponsor</section>
       <heading level="2">
         Installation
         <text>Installation</text>
