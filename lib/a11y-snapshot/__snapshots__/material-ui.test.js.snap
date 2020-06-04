@@ -18417,14 +18417,7 @@ exports[`firefox /api/button/ 1`] = `
     <listitem>
       • With a rule name of the classes object prop .<statictext>•</statictext>
       <text>With a rule name of the</text>
-      <link>
-        classes object prop
-        <text-container>
-          <text value="https://material-ui.netlify.app/customization/components/#overriding-styles-with-classes">
-            classes
-          </text>
-        </text-container>
-      </link>
+      <link>classes object prop</link>
       <text>.</text>
     </listitem>
     <listitem>
@@ -18436,14 +18429,7 @@ exports[`firefox /api/button/ 1`] = `
     <listitem>
       • With a theme and an overrides property .<statictext>•</statictext>
       <text>With a theme and an</text>
-      <link>
-        overrides property
-        <text-container>
-          <text value="https://material-ui.netlify.app/customization/globals/#css">
-            overrides
-          </text>
-        </text-container>
-      </link>
+      <link>overrides property</link>
       <text>.</text>
     </listitem>
   </list>
@@ -18827,12 +18813,7 @@ exports[`firefox /api/select/ 1`] = `
       <cell></cell>
       <cell>
         <text>Props applied to the</text>
-        <link>
-          Menu
-          <text-container>
-            <text value="https://material-ui.netlify.app/api/menu/">Menu</text>
-          </text-container>
-        </link>
+        <link>Menu</link>
         <text>element.</text>
       </cell>
     </row>
@@ -19285,14 +19266,7 @@ exports[`firefox /api/select/ 1`] = `
     <listitem>
       • With a rule name of the classes object prop .<statictext>•</statictext>
       <text>With a rule name of the</text>
-      <link>
-        classes object prop
-        <text-container>
-          <text value="https://material-ui.netlify.app/customization/components/#overriding-styles-with-classes">
-            classes
-          </text>
-        </text-container>
-      </link>
+      <link>classes object prop</link>
       <text>.</text>
     </listitem>
     <listitem>
@@ -19304,14 +19278,7 @@ exports[`firefox /api/select/ 1`] = `
     <listitem>
       • With a theme and an overrides property .<statictext>•</statictext>
       <text>With a theme and an</text>
-      <link>
-        overrides property
-        <text-container>
-          <text value="https://material-ui.netlify.app/customization/globals/#css">
-            overrides
-          </text>
-        </text-container>
-      </link>
+      <link>overrides property</link>
       <text>.</text>
     </listitem>
   </list>
@@ -21827,14 +21794,7 @@ exports[`firefox /components/dialogs/ 1`] = `
   </heading>
   <paragraph>
     <text>You may make a dialog responsively full screen using</text>
-    <link>
-      useMediaQuery
-      <text-container>
-        <text value="https://material-ui.netlify.app/components/use-media-query/#usemediaquery">
-          useMediaQuery
-        </text>
-      </text-container>
-    </link>
+    <link>useMediaQuery</link>
     <text>.</text>
   </paragraph>
   <text-container>
@@ -25452,14 +25412,7 @@ exports[`firefox /components/selects/ 1`] = `
       If you are looking for more advanced features, like combobox, multiselect,
       autocomplete, async or creatable support, head to the
     </text>
-    <link>
-      Autocomplete component
-      <text-container>
-        <text value="https://material-ui.netlify.app/components/autocomplete/">
-          Autocomplete
-        </text>
-      </text-container>
-    </link>
+    <link>Autocomplete component</link>
     <text>
       . It's meant to be an improved version of the
       "react-select" and "downshift" packages.
@@ -29844,57 +29797,17 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>TextField</text>
     </text-container>
     <text>is composed of smaller components (</text>
-    <link>
-      FormControl
-      <text-container>
-        <text value="https://material-ui.netlify.app/api/form-control/">
-          FormControl
-        </text>
-      </text-container>
-    </link>
+    <link>FormControl</link>
     <text>,</text>
-    <link>
-      Input
-      <text-container>
-        <text value="https://material-ui.netlify.app/api/input/">Input</text>
-      </text-container>
-    </link>
+    <link>Input</link>
     <text>,</text>
-    <link>
-      FilledInput
-      <text-container>
-        <text value="https://material-ui.netlify.app/api/filled-input/">
-          FilledInput
-        </text>
-      </text-container>
-    </link>
+    <link>FilledInput</link>
     <text>,</text>
-    <link>
-      InputLabel
-      <text-container>
-        <text value="https://material-ui.netlify.app/api/input-label/">
-          InputLabel
-        </text>
-      </text-container>
-    </link>
+    <link>InputLabel</link>
     <text>,</text>
-    <link>
-      OutlinedInput
-      <text-container>
-        <text value="https://material-ui.netlify.app/api/outlined-input/">
-          OutlinedInput
-        </text>
-      </text-container>
-    </link>
+    <link>OutlinedInput</link>
     <text>, and</text>
-    <link>
-      FormHelperText
-      <text-container>
-        <text value="https://material-ui.netlify.app/api/form-helper-text/">
-          FormHelperText
-        </text>
-      </text-container>
-    </link>
+    <link>FormHelperText</link>
     <text>
       ) that you can leverage directly to significantly customize your form
       inputs.
@@ -30205,14 +30118,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       custom components and give your app a unique feel. Below is an example
       using the
     </text>
-    <link>
-      InputBase
-      <text-container>
-        <text value="https://material-ui.netlify.app/api/input-base/">
-          InputBase
-        </text>
-      </text-container>
-    </link>
+    <link>InputBase</link>
     <text>component, inspired by Google Maps.</text>
   </paragraph>
   <button>
