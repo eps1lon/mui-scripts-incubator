@@ -18420,7 +18420,7 @@ exports[`firefox /api/button/ 1`] = `
       <link>
         classes object prop
         <text-container>
-          <text value="https://material-ui.netlify.app/customization/components/#overriding-styles-with-classes">
+          <text value="https://deploy-preview-21308--material-ui.netlify.app/customization/components/#overriding-styles-with-classes">
             classes
           </text>
         </text-container>
@@ -18439,7 +18439,7 @@ exports[`firefox /api/button/ 1`] = `
       <link>
         overrides property
         <text-container>
-          <text value="https://material-ui.netlify.app/customization/globals/#css">
+          <text value="https://deploy-preview-21308--material-ui.netlify.app/customization/globals/#css">
             overrides
           </text>
         </text-container>
@@ -18830,7 +18830,9 @@ exports[`firefox /api/select/ 1`] = `
         <link>
           Menu
           <text-container>
-            <text value="https://material-ui.netlify.app/api/menu/">Menu</text>
+            <text value="https://deploy-preview-21308--material-ui.netlify.app/api/menu/">
+              Menu
+            </text>
           </text-container>
         </link>
         <text>element.</text>
@@ -19288,7 +19290,7 @@ exports[`firefox /api/select/ 1`] = `
       <link>
         classes object prop
         <text-container>
-          <text value="https://material-ui.netlify.app/customization/components/#overriding-styles-with-classes">
+          <text value="https://deploy-preview-21308--material-ui.netlify.app/customization/components/#overriding-styles-with-classes">
             classes
           </text>
         </text-container>
@@ -19307,7 +19309,7 @@ exports[`firefox /api/select/ 1`] = `
       <link>
         overrides property
         <text-container>
-          <text value="https://material-ui.netlify.app/customization/globals/#css">
+          <text value="https://deploy-preview-21308--material-ui.netlify.app/customization/globals/#css">
             overrides
           </text>
         </text-container>
@@ -21830,7 +21832,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <link>
       useMediaQuery
       <text-container>
-        <text value="https://material-ui.netlify.app/components/use-media-query/#usemediaquery">
+        <text value="https://deploy-preview-21308--material-ui.netlify.app/components/use-media-query/#usemediaquery">
           useMediaQuery
         </text>
       </text-container>
@@ -25455,7 +25457,7 @@ exports[`firefox /components/selects/ 1`] = `
     <link>
       Autocomplete component
       <text-container>
-        <text value="https://material-ui.netlify.app/components/autocomplete/">
+        <text value="https://deploy-preview-21308--material-ui.netlify.app/components/autocomplete/">
           Autocomplete
         </text>
       </text-container>
@@ -29847,7 +29849,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <link>
       FormControl
       <text-container>
-        <text value="https://material-ui.netlify.app/api/form-control/">
+        <text value="https://deploy-preview-21308--material-ui.netlify.app/api/form-control/">
           FormControl
         </text>
       </text-container>
@@ -29856,14 +29858,16 @@ exports[`firefox /components/text-fields/ 1`] = `
     <link>
       Input
       <text-container>
-        <text value="https://material-ui.netlify.app/api/input/">Input</text>
+        <text value="https://deploy-preview-21308--material-ui.netlify.app/api/input/">
+          Input
+        </text>
       </text-container>
     </link>
     <text>,</text>
     <link>
       FilledInput
       <text-container>
-        <text value="https://material-ui.netlify.app/api/filled-input/">
+        <text value="https://deploy-preview-21308--material-ui.netlify.app/api/filled-input/">
           FilledInput
         </text>
       </text-container>
@@ -29872,7 +29876,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <link>
       InputLabel
       <text-container>
-        <text value="https://material-ui.netlify.app/api/input-label/">
+        <text value="https://deploy-preview-21308--material-ui.netlify.app/api/input-label/">
           InputLabel
         </text>
       </text-container>
@@ -29881,7 +29885,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <link>
       OutlinedInput
       <text-container>
-        <text value="https://material-ui.netlify.app/api/outlined-input/">
+        <text value="https://deploy-preview-21308--material-ui.netlify.app/api/outlined-input/">
           OutlinedInput
         </text>
       </text-container>
@@ -29890,7 +29894,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <link>
       FormHelperText
       <text-container>
-        <text value="https://material-ui.netlify.app/api/form-helper-text/">
+        <text value="https://deploy-preview-21308--material-ui.netlify.app/api/form-helper-text/">
           FormHelperText
         </text>
       </text-container>
@@ -30208,7 +30212,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <link>
       InputBase
       <text-container>
-        <text value="https://material-ui.netlify.app/api/input-base/">
+        <text value="https://deploy-preview-21308--material-ui.netlify.app/api/input-base/">
           InputBase
         </text>
       </text-container>
