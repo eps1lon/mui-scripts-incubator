@@ -23695,10 +23695,7 @@ exports[`firefox /components/pickers 1`] = `
     <img>npm downloads</img>
   </paragraph>
   <paragraph>
-    <link>
-      @material-ui/pickers
-      <text value="https://material-ui-pickers.dev/">@material-ui/pickers</text>
-    </link>
+    <link>@material-ui/pickers</link>
     <text>provides date picker and time picker controls.</text>
   </paragraph>
   <button>
@@ -23751,17 +23748,9 @@ exports[`firefox /components/pickers 1`] = `
   </heading>
   <paragraph>
     <text>⚠️ Native input controls support by browsers</text>
-    <link>
-      isn't perfect
-      <text value="https://caniuse.com/#feat=input-datetime">
-        isn't perfect
-      </text>
-    </link>
+    <link>isn't perfect</link>
     <text>. Have a look at</text>
-    <link>
-      @material-ui/pickers
-      <text value="https://material-ui-pickers.dev/">@material-ui/pickers</text>
-    </link>
+    <link>@material-ui/pickers</link>
     <text>for a richer solution.</text>
   </paragraph>
   <heading level="3">
@@ -23954,27 +23943,12 @@ exports[`firefox /components/pickers 1`] = `
     <listitem>
       • <TextField />
       <statictext>•</statictext>
-      <link>
-        <TextField />
-        <text value="https://material-ui.netlify.app/api/text-field/">
-          <TextField />
-        </text>
-      </link>
+      <link><TextField /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Floating Action Button
-    <text value="https://material-ui.netlify.app/components/floating-action-button/">
-      Floating Action Button
-    </text>
-  </link>
-  <link>
-    Radio
-    <text value="https://material-ui.netlify.app/components/radio-buttons/">
-      Radio
-    </text>
-  </link>
+  <link>Floating Action Button</link>
+  <link>Radio</link>
 </landmark>;
 
 `;
