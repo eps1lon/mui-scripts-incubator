@@ -3,10 +3,7 @@
 exports[`chromium / 1`] = `
 <WebArea>
   Material-UI: A popular React UI framework
-  <link>
-    Skip to content
-    <text>Skip to content</text>
-  </link>
+  <link>Skip to content</link>
   <banner>
     <button>
       Open main navigation
@@ -63,18 +60,9 @@ exports[`chromium / 1`] = `
       GET STARTED
       <text>GET STARTED</text>
     </link>
-    <link>
-      Star
-      <text>Star</text>
-    </link>
-    <link>
-      Follow
-      <text>Follow</text>
-    </link>
-    <link>
-      Get Professional Support
-      <text>Get Professional Support</text>
-    </link>
+    <link>Star</link>
+    <link>Follow</link>
+    <link>Get Professional Support</link>
     <text>random sponsor</text>
     <link>a random quick word</link>
     <SVGRoot></SVGRoot>
@@ -91,10 +79,7 @@ exports[`chromium / 1`] = `
         <text>$ npm install @material-ui/core</text>
       </code>
     </Pre>
-    <link>
-      or use a CDN.
-      <text>or use a CDN.</text>
-    </link>
+    <link>or use a CDN.</link>
     <text>Load the default Roboto font.</text>
     <Pre>
       <code>
@@ -202,10 +187,7 @@ exports[`chromium / 1`] = `
     </heading>
     <paragraph>
       <text>See the full list of</text>
-      <link>
-        our sponsors
-        <text>our sponsors</text>
-      </link>
+      <link>our sponsors</link>
       <text>
         , and learn how you can contribute to the future of Material-UI.
       </text>
@@ -250,38 +232,23 @@ exports[`chromium / 1`] = `
   </main>
   <separator orientation="horizontal"></separator>
   <contentinfo>
-    <link>
-      Material-UI
-      <text>Material-UI</text>
-    </link>
+    <link>Material-UI</link>
     <heading level="2">
       Community
       <text>Community</text>
     </heading>
     <list>
       <listitem level="1">
-        <link>
-          GitHub
-          <text>GitHub</text>
-        </link>
+        <link>GitHub</link>
       </listitem>
       <listitem level="1">
-        <link>
-          Twitter
-          <text>Twitter</text>
-        </link>
+        <link>Twitter</link>
       </listitem>
       <listitem level="1">
-        <link>
-          StackOverflow
-          <text>StackOverflow</text>
-        </link>
+        <link>StackOverflow</link>
       </listitem>
       <listitem level="1">
-        <link>
-          Team
-          <text>Team</text>
-        </link>
+        <link>Team</link>
       </listitem>
     </list>
     <heading level="2">
@@ -290,22 +257,13 @@ exports[`chromium / 1`] = `
     </heading>
     <list>
       <listitem level="1">
-        <link>
-          Support
-          <text>Support</text>
-        </link>
+        <link>Support</link>
       </listitem>
       <listitem level="1">
-        <link>
-          Blog
-          <text>Blog</text>
-        </link>
+        <link>Blog</link>
       </listitem>
       <listitem level="1">
-        <link>
-          Material Icons
-          <text>Material Icons</text>
-        </link>
+        <link>Material Icons</link>
       </listitem>
     </list>
     <heading level="2">
@@ -314,40 +272,22 @@ exports[`chromium / 1`] = `
     </heading>
     <list>
       <listitem level="1">
-        <link>
-          About
-          <text>About</text>
-        </link>
+        <link>About</link>
       </listitem>
       <listitem level="1">
-        <link>
-          Contact Us
-          <text>Contact Us</text>
-        </link>
+        <link>Contact Us</link>
       </listitem>
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>
-        v4.10.1. View versions page.
-        <text>v4.10.1</text>
-      </link>
+      <link>v4.10.1. View versions page.</link>
       <text>. Released under the</text>
-      <link>
-        MIT License
-        <text>MIT License</text>
-      </link>
+      <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
-  <link>
-    Material-UI
-    <text>Material-UI</text>
-  </link>
-  <link>
-    v4.10.1
-    <text>v4.10.1</text>
-  </link>
+  <link>Material-UI</link>
+  <link>v4.10.1</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -447,10 +387,7 @@ exports[`chromium /api/button/ 1`] = `
   </Pre>
   <paragraph>
     <text>You can learn more about the difference by</text>
-    <link>
-      reading this guide
-      <text>reading this guide</text>
-    </link>
+    <link>reading this guide</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -464,15 +401,9 @@ exports[`chromium /api/button/ 1`] = `
       <text>MuiButton</text>
     </code>
     <text>name can be used for providing</text>
-    <link>
-      default props
-      <text>default props</text>
-    </link>
+    <link>default props</link>
     <text>or</text>
-    <link>
-      style overrides
-      <text>style overrides</text>
-    </link>
+    <link>style overrides</link>
     <text>at the theme level.</text>
   </paragraph>
   <heading level="2">
@@ -528,10 +459,7 @@ exports[`chromium /api/button/ 1`] = `
         Override or extend the styles applied to the component. See CSS API
         below for more details.
         <text>Override or extend the styles applied to the component. See</text>
-        <link>
-          CSS API
-          <text>CSS API</text>
-        </link>
+        <link>CSS API</link>
         <text>below for more details.</text>
       </gridcell>
     </row>
@@ -814,10 +742,7 @@ exports[`chromium /api/button/ 1`] = `
   </paragraph>
   <paragraph>
     <text>Any other props supplied will be provided to the root element (</text>
-    <link>
-      ButtonBase
-      <text>ButtonBase</text>
-    </link>
+    <link>ButtonBase</link>
     <text>).</text>
   </paragraph>
   <heading level="2">
@@ -1427,7 +1352,6 @@ exports[`chromium /api/button/ 1`] = `
         <code>
           <text>classes</text>
         </code>
-        <text>object prop</text>
       </link>
       <text>.</text>
     </listitem>
@@ -1436,10 +1360,7 @@ exports[`chromium /api/button/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <text>With a</text>
-      <link>
-        global class name
-        <text>global class name</text>
-      </link>
+      <link>global class name</link>
       <text>.</text>
     </listitem>
     <listitem level="1">
@@ -1452,17 +1373,13 @@ exports[`chromium /api/button/ 1`] = `
         <code>
           <text>overrides</text>
         </code>
-        <text>property</text>
       </link>
       <text>.</text>
     </listitem>
   </list>
   <paragraph>
     <text>If that's not sufficient, you can check the</text>
-    <link>
-      implementation of the component
-      <text>implementation of the component</text>
-    </link>
+    <link>implementation of the component</link>
     <text>for more detail.</text>
   </paragraph>
   <heading level="2">
@@ -1472,17 +1389,11 @@ exports[`chromium /api/button/ 1`] = `
   </heading>
   <paragraph>
     <text>The props of the</text>
-    <link>
-      ButtonBase
-      <text>ButtonBase</text>
-    </link>
+    <link>ButtonBase</link>
     <text>
       component are also available. You can take advantage of this behavior to
     </text>
-    <link>
-      target nested components
-      <text>target nested components</text>
-    </link>
+    <link>target nested components</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -1495,19 +1406,13 @@ exports[`chromium /api/button/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        Button Group
-        <text>Button Group</text>
-      </link>
+      <link>Button Group</link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        Buttons
-        <text>Buttons</text>
-      </link>
+      <link>Buttons</link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -1559,10 +1464,7 @@ exports[`chromium /api/select/ 1`] = `
   </Pre>
   <paragraph>
     <text>You can learn more about the difference by</text>
-    <link>
-      reading this guide
-      <text>reading this guide</text>
-    </link>
+    <link>reading this guide</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -1576,15 +1478,9 @@ exports[`chromium /api/select/ 1`] = `
       <text>MuiSelect</text>
     </code>
     <text>name can be used for providing</text>
-    <link>
-      default props
-      <text>default props</text>
-    </link>
+    <link>default props</link>
     <text>or</text>
-    <link>
-      style overrides
-      <text>style overrides</text>
-    </link>
+    <link>style overrides</link>
     <text>at the theme level.</text>
   </paragraph>
   <heading level="2">
@@ -1698,10 +1594,7 @@ exports[`chromium /api/select/ 1`] = `
         Override or extend the styles applied to the component. See CSS API
         below for more details.
         <text>Override or extend the styles applied to the component. See</text>
-        <link>
-          CSS API
-          <text>CSS API</text>
-        </link>
+        <link>CSS API</link>
         <text>below for more details.</text>
       </gridcell>
     </row>
@@ -1849,10 +1742,7 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell>
         Attributes applied to the input element. When native is true, the
         attributes are applied on the select element.
-        <link>
-          Attributes
-          <text>Attributes</text>
-        </link>
+        <link>Attributes</link>
         <text>applied to the</text>
         <code>
           <text>input</text>
@@ -1885,10 +1775,7 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell>
         See OutlinedInput#label
         <text>See</text>
-        <link>
-          OutlinedInput#label
-          <text>OutlinedInput#label</text>
-        </link>
+        <link>OutlinedInput#label</link>
       </gridcell>
     </row>
     <row>
@@ -1925,10 +1812,7 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell>
         See OutlinedInput#label
         <text>See</text>
-        <link>
-          OutlinedInput#label
-          <text>OutlinedInput#label</text>
-        </link>
+        <link>OutlinedInput#label</link>
       </gridcell>
     </row>
     <row>
@@ -2269,10 +2153,7 @@ exports[`chromium /api/select/ 1`] = `
   </paragraph>
   <paragraph>
     <text>Any other props supplied will be provided to the root element (</text>
-    <link>
-      Input
-      <text>Input</text>
-    </link>
+    <link>Input</link>
     <text>).</text>
   </paragraph>
   <heading level="2">
@@ -2499,7 +2380,6 @@ exports[`chromium /api/select/ 1`] = `
         <code>
           <text>classes</text>
         </code>
-        <text>object prop</text>
       </link>
       <text>.</text>
     </listitem>
@@ -2508,10 +2388,7 @@ exports[`chromium /api/select/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <text>With a</text>
-      <link>
-        global class name
-        <text>global class name</text>
-      </link>
+      <link>global class name</link>
       <text>.</text>
     </listitem>
     <listitem level="1">
@@ -2524,17 +2401,13 @@ exports[`chromium /api/select/ 1`] = `
         <code>
           <text>overrides</text>
         </code>
-        <text>property</text>
       </link>
       <text>.</text>
     </listitem>
   </list>
   <paragraph>
     <text>If that's not sufficient, you can check the</text>
-    <link>
-      implementation of the component
-      <text>implementation of the component</text>
-    </link>
+    <link>implementation of the component</link>
     <text>for more detail.</text>
   </paragraph>
   <heading level="2">
@@ -2544,17 +2417,11 @@ exports[`chromium /api/select/ 1`] = `
   </heading>
   <paragraph>
     <text>The props of the</text>
-    <link>
-      Input
-      <text>Input</text>
-    </link>
+    <link>Input</link>
     <text>
       component are also available. You can take advantage of this behavior to
     </text>
-    <link>
-      target nested components
-      <text>target nested components</text>
-    </link>
+    <link>target nested components</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -2567,10 +2434,7 @@ exports[`chromium /api/select/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        Selects
-        <text>Selects</text>
-      </link>
+      <link>Selects</link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -2619,19 +2483,13 @@ exports[`chromium /components/breadcrumbs 1`] = `
     breadcrumb
     <list>
       <listitem level="1">
-        <link>
-          Material-UI
-          <text>Material-UI</text>
-        </link>
+        <link>Material-UI</link>
       </listitem>
       <listitem level="1">
         <text>/</text>
       </listitem>
       <listitem level="1">
-        <link>
-          Core
-          <text>Core</text>
-        </link>
+        <link>Core</link>
       </listitem>
       <listitem level="1">
         <text>/</text>
@@ -2697,28 +2555,19 @@ exports[`chromium /components/breadcrumbs 1`] = `
     breadcrumb
     <list>
       <listitem level="1">
-        <link>
-          Material-UI
-          <text>Material-UI</text>
-        </link>
+        <link>Material-UI</link>
       </listitem>
       <listitem level="1">
         <text>/</text>
       </listitem>
       <listitem level="1">
-        <link>
-          Core
-          <text>Core</text>
-        </link>
+        <link>Core</link>
       </listitem>
       <listitem level="1">
         <text>/</text>
       </listitem>
       <listitem level="1">
-        <link>
-          Breadcrumb
-          <text>Breadcrumb</text>
-        </link>
+        <link>Breadcrumb</link>
       </listitem>
     </list>
   </navigation>
@@ -2779,19 +2628,13 @@ exports[`chromium /components/breadcrumbs 1`] = `
     breadcrumb
     <list>
       <listitem level="1">
-        <link>
-          Material-UI
-          <text>Material-UI</text>
-        </link>
+        <link>Material-UI</link>
       </listitem>
       <listitem level="1">
         <text>›</text>
       </listitem>
       <listitem level="1">
-        <link>
-          Core
-          <text>Core</text>
-        </link>
+        <link>Core</link>
       </listitem>
       <listitem level="1">
         <text>›</text>
@@ -2807,19 +2650,13 @@ exports[`chromium /components/breadcrumbs 1`] = `
     breadcrumb
     <list>
       <listitem level="1">
-        <link>
-          Material-UI
-          <text>Material-UI</text>
-        </link>
+        <link>Material-UI</link>
       </listitem>
       <listitem level="1">
         <text>-</text>
       </listitem>
       <listitem level="1">
-        <link>
-          Core
-          <text>Core</text>
-        </link>
+        <link>Core</link>
       </listitem>
       <listitem level="1">
         <text>-</text>
@@ -2835,19 +2672,13 @@ exports[`chromium /components/breadcrumbs 1`] = `
     breadcrumb
     <list>
       <listitem level="1">
-        <link>
-          Material-UI
-          <text>Material-UI</text>
-        </link>
+        <link>Material-UI</link>
       </listitem>
       <listitem level="1">
         <SVGRoot></SVGRoot>
       </listitem>
       <listitem level="1">
-        <link>
-          Core
-          <text>Core</text>
-        </link>
+        <link>Core</link>
       </listitem>
       <listitem level="1">
         <SVGRoot></SVGRoot>
@@ -2906,7 +2737,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
         <link>
           Material-UI
           <SVGRoot></SVGRoot>
-          <text>Material-UI</text>
         </link>
       </listitem>
       <listitem level="1">
@@ -2916,7 +2746,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
         <link>
           Core
           <SVGRoot></SVGRoot>
-          <text>Core</text>
         </link>
       </listitem>
       <listitem level="1">
@@ -2974,10 +2803,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
     breadcrumb
     <list>
       <listitem level="1">
-        <link>
-          Home
-          <text>Home</text>
-        </link>
+        <link>Home</link>
       </listitem>
       <listitem level="1">
         <text>/</text>
@@ -3045,10 +2871,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       Here is an example of customizing the component. You can learn more about
       this in the
     </text>
-    <link>
-      overrides documentation page
-      <text>overrides documentation page</text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -3137,10 +2960,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
     breadcrumb
     <list>
       <listitem level="1">
-        <link>
-          Home
-          <text>Home</text>
-        </link>
+        <link>Home</link>
       </listitem>
       <listitem level="1">
         <text>/</text>
@@ -3224,10 +3044,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </heading>
   <paragraph>
     <text>(WAI-ARIA:</text>
-    <link>
-      https://www.w3.org/TR/wai-aria-practices/#breadcrumb
-      <text>https://www.w3.org/TR/wai-aria-practices/#breadcrumb</text>
-    </link>
+    <link>https://www.w3.org/TR/wai-aria-practices/#breadcrumb</link>
     <text>)</text>
   </paragraph>
   <paragraph>
@@ -3292,28 +3109,19 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Breadcrumbs />
-        <text><Breadcrumbs /></text>
-      </link>
+      <link><Breadcrumbs /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Link />
-        <text><Link /></text>
-      </link>
+      <link><Link /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Typography />
-        <text><Typography /></text>
-      </link>
+      <link><Typography /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -3763,19 +3571,13 @@ exports[`chromium /components/button-group/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Button />
-        <text><Button /></text>
-      </link>
+      <link><Button /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <ButtonGroup />
-        <text><ButtonGroup /></text>
-      </link>
+      <link><ButtonGroup /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -3812,10 +3614,7 @@ exports[`chromium /components/buttons/ 1`] = `
     </text>
   </paragraph>
   <paragraph>
-    <link>
-      Buttons
-      <text>Buttons</text>
-    </link>
+    <link>Buttons</link>
     <text>
       communicate actions that users can take. They are typically placed
       throughout your UI, in places like:
@@ -3859,10 +3658,7 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>Contained Buttons</text>
   </heading>
   <paragraph>
-    <link>
-      Contained buttons
-      <text>Contained buttons</text>
-    </link>
+    <link>Contained buttons</link>
     <text>
       are high-emphasis, distinguished by their use of elevation and fill. They
       contain actions that are primary to your app.
@@ -3990,10 +3786,7 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>Text Buttons</text>
   </heading>
   <paragraph>
-    <link>
-      Text buttons
-      <text>Text buttons</text>
-    </link>
+    <link>Text buttons</link>
     <text>
       are typically used for less-pronounced actions, including those located:
     </text>
@@ -4085,10 +3878,7 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>Outlined Buttons</text>
   </heading>
   <paragraph>
-    <link>
-      Outlined buttons
-      <text>Outlined buttons</text>
-    </link>
+    <link>Outlined buttons</link>
     <text>
       are medium-emphasis buttons. They contain actions that are important, but
       aren’t the primary action in an app.
@@ -4184,10 +3974,7 @@ exports[`chromium /components/buttons/ 1`] = `
   </Pre>
   <paragraph>
     <text>Note that the documentation</text>
-    <link>
-      avoids
-      <text>avoids</text>
-    </link>
+    <link>avoids</link>
     <text>
       mentioning native props (there are a lot) in the API section of the
       components.
@@ -4508,10 +4295,7 @@ exports[`chromium /components/buttons/ 1`] = `
       Here are some examples of customizing the component. You can learn more
       about this in the
     </text>
-    <link>
-      overrides documentation page
-      <text>overrides documentation page</text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -4563,10 +4347,7 @@ exports[`chromium /components/buttons/ 1`] = `
   </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>
-      MUI Treasury's customization examples
-      <text>MUI Treasury's customization examples</text>
-    </link>
+    <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -4668,10 +4449,7 @@ exports[`chromium /components/buttons/ 1`] = `
   </paragraph>
   <paragraph>
     <text>Here is an</text>
-    <link>
-      integration example with react-router
-      <text>integration example with react-router</text>
-    </link>
+    <link>integration example with react-router</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -4736,10 +4514,7 @@ exports[`chromium /components/buttons/ 1`] = `
             <text>pointer-events: none;</text>
           </code>
           <text>back when you need to display</text>
-          <link>
-            tooltips on disabled elements
-            <text>tooltips on disabled elements</text>
-          </link>
+          <link>tooltips on disabled elements</link>
           <text>.</text>
         </listitem>
         <listitem level="2">
@@ -4793,28 +4568,19 @@ exports[`chromium /components/buttons/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Button />
-        <text><Button /></text>
-      </link>
+      <link><Button /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <ButtonBase />
-        <text><ButtonBase /></text>
-      </link>
+      <link><ButtonBase /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <IconButton />
-        <text><IconButton /></text>
-      </link>
+      <link><IconButton /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -4851,10 +4617,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
     </text>
   </paragraph>
   <paragraph>
-    <link>
-      Checkboxes
-      <text>Checkboxes</text>
-    </link>
+    <link>Checkboxes</link>
     <text>can be used to turn an option on or off.</text>
   </paragraph>
   <paragraph>
@@ -5180,10 +4943,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
       Here is an example of customizing the component. You can learn more about
       this in the
     </text>
-    <link>
-      overrides documentation page
-      <text>overrides documentation page</text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -5228,10 +4988,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>
-      MUI Treasury's customization examples
-      <text>MUI Treasury's customization examples</text>
-    </link>
+    <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -5244,19 +5001,13 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        Checkboxes vs. Radio Buttons
-        <text>Checkboxes vs. Radio Buttons</text>
-      </link>
+      <link>Checkboxes vs. Radio Buttons</link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        Checkboxes vs. Switches
-        <text>Checkboxes vs. Switches</text>
-      </link>
+      <link>Checkboxes vs. Switches</link>
     </listitem>
   </list>
   <heading level="2">
@@ -5266,10 +5017,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </heading>
   <paragraph>
     <text>(WAI-ARIA:</text>
-    <link>
-      https://www.w3.org/TR/wai-aria-practices/#checkbox
-      <text>https://www.w3.org/TR/wai-aria-practices/#checkbox</text>
-    </link>
+    <link>https://www.w3.org/TR/wai-aria-practices/#checkbox</link>
     <text>)</text>
   </paragraph>
   <list>
@@ -5285,10 +5033,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
         <text><label></text>
       </code>
       <text>element (</text>
-      <link>
-        FormControlLabel
-        <text>FormControlLabel</text>
-      </link>
+      <link>FormControlLabel</link>
       <text>).</text>
     </listitem>
     <listitem level="1">
@@ -5336,46 +5081,31 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Checkbox />
-        <text><Checkbox /></text>
-      </link>
+      <link><Checkbox /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControl />
-        <text><FormControl /></text>
-      </link>
+      <link><FormControl /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControlLabel />
-        <text><FormControlLabel /></text>
-      </link>
+      <link><FormControlLabel /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormGroup />
-        <text><FormGroup /></text>
-      </link>
+      <link><FormGroup /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormLabel />
-        <text><FormLabel /></text>
-      </link>
+      <link><FormLabel /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -5414,15 +5144,9 @@ exports[`chromium /components/dialogs/ 1`] = `
   </paragraph>
   <paragraph>
     <text>A</text>
-    <link>
-      Dialog
-      <text>Dialog</text>
-    </link>
+    <link>Dialog</link>
     <text>is a type of</text>
-    <link>
-      modal
-      <text>modal</text>
-    </link>
+    <link>modal</link>
     <text>
       window that appears in front of app content to provide critical
       information or ask for a decision. Dialogs disable all app functionality
@@ -5737,10 +5461,7 @@ exports[`chromium /components/dialogs/ 1`] = `
       Here is an example of customizing the component. You can learn more about
       this in the
     </text>
-    <link>
-      overrides documentation page
-      <text>overrides documentation page</text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <paragraph>
@@ -6033,10 +5754,7 @@ exports[`chromium /components/dialogs/ 1`] = `
   </heading>
   <paragraph>
     <text>You can create a draggable dialog by using</text>
-    <link>
-      react-draggable
-      <text>react-draggable</text>
-    </link>
+    <link>react-draggable</link>
     <text>. To do so, you can pass the the imported</text>
     <code>
       <text>Draggable</text>
@@ -6174,10 +5892,7 @@ exports[`chromium /components/dialogs/ 1`] = `
   </heading>
   <paragraph>
     <text>Follow the</text>
-    <link>
-      Modal limitations section
-      <text>Modal limitations section</text>
-    </link>
+    <link>Modal limitations section</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -6187,10 +5902,7 @@ exports[`chromium /components/dialogs/ 1`] = `
   </heading>
   <paragraph>
     <text>Follow the</text>
-    <link>
-      Modal accessibility section
-      <text>Modal accessibility section</text>
-    </link>
+    <link>Modal accessibility section</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -6203,55 +5915,37 @@ exports[`chromium /components/dialogs/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Dialog />
-        <text><Dialog /></text>
-      </link>
+      <link><Dialog /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <DialogActions />
-        <text><DialogActions /></text>
-      </link>
+      <link><DialogActions /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <DialogContent />
-        <text><DialogContent /></text>
-      </link>
+      <link><DialogContent /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <DialogContentText />
-        <text><DialogContentText /></text>
-      </link>
+      <link><DialogContentText /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <DialogTitle />
-        <text><DialogTitle /></text>
-      </link>
+      <link><DialogTitle /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Slide />
-        <text><Slide /></text>
-      </link>
+      <link><Slide /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -7943,10 +7637,7 @@ exports[`chromium /components/pagination/ 1`] = `
   </Pre>
   <paragraph>
     <text>You can learn more about this use case in the</text>
-    <link>
-      table section
-      <text>table section</text>
-    </link>
+    <link>table section</link>
     <text>of the documentation.</text>
   </paragraph>
   <heading level="2">
@@ -7992,19 +7683,13 @@ exports[`chromium /components/pagination/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Pagination />
-        <text><Pagination /></text>
-      </link>
+      <link><Pagination /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <PaginationItem />
-        <text><PaginationItem /></text>
-      </link>
+      <link><PaginationItem /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -8071,10 +7756,7 @@ exports[`chromium /components/pickers 1`] = `
     <img>npm downloads</img>
   </paragraph>
   <paragraph>
-    <link>
-      @material-ui/pickers
-      <text>@material-ui/pickers</text>
-    </link>
+    <link>@material-ui/pickers</link>
     <text>provides date picker and time picker controls.</text>
   </paragraph>
   <button>
@@ -8155,15 +7837,9 @@ exports[`chromium /components/pickers 1`] = `
   </heading>
   <paragraph>
     <text>⚠️ Native input controls support by browsers</text>
-    <link>
-      isn't perfect
-      <text>isn't perfect</text>
-    </link>
+    <link>isn't perfect</link>
     <text>. Have a look at</text>
-    <link>
-      @material-ui/pickers
-      <text>@material-ui/pickers</text>
-    </link>
+    <link>@material-ui/pickers</link>
     <text>for a richer solution.</text>
   </paragraph>
   <heading level="3">
@@ -8425,10 +8101,7 @@ exports[`chromium /components/pickers 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <TextField />
-        <text><TextField /></text>
-      </link>
+      <link><TextField /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -8464,10 +8137,7 @@ exports[`chromium /components/radio-buttons 1`] = `
   </paragraph>
   <paragraph>
     <text>Use</text>
-    <link>
-      radio buttons
-      <text>radio buttons</text>
-    </link>
+    <link>radio buttons</link>
     <text>
       when the user needs to see all available options. If available options can
       be collapsed, consider using a dropdown menu because it uses less space.
@@ -8819,10 +8489,7 @@ exports[`chromium /components/radio-buttons 1`] = `
       Here is an example of customizing the component. You can learn more about
       this in the
     </text>
-    <link>
-      overrides documentation page
-      <text>overrides documentation page</text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -8901,10 +8568,7 @@ exports[`chromium /components/radio-buttons 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        Checkboxes vs. Radio Buttons
-        <text>Checkboxes vs. Radio Buttons</text>
-      </link>
+      <link>Checkboxes vs. Radio Buttons</link>
     </listitem>
   </list>
   <heading level="2">
@@ -8914,10 +8578,7 @@ exports[`chromium /components/radio-buttons 1`] = `
   </heading>
   <paragraph>
     <text>(WAI-ARIA:</text>
-    <link>
-      https://www.w3.org/TR/wai-aria-practices/#radiobutton
-      <text>https://www.w3.org/TR/wai-aria-practices/#radiobutton</text>
-    </link>
+    <link>https://www.w3.org/TR/wai-aria-practices/#radiobutton</link>
     <text>)</text>
   </paragraph>
   <list>
@@ -8933,10 +8594,7 @@ exports[`chromium /components/radio-buttons 1`] = `
         <text><label></text>
       </code>
       <text>element (</text>
-      <link>
-        FormControlLabel
-        <text>FormControlLabel</text>
-      </link>
+      <link>FormControlLabel</link>
       <text>).</text>
     </listitem>
     <listitem level="1">
@@ -8984,46 +8642,31 @@ exports[`chromium /components/radio-buttons 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControl />
-        <text><FormControl /></text>
-      </link>
+      <link><FormControl /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControlLabel />
-        <text><FormControlLabel /></text>
-      </link>
+      <link><FormControlLabel /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormLabel />
-        <text><FormLabel /></text>
-      </link>
+      <link><FormLabel /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Radio />
-        <text><Radio /></text>
-      </link>
+      <link><Radio /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <RadioGroup />
-        <text><RadioGroup /></text>
-      </link>
+      <link><RadioGroup /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -9207,10 +8850,7 @@ exports[`chromium /components/rating/ 1`] = `
       Here are some examples of customizing the component. You can learn more
       about this in the
     </text>
-    <link>
-      overrides documentation page
-      <text>overrides documentation page</text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -9692,9 +9332,6 @@ exports[`chromium /components/rating/ 1`] = `
     <text>(WAI tutorial:</text>
     <link>
       https://www.w3.org/WAI/tutorials/forms/custom-controls/#a-star-rating
-      <text>
-        https://www.w3.org/WAI/tutorials/forms/custom-controls/#a-star-rating
-      </text>
     </link>
     <text>)</text>
   </paragraph>
@@ -9740,10 +9377,7 @@ exports[`chromium /components/rating/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Rating />
-        <text><Rating /></text>
-      </link>
+      <link><Rating /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -9983,7 +9617,6 @@ exports[`chromium /components/selects/ 1`] = `
       <code>
         <text>Autocomplete</text>
       </code>
-      <text>component</text>
     </link>
     <text>
       . It's meant to be an improved version of the
@@ -10224,10 +9857,7 @@ exports[`chromium /components/selects/ 1`] = `
       wrapper component is a complete form control including a label, input and
       help text. You can find an example with the select mode
     </text>
-    <link>
-      in this section
-      <text>in this section</text>
-    </link>
+    <link>in this section</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -10240,10 +9870,7 @@ exports[`chromium /components/selects/ 1`] = `
       Here are some examples of customizing the component. You can learn more
       about this in the
     </text>
-    <link>
-      overrides documentation page
-      <text>overrides documentation page</text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <paragraph>
@@ -10326,10 +9953,7 @@ exports[`chromium /components/selects/ 1`] = `
   </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>
-      MUI Treasury's customization examples
-      <text>MUI Treasury's customization examples</text>
-    </link>
+    <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -10687,10 +10311,7 @@ exports[`chromium /components/selects/ 1`] = `
   </Pre>
   <paragraph>
     <text>For a</text>
-    <link>
-      native select
-      <text>native select</text>
-    </link>
+    <link>native select</link>
     <text>, you should mention a label by giving the value of the</text>
     <code>
       <text>id</text>
@@ -10722,19 +10343,13 @@ exports[`chromium /components/selects/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <NativeSelect />
-        <text><NativeSelect /></text>
-      </link>
+      <link><NativeSelect /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Select />
-        <text><Select /></text>
-      </link>
+      <link><Select /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -10769,10 +10384,7 @@ exports[`chromium /components/slider 1`] = `
     <text>Sliders allow users to make selections from a range of values.</text>
   </paragraph>
   <paragraph>
-    <link>
-      Sliders
-      <text>Sliders</text>
-    </link>
+    <link>Sliders</link>
     <text>
       reflect a range of values along a bar, from which users may select a
       single value. They are ideal for adjusting settings such as volume,
@@ -10785,10 +10397,7 @@ exports[`chromium /components/slider 1`] = `
         •<text>•</text>
       </ListMarker>
       <text>📦</text>
-      <link>
-        22 kB gzipped
-        <text>22 kB gzipped</text>
-      </link>
+      <link>22 kB gzipped</link>
       <text>
         (but only +8 kB when used together with other Material-UI components).
       </text>
@@ -11371,10 +10980,7 @@ exports[`chromium /components/slider 1`] = `
       Here are some examples of customizing the component. You can learn more
       about this in the
     </text>
-    <link>
-      overrides documentation page
-      <text>overrides documentation page</text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -11814,10 +11420,7 @@ exports[`chromium /components/slider 1`] = `
   </heading>
   <paragraph>
     <text>(WAI-ARIA:</text>
-    <link>
-      https://www.w3.org/TR/wai-aria-practices/#slider
-      <text>https://www.w3.org/TR/wai-aria-practices/#slider</text>
-    </link>
+    <link>https://www.w3.org/TR/wai-aria-practices/#slider</link>
     <text>)</text>
   </paragraph>
   <paragraph>
@@ -11874,10 +11477,7 @@ exports[`chromium /components/slider 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Slider />
-        <text><Slider /></text>
-      </link>
+      <link><Slider /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -11912,10 +11512,7 @@ exports[`chromium /components/switches/ 1`] = `
     <text>Switches toggle the state of a single setting on or off.</text>
   </paragraph>
   <paragraph>
-    <link>
-      Switches
-      <text>Switches</text>
-    </link>
+    <link>Switches</link>
     <text>
       are the preferred way to adjust settings on mobile. The option that the
       switch controls, as well as the state it’s in, should be made clear from
@@ -12054,15 +11651,9 @@ exports[`chromium /components/switches/ 1`] = `
       is a helpful wrapper used to group selection controls components that
       provides an easier API. However, you are encouraged you to use
     </text>
-    <link>
-      Checkboxes
-      <text>Checkboxes</text>
-    </link>
+    <link>Checkboxes</link>
     <text>instead if multiple related controls are required. (See:</text>
-    <link>
-      When to use
-      <text>When to use</text>
-    </link>
+    <link>When to use</link>
     <text>).</text>
   </paragraph>
   <button>
@@ -12128,10 +11719,7 @@ exports[`chromium /components/switches/ 1`] = `
       Here are some examples of customizing the component. You can learn more
       about this in the
     </text>
-    <link>
-      overrides documentation page
-      <text>overrides documentation page</text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -12180,10 +11768,7 @@ exports[`chromium /components/switches/ 1`] = `
   </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>
-      MUI Treasury's customization examples
-      <text>MUI Treasury's customization examples</text>
-    </link>
+    <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -12313,10 +11898,7 @@ exports[`chromium /components/switches/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        Checkboxes vs. Switches
-        <text>Checkboxes vs. Switches</text>
-      </link>
+      <link>Checkboxes vs. Switches</link>
     </listitem>
   </list>
   <heading level="2">
@@ -12361,10 +11943,7 @@ exports[`chromium /components/switches/ 1`] = `
         <text><label></text>
       </code>
       <text>element (</text>
-      <link>
-        FormControlLabel
-        <text>FormControlLabel</text>
-      </link>
+      <link>FormControlLabel</link>
       <text>).</text>
     </listitem>
     <listitem level="1">
@@ -12412,46 +11991,31 @@ exports[`chromium /components/switches/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControl />
-        <text><FormControl /></text>
-      </link>
+      <link><FormControl /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControlLabel />
-        <text><FormControlLabel /></text>
-      </link>
+      <link><FormControlLabel /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormGroup />
-        <text><FormGroup /></text>
-      </link>
+      <link><FormGroup /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormLabel />
-        <text><FormLabel /></text>
-      </link>
+      <link><FormLabel /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Switch />
-        <text><Switch /></text>
-      </link>
+      <link><Switch /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -12488,10 +12052,7 @@ exports[`chromium /components/tabs/ 1`] = `
     </text>
   </paragraph>
   <paragraph>
-    <link>
-      Tabs
-      <text>Tabs</text>
-    </link>
+    <link>Tabs</link>
     <text>
       organize and allow navigation between groups of content that are related
       and at the same level of hierarchy.
@@ -12739,10 +12300,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <text>variant="fullWidth"</text>
     </code>
     <text>property should be used for smaller views. This demo also uses</text>
-    <link>
-      react-swipeable-views
-      <text>react-swipeable-views</text>
-    </link>
+    <link>react-swipeable-views</link>
     <text>
       to animate the Tab transition, and allowing tabs to be swiped on touch
       devices.
@@ -13159,10 +12717,7 @@ exports[`chromium /components/tabs/ 1`] = `
       Here is an example of customizing the component. You can learn more about
       this in the
     </text>
-    <link>
-      overrides documentation page
-      <text>overrides documentation page</text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -13244,10 +12799,7 @@ exports[`chromium /components/tabs/ 1`] = `
   </Pre>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>
-      MUI Treasury's customization examples
-      <text>MUI Treasury's customization examples</text>
-    </link>
+    <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -13538,10 +13090,7 @@ exports[`chromium /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>(WAI-ARIA:</text>
-    <link>
-      https://www.w3.org/TR/wai-aria-practices/#tabpanel
-      <text>https://www.w3.org/TR/wai-aria-practices/#tabpanel</text>
-    </link>
+    <link>https://www.w3.org/TR/wai-aria-practices/#tabpanel</link>
     <text>)</text>
   </paragraph>
   <paragraph>
@@ -13602,10 +13151,7 @@ exports[`chromium /components/tabs/ 1`] = `
       An example for the current implementation can be found in the demos on
       this page. We've also published
     </text>
-    <link>
-      an experimental API
-      <text>an experimental API</text>
-    </link>
+    <link>an experimental API</link>
     <text>in</text>
     <code>
       <text>@material-ui/lab</text>
@@ -13633,12 +13179,7 @@ exports[`chromium /components/tabs/ 1`] = `
     <text>
       component. The WAI-ARIA authoring practices have a detailed guide on
     </text>
-    <link>
-      how to decide when to make selection automatically follow focus
-      <text>
-        how to decide when to make selection automatically follow focus
-      </text>
-    </link>
+    <link>how to decide when to make selection automatically follow focus</link>
     <text>.</text>
   </paragraph>
   <heading level="4">
@@ -13754,10 +13295,7 @@ exports[`chromium /components/tabs/ 1`] = `
       offers utility components that inject props to implement accessible tabs
       following
     </text>
-    <link>
-      WAI-ARIA authoring practices
-      <text>WAI-ARIA authoring practices</text>
-    </link>
+    <link>WAI-ARIA authoring practices</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -13840,28 +13378,19 @@ exports[`chromium /components/tabs/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Tab />
-        <text><Tab /></text>
-      </link>
+      <link><Tab /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <TabScrollButton />
-        <text><TabScrollButton /></text>
-      </link>
+      <link><TabScrollButton /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Tabs />
-        <text><Tabs /></text>
-      </link>
+      <link><Tabs /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -13896,10 +13425,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Text fields let users enter and edit text.</text>
   </paragraph>
   <paragraph>
-    <link>
-      Text fields
-      <text>Text fields</text>
-    </link>
+    <link>Text fields</link>
     <text>
       allow users to enter text into a UI. They typically appear in forms and
       dialogs.
@@ -13992,15 +13518,9 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>TextField</text>
     </code>
     <text>is no longer documented in the</text>
-    <link>
-      Material Design guidelines
-      <text>Material Design guidelines</text>
-    </link>
+    <link>Material Design guidelines</link>
     <text>(</text>
-    <link>
-      here's why
-      <text>here's why</text>
-    </link>
+    <link>here's why</link>
     <text>), but Material-UI will continue to support it.</text>
   </paragraph>
   <heading level="2">
@@ -14376,15 +13896,9 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>multiline</text>
     </code>
     <text>prop transforms the text field into a</text>
-    <link>
-      textarea
-      <text>textarea</text>
-    </link>
+    <link>textarea</link>
     <text>or a</text>
-    <link>
-      TextareaAutosize
-      <text>TextareaAutosize</text>
-    </link>
+    <link>TextareaAutosize</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -14525,10 +14039,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>select</text>
     </code>
     <text>prop makes the text field use the</text>
-    <link>
-      Select
-      <text>Select</text>
-    </link>
+    <link>Select</link>
     <text>component internally.</text>
   </paragraph>
   <button>
@@ -15661,10 +15172,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       Here are some examples of customizing the component. You can learn more
       about this in the
     </text>
-    <link>
-      overrides documentation page
-      <text>overrides documentation page</text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -15832,10 +15340,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>
-      MUI Treasury's customization examples
-      <text>MUI Treasury's customization examples</text>
-    </link>
+    <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -15914,20 +15419,11 @@ exports[`chromium /components/text-fields/ 1`] = `
   </paragraph>
   <paragraph>
     <text>The following demo uses the</text>
-    <link>
-      react-text-mask
-      <text>react-text-mask</text>
-    </link>
+    <link>react-text-mask</link>
     <text>and</text>
-    <link>
-      react-number-format
-      <text>react-number-format</text>
-    </link>
+    <link>react-number-format</link>
     <text>libraries. The same concept could be applied to</text>
-    <link>
-      e.g. react-stripe-element
-      <text>e.g. react-stripe-element</text>
-    </link>
+    <link>e.g. react-stripe-element</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -16077,45 +15573,27 @@ exports[`chromium /components/text-fields/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        formik-material-ui
-        <text>formik-material-ui</text>
-      </link>
+      <link>formik-material-ui</link>
       <text>Bindings for using Material-UI with</text>
-      <link>
-        formik
-        <text>formik</text>
-      </link>
+      <link>formik</link>
       <text>.</text>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        redux-form-material-ui
-        <text>redux-form-material-ui</text>
-      </link>
+      <link>redux-form-material-ui</link>
       <text>Bindings for using Material-UI with</text>
-      <link>
-        Redux Form
-        <text>Redux Form</text>
-      </link>
+      <link>Redux Form</link>
       <text>.</text>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        mui-rff
-        <text>mui-rff</text>
-      </link>
+      <link>mui-rff</link>
       <text>Bindings for using Material-UI with</text>
-      <link>
-        React Final Form
-        <text>React Final Form</text>
-      </link>
+      <link>React Final Form</link>
       <text>.</text>
     </listitem>
   </list>
@@ -16129,82 +15607,55 @@ exports[`chromium /components/text-fields/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FilledInput />
-        <text><FilledInput /></text>
-      </link>
+      <link><FilledInput /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControl />
-        <text><FormControl /></text>
-      </link>
+      <link><FormControl /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormHelperText />
-        <text><FormHelperText /></text>
-      </link>
+      <link><FormHelperText /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Input />
-        <text><Input /></text>
-      </link>
+      <link><Input /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <InputAdornment />
-        <text><InputAdornment /></text>
-      </link>
+      <link><InputAdornment /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <InputBase />
-        <text><InputBase /></text>
-      </link>
+      <link><InputBase /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <InputLabel />
-        <text><InputLabel /></text>
-      </link>
+      <link><InputLabel /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <OutlinedInput />
-        <text><OutlinedInput /></text>
-      </link>
+      <link><OutlinedInput /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <TextField />
-        <text><TextField /></text>
-      </link>
+      <link><TextField /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -16243,10 +15694,7 @@ exports[`chromium /components/tooltips/ 1`] = `
   </paragraph>
   <paragraph>
     <text>When activated,</text>
-    <link>
-      Tooltips
-      <text>Tooltips</text>
-    </link>
+    <link>Tooltips</link>
     <text>
       display a text label identifying an element, such as a description of its
       function.
@@ -16421,10 +15869,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       Here are some examples of customizing the component. You can learn more
       about this in the
     </text>
-    <link>
-      overrides documentation page
-      <text>overrides documentation page</text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -16558,10 +16003,7 @@ exports[`chromium /components/tooltips/ 1`] = `
   </Pre>
   <paragraph>
     <text>You can find a similar concept in the</text>
-    <link>
-      wrapping components
-      <text>wrapping components</text>
-    </link>
+    <link>wrapping components</link>
     <text>guide.</text>
   </paragraph>
   <heading level="2">
@@ -17076,10 +16518,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Tooltip />
-        <text><Tooltip /></text>
-      </link>
+      <link><Tooltip /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -17342,37 +16781,25 @@ exports[`chromium /components/transfer-list 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Checkbox />
-        <text><Checkbox /></text>
-      </link>
+      <link><Checkbox /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <List />
-        <text><List /></text>
-      </link>
+      <link><List /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <ListItem />
-        <text><ListItem /></text>
-      </link>
+      <link><ListItem /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Switch />
-        <text><Switch /></text>
-      </link>
+      <link><Switch /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -17845,10 +17272,7 @@ exports[`chromium /components/tree-view/ 1`] = `
   </heading>
   <paragraph>
     <text>(WAI-ARIA:</text>
-    <link>
-      https://www.w3.org/TR/wai-aria-practices/#TreeView
-      <text>https://www.w3.org/TR/wai-aria-practices/#TreeView</text>
-    </link>
+    <link>https://www.w3.org/TR/wai-aria-practices/#TreeView</link>
     <text>)</text>
   </paragraph>
   <paragraph>
@@ -17864,19 +17288,13 @@ exports[`chromium /components/tree-view/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <TreeItem />
-        <text><TreeItem /></text>
-      </link>
+      <link><TreeItem /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <TreeView />
-        <text><TreeView /></text>
-      </link>
+      <link><TreeView /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -17899,12 +17317,7 @@ exports[`chromium /components/tree-view/ 1`] = `
 exports[`firefox / 1`] = `
 <document>
   Material-UI: A popular React UI framework
-  <link>
-    Skip to content
-    <text value="https://material-ui.netlify.app/#main-content">
-      Skip to content
-    </text>
-  </link>
+  <link>Skip to content</link>
   <landmark>
     <button>Open main navigation</button>
     <text-container>
@@ -17940,26 +17353,10 @@ exports[`firefox / 1`] = `
         design system, or start with Material Design.
       </text>
     </paragraph>
-    <link>
-      GET STARTED
-      <text value="https://material-ui.netlify.app/getting-started/installation/">
-        GET STARTED
-      </text>
-    </link>
-    <link>
-      Star
-      <text value="https://github.com/mui-org/material-ui">Star</text>
-    </link>
-    <link>
-      Follow
-      <text value="https://twitter.com/@materialui">Follow</text>
-    </link>
-    <link>
-      Get Professional Support
-      <text value="https://material-ui.netlify.app/getting-started/support/#professional-support-premium">
-        Get Professional Support
-      </text>
-    </link>
+    <link>GET STARTED</link>
+    <link>Star</link>
+    <link>Follow</link>
+    <link>Get Professional Support</link>
     <text>random sponsor</text>
     <link>a random quick word</link>
     <heading level="2">
@@ -17975,12 +17372,7 @@ exports[`firefox / 1`] = `
         <text>$ npm install @material-ui/core</text>
       </text-container>
     </text-container>
-    <link>
-      or use a CDN.
-      <text value="https://github.com/mui-org/material-ui/tree/master/examples/cdn">
-        or use a CDN.
-      </text>
-    </link>
+    <link>or use a CDN.</link>
     <text>Load the default Roboto font.</text>
     <text-container>
       <text-container>
@@ -17992,12 +17384,7 @@ exports[`firefox / 1`] = `
       </text-container>
     </text-container>
     <separator></separator>
-    <link>
-      READ INSTALLATION DOCS
-      <text value="https://material-ui.netlify.app/getting-started/installation/">
-        READ INSTALLATION DOCS
-      </text>
-    </link>
+    <link>READ INSTALLATION DOCS</link>
     <heading level="2">
       Usage
       <text>Usage</text>
@@ -18016,12 +17403,7 @@ exports[`firefox / 1`] = `
       </text-container>
     </text-container>
     <separator></separator>
-    <link>
-      EXPLORE THE DOCS
-      <text value="https://material-ui.netlify.app/getting-started/usage/">
-        EXPLORE THE DOCS
-      </text>
-    </link>
+    <link>EXPLORE THE DOCS</link>
     <heading level="2">
       Premium themes
       <text>Premium themes</text>
@@ -18038,12 +17420,7 @@ exports[`firefox / 1`] = `
         Browse themes
       </img>
     </link>
-    <link>
-      BROWSE THEMES
-      <text value="https://material-ui.com/store/?utm_source=docs&utm_medium=referral&utm_campaign=home-store">
-        BROWSE THEMES
-      </text>
-    </link>
+    <link>BROWSE THEMES</link>
     <separator></separator>
     <heading level="2">
       Material-UI's sponsors
@@ -18109,12 +17486,7 @@ exports[`firefox / 1`] = `
     </heading>
     <paragraph>
       <text>See the full list of</text>
-      <link>
-        our sponsors
-        <text value="https://material-ui.netlify.app/discover-more/backers/">
-          our sponsors
-        </text>
-      </link>
+      <link>our sponsors</link>
       <text>
         , and learn how you can contribute to the future of Material-UI.
       </text>
@@ -18152,20 +17524,12 @@ exports[`firefox / 1`] = `
     <paragraph>
       <text>Are you using Material-UI?</text>
     </paragraph>
-    <link>
-      LET US KNOW!
-      <text value="https://spectrum.chat/material-ui/general/whos-using-material-ui~00e6687a-9b2d-454f-97a6-950d9fde71cf">
-        LET US KNOW!
-      </text>
-    </link>
+    <link>LET US KNOW!</link>
   </landmark>
   <separator></separator>
   <landmark>
     <img></img>
-    <link>
-      Material-UI
-      <text value="https://material-ui.netlify.app/">Material-UI</text>
-    </link>
+    <link>Material-UI</link>
     <heading level="2">
       Community
       <text>Community</text>
@@ -18173,35 +17537,19 @@ exports[`firefox / 1`] = `
     <list>
       <listitem>
         GitHub
-        <link>
-          GitHub
-          <text value="https://github.com/mui-org/material-ui">GitHub</text>
-        </link>
+        <link>GitHub</link>
       </listitem>
       <listitem>
         Twitter
-        <link>
-          Twitter
-          <text value="https://twitter.com/MaterialUI">Twitter</text>
-        </link>
+        <link>Twitter</link>
       </listitem>
       <listitem>
         StackOverflow
-        <link>
-          StackOverflow
-          <text value="https://stackoverflow.com/questions/tagged/material-ui">
-            StackOverflow
-          </text>
-        </link>
+        <link>StackOverflow</link>
       </listitem>
       <listitem>
         Team
-        <link>
-          Team
-          <text value="https://material-ui.netlify.app/discover-more/team/">
-            Team
-          </text>
-        </link>
+        <link>Team</link>
       </listitem>
     </list>
     <heading level="2">
@@ -18211,28 +17559,15 @@ exports[`firefox / 1`] = `
     <list>
       <listitem>
         Support
-        <link>
-          Support
-          <text value="https://material-ui.netlify.app/getting-started/support/">
-            Support
-          </text>
-        </link>
+        <link>Support</link>
       </listitem>
       <listitem>
         Blog
-        <link>
-          Blog
-          <text value="https://medium.com/material-ui/">Blog</text>
-        </link>
+        <link>Blog</link>
       </listitem>
       <listitem>
         Material Icons
-        <link>
-          Material Icons
-          <text value="https://material-ui.netlify.app/components/material-icons/">
-            Material Icons
-          </text>
-        </link>
+        <link>Material Icons</link>
       </listitem>
     </list>
     <heading level="2">
@@ -18242,36 +17577,18 @@ exports[`firefox / 1`] = `
     <list>
       <listitem>
         About
-        <link>
-          About
-          <text value="https://material-ui.netlify.app/company/about/">
-            About
-          </text>
-        </link>
+        <link>About</link>
       </listitem>
       <listitem>
         Contact Us
-        <link>
-          Contact Us
-          <text value="https://material-ui.netlify.app/company/contact/">
-            Contact Us
-          </text>
-        </link>
+        <link>Contact Us</link>
       </listitem>
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>
-        v4.10.1. View versions page.
-        <text value="https://material-ui.com/versions/">v4.10.1</text>
-      </link>
+      <link>v4.10.1. View versions page.</link>
       <text>. Released under the</text>
-      <link>
-        MIT License
-        <text value="https://github.com/mui-org/material-ui/blob/master/LICENSE">
-          MIT License
-        </text>
-      </link>
+      <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
     </paragraph>
   </landmark>
@@ -18281,12 +17598,7 @@ exports[`firefox / 1`] = `
 
 exports[`firefox /api/button/ 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/packages/material-ui/src/Button/Button.js">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Button API
     <link></link>
@@ -18314,12 +17626,7 @@ exports[`firefox /api/button/ 1`] = `
   </text-container>
   <paragraph>
     <text>You can learn more about the difference by</text>
-    <link>
-      reading this guide
-      <text value="https://material-ui.netlify.app/guides/minimizing-bundle-size/">
-        reading this guide
-      </text>
-    </link>
+    <link>reading this guide</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -18333,19 +17640,9 @@ exports[`firefox /api/button/ 1`] = `
       <text>MuiButton</text>
     </text-container>
     <text>name can be used for providing</text>
-    <link>
-      default props
-      <text value="https://material-ui.netlify.app/customization/globals/#default-props">
-        default props
-      </text>
-    </link>
+    <link>default props</link>
     <text>or</text>
-    <link>
-      style overrides
-      <text value="https://material-ui.netlify.app/customization/globals/#css">
-        style overrides
-      </text>
-    </link>
+    <link>style overrides</link>
     <text>at the theme level.</text>
   </paragraph>
   <heading level="2">
@@ -18390,12 +17687,7 @@ exports[`firefox /api/button/ 1`] = `
       <cell></cell>
       <cell>
         <text>Override or extend the styles applied to the component. See</text>
-        <link>
-          CSS API
-          <text value="https://material-ui.netlify.app/api/button/#css">
-            CSS API
-          </text>
-        </link>
+        <link>CSS API</link>
         <text>below for more details.</text>
       </cell>
     </row>
@@ -18628,12 +17920,7 @@ exports[`firefox /api/button/ 1`] = `
   </paragraph>
   <paragraph>
     <text>Any other props supplied will be provided to the root element (</text>
-    <link>
-      ButtonBase
-      <text value="https://material-ui.netlify.app/api/button-base/">
-        ButtonBase
-      </text>
-    </link>
+    <link>ButtonBase</link>
     <text>).</text>
   </paragraph>
   <heading level="2">
@@ -19137,21 +18424,13 @@ exports[`firefox /api/button/ 1`] = `
             classes
           </text>
         </text-container>
-        <text value="https://material-ui.netlify.app/customization/components/#overriding-styles-with-classes">
-          object prop
-        </text>
       </link>
       <text>.</text>
     </listitem>
     <listitem>
       • With a global class name .<statictext>•</statictext>
       <text>With a</text>
-      <link>
-        global class name
-        <text value="https://material-ui.netlify.app/customization/components/#overriding-styles-with-global-class-names">
-          global class name
-        </text>
-      </link>
+      <link>global class name</link>
       <text>.</text>
     </listitem>
     <listitem>
@@ -19164,21 +18443,13 @@ exports[`firefox /api/button/ 1`] = `
             overrides
           </text>
         </text-container>
-        <text value="https://material-ui.netlify.app/customization/globals/#css">
-          property
-        </text>
       </link>
       <text>.</text>
     </listitem>
   </list>
   <paragraph>
     <text>If that's not sufficient, you can check the</text>
-    <link>
-      implementation of the component
-      <text value="https://github.com/mui-org/material-ui/blob/master/packages/material-ui/src/Button/Button.js">
-        implementation of the component
-      </text>
-    </link>
+    <link>implementation of the component</link>
     <text>for more detail.</text>
   </paragraph>
   <heading level="2">
@@ -19188,21 +18459,11 @@ exports[`firefox /api/button/ 1`] = `
   </heading>
   <paragraph>
     <text>The props of the</text>
-    <link>
-      ButtonBase
-      <text value="https://material-ui.netlify.app/api/button-base/">
-        ButtonBase
-      </text>
-    </link>
+    <link>ButtonBase</link>
     <text>
       component are also available. You can take advantage of this behavior to
     </text>
-    <link>
-      target nested components
-      <text value="https://material-ui.netlify.app/guides/api/#spread">
-        target nested components
-      </text>
-    </link>
+    <link>target nested components</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -19214,49 +18475,24 @@ exports[`firefox /api/button/ 1`] = `
     <listitem>
       • Button Group
       <statictext>•</statictext>
-      <link>
-        Button Group
-        <text value="https://material-ui.netlify.app/components/button-group/">
-          Button Group
-        </text>
-      </link>
+      <link>Button Group</link>
     </listitem>
     <listitem>
       • Buttons
       <statictext>•</statictext>
-      <link>
-        Buttons
-        <text value="https://material-ui.netlify.app/components/buttons/">
-          Buttons
-        </text>
-      </link>
+      <link>Buttons</link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Breadcrumbs
-    <text value="https://material-ui.netlify.app/api/breadcrumbs/">
-      Breadcrumbs
-    </text>
-  </link>
-  <link>
-    Button Base
-    <text value="https://material-ui.netlify.app/api/button-base/">
-      Button Base
-    </text>
-  </link>
+  <link>Breadcrumbs</link>
+  <link>Button Base</link>
 </landmark>;
 
 `;
 
 exports[`firefox /api/select/ 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/packages/material-ui/src/Select/Select.js">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Select API
     <link></link>
@@ -19284,12 +18520,7 @@ exports[`firefox /api/select/ 1`] = `
   </text-container>
   <paragraph>
     <text>You can learn more about the difference by</text>
-    <link>
-      reading this guide
-      <text value="https://material-ui.netlify.app/guides/minimizing-bundle-size/">
-        reading this guide
-      </text>
-    </link>
+    <link>reading this guide</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -19303,19 +18534,9 @@ exports[`firefox /api/select/ 1`] = `
       <text>MuiSelect</text>
     </text-container>
     <text>name can be used for providing</text>
-    <link>
-      default props
-      <text value="https://material-ui.netlify.app/customization/globals/#default-props">
-        default props
-      </text>
-    </link>
+    <link>default props</link>
     <text>or</text>
-    <link>
-      style overrides
-      <text value="https://material-ui.netlify.app/customization/globals/#css">
-        style overrides
-      </text>
-    </link>
+    <link>style overrides</link>
     <text>at the theme level.</text>
   </paragraph>
   <heading level="2">
@@ -19410,12 +18631,7 @@ exports[`firefox /api/select/ 1`] = `
       <cell></cell>
       <cell>
         <text>Override or extend the styles applied to the component. See</text>
-        <link>
-          CSS API
-          <text value="https://material-ui.netlify.app/api/select/#css">
-            CSS API
-          </text>
-        </link>
+        <link>CSS API</link>
         <text>below for more details.</text>
       </cell>
     </row>
@@ -19538,12 +18754,7 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell></cell>
       <cell>
-        <link>
-          Attributes
-          <text value="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes">
-            Attributes
-          </text>
-        </link>
+        <link>Attributes</link>
         <text>applied to the</text>
         <text-container>
           <text>input</text>
@@ -19573,12 +18784,7 @@ exports[`firefox /api/select/ 1`] = `
       <cell></cell>
       <cell>
         <text>See</text>
-        <link>
-          OutlinedInput#label
-          <text value="https://material-ui.netlify.app/api/outlined-input/#props">
-            OutlinedInput#label
-          </text>
-        </link>
+        <link>OutlinedInput#label</link>
       </cell>
     </row>
     <row>
@@ -19608,12 +18814,7 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell>
         <text>See</text>
-        <link>
-          OutlinedInput#label
-          <text value="https://material-ui.netlify.app/api/outlined-input/#props">
-            OutlinedInput#label
-          </text>
-        </link>
+        <link>OutlinedInput#label</link>
       </cell>
     </row>
     <row>
@@ -19900,10 +19101,7 @@ exports[`firefox /api/select/ 1`] = `
   </paragraph>
   <paragraph>
     <text>Any other props supplied will be provided to the root element (</text>
-    <link>
-      Input
-      <text value="https://material-ui.netlify.app/api/input/">Input</text>
-    </link>
+    <link>Input</link>
     <text>).</text>
   </paragraph>
   <heading level="2">
@@ -20094,21 +19292,13 @@ exports[`firefox /api/select/ 1`] = `
             classes
           </text>
         </text-container>
-        <text value="https://material-ui.netlify.app/customization/components/#overriding-styles-with-classes">
-          object prop
-        </text>
       </link>
       <text>.</text>
     </listitem>
     <listitem>
       • With a global class name .<statictext>•</statictext>
       <text>With a</text>
-      <link>
-        global class name
-        <text value="https://material-ui.netlify.app/customization/components/#overriding-styles-with-global-class-names">
-          global class name
-        </text>
-      </link>
+      <link>global class name</link>
       <text>.</text>
     </listitem>
     <listitem>
@@ -20121,21 +19311,13 @@ exports[`firefox /api/select/ 1`] = `
             overrides
           </text>
         </text-container>
-        <text value="https://material-ui.netlify.app/customization/globals/#css">
-          property
-        </text>
       </link>
       <text>.</text>
     </listitem>
   </list>
   <paragraph>
     <text>If that's not sufficient, you can check the</text>
-    <link>
-      implementation of the component
-      <text value="https://github.com/mui-org/material-ui/blob/master/packages/material-ui/src/Select/Select.js">
-        implementation of the component
-      </text>
-    </link>
+    <link>implementation of the component</link>
     <text>for more detail.</text>
   </paragraph>
   <heading level="2">
@@ -20145,19 +19327,11 @@ exports[`firefox /api/select/ 1`] = `
   </heading>
   <paragraph>
     <text>The props of the</text>
-    <link>
-      Input
-      <text value="https://material-ui.netlify.app/api/input/">Input</text>
-    </link>
+    <link>Input</link>
     <text>
       component are also available. You can take advantage of this behavior to
     </text>
-    <link>
-      target nested components
-      <text value="https://material-ui.netlify.app/guides/api/#spread">
-        target nested components
-      </text>
-    </link>
+    <link>target nested components</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -20169,37 +19343,19 @@ exports[`firefox /api/select/ 1`] = `
     <listitem>
       • Selects
       <statictext>•</statictext>
-      <link>
-        Selects
-        <text value="https://material-ui.netlify.app/components/selects/">
-          Selects
-        </text>
-      </link>
+      <link>Selects</link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Scoped Css Baseline
-    <text value="https://material-ui.netlify.app/api/scoped-css-baseline/">
-      Scoped Css Baseline
-    </text>
-  </link>
-  <link>
-    Skeleton
-    <text value="https://material-ui.netlify.app/api/skeleton/">Skeleton</text>
-  </link>
+  <link>Scoped Css Baseline</link>
+  <link>Skeleton</link>
 </landmark>;
 
 `;
 
 exports[`firefox /components/breadcrumbs 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/breadcrumbs/breadcrumbs.md">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Breadcrumbs
     <link></link>
@@ -20225,19 +19381,11 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <list>
       <listitem>
         Material-UI
-        <link>
-          Material-UI
-          <text value="https://material-ui.netlify.app/">Material-UI</text>
-        </link>
+        <link>Material-UI</link>
       </listitem>
       <listitem>
         Core
-        <link>
-          Core
-          <text value="https://material-ui.netlify.app/getting-started/installation/">
-            Core
-          </text>
-        </link>
+        <link>Core</link>
       </listitem>
       <listitem>
         Breadcrumb
@@ -20287,28 +19435,15 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <list>
       <listitem>
         Material-UI
-        <link>
-          Material-UI
-          <text value="https://material-ui.netlify.app/">Material-UI</text>
-        </link>
+        <link>Material-UI</link>
       </listitem>
       <listitem>
         Core
-        <link>
-          Core
-          <text value="https://material-ui.netlify.app/getting-started/installation/">
-            Core
-          </text>
-        </link>
+        <link>Core</link>
       </listitem>
       <listitem>
         Breadcrumb
-        <link>
-          Breadcrumb
-          <text value="https://material-ui.netlify.app/components/breadcrumbs/">
-            Breadcrumb
-          </text>
-        </link>
+        <link>Breadcrumb</link>
       </listitem>
     </list>
   </landmark>
@@ -20356,19 +19491,11 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <list>
       <listitem>
         Material-UI
-        <link>
-          Material-UI
-          <text value="https://material-ui.netlify.app/">Material-UI</text>
-        </link>
+        <link>Material-UI</link>
       </listitem>
       <listitem>
         Core
-        <link>
-          Core
-          <text value="https://material-ui.netlify.app/getting-started/installation/">
-            Core
-          </text>
-        </link>
+        <link>Core</link>
       </listitem>
       <listitem>
         Breadcrumb
@@ -20383,19 +19510,11 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <list>
       <listitem>
         Material-UI
-        <link>
-          Material-UI
-          <text value="https://material-ui.netlify.app/">Material-UI</text>
-        </link>
+        <link>Material-UI</link>
       </listitem>
       <listitem>
         Core
-        <link>
-          Core
-          <text value="https://material-ui.netlify.app/getting-started/installation/">
-            Core
-          </text>
-        </link>
+        <link>Core</link>
       </listitem>
       <listitem>
         Breadcrumb
@@ -20410,19 +19529,11 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <list>
       <listitem>
         Material-UI
-        <link>
-          Material-UI
-          <text value="https://material-ui.netlify.app/">Material-UI</text>
-        </link>
+        <link>Material-UI</link>
       </listitem>
       <listitem>
         Core
-        <link>
-          Core
-          <text value="https://material-ui.netlify.app/getting-started/installation/">
-            Core
-          </text>
-        </link>
+        <link>Core</link>
       </listitem>
       <listitem>
         Breadcrumb
@@ -20455,19 +19566,11 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <list>
       <listitem>
         Material-UI
-        <link>
-          Material-UI
-          <text value="https://material-ui.netlify.app/">Material-UI</text>
-        </link>
+        <link>Material-UI</link>
       </listitem>
       <listitem>
         Core
-        <link>
-          Core
-          <text value="https://material-ui.netlify.app/getting-started/installation/">
-            Core
-          </text>
-        </link>
+        <link>Core</link>
       </listitem>
       <listitem>
         Breadcrumb
@@ -20498,12 +19601,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <list>
       <listitem>
         Home
-        <link>
-          Home
-          <text value="https://material-ui.netlify.app/components/breadcrumbs/#">
-            Home
-          </text>
-        </link>
+        <link>Home</link>
       </listitem>
       <button>Show path</button>
       <listitem>
@@ -20550,12 +19648,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
       Here is an example of customizing the component. You can learn more about
       this in the
     </text>
-    <link>
-      overrides documentation page
-      <text value="https://material-ui.netlify.app/customization/components/">
-        overrides documentation page
-      </text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -20627,10 +19720,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <list>
       <listitem>
         Home
-        <link>
-          Home
-          <text value="https://material-ui.netlify.app/">Home</text>
-        </link>
+        <link>Home</link>
       </listitem>
       <listitem>
         Inbox
@@ -20702,12 +19792,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </heading>
   <paragraph>
     <text>(WAI-ARIA:</text>
-    <link>
-      https://www.w3.org/TR/wai-aria-practices/#breadcrumb
-      <text value="https://www.w3.org/TR/wai-aria-practices/#breadcrumb">
-        https://www.w3.org/TR/wai-aria-practices/#breadcrumb
-      </text>
-    </link>
+    <link>https://www.w3.org/TR/wai-aria-practices/#breadcrumb</link>
     <text>)</text>
   </paragraph>
   <paragraph>
@@ -20771,59 +19856,29 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <listitem>
       • <Breadcrumbs />
       <statictext>•</statictext>
-      <link>
-        <Breadcrumbs />
-        <text value="https://material-ui.netlify.app/api/breadcrumbs/">
-          <Breadcrumbs />
-        </text>
-      </link>
+      <link><Breadcrumbs /></link>
     </listitem>
     <listitem>
       • <Link />
       <statictext>•</statictext>
-      <link>
-        <Link />
-        <text value="https://material-ui.netlify.app/api/link/">
-          <Link />
-        </text>
-      </link>
+      <link><Link /></link>
     </listitem>
     <listitem>
       • <Typography />
       <statictext>•</statictext>
-      <link>
-        <Typography />
-        <text value="https://material-ui.netlify.app/api/typography/">
-          <Typography />
-        </text>
-      </link>
+      <link><Typography /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Bottom Navigation
-    <text value="https://material-ui.netlify.app/components/bottom-navigation/">
-      Bottom Navigation
-    </text>
-  </link>
-  <link>
-    Drawer
-    <text value="https://material-ui.netlify.app/components/drawers/">
-      Drawer
-    </text>
-  </link>
+  <link>Bottom Navigation</link>
+  <link>Drawer</link>
 </landmark>;
 
 `;
 
 exports[`firefox /components/button-group/ 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/button-group/button-group.md">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Button group
     <link></link>
@@ -21146,49 +20201,24 @@ exports[`firefox /components/button-group/ 1`] = `
     <listitem>
       • <Button />
       <statictext>•</statictext>
-      <link>
-        <Button />
-        <text value="https://material-ui.netlify.app/api/button/">
-          <Button />
-        </text>
-      </link>
+      <link><Button /></link>
     </listitem>
     <listitem>
       • <ButtonGroup />
       <statictext>•</statictext>
-      <link>
-        <ButtonGroup />
-        <text value="https://material-ui.netlify.app/api/button-group/">
-          <ButtonGroup />
-        </text>
-      </link>
+      <link><ButtonGroup /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Button
-    <text value="https://material-ui.netlify.app/components/buttons/">
-      Button
-    </text>
-  </link>
-  <link>
-    Checkbox
-    <text value="https://material-ui.netlify.app/components/checkboxes/">
-      Checkbox
-    </text>
-  </link>
+  <link>Button</link>
+  <link>Checkbox</link>
 </landmark>;
 
 `;
 
 exports[`firefox /components/buttons/ 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/buttons/buttons.md">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Button
     <link></link>
@@ -21201,12 +20231,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <text-container></text-container>
   </paragraph>
   <paragraph>
-    <link>
-      Buttons
-      <text value="https://material.io/design/components/buttons.html">
-        Buttons
-      </text>
-    </link>
+    <link>Buttons</link>
     <text>
       communicate actions that users can take. They are typically placed
       throughout your UI, in places like:
@@ -21245,12 +20270,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>Contained Buttons</text>
   </heading>
   <paragraph>
-    <link>
-      Contained buttons
-      <text value="https://material.io/design/components/buttons.html#contained-button">
-        Contained buttons
-      </text>
-    </link>
+    <link>Contained buttons</link>
     <text>
       are high-emphasis, distinguished by their use of elevation and fill. They
       contain actions that are primary to your app.
@@ -21276,12 +20296,7 @@ exports[`firefox /components/buttons/ 1`] = `
     DISABLED
     <text>DISABLED</text>
   </button>
-  <link>
-    LINK
-    <text value="https://material-ui.netlify.app/components/buttons/#contained-buttons">
-      LINK
-    </text>
-  </link>
+  <link>LINK</link>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -21342,12 +20357,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>Text Buttons</text>
   </heading>
   <paragraph>
-    <link>
-      Text buttons
-      <text value="https://material.io/design/components/buttons.html#text-button">
-        Text buttons
-      </text>
-    </link>
+    <link>Text buttons</link>
     <text>
       are typically used for less-pronounced actions, including those located:
     </text>
@@ -21389,12 +20399,7 @@ exports[`firefox /components/buttons/ 1`] = `
     DISABLED
     <text>DISABLED</text>
   </button>
-  <link>
-    LINK
-    <text value="https://material-ui.netlify.app/components/buttons/#text-buttons">
-      LINK
-    </text>
-  </link>
+  <link>LINK</link>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -21422,12 +20427,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>Outlined Buttons</text>
   </heading>
   <paragraph>
-    <link>
-      Outlined buttons
-      <text value="https://material.io/design/components/buttons.html#outlined-button">
-        Outlined buttons
-      </text>
-    </link>
+    <link>Outlined buttons</link>
     <text>
       are medium-emphasis buttons. They contain actions that are important, but
       aren’t the primary action in an app.
@@ -21459,12 +20459,7 @@ exports[`firefox /components/buttons/ 1`] = `
     DISABLED
     <text>DISABLED</text>
   </button>
-  <link>
-    LINK
-    <text value="https://material-ui.netlify.app/components/buttons/#outlined-buttons">
-      LINK
-    </text>
-  </link>
+  <link>LINK</link>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -21509,12 +20504,7 @@ exports[`firefox /components/buttons/ 1`] = `
   </text-container>
   <paragraph>
     <text>Note that the documentation</text>
-    <link>
-      avoids
-      <text value="https://material-ui.netlify.app/guides/api/#native-properties">
-        avoids
-      </text>
-    </link>
+    <link>avoids</link>
     <text>
       mentioning native props (there are a lot) in the API section of the
       components.
@@ -21720,12 +20710,7 @@ exports[`firefox /components/buttons/ 1`] = `
       Here are some examples of customizing the component. You can learn more
       about this in the
     </text>
-    <link>
-      overrides documentation page
-      <text value="https://material-ui.netlify.app/customization/components/">
-        overrides documentation page
-      </text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -21755,12 +20740,7 @@ exports[`firefox /components/buttons/ 1`] = `
   </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>
-      MUI Treasury's customization examples
-      <text value="https://mui-treasury.com/styles/button">
-        MUI Treasury's customization examples
-      </text>
-    </link>
+    <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -21855,12 +20835,7 @@ exports[`firefox /components/buttons/ 1`] = `
   </paragraph>
   <paragraph>
     <text>Here is an</text>
-    <link>
-      integration example with react-router
-      <text value="https://material-ui.netlify.app/guides/composition/#button">
-        integration example with react-router
-      </text>
-    </link>
+    <link>integration example with react-router</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -21928,12 +20903,7 @@ exports[`firefox /components/buttons/ 1`] = `
             <text>pointer-events: none;</text>
           </text-container>
           <text>back when you need to display</text>
-          <link>
-            tooltips on disabled elements
-            <text value="https://material-ui.netlify.app/components/tooltips/#disabled-elements">
-              tooltips on disabled elements
-            </text>
-          </link>
+          <link>tooltips on disabled elements</link>
           <text>.</text>
         </listitem>
         <listitem level="2">
@@ -21990,59 +20960,29 @@ exports[`firefox /components/buttons/ 1`] = `
     <listitem>
       • <Button />
       <statictext>•</statictext>
-      <link>
-        <Button />
-        <text value="https://material-ui.netlify.app/api/button/">
-          <Button />
-        </text>
-      </link>
+      <link><Button /></link>
     </listitem>
     <listitem>
       • <ButtonBase />
       <statictext>•</statictext>
-      <link>
-        <ButtonBase />
-        <text value="https://material-ui.netlify.app/api/button-base/">
-          <ButtonBase />
-        </text>
-      </link>
+      <link><ButtonBase /></link>
     </listitem>
     <listitem>
       • <IconButton />
       <statictext>•</statictext>
-      <link>
-        <IconButton />
-        <text value="https://material-ui.netlify.app/api/icon-button/">
-          <IconButton />
-        </text>
-      </link>
+      <link><IconButton /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Hidden
-    <text value="https://material-ui.netlify.app/components/hidden/">
-      Hidden
-    </text>
-  </link>
-  <link>
-    Button Group
-    <text value="https://material-ui.netlify.app/components/button-group/">
-      Button Group
-    </text>
-  </link>
+  <link>Hidden</link>
+  <link>Button Group</link>
 </landmark>;
 
 `;
 
 exports[`firefox /components/checkboxes/ 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/checkboxes/checkboxes.md">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Checkbox
     <link></link>
@@ -22055,12 +20995,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <text-container></text-container>
   </paragraph>
   <paragraph>
-    <link>
-      Checkboxes
-      <text value="https://material.io/design/components/selection-controls.html#checkboxes">
-        Checkboxes
-      </text>
-    </link>
+    <link>Checkboxes</link>
     <text>can be used to turn an option on or off.</text>
   </paragraph>
   <paragraph>
@@ -22400,12 +21335,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
       Here is an example of customizing the component. You can learn more about
       this in the
     </text>
-    <link>
-      overrides documentation page
-      <text value="https://material-ui.netlify.app/customization/components/">
-        overrides documentation page
-      </text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -22435,12 +21365,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>
-      MUI Treasury's customization examples
-      <text value="https://mui-treasury.com/styles/checkbox">
-        MUI Treasury's customization examples
-      </text>
-    </link>
+    <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -22452,22 +21377,12 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <listitem>
       • Checkboxes vs. Radio Buttons
       <statictext>•</statictext>
-      <link>
-        Checkboxes vs. Radio Buttons
-        <text value="https://www.nngroup.com/articles/checkboxes-vs-radio-buttons/">
-          Checkboxes vs. Radio Buttons
-        </text>
-      </link>
+      <link>Checkboxes vs. Radio Buttons</link>
     </listitem>
     <listitem>
       • Checkboxes vs. Switches
       <statictext>•</statictext>
-      <link>
-        Checkboxes vs. Switches
-        <text value="https://uxplanet.org/checkbox-vs-toggle-switch-7fc6e83f10b8">
-          Checkboxes vs. Switches
-        </text>
-      </link>
+      <link>Checkboxes vs. Switches</link>
     </listitem>
   </list>
   <heading level="2">
@@ -22477,12 +21392,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </heading>
   <paragraph>
     <text>(WAI-ARIA:</text>
-    <link>
-      https://www.w3.org/TR/wai-aria-practices/#checkbox
-      <text value="https://www.w3.org/TR/wai-aria-practices/#checkbox">
-        https://www.w3.org/TR/wai-aria-practices/#checkbox
-      </text>
-    </link>
+    <link>https://www.w3.org/TR/wai-aria-practices/#checkbox</link>
     <text>)</text>
   </paragraph>
   <list>
@@ -22499,12 +21409,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
         <text><label></text>
       </text-container>
       <text>element (</text>
-      <link>
-        FormControlLabel
-        <text value="https://material-ui.netlify.app/api/form-control-label/">
-          FormControlLabel
-        </text>
-      </link>
+      <link>FormControlLabel</link>
       <text>).</text>
     </listitem>
     <listitem>
@@ -22553,79 +21458,39 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <listitem>
       • <Checkbox />
       <statictext>•</statictext>
-      <link>
-        <Checkbox />
-        <text value="https://material-ui.netlify.app/api/checkbox/">
-          <Checkbox />
-        </text>
-      </link>
+      <link><Checkbox /></link>
     </listitem>
     <listitem>
       • <FormControl />
       <statictext>•</statictext>
-      <link>
-        <FormControl />
-        <text value="https://material-ui.netlify.app/api/form-control/">
-          <FormControl />
-        </text>
-      </link>
+      <link><FormControl /></link>
     </listitem>
     <listitem>
       • <FormControlLabel />
       <statictext>•</statictext>
-      <link>
-        <FormControlLabel />
-        <text value="https://material-ui.netlify.app/api/form-control-label/">
-          <FormControlLabel />
-        </text>
-      </link>
+      <link><FormControlLabel /></link>
     </listitem>
     <listitem>
       • <FormGroup />
       <statictext>•</statictext>
-      <link>
-        <FormGroup />
-        <text value="https://material-ui.netlify.app/api/form-group/">
-          <FormGroup />
-        </text>
-      </link>
+      <link><FormGroup /></link>
     </listitem>
     <listitem>
       • <FormLabel />
       <statictext>•</statictext>
-      <link>
-        <FormLabel />
-        <text value="https://material-ui.netlify.app/api/form-label/">
-          <FormLabel />
-        </text>
-      </link>
+      <link><FormLabel /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Button Group
-    <text value="https://material-ui.netlify.app/components/button-group/">
-      Button Group
-    </text>
-  </link>
-  <link>
-    Floating Action Button
-    <text value="https://material-ui.netlify.app/components/floating-action-button/">
-      Floating Action Button
-    </text>
-  </link>
+  <link>Button Group</link>
+  <link>Floating Action Button</link>
 </landmark>;
 
 `;
 
 exports[`firefox /components/dialogs/ 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/dialogs/dialogs.md">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Dialog
     <link></link>
@@ -22640,19 +21505,9 @@ exports[`firefox /components/dialogs/ 1`] = `
   </paragraph>
   <paragraph>
     <text>A</text>
-    <link>
-      Dialog
-      <text value="https://material.io/design/components/dialogs.html">
-        Dialog
-      </text>
-    </link>
+    <link>Dialog</link>
     <text>is a type of</text>
-    <link>
-      modal
-      <text value="https://material-ui.netlify.app/components/modal/">
-        modal
-      </text>
-    </link>
+    <link>modal</link>
     <text>
       window that appears in front of app content to provide critical
       information or ask for a decision. Dialogs disable all app functionality
@@ -22879,12 +21734,7 @@ exports[`firefox /components/dialogs/ 1`] = `
       Here is an example of customizing the component. You can learn more about
       this in the
     </text>
-    <link>
-      overrides documentation page
-      <text value="https://material-ui.netlify.app/customization/components/">
-        overrides documentation page
-      </text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <paragraph>
@@ -23078,12 +21928,7 @@ exports[`firefox /components/dialogs/ 1`] = `
   </heading>
   <paragraph>
     <text>You can create a draggable dialog by using</text>
-    <link>
-      react-draggable
-      <text value="https://github.com/mzabriskie/react-draggable">
-        react-draggable
-      </text>
-    </link>
+    <link>react-draggable</link>
     <text>. To do so, you can pass the the imported</text>
     <text-container>
       <text>Draggable</text>
@@ -23175,12 +22020,7 @@ exports[`firefox /components/dialogs/ 1`] = `
   </heading>
   <paragraph>
     <text>Follow the</text>
-    <link>
-      Modal limitations section
-      <text value="https://material-ui.netlify.app/components/modal/#limitations">
-        Modal limitations section
-      </text>
-    </link>
+    <link>Modal limitations section</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -23190,12 +22030,7 @@ exports[`firefox /components/dialogs/ 1`] = `
   </heading>
   <paragraph>
     <text>Follow the</text>
-    <link>
-      Modal accessibility section
-      <text value="https://material-ui.netlify.app/components/modal/#accessibility">
-        Modal accessibility section
-      </text>
-    </link>
+    <link>Modal accessibility section</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -23207,89 +22042,44 @@ exports[`firefox /components/dialogs/ 1`] = `
     <listitem>
       • <Dialog />
       <statictext>•</statictext>
-      <link>
-        <Dialog />
-        <text value="https://material-ui.netlify.app/api/dialog/">
-          <Dialog />
-        </text>
-      </link>
+      <link><Dialog /></link>
     </listitem>
     <listitem>
       • <DialogActions />
       <statictext>•</statictext>
-      <link>
-        <DialogActions />
-        <text value="https://material-ui.netlify.app/api/dialog-actions/">
-          <DialogActions />
-        </text>
-      </link>
+      <link><DialogActions /></link>
     </listitem>
     <listitem>
       • <DialogContent />
       <statictext>•</statictext>
-      <link>
-        <DialogContent />
-        <text value="https://material-ui.netlify.app/api/dialog-content/">
-          <DialogContent />
-        </text>
-      </link>
+      <link><DialogContent /></link>
     </listitem>
     <listitem>
       • <DialogContentText />
       <statictext>•</statictext>
-      <link>
-        <DialogContentText />
-        <text value="https://material-ui.netlify.app/api/dialog-content-text/">
-          <DialogContentText />
-        </text>
-      </link>
+      <link><DialogContentText /></link>
     </listitem>
     <listitem>
       • <DialogTitle />
       <statictext>•</statictext>
-      <link>
-        <DialogTitle />
-        <text value="https://material-ui.netlify.app/api/dialog-title/">
-          <DialogTitle />
-        </text>
-      </link>
+      <link><DialogTitle /></link>
     </listitem>
     <listitem>
       • <Slide />
       <statictext>•</statictext>
-      <link>
-        <Slide />
-        <text value="https://material-ui.netlify.app/api/slide/">
-          <Slide />
-        </text>
-      </link>
+      <link><Slide /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Progress
-    <text value="https://material-ui.netlify.app/components/progress/">
-      Progress
-    </text>
-  </link>
-  <link>
-    Snackbar
-    <text value="https://material-ui.netlify.app/components/snackbars/">
-      Snackbar
-    </text>
-  </link>
+  <link>Progress</link>
+  <link>Snackbar</link>
 </landmark>;
 
 `;
 
 exports[`firefox /components/pagination/ 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/pagination/pagination.md">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Pagination
     <link></link>
@@ -24801,12 +23591,7 @@ exports[`firefox /components/pagination/ 1`] = `
   </text-container>
   <paragraph>
     <text>You can learn more about this use case in the</text>
-    <link>
-      table section
-      <text value="https://material-ui.netlify.app/components/tables/#custom-pagination-options">
-        table section
-      </text>
-    </link>
+    <link>table section</link>
     <text>of the documentation.</text>
   </paragraph>
   <heading level="2">
@@ -24851,49 +23636,24 @@ exports[`firefox /components/pagination/ 1`] = `
     <listitem>
       • <Pagination />
       <statictext>•</statictext>
-      <link>
-        <Pagination />
-        <text value="https://material-ui.netlify.app/api/pagination/">
-          <Pagination />
-        </text>
-      </link>
+      <link><Pagination /></link>
     </listitem>
     <listitem>
       • <PaginationItem />
       <statictext>•</statictext>
-      <link>
-        <PaginationItem />
-        <text value="https://material-ui.netlify.app/api/pagination-item/">
-          <PaginationItem />
-        </text>
-      </link>
+      <link><PaginationItem /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Autocomplete
-    <text value="https://material-ui.netlify.app/components/autocomplete/">
-      Autocomplete
-    </text>
-  </link>
-  <link>
-    Rating
-    <text value="https://material-ui.netlify.app/components/rating/">
-      Rating
-    </text>
-  </link>
+  <link>Autocomplete</link>
+  <link>Rating</link>
 </landmark>;
 
 `;
 
 exports[`firefox /components/pickers 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/pickers/pickers.md">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Date / Time pickers
     <link></link>
@@ -24935,10 +23695,7 @@ exports[`firefox /components/pickers 1`] = `
     <img>npm downloads</img>
   </paragraph>
   <paragraph>
-    <link>
-      @material-ui/pickers
-      <text value="https://material-ui-pickers.dev/">@material-ui/pickers</text>
-    </link>
+    <link>@material-ui/pickers</link>
     <text>provides date picker and time picker controls.</text>
   </paragraph>
   <button>
@@ -24991,17 +23748,9 @@ exports[`firefox /components/pickers 1`] = `
   </heading>
   <paragraph>
     <text>⚠️ Native input controls support by browsers</text>
-    <link>
-      isn't perfect
-      <text value="https://caniuse.com/#feat=input-datetime">
-        isn't perfect
-      </text>
-    </link>
+    <link>isn't perfect</link>
     <text>. Have a look at</text>
-    <link>
-      @material-ui/pickers
-      <text value="https://material-ui-pickers.dev/">@material-ui/pickers</text>
-    </link>
+    <link>@material-ui/pickers</link>
     <text>for a richer solution.</text>
   </paragraph>
   <heading level="3">
@@ -25194,39 +23943,19 @@ exports[`firefox /components/pickers 1`] = `
     <listitem>
       • <TextField />
       <statictext>•</statictext>
-      <link>
-        <TextField />
-        <text value="https://material-ui.netlify.app/api/text-field/">
-          <TextField />
-        </text>
-      </link>
+      <link><TextField /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Floating Action Button
-    <text value="https://material-ui.netlify.app/components/floating-action-button/">
-      Floating Action Button
-    </text>
-  </link>
-  <link>
-    Radio
-    <text value="https://material-ui.netlify.app/components/radio-buttons/">
-      Radio
-    </text>
-  </link>
+  <link>Floating Action Button</link>
+  <link>Radio</link>
 </landmark>;
 
 `;
 
 exports[`firefox /components/radio-buttons 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/radio-buttons/radio-buttons.md">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Radio
     <link></link>
@@ -25238,12 +23967,7 @@ exports[`firefox /components/radio-buttons 1`] = `
   </paragraph>
   <paragraph>
     <text>Use</text>
-    <link>
-      radio buttons
-      <text value="https://material.io/design/components/selection-controls.html#radio-buttons">
-        radio buttons
-      </text>
-    </link>
+    <link>radio buttons</link>
     <text>
       when the user needs to see all available options. If available options can
       be collapsed, consider using a dropdown menu because it uses less space.
@@ -25569,12 +24293,7 @@ exports[`firefox /components/radio-buttons 1`] = `
       Here is an example of customizing the component. You can learn more about
       this in the
     </text>
-    <link>
-      overrides documentation page
-      <text value="https://material-ui.netlify.app/customization/components/">
-        overrides documentation page
-      </text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -25668,12 +24387,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     <listitem>
       • Checkboxes vs. Radio Buttons
       <statictext>•</statictext>
-      <link>
-        Checkboxes vs. Radio Buttons
-        <text value="https://www.nngroup.com/articles/checkboxes-vs-radio-buttons/">
-          Checkboxes vs. Radio Buttons
-        </text>
-      </link>
+      <link>Checkboxes vs. Radio Buttons</link>
     </listitem>
   </list>
   <heading level="2">
@@ -25683,12 +24397,7 @@ exports[`firefox /components/radio-buttons 1`] = `
   </heading>
   <paragraph>
     <text>(WAI-ARIA:</text>
-    <link>
-      https://www.w3.org/TR/wai-aria-practices/#radiobutton
-      <text value="https://www.w3.org/TR/wai-aria-practices/#radiobutton">
-        https://www.w3.org/TR/wai-aria-practices/#radiobutton
-      </text>
-    </link>
+    <link>https://www.w3.org/TR/wai-aria-practices/#radiobutton</link>
     <text>)</text>
   </paragraph>
   <list>
@@ -25705,12 +24414,7 @@ exports[`firefox /components/radio-buttons 1`] = `
         <text><label></text>
       </text-container>
       <text>element (</text>
-      <link>
-        FormControlLabel
-        <text value="https://material-ui.netlify.app/api/form-control-label/">
-          FormControlLabel
-        </text>
-      </link>
+      <link>FormControlLabel</link>
       <text>).</text>
     </listitem>
     <listitem>
@@ -25759,79 +24463,39 @@ exports[`firefox /components/radio-buttons 1`] = `
     <listitem>
       • <FormControl />
       <statictext>•</statictext>
-      <link>
-        <FormControl />
-        <text value="https://material-ui.netlify.app/api/form-control/">
-          <FormControl />
-        </text>
-      </link>
+      <link><FormControl /></link>
     </listitem>
     <listitem>
       • <FormControlLabel />
       <statictext>•</statictext>
-      <link>
-        <FormControlLabel />
-        <text value="https://material-ui.netlify.app/api/form-control-label/">
-          <FormControlLabel />
-        </text>
-      </link>
+      <link><FormControlLabel /></link>
     </listitem>
     <listitem>
       • <FormLabel />
       <statictext>•</statictext>
-      <link>
-        <FormLabel />
-        <text value="https://material-ui.netlify.app/api/form-label/">
-          <FormLabel />
-        </text>
-      </link>
+      <link><FormLabel /></link>
     </listitem>
     <listitem>
       • <Radio />
       <statictext>•</statictext>
-      <link>
-        <Radio />
-        <text value="https://material-ui.netlify.app/api/radio/">
-          <Radio />
-        </text>
-      </link>
+      <link><Radio /></link>
     </listitem>
     <listitem>
       • <RadioGroup />
       <statictext>•</statictext>
-      <link>
-        <RadioGroup />
-        <text value="https://material-ui.netlify.app/api/radio-group/">
-          <RadioGroup />
-        </text>
-      </link>
+      <link><RadioGroup /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Date / Time
-    <text value="https://material-ui.netlify.app/components/pickers/">
-      Date / Time
-    </text>
-  </link>
-  <link>
-    Select
-    <text value="https://material-ui.netlify.app/components/selects/">
-      Select
-    </text>
-  </link>
+  <link>Date / Time</link>
+  <link>Select</link>
 </landmark>;
 
 `;
 
 exports[`firefox /components/rating/ 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/rating/rating.md">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Rating
     <link></link>
@@ -25990,12 +24654,7 @@ exports[`firefox /components/rating/ 1`] = `
       Here are some examples of customizing the component. You can learn more
       about this in the
     </text>
-    <link>
-      overrides documentation page
-      <text value="https://material-ui.netlify.app/customization/components/">
-        overrides documentation page
-      </text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -26561,9 +25220,6 @@ exports[`firefox /components/rating/ 1`] = `
     <text>(WAI tutorial:</text>
     <link>
       https://www.w3.org/WAI/tutorials/forms/custom-controls/#a-star-rating
-      <text value="https://www.w3.org/WAI/tutorials/forms/custom-controls/#a-star-rating">
-        https://www.w3.org/WAI/tutorials/forms/custom-controls/#a-star-rating
-      </text>
     </link>
     <text>)</text>
   </paragraph>
@@ -26611,39 +25267,19 @@ exports[`firefox /components/rating/ 1`] = `
     <listitem>
       • <Rating />
       <statictext>•</statictext>
-      <link>
-        <Rating />
-        <text value="https://material-ui.netlify.app/api/rating/">
-          <Rating />
-        </text>
-      </link>
+      <link><Rating /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Pagination
-    <text value="https://material-ui.netlify.app/components/pagination/">
-      Pagination
-    </text>
-  </link>
-  <link>
-    Skeleton
-    <text value="https://material-ui.netlify.app/components/skeleton/">
-      Skeleton
-    </text>
-  </link>
+  <link>Pagination</link>
+  <link>Skeleton</link>
 </landmark>;
 
 `;
 
 exports[`firefox /components/selects/ 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/selects/selects.md">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Select
     <link></link>
@@ -26823,9 +25459,6 @@ exports[`firefox /components/selects/ 1`] = `
           Autocomplete
         </text>
       </text-container>
-      <text value="https://material-ui.netlify.app/components/autocomplete/">
-        component
-      </text>
     </link>
     <text>
       . It's meant to be an improved version of the
@@ -27164,12 +25797,7 @@ exports[`firefox /components/selects/ 1`] = `
       wrapper component is a complete form control including a label, input and
       help text. You can find an example with the select mode
     </text>
-    <link>
-      in this section
-      <text value="https://material-ui.netlify.app/components/text-fields/#select">
-        in this section
-      </text>
-    </link>
+    <link>in this section</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -27182,12 +25810,7 @@ exports[`firefox /components/selects/ 1`] = `
       Here are some examples of customizing the component. You can learn more
       about this in the
     </text>
-    <link>
-      overrides documentation page
-      <text value="https://material-ui.netlify.app/customization/components/">
-        overrides documentation page
-      </text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <paragraph>
@@ -27257,12 +25880,7 @@ exports[`firefox /components/selects/ 1`] = `
   </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>
-      MUI Treasury's customization examples
-      <text value="https://mui-treasury.com/styles/select">
-        MUI Treasury's customization examples
-      </text>
-    </link>
+    <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -27578,12 +26196,7 @@ exports[`firefox /components/selects/ 1`] = `
   </text-container>
   <paragraph>
     <text>For a</text>
-    <link>
-      native select
-      <text value="https://material-ui.netlify.app/components/selects/#native-select">
-        native select
-      </text>
-    </link>
+    <link>native select</link>
     <text>, you should mention a label by giving the value of the</text>
     <text-container>
       <text>id</text>
@@ -27617,49 +26230,24 @@ exports[`firefox /components/selects/ 1`] = `
     <listitem>
       • <NativeSelect />
       <statictext>•</statictext>
-      <link>
-        <NativeSelect />
-        <text value="https://material-ui.netlify.app/api/native-select/">
-          <NativeSelect />
-        </text>
-      </link>
+      <link><NativeSelect /></link>
     </listitem>
     <listitem>
       • <Select />
       <statictext>•</statictext>
-      <link>
-        <Select />
-        <text value="https://material-ui.netlify.app/api/select/">
-          <Select />
-        </text>
-      </link>
+      <link><Select /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Radio
-    <text value="https://material-ui.netlify.app/components/radio-buttons/">
-      Radio
-    </text>
-  </link>
-  <link>
-    Slider
-    <text value="https://material-ui.netlify.app/components/slider/">
-      Slider
-    </text>
-  </link>
+  <link>Radio</link>
+  <link>Slider</link>
 </landmark>;
 
 `;
 
 exports[`firefox /components/slider 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/slider/slider.md">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Slider
     <link></link>
@@ -27670,12 +26258,7 @@ exports[`firefox /components/slider 1`] = `
     <text-container></text-container>
   </paragraph>
   <paragraph>
-    <link>
-      Sliders
-      <text value="https://material.io/design/components/sliders.html">
-        Sliders
-      </text>
-    </link>
+    <link>Sliders</link>
     <text>
       reflect a range of values along a bar, from which users may select a
       single value. They are ideal for adjusting settings such as volume,
@@ -27688,12 +26271,7 @@ exports[`firefox /components/slider 1`] = `
       Material-UI components).
       <statictext>•</statictext>
       <text>📦</text>
-      <link>
-        22 kB gzipped
-        <text value="https://material-ui.netlify.app/size-snapshot">
-          22 kB gzipped
-        </text>
-      </link>
+      <link>22 kB gzipped</link>
       <text>
         (but only +8 kB when used together with other Material-UI components).
       </text>
@@ -28169,12 +26747,7 @@ exports[`firefox /components/slider 1`] = `
       Here are some examples of customizing the component. You can learn more
       about this in the
     </text>
-    <link>
-      overrides documentation page
-      <text value="https://material-ui.netlify.app/customization/components/">
-        overrides documentation page
-      </text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -28490,12 +27063,7 @@ exports[`firefox /components/slider 1`] = `
   </heading>
   <paragraph>
     <text>(WAI-ARIA:</text>
-    <link>
-      https://www.w3.org/TR/wai-aria-practices/#slider
-      <text value="https://www.w3.org/TR/wai-aria-practices/#slider">
-        https://www.w3.org/TR/wai-aria-practices/#slider
-      </text>
-    </link>
+    <link>https://www.w3.org/TR/wai-aria-practices/#slider</link>
     <text>)</text>
   </paragraph>
   <paragraph>
@@ -28552,39 +27120,19 @@ exports[`firefox /components/slider 1`] = `
     <listitem>
       • <Slider />
       <statictext>•</statictext>
-      <link>
-        <Slider />
-        <text value="https://material-ui.netlify.app/api/slider/">
-          <Slider />
-        </text>
-      </link>
+      <link><Slider /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Select
-    <text value="https://material-ui.netlify.app/components/selects/">
-      Select
-    </text>
-  </link>
-  <link>
-    Switch
-    <text value="https://material-ui.netlify.app/components/switches/">
-      Switch
-    </text>
-  </link>
+  <link>Select</link>
+  <link>Switch</link>
 </landmark>;
 
 `;
 
 exports[`firefox /components/switches/ 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/switches/switches.md">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Switch
     <link></link>
@@ -28595,12 +27143,7 @@ exports[`firefox /components/switches/ 1`] = `
     <text-container></text-container>
   </paragraph>
   <paragraph>
-    <link>
-      Switches
-      <text value="https://material.io/design/components/selection-controls.html#switches">
-        Switches
-      </text>
-    </link>
+    <link>Switches</link>
     <text>
       are the preferred way to adjust settings on mobile. The option that the
       switch controls, as well as the state it’s in, should be made clear from
@@ -28755,19 +27298,9 @@ exports[`firefox /components/switches/ 1`] = `
       is a helpful wrapper used to group selection controls components that
       provides an easier API. However, you are encouraged you to use
     </text>
-    <link>
-      Checkboxes
-      <text value="https://material-ui.netlify.app/components/checkboxes/">
-        Checkboxes
-      </text>
-    </link>
+    <link>Checkboxes</link>
     <text>instead if multiple related controls are required. (See:</text>
-    <link>
-      When to use
-      <text value="https://material-ui.netlify.app/components/switches/#when-to-use">
-        When to use
-      </text>
-    </link>
+    <link>When to use</link>
     <text>).</text>
   </paragraph>
   <button>
@@ -28836,12 +27369,7 @@ exports[`firefox /components/switches/ 1`] = `
       Here are some examples of customizing the component. You can learn more
       about this in the
     </text>
-    <link>
-      overrides documentation page
-      <text value="https://material-ui.netlify.app/customization/components/">
-        overrides documentation page
-      </text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -28891,12 +27419,7 @@ exports[`firefox /components/switches/ 1`] = `
   </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>
-      MUI Treasury's customization examples
-      <text value="https://mui-treasury.com/styles/switch">
-        MUI Treasury's customization examples
-      </text>
-    </link>
+    <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -29034,12 +27557,7 @@ exports[`firefox /components/switches/ 1`] = `
     <listitem>
       • Checkboxes vs. Switches
       <statictext>•</statictext>
-      <link>
-        Checkboxes vs. Switches
-        <text value="https://uxplanet.org/checkbox-vs-toggle-switch-7fc6e83f10b8">
-          Checkboxes vs. Switches
-        </text>
-      </link>
+      <link>Checkboxes vs. Switches</link>
     </listitem>
   </list>
   <heading level="2">
@@ -29088,12 +27606,7 @@ exports[`firefox /components/switches/ 1`] = `
         <text><label></text>
       </text-container>
       <text>element (</text>
-      <link>
-        FormControlLabel
-        <text value="https://material-ui.netlify.app/api/form-control-label/">
-          FormControlLabel
-        </text>
-      </link>
+      <link>FormControlLabel</link>
       <text>).</text>
     </listitem>
     <listitem>
@@ -29142,79 +27655,39 @@ exports[`firefox /components/switches/ 1`] = `
     <listitem>
       • <FormControl />
       <statictext>•</statictext>
-      <link>
-        <FormControl />
-        <text value="https://material-ui.netlify.app/api/form-control/">
-          <FormControl />
-        </text>
-      </link>
+      <link><FormControl /></link>
     </listitem>
     <listitem>
       • <FormControlLabel />
       <statictext>•</statictext>
-      <link>
-        <FormControlLabel />
-        <text value="https://material-ui.netlify.app/api/form-control-label/">
-          <FormControlLabel />
-        </text>
-      </link>
+      <link><FormControlLabel /></link>
     </listitem>
     <listitem>
       • <FormGroup />
       <statictext>•</statictext>
-      <link>
-        <FormGroup />
-        <text value="https://material-ui.netlify.app/api/form-group/">
-          <FormGroup />
-        </text>
-      </link>
+      <link><FormGroup /></link>
     </listitem>
     <listitem>
       • <FormLabel />
       <statictext>•</statictext>
-      <link>
-        <FormLabel />
-        <text value="https://material-ui.netlify.app/api/form-label/">
-          <FormLabel />
-        </text>
-      </link>
+      <link><FormLabel /></link>
     </listitem>
     <listitem>
       • <Switch />
       <statictext>•</statictext>
-      <link>
-        <Switch />
-        <text value="https://material-ui.netlify.app/api/switch/">
-          <Switch />
-        </text>
-      </link>
+      <link><Switch /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Slider
-    <text value="https://material-ui.netlify.app/components/slider/">
-      Slider
-    </text>
-  </link>
-  <link>
-    Text Field
-    <text value="https://material-ui.netlify.app/components/text-fields/">
-      Text Field
-    </text>
-  </link>
+  <link>Slider</link>
+  <link>Text Field</link>
 </landmark>;
 
 `;
 
 exports[`firefox /components/tabs/ 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/tabs/tabs.md">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Tabs
     <link></link>
@@ -29227,10 +27700,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <text-container></text-container>
   </paragraph>
   <paragraph>
-    <link>
-      Tabs
-      <text value="https://material.io/design/components/tabs.html">Tabs</text>
-    </link>
+    <link>Tabs</link>
     <text>
       organize and allow navigation between groups of content that are related
       and at the same level of hierarchy.
@@ -29417,12 +27887,7 @@ exports[`firefox /components/tabs/ 1`] = `
       <text>variant="fullWidth"</text>
     </text-container>
     <text>property should be used for smaller views. This demo also uses</text>
-    <link>
-      react-swipeable-views
-      <text value="https://github.com/oliviertassinari/react-swipeable-views">
-        react-swipeable-views
-      </text>
-    </link>
+    <link>react-swipeable-views</link>
     <text>
       to animate the Tab transition, and allowing tabs to be swiped on touch
       devices.
@@ -29696,12 +28161,7 @@ exports[`firefox /components/tabs/ 1`] = `
       Here is an example of customizing the component. You can learn more about
       this in the
     </text>
-    <link>
-      overrides documentation page
-      <text value="https://material-ui.netlify.app/customization/components/">
-        overrides documentation page
-      </text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -29769,12 +28229,7 @@ exports[`firefox /components/tabs/ 1`] = `
   </text-container>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>
-      MUI Treasury's customization examples
-      <text value="https://mui-treasury.com/styles/tabs/">
-        MUI Treasury's customization examples
-      </text>
-    </link>
+    <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -29977,12 +28432,7 @@ exports[`firefox /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>(WAI-ARIA:</text>
-    <link>
-      https://www.w3.org/TR/wai-aria-practices/#tabpanel
-      <text value="https://www.w3.org/TR/wai-aria-practices/#tabpanel">
-        https://www.w3.org/TR/wai-aria-practices/#tabpanel
-      </text>
-    </link>
+    <link>https://www.w3.org/TR/wai-aria-practices/#tabpanel</link>
     <text>)</text>
   </paragraph>
   <paragraph>
@@ -30040,12 +28490,7 @@ exports[`firefox /components/tabs/ 1`] = `
       An example for the current implementation can be found in the demos on
       this page. We've also published
     </text>
-    <link>
-      an experimental API
-      <text value="https://material-ui.netlify.app/components/tabs/#experimental-api">
-        an experimental API
-      </text>
-    </link>
+    <link>an experimental API</link>
     <text>in</text>
     <text-container>
       <text>@material-ui/lab</text>
@@ -30073,12 +28518,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <text>
       component. The WAI-ARIA authoring practices have a detailed guide on
     </text>
-    <link>
-      how to decide when to make selection automatically follow focus
-      <text value="https://www.w3.org/TR/wai-aria-practices/#kbd_selection_follows_focus">
-        how to decide when to make selection automatically follow focus
-      </text>
-    </link>
+    <link>how to decide when to make selection automatically follow focus</link>
     <text>.</text>
   </paragraph>
   <heading level="4">
@@ -30170,12 +28610,7 @@ exports[`firefox /components/tabs/ 1`] = `
       offers utility components that inject props to implement accessible tabs
       following
     </text>
-    <link>
-      WAI-ARIA authoring practices
-      <text value="https://www.w3.org/TR/wai-aria-practices/#tabpanel">
-        WAI-ARIA authoring practices
-      </text>
-    </link>
+    <link>WAI-ARIA authoring practices</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -30236,59 +28671,29 @@ exports[`firefox /components/tabs/ 1`] = `
     <listitem>
       • <Tab />
       <statictext>•</statictext>
-      <link>
-        <Tab />
-        <text value="https://material-ui.netlify.app/api/tab/">
-          <Tab />
-        </text>
-      </link>
+      <link><Tab /></link>
     </listitem>
     <listitem>
       • <TabScrollButton />
       <statictext>•</statictext>
-      <link>
-        <TabScrollButton />
-        <text value="https://material-ui.netlify.app/api/tab-scroll-button/">
-          <TabScrollButton />
-        </text>
-      </link>
+      <link><TabScrollButton /></link>
     </listitem>
     <listitem>
       • <Tabs />
       <statictext>•</statictext>
-      <link>
-        <Tabs />
-        <text value="https://material-ui.netlify.app/api/tabs/">
-          <Tabs />
-        </text>
-      </link>
+      <link><Tabs /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Stepper
-    <text value="https://material-ui.netlify.app/components/steppers/">
-      Stepper
-    </text>
-  </link>
-  <link>
-    App Bar
-    <text value="https://material-ui.netlify.app/components/app-bar/">
-      App Bar
-    </text>
-  </link>
+  <link>Stepper</link>
+  <link>App Bar</link>
 </landmark>;
 
 `;
 
 exports[`firefox /components/text-fields/ 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/text-fields/text-fields.md">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Text Field
     <link></link>
@@ -30299,12 +28704,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text-container></text-container>
   </paragraph>
   <paragraph>
-    <link>
-      Text fields
-      <text value="https://material.io/design/components/text-fields.html">
-        Text fields
-      </text>
-    </link>
+    <link>Text fields</link>
     <text>
       allow users to enter text into a UI. They typically appear in forms and
       dialogs.
@@ -30379,17 +28779,9 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>TextField</text>
     </text-container>
     <text>is no longer documented in the</text>
-    <link>
-      Material Design guidelines
-      <text value="https://material.io/">Material Design guidelines</text>
-    </link>
+    <link>Material Design guidelines</link>
     <text>(</text>
-    <link>
-      here's why
-      <text value="https://medium.com/google-design/the-evolution-of-material-designs-text-fields-603688b3fe03">
-        here's why
-      </text>
-    </link>
+    <link>here's why</link>
     <text>), but Material-UI will continue to support it.</text>
   </paragraph>
   <heading level="2">
@@ -30703,19 +29095,9 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>multiline</text>
     </text-container>
     <text>prop transforms the text field into a</text>
-    <link>
-      textarea
-      <text value="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea">
-        textarea
-      </text>
-    </link>
+    <link>textarea</link>
     <text>or a</text>
-    <link>
-      TextareaAutosize
-      <text value="https://material-ui.netlify.app/components/textarea-autosize/">
-        TextareaAutosize
-      </text>
-    </link>
+    <link>TextareaAutosize</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -30813,12 +29195,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>select</text>
     </text-container>
     <text>prop makes the text field use the</text>
-    <link>
-      Select
-      <text value="https://material-ui.netlify.app/components/selects/">
-        Select
-      </text>
-    </link>
+    <link>Select</link>
     <text>component internally.</text>
   </paragraph>
   <button>
@@ -31754,12 +30131,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Here are some examples of customizing the component. You can learn more
       about this in the
     </text>
-    <link>
-      overrides documentation page
-      <text value="https://material-ui.netlify.app/customization/components/">
-        overrides documentation page
-      </text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -31865,12 +30237,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>
-      MUI Treasury's customization examples
-      <text value="https://mui-treasury.com/styles/text-field">
-        MUI Treasury's customization examples
-      </text>
-    </link>
+    <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -31950,26 +30317,11 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <paragraph>
     <text>The following demo uses the</text>
-    <link>
-      react-text-mask
-      <text value="https://github.com/text-mask/text-mask">
-        react-text-mask
-      </text>
-    </link>
+    <link>react-text-mask</link>
     <text>and</text>
-    <link>
-      react-number-format
-      <text value="https://github.com/s-yadav/react-number-format">
-        react-number-format
-      </text>
-    </link>
+    <link>react-number-format</link>
     <text>libraries. The same concept could be applied to</text>
-    <link>
-      e.g. react-stripe-element
-      <text value="https://github.com/mui-org/material-ui/issues/16037">
-        e.g. react-stripe-element
-      </text>
-    </link>
+    <link>e.g. react-stripe-element</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -32104,47 +30456,25 @@ exports[`firefox /components/text-fields/ 1`] = `
     <listitem>
       • formik-material-ui Bindings for using Material-UI with formik .
       <statictext>•</statictext>
-      <link>
-        formik-material-ui
-        <text value="https://github.com/stackworx/formik-material-ui">
-          formik-material-ui
-        </text>
-      </link>
+      <link>formik-material-ui</link>
       <text>Bindings for using Material-UI with</text>
-      <link>
-        formik
-        <text value="https://jaredpalmer.com/formik">formik</text>
-      </link>
+      <link>formik</link>
       <text>.</text>
     </listitem>
     <listitem>
       • redux-form-material-ui Bindings for using Material-UI with Redux Form .
       <statictext>•</statictext>
-      <link>
-        redux-form-material-ui
-        <text value="https://github.com/erikras/redux-form-material-ui">
-          redux-form-material-ui
-        </text>
-      </link>
+      <link>redux-form-material-ui</link>
       <text>Bindings for using Material-UI with</text>
-      <link>
-        Redux Form
-        <text value="https://redux-form.com/">Redux Form</text>
-      </link>
+      <link>Redux Form</link>
       <text>.</text>
     </listitem>
     <listitem>
       • mui-rff Bindings for using Material-UI with React Final Form .
       <statictext>•</statictext>
-      <link>
-        mui-rff
-        <text value="https://github.com/lookfirst/mui-rff">mui-rff</text>
-      </link>
+      <link>mui-rff</link>
       <text>Bindings for using Material-UI with</text>
-      <link>
-        React Final Form
-        <text value="https://final-form.org/react">React Final Form</text>
-      </link>
+      <link>React Final Form</link>
       <text>.</text>
     </listitem>
   </list>
@@ -32157,119 +30487,59 @@ exports[`firefox /components/text-fields/ 1`] = `
     <listitem>
       • <FilledInput />
       <statictext>•</statictext>
-      <link>
-        <FilledInput />
-        <text value="https://material-ui.netlify.app/api/filled-input/">
-          <FilledInput />
-        </text>
-      </link>
+      <link><FilledInput /></link>
     </listitem>
     <listitem>
       • <FormControl />
       <statictext>•</statictext>
-      <link>
-        <FormControl />
-        <text value="https://material-ui.netlify.app/api/form-control/">
-          <FormControl />
-        </text>
-      </link>
+      <link><FormControl /></link>
     </listitem>
     <listitem>
       • <FormHelperText />
       <statictext>•</statictext>
-      <link>
-        <FormHelperText />
-        <text value="https://material-ui.netlify.app/api/form-helper-text/">
-          <FormHelperText />
-        </text>
-      </link>
+      <link><FormHelperText /></link>
     </listitem>
     <listitem>
       • <Input />
       <statictext>•</statictext>
-      <link>
-        <Input />
-        <text value="https://material-ui.netlify.app/api/input/">
-          <Input />
-        </text>
-      </link>
+      <link><Input /></link>
     </listitem>
     <listitem>
       • <InputAdornment />
       <statictext>•</statictext>
-      <link>
-        <InputAdornment />
-        <text value="https://material-ui.netlify.app/api/input-adornment/">
-          <InputAdornment />
-        </text>
-      </link>
+      <link><InputAdornment /></link>
     </listitem>
     <listitem>
       • <InputBase />
       <statictext>•</statictext>
-      <link>
-        <InputBase />
-        <text value="https://material-ui.netlify.app/api/input-base/">
-          <InputBase />
-        </text>
-      </link>
+      <link><InputBase /></link>
     </listitem>
     <listitem>
       • <InputLabel />
       <statictext>•</statictext>
-      <link>
-        <InputLabel />
-        <text value="https://material-ui.netlify.app/api/input-label/">
-          <InputLabel />
-        </text>
-      </link>
+      <link><InputLabel /></link>
     </listitem>
     <listitem>
       • <OutlinedInput />
       <statictext>•</statictext>
-      <link>
-        <OutlinedInput />
-        <text value="https://material-ui.netlify.app/api/outlined-input/">
-          <OutlinedInput />
-        </text>
-      </link>
+      <link><OutlinedInput /></link>
     </listitem>
     <listitem>
       • <TextField />
       <statictext>•</statictext>
-      <link>
-        <TextField />
-        <text value="https://material-ui.netlify.app/api/text-field/">
-          <TextField />
-        </text>
-      </link>
+      <link><TextField /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Switch
-    <text value="https://material-ui.netlify.app/components/switches/">
-      Switch
-    </text>
-  </link>
-  <link>
-    Transfer List
-    <text value="https://material-ui.netlify.app/components/transfer-list/">
-      Transfer List
-    </text>
-  </link>
+  <link>Switch</link>
+  <link>Transfer List</link>
 </landmark>;
 
 `;
 
 exports[`firefox /components/tooltips/ 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/tooltips/tooltips.md">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Tooltip
     <link></link>
@@ -32284,12 +30554,7 @@ exports[`firefox /components/tooltips/ 1`] = `
   </paragraph>
   <paragraph>
     <text>When activated,</text>
-    <link>
-      Tooltips
-      <text value="https://material.io/design/components/tooltips.html">
-        Tooltips
-      </text>
-    </link>
+    <link>Tooltips</link>
     <text>
       display a text label identifying an element, such as a description of its
       function.
@@ -32419,12 +30684,7 @@ exports[`firefox /components/tooltips/ 1`] = `
       Here are some examples of customizing the component. You can learn more
       about this in the
     </text>
-    <link>
-      overrides documentation page
-      <text value="https://material-ui.netlify.app/customization/components/">
-        overrides documentation page
-      </text>
-    </link>
+    <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
   <button>
@@ -32516,12 +30776,7 @@ exports[`firefox /components/tooltips/ 1`] = `
   </text-container>
   <paragraph>
     <text>You can find a similar concept in the</text>
-    <link>
-      wrapping components
-      <text value="https://material-ui.netlify.app/guides/composition/#wrapping-components">
-        wrapping components
-      </text>
-    </link>
+    <link>wrapping components</link>
     <text>guide.</text>
   </paragraph>
   <heading level="2">
@@ -32904,39 +31159,19 @@ exports[`firefox /components/tooltips/ 1`] = `
     <listitem>
       • <Tooltip />
       <statictext>•</statictext>
-      <link>
-        <Tooltip />
-        <text value="https://material-ui.netlify.app/api/tooltip/">
-          <Tooltip />
-        </text>
-      </link>
+      <link><Tooltip /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Table
-    <text value="https://material-ui.netlify.app/components/tables/">
-      Table
-    </text>
-  </link>
-  <link>
-    Typography
-    <text value="https://material-ui.netlify.app/components/typography/">
-      Typography
-    </text>
-  </link>
+  <link>Table</link>
+  <link>Typography</link>
 </landmark>;
 
 `;
 
 exports[`firefox /components/transfer-list 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/transfer-list/transfer-list.md">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Transfer List
     <link></link>
@@ -33206,69 +31441,34 @@ exports[`firefox /components/transfer-list 1`] = `
     <listitem>
       • <Checkbox />
       <statictext>•</statictext>
-      <link>
-        <Checkbox />
-        <text value="https://material-ui.netlify.app/api/checkbox/">
-          <Checkbox />
-        </text>
-      </link>
+      <link><Checkbox /></link>
     </listitem>
     <listitem>
       • <List />
       <statictext>•</statictext>
-      <link>
-        <List />
-        <text value="https://material-ui.netlify.app/api/list/">
-          <List />
-        </text>
-      </link>
+      <link><List /></link>
     </listitem>
     <listitem>
       • <ListItem />
       <statictext>•</statictext>
-      <link>
-        <ListItem />
-        <text value="https://material-ui.netlify.app/api/list-item/">
-          <ListItem />
-        </text>
-      </link>
+      <link><ListItem /></link>
     </listitem>
     <listitem>
       • <Switch />
       <statictext>•</statictext>
-      <link>
-        <Switch />
-        <text value="https://material-ui.netlify.app/api/switch/">
-          <Switch />
-        </text>
-      </link>
+      <link><Switch /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Text Field
-    <text value="https://material-ui.netlify.app/components/text-fields/">
-      Text Field
-    </text>
-  </link>
-  <link>
-    Bottom Navigation
-    <text value="https://material-ui.netlify.app/components/bottom-navigation/">
-      Bottom Navigation
-    </text>
-  </link>
+  <link>Text Field</link>
+  <link>Bottom Navigation</link>
 </landmark>;
 
 `;
 
 exports[`firefox /components/tree-view/ 1`] = `
 <landmark>
-  <link>
-    EDIT THIS PAGE
-    <text value="https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/tree-view/tree-view.md">
-      EDIT THIS PAGE
-    </text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Tree View
     <link></link>
@@ -33575,12 +31775,7 @@ exports[`firefox /components/tree-view/ 1`] = `
   </heading>
   <paragraph>
     <text>(WAI-ARIA:</text>
-    <link>
-      https://www.w3.org/TR/wai-aria-practices/#TreeView
-      <text value="https://www.w3.org/TR/wai-aria-practices/#TreeView">
-        https://www.w3.org/TR/wai-aria-practices/#TreeView
-      </text>
-    </link>
+    <link>https://www.w3.org/TR/wai-aria-practices/#TreeView</link>
     <text>)</text>
   </paragraph>
   <paragraph>
@@ -33595,35 +31790,17 @@ exports[`firefox /components/tree-view/ 1`] = `
     <listitem>
       • <TreeItem />
       <statictext>•</statictext>
-      <link>
-        <TreeItem />
-        <text value="https://material-ui.netlify.app/api/tree-item/">
-          <TreeItem />
-        </text>
-      </link>
+      <link><TreeItem /></link>
     </listitem>
     <listitem>
       • <TreeView />
       <statictext>•</statictext>
-      <link>
-        <TreeView />
-        <text value="https://material-ui.netlify.app/api/tree-view/">
-          <TreeView />
-        </text>
-      </link>
+      <link><TreeView /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>
-    Toggle Button
-    <text value="https://material-ui.netlify.app/components/toggle-button/">
-      Toggle Button
-    </text>
-  </link>
-  <link>
-    Alert
-    <text value="https://material-ui.netlify.app/api/alert/">Alert</text>
-  </link>
+  <link>Toggle Button</link>
+  <link>Alert</link>
 </landmark>;
 
 `;
