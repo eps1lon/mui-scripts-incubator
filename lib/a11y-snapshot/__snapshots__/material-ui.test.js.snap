@@ -13384,6 +13384,24 @@ exports[`chromium /components/tabs/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
+      <link><TabContext /></link>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <link><TabList /></link>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <link><TabPanel /></link>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link><TabScrollButton /></link>
     </listitem>
     <listitem level="1">
@@ -28625,6 +28643,21 @@ exports[`firefox /components/tabs/ 1`] = `
       • <Tab />
       <statictext>•</statictext>
       <link><Tab /></link>
+    </listitem>
+    <listitem>
+      • <TabContext />
+      <statictext>•</statictext>
+      <link><TabContext /></link>
+    </listitem>
+    <listitem>
+      • <TabList />
+      <statictext>•</statictext>
+      <link><TabList /></link>
+    </listitem>
+    <listitem>
+      • <TabPanel />
+      <statictext>•</statictext>
+      <link><TabPanel /></link>
     </listitem>
     <listitem>
       • <TabScrollButton />
