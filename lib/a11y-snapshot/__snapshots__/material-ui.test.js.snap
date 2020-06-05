@@ -432,8 +432,8 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
-        children
-        <text>children</text>
+        children *
+        <text>children *</text>
       </gridcell>
       <gridcell>
         node
@@ -675,12 +675,12 @@ exports[`chromium /api/button/ 1`] = `
         <text>size</text>
       </gridcell>
       <gridcell>
-        'large' | 'medium' | 'small'
-        <text>'large'</text>
+        'small' | 'medium' | 'large'
+        <text>'small'</text>
         <LineBreak></LineBreak>
         <text>| 'medium'</text>
         <LineBreak></LineBreak>
-        <text>| 'small'</text>
+        <text>| 'large'</text>
       </gridcell>
       <gridcell>
         'medium'
@@ -716,12 +716,12 @@ exports[`chromium /api/button/ 1`] = `
         <text>variant</text>
       </gridcell>
       <gridcell>
-        'contained' | 'outlined' | 'text'
-        <text>'contained'</text>
+        'text' | 'outlined' | 'contained'
+        <text>'text'</text>
         <LineBreak></LineBreak>
         <text>| 'outlined'</text>
         <LineBreak></LineBreak>
-        <text>| 'text'</text>
+        <text>| 'contained'</text>
       </gridcell>
       <gridcell>
         'text'
@@ -2346,20 +2346,6 @@ exports[`chromium /api/select/ 1`] = `
           <text>variant="outlined"</text>
         </code>
         <text>.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        nativeInput
-        <text>nativeInput</text>
-      </gridcell>
-      <gridcell>
-        .MuiSelect-nativeInput
-        <text>.MuiSelect-nativeInput</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the underlying native input component.
-        <text>Styles applied to the underlying native input component.</text>
       </gridcell>
     </row>
   </table>
@@ -7584,7 +7570,6 @@ exports[`chromium /components/pagination/ 1`] = `
     <text>Rows per page:</text>
   </paragraph>
   <combobox haspopup="listbox">Rows per page: 10</combobox>
-  <textbox value="10"></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>21-30 of 100</text>
@@ -9436,7 +9421,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <Label>
     <text>Age</text>
@@ -9445,7 +9429,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Some important helper text</text>
@@ -9455,7 +9438,6 @@ exports[`chromium /components/selects/ 1`] = `
     Without label
     <text>None</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Without label</text>
@@ -9468,7 +9450,6 @@ exports[`chromium /components/selects/ 1`] = `
     Age None
     <text>None</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Label + placeholder</text>
@@ -9480,7 +9461,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox disabled="true" haspopup="listbox">
     Name ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Disabled</text>
@@ -9492,7 +9472,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Name ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Error</text>
@@ -9504,7 +9483,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Name ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Read only</text>
@@ -9516,14 +9494,12 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Auto width</text>
   </paragraph>
   <text> </text>
   <combobox haspopup="listbox">Without label</combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Placeholder</text>
@@ -9535,7 +9511,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox required="true" invalid="true"></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Required</text>
@@ -9546,7 +9521,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <group>
     <Legend>
@@ -9560,7 +9534,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <toolbar>
     demo source
@@ -9905,7 +9878,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <Label>
     <text>Age</text>
@@ -9999,7 +9971,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Name ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <Label>
     <text>Tag</text>
@@ -10008,7 +9979,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Tag ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <Label>
     <text>Chip</text>
@@ -10017,14 +9987,12 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Chip ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <text> </text>
   <combobox haspopup="listbox">
     Without label
     <text>Placeholder</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <Label>
     <text>Native</text>
@@ -10094,7 +10062,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <toolbar>
     demo source
@@ -10219,7 +10186,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <toolbar>
     demo source
@@ -14052,7 +14018,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     </Label>
     <text> </text>
     <combobox haspopup="listbox">Select €</combobox>
-    <textbox value="EUR" description="Please select your currency"></textbox>
     <SVGRoot></SVGRoot>
     <paragraph>
       <text>Please select your currency</text>
@@ -14079,7 +14044,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     </Label>
     <text> </text>
     <combobox haspopup="listbox">Select €</combobox>
-    <textbox value="EUR" description="Please select your currency"></textbox>
     <SVGRoot></SVGRoot>
     <paragraph>
       <text>Please select your currency</text>
@@ -14105,7 +14069,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Select</text>
     </Label>
     <combobox haspopup="listbox">Select €</combobox>
-    <textbox value="EUR" description="Please select your currency"></textbox>
     <SVGRoot></SVGRoot>
     <group>
       <Legend>
@@ -17667,7 +17630,7 @@ exports[`firefox /api/button/ 1`] = `
     </row>
     <row>
       <cell>
-        <text>children</text>
+        <text>children *</text>
       </cell>
       <cell>
         <text>node</text>
@@ -17863,11 +17826,11 @@ exports[`firefox /api/button/ 1`] = `
         <text>size</text>
       </cell>
       <cell>
-        <text>'large'</text>
+        <text>'small'</text>
         <whitespace></whitespace>
         <text>| 'medium'</text>
         <whitespace></whitespace>
-        <text>| 'small'</text>
+        <text>| 'large'</text>
       </cell>
       <cell>
         <text>'medium'</text>
@@ -17897,11 +17860,11 @@ exports[`firefox /api/button/ 1`] = `
         <text>variant</text>
       </cell>
       <cell>
-        <text>'contained'</text>
+        <text>'text'</text>
         <whitespace></whitespace>
         <text>| 'outlined'</text>
         <whitespace></whitespace>
-        <text>| 'text'</text>
+        <text>| 'contained'</text>
       </cell>
       <cell>
         <text>'text'</text>
@@ -19242,17 +19205,6 @@ exports[`firefox /api/select/ 1`] = `
           <text>variant="outlined"</text>
         </text-container>
         <text>.</text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>nativeInput</text>
-      </cell>
-      <cell>
-        <text>.MuiSelect-nativeInput</text>
-      </cell>
-      <cell>
-        <text>Styles applied to the underlying native input component.</text>
       </cell>
     </row>
   </table>
