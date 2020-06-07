@@ -17351,7 +17351,7 @@ exports[`firefox / 1`] = `
     </buttonmenu>
     <buttonmenu haspopup="true">
       Toggle notifications panel
-      <text>0</text>
+      <text>2</text>
     </buttonmenu>
     <link>Edit website colors</link>
     <link>GitHub repository</link>
