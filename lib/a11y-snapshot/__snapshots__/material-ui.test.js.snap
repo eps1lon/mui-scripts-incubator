@@ -432,8 +432,8 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
-        children
-        <text>children</text>
+        children *
+        <text>children *</text>
       </gridcell>
       <gridcell>
         node
@@ -675,12 +675,12 @@ exports[`chromium /api/button/ 1`] = `
         <text>size</text>
       </gridcell>
       <gridcell>
-        'large' | 'medium' | 'small'
-        <text>'large'</text>
+        'small' | 'medium' | 'large'
+        <text>'small'</text>
         <LineBreak></LineBreak>
         <text>| 'medium'</text>
         <LineBreak></LineBreak>
-        <text>| 'small'</text>
+        <text>| 'large'</text>
       </gridcell>
       <gridcell>
         'medium'
@@ -716,12 +716,12 @@ exports[`chromium /api/button/ 1`] = `
         <text>variant</text>
       </gridcell>
       <gridcell>
-        'contained' | 'outlined' | 'text'
-        <text>'contained'</text>
+        'text' | 'outlined' | 'contained'
+        <text>'text'</text>
         <LineBreak></LineBreak>
         <text>| 'outlined'</text>
         <LineBreak></LineBreak>
-        <text>| 'text'</text>
+        <text>| 'contained'</text>
       </gridcell>
       <gridcell>
         'text'
@@ -13384,24 +13384,6 @@ exports[`chromium /components/tabs/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><TabContext /></link>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <link><TabList /></link>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <link><TabPanel /></link>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link><TabScrollButton /></link>
     </listitem>
     <listitem level="1">
@@ -17685,7 +17667,7 @@ exports[`firefox /api/button/ 1`] = `
     </row>
     <row>
       <cell>
-        <text>children</text>
+        <text>children *</text>
       </cell>
       <cell>
         <text>node</text>
@@ -17881,11 +17863,11 @@ exports[`firefox /api/button/ 1`] = `
         <text>size</text>
       </cell>
       <cell>
-        <text>'large'</text>
+        <text>'small'</text>
         <whitespace></whitespace>
         <text>| 'medium'</text>
         <whitespace></whitespace>
-        <text>| 'small'</text>
+        <text>| 'large'</text>
       </cell>
       <cell>
         <text>'medium'</text>
@@ -17915,11 +17897,11 @@ exports[`firefox /api/button/ 1`] = `
         <text>variant</text>
       </cell>
       <cell>
-        <text>'contained'</text>
+        <text>'text'</text>
         <whitespace></whitespace>
         <text>| 'outlined'</text>
         <whitespace></whitespace>
-        <text>| 'text'</text>
+        <text>| 'contained'</text>
       </cell>
       <cell>
         <text>'text'</text>
@@ -28643,21 +28625,6 @@ exports[`firefox /components/tabs/ 1`] = `
       • <Tab />
       <statictext>•</statictext>
       <link><Tab /></link>
-    </listitem>
-    <listitem>
-      • <TabContext />
-      <statictext>•</statictext>
-      <link><TabContext /></link>
-    </listitem>
-    <listitem>
-      • <TabList />
-      <statictext>•</statictext>
-      <link><TabList /></link>
-    </listitem>
-    <listitem>
-      • <TabPanel />
-      <statictext>•</statictext>
-      <link><TabPanel /></link>
     </listitem>
     <listitem>
       • <TabScrollButton />
