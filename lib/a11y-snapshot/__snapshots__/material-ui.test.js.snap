@@ -17627,7 +17627,6 @@ exports[`firefox /api/button/ 1`] = `
       The API documentation of the Button React component. Learn more about the
       props and the CSS customization points.
     </text>
-    <text-container></text-container>
   </paragraph>
   <heading level="2">
     Import
@@ -20977,7 +20976,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <text>
       Checkboxes allow the user to select one or more items from a set.
     </text>
-    <text-container></text-container>
   </paragraph>
   <paragraph>
     <link>Checkboxes</link>
@@ -21486,7 +21484,6 @@ exports[`firefox /components/dialogs/ 1`] = `
       Dialogs inform users about a task and can contain critical information,
       require decisions, or involve multiple tasks.
     </text>
-    <text-container></text-container>
   </paragraph>
   <paragraph>
     <text>A</text>
@@ -22068,7 +22065,6 @@ exports[`firefox /components/pagination/ 1`] = `
       The Pagination component enables the user to select a specific page from a
       range of pages.
     </text>
-    <text-container></text-container>
   </paragraph>
   <heading level="2">
     Basic pagination
@@ -23642,7 +23638,6 @@ exports[`firefox /components/pickers 1`] = `
       Date pickers and Time pickers provide a simple way to select a single
       value from a pre-determined set.
     </text>
-    <text-container></text-container>
   </paragraph>
   <list>
     <listitem>
@@ -25268,7 +25263,6 @@ exports[`firefox /components/selects/ 1`] = `
       Select components are used for collecting user provided information from a
       list of options.
     </text>
-    <text-container></text-container>
   </paragraph>
   <heading level="2">
     Simple Select
@@ -27668,7 +27662,6 @@ exports[`firefox /components/tabs/ 1`] = `
     <text>
       Tabs make it easy to explore and switch between different views.
     </text>
-    <text-container></text-container>
   </paragraph>
   <paragraph>
     <link>Tabs</link>
@@ -28687,7 +28680,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>Text fields let users enter and edit text.</text>
-    <text-container></text-container>
   </paragraph>
   <paragraph>
     <link>Text fields</link>
@@ -30489,7 +30481,6 @@ exports[`firefox /components/tooltips/ 1`] = `
       Tooltips display informative text when users hover over, focus on, or tap
       an element.
     </text>
-    <text-container></text-container>
   </paragraph>
   <paragraph>
     <text>When activated,</text>
@@ -31121,7 +31112,6 @@ exports[`firefox /components/transfer-list 1`] = `
       A transfer list (or "shuttle") enables the user to move one or
       more list items between lists.
     </text>
-    <text-container></text-container>
   </paragraph>
   <heading level="2">
     Simple Transfer List
@@ -31415,7 +31405,6 @@ exports[`firefox /components/tree-view/ 1`] = `
   </heading>
   <paragraph>
     <text>A tree view widget presents a hierarchical list.</text>
-    <text-container></text-container>
   </paragraph>
   <paragraph>
     <text>
