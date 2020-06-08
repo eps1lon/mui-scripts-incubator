@@ -19871,7 +19871,6 @@ exports[`firefox /components/button-group/ 1`] = `
   </heading>
   <paragraph>
     <text>The ButtonGroup component can be used to group related buttons.</text>
-    <text-container></text-container>
   </paragraph>
   <heading level="2">
     Basic button group
@@ -20977,7 +20976,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <text>
       Checkboxes allow the user to select one or more items from a set.
     </text>
-    <text-container></text-container>
   </paragraph>
   <paragraph>
     <link>Checkboxes</link>
@@ -22068,7 +22066,6 @@ exports[`firefox /components/pagination/ 1`] = `
       The Pagination component enables the user to select a specific page from a
       range of pages.
     </text>
-    <text-container></text-container>
   </paragraph>
   <heading level="2">
     Basic pagination
@@ -23643,6 +23640,7 @@ exports[`firefox /components/pickers 1`] = `
       value from a pre-determined set.
     </text>
     <text-container></text-container>
+    <text-container></text-container>
   </paragraph>
   <list>
     <listitem>
@@ -23941,7 +23939,6 @@ exports[`firefox /components/radio-buttons 1`] = `
   </heading>
   <paragraph>
     <text>Radio buttons allow the user to select one option from a set.</text>
-    <text-container></text-container>
   </paragraph>
   <paragraph>
     <text>Use</text>
@@ -24484,7 +24481,6 @@ exports[`firefox /components/rating/ 1`] = `
       Ratings provide insight regarding others’ opinions and experiences with a
       product. Users can also rate products they’ve purchased.
     </text>
-    <text-container></text-container>
   </paragraph>
   <heading level="2">
     Simple ratings
@@ -26226,7 +26222,6 @@ exports[`firefox /components/slider 1`] = `
   </heading>
   <paragraph>
     <text>Sliders allow users to make selections from a range of values.</text>
-    <text-container></text-container>
   </paragraph>
   <paragraph>
     <link>Sliders</link>
@@ -27112,6 +27107,7 @@ exports[`firefox /components/switches/ 1`] = `
   <paragraph>
     <text>Switches toggle the state of a single setting on or off.</text>
     <text-container></text-container>
+    <text-container></text-container>
   </paragraph>
   <paragraph>
     <link>Switches</link>
@@ -27668,7 +27664,6 @@ exports[`firefox /components/tabs/ 1`] = `
     <text>
       Tabs make it easy to explore and switch between different views.
     </text>
-    <text-container></text-container>
   </paragraph>
   <paragraph>
     <link>Tabs</link>
@@ -31415,6 +31410,7 @@ exports[`firefox /components/tree-view/ 1`] = `
   </heading>
   <paragraph>
     <text>A tree view widget presents a hierarchical list.</text>
+    <text-container></text-container>
     <text-container></text-container>
   </paragraph>
   <paragraph>
