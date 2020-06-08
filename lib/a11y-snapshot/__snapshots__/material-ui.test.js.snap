@@ -18507,7 +18507,6 @@ exports[`firefox /api/select/ 1`] = `
       The API documentation of the Select React component. Learn more about the
       props and the CSS customization points.
     </text>
-    <text-container></text-container>
   </paragraph>
   <heading level="2">
     Import
@@ -19350,7 +19349,6 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <text>
       Breadcrumbs allow users to make selections from a range of values.
     </text>
-    <text-container></text-container>
   </paragraph>
   <heading level="2">
     Simple breadcrumbs
@@ -19871,7 +19869,6 @@ exports[`firefox /components/button-group/ 1`] = `
   </heading>
   <paragraph>
     <text>The ButtonGroup component can be used to group related buttons.</text>
-    <text-container></text-container>
   </paragraph>
   <heading level="2">
     Basic button group
@@ -20213,7 +20210,6 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>
       Buttons allow users to take actions, and make choices, with a single tap.
     </text>
-    <text-container></text-container>
   </paragraph>
   <paragraph>
     <link>Buttons</link>
@@ -21486,6 +21482,7 @@ exports[`firefox /components/dialogs/ 1`] = `
       Dialogs inform users about a task and can contain critical information,
       require decisions, or involve multiple tasks.
     </text>
+    <text-container></text-container>
     <text-container></text-container>
   </paragraph>
   <paragraph>
@@ -23642,7 +23639,6 @@ exports[`firefox /components/pickers 1`] = `
       Date pickers and Time pickers provide a simple way to select a single
       value from a pre-determined set.
     </text>
-    <text-container></text-container>
   </paragraph>
   <list>
     <listitem>
@@ -24484,6 +24480,7 @@ exports[`firefox /components/rating/ 1`] = `
       Ratings provide insight regarding others’ opinions and experiences with a
       product. Users can also rate products they’ve purchased.
     </text>
+    <text-container></text-container>
     <text-container></text-container>
   </paragraph>
   <heading level="2">
@@ -26226,7 +26223,6 @@ exports[`firefox /components/slider 1`] = `
   </heading>
   <paragraph>
     <text>Sliders allow users to make selections from a range of values.</text>
-    <text-container></text-container>
   </paragraph>
   <paragraph>
     <link>Sliders</link>
@@ -27112,6 +27108,7 @@ exports[`firefox /components/switches/ 1`] = `
   <paragraph>
     <text>Switches toggle the state of a single setting on or off.</text>
     <text-container></text-container>
+    <text-container></text-container>
   </paragraph>
   <paragraph>
     <link>Switches</link>
@@ -27668,7 +27665,6 @@ exports[`firefox /components/tabs/ 1`] = `
     <text>
       Tabs make it easy to explore and switch between different views.
     </text>
-    <text-container></text-container>
   </paragraph>
   <paragraph>
     <link>Tabs</link>
@@ -30489,7 +30485,6 @@ exports[`firefox /components/tooltips/ 1`] = `
       Tooltips display informative text when users hover over, focus on, or tap
       an element.
     </text>
-    <text-container></text-container>
   </paragraph>
   <paragraph>
     <text>When activated,</text>
@@ -31415,7 +31410,6 @@ exports[`firefox /components/tree-view/ 1`] = `
   </heading>
   <paragraph>
     <text>A tree view widget presents a hierarchical list.</text>
-    <text-container></text-container>
   </paragraph>
   <paragraph>
     <text>
