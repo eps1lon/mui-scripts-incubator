@@ -25,7 +25,7 @@ exports[`chromium / 1`] = `
     <combobox description="Toggle notifications panel" haspopup="menu">
       Toggle notifications panel
       <SVGRoot></SVGRoot>
-      <text>0</text>
+      <text>2</text>
     </combobox>
     <link description="Edit website colors">
       Edit website colors
