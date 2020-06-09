@@ -11,31 +11,31 @@ yargs
   .command({
     command: "$0 outputPath [repository]",
     describe: "creates JSON file containing all dependend repositories",
-    builder: command => {
+    builder: (command) => {
       return command
         .positional("outputPath", {
           describe: "path to the file that should be written",
-          type: "string"
+          type: "string",
         })
         .positional("repository", {
           describe: "repository to use",
           type: "string",
-          default: "mui-org/material-ui"
+          default: "mui-org/material-ui",
         })
         .option("packageId", {
           // @material-ui/core
           default: "UGFja2FnZS00NTUzMzAxNTM%3D",
           describe:
             "For repositories with multiple packages. Omit for using the default package.",
-          type: "string"
+          type: "string",
         })
         .option("delay", {
           default: 3000,
           describe: "Delay in milliseconds between each request to github.com",
-          type: "number"
+          type: "number",
         });
     },
-    handler: argv => {
+    handler: (argv) => {
       const { delay, outputPath, packageId, repository } = argv;
       const [owner, name] = repository.split("/");
 
@@ -44,9 +44,9 @@ yargs
         name,
         owner,
         packageId,
-        outputPath: path.resolve(outputPath)
+        outputPath: path.resolve(outputPath),
       });
-    }
+    },
   })
   .help()
   .strict(true)
@@ -84,16 +84,14 @@ async function* getResult(url, { delay }) {
         yield { error: "not enough links" };
       } else {
         // $links.map() throws on second pass
-        const [orgName, repoName] = $links.get().map(link => {
+        const [orgName, repoName] = $links.get().map((link) => {
           return $(link).text();
         });
         const [, stars, forks] = $item
           .find("div > span")
           .get()
-          .map(element => {
-            return +$(element)
-              .text()
-              .trim();
+          .map((element) => {
+            return +$(element).text().trim();
           });
 
         yield { orgName, repoName, stars, forks };
@@ -102,11 +100,7 @@ async function* getResult(url, { delay }) {
 
     const paginationLinks = $(".paginate-container a").get();
     const nextLink = paginationLinks.find(
-      link =>
-        $(link)
-          .text()
-          .trim()
-          .toLowerCase() === "next"
+      (link) => $(link).text().trim().toLowerCase() === "next"
     );
     cursor = nextLink === undefined ? null : $(nextLink).attr("href");
 
@@ -117,7 +111,7 @@ async function* getResult(url, { delay }) {
 }
 
 function sleep(timeout) {
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     setTimeout(() => resolve(), timeout);
   });
 }

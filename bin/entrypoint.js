@@ -6,28 +6,28 @@ require("yargs")
   .command({
     command: "lighthouse-audit [pr-number]",
     desc: "audit pages with lighthouse",
-    builder: yargs => {
+    builder: (yargs) => {
       yargs.positional("pr-number", {
         describe: "number of a Pull Request or empty to target master",
-        type: "number"
+        type: "number",
       });
     },
-    handler: argv => {
+    handler: (argv) => {
       lighthouseAudit({ prNumber: +argv["pr-number"] });
-    }
+    },
   })
   .command({
     command: "a11y-snapshot [pr-number]",
     desc: "checks a11y tree snapshots",
-    builder: yargs => {
+    builder: (yargs) => {
       yargs.positional("pr-number", {
         describe: "number of a Pull Request or empty to target master",
         type: "number",
-        default: Number.NaN
+        default: Number.NaN,
       });
     },
-    handler: argv => {
+    handler: (argv) => {
       a11ySnapshot({ prNumber: +argv["pr-number"] });
-    }
+    },
   })
   .help().argv;

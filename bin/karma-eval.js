@@ -5,7 +5,7 @@ const graphql = require("@octokit/graphql");
 main({
   cursor: process.argv[2],
   limit: 100,
-  token: process.env.GITHUB_API_TOKEN
+  token: process.env.GITHUB_API_TOKEN,
 });
 
 /**
@@ -20,10 +20,10 @@ function isCommitOfInterest(commit) {
   }
 
   const testUnitStatus = status.contexts.find(
-    node => node.context === "ci/circleci: test_unit"
+    (node) => node.context === "ci/circleci: test_unit"
   );
   const testBrowserStatus = status.contexts.find(
-    node => node.context === "ci/circleci: test_browser"
+    (node) => node.context === "ci/circleci: test_browser"
   );
 
   return (
@@ -74,26 +74,26 @@ async function main({ token, cursor: initalCursor, limit }) {
       `,
       {
         headers: {
-          authorization: `token ${token}`
+          authorization: `token ${token}`,
         },
         cursor,
-        limit
+        limit,
       }
     );
 
     const {
       repository: {
-        pullRequests: { nodes: pullRequests, pageInfo }
-      }
+        pullRequests: { nodes: pullRequests, pageInfo },
+      },
     } = response;
 
     for (const pullRequest of pullRequests) {
       const {
         commits: { nodes: commits },
-        url
+        url,
       } = pullRequest;
 
-      const isInterestingPR = commits.some(node => {
+      const isInterestingPR = commits.some((node) => {
         return isCommitOfInterest(node.commit);
       });
 
