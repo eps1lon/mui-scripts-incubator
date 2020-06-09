@@ -8472,7 +8472,8 @@ exports[`chromium /components/radio-buttons 1`] = `
     <code>
       <text>
         <formonSubmit={handleSubmit}><FormControlcomponent="fieldset"error={error}className={classes.formControl}><FormLabelcomponent="legend">Pop
-        quiz:Material-UIis...</FormLabel><RadioGrouparia-label="quiz"name="quiz"value={value}onChange={handleRadioChange}><FormControlLabelvalue="best"control={<Radio/>}label="The
+        quiz: Material-UI
+        is...</FormLabel><RadioGrouparia-label="quiz"name="quiz"value={value}onChange={handleRadioChange}><FormControlLabelvalue="best"control={<Radio/>}label="The
         best!"/><FormControlLabelvalue="worst"control={<Radio/>}label="The
         worst."/></RadioGroup><FormHelperText>{helperText}</FormHelperText><Buttontype="submit"variant="outlined"color="primary"className={classes.button}>Check
         Answer</Button></FormControl></form>
