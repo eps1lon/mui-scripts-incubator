@@ -25,7 +25,7 @@ exports[`chromium / 1`] = `
     <combobox description="Toggle notifications panel" haspopup="menu">
       Toggle notifications panel
       <SVGRoot></SVGRoot>
-      <text>0</text>
+      <text>$$NOTIFICATION_COUNT_REMOVED_FOR_STABLE_SNAPSHOT</text>
     </combobox>
     <link description="Edit website colors">
       Edit website colors
@@ -3109,19 +3109,34 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Breadcrumbs /></link>
+      <link>
+        <Breadcrumbs />
+        <code>
+          <text><Breadcrumbs /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Link /></link>
+      <link>
+        <Link />
+        <code>
+          <text><Link /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Typography /></link>
+      <link>
+        <Typography />
+        <code>
+          <text><Typography /></text>
+        </code>
+      </link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -3571,13 +3586,23 @@ exports[`chromium /components/button-group/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Button /></link>
+      <link>
+        <Button />
+        <code>
+          <text><Button /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><ButtonGroup /></link>
+      <link>
+        <ButtonGroup />
+        <code>
+          <text><ButtonGroup /></text>
+        </code>
+      </link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -4568,19 +4593,34 @@ exports[`chromium /components/buttons/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Button /></link>
+      <link>
+        <Button />
+        <code>
+          <text><Button /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><ButtonBase /></link>
+      <link>
+        <ButtonBase />
+        <code>
+          <text><ButtonBase /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><IconButton /></link>
+      <link>
+        <IconButton />
+        <code>
+          <text><IconButton /></text>
+        </code>
+      </link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -5081,31 +5121,56 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Checkbox /></link>
+      <link>
+        <Checkbox />
+        <code>
+          <text><Checkbox /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><FormControl /></link>
+      <link>
+        <FormControl />
+        <code>
+          <text><FormControl /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><FormControlLabel /></link>
+      <link>
+        <FormControlLabel />
+        <code>
+          <text><FormControlLabel /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><FormGroup /></link>
+      <link>
+        <FormGroup />
+        <code>
+          <text><FormGroup /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><FormLabel /></link>
+      <link>
+        <FormLabel />
+        <code>
+          <text><FormLabel /></text>
+        </code>
+      </link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -5915,37 +5980,67 @@ exports[`chromium /components/dialogs/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Dialog /></link>
+      <link>
+        <Dialog />
+        <code>
+          <text><Dialog /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><DialogActions /></link>
+      <link>
+        <DialogActions />
+        <code>
+          <text><DialogActions /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><DialogContent /></link>
+      <link>
+        <DialogContent />
+        <code>
+          <text><DialogContent /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><DialogContentText /></link>
+      <link>
+        <DialogContentText />
+        <code>
+          <text><DialogContentText /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><DialogTitle /></link>
+      <link>
+        <DialogTitle />
+        <code>
+          <text><DialogTitle /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Slide /></link>
+      <link>
+        <Slide />
+        <code>
+          <text><Slide /></text>
+        </code>
+      </link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -7683,13 +7778,23 @@ exports[`chromium /components/pagination/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Pagination /></link>
+      <link>
+        <Pagination />
+        <code>
+          <text><Pagination /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><PaginationItem /></link>
+      <link>
+        <PaginationItem />
+        <code>
+          <text><PaginationItem /></text>
+        </code>
+      </link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -8101,7 +8206,12 @@ exports[`chromium /components/pickers 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><TextField /></link>
+      <link>
+        <TextField />
+        <code>
+          <text><TextField /></text>
+        </code>
+      </link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -8642,31 +8752,56 @@ exports[`chromium /components/radio-buttons 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><FormControl /></link>
+      <link>
+        <FormControl />
+        <code>
+          <text><FormControl /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><FormControlLabel /></link>
+      <link>
+        <FormControlLabel />
+        <code>
+          <text><FormControlLabel /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><FormLabel /></link>
+      <link>
+        <FormLabel />
+        <code>
+          <text><FormLabel /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Radio /></link>
+      <link>
+        <Radio />
+        <code>
+          <text><Radio /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><RadioGroup /></link>
+      <link>
+        <RadioGroup />
+        <code>
+          <text><RadioGroup /></text>
+        </code>
+      </link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -9377,7 +9512,12 @@ exports[`chromium /components/rating/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Rating /></link>
+      <link>
+        <Rating />
+        <code>
+          <text><Rating /></text>
+        </code>
+      </link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -10343,13 +10483,23 @@ exports[`chromium /components/selects/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><NativeSelect /></link>
+      <link>
+        <NativeSelect />
+        <code>
+          <text><NativeSelect /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Select /></link>
+      <link>
+        <Select />
+        <code>
+          <text><Select /></text>
+        </code>
+      </link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -11477,7 +11627,12 @@ exports[`chromium /components/slider 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Slider /></link>
+      <link>
+        <Slider />
+        <code>
+          <text><Slider /></text>
+        </code>
+      </link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -11991,31 +12146,56 @@ exports[`chromium /components/switches/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><FormControl /></link>
+      <link>
+        <FormControl />
+        <code>
+          <text><FormControl /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><FormControlLabel /></link>
+      <link>
+        <FormControlLabel />
+        <code>
+          <text><FormControlLabel /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><FormGroup /></link>
+      <link>
+        <FormGroup />
+        <code>
+          <text><FormGroup /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><FormLabel /></link>
+      <link>
+        <FormLabel />
+        <code>
+          <text><FormLabel /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Switch /></link>
+      <link>
+        <Switch />
+        <code>
+          <text><Switch /></text>
+        </code>
+      </link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -13378,37 +13558,67 @@ exports[`chromium /components/tabs/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Tab /></link>
+      <link>
+        <Tab />
+        <code>
+          <text><Tab /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><TabContext /></link>
+      <link>
+        <TabContext />
+        <code>
+          <text><TabContext /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><TabList /></link>
+      <link>
+        <TabList />
+        <code>
+          <text><TabList /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><TabPanel /></link>
+      <link>
+        <TabPanel />
+        <code>
+          <text><TabPanel /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><TabScrollButton /></link>
+      <link>
+        <TabScrollButton />
+        <code>
+          <text><TabScrollButton /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Tabs /></link>
+      <link>
+        <Tabs />
+        <code>
+          <text><Tabs /></text>
+        </code>
+      </link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -15625,55 +15835,100 @@ exports[`chromium /components/text-fields/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><FilledInput /></link>
+      <link>
+        <FilledInput />
+        <code>
+          <text><FilledInput /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><FormControl /></link>
+      <link>
+        <FormControl />
+        <code>
+          <text><FormControl /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><FormHelperText /></link>
+      <link>
+        <FormHelperText />
+        <code>
+          <text><FormHelperText /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Input /></link>
+      <link>
+        <Input />
+        <code>
+          <text><Input /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><InputAdornment /></link>
+      <link>
+        <InputAdornment />
+        <code>
+          <text><InputAdornment /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><InputBase /></link>
+      <link>
+        <InputBase />
+        <code>
+          <text><InputBase /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><InputLabel /></link>
+      <link>
+        <InputLabel />
+        <code>
+          <text><InputLabel /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><OutlinedInput /></link>
+      <link>
+        <OutlinedInput />
+        <code>
+          <text><OutlinedInput /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><TextField /></link>
+      <link>
+        <TextField />
+        <code>
+          <text><TextField /></text>
+        </code>
+      </link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -16536,7 +16791,12 @@ exports[`chromium /components/tooltips/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Tooltip /></link>
+      <link>
+        <Tooltip />
+        <code>
+          <text><Tooltip /></text>
+        </code>
+      </link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -16799,25 +17059,45 @@ exports[`chromium /components/transfer-list 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Checkbox /></link>
+      <link>
+        <Checkbox />
+        <code>
+          <text><Checkbox /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><List /></link>
+      <link>
+        <List />
+        <code>
+          <text><List /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><ListItem /></link>
+      <link>
+        <ListItem />
+        <code>
+          <text><ListItem /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><Switch /></link>
+      <link>
+        <Switch />
+        <code>
+          <text><Switch /></text>
+        </code>
+      </link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -17306,13 +17586,23 @@ exports[`chromium /components/tree-view/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><TreeItem /></link>
+      <link>
+        <TreeItem />
+        <code>
+          <text><TreeItem /></text>
+        </code>
+      </link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link><TreeView /></link>
+      <link>
+        <TreeView />
+        <code>
+          <text><TreeView /></text>
+        </code>
+      </link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -17347,7 +17637,7 @@ exports[`firefox / 1`] = `
     </buttonmenu>
     <buttonmenu haspopup="true">
       Toggle notifications panel
-      <text>0</text>
+      <text>$$NOTIFICATION_COUNT_REMOVED_FOR_STABLE_SNAPSHOT</text>
     </buttonmenu>
     <link>Edit website colors</link>
     <link>GitHub repository</link>
