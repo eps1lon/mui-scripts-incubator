@@ -1,0 +1,4 @@
+*.tgz
+*.json
+!*.analysis.json
+!*.used-by.json
