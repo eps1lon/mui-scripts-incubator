@@ -280,14 +280,14 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v4.10.2. View versions page.</link>
+      <link>v4.9.13. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v4.10.2</link>
+  <link>v4.9.13</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -332,7 +332,7 @@ exports[`chromium / 1`] = `
     </listitem>
     <listitem level="1">
       <link>
-        <text>Premium themes</text>
+        <text>Store</text>
       </link>
     </listitem>
     <listitem level="1">
@@ -432,8 +432,8 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
-        children
-        <text>children</text>
+        children *
+        <text>children *</text>
       </gridcell>
       <gridcell>
         node
@@ -572,12 +572,17 @@ exports[`chromium /api/button/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        If true, the keyboard focus ripple will be disabled.
+        If true, the keyboard focus ripple will be disabled. disableRipple must
+        also be true.
         <text>If</text>
         <code>
           <text>true</text>
         </code>
         <text>, the keyboard focus ripple will be disabled.</text>
+        <code>
+          <text>disableRipple</text>
+        </code>
+        <text>must also be true.</text>
       </gridcell>
     </row>
     <row>
@@ -675,12 +680,12 @@ exports[`chromium /api/button/ 1`] = `
         <text>size</text>
       </gridcell>
       <gridcell>
-        'large' | 'medium' | 'small'
-        <text>'large'</text>
+        'small' | 'medium' | 'large'
+        <text>'small'</text>
         <LineBreak></LineBreak>
         <text>| 'medium'</text>
         <LineBreak></LineBreak>
-        <text>| 'small'</text>
+        <text>| 'large'</text>
       </gridcell>
       <gridcell>
         'medium'
@@ -716,12 +721,12 @@ exports[`chromium /api/button/ 1`] = `
         <text>variant</text>
       </gridcell>
       <gridcell>
-        'contained' | 'outlined' | 'text'
-        <text>'contained'</text>
+        'text' | 'outlined' | 'contained'
+        <text>'text'</text>
         <LineBreak></LineBreak>
         <text>| 'outlined'</text>
         <LineBreak></LineBreak>
-        <text>| 'text'</text>
+        <text>| 'contained'</text>
       </gridcell>
       <gridcell>
         'text'
@@ -2348,20 +2353,6 @@ exports[`chromium /api/select/ 1`] = `
         <text>.</text>
       </gridcell>
     </row>
-    <row>
-      <gridcell>
-        nativeInput
-        <text>nativeInput</text>
-      </gridcell>
-      <gridcell>
-        .MuiSelect-nativeInput
-        <text>.MuiSelect-nativeInput</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the underlying native input component.
-        <text>Styles applied to the underlying native input component.</text>
-      </gridcell>
-    </row>
   </table>
   <paragraph>
     <text>
@@ -3109,34 +3100,19 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Breadcrumbs />
-        <code>
-          <text><Breadcrumbs /></text>
-        </code>
-      </link>
+      <link><Breadcrumbs /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Link />
-        <code>
-          <text><Link /></text>
-        </code>
-      </link>
+      <link><Link /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Typography />
-        <code>
-          <text><Typography /></text>
-        </code>
-      </link>
+      <link><Typography /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -3586,23 +3562,13 @@ exports[`chromium /components/button-group/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Button />
-        <code>
-          <text><Button /></text>
-        </code>
-      </link>
+      <link><Button /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <ButtonGroup />
-        <code>
-          <text><ButtonGroup /></text>
-        </code>
-      </link>
+      <link><ButtonGroup /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -3978,34 +3944,6 @@ exports[`chromium /components/buttons/ 1`] = `
     </code>
   </Pre>
   <heading level="2">
-    Handling clicks
-    <Anchor></Anchor>
-    <text>Handling clicks</text>
-  </heading>
-  <paragraph>
-    <text>All components accept an</text>
-    <code>
-      <text>onClick</text>
-    </code>
-    <text>handler that is applied to the root DOM element.</text>
-  </paragraph>
-  <Pre>
-    <code>
-      <text>
-        <ButtononClick={()=>{alert('clicked')}}>Click
-        me</Button>
-      </text>
-    </code>
-  </Pre>
-  <paragraph>
-    <text>Note that the documentation</text>
-    <link>avoids</link>
-    <text>
-      mentioning native props (there are a lot) in the API section of the
-      components.
-    </text>
-  </paragraph>
-  <heading level="2">
     Upload button
     <Anchor></Anchor>
     <text>Upload button</text>
@@ -4371,7 +4309,7 @@ exports[`chromium /components/buttons/ 1`] = `
     </combobox>
   </toolbar>
   <paragraph>
-    <text>🎨 If you are looking for inspiration, you can check</text>
+    <text>👑 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
@@ -4593,34 +4531,19 @@ exports[`chromium /components/buttons/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Button />
-        <code>
-          <text><Button /></text>
-        </code>
-      </link>
+      <link><Button /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <ButtonBase />
-        <code>
-          <text><ButtonBase /></text>
-        </code>
-      </link>
+      <link><ButtonBase /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <IconButton />
-        <code>
-          <text><IconButton /></text>
-        </code>
-      </link>
+      <link><IconButton /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -5026,11 +4949,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
-  <paragraph>
-    <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>MUI Treasury's customization examples</link>
-    <text>.</text>
-  </paragraph>
   <heading level="2">
     When to use
     <Anchor></Anchor>
@@ -5121,56 +5039,31 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Checkbox />
-        <code>
-          <text><Checkbox /></text>
-        </code>
-      </link>
+      <link><Checkbox /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControl />
-        <code>
-          <text><FormControl /></text>
-        </code>
-      </link>
+      <link><FormControl /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControlLabel />
-        <code>
-          <text><FormControlLabel /></text>
-        </code>
-      </link>
+      <link><FormControlLabel /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormGroup />
-        <code>
-          <text><FormGroup /></text>
-        </code>
-      </link>
+      <link><FormGroup /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormLabel />
-        <code>
-          <text><FormLabel /></text>
-        </code>
-      </link>
+      <link><FormLabel /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -5980,67 +5873,37 @@ exports[`chromium /components/dialogs/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Dialog />
-        <code>
-          <text><Dialog /></text>
-        </code>
-      </link>
+      <link><Dialog /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <DialogActions />
-        <code>
-          <text><DialogActions /></text>
-        </code>
-      </link>
+      <link><DialogActions /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <DialogContent />
-        <code>
-          <text><DialogContent /></text>
-        </code>
-      </link>
+      <link><DialogContent /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <DialogContentText />
-        <code>
-          <text><DialogContentText /></text>
-        </code>
-      </link>
+      <link><DialogContentText /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <DialogTitle />
-        <code>
-          <text><DialogTitle /></text>
-        </code>
-      </link>
+      <link><DialogTitle /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Slide />
-        <code>
-          <text><Slide /></text>
-        </code>
-      </link>
+      <link><Slide /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -7647,95 +7510,6 @@ exports[`chromium /components/pagination/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
-    Table pagination
-    <Anchor></Anchor>
-    <text>Table pagination</text>
-  </heading>
-  <paragraph>
-    <text>The</text>
-    <code>
-      <text>Pagination</text>
-    </code>
-    <text>
-      component was designed to paginate a list of arbitrary items when infinite
-      loading isn't used. It's preferred in contexts where SEO is
-      important, for instance, a blog.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      For the pagination of a large set of tabular data, you should use the
-    </text>
-    <code>
-      <text>TablePagination</text>
-    </code>
-    <text>component.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <paragraph>
-    <text>Rows per page:</text>
-  </paragraph>
-  <combobox haspopup="listbox">Rows per page: 10</combobox>
-  <textbox value="10"></textbox>
-  <SVGRoot></SVGRoot>
-  <paragraph>
-    <text>21-30 of 100</text>
-  </paragraph>
-  <button description="Previous page">
-    Previous page
-    <SVGRoot></SVGRoot>
-  </button>
-  <button description="Next page">
-    Next page
-    <SVGRoot></SVGRoot>
-  </button>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the full source">
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <Pre>
-    <code>
-      <text>
-        <TablePaginationcomponent="div"count={100}page={page}onChangePage={handleChangePage}rowsPerPage={rowsPerPage}onChangeRowsPerPage={handleChangeRowsPerPage}/>
-      </text>
-    </code>
-  </Pre>
-  <paragraph>
-    <text>You can learn more about this use case in the</text>
-    <link>table section</link>
-    <text>of the documentation.</text>
-  </paragraph>
-  <heading level="2">
     Accessibility
     <Anchor></Anchor>
     <text>Accessibility</text>
@@ -7778,23 +7552,13 @@ exports[`chromium /components/pagination/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Pagination />
-        <code>
-          <text><Pagination /></text>
-        </code>
-      </link>
+      <link><Pagination /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <PaginationItem />
-        <code>
-          <text><PaginationItem /></text>
-        </code>
-      </link>
+      <link><PaginationItem /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -8206,12 +7970,7 @@ exports[`chromium /components/pickers 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <TextField />
-        <code>
-          <text><TextField /></text>
-        </code>
-      </link>
+      <link><TextField /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -8351,17 +8110,6 @@ exports[`chromium /components/radio-buttons 1`] = `
       </text>
     </code>
   </Pre>
-  <paragraph>
-    <text>To lay out the buttons horizontally, set the</text>
-    <code>
-      <text>row</text>
-    </code>
-    <text>prop:</text>
-    <code>
-      <text><RadioGroup row /></text>
-    </code>
-    <text>.</text>
-  </paragraph>
   <heading level="2">
     Standalone radio buttons
     <Anchor></Anchor>
@@ -8752,56 +8500,31 @@ exports[`chromium /components/radio-buttons 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControl />
-        <code>
-          <text><FormControl /></text>
-        </code>
-      </link>
+      <link><FormControl /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControlLabel />
-        <code>
-          <text><FormControlLabel /></text>
-        </code>
-      </link>
+      <link><FormControlLabel /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormLabel />
-        <code>
-          <text><FormLabel /></text>
-        </code>
-      </link>
+      <link><FormLabel /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Radio />
-        <code>
-          <text><Radio /></text>
-        </code>
-      </link>
+      <link><Radio /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <RadioGroup />
-        <code>
-          <text><RadioGroup /></text>
-        </code>
-      </link>
+      <link><RadioGroup /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -9512,12 +9235,7 @@ exports[`chromium /components/rating/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Rating />
-        <code>
-          <text><Rating /></text>
-        </code>
-      </link>
+      <link><Rating /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -9576,7 +9294,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <Label>
     <text>Age</text>
@@ -9585,7 +9302,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Some important helper text</text>
@@ -9595,7 +9311,6 @@ exports[`chromium /components/selects/ 1`] = `
     Without label
     <text>None</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Without label</text>
@@ -9608,7 +9323,6 @@ exports[`chromium /components/selects/ 1`] = `
     Age None
     <text>None</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Label + placeholder</text>
@@ -9620,7 +9334,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox disabled="true" haspopup="listbox">
     Name ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Disabled</text>
@@ -9632,7 +9345,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Name ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Error</text>
@@ -9644,7 +9356,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Name ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Read only</text>
@@ -9656,14 +9367,12 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Auto width</text>
   </paragraph>
   <text> </text>
   <combobox haspopup="listbox">Without label</combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Placeholder</text>
@@ -9675,7 +9384,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox required="true" invalid="true"></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Required</text>
@@ -9686,7 +9394,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <group>
     <Legend>
@@ -9700,7 +9407,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <toolbar>
     demo source
@@ -10045,7 +9751,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <Label>
     <text>Age</text>
@@ -10091,11 +9796,6 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
-  <paragraph>
-    <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>MUI Treasury's customization examples</link>
-    <text>.</text>
-  </paragraph>
   <heading level="2">
     Multiple Select
     <Anchor></Anchor>
@@ -10139,7 +9839,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Name ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <Label>
     <text>Tag</text>
@@ -10148,7 +9847,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Tag ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <Label>
     <text>Chip</text>
@@ -10157,14 +9855,12 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Chip ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <text> </text>
   <combobox haspopup="listbox">
     Without label
     <text>Placeholder</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <Label>
     <text>Native</text>
@@ -10234,7 +9930,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <toolbar>
     demo source
@@ -10359,7 +10054,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <toolbar>
     demo source
@@ -10483,23 +10177,13 @@ exports[`chromium /components/selects/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <NativeSelect />
-        <code>
-          <text><NativeSelect /></text>
-        </code>
-      </link>
+      <link><NativeSelect /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Select />
-        <code>
-          <text><Select /></text>
-        </code>
-      </link>
+      <link><Select /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -11627,12 +11311,7 @@ exports[`chromium /components/slider 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Slider />
-        <code>
-          <text><Slider /></text>
-        </code>
-      </link>
+      <link><Slider /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -11921,11 +11600,6 @@ exports[`chromium /components/switches/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
-  <paragraph>
-    <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>MUI Treasury's customization examples</link>
-    <text>.</text>
-  </paragraph>
   <heading level="2">
     Sizes
     <Anchor></Anchor>
@@ -12146,56 +11820,31 @@ exports[`chromium /components/switches/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControl />
-        <code>
-          <text><FormControl /></text>
-        </code>
-      </link>
+      <link><FormControl /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControlLabel />
-        <code>
-          <text><FormControlLabel /></text>
-        </code>
-      </link>
+      <link><FormControlLabel /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormGroup />
-        <code>
-          <text><FormGroup /></text>
-        </code>
-      </link>
+      <link><FormGroup /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormLabel />
-        <code>
-          <text><FormLabel /></text>
-        </code>
-      </link>
+      <link><FormLabel /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Switch />
-        <code>
-          <text><Switch /></text>
-        </code>
-      </link>
+      <link><Switch /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -12252,7 +11901,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </button>
   <HeaderAsNonLandmark>
     <tablist level="1">
-      simple tabs example
       <tab selected="true">
         ITEM ONE
         <text>ITEM ONE</text>
@@ -12335,7 +11983,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </button>
   <HeaderAsNonLandmark>
     <tablist level="1">
-      wrapped label tabs example
       <tab selected="true">
         NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION
         <text>NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION</text>
@@ -12404,7 +12051,6 @@ exports[`chromium /components/tabs/ 1`] = `
     navigation of our components.
   </button>
   <tablist level="1">
-    disabled tabs example
     <tab>
       ACTIVE
       <text>ACTIVE</text>
@@ -12492,7 +12138,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </button>
   <HeaderAsNonLandmark>
     <tablist level="1">
-      full width tabs example
       <tab selected="true">
         ITEM ONE
         <text>ITEM ONE</text>
@@ -12638,7 +12283,6 @@ exports[`chromium /components/tabs/ 1`] = `
   <HeaderAsNonLandmark>
     <SVGRoot></SVGRoot>
     <tablist level="1">
-      scrollable auto tabs example
       <tab selected="true">
         ITEM ONE
         <text>ITEM ONE</text>
@@ -12725,7 +12369,6 @@ exports[`chromium /components/tabs/ 1`] = `
   <HeaderAsNonLandmark>
     <SVGRoot></SVGRoot>
     <tablist level="1">
-      scrollable force tabs example
       <tab selected="true">
         ITEM ONE
         <SVGRoot></SVGRoot>
@@ -12819,7 +12462,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </button>
   <HeaderAsNonLandmark>
     <tablist level="1">
-      scrollable prevent tabs example
       <tab selected="true">
         phone
         <SVGRoot></SVGRoot>
@@ -12905,7 +12547,6 @@ exports[`chromium /components/tabs/ 1`] = `
     navigation of our components.
   </button>
   <tablist level="1">
-    ant example
     <tab selected="true">
       Tab 1<text>Tab 1</text>
     </tab>
@@ -12918,7 +12559,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </tablist>
   <paragraph></paragraph>
   <tablist level="1">
-    styled tabs example
     <tab selected="true">
       Workflows
       <text>Workflows</text>
@@ -12978,7 +12618,7 @@ exports[`chromium /components/tabs/ 1`] = `
     </code>
   </Pre>
   <paragraph>
-    <text>🎨 If you are looking for inspiration, you can check</text>
+    <text>👑 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
@@ -12993,7 +12633,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </button>
   <SVGRoot></SVGRoot>
   <tablist level="1">
-    Vertical tabs example
     <tab selected="true">
       ITEM ONE
       <text>ITEM ONE</text>
@@ -13082,7 +12721,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </button>
   <HeaderAsNonLandmark>
     <tablist level="1">
-      nav tabs example
       <tab selected="true">
         PAGE ONE
         <text>PAGE ONE</text>
@@ -13147,7 +12785,6 @@ exports[`chromium /components/tabs/ 1`] = `
     navigation of our components.
   </button>
   <tablist level="1">
-    icon tabs example
     <tab selected="true">
       phone
       <SVGRoot></SVGRoot>
@@ -13206,7 +12843,6 @@ exports[`chromium /components/tabs/ 1`] = `
     navigation of our components.
   </button>
   <tablist level="1">
-    icon label tabs example
     <tab selected="true">
       RECENTS
       <SVGRoot></SVGRoot>
@@ -13264,291 +12900,6 @@ exports[`chromium /components/tabs/ 1`] = `
     </code>
   </Pre>
   <heading level="2">
-    Accessibility
-    <Anchor></Anchor>
-    <text>Accessibility</text>
-  </heading>
-  <paragraph>
-    <text>(WAI-ARIA:</text>
-    <link>https://www.w3.org/TR/wai-aria-practices/#tabpanel</link>
-    <text>)</text>
-  </paragraph>
-  <paragraph>
-    <text>
-      The following steps are needed in order to provide necessary information
-      for assistive technologies:
-    </text>
-  </paragraph>
-  <list>
-    <listitem level="1">
-      <ListMarker>
-        1.
-        <text>1.</text>
-      </ListMarker>
-      <text>Label</text>
-      <code>
-        <text>Tabs</text>
-      </code>
-      <text>via</text>
-      <code>
-        <text>aria-label</text>
-      </code>
-      <text>or</text>
-      <code>
-        <text>aria-labelledby</text>
-      </code>
-      <text>.</text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        2.
-        <text>2.</text>
-      </ListMarker>
-      <code>
-        <text>Tab</text>
-      </code>
-      <text>s need to be connected to their corresponding</text>
-      <code>
-        <text>[role="tabpanel"]</text>
-      </code>
-      <text>by setting the correct</text>
-      <code>
-        <text>id</text>
-      </code>
-      <text>,</text>
-      <code>
-        <text>aria-controls</text>
-      </code>
-      <text>and</text>
-      <code>
-        <text>aria-labelledby</text>
-      </code>
-      <text>.</text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>
-      An example for the current implementation can be found in the demos on
-      this page. We've also published
-    </text>
-    <link>an experimental API</link>
-    <text>in</text>
-    <code>
-      <text>@material-ui/lab</text>
-    </code>
-    <text>that does not require extra work.</text>
-  </paragraph>
-  <heading level="3">
-    Keyboard navigation
-    <Anchor></Anchor>
-    <text>Keyboard navigation</text>
-  </heading>
-  <paragraph>
-    <text>
-      The components implement keyboard navigation using the "manual
-      activation" behavior. If you want to switch to the "selection
-      automatically follows focus" behavior you have pass
-    </text>
-    <code>
-      <text>selectionFollowsFocus</text>
-    </code>
-    <text>to the</text>
-    <code>
-      <text>Tabs</text>
-    </code>
-    <text>
-      component. The WAI-ARIA authoring practices have a detailed guide on
-    </text>
-    <link>how to decide when to make selection automatically follow focus</link>
-    <text>.</text>
-  </paragraph>
-  <heading level="4">
-    Demo
-    <text>Demo</text>
-  </heading>
-  <paragraph>
-    <text>
-      The following two demos only differ in their keyboard navigation behavior.
-      Focus a tab and navigate with arrow keys to notice the difference.
-    </text>
-  </paragraph>
-  <Pre>
-    <code>
-      <text>
-        /* Tabs where selection follows focus
-        */<TabsselectionFollowsFocus/>/* Tabs where each tab needs to be
-        selected manually */<Tabs/>
-      </text>
-    </code>
-  </Pre>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <paragraph>
-    <text>Tabs where selection follows focus</text>
-  </paragraph>
-  <HeaderAsNonLandmark>
-    <tablist level="1">
-      Tabs where selection follows focus
-      <tab selected="true">
-        ITEM ONE
-        <text>ITEM ONE</text>
-      </tab>
-      <tab>
-        ITEM TWO
-        <text>ITEM TWO</text>
-      </tab>
-      <tab>
-        ITEM THREE
-        <text>ITEM THREE</text>
-      </tab>
-    </tablist>
-  </HeaderAsNonLandmark>
-  <paragraph>
-    <text>Tabs where each tab needs to be selected manually</text>
-  </paragraph>
-  <HeaderAsNonLandmark>
-    <tablist level="1">
-      Tabs where each tab needs to be selected manually
-      <tab selected="true">
-        ITEM ONE
-        <text>ITEM ONE</text>
-      </tab>
-      <tab>
-        ITEM TWO
-        <text>ITEM TWO</text>
-      </tab>
-      <tab>
-        ITEM THREE
-        <text>ITEM THREE</text>
-      </tab>
-    </tablist>
-  </HeaderAsNonLandmark>
-  <tabpanel>
-    ITEM ONE
-    <paragraph>
-      <text>Item One</text>
-    </paragraph>
-  </tabpanel>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the source">
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <heading level="2">
-    Experimental API
-    <Anchor></Anchor>
-    <text>Experimental API</text>
-  </heading>
-  <paragraph>
-    <code>
-      <text>@material-ui/lab</text>
-    </code>
-    <text>
-      offers utility components that inject props to implement accessible tabs
-      following
-    </text>
-    <link>WAI-ARIA authoring practices</link>
-    <text>.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <HeaderAsNonLandmark>
-    <tablist level="1">
-      simple tabs example
-      <tab selected="true">
-        ITEM ONE
-        <text>ITEM ONE</text>
-      </tab>
-      <tab>
-        ITEM TWO
-        <text>ITEM TWO</text>
-      </tab>
-      <tab>
-        ITEM THREE
-        <text>ITEM THREE</text>
-      </tab>
-    </tablist>
-  </HeaderAsNonLandmark>
-  <tabpanel>
-    ITEM ONE
-    <text>Item One</text>
-  </tabpanel>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the full source">
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <Pre>
-    <code>
-      <text>
-        <TabContextvalue={value}><AppBarposition="static"><TabListonChange={handleChange}aria-label="simple
-        tabs example"><Tablabel="Item
-        One"value="1"/><Tablabel="Item
-        Two"value="2"/><Tablabel="Item
-        Three"value="3"/></TabList></AppBar><TabPanelvalue="1">Item
-        One</TabPanel><TabPanelvalue="2">Item
-        Two</TabPanel><TabPanelvalue="3">Item
-        Three</TabPanel></TabContext>
-      </text>
-    </code>
-  </Pre>
-  <heading level="2">
     API
     <Anchor></Anchor>
     <text>API</text>
@@ -13558,67 +12909,19 @@ exports[`chromium /components/tabs/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Tab />
-        <code>
-          <text><Tab /></text>
-        </code>
-      </link>
+      <link><Tab /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <TabContext />
-        <code>
-          <text><TabContext /></text>
-        </code>
-      </link>
+      <link><TabScrollButton /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <TabList />
-        <code>
-          <text><TabList /></text>
-        </code>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <link>
-        <TabPanel />
-        <code>
-          <text><TabPanel /></text>
-        </code>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <link>
-        <TabScrollButton />
-        <code>
-          <text><TabScrollButton /></text>
-        </code>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <link>
-        <Tabs />
-        <code>
-          <text><Tabs /></text>
-        </code>
-      </link>
+      <link><Tabs /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -14280,7 +13583,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     </Label>
     <text> </text>
     <combobox haspopup="listbox">Select €</combobox>
-    <textbox value="EUR" description="Please select your currency"></textbox>
     <SVGRoot></SVGRoot>
     <paragraph>
       <text>Please select your currency</text>
@@ -14307,7 +13609,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     </Label>
     <text> </text>
     <combobox haspopup="listbox">Select €</combobox>
-    <textbox value="EUR" description="Please select your currency"></textbox>
     <SVGRoot></SVGRoot>
     <paragraph>
       <text>Please select your currency</text>
@@ -14333,7 +13634,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Select</text>
     </Label>
     <combobox haspopup="listbox">Select €</combobox>
-    <textbox value="EUR" description="Please select your currency"></textbox>
     <SVGRoot></SVGRoot>
     <group>
       <Legend>
@@ -15567,7 +14867,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     </combobox>
   </toolbar>
   <paragraph>
-    <text>🎨 If you are looking for inspiration, you can check</text>
+    <text>👑 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
@@ -15835,100 +15135,55 @@ exports[`chromium /components/text-fields/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FilledInput />
-        <code>
-          <text><FilledInput /></text>
-        </code>
-      </link>
+      <link><FilledInput /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControl />
-        <code>
-          <text><FormControl /></text>
-        </code>
-      </link>
+      <link><FormControl /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormHelperText />
-        <code>
-          <text><FormHelperText /></text>
-        </code>
-      </link>
+      <link><FormHelperText /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Input />
-        <code>
-          <text><Input /></text>
-        </code>
-      </link>
+      <link><Input /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <InputAdornment />
-        <code>
-          <text><InputAdornment /></text>
-        </code>
-      </link>
+      <link><InputAdornment /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <InputBase />
-        <code>
-          <text><InputBase /></text>
-        </code>
-      </link>
+      <link><InputBase /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <InputLabel />
-        <code>
-          <text><InputLabel /></text>
-        </code>
-      </link>
+      <link><InputLabel /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <OutlinedInput />
-        <code>
-          <text><OutlinedInput /></text>
-        </code>
-      </link>
+      <link><OutlinedInput /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <TextField />
-        <code>
-          <text><TextField /></text>
-        </code>
-      </link>
+      <link><TextField /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -16791,12 +16046,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Tooltip />
-        <code>
-          <text><Tooltip /></text>
-        </code>
-      </link>
+      <link><Tooltip /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -17059,45 +16309,25 @@ exports[`chromium /components/transfer-list 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Checkbox />
-        <code>
-          <text><Checkbox /></text>
-        </code>
-      </link>
+      <link><Checkbox /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <List />
-        <code>
-          <text><List /></text>
-        </code>
-      </link>
+      <link><List /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <ListItem />
-        <code>
-          <text><ListItem /></text>
-        </code>
-      </link>
+      <link><ListItem /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Switch />
-        <code>
-          <text><Switch /></text>
-        </code>
-      </link>
+      <link><Switch /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -17586,23 +16816,13 @@ exports[`chromium /components/tree-view/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <TreeItem />
-        <code>
-          <text><TreeItem /></text>
-        </code>
-      </link>
+      <link><TreeItem /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <TreeView />
-        <code>
-          <text><TreeView /></text>
-        </code>
-      </link>
+      <link><TreeView /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -17874,7 +17094,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v4.10.2. View versions page.</link>
+      <link>v4.9.13. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
@@ -17946,7 +17166,7 @@ exports[`firefox /api/button/ 1`] = `
     </row>
     <row>
       <cell>
-        <text>children</text>
+        <text>children *</text>
       </cell>
       <cell>
         <text>node</text>
@@ -18049,7 +17269,10 @@ exports[`firefox /api/button/ 1`] = `
         <text>false</text>
       </cell>
       <cell>
-        <text>If true, the keyboard focus ripple will be disabled.</text>
+        <text>
+          If true, the keyboard focus ripple will be disabled. disableRipple
+          must also be true.
+        </text>
       </cell>
     </row>
     <row>
@@ -18118,11 +17341,11 @@ exports[`firefox /api/button/ 1`] = `
         <text>size</text>
       </cell>
       <cell>
-        <text>'large'</text>
+        <text>'small'</text>
         <whitespace></whitespace>
         <text>| 'medium'</text>
         <whitespace></whitespace>
-        <text>| 'small'</text>
+        <text>| 'large'</text>
       </cell>
       <cell>
         <text>'medium'</text>
@@ -18151,11 +17374,11 @@ exports[`firefox /api/button/ 1`] = `
         <text>variant</text>
       </cell>
       <cell>
-        <text>'contained'</text>
+        <text>'text'</text>
         <whitespace></whitespace>
         <text>| 'outlined'</text>
         <whitespace></whitespace>
-        <text>| 'text'</text>
+        <text>| 'contained'</text>
       </cell>
       <cell>
         <text>'text'</text>
@@ -19250,17 +18473,6 @@ exports[`firefox /api/select/ 1`] = `
         <text>
           Styles applied to the icon component if variant="outlined".
         </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>nativeInput</text>
-      </cell>
-      <cell>
-        <text>.MuiSelect-nativeInput</text>
-      </cell>
-      <cell>
-        <text>Styles applied to the underlying native input component.</text>
       </cell>
     </row>
   </table>
@@ -20375,29 +19587,6 @@ exports[`firefox /components/buttons/ 1`] = `
     href="#outlined-buttons"> Link </Button>
   </text>
   <heading level="2">
-    Handling clicks
-    <link></link>
-    <text>Handling clicks</text>
-  </heading>
-  <paragraph>
-    <text>
-      All components accept an onClick handler that is applied to the root DOM
-      element.
-    </text>
-  </paragraph>
-  <text>
-    <Button onClick={() => { alert('clicked')
-    }}>Click me</Button>
-  </text>
-  <paragraph>
-    <text>Note that the documentation</text>
-    <link>avoids</link>
-    <text>
-      mentioning native props (there are a lot) in the API section of the
-      components.
-    </text>
-  </paragraph>
-  <heading level="2">
     Upload button
     <link></link>
     <text>Upload button</text>
@@ -20617,7 +19806,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <paragraph>
-    <text>🎨 If you are looking for inspiration, you can check</text>
+    <text>👑 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
@@ -21067,11 +20256,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <paragraph>
-    <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>MUI Treasury's customization examples</link>
-    <text>.</text>
-  </paragraph>
   <heading level="2">
     When to use
     <link></link>
@@ -23121,60 +22305,6 @@ exports[`firefox /components/pagination/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Table pagination
-    <link></link>
-    <text>Table pagination</text>
-  </heading>
-  <paragraph>
-    <text>
-      The Pagination component was designed to paginate a list of arbitrary
-      items when infinite loading isn't used. It's preferred in
-      contexts where SEO is important, for instance, a blog.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      For the pagination of a large set of tabular data, you should use the
-      TablePagination component.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <paragraph>
-    <text>Rows per page:</text>
-  </paragraph>
-  <button haspopup="true">
-    Rows per page: 10
-    <text>10</text>
-  </button>
-  <paragraph>
-    <text>21-30 of 100</text>
-  </paragraph>
-  <button>Previous page</button>
-  <button>Next page</button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <TablePagination component="div" count={100}
-    page={page} onChangePage={handleChangePage}
-    rowsPerPage={rowsPerPage}
-    onChangeRowsPerPage={handleChangeRowsPerPage} />
-  </text>
-  <paragraph>
-    <text>You can learn more about this use case in the</text>
-    <link>table section</link>
-    <text>of the documentation.</text>
-  </paragraph>
-  <heading level="2">
     Accessibility
     <link></link>
     <text>Accessibility</text>
@@ -23600,12 +22730,6 @@ exports[`firefox /components/radio-buttons 1`] = `
     control={<Radio />} label="(Disabled option)"
     /> </RadioGroup> </FormControl>
   </text>
-  <paragraph>
-    <text>
-      To lay out the buttons horizontally, set the row prop: <RadioGroup row
-      />.
-    </text>
-  </paragraph>
   <heading level="2">
     Standalone radio buttons
     <link></link>
@@ -25194,11 +24318,6 @@ exports[`firefox /components/selects/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <paragraph>
-    <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>MUI Treasury's customization examples</link>
-    <text>.</text>
-  </paragraph>
   <heading level="2">
     Multiple Select
     <link></link>
@@ -26285,11 +25404,6 @@ exports[`firefox /components/switches/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <paragraph>
-    <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>MUI Treasury's customization examples</link>
-    <text>.</text>
-  </paragraph>
   <heading level="2">
     Sizes
     <link></link>
@@ -26508,7 +25622,6 @@ exports[`firefox /components/tabs/ 1`] = `
     navigation of our components.
   </button>
   <tablist>
-    simple tabs example
     <tab selected="true">
       ITEM ONE
       <text>ITEM ONE</text>
@@ -26565,7 +25678,6 @@ exports[`firefox /components/tabs/ 1`] = `
     navigation of our components.
   </button>
   <tablist>
-    wrapped label tabs example
     <tab selected="true">
       NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION
       <text>NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION</text>
@@ -26607,7 +25719,6 @@ exports[`firefox /components/tabs/ 1`] = `
     navigation of our components.
   </button>
   <tablist>
-    disabled tabs example
     <tab>
       ACTIVE
       <text>ACTIVE</text>
@@ -26670,7 +25781,6 @@ exports[`firefox /components/tabs/ 1`] = `
     navigation of our components.
   </button>
   <tablist>
-    full width tabs example
     <tab selected="true">
       ITEM ONE
       <text>ITEM ONE</text>
@@ -26763,7 +25873,6 @@ exports[`firefox /components/tabs/ 1`] = `
     navigation of our components.
   </button>
   <tablist>
-    scrollable auto tabs example
     <tab selected="true">
       ITEM ONE
       <text>ITEM ONE</text>
@@ -26824,7 +25933,6 @@ exports[`firefox /components/tabs/ 1`] = `
     navigation of our components.
   </button>
   <tablist>
-    scrollable force tabs example
     <tab selected="true">
       ITEM ONE
       <text>ITEM ONE</text>
@@ -26886,7 +25994,6 @@ exports[`firefox /components/tabs/ 1`] = `
     navigation of our components.
   </button>
   <tablist>
-    scrollable prevent tabs example
     <tab selected="true">phone</tab>
     <tab>favorite</tab>
     <tab>person</tab>
@@ -26928,7 +26035,6 @@ exports[`firefox /components/tabs/ 1`] = `
     navigation of our components.
   </button>
   <tablist>
-    ant example
     <tab selected="true">
       Tab 1<text>Tab 1</text>
     </tab>
@@ -26941,7 +26047,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </tablist>
   <paragraph></paragraph>
   <tablist>
-    styled tabs example
     <tab selected="true">
       Workflows
       <text>Workflows</text>
@@ -26980,7 +26085,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <Typography className={classes.padding} /> </div>
   </text>
   <paragraph>
-    <text>🎨 If you are looking for inspiration, you can check</text>
+    <text>👑 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
@@ -26994,7 +26099,6 @@ exports[`firefox /components/tabs/ 1`] = `
     navigation of our components.
   </button>
   <tablist>
-    Vertical tabs example
     <tab selected="true">
       ITEM ONE
       <text>ITEM ONE</text>
@@ -27056,7 +26160,6 @@ exports[`firefox /components/tabs/ 1`] = `
     navigation of our components.
   </button>
   <tablist>
-    nav tabs example
     <tab selected="true">
       PAGE ONE
       <text>PAGE ONE</text>
@@ -27098,7 +26201,6 @@ exports[`firefox /components/tabs/ 1`] = `
     navigation of our components.
   </button>
   <tablist>
-    icon tabs example
     <tab selected="true">phone</tab>
     <tab>favorite</tab>
     <tab>person</tab>
@@ -27127,7 +26229,6 @@ exports[`firefox /components/tabs/ 1`] = `
     navigation of our components.
   </button>
   <tablist>
-    icon label tabs example
     <tab selected="true">
       RECENTS
       <text>RECENTS</text>
@@ -27162,189 +26263,6 @@ exports[`firefox /components/tabs/ 1`] = `
     </Tabs> </Paper>
   </text>
   <heading level="2">
-    Accessibility
-    <link></link>
-    <text>Accessibility</text>
-  </heading>
-  <paragraph>
-    <text>(WAI-ARIA:</text>
-    <link>https://www.w3.org/TR/wai-aria-practices/#tabpanel</link>
-    <text>)</text>
-  </paragraph>
-  <paragraph>
-    <text>
-      The following steps are needed in order to provide necessary information
-      for assistive technologies:
-    </text>
-  </paragraph>
-  <list>
-    <listitem>
-      1. Label Tabs via aria-label or aria-labelledby .
-      <statictext>1.</statictext>
-      <text>Label Tabs via aria-label or aria-labelledby.</text>
-    </listitem>
-    <listitem>
-      2. Tab s need to be connected to their corresponding
-      [role="tabpanel"] by setting the correct id , aria-controls and
-      aria-labelledby .<statictext>2.</statictext>
-      <text>
-        Tabs need to be connected to their corresponding
-        [role="tabpanel"] by setting the correct id, aria-controls and
-        aria-labelledby.
-      </text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>
-      An example for the current implementation can be found in the demos on
-      this page. We've also published
-    </text>
-    <link>an experimental API</link>
-    <text>in @material-ui/lab that does not require extra work.</text>
-  </paragraph>
-  <heading level="3">
-    Keyboard navigation
-    <link></link>
-    <text>Keyboard navigation</text>
-  </heading>
-  <paragraph>
-    <text>
-      The components implement keyboard navigation using the "manual
-      activation" behavior. If you want to switch to the "selection
-      automatically follows focus" behavior you have pass
-      selectionFollowsFocus to the Tabs component. The WAI-ARIA authoring
-      practices have a detailed guide on
-    </text>
-    <link>how to decide when to make selection automatically follow focus</link>
-    <text>.</text>
-  </paragraph>
-  <heading level="4">
-    Demo
-    <text>Demo</text>
-  </heading>
-  <paragraph>
-    <text>
-      The following two demos only differ in their keyboard navigation behavior.
-      Focus a tab and navigate with arrow keys to notice the difference.
-    </text>
-  </paragraph>
-  <text>
-    /* Tabs where selection follows focus */ <Tabs selectionFollowsFocus
-    /> /* Tabs where each tab needs to be selected manually */ <Tabs />
-  </text>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <paragraph>
-    <text>Tabs where selection follows focus</text>
-  </paragraph>
-  <tablist>
-    Tabs where selection follows focus
-    <tab selected="true">
-      ITEM ONE
-      <text>ITEM ONE</text>
-    </tab>
-    <tab>
-      ITEM TWO
-      <text>ITEM TWO</text>
-    </tab>
-    <tab>
-      ITEM THREE
-      <text>ITEM THREE</text>
-    </tab>
-  </tablist>
-  <paragraph>
-    <text>Tabs where each tab needs to be selected manually</text>
-  </paragraph>
-  <tablist>
-    Tabs where each tab needs to be selected manually
-    <tab selected="true">
-      ITEM ONE
-      <text>ITEM ONE</text>
-    </tab>
-    <tab>
-      ITEM TWO
-      <text>ITEM TWO</text>
-    </tab>
-    <tab>
-      ITEM THREE
-      <text>ITEM THREE</text>
-    </tab>
-  </tablist>
-  <tabpanel>
-    ITEM ONE
-    <paragraph>
-      <text>Item One</text>
-    </paragraph>
-  </tabpanel>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Experimental API
-    <link></link>
-    <text>Experimental API</text>
-  </heading>
-  <paragraph>
-    <text>
-      @material-ui/lab offers utility components that inject props to implement
-      accessible tabs following
-    </text>
-    <link>WAI-ARIA authoring practices</link>
-    <text>.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <tablist>
-    simple tabs example
-    <tab selected="true">
-      ITEM ONE
-      <text>ITEM ONE</text>
-    </tab>
-    <tab>
-      ITEM TWO
-      <text>ITEM TWO</text>
-    </tab>
-    <tab>
-      ITEM THREE
-      <text>ITEM THREE</text>
-    </tab>
-  </tablist>
-  <tabpanel>
-    ITEM ONE
-    <text>Item One</text>
-  </tabpanel>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <TabContext value={value}> <AppBar
-    position="static"> <TabList
-    onChange={handleChange} aria-label="simple tabs
-    example"> <Tab label="Item One" value="1"
-    /> <Tab label="Item Two" value="2" /> <Tab
-    label="Item Three" value="3" /> </TabList>
-    </AppBar> <TabPanel value="1">Item
-    One</TabPanel> <TabPanel value="2">Item
-    Two</TabPanel> <TabPanel value="3">Item
-    Three</TabPanel> </TabContext>
-  </text>
-  <heading level="2">
     API
     <link></link>
     <text>API</text>
@@ -27354,21 +26272,6 @@ exports[`firefox /components/tabs/ 1`] = `
       • <Tab />
       <statictext>•</statictext>
       <link><Tab /></link>
-    </listitem>
-    <listitem>
-      • <TabContext />
-      <statictext>•</statictext>
-      <link><TabContext /></link>
-    </listitem>
-    <listitem>
-      • <TabList />
-      <statictext>•</statictext>
-      <link><TabList /></link>
-    </listitem>
-    <listitem>
-      • <TabPanel />
-      <statictext>•</statictext>
-      <link><TabPanel /></link>
     </listitem>
     <listitem>
       • <TabScrollButton />
@@ -28781,7 +27684,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <paragraph>
-    <text>🎨 If you are looking for inspiration, you can check</text>
+    <text>👑 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
