@@ -6076,6 +6076,15 @@ exports[`chromium /components/pagination/ 1`] = `
       The Pagination component enables the user to select a specific page from a
       range of pages.
     </text>
+    <link>
+      figma Figma. A large UI kit with over 600 handcrafted Material-UI
+      components 🎨.
+      <img>figma</img>
+      <text>
+        Figma. A large UI kit with over 600 handcrafted Material-UI components
+        🎨.
+      </text>
+    </link>
   </paragraph>
   <heading level="2">
     Basic pagination
