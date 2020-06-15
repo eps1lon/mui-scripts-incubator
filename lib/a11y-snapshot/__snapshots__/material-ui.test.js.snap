@@ -277,9 +277,6 @@ exports[`chromium / 1`] = `
       <listitem level="1">
         <link>Contact Us</link>
       </listitem>
-      <listitem level="1">
-        <link>Jobs</link>
-      </listitem>
     </list>
     <paragraph>
       <text>Currently</text>
@@ -17873,10 +17870,6 @@ exports[`firefox / 1`] = `
       <listitem>
         Contact Us
         <link>Contact Us</link>
-      </listitem>
-      <listitem>
-        Jobs
-        <link>Jobs</link>
       </listitem>
     </list>
     <paragraph>
