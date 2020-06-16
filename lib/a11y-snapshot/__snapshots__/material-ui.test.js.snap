@@ -4379,6 +4379,137 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
+    Loading buttons
+    <Anchor></Anchor>
+    <text>Loading buttons</text>
+  </heading>
+  <paragraph>
+    <text>
+      The loading buttons can show pending state and disable interactions.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button disabled="true">
+    <progressbar valuetext="">
+      <SVGRoot></SVGRoot>
+    </progressbar>
+    <text>SUBMIT</text>
+  </button>
+  <button disabled="true">
+    <text>LOADING...FETCH DATA</text>
+  </button>
+  <button disabled="true">
+    SAVE
+    <SVGRoot></SVGRoot>
+    <progressbar valuetext="">
+      <SVGRoot></SVGRoot>
+    </progressbar>
+    <text>SAVE</text>
+  </button>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button description="Show the full source">
+      Show the full source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Edit in CodeSandbox">
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Copy the source">
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset focus to test keyboard navigation">
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset demo">
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <Pre>
+    <code>
+      <text>
+        <LoadingButtonvariant="outlined"pending>Submit</LoadingButton><LoadingButtonvariant="outlined"pendingpendingIndicator="Loading...">Fetch
+        data</LoadingButton><LoadingButtonvariant="outlined"pendingpendingPosition="start"startIcon={<SaveIcon/>}>Save</LoadingButton>
+      </text>
+    </code>
+  </Pre>
+  <paragraph>
+    <text>
+      Toggle the switch to see the transition between the different states.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Label>
+    <checkbox checked="false">Pending</checkbox>
+  </Label>
+  <button>
+    SUBMIT
+    <text>SUBMIT</text>
+  </button>
+  <button>
+    FETCH DATA
+    <text>FETCH DATA</text>
+  </button>
+  <button>
+    SEND
+    <text>SEND</text>
+    <SVGRoot></SVGRoot>
+  </button>
+  <button>
+    SAVE
+    <SVGRoot></SVGRoot>
+    <text>SAVE</text>
+  </button>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button description="Show the source">
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Edit in CodeSandbox">
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Copy the source">
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset focus to test keyboard navigation">
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset demo">
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <heading level="2">
     Complex Buttons
     <Anchor></Anchor>
     <text>Complex Buttons</text>
@@ -4622,6 +4753,17 @@ exports[`chromium /components/buttons/ 1`] = `
         <IconButton />
         <code>
           <text><IconButton /></text>
+        </code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <link>
+        <LoadingButton />
+        <code>
+          <text><LoadingButton /></text>
         </code>
       </link>
     </listitem>
@@ -20629,6 +20771,97 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
+    Loading buttons
+    <link></link>
+    <text>Loading buttons</text>
+  </heading>
+  <paragraph>
+    <text>
+      The loading buttons can show pending state and disable interactions.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button disabled="true">
+    50
+    <progressbar value="50" valuetext="50" checked="mixed">
+      <diagram>
+        <img></img>
+      </diagram>
+    </progressbar>
+  </button>
+  <button disabled="true">
+    LOADING...
+    <text>LOADING...</text>
+  </button>
+  <button disabled="true">
+    50 SAVE
+    <progressbar value="50" valuetext="50" checked="mixed">
+      <diagram>
+        <img></img>
+      </diagram>
+    </progressbar>
+    <text>SAVE</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <LoadingButton variant="outlined" pending> Submit
+    </LoadingButton> <LoadingButton variant="outlined"
+    pending pendingIndicator="Loading..."> Fetch data
+    </LoadingButton> <LoadingButton variant="outlined"
+    pending pendingPosition="start" startIcon={<SaveIcon
+    />}> Save </LoadingButton>
+  </text>
+  <paragraph>
+    <text>
+      Toggle the switch to see the transition between the different states.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Pending
+    <checkbox>Pending</checkbox>
+    <text>Pending</text>
+  </label>
+  <button>
+    SUBMIT
+    <text>SUBMIT</text>
+  </button>
+  <button>
+    FETCH DATA
+    <text>FETCH DATA</text>
+  </button>
+  <button>
+    SEND
+    <text>SEND</text>
+  </button>
+  <button>
+    SAVE
+    <text>SAVE</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
     Complex Buttons
     <link></link>
     <text>Complex Buttons</text>
@@ -20791,6 +21024,11 @@ exports[`firefox /components/buttons/ 1`] = `
       • <IconButton />
       <statictext>•</statictext>
       <link><IconButton /></link>
+    </listitem>
+    <listitem>
+      • <LoadingButton />
+      <statictext>•</statictext>
+      <link><LoadingButton /></link>
     </listitem>
   </list>
   <separator></separator>
