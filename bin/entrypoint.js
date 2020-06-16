@@ -8,7 +8,8 @@ require("yargs")
 		desc: "audit pages with lighthouse",
 		builder: (yargs) => {
 			yargs.positional("pr-number", {
-				describe: "number of a Pull Request or empty to target master",
+				describe:
+					"number of a Pull Request or empty to target the default branch",
 				type: "number",
 			});
 		},
@@ -21,7 +22,8 @@ require("yargs")
 		desc: "checks a11y tree snapshots",
 		builder: (yargs) => {
 			yargs.positional("pr-number", {
-				describe: "number of a Pull Request or empty to target master",
+				describe:
+					"number of a Pull Request or empty to target the default branch",
 				type: "number",
 				default: Number.NaN,
 			});

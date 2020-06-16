@@ -5,7 +5,7 @@ const childProcess = require("child_process");
 const { promisify } = require("util");
 const exec = promisify(childProcess.exec);
 
-const mainBranch = "next";
+const muiMainBranch = "next";
 
 main().catch((error) => {
 	core.error(error.stdout);
@@ -19,16 +19,16 @@ async function main() {
 	const targetUrl =
 		eventName === "repository_dispatch"
 			? payload.client_payload.target_url
-			: `https://${mainBranch}--material-ui.netlify.app/`;
+			: `https://${muiMainBranch}--material-ui.netlify.app/`;
 	core.info(`client_payload: ${JSON.stringify(payload.client_payload)}`);
 
 	const prNumberMatch = targetUrl.match(/deploy-preview-(\d+)/);
 	const prNumber = prNumberMatch === null ? Number.NaN : +prNumberMatch[1];
 
 	const isPr = Number.isNaN(prNumber) === false;
-	const muiBranch = !isPr ? mainBranch : `pr/${prNumber}`;
+	const muiBranch = !isPr ? muiMainBranch : `pr/${prNumber}`;
 	core.info(
-		!isPr ? `using \`${mainBranch}\`` : `using deploy preview #${prNumber}`
+		!isPr ? `using \`${muiMainBranch}\`` : `using deploy preview #${prNumber}`
 	);
 
 	await a11ySnapshot({
@@ -52,12 +52,12 @@ async function main() {
 			await octokit.pulls.create({
 				owner: github.context.repo.owner,
 				repo: github.context.repo.repo,
-				base: mainBranch,
+				base: "main",
 				head: branch,
 				title: `Update snapshots for ${muiBranch}`,
 				body: isPr
 					? `changes of https://github.com/mui-org/material-ui/pull/${prNumber}`
-					: `changes on \`${mainBranch}\``,
+					: `changes on \`${muiMainBranch}\``,
 				maintainer_can_modify: true,
 			});
 		} catch (error) {

@@ -4,9 +4,9 @@ on:
   push:
   repository_dispatch:
   schedule:
-    # run every hour to catch new deploys of master
+    # run every hour to catch new deploys of the default branch
     # netlify triggers no status check so I don't know
-    # how I could be notified if it finishes a deploy of master
+    # how I could be notified if it finishes a deploy of the default branch
     - cron: "0 * * * *"
 
 jobs:
