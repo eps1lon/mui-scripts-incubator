@@ -7829,12 +7829,12 @@ exports[`chromium /components/pagination/ 1`] = `
   <paragraph>
     <text>21-30 of 100</text>
   </paragraph>
-  <button description="Previous page">
-    Previous page
+  <button description="Go to previous page">
+    Go to previous page
     <SVGRoot></SVGRoot>
   </button>
-  <button description="Next page">
-    Next page
+  <button description="Go to next page">
+    Go to next page
     <SVGRoot></SVGRoot>
   </button>
   <toolbar>
@@ -23397,8 +23397,8 @@ exports[`firefox /components/pagination/ 1`] = `
   <paragraph>
     <text>21-30 of 100</text>
   </paragraph>
-  <button>Previous page</button>
-  <button>Next page</button>
+  <button>Go to previous page</button>
+  <button>Go to next page</button>
   <toolbar>
     demo source
     <button>Show the full source</button>
