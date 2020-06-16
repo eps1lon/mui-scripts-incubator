@@ -24515,7 +24515,7 @@ exports[`firefox /components/rating/ 1`] = `
     3 Stars
     <text>3 Stars</text>
   </label>
-  <radio>3 Stars</radio>
+  <radio></radio>
   <label>
     4 Stars
     <text>4 Stars</text>
