@@ -3995,7 +3995,7 @@ exports[`chromium /components/buttons/ 1`] = `
   <Pre>
     <code>
       <text>
-        <ButtononClick={()=>{alert('clicked')}}>Click
+        <ButtononClick={()=>{alert('clicked');}}>Click
         me</Button>
       </text>
     </code>
@@ -4643,80 +4643,78 @@ exports[`chromium /components/buttons/ 1`] = `
         1.
         <text>1.</text>
       </ListMarker>
-      <paragraph>
-        <text>
-          CSS only. You can remove the pointer events style on the disabled
-          state of the
-        </text>
-        <code>
-          <text><button></text>
-        </code>
-        <text>element:</text>
-      </paragraph>
-      <Pre>
-        <code>
-          <text>
-            .MuiButtonBase-root:disabled{cursor:not-allowed;pointer-events:auto;}
-          </text>
-        </code>
-      </Pre>
-      <paragraph>
-        <text>However:</text>
-      </paragraph>
-      <list>
-        <listitem level="2">
-          <ListMarker>
-            ◦<text>◦</text>
-          </ListMarker>
-          <text>You should add</text>
-          <code>
-            <text>pointer-events: none;</text>
-          </code>
-          <text>back when you need to display</text>
-          <link>tooltips on disabled elements</link>
-          <text>.</text>
-        </listitem>
-        <listitem level="2">
-          <ListMarker>
-            ◦<text>◦</text>
-          </ListMarker>
-          <text>
-            The cursor won't change if you render something other than a
-            button element, for instance, a link
-          </text>
-          <code>
-            <text><a></text>
-          </code>
-          <text>element.</text>
-        </listitem>
-      </list>
+      <text>
+        CSS only. You can remove the pointer events style on the disabled state
+        of the
+      </text>
+      <code>
+        <text><button></text>
+      </code>
+      <text>element:</text>
     </listitem>
+  </list>
+  <Pre>
+    <code>
+      <text>
+        .MuiButtonBase-root:disabled{cursor:not-allowed;pointer-events:auto;}
+      </text>
+    </code>
+  </Pre>
+  <paragraph>
+    <text>However:</text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <text>You should add</text>
+      <code>
+        <text>pointer-events: none;</text>
+      </code>
+      <text>back when you need to display</text>
+      <link>tooltips on disabled elements</link>
+      <text>.</text>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <text>
+        The cursor won't change if you render something other than a button
+        element, for instance, a link
+      </text>
+      <code>
+        <text><a></text>
+      </code>
+      <text>element.</text>
+    </listitem>
+  </list>
+  <list>
     <listitem level="1">
       <ListMarker>
         2.
         <text>2.</text>
       </ListMarker>
-      <paragraph>
-        <text>DOM change. You can wrap the button:</text>
-      </paragraph>
-      <Pre>
-        <code>
-          <text>
-            <spanstyle={{cursor:'not-allowed'}}><Buttoncomponent={Link}disabled>disabled</Button></span>
-          </text>
-        </code>
-      </Pre>
-      <paragraph>
-        <text>
-          This has the advantage of supporting any element, for instance, a link
-        </text>
-        <code>
-          <text><a></text>
-        </code>
-        <text>element.</text>
-      </paragraph>
+      <text>DOM change. You can wrap the button:</text>
     </listitem>
   </list>
+  <Pre>
+    <code>
+      <text>
+        <spanstyle={{cursor:'not-allowed'}}><Buttoncomponent={Link}disabled>disabled</Button></span>
+      </text>
+    </code>
+  </Pre>
+  <paragraph>
+    <text>
+      This has the advantage of supporting any element, for instance, a link
+    </text>
+    <code>
+      <text><a></text>
+    </code>
+    <text>element.</text>
+  </paragraph>
   <heading level="2">
     API
     <Anchor></Anchor>
@@ -5841,7 +5839,7 @@ exports[`chromium /components/dialogs/ 1`] = `
   <Pre>
     <code>
       <text>
-        importuseMediaQueryfrom'@material-ui/core/useMediaQuery';functionMyComponent(){consttheme=useTheme();constfullScreen=useMediaQuery(theme.breakpoints.down('sm'));return<DialogfullScreen={fullScreen}/>}
+        importuseMediaQueryfrom'@material-ui/core/useMediaQuery';functionMyComponent(){consttheme=useTheme();constfullScreen=useMediaQuery(theme.breakpoints.down('sm'),);return<DialogfullScreen={fullScreen}/>;}
       </text>
     </code>
   </Pre>
@@ -7829,12 +7827,12 @@ exports[`chromium /components/pagination/ 1`] = `
   <paragraph>
     <text>21-30 of 100</text>
   </paragraph>
-  <button description="Previous page">
-    Previous page
+  <button description="Go to previous page">
+    Go to previous page
     <SVGRoot></SVGRoot>
   </button>
-  <button description="Next page">
-    Next page
+  <button description="Go to next page">
+    Go to next page
     <SVGRoot></SVGRoot>
   </button>
   <toolbar>
@@ -16782,7 +16780,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     <code>
       <text>
         <Tooltiptitle="You don't have permission to do
-        this"><span><buttondisabled={disabled}style={disabled?{pointerEvents:"none"}:{}}>{'A
+        this"><span><buttondisabled={disabled}style={disabled?{pointerEvents:'none'}:{}}>{'A
         disabled button'}</button></span></Tooltip>
       </text>
     </code>
@@ -20535,8 +20533,8 @@ exports[`firefox /components/buttons/ 1`] = `
     </text>
   </paragraph>
   <text>
-    <Button onClick={() => { alert('clicked')
-    }}>Click me</Button>
+    <Button onClick={() => { alert('clicked');
+    }} > Click me </Button>
   </text>
   <paragraph>
     <text>Note that the documentation</text>
@@ -20939,71 +20937,61 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>If you wish to use not-allowed, you have two options:</text>
   </paragraph>
   <list>
-    <listitem level="1">
+    <listitem>
       1. CSS only . You can remove the pointer events style on the disabled
-      state of the <button> element: .MuiButtonBase-root:disabled {
-      cursor: not-allowed; pointer-events: auto; } However: ◦ You should
-      add pointer-events: none; back when you need to display tooltips on
-      disabled elements . ◦ The cursor won't change if you render something
-      other than a button element, for instance, a link <a> element.
+      state of the <button> element:
       <statictext>1.</statictext>
-      <paragraph>
-        <text>
-          CSS only. You can remove the pointer events style on the disabled
-          state of the <button> element:
-        </text>
-      </paragraph>
       <text>
-        .MuiButtonBase-root:disabled { cursor: not-allowed; pointer-events:
-        auto; }
+        CSS only. You can remove the pointer events style on the disabled state
+        of the <button> element:
       </text>
-      <paragraph>
-        <text>However:</text>
-      </paragraph>
-      <list>
-        <listitem level="2">
-          ◦ You should add pointer-events: none; back when you need to display
-          tooltips on disabled elements .<statictext>◦</statictext>
-          <text>
-            You should add pointer-events: none; back when you need to display
-          </text>
-          <link>tooltips on disabled elements</link>
-          <text>.</text>
-        </listitem>
-        <listitem level="2">
-          ◦ The cursor won't change if you render something other than a
-          button element, for instance, a link <a> element.
-          <statictext>◦</statictext>
-          <text>
-            The cursor won't change if you render something other than a
-            button element, for instance, a link <a> element.
-          </text>
-        </listitem>
-      </list>
-    </listitem>
-    <listitem level="1">
-      2. DOM change . You can wrap the button: <span style={{
-      cursor: 'not-allowed' }}> <Button
-      component={Link} disabled> disabled </Button>
-      </span> This has the advantage of supporting any element, for
-      instance, a link <a> element.
-      <statictext>2.</statictext>
-      <paragraph>
-        <text>DOM change. You can wrap the button:</text>
-      </paragraph>
-      <text>
-        <span style={{ cursor: 'not-allowed'
-        }}> <Button component={Link} disabled>
-        disabled </Button> </span>
-      </text>
-      <paragraph>
-        <text>
-          This has the advantage of supporting any element, for instance, a link
-          <a> element.
-        </text>
-      </paragraph>
     </listitem>
   </list>
+  <text>
+    .MuiButtonBase-root:disabled { cursor: not-allowed; pointer-events:
+    auto; }
+  </text>
+  <paragraph>
+    <text>However:</text>
+  </paragraph>
+  <list>
+    <listitem>
+      • You should add pointer-events: none; back when you need to display
+      tooltips on disabled elements .<statictext>•</statictext>
+      <text>
+        You should add pointer-events: none; back when you need to display
+      </text>
+      <link>tooltips on disabled elements</link>
+      <text>.</text>
+    </listitem>
+    <listitem>
+      • The cursor won't change if you render something other than a button
+      element, for instance, a link <a> element.
+      <statictext>•</statictext>
+      <text>
+        The cursor won't change if you render something other than a button
+        element, for instance, a link <a> element.
+      </text>
+    </listitem>
+  </list>
+  <list>
+    <listitem>
+      2. DOM change . You can wrap the button:
+      <statictext>2.</statictext>
+      <text>DOM change. You can wrap the button:</text>
+    </listitem>
+  </list>
+  <text>
+    <span style={{ cursor: 'not-allowed' }}>
+    <Button component={Link} disabled> disabled </Button>
+    </span>
+  </text>
+  <paragraph>
+    <text>
+      This has the advantage of supporting any element, for instance, a link
+      <a> element.
+    </text>
+  </paragraph>
   <heading level="2">
     API
     <link></link>
@@ -21741,8 +21729,8 @@ exports[`firefox /components/dialogs/ 1`] = `
   <text>
     import useMediaQuery from '@material-ui/core/useMediaQuery';
     function MyComponent() { const theme = useTheme(); const fullScreen =
-    useMediaQuery(theme.breakpoints.down('sm')); return <Dialog
-    fullScreen={fullScreen} /> }
+    useMediaQuery( theme.breakpoints.down('sm'), ); return <Dialog
+    fullScreen={fullScreen} />; }
   </text>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -23397,8 +23385,8 @@ exports[`firefox /components/pagination/ 1`] = `
   <paragraph>
     <text>21-30 of 100</text>
   </paragraph>
-  <button>Previous page</button>
-  <button>Next page</button>
+  <button>Go to previous page</button>
+  <button>Go to next page</button>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -29164,8 +29152,8 @@ exports[`firefox /components/text-fields/ 1`] = `
     <div class="form-control"> <label
     for="my-input">Email address</label> <input
     id="my-input" aria-describedby="my-helper-text" />
-    <span id="my-helper-text">We'll never share your
-    email.</span> </div>
+    <span id="my-helper-text"> We'll never share your
+    email. </span> </div>
   </text>
   <list>
     <listitem>
@@ -29186,8 +29174,8 @@ exports[`firefox /components/text-fields/ 1`] = `
     <FormControl> <InputLabel htmlFor="my-input">Email
     address</InputLabel> <Input id="my-input"
     aria-describedby="my-helper-text" /> <FormHelperText
-    id="my-helper-text">We'll never share your
-    email.</FormHelperText> </FormControl>
+    id="my-helper-text"> We'll never share your email.
+    </FormHelperText> </FormControl>
   </text>
   <heading level="2">
     Complementary projects
@@ -29711,7 +29699,7 @@ exports[`firefox /components/tooltips/ 1`] = `
   <text>
     <Tooltip title="You don't have permission to do this">
     <span> <button disabled={disabled} style={disabled ?
-    { pointerEvents: "none" } : {}}>
+    { pointerEvents: 'none' } : {}} >
     {'A disabled button'} </button> </span>
     </Tooltip>
   </text>
