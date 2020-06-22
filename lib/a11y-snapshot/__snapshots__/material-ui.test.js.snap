@@ -15661,61 +15661,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       the label to display correctly.
     </text>
   </paragraph>
-  <heading level="3">
-    type="number"
-    <Anchor></Anchor>
-    <text>type="number"</text>
-  </heading>
-  <paragraph>
-    <text>
-      Inputs of type="number" have potential usability issues:
-    </text>
-  </paragraph>
-  <list>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>
-        Allowing certain non-numeric characters ('e', '+',
-        '-', '.') and silently discarding others
-      </text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>
-        The functionality of scrolling to increment/decrement the number can
-        cause accidental and hard-to-notice changes
-      </text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>and more - see</text>
-    <link>this article</link>
-    <text>
-      by the GOV.UK Design System team for a more detailed explanation.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      For number validation, one viable alternative is to use the default input
-      type="text" with thepatternattribute, for example:
-    </text>
-  </paragraph>
-  <Pre>
-    <code>
-      <text>
-        <TextFieldinputProps={{inputmode:'numeric',pattern:'[0-9]*'}}/>
-      </text>
-    </code>
-  </Pre>
-  <paragraph>
-    <text>In the future, we might provide a</text>
-    <link>number input component</link>
-    <text>.</text>
-  </paragraph>
   <heading level="2">
     Integration with 3rd party input libraries
     <Anchor></Anchor>
@@ -28873,58 +28818,6 @@ exports[`firefox /components/text-fields/ 1`] = `
       layout of the page. You need to make sure that the input is larger than
       the label to display correctly.
     </text>
-  </paragraph>
-  <heading level="3">
-    type="number"
-    <link></link>
-    <text>type="number"</text>
-  </heading>
-  <paragraph>
-    <text>
-      Inputs of type="number" have potential usability issues:
-    </text>
-  </paragraph>
-  <list>
-    <listitem>
-      • Allowing certain non-numeric characters ('e', '+',
-      '-', '.') and silently discarding others
-      <statictext>•</statictext>
-      <text>
-        Allowing certain non-numeric characters ('e', '+',
-        '-', '.') and silently discarding others
-      </text>
-    </listitem>
-    <listitem>
-      • The functionality of scrolling to increment/decrement the number can
-      cause accidental and hard-to-notice changes
-      <statictext>•</statictext>
-      <text>
-        The functionality of scrolling to increment/decrement the number can
-        cause accidental and hard-to-notice changes
-      </text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>and more - see</text>
-    <link>this article</link>
-    <text>
-      by the GOV.UK Design System team for a more detailed explanation.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      For number validation, one viable alternative is to use the default input
-      type="text" with the pattern attribute, for example:
-    </text>
-  </paragraph>
-  <text>
-    <TextField inputProps={{ inputmode: 'numeric',
-    pattern: '[0-9]*' }} />
-  </text>
-  <paragraph>
-    <text>In the future, we might provide a</text>
-    <link>number input component</link>
-    <text>.</text>
   </paragraph>
   <heading level="2">
     Integration with 3rd party input libraries
