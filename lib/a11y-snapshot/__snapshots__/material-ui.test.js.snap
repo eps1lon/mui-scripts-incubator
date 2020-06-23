@@ -17703,8 +17703,8 @@ exports[`chromium /components/tree-view/ 1`] = `
       <text>Toggle Button</text>
     </link>
     <link>
-      Alert
-      <text>Alert</text>
+      Accordion
+      <text>Accordion</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -30178,7 +30178,7 @@ exports[`firefox /components/tree-view/ 1`] = `
   </list>
   <separator></separator>
   <link>Toggle Button</link>
-  <link>Alert</link>
+  <link>Accordion</link>
 </landmark>;
 
 `;
