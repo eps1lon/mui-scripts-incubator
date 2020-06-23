@@ -5868,26 +5868,26 @@ exports[`chromium /components/dialogs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <list>
-    <listitem disabled="true" level="1">
+  <group>
+    <button disabled="true">
       Interruptions
       <text>Interruptions</text>
-    </listitem>
-    <listitem level="1" haspopup="menu">
+    </button>
+    <combobox haspopup="menu">
       phone ringtone
       <text>Phone ringtone</text>
       <paragraph>
         <text>Dione</text>
       </paragraph>
-    </listitem>
-    <listitem disabled="true" level="1">
+    </combobox>
+    <button disabled="true">
       Default notification ringtone Tethys
       <text>Default notification ringtone</text>
       <paragraph>
         <text>Tethys</text>
       </paragraph>
-    </listitem>
-  </list>
+    </button>
+  </group>
   <toolbar>
     demo source
     <group>
@@ -21674,26 +21674,26 @@ exports[`firefox /components/dialogs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <list>
-    <listitem disabled="true">
+  <group>
+    <button disabled="true">
       Interruptions
       <text>Interruptions</text>
-    </listitem>
-    <listitem haspopup="true">
+    </button>
+    <buttonmenu haspopup="true">
       phone ringtone
       <text>Phone ringtone</text>
       <paragraph>
         <text>Dione</text>
       </paragraph>
-    </listitem>
-    <listitem disabled="true">
+    </buttonmenu>
+    <button disabled="true">
       Default notification ringtone Tethys
       <text>Default notification ringtone</text>
       <paragraph>
         <text>Tethys</text>
       </paragraph>
-    </listitem>
-  </list>
+    </button>
+  </group>
   <toolbar>
     demo source
     <button>Show the source</button>
