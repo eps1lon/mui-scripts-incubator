@@ -25,7 +25,6 @@ exports[`chromium / 1`] = `
     <combobox description="Toggle notifications panel" haspopup="menu">
       Toggle notifications panel
       <SVGRoot></SVGRoot>
-      <text>$$NOTIFICATION_COUNT_REMOVED_FOR_STABLE_SNAPSHOT</text>
     </combobox>
     <link description="Edit website colors">
       Edit website colors
@@ -178,10 +177,6 @@ exports[`chromium / 1`] = `
       <link>
         call-em-all
         <img description="The easy way to message your group">call-em-all</img>
-      </link>
-      <link>
-        bitsrc
-        <img>bitsrc</img>
       </link>
     </paragraph>
     <heading level="3">
@@ -5868,26 +5863,26 @@ exports[`chromium /components/dialogs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <group>
-    <button disabled="true">
+  <list>
+    <listitem disabled="true" level="1">
       Interruptions
       <text>Interruptions</text>
-    </button>
-    <combobox haspopup="menu">
+    </listitem>
+    <listitem level="1" haspopup="menu">
       phone ringtone
       <text>Phone ringtone</text>
       <paragraph>
         <text>Dione</text>
       </paragraph>
-    </combobox>
-    <button disabled="true">
+    </listitem>
+    <listitem disabled="true" level="1">
       Default notification ringtone Tethys
       <text>Default notification ringtone</text>
       <paragraph>
         <text>Tethys</text>
       </paragraph>
-    </button>
-  </group>
+    </listitem>
+  </list>
   <toolbar>
     demo source
     <group>
@@ -15661,61 +15656,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       the label to display correctly.
     </text>
   </paragraph>
-  <heading level="3">
-    type="number"
-    <Anchor></Anchor>
-    <text>type="number"</text>
-  </heading>
-  <paragraph>
-    <text>
-      Inputs of type="number" have potential usability issues:
-    </text>
-  </paragraph>
-  <list>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>
-        Allowing certain non-numeric characters ('e', '+',
-        '-', '.') and silently discarding others
-      </text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>
-        The functionality of scrolling to increment/decrement the number can
-        cause accidental and hard-to-notice changes
-      </text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>and more - see</text>
-    <link>this article</link>
-    <text>
-      by the GOV.UK Design System team for a more detailed explanation.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      For number validation, one viable alternative is to use the default input
-      type="text" with thepatternattribute, for example:
-    </text>
-  </paragraph>
-  <Pre>
-    <code>
-      <text>
-        <TextFieldinputProps={{inputmode:'numeric',pattern:'[0-9]*'}}/>
-      </text>
-    </code>
-  </Pre>
-  <paragraph>
-    <text>In the future, we might provide a</text>
-    <link>number input component</link>
-    <text>.</text>
-  </paragraph>
   <heading level="2">
     Integration with 3rd party input libraries
     <Anchor></Anchor>
@@ -17703,8 +17643,8 @@ exports[`chromium /components/tree-view/ 1`] = `
       <text>Toggle Button</text>
     </link>
     <link>
-      Accordion
-      <text>Accordion</text>
+      Alert
+      <text>Alert</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -21674,26 +21614,26 @@ exports[`firefox /components/dialogs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <group>
-    <button disabled="true">
+  <list>
+    <listitem disabled="true">
       Interruptions
       <text>Interruptions</text>
-    </button>
-    <buttonmenu haspopup="true">
+    </listitem>
+    <listitem haspopup="true">
       phone ringtone
       <text>Phone ringtone</text>
       <paragraph>
         <text>Dione</text>
       </paragraph>
-    </buttonmenu>
-    <button disabled="true">
+    </listitem>
+    <listitem disabled="true">
       Default notification ringtone Tethys
       <text>Default notification ringtone</text>
       <paragraph>
         <text>Tethys</text>
       </paragraph>
-    </button>
-  </group>
+    </listitem>
+  </list>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -28874,58 +28814,6 @@ exports[`firefox /components/text-fields/ 1`] = `
       the label to display correctly.
     </text>
   </paragraph>
-  <heading level="3">
-    type="number"
-    <link></link>
-    <text>type="number"</text>
-  </heading>
-  <paragraph>
-    <text>
-      Inputs of type="number" have potential usability issues:
-    </text>
-  </paragraph>
-  <list>
-    <listitem>
-      • Allowing certain non-numeric characters ('e', '+',
-      '-', '.') and silently discarding others
-      <statictext>•</statictext>
-      <text>
-        Allowing certain non-numeric characters ('e', '+',
-        '-', '.') and silently discarding others
-      </text>
-    </listitem>
-    <listitem>
-      • The functionality of scrolling to increment/decrement the number can
-      cause accidental and hard-to-notice changes
-      <statictext>•</statictext>
-      <text>
-        The functionality of scrolling to increment/decrement the number can
-        cause accidental and hard-to-notice changes
-      </text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>and more - see</text>
-    <link>this article</link>
-    <text>
-      by the GOV.UK Design System team for a more detailed explanation.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      For number validation, one viable alternative is to use the default input
-      type="text" with the pattern attribute, for example:
-    </text>
-  </paragraph>
-  <text>
-    <TextField inputProps={{ inputmode: 'numeric',
-    pattern: '[0-9]*' }} />
-  </text>
-  <paragraph>
-    <text>In the future, we might provide a</text>
-    <link>number input component</link>
-    <text>.</text>
-  </paragraph>
   <heading level="2">
     Integration with 3rd party input libraries
     <link></link>
@@ -30178,7 +30066,7 @@ exports[`firefox /components/tree-view/ 1`] = `
   </list>
   <separator></separator>
   <link>Toggle Button</link>
-  <link>Accordion</link>
+  <link>Alert</link>
 </landmark>;
 
 `;
