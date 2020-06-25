@@ -25,7 +25,6 @@ exports[`chromium / 1`] = `
     <combobox description="Toggle notifications panel" haspopup="menu">
       Toggle notifications panel
       <SVGRoot></SVGRoot>
-      <text>$$NOTIFICATION_COUNT_REMOVED_FOR_STABLE_SNAPSHOT</text>
     </combobox>
     <link description="Edit website colors">
       Edit website colors
@@ -17725,10 +17724,7 @@ exports[`firefox / 1`] = `
       Change language
       <text>ENGLISH</text>
     </buttonmenu>
-    <buttonmenu haspopup="true">
-      Toggle notifications panel
-      <text>$$NOTIFICATION_COUNT_REMOVED_FOR_STABLE_SNAPSHOT</text>
-    </buttonmenu>
+    <buttonmenu haspopup="true">Toggle notifications panel</buttonmenu>
     <link>Edit website colors</link>
     <link>GitHub repository</link>
     <button>Toggle light/dark theme</button>
