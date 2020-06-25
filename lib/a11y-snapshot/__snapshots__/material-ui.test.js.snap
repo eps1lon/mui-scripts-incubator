@@ -25,7 +25,6 @@ exports[`chromium / 1`] = `
     <combobox description="Toggle notifications panel" haspopup="menu">
       Toggle notifications panel
       <SVGRoot></SVGRoot>
-      <text>$$NOTIFICATION_COUNT_REMOVED_FOR_STABLE_SNAPSHOT</text>
     </combobox>
     <link description="Edit website colors">
       Edit website colors
