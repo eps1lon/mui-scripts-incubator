@@ -75,7 +75,7 @@ exports[`chromium / 1`] = `
     </text>
     <Pre>
       <code>
-        <text>$ npm install @material-ui/core@next</text>
+        <text>$ npm install @material-ui/core</text>
       </code>
     </Pre>
     <link>or use a CDN.</link>
@@ -286,14 +286,14 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.1. View versions page.</link>
+      <link>v4.10.2. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v5.0.0-alpha.1</link>
+  <link>v4.10.2</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -2583,8 +2583,8 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -2608,6 +2608,13 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>
+      <text>
+        <Breadcrumbsaria-label="breadcrumb"><Linkcolor="inherit"href="/"onClick={handleClick}>Material-UI</Link><Linkcolor="inherit"href="/getting-started/installation/"onClick={handleClick}>Core</Link><Linkcolor="textPrimary"href="/components/breadcrumbs/"onClick={handleClick}aria-current="page">Breadcrumb</Link></Breadcrumbs>
+      </text>
+    </code>
+  </Pre>
   <heading level="2">
     Custom separator
     <Anchor></Anchor>
@@ -2914,8 +2921,8 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -2939,6 +2946,13 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>
+      <text>
+        <Breadcrumbsaria-label="breadcrumb"><StyledBreadcrumbcomponent="a"href="#"label="Home"icon={<HomeIconfontSize="small"/>}onClick={handleClick}/><StyledBreadcrumbcomponent="a"href="#"label="Catalog"onClick={handleClick}/><StyledBreadcrumblabel="Accessories"deleteIcon={<ExpandMoreIcon/>}onClick={handleClick}onDelete={handleClick}/></Breadcrumbs>
+      </text>
+    </code>
+  </Pre>
   <heading level="2">
     Integration with react-router
     <Anchor></Anchor>
@@ -3222,8 +3236,8 @@ exports[`chromium /components/button-group/ 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -3247,6 +3261,19 @@ exports[`chromium /components/button-group/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>
+      <text>
+        <ButtonGroupcolor="primary"aria-label="outlined
+        primary button
+        group"><Button>One</Button><Button>Two</Button><Button>Three</Button></ButtonGroup><ButtonGroupvariant="contained"color="primary"aria-label="contained
+        primary button
+        group"><Button>One</Button><Button>Two</Button><Button>Three</Button></ButtonGroup><ButtonGroupvariant="text"color="primary"aria-label="text
+        primary button
+        group"><Button>One</Button><Button>Two</Button><Button>Three</Button></ButtonGroup>
+      </text>
+    </code>
+  </Pre>
   <heading level="2">
     Sizes and colors
     <Anchor></Anchor>
@@ -3307,8 +3334,8 @@ exports[`chromium /components/button-group/ 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -3332,6 +3359,19 @@ exports[`chromium /components/button-group/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>
+      <text>
+        <ButtonGroupsize="small"aria-label="small outlined
+        button
+        group"><Button>One</Button><Button>Two</Button><Button>Three</Button></ButtonGroup><ButtonGroupcolor="secondary"aria-label="outlined
+        secondary button
+        group"><Button>One</Button><Button>Two</Button><Button>Three</Button></ButtonGroup><ButtonGroupsize="large"color="primary"aria-label="large
+        outlined primary button
+        group"><Button>One</Button><Button>Two</Button><Button>Three</Button></ButtonGroup>
+      </text>
+    </code>
+  </Pre>
   <heading level="2">
     Vertical group
     <Anchor></Anchor>
@@ -3958,7 +3998,7 @@ exports[`chromium /components/buttons/ 1`] = `
   <Pre>
     <code>
       <text>
-        <ButtononClick={()=>{alert('clicked');}}>Click
+        <ButtononClick={()=>{alert('clicked')}}>Click
         me</Button>
       </text>
     </code>
@@ -4342,137 +4382,6 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
-    Loading buttons
-    <Anchor></Anchor>
-    <text>Loading buttons</text>
-  </heading>
-  <paragraph>
-    <text>
-      The loading buttons can show pending state and disable interactions.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button disabled="true">
-    <progressbar valuetext="">
-      <SVGRoot></SVGRoot>
-    </progressbar>
-    <text>SUBMIT</text>
-  </button>
-  <button disabled="true">
-    <text>LOADING...FETCH DATA</text>
-  </button>
-  <button disabled="true">
-    SAVE
-    <SVGRoot></SVGRoot>
-    <progressbar valuetext="">
-      <SVGRoot></SVGRoot>
-    </progressbar>
-    <text>SAVE</text>
-  </button>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the full source">
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <Pre>
-    <code>
-      <text>
-        <LoadingButtonvariant="outlined"pending>Submit</LoadingButton><LoadingButtonvariant="outlined"pendingpendingIndicator="Loading...">Fetch
-        data</LoadingButton><LoadingButtonvariant="outlined"pendingpendingPosition="start"startIcon={<SaveIcon/>}>Save</LoadingButton>
-      </text>
-    </code>
-  </Pre>
-  <paragraph>
-    <text>
-      Toggle the switch to see the transition between the different states.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <Label>
-    <checkbox checked="false">Pending</checkbox>
-  </Label>
-  <button>
-    SUBMIT
-    <text>SUBMIT</text>
-  </button>
-  <button>
-    FETCH DATA
-    <text>FETCH DATA</text>
-  </button>
-  <button>
-    SEND
-    <text>SEND</text>
-    <SVGRoot></SVGRoot>
-  </button>
-  <button>
-    SAVE
-    <SVGRoot></SVGRoot>
-    <text>SAVE</text>
-  </button>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the source">
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <heading level="2">
     Complex Buttons
     <Anchor></Anchor>
     <text>Complex Buttons</text>
@@ -4606,78 +4515,80 @@ exports[`chromium /components/buttons/ 1`] = `
         1.
         <text>1.</text>
       </ListMarker>
-      <text>
-        CSS only. You can remove the pointer events style on the disabled state
-        of the
-      </text>
-      <code>
-        <text><button></text>
-      </code>
-      <text>element:</text>
+      <paragraph>
+        <text>
+          CSS only. You can remove the pointer events style on the disabled
+          state of the
+        </text>
+        <code>
+          <text><button></text>
+        </code>
+        <text>element:</text>
+      </paragraph>
+      <Pre>
+        <code>
+          <text>
+            .MuiButtonBase-root:disabled{cursor:not-allowed;pointer-events:auto;}
+          </text>
+        </code>
+      </Pre>
+      <paragraph>
+        <text>However:</text>
+      </paragraph>
+      <list>
+        <listitem level="2">
+          <ListMarker>
+            ◦<text>◦</text>
+          </ListMarker>
+          <text>You should add</text>
+          <code>
+            <text>pointer-events: none;</text>
+          </code>
+          <text>back when you need to display</text>
+          <link>tooltips on disabled elements</link>
+          <text>.</text>
+        </listitem>
+        <listitem level="2">
+          <ListMarker>
+            ◦<text>◦</text>
+          </ListMarker>
+          <text>
+            The cursor won't change if you render something other than a
+            button element, for instance, a link
+          </text>
+          <code>
+            <text><a></text>
+          </code>
+          <text>element.</text>
+        </listitem>
+      </list>
     </listitem>
-  </list>
-  <Pre>
-    <code>
-      <text>
-        .MuiButtonBase-root:disabled{cursor:not-allowed;pointer-events:auto;}
-      </text>
-    </code>
-  </Pre>
-  <paragraph>
-    <text>However:</text>
-  </paragraph>
-  <list>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>You should add</text>
-      <code>
-        <text>pointer-events: none;</text>
-      </code>
-      <text>back when you need to display</text>
-      <link>tooltips on disabled elements</link>
-      <text>.</text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>
-        The cursor won't change if you render something other than a button
-        element, for instance, a link
-      </text>
-      <code>
-        <text><a></text>
-      </code>
-      <text>element.</text>
-    </listitem>
-  </list>
-  <list>
     <listitem level="1">
       <ListMarker>
         2.
         <text>2.</text>
       </ListMarker>
-      <text>DOM change. You can wrap the button:</text>
+      <paragraph>
+        <text>DOM change. You can wrap the button:</text>
+      </paragraph>
+      <Pre>
+        <code>
+          <text>
+            <spanstyle={{cursor:'not-allowed'}}><Buttoncomponent={Link}disabled>disabled</Button></span>
+          </text>
+        </code>
+      </Pre>
+      <paragraph>
+        <text>
+          This has the advantage of supporting any element, for instance, a link
+        </text>
+        <code>
+          <text><a></text>
+        </code>
+        <text>element.</text>
+      </paragraph>
     </listitem>
   </list>
-  <Pre>
-    <code>
-      <text>
-        <spanstyle={{cursor:'not-allowed'}}><Buttoncomponent={Link}disabled>disabled</Button></span>
-      </text>
-    </code>
-  </Pre>
-  <paragraph>
-    <text>
-      This has the advantage of supporting any element, for instance, a link
-    </text>
-    <code>
-      <text><a></text>
-    </code>
-    <text>element.</text>
-  </paragraph>
   <heading level="2">
     API
     <Anchor></Anchor>
@@ -4714,17 +4625,6 @@ exports[`chromium /components/buttons/ 1`] = `
         <IconButton />
         <code>
           <text><IconButton /></text>
-        </code>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <link>
-        <LoadingButton />
-        <code>
-          <text><LoadingButton /></text>
         </code>
       </link>
     </listitem>
@@ -5213,7 +5113,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
     <code>
       <text>
         <Checkboxvalue="checkedA"inputProps={{'aria-label':'Checkbox
-        A',}}/>
+        A'}}/>
       </text>
     </code>
   </Pre>
@@ -5802,7 +5702,7 @@ exports[`chromium /components/dialogs/ 1`] = `
   <Pre>
     <code>
       <text>
-        importuseMediaQueryfrom'@material-ui/core/useMediaQuery';functionMyComponent(){consttheme=useTheme();constfullScreen=useMediaQuery(theme.breakpoints.down('sm'));return<DialogfullScreen={fullScreen}/>;}
+        importuseMediaQueryfrom'@material-ui/core/useMediaQuery';functionMyComponent(){consttheme=useTheme();constfullScreen=useMediaQuery(theme.breakpoints.down('sm'));return<DialogfullScreen={fullScreen}/>}
       </text>
     </code>
   </Pre>
@@ -5867,26 +5767,26 @@ exports[`chromium /components/dialogs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <group>
-    <button disabled="true">
+  <list>
+    <listitem disabled="true" level="1">
       Interruptions
       <text>Interruptions</text>
-    </button>
-    <combobox haspopup="menu">
+    </listitem>
+    <listitem level="1" haspopup="menu">
       phone ringtone
       <text>Phone ringtone</text>
       <paragraph>
         <text>Dione</text>
       </paragraph>
-    </combobox>
-    <button disabled="true">
+    </listitem>
+    <listitem disabled="true" level="1">
       Default notification ringtone Tethys
       <text>Default notification ringtone</text>
       <paragraph>
         <text>Tethys</text>
       </paragraph>
-    </button>
-  </group>
+    </listitem>
+  </list>
   <toolbar>
     demo source
     <group>
@@ -5926,7 +5826,7 @@ exports[`chromium /components/dialogs/ 1`] = `
   <paragraph>
     <text>You can create a draggable dialog by using</text>
     <link>react-draggable</link>
-    <text>. To do so, you can pass the imported</text>
+    <text>. To do so, you can pass the the imported</text>
     <code>
       <text>Draggable</text>
     </code>
@@ -7790,12 +7690,12 @@ exports[`chromium /components/pagination/ 1`] = `
   <paragraph>
     <text>21-30 of 100</text>
   </paragraph>
-  <button description="Go to previous page">
-    Go to previous page
+  <button description="Previous page">
+    Previous page
     <SVGRoot></SVGRoot>
   </button>
-  <button description="Go to next page">
-    Go to next page
+  <button description="Next page">
+    Next page
     <SVGRoot></SVGRoot>
   </button>
   <toolbar>
@@ -8424,8 +8324,8 @@ exports[`chromium /components/radio-buttons 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -8449,6 +8349,14 @@ exports[`chromium /components/radio-buttons 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>
+      <text>
+        <FormControlcomponent="fieldset"><FormLabelcomponent="legend">Gender</FormLabel><RadioGrouparia-label="gender"name="gender1"value={value}onChange={handleChange}><FormControlLabelvalue="female"control={<Radio/>}label="Female"/><FormControlLabelvalue="male"control={<Radio/>}label="Male"/><FormControlLabelvalue="other"control={<Radio/>}label="Other"/><FormControlLabelvalue="disabled"disabledcontrol={<Radio/>}label="(Disabled
+        option)"/></RadioGroup></FormControl>
+      </text>
+    </code>
+  </Pre>
   <paragraph>
     <text>To lay out the buttons horizontally, set the</text>
     <code>
@@ -8651,8 +8559,8 @@ exports[`chromium /components/radio-buttons 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -8676,6 +8584,17 @@ exports[`chromium /components/radio-buttons 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>
+      <text>
+        <formonSubmit={handleSubmit}><FormControlcomponent="fieldset"error={error}className={classes.formControl}><FormLabelcomponent="legend">Pop
+        quiz:Material-UIis...</FormLabel><RadioGrouparia-label="quiz"name="quiz"value={value}onChange={handleRadioChange}><FormControlLabelvalue="best"control={<Radio/>}label="The
+        best!"/><FormControlLabelvalue="worst"control={<Radio/>}label="The
+        worst."/></RadioGroup><FormHelperText>{helperText}</FormHelperText><Buttontype="submit"variant="outlined"color="primary"className={classes.button}>Check
+        Answer</Button></FormControl></form>
+      </text>
+    </code>
+  </Pre>
   <heading level="2">
     Customized radios
     <Anchor></Anchor>
@@ -8722,8 +8641,8 @@ exports[`chromium /components/radio-buttons 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -8747,6 +8666,14 @@ exports[`chromium /components/radio-buttons 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>
+      <text>
+        <FormControlcomponent="fieldset"><FormLabelcomponent="legend">Gender</FormLabel><RadioGroupdefaultValue="female"aria-label="gender"name="customized-radios"><FormControlLabelvalue="female"control={<StyledRadio/>}label="Female"/><FormControlLabelvalue="male"control={<StyledRadio/>}label="Male"/><FormControlLabelvalue="other"control={<StyledRadio/>}label="Other"/><FormControlLabelvalue="disabled"disabledcontrol={<StyledRadio/>}label="(Disabled
+        option)"/></RadioGroup></FormControl>
+      </text>
+    </code>
+  </Pre>
   <heading level="2">
     When to use
     <Anchor></Anchor>
@@ -8817,7 +8744,7 @@ exports[`chromium /components/radio-buttons 1`] = `
     <code>
       <text>
         <RadioButtonvalue="radioA"inputProps={{'aria-label':'Radio
-        A',}}/>
+        A'}}/>
       </text>
     </code>
   </Pre>
@@ -9330,7 +9257,7 @@ exports[`chromium /components/rating/ 1`] = `
   <Pre>
     <code>
       <text>
-        <Ratingname="hover-feedback"value={value}precision={0.5}onChange={(event,newValue)=>{setValue(newValue);}}onChangeActive={(event,newHover)=>{setHover(newHover);}}/>{value!==null&&(<Boxml={2}>{labels[hover!==-1?hover:value]}</Box>)}
+        <Ratingname="hover-feedback"value={value}precision={0.5}onChange={(event,newValue)=>{setValue(newValue);}}onChangeActive={(event,newHover)=>{setHover(newHover);}}/>{value!==null&&<Boxml={2}>{labels[hover!==-1?hover:value]}</Box>}
       </text>
     </code>
   </Pre>
@@ -12358,8 +12285,8 @@ exports[`chromium /components/tabs/ 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -12383,6 +12310,20 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>
+      <text>
+        <AppBarposition="static"><Tabsvalue={value}onChange={handleChange}aria-label="simple
+        tabs example"><Tab label="Item
+        One"{...a11yProps(0)}/><Tab label="Item
+        Two"{...a11yProps(1)}/><Tab label="Item
+        Three"{...a11yProps(2)}/></Tabs></AppBar><TabPanelvalue={value}index={0}>Item
+        One</TabPanel><TabPanelvalue={value}index={1}>Item
+        Two</TabPanel><TabPanelvalue={value}index={2}>Item
+        Three</TabPanel>
+      </text>
+    </code>
+  </Pre>
   <heading level="3">
     Wrapped Labels
     <Anchor></Anchor>
@@ -13004,8 +12945,8 @@ exports[`chromium /components/tabs/ 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -13029,6 +12970,19 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>
+      <text>
+        <divclassName={classes.demo1}><AntTabsvalue={value}onChange={handleChange}aria-label="ant
+        example"><AntTablabel="Tab
+        1"/><AntTablabel="Tab
+        2"/><AntTablabel="Tab
+        3"/></AntTabs><TypographyclassName={classes.padding}/></div><divclassName={classes.demo2}><StyledTabsvalue={value}onChange={handleChange}aria-label="styled
+        tabs
+        example"><StyledTablabel="Workflows"/><StyledTablabel="Datasets"/><StyledTablabel="Connections"/></StyledTabs><TypographyclassName={classes.padding}/></div>
+      </text>
+    </code>
+  </Pre>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -15329,8 +15283,8 @@ exports[`chromium /components/text-fields/ 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -15354,6 +15308,14 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>
+      <text>
+        <formclassName={classes.root}noValidateautoComplete="off"><InputdefaultValue="Hello
+        world"inputProps={{'aria-label':'description'}}/><Inputplaceholder="Placeholder"inputProps={{'aria-label':'description'}}/><InputdefaultValue="Disabled"disabledinputProps={{'aria-label':'description'}}/><InputdefaultValue="Error"errorinputProps={{'aria-label':'description'}}/></form>
+      </text>
+    </code>
+  </Pre>
   <heading level="2">
     Color
     <Anchor></Anchor>
@@ -15399,8 +15361,8 @@ exports[`chromium /components/text-fields/ 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -15424,6 +15386,16 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>
+      <text>
+        <formclassName={classes.root}noValidateautoComplete="off"><TextFieldid="standard-secondary"label="Standard
+        secondary"color="secondary"/><TextFieldid="filled-secondary"label="Filled
+        secondary"variant="filled"color="secondary"/><TextFieldid="outlined-secondary"label="Outlined
+        secondary"variant="outlined"color="secondary"/></form>
+      </text>
+    </code>
+  </Pre>
   <heading level="2">
     Customized inputs
     <Anchor></Anchor>
@@ -15660,61 +15632,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       the label to display correctly.
     </text>
   </paragraph>
-  <heading level="3">
-    type="number"
-    <Anchor></Anchor>
-    <text>type="number"</text>
-  </heading>
-  <paragraph>
-    <text>
-      Inputs of type="number" have potential usability issues:
-    </text>
-  </paragraph>
-  <list>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>
-        Allowing certain non-numeric characters ('e', '+',
-        '-', '.') and silently discarding others
-      </text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>
-        The functionality of scrolling to increment/decrement the number can
-        cause accidental and hard-to-notice changes
-      </text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>and more - see</text>
-    <link>this article</link>
-    <text>
-      by the GOV.UK Design System team for a more detailed explanation.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      For number validation, one viable alternative is to use the default input
-      type="text" with thepatternattribute, for example:
-    </text>
-  </paragraph>
-  <Pre>
-    <code>
-      <text>
-        <TextFieldinputProps={{inputmode:'numeric',pattern:'[0-9]*'}}/>
-      </text>
-    </code>
-  </Pre>
-  <paragraph>
-    <text>In the future, we might provide a</text>
-    <link>number input component</link>
-    <text>.</text>
-  </paragraph>
   <heading level="2">
     Integration with 3rd party input libraries
     <Anchor></Anchor>
@@ -15819,7 +15736,7 @@ exports[`chromium /components/text-fields/ 1`] = `
         here},// hiding the value e.g. react-stripe-elements}));//
         \`Component\` will be your \`SomeThirdPartyComponent\` from
         belowreturn<Component{...other}/>;}//
-        usage<TextFieldInputProps={{inputComponent:MyInputComponent,inputProps:{component:SomeThirdPartyComponent,},}}/>;
+        usage<TextFieldInputProps={{inputComponent:MyInputComponent,inputProps:{component:SomeThirdPartyComponent},}}/>;
       </text>
     </code>
   </Pre>
@@ -16726,7 +16643,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     <code>
       <text>
         <Tooltiptitle="You don't have permission to do
-        this"><span><buttondisabled={disabled}style={disabled?{pointerEvents:'none'}:{}}>{'A
+        this"><span><buttondisabled={disabled}style={disabled?{pointerEvents:"none"}:{}}>{'A
         disabled button'}</button></span></Tooltip>
       </text>
     </code>
@@ -17755,7 +17672,7 @@ exports[`firefox / 1`] = `
     </heading>
     <text>
       Install Material-UI's source files via npm. We take care of injecting
-      the CSS needed.$ npm install @material-ui/core@next
+      the CSS needed.$ npm install @material-ui/core
     </text>
     <link>or use a CDN.</link>
     <text>
@@ -17968,7 +17885,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.1. View versions page.</link>
+      <link>v4.10.2. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
@@ -19477,7 +19394,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     color="inherit" href="/"
     onClick={handleClick}> Material-UI </Link> <Link
     color="inherit" href="/getting-started/installation/"
-    onClick={handleClick} > Core </Link> <Typography
+    onClick={handleClick}> Core </Link> <Typography
     color="textPrimary">Breadcrumb</Typography>
     </Breadcrumbs>
   </text>
@@ -19512,13 +19429,23 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </landmark>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <Breadcrumbs aria-label="breadcrumb"> <Link
+    color="inherit" href="/"
+    onClick={handleClick}> Material-UI </Link> <Link
+    color="inherit" href="/getting-started/installation/"
+    onClick={handleClick}> Core </Link> <Link
+    color="textPrimary" href="/components/breadcrumbs/"
+    onClick={handleClick} aria-current="page" >
+    Breadcrumb </Link> </Breadcrumbs>
+  </text>
   <heading level="2">
     Custom separator
     <link></link>
@@ -19727,13 +19654,24 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </landmark>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <Breadcrumbs aria-label="breadcrumb"> <StyledBreadcrumb
+    component="a" href="#" label="Home"
+    icon={<HomeIcon fontSize="small" />}
+    onClick={handleClick} /> <StyledBreadcrumb
+    component="a" href="#" label="Catalog"
+    onClick={handleClick} /> <StyledBreadcrumb
+    label="Accessories" deleteIcon={<ExpandMoreIcon
+    />} onClick={handleClick} onDelete={handleClick}
+    /> </Breadcrumbs>
+  </text>
   <heading level="2">
     Integration with react-router
     <link></link>
@@ -19949,13 +19887,27 @@ exports[`firefox /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <ButtonGroup color="primary" aria-label="outlined primary
+    button group"> <Button>One</Button>
+    <Button>Two</Button> <Button>Three</Button>
+    </ButtonGroup> <ButtonGroup variant="contained"
+    color="primary" aria-label="contained primary button
+    group"> <Button>One</Button>
+    <Button>Two</Button> <Button>Three</Button>
+    </ButtonGroup> <ButtonGroup variant="text"
+    color="primary" aria-label="text primary button
+    group"> <Button>One</Button>
+    <Button>Two</Button> <Button>Three</Button>
+    </ButtonGroup>
+  </text>
   <heading level="2">
     Sizes and colors
     <link></link>
@@ -20012,13 +19964,26 @@ exports[`firefox /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <ButtonGroup size="small" aria-label="small outlined
+    button group"> <Button>One</Button>
+    <Button>Two</Button> <Button>Three</Button>
+    </ButtonGroup> <ButtonGroup color="secondary"
+    aria-label="outlined secondary button group">
+    <Button>One</Button> <Button>Two</Button>
+    <Button>Three</Button> </ButtonGroup> <ButtonGroup
+    size="large" color="primary" aria-label="large
+    outlined primary button group"> <Button>One</Button>
+    <Button>Two</Button> <Button>Three</Button>
+    </ButtonGroup>
+  </text>
   <heading level="2">
     Vertical group
     <link></link>
@@ -20432,8 +20397,8 @@ exports[`firefox /components/buttons/ 1`] = `
     </text>
   </paragraph>
   <text>
-    <Button onClick={() => { alert('clicked');
-    }} > Click me </Button>
+    <Button onClick={() => { alert('clicked')
+    }}>Click me</Button>
   </text>
   <paragraph>
     <text>Note that the documentation</text>
@@ -20668,97 +20633,6 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
-    Loading buttons
-    <link></link>
-    <text>Loading buttons</text>
-  </heading>
-  <paragraph>
-    <text>
-      The loading buttons can show pending state and disable interactions.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button disabled="true">
-    50
-    <progressbar value="50" valuetext="50" checked="mixed">
-      <diagram>
-        <img></img>
-      </diagram>
-    </progressbar>
-  </button>
-  <button disabled="true">
-    LOADING...
-    <text>LOADING...</text>
-  </button>
-  <button disabled="true">
-    50 SAVE
-    <progressbar value="50" valuetext="50" checked="mixed">
-      <diagram>
-        <img></img>
-      </diagram>
-    </progressbar>
-    <text>SAVE</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <LoadingButton variant="outlined" pending> Submit
-    </LoadingButton> <LoadingButton variant="outlined"
-    pending pendingIndicator="Loading..."> Fetch data
-    </LoadingButton> <LoadingButton variant="outlined"
-    pending pendingPosition="start" startIcon={<SaveIcon
-    />} > Save </LoadingButton>
-  </text>
-  <paragraph>
-    <text>
-      Toggle the switch to see the transition between the different states.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <label>
-    Pending
-    <checkbox>Pending</checkbox>
-    <text>Pending</text>
-  </label>
-  <button>
-    SUBMIT
-    <text>SUBMIT</text>
-  </button>
-  <button>
-    FETCH DATA
-    <text>FETCH DATA</text>
-  </button>
-  <button>
-    SEND
-    <text>SEND</text>
-  </button>
-  <button>
-    SAVE
-    <text>SAVE</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
     Complex Buttons
     <link></link>
     <text>Complex Buttons</text>
@@ -20836,61 +20710,71 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>If you wish to use not-allowed, you have two options:</text>
   </paragraph>
   <list>
-    <listitem>
+    <listitem level="1">
       1. CSS only . You can remove the pointer events style on the disabled
-      state of the <button> element:
+      state of the <button> element: .MuiButtonBase-root:disabled {
+      cursor: not-allowed; pointer-events: auto; } However: ◦ You should
+      add pointer-events: none; back when you need to display tooltips on
+      disabled elements . ◦ The cursor won't change if you render something
+      other than a button element, for instance, a link <a> element.
       <statictext>1.</statictext>
+      <paragraph>
+        <text>
+          CSS only. You can remove the pointer events style on the disabled
+          state of the <button> element:
+        </text>
+      </paragraph>
       <text>
-        CSS only. You can remove the pointer events style on the disabled state
-        of the <button> element:
+        .MuiButtonBase-root:disabled { cursor: not-allowed; pointer-events:
+        auto; }
       </text>
+      <paragraph>
+        <text>However:</text>
+      </paragraph>
+      <list>
+        <listitem level="2">
+          ◦ You should add pointer-events: none; back when you need to display
+          tooltips on disabled elements .<statictext>◦</statictext>
+          <text>
+            You should add pointer-events: none; back when you need to display
+          </text>
+          <link>tooltips on disabled elements</link>
+          <text>.</text>
+        </listitem>
+        <listitem level="2">
+          ◦ The cursor won't change if you render something other than a
+          button element, for instance, a link <a> element.
+          <statictext>◦</statictext>
+          <text>
+            The cursor won't change if you render something other than a
+            button element, for instance, a link <a> element.
+          </text>
+        </listitem>
+      </list>
     </listitem>
-  </list>
-  <text>
-    .MuiButtonBase-root:disabled { cursor: not-allowed; pointer-events:
-    auto; }
-  </text>
-  <paragraph>
-    <text>However:</text>
-  </paragraph>
-  <list>
-    <listitem>
-      • You should add pointer-events: none; back when you need to display
-      tooltips on disabled elements .<statictext>•</statictext>
-      <text>
-        You should add pointer-events: none; back when you need to display
-      </text>
-      <link>tooltips on disabled elements</link>
-      <text>.</text>
-    </listitem>
-    <listitem>
-      • The cursor won't change if you render something other than a button
-      element, for instance, a link <a> element.
-      <statictext>•</statictext>
-      <text>
-        The cursor won't change if you render something other than a button
-        element, for instance, a link <a> element.
-      </text>
-    </listitem>
-  </list>
-  <list>
-    <listitem>
-      2. DOM change . You can wrap the button:
+    <listitem level="1">
+      2. DOM change . You can wrap the button: <span style={{
+      cursor: 'not-allowed' }}> <Button
+      component={Link} disabled> disabled </Button>
+      </span> This has the advantage of supporting any element, for
+      instance, a link <a> element.
       <statictext>2.</statictext>
-      <text>DOM change. You can wrap the button:</text>
+      <paragraph>
+        <text>DOM change. You can wrap the button:</text>
+      </paragraph>
+      <text>
+        <span style={{ cursor: 'not-allowed'
+        }}> <Button component={Link} disabled>
+        disabled </Button> </span>
+      </text>
+      <paragraph>
+        <text>
+          This has the advantage of supporting any element, for instance, a link
+          <a> element.
+        </text>
+      </paragraph>
     </listitem>
   </list>
-  <text>
-    <span style={{ cursor: 'not-allowed' }}>
-    <Button component={Link} disabled> disabled </Button>
-    </span>
-  </text>
-  <paragraph>
-    <text>
-      This has the advantage of supporting any element, for instance, a link
-      <a> element.
-    </text>
-  </paragraph>
   <heading level="2">
     API
     <link></link>
@@ -20911,11 +20795,6 @@ exports[`firefox /components/buttons/ 1`] = `
       • <IconButton />
       <statictext>•</statictext>
       <link><IconButton /></link>
-    </listitem>
-    <listitem>
-      • <LoadingButton />
-      <statictext>•</statictext>
-      <link><LoadingButton /></link>
     </listitem>
   </list>
   <separator></separator>
@@ -21261,7 +21140,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </list>
   <text>
     <Checkbox value="checkedA" inputProps={{
-    'aria-label': 'Checkbox A', }} />
+    'aria-label': 'Checkbox A' }} />
   </text>
   <heading level="2">
     API
@@ -21629,7 +21508,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     import useMediaQuery from '@material-ui/core/useMediaQuery';
     function MyComponent() { const theme = useTheme(); const fullScreen =
     useMediaQuery(theme.breakpoints.down('sm')); return <Dialog
-    fullScreen={fullScreen} />; }
+    fullScreen={fullScreen} /> }
   </text>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -21670,26 +21549,26 @@ exports[`firefox /components/dialogs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <group>
-    <button disabled="true">
+  <list>
+    <listitem disabled="true">
       Interruptions
       <text>Interruptions</text>
-    </button>
-    <buttonmenu haspopup="true">
+    </listitem>
+    <listitem haspopup="true">
       phone ringtone
       <text>Phone ringtone</text>
       <paragraph>
         <text>Dione</text>
       </paragraph>
-    </buttonmenu>
-    <button disabled="true">
+    </listitem>
+    <listitem disabled="true">
       Default notification ringtone Tethys
       <text>Default notification ringtone</text>
       <paragraph>
         <text>Tethys</text>
       </paragraph>
-    </button>
-  </group>
+    </listitem>
+  </list>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -21708,7 +21587,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <text>You can create a draggable dialog by using</text>
     <link>react-draggable</link>
     <text>
-      . To do so, you can pass the imported Draggable component as the
+      . To do so, you can pass the the imported Draggable component as the
       PaperComponent of the Dialog component. This will make the entire dialog
       draggable.
     </text>
@@ -23284,8 +23163,8 @@ exports[`firefox /components/pagination/ 1`] = `
   <paragraph>
     <text>21-30 of 100</text>
   </paragraph>
-  <button>Go to previous page</button>
-  <button>Go to next page</button>
+  <button>Previous page</button>
+  <button>Next page</button>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -23711,13 +23590,27 @@ exports[`firefox /components/radio-buttons 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <FormControl component="fieldset"> <FormLabel
+    component="legend">Gender</FormLabel> <RadioGroup
+    aria-label="gender" name="gender1"
+    value={value} onChange={handleChange}>
+    <FormControlLabel value="female" control={<Radio
+    />} label="Female" /> <FormControlLabel
+    value="male" control={<Radio />}
+    label="Male" /> <FormControlLabel value="other"
+    control={<Radio />} label="Other" />
+    <FormControlLabel value="disabled" disabled
+    control={<Radio />} label="(Disabled option)"
+    /> </RadioGroup> </FormControl>
+  </text>
   <paragraph>
     <text>
       To lay out the buttons horizontally, set the row prop: <RadioGroup row
@@ -23853,13 +23746,30 @@ exports[`firefox /components/radio-buttons 1`] = `
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <form onSubmit={handleSubmit}> <FormControl
+    component="fieldset" error={error}
+    className={classes.formControl}> <FormLabel
+    component="legend">Pop quiz: Material-UI
+    is...</FormLabel> <RadioGroup aria-label="quiz"
+    name="quiz" value={value}
+    onChange={handleRadioChange}> <FormControlLabel
+    value="best" control={<Radio />} label="The
+    best!" /> <FormControlLabel value="worst"
+    control={<Radio />} label="The worst." />
+    </RadioGroup>
+    <FormHelperText>{helperText}</FormHelperText>
+    <Button type="submit" variant="outlined"
+    color="primary" className={classes.button}> Check
+    Answer </Button> </FormControl> </form>
+  </text>
   <heading level="2">
     Customized radios
     <link></link>
@@ -23909,13 +23819,27 @@ exports[`firefox /components/radio-buttons 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <FormControl component="fieldset"> <FormLabel
+    component="legend">Gender</FormLabel> <RadioGroup
+    defaultValue="female" aria-label="gender"
+    name="customized-radios"> <FormControlLabel
+    value="female" control={<StyledRadio />}
+    label="Female" /> <FormControlLabel value="male"
+    control={<StyledRadio />} label="Male" />
+    <FormControlLabel value="other" control={<StyledRadio
+    />} label="Other" /> <FormControlLabel
+    value="disabled" disabled control={<StyledRadio
+    />} label="(Disabled option)" /> </RadioGroup>
+    </FormControl>
+  </text>
   <heading level="2">
     When to use
     <link></link>
@@ -23968,7 +23892,7 @@ exports[`firefox /components/radio-buttons 1`] = `
   </list>
   <text>
     <RadioButton value="radioA" inputProps={{
-    'aria-label': 'Radio A', }} />
+    'aria-label': 'Radio A' }} />
   </text>
   <heading level="2">
     API
@@ -24461,8 +24385,8 @@ exports[`firefox /components/rating/ 1`] = `
     precision={0.5} onChange={(event, newValue) => {
     setValue(newValue); }} onChangeActive={(event, newHover)
     => { setHover(newHover); }} /> {value !== null
-    && ( <Box ml={2}>{labels[hover !== -1 ? hover :
-    value]}</Box> )}
+    && <Box ml={2}>{labels[hover !== -1 ? hover :
+    value]}</Box>}
   </text>
   <heading level="2">
     Half ratings
@@ -26409,12 +26333,12 @@ exports[`firefox /components/switches/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <FormGroup> <FormControlLabel control={ <Switch
+    <FormGroup> <FormControlLabel control={<Switch
     size="small" checked={checked}
-    onChange={toggleChecked} /> } label="Small"
-    /> <FormControlLabel control={<Switch
-    checked={checked} onChange={toggleChecked} />}
-    label="Normal" /> </FormGroup>
+    onChange={toggleChecked} />} label="Small" />
+    <FormControlLabel control={<Switch checked={checked}
+    onChange={toggleChecked} />} label="Normal"
+    /> </FormGroup>
   </text>
   <heading level="2">
     Label placement
@@ -26617,13 +26541,25 @@ exports[`firefox /components/tabs/ 1`] = `
   </tabpanel>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <AppBar position="static"> <Tabs value={value}
+    onChange={handleChange} aria-label="simple tabs
+    example"> <Tab label="Item One"
+    {...a11yProps(0)} /> <Tab label="Item Two"
+    {...a11yProps(1)} /> <Tab label="Item Three"
+    {...a11yProps(2)} /> </Tabs> </AppBar> <TabPanel
+    value={value} index={0}> Item One </TabPanel>
+    <TabPanel value={value} index={1}> Item Two
+    </TabPanel> <TabPanel value={value}
+    index={2}> Item Three </TabPanel>
+  </text>
   <heading level="3">
     Wrapped Labels
     <link></link>
@@ -27033,13 +26969,27 @@ exports[`firefox /components/tabs/ 1`] = `
   <paragraph></paragraph>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <div className={classes.demo1}> <AntTabs
+    value={value} onChange={handleChange}
+    aria-label="ant example"> <AntTab label="Tab 1"
+    /> <AntTab label="Tab 2" /> <AntTab label="Tab
+    3" /> </AntTabs> <Typography
+    className={classes.padding} /> </div> <div
+    className={classes.demo2}> <StyledTabs
+    value={value} onChange={handleChange}
+    aria-label="styled tabs example"> <StyledTab
+    label="Workflows" /> <StyledTab label="Datasets"
+    /> <StyledTab label="Connections" /> </StyledTabs>
+    <Typography className={classes.padding} /> </div>
+  </text>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -28662,13 +28612,26 @@ exports[`firefox /components/text-fields/ 1`] = `
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <form className={classes.root} noValidate
+    autoComplete="off"> <Input defaultValue="Hello
+    world" inputProps={{ 'aria-label':
+    'description' }} /> <Input
+    placeholder="Placeholder" inputProps={{
+    'aria-label': 'description' }} /> <Input
+    defaultValue="Disabled" disabled inputProps={{
+    'aria-label': 'description' }} /> <Input
+    defaultValue="Error" error inputProps={{
+    'aria-label': 'description' }} />
+    </form>
+  </text>
   <heading level="2">
     Color
     <link></link>
@@ -28704,13 +28667,23 @@ exports[`firefox /components/text-fields/ 1`] = `
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <form className={classes.root} noValidate
+    autoComplete="off"> <TextField
+    id="standard-secondary" label="Standard secondary"
+    color="secondary" /> <TextField
+    id="filled-secondary" label="Filled secondary"
+    variant="filled" color="secondary" /> <TextField
+    id="outlined-secondary" label="Outlined secondary"
+    variant="outlined" color="secondary" /> </form>
+  </text>
   <heading level="2">
     Customized inputs
     <link></link>
@@ -28870,58 +28843,6 @@ exports[`firefox /components/text-fields/ 1`] = `
       the label to display correctly.
     </text>
   </paragraph>
-  <heading level="3">
-    type="number"
-    <link></link>
-    <text>type="number"</text>
-  </heading>
-  <paragraph>
-    <text>
-      Inputs of type="number" have potential usability issues:
-    </text>
-  </paragraph>
-  <list>
-    <listitem>
-      • Allowing certain non-numeric characters ('e', '+',
-      '-', '.') and silently discarding others
-      <statictext>•</statictext>
-      <text>
-        Allowing certain non-numeric characters ('e', '+',
-        '-', '.') and silently discarding others
-      </text>
-    </listitem>
-    <listitem>
-      • The functionality of scrolling to increment/decrement the number can
-      cause accidental and hard-to-notice changes
-      <statictext>•</statictext>
-      <text>
-        The functionality of scrolling to increment/decrement the number can
-        cause accidental and hard-to-notice changes
-      </text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>and more - see</text>
-    <link>this article</link>
-    <text>
-      by the GOV.UK Design System team for a more detailed explanation.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      For number validation, one viable alternative is to use the default input
-      type="text" with the pattern attribute, for example:
-    </text>
-  </paragraph>
-  <text>
-    <TextField inputProps={{ inputmode: 'numeric',
-    pattern: '[0-9]*' }} />
-  </text>
-  <paragraph>
-    <text>In the future, we might provide a</text>
-    <link>number input component</link>
-    <text>.</text>
-  </paragraph>
   <heading level="2">
     Integration with 3rd party input libraries
     <link></link>
@@ -28991,7 +28912,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     be your \`SomeThirdPartyComponent\` from below return <Component
     {...other} />; } // usage <TextField
     InputProps={{ inputComponent: MyInputComponent, inputProps: {
-    component: SomeThirdPartyComponent, }, }} />;
+    component: SomeThirdPartyComponent }, }} />;
   </text>
   <heading level="2">
     Accessibility
@@ -29031,8 +28952,8 @@ exports[`firefox /components/text-fields/ 1`] = `
     <FormControl> <InputLabel htmlFor="my-input">Email
     address</InputLabel> <Input id="my-input"
     aria-describedby="my-helper-text" /> <FormHelperText
-    id="my-helper-text"> We'll never share your email.
-    </FormHelperText> </FormControl>
+    id="my-helper-text">We'll never share your
+    email.</FormHelperText> </FormControl>
   </text>
   <heading level="2">
     Complementary projects
@@ -29556,7 +29477,7 @@ exports[`firefox /components/tooltips/ 1`] = `
   <text>
     <Tooltip title="You don't have permission to do this">
     <span> <button disabled={disabled} style={disabled ?
-    { pointerEvents: 'none' } : {}} >
+    { pointerEvents: "none" } : {}}>
     {'A disabled button'} </button> </span>
     </Tooltip>
   </text>
@@ -29596,9 +29517,9 @@ exports[`firefox /components/tooltips/ 1`] = `
   <text>
     <Tooltip title="Add"> <Button>Grow</Button>
     </Tooltip> <Tooltip TransitionComponent={Fade}
-    TransitionProps={{ timeout: 600 }} title="Add"
-    > <Button>Fade</Button> </Tooltip> <Tooltip
-    TransitionComponent={Zoom} title="Add">
+    TransitionProps={{ timeout: 600 }}
+    title="Add"> <Button>Fade</Button> </Tooltip>
+    <Tooltip TransitionComponent={Zoom} title="Add">
     <Button>Zoom</Button> </Tooltip>
   </text>
   <heading level="2">
