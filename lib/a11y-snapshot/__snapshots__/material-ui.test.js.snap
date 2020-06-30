@@ -104,7 +104,7 @@ exports[`chromium / 1`] = `
     <Pre>
       <code>
         <text>
-          importReactfrom'react';import{Button}from'@material-ui/core';functionApp(){return<Buttoncolor="primary">Hello
+          importReactfrom'react';import{Button}from'@material-ui/core';functionApp(){return<Button>Hello
           World</Button>;}
         </text>
       </code>
@@ -475,19 +475,16 @@ exports[`chromium /api/button/ 1`] = `
         <text>color</text>
       </gridcell>
       <gridcell>
-        'default' | 'inherit' | 'primary'
-        | 'secondary'
-        <text>'default'</text>
-        <LineBreak></LineBreak>
-        <text>| 'inherit'</text>
+        'inherit' | 'primary' | 'secondary'
+        <text>'inherit'</text>
         <LineBreak></LineBreak>
         <text>| 'primary'</text>
         <LineBreak></LineBreak>
         <text>| 'secondary'</text>
       </gridcell>
       <gridcell>
-        'default'
-        <text>'default'</text>
+        'primary'
+        <text>'primary'</text>
       </gridcell>
       <gridcell>
         The color of the component. It supports those theme colors that make
@@ -3660,10 +3657,6 @@ exports[`chromium /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    DEFAULT
-    <text>DEFAULT</text>
-  </button>
-  <button>
     PRIMARY
     <text>PRIMARY</text>
   </button>
@@ -3713,7 +3706,7 @@ exports[`chromium /components/buttons/ 1`] = `
   <Pre>
     <code>
       <text>
-        <Buttonvariant="contained">Default</Button><Buttonvariant="contained"color="primary">Primary</Button><Buttonvariant="contained"color="secondary">Secondary</Button><Buttonvariant="contained"disabled>Disabled</Button><Buttonvariant="contained"color="primary"href="#contained-buttons">Link</Button>
+        <Buttonvariant="contained">Primary</Button><Buttonvariant="contained"color="secondary">Secondary</Button><Buttonvariant="contained"disabled>Disabled</Button><Buttonvariant="contained"href="#contained-buttons">Link</Button>
       </text>
     </code>
   </Pre>
@@ -3766,7 +3759,7 @@ exports[`chromium /components/buttons/ 1`] = `
   <Pre>
     <code>
       <text>
-        <Buttonvariant="contained"color="primary"disableElevation>Disable
+        <Buttonvariant="contained"disableElevation>Disable
         elevation</Button>
       </text>
     </code>
@@ -3806,10 +3799,6 @@ exports[`chromium /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    DEFAULT
-    <text>DEFAULT</text>
-  </button>
-  <button>
     PRIMARY
     <text>PRIMARY</text>
   </button>
@@ -3859,7 +3848,7 @@ exports[`chromium /components/buttons/ 1`] = `
   <Pre>
     <code>
       <text>
-        <Button>Default</Button><Buttoncolor="primary">Primary</Button><Buttoncolor="secondary">Secondary</Button><Buttondisabled>Disabled</Button><Buttonhref="#text-buttons"color="primary">Link</Button>
+        <Button>Primary</Button><Buttoncolor="secondary">Secondary</Button><Buttondisabled>Disabled</Button><Buttonhref="#text-buttons">Link</Button>
       </text>
     </code>
   </Pre>
@@ -3886,10 +3875,6 @@ exports[`chromium /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    DEFAULT
-    <text>DEFAULT</text>
-  </button>
-  <button>
     PRIMARY
     <text>PRIMARY</text>
   </button>
@@ -3939,7 +3924,7 @@ exports[`chromium /components/buttons/ 1`] = `
   <Pre>
     <code>
       <text>
-        <Buttonvariant="outlined">Default</Button><Buttonvariant="outlined"color="primary">Primary</Button><Buttonvariant="outlined"color="secondary">Secondary</Button><Buttonvariant="outlined"disabled>Disabled</Button><Buttonvariant="outlined"color="primary"href="#outlined-buttons">Link</Button>
+        <Buttonvariant="outlined">Primary</Button><Buttonvariant="outlined"color="secondary">Secondary</Button><Buttonvariant="outlined"disabled>Disabled</Button><Buttonvariant="outlined"href="#outlined-buttons">Link</Button>
       </text>
     </code>
   </Pre>
@@ -5411,7 +5396,7 @@ exports[`chromium /components/dialogs/ 1`] = `
   <Pre>
     <code>
       <text>
-        <Typographyvariant="subtitle1">Selected:{selectedValue}</Typography><br/><Buttonvariant="outlined"color="primary"onClick={handleClickOpen}>Open
+        <Typographyvariant="subtitle1">Selected:{selectedValue}</Typography><br/><Buttonvariant="outlined"onClick={handleClickOpen}>Open
         simple
         dialog</Button><SimpleDialogselectedValue={selectedValue}open={open}onClose={handleClose}/>
       </text>
@@ -17773,8 +17758,7 @@ exports[`firefox / 1`] = `
       Material-UI components work without any additional setup, and don't
       pollute the global scope.import React from 'react'; import
       { Button } from '@material-ui/core'; function App()
-      { return <Button color="primary">Hello
-      World</Button>; }
+      { return <Button>Hello World</Button>; }
     </text>
     <separator></separator>
     <link>EXPLORE THE DOCS</link>
@@ -18069,16 +18053,14 @@ exports[`firefox /api/button/ 1`] = `
         <text>color</text>
       </cell>
       <cell>
-        <text>'default'</text>
-        <whitespace></whitespace>
-        <text>| 'inherit'</text>
+        <text>'inherit'</text>
         <whitespace></whitespace>
         <text>| 'primary'</text>
         <whitespace></whitespace>
         <text>| 'secondary'</text>
       </cell>
       <cell>
-        <text>'default'</text>
+        <text>'primary'</text>
       </cell>
       <cell>
         <text>
@@ -20239,10 +20221,6 @@ exports[`firefox /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    DEFAULT
-    <text>DEFAULT</text>
-  </button>
-  <button>
     PRIMARY
     <text>PRIMARY</text>
   </button>
@@ -20265,13 +20243,12 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Button variant="contained">Default</Button>
-    <Button variant="contained" color="primary">
-    Primary </Button> <Button variant="contained"
-    color="secondary"> Secondary </Button> <Button
-    variant="contained" disabled> Disabled </Button>
-    <Button variant="contained" color="primary"
-    href="#contained-buttons"> Link </Button>
+    <Button variant="contained">Primary</Button>
+    <Button variant="contained" color="secondary">
+    Secondary </Button> <Button variant="contained"
+    disabled> Disabled </Button> <Button
+    variant="contained" href="#contained-buttons"> Link
+    </Button>
   </text>
   <paragraph>
     <text>You can remove the elevation with the disableElevation prop.</text>
@@ -20294,8 +20271,8 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Button variant="contained" color="primary"
-    disableElevation> Disable elevation </Button>
+    <Button variant="contained" disableElevation> Disable
+    elevation </Button>
   </text>
   <heading level="2">
     Text Buttons
@@ -20330,10 +20307,6 @@ exports[`firefox /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    DEFAULT
-    <text>DEFAULT</text>
-  </button>
-  <button>
     PRIMARY
     <text>PRIMARY</text>
   </button>
@@ -20356,12 +20329,10 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Button>Default</Button> <Button
-    color="primary">Primary</Button> <Button
+    <Button>Primary</Button> <Button
     color="secondary">Secondary</Button> <Button
     disabled>Disabled</Button> <Button
-    href="#text-buttons" color="primary"> Link
-    </Button>
+    href="#text-buttons">Link</Button>
   </text>
   <heading level="2">
     Outlined Buttons
@@ -20386,10 +20357,6 @@ exports[`firefox /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    DEFAULT
-    <text>DEFAULT</text>
-  </button>
-  <button>
     PRIMARY
     <text>PRIMARY</text>
   </button>
@@ -20412,12 +20379,10 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Button variant="outlined">Default</Button> <Button
-    variant="outlined" color="primary"> Primary
-    </Button> <Button variant="outlined"
-    color="secondary"> Secondary </Button> <Button
-    variant="outlined" disabled> Disabled </Button>
-    <Button variant="outlined" color="primary"
+    <Button variant="outlined">Primary</Button> <Button
+    variant="outlined" color="secondary"> Secondary
+    </Button> <Button variant="outlined" disabled>
+    Disabled </Button> <Button variant="outlined"
     href="#outlined-buttons"> Link </Button>
   </text>
   <heading level="2">
@@ -21391,10 +21356,10 @@ exports[`firefox /components/dialogs/ 1`] = `
   <text>
     <Typography variant="subtitle1">Selected:
     {selectedValue}</Typography> <br /> <Button
-    variant="outlined" color="primary"
-    onClick={handleClickOpen}> Open simple dialog </Button>
-    <SimpleDialog selectedValue={selectedValue}
-    open={open} onClose={handleClose} />
+    variant="outlined" onClick={handleClickOpen}> Open
+    simple dialog </Button> <SimpleDialog
+    selectedValue={selectedValue} open={open}
+    onClose={handleClose} />
   </text>
   <heading level="2">
     Alerts
