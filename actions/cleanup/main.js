@@ -44,10 +44,15 @@ async function cleanupSnapshotPrsForClosedMuiPrs(octokit) {
 		core.info(
 			`Deleting ref '${ref}' for Material-UI PR #${branch.muiPrNumber} since it is '${pullRequest.state}'.`
 		);
-		return octokit.git.deleteRef({
-			...thisRepo,
-			ref: `heads/${branch.name}`,
-		});
+		return octokit.git
+			.deleteRef({
+				...thisRepo,
+				ref: `heads/${branch.name}`,
+			})
+			.catch((error) => {
+				core.warning(`failed to delete ref '${ref}'`);
+				throw error;
+			});
 	});
 
 	return Promise.all(tasks);
@@ -70,12 +75,6 @@ async function findBranchesRelatedToMui(octokit) {
 			return /^github-actions\/fix\/pr\/\d+$/.test(branch.name);
 		})
 		.map((branch) => {
-			core.debug(
-				`${branch.name} targets number ${branch.name.replace(
-					"github-actions/fix/pr/",
-					""
-				)}`
-			);
 			return {
 				name: branch.name,
 				// strip leading 'github-actions/fix/pr/'
