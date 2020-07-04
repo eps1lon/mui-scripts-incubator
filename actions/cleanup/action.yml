@@ -1,0 +1,9 @@
+name: "repository-cleanup"
+description: "Various tasks to keep the repository clean"
+runs:
+  using: "node12"
+  main: "main.js"
+inputs:
+  token:
+    description: "GitHub API token"
+    required: true
