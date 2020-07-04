@@ -21,9 +21,9 @@ jobs:
       - uses: microsoft/playwright-github-action@v1
       - name: install
         run: yarn install
-      - uses: ./actions/watch-material-ui
+      - uses: ./actions/cleanup
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: ./actions/cleanup
+      - uses: ./actions/watch-material-ui
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
