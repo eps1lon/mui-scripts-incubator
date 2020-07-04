@@ -24,3 +24,6 @@ jobs:
       - uses: ./actions/watch-material-ui
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: ./actions/cleanup
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
