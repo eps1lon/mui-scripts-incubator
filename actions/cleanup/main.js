@@ -26,7 +26,7 @@ async function cleanupSnapshotPrsForClosedMuiPrs(octokit) {
 	const tasks = branchesRelatedToMui.map(async (branch) => {
 		const { data: pullRequest } = await octokit.pulls.get({
 			...muiRepo,
-			number: branch.muiPrNumber,
+			pull_number: branch.muiPrNumber,
 		});
 		if (pullRequest == null) {
 			core.warning(`could not find Material-UI PR #${branch.muiPrNumber}`);
