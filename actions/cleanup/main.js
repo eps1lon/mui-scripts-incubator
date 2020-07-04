@@ -65,13 +65,13 @@ async function findBranchesRelatedToMui(octokit) {
 	return branches
 		.filter((branch) => {
 			core.debug(`checking branch ${branch.name}`);
-			return /pr\/\d+/.test(branch.name);
+			return /^github-actions\/fix\/pr\/\d+$/.test(branch.name);
 		})
 		.map((branch) => {
 			return {
 				name: branch.name,
-				// strip leading 'pr/'
-				muiPrNumber: Number(branch.name.slice(3)),
+				// strip leading 'github-actions/fix/pr/'
+				muiPrNumber: Number(branch.name.replace("github-actions/fix/pr/")),
 			};
 		});
 }
