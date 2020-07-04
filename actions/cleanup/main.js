@@ -22,7 +22,9 @@ async function main() {
 async function cleanupSnapshotPrsForClosedMuiPrs(octokit) {
 	// find branches for Material-UI PRs
 	const branchesRelatedToMui = await findBranchesRelatedToMui(octokit);
-	core.debug(`found ${branchesRelatedToMui} branches related to Material-UI`);
+	core.debug(
+		`found ${branchesRelatedToMui.length} branches related to Material-UI`
+	);
 	const tasks = branchesRelatedToMui.map(async (branch) => {
 		const { data: pullRequest } = await octokit.pulls.get({
 			...muiRepo,
@@ -68,10 +70,16 @@ async function findBranchesRelatedToMui(octokit) {
 			return /^github-actions\/fix\/pr\/\d+$/.test(branch.name);
 		})
 		.map((branch) => {
+			core.debug(
+				`${branch.name} targets number ${branch.name.replace(
+					"github-actions/fix/pr/",
+					""
+				)}`
+			);
 			return {
 				name: branch.name,
 				// strip leading 'github-actions/fix/pr/'
-				muiPrNumber: Number(branch.name.replace("github-actions/fix/pr/")),
+				muiPrNumber: Number(branch.name.replace("github-actions/fix/pr/", "")),
 			};
 		});
 }
