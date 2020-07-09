@@ -15810,7 +15810,9 @@ exports[`chromium /components/text-fields/ 1`] = `
   </paragraph>
   <Pre>
     <code>
-      <text>interfaceInputElement{focus():void;value?:string;}</text>
+      <text>
+        interface InputElement { focus(): void; value?: string; }
+      </text>
     </code>
   </Pre>
   <Pre>
@@ -23366,6 +23368,10 @@ exports[`firefox /components/pickers 1`] = `
       Date pickers and Time pickers provide a simple way to select a single
       value from a pre-determined set.
     </text>
+    <link>
+      themes Premium Themes . Kickstart your application development with a
+      ready-made theme.
+    </link>
   </paragraph>
   <list>
     <listitem>
