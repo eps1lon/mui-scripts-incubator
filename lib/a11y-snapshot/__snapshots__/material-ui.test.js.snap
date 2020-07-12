@@ -15895,7 +15895,7 @@ exports[`chromium /components/text-fields/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <link>formik-material-ui</link>
-      <text>Bindings for using Material-UI with</text>
+      <text>: Bindings for using Material-UI with</text>
       <link>formik</link>
       <text>.</text>
     </listitem>
@@ -15904,7 +15904,7 @@ exports[`chromium /components/text-fields/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <link>redux-form-material-ui</link>
-      <text>Bindings for using Material-UI with</text>
+      <text>: Bindings for using Material-UI with</text>
       <link>Redux Form</link>
       <text>.</text>
     </listitem>
@@ -15913,7 +15913,7 @@ exports[`chromium /components/text-fields/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <link>mui-rff</link>
-      <text>Bindings for using Material-UI with</text>
+      <text>: Bindings for using Material-UI with</text>
       <link>React Final Form</link>
       <text>.</text>
     </listitem>
@@ -29040,26 +29040,26 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • formik-material-ui Bindings for using Material-UI with formik .
+      • formik-material-ui : Bindings for using Material-UI with formik .
       <statictext>•</statictext>
       <link>formik-material-ui</link>
-      <text>Bindings for using Material-UI with</text>
+      <text>: Bindings for using Material-UI with</text>
       <link>formik</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • redux-form-material-ui Bindings for using Material-UI with Redux Form .
-      <statictext>•</statictext>
+      • redux-form-material-ui : Bindings for using Material-UI with Redux Form
+      .<statictext>•</statictext>
       <link>redux-form-material-ui</link>
-      <text>Bindings for using Material-UI with</text>
+      <text>: Bindings for using Material-UI with</text>
       <link>Redux Form</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • mui-rff Bindings for using Material-UI with React Final Form .
+      • mui-rff : Bindings for using Material-UI with React Final Form .
       <statictext>•</statictext>
       <link>mui-rff</link>
-      <text>Bindings for using Material-UI with</text>
+      <text>: Bindings for using Material-UI with</text>
       <link>React Final Form</link>
       <text>.</text>
     </listitem>
