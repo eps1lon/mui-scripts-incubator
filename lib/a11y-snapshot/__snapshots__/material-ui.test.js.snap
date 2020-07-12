@@ -286,14 +286,14 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.2. View versions page.</link>
+      <link>v5.0.0-alpha.1. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v5.0.0-alpha.2</link>
+  <link>v5.0.0-alpha.1</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -7821,25 +7821,6 @@ exports[`chromium /components/pagination/ 1`] = `
       </text>
     </code>
   </Pre>
-  <blockquote>
-    <paragraph>
-      <text>⚠️ Note that the</text>
-      <code>
-        <text>Pagination</text>
-      </code>
-      <text>
-        page prop starts at 1 to match the requirement of including the value in
-        the URL, while the
-      </text>
-      <code>
-        <text>TablePagination</text>
-      </code>
-      <text>
-        page prop stats at 0 to match the requirement of zero-based JavaScript
-        arrays that comes with rendering a lot of tabular data.
-      </text>
-    </paragraph>
-  </blockquote>
   <paragraph>
     <text>You can learn more about this use case in the</text>
     <link>table section</link>
@@ -15895,7 +15876,7 @@ exports[`chromium /components/text-fields/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <link>formik-material-ui</link>
-      <text>: Bindings for using Material-UI with</text>
+      <text>Bindings for using Material-UI with</text>
       <link>formik</link>
       <text>.</text>
     </listitem>
@@ -15904,7 +15885,7 @@ exports[`chromium /components/text-fields/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <link>redux-form-material-ui</link>
-      <text>: Bindings for using Material-UI with</text>
+      <text>Bindings for using Material-UI with</text>
       <link>Redux Form</link>
       <text>.</text>
     </listitem>
@@ -15913,7 +15894,7 @@ exports[`chromium /components/text-fields/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <link>mui-rff</link>
-      <text>: Bindings for using Material-UI with</text>
+      <text>Bindings for using Material-UI with</text>
       <link>React Final Form</link>
       <text>.</text>
     </listitem>
@@ -17971,7 +17952,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.2. View versions page.</link>
+      <link>v5.0.0-alpha.1. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
@@ -23285,16 +23266,6 @@ exports[`firefox /components/pagination/ 1`] = `
     rowsPerPage={rowsPerPage}
     onChangeRowsPerPage={handleChangeRowsPerPage} />
   </text>
-  <blockquote>
-    <paragraph>
-      <text>
-        ⚠️ Note that the Pagination page prop starts at 1 to match the
-        requirement of including the value in the URL, while the TablePagination
-        page prop stats at 0 to match the requirement of zero-based JavaScript
-        arrays that comes with rendering a lot of tabular data.
-      </text>
-    </paragraph>
-  </blockquote>
   <paragraph>
     <text>You can learn more about this use case in the</text>
     <link>table section</link>
@@ -29040,26 +29011,26 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • formik-material-ui : Bindings for using Material-UI with formik .
+      • formik-material-ui Bindings for using Material-UI with formik .
       <statictext>•</statictext>
       <link>formik-material-ui</link>
-      <text>: Bindings for using Material-UI with</text>
+      <text>Bindings for using Material-UI with</text>
       <link>formik</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • redux-form-material-ui : Bindings for using Material-UI with Redux Form
-      .<statictext>•</statictext>
+      • redux-form-material-ui Bindings for using Material-UI with Redux Form .
+      <statictext>•</statictext>
       <link>redux-form-material-ui</link>
-      <text>: Bindings for using Material-UI with</text>
+      <text>Bindings for using Material-UI with</text>
       <link>Redux Form</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • mui-rff : Bindings for using Material-UI with React Final Form .
+      • mui-rff Bindings for using Material-UI with React Final Form .
       <statictext>•</statictext>
       <link>mui-rff</link>
-      <text>: Bindings for using Material-UI with</text>
+      <text>Bindings for using Material-UI with</text>
       <link>React Final Form</link>
       <text>.</text>
     </listitem>
