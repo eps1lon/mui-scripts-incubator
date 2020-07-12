@@ -15810,7 +15810,9 @@ exports[`chromium /components/text-fields/ 1`] = `
   </paragraph>
   <Pre>
     <code>
-      <text>interfaceInputElement{focus():void;value?:string;}</text>
+      <text>
+        interface InputElement { focus(): void; value?: string; }
+      </text>
     </code>
   </Pre>
   <Pre>
@@ -15895,7 +15897,7 @@ exports[`chromium /components/text-fields/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <link>formik-material-ui</link>
-      <text>Bindings for using Material-UI with</text>
+      <text>: Bindings for using Material-UI with</text>
       <link>formik</link>
       <text>.</text>
     </listitem>
@@ -15904,7 +15906,7 @@ exports[`chromium /components/text-fields/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <link>redux-form-material-ui</link>
-      <text>Bindings for using Material-UI with</text>
+      <text>: Bindings for using Material-UI with</text>
       <link>Redux Form</link>
       <text>.</text>
     </listitem>
@@ -15913,7 +15915,7 @@ exports[`chromium /components/text-fields/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <link>mui-rff</link>
-      <text>Bindings for using Material-UI with</text>
+      <text>: Bindings for using Material-UI with</text>
       <link>React Final Form</link>
       <text>.</text>
     </listitem>
@@ -16562,8 +16564,10 @@ exports[`chromium /components/tooltips/ 1`] = `
     <code>
       <text>
         <Tooltiptitle={longText}><ButtonclassName={classes.button}>Default
-        Width[300px]</Button></Tooltip><Tooltiptitle={longText}classes={{tooltip:classes.customWidth}}><ButtonclassName={classes.button}>Custom
-        Width[500px]</Button></Tooltip><Tooltiptitle={longText}classes={{tooltip:classes.noMaxWidth}}><ButtonclassName={classes.button}>No
+        Width
+        [300px]</Button></Tooltip><Tooltiptitle={longText}classes={{tooltip:classes.customWidth}}><ButtonclassName={classes.button}>Custom
+        Width
+        [500px]</Button></Tooltip><Tooltiptitle={longText}classes={{tooltip:classes.noMaxWidth}}><ButtonclassName={classes.button}>No
         wrapping</Button></Tooltip>
       </text>
     </code>
@@ -16703,7 +16707,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     <code>
       <text>
         <Tooltiptitle="You don't have permission to do
-        this"><span><Buttondisabled>ADisabled
+        this"><span><Buttondisabled>A Disabled
         Button</Button></span></Tooltip>
       </text>
     </code>
@@ -16870,7 +16874,8 @@ exports[`chromium /components/tooltips/ 1`] = `
   <Pre>
     <code>
       <text>
-        <Tooltiptitle="Add"enterDelay={500}leaveDelay={200}><Button>[500ms,200ms]</Button></Tooltip>
+        <Tooltiptitle="Add"enterDelay={500}leaveDelay={200}><Button>[500ms,
+        200ms]</Button></Tooltip>
       </text>
     </code>
   </Pre>
@@ -29040,26 +29045,26 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • formik-material-ui Bindings for using Material-UI with formik .
+      • formik-material-ui : Bindings for using Material-UI with formik .
       <statictext>•</statictext>
       <link>formik-material-ui</link>
-      <text>Bindings for using Material-UI with</text>
+      <text>: Bindings for using Material-UI with</text>
       <link>formik</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • redux-form-material-ui Bindings for using Material-UI with Redux Form .
-      <statictext>•</statictext>
+      • redux-form-material-ui : Bindings for using Material-UI with Redux Form
+      .<statictext>•</statictext>
       <link>redux-form-material-ui</link>
-      <text>Bindings for using Material-UI with</text>
+      <text>: Bindings for using Material-UI with</text>
       <link>Redux Form</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • mui-rff Bindings for using Material-UI with React Final Form .
+      • mui-rff : Bindings for using Material-UI with React Final Form .
       <statictext>•</statictext>
       <link>mui-rff</link>
-      <text>Bindings for using Material-UI with</text>
+      <text>: Bindings for using Material-UI with</text>
       <link>React Final Form</link>
       <text>.</text>
     </listitem>
