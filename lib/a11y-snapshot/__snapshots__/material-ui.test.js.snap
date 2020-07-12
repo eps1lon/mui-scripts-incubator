@@ -15810,7 +15810,9 @@ exports[`chromium /components/text-fields/ 1`] = `
   </paragraph>
   <Pre>
     <code>
-      <text>interfaceInputElement{focus():void;value?:string;}</text>
+      <text>
+        interface InputElement { focus(): void; value?: string; }
+      </text>
     </code>
   </Pre>
   <Pre>
@@ -16562,8 +16564,10 @@ exports[`chromium /components/tooltips/ 1`] = `
     <code>
       <text>
         <Tooltiptitle={longText}><ButtonclassName={classes.button}>Default
-        Width[300px]</Button></Tooltip><Tooltiptitle={longText}classes={{tooltip:classes.customWidth}}><ButtonclassName={classes.button}>Custom
-        Width[500px]</Button></Tooltip><Tooltiptitle={longText}classes={{tooltip:classes.noMaxWidth}}><ButtonclassName={classes.button}>No
+        Width
+        [300px]</Button></Tooltip><Tooltiptitle={longText}classes={{tooltip:classes.customWidth}}><ButtonclassName={classes.button}>Custom
+        Width
+        [500px]</Button></Tooltip><Tooltiptitle={longText}classes={{tooltip:classes.noMaxWidth}}><ButtonclassName={classes.button}>No
         wrapping</Button></Tooltip>
       </text>
     </code>
@@ -16703,7 +16707,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     <code>
       <text>
         <Tooltiptitle="You don't have permission to do
-        this"><span><Buttondisabled>ADisabled
+        this"><span><Buttondisabled>A Disabled
         Button</Button></span></Tooltip>
       </text>
     </code>
@@ -16870,7 +16874,8 @@ exports[`chromium /components/tooltips/ 1`] = `
   <Pre>
     <code>
       <text>
-        <Tooltiptitle="Add"enterDelay={500}leaveDelay={200}><Button>[500ms,200ms]</Button></Tooltip>
+        <Tooltiptitle="Add"enterDelay={500}leaveDelay={200}><Button>[500ms,
+        200ms]</Button></Tooltip>
       </text>
     </code>
   </Pre>
