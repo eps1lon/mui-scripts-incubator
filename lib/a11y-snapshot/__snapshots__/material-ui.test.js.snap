@@ -286,14 +286,14 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.2. View versions page.</link>
+      <link>v5.0.0-alpha.3. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v5.0.0-alpha.2</link>
+  <link>v5.0.0-alpha.3</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -8920,6 +8920,15 @@ exports[`chromium /components/rating/ 1`] = `
       Ratings provide insight regarding others’ opinions and experiences with a
       product. Users can also rate products they’ve purchased.
     </text>
+    <link>
+      Slack - Bring your team together with Slack, the collaboration hub for
+      work.
+      <text>
+        AdSlack- Bring your team together with Slack, the collaboration hub for
+        work.Get started
+      </text>
+    </link>
+    <text>ad byCarbon</text>
   </paragraph>
   <heading level="2">
     Simple ratings
@@ -10615,6 +10624,15 @@ exports[`chromium /components/slider 1`] = `
   </heading>
   <paragraph>
     <text>Sliders allow users to make selections from a range of values.</text>
+    <link>
+      Microsoft - Get 750 hours of virtual machine compute time, free each month
+      for a year.
+      <text>
+        AdMicrosoft- Get 750 hours of virtual machine compute time, free each
+        month for a year.Get started
+      </text>
+    </link>
+    <text>ad byCarbon</text>
   </paragraph>
   <paragraph>
     <link>Sliders</link>
@@ -13707,6 +13725,15 @@ exports[`chromium /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>Text fields let users enter and edit text.</text>
+    <link>
+      SimpliSafe - Protect your home with 24/7 security in under 30 minutes. No
+      installers needed.
+      <text>
+        AdSimpliSafe- Protect your home with 24/7 security in under 30 minutes.
+        No installers needed.Get started
+      </text>
+    </link>
+    <text>ad byCarbon</text>
   </paragraph>
   <paragraph>
     <link>Text fields</link>
@@ -16562,8 +16589,10 @@ exports[`chromium /components/tooltips/ 1`] = `
     <code>
       <text>
         <Tooltiptitle={longText}><ButtonclassName={classes.button}>Default
-        Width[300px]</Button></Tooltip><Tooltiptitle={longText}classes={{tooltip:classes.customWidth}}><ButtonclassName={classes.button}>Custom
-        Width[500px]</Button></Tooltip><Tooltiptitle={longText}classes={{tooltip:classes.noMaxWidth}}><ButtonclassName={classes.button}>No
+        Width
+        [300px]</Button></Tooltip><Tooltiptitle={longText}classes={{tooltip:classes.customWidth}}><ButtonclassName={classes.button}>Custom
+        Width
+        [500px]</Button></Tooltip><Tooltiptitle={longText}classes={{tooltip:classes.noMaxWidth}}><ButtonclassName={classes.button}>No
         wrapping</Button></Tooltip>
       </text>
     </code>
@@ -16703,7 +16732,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     <code>
       <text>
         <Tooltiptitle="You don't have permission to do
-        this"><span><Buttondisabled>ADisabled
+        this"><span><Buttondisabled>A Disabled
         Button</Button></span></Tooltip>
       </text>
     </code>
@@ -16870,7 +16899,8 @@ exports[`chromium /components/tooltips/ 1`] = `
   <Pre>
     <code>
       <text>
-        <Tooltiptitle="Add"enterDelay={500}leaveDelay={200}><Button>[500ms,200ms]</Button></Tooltip>
+        <Tooltiptitle="Add"enterDelay={500}leaveDelay={200}><Button>[500ms,
+        200ms]</Button></Tooltip>
       </text>
     </code>
   </Pre>
@@ -17971,7 +18001,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.2. View versions page.</link>
+      <link>v5.0.0-alpha.3. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
@@ -18754,6 +18784,14 @@ exports[`firefox /api/select/ 1`] = `
       The API documentation of the Select React component. Learn more about the
       props and the CSS customization points.
     </text>
+    <link>
+      <img value="https://server.ethicalads.io/proxy/click/1049/1tRByIqkOChEaLih/"></img>
+    </link>
+    <link>
+      EthicalAds is a developer-focused ad network from Read the Docs. Publisher
+      & Advertisers wanted.
+    </link>
+    <link>Ad by EthicalAds</link>
   </paragraph>
   <heading level="2">
     Import
@@ -23366,6 +23404,11 @@ exports[`firefox /components/pickers 1`] = `
       Date pickers and Time pickers provide a simple way to select a single
       value from a pre-determined set.
     </text>
+    <link>
+      AdMicrosoft - Get 750 hours of virtual machine compute time, free each
+      month for a year. Get started
+    </link>
+    <text>ad by Carbon</text>
   </paragraph>
   <list>
     <listitem>
