@@ -286,14 +286,14 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.2. View versions page.</link>
+      <link>v5.0.0-alpha.3. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v5.0.0-alpha.2</link>
+  <link>v5.0.0-alpha.3</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -8354,6 +8354,15 @@ exports[`chromium /components/radio-buttons 1`] = `
   </heading>
   <paragraph>
     <text>Radio buttons allow the user to select one option from a set.</text>
+    <link>
+      Slack - Bring your team together with Slack, the collaboration hub for
+      work.
+      <text>
+        AdSlack- Bring your team together with Slack, the collaboration hub for
+        work.Get started
+      </text>
+    </link>
+    <text>ad byCarbon</text>
   </paragraph>
   <paragraph>
     <text>Use</text>
@@ -17971,7 +17980,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.2. View versions page.</link>
+      <link>v5.0.0-alpha.3. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
@@ -29670,6 +29679,11 @@ exports[`firefox /components/transfer-list 1`] = `
       A transfer list (or "shuttle") enables the user to move one or
       more list items between lists.
     </text>
+    <link>
+      AdSlack - Bring your team together with Slack, the collaboration hub for
+      work. Get started
+    </link>
+    <text>ad by Carbon</text>
   </paragraph>
   <heading level="2">
     Simple Transfer List
