@@ -8920,15 +8920,6 @@ exports[`chromium /components/rating/ 1`] = `
       Ratings provide insight regarding others’ opinions and experiences with a
       product. Users can also rate products they’ve purchased.
     </text>
-    <link>
-      Slack - Bring your team together with Slack, the collaboration hub for
-      work.
-      <text>
-        AdSlack- Bring your team together with Slack, the collaboration hub for
-        work.Get started
-      </text>
-    </link>
-    <text>ad byCarbon</text>
   </paragraph>
   <heading level="2">
     Simple ratings
@@ -10624,15 +10615,6 @@ exports[`chromium /components/slider 1`] = `
   </heading>
   <paragraph>
     <text>Sliders allow users to make selections from a range of values.</text>
-    <link>
-      Microsoft - Get 750 hours of virtual machine compute time, free each month
-      for a year.
-      <text>
-        AdMicrosoft- Get 750 hours of virtual machine compute time, free each
-        month for a year.Get started
-      </text>
-    </link>
-    <text>ad byCarbon</text>
   </paragraph>
   <paragraph>
     <link>Sliders</link>
@@ -13725,15 +13707,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>Text fields let users enter and edit text.</text>
-    <link>
-      SimpliSafe - Protect your home with 24/7 security in under 30 minutes. No
-      installers needed.
-      <text>
-        AdSimpliSafe- Protect your home with 24/7 security in under 30 minutes.
-        No installers needed.Get started
-      </text>
-    </link>
-    <text>ad byCarbon</text>
   </paragraph>
   <paragraph>
     <link>Text fields</link>
@@ -18784,14 +18757,6 @@ exports[`firefox /api/select/ 1`] = `
       The API documentation of the Select React component. Learn more about the
       props and the CSS customization points.
     </text>
-    <link>
-      <img value="https://server.ethicalads.io/proxy/click/1049/1tRByIqkOChEaLih/"></img>
-    </link>
-    <link>
-      EthicalAds is a developer-focused ad network from Read the Docs. Publisher
-      & Advertisers wanted.
-    </link>
-    <link>Ad by EthicalAds</link>
   </paragraph>
   <heading level="2">
     Import
@@ -23404,11 +23369,6 @@ exports[`firefox /components/pickers 1`] = `
       Date pickers and Time pickers provide a simple way to select a single
       value from a pre-determined set.
     </text>
-    <link>
-      AdMicrosoft - Get 750 hours of virtual machine compute time, free each
-      month for a year. Get started
-    </link>
-    <text>ad by Carbon</text>
   </paragraph>
   <list>
     <listitem>
