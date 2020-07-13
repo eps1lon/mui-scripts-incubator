@@ -286,14 +286,14 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.2. View versions page.</link>
+      <link>v5.0.0-alpha.3. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v5.0.0-alpha.2</link>
+  <link>v5.0.0-alpha.3</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -384,12 +384,7 @@ exports[`chromium /api/button/ 1`] = `
     <text>Import</text>
   </heading>
   <Pre>
-    <code>
-      <text>
-        importButtonfrom'@material-ui/core/Button';//
-        orimport{Button}from'@material-ui/core';
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <paragraph>
     <text>You can learn more about the difference by</text>
@@ -403,9 +398,7 @@ exports[`chromium /api/button/ 1`] = `
   </heading>
   <paragraph>
     <text>The</text>
-    <code>
-      <text>MuiButton</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>name can be used for providing</text>
     <link>default props</link>
     <text>or</text>
@@ -533,9 +526,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         If true, the button will be disabled.
         <text>If</text>
-        <code>
-          <text>true</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>, the button will be disabled.</text>
       </gridcell>
     </row>
@@ -555,9 +546,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         If true, no elevation is used.
         <text>If</text>
-        <code>
-          <text>true</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>, no elevation is used.</text>
       </gridcell>
     </row>
@@ -577,9 +566,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         If true, the keyboard focus ripple will be disabled.
         <text>If</text>
-        <code>
-          <text>true</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>, the keyboard focus ripple will be disabled.</text>
       </gridcell>
     </row>
@@ -598,18 +585,14 @@ exports[`chromium /api/button/ 1`] = `
         is no styling for :focus-visible by default. Be sure to highlight the
         element by applying separate styles with the focusVisibleClassName.
         <text>If</text>
-        <code>
-          <text>true</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>, the ripple effect will be disabled.</text>
         <LineBreak></LineBreak>
         <text>
           ⚠️ Without a ripple there is no styling for :focus-visible by default.
           Be sure to highlight the element by applying separate styles with the
         </text>
-        <code>
-          <text>focusVisibleClassName</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -644,9 +627,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         If true, the button will take up the full width of its container.
         <text>If</text>
-        <code>
-          <text>true</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>, the button will take up the full width of its container.</text>
       </gridcell>
     </row>
@@ -666,9 +647,7 @@ exports[`chromium /api/button/ 1`] = `
         <text>
           The URL to link to when the button is clicked. If defined, an
         </text>
-        <code>
-          <text>a</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>element will be used as the root node.</text>
       </gridcell>
     </row>
@@ -692,9 +671,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         The size of the button. small is equivalent to the dense button styling.
         <text>The size of the button.</text>
-        <code>
-          <text>small</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>is equivalent to the dense button styling.</text>
       </gridcell>
     </row>
@@ -738,9 +715,7 @@ exports[`chromium /api/button/ 1`] = `
   </table>
   <paragraph>
     <text>The</text>
-    <code>
-      <text>ref</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>is forwarded to the root element.</text>
   </paragraph>
   <paragraph>
@@ -808,9 +783,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         Styles applied to the root element if variant="text".
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>variant="text"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -827,13 +800,9 @@ exports[`chromium /api/button/ 1`] = `
         Styles applied to the root element if variant="text" and
         color="primary".
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>variant="text"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>and</text>
-        <code>
-          <text>color="primary"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -850,13 +819,9 @@ exports[`chromium /api/button/ 1`] = `
         Styles applied to the root element if variant="text" and
         color="secondary".
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>variant="text"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>and</text>
-        <code>
-          <text>color="secondary"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -872,9 +837,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         Styles applied to the root element if variant="outlined".
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>variant="outlined"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -891,13 +854,9 @@ exports[`chromium /api/button/ 1`] = `
         Styles applied to the root element if variant="outlined" and
         color="primary".
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>variant="outlined"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>and</text>
-        <code>
-          <text>color="primary"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -914,13 +873,9 @@ exports[`chromium /api/button/ 1`] = `
         Styles applied to the root element if variant="outlined" and
         color="secondary".
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>variant="outlined"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>and</text>
-        <code>
-          <text>color="secondary"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -936,9 +891,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         Styles applied to the root element if variant="contained".
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>variant="contained"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -955,13 +908,9 @@ exports[`chromium /api/button/ 1`] = `
         Styles applied to the root element if variant="contained" and
         color="primary".
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>variant="contained"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>and</text>
-        <code>
-          <text>color="primary"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -978,13 +927,9 @@ exports[`chromium /api/button/ 1`] = `
         Styles applied to the root element if variant="contained" and
         color="secondary".
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>variant="contained"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>and</text>
-        <code>
-          <text>color="secondary"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -1000,9 +945,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         Styles applied to the root element if disableElevation={true}.
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>disableElevation={true}</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -1036,9 +979,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         Pseudo-class applied to the root element if disabled={true}.
         <text>Pseudo-class applied to the root element if</text>
-        <code>
-          <text>disabled={true}</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -1054,9 +995,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         Styles applied to the root element if color="inherit".
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>color="inherit"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -1073,13 +1012,9 @@ exports[`chromium /api/button/ 1`] = `
         Styles applied to the root element if size="small" and
         variant="text".
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>size="small"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>and</text>
-        <code>
-          <text>variant="text"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -1096,13 +1031,9 @@ exports[`chromium /api/button/ 1`] = `
         Styles applied to the root element if size="large" and
         variant="text".
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>size="large"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>and</text>
-        <code>
-          <text>variant="text"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -1119,13 +1050,9 @@ exports[`chromium /api/button/ 1`] = `
         Styles applied to the root element if size="small" and
         variant="outlined".
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>size="small"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>and</text>
-        <code>
-          <text>variant="outlined"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -1142,13 +1069,9 @@ exports[`chromium /api/button/ 1`] = `
         Styles applied to the root element if size="large" and
         variant="outlined".
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>size="large"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>and</text>
-        <code>
-          <text>variant="outlined"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -1165,13 +1088,9 @@ exports[`chromium /api/button/ 1`] = `
         Styles applied to the root element if size="small" and
         variant="contained".
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>size="small"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>and</text>
-        <code>
-          <text>variant="contained"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -1188,13 +1107,9 @@ exports[`chromium /api/button/ 1`] = `
         Styles applied to the root element if size="large" and
         variant="contained".
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>size="large"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>and</text>
-        <code>
-          <text>variant="contained"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -1210,9 +1125,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         Styles applied to the root element if size="small".
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>size="small"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -1228,9 +1141,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         Styles applied to the root element if size="large".
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>size="large"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -1246,9 +1157,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         Styles applied to the root element if fullWidth={true}.
         <text>Styles applied to the root element if</text>
-        <code>
-          <text>fullWidth={true}</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -1293,9 +1202,7 @@ exports[`chromium /api/button/ 1`] = `
         Styles applied to the icon element if supplied and
         size="small".
         <text>Styles applied to the icon element if supplied and</text>
-        <code>
-          <text>size="small"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -1312,9 +1219,7 @@ exports[`chromium /api/button/ 1`] = `
         Styles applied to the icon element if supplied and
         size="medium".
         <text>Styles applied to the icon element if supplied and</text>
-        <code>
-          <text>size="medium"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -1331,9 +1236,7 @@ exports[`chromium /api/button/ 1`] = `
         Styles applied to the icon element if supplied and
         size="large".
         <text>Styles applied to the icon element if supplied and</text>
-        <code>
-          <text>size="large"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -1352,9 +1255,7 @@ exports[`chromium /api/button/ 1`] = `
       <text>With a rule name of the</text>
       <link>
         classes object prop
-        <code>
-          <text>classes</text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
       <text>.</text>
     </listitem>
@@ -1373,9 +1274,7 @@ exports[`chromium /api/button/ 1`] = `
       <text>With a theme and an</text>
       <link>
         overrides property
-        <code>
-          <text>overrides</text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
       <text>.</text>
     </listitem>
@@ -1458,12 +1357,7 @@ exports[`chromium /api/select/ 1`] = `
     <text>Import</text>
   </heading>
   <Pre>
-    <code>
-      <text>
-        importSelectfrom'@material-ui/core/Select';//
-        orimport{Select}from'@material-ui/core';
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <paragraph>
     <text>You can learn more about the difference by</text>
@@ -1477,9 +1371,7 @@ exports[`chromium /api/select/ 1`] = `
   </heading>
   <paragraph>
     <text>The</text>
-    <code>
-      <text>MuiSelect</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>name can be used for providing</text>
     <link>default props</link>
     <text>or</text>
@@ -1528,9 +1420,7 @@ exports[`chromium /api/select/ 1`] = `
         the items inside the menu, otherwise it will be at least the width of
         the select input.
         <text>If</text>
-        <code>
-          <text>true</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>
           , the width of the popover will automatically be set according to the
           items inside the menu, otherwise it will be at least the width of the
@@ -1555,31 +1445,19 @@ exports[`chromium /api/select/ 1`] = `
         <text>
           The option elements to populate the select with. Can be some
         </text>
-        <code>
-          <text>MenuItem</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>when</text>
-        <code>
-          <text>native</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>is false and</text>
-        <code>
-          <text>option</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>when</text>
-        <code>
-          <text>native</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>is true.</text>
         <LineBreak></LineBreak>
         <text>⚠️The</text>
-        <code>
-          <text>MenuItem</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>elementsmustbe direct descendants when</text>
-        <code>
-          <text>native</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>is false.</text>
       </gridcell>
     </row>
@@ -1638,29 +1516,21 @@ exports[`chromium /api/select/ 1`] = `
         are selected. You can only use it when the native prop is false
         (default).
         <text>If</text>
-        <code>
-          <text>true</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>, a value is displayed even if no items are selected.</text>
         <LineBreak></LineBreak>
         <text>
           In order to display a meaningful value, a function should be passed to
           the
         </text>
-        <code>
-          <text>renderValue</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>
           prop which returns the value to be displayed when no items are
           selected. You can only use it when the
         </text>
-        <code>
-          <text>native</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>prop is</text>
-        <code>
-          <text>false</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>(default).</text>
       </gridcell>
     </row>
@@ -1695,17 +1565,11 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell>
         The id of the wrapper element or the select element when native.
         <text>The</text>
-        <code>
-          <text>id</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>of the wrapper element or the</text>
-        <code>
-          <text>select</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>element when</text>
-        <code>
-          <text>native</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -1722,13 +1586,9 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell>
         An Input element; does not have to be a material-ui specific Input.
         <text>An</text>
-        <code>
-          <text>Input</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>element; does not have to be a material-ui specific</text>
-        <code>
-          <text>Input</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -1747,21 +1607,13 @@ exports[`chromium /api/select/ 1`] = `
         attributes are applied on the select element.
         <link>Attributes</link>
         <text>applied to the</text>
-        <code>
-          <text>input</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>element. When</text>
-        <code>
-          <text>native</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>is</text>
-        <code>
-          <text>true</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>, the attributes are applied on the</text>
-        <code>
-          <text>select</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>element.</text>
       </gridcell>
     </row>
@@ -1833,9 +1685,7 @@ exports[`chromium /api/select/ 1`] = `
         <text>Props applied to the</text>
         <link>
           Menu
-          <code>
-            <text>Menu</text>
-          </code>
+          <code>$SOME_CODE</code>
         </link>
         <text>element.</text>
       </gridcell>
@@ -1857,13 +1707,9 @@ exports[`chromium /api/select/ 1`] = `
         If true, value must be an array and the menu will support multiple
         selections.
         <text>If</text>
-        <code>
-          <text>true</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>,</text>
-        <code>
-          <text>value</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>
           must be an array and the menu will support multiple selections.
         </text>
@@ -1885,13 +1731,9 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell>
         If true, the component will be using a native select element.
         <text>If</text>
-        <code>
-          <text>true</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>, the component will be using a native</text>
-        <code>
-          <text>select</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>element.</text>
       </gridcell>
     </row>
@@ -1916,27 +1758,19 @@ exports[`chromium /api/select/ 1`] = `
         <LineBreak></LineBreak>
         <text>Signature:</text>
         <LineBreak></LineBreak>
-        <code>
-          <text>function(event: object, child?: object) => void</text>
-        </code>
+        <code>$SOME_CODE</code>
         <LineBreak></LineBreak>
         <text>
           event:The event source of the callback. You can pull out the new value
           by accessing
         </text>
-        <code>
-          <text>event.target.value</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>(any).</text>
         <LineBreak></LineBreak>
         <text>child:The react element that was selected when</text>
-        <code>
-          <text>native</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>is</text>
-        <code>
-          <text>false</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>(default).</text>
       </gridcell>
     </row>
@@ -1962,9 +1796,7 @@ exports[`chromium /api/select/ 1`] = `
         <LineBreak></LineBreak>
         <text>Signature:</text>
         <LineBreak></LineBreak>
-        <code>
-          <text>function(event: object) => void</text>
-        </code>
+        <code>$SOME_CODE</code>
         <LineBreak></LineBreak>
         <text>event:The event source of the callback.</text>
       </gridcell>
@@ -1991,9 +1823,7 @@ exports[`chromium /api/select/ 1`] = `
         <LineBreak></LineBreak>
         <text>Signature:</text>
         <LineBreak></LineBreak>
-        <code>
-          <text>function(event: object) => void</text>
-        </code>
+        <code>$SOME_CODE</code>
         <LineBreak></LineBreak>
         <text>event:The event source of the callback.</text>
       </gridcell>
@@ -2012,17 +1842,11 @@ exports[`chromium /api/select/ 1`] = `
         Control select open state. You can only use it when the native prop is
         false (default).
         <text>Control</text>
-        <code>
-          <text>select</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>open state. You can only use it when the</text>
-        <code>
-          <text>native</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>prop is</text>
-        <code>
-          <text>false</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>(default).</text>
       </gridcell>
     </row>
@@ -2041,26 +1865,18 @@ exports[`chromium /api/select/ 1`] = `
         false (default). Signature: function(value: any) => ReactNode value:
         The value provided to the component.
         <text>Render the selected value. You can only use it when the</text>
-        <code>
-          <text>native</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>prop is</text>
-        <code>
-          <text>false</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>(default).</text>
         <LineBreak></LineBreak>
         <LineBreak></LineBreak>
         <text>Signature:</text>
         <LineBreak></LineBreak>
-        <code>
-          <text>function(value: any) => ReactNode</text>
-        </code>
+        <code>$SOME_CODE</code>
         <LineBreak></LineBreak>
         <text>value:The</text>
-        <code>
-          <text>value</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>provided to the component.</text>
       </gridcell>
     </row>
@@ -2101,17 +1917,11 @@ exports[`chromium /api/select/ 1`] = `
           The input value. Providing an empty string will select no options.
           This prop is required when the
         </text>
-        <code>
-          <text>native</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>prop is</text>
-        <code>
-          <text>false</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>(default). Set to an empty string</text>
-        <code>
-          <text>''</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>
           if you don't want any of the available options to be selected.
         </text>
@@ -2149,9 +1959,7 @@ exports[`chromium /api/select/ 1`] = `
   </table>
   <paragraph>
     <text>The</text>
-    <code>
-      <text>ref</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>is forwarded to the root element.</text>
   </paragraph>
   <paragraph>
@@ -2191,9 +1999,7 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell>
         Styles applied to the select component root class.
         <text>Styles applied to the select component</text>
-        <code>
-          <text>root</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>class.</text>
       </gridcell>
     </row>
@@ -2209,9 +2015,7 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell>
         Styles applied to the select component select class.
         <text>Styles applied to the select component</text>
-        <code>
-          <text>select</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>class.</text>
       </gridcell>
     </row>
@@ -2227,9 +2031,7 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell>
         Styles applied to the select component if variant="filled".
         <text>Styles applied to the select component if</text>
-        <code>
-          <text>variant="filled"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -2245,9 +2047,7 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell>
         Styles applied to the select component if variant="outlined".
         <text>Styles applied to the select component if</text>
-        <code>
-          <text>variant="outlined"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -2263,9 +2063,7 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell>
         Styles applied to the select component selectMenu class.
         <text>Styles applied to the select component</text>
-        <code>
-          <text>selectMenu</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>class.</text>
       </gridcell>
     </row>
@@ -2281,9 +2079,7 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell>
         Pseudo-class applied to the select component disabled class.
         <text>Pseudo-class applied to the select component</text>
-        <code>
-          <text>disabled</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>class.</text>
       </gridcell>
     </row>
@@ -2327,9 +2123,7 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell>
         Styles applied to the icon component if variant="filled".
         <text>Styles applied to the icon component if</text>
-        <code>
-          <text>variant="filled"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -2345,9 +2139,7 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell>
         Styles applied to the icon component if variant="outlined".
         <text>Styles applied to the icon component if</text>
-        <code>
-          <text>variant="outlined"</text>
-        </code>
+        <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
@@ -2380,9 +2172,7 @@ exports[`chromium /api/select/ 1`] = `
       <text>With a rule name of the</text>
       <link>
         classes object prop
-        <code>
-          <text>classes</text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
       <text>.</text>
     </listitem>
@@ -2401,9 +2191,7 @@ exports[`chromium /api/select/ 1`] = `
       <text>With a theme and an</text>
       <link>
         overrides property
-        <code>
-          <text>overrides</text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
       <text>.</text>
     </listitem>
@@ -2536,11 +2324,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Breadcrumbsaria-label="breadcrumb"><Linkcolor="inherit"href="/"onClick={handleClick}>Material-UI</Link><Linkcolor="inherit"href="/getting-started/installation/"onClick={handleClick}>Core</Link><Typographycolor="textPrimary">Breadcrumb</Typography></Breadcrumbs>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Active last breadcrumb
@@ -2850,12 +2634,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <BreadcrumbsmaxItems={2}aria-label="breadcrumb"><Linkcolor="inherit"href="#"onClick={handleClick}>Home</Link><Linkcolor="inherit"href="#"onClick={handleClick}>Catalog</Link><Linkcolor="inherit"href="#"onClick={handleClick}>Accessories</Link><Linkcolor="inherit"href="#"onClick={handleClick}>New
-        Collection</Link><Typographycolor="textPrimary">Belts</Typography></Breadcrumbs>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Customized breadcrumbs
@@ -3038,13 +2817,9 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </paragraph>
   <paragraph>
     <text>Be sure to add a</text>
-    <code>
-      <text>aria-label</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>description on the</text>
-    <code>
-      <text>Breadcrumbs</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>component.</text>
   </paragraph>
   <paragraph>
@@ -3056,9 +2831,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
         •<text>•</text>
       </ListMarker>
       <text>The set of links is structured using an ordered list (</text>
-      <code>
-        <text><ol></text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>element).</text>
     </listitem>
     <listitem level="1">
@@ -3069,9 +2842,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
         To prevent screen reader announcement of the visual separators between
         links, they are hidden with
       </text>
-      <code>
-        <text>aria-hidden</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>.</text>
     </listitem>
     <listitem level="1">
@@ -3079,9 +2850,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
         •<text>•</text>
       </ListMarker>
       <text>A nav element labeled with</text>
-      <code>
-        <text>aria-label</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>
         identifies the structure as a breadcrumb trail and makes it a navigation
         landmark so that it is easy to locate.
@@ -3100,9 +2869,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </ListMarker>
       <link>
         <Breadcrumbs />
-        <code>
-          <text><Breadcrumbs /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -3111,9 +2878,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </ListMarker>
       <link>
         <Link />
-        <code>
-          <text><Link /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -3122,9 +2887,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </ListMarker>
       <link>
         <Typography />
-        <code>
-          <text><Typography /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
   </list>
@@ -3420,9 +3183,7 @@ exports[`chromium /components/button-group/ 1`] = `
     <text>Split button</text>
   </heading>
   <paragraph>
-    <code>
-      <text>ButtonGroup</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       can also be used to create a split button. The dropdown can change the
       button action (as in this example), or be used to immediately trigger a
@@ -3482,9 +3243,7 @@ exports[`chromium /components/button-group/ 1`] = `
   </heading>
   <paragraph>
     <text>You can remove the elevation with the</text>
-    <code>
-      <text>disableElevation</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
   <button>
@@ -3533,11 +3292,7 @@ exports[`chromium /components/button-group/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <ButtonGroupdisableElevationvariant="contained"color="primary"><Button>One</Button><Button>Two</Button></ButtonGroup>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     API
@@ -3551,9 +3306,7 @@ exports[`chromium /components/button-group/ 1`] = `
       </ListMarker>
       <link>
         <Button />
-        <code>
-          <text><Button /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -3562,9 +3315,7 @@ exports[`chromium /components/button-group/ 1`] = `
       </ListMarker>
       <link>
         <ButtonGroup />
-        <code>
-          <text><ButtonGroup /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
   </list>
@@ -3704,17 +3455,11 @@ exports[`chromium /components/buttons/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Buttonvariant="contained">Primary</Button><Buttonvariant="contained"color="secondary">Secondary</Button><Buttonvariant="contained"disabled>Disabled</Button><Buttonvariant="contained"href="#contained-buttons">Link</Button>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <paragraph>
     <text>You can remove the elevation with the</text>
-    <code>
-      <text>disableElevation</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
   <button>
@@ -3757,12 +3502,7 @@ exports[`chromium /components/buttons/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Buttonvariant="contained"disableElevation>Disable
-        elevation</Button>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Text Buttons
@@ -3846,11 +3586,7 @@ exports[`chromium /components/buttons/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Button>Primary</Button><Buttoncolor="secondary">Secondary</Button><Buttondisabled>Disabled</Button><Buttonhref="#text-buttons">Link</Button>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Outlined Buttons
@@ -3922,11 +3658,7 @@ exports[`chromium /components/buttons/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Buttonvariant="outlined">Primary</Button><Buttonvariant="outlined"color="secondary">Secondary</Button><Buttonvariant="outlined"disabled>Disabled</Button><Buttonvariant="outlined"href="#outlined-buttons">Link</Button>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Handling clicks
@@ -3935,18 +3667,11 @@ exports[`chromium /components/buttons/ 1`] = `
   </heading>
   <paragraph>
     <text>All components accept an</text>
-    <code>
-      <text>onClick</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>handler that is applied to the root DOM element.</text>
   </paragraph>
   <Pre>
-    <code>
-      <text>
-        <ButtononClick={()=>{alert('clicked');}}>Click
-        me</Button>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <paragraph>
     <text>Note that the documentation</text>
@@ -4015,9 +3740,7 @@ exports[`chromium /components/buttons/ 1`] = `
   </heading>
   <paragraph>
     <text>Fancy larger or smaller buttons? Use the</text>
-    <code>
-      <text>size</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>property.</text>
   </paragraph>
   <button>
@@ -4251,15 +3974,7 @@ exports[`chromium /components/buttons/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <IconButtonaria-label="delete"><DeleteIcon/></IconButton><IconButtonaria-label="delete"disabledcolor="primary"><DeleteIcon/></IconButton><IconButtoncolor="secondary"aria-label="add
-        an
-        alarm"><AlarmIcon/></IconButton><IconButtoncolor="primary"aria-label="add
-        to shopping
-        cart"><AddShoppingCartIcon/></IconButton>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Customized buttons
@@ -4389,12 +4104,7 @@ exports[`chromium /components/buttons/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <LoadingButtonvariant="outlined"pending>Submit</LoadingButton><LoadingButtonvariant="outlined"pendingpendingIndicator="Loading...">Fetch
-        data</LoadingButton><LoadingButtonvariant="outlined"pendingpendingPosition="start"startIcon={<SaveIcon/>}>Save</LoadingButton>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <paragraph>
     <text>
@@ -4467,9 +4177,7 @@ exports[`chromium /components/buttons/ 1`] = `
       The Text Buttons, Contained Buttons, Floating Action Buttons and Icon
       Buttons are built on top of the same component: the
     </text>
-    <code>
-      <text>ButtonBase</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       . You can take advantage of this lower level component to build custom
       interactions.
@@ -4532,26 +4240,18 @@ exports[`chromium /components/buttons/ 1`] = `
       One common use case is to use the button to trigger navigation to a new
       page. The
     </text>
-    <code>
-      <text>ButtonBase</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>component provides a property to handle this use case:</text>
-    <code>
-      <text>component</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>. However for certain focus polyfills</text>
-    <code>
-      <text>ButtonBase</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       requires the DOM node of the provided component. This is achieved by
       attaching a ref to the component and expecting that the component forwards
       this ref to the underlying DOM node. Given that many of the interactive
       components rely on
     </text>
-    <code>
-      <text>ButtonBase</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>, you should be able to take advantage of it everywhere.</text>
   </paragraph>
   <paragraph>
@@ -4571,18 +4271,14 @@ exports[`chromium /components/buttons/ 1`] = `
   </heading>
   <paragraph>
     <text>The ButtonBase component sets</text>
-    <code>
-      <text>pointer-events: none;</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       on disabled buttons, which prevents the appearance of a disabled cursor.
     </text>
   </paragraph>
   <paragraph>
     <text>If you wish to use</text>
-    <code>
-      <text>not-allowed</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>, you have two options:</text>
   </paragraph>
   <list>
@@ -4595,18 +4291,12 @@ exports[`chromium /components/buttons/ 1`] = `
         CSS only. You can remove the pointer events style on the disabled state
         of the
       </text>
-      <code>
-        <text><button></text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>element:</text>
     </listitem>
   </list>
   <Pre>
-    <code>
-      <text>
-        .MuiButtonBase-root:disabled{cursor:not-allowed;pointer-events:auto;}
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <paragraph>
     <text>However:</text>
@@ -4617,9 +4307,7 @@ exports[`chromium /components/buttons/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <text>You should add</text>
-      <code>
-        <text>pointer-events: none;</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>back when you need to display</text>
       <link>tooltips on disabled elements</link>
       <text>.</text>
@@ -4632,9 +4320,7 @@ exports[`chromium /components/buttons/ 1`] = `
         The cursor won't change if you render something other than a button
         element, for instance, a link
       </text>
-      <code>
-        <text><a></text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>element.</text>
     </listitem>
   </list>
@@ -4648,19 +4334,13 @@ exports[`chromium /components/buttons/ 1`] = `
     </listitem>
   </list>
   <Pre>
-    <code>
-      <text>
-        <spanstyle={{cursor:'not-allowed'}}><Buttoncomponent={Link}disabled>disabled</Button></span>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <paragraph>
     <text>
       This has the advantage of supporting any element, for instance, a link
     </text>
-    <code>
-      <text><a></text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>element.</text>
   </paragraph>
   <heading level="2">
@@ -4675,9 +4355,7 @@ exports[`chromium /components/buttons/ 1`] = `
       </ListMarker>
       <link>
         <Button />
-        <code>
-          <text><Button /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -4686,9 +4364,7 @@ exports[`chromium /components/buttons/ 1`] = `
       </ListMarker>
       <link>
         <ButtonBase />
-        <code>
-          <text><ButtonBase /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -4697,9 +4373,7 @@ exports[`chromium /components/buttons/ 1`] = `
       </ListMarker>
       <link>
         <IconButton />
-        <code>
-          <text><IconButton /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -4708,9 +4382,7 @@ exports[`chromium /components/buttons/ 1`] = `
       </ListMarker>
       <link>
         <LoadingButton />
-        <code>
-          <text><LoadingButton /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
   </list>
@@ -4824,13 +4496,9 @@ exports[`chromium /components/checkboxes/ 1`] = `
     <text>Checkbox with FormControlLabel</text>
   </heading>
   <paragraph>
-    <code>
-      <text>Checkbox</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>can be provided with a label thanks to the</text>
-    <code>
-      <text>FormControlLabel</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>component.</text>
   </paragraph>
   <button>
@@ -4914,9 +4582,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
     <text>Checkboxes with FormGroup</text>
   </heading>
   <paragraph>
-    <code>
-      <text>FormGroup</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       is a helpful wrapper used to group selection controls components that
       provides an easier API.
@@ -5160,9 +4826,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
         All form controls should have labels, and this includes radio buttons,
         checkboxes, and switches. In most cases, this is done by using the
       </text>
-      <code>
-        <text><label></text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>element (</text>
       <link>FormControlLabel</link>
       <text>).</text>
@@ -5176,31 +4840,18 @@ exports[`chromium /components/checkboxes/ 1`] = `
         directly to the input component. In this case, you can apply the
         additional attribute (e.g.
       </text>
-      <code>
-        <text>aria-label</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>,</text>
-      <code>
-        <text>aria-labelledby</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>,</text>
-      <code>
-        <text>title</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>) via the</text>
-      <code>
-        <text>inputProps</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>property.</text>
     </listitem>
   </list>
   <Pre>
-    <code>
-      <text>
-        <Checkboxvalue="checkedA"inputProps={{'aria-label':'Checkbox
-        A',}}/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     API
@@ -5214,9 +4865,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
       </ListMarker>
       <link>
         <Checkbox />
-        <code>
-          <text><Checkbox /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -5225,9 +4874,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
       </ListMarker>
       <link>
         <FormControl />
-        <code>
-          <text><FormControl /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -5236,9 +4883,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
       </ListMarker>
       <link>
         <FormControlLabel />
-        <code>
-          <text><FormControlLabel /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -5247,9 +4892,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
       </ListMarker>
       <link>
         <FormGroup />
-        <code>
-          <text><FormGroup /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -5258,9 +4901,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
       </ListMarker>
       <link>
         <FormLabel />
-        <code>
-          <text><FormLabel /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
   </list>
@@ -5394,13 +5035,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Typographyvariant="subtitle1">Selected:{selectedValue}</Typography><br/><Buttonvariant="outlined"onClick={handleClickOpen}>Open
-        simple
-        dialog</Button><SimpleDialogselectedValue={selectedValue}open={open}onClose={handleClose}/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Alerts
@@ -5511,9 +5146,7 @@ exports[`chromium /components/dialogs/ 1`] = `
   </heading>
   <paragraph>
     <text>You can also swap out the transition, the next example uses</text>
-    <code>
-      <text>Slide</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>.</text>
   </paragraph>
   <button>
@@ -5713,21 +5346,13 @@ exports[`chromium /components/dialogs/ 1`] = `
   </heading>
   <paragraph>
     <text>You can set a dialog maximum width by using the</text>
-    <code>
-      <text>maxWidth</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>enumerable in combination with the</text>
-    <code>
-      <text>fullWidth</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>boolean. When the</text>
-    <code>
-      <text>fullWidth</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>property is true, the dialog will adapt based on the</text>
-    <code>
-      <text>maxWidth</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>value.</text>
   </paragraph>
   <button>
@@ -5778,18 +5403,12 @@ exports[`chromium /components/dialogs/ 1`] = `
     <text>You may make a dialog responsively full screen using</text>
     <link>
       useMediaQuery
-      <code>
-        <text>useMediaQuery</text>
-      </code>
+      <code>$SOME_CODE</code>
     </link>
     <text>.</text>
   </paragraph>
   <Pre>
-    <code>
-      <text>
-        importuseMediaQueryfrom'@material-ui/core/useMediaQuery';functionMyComponent(){consttheme=useTheme();constfullScreen=useMediaQuery(theme.breakpoints.down('sm'));return<DialogfullScreen={fullScreen}/>;}
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -5912,17 +5531,11 @@ exports[`chromium /components/dialogs/ 1`] = `
     <text>You can create a draggable dialog by using</text>
     <link>react-draggable</link>
     <text>. To do so, you can pass the imported</text>
-    <code>
-      <text>Draggable</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>component as the</text>
-    <code>
-      <text>PaperComponent</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>of the</text>
-    <code>
-      <text>Dialog</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>component. This will make the entire dialog draggable.</text>
   </paragraph>
   <button>
@@ -5980,18 +5593,14 @@ exports[`chromium /components/dialogs/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <code>
-        <text>scroll=paper</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>the content of the dialog scrolls within the paper element.</text>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <code>
-        <text>scroll=body</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>the content of the dialog scrolls within the body element.</text>
     </listitem>
   </list>
@@ -6073,9 +5682,7 @@ exports[`chromium /components/dialogs/ 1`] = `
       </ListMarker>
       <link>
         <Dialog />
-        <code>
-          <text><Dialog /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -6084,9 +5691,7 @@ exports[`chromium /components/dialogs/ 1`] = `
       </ListMarker>
       <link>
         <DialogActions />
-        <code>
-          <text><DialogActions /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -6095,9 +5700,7 @@ exports[`chromium /components/dialogs/ 1`] = `
       </ListMarker>
       <link>
         <DialogContent />
-        <code>
-          <text><DialogContent /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -6106,9 +5709,7 @@ exports[`chromium /components/dialogs/ 1`] = `
       </ListMarker>
       <link>
         <DialogContentText />
-        <code>
-          <text><DialogContentText /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -6117,9 +5718,7 @@ exports[`chromium /components/dialogs/ 1`] = `
       </ListMarker>
       <link>
         <DialogTitle />
-        <code>
-          <text><DialogTitle /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -6128,9 +5727,7 @@ exports[`chromium /components/dialogs/ 1`] = `
       </ListMarker>
       <link>
         <Slide />
-        <code>
-          <text><Slide /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
   </list>
@@ -6413,11 +6010,7 @@ exports[`chromium /components/pagination/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Paginationcount={10}/><Paginationcount={10}color="primary"/><Paginationcount={10}color="secondary"/><Paginationcount={10}disabled/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Outlined pagination
@@ -6664,11 +6257,7 @@ exports[`chromium /components/pagination/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Paginationcount={10}variant="outlined"/><Paginationcount={10}variant="outlined"color="primary"/><Paginationcount={10}variant="outlined"color="secondary"/><Paginationcount={10}variant="outlined"disabled/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Rounded pagination
@@ -6813,11 +6402,7 @@ exports[`chromium /components/pagination/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Paginationcount={10}shape="rounded"/><Paginationcount={10}variant="outlined"shape="rounded"/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Pagination size
@@ -7013,11 +6598,7 @@ exports[`chromium /components/pagination/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Paginationcount={10}size="small"/><Paginationcount={10}/><Paginationcount={10}size="large"/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Buttons
@@ -7168,11 +6749,7 @@ exports[`chromium /components/pagination/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Paginationcount={10}showFirstButtonshowLastButton/><Paginationcount={10}hidePrevButtonhideNextButton/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Pagination ranges
@@ -7184,13 +6761,9 @@ exports[`chromium /components/pagination/ 1`] = `
       You can specify how many digits to display either side of current page
       with the
     </text>
-    <code>
-      <text>siblingRange</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop, and adjacent to the start and end page number with the</text>
-    <code>
-      <text>boundaryRange</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
   <button>
@@ -7427,13 +7000,7 @@ exports[`chromium /components/pagination/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Paginationcount={11}defaultPage={6}siblingCount={0}/><Paginationcount={11}defaultPage={6}/>{/*
-        Default ranges
-        */}<Paginationcount={11}defaultPage={6}siblingCount={0}boundaryCount={2}/><Paginationcount={11}defaultPage={6}boundaryCount={2}/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Controlled pagination
@@ -7530,11 +7097,7 @@ exports[`chromium /components/pagination/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Typography>Page:{page}</Typography><Paginationcount={10}page={page}onChange={handleChange}/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Router integration
@@ -7630,15 +7193,11 @@ exports[`chromium /components/pagination/ 1`] = `
   <heading level="2">
     usePagination
     <Anchor></Anchor>
-    <code>
-      <text>usePagination</text>
-    </code>
+    <code>$SOME_CODE</code>
   </heading>
   <paragraph>
     <text>For advanced customization use cases, we expose a</text>
-    <code>
-      <text>usePagination()</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       hook. It accepts almost the same options as the Pagination component minus
       all the props related to the rendering of JSX. The Pagination component
@@ -7646,11 +7205,7 @@ exports[`chromium /components/pagination/ 1`] = `
     </text>
   </paragraph>
   <Pre>
-    <code>
-      <text>
-        import{usePagination}from'@material-ui/lab/Pagination';
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -7744,9 +7299,7 @@ exports[`chromium /components/pagination/ 1`] = `
   </heading>
   <paragraph>
     <text>The</text>
-    <code>
-      <text>Pagination</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       component was designed to paginate a list of arbitrary items when infinite
       loading isn't used. It's preferred in contexts where SEO is
@@ -7757,9 +7310,7 @@ exports[`chromium /components/pagination/ 1`] = `
     <text>
       For the pagination of a large set of tabular data, you should use the
     </text>
-    <code>
-      <text>TablePagination</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>component.</text>
   </paragraph>
   <button>
@@ -7815,25 +7366,17 @@ exports[`chromium /components/pagination/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <TablePaginationcomponent="div"count={100}page={page}onChangePage={handleChangePage}rowsPerPage={rowsPerPage}onChangeRowsPerPage={handleChangeRowsPerPage}/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <blockquote>
     <paragraph>
       <text>⚠️ Note that the</text>
-      <code>
-        <text>Pagination</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>
         page prop starts at 1 to match the requirement of including the value in
         the URL, while the
       </text>
-      <code>
-        <text>TablePagination</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>
         page prop stats at 0 to match the requirement of zero-based JavaScript
         arrays that comes with rendering a lot of tabular data.
@@ -7863,9 +7406,7 @@ exports[`chromium /components/pagination/ 1`] = `
       page", "go to previous page", "go to page 1"
       etc.). You can override these using the
     </text>
-    <code>
-      <text>getItemAriaLabel</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
   <heading level="3">
@@ -7890,9 +7431,7 @@ exports[`chromium /components/pagination/ 1`] = `
       </ListMarker>
       <link>
         <Pagination />
-        <code>
-          <text><Pagination /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -7901,9 +7440,7 @@ exports[`chromium /components/pagination/ 1`] = `
       </ListMarker>
       <link>
         <PaginationItem />
-        <code>
-          <text><PaginationItem /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
   </list>
@@ -8064,9 +7601,7 @@ exports[`chromium /components/pickers 1`] = `
   </heading>
   <paragraph>
     <text>A native datepicker example with</text>
-    <code>
-      <text>type="date"</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>.</text>
   </paragraph>
   <button>
@@ -8128,11 +7663,7 @@ exports[`chromium /components/pickers 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <formclassName={classes.container}noValidate><TextFieldid="date"label="Birthday"type="date"defaultValue="2017-05-24"className={classes.textField}InputLabelProps={{shrink:true,}}/></form>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
     Date & Time pickers
@@ -8141,9 +7672,7 @@ exports[`chromium /components/pickers 1`] = `
   </heading>
   <paragraph>
     <text>A native date & time picker example with</text>
-    <code>
-      <text>type="datetime-local"</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>.</text>
   </paragraph>
   <button>
@@ -8220,12 +7749,7 @@ exports[`chromium /components/pickers 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <formclassName={classes.container}noValidate><TextFieldid="datetime-local"label="Next
-        appointment"type="datetime-local"defaultValue="2017-05-24T10:30"className={classes.textField}InputLabelProps={{shrink:true,}}/></form>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
     Time pickers
@@ -8234,9 +7758,7 @@ exports[`chromium /components/pickers 1`] = `
   </heading>
   <paragraph>
     <text>A native time picker example with</text>
-    <code>
-      <text>type="time"</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>.</text>
   </paragraph>
   <button>
@@ -8298,13 +7820,7 @@ exports[`chromium /components/pickers 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <formclassName={classes.container}noValidate><TextFieldid="time"label="Alarm
-        clock"type="time"defaultValue="07:30"className={classes.textField}InputLabelProps={{shrink:true,}}inputProps={{step:300,//
-        5 min}}/></form>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     API
@@ -8318,9 +7834,7 @@ exports[`chromium /components/pickers 1`] = `
       </ListMarker>
       <link>
         <TextField />
-        <code>
-          <text><TextField /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
   </list>
@@ -8375,13 +7889,9 @@ exports[`chromium /components/radio-buttons 1`] = `
     <text>RadioGroup</text>
   </heading>
   <paragraph>
-    <code>
-      <text>RadioGroup</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>is a helpful wrapper used to group</text>
-    <code>
-      <text>Radio</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       components that provides an easier API, and proper keyboard accessibility
       to the group.
@@ -8455,13 +7965,9 @@ exports[`chromium /components/radio-buttons 1`] = `
   </toolbar>
   <paragraph>
     <text>To lay out the buttons horizontally, set the</text>
-    <code>
-      <text>row</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop:</text>
-    <code>
-      <text><RadioGroup row /></text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -8470,9 +7976,7 @@ exports[`chromium /components/radio-buttons 1`] = `
     <text>Standalone radio buttons</text>
   </heading>
   <paragraph>
-    <code>
-      <text>Radio</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>can also be used standalone, without the RadioGroup wrapper.</text>
   </paragraph>
   <button>
@@ -8532,13 +8036,9 @@ exports[`chromium /components/radio-buttons 1`] = `
   </heading>
   <paragraph>
     <text>You can change the placement of the label with the</text>
-    <code>
-      <text>FormControlLabel</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>component's</text>
-    <code>
-      <text>labelPlacement</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop:</text>
   </paragraph>
   <button>
@@ -8783,9 +8283,7 @@ exports[`chromium /components/radio-buttons 1`] = `
         All form controls should have labels, and this includes radio buttons,
         checkboxes, and switches. In most cases, this is done by using the
       </text>
-      <code>
-        <text><label></text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>element (</text>
       <link>FormControlLabel</link>
       <text>).</text>
@@ -8799,31 +8297,18 @@ exports[`chromium /components/radio-buttons 1`] = `
         directly to the input component. In this case, you can apply the
         additional attribute (e.g.
       </text>
-      <code>
-        <text>aria-label</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>,</text>
-      <code>
-        <text>aria-labelledby</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>,</text>
-      <code>
-        <text>title</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>) via the</text>
-      <code>
-        <text>inputProps</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>property.</text>
     </listitem>
   </list>
   <Pre>
-    <code>
-      <text>
-        <RadioButtonvalue="radioA"inputProps={{'aria-label':'Radio
-        A',}}/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     API
@@ -8837,9 +8322,7 @@ exports[`chromium /components/radio-buttons 1`] = `
       </ListMarker>
       <link>
         <FormControl />
-        <code>
-          <text><FormControl /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -8848,9 +8331,7 @@ exports[`chromium /components/radio-buttons 1`] = `
       </ListMarker>
       <link>
         <FormControlLabel />
-        <code>
-          <text><FormControlLabel /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -8859,9 +8340,7 @@ exports[`chromium /components/radio-buttons 1`] = `
       </ListMarker>
       <link>
         <FormLabel />
-        <code>
-          <text><FormLabel /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -8870,9 +8349,7 @@ exports[`chromium /components/radio-buttons 1`] = `
       </ListMarker>
       <link>
         <Radio />
-        <code>
-          <text><Radio /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -8881,9 +8358,7 @@ exports[`chromium /components/radio-buttons 1`] = `
       </ListMarker>
       <link>
         <RadioGroup />
-        <code>
-          <text><RadioGroup /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
   </list>
@@ -9260,9 +8735,7 @@ exports[`chromium /components/rating/ 1`] = `
       You can display a label on hover to help users pick the correct rating
       value. The demo uses the
     </text>
-    <code>
-      <text>onChangeActive</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
   <button>
@@ -9332,11 +8805,7 @@ exports[`chromium /components/rating/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Ratingname="hover-feedback"value={value}precision={0.5}onChange={(event,newValue)=>{setValue(newValue);}}onChangeActive={(event,newHover)=>{setHover(newHover);}}/>{value!==null&&(<Boxml={2}>{labels[hover!==-1?hover:value]}</Box>)}
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Half ratings
@@ -9345,13 +8814,9 @@ exports[`chromium /components/rating/ 1`] = `
   </heading>
   <paragraph>
     <text>The rating can display any float number with the</text>
-    <code>
-      <text>value</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop. Use the</text>
-    <code>
-      <text>precision</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop to define the minimum increment value change allowed.</text>
   </paragraph>
   <button>
@@ -9421,11 +8886,7 @@ exports[`chromium /components/rating/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Ratingname="half-rating"defaultValue={2.5}precision={0.5}/><Ratingname="half-rating-read"defaultValue={2.5}precision={0.5}readOnly/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Sizes
@@ -9434,9 +8895,7 @@ exports[`chromium /components/rating/ 1`] = `
   </heading>
   <paragraph>
     <text>Fancy larger or smaller ratings? Use the</text>
-    <code>
-      <text>size</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
   <button>
@@ -9535,11 +8994,7 @@ exports[`chromium /components/rating/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Ratingname="size-small"defaultValue={2}size="small"/><Ratingname="size-medium"defaultValue={2}/><Ratingname="size-large"defaultValue={2}size="large"/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Accessibility
@@ -9566,9 +9021,7 @@ exports[`chromium /components/rating/ 1`] = `
         radio buttons, one for each star and another for 0 stars, which is
         checked by default. Make sure you are providing a
       </text>
-      <code>
-        <text>name</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>prop that is unique to the parent form.</text>
     </listitem>
     <listitem level="1">
@@ -9579,9 +9032,7 @@ exports[`chromium /components/rating/ 1`] = `
         The labels for the radio buttons contain actual text (“1 Star”, “2
         Stars”, …), make sure you provide a
       </text>
-      <code>
-        <text>getLabelText</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>prop when the page language is not English.</text>
     </listitem>
   </list>
@@ -9597,9 +9048,7 @@ exports[`chromium /components/rating/ 1`] = `
       </ListMarker>
       <link>
         <Rating />
-        <code>
-          <text><Rating /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
   </list>
@@ -9825,9 +9274,7 @@ exports[`chromium /components/selects/ 1`] = `
     <text>
       The Select component is meant to be interchangeable with a native
     </text>
-    <code>
-      <text><select></text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>element.</text>
   </paragraph>
   <paragraph>
@@ -9837,9 +9284,7 @@ exports[`chromium /components/selects/ 1`] = `
     </text>
     <link>
       Autocomplete component
-      <code>
-        <text>Autocomplete</text>
-      </code>
+      <code>$SOME_CODE</code>
     </link>
     <text>
       . It's meant to be an improved version of the
@@ -10073,9 +9518,7 @@ exports[`chromium /components/selects/ 1`] = `
   </heading>
   <paragraph>
     <text>The</text>
-    <code>
-      <text>TextField</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       wrapper component is a complete form control including a label, input and
       help text. You can find an example with the select mode
@@ -10098,20 +9541,14 @@ exports[`chromium /components/selects/ 1`] = `
   </paragraph>
   <paragraph>
     <text>The first step is to style the</text>
-    <code>
-      <text>InputBase</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       component. Once it's styled, you can either use it directly as a text
       field or provide it to the select
     </text>
-    <code>
-      <text>input</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>property to have a</text>
-    <code>
-      <text>select</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>field.</text>
   </paragraph>
   <button>
@@ -10186,15 +9623,11 @@ exports[`chromium /components/selects/ 1`] = `
   </heading>
   <paragraph>
     <text>The</text>
-    <code>
-      <text>Select</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       component can handle multiple selections. It's enabled with the
     </text>
-    <code>
-      <text>multiple</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>property.</text>
   </paragraph>
   <paragraph>
@@ -10202,13 +9635,9 @@ exports[`chromium /components/selects/ 1`] = `
       Like with the single selection, you can pull out the new value by
       accessing
     </text>
-    <code>
-      <text>event.target.value</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>in the</text>
-    <code>
-      <text>onChange</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>callback. It's always an array.</text>
   </paragraph>
   <button>
@@ -10407,13 +9836,9 @@ exports[`chromium /components/selects/ 1`] = `
   </heading>
   <paragraph>
     <text>Display categories with the</text>
-    <code>
-      <text>ListSubheader</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>component or the native</text>
-    <code>
-      <text><optgroup></text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>element.</text>
   </paragraph>
   <button>
@@ -10482,79 +9907,45 @@ exports[`chromium /components/selects/ 1`] = `
   </heading>
   <paragraph>
     <text>To properly label your</text>
-    <code>
-      <text>Select</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>input you need an extra element with an</text>
-    <code>
-      <text>id</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>that contains a label. That</text>
-    <code>
-      <text>id</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>needs to match the</text>
-    <code>
-      <text>labelId</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>of the</text>
-    <code>
-      <text>Select</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>e.g.</text>
   </paragraph>
   <Pre>
-    <code>
-      <text>
-        <InputLabelid="label">Age</InputLabel><SelectlabelId="label"id="select"value="20"><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></Select>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <paragraph>
     <text>Alternatively a</text>
-    <code>
-      <text>TextField</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>with an</text>
-    <code>
-      <text>id</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>and</text>
-    <code>
-      <text>label</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>creates the proper markup and ids for you:</text>
   </paragraph>
   <Pre>
-    <code>
-      <text>
-        <TextFieldid="select"label="Age"value="20"select><MenuItemvalue="10">Ten</MenuItem><MenuItemvalue="20">Twenty</MenuItem></TextField>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <paragraph>
     <text>For a</text>
     <link>native select</link>
     <text>, you should mention a label by giving the value of the</text>
-    <code>
-      <text>id</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>attribute of the select element to the</text>
-    <code>
-      <text>InputLabel</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>'s</text>
-    <code>
-      <text>htmlFor</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>attribute:</text>
   </paragraph>
   <Pre>
-    <code>
-      <text>
-        <InputLabelhtmlFor="select">Age</InputLabel><NativeSelectid="select"><optionvalue="10">Ten</option><optionvalue="20">Twenty</option></NativeSelect>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     API
@@ -10568,9 +9959,7 @@ exports[`chromium /components/selects/ 1`] = `
       </ListMarker>
       <link>
         <NativeSelect />
-        <code>
-          <text><NativeSelect /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -10579,9 +9968,7 @@ exports[`chromium /components/selects/ 1`] = `
       </ListMarker>
       <link>
         <Select />
-        <code>
-          <text><Select /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
   </list>
@@ -10720,9 +10107,7 @@ exports[`chromium /components/slider 1`] = `
   </paragraph>
   <paragraph>
     <text>You can generate a mark for each step with</text>
-    <code>
-      <text>marks={true}</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>.</text>
   </paragraph>
   <button>
@@ -10843,12 +10228,7 @@ exports[`chromium /components/slider 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Typographyid="discrete-slider-small-steps"gutterBottom>Small
-        steps</Typography><SliderdefaultValue={0.00000005}getAriaValueText={valuetext}aria-labelledby="discrete-slider-small-steps"step={0.00000001}marksmin={-0.00000005}max={0.0000001}valueLabelDisplay="auto"/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
     Custom marks
@@ -10857,9 +10237,7 @@ exports[`chromium /components/slider 1`] = `
   </heading>
   <paragraph>
     <text>You can have custom marks by providing a rich array to the</text>
-    <code>
-      <text>marks</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
   <button>
@@ -10912,12 +10290,7 @@ exports[`chromium /components/slider 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Typographyid="discrete-slider-custom"gutterBottom>Custom
-        marks</Typography><SliderdefaultValue={20}getAriaValueText={valuetext}aria-labelledby="discrete-slider-custom"step={10}valueLabelDisplay="auto"marks={marks}/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
     Restricted values
@@ -10928,13 +10301,9 @@ exports[`chromium /components/slider 1`] = `
     <text>
       You can restrict the selectable values to those provided with the
     </text>
-    <code>
-      <text>marks</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop with</text>
-    <code>
-      <text>step={null}</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>.</text>
   </paragraph>
   <button>
@@ -10987,12 +10356,7 @@ exports[`chromium /components/slider 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Typographyid="discrete-slider-restrict"gutterBottom>Restricted
-        values</Typography><SliderdefaultValue={20}valueLabelFormat={valueLabelFormat}getAriaValueText={valuetext}aria-labelledby="discrete-slider-restrict"step={null}valueLabelDisplay="auto"marks={marks}/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
     Label always visible
@@ -11001,9 +10365,7 @@ exports[`chromium /components/slider 1`] = `
   </heading>
   <paragraph>
     <text>You can force the thumb label to be always visible with</text>
-    <code>
-      <text>valueLabelDisplay="on"</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>.</text>
   </paragraph>
   <button>
@@ -11056,12 +10418,7 @@ exports[`chromium /components/slider 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Typographyid="discrete-slider-always"gutterBottom>Always
-        visible</Typography><SliderdefaultValue={80}getAriaValueText={valuetext}aria-labelledby="discrete-slider-always"step={10}marks={marks}valueLabelDisplay="on"/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Range slider
@@ -11073,9 +10430,7 @@ exports[`chromium /components/slider 1`] = `
       The slider can be used to set the start and end of a range by supplying an
       array of values to the
     </text>
-    <code>
-      <text>value</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
   <button>
@@ -11135,12 +10490,7 @@ exports[`chromium /components/slider 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Typographyid="range-slider"gutterBottom>Temperature
-        range</Typography><Slidervalue={value}onChange={handleChange}valueLabelDisplay="auto"aria-labelledby="range-slider"getAriaValueText={valuetext}/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Slider with input field
@@ -11405,9 +10755,7 @@ exports[`chromium /components/slider 1`] = `
   </heading>
   <paragraph>
     <text>The track can be turned off with</text>
-    <code>
-      <text>track={false}</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>.</text>
   </paragraph>
   <button>
@@ -11496,9 +10844,7 @@ exports[`chromium /components/slider 1`] = `
   </heading>
   <paragraph>
     <text>The track can be inverted with</text>
-    <code>
-      <text>track="inverted"</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>.</text>
   </paragraph>
   <button>
@@ -11578,13 +10924,9 @@ exports[`chromium /components/slider 1`] = `
   </heading>
   <paragraph>
     <text>You can use the</text>
-    <code>
-      <text>scale</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop to represent the</text>
-    <code>
-      <text>value</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       on a different scale. For instance, in the following demo, the
       valuexrepresents the power of10^x.
@@ -11639,12 +10981,7 @@ exports[`chromium /components/slider 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Typographyid="non-linear-slider"gutterBottom>Temperature
-        range</Typography><Slidervalue={value}min={0}step={0.1}max={6}scale={(x)=>x**10}getAriaValueText={valueLabelFormat}valueLabelFormat={valueLabelFormat}onChange={handleChange}valueLabelDisplay="auto"aria-labelledby="non-linear-slider"/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Accessibility
@@ -11668,17 +11005,11 @@ exports[`chromium /components/slider 1`] = `
         •<text>•</text>
       </ListMarker>
       <text>Each thumb has a user-friendly label (</text>
-      <code>
-        <text>aria-label</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>,</text>
-      <code>
-        <text>aria-labelledby</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>or</text>
-      <code>
-        <text>getAriaLabel</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>prop).</text>
     </listitem>
     <listitem level="1">
@@ -11690,13 +11021,9 @@ exports[`chromium /components/slider 1`] = `
         required if the value matches the semantics of the label. You can change
         the name with the
       </text>
-      <code>
-        <text>getAriaValueText</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>or</text>
-      <code>
-        <text>aria-valuetext</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>prop.</text>
     </listitem>
   </list>
@@ -11712,9 +11039,7 @@ exports[`chromium /components/slider 1`] = `
       </ListMarker>
       <link>
         <Slider />
-        <code>
-          <text><Slider /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
   </list>
@@ -11813,13 +11138,9 @@ exports[`chromium /components/switches/ 1`] = `
     <text>Switch with FormControlLabel</text>
   </heading>
   <paragraph>
-    <code>
-      <text>Switch</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>can be provided with a description thanks to the</text>
-    <code>
-      <text>FormControlLabel</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>component.</text>
   </paragraph>
   <button>
@@ -11882,9 +11203,7 @@ exports[`chromium /components/switches/ 1`] = `
     <text>Switches with FormGroup</text>
   </heading>
   <paragraph>
-    <code>
-      <text>FormGroup</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       is a helpful wrapper used to group selection controls components that
       provides an easier API. However, you are encouraged you to use
@@ -12016,9 +11335,7 @@ exports[`chromium /components/switches/ 1`] = `
   </heading>
   <paragraph>
     <text>Fancy smaller switches? Use the</text>
-    <code>
-      <text>size</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>property.</text>
   </paragraph>
   <button>
@@ -12063,11 +11380,7 @@ exports[`chromium /components/switches/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <FormGroup><FormControlLabelcontrol={<Switchsize="small"checked={checked}onChange={toggleChecked}/>}label="Small"/><FormControlLabelcontrol={<Switchchecked={checked}onChange={toggleChecked}/>}label="Normal"/></FormGroup>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Label placement
@@ -12150,24 +11463,15 @@ exports[`chromium /components/switches/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <text>It will render an element with the</text>
-      <code>
-        <text>checkbox</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>role not</text>
-      <code>
-        <text>switch</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>
         role since this role isn't widely supported yet. Please test first
         if assistive technology of your target audience supports this role
         properly. Then you can change the role with
       </text>
-      <code>
-        <text>
-          <Switch inputProps={{ role: 'switch'
-          }}>
-        </text>
-      </code>
+      <code>$SOME_CODE</code>
     </listitem>
     <listitem level="1">
       <ListMarker>
@@ -12177,9 +11481,7 @@ exports[`chromium /components/switches/ 1`] = `
         All form controls should have labels, and this includes radio buttons,
         checkboxes, and switches. In most cases, this is done by using the
       </text>
-      <code>
-        <text><label></text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>element (</text>
       <link>FormControlLabel</link>
       <text>).</text>
@@ -12193,31 +11495,18 @@ exports[`chromium /components/switches/ 1`] = `
         directly to the input component. In this case, you can apply the
         additional attribute (e.g.
       </text>
-      <code>
-        <text>aria-label</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>,</text>
-      <code>
-        <text>aria-labelledby</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>,</text>
-      <code>
-        <text>title</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>) via the</text>
-      <code>
-        <text>inputProps</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>property.</text>
     </listitem>
   </list>
   <Pre>
-    <code>
-      <text>
-        <Switchvalue="checkedA"inputProps={{'aria-label':'Switch
-        A'}}/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     API
@@ -12231,9 +11520,7 @@ exports[`chromium /components/switches/ 1`] = `
       </ListMarker>
       <link>
         <FormControl />
-        <code>
-          <text><FormControl /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -12242,9 +11529,7 @@ exports[`chromium /components/switches/ 1`] = `
       </ListMarker>
       <link>
         <FormControlLabel />
-        <code>
-          <text><FormControlLabel /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -12253,9 +11538,7 @@ exports[`chromium /components/switches/ 1`] = `
       </ListMarker>
       <link>
         <FormGroup />
-        <code>
-          <text><FormGroup /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -12264,9 +11547,7 @@ exports[`chromium /components/switches/ 1`] = `
       </ListMarker>
       <link>
         <FormLabel />
-        <code>
-          <text><FormLabel /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -12275,9 +11556,7 @@ exports[`chromium /components/switches/ 1`] = `
       </ListMarker>
       <link>
         <Switch />
-        <code>
-          <text><Switch /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
   </list>
@@ -12463,9 +11742,7 @@ exports[`chromium /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>A Tab can be disabled by setting</text>
-    <code>
-      <text>disabled</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>property.</text>
   </paragraph>
   <button>
@@ -12519,13 +11796,7 @@ exports[`chromium /components/tabs/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Papersquare><Tabsvalue={value}indicatorColor="primary"textColor="primary"onChange={handleChange}aria-label="disabled
-        tabs
-        example"><Tablabel="Active"/><Tablabel="Disabled"disabled/><Tablabel="Active"/></Tabs></Paper>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Fixed Tabs
@@ -12545,9 +11816,7 @@ exports[`chromium /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>The</text>
-    <code>
-      <text>variant="fullWidth"</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>property should be used for smaller views. This demo also uses</text>
     <link>react-swipeable-views</link>
     <text>
@@ -12620,9 +11889,7 @@ exports[`chromium /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>The</text>
-    <code>
-      <text>centered</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>property should be used for larger views.</text>
   </paragraph>
   <button>
@@ -12675,14 +11942,7 @@ exports[`chromium /components/tabs/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <PaperclassName={classes.root}><Tabsvalue={value}onChange={handleChange}indicatorColor="primary"textColor="primary"centered><Tablabel="Item
-        One"/><Tablabel="Item
-        Two"/><Tablabel="Item
-        Three"/></Tabs></Paper>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Scrollable Tabs
@@ -13124,9 +12384,7 @@ exports[`chromium /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>By default tabs use a</text>
-    <code>
-      <text>button</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       element, but you can provide your own custom tag or component. Here's
       an example of implementing tabbed navigation:
@@ -13249,13 +12507,7 @@ exports[`chromium /components/tabs/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <PapersquareclassName={classes.root}><Tabsvalue={value}onChange={handleChange}variant="fullWidth"indicatorColor="primary"textColor="primary"aria-label="icon
-        tabs
-        example"><Tabicon={<PhoneIcon/>}aria-label="phone"/><Tabicon={<FavoriteIcon/>}aria-label="favorite"/><Tabicon={<PersonPinIcon/>}aria-label="person"/></Tabs></Paper>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -13311,13 +12563,7 @@ exports[`chromium /components/tabs/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <PapersquareclassName={classes.root}><Tabsvalue={value}onChange={handleChange}variant="fullWidth"indicatorColor="secondary"textColor="secondary"aria-label="icon
-        label tabs
-        example"><Tabicon={<PhoneIcon/>}label="RECENTS"/><Tabicon={<FavoriteIcon/>}label="FAVORITES"/><Tabicon={<PersonPinIcon/>}label="NEARBY"/></Tabs></Paper>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Accessibility
@@ -13342,17 +12588,11 @@ exports[`chromium /components/tabs/ 1`] = `
         <text>1.</text>
       </ListMarker>
       <text>Label</text>
-      <code>
-        <text>Tabs</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>via</text>
-      <code>
-        <text>aria-label</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>or</text>
-      <code>
-        <text>aria-labelledby</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>.</text>
     </listitem>
     <listitem level="1">
@@ -13360,25 +12600,15 @@ exports[`chromium /components/tabs/ 1`] = `
         2.
         <text>2.</text>
       </ListMarker>
-      <code>
-        <text>Tab</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>s need to be connected to their corresponding</text>
-      <code>
-        <text>[role="tabpanel"]</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>by setting the correct</text>
-      <code>
-        <text>id</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>,</text>
-      <code>
-        <text>aria-controls</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>and</text>
-      <code>
-        <text>aria-labelledby</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>.</text>
     </listitem>
   </list>
@@ -13389,9 +12619,7 @@ exports[`chromium /components/tabs/ 1`] = `
     </text>
     <link>an experimental API</link>
     <text>in</text>
-    <code>
-      <text>@material-ui/lab</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>that does not require extra work.</text>
   </paragraph>
   <heading level="3">
@@ -13405,13 +12633,9 @@ exports[`chromium /components/tabs/ 1`] = `
       activation" behavior. If you want to switch to the "selection
       automatically follows focus" behavior you have pass
     </text>
-    <code>
-      <text>selectionFollowsFocus</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>to the</text>
-    <code>
-      <text>Tabs</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       component. The WAI-ARIA authoring practices have a detailed guide on
     </text>
@@ -13429,13 +12653,7 @@ exports[`chromium /components/tabs/ 1`] = `
     </text>
   </paragraph>
   <Pre>
-    <code>
-      <text>
-        /* Tabs where selection follows focus
-        */<TabsselectionFollowsFocus/>/* Tabs where each tab needs to be
-        selected manually */<Tabs/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -13524,9 +12742,7 @@ exports[`chromium /components/tabs/ 1`] = `
     <text>Experimental API</text>
   </heading>
   <paragraph>
-    <code>
-      <text>@material-ui/lab</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       offers utility components that inject props to implement accessible tabs
       following
@@ -13591,18 +12807,7 @@ exports[`chromium /components/tabs/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <TabContextvalue={value}><AppBarposition="static"><TabListonChange={handleChange}aria-label="simple
-        tabs example"><Tablabel="Item
-        One"value="1"/><Tablabel="Item
-        Two"value="2"/><Tablabel="Item
-        Three"value="3"/></TabList></AppBar><TabPanelvalue="1">Item
-        One</TabPanel><TabPanelvalue="2">Item
-        Two</TabPanel><TabPanelvalue="3">Item
-        Three</TabPanel></TabContext>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     API
@@ -13616,9 +12821,7 @@ exports[`chromium /components/tabs/ 1`] = `
       </ListMarker>
       <link>
         <Tab />
-        <code>
-          <text><Tab /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -13627,9 +12830,7 @@ exports[`chromium /components/tabs/ 1`] = `
       </ListMarker>
       <link>
         <TabContext />
-        <code>
-          <text><TabContext /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -13638,9 +12839,7 @@ exports[`chromium /components/tabs/ 1`] = `
       </ListMarker>
       <link>
         <TabList />
-        <code>
-          <text><TabList /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -13649,9 +12848,7 @@ exports[`chromium /components/tabs/ 1`] = `
       </ListMarker>
       <link>
         <TabPanel />
-        <code>
-          <text><TabPanel /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -13660,9 +12857,7 @@ exports[`chromium /components/tabs/ 1`] = `
       </ListMarker>
       <link>
         <TabScrollButton />
-        <code>
-          <text><TabScrollButton /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -13671,9 +12866,7 @@ exports[`chromium /components/tabs/ 1`] = `
       </ListMarker>
       <link>
         <Tabs />
-        <code>
-          <text><Tabs /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
   </list>
@@ -13722,9 +12915,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>The</text>
-    <code>
-      <text>TextField</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       wrapper component is a complete form control including a label, input and
       help text.
@@ -13790,17 +12981,11 @@ exports[`chromium /components/text-fields/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <formclassName={classes.root}noValidateautoComplete="off"><TextFieldid="standard-basic"label="Standard"/><TextFieldid="filled-basic"label="Filled"variant="filled"/><TextFieldid="outlined-basic"label="Outlined"variant="outlined"/></form>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <paragraph>
     <text>Note:The standard variant of the</text>
-    <code>
-      <text>TextField</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>is no longer documented in the</text>
     <link>Material Design guidelines</link>
     <text>(</text>
@@ -13814,21 +12999,13 @@ exports[`chromium /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>Standard form attributes are supported e.g.</text>
-    <code>
-      <text>required</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>,</text>
-    <code>
-      <text>disabled</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>,</text>
-    <code>
-      <text>type</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>, etc. as well as a</text>
-    <code>
-      <text>helperText</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       which is used to give context about a field’s input, such as how the input
       will be used.
@@ -14056,13 +13233,9 @@ exports[`chromium /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>The</text>
-    <code>
-      <text>error</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop toggles the error state, the</text>
-    <code>
-      <text>helperText</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       prop can then be used to provide feedback to the user about the error.
     </text>
@@ -14176,9 +13349,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>The</text>
-    <code>
-      <text>multiline</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop transforms the text field into a</text>
     <link>textarea</link>
     <text>or a</text>
@@ -14319,9 +13490,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>The</text>
-    <code>
-      <text>select</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop makes the text field use the</text>
     <link>Select</link>
     <text>component internally.</text>
@@ -14520,9 +13689,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>The main way is with an</text>
-    <code>
-      <text>InputAdornment</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       . This can be used to add a prefix, a suffix or an action to an input. For
       instance, you can use an icon button to hide or reveal the password.
@@ -14688,9 +13855,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>Fancy smaller inputs? Use the</text>
-    <code>
-      <text>size</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
   <button>
@@ -14792,39 +13957,23 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Layout</text>
   </heading>
   <paragraph>
-    <code>
-      <text>margin</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>prop can be used to alter the vertical spacing of inputs. Using</text>
-    <code>
-      <text>none</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>(default) will not apply margins to the</text>
-    <code>
-      <text>FormControl</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>, whereas</text>
-    <code>
-      <text>dense</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>and</text>
-    <code>
-      <text>normal</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>will.</text>
-    <code>
-      <text>dense</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>and</text>
-    <code>
-      <text>normal</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>alter other styles to meet the specification.</text>
   </paragraph>
   <paragraph>
-    <code>
-      <text>fullWidth</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       can be used to make the input take up the full width of its container.
     </text>
@@ -15119,50 +14268,36 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Components</text>
   </heading>
   <paragraph>
-    <code>
-      <text>TextField</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>is composed of smaller components (</text>
     <link>
       FormControl
-      <code>
-        <text>FormControl</text>
-      </code>
+      <code>$SOME_CODE</code>
     </link>
     <text>,</text>
     <link>
       Input
-      <code>
-        <text>Input</text>
-      </code>
+      <code>$SOME_CODE</code>
     </link>
     <text>,</text>
     <link>
       FilledInput
-      <code>
-        <text>FilledInput</text>
-      </code>
+      <code>$SOME_CODE</code>
     </link>
     <text>,</text>
     <link>
       InputLabel
-      <code>
-        <text>InputLabel</text>
-      </code>
+      <code>$SOME_CODE</code>
     </link>
     <text>,</text>
     <link>
       OutlinedInput
-      <code>
-        <text>OutlinedInput</text>
-      </code>
+      <code>$SOME_CODE</code>
     </link>
     <text>, and</text>
     <link>
       FormHelperText
-      <code>
-        <text>FormHelperText</text>
-      </code>
+      <code>$SOME_CODE</code>
     </link>
     <text>
       ) that you can leverage directly to significantly customize your form
@@ -15174,25 +14309,17 @@ exports[`chromium /components/text-fields/ 1`] = `
       You might also have noticed that some native HTML input properties are
       missing from the
     </text>
-    <code>
-      <text>TextField</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       component. This is on purpose. The component takes care of the most used
       properties, then it's up to the user to use the underlying component
       shown in the following demo. Still, you can use
     </text>
-    <code>
-      <text>inputProps</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>(and</text>
-    <code>
-      <text>InputProps</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>,</text>
-    <code>
-      <text>InputLabelProps</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>properties) if you want to avoid some boilerplate.</text>
   </paragraph>
   <button>
@@ -15365,9 +14492,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>The</text>
-    <code>
-      <text>color</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       prop changes the highlight color of the text field when focused.
     </text>
@@ -15544,9 +14669,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     </text>
     <link>
       InputBase
-      <code>
-        <text>InputBase</text>
-      </code>
+      <code>$SOME_CODE</code>
     </link>
     <text>component, inspired by Google Maps.</text>
   </paragraph>
@@ -15638,19 +14761,13 @@ exports[`chromium /components/text-fields/ 1`] = `
     </text>
   </paragraph>
   <Pre>
-    <code>
-      <text>
-        <TextFieldInputLabelProps={{shrink:true}}/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <paragraph>
     <text>or</text>
   </paragraph>
   <Pre>
-    <code>
-      <text><InputLabelshrink>Count</InputLabel></text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
     Floating label
@@ -15708,11 +14825,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     </text>
   </paragraph>
   <Pre>
-    <code>
-      <text>
-        <TextFieldinputProps={{inputmode:'numeric',pattern:'[0-9]*'}}/>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <paragraph>
     <text>In the future, we might provide a</text>
@@ -15729,13 +14842,9 @@ exports[`chromium /components/text-fields/ 1`] = `
       You can use third-party libraries to format an input. You have to provide
       a custom implementation of the
     </text>
-    <code>
-      <text><input></text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>element with the</text>
-    <code>
-      <text>inputComponent</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>property.</text>
   </paragraph>
   <paragraph>
@@ -15800,32 +14909,17 @@ exports[`chromium /components/text-fields/ 1`] = `
   </toolbar>
   <paragraph>
     <text>The provided input component should handle the</text>
-    <code>
-      <text>inputRef</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       property. The property should be called with a value that implements the
       following interface:
     </text>
   </paragraph>
   <Pre>
-    <code>
-      <text>interfaceInputElement{focus():void;value?:string;}</text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <Pre>
-    <code>
-      <text>
-        functionMyInputComponent(props){const{component:Component,inputRef,...other}=props;//
-        implement \`InputElement\`
-        interfaceReact.useImperativeHandle(inputRef,()=>({focus:()=>{//
-        logic to focus the rendered component from 3rd party belongs
-        here},// hiding the value e.g. react-stripe-elements}));//
-        \`Component\` will be your \`SomeThirdPartyComponent\` from
-        belowreturn<Component{...other}/>;}//
-        usage<TextFieldInputProps={{inputComponent:MyInputComponent,inputProps:{component:SomeThirdPartyComponent,},}}/>;
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Accessibility
@@ -15840,13 +14934,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     </text>
   </paragraph>
   <Pre>
-    <code>
-      <text>
-        <divclass="form-control"><labelfor="my-input">Email
-        address</label><inputid="my-input"aria-describedby="my-helper-text"/><spanid="my-helper-text">We'll
-        never share your email.</span></div>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <list>
     <listitem level="1">
@@ -15854,13 +14942,9 @@ exports[`chromium /components/text-fields/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <text>If you are using the</text>
-      <code>
-        <text>TextField</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>component, you just have to provide a unique</text>
-      <code>
-        <text>id</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>.</text>
     </listitem>
     <listitem level="1">
@@ -15871,13 +14955,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     </listitem>
   </list>
   <Pre>
-    <code>
-      <text>
-        <FormControl><InputLabelhtmlFor="my-input">Email
-        address</InputLabel><Inputid="my-input"aria-describedby="my-helper-text"/><FormHelperTextid="my-helper-text">We'll
-        never share your email.</FormHelperText></FormControl>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Complementary projects
@@ -15930,9 +15008,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       </ListMarker>
       <link>
         <FilledInput />
-        <code>
-          <text><FilledInput /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -15941,9 +15017,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       </ListMarker>
       <link>
         <FormControl />
-        <code>
-          <text><FormControl /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -15952,9 +15026,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       </ListMarker>
       <link>
         <FormHelperText />
-        <code>
-          <text><FormHelperText /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -15963,9 +15035,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       </ListMarker>
       <link>
         <Input />
-        <code>
-          <text><Input /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -15974,9 +15044,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       </ListMarker>
       <link>
         <InputAdornment />
-        <code>
-          <text><InputAdornment /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -15985,9 +15053,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       </ListMarker>
       <link>
         <InputBase />
-        <code>
-          <text><InputBase /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -15996,9 +15062,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       </ListMarker>
       <link>
         <InputLabel />
-        <code>
-          <text><InputLabel /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -16007,9 +15071,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       </ListMarker>
       <link>
         <OutlinedInput />
-        <code>
-          <text><OutlinedInput /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -16018,9 +15080,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       </ListMarker>
       <link>
         <TextField />
-        <code>
-          <text><TextField /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
   </list>
@@ -16119,11 +15179,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Tooltiptitle="Delete"><IconButtonaria-label="delete"><DeleteIcon/></IconButton></Tooltip><Tooltiptitle="Add"aria-label="add"><Fabcolor="primary"className={classes.fab}><AddIcon/></Fab></Tooltip><Tooltiptitle="Add"aria-label="add"><Fabcolor="secondary"className={classes.absolute}><AddIcon/></Fab></Tooltip>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Positioned Tooltips
@@ -16132,9 +15188,7 @@ exports[`chromium /components/tooltips/ 1`] = `
   </heading>
   <paragraph>
     <text>The</text>
-    <code>
-      <text>Tooltip</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       has 12placementschoice. They don’t have directional arrows; instead, they
       rely on motion emanating from the source to convey direction.
@@ -16292,9 +15346,7 @@ exports[`chromium /components/tooltips/ 1`] = `
   </heading>
   <paragraph>
     <text>You can use the</text>
-    <code>
-      <text>arrow</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       prop to give your tooltip an arrow indicating which element it refers to.
     </text>
@@ -16339,11 +15391,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Tooltiptitle="Add"arrow><Button>Arrow</Button></Tooltip>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Custom child element
@@ -16358,14 +15406,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     </text>
   </paragraph>
   <Pre>
-    <code>
-      <text>
-        constMyComponent=React.forwardRef(functionMyComponent(props,ref){//
-        Spread the props to the underlying DOM
-        element.return<div{...props}ref={ref}>Bin</div>});//
-        ...<Tooltiptitle="Delete"><MyComponent></Tooltip>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <paragraph>
     <text>You can find a similar concept in the</text>
@@ -16440,17 +15481,11 @@ exports[`chromium /components/tooltips/ 1`] = `
   </heading>
   <paragraph>
     <text>You can use the</text>
-    <code>
-      <text>open</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>,</text>
-    <code>
-      <text>onOpen</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>and</text>
-    <code>
-      <text>onClose</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>properties to control the behavior of the tooltip.</text>
   </paragraph>
   <button>
@@ -16493,11 +15528,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Tooltipopen={open}onClose={handleClose}onOpen={handleOpen}title="Add"><Button>Controlled</Button></Tooltip>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Variable Width
@@ -16506,9 +15537,7 @@ exports[`chromium /components/tooltips/ 1`] = `
   </heading>
   <paragraph>
     <text>The</text>
-    <code>
-      <text>Tooltip</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>wraps long text by default to make it readable.</text>
   </paragraph>
   <button>
@@ -16559,14 +15588,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Tooltiptitle={longText}><ButtonclassName={classes.button}>Default
-        Width[300px]</Button></Tooltip><Tooltiptitle={longText}classes={{tooltip:classes.customWidth}}><ButtonclassName={classes.button}>Custom
-        Width[500px]</Button></Tooltip><Tooltiptitle={longText}classes={{tooltip:classes.noMaxWidth}}><ButtonclassName={classes.button}>No
-        wrapping</Button></Tooltip>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Interactive
@@ -16578,9 +15600,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       A tooltip can be interactive. It won't close when the user hovers
       over the tooltip before the
     </text>
-    <code>
-      <text>leaveDelay</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>is expired.</text>
   </paragraph>
   <button>
@@ -16623,11 +15643,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Tooltiptitle="Add"interactive><Button>Interactive</Button></Tooltip>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Disabled Elements
@@ -16636,20 +15652,14 @@ exports[`chromium /components/tooltips/ 1`] = `
   </heading>
   <paragraph>
     <text>By default disabled elements like</text>
-    <code>
-      <text><button></text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>do not trigger user interactions so a</text>
-    <code>
-      <text>Tooltip</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       will not activate on normal events like hover. To accommodate disabled
       elements, add a simple wrapper element, such as a
     </text>
-    <code>
-      <text>span</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>.</text>
   </paragraph>
   <blockquote>
@@ -16700,26 +15710,16 @@ exports[`chromium /components/tooltips/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Tooltiptitle="You don't have permission to do
-        this"><span><Buttondisabled>ADisabled
-        Button</Button></span></Tooltip>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <blockquote>
     <paragraph>
       <text>
         If you're not wrapping a Material-UI component that inherits from
       </text>
-      <code>
-        <text>ButtonBase</text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>, for instance, a native</text>
-      <code>
-        <text><button></text>
-      </code>
+      <code>$SOME_CODE</code>
       <text>
         element, you should also add the CSS propertypointer-events: none;to
         your element when disabled:
@@ -16727,13 +15727,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     </paragraph>
   </blockquote>
   <Pre>
-    <code>
-      <text>
-        <Tooltiptitle="You don't have permission to do
-        this"><span><buttondisabled={disabled}style={disabled?{pointerEvents:'none'}:{}}>{'A
-        disabled button'}</button></span></Tooltip>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Transitions
@@ -16791,11 +15785,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Tooltiptitle="Add"><Button>Grow</Button></Tooltip><TooltipTransitionComponent={Fade}TransitionProps={{timeout:600}}title="Add"><Button>Fade</Button></Tooltip><TooltipTransitionComponent={Zoom}title="Add"><Button>Zoom</Button></Tooltip>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     Showing and hiding
@@ -16809,13 +15799,9 @@ exports[`chromium /components/tooltips/ 1`] = `
       leaves. A delay in showing or hiding the tooltip can be added through the
       properties
     </text>
-    <code>
-      <text>enterDelay</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>and</text>
-    <code>
-      <text>leaveDelay</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>, as shown in the Controlled Tooltips demo above.</text>
   </paragraph>
   <paragraph>
@@ -16823,9 +15809,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       On mobile, the tooltip is displayed when the user longpresses the element
       and hides after a delay of 1500ms. You can disable this feature with the
     </text>
-    <code>
-      <text>disableTouchListener</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>property.</text>
   </paragraph>
   <button>
@@ -16868,11 +15852,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     </combobox>
   </toolbar>
   <Pre>
-    <code>
-      <text>
-        <Tooltiptitle="Add"enterDelay={500}leaveDelay={200}><Button>[500ms,200ms]</Button></Tooltip>
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
     API
@@ -16886,9 +15866,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       </ListMarker>
       <link>
         <Tooltip />
-        <code>
-          <text><Tooltip /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
   </list>
@@ -17154,9 +16132,7 @@ exports[`chromium /components/transfer-list 1`] = `
       </ListMarker>
       <link>
         <Checkbox />
-        <code>
-          <text><Checkbox /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -17165,9 +16141,7 @@ exports[`chromium /components/transfer-list 1`] = `
       </ListMarker>
       <link>
         <List />
-        <code>
-          <text><List /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -17176,9 +16150,7 @@ exports[`chromium /components/transfer-list 1`] = `
       </ListMarker>
       <link>
         <ListItem />
-        <code>
-          <text><ListItem /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -17187,9 +16159,7 @@ exports[`chromium /components/transfer-list 1`] = `
       </ListMarker>
       <link>
         <Switch />
-        <code>
-          <text><Switch /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
   </list>
@@ -17400,13 +16370,9 @@ exports[`chromium /components/tree-view/ 1`] = `
   </heading>
   <paragraph>
     <text>While the</text>
-    <code>
-      <text>TreeView</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>/</text>
-    <code>
-      <text>TreeItem</text>
-    </code>
+    <code>$SOME_CODE</code>
     <text>
       component API maximizes flexibility, an extra step is needed to handle a
       rich object.
@@ -17419,12 +16385,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     </text>
   </paragraph>
   <Pre>
-    <code>
-      <text>
-        constdata={id:'root',name:'Parent',children:[{id:'1',name:'Child
-        - 1',},// …],};
-      </text>
-    </code>
+    <code>$SOME_CODE</code>
   </Pre>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -17681,9 +16642,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       </ListMarker>
       <link>
         <TreeItem />
-        <code>
-          <text><TreeItem /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
@@ -17692,9 +16651,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       </ListMarker>
       <link>
         <TreeView />
-        <code>
-          <text><TreeView /></text>
-        </code>
+        <code>$SOME_CODE</code>
       </link>
     </listitem>
   </list>
@@ -17971,7 +16928,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.2. View versions page.</link>
+      <link>v5.0.0-alpha.3. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
