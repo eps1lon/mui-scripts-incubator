@@ -9087,9 +9087,9 @@ exports[`chromium /components/selects/ 1`] = `
     </text>
   </paragraph>
   <heading level="2">
-    Simple Select
+    Basic select
     <Anchor></Anchor>
-    <text>Simple Select</text>
+    <text>Basic select</text>
   </heading>
   <paragraph>
     <text>
@@ -9110,6 +9110,142 @@ exports[`chromium /components/selects/ 1`] = `
   </combobox>
   <textbox></textbox>
   <SVGRoot></SVGRoot>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button description="Show the full source">
+      Show the full source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Edit in CodeSandbox">
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Copy the source">
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset focus to test keyboard navigation">
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset demo">
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Advanced features
+    <Anchor></Anchor>
+    <text>Advanced features</text>
+  </heading>
+  <paragraph>
+    <text>
+      The Select component is meant to be interchangeable with a native
+    </text>
+    <code>$SOME_CODE</code>
+    <text>element.</text>
+  </paragraph>
+  <paragraph>
+    <text>
+      If you are looking for more advanced features, like combobox, multiselect,
+      autocomplete, async or creatable support, head to the
+    </text>
+    <link>
+      Autocomplete component
+      <code>$SOME_CODE</code>
+    </link>
+    <text>
+      . It's meant to be an improved version of the
+      "react-select" and "downshift" packages.
+    </text>
+  </paragraph>
+  <heading level="2">
+    Props
+    <Anchor></Anchor>
+    <text>Props</text>
+  </heading>
+  <heading level="3">
+    Filled and outlined variants
+    <Anchor></Anchor>
+    <text>Filled and outlined variants</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Label>
+    <text>Age</text>
+  </Label>
+  <combobox haspopup="listbox">
+    Age ​<text>​</text>
+  </combobox>
+  <textbox></textbox>
+  <SVGRoot></SVGRoot>
+  <group>
+    <Legend>
+      <text>Age</text>
+    </Legend>
+  </group>
+  <Label>
+    <text>Age</text>
+  </Label>
+  <text> </text>
+  <combobox haspopup="listbox">
+    Age ​<text>​</text>
+  </combobox>
+  <textbox></textbox>
+  <SVGRoot></SVGRoot>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button description="Show the source">
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Edit in CodeSandbox">
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Copy the source">
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset focus to test keyboard navigation">
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset demo">
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <heading level="3">
+    Labels and helper text
+    <Anchor></Anchor>
+    <text>Labels and helper text</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
   <Label>
     <text>Age</text>
   </Label>
@@ -9120,7 +9256,7 @@ exports[`chromium /components/selects/ 1`] = `
   <textbox></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
-    <text>Some important helper text</text>
+    <text>With label + helper text</text>
   </paragraph>
   <text> </text>
   <combobox haspopup="listbox">
@@ -9132,19 +9268,95 @@ exports[`chromium /components/selects/ 1`] = `
   <paragraph>
     <text>Without label</text>
   </paragraph>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button description="Show the source">
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Edit in CodeSandbox">
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Copy the source">
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset focus to test keyboard navigation">
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset demo">
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <heading level="3">
+    Auto width
+    <Anchor></Anchor>
+    <text>Auto width</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
   <Label>
     <text>Age</text>
   </Label>
   <text> </text>
   <combobox haspopup="listbox">
-    Age None
-    <text>None</text>
+    Age ​<text>​</text>
   </combobox>
   <textbox></textbox>
   <SVGRoot></SVGRoot>
-  <paragraph>
-    <text>Label + placeholder</text>
-  </paragraph>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button description="Show the source">
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Edit in CodeSandbox">
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Copy the source">
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset focus to test keyboard navigation">
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset demo">
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <heading level="3">
+    Other props
+    <Anchor></Anchor>
+    <text>Other props</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
   <Label>
     <text>Name</text>
   </Label>
@@ -9182,25 +9394,6 @@ exports[`chromium /components/selects/ 1`] = `
     <text>Read only</text>
   </paragraph>
   <Label>
-    <text>Age</text>
-  </Label>
-  <text> </text>
-  <combobox haspopup="listbox">
-    Age ​<text>​</text>
-  </combobox>
-  <textbox></textbox>
-  <SVGRoot></SVGRoot>
-  <paragraph>
-    <text>Auto width</text>
-  </paragraph>
-  <text> </text>
-  <combobox haspopup="listbox">Without label</combobox>
-  <textbox></textbox>
-  <SVGRoot></SVGRoot>
-  <paragraph>
-    <text>Placeholder</text>
-  </paragraph>
-  <Label>
     <text>Age *</text>
   </Label>
   <text> </text>
@@ -9212,28 +9405,6 @@ exports[`chromium /components/selects/ 1`] = `
   <paragraph>
     <text>Required</text>
   </paragraph>
-  <Label>
-    <text>Age</text>
-  </Label>
-  <combobox haspopup="listbox">
-    Age ​<text>​</text>
-  </combobox>
-  <textbox></textbox>
-  <SVGRoot></SVGRoot>
-  <group>
-    <Legend>
-      <text>Age</text>
-    </Legend>
-  </group>
-  <Label>
-    <text>Age</text>
-  </Label>
-  <text> </text>
-  <combobox haspopup="listbox">
-    Age ​<text>​</text>
-  </combobox>
-  <textbox></textbox>
-  <SVGRoot></SVGRoot>
   <toolbar>
     demo source
     <group>
@@ -9266,35 +9437,9 @@ exports[`chromium /components/selects/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
-    Advanced features
+    Native select
     <Anchor></Anchor>
-    <text>Advanced features</text>
-  </heading>
-  <paragraph>
-    <text>
-      The Select component is meant to be interchangeable with a native
-    </text>
-    <code>$SOME_CODE</code>
-    <text>element.</text>
-  </paragraph>
-  <paragraph>
-    <text>
-      If you are looking for more advanced features, like combobox, multiselect,
-      autocomplete, async or creatable support, head to the
-    </text>
-    <link>
-      Autocomplete component
-      <code>$SOME_CODE</code>
-    </link>
-    <text>
-      . It's meant to be an improved version of the
-      "react-select" and "downshift" packages.
-    </text>
-  </paragraph>
-  <heading level="2">
-    Native Select
-    <Anchor></Anchor>
-    <text>Native Select</text>
+    <text>Native select</text>
   </heading>
   <paragraph>
     <text>
@@ -9310,173 +9455,12 @@ exports[`chromium /components/selects/ 1`] = `
     <text>Age</text>
   </Label>
   <text> </text>
-  <combobox value="None">
-    Age
-    <MenuListPopup>
-      <menuitem selected="true"></menuitem>
-      <menuitem>Ten</menuitem>
-      <menuitem>Twenty</menuitem>
-      <menuitem>Thirty</menuitem>
-    </MenuListPopup>
-  </combobox>
-  <SVGRoot></SVGRoot>
-  <Label>
-    <text>Age</text>
-  </Label>
-  <text> </text>
-  <combobox value="None">
-    Age
-    <MenuListPopup>
-      <menuitem selected="true"></menuitem>
-      <menuitem>Ten</menuitem>
-      <menuitem>Twenty</menuitem>
-      <menuitem>Thirty</menuitem>
-    </MenuListPopup>
-  </combobox>
-  <SVGRoot></SVGRoot>
-  <paragraph>
-    <text>Some important helper text</text>
-  </paragraph>
-  <text> </text>
-  <combobox value="None">
-    age
-    <MenuListPopup>
-      <menuitem selected="true">None</menuitem>
-      <menuitem>Ten</menuitem>
-      <menuitem>Twenty</menuitem>
-      <menuitem>Thirty</menuitem>
-    </MenuListPopup>
-  </combobox>
-  <SVGRoot></SVGRoot>
-  <paragraph>
-    <text>With visually hidden label</text>
-  </paragraph>
-  <Label>
-    <text>Age</text>
-  </Label>
-  <text> </text>
-  <combobox value="None">
-    Age
-    <MenuListPopup>
-      <menuitem selected="true">None</menuitem>
-      <menuitem>Ten</menuitem>
-      <menuitem>Twenty</menuitem>
-      <menuitem>Thirty</menuitem>
-    </MenuListPopup>
-  </combobox>
-  <SVGRoot></SVGRoot>
-  <paragraph>
-    <text>Label + placeholder</text>
-  </paragraph>
-  <Label>
-    <text>Name</text>
-  </Label>
-  <text> </text>
-  <combobox value="Hai" disabled="true">
-    Name
-    <MenuListPopup disabled="true">
-      <menuitem>None</menuitem>
-      <menuitem selected="true">Hai</menuitem>
-      <menuitem>Olivier</menuitem>
-      <menuitem>Kevin</menuitem>
-    </MenuListPopup>
-  </combobox>
-  <SVGRoot></SVGRoot>
-  <paragraph>
-    <text>Disabled</text>
-  </paragraph>
-  <Label>
-    <text>Name</text>
-  </Label>
-  <text> </text>
-  <combobox value="Hai" invalid="true">
-    Name
-    <MenuListPopup>
-      <menuitem selected="true">Hai</menuitem>
-      <menuitem>Olivier</menuitem>
-      <menuitem>Kevin</menuitem>
-    </MenuListPopup>
-  </combobox>
-  <SVGRoot></SVGRoot>
-  <paragraph>
-    <text>Error</text>
-  </paragraph>
-  <Label>
-    <text>Name</text>
-  </Label>
-  <text> </text>
   <combobox value="Thirty">
-    Name
+    Age
     <MenuListPopup>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
-    </MenuListPopup>
-  </combobox>
-  <SVGRoot></SVGRoot>
-  <paragraph>
-    <text>Uncontrolled</text>
-  </paragraph>
-  <text> </text>
-  <combobox value="Placeholder">
-    age
-    <MenuListPopup>
-      <menuitem disabled="true">Placeholder</menuitem>
-      <menuitem>Ten</menuitem>
-      <menuitem>Twenty</menuitem>
-      <menuitem>Thirty</menuitem>
-    </MenuListPopup>
-  </combobox>
-  <SVGRoot></SVGRoot>
-  <paragraph>
-    <text>Placeholder</text>
-  </paragraph>
-  <Label>
-    <text>Age *</text>
-  </Label>
-  <text> </text>
-  <combobox value="None">
-    Age
-    <MenuListPopup>
-      <menuitem selected="true"></menuitem>
-      <menuitem>Ten</menuitem>
-      <menuitem>Twenty</menuitem>
-      <menuitem>Thirty</menuitem>
-    </MenuListPopup>
-  </combobox>
-  <SVGRoot></SVGRoot>
-  <paragraph>
-    <text>Required</text>
-  </paragraph>
-  <Label>
-    <text>Age</text>
-  </Label>
-  <combobox value="None">
-    Age
-    <MenuListPopup>
-      <menuitem selected="true"></menuitem>
-      <menuitem>Ten</menuitem>
-      <menuitem>Twenty</menuitem>
-      <menuitem>Thirty</menuitem>
-    </MenuListPopup>
-  </combobox>
-  <SVGRoot></SVGRoot>
-  <group>
-    <Legend>
-      <text>Age</text>
-    </Legend>
-  </group>
-  <Label>
-    <text>Age</text>
-  </Label>
-  <text> </text>
-  <combobox value="None">
-    Age
-    <MenuListPopup>
-      <menuitem selected="true"></menuitem>
-      <menuitem>Ten</menuitem>
-      <menuitem>Twenty</menuitem>
-      <menuitem>Thirty</menuitem>
     </MenuListPopup>
   </combobox>
   <SVGRoot></SVGRoot>
@@ -9486,8 +9470,8 @@ exports[`chromium /components/selects/ 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -9511,10 +9495,13 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
-    Text Fields
+    TextField
     <Anchor></Anchor>
-    <text>Text Fields</text>
+    <text>TextField</text>
   </heading>
   <paragraph>
     <text>The</text>
@@ -9617,9 +9604,9 @@ exports[`chromium /components/selects/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
-    Multiple Select
+    Multiple select
     <Anchor></Anchor>
-    <text>Multiple Select</text>
+    <text>Multiple select</text>
   </heading>
   <paragraph>
     <text>The</text>
@@ -9640,6 +9627,11 @@ exports[`chromium /components/selects/ 1`] = `
     <code>$SOME_CODE</code>
     <text>callback. It's always an array.</text>
   </paragraph>
+  <heading level="3">
+    Default
+    <Anchor></Anchor>
+    <text>Default</text>
+  </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -9653,6 +9645,46 @@ exports[`chromium /components/selects/ 1`] = `
   </combobox>
   <textbox></textbox>
   <SVGRoot></SVGRoot>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button description="Show the source">
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Edit in CodeSandbox">
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Copy the source">
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset focus to test keyboard navigation">
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset demo">
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <heading level="3">
+    Checkmarks
+    <Anchor></Anchor>
+    <text>Checkmarks</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
   <Label>
     <text>Tag</text>
   </Label>
@@ -9662,6 +9694,46 @@ exports[`chromium /components/selects/ 1`] = `
   </combobox>
   <textbox></textbox>
   <SVGRoot></SVGRoot>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button description="Show the source">
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Edit in CodeSandbox">
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Copy the source">
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset focus to test keyboard navigation">
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset demo">
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <heading level="3">
+    Chip
+    <Anchor></Anchor>
+    <text>Chip</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
   <Label>
     <text>Chip</text>
   </Label>
@@ -9671,6 +9743,46 @@ exports[`chromium /components/selects/ 1`] = `
   </combobox>
   <textbox></textbox>
   <SVGRoot></SVGRoot>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button description="Show the source">
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Edit in CodeSandbox">
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Copy the source">
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset focus to test keyboard navigation">
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset demo">
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <heading level="3">
+    Placeholder
+    <Anchor></Anchor>
+    <text>Placeholder</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
   <text> </text>
   <combobox haspopup="listbox">
     Without label
@@ -9678,6 +9790,46 @@ exports[`chromium /components/selects/ 1`] = `
   </combobox>
   <textbox></textbox>
   <SVGRoot></SVGRoot>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button description="Show the source">
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Edit in CodeSandbox">
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Copy the source">
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset focus to test keyboard navigation">
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset demo">
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <heading level="3">
+    Native
+    <Anchor></Anchor>
+    <text>Native</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
   <Label>
     <text>Native</text>
   </Label>
@@ -9727,9 +9879,9 @@ exports[`chromium /components/selects/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
-    Controlled Open Select
+    Controlled open select
     <Anchor></Anchor>
-    <text>Controlled Open Select</text>
+    <text>Controlled open select</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -9780,9 +9932,9 @@ exports[`chromium /components/selects/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
-    With a Dialog
+    With a dialog
     <Anchor></Anchor>
-    <text>With a Dialog</text>
+    <text>With a dialog</text>
   </heading>
   <paragraph>
     <text>
@@ -23672,9 +23824,9 @@ exports[`firefox /components/selects/ 1`] = `
     </text>
   </paragraph>
   <heading level="2">
-    Simple Select
+    Basic select
     <link></link>
-    <text>Simple Select</text>
+    <text>Basic select</text>
   </heading>
   <paragraph>
     <text>
@@ -23694,6 +23846,95 @@ exports[`firefox /components/selects/ 1`] = `
   <button haspopup="true">
     Age ​<text>​</text>
   </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <FormControl fullWidth> <InputLabel
+    id="demo-simple-select-label">Age</InputLabel> <Select
+    labelId="demo-simple-select-label"
+    id="demo-simple-select" value={age}
+    onChange={handleChange} > <MenuItem
+    value={10}>Ten</MenuItem> <MenuItem
+    value={20}>Twenty</MenuItem> <MenuItem
+    value={30}>Thirty</MenuItem> </Select>
+    </FormControl>
+  </text>
+  <heading level="2">
+    Advanced features
+    <link></link>
+    <text>Advanced features</text>
+  </heading>
+  <paragraph>
+    <text>
+      The Select component is meant to be interchangeable with a native
+      <select> element.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      If you are looking for more advanced features, like combobox, multiselect,
+      autocomplete, async or creatable support, head to the
+    </text>
+    <link>Autocomplete component</link>
+    <text>
+      . It's meant to be an improved version of the
+      "react-select" and "downshift" packages.
+    </text>
+  </paragraph>
+  <heading level="2">
+    Props
+    <link></link>
+    <text>Props</text>
+  </heading>
+  <heading level="3">
+    Filled and outlined variants
+    <link></link>
+    <text>Filled and outlined variants</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <button haspopup="true">
+    Age ​<text>​</text>
+  </button>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <statictext> </statictext>
+  <button haspopup="true">
+    Age ​<text>​</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Labels and helper text
+    <link></link>
+    <text>Labels and helper text</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
   <label>
     Age
     <text>Age</text>
@@ -23703,7 +23944,7 @@ exports[`firefox /components/selects/ 1`] = `
     Age ​<text>​</text>
   </button>
   <paragraph>
-    <text>Some important helper text</text>
+    <text>With label + helper text</text>
   </paragraph>
   <statictext> </statictext>
   <button haspopup="true">
@@ -23713,18 +23954,50 @@ exports[`firefox /components/selects/ 1`] = `
   <paragraph>
     <text>Without label</text>
   </paragraph>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Auto width
+    <link></link>
+    <text>Auto width</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
   <label>
     Age
     <text>Age</text>
   </label>
   <statictext> </statictext>
   <button haspopup="true">
-    Age None
-    <text>None</text>
+    Age ​<text>​</text>
   </button>
-  <paragraph>
-    <text>Label + placeholder</text>
-  </paragraph>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Other props
+    <link></link>
+    <text>Other props</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
   <label>
     Name
     <text>Name</text>
@@ -23767,42 +24040,8 @@ exports[`firefox /components/selects/ 1`] = `
     Age ​<text>​</text>
   </button>
   <paragraph>
-    <text>Auto width</text>
-  </paragraph>
-  <statictext> </statictext>
-  <button haspopup="true">
-    Without label
-    <text>Placeholder</text>
-  </button>
-  <paragraph>
-    <text>Placeholder</text>
-  </paragraph>
-  <label>
-    Age
-    <text>Age</text>
-  </label>
-  <statictext> </statictext>
-  <button haspopup="true">
-    Age ​<text>​</text>
-  </button>
-  <paragraph>
     <text>Required</text>
   </paragraph>
-  <label>
-    Age
-    <text>Age</text>
-  </label>
-  <button haspopup="true">
-    Age ​<text>​</text>
-  </button>
-  <label>
-    Age
-    <text>Age</text>
-  </label>
-  <statictext> </statictext>
-  <button haspopup="true">
-    Age ​<text>​</text>
-  </button>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -23813,31 +24052,9 @@ exports[`firefox /components/selects/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Advanced features
+    Native select
     <link></link>
-    <text>Advanced features</text>
-  </heading>
-  <paragraph>
-    <text>
-      The Select component is meant to be interchangeable with a native
-      <select> element.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      If you are looking for more advanced features, like combobox, multiselect,
-      autocomplete, async or creatable support, head to the
-    </text>
-    <link>Autocomplete component</link>
-    <text>
-      . It's meant to be an improved version of the
-      "react-select" and "downshift" packages.
-    </text>
-  </paragraph>
-  <heading level="2">
-    Native Select
-    <link></link>
-    <text>Native Select</text>
+    <text>Native select</text>
   </heading>
   <paragraph>
     <text>
@@ -23854,181 +24071,8 @@ exports[`firefox /components/selects/ 1`] = `
     <text>Age</text>
   </label>
   <statictext> </statictext>
-  <combobox value="None" haspopup="true">
-    Age
-    <MenuListPopup>
-      <menuitem selected="true">None</menuitem>
-      <menuitem>
-        Ten
-        <text>Ten</text>
-      </menuitem>
-      <menuitem>
-        Twenty
-        <text>Twenty</text>
-      </menuitem>
-      <menuitem>
-        Thirty
-        <text>Thirty</text>
-      </menuitem>
-    </MenuListPopup>
-  </combobox>
-  <label>
-    Age
-    <text>Age</text>
-  </label>
-  <statictext> </statictext>
-  <combobox value="None" haspopup="true">
-    Age
-    <MenuListPopup>
-      <menuitem selected="true">None</menuitem>
-      <menuitem>
-        Ten
-        <text>Ten</text>
-      </menuitem>
-      <menuitem>
-        Twenty
-        <text>Twenty</text>
-      </menuitem>
-      <menuitem>
-        Thirty
-        <text>Thirty</text>
-      </menuitem>
-    </MenuListPopup>
-  </combobox>
-  <paragraph>
-    <text>Some important helper text</text>
-  </paragraph>
-  <statictext> </statictext>
-  <combobox value="None" haspopup="true">
-    age
-    <MenuListPopup>
-      <menuitem selected="true">
-        None
-        <text>None</text>
-      </menuitem>
-      <menuitem>
-        Ten
-        <text>Ten</text>
-      </menuitem>
-      <menuitem>
-        Twenty
-        <text>Twenty</text>
-      </menuitem>
-      <menuitem>
-        Thirty
-        <text>Thirty</text>
-      </menuitem>
-    </MenuListPopup>
-  </combobox>
-  <paragraph>
-    <text>With visually hidden label</text>
-  </paragraph>
-  <label>
-    Age
-    <text>Age</text>
-  </label>
-  <statictext> </statictext>
-  <combobox value="None" haspopup="true">
-    Age
-    <MenuListPopup>
-      <menuitem selected="true">
-        None
-        <text>None</text>
-      </menuitem>
-      <menuitem>
-        Ten
-        <text>Ten</text>
-      </menuitem>
-      <menuitem>
-        Twenty
-        <text>Twenty</text>
-      </menuitem>
-      <menuitem>
-        Thirty
-        <text>Thirty</text>
-      </menuitem>
-    </MenuListPopup>
-  </combobox>
-  <paragraph>
-    <text>Label + placeholder</text>
-  </paragraph>
-  <label>
-    Name
-    <text>Name</text>
-  </label>
-  <statictext> </statictext>
-  <combobox value="Hai" disabled="true" haspopup="true">
-    Name
-    <MenuListPopup>
-      <menuitem>
-        None
-        <text>None</text>
-      </menuitem>
-      <group>
-        Author
-        <statictext>Author</statictext>
-        <menuitem selected="true">
-          Hai
-          <text>Hai</text>
-        </menuitem>
-      </group>
-      <group>
-        Contributors
-        <statictext>Contributors</statictext>
-        <menuitem level="2">
-          Olivier
-          <text>Olivier</text>
-        </menuitem>
-        <menuitem level="2">
-          Kevin
-          <text>Kevin</text>
-        </menuitem>
-      </group>
-    </MenuListPopup>
-  </combobox>
-  <paragraph>
-    <text>Disabled</text>
-  </paragraph>
-  <label>
-    Name
-    <text>Name</text>
-  </label>
-  <statictext> </statictext>
-  <combobox value="Hai" haspopup="true" invalid="true">
-    Name
-    <MenuListPopup invalid="true">
-      <group>
-        Author
-        <statictext>Author</statictext>
-        <menuitem selected="true">
-          Hai
-          <text>Hai</text>
-        </menuitem>
-      </group>
-      <group>
-        Contributors
-        <statictext>Contributors</statictext>
-        <menuitem level="2">
-          Olivier
-          <text>Olivier</text>
-        </menuitem>
-        <menuitem level="2">
-          Kevin
-          <text>Kevin</text>
-        </menuitem>
-      </group>
-    </MenuListPopup>
-  </combobox>
-  <paragraph>
-    <text>Error</text>
-  </paragraph>
-  <label>
-    Name
-    <text>Name</text>
-  </label>
-  <statictext> </statictext>
   <combobox value="Thirty" haspopup="true">
-    Name
+    Age
     <MenuListPopup>
       <menuitem>
         Ten
@@ -24039,105 +24083,6 @@ exports[`firefox /components/selects/ 1`] = `
         <text>Twenty</text>
       </menuitem>
       <menuitem selected="true">
-        Thirty
-        <text>Thirty</text>
-      </menuitem>
-    </MenuListPopup>
-  </combobox>
-  <paragraph>
-    <text>Uncontrolled</text>
-  </paragraph>
-  <statictext> </statictext>
-  <combobox value="Placeholder" haspopup="true">
-    age
-    <MenuListPopup>
-      <menuitem disabled="true" selected="true">
-        Placeholder
-        <text>Placeholder</text>
-      </menuitem>
-      <menuitem>
-        Ten
-        <text>Ten</text>
-      </menuitem>
-      <menuitem>
-        Twenty
-        <text>Twenty</text>
-      </menuitem>
-      <menuitem>
-        Thirty
-        <text>Thirty</text>
-      </menuitem>
-    </MenuListPopup>
-  </combobox>
-  <paragraph>
-    <text>Placeholder</text>
-  </paragraph>
-  <label>
-    Age
-    <text>Age</text>
-  </label>
-  <statictext> </statictext>
-  <combobox value="None" required="true" haspopup="true" invalid="true">
-    Age
-    <MenuListPopup>
-      <menuitem selected="true">None</menuitem>
-      <menuitem>
-        Ten
-        <text>Ten</text>
-      </menuitem>
-      <menuitem>
-        Twenty
-        <text>Twenty</text>
-      </menuitem>
-      <menuitem>
-        Thirty
-        <text>Thirty</text>
-      </menuitem>
-    </MenuListPopup>
-  </combobox>
-  <paragraph>
-    <text>Required</text>
-  </paragraph>
-  <label>
-    Age
-    <text>Age</text>
-  </label>
-  <combobox value="None" haspopup="true">
-    Age
-    <MenuListPopup>
-      <menuitem selected="true">None</menuitem>
-      <menuitem>
-        Ten
-        <text>Ten</text>
-      </menuitem>
-      <menuitem>
-        Twenty
-        <text>Twenty</text>
-      </menuitem>
-      <menuitem>
-        Thirty
-        <text>Thirty</text>
-      </menuitem>
-    </MenuListPopup>
-  </combobox>
-  <label>
-    Age
-    <text>Age</text>
-  </label>
-  <statictext> </statictext>
-  <combobox value="None" haspopup="true">
-    Age
-    <MenuListPopup>
-      <menuitem selected="true">None</menuitem>
-      <menuitem>
-        Ten
-        <text>Ten</text>
-      </menuitem>
-      <menuitem>
-        Twenty
-        <text>Twenty</text>
-      </menuitem>
-      <menuitem>
         Thirty
         <text>Thirty</text>
       </menuitem>
@@ -24145,17 +24090,27 @@ exports[`firefox /components/selects/ 1`] = `
   </combobox>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <FormControl fullWidth> <InputLabel
+    htmlFor="uncontrolled-native">Age</InputLabel>
+    <NativeSelect defaultValue={30} inputProps={{ name:
+    'age', id: 'uncontrolled-native', }} >
+    <option value={10}>Ten</option> <option
+    value={20}>Twenty</option> <option
+    value={30}>Thirty</option> </NativeSelect>
+    </FormControl>
+  </text>
   <heading level="2">
-    Text Fields
+    TextField
     <link></link>
-    <text>Text Fields</text>
+    <text>TextField</text>
   </heading>
   <paragraph>
     <text>
@@ -24238,9 +24193,9 @@ exports[`firefox /components/selects/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
-    Multiple Select
+    Multiple select
     <link></link>
-    <text>Multiple Select</text>
+    <text>Multiple select</text>
   </heading>
   <paragraph>
     <text>
@@ -24255,6 +24210,11 @@ exports[`firefox /components/selects/ 1`] = `
       array.
     </text>
   </paragraph>
+  <heading level="3">
+    Default
+    <link></link>
+    <text>Default</text>
+  </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -24267,6 +24227,24 @@ exports[`firefox /components/selects/ 1`] = `
   <button haspopup="true">
     Name ​<text>​</text>
   </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Checkmarks
+    <link></link>
+    <text>Checkmarks</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
   <label>
     Tag
     <text>Tag</text>
@@ -24274,6 +24252,24 @@ exports[`firefox /components/selects/ 1`] = `
   <statictext> </statictext>
   <button haspopup="true">
     Tag ​<text>​</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Chip
+    <link></link>
+    <text>Chip</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
   </button>
   <label>
     Chip
@@ -24283,10 +24279,46 @@ exports[`firefox /components/selects/ 1`] = `
   <button haspopup="true">
     Chip ​<text>​</text>
   </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Placeholder
+    <link></link>
+    <text>Placeholder</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
   <statictext> </statictext>
   <button haspopup="true">
     Without label
     <text>Placeholder</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Native
+    <link></link>
+    <text>Native</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
   </button>
   <label>
     Native
@@ -24346,9 +24378,9 @@ exports[`firefox /components/selects/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Controlled Open Select
+    Controlled open select
     <link></link>
-    <text>Controlled Open Select</text>
+    <text>Controlled open select</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -24376,9 +24408,9 @@ exports[`firefox /components/selects/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    With a Dialog
+    With a dialog
     <link></link>
-    <text>With a Dialog</text>
+    <text>With a dialog</text>
   </heading>
   <paragraph>
     <text>
