@@ -17,7 +17,7 @@
 		"ink": "^2.7.1",
 		"jest": "^26.1.0",
 		"lighthouse": "^6.1.0",
-		"lodash": "^4.17.15",
+		"lodash": "^4.17.19",
 		"node-fetch": "^2.6.0",
 		"playwright": "1.1.1",
 		"prettier": "^2.0.5",
