@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: hmarr/debug-action@master
       - uses: ethomson/send-tweet-action@v1
-        if: ${{ github.event.label.name == "good first issue" && github.event.issue.state == "open" }}
+        if: ${{ github.event.label.name == 'good first issue' && github.event.issue.state == 'open' }}
         with:
           status: >
             A new issue on the @materialui repository has been marked as a "good first issue". Any help resolving this issue would be greatly appreciated. 
