@@ -15124,6 +15124,13 @@ exports[`chromium /components/text-fields/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
+      <link>react-hook-form</link>
+      <text>: React hook for form validation.</text>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>formik-material-ui</link>
       <text>: Bindings for using Material-UI with</text>
       <link>formik</link>
@@ -28028,6 +28035,12 @@ exports[`firefox /components/text-fields/ 1`] = `
     </text>
   </paragraph>
   <list>
+    <listitem>
+      • react-hook-form : React hook for form validation.
+      <statictext>•</statictext>
+      <link>react-hook-form</link>
+      <text>: React hook for form validation.</text>
+    </listitem>
     <listitem>
       • formik-material-ui : Bindings for using Material-UI with formik .
       <statictext>•</statictext>
