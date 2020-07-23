@@ -26853,7 +26853,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Multiline Placeholder</text>
     </label>
     <statictext> </statictext>
-    <textbox multiline="true">Multiline Placeholder</textbox>
+    <textbox multiline="true">Placeholder</textbox>
     <label>
       Multiline
       <text>Multiline</text>
