@@ -176,9 +176,7 @@ exports[`chromium / 1`] = `
     <paragraph>
       <link>
         call-em-all
-        <img description="Mass Text Messaging & Automated Calling">
-          call-em-all
-        </img>
+        <img description="The easy way to message your group">call-em-all</img>
       </link>
       <link>
         bitsrc
@@ -305,57 +303,57 @@ exports[`chromium / 1`] = `
   <list>
     <listitem level="1">
       <button>
-        <text>Getting Started</text>
+        <text>GETTING STARTED</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        <text>Components</text>
+        <text>COMPONENTS</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        <text>Component API</text>
+        <text>COMPONENT API</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        <text>Styles</text>
+        <text>STYLES</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        <text>System</text>
+        <text>SYSTEM</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        <text>Customization</text>
+        <text>CUSTOMIZATION</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        <text>Guides</text>
+        <text>GUIDES</text>
       </button>
     </listitem>
     <listitem level="1">
       <link>
-        <text>Premium themes</text>
+        <text>PREMIUM THEMES</text>
       </link>
     </listitem>
     <listitem level="1">
       <button>
-        <text>Discover More</text>
+        <text>DISCOVER MORE</text>
       </button>
     </listitem>
     <listitem level="1">
       <link>
-        <text>Versions</text>
+        <text>VERSIONS</text>
       </link>
     </listitem>
     <listitem level="1">
       <link>
-        <text>Blog</text>
+        <text>BLOG</text>
       </link>
     </listitem>
   </list>
@@ -1322,13 +1320,13 @@ exports[`chromium /api/button/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Breadcrumbs
+      BREADCRUMBS
       <SVGRoot></SVGRoot>
-      <text>Breadcrumbs</text>
+      <text>BREADCRUMBS</text>
     </link>
     <link>
-      Button Base
-      <text>Button Base</text>
+      BUTTON BASE
+      <text>BUTTON BASE</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -2233,13 +2231,13 @@ exports[`chromium /api/select/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Scoped Css Baseline
+      SCOPED CSS BASELINE
       <SVGRoot></SVGRoot>
-      <text>Scoped Css Baseline</text>
+      <text>SCOPED CSS BASELINE</text>
     </link>
     <link>
-      Skeleton
-      <text>Skeleton</text>
+      SKELETON
+      <text>SKELETON</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -2896,13 +2894,13 @@ exports[`chromium /components/breadcrumbs 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Bottom Navigation
+      BOTTOM NAVIGATION
       <SVGRoot></SVGRoot>
-      <text>Bottom Navigation</text>
+      <text>BOTTOM NAVIGATION</text>
     </link>
     <link>
-      Drawer
-      <text>Drawer</text>
+      DRAWER
+      <text>DRAWER</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -3324,13 +3322,13 @@ exports[`chromium /components/button-group/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Button
+      BUTTON
       <SVGRoot></SVGRoot>
-      <text>Button</text>
+      <text>BUTTON</text>
     </link>
     <link>
-      Checkbox
-      <text>Checkbox</text>
+      CHECKBOX
+      <text>CHECKBOX</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -4004,8 +4002,8 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>THEME PROVIDER</text>
   </button>
   <button>
-    Bootstrap
-    <text>Bootstrap</text>
+    BOOTSTRAP
+    <text>BOOTSTRAP</text>
   </button>
   <toolbar>
     demo source
@@ -4058,12 +4056,14 @@ exports[`chromium /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button disabled="true">
+    SUBMIT
     <progressbar valuetext="">
       <SVGRoot></SVGRoot>
     </progressbar>
     <text>SUBMIT</text>
   </button>
   <button disabled="true">
+    LOADING... FETCH DATA
     <text>LOADING...FETCH DATA</text>
   </button>
   <button disabled="true">
@@ -4391,13 +4391,13 @@ exports[`chromium /components/buttons/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Hidden
+      HIDDEN
       <SVGRoot></SVGRoot>
-      <text>Hidden</text>
+      <text>HIDDEN</text>
     </link>
     <link>
-      Button Group
-      <text>Button Group</text>
+      BUTTON GROUP
+      <text>BUTTON GROUP</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -4910,13 +4910,13 @@ exports[`chromium /components/checkboxes/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Button Group
+      BUTTON GROUP
       <SVGRoot></SVGRoot>
-      <text>Button Group</text>
+      <text>BUTTON GROUP</text>
     </link>
     <link>
-      Floating Action Button
-      <text>Floating Action Button</text>
+      FLOATING ACTION BUTTON
+      <text>FLOATING ACTION BUTTON</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -5736,13 +5736,13 @@ exports[`chromium /components/dialogs/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Progress
+      PROGRESS
       <SVGRoot></SVGRoot>
-      <text>Progress</text>
+      <text>PROGRESS</text>
     </link>
     <link>
-      Snackbar
-      <text>Snackbar</text>
+      SNACKBAR
+      <text>SNACKBAR</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -7449,13 +7449,13 @@ exports[`chromium /components/pagination/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Autocomplete
+      AUTOCOMPLETE
       <SVGRoot></SVGRoot>
-      <text>Autocomplete</text>
+      <text>AUTOCOMPLETE</text>
     </link>
     <link>
-      Rating
-      <text>Rating</text>
+      RATING
+      <text>RATING</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -7843,13 +7843,13 @@ exports[`chromium /components/pickers 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Floating Action Button
+      FLOATING ACTION BUTTON
       <SVGRoot></SVGRoot>
-      <text>Floating Action Button</text>
+      <text>FLOATING ACTION BUTTON</text>
     </link>
     <link>
-      Radio
-      <text>Radio</text>
+      RADIO
+      <text>RADIO</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -8367,13 +8367,13 @@ exports[`chromium /components/radio-buttons 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Date / Time
+      DATE / TIME
       <SVGRoot></SVGRoot>
-      <text>Date / Time</text>
+      <text>DATE / TIME</text>
     </link>
     <link>
-      Select
-      <text>Select</text>
+      SELECT
+      <text>SELECT</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -9057,13 +9057,13 @@ exports[`chromium /components/rating/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Pagination
+      PAGINATION
       <SVGRoot></SVGRoot>
-      <text>Pagination</text>
+      <text>PAGINATION</text>
     </link>
     <link>
-      Skeleton
-      <text>Skeleton</text>
+      SKELETON
+      <text>SKELETON</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -10129,13 +10129,13 @@ exports[`chromium /components/selects/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Radio
+      RADIO
       <SVGRoot></SVGRoot>
-      <text>Radio</text>
+      <text>RADIO</text>
     </link>
     <link>
-      Slider
-      <text>Slider</text>
+      SLIDER
+      <text>SLIDER</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -11200,13 +11200,13 @@ exports[`chromium /components/slider 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Select
+      SELECT
       <SVGRoot></SVGRoot>
-      <text>Select</text>
+      <text>SELECT</text>
     </link>
     <link>
-      Switch
-      <text>Switch</text>
+      SWITCH
+      <text>SWITCH</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -11717,13 +11717,13 @@ exports[`chromium /components/switches/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Slider
+      SLIDER
       <SVGRoot></SVGRoot>
-      <text>Slider</text>
+      <text>SLIDER</text>
     </link>
     <link>
-      Text Field
-      <text>Text Field</text>
+      TEXT FIELD
+      <text>TEXT FIELD</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -13027,13 +13027,13 @@ exports[`chromium /components/tabs/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Stepper
+      STEPPER
       <SVGRoot></SVGRoot>
-      <text>Stepper</text>
+      <text>STEPPER</text>
     </link>
     <link>
-      App Bar
-      <text>App Bar</text>
+      APP BAR
+      <text>APP BAR</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -15126,13 +15126,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>react-hook-form</link>
-      <text>: React hook for form validation.</text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>formik-material-ui</link>
       <text>: Bindings for using Material-UI with</text>
       <link>formik</link>
@@ -15248,13 +15241,13 @@ exports[`chromium /components/text-fields/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Switch
+      SWITCH
       <SVGRoot></SVGRoot>
-      <text>Switch</text>
+      <text>SWITCH</text>
     </link>
     <link>
-      Transfer List
-      <text>Transfer List</text>
+      TRANSFER LIST
+      <text>TRANSFER LIST</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -16034,13 +16027,13 @@ exports[`chromium /components/tooltips/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Table
+      TABLE
       <SVGRoot></SVGRoot>
-      <text>Table</text>
+      <text>TABLE</text>
     </link>
     <link>
-      Typography
-      <text>Typography</text>
+      TYPOGRAPHY
+      <text>TYPOGRAPHY</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -16327,13 +16320,13 @@ exports[`chromium /components/transfer-list 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Text Field
+      TEXT FIELD
       <SVGRoot></SVGRoot>
-      <text>Text Field</text>
+      <text>TEXT FIELD</text>
     </link>
     <link>
-      Bottom Navigation
-      <text>Bottom Navigation</text>
+      BOTTOM NAVIGATION
+      <text>BOTTOM NAVIGATION</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -16819,13 +16812,13 @@ exports[`chromium /components/tree-view/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Toggle Button
+      TOGGLE BUTTON
       <SVGRoot></SVGRoot>
-      <text>Toggle Button</text>
+      <text>TOGGLE BUTTON</text>
     </link>
     <link>
-      Accordion
-      <text>Accordion</text>
+      ACCORDION
+      <text>ACCORDION</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -16968,8 +16961,8 @@ exports[`firefox / 1`] = `
     <link>
       call-em-all
       <img
-        value="https://www.text-em-all.com/"
-        description="Mass Text Messaging & Automated Calling"
+        value="https://www.call-em-all.com/"
+        description="The easy way to message your group"
       >
         call-em-all
       </img>
@@ -17853,8 +17846,8 @@ exports[`firefox /api/button/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Breadcrumbs</link>
-  <link>Button Base</link>
+  <link>BREADCRUMBS</link>
+  <link>BUTTON BASE</link>
 </landmark>;
 
 `;
@@ -18535,8 +18528,8 @@ exports[`firefox /api/select/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Scoped Css Baseline</link>
-  <link>Skeleton</link>
+  <link>SCOPED CSS BASELINE</link>
+  <link>SKELETON</link>
 </landmark>;
 
 `;
@@ -18995,8 +18988,8 @@ exports[`firefox /components/breadcrumbs 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Bottom Navigation</link>
-  <link>Drawer</link>
+  <link>BOTTOM NAVIGATION</link>
+  <link>DRAWER</link>
 </landmark>;
 
 `;
@@ -19288,8 +19281,8 @@ exports[`firefox /components/button-group/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Button</link>
-  <link>Checkbox</link>
+  <link>BUTTON</link>
+  <link>CHECKBOX</link>
 </landmark>;
 
 `;
@@ -19380,12 +19373,12 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Button variant="contained">Primary</Button>
-    <Button variant="contained" color="secondary">
-    Secondary </Button> <Button variant="contained"
-    disabled> Disabled </Button> <Button
-    variant="contained" href="#contained-buttons"> Link
-    </Button>
+    <Button variant="contained"
+    color="primary">Primary</Button> <Button
+    variant="contained" color="secondary"> Secondary
+    </Button> <Button variant="contained" disabled>
+    Disabled </Button> <Button variant="contained"
+    href="#contained-buttons"> Link </Button>
   </text>
   <paragraph>
     <text>You can remove the elevation with the disableElevation prop.</text>
@@ -19752,8 +19745,8 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>THEME PROVIDER</text>
   </button>
   <button>
-    Bootstrap
-    <text>Bootstrap</text>
+    BOOTSTRAP
+    <text>BOOTSTRAP</text>
   </button>
   <toolbar>
     demo source
@@ -19784,16 +19777,17 @@ exports[`firefox /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button disabled="true">
-    50
+    50 SUBMIT
     <progressbar value="50" valuetext="50" checked="mixed">
       <diagram>
         <img></img>
       </diagram>
     </progressbar>
+    <text>SUBMIT</text>
   </button>
   <button disabled="true">
-    LOADING...
-    <text>LOADING...</text>
+    LOADING... FETCH DATA
+    <text>LOADING...FETCH DATA</text>
   </button>
   <button disabled="true">
     50 SAVE
@@ -20021,8 +20015,8 @@ exports[`firefox /components/buttons/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Hidden</link>
-  <link>Button Group</link>
+  <link>HIDDEN</link>
+  <link>BUTTON GROUP</link>
 </landmark>;
 
 `;
@@ -20398,8 +20392,8 @@ exports[`firefox /components/checkboxes/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Button Group</link>
-  <link>Floating Action Button</link>
+  <link>BUTTON GROUP</link>
+  <link>FLOATING ACTION BUTTON</link>
 </landmark>;
 
 `;
@@ -20941,8 +20935,8 @@ exports[`firefox /components/dialogs/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Progress</link>
-  <link>Snackbar</link>
+  <link>PROGRESS</link>
+  <link>SNACKBAR</link>
 </landmark>;
 
 `;
@@ -22465,8 +22459,8 @@ exports[`firefox /components/pagination/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Autocomplete</link>
-  <link>Rating</link>
+  <link>AUTOCOMPLETE</link>
+  <link>RATING</link>
 </landmark>;
 
 `;
@@ -22745,8 +22739,8 @@ exports[`firefox /components/pickers 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Floating Action Button</link>
-  <link>Radio</link>
+  <link>FLOATING ACTION BUTTON</link>
+  <link>RADIO</link>
 </landmark>;
 
 `;
@@ -23115,8 +23109,8 @@ exports[`firefox /components/radio-buttons 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Date / Time</link>
-  <link>Select</link>
+  <link>DATE / TIME</link>
+  <link>SELECT</link>
 </landmark>;
 
 `;
@@ -23812,8 +23806,8 @@ exports[`firefox /components/rating/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Pagination</link>
-  <link>Skeleton</link>
+  <link>PAGINATION</link>
+  <link>SKELETON</link>
 </landmark>;
 
 `;
@@ -24567,8 +24561,8 @@ exports[`firefox /components/selects/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Radio</link>
-  <link>Slider</link>
+  <link>RADIO</link>
+  <link>SLIDER</link>
 </landmark>;
 
 `;
@@ -25167,8 +25161,8 @@ exports[`firefox /components/slider 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Select</link>
-  <link>Switch</link>
+  <link>SELECT</link>
+  <link>SWITCH</link>
 </landmark>;
 
 `;
@@ -25548,8 +25542,8 @@ exports[`firefox /components/switches/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Slider</link>
-  <link>Text Field</link>
+  <link>SLIDER</link>
+  <link>TEXT FIELD</link>
 </landmark>;
 
 `;
@@ -26435,8 +26429,8 @@ exports[`firefox /components/tabs/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Stepper</link>
-  <link>App Bar</link>
+  <link>STEPPER</link>
+  <link>APP BAR</link>
 </landmark>;
 
 `;
@@ -28038,12 +28032,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • react-hook-form : React hook for form validation.
-      <statictext>•</statictext>
-      <link>react-hook-form</link>
-      <text>: React hook for form validation.</text>
-    </listitem>
-    <listitem>
       • formik-material-ui : Bindings for using Material-UI with formik .
       <statictext>•</statictext>
       <link>formik-material-ui</link>
@@ -28121,8 +28109,8 @@ exports[`firefox /components/text-fields/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Switch</link>
-  <link>Transfer List</link>
+  <link>SWITCH</link>
+  <link>TRANSFER LIST</link>
 </landmark>;
 
 `;
@@ -28655,8 +28643,8 @@ exports[`firefox /components/tooltips/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Table</link>
-  <link>Typography</link>
+  <link>TABLE</link>
+  <link>TYPOGRAPHY</link>
 </landmark>;
 
 `;
@@ -28857,8 +28845,8 @@ exports[`firefox /components/transfer-list 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Text Field</link>
-  <link>Bottom Navigation</link>
+  <link>TEXT FIELD</link>
+  <link>BOTTOM NAVIGATION</link>
 </landmark>;
 
 `;
@@ -29171,8 +29159,8 @@ exports[`firefox /components/tree-view/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Toggle Button</link>
-  <link>Accordion</link>
+  <link>TOGGLE BUTTON</link>
+  <link>ACCORDION</link>
 </landmark>;
 
 `;
