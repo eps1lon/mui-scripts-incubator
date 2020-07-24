@@ -176,7 +176,9 @@ exports[`chromium / 1`] = `
     <paragraph>
       <link>
         call-em-all
-        <img description="The easy way to message your group">call-em-all</img>
+        <img description="Mass Text Messaging & Automated Calling">
+          call-em-all
+        </img>
       </link>
       <link>
         bitsrc
@@ -16966,8 +16968,8 @@ exports[`firefox / 1`] = `
     <link>
       call-em-all
       <img
-        value="https://www.call-em-all.com/"
-        description="The easy way to message your group"
+        value="https://www.text-em-all.com/"
+        description="Mass Text Messaging & Automated Calling"
       >
         call-em-all
       </img>
