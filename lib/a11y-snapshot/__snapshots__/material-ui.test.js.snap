@@ -16469,7 +16469,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
-  <heading level="3">
+  <heading level="2">
     Controlled tree view
     <Anchor></Anchor>
     <text>Controlled tree view</text>
@@ -16481,7 +16481,15 @@ exports[`chromium /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tree>
+  <button>
+    EXPAND ALL
+    <text>EXPAND ALL</text>
+  </button>
+  <button>
+    SELECT ALL
+    <text>SELECT ALL</text>
+  </button>
+  <tree multiselectable="true">
     <treeitem level="1">
       Applications
       <SVGRoot></SVGRoot>
@@ -28940,7 +28948,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <heading level="3">
+  <heading level="2">
     Controlled tree view
     <link></link>
     <text>Controlled tree view</text>
@@ -28952,7 +28960,15 @@ exports[`firefox /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tree>
+  <button>
+    EXPAND ALL
+    <text>EXPAND ALL</text>
+  </button>
+  <button>
+    SELECT ALL
+    <text>SELECT ALL</text>
+  </button>
+  <tree multiselectable="true">
     <treeitem level="1">
       Applications
       <text>Applications</text>
