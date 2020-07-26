@@ -10203,6 +10203,7 @@ exports[`chromium /components/slider 1`] = `
     orientation="horizontal"
   >
     Volume
+    <text>30</text>
   </slider>
   <SVGRoot></SVGRoot>
   <paragraph>
@@ -10216,6 +10217,7 @@ exports[`chromium /components/slider 1`] = `
     orientation="horizontal"
   >
     Disabled slider
+    <text>30</text>
   </slider>
   <toolbar>
     demo source
@@ -10670,6 +10672,7 @@ exports[`chromium /components/slider 1`] = `
     orientation="horizontal"
   >
     Volume
+    <text>30</text>
   </slider>
   <text> </text>
   <spinbutton value="30" valuetext="" valuemax="100" valuemin="0">
@@ -10834,6 +10837,7 @@ exports[`chromium /components/slider 1`] = `
     orientation="vertical"
   >
     Temperature
+    <text>30</text>
   </slider>
   <slider
     value="30"
@@ -10843,6 +10847,7 @@ exports[`chromium /components/slider 1`] = `
     orientation="vertical"
   >
     Temperature
+    <text>30</text>
   </slider>
   <text>0°C20°C37°C100°C</text>
   <slider
@@ -10853,6 +10858,7 @@ exports[`chromium /components/slider 1`] = `
     orientation="vertical"
   >
     Temperature
+    <text>20</text>
   </slider>
   <slider
     value="37"
@@ -10862,6 +10868,7 @@ exports[`chromium /components/slider 1`] = `
     orientation="vertical"
   >
     Temperature
+    <text>37</text>
   </slider>
   <toolbar>
     demo source
@@ -10928,6 +10935,7 @@ exports[`chromium /components/slider 1`] = `
     orientation="horizontal"
   >
     Removed track
+    <text>30</text>
   </slider>
   <paragraph>
     <text>Removed track range slider</text>
@@ -10941,6 +10949,7 @@ exports[`chromium /components/slider 1`] = `
     orientation="horizontal"
   >
     Removed track range slider
+    <text>20</text>
   </slider>
   <slider
     value="37"
@@ -10950,6 +10959,7 @@ exports[`chromium /components/slider 1`] = `
     orientation="horizontal"
   >
     Removed track range slider
+    <text>37</text>
   </slider>
   <slider
     value="50"
@@ -10959,6 +10969,7 @@ exports[`chromium /components/slider 1`] = `
     orientation="horizontal"
   >
     Removed track range slider
+    <text>50</text>
   </slider>
   <toolbar>
     demo source
@@ -11017,6 +11028,7 @@ exports[`chromium /components/slider 1`] = `
     orientation="horizontal"
   >
     Inverted track
+    <text>30</text>
   </slider>
   <paragraph>
     <text>Inverted track range</text>
@@ -11030,6 +11042,7 @@ exports[`chromium /components/slider 1`] = `
     orientation="horizontal"
   >
     Inverted track range
+    <text>20</text>
   </slider>
   <slider
     value="37"
@@ -11039,6 +11052,7 @@ exports[`chromium /components/slider 1`] = `
     orientation="horizontal"
   >
     Inverted track range
+    <text>37</text>
   </slider>
   <toolbar>
     demo source
@@ -24623,12 +24637,14 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider value="30" valuetext="30" orientation="horizontal">
     Volume
+    <text>30</text>
   </slider>
   <paragraph>
     <text>Disabled slider</text>
   </paragraph>
   <slider value="30" valuetext="30" orientation="horizontal">
     Disabled slider
+    <text>30</text>
   </slider>
   <toolbar>
     demo source
@@ -24889,6 +24905,7 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider value="30" valuetext="30" orientation="horizontal">
     Volume
+    <text>30</text>
   </slider>
   <statictext> </statictext>
   <spinbutton value="30" valuetext="30">
@@ -24973,15 +24990,19 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider value="30°C" valuetext="30°C" orientation="vertical">
     Temperature
+    <text>30</text>
   </slider>
   <slider value="30°C" valuetext="30°C" orientation="vertical">
     Temperature
+    <text>30</text>
   </slider>
   <slider value="20°C" valuetext="20°C" orientation="vertical">
     Temperature
+    <text>20</text>
   </slider>
   <slider value="37°C" valuetext="37°C" orientation="vertical">
     Temperature
+    <text>37</text>
   </slider>
   <toolbar>
     demo source
@@ -25017,18 +25038,22 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider value="30°C" valuetext="30°C" orientation="horizontal">
     Removed track
+    <text>30</text>
   </slider>
   <paragraph>
     <text>Removed track range slider</text>
   </paragraph>
   <slider value="20°C" valuetext="20°C" orientation="horizontal">
     Removed track range slider
+    <text>20</text>
   </slider>
   <slider value="37°C" valuetext="37°C" orientation="horizontal">
     Removed track range slider
+    <text>37</text>
   </slider>
   <slider value="50°C" valuetext="50°C" orientation="horizontal">
     Removed track range slider
+    <text>50</text>
   </slider>
   <toolbar>
     demo source
@@ -25056,15 +25081,18 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider value="30°C" valuetext="30°C" orientation="horizontal">
     Inverted track
+    <text>30</text>
   </slider>
   <paragraph>
     <text>Inverted track range</text>
   </paragraph>
   <slider value="20°C" valuetext="20°C" orientation="horizontal">
     Inverted track range
+    <text>20</text>
   </slider>
   <slider value="37°C" valuetext="37°C" orientation="horizontal">
     Inverted track range
+    <text>37</text>
   </slider>
   <toolbar>
     demo source
