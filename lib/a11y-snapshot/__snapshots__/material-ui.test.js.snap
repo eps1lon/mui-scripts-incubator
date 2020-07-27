@@ -75,7 +75,7 @@ exports[`chromium / 1`] = `
     </text>
     <Pre>
       <code>
-        <text>$ npm install @material-ui/core@next</text>
+        <text>$ npm install @material-ui/core</text>
       </code>
     </Pre>
     <link>or use a CDN.</link>
@@ -104,7 +104,7 @@ exports[`chromium / 1`] = `
     <Pre>
       <code>
         <text>
-          importReactfrom'react';import{Button}from'@material-ui/core';functionApp(){return<Button>Hello
+          importReactfrom'react';import{Button}from'@material-ui/core';functionApp(){return<Buttoncolor="primary">Hello
           World</Button>;}
         </text>
       </code>
@@ -176,13 +176,7 @@ exports[`chromium / 1`] = `
     <paragraph>
       <link>
         call-em-all
-        <img description="Mass Text Messaging & Automated Calling">
-          call-em-all
-        </img>
-      </link>
-      <link>
-        bitsrc
-        <img>bitsrc</img>
+        <img description="The easy way to message your group">call-em-all</img>
       </link>
     </paragraph>
     <heading level="3">
@@ -282,20 +276,17 @@ exports[`chromium / 1`] = `
       <listitem level="1">
         <link>Contact Us</link>
       </listitem>
-      <listitem level="1">
-        <link>Jobs</link>
-      </listitem>
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.4. View versions page.</link>
+      <link>v4.10.0. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v5.0.0-alpha.4</link>
+  <link>v4.10.0</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -433,8 +424,8 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
-        children
-        <text>children</text>
+        children *
+        <text>children *</text>
       </gridcell>
       <gridcell>
         node
@@ -470,16 +461,21 @@ exports[`chromium /api/button/ 1`] = `
         <text>color</text>
       </gridcell>
       <gridcell>
-        'inherit' | 'primary' | 'secondary'
-        <text>'inherit'</text>
+        'default' | 'inherit' | 'primary'
+        | 'secondary' | 'success'
+        <text>'default'</text>
+        <LineBreak></LineBreak>
+        <text>| 'inherit'</text>
         <LineBreak></LineBreak>
         <text>| 'primary'</text>
         <LineBreak></LineBreak>
         <text>| 'secondary'</text>
+        <LineBreak></LineBreak>
+        <text>| 'success'</text>
       </gridcell>
       <gridcell>
-        'primary'
-        <text>'primary'</text>
+        'default'
+        <text>'default'</text>
       </gridcell>
       <gridcell>
         The color of the component. It supports those theme colors that make
@@ -659,12 +655,12 @@ exports[`chromium /api/button/ 1`] = `
         <text>size</text>
       </gridcell>
       <gridcell>
-        'large' | 'medium' | 'small'
-        <text>'large'</text>
+        'small' | 'medium' | 'large'
+        <text>'small'</text>
         <LineBreak></LineBreak>
         <text>| 'medium'</text>
         <LineBreak></LineBreak>
-        <text>| 'small'</text>
+        <text>| 'large'</text>
       </gridcell>
       <gridcell>
         'medium'
@@ -698,12 +694,12 @@ exports[`chromium /api/button/ 1`] = `
         <text>variant</text>
       </gridcell>
       <gridcell>
-        'contained' | 'outlined' | 'text'
-        <text>'contained'</text>
+        'text' | 'outlined' | 'contained'
+        <text>'text'</text>
         <LineBreak></LineBreak>
         <text>| 'outlined'</text>
         <LineBreak></LineBreak>
-        <text>| 'text'</text>
+        <text>| 'contained'</text>
       </gridcell>
       <gridcell>
         'text'
@@ -829,6 +825,25 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
+        textSuccess
+        <text>textSuccess</text>
+      </gridcell>
+      <gridcell>
+        .MuiButton-textSuccess
+        <text>.MuiButton-textSuccess</text>
+      </gridcell>
+      <gridcell>
+        Styles applied to the root element if variant="text" and
+        color="success".
+        <text>Styles applied to the root element if</text>
+        <code>$SOME_CODE</code>
+        <text>and</text>
+        <code>$SOME_CODE</code>
+        <text>.</text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
         outlined
         <text>outlined</text>
       </gridcell>
@@ -883,6 +898,25 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
+        outlinedSuccess
+        <text>outlinedSuccess</text>
+      </gridcell>
+      <gridcell>
+        .MuiButton-outlinedSuccess
+        <text>.MuiButton-outlinedSuccess</text>
+      </gridcell>
+      <gridcell>
+        Styles applied to the root element if variant="outlined" and
+        color="success".
+        <text>Styles applied to the root element if</text>
+        <code>$SOME_CODE</code>
+        <text>and</text>
+        <code>$SOME_CODE</code>
+        <text>.</text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
         contained
         <text>contained</text>
       </gridcell>
@@ -928,6 +962,25 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         Styles applied to the root element if variant="contained" and
         color="secondary".
+        <text>Styles applied to the root element if</text>
+        <code>$SOME_CODE</code>
+        <text>and</text>
+        <code>$SOME_CODE</code>
+        <text>.</text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
+        containedSuccess
+        <text>containedSuccess</text>
+      </gridcell>
+      <gridcell>
+        .MuiButton-containedSuccess
+        <text>.MuiButton-containedSuccess</text>
+      </gridcell>
+      <gridcell>
+        Styles applied to the root element if variant="contained" and
+        color="success".
         <text>Styles applied to the root element if</text>
         <code>$SOME_CODE</code>
         <text>and</text>
@@ -2145,20 +2198,6 @@ exports[`chromium /api/select/ 1`] = `
         <text>.</text>
       </gridcell>
     </row>
-    <row>
-      <gridcell>
-        nativeInput
-        <text>nativeInput</text>
-      </gridcell>
-      <gridcell>
-        .MuiSelect-nativeInput
-        <text>.MuiSelect-nativeInput</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the underlying native input component.
-        <text>Styles applied to the underlying native input component.</text>
-      </gridcell>
-    </row>
   </table>
   <paragraph>
     <text>
@@ -2366,8 +2405,8 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -2391,6 +2430,9 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Custom separator
     <Anchor></Anchor>
@@ -2692,8 +2734,8 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -2717,6 +2759,9 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Integration with react-router
     <Anchor></Anchor>
@@ -2869,28 +2914,19 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Breadcrumbs />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Breadcrumbs /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Link />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Link /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Typography />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Typography /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -2984,8 +3020,8 @@ exports[`chromium /components/button-group/ 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -3009,6 +3045,9 @@ exports[`chromium /components/button-group/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Sizes and colors
     <Anchor></Anchor>
@@ -3069,8 +3108,8 @@ exports[`chromium /components/button-group/ 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -3094,6 +3133,9 @@ exports[`chromium /components/button-group/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Vertical group
     <Anchor></Anchor>
@@ -3306,19 +3348,13 @@ exports[`chromium /components/button-group/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Button />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Button /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <ButtonGroup />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><ButtonGroup /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -3410,12 +3446,20 @@ exports[`chromium /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button>
+    DEFAULT
+    <text>DEFAULT</text>
+  </button>
+  <button>
     PRIMARY
     <text>PRIMARY</text>
   </button>
   <button>
     SECONDARY
     <text>SECONDARY</text>
+  </button>
+  <button>
+    SUCCESS
+    <text>SUCCESS</text>
   </button>
   <button disabled="true">
     DISABLED
@@ -3541,12 +3585,20 @@ exports[`chromium /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button>
+    DEFAULT
+    <text>DEFAULT</text>
+  </button>
+  <button>
     PRIMARY
     <text>PRIMARY</text>
   </button>
   <button>
     SECONDARY
     <text>SECONDARY</text>
+  </button>
+  <button>
+    SUCCESS
+    <text>SUCCESS</text>
   </button>
   <button disabled="true">
     DISABLED
@@ -3613,12 +3665,20 @@ exports[`chromium /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button>
+    DEFAULT
+    <text>DEFAULT</text>
+  </button>
+  <button>
     PRIMARY
     <text>PRIMARY</text>
   </button>
   <button>
     SECONDARY
     <text>SECONDARY</text>
+  </button>
+  <button>
+    SUCCESS
+    <text>SUCCESS</text>
   </button>
   <button disabled="true">
     DISABLED
@@ -4044,132 +4104,6 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
-    Loading buttons
-    <Anchor></Anchor>
-    <text>Loading buttons</text>
-  </heading>
-  <paragraph>
-    <text>
-      The loading buttons can show pending state and disable interactions.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button disabled="true">
-    <progressbar valuetext="">
-      <SVGRoot></SVGRoot>
-    </progressbar>
-    <text>SUBMIT</text>
-  </button>
-  <button disabled="true">
-    <text>LOADING...FETCH DATA</text>
-  </button>
-  <button disabled="true">
-    SAVE
-    <SVGRoot></SVGRoot>
-    <progressbar valuetext="">
-      <SVGRoot></SVGRoot>
-    </progressbar>
-    <text>SAVE</text>
-  </button>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the full source">
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <paragraph>
-    <text>
-      Toggle the switch to see the transition between the different states.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <Label>
-    <checkbox checked="false">Pending</checkbox>
-  </Label>
-  <button>
-    SUBMIT
-    <text>SUBMIT</text>
-  </button>
-  <button>
-    FETCH DATA
-    <text>FETCH DATA</text>
-  </button>
-  <button>
-    SEND
-    <text>SEND</text>
-    <SVGRoot></SVGRoot>
-  </button>
-  <button>
-    SAVE
-    <SVGRoot></SVGRoot>
-    <text>SAVE</text>
-  </button>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the source">
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <heading level="2">
     Complex Buttons
     <Anchor></Anchor>
     <text>Complex Buttons</text>
@@ -4289,62 +4223,64 @@ exports[`chromium /components/buttons/ 1`] = `
         1.
         <text>1.</text>
       </ListMarker>
-      <text>
-        CSS only. You can remove the pointer events style on the disabled state
-        of the
-      </text>
-      <code>$SOME_CODE</code>
-      <text>element:</text>
+      <paragraph>
+        <text>
+          CSS only. You can remove the pointer events style on the disabled
+          state of the
+        </text>
+        <code>$SOME_CODE</code>
+        <text>element:</text>
+      </paragraph>
+      <Pre>
+        <code>$SOME_CODE</code>
+      </Pre>
+      <paragraph>
+        <text>However:</text>
+      </paragraph>
+      <list>
+        <listitem level="2">
+          <ListMarker>
+            ◦<text>◦</text>
+          </ListMarker>
+          <text>You should add</text>
+          <code>$SOME_CODE</code>
+          <text>back when you need to display</text>
+          <link>tooltips on disabled elements</link>
+          <text>.</text>
+        </listitem>
+        <listitem level="2">
+          <ListMarker>
+            ◦<text>◦</text>
+          </ListMarker>
+          <text>
+            The cursor won't change if you render something other than a
+            button element, for instance, a link
+          </text>
+          <code>$SOME_CODE</code>
+          <text>element.</text>
+        </listitem>
+      </list>
     </listitem>
-  </list>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <paragraph>
-    <text>However:</text>
-  </paragraph>
-  <list>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>You should add</text>
-      <code>$SOME_CODE</code>
-      <text>back when you need to display</text>
-      <link>tooltips on disabled elements</link>
-      <text>.</text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>
-        The cursor won't change if you render something other than a button
-        element, for instance, a link
-      </text>
-      <code>$SOME_CODE</code>
-      <text>element.</text>
-    </listitem>
-  </list>
-  <list>
     <listitem level="1">
       <ListMarker>
         2.
         <text>2.</text>
       </ListMarker>
-      <text>DOM change. You can wrap the button:</text>
+      <paragraph>
+        <text>DOM change. You can wrap the button:</text>
+      </paragraph>
+      <Pre>
+        <code>$SOME_CODE</code>
+      </Pre>
+      <paragraph>
+        <text>
+          This has the advantage of supporting any element, for instance, a link
+        </text>
+        <code>$SOME_CODE</code>
+        <text>element.</text>
+      </paragraph>
     </listitem>
   </list>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <paragraph>
-    <text>
-      This has the advantage of supporting any element, for instance, a link
-    </text>
-    <code>$SOME_CODE</code>
-    <text>element.</text>
-  </paragraph>
   <heading level="2">
     API
     <Anchor></Anchor>
@@ -4355,37 +4291,19 @@ exports[`chromium /components/buttons/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Button />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Button /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <ButtonBase />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><ButtonBase /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <IconButton />
-        <code>$SOME_CODE</code>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <link>
-        <LoadingButton />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><IconButton /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -4865,46 +4783,31 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Checkbox />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Checkbox /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControl />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><FormControl /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControlLabel />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><FormControlLabel /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormGroup />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><FormGroup /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormLabel />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><FormLabel /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -5473,26 +5376,26 @@ exports[`chromium /components/dialogs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <group>
-    <button disabled="true">
+  <list>
+    <listitem disabled="true" level="1">
       Interruptions
       <text>Interruptions</text>
-    </button>
-    <combobox haspopup="menu">
+    </listitem>
+    <listitem level="1" haspopup="menu">
       phone ringtone
       <text>Phone ringtone</text>
       <paragraph>
         <text>Dione</text>
       </paragraph>
-    </combobox>
-    <button disabled="true">
+    </listitem>
+    <listitem disabled="true" level="1">
       Default notification ringtone Tethys
       <text>Default notification ringtone</text>
       <paragraph>
         <text>Tethys</text>
       </paragraph>
-    </button>
-  </group>
+    </listitem>
+  </list>
   <toolbar>
     demo source
     <group>
@@ -5532,7 +5435,7 @@ exports[`chromium /components/dialogs/ 1`] = `
   <paragraph>
     <text>You can create a draggable dialog by using</text>
     <link>react-draggable</link>
-    <text>. To do so, you can pass the imported</text>
+    <text>. To do so, you can pass the the imported</text>
     <code>$SOME_CODE</code>
     <text>component as the</text>
     <code>$SOME_CODE</code>
@@ -5682,55 +5585,37 @@ exports[`chromium /components/dialogs/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Dialog />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Dialog /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <DialogActions />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><DialogActions /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <DialogContent />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><DialogContent /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <DialogContentText />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><DialogContentText /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <DialogTitle />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><DialogTitle /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Slide />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Slide /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -7323,17 +7208,16 @@ exports[`chromium /components/pagination/ 1`] = `
     <text>Rows per page:</text>
   </paragraph>
   <combobox haspopup="listbox">Rows per page: 10</combobox>
-  <textbox value="10"></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>21-30 of 100</text>
   </paragraph>
-  <button description="Go to previous page">
-    Go to previous page
+  <button description="Previous page">
+    Previous page
     <SVGRoot></SVGRoot>
   </button>
-  <button description="Go to next page">
-    Go to next page
+  <button description="Next page">
+    Next page
     <SVGRoot></SVGRoot>
   </button>
   <toolbar>
@@ -7370,21 +7254,6 @@ exports[`chromium /components/pagination/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
-  <blockquote>
-    <paragraph>
-      <text>⚠️ Note that the</text>
-      <code>$SOME_CODE</code>
-      <text>
-        page prop starts at 1 to match the requirement of including the value in
-        the URL, while the
-      </text>
-      <code>$SOME_CODE</code>
-      <text>
-        page prop stats at 0 to match the requirement of zero-based JavaScript
-        arrays that comes with rendering a lot of tabular data.
-      </text>
-    </paragraph>
-  </blockquote>
   <paragraph>
     <text>You can learn more about this use case in the</text>
     <link>table section</link>
@@ -7431,19 +7300,13 @@ exports[`chromium /components/pagination/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Pagination />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Pagination /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <PaginationItem />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><PaginationItem /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -7834,10 +7697,7 @@ exports[`chromium /components/pickers 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <TextField />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><TextField /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -7940,8 +7800,8 @@ exports[`chromium /components/radio-buttons 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -7965,6 +7825,9 @@ exports[`chromium /components/radio-buttons 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <paragraph>
     <text>To lay out the buttons horizontally, set the</text>
     <code>$SOME_CODE</code>
@@ -8157,8 +8020,8 @@ exports[`chromium /components/radio-buttons 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -8182,6 +8045,9 @@ exports[`chromium /components/radio-buttons 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Customized radios
     <Anchor></Anchor>
@@ -8228,8 +8094,8 @@ exports[`chromium /components/radio-buttons 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -8253,6 +8119,9 @@ exports[`chromium /components/radio-buttons 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     When to use
     <Anchor></Anchor>
@@ -8322,46 +8191,31 @@ exports[`chromium /components/radio-buttons 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControl />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><FormControl /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControlLabel />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><FormControlLabel /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormLabel />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><FormLabel /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Radio />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Radio /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <RadioGroup />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><RadioGroup /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -9048,10 +8902,7 @@ exports[`chromium /components/rating/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Rating />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Rating /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -9089,9 +8940,9 @@ exports[`chromium /components/selects/ 1`] = `
     </text>
   </paragraph>
   <heading level="2">
-    Basic select
+    Simple Select
     <Anchor></Anchor>
-    <text>Basic select</text>
+    <text>Simple Select</text>
   </heading>
   <paragraph>
     <text>
@@ -9110,7 +8961,119 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox></textbox>
+  <SVGRoot></SVGRoot>
+  <Label>
+    <text>Age</text>
+  </Label>
+  <text> </text>
+  <combobox haspopup="listbox">
+    Age ​<text>​</text>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <paragraph>
+    <text>Some important helper text</text>
+  </paragraph>
+  <text> </text>
+  <combobox haspopup="listbox">
+    Without label
+    <text>None</text>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <paragraph>
+    <text>Without label</text>
+  </paragraph>
+  <Label>
+    <text>Age</text>
+  </Label>
+  <text> </text>
+  <combobox haspopup="listbox">
+    Age None
+    <text>None</text>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <paragraph>
+    <text>Label + placeholder</text>
+  </paragraph>
+  <Label>
+    <text>Name</text>
+  </Label>
+  <text> </text>
+  <combobox disabled="true" haspopup="listbox">
+    Name ​<text>​</text>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <paragraph>
+    <text>Disabled</text>
+  </paragraph>
+  <Label>
+    <text>Name</text>
+  </Label>
+  <text> </text>
+  <combobox haspopup="listbox">
+    Name ​<text>​</text>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <paragraph>
+    <text>Error</text>
+  </paragraph>
+  <Label>
+    <text>Name</text>
+  </Label>
+  <text> </text>
+  <combobox haspopup="listbox">
+    Name ​<text>​</text>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <paragraph>
+    <text>Read only</text>
+  </paragraph>
+  <Label>
+    <text>Age</text>
+  </Label>
+  <text> </text>
+  <combobox haspopup="listbox">
+    Age ​<text>​</text>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <paragraph>
+    <text>Auto width</text>
+  </paragraph>
+  <text> </text>
+  <combobox haspopup="listbox">Without label</combobox>
+  <SVGRoot></SVGRoot>
+  <paragraph>
+    <text>Placeholder</text>
+  </paragraph>
+  <Label>
+    <text>Age *</text>
+  </Label>
+  <text> </text>
+  <combobox haspopup="listbox">
+    Age ​<text>​</text>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <paragraph>
+    <text>Required</text>
+  </paragraph>
+  <Label>
+    <text>Age</text>
+  </Label>
+  <combobox haspopup="listbox">
+    Age ​<text>​</text>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <group>
+    <Legend>
+      <text>Age</text>
+    </Legend>
+  </group>
+  <Label>
+    <text>Age</text>
+  </Label>
+  <text> </text>
+  <combobox haspopup="listbox">
+    Age ​<text>​</text>
+  </combobox>
   <SVGRoot></SVGRoot>
   <toolbar>
     demo source
@@ -9118,8 +9081,8 @@ exports[`chromium /components/selects/ 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the full source">
-      Show the full source
+    <button description="Show the source">
+      Show the source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -9143,9 +9106,6 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Advanced features
     <Anchor></Anchor>
@@ -9173,275 +9133,9 @@ exports[`chromium /components/selects/ 1`] = `
     </text>
   </paragraph>
   <heading level="2">
-    Props
+    Native Select
     <Anchor></Anchor>
-    <text>Props</text>
-  </heading>
-  <heading level="3">
-    Filled and outlined variants
-    <Anchor></Anchor>
-    <text>Filled and outlined variants</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <Label>
-    <text>Age</text>
-  </Label>
-  <combobox haspopup="listbox">
-    Age ​<text>​</text>
-  </combobox>
-  <textbox></textbox>
-  <SVGRoot></SVGRoot>
-  <group>
-    <Legend>
-      <text>Age</text>
-    </Legend>
-  </group>
-  <Label>
-    <text>Age</text>
-  </Label>
-  <text> </text>
-  <combobox haspopup="listbox">
-    Age ​<text>​</text>
-  </combobox>
-  <textbox></textbox>
-  <SVGRoot></SVGRoot>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the source">
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <heading level="3">
-    Labels and helper text
-    <Anchor></Anchor>
-    <text>Labels and helper text</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <Label>
-    <text>Age</text>
-  </Label>
-  <text> </text>
-  <combobox haspopup="listbox">
-    Age ​<text>​</text>
-  </combobox>
-  <textbox></textbox>
-  <SVGRoot></SVGRoot>
-  <paragraph>
-    <text>With label + helper text</text>
-  </paragraph>
-  <text> </text>
-  <combobox haspopup="listbox">
-    Without label
-    <text>None</text>
-  </combobox>
-  <textbox></textbox>
-  <SVGRoot></SVGRoot>
-  <paragraph>
-    <text>Without label</text>
-  </paragraph>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the source">
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <heading level="3">
-    Auto width
-    <Anchor></Anchor>
-    <text>Auto width</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <Label>
-    <text>Age</text>
-  </Label>
-  <text> </text>
-  <combobox haspopup="listbox">
-    Age ​<text>​</text>
-  </combobox>
-  <textbox></textbox>
-  <SVGRoot></SVGRoot>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the source">
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <heading level="3">
-    Other props
-    <Anchor></Anchor>
-    <text>Other props</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <Label>
-    <text>Name</text>
-  </Label>
-  <text> </text>
-  <combobox disabled="true" haspopup="listbox">
-    Name ​<text>​</text>
-  </combobox>
-  <textbox></textbox>
-  <SVGRoot></SVGRoot>
-  <paragraph>
-    <text>Disabled</text>
-  </paragraph>
-  <Label>
-    <text>Name</text>
-  </Label>
-  <text> </text>
-  <combobox haspopup="listbox">
-    Name ​<text>​</text>
-  </combobox>
-  <textbox></textbox>
-  <SVGRoot></SVGRoot>
-  <paragraph>
-    <text>Error</text>
-  </paragraph>
-  <Label>
-    <text>Name</text>
-  </Label>
-  <text> </text>
-  <combobox haspopup="listbox">
-    Name ​<text>​</text>
-  </combobox>
-  <textbox></textbox>
-  <SVGRoot></SVGRoot>
-  <paragraph>
-    <text>Read only</text>
-  </paragraph>
-  <Label>
-    <text>Age *</text>
-  </Label>
-  <text> </text>
-  <combobox haspopup="listbox">
-    Age ​<text>​</text>
-  </combobox>
-  <textbox required="true" invalid="true"></textbox>
-  <SVGRoot></SVGRoot>
-  <paragraph>
-    <text>Required</text>
-  </paragraph>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the source">
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <heading level="2">
-    Native select
-    <Anchor></Anchor>
-    <text>Native select</text>
+    <text>Native Select</text>
   </heading>
   <paragraph>
     <text>
@@ -9457,12 +9151,173 @@ exports[`chromium /components/selects/ 1`] = `
     <text>Age</text>
   </Label>
   <text> </text>
-  <combobox value="Thirty">
+  <combobox value="None">
     Age
+    <MenuListPopup>
+      <menuitem selected="true"></menuitem>
+      <menuitem>Ten</menuitem>
+      <menuitem>Twenty</menuitem>
+      <menuitem>Thirty</menuitem>
+    </MenuListPopup>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <Label>
+    <text>Age</text>
+  </Label>
+  <text> </text>
+  <combobox value="None">
+    Age
+    <MenuListPopup>
+      <menuitem selected="true"></menuitem>
+      <menuitem>Ten</menuitem>
+      <menuitem>Twenty</menuitem>
+      <menuitem>Thirty</menuitem>
+    </MenuListPopup>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <paragraph>
+    <text>Some important helper text</text>
+  </paragraph>
+  <text> </text>
+  <combobox value="None">
+    age
+    <MenuListPopup>
+      <menuitem selected="true">None</menuitem>
+      <menuitem>Ten</menuitem>
+      <menuitem>Twenty</menuitem>
+      <menuitem>Thirty</menuitem>
+    </MenuListPopup>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <paragraph>
+    <text>With visually hidden label</text>
+  </paragraph>
+  <Label>
+    <text>Age</text>
+  </Label>
+  <text> </text>
+  <combobox value="None">
+    Age
+    <MenuListPopup>
+      <menuitem selected="true">None</menuitem>
+      <menuitem>Ten</menuitem>
+      <menuitem>Twenty</menuitem>
+      <menuitem>Thirty</menuitem>
+    </MenuListPopup>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <paragraph>
+    <text>Label + placeholder</text>
+  </paragraph>
+  <Label>
+    <text>Name</text>
+  </Label>
+  <text> </text>
+  <combobox value="Hai" disabled="true">
+    Name
+    <MenuListPopup disabled="true">
+      <menuitem>None</menuitem>
+      <menuitem selected="true">Hai</menuitem>
+      <menuitem>Olivier</menuitem>
+      <menuitem>Kevin</menuitem>
+    </MenuListPopup>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <paragraph>
+    <text>Disabled</text>
+  </paragraph>
+  <Label>
+    <text>Name</text>
+  </Label>
+  <text> </text>
+  <combobox value="Hai" invalid="true">
+    Name
+    <MenuListPopup>
+      <menuitem selected="true">Hai</menuitem>
+      <menuitem>Olivier</menuitem>
+      <menuitem>Kevin</menuitem>
+    </MenuListPopup>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <paragraph>
+    <text>Error</text>
+  </paragraph>
+  <Label>
+    <text>Name</text>
+  </Label>
+  <text> </text>
+  <combobox value="Thirty">
+    Name
     <MenuListPopup>
       <menuitem>Ten</menuitem>
       <menuitem>Twenty</menuitem>
       <menuitem selected="true">Thirty</menuitem>
+    </MenuListPopup>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <paragraph>
+    <text>Uncontrolled</text>
+  </paragraph>
+  <text> </text>
+  <combobox value="Placeholder">
+    age
+    <MenuListPopup>
+      <menuitem disabled="true">Placeholder</menuitem>
+      <menuitem>Ten</menuitem>
+      <menuitem>Twenty</menuitem>
+      <menuitem>Thirty</menuitem>
+    </MenuListPopup>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <paragraph>
+    <text>Placeholder</text>
+  </paragraph>
+  <Label>
+    <text>Age *</text>
+  </Label>
+  <text> </text>
+  <combobox value="None">
+    Age
+    <MenuListPopup>
+      <menuitem selected="true"></menuitem>
+      <menuitem>Ten</menuitem>
+      <menuitem>Twenty</menuitem>
+      <menuitem>Thirty</menuitem>
+    </MenuListPopup>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <paragraph>
+    <text>Required</text>
+  </paragraph>
+  <Label>
+    <text>Age</text>
+  </Label>
+  <combobox value="None">
+    Age
+    <MenuListPopup>
+      <menuitem selected="true"></menuitem>
+      <menuitem>Ten</menuitem>
+      <menuitem>Twenty</menuitem>
+      <menuitem>Thirty</menuitem>
+    </MenuListPopup>
+  </combobox>
+  <SVGRoot></SVGRoot>
+  <group>
+    <Legend>
+      <text>Age</text>
+    </Legend>
+  </group>
+  <Label>
+    <text>Age</text>
+  </Label>
+  <text> </text>
+  <combobox value="None">
+    Age
+    <MenuListPopup>
+      <menuitem selected="true"></menuitem>
+      <menuitem>Ten</menuitem>
+      <menuitem>Twenty</menuitem>
+      <menuitem>Thirty</menuitem>
     </MenuListPopup>
   </combobox>
   <SVGRoot></SVGRoot>
@@ -9472,8 +9327,8 @@ exports[`chromium /components/selects/ 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the full source">
-      Show the full source
+    <button description="Show the source">
+      Show the source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -9497,13 +9352,10 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
-    TextField
+    Text Fields
     <Anchor></Anchor>
-    <text>TextField</text>
+    <text>Text Fields</text>
   </heading>
   <paragraph>
     <text>The</text>
@@ -9554,7 +9406,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <Label>
     <text>Age</text>
@@ -9606,9 +9457,9 @@ exports[`chromium /components/selects/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
-    Multiple select
+    Multiple Select
     <Anchor></Anchor>
-    <text>Multiple select</text>
+    <text>Multiple Select</text>
   </heading>
   <paragraph>
     <text>The</text>
@@ -9629,11 +9480,6 @@ exports[`chromium /components/selects/ 1`] = `
     <code>$SOME_CODE</code>
     <text>callback. It's always an array.</text>
   </paragraph>
-  <heading level="3">
-    Default
-    <Anchor></Anchor>
-    <text>Default</text>
-  </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -9645,48 +9491,7 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Name ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the source">
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <heading level="3">
-    Checkmarks
-    <Anchor></Anchor>
-    <text>Checkmarks</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
   <Label>
     <text>Tag</text>
   </Label>
@@ -9694,48 +9499,7 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Tag ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the source">
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <heading level="3">
-    Chip
-    <Anchor></Anchor>
-    <text>Chip</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
   <Label>
     <text>Chip</text>
   </Label>
@@ -9743,95 +9507,13 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Chip ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the source">
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <heading level="3">
-    Placeholder
-    <Anchor></Anchor>
-    <text>Placeholder</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
   <text> </text>
   <combobox haspopup="listbox">
     Without label
     <text>Placeholder</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the source">
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <heading level="3">
-    Native
-    <Anchor></Anchor>
-    <text>Native</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
   <Label>
     <text>Native</text>
   </Label>
@@ -9881,9 +9563,9 @@ exports[`chromium /components/selects/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
-    Controlled open select
+    Controlled Open Select
     <Anchor></Anchor>
-    <text>Controlled open select</text>
+    <text>Controlled Open Select</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -9900,7 +9582,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <toolbar>
     demo source
@@ -9934,9 +9615,9 @@ exports[`chromium /components/selects/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
-    With a dialog
+    With a Dialog
     <Anchor></Anchor>
-    <text>With a dialog</text>
+    <text>With a Dialog</text>
   </heading>
   <paragraph>
     <text>
@@ -10021,7 +9702,6 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     ​<text>​</text>
   </combobox>
-  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <toolbar>
     demo source
@@ -10111,19 +9791,13 @@ exports[`chromium /components/selects/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <NativeSelect />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><NativeSelect /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Select />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Select /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -11191,10 +10865,7 @@ exports[`chromium /components/slider 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Slider />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Slider /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -11672,46 +11343,31 @@ exports[`chromium /components/switches/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControl />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><FormControl /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControlLabel />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><FormControlLabel /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormGroup />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><FormGroup /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormLabel />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><FormLabel /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Switch />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Switch /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -11795,8 +11451,8 @@ exports[`chromium /components/tabs/ 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -11820,6 +11476,9 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="3">
     Wrapped Labels
     <Anchor></Anchor>
@@ -12422,8 +12081,8 @@ exports[`chromium /components/tabs/ 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -12447,6 +12106,9 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -12973,55 +12635,19 @@ exports[`chromium /components/tabs/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Tab />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Tab /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <TabContext />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><TabScrollButton /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <TabList />
-        <code>$SOME_CODE</code>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <link>
-        <TabPanel />
-        <code>$SOME_CODE</code>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <link>
-        <TabScrollButton />
-        <code>$SOME_CODE</code>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <link>
-        <Tabs />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Tabs /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -13659,7 +13285,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     </Label>
     <text> </text>
     <combobox haspopup="listbox">Select €</combobox>
-    <textbox value="EUR" description="Please select your currency"></textbox>
     <SVGRoot></SVGRoot>
     <paragraph>
       <text>Please select your currency</text>
@@ -13686,7 +13311,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     </Label>
     <text> </text>
     <combobox haspopup="listbox">Select €</combobox>
-    <textbox value="EUR" description="Please select your currency"></textbox>
     <SVGRoot></SVGRoot>
     <paragraph>
       <text>Please select your currency</text>
@@ -13712,7 +13336,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Select</text>
     </Label>
     <combobox haspopup="listbox">Select €</combobox>
-    <textbox value="EUR" description="Please select your currency"></textbox>
     <SVGRoot></SVGRoot>
     <group>
       <Legend>
@@ -14614,8 +14237,8 @@ exports[`chromium /components/text-fields/ 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -14639,6 +14262,9 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Color
     <Anchor></Anchor>
@@ -14682,8 +14308,8 @@ exports[`chromium /components/text-fields/ 1`] = `
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the source">
-      Show the source
+    <button description="Show the full source">
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -14707,6 +14333,9 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Customized inputs
     <Anchor></Anchor>
@@ -14935,57 +14564,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       the label to display correctly.
     </text>
   </paragraph>
-  <heading level="3">
-    type="number"
-    <Anchor></Anchor>
-    <text>type="number"</text>
-  </heading>
-  <paragraph>
-    <text>
-      Inputs of type="number" have potential usability issues:
-    </text>
-  </paragraph>
-  <list>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>
-        Allowing certain non-numeric characters ('e', '+',
-        '-', '.') and silently discarding others
-      </text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>
-        The functionality of scrolling to increment/decrement the number can
-        cause accidental and hard-to-notice changes
-      </text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>and more - see</text>
-    <link>this article</link>
-    <text>
-      by the GOV.UK Design System team for a more detailed explanation.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      For number validation, one viable alternative is to use the default input
-      type="text" with thepatternattribute, for example:
-    </text>
-  </paragraph>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <paragraph>
-    <text>In the future, we might provide a</text>
-    <link>number input component</link>
-    <text>.</text>
-  </paragraph>
   <heading level="2">
     Integration with 3rd party input libraries
     <Anchor></Anchor>
@@ -15126,15 +14704,8 @@ exports[`chromium /components/text-fields/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>react-hook-form</link>
-      <text>: React hook for form validation.</text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>formik-material-ui</link>
-      <text>: Bindings for using Material-UI with</text>
+      <text>Bindings for using Material-UI with</text>
       <link>formik</link>
       <text>.</text>
     </listitem>
@@ -15143,7 +14714,7 @@ exports[`chromium /components/text-fields/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <link>redux-form-material-ui</link>
-      <text>: Bindings for using Material-UI with</text>
+      <text>Bindings for using Material-UI with</text>
       <link>Redux Form</link>
       <text>.</text>
     </listitem>
@@ -15152,7 +14723,7 @@ exports[`chromium /components/text-fields/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <link>mui-rff</link>
-      <text>: Bindings for using Material-UI with</text>
+      <text>Bindings for using Material-UI with</text>
       <link>React Final Form</link>
       <text>.</text>
     </listitem>
@@ -15167,82 +14738,55 @@ exports[`chromium /components/text-fields/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FilledInput />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><FilledInput /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormControl />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><FormControl /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <FormHelperText />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><FormHelperText /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Input />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Input /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <InputAdornment />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><InputAdornment /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <InputBase />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><InputBase /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <InputLabel />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><InputLabel /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <OutlinedInput />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><OutlinedInput /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <TextField />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><TextField /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -16025,10 +15569,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Tooltip />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Tooltip /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -16291,37 +15832,25 @@ exports[`chromium /components/transfer-list 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Checkbox />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Checkbox /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <List />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><List /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <ListItem />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><ListItem /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <Switch />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><Switch /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -16801,19 +16330,13 @@ exports[`chromium /components/tree-view/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <TreeItem />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><TreeItem /></link>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>
-        <TreeView />
-        <code>$SOME_CODE</code>
-      </link>
+      <link><TreeView /></link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
@@ -16824,8 +16347,8 @@ exports[`chromium /components/tree-view/ 1`] = `
       <text>Toggle Button</text>
     </link>
     <link>
-      Accordion
-      <text>Accordion</text>
+      Alert
+      <text>Alert</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -16877,7 +16400,7 @@ exports[`firefox / 1`] = `
     </heading>
     <text>
       Install Material-UI's source files via npm. We take care of injecting
-      the CSS needed.$ npm install @material-ui/core@next
+      the CSS needed.$ npm install @material-ui/core
     </text>
     <link>or use a CDN.</link>
     <text>
@@ -16895,7 +16418,8 @@ exports[`firefox / 1`] = `
       Material-UI components work without any additional setup, and don't
       pollute the global scope.import React from 'react'; import
       { Button } from '@material-ui/core'; function App()
-      { return <Button>Hello World</Button>; }
+      { return <Button color="primary">Hello
+      World</Button>; }
     </text>
     <separator></separator>
     <link>EXPLORE THE DOCS</link>
@@ -16968,15 +16492,11 @@ exports[`firefox / 1`] = `
     <link>
       call-em-all
       <img
-        value="https://www.text-em-all.com/"
-        description="Mass Text Messaging & Automated Calling"
+        value="https://www.call-em-all.com/"
+        description="The easy way to message your group"
       >
         call-em-all
       </img>
-    </link>
-    <link>
-      bitsrc
-      <img value="https://www.canadacasino.ca/">bitsrc</img>
     </link>
     <heading level="3">
       There are more!
@@ -17082,14 +16602,10 @@ exports[`firefox / 1`] = `
         Contact Us
         <link>Contact Us</link>
       </listitem>
-      <listitem>
-        Jobs
-        <link>Jobs</link>
-      </listitem>
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.4. View versions page.</link>
+      <link>v4.10.0. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
@@ -17161,7 +16677,7 @@ exports[`firefox /api/button/ 1`] = `
     </row>
     <row>
       <cell>
-        <text>children</text>
+        <text>children *</text>
       </cell>
       <cell>
         <text>node</text>
@@ -17190,14 +16706,18 @@ exports[`firefox /api/button/ 1`] = `
         <text>color</text>
       </cell>
       <cell>
-        <text>'inherit'</text>
+        <text>'default'</text>
+        <whitespace></whitespace>
+        <text>| 'inherit'</text>
         <whitespace></whitespace>
         <text>| 'primary'</text>
         <whitespace></whitespace>
         <text>| 'secondary'</text>
+        <whitespace></whitespace>
+        <text>| 'success'</text>
       </cell>
       <cell>
-        <text>'primary'</text>
+        <text>'default'</text>
       </cell>
       <cell>
         <text>
@@ -17331,11 +16851,11 @@ exports[`firefox /api/button/ 1`] = `
         <text>size</text>
       </cell>
       <cell>
-        <text>'large'</text>
+        <text>'small'</text>
         <whitespace></whitespace>
         <text>| 'medium'</text>
         <whitespace></whitespace>
-        <text>| 'small'</text>
+        <text>| 'large'</text>
       </cell>
       <cell>
         <text>'medium'</text>
@@ -17364,11 +16884,11 @@ exports[`firefox /api/button/ 1`] = `
         <text>variant</text>
       </cell>
       <cell>
-        <text>'contained'</text>
+        <text>'text'</text>
         <whitespace></whitespace>
         <text>| 'outlined'</text>
         <whitespace></whitespace>
-        <text>| 'text'</text>
+        <text>| 'contained'</text>
       </cell>
       <cell>
         <text>'text'</text>
@@ -17468,6 +16988,20 @@ exports[`firefox /api/button/ 1`] = `
     </row>
     <row>
       <cell>
+        <text>textSuccess</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-textSuccess</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="text" and
+          color="success".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
         <text>outlined</text>
       </cell>
       <cell>
@@ -17509,6 +17043,20 @@ exports[`firefox /api/button/ 1`] = `
     </row>
     <row>
       <cell>
+        <text>outlinedSuccess</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-outlinedSuccess</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="outlined" and
+          color="success".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
         <text>contained</text>
       </cell>
       <cell>
@@ -17545,6 +17093,20 @@ exports[`firefox /api/button/ 1`] = `
         <text>
           Styles applied to the root element if variant="contained"
           and color="secondary".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>containedSuccess</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-containedSuccess</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="contained"
+          and color="success".
         </text>
       </cell>
     </row>
@@ -18465,17 +18027,6 @@ exports[`firefox /api/select/ 1`] = `
         </text>
       </cell>
     </row>
-    <row>
-      <cell>
-        <text>nativeInput</text>
-      </cell>
-      <cell>
-        <text>.MuiSelect-nativeInput</text>
-      </cell>
-      <cell>
-        <text>Styles applied to the underlying native input component.</text>
-      </cell>
-    </row>
   </table>
   <paragraph>
     <text>
@@ -18596,7 +18147,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     color="inherit" href="/"
     onClick={handleClick}> Material-UI </Link> <Link
     color="inherit" href="/getting-started/installation/"
-    onClick={handleClick} > Core </Link> <Typography
+    onClick={handleClick}> Core </Link> <Typography
     color="textPrimary">Breadcrumb</Typography>
     </Breadcrumbs>
   </text>
@@ -18631,13 +18182,23 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </landmark>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <Breadcrumbs aria-label="breadcrumb"> <Link
+    color="inherit" href="/"
+    onClick={handleClick}> Material-UI </Link> <Link
+    color="inherit" href="/getting-started/installation/"
+    onClick={handleClick}> Core </Link> <Link
+    color="textPrimary" href="/components/breadcrumbs/"
+    onClick={handleClick} aria-current="page" >
+    Breadcrumb </Link> </Breadcrumbs>
+  </text>
   <heading level="2">
     Custom separator
     <link></link>
@@ -18846,13 +18407,24 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </landmark>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <Breadcrumbs aria-label="breadcrumb"> <StyledBreadcrumb
+    component="a" href="#" label="Home"
+    icon={<HomeIcon fontSize="small" />}
+    onClick={handleClick} /> <StyledBreadcrumb
+    component="a" href="#" label="Catalog"
+    onClick={handleClick} /> <StyledBreadcrumb
+    label="Accessories" deleteIcon={<ExpandMoreIcon
+    />} onClick={handleClick} onDelete={handleClick}
+    /> </Breadcrumbs>
+  </text>
   <heading level="2">
     Integration with react-router
     <link></link>
@@ -19068,13 +18640,27 @@ exports[`firefox /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <ButtonGroup color="primary" aria-label="outlined primary
+    button group"> <Button>One</Button>
+    <Button>Two</Button> <Button>Three</Button>
+    </ButtonGroup> <ButtonGroup variant="contained"
+    color="primary" aria-label="contained primary button
+    group"> <Button>One</Button>
+    <Button>Two</Button> <Button>Three</Button>
+    </ButtonGroup> <ButtonGroup variant="text"
+    color="primary" aria-label="text primary button
+    group"> <Button>One</Button>
+    <Button>Two</Button> <Button>Three</Button>
+    </ButtonGroup>
+  </text>
   <heading level="2">
     Sizes and colors
     <link></link>
@@ -19131,13 +18717,26 @@ exports[`firefox /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <ButtonGroup size="small" aria-label="small outlined
+    button group"> <Button>One</Button>
+    <Button>Two</Button> <Button>Three</Button>
+    </ButtonGroup> <ButtonGroup color="secondary"
+    aria-label="outlined secondary button group">
+    <Button>One</Button> <Button>Two</Button>
+    <Button>Three</Button> </ButtonGroup> <ButtonGroup
+    size="large" color="primary" aria-label="large
+    outlined primary button group"> <Button>One</Button>
+    <Button>Two</Button> <Button>Three</Button>
+    </ButtonGroup>
+  </text>
   <heading level="2">
     Vertical group
     <link></link>
@@ -19358,12 +18957,20 @@ exports[`firefox /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button>
+    DEFAULT
+    <text>DEFAULT</text>
+  </button>
+  <button>
     PRIMARY
     <text>PRIMARY</text>
   </button>
   <button>
     SECONDARY
     <text>SECONDARY</text>
+  </button>
+  <button>
+    SUCCESS
+    <text>SUCCESS</text>
   </button>
   <button disabled="true">
     DISABLED
@@ -19380,11 +18987,14 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Button variant="contained">Primary</Button>
-    <Button variant="contained" color="secondary">
-    Secondary </Button> <Button variant="contained"
-    disabled> Disabled </Button> <Button
-    variant="contained" href="#contained-buttons"> Link
+    <Button variant="contained">Default</Button>
+    <Button variant="contained" color="primary">
+    Primary </Button> <Button variant="contained"
+    color="secondary"> Secondary </Button> <Button
+    variant="contained" color="success"> Success
+    </Button> <Button variant="contained" disabled>
+    Disabled </Button> <Button variant="contained"
+    color="primary" href="#contained-buttons"> Link
     </Button>
   </text>
   <paragraph>
@@ -19408,8 +19018,8 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Button variant="contained" disableElevation> Disable
-    elevation </Button>
+    <Button variant="contained" color="primary"
+    disableElevation> Disable elevation </Button>
   </text>
   <heading level="2">
     Text Buttons
@@ -19444,12 +19054,20 @@ exports[`firefox /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button>
+    DEFAULT
+    <text>DEFAULT</text>
+  </button>
+  <button>
     PRIMARY
     <text>PRIMARY</text>
   </button>
   <button>
     SECONDARY
     <text>SECONDARY</text>
+  </button>
+  <button>
+    SUCCESS
+    <text>SUCCESS</text>
   </button>
   <button disabled="true">
     DISABLED
@@ -19466,10 +19084,13 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Button>Primary</Button> <Button
+    <Button>Default</Button> <Button
+    color="primary">Primary</Button> <Button
     color="secondary">Secondary</Button> <Button
+    color="success">Success</Button> <Button
     disabled>Disabled</Button> <Button
-    href="#text-buttons">Link</Button>
+    href="#text-buttons" color="primary"> Link
+    </Button>
   </text>
   <heading level="2">
     Outlined Buttons
@@ -19494,12 +19115,20 @@ exports[`firefox /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button>
+    DEFAULT
+    <text>DEFAULT</text>
+  </button>
+  <button>
     PRIMARY
     <text>PRIMARY</text>
   </button>
   <button>
     SECONDARY
     <text>SECONDARY</text>
+  </button>
+  <button>
+    SUCCESS
+    <text>SUCCESS</text>
   </button>
   <button disabled="true">
     DISABLED
@@ -19516,11 +19145,15 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Button variant="outlined">Primary</Button> <Button
-    variant="outlined" color="secondary"> Secondary
+    <Button variant="outlined">Default</Button> <Button
+    variant="outlined" color="primary"> Primary
+    </Button> <Button variant="outlined"
+    color="secondary"> Secondary </Button> <Button
+    variant="outlined" color="success"> Success
     </Button> <Button variant="outlined" disabled>
     Disabled </Button> <Button variant="outlined"
-    href="#outlined-buttons"> Link </Button>
+    color="primary" href="#outlined-buttons"> Link
+    </Button>
   </text>
   <heading level="2">
     Handling clicks
@@ -19534,8 +19167,8 @@ exports[`firefox /components/buttons/ 1`] = `
     </text>
   </paragraph>
   <text>
-    <Button onClick={() => { alert('clicked');
-    }} > Click me </Button>
+    <Button onClick={() => { alert('clicked')
+    }}>Click me</Button>
   </text>
   <paragraph>
     <text>Note that the documentation</text>
@@ -19770,97 +19403,6 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
-    Loading buttons
-    <link></link>
-    <text>Loading buttons</text>
-  </heading>
-  <paragraph>
-    <text>
-      The loading buttons can show pending state and disable interactions.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button disabled="true">
-    50
-    <progressbar value="50" valuetext="50" checked="mixed">
-      <diagram>
-        <img></img>
-      </diagram>
-    </progressbar>
-  </button>
-  <button disabled="true">
-    LOADING...
-    <text>LOADING...</text>
-  </button>
-  <button disabled="true">
-    50 SAVE
-    <progressbar value="50" valuetext="50" checked="mixed">
-      <diagram>
-        <img></img>
-      </diagram>
-    </progressbar>
-    <text>SAVE</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <LoadingButton variant="outlined" pending> Submit
-    </LoadingButton> <LoadingButton variant="outlined"
-    pending pendingIndicator="Loading..."> Fetch data
-    </LoadingButton> <LoadingButton variant="outlined"
-    pending pendingPosition="start" startIcon={<SaveIcon
-    />} > Save </LoadingButton>
-  </text>
-  <paragraph>
-    <text>
-      Toggle the switch to see the transition between the different states.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <label>
-    Pending
-    <checkbox>Pending</checkbox>
-    <text>Pending</text>
-  </label>
-  <button>
-    SUBMIT
-    <text>SUBMIT</text>
-  </button>
-  <button>
-    FETCH DATA
-    <text>FETCH DATA</text>
-  </button>
-  <button>
-    SEND
-    <text>SEND</text>
-  </button>
-  <button>
-    SAVE
-    <text>SAVE</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
     Complex Buttons
     <link></link>
     <text>Complex Buttons</text>
@@ -19938,61 +19480,71 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>If you wish to use not-allowed, you have two options:</text>
   </paragraph>
   <list>
-    <listitem>
+    <listitem level="1">
       1. CSS only . You can remove the pointer events style on the disabled
-      state of the <button> element:
+      state of the <button> element: .MuiButtonBase-root:disabled {
+      cursor: not-allowed; pointer-events: auto; } However: ◦ You should
+      add pointer-events: none; back when you need to display tooltips on
+      disabled elements . ◦ The cursor won't change if you render something
+      other than a button element, for instance, a link <a> element.
       <statictext>1.</statictext>
+      <paragraph>
+        <text>
+          CSS only. You can remove the pointer events style on the disabled
+          state of the <button> element:
+        </text>
+      </paragraph>
       <text>
-        CSS only. You can remove the pointer events style on the disabled state
-        of the <button> element:
+        .MuiButtonBase-root:disabled { cursor: not-allowed; pointer-events:
+        auto; }
       </text>
+      <paragraph>
+        <text>However:</text>
+      </paragraph>
+      <list>
+        <listitem level="2">
+          ◦ You should add pointer-events: none; back when you need to display
+          tooltips on disabled elements .<statictext>◦</statictext>
+          <text>
+            You should add pointer-events: none; back when you need to display
+          </text>
+          <link>tooltips on disabled elements</link>
+          <text>.</text>
+        </listitem>
+        <listitem level="2">
+          ◦ The cursor won't change if you render something other than a
+          button element, for instance, a link <a> element.
+          <statictext>◦</statictext>
+          <text>
+            The cursor won't change if you render something other than a
+            button element, for instance, a link <a> element.
+          </text>
+        </listitem>
+      </list>
     </listitem>
-  </list>
-  <text>
-    .MuiButtonBase-root:disabled { cursor: not-allowed; pointer-events:
-    auto; }
-  </text>
-  <paragraph>
-    <text>However:</text>
-  </paragraph>
-  <list>
-    <listitem>
-      • You should add pointer-events: none; back when you need to display
-      tooltips on disabled elements .<statictext>•</statictext>
-      <text>
-        You should add pointer-events: none; back when you need to display
-      </text>
-      <link>tooltips on disabled elements</link>
-      <text>.</text>
-    </listitem>
-    <listitem>
-      • The cursor won't change if you render something other than a button
-      element, for instance, a link <a> element.
-      <statictext>•</statictext>
-      <text>
-        The cursor won't change if you render something other than a button
-        element, for instance, a link <a> element.
-      </text>
-    </listitem>
-  </list>
-  <list>
-    <listitem>
-      2. DOM change . You can wrap the button:
+    <listitem level="1">
+      2. DOM change . You can wrap the button: <span style={{
+      cursor: 'not-allowed' }}> <Button
+      component={Link} disabled> disabled </Button>
+      </span> This has the advantage of supporting any element, for
+      instance, a link <a> element.
       <statictext>2.</statictext>
-      <text>DOM change. You can wrap the button:</text>
+      <paragraph>
+        <text>DOM change. You can wrap the button:</text>
+      </paragraph>
+      <text>
+        <span style={{ cursor: 'not-allowed'
+        }}> <Button component={Link} disabled>
+        disabled </Button> </span>
+      </text>
+      <paragraph>
+        <text>
+          This has the advantage of supporting any element, for instance, a link
+          <a> element.
+        </text>
+      </paragraph>
     </listitem>
   </list>
-  <text>
-    <span style={{ cursor: 'not-allowed' }}>
-    <Button component={Link} disabled> disabled </Button>
-    </span>
-  </text>
-  <paragraph>
-    <text>
-      This has the advantage of supporting any element, for instance, a link
-      <a> element.
-    </text>
-  </paragraph>
   <heading level="2">
     API
     <link></link>
@@ -20013,11 +19565,6 @@ exports[`firefox /components/buttons/ 1`] = `
       • <IconButton />
       <statictext>•</statictext>
       <link><IconButton /></link>
-    </listitem>
-    <listitem>
-      • <LoadingButton />
-      <statictext>•</statictext>
-      <link><LoadingButton /></link>
     </listitem>
   </list>
   <separator></separator>
@@ -20363,7 +19910,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </list>
   <text>
     <Checkbox value="checkedA" inputProps={{
-    'aria-label': 'Checkbox A', }} />
+    'aria-label': 'Checkbox A' }} />
   </text>
   <heading level="2">
     API
@@ -20493,10 +20040,10 @@ exports[`firefox /components/dialogs/ 1`] = `
   <text>
     <Typography variant="subtitle1">Selected:
     {selectedValue}</Typography> <br /> <Button
-    variant="outlined" onClick={handleClickOpen}> Open
-    simple dialog </Button> <SimpleDialog
-    selectedValue={selectedValue} open={open}
-    onClose={handleClose} />
+    variant="outlined" color="primary"
+    onClick={handleClickOpen}> Open simple dialog </Button>
+    <SimpleDialog selectedValue={selectedValue}
+    open={open} onClose={handleClose} />
   </text>
   <heading level="2">
     Alerts
@@ -20731,7 +20278,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     import useMediaQuery from '@material-ui/core/useMediaQuery';
     function MyComponent() { const theme = useTheme(); const fullScreen =
     useMediaQuery(theme.breakpoints.down('sm')); return <Dialog
-    fullScreen={fullScreen} />; }
+    fullScreen={fullScreen} /> }
   </text>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -20772,26 +20319,26 @@ exports[`firefox /components/dialogs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <group>
-    <button disabled="true">
+  <list>
+    <listitem disabled="true">
       Interruptions
       <text>Interruptions</text>
-    </button>
-    <buttonmenu haspopup="true">
+    </listitem>
+    <listitem haspopup="true">
       phone ringtone
       <text>Phone ringtone</text>
       <paragraph>
         <text>Dione</text>
       </paragraph>
-    </buttonmenu>
-    <button disabled="true">
+    </listitem>
+    <listitem disabled="true">
       Default notification ringtone Tethys
       <text>Default notification ringtone</text>
       <paragraph>
         <text>Tethys</text>
       </paragraph>
-    </button>
-  </group>
+    </listitem>
+  </list>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -20810,7 +20357,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <text>You can create a draggable dialog by using</text>
     <link>react-draggable</link>
     <text>
-      . To do so, you can pass the imported Draggable component as the
+      . To do so, you can pass the the imported Draggable component as the
       PaperComponent of the Dialog component. This will make the entire dialog
       draggable.
     </text>
@@ -22386,8 +21933,8 @@ exports[`firefox /components/pagination/ 1`] = `
   <paragraph>
     <text>21-30 of 100</text>
   </paragraph>
-  <button>Go to previous page</button>
-  <button>Go to next page</button>
+  <button>Previous page</button>
+  <button>Next page</button>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -22403,16 +21950,6 @@ exports[`firefox /components/pagination/ 1`] = `
     rowsPerPage={rowsPerPage}
     onChangeRowsPerPage={handleChangeRowsPerPage} />
   </text>
-  <blockquote>
-    <paragraph>
-      <text>
-        ⚠️ Note that the Pagination page prop starts at 1 to match the
-        requirement of including the value in the URL, while the TablePagination
-        page prop stats at 0 to match the requirement of zero-based JavaScript
-        arrays that comes with rendering a lot of tabular data.
-      </text>
-    </paragraph>
-  </blockquote>
   <paragraph>
     <text>You can learn more about this use case in the</text>
     <link>table section</link>
@@ -22823,13 +22360,27 @@ exports[`firefox /components/radio-buttons 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <FormControl component="fieldset"> <FormLabel
+    component="legend">Gender</FormLabel> <RadioGroup
+    aria-label="gender" name="gender1"
+    value={value} onChange={handleChange}>
+    <FormControlLabel value="female" control={<Radio
+    />} label="Female" /> <FormControlLabel
+    value="male" control={<Radio />}
+    label="Male" /> <FormControlLabel value="other"
+    control={<Radio />} label="Other" />
+    <FormControlLabel value="disabled" disabled
+    control={<Radio />} label="(Disabled option)"
+    /> </RadioGroup> </FormControl>
+  </text>
   <paragraph>
     <text>
       To lay out the buttons horizontally, set the row prop: <RadioGroup row
@@ -22965,13 +22516,30 @@ exports[`firefox /components/radio-buttons 1`] = `
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <form onSubmit={handleSubmit}> <FormControl
+    component="fieldset" error={error}
+    className={classes.formControl}> <FormLabel
+    component="legend">Pop quiz: Material-UI
+    is...</FormLabel> <RadioGroup aria-label="quiz"
+    name="quiz" value={value}
+    onChange={handleRadioChange}> <FormControlLabel
+    value="best" control={<Radio />} label="The
+    best!" /> <FormControlLabel value="worst"
+    control={<Radio />} label="The worst." />
+    </RadioGroup>
+    <FormHelperText>{helperText}</FormHelperText>
+    <Button type="submit" variant="outlined"
+    color="primary" className={classes.button}> Check
+    Answer </Button> </FormControl> </form>
+  </text>
   <heading level="2">
     Customized radios
     <link></link>
@@ -23021,13 +22589,27 @@ exports[`firefox /components/radio-buttons 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <FormControl component="fieldset"> <FormLabel
+    component="legend">Gender</FormLabel> <RadioGroup
+    defaultValue="female" aria-label="gender"
+    name="customized-radios"> <FormControlLabel
+    value="female" control={<StyledRadio />}
+    label="Female" /> <FormControlLabel value="male"
+    control={<StyledRadio />} label="Male" />
+    <FormControlLabel value="other" control={<StyledRadio
+    />} label="Other" /> <FormControlLabel
+    value="disabled" disabled control={<StyledRadio
+    />} label="(Disabled option)" /> </RadioGroup>
+    </FormControl>
+  </text>
   <heading level="2">
     When to use
     <link></link>
@@ -23080,7 +22662,7 @@ exports[`firefox /components/radio-buttons 1`] = `
   </list>
   <text>
     <RadioButton value="radioA" inputProps={{
-    'aria-label': 'Radio A', }} />
+    'aria-label': 'Radio A' }} />
   </text>
   <heading level="2">
     API
@@ -23573,8 +23155,8 @@ exports[`firefox /components/rating/ 1`] = `
     precision={0.5} onChange={(event, newValue) => {
     setValue(newValue); }} onChangeActive={(event, newHover)
     => { setHover(newHover); }} /> {value !== null
-    && ( <Box ml={2}>{labels[hover !== -1 ? hover :
-    value]}</Box> )}
+    && <Box ml={2}>{labels[hover !== -1 ? hover :
+    value]}</Box>}
   </text>
   <heading level="2">
     Half ratings
@@ -23833,9 +23415,9 @@ exports[`firefox /components/selects/ 1`] = `
     </text>
   </paragraph>
   <heading level="2">
-    Basic select
+    Simple Select
     <link></link>
-    <text>Basic select</text>
+    <text>Simple Select</text>
   </heading>
   <paragraph>
     <text>
@@ -23855,95 +23437,6 @@ exports[`firefox /components/selects/ 1`] = `
   <button haspopup="true">
     Age ​<text>​</text>
   </button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <FormControl fullWidth> <InputLabel
-    id="demo-simple-select-label">Age</InputLabel> <Select
-    labelId="demo-simple-select-label"
-    id="demo-simple-select" value={age}
-    onChange={handleChange} > <MenuItem
-    value={10}>Ten</MenuItem> <MenuItem
-    value={20}>Twenty</MenuItem> <MenuItem
-    value={30}>Thirty</MenuItem> </Select>
-    </FormControl>
-  </text>
-  <heading level="2">
-    Advanced features
-    <link></link>
-    <text>Advanced features</text>
-  </heading>
-  <paragraph>
-    <text>
-      The Select component is meant to be interchangeable with a native
-      <select> element.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      If you are looking for more advanced features, like combobox, multiselect,
-      autocomplete, async or creatable support, head to the
-    </text>
-    <link>Autocomplete component</link>
-    <text>
-      . It's meant to be an improved version of the
-      "react-select" and "downshift" packages.
-    </text>
-  </paragraph>
-  <heading level="2">
-    Props
-    <link></link>
-    <text>Props</text>
-  </heading>
-  <heading level="3">
-    Filled and outlined variants
-    <link></link>
-    <text>Filled and outlined variants</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <label>
-    Age
-    <text>Age</text>
-  </label>
-  <button haspopup="true">
-    Age ​<text>​</text>
-  </button>
-  <label>
-    Age
-    <text>Age</text>
-  </label>
-  <statictext> </statictext>
-  <button haspopup="true">
-    Age ​<text>​</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="3">
-    Labels and helper text
-    <link></link>
-    <text>Labels and helper text</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
   <label>
     Age
     <text>Age</text>
@@ -23953,7 +23446,7 @@ exports[`firefox /components/selects/ 1`] = `
     Age ​<text>​</text>
   </button>
   <paragraph>
-    <text>With label + helper text</text>
+    <text>Some important helper text</text>
   </paragraph>
   <statictext> </statictext>
   <button haspopup="true">
@@ -23963,50 +23456,18 @@ exports[`firefox /components/selects/ 1`] = `
   <paragraph>
     <text>Without label</text>
   </paragraph>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="3">
-    Auto width
-    <link></link>
-    <text>Auto width</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
   <label>
     Age
     <text>Age</text>
   </label>
   <statictext> </statictext>
   <button haspopup="true">
-    Age ​<text>​</text>
+    Age None
+    <text>None</text>
   </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="3">
-    Other props
-    <link></link>
-    <text>Other props</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
+  <paragraph>
+    <text>Label + placeholder</text>
+  </paragraph>
   <label>
     Name
     <text>Name</text>
@@ -24049,8 +23510,42 @@ exports[`firefox /components/selects/ 1`] = `
     Age ​<text>​</text>
   </button>
   <paragraph>
+    <text>Auto width</text>
+  </paragraph>
+  <statictext> </statictext>
+  <button haspopup="true">
+    Without label
+    <text>Placeholder</text>
+  </button>
+  <paragraph>
+    <text>Placeholder</text>
+  </paragraph>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <statictext> </statictext>
+  <button haspopup="true">
+    Age ​<text>​</text>
+  </button>
+  <paragraph>
     <text>Required</text>
   </paragraph>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <button haspopup="true">
+    Age ​<text>​</text>
+  </button>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <statictext> </statictext>
+  <button haspopup="true">
+    Age ​<text>​</text>
+  </button>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -24061,9 +23556,31 @@ exports[`firefox /components/selects/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Native select
+    Advanced features
     <link></link>
-    <text>Native select</text>
+    <text>Advanced features</text>
+  </heading>
+  <paragraph>
+    <text>
+      The Select component is meant to be interchangeable with a native
+      <select> element.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      If you are looking for more advanced features, like combobox, multiselect,
+      autocomplete, async or creatable support, head to the
+    </text>
+    <link>Autocomplete component</link>
+    <text>
+      . It's meant to be an improved version of the
+      "react-select" and "downshift" packages.
+    </text>
+  </paragraph>
+  <heading level="2">
+    Native Select
+    <link></link>
+    <text>Native Select</text>
   </heading>
   <paragraph>
     <text>
@@ -24080,8 +23597,181 @@ exports[`firefox /components/selects/ 1`] = `
     <text>Age</text>
   </label>
   <statictext> </statictext>
-  <combobox value="Thirty" haspopup="true">
+  <combobox value="None" haspopup="true">
     Age
+    <MenuListPopup>
+      <menuitem selected="true">None</menuitem>
+      <menuitem>
+        Ten
+        <text>Ten</text>
+      </menuitem>
+      <menuitem>
+        Twenty
+        <text>Twenty</text>
+      </menuitem>
+      <menuitem>
+        Thirty
+        <text>Thirty</text>
+      </menuitem>
+    </MenuListPopup>
+  </combobox>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <statictext> </statictext>
+  <combobox value="None" haspopup="true">
+    Age
+    <MenuListPopup>
+      <menuitem selected="true">None</menuitem>
+      <menuitem>
+        Ten
+        <text>Ten</text>
+      </menuitem>
+      <menuitem>
+        Twenty
+        <text>Twenty</text>
+      </menuitem>
+      <menuitem>
+        Thirty
+        <text>Thirty</text>
+      </menuitem>
+    </MenuListPopup>
+  </combobox>
+  <paragraph>
+    <text>Some important helper text</text>
+  </paragraph>
+  <statictext> </statictext>
+  <combobox value="None" haspopup="true">
+    age
+    <MenuListPopup>
+      <menuitem selected="true">
+        None
+        <text>None</text>
+      </menuitem>
+      <menuitem>
+        Ten
+        <text>Ten</text>
+      </menuitem>
+      <menuitem>
+        Twenty
+        <text>Twenty</text>
+      </menuitem>
+      <menuitem>
+        Thirty
+        <text>Thirty</text>
+      </menuitem>
+    </MenuListPopup>
+  </combobox>
+  <paragraph>
+    <text>With visually hidden label</text>
+  </paragraph>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <statictext> </statictext>
+  <combobox value="None" haspopup="true">
+    Age
+    <MenuListPopup>
+      <menuitem selected="true">
+        None
+        <text>None</text>
+      </menuitem>
+      <menuitem>
+        Ten
+        <text>Ten</text>
+      </menuitem>
+      <menuitem>
+        Twenty
+        <text>Twenty</text>
+      </menuitem>
+      <menuitem>
+        Thirty
+        <text>Thirty</text>
+      </menuitem>
+    </MenuListPopup>
+  </combobox>
+  <paragraph>
+    <text>Label + placeholder</text>
+  </paragraph>
+  <label>
+    Name
+    <text>Name</text>
+  </label>
+  <statictext> </statictext>
+  <combobox value="Hai" disabled="true" haspopup="true">
+    Name
+    <MenuListPopup>
+      <menuitem>
+        None
+        <text>None</text>
+      </menuitem>
+      <group>
+        Author
+        <statictext>Author</statictext>
+        <menuitem selected="true">
+          Hai
+          <text>Hai</text>
+        </menuitem>
+      </group>
+      <group>
+        Contributors
+        <statictext>Contributors</statictext>
+        <menuitem level="2">
+          Olivier
+          <text>Olivier</text>
+        </menuitem>
+        <menuitem level="2">
+          Kevin
+          <text>Kevin</text>
+        </menuitem>
+      </group>
+    </MenuListPopup>
+  </combobox>
+  <paragraph>
+    <text>Disabled</text>
+  </paragraph>
+  <label>
+    Name
+    <text>Name</text>
+  </label>
+  <statictext> </statictext>
+  <combobox value="Hai" haspopup="true" invalid="true">
+    Name
+    <MenuListPopup invalid="true">
+      <group>
+        Author
+        <statictext>Author</statictext>
+        <menuitem selected="true">
+          Hai
+          <text>Hai</text>
+        </menuitem>
+      </group>
+      <group>
+        Contributors
+        <statictext>Contributors</statictext>
+        <menuitem level="2">
+          Olivier
+          <text>Olivier</text>
+        </menuitem>
+        <menuitem level="2">
+          Kevin
+          <text>Kevin</text>
+        </menuitem>
+      </group>
+    </MenuListPopup>
+  </combobox>
+  <paragraph>
+    <text>Error</text>
+  </paragraph>
+  <label>
+    Name
+    <text>Name</text>
+  </label>
+  <statictext> </statictext>
+  <combobox value="Thirty" haspopup="true">
+    Name
     <MenuListPopup>
       <menuitem>
         Ten
@@ -24097,29 +23787,118 @@ exports[`firefox /components/selects/ 1`] = `
       </menuitem>
     </MenuListPopup>
   </combobox>
+  <paragraph>
+    <text>Uncontrolled</text>
+  </paragraph>
+  <statictext> </statictext>
+  <combobox value="Placeholder" haspopup="true">
+    age
+    <MenuListPopup>
+      <menuitem disabled="true" selected="true">
+        Placeholder
+        <text>Placeholder</text>
+      </menuitem>
+      <menuitem>
+        Ten
+        <text>Ten</text>
+      </menuitem>
+      <menuitem>
+        Twenty
+        <text>Twenty</text>
+      </menuitem>
+      <menuitem>
+        Thirty
+        <text>Thirty</text>
+      </menuitem>
+    </MenuListPopup>
+  </combobox>
+  <paragraph>
+    <text>Placeholder</text>
+  </paragraph>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <statictext> </statictext>
+  <combobox value="None" required="true" haspopup="true" invalid="true">
+    Age
+    <MenuListPopup>
+      <menuitem selected="true">None</menuitem>
+      <menuitem>
+        Ten
+        <text>Ten</text>
+      </menuitem>
+      <menuitem>
+        Twenty
+        <text>Twenty</text>
+      </menuitem>
+      <menuitem>
+        Thirty
+        <text>Thirty</text>
+      </menuitem>
+    </MenuListPopup>
+  </combobox>
+  <paragraph>
+    <text>Required</text>
+  </paragraph>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <combobox value="None" haspopup="true">
+    Age
+    <MenuListPopup>
+      <menuitem selected="true">None</menuitem>
+      <menuitem>
+        Ten
+        <text>Ten</text>
+      </menuitem>
+      <menuitem>
+        Twenty
+        <text>Twenty</text>
+      </menuitem>
+      <menuitem>
+        Thirty
+        <text>Thirty</text>
+      </menuitem>
+    </MenuListPopup>
+  </combobox>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <statictext> </statictext>
+  <combobox value="None" haspopup="true">
+    Age
+    <MenuListPopup>
+      <menuitem selected="true">None</menuitem>
+      <menuitem>
+        Ten
+        <text>Ten</text>
+      </menuitem>
+      <menuitem>
+        Twenty
+        <text>Twenty</text>
+      </menuitem>
+      <menuitem>
+        Thirty
+        <text>Thirty</text>
+      </menuitem>
+    </MenuListPopup>
+  </combobox>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <FormControl fullWidth> <InputLabel
-    htmlFor="uncontrolled-native">Age</InputLabel>
-    <NativeSelect defaultValue={30} inputProps={{ name:
-    'age', id: 'uncontrolled-native', }} >
-    <option value={10}>Ten</option> <option
-    value={20}>Twenty</option> <option
-    value={30}>Thirty</option> </NativeSelect>
-    </FormControl>
-  </text>
   <heading level="2">
-    TextField
+    Text Fields
     <link></link>
-    <text>TextField</text>
+    <text>Text Fields</text>
   </heading>
   <paragraph>
     <text>
@@ -24202,9 +23981,9 @@ exports[`firefox /components/selects/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
-    Multiple select
+    Multiple Select
     <link></link>
-    <text>Multiple select</text>
+    <text>Multiple Select</text>
   </heading>
   <paragraph>
     <text>
@@ -24219,11 +23998,6 @@ exports[`firefox /components/selects/ 1`] = `
       array.
     </text>
   </paragraph>
-  <heading level="3">
-    Default
-    <link></link>
-    <text>Default</text>
-  </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -24236,24 +24010,6 @@ exports[`firefox /components/selects/ 1`] = `
   <button haspopup="true">
     Name ​<text>​</text>
   </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="3">
-    Checkmarks
-    <link></link>
-    <text>Checkmarks</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
   <label>
     Tag
     <text>Tag</text>
@@ -24261,24 +24017,6 @@ exports[`firefox /components/selects/ 1`] = `
   <statictext> </statictext>
   <button haspopup="true">
     Tag ​<text>​</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="3">
-    Chip
-    <link></link>
-    <text>Chip</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
   </button>
   <label>
     Chip
@@ -24288,46 +24026,10 @@ exports[`firefox /components/selects/ 1`] = `
   <button haspopup="true">
     Chip ​<text>​</text>
   </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="3">
-    Placeholder
-    <link></link>
-    <text>Placeholder</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
   <statictext> </statictext>
   <button haspopup="true">
     Without label
     <text>Placeholder</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="3">
-    Native
-    <link></link>
-    <text>Native</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
   </button>
   <label>
     Native
@@ -24387,9 +24089,9 @@ exports[`firefox /components/selects/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Controlled open select
+    Controlled Open Select
     <link></link>
-    <text>Controlled open select</text>
+    <text>Controlled Open Select</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -24417,9 +24119,9 @@ exports[`firefox /components/selects/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    With a dialog
+    With a Dialog
     <link></link>
-    <text>With a dialog</text>
+    <text>With a Dialog</text>
   </heading>
   <paragraph>
     <text>
@@ -25401,12 +25103,12 @@ exports[`firefox /components/switches/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <FormGroup> <FormControlLabel control={ <Switch
+    <FormGroup> <FormControlLabel control={<Switch
     size="small" checked={checked}
-    onChange={toggleChecked} /> } label="Small"
-    /> <FormControlLabel control={<Switch
-    checked={checked} onChange={toggleChecked} />}
-    label="Normal" /> </FormGroup>
+    onChange={toggleChecked} />} label="Small" />
+    <FormControlLabel control={<Switch checked={checked}
+    onChange={toggleChecked} />} label="Normal"
+    /> </FormGroup>
   </text>
   <heading level="2">
     Label placement
@@ -25609,13 +25311,25 @@ exports[`firefox /components/tabs/ 1`] = `
   </tabpanel>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <AppBar position="static"> <Tabs value={value}
+    onChange={handleChange} aria-label="simple tabs
+    example"> <Tab label="Item One"
+    {...a11yProps(0)} /> <Tab label="Item Two"
+    {...a11yProps(1)} /> <Tab label="Item Three"
+    {...a11yProps(2)} /> </Tabs> </AppBar> <TabPanel
+    value={value} index={0}> Item One </TabPanel>
+    <TabPanel value={value} index={1}> Item Two
+    </TabPanel> <TabPanel value={value}
+    index={2}> Item Three </TabPanel>
+  </text>
   <heading level="3">
     Wrapped Labels
     <link></link>
@@ -26025,13 +25739,27 @@ exports[`firefox /components/tabs/ 1`] = `
   <paragraph></paragraph>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <div className={classes.demo1}> <AntTabs
+    value={value} onChange={handleChange}
+    aria-label="ant example"> <AntTab label="Tab 1"
+    /> <AntTab label="Tab 2" /> <AntTab label="Tab
+    3" /> </AntTabs> <Typography
+    className={classes.padding} /> </div> <div
+    className={classes.demo2}> <StyledTabs
+    value={value} onChange={handleChange}
+    aria-label="styled tabs example"> <StyledTab
+    label="Workflows" /> <StyledTab label="Datasets"
+    /> <StyledTab label="Connections" /> </StyledTabs>
+    <Typography className={classes.padding} /> </div>
+  </text>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -26407,21 +26135,6 @@ exports[`firefox /components/tabs/ 1`] = `
       • <Tab />
       <statictext>•</statictext>
       <link><Tab /></link>
-    </listitem>
-    <listitem>
-      • <TabContext />
-      <statictext>•</statictext>
-      <link><TabContext /></link>
-    </listitem>
-    <listitem>
-      • <TabList />
-      <statictext>•</statictext>
-      <link><TabList /></link>
-    </listitem>
-    <listitem>
-      • <TabPanel />
-      <statictext>•</statictext>
-      <link><TabPanel /></link>
     </listitem>
     <listitem>
       • <TabScrollButton />
@@ -27654,13 +27367,26 @@ exports[`firefox /components/text-fields/ 1`] = `
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <form className={classes.root} noValidate
+    autoComplete="off"> <Input defaultValue="Hello
+    world" inputProps={{ 'aria-label':
+    'description' }} /> <Input
+    placeholder="Placeholder" inputProps={{
+    'aria-label': 'description' }} /> <Input
+    defaultValue="Disabled" disabled inputProps={{
+    'aria-label': 'description' }} /> <Input
+    defaultValue="Error" error inputProps={{
+    'aria-label': 'description' }} />
+    </form>
+  </text>
   <heading level="2">
     Color
     <link></link>
@@ -27696,13 +27422,23 @@ exports[`firefox /components/text-fields/ 1`] = `
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <form className={classes.root} noValidate
+    autoComplete="off"> <TextField
+    id="standard-secondary" label="Standard secondary"
+    color="secondary" /> <TextField
+    id="filled-secondary" label="Filled secondary"
+    variant="filled" color="secondary" /> <TextField
+    id="outlined-secondary" label="Outlined secondary"
+    variant="outlined" color="secondary" /> </form>
+  </text>
   <heading level="2">
     Customized inputs
     <link></link>
@@ -27862,58 +27598,6 @@ exports[`firefox /components/text-fields/ 1`] = `
       the label to display correctly.
     </text>
   </paragraph>
-  <heading level="3">
-    type="number"
-    <link></link>
-    <text>type="number"</text>
-  </heading>
-  <paragraph>
-    <text>
-      Inputs of type="number" have potential usability issues:
-    </text>
-  </paragraph>
-  <list>
-    <listitem>
-      • Allowing certain non-numeric characters ('e', '+',
-      '-', '.') and silently discarding others
-      <statictext>•</statictext>
-      <text>
-        Allowing certain non-numeric characters ('e', '+',
-        '-', '.') and silently discarding others
-      </text>
-    </listitem>
-    <listitem>
-      • The functionality of scrolling to increment/decrement the number can
-      cause accidental and hard-to-notice changes
-      <statictext>•</statictext>
-      <text>
-        The functionality of scrolling to increment/decrement the number can
-        cause accidental and hard-to-notice changes
-      </text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>and more - see</text>
-    <link>this article</link>
-    <text>
-      by the GOV.UK Design System team for a more detailed explanation.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      For number validation, one viable alternative is to use the default input
-      type="text" with the pattern attribute, for example:
-    </text>
-  </paragraph>
-  <text>
-    <TextField inputProps={{ inputmode: 'numeric',
-    pattern: '[0-9]*' }} />
-  </text>
-  <paragraph>
-    <text>In the future, we might provide a</text>
-    <link>number input component</link>
-    <text>.</text>
-  </paragraph>
   <heading level="2">
     Integration with 3rd party input libraries
     <link></link>
@@ -27983,7 +27667,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     be your \`SomeThirdPartyComponent\` from below return <Component
     {...other} />; } // usage <TextField
     InputProps={{ inputComponent: MyInputComponent, inputProps: {
-    component: SomeThirdPartyComponent, }, }} />;
+    component: SomeThirdPartyComponent }, }} />;
   </text>
   <heading level="2">
     Accessibility
@@ -28023,8 +27707,8 @@ exports[`firefox /components/text-fields/ 1`] = `
     <FormControl> <InputLabel htmlFor="my-input">Email
     address</InputLabel> <Input id="my-input"
     aria-describedby="my-helper-text" /> <FormHelperText
-    id="my-helper-text"> We'll never share your email.
-    </FormHelperText> </FormControl>
+    id="my-helper-text">We'll never share your
+    email.</FormHelperText> </FormControl>
   </text>
   <heading level="2">
     Complementary projects
@@ -28038,32 +27722,26 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • react-hook-form : React hook for form validation.
-      <statictext>•</statictext>
-      <link>react-hook-form</link>
-      <text>: React hook for form validation.</text>
-    </listitem>
-    <listitem>
-      • formik-material-ui : Bindings for using Material-UI with formik .
+      • formik-material-ui Bindings for using Material-UI with formik .
       <statictext>•</statictext>
       <link>formik-material-ui</link>
-      <text>: Bindings for using Material-UI with</text>
+      <text>Bindings for using Material-UI with</text>
       <link>formik</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • redux-form-material-ui : Bindings for using Material-UI with Redux Form
-      .<statictext>•</statictext>
+      • redux-form-material-ui Bindings for using Material-UI with Redux Form .
+      <statictext>•</statictext>
       <link>redux-form-material-ui</link>
-      <text>: Bindings for using Material-UI with</text>
+      <text>Bindings for using Material-UI with</text>
       <link>Redux Form</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • mui-rff : Bindings for using Material-UI with React Final Form .
+      • mui-rff Bindings for using Material-UI with React Final Form .
       <statictext>•</statictext>
       <link>mui-rff</link>
-      <text>: Bindings for using Material-UI with</text>
+      <text>Bindings for using Material-UI with</text>
       <link>React Final Form</link>
       <text>.</text>
     </listitem>
@@ -28554,7 +28232,7 @@ exports[`firefox /components/tooltips/ 1`] = `
   <text>
     <Tooltip title="You don't have permission to do this">
     <span> <button disabled={disabled} style={disabled ?
-    { pointerEvents: 'none' } : {}} >
+    { pointerEvents: "none" } : {}}>
     {'A disabled button'} </button> </span>
     </Tooltip>
   </text>
@@ -28594,9 +28272,9 @@ exports[`firefox /components/tooltips/ 1`] = `
   <text>
     <Tooltip title="Add"> <Button>Grow</Button>
     </Tooltip> <Tooltip TransitionComponent={Fade}
-    TransitionProps={{ timeout: 600 }} title="Add"
-    > <Button>Fade</Button> </Tooltip> <Tooltip
-    TransitionComponent={Zoom} title="Add">
+    TransitionProps={{ timeout: 600 }}
+    title="Add"> <Button>Fade</Button> </Tooltip>
+    <Tooltip TransitionComponent={Zoom} title="Add">
     <Button>Zoom</Button> </Tooltip>
   </text>
   <heading level="2">
@@ -29172,7 +28850,7 @@ exports[`firefox /components/tree-view/ 1`] = `
   </list>
   <separator></separator>
   <link>Toggle Button</link>
-  <link>Accordion</link>
+  <link>Alert</link>
 </landmark>;
 
 `;
