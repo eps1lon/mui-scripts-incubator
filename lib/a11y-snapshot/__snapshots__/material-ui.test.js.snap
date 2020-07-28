@@ -16484,6 +16484,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
+    file system navigator
     <treeitem level="1">
       Applications
       <SVGRoot></SVGRoot>
@@ -16539,6 +16540,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree multiselectable="true">
+    multi-select
     <treeitem level="1">
       Applications
       <SVGRoot></SVGRoot>
@@ -16602,6 +16604,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     <text>SELECT ALL</text>
   </button>
   <tree multiselectable="true">
+    controlled
     <treeitem level="1">
       Applications
       <SVGRoot></SVGRoot>
@@ -16673,6 +16676,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
+    rich object
     <treeitem expanded="true" level="1">
       Parent
       <SVGRoot></SVGRoot>
@@ -16734,6 +16738,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
+    customized
     <treeitem expanded="true" level="1">
       Main
       <SVGRoot></SVGRoot>
@@ -16803,6 +16808,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
+    gmail
     <treeitem level="1">
       All Mail
       <SVGRoot></SVGRoot>
@@ -16910,6 +16916,17 @@ exports[`chromium /components/tree-view/ 1`] = `
   </paragraph>
   <paragraph>
     <text>The component follows the WAI-ARIA authoring practices.</text>
+  </paragraph>
+  <paragraph>
+    <text>To have an accessible tree view you must use</text>
+    <code>$SOME_CODE</code>
+    <text>or</text>
+    <code>$SOME_CODE</code>
+    <text>
+      to reference or provide a label on the TreeView, otherwise screen readers
+      will announce it as "tree", making it hard to understand the
+      context of a specific tree item.
+    </text>
   </paragraph>
   <heading level="2">
     API
@@ -29105,6 +29122,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
+    file system navigator
     <treeitem level="1">
       Applications
       <text>Applications</text>
@@ -29136,6 +29154,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree multiselectable="true">
+    multi-select
     <treeitem level="1">
       Applications
       <text>Applications</text>
@@ -29175,6 +29194,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     <text>SELECT ALL</text>
   </button>
   <tree multiselectable="true">
+    controlled
     <treeitem level="1">
       Applications
       <text>Applications</text>
@@ -29220,6 +29240,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
+    rich object
     <treeitem expanded="true" level="1">
       Parent Child - 1 Child - 3<text>Parent</text>
       <group>
@@ -29256,6 +29277,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
+    customized
     <treeitem expanded="true" level="1">
       Main Hello Subtree with children World Something something
       <text>Main</text>
@@ -29298,6 +29320,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
+    gmail
     <treeitem level="1">
       All Mail
       <paragraph>
@@ -29374,6 +29397,14 @@ exports[`firefox /components/tree-view/ 1`] = `
   </paragraph>
   <paragraph>
     <text>The component follows the WAI-ARIA authoring practices.</text>
+  </paragraph>
+  <paragraph>
+    <text>
+      To have an accessible tree view you must use aria-labelledby or aria-label
+      to reference or provide a label on the TreeView, otherwise screen readers
+      will announce it as "tree", making it hard to understand the
+      context of a specific tree item.
+    </text>
   </paragraph>
   <heading level="2">
     API
