@@ -288,14 +288,14 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.5. View versions page.</link>
+      <link>v5.0.0-alpha.4. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v5.0.0-alpha.5</link>
+  <link>v5.0.0-alpha.4</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -8255,116 +8255,6 @@ exports[`chromium /components/radio-buttons 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
-  <heading level="2">
-    useRadioGroup
-    <Anchor></Anchor>
-    <code>$SOME_CODE</code>
-  </heading>
-  <paragraph>
-    <text>For advanced customization use cases, a</text>
-    <code>$SOME_CODE</code>
-    <text>
-      hook is exposed. It returns the context value of the parent radio group.
-      The Radio component uses this hook internally.
-    </text>
-  </paragraph>
-  <heading level="3">
-    API
-    <Anchor></Anchor>
-    <text>API</text>
-  </heading>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="4">
-    Returns
-    <text>Returns</text>
-  </heading>
-  <paragraph>
-    <code>$SOME_CODE</code>
-    <text>(Object):</text>
-  </paragraph>
-  <list>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <code>$SOME_CODE</code>
-      <text>
-        (String[optional]): The name used to reference the value of the control.
-      </text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <code>$SOME_CODE</code>
-      <text>
-        (Void[optional]): Callback fired when a radio button is selected.
-      </text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <code>$SOME_CODE</code>
-      <text>(Any[optional]): Value of the selected radio button.</text>
-    </listitem>
-  </list>
-  <heading level="4">
-    Example
-    <text>Example</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <radiogroup>
-    <Label>
-      <radio checked="true">First</radio>
-      <SVGRoot></SVGRoot>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <Label>
-      <radio checked="false">Second</radio>
-      <SVGRoot></SVGRoot>
-      <SVGRoot></SVGRoot>
-    </Label>
-  </radiogroup>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the full source">
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     When to use
     <Anchor></Anchor>
@@ -16484,7 +16374,6 @@ exports[`chromium /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
-    file system navigator
     <treeitem level="1">
       Applications
       <SVGRoot></SVGRoot>
@@ -16540,7 +16429,6 @@ exports[`chromium /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree multiselectable="true">
-    multi-select
     <treeitem level="1">
       Applications
       <SVGRoot></SVGRoot>
@@ -16604,7 +16492,6 @@ exports[`chromium /components/tree-view/ 1`] = `
     <text>SELECT ALL</text>
   </button>
   <tree multiselectable="true">
-    controlled
     <treeitem level="1">
       Applications
       <SVGRoot></SVGRoot>
@@ -16676,7 +16563,6 @@ exports[`chromium /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
-    rich object
     <treeitem expanded="true" level="1">
       Parent
       <SVGRoot></SVGRoot>
@@ -16738,7 +16624,6 @@ exports[`chromium /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
-    customized
     <treeitem expanded="true" level="1">
       Main
       <SVGRoot></SVGRoot>
@@ -16808,7 +16693,6 @@ exports[`chromium /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
-    gmail
     <treeitem level="1">
       All Mail
       <SVGRoot></SVGRoot>
@@ -16916,17 +16800,6 @@ exports[`chromium /components/tree-view/ 1`] = `
   </paragraph>
   <paragraph>
     <text>The component follows the WAI-ARIA authoring practices.</text>
-  </paragraph>
-  <paragraph>
-    <text>To have an accessible tree view you must use</text>
-    <code>$SOME_CODE</code>
-    <text>or</text>
-    <code>$SOME_CODE</code>
-    <text>
-      to reference or provide a label on the TreeView, otherwise screen readers
-      will announce it as "tree", making it hard to understand the
-      context of a specific tree item.
-    </text>
   </paragraph>
   <heading level="2">
     API
@@ -17226,7 +17099,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.5. View versions page.</link>
+      <link>v5.0.0-alpha.4. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
@@ -23168,98 +23041,6 @@ exports[`firefox /components/radio-buttons 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    useRadioGroup
-    <link></link>
-    <text>useRadioGroup</text>
-  </heading>
-  <paragraph>
-    <text>
-      For advanced customization use cases, a useRadioGroup() hook is exposed.
-      It returns the context value of the parent radio group. The Radio
-      component uses this hook internally.
-    </text>
-  </paragraph>
-  <heading level="3">
-    API
-    <link></link>
-    <text>API</text>
-  </heading>
-  <text>
-    import { useRadioGroup } from
-    '@material-ui/core/RadioGroup';
-  </text>
-  <heading level="4">
-    Returns
-    <text>Returns</text>
-  </heading>
-  <paragraph>
-    <text>value (Object):</text>
-  </paragraph>
-  <list>
-    <listitem>
-      • value.name ( String [optional]): The name used to reference the value of
-      the control.
-      <statictext>•</statictext>
-      <text>
-        value.name (String [optional]): The name used to reference the value of
-        the control.
-      </text>
-    </listitem>
-    <listitem>
-      • value.onChange ( Void [optional]): Callback fired when a radio button is
-      selected.
-      <statictext>•</statictext>
-      <text>
-        value.onChange (Void [optional]): Callback fired when a radio button is
-        selected.
-      </text>
-    </listitem>
-    <listitem>
-      • value.value ( Any [optional]): Value of the selected radio button.
-      <statictext>•</statictext>
-      <text>
-        value.value (Any [optional]): Value of the selected radio button.
-      </text>
-    </listitem>
-  </list>
-  <heading level="4">
-    Example
-    <text>Example</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    <label>
-      First
-      <radio checked="true">First</radio>
-      <text>First</text>
-    </label>
-    <label>
-      Second
-      <radio>Second</radio>
-      <text>Second</text>
-    </label>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <RadioGroup name="use-radio-group"
-    defaultValue="first"> <MyFormControlLabel
-    value="first" label="First" control={<Radio
-    />} /> <MyFormControlLabel value="second"
-    label="Second" control={<Radio />} />
-    </RadioGroup>
-  </text>
-  <heading level="2">
     When to use
     <link></link>
     <text>When to use</text>
@@ -29122,7 +28903,6 @@ exports[`firefox /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
-    file system navigator
     <treeitem level="1">
       Applications
       <text>Applications</text>
@@ -29154,7 +28934,6 @@ exports[`firefox /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree multiselectable="true">
-    multi-select
     <treeitem level="1">
       Applications
       <text>Applications</text>
@@ -29194,7 +28973,6 @@ exports[`firefox /components/tree-view/ 1`] = `
     <text>SELECT ALL</text>
   </button>
   <tree multiselectable="true">
-    controlled
     <treeitem level="1">
       Applications
       <text>Applications</text>
@@ -29240,7 +29018,6 @@ exports[`firefox /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
-    rich object
     <treeitem expanded="true" level="1">
       Parent Child - 1 Child - 3<text>Parent</text>
       <group>
@@ -29277,7 +29054,6 @@ exports[`firefox /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
-    customized
     <treeitem expanded="true" level="1">
       Main Hello Subtree with children World Something something
       <text>Main</text>
@@ -29320,7 +29096,6 @@ exports[`firefox /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
-    gmail
     <treeitem level="1">
       All Mail
       <paragraph>
@@ -29397,14 +29172,6 @@ exports[`firefox /components/tree-view/ 1`] = `
   </paragraph>
   <paragraph>
     <text>The component follows the WAI-ARIA authoring practices.</text>
-  </paragraph>
-  <paragraph>
-    <text>
-      To have an accessible tree view you must use aria-labelledby or aria-label
-      to reference or provide a label on the TreeView, otherwise screen readers
-      will announce it as "tree", making it hard to understand the
-      context of a specific tree item.
-    </text>
   </paragraph>
   <heading level="2">
     API
