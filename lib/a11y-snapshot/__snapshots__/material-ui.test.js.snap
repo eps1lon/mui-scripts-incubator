@@ -13617,10 +13617,22 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>The</text>
     <code>$SOME_CODE</code>
     <text>prop transforms the text field into a</text>
-    <link>textarea</link>
-    <text>or a</text>
+    <link>
+      <textarea>
+      <code>$SOME_CODE</code>
+    </link>
+    <text>element. Unless the</text>
+    <code>$SOME_CODE</code>
+    <text>
+      prop is set, the height of the text field dynamically matches its content
+      (using
+    </text>
     <link>TextareaAutosize</link>
-    <text>.</text>
+    <text>). You can use the</text>
+    <code>$SOME_CODE</code>
+    <text>and</text>
+    <code>$SOME_CODE</code>
+    <text>props to bound it.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -27038,10 +27050,13 @@ exports[`firefox /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>The multiline prop transforms the text field into a</text>
-    <link>textarea</link>
-    <text>or a</text>
+    <link><textarea></link>
+    <text>
+      element. Unless the rows prop is set, the height of the text field
+      dynamically matches its content (using
+    </text>
     <link>TextareaAutosize</link>
-    <text>.</text>
+    <text>). You can use the rowsMin and rowsMax props to bound it.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
