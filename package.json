@@ -19,7 +19,7 @@
 		"lighthouse": "^6.1.0",
 		"lodash": "^4.17.19",
 		"node-fetch": "^2.6.0",
-		"playwright": "1.1.1",
+		"playwright": "1.2.1",
 		"prettier": "^2.0.5",
 		"react": "^16.13.1",
 		"yargs": "^15.3.1",
