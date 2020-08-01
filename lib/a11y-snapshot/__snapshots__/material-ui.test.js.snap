@@ -377,7 +377,9 @@ exports[`chromium /api/button/ 1`] = `
   <paragraph>
     <text>
       The API documentation of the Button React component. Learn more about the
-      props and the CSS customization points.
+      props and the CSS customization points.Help us keep runningIf you
+      don't mind tech related ads (no tracking or remarketing), and want to
+      keep us running, please whitelist Material-UI in your blocker.Thank you!
     </text>
   </paragraph>
   <heading level="2">
