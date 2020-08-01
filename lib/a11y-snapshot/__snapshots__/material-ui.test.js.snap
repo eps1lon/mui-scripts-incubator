@@ -5547,8 +5547,8 @@ exports[`chromium /components/dialogs/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    OPEN FORM DIALOG
-    <text>OPEN FORM DIALOG</text>
+    OPEN DRAGGABLE DIALOG
+    <text>OPEN DRAGGABLE DIALOG</text>
   </button>
   <toolbar>
     demo source
@@ -21138,8 +21138,8 @@ exports[`firefox /components/dialogs/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    OPEN FORM DIALOG
-    <text>OPEN FORM DIALOG</text>
+    OPEN DRAGGABLE DIALOG
+    <text>OPEN DRAGGABLE DIALOG</text>
   </button>
   <toolbar>
     demo source
