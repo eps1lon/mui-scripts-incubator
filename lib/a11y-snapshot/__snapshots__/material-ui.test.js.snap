@@ -16540,12 +16540,12 @@ exports[`chromium /components/tree-view/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
-    Multi selection
+    Multi-selection
     <Anchor></Anchor>
-    <text>Multi selection</text>
+    <text>Multi-selection</text>
   </heading>
   <paragraph>
-    <text>Tree views also support multi selection.</text>
+    <text>Tree views also support multi-selection.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -16916,6 +16916,173 @@ exports[`chromium /components/tree-view/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <heading level="2">
+    Disabled tree items
+    <Anchor></Anchor>
+    <text>Disabled tree items</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Label>
+    <checkbox checked="false">Focus disabled items</checkbox>
+  </Label>
+  <tree multiselectable="true">
+    disabled items
+    <treeitem level="1">
+      One
+      <SVGRoot></SVGRoot>
+      <text>One</text>
+    </treeitem>
+    <treeitem disabled="true" level="1">
+      Five
+      <SVGRoot></SVGRoot>
+      <text>Five</text>
+    </treeitem>
+    <treeitem level="1">
+      Seven
+      <SVGRoot></SVGRoot>
+      <text>Seven</text>
+    </treeitem>
+  </tree>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button description="Show the source">
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Edit in CodeSandbox">
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Copy the source">
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset focus to test keyboard navigation">
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset demo">
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <paragraph>
+    <text>The behaviour of disabled tree items depends on the</text>
+    <code>$SOME_CODE</code>
+    <text>prop.</text>
+  </paragraph>
+  <paragraph>
+    <text>If it is false:</text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <text>
+        Arrow keys will not focus disabled items and, the next non-disabled item
+        will be focused.
+      </text>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <text>
+        Typing the first character of a disabled item's label will not
+        focus the item.
+      </text>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <text>
+        Mouse or keyboard interaction will not expand/collapse disabled items.
+      </text>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <text>Mouse or keyboard interaction will not select disabled items.</text>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <text>
+        Shift + arrow keys will skip disabled items and, the next non-disabled
+        item will be selected.
+      </text>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <text>Programmatic focus will not focus disabled items.</text>
+    </listitem>
+  </list>
+  <paragraph>
+    <text>If it is true:</text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <text>Arrow keys will focus disabled items.</text>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <text>
+        Typing the first character of a disabled item's label will focus
+        the item.
+      </text>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <text>
+        Mouse or keyboard interaction will not expand/collapse disabled items.
+      </text>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <text>Mouse or keyboard interaction will not select disabled items.</text>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <text>
+        Shift + arrow keys will not skip disabled items but, the disabled item
+        will not be selected.
+      </text>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <text>Programmatic focus will focus disabled items.</text>
+    </listitem>
+  </list>
   <heading level="2">
     Accessibility
     <Anchor></Anchor>
@@ -29157,12 +29324,12 @@ exports[`firefox /components/tree-view/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Multi selection
+    Multi-selection
     <link></link>
-    <text>Multi selection</text>
+    <text>Multi-selection</text>
   </heading>
   <paragraph>
-    <text>Tree views also support multi selection.</text>
+    <text>Tree views also support multi-selection.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -29400,6 +29567,144 @@ exports[`firefox /components/tree-view/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <heading level="2">
+    Disabled tree items
+    <link></link>
+    <text>Disabled tree items</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Focus disabled items
+    <checkbox>Focus disabled items</checkbox>
+    <text>Focus disabled items</text>
+  </label>
+  <tree multiselectable="true">
+    disabled items
+    <treeitem level="1">
+      One
+      <text>One</text>
+    </treeitem>
+    <treeitem disabled="true" level="1">
+      Five
+      <text>Five</text>
+    </treeitem>
+    <treeitem level="1">
+      Seven
+      <text>Seven</text>
+    </treeitem>
+  </tree>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <paragraph>
+    <text>
+      The behaviour of disabled tree items depends on the disabledItemsFocusable
+      prop.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>If it is false:</text>
+  </paragraph>
+  <list>
+    <listitem>
+      • Arrow keys will not focus disabled items and, the next non-disabled item
+      will be focused.
+      <statictext>•</statictext>
+      <text>
+        Arrow keys will not focus disabled items and, the next non-disabled item
+        will be focused.
+      </text>
+    </listitem>
+    <listitem>
+      • Typing the first character of a disabled item's label will not
+      focus the item.
+      <statictext>•</statictext>
+      <text>
+        Typing the first character of a disabled item's label will not
+        focus the item.
+      </text>
+    </listitem>
+    <listitem>
+      • Mouse or keyboard interaction will not expand/collapse disabled items.
+      <statictext>•</statictext>
+      <text>
+        Mouse or keyboard interaction will not expand/collapse disabled items.
+      </text>
+    </listitem>
+    <listitem>
+      • Mouse or keyboard interaction will not select disabled items.
+      <statictext>•</statictext>
+      <text>Mouse or keyboard interaction will not select disabled items.</text>
+    </listitem>
+    <listitem>
+      • Shift + arrow keys will skip disabled items and, the next non-disabled
+      item will be selected.
+      <statictext>•</statictext>
+      <text>
+        Shift + arrow keys will skip disabled items and, the next non-disabled
+        item will be selected.
+      </text>
+    </listitem>
+    <listitem>
+      • Programmatic focus will not focus disabled items.
+      <statictext>•</statictext>
+      <text>Programmatic focus will not focus disabled items.</text>
+    </listitem>
+  </list>
+  <paragraph>
+    <text>If it is true:</text>
+  </paragraph>
+  <list>
+    <listitem>
+      • Arrow keys will focus disabled items.
+      <statictext>•</statictext>
+      <text>Arrow keys will focus disabled items.</text>
+    </listitem>
+    <listitem>
+      • Typing the first character of a disabled item's label will focus
+      the item.
+      <statictext>•</statictext>
+      <text>
+        Typing the first character of a disabled item's label will focus
+        the item.
+      </text>
+    </listitem>
+    <listitem>
+      • Mouse or keyboard interaction will not expand/collapse disabled items.
+      <statictext>•</statictext>
+      <text>
+        Mouse or keyboard interaction will not expand/collapse disabled items.
+      </text>
+    </listitem>
+    <listitem>
+      • Mouse or keyboard interaction will not select disabled items.
+      <statictext>•</statictext>
+      <text>Mouse or keyboard interaction will not select disabled items.</text>
+    </listitem>
+    <listitem>
+      • Shift + arrow keys will not skip disabled items but, the disabled item
+      will not be selected.
+      <statictext>•</statictext>
+      <text>
+        Shift + arrow keys will not skip disabled items but, the disabled item
+        will not be selected.
+      </text>
+    </listitem>
+    <listitem>
+      • Programmatic focus will focus disabled items.
+      <statictext>•</statictext>
+      <text>Programmatic focus will focus disabled items.</text>
+    </listitem>
+  </list>
   <heading level="2">
     Accessibility
     <link></link>
