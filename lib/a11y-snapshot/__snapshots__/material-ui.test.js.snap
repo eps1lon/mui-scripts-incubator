@@ -7520,41 +7520,36 @@ exports[`chromium /components/pickers 1`] = `
     navigation of our components.
   </button>
   <Label>
-    <text>Date picker inline</text>
+    <text>Date picker desktop</text>
   </Label>
   <text> </text>
-  <textbox value="08/18/2014">
-    Date picker inline
+  <textbox value="08/18/2014" description="mm/dd/yyyy">
+    Date picker desktop
     <text>08/18/2014</text>
   </textbox>
   <button>
     change date
     <SVGRoot></SVGRoot>
   </button>
+  <paragraph>
+    <text>mm/dd/yyyy</text>
+  </paragraph>
   <Label>
-    <text>Date picker dialog</text>
+    <text>Date picker mobile</text>
   </Label>
   <text> </text>
-  <textbox value="08/18/2014">
-    Date picker dialog
+  <textbox value="08/18/2014" readonly="true">
+    Choose date, selected date is Aug 18, 2014
     <text>08/18/2014</text>
   </textbox>
-  <button>
-    change date
-    <SVGRoot></SVGRoot>
-  </button>
   <Label>
     <text>Time picker</text>
   </Label>
   <text> </text>
-  <textbox value="09:11 PM">
-    Time picker
+  <textbox value="09:11 PM" readonly="true">
+    Choose time, selected time is 9:11 PM
     <text>09:11 PM</text>
   </textbox>
-  <button>
-    change time
-    <SVGRoot></SVGRoot>
-  </button>
   <toolbar>
     demo source
     <group>
@@ -22840,35 +22835,36 @@ exports[`firefox /components/pickers 1`] = `
     navigation of our components.
   </button>
   <label>
-    Date picker inline
-    <text>Date picker inline</text>
+    Date picker desktop
+    <text>Date picker desktop</text>
   </label>
   <statictext> </statictext>
-  <textbox value="08/18/2014">
-    Date picker inline
+  <textbox value="08/18/2014" description="mm/dd/yyyy">
+    Date picker desktop
     <text>08/18/2014</text>
   </textbox>
   <button>change date</button>
+  <paragraph>
+    <text>mm/dd/yyyy</text>
+  </paragraph>
   <label>
-    Date picker dialog
-    <text>Date picker dialog</text>
+    Date picker mobile
+    <text>Date picker mobile</text>
   </label>
   <statictext> </statictext>
-  <textbox value="08/18/2014">
-    Date picker dialog
+  <textbox value="08/18/2014" readonly="true">
+    Choose date, selected date is Aug 18, 2014
     <text>08/18/2014</text>
   </textbox>
-  <button>change date</button>
   <label>
     Time picker
     <text>Time picker</text>
   </label>
   <statictext> </statictext>
-  <textbox value="09:11 PM">
-    Time picker
+  <textbox value="09:11 PM" readonly="true">
+    Choose time, selected time is 9:11 PM
     <text>09:11 PM</text>
   </textbox>
-  <button>change time</button>
   <toolbar>
     demo source
     <button>Show the source</button>
