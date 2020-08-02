@@ -176,9 +176,7 @@ exports[`chromium / 1`] = `
     <paragraph>
       <link>
         call-em-all
-        <img description="Mass Text Messaging & Automated Calling">
-          call-em-all
-        </img>
+        <img description="The easy way to message your group">call-em-all</img>
       </link>
       <link>
         bitsrc
@@ -288,14 +286,14 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.5. View versions page.</link>
+      <link>v5.0.0-alpha.4. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v5.0.0-alpha.5</link>
+  <link>v5.0.0-alpha.4</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -698,14 +696,12 @@ exports[`chromium /api/button/ 1`] = `
         <text>variant</text>
       </gridcell>
       <gridcell>
-        'contained' | 'outlined' | 'text' | string
+        'contained' | 'outlined' | 'text'
         <text>'contained'</text>
         <LineBreak></LineBreak>
         <text>| 'outlined'</text>
         <LineBreak></LineBreak>
         <text>| 'text'</text>
-        <LineBreak></LineBreak>
-        <text>| string</text>
       </gridcell>
       <gridcell>
         'text'
@@ -5547,8 +5543,8 @@ exports[`chromium /components/dialogs/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    OPEN DRAGGABLE DIALOG
-    <text>OPEN DRAGGABLE DIALOG</text>
+    OPEN FORM DIALOG
+    <text>OPEN FORM DIALOG</text>
   </button>
   <toolbar>
     demo source
@@ -7520,36 +7516,41 @@ exports[`chromium /components/pickers 1`] = `
     navigation of our components.
   </button>
   <Label>
-    <text>Date picker desktop</text>
+    <text>Date picker inline</text>
   </Label>
   <text> </text>
-  <textbox value="08/18/2014" description="mm/dd/yyyy">
-    Date picker desktop
+  <textbox value="08/18/2014">
+    Date picker inline
     <text>08/18/2014</text>
   </textbox>
   <button>
     change date
     <SVGRoot></SVGRoot>
   </button>
-  <paragraph>
-    <text>mm/dd/yyyy</text>
-  </paragraph>
   <Label>
-    <text>Date picker mobile</text>
+    <text>Date picker dialog</text>
   </Label>
   <text> </text>
-  <textbox value="08/18/2014" readonly="true">
-    Choose date, selected date is Aug 18, 2014
+  <textbox value="08/18/2014">
+    Date picker dialog
     <text>08/18/2014</text>
   </textbox>
+  <button>
+    change date
+    <SVGRoot></SVGRoot>
+  </button>
   <Label>
     <text>Time picker</text>
   </Label>
   <text> </text>
-  <textbox value="09:11 PM" readonly="true">
-    Choose time, selected time is 9:11 PM
+  <textbox value="09:11 PM">
+    Time picker
     <text>09:11 PM</text>
   </textbox>
+  <button>
+    change time
+    <SVGRoot></SVGRoot>
+  </button>
   <toolbar>
     demo source
     <group>
@@ -8250,116 +8251,6 @@ exports[`chromium /components/radio-buttons 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
-  <heading level="2">
-    useRadioGroup
-    <Anchor></Anchor>
-    <code>$SOME_CODE</code>
-  </heading>
-  <paragraph>
-    <text>For advanced customization use cases, a</text>
-    <code>$SOME_CODE</code>
-    <text>
-      hook is exposed. It returns the context value of the parent radio group.
-      The Radio component uses this hook internally.
-    </text>
-  </paragraph>
-  <heading level="3">
-    API
-    <Anchor></Anchor>
-    <text>API</text>
-  </heading>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="4">
-    Returns
-    <text>Returns</text>
-  </heading>
-  <paragraph>
-    <code>$SOME_CODE</code>
-    <text>(Object):</text>
-  </paragraph>
-  <list>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <code>$SOME_CODE</code>
-      <text>
-        (String[optional]): The name used to reference the value of the control.
-      </text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <code>$SOME_CODE</code>
-      <text>
-        (Void[optional]): Callback fired when a radio button is selected.
-      </text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <code>$SOME_CODE</code>
-      <text>(Any[optional]): Value of the selected radio button.</text>
-    </listitem>
-  </list>
-  <heading level="4">
-    Example
-    <text>Example</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <radiogroup>
-    <Label>
-      <radio checked="true">First</radio>
-      <SVGRoot></SVGRoot>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <Label>
-      <radio checked="false">Second</radio>
-      <SVGRoot></SVGRoot>
-      <SVGRoot></SVGRoot>
-    </Label>
-  </radiogroup>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the full source">
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     When to use
     <Anchor></Anchor>
@@ -13612,22 +13503,10 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>The</text>
     <code>$SOME_CODE</code>
     <text>prop transforms the text field into a</text>
-    <link>
-      <textarea>
-      <code>$SOME_CODE</code>
-    </link>
-    <text>element. Unless the</text>
-    <code>$SOME_CODE</code>
-    <text>
-      prop is set, the height of the text field dynamically matches its content
-      (using
-    </text>
+    <link>textarea</link>
+    <text>or a</text>
     <link>TextareaAutosize</link>
-    <text>). You can use the</text>
-    <code>$SOME_CODE</code>
-    <text>and</text>
-    <code>$SOME_CODE</code>
-    <text>props to bound it.</text>
+    <text>.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -15245,13 +15124,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>react-hook-form</link>
-      <text>: React hook for form validation.</text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>formik-material-ui</link>
       <text>: Bindings for using Material-UI with</text>
       <link>formik</link>
@@ -16491,7 +16363,6 @@ exports[`chromium /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
-    file system navigator
     <treeitem level="1">
       Applications
       <SVGRoot></SVGRoot>
@@ -16535,19 +16406,18 @@ exports[`chromium /components/tree-view/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
-    Multi-selection
+    Multi selection
     <Anchor></Anchor>
-    <text>Multi-selection</text>
+    <text>Multi selection</text>
   </heading>
   <paragraph>
-    <text>Tree views also support multi-selection.</text>
+    <text>Tree views also support multi selection.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
   <tree multiselectable="true">
-    multi-select
     <treeitem level="1">
       Applications
       <SVGRoot></SVGRoot>
@@ -16590,7 +16460,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
-  <heading level="2">
+  <heading level="3">
     Controlled tree view
     <Anchor></Anchor>
     <text>Controlled tree view</text>
@@ -16602,16 +16472,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <button>
-    EXPAND ALL
-    <text>EXPAND ALL</text>
-  </button>
-  <button>
-    SELECT ALL
-    <text>SELECT ALL</text>
-  </button>
-  <tree multiselectable="true">
-    controlled
+  <tree>
     <treeitem level="1">
       Applications
       <SVGRoot></SVGRoot>
@@ -16683,7 +16544,6 @@ exports[`chromium /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
-    rich object
     <treeitem expanded="true" level="1">
       Parent
       <SVGRoot></SVGRoot>
@@ -16745,7 +16605,6 @@ exports[`chromium /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
-    customized
     <treeitem expanded="true" level="1">
       Main
       <SVGRoot></SVGRoot>
@@ -16815,7 +16674,6 @@ exports[`chromium /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
-    gmail
     <treeitem level="1">
       All Mail
       <SVGRoot></SVGRoot>
@@ -16912,173 +16770,6 @@ exports[`chromium /components/tree-view/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
-    Disabled tree items
-    <Anchor></Anchor>
-    <text>Disabled tree items</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <Label>
-    <checkbox checked="false">Focus disabled items</checkbox>
-  </Label>
-  <tree multiselectable="true">
-    disabled items
-    <treeitem level="1">
-      One
-      <SVGRoot></SVGRoot>
-      <text>One</text>
-    </treeitem>
-    <treeitem disabled="true" level="1">
-      Five
-      <SVGRoot></SVGRoot>
-      <text>Five</text>
-    </treeitem>
-    <treeitem level="1">
-      Seven
-      <SVGRoot></SVGRoot>
-      <text>Seven</text>
-    </treeitem>
-  </tree>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the source">
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <paragraph>
-    <text>The behaviour of disabled tree items depends on the</text>
-    <code>$SOME_CODE</code>
-    <text>prop.</text>
-  </paragraph>
-  <paragraph>
-    <text>If it is false:</text>
-  </paragraph>
-  <list>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>
-        Arrow keys will not focus disabled items and, the next non-disabled item
-        will be focused.
-      </text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>
-        Typing the first character of a disabled item's label will not
-        focus the item.
-      </text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>
-        Mouse or keyboard interaction will not expand/collapse disabled items.
-      </text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>Mouse or keyboard interaction will not select disabled items.</text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>
-        Shift + arrow keys will skip disabled items and, the next non-disabled
-        item will be selected.
-      </text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>Programmatic focus will not focus disabled items.</text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>If it is true:</text>
-  </paragraph>
-  <list>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>Arrow keys will focus disabled items.</text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>
-        Typing the first character of a disabled item's label will focus
-        the item.
-      </text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>
-        Mouse or keyboard interaction will not expand/collapse disabled items.
-      </text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>Mouse or keyboard interaction will not select disabled items.</text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>
-        Shift + arrow keys will not skip disabled items but, the disabled item
-        will not be selected.
-      </text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>Programmatic focus will focus disabled items.</text>
-    </listitem>
-  </list>
-  <heading level="2">
     Accessibility
     <Anchor></Anchor>
     <text>Accessibility</text>
@@ -17090,17 +16781,6 @@ exports[`chromium /components/tree-view/ 1`] = `
   </paragraph>
   <paragraph>
     <text>The component follows the WAI-ARIA authoring practices.</text>
-  </paragraph>
-  <paragraph>
-    <text>To have an accessible tree view you must use</text>
-    <code>$SOME_CODE</code>
-    <text>or</text>
-    <code>$SOME_CODE</code>
-    <text>
-      to reference or provide a label on the TreeView, otherwise screen readers
-      will announce it as "tree", making it hard to understand the
-      context of a specific tree item.
-    </text>
   </paragraph>
   <heading level="2">
     API
@@ -17279,8 +16959,8 @@ exports[`firefox / 1`] = `
     <link>
       call-em-all
       <img
-        value="https://www.text-em-all.com/"
-        description="Mass Text Messaging & Automated Calling"
+        value="https://www.call-em-all.com/"
+        description="The easy way to message your group"
       >
         call-em-all
       </img>
@@ -17400,7 +17080,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.5. View versions page.</link>
+      <link>v5.0.0-alpha.4. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
@@ -17680,8 +17360,6 @@ exports[`firefox /api/button/ 1`] = `
         <text>| 'outlined'</text>
         <whitespace></whitespace>
         <text>| 'text'</text>
-        <whitespace></whitespace>
-        <text>| string</text>
       </cell>
       <cell>
         <text>'text'</text>
@@ -21133,8 +20811,8 @@ exports[`firefox /components/dialogs/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    OPEN DRAGGABLE DIALOG
-    <text>OPEN DRAGGABLE DIALOG</text>
+    OPEN FORM DIALOG
+    <text>OPEN FORM DIALOG</text>
   </button>
   <toolbar>
     demo source
@@ -22835,36 +22513,35 @@ exports[`firefox /components/pickers 1`] = `
     navigation of our components.
   </button>
   <label>
-    Date picker desktop
-    <text>Date picker desktop</text>
+    Date picker inline
+    <text>Date picker inline</text>
   </label>
   <statictext> </statictext>
-  <textbox value="08/18/2014" description="mm/dd/yyyy">
-    Date picker desktop
+  <textbox value="08/18/2014">
+    Date picker inline
     <text>08/18/2014</text>
   </textbox>
   <button>change date</button>
-  <paragraph>
-    <text>mm/dd/yyyy</text>
-  </paragraph>
   <label>
-    Date picker mobile
-    <text>Date picker mobile</text>
+    Date picker dialog
+    <text>Date picker dialog</text>
   </label>
   <statictext> </statictext>
-  <textbox value="08/18/2014" readonly="true">
-    Choose date, selected date is Aug 18, 2014
+  <textbox value="08/18/2014">
+    Date picker dialog
     <text>08/18/2014</text>
   </textbox>
+  <button>change date</button>
   <label>
     Time picker
     <text>Time picker</text>
   </label>
   <statictext> </statictext>
-  <textbox value="09:11 PM" readonly="true">
-    Choose time, selected time is 9:11 PM
+  <textbox value="09:11 PM">
+    Time picker
     <text>09:11 PM</text>
   </textbox>
+  <button>change time</button>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -23342,98 +23019,6 @@ exports[`firefox /components/radio-buttons 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <heading level="2">
-    useRadioGroup
-    <link></link>
-    <text>useRadioGroup</text>
-  </heading>
-  <paragraph>
-    <text>
-      For advanced customization use cases, a useRadioGroup() hook is exposed.
-      It returns the context value of the parent radio group. The Radio
-      component uses this hook internally.
-    </text>
-  </paragraph>
-  <heading level="3">
-    API
-    <link></link>
-    <text>API</text>
-  </heading>
-  <text>
-    import { useRadioGroup } from
-    '@material-ui/core/RadioGroup';
-  </text>
-  <heading level="4">
-    Returns
-    <text>Returns</text>
-  </heading>
-  <paragraph>
-    <text>value (Object):</text>
-  </paragraph>
-  <list>
-    <listitem>
-      • value.name ( String [optional]): The name used to reference the value of
-      the control.
-      <statictext>•</statictext>
-      <text>
-        value.name (String [optional]): The name used to reference the value of
-        the control.
-      </text>
-    </listitem>
-    <listitem>
-      • value.onChange ( Void [optional]): Callback fired when a radio button is
-      selected.
-      <statictext>•</statictext>
-      <text>
-        value.onChange (Void [optional]): Callback fired when a radio button is
-        selected.
-      </text>
-    </listitem>
-    <listitem>
-      • value.value ( Any [optional]): Value of the selected radio button.
-      <statictext>•</statictext>
-      <text>
-        value.value (Any [optional]): Value of the selected radio button.
-      </text>
-    </listitem>
-  </list>
-  <heading level="4">
-    Example
-    <text>Example</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    <label>
-      First
-      <radio checked="true">First</radio>
-      <text>First</text>
-    </label>
-    <label>
-      Second
-      <radio>Second</radio>
-      <text>Second</text>
-    </label>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <RadioGroup name="use-radio-group"
-    defaultValue="first"> <MyFormControlLabel
-    value="first" label="First" control={<Radio
-    />} /> <MyFormControlLabel value="second"
-    label="Second" control={<Radio />} />
-    </RadioGroup>
-  </text>
   <heading level="2">
     When to use
     <link></link>
@@ -27213,13 +26798,10 @@ exports[`firefox /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>The multiline prop transforms the text field into a</text>
-    <link><textarea></link>
-    <text>
-      element. Unless the rows prop is set, the height of the text field
-      dynamically matches its content (using
-    </text>
+    <link>textarea</link>
+    <text>or a</text>
     <link>TextareaAutosize</link>
-    <text>). You can use the rowsMin and rowsMax props to bound it.</text>
+    <text>.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -28447,12 +28029,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • react-hook-form : React hook for form validation.
-      <statictext>•</statictext>
-      <link>react-hook-form</link>
-      <text>: React hook for form validation.</text>
-    </listitem>
-    <listitem>
       • formik-material-ui : Bindings for using Material-UI with formik .
       <statictext>•</statictext>
       <link>formik-material-ui</link>
@@ -29300,7 +28876,6 @@ exports[`firefox /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
-    file system navigator
     <treeitem level="1">
       Applications
       <text>Applications</text>
@@ -29320,19 +28895,18 @@ exports[`firefox /components/tree-view/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Multi-selection
+    Multi selection
     <link></link>
-    <text>Multi-selection</text>
+    <text>Multi selection</text>
   </heading>
   <paragraph>
-    <text>Tree views also support multi-selection.</text>
+    <text>Tree views also support multi selection.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
   <tree multiselectable="true">
-    multi-select
     <treeitem level="1">
       Applications
       <text>Applications</text>
@@ -29351,7 +28925,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <heading level="2">
+  <heading level="3">
     Controlled tree view
     <link></link>
     <text>Controlled tree view</text>
@@ -29363,16 +28937,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <button>
-    EXPAND ALL
-    <text>EXPAND ALL</text>
-  </button>
-  <button>
-    SELECT ALL
-    <text>SELECT ALL</text>
-  </button>
-  <tree multiselectable="true">
-    controlled
+  <tree>
     <treeitem level="1">
       Applications
       <text>Applications</text>
@@ -29418,7 +28983,6 @@ exports[`firefox /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
-    rich object
     <treeitem expanded="true" level="1">
       Parent Child - 1 Child - 3<text>Parent</text>
       <group>
@@ -29455,7 +29019,6 @@ exports[`firefox /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
-    customized
     <treeitem expanded="true" level="1">
       Main Hello Subtree with children World Something something
       <text>Main</text>
@@ -29498,7 +29061,6 @@ exports[`firefox /components/tree-view/ 1`] = `
     navigation of our components.
   </button>
   <tree>
-    gmail
     <treeitem level="1">
       All Mail
       <paragraph>
@@ -29564,144 +29126,6 @@ exports[`firefox /components/tree-view/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Disabled tree items
-    <link></link>
-    <text>Disabled tree items</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <label>
-    Focus disabled items
-    <checkbox>Focus disabled items</checkbox>
-    <text>Focus disabled items</text>
-  </label>
-  <tree multiselectable="true">
-    disabled items
-    <treeitem level="1">
-      One
-      <text>One</text>
-    </treeitem>
-    <treeitem disabled="true" level="1">
-      Five
-      <text>Five</text>
-    </treeitem>
-    <treeitem level="1">
-      Seven
-      <text>Seven</text>
-    </treeitem>
-  </tree>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <paragraph>
-    <text>
-      The behaviour of disabled tree items depends on the disabledItemsFocusable
-      prop.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>If it is false:</text>
-  </paragraph>
-  <list>
-    <listitem>
-      • Arrow keys will not focus disabled items and, the next non-disabled item
-      will be focused.
-      <statictext>•</statictext>
-      <text>
-        Arrow keys will not focus disabled items and, the next non-disabled item
-        will be focused.
-      </text>
-    </listitem>
-    <listitem>
-      • Typing the first character of a disabled item's label will not
-      focus the item.
-      <statictext>•</statictext>
-      <text>
-        Typing the first character of a disabled item's label will not
-        focus the item.
-      </text>
-    </listitem>
-    <listitem>
-      • Mouse or keyboard interaction will not expand/collapse disabled items.
-      <statictext>•</statictext>
-      <text>
-        Mouse or keyboard interaction will not expand/collapse disabled items.
-      </text>
-    </listitem>
-    <listitem>
-      • Mouse or keyboard interaction will not select disabled items.
-      <statictext>•</statictext>
-      <text>Mouse or keyboard interaction will not select disabled items.</text>
-    </listitem>
-    <listitem>
-      • Shift + arrow keys will skip disabled items and, the next non-disabled
-      item will be selected.
-      <statictext>•</statictext>
-      <text>
-        Shift + arrow keys will skip disabled items and, the next non-disabled
-        item will be selected.
-      </text>
-    </listitem>
-    <listitem>
-      • Programmatic focus will not focus disabled items.
-      <statictext>•</statictext>
-      <text>Programmatic focus will not focus disabled items.</text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>If it is true:</text>
-  </paragraph>
-  <list>
-    <listitem>
-      • Arrow keys will focus disabled items.
-      <statictext>•</statictext>
-      <text>Arrow keys will focus disabled items.</text>
-    </listitem>
-    <listitem>
-      • Typing the first character of a disabled item's label will focus
-      the item.
-      <statictext>•</statictext>
-      <text>
-        Typing the first character of a disabled item's label will focus
-        the item.
-      </text>
-    </listitem>
-    <listitem>
-      • Mouse or keyboard interaction will not expand/collapse disabled items.
-      <statictext>•</statictext>
-      <text>
-        Mouse or keyboard interaction will not expand/collapse disabled items.
-      </text>
-    </listitem>
-    <listitem>
-      • Mouse or keyboard interaction will not select disabled items.
-      <statictext>•</statictext>
-      <text>Mouse or keyboard interaction will not select disabled items.</text>
-    </listitem>
-    <listitem>
-      • Shift + arrow keys will not skip disabled items but, the disabled item
-      will not be selected.
-      <statictext>•</statictext>
-      <text>
-        Shift + arrow keys will not skip disabled items but, the disabled item
-        will not be selected.
-      </text>
-    </listitem>
-    <listitem>
-      • Programmatic focus will focus disabled items.
-      <statictext>•</statictext>
-      <text>Programmatic focus will focus disabled items.</text>
-    </listitem>
-  </list>
-  <heading level="2">
     Accessibility
     <link></link>
     <text>Accessibility</text>
@@ -29713,14 +29137,6 @@ exports[`firefox /components/tree-view/ 1`] = `
   </paragraph>
   <paragraph>
     <text>The component follows the WAI-ARIA authoring practices.</text>
-  </paragraph>
-  <paragraph>
-    <text>
-      To have an accessible tree view you must use aria-labelledby or aria-label
-      to reference or provide a label on the TreeView, otherwise screen readers
-      will announce it as "tree", making it hard to understand the
-      context of a specific tree item.
-    </text>
   </paragraph>
   <heading level="2">
     API
