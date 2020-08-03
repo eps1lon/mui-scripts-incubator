@@ -104,7 +104,7 @@ exports[`chromium / 1`] = `
     <Pre>
       <code>
         <text>
-          importReactfrom'react';import{Button}from'@material-ui/core';functionApp(){return<Button>Hello
+          import*asReactfrom'react';import{Button}from'@material-ui/core';functionApp(){return<Button>Hello
           World</Button>;}
         </text>
       </code>
@@ -17204,7 +17204,7 @@ exports[`firefox / 1`] = `
     </heading>
     <text>
       Material-UI components work without any additional setup, and don't
-      pollute the global scope.import React from 'react'; import
+      pollute the global scope.import * as React from 'react'; import
       { Button } from '@material-ui/core'; function App()
       { return <Button>Hello World</Button>; }
     </text>
