@@ -17130,9 +17130,9 @@ exports[`chromium /components/tree-view/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Toggle Button
+      Trap Focus
       <SVGRoot></SVGRoot>
-      <text>Toggle Button</text>
+      <text>Trap Focus</text>
     </link>
     <link>
       Accordion
@@ -29740,7 +29740,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Toggle Button</link>
+  <link>Trap Focus</link>
   <link>Accordion</link>
 </landmark>;
 
