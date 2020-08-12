@@ -687,6 +687,26 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
+        type
+        <text>type</text>
+      </gridcell>
+      <gridcell>
+        string
+        <text>string</text>
+      </gridcell>
+      <gridcell>
+        'button'
+        <text>'button'</text>
+      </gridcell>
+      <gridcell>
+        The HTML type attribute, important for form validation.
+        <text>The HTML</text>
+        <code>$SOME_CODE</code>
+        <text>attribute, important for form validation.</text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
         variant
         <text>variant</text>
       </gridcell>
@@ -17633,6 +17653,20 @@ exports[`firefox /api/button/ 1`] = `
       <cell></cell>
       <cell>
         <text>Element placed before the children.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>type</text>
+      </cell>
+      <cell>
+        <text>string</text>
+      </cell>
+      <cell>
+        <text>'button'</text>
+      </cell>
+      <cell>
+        <text>The HTML type attribute, important for form validation.</text>
       </cell>
     </row>
     <row>
