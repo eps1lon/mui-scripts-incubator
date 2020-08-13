@@ -150,7 +150,13 @@ exports[`chromium / 1`] = `
       <text>Diamond 💎</text>
     </heading>
     <paragraph>
-      <text>3/3 slots available</text>
+      <link>
+        octopus
+        <img description="Repeatable, reliable deployments">octopus</img>
+      </link>
+    </paragraph>
+    <paragraph>
+      <text>2/3 slots available</text>
     </paragraph>
     <heading level="3">
       Gold 🏆
@@ -282,14 +288,14 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.5. View versions page.</link>
+      <link>v5.0.0-alpha.6. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v5.0.0-alpha.5</link>
+  <link>v5.0.0-alpha.6</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -15083,6 +15089,128 @@ exports[`chromium /components/text-fields/ 1`] = `
     <link>number input component</link>
     <text>.</text>
   </paragraph>
+  <heading level="3">
+    Helper text
+    <Anchor></Anchor>
+    <text>Helper text</text>
+  </heading>
+  <paragraph>
+    <text>
+      The helper text prop affects the height of the text field. If two text
+      fields are placed side by side, one with a helper text and one without,
+      they will have different heights. For example:
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Label>
+    <text>Name</text>
+  </Label>
+  <text> </text>
+  <textbox></textbox>
+  <paragraph>
+    <text>Please enter your name</text>
+  </paragraph>
+  <Label>
+    <text>Name</text>
+  </Label>
+  <text> </text>
+  <textbox></textbox>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button description="Show the full source">
+      Show the full source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Edit in CodeSandbox">
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Copy the source">
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset focus to test keyboard navigation">
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset demo">
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <paragraph>
+    <text>This can be fixed by passing a space character to the</text>
+    <code>$SOME_CODE</code>
+    <text>prop:</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Label>
+    <text>Name</text>
+  </Label>
+  <text> </text>
+  <textbox></textbox>
+  <paragraph>
+    <text>Please enter your name</text>
+  </paragraph>
+  <Label>
+    <text>Name</text>
+  </Label>
+  <text> </text>
+  <textbox></textbox>
+  <paragraph>
+    <text>​</text>
+  </paragraph>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button description="Show the full source">
+      Show the full source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Edit in CodeSandbox">
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Copy the source">
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset focus to test keyboard navigation">
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset demo">
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Integration with 3rd party input libraries
     <Anchor></Anchor>
@@ -17219,8 +17347,17 @@ exports[`firefox / 1`] = `
       <link></link>
       <text>Diamond 💎</text>
     </heading>
+    <link>
+      octopus
+      <img
+        value="https://octopus.com/?utm_source=materialui&utm_medium=referral"
+        description="Repeatable, reliable deployments"
+      >
+        octopus
+      </img>
+    </link>
     <paragraph>
-      <text>3/3 slots available</text>
+      <text>2/3 slots available</text>
     </paragraph>
     <heading level="3">
       Gold 🏆
@@ -17366,7 +17503,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.5. View versions page.</link>
+      <link>v5.0.0-alpha.6. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
@@ -28273,6 +28410,91 @@ exports[`firefox /components/text-fields/ 1`] = `
     <link>number input component</link>
     <text>.</text>
   </paragraph>
+  <heading level="3">
+    Helper text
+    <link></link>
+    <text>Helper text</text>
+  </heading>
+  <paragraph>
+    <text>
+      The helper text prop affects the height of the text field. If two text
+      fields are placed side by side, one with a helper text and one without,
+      they will have different heights. For example:
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Name
+    <text>Name</text>
+  </label>
+  <statictext> </statictext>
+  <textbox></textbox>
+  <paragraph>
+    <text>Please enter your name</text>
+  </paragraph>
+  <label>
+    Name
+    <text>Name</text>
+  </label>
+  <statictext> </statictext>
+  <textbox></textbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <TextField helperText="Please enter your name"
+    label="Name" /> <TextField label="Name" />
+  </text>
+  <paragraph>
+    <text>
+      This can be fixed by passing a space character to the helperText prop:
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Name
+    <text>Name</text>
+  </label>
+  <statictext> </statictext>
+  <textbox></textbox>
+  <paragraph>
+    <text>Please enter your name</text>
+  </paragraph>
+  <label>
+    Name
+    <text>Name</text>
+  </label>
+  <statictext> </statictext>
+  <textbox></textbox>
+  <paragraph>
+    <text>​</text>
+  </paragraph>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <TextField helperText="Please enter your name"
+    label="Name" /> <TextField helperText=" "
+    label="Name" />
+  </text>
   <heading level="2">
     Integration with 3rd party input libraries
     <link></link>
