@@ -150,7 +150,13 @@ exports[`chromium / 1`] = `
       <text>Diamond 💎</text>
     </heading>
     <paragraph>
-      <text>3/3 slots available</text>
+      <link>
+        octopus
+        <img description="Repeatable, reliable deployments">octopus</img>
+      </link>
+    </paragraph>
+    <paragraph>
+      <text>2/3 slots available</text>
     </paragraph>
     <heading level="3">
       Gold 🏆
@@ -17219,8 +17225,17 @@ exports[`firefox / 1`] = `
       <link></link>
       <text>Diamond 💎</text>
     </heading>
+    <link>
+      octopus
+      <img
+        value="https://octopus.com/?utm_source=materialui&utm_medium=referral"
+        description="Repeatable, reliable deployments"
+      >
+        octopus
+      </img>
+    </link>
     <paragraph>
-      <text>3/3 slots available</text>
+      <text>2/3 slots available</text>
     </paragraph>
     <heading level="3">
       Gold 🏆
