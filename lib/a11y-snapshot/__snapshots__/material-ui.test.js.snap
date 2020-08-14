@@ -17076,7 +17076,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     </combobox>
   </toolbar>
   <paragraph>
-    <text>The behaviour of disabled tree items depends on the</text>
+    <text>The behavior of disabled tree items depends on the</text>
     <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
@@ -29772,7 +29772,7 @@ exports[`firefox /components/tree-view/ 1`] = `
   </toolbar>
   <paragraph>
     <text>
-      The behaviour of disabled tree items depends on the disabledItemsFocusable
+      The behavior of disabled tree items depends on the disabledItemsFocusable
       prop.
     </text>
   </paragraph>
