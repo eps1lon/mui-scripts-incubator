@@ -2023,6 +2023,22 @@ exports[`chromium /api/select/ 1`] = `
     </row>
     <row>
       <gridcell>
+        standard
+        <text>standard</text>
+      </gridcell>
+      <gridcell>
+        .MuiSelect-standard
+        <text>.MuiSelect-standard</text>
+      </gridcell>
+      <gridcell>
+        Styles applied to the select component if variant="standard".
+        <text>Styles applied to the select component if</text>
+        <code>$SOME_CODE</code>
+        <text>.</text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
         filled
         <text>filled</text>
       </gridcell>
@@ -18778,6 +18794,20 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell>
         <text>Styles applied to the select component select class.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>standard</text>
+      </cell>
+      <cell>
+        <text>.MuiSelect-standard</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the select component if
+          variant="standard".
+        </text>
       </cell>
     </row>
     <row>
