@@ -3738,9 +3738,9 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>Sizes</text>
   </heading>
   <paragraph>
-    <text>Fancy larger or smaller buttons? Use the</text>
+    <text>For larger or smaller buttons use the</text>
     <code>$SOME_CODE</code>
-    <text>property.</text>
+    <text>prop.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -4240,9 +4240,11 @@ exports[`chromium /components/buttons/ 1`] = `
       page. The
     </text>
     <code>$SOME_CODE</code>
-    <text>component provides a property to handle this use case:</text>
+    <text>component provides the</text>
     <code>$SOME_CODE</code>
-    <text>. However for certain focus polyfills</text>
+    <text>
+      prop to handle this use case. However for certain focus polyfills
+    </text>
     <code>$SOME_CODE</code>
     <text>
       requires the DOM node of the provided component. This is achieved by
@@ -4845,7 +4847,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <code>$SOME_CODE</code>
       <text>) via the</text>
       <code>$SOME_CODE</code>
-      <text>property.</text>
+      <text>prop.</text>
     </listitem>
   </list>
   <Pre>
@@ -5348,7 +5350,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     <code>$SOME_CODE</code>
     <text>boolean. When the</text>
     <code>$SOME_CODE</code>
-    <text>property is true, the dialog will adapt based on the</text>
+    <text>prop is true, the dialog will adapt based on the</text>
     <code>$SOME_CODE</code>
     <text>value.</text>
   </paragraph>
@@ -9631,7 +9633,7 @@ exports[`chromium /components/selects/ 1`] = `
       field or provide it to the select
     </text>
     <code>$SOME_CODE</code>
-    <text>property to have a</text>
+    <text>prop to have a</text>
     <code>$SOME_CODE</code>
     <text>field.</text>
   </paragraph>
@@ -9712,7 +9714,7 @@ exports[`chromium /components/selects/ 1`] = `
       component can handle multiple selections. It's enabled with the
     </text>
     <code>$SOME_CODE</code>
-    <text>property.</text>
+    <text>prop.</text>
   </paragraph>
   <paragraph>
     <text>
@@ -11583,7 +11585,7 @@ exports[`chromium /components/switches/ 1`] = `
   <paragraph>
     <text>Fancy smaller switches? Use the</text>
     <code>$SOME_CODE</code>
-    <text>property.</text>
+    <text>prop.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -11749,7 +11751,7 @@ exports[`chromium /components/switches/ 1`] = `
       <code>$SOME_CODE</code>
       <text>) via the</text>
       <code>$SOME_CODE</code>
-      <text>property.</text>
+      <text>prop.</text>
     </listitem>
   </list>
   <Pre>
@@ -15845,7 +15847,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     <text>
       The tooltip needs to apply DOM event listeners to its child element. If
       the child is a custom React element, you need to make sure that it spreads
-      its properties to the underlying DOM element.
+      its props to the underlying DOM element.
     </text>
   </paragraph>
   <Pre>
@@ -15929,7 +15931,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     <code>$SOME_CODE</code>
     <text>and</text>
     <code>$SOME_CODE</code>
-    <text>properties to control the behavior of the tooltip.</text>
+    <text>props to control the behavior of the tooltip.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -16240,12 +16242,11 @@ exports[`chromium /components/tooltips/ 1`] = `
       The tooltip is normally shown immediately when the user's mouse
       hovers over the element, and hides immediately when the user's mouse
       leaves. A delay in showing or hiding the tooltip can be added through the
-      properties
     </text>
     <code>$SOME_CODE</code>
     <text>and</text>
     <code>$SOME_CODE</code>
-    <text>, as shown in the Controlled Tooltips demo above.</text>
+    <text>props, as shown in the Controlled Tooltips demo above.</text>
   </paragraph>
   <paragraph>
     <text>
@@ -16253,7 +16254,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       and hides after a delay of 1500ms. You can disable this feature with the
     </text>
     <code>$SOME_CODE</code>
-    <text>property.</text>
+    <text>prop.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -20049,7 +20050,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>Sizes</text>
   </heading>
   <paragraph>
-    <text>Fancy larger or smaller buttons? Use the size property.</text>
+    <text>For larger or smaller buttons use the size prop.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -20374,12 +20375,12 @@ exports[`firefox /components/buttons/ 1`] = `
   <paragraph>
     <text>
       One common use case is to use the button to trigger navigation to a new
-      page. The ButtonBase component provides a property to handle this use
-      case: component. However for certain focus polyfills ButtonBase requires
-      the DOM node of the provided component. This is achieved by attaching a
-      ref to the component and expecting that the component forwards this ref to
-      the underlying DOM node. Given that many of the interactive components
-      rely on ButtonBase, you should be able to take advantage of it everywhere.
+      page. The ButtonBase component provides the component prop to handle this
+      use case. However for certain focus polyfills ButtonBase requires the DOM
+      node of the provided component. This is achieved by attaching a ref to the
+      component and expecting that the component forwards this ref to the
+      underlying DOM node. Given that many of the interactive components rely on
+      ButtonBase, you should be able to take advantage of it everywhere.
     </text>
   </paragraph>
   <paragraph>
@@ -20819,13 +20820,13 @@ exports[`firefox /components/checkboxes/ 1`] = `
       • When a label can't be used, it's necessary to add an attribute
       directly to the input component. In this case, you can apply the
       additional attribute (e.g. aria-label , aria-labelledby , title ) via the
-      inputProps property.
+      inputProps prop.
       <statictext>•</statictext>
       <text>
         When a label can't be used, it's necessary to add an attribute
         directly to the input component. In this case, you can apply the
         additional attribute (e.g. aria-label, aria-labelledby, title) via the
-        inputProps property.
+        inputProps prop.
       </text>
     </listitem>
   </list>
@@ -21163,8 +21164,8 @@ exports[`firefox /components/dialogs/ 1`] = `
   <paragraph>
     <text>
       You can set a dialog maximum width by using the maxWidth enumerable in
-      combination with the fullWidth boolean. When the fullWidth property is
-      true, the dialog will adapt based on the maxWidth value.
+      combination with the fullWidth boolean. When the fullWidth prop is true,
+      the dialog will adapt based on the maxWidth value.
     </text>
   </paragraph>
   <button>
@@ -24701,7 +24702,7 @@ exports[`firefox /components/selects/ 1`] = `
     <text>
       The first step is to style the InputBase component. Once it's styled,
       you can either use it directly as a text field or provide it to the select
-      input property to have a select field.
+      input prop to have a select field.
     </text>
   </paragraph>
   <button>
@@ -24764,7 +24765,7 @@ exports[`firefox /components/selects/ 1`] = `
   <paragraph>
     <text>
       The Select component can handle multiple selections. It's enabled
-      with the multiple property.
+      with the multiple prop.
     </text>
   </paragraph>
   <paragraph>
@@ -25928,7 +25929,7 @@ exports[`firefox /components/switches/ 1`] = `
     <text>Sizes</text>
   </heading>
   <paragraph>
-    <text>Fancy smaller switches? Use the size property.</text>
+    <text>Fancy smaller switches? Use the size prop.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -26054,13 +26055,13 @@ exports[`firefox /components/switches/ 1`] = `
       • When a label can't be used, it's necessary to add an attribute
       directly to the input component. In this case, you can apply the
       additional attribute (e.g. aria-label , aria-labelledby , title ) via the
-      inputProps property.
+      inputProps prop.
       <statictext>•</statictext>
       <text>
         When a label can't be used, it's necessary to add an attribute
         directly to the input component. In this case, you can apply the
         additional attribute (e.g. aria-label, aria-labelledby, title) via the
-        inputProps property.
+        inputProps prop.
       </text>
     </listitem>
   </list>
@@ -29058,7 +29059,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     <text>
       The tooltip needs to apply DOM event listeners to its child element. If
       the child is a custom React element, you need to make sure that it spreads
-      its properties to the underlying DOM element.
+      its props to the underlying DOM element.
     </text>
   </paragraph>
   <text>
@@ -29119,8 +29120,8 @@ exports[`firefox /components/tooltips/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      You can use the open, onOpen and onClose properties to control the
-      behavior of the tooltip.
+      You can use the open, onOpen and onClose props to control the behavior of
+      the tooltip.
     </text>
   </paragraph>
   <button>
@@ -29332,15 +29333,15 @@ exports[`firefox /components/tooltips/ 1`] = `
       The tooltip is normally shown immediately when the user's mouse
       hovers over the element, and hides immediately when the user's mouse
       leaves. A delay in showing or hiding the tooltip can be added through the
-      properties enterDelay and leaveDelay, as shown in the Controlled Tooltips
-      demo above.
+      enterDelay and leaveDelay props, as shown in the Controlled Tooltips demo
+      above.
     </text>
   </paragraph>
   <paragraph>
     <text>
       On mobile, the tooltip is displayed when the user longpresses the element
       and hides after a delay of 1500ms. You can disable this feature with the
-      disableTouchListener property.
+      disableTouchListener prop.
     </text>
   </paragraph>
   <button>
