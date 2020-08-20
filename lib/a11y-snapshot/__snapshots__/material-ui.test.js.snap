@@ -26684,7 +26684,7 @@ exports[`firefox /components/tabs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tablist>
+  <tablist orientation="vertical">
     Vertical tabs example
     <tab selected="true">
       ITEM ONE
