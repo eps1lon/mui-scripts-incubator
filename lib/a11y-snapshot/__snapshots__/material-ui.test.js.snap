@@ -28546,7 +28546,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     </text>
   </paragraph>
   <text>
-    <TextField inputProps={{ inputmode: 'numeric',
+    <TextField inputProps={{ inputMode: 'numeric',
     pattern: '[0-9]*' }} />
   </text>
   <paragraph>
