@@ -150,13 +150,7 @@ exports[`chromium / 1`] = `
       <text>Diamond 💎</text>
     </heading>
     <paragraph>
-      <link>
-        octopus
-        <img description="Repeatable, reliable deployments">octopus</img>
-      </link>
-    </paragraph>
-    <paragraph>
-      <text>2/3 slots available</text>
+      <text>3/3 slots available</text>
     </paragraph>
     <heading level="3">
       Gold 🏆
@@ -288,14 +282,14 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.7. View versions page.</link>
+      <link>v5.0.0-alpha.5. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v5.0.0-alpha.7</link>
+  <link>v5.0.0-alpha.5</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -3738,9 +3732,9 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>Sizes</text>
   </heading>
   <paragraph>
-    <text>For larger or smaller buttons use the</text>
+    <text>Fancy larger or smaller buttons? Use the</text>
     <code>$SOME_CODE</code>
-    <text>prop.</text>
+    <text>property.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -4240,11 +4234,9 @@ exports[`chromium /components/buttons/ 1`] = `
       page. The
     </text>
     <code>$SOME_CODE</code>
-    <text>component provides the</text>
+    <text>component provides a property to handle this use case:</text>
     <code>$SOME_CODE</code>
-    <text>
-      prop to handle this use case. However for certain focus polyfills
-    </text>
+    <text>. However for certain focus polyfills</text>
     <code>$SOME_CODE</code>
     <text>
       requires the DOM node of the provided component. This is achieved by
@@ -4847,7 +4839,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <code>$SOME_CODE</code>
       <text>) via the</text>
       <code>$SOME_CODE</code>
-      <text>prop.</text>
+      <text>property.</text>
     </listitem>
   </list>
   <Pre>
@@ -5350,7 +5342,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     <code>$SOME_CODE</code>
     <text>boolean. When the</text>
     <code>$SOME_CODE</code>
-    <text>prop is true, the dialog will adapt based on the</text>
+    <text>property is true, the dialog will adapt based on the</text>
     <code>$SOME_CODE</code>
     <text>value.</text>
   </paragraph>
@@ -9633,7 +9625,7 @@ exports[`chromium /components/selects/ 1`] = `
       field or provide it to the select
     </text>
     <code>$SOME_CODE</code>
-    <text>prop to have a</text>
+    <text>property to have a</text>
     <code>$SOME_CODE</code>
     <text>field.</text>
   </paragraph>
@@ -9714,7 +9706,7 @@ exports[`chromium /components/selects/ 1`] = `
       component can handle multiple selections. It's enabled with the
     </text>
     <code>$SOME_CODE</code>
-    <text>prop.</text>
+    <text>property.</text>
   </paragraph>
   <paragraph>
     <text>
@@ -11585,7 +11577,7 @@ exports[`chromium /components/switches/ 1`] = `
   <paragraph>
     <text>Fancy smaller switches? Use the</text>
     <code>$SOME_CODE</code>
-    <text>prop.</text>
+    <text>property.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -11751,7 +11743,7 @@ exports[`chromium /components/switches/ 1`] = `
       <code>$SOME_CODE</code>
       <text>) via the</text>
       <code>$SOME_CODE</code>
-      <text>prop.</text>
+      <text>property.</text>
     </listitem>
   </list>
   <Pre>
@@ -11849,12 +11841,12 @@ exports[`chromium /components/tabs/ 1`] = `
     </text>
   </paragraph>
   <heading level="2">
-    Basic tabs
+    Simple Tabs
     <Anchor></Anchor>
-    <text>Basic tabs</text>
+    <text>Simple Tabs</text>
   </heading>
   <paragraph>
-    <text>A basic example with no frills.</text>
+    <text>A simple example with no frills.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -11915,9 +11907,9 @@ exports[`chromium /components/tabs/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="3">
-    Wrapped labels
+    Wrapped Labels
     <Anchor></Anchor>
-    <text>Wrapped labels</text>
+    <text>Wrapped Labels</text>
   </heading>
   <paragraph>
     <text>
@@ -11984,14 +11976,14 @@ exports[`chromium /components/tabs/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="3">
-    Disabled tab
+    Disabled Tab
     <Anchor></Anchor>
-    <text>Disabled tab</text>
+    <text>Disabled Tab</text>
   </heading>
   <paragraph>
     <text>A Tab can be disabled by setting</text>
     <code>$SOME_CODE</code>
-    <text>prop.</text>
+    <text>property.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -12047,9 +12039,9 @@ exports[`chromium /components/tabs/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Fixed tabs
+    Fixed Tabs
     <Anchor></Anchor>
-    <text>Fixed tabs</text>
+    <text>Fixed Tabs</text>
   </heading>
   <paragraph>
     <text>
@@ -12065,7 +12057,7 @@ exports[`chromium /components/tabs/ 1`] = `
   <paragraph>
     <text>The</text>
     <code>$SOME_CODE</code>
-    <text>prop should be used for smaller views. This demo also uses</text>
+    <text>property should be used for smaller views. This demo also uses</text>
     <link>react-swipeable-views</link>
     <text>
       to animate the Tab transition, and allowing tabs to be swiped on touch
@@ -12138,7 +12130,7 @@ exports[`chromium /components/tabs/ 1`] = `
   <paragraph>
     <text>The</text>
     <code>$SOME_CODE</code>
-    <text>prop should be used for larger views.</text>
+    <text>property should be used for larger views.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -12193,222 +12185,66 @@ exports[`chromium /components/tabs/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Scrollable tabs
+    Scrollable Tabs
     <Anchor></Anchor>
-    <text>Scrollable tabs</text>
+    <text>Scrollable Tabs</text>
   </heading>
   <heading level="3">
-    Automatic scroll buttons
+    Automatic Scroll Buttons
     <Anchor></Anchor>
-    <text>Automatic scroll buttons</text>
+    <text>Automatic Scroll Buttons</text>
   </heading>
   <paragraph>
     <text>
-      By default, left and right scroll buttons are automatically presented on
-      desktop and hidden on mobile. (based on viewport width)
+      Left and right scroll buttons will automatically be presented on desktop
+      and hidden on mobile. (based on viewport width)
     </text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <SVGRoot></SVGRoot>
-  <tablist level="1">
-    scrollable auto tabs example
-    <tab selected="true">
-      ITEM ONE
-      <text>ITEM ONE</text>
-    </tab>
-    <tab>
-      ITEM TWO
-      <text>ITEM TWO</text>
-    </tab>
-    <tab>
-      ITEM THREE
-      <text>ITEM THREE</text>
-    </tab>
-    <tab>
-      ITEM FOUR
-      <text>ITEM FOUR</text>
-    </tab>
-    <tab>
-      ITEM FIVE
-      <text>ITEM FIVE</text>
-    </tab>
-    <tab>
-      ITEM SIX
-      <text>ITEM SIX</text>
-    </tab>
-    <tab>
-      ITEM SEVEN
-      <text>ITEM SEVEN</text>
-    </tab>
-  </tablist>
-  <SVGRoot></SVGRoot>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the full source">
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="3">
-    Forced scroll buttons
-    <Anchor></Anchor>
-    <text>Forced scroll buttons</text>
-  </heading>
-  <paragraph>
-    <text>
-      Left and right scroll buttons be presented (reserve space) regardless of
-      the viewport width with
-    </text>
-    <code>$SOME_CODE</code>
-    <text>:</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <SVGRoot></SVGRoot>
-  <tablist level="1">
-    scrollable force tabs example
-    <tab selected="true">
-      ITEM ONE
-      <text>ITEM ONE</text>
-    </tab>
-    <tab>
-      ITEM TWO
-      <text>ITEM TWO</text>
-    </tab>
-    <tab>
-      ITEM THREE
-      <text>ITEM THREE</text>
-    </tab>
-    <tab>
-      ITEM FOUR
-      <text>ITEM FOUR</text>
-    </tab>
-    <tab>
-      ITEM FIVE
-      <text>ITEM FIVE</text>
-    </tab>
-    <tab>
-      ITEM SIX
-      <text>ITEM SIX</text>
-    </tab>
-    <tab>
-      ITEM SEVEN
-      <text>ITEM SEVEN</text>
-    </tab>
-  </tablist>
-  <SVGRoot></SVGRoot>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the full source">
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <paragraph>
-    <text>
-      If you want to make sure the buttons are always visible, you should
-      customize the opacity.
-    </text>
-  </paragraph>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <SVGRoot></SVGRoot>
-  <tablist level="1">
-    visible arrows tabs example
-    <tab selected="true">
-      ITEM ONE
-      <text>ITEM ONE</text>
-    </tab>
-    <tab>
-      ITEM TWO
-      <text>ITEM TWO</text>
-    </tab>
-    <tab>
-      ITEM THREE
-      <text>ITEM THREE</text>
-    </tab>
-    <tab>
-      ITEM FOUR
-      <text>ITEM FOUR</text>
-    </tab>
-    <tab>
-      ITEM FIVE
-      <text>ITEM FIVE</text>
-    </tab>
-    <tab>
-      ITEM SIX
-      <text>ITEM SIX</text>
-    </tab>
-    <tab>
-      ITEM SEVEN
-      <text>ITEM SEVEN</text>
-    </tab>
-  </tablist>
-  <SVGRoot></SVGRoot>
+  <HeaderAsNonLandmark>
+    <SVGRoot></SVGRoot>
+    <tablist level="1">
+      scrollable auto tabs example
+      <tab selected="true">
+        ITEM ONE
+        <text>ITEM ONE</text>
+      </tab>
+      <tab>
+        ITEM TWO
+        <text>ITEM TWO</text>
+      </tab>
+      <tab>
+        ITEM THREE
+        <text>ITEM THREE</text>
+      </tab>
+      <tab>
+        ITEM FOUR
+        <text>ITEM FOUR</text>
+      </tab>
+      <tab>
+        ITEM FIVE
+        <text>ITEM FIVE</text>
+      </tab>
+      <tab>
+        ITEM SIX
+        <text>ITEM SIX</text>
+      </tab>
+      <tab>
+        ITEM SEVEN
+        <text>ITEM SEVEN</text>
+      </tab>
+    </tablist>
+    <SVGRoot></SVGRoot>
+  </HeaderAsNonLandmark>
+  <tabpanel>
+    ITEM ONE
+    <paragraph>
+      <text>Item One</text>
+    </paragraph>
+  </tabpanel>
   <toolbar>
     demo source
     <group>
@@ -12441,61 +12277,76 @@ exports[`chromium /components/tabs/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="3">
-    Prevent scroll buttons
+    Forced Scroll Buttons
     <Anchor></Anchor>
-    <text>Prevent scroll buttons</text>
+    <text>Forced Scroll Buttons</text>
   </heading>
   <paragraph>
-    <text>Left and right scroll buttons are never be presented with</text>
-    <code>$SOME_CODE</code>
     <text>
-      . All scrolling must be initiated through user agent scrolling mechanisms
-      (e.g. left/right swipe, shift-mousewheel, etc.)
+      Left and right scroll buttons will be presented regardless of the viewport
+      width.
     </text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tablist level="1">
-    scrollable prevent tabs example
-    <tab selected="true">
-      ITEM ONE
-      <text>ITEM ONE</text>
-    </tab>
-    <tab>
-      ITEM TWO
-      <text>ITEM TWO</text>
-    </tab>
-    <tab>
-      ITEM THREE
-      <text>ITEM THREE</text>
-    </tab>
-    <tab>
-      ITEM FOUR
-      <text>ITEM FOUR</text>
-    </tab>
-    <tab>
-      ITEM FIVE
-      <text>ITEM FIVE</text>
-    </tab>
-    <tab>
-      ITEM SIX
-      <text>ITEM SIX</text>
-    </tab>
-    <tab>
-      ITEM SEVEN
-      <text>ITEM SEVEN</text>
-    </tab>
-  </tablist>
+  <HeaderAsNonLandmark>
+    <SVGRoot></SVGRoot>
+    <tablist level="1">
+      scrollable force tabs example
+      <tab selected="true">
+        ITEM ONE
+        <SVGRoot></SVGRoot>
+        <text>ITEM ONE</text>
+      </tab>
+      <tab>
+        ITEM TWO
+        <SVGRoot></SVGRoot>
+        <text>ITEM TWO</text>
+      </tab>
+      <tab>
+        ITEM THREE
+        <SVGRoot></SVGRoot>
+        <text>ITEM THREE</text>
+      </tab>
+      <tab>
+        ITEM FOUR
+        <SVGRoot></SVGRoot>
+        <text>ITEM FOUR</text>
+      </tab>
+      <tab>
+        ITEM FIVE
+        <SVGRoot></SVGRoot>
+        <text>ITEM FIVE</text>
+      </tab>
+      <tab>
+        ITEM SIX
+        <SVGRoot></SVGRoot>
+        <text>ITEM SIX</text>
+      </tab>
+      <tab>
+        ITEM SEVEN
+        <SVGRoot></SVGRoot>
+        <text>ITEM SEVEN</text>
+      </tab>
+    </tablist>
+    <SVGRoot></SVGRoot>
+  </HeaderAsNonLandmark>
+  <tabpanel>
+    ITEM ONE
+    <paragraph>
+      <text>Item One</text>
+    </paragraph>
+  </tabpanel>
   <toolbar>
     demo source
     <group>
       <button pressed="true">Show JavaScript source</button>
       <button pressed="false">Show TypeScript source</button>
     </group>
-    <button description="Show the full source">
-      Show the full source
+    <button description="Show the source">
+      Show the source
       <SVGRoot></SVGRoot>
     </button>
     <button description="Edit in CodeSandbox">
@@ -12519,9 +12370,92 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
+  <heading level="3">
+    Prevent Scroll Buttons
+    <Anchor></Anchor>
+    <text>Prevent Scroll Buttons</text>
+  </heading>
+  <paragraph>
+    <text>
+      Left and right scroll buttons will never be presented. All scrolling must
+      be initiated through user agent scrolling mechanisms (e.g. left/right
+      swipe, shift-mousewheel, etc.)
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <HeaderAsNonLandmark>
+    <tablist level="1">
+      scrollable prevent tabs example
+      <tab selected="true">
+        phone
+        <SVGRoot></SVGRoot>
+      </tab>
+      <tab>
+        favorite
+        <SVGRoot></SVGRoot>
+      </tab>
+      <tab>
+        person
+        <SVGRoot></SVGRoot>
+      </tab>
+      <tab>
+        help
+        <SVGRoot></SVGRoot>
+      </tab>
+      <tab>
+        shopping
+        <SVGRoot></SVGRoot>
+      </tab>
+      <tab>
+        up
+        <SVGRoot></SVGRoot>
+      </tab>
+      <tab>
+        down
+        <SVGRoot></SVGRoot>
+      </tab>
+    </tablist>
+  </HeaderAsNonLandmark>
+  <tabpanel>
+    phone
+    <paragraph>
+      <text>Item One</text>
+    </paragraph>
+  </tabpanel>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button description="Show the source">
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Edit in CodeSandbox">
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Copy the source">
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset focus to test keyboard navigation">
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset demo">
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
   <heading level="2">
     Customized tabs
     <Anchor></Anchor>
@@ -15149,128 +15083,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     <link>number input component</link>
     <text>.</text>
   </paragraph>
-  <heading level="3">
-    Helper text
-    <Anchor></Anchor>
-    <text>Helper text</text>
-  </heading>
-  <paragraph>
-    <text>
-      The helper text prop affects the height of the text field. If two text
-      fields are placed side by side, one with a helper text and one without,
-      they will have different heights. For example:
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <Label>
-    <text>Name</text>
-  </Label>
-  <text> </text>
-  <textbox></textbox>
-  <paragraph>
-    <text>Please enter your name</text>
-  </paragraph>
-  <Label>
-    <text>Name</text>
-  </Label>
-  <text> </text>
-  <textbox></textbox>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the full source">
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <paragraph>
-    <text>This can be fixed by passing a space character to the</text>
-    <code>$SOME_CODE</code>
-    <text>prop:</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <Label>
-    <text>Name</text>
-  </Label>
-  <text> </text>
-  <textbox></textbox>
-  <paragraph>
-    <text>Please enter your name</text>
-  </paragraph>
-  <Label>
-    <text>Name</text>
-  </Label>
-  <text> </text>
-  <textbox></textbox>
-  <paragraph>
-    <text>​</text>
-  </paragraph>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the full source">
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Integration with 3rd party input libraries
     <Anchor></Anchor>
@@ -15847,7 +15659,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     <text>
       The tooltip needs to apply DOM event listeners to its child element. If
       the child is a custom React element, you need to make sure that it spreads
-      its props to the underlying DOM element.
+      its properties to the underlying DOM element.
     </text>
   </paragraph>
   <Pre>
@@ -15931,7 +15743,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     <code>$SOME_CODE</code>
     <text>and</text>
     <code>$SOME_CODE</code>
-    <text>props to control the behavior of the tooltip.</text>
+    <text>properties to control the behavior of the tooltip.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -16242,11 +16054,12 @@ exports[`chromium /components/tooltips/ 1`] = `
       The tooltip is normally shown immediately when the user's mouse
       hovers over the element, and hides immediately when the user's mouse
       leaves. A delay in showing or hiding the tooltip can be added through the
+      properties
     </text>
     <code>$SOME_CODE</code>
     <text>and</text>
     <code>$SOME_CODE</code>
-    <text>props, as shown in the Controlled Tooltips demo above.</text>
+    <text>, as shown in the Controlled Tooltips demo above.</text>
   </paragraph>
   <paragraph>
     <text>
@@ -16254,7 +16067,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       and hides after a delay of 1500ms. You can disable this feature with the
     </text>
     <code>$SOME_CODE</code>
-    <text>prop.</text>
+    <text>property.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -17135,7 +16948,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     </combobox>
   </toolbar>
   <paragraph>
-    <text>The behavior of disabled tree items depends on the</text>
+    <text>The behaviour of disabled tree items depends on the</text>
     <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
@@ -17406,17 +17219,8 @@ exports[`firefox / 1`] = `
       <link></link>
       <text>Diamond 💎</text>
     </heading>
-    <link>
-      octopus
-      <img
-        value="https://octopus.com/?utm_source=materialui&utm_medium=referral"
-        description="Repeatable, reliable deployments"
-      >
-        octopus
-      </img>
-    </link>
     <paragraph>
-      <text>2/3 slots available</text>
+      <text>3/3 slots available</text>
     </paragraph>
     <heading level="3">
       Gold 🏆
@@ -17562,7 +17366,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.7. View versions page.</link>
+      <link>v5.0.0-alpha.5. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
@@ -20050,7 +19854,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>Sizes</text>
   </heading>
   <paragraph>
-    <text>For larger or smaller buttons use the size prop.</text>
+    <text>Fancy larger or smaller buttons? Use the size property.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -20375,12 +20179,12 @@ exports[`firefox /components/buttons/ 1`] = `
   <paragraph>
     <text>
       One common use case is to use the button to trigger navigation to a new
-      page. The ButtonBase component provides the component prop to handle this
-      use case. However for certain focus polyfills ButtonBase requires the DOM
-      node of the provided component. This is achieved by attaching a ref to the
-      component and expecting that the component forwards this ref to the
-      underlying DOM node. Given that many of the interactive components rely on
-      ButtonBase, you should be able to take advantage of it everywhere.
+      page. The ButtonBase component provides a property to handle this use
+      case: component. However for certain focus polyfills ButtonBase requires
+      the DOM node of the provided component. This is achieved by attaching a
+      ref to the component and expecting that the component forwards this ref to
+      the underlying DOM node. Given that many of the interactive components
+      rely on ButtonBase, you should be able to take advantage of it everywhere.
     </text>
   </paragraph>
   <paragraph>
@@ -20820,13 +20624,13 @@ exports[`firefox /components/checkboxes/ 1`] = `
       • When a label can't be used, it's necessary to add an attribute
       directly to the input component. In this case, you can apply the
       additional attribute (e.g. aria-label , aria-labelledby , title ) via the
-      inputProps prop.
+      inputProps property.
       <statictext>•</statictext>
       <text>
         When a label can't be used, it's necessary to add an attribute
         directly to the input component. In this case, you can apply the
         additional attribute (e.g. aria-label, aria-labelledby, title) via the
-        inputProps prop.
+        inputProps property.
       </text>
     </listitem>
   </list>
@@ -21164,8 +20968,8 @@ exports[`firefox /components/dialogs/ 1`] = `
   <paragraph>
     <text>
       You can set a dialog maximum width by using the maxWidth enumerable in
-      combination with the fullWidth boolean. When the fullWidth prop is true,
-      the dialog will adapt based on the maxWidth value.
+      combination with the fullWidth boolean. When the fullWidth property is
+      true, the dialog will adapt based on the maxWidth value.
     </text>
   </paragraph>
   <button>
@@ -24702,7 +24506,7 @@ exports[`firefox /components/selects/ 1`] = `
     <text>
       The first step is to style the InputBase component. Once it's styled,
       you can either use it directly as a text field or provide it to the select
-      input prop to have a select field.
+      input property to have a select field.
     </text>
   </paragraph>
   <button>
@@ -24765,7 +24569,7 @@ exports[`firefox /components/selects/ 1`] = `
   <paragraph>
     <text>
       The Select component can handle multiple selections. It's enabled
-      with the multiple prop.
+      with the multiple property.
     </text>
   </paragraph>
   <paragraph>
@@ -25929,7 +25733,7 @@ exports[`firefox /components/switches/ 1`] = `
     <text>Sizes</text>
   </heading>
   <paragraph>
-    <text>Fancy smaller switches? Use the size prop.</text>
+    <text>Fancy smaller switches? Use the size property.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -26055,13 +25859,13 @@ exports[`firefox /components/switches/ 1`] = `
       • When a label can't be used, it's necessary to add an attribute
       directly to the input component. In this case, you can apply the
       additional attribute (e.g. aria-label , aria-labelledby , title ) via the
-      inputProps prop.
+      inputProps property.
       <statictext>•</statictext>
       <text>
         When a label can't be used, it's necessary to add an attribute
         directly to the input component. In this case, you can apply the
         additional attribute (e.g. aria-label, aria-labelledby, title) via the
-        inputProps prop.
+        inputProps property.
       </text>
     </listitem>
   </list>
@@ -26128,12 +25932,12 @@ exports[`firefox /components/tabs/ 1`] = `
     </text>
   </paragraph>
   <heading level="2">
-    Basic tabs
+    Simple Tabs
     <link></link>
-    <text>Basic tabs</text>
+    <text>Simple Tabs</text>
   </heading>
   <paragraph>
-    <text>A basic example with no frills.</text>
+    <text>A simple example with no frills.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -26170,9 +25974,9 @@ exports[`firefox /components/tabs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="3">
-    Wrapped labels
+    Wrapped Labels
     <link></link>
-    <text>Wrapped labels</text>
+    <text>Wrapped Labels</text>
   </heading>
   <paragraph>
     <text>
@@ -26215,12 +26019,12 @@ exports[`firefox /components/tabs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="3">
-    Disabled tab
+    Disabled Tab
     <link></link>
-    <text>Disabled tab</text>
+    <text>Disabled Tab</text>
   </heading>
   <paragraph>
-    <text>A Tab can be disabled by setting disabled prop.</text>
+    <text>A Tab can be disabled by setting disabled property.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -26259,9 +26063,9 @@ exports[`firefox /components/tabs/ 1`] = `
     /> </Tabs> </Paper>
   </text>
   <heading level="2">
-    Fixed tabs
+    Fixed Tabs
     <link></link>
-    <text>Fixed tabs</text>
+    <text>Fixed Tabs</text>
   </heading>
   <paragraph>
     <text>
@@ -26276,8 +26080,8 @@ exports[`firefox /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      The variant="fullWidth" prop should be used for smaller views.
-      This demo also uses
+      The variant="fullWidth" property should be used for smaller
+      views. This demo also uses
     </text>
     <link>react-swipeable-views</link>
     <text>
@@ -26325,7 +26129,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <text>Centered</text>
   </heading>
   <paragraph>
-    <text>The centered prop should be used for larger views.</text>
+    <text>The centered property should be used for larger views.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -26363,19 +26167,19 @@ exports[`firefox /components/tabs/ 1`] = `
     </Paper>
   </text>
   <heading level="2">
-    Scrollable tabs
+    Scrollable Tabs
     <link></link>
-    <text>Scrollable tabs</text>
+    <text>Scrollable Tabs</text>
   </heading>
   <heading level="3">
-    Automatic scroll buttons
+    Automatic Scroll Buttons
     <link></link>
-    <text>Automatic scroll buttons</text>
+    <text>Automatic Scroll Buttons</text>
   </heading>
   <paragraph>
     <text>
-      By default, left and right scroll buttons are automatically presented on
-      desktop and hidden on mobile. (based on viewport width)
+      Left and right scroll buttons will automatically be presented on desktop
+      and hidden on mobile. (based on viewport width)
     </text>
   </paragraph>
   <button>
@@ -26413,34 +26217,30 @@ exports[`firefox /components/tabs/ 1`] = `
       <text>ITEM SEVEN</text>
     </tab>
   </tablist>
+  <tabpanel>
+    ITEM ONE
+    <paragraph>
+      <text>Item One</text>
+    </paragraph>
+  </tabpanel>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Tabs value={value} onChange={handleChange}
-    variant="scrollable" scrollButtons="auto"
-    aria-label="scrollable auto tabs example" > <Tab
-    label="Item One" /> <Tab label="Item Two" />
-    <Tab label="Item Three" /> <Tab label="Item
-    Four" /> <Tab label="Item Five" /> <Tab
-    label="Item Six" /> <Tab label="Item Seven" />
-    </Tabs>
-  </text>
   <heading level="3">
-    Forced scroll buttons
+    Forced Scroll Buttons
     <link></link>
-    <text>Forced scroll buttons</text>
+    <text>Forced Scroll Buttons</text>
   </heading>
   <paragraph>
     <text>
-      Left and right scroll buttons be presented (reserve space) regardless of
-      the viewport width with scrollButtons="on":
+      Left and right scroll buttons will be presented regardless of the viewport
+      width.
     </text>
   </paragraph>
   <button>
@@ -26478,67 +26278,12 @@ exports[`firefox /components/tabs/ 1`] = `
       <text>ITEM SEVEN</text>
     </tab>
   </tablist>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Tabs value={value} onChange={handleChange}
-    variant="scrollable" scrollButtons="on"
-    aria-label="scrollable force tabs example" > <Tab
-    label="Item One" /> <Tab label="Item Two" />
-    <Tab label="Item Three" /> <Tab label="Item
-    Four" /> <Tab label="Item Five" /> <Tab
-    label="Item Six" /> <Tab label="Item Seven" />
-    </Tabs>
-  </text>
-  <paragraph>
-    <text>
-      If you want to make sure the buttons are always visible, you should
-      customize the opacity.
-    </text>
-  </paragraph>
-  <text>.MuiTabs-scrollButtons.Mui-disabled { opacity: 0.3; }</text>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <tablist>
-    visible arrows tabs example
-    <tab selected="true">
-      ITEM ONE
-      <text>ITEM ONE</text>
-    </tab>
-    <tab>
-      ITEM TWO
-      <text>ITEM TWO</text>
-    </tab>
-    <tab>
-      ITEM THREE
-      <text>ITEM THREE</text>
-    </tab>
-    <tab>
-      ITEM FOUR
-      <text>ITEM FOUR</text>
-    </tab>
-    <tab>
-      ITEM FIVE
-      <text>ITEM FIVE</text>
-    </tab>
-    <tab>
-      ITEM SIX
-      <text>ITEM SIX</text>
-    </tab>
-    <tab>
-      ITEM SEVEN
-      <text>ITEM SEVEN</text>
-    </tab>
-  </tablist>
+  <tabpanel>
+    ITEM ONE
+    <paragraph>
+      <text>Item One</text>
+    </paragraph>
+  </tabpanel>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -26549,16 +26294,15 @@ exports[`firefox /components/tabs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="3">
-    Prevent scroll buttons
+    Prevent Scroll Buttons
     <link></link>
-    <text>Prevent scroll buttons</text>
+    <text>Prevent Scroll Buttons</text>
   </heading>
   <paragraph>
     <text>
-      Left and right scroll buttons are never be presented with
-      scrollButtons="off". All scrolling must be initiated through
-      user agent scrolling mechanisms (e.g. left/right swipe, shift-mousewheel,
-      etc.)
+      Left and right scroll buttons will never be presented. All scrolling must
+      be initiated through user agent scrolling mechanisms (e.g. left/right
+      swipe, shift-mousewheel, etc.)
     </text>
   </paragraph>
   <button>
@@ -26567,54 +26311,29 @@ exports[`firefox /components/tabs/ 1`] = `
   </button>
   <tablist>
     scrollable prevent tabs example
-    <tab selected="true">
-      ITEM ONE
-      <text>ITEM ONE</text>
-    </tab>
-    <tab>
-      ITEM TWO
-      <text>ITEM TWO</text>
-    </tab>
-    <tab>
-      ITEM THREE
-      <text>ITEM THREE</text>
-    </tab>
-    <tab>
-      ITEM FOUR
-      <text>ITEM FOUR</text>
-    </tab>
-    <tab>
-      ITEM FIVE
-      <text>ITEM FIVE</text>
-    </tab>
-    <tab>
-      ITEM SIX
-      <text>ITEM SIX</text>
-    </tab>
-    <tab>
-      ITEM SEVEN
-      <text>ITEM SEVEN</text>
-    </tab>
+    <tab selected="true">phone</tab>
+    <tab>favorite</tab>
+    <tab>person</tab>
+    <tab>help</tab>
+    <tab>shopping</tab>
+    <tab>up</tab>
+    <tab>down</tab>
   </tablist>
+  <tabpanel>
+    phone
+    <paragraph>
+      <text>Item One</text>
+    </paragraph>
+  </tabpanel>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Tabs value={value} onChange={handleChange}
-    variant="scrollable" scrollButtons="off"
-    aria-label="scrollable prevent tabs example" > <Tab
-    label="Item One" /> <Tab label="Item Two" />
-    <Tab label="Item Three" /> <Tab label="Item
-    Four" /> <Tab label="Item Five" /> <Tab
-    label="Item Six" /> <Tab label="Item Seven" />
-    </Tabs>
-  </text>
   <heading level="2">
     Customized tabs
     <link></link>
@@ -26684,7 +26403,7 @@ exports[`firefox /components/tabs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tablist orientation="vertical">
+  <tablist>
     Vertical tabs example
     <tab selected="true">
       ITEM ONE
@@ -28546,7 +28265,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     </text>
   </paragraph>
   <text>
-    <TextField inputProps={{ inputMode: 'numeric',
+    <TextField inputProps={{ inputmode: 'numeric',
     pattern: '[0-9]*' }} />
   </text>
   <paragraph>
@@ -28554,91 +28273,6 @@ exports[`firefox /components/text-fields/ 1`] = `
     <link>number input component</link>
     <text>.</text>
   </paragraph>
-  <heading level="3">
-    Helper text
-    <link></link>
-    <text>Helper text</text>
-  </heading>
-  <paragraph>
-    <text>
-      The helper text prop affects the height of the text field. If two text
-      fields are placed side by side, one with a helper text and one without,
-      they will have different heights. For example:
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <label>
-    Name
-    <text>Name</text>
-  </label>
-  <statictext> </statictext>
-  <textbox></textbox>
-  <paragraph>
-    <text>Please enter your name</text>
-  </paragraph>
-  <label>
-    Name
-    <text>Name</text>
-  </label>
-  <statictext> </statictext>
-  <textbox></textbox>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <TextField helperText="Please enter your name"
-    label="Name" /> <TextField label="Name" />
-  </text>
-  <paragraph>
-    <text>
-      This can be fixed by passing a space character to the helperText prop:
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <label>
-    Name
-    <text>Name</text>
-  </label>
-  <statictext> </statictext>
-  <textbox></textbox>
-  <paragraph>
-    <text>Please enter your name</text>
-  </paragraph>
-  <label>
-    Name
-    <text>Name</text>
-  </label>
-  <statictext> </statictext>
-  <textbox></textbox>
-  <paragraph>
-    <text>​</text>
-  </paragraph>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <TextField helperText="Please enter your name"
-    label="Name" /> <TextField helperText=" "
-    label="Name" />
-  </text>
   <heading level="2">
     Integration with 3rd party input libraries
     <link></link>
@@ -29059,7 +28693,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     <text>
       The tooltip needs to apply DOM event listeners to its child element. If
       the child is a custom React element, you need to make sure that it spreads
-      its props to the underlying DOM element.
+      its properties to the underlying DOM element.
     </text>
   </paragraph>
   <text>
@@ -29120,8 +28754,8 @@ exports[`firefox /components/tooltips/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      You can use the open, onOpen and onClose props to control the behavior of
-      the tooltip.
+      You can use the open, onOpen and onClose properties to control the
+      behavior of the tooltip.
     </text>
   </paragraph>
   <button>
@@ -29333,15 +28967,15 @@ exports[`firefox /components/tooltips/ 1`] = `
       The tooltip is normally shown immediately when the user's mouse
       hovers over the element, and hides immediately when the user's mouse
       leaves. A delay in showing or hiding the tooltip can be added through the
-      enterDelay and leaveDelay props, as shown in the Controlled Tooltips demo
-      above.
+      properties enterDelay and leaveDelay, as shown in the Controlled Tooltips
+      demo above.
     </text>
   </paragraph>
   <paragraph>
     <text>
       On mobile, the tooltip is displayed when the user longpresses the element
       and hides after a delay of 1500ms. You can disable this feature with the
-      disableTouchListener prop.
+      disableTouchListener property.
     </text>
   </paragraph>
   <button>
@@ -29916,7 +29550,7 @@ exports[`firefox /components/tree-view/ 1`] = `
   </toolbar>
   <paragraph>
     <text>
-      The behavior of disabled tree items depends on the disabledItemsFocusable
+      The behaviour of disabled tree items depends on the disabledItemsFocusable
       prop.
     </text>
   </paragraph>
