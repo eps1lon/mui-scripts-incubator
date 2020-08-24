@@ -5928,13 +5928,13 @@ exports[`chromium /components/dialogs/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Progress
+      Backdrop
       <SVGRoot></SVGRoot>
-      <text>Progress</text>
+      <text>Backdrop</text>
     </link>
     <link>
-      Snackbar
-      <text>Snackbar</text>
+      Progress
+      <text>Progress</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -13685,8 +13685,8 @@ exports[`chromium /components/tabs/ 1`] = `
       <text>Stepper</text>
     </link>
     <link>
-      App Bar
-      <text>App Bar</text>
+      Accordion
+      <text>Accordion</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -22149,8 +22149,8 @@ exports[`firefox /components/dialogs/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
+  <link>Backdrop</link>
   <link>Progress</link>
-  <link>Snackbar</link>
 </landmark>;
 
 `;
@@ -28010,7 +28010,7 @@ exports[`firefox /components/tabs/ 1`] = `
   </list>
   <separator></separator>
   <link>Stepper</link>
-  <link>App Bar</link>
+  <link>Accordion</link>
 </landmark>;
 
 `;
