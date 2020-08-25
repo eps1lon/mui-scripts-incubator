@@ -288,14 +288,14 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.7. View versions page.</link>
+      <link>v5.0.0-alpha.6. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v5.0.0-alpha.7</link>
+  <link>v5.0.0-alpha.6</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -2262,47 +2262,10 @@ exports[`chromium /components/breadcrumbs 1`] = `
       Breadcrumbs allow users to make selections from a range of values.
     </text>
   </paragraph>
-  <list>
-    <listitem level="1">
-      <link>
-        Feedback
-        <SVGRoot></SVGRoot>
-        <text>Feedback</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        WAI-ARIA
-        <SVGRoot></SVGRoot>
-        <text>WAI-ARIA</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-        <SVGRoot></SVGRoot>
-        <text>Bundle size</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Sketch
-        <SVGRoot></SVGRoot>
-        <text>Sketch</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Figma
-        <SVGRoot></SVGRoot>
-        <text>Figma</text>
-      </link>
-    </listitem>
-  </list>
   <heading level="2">
-    Basic breadcrumbs
+    Simple breadcrumbs
     <Anchor></Anchor>
-    <text>Basic breadcrumbs</text>
+    <text>Simple breadcrumbs</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -2959,36 +2922,6 @@ exports[`chromium /components/button-group/ 1`] = `
   <paragraph>
     <text>The ButtonGroup component can be used to group related buttons.</text>
   </paragraph>
-  <list>
-    <listitem level="1">
-      <link>
-        Feedback
-        <SVGRoot></SVGRoot>
-        <text>Feedback</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-        <SVGRoot></SVGRoot>
-        <text>Bundle size</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Sketch
-        <SVGRoot></SVGRoot>
-        <text>Sketch</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Figma
-        <SVGRoot></SVGRoot>
-        <text>Figma</text>
-      </link>
-    </listitem>
-  </list>
   <heading level="2">
     Basic button group
     <Anchor></Anchor>
@@ -3419,8 +3352,9 @@ exports[`chromium /components/buttons/ 1`] = `
     </text>
   </paragraph>
   <paragraph>
+    <link>Buttons</link>
     <text>
-      Buttons communicate actions that users can take. They are typically placed
+      communicate actions that users can take. They are typically placed
       throughout your UI, in places like:
     </text>
   </paragraph>
@@ -3454,50 +3388,6 @@ exports[`chromium /components/buttons/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <text>Toolbars</text>
-    </listitem>
-  </list>
-  <list>
-    <listitem level="1">
-      <link>
-        Feedback
-        <SVGRoot></SVGRoot>
-        <text>Feedback</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        WAI-ARIA
-        <SVGRoot></SVGRoot>
-        <text>WAI-ARIA</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-        <SVGRoot></SVGRoot>
-        <text>Bundle size</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Material Design
-        <SVGRoot></SVGRoot>
-        <text>Material Design</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Sketch
-        <SVGRoot></SVGRoot>
-        <text>Sketch</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Figma
-        <SVGRoot></SVGRoot>
-        <text>Figma</text>
-      </link>
     </listitem>
   </list>
   <heading level="2">
@@ -3848,9 +3738,9 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>Sizes</text>
   </heading>
   <paragraph>
-    <text>For larger or smaller buttons use the</text>
+    <text>Fancy larger or smaller buttons? Use the</text>
     <code>$SOME_CODE</code>
-    <text>prop.</text>
+    <text>property.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -4350,11 +4240,9 @@ exports[`chromium /components/buttons/ 1`] = `
       page. The
     </text>
     <code>$SOME_CODE</code>
-    <text>component provides the</text>
+    <text>component provides a property to handle this use case:</text>
     <code>$SOME_CODE</code>
-    <text>
-      prop to handle this use case. However for certain focus polyfills
-    </text>
+    <text>. However for certain focus polyfills</text>
     <code>$SOME_CODE</code>
     <text>
       requires the DOM node of the provided component. This is achieved by
@@ -4530,7 +4418,8 @@ exports[`chromium /components/checkboxes/ 1`] = `
     </text>
   </paragraph>
   <paragraph>
-    <text>Checkboxes can be used to turn an option on or off.</text>
+    <link>Checkboxes</link>
+    <text>can be used to turn an option on or off.</text>
   </paragraph>
   <paragraph>
     <text>
@@ -4539,50 +4428,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
       option, avoid using a checkbox and use an on/off switch instead.
     </text>
   </paragraph>
-  <list>
-    <listitem level="1">
-      <link>
-        Feedback
-        <SVGRoot></SVGRoot>
-        <text>Feedback</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        WAI-ARIA
-        <SVGRoot></SVGRoot>
-        <text>WAI-ARIA</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-        <SVGRoot></SVGRoot>
-        <text>Bundle size</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Material Design
-        <SVGRoot></SVGRoot>
-        <text>Material Design</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Sketch
-        <SVGRoot></SVGRoot>
-        <text>Sketch</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Figma
-        <SVGRoot></SVGRoot>
-        <text>Figma</text>
-      </link>
-    </listitem>
-  </list>
   <heading level="2">
     Basic checkboxes
     <Anchor></Anchor>
@@ -5000,7 +4845,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <code>$SOME_CODE</code>
       <text>) via the</text>
       <code>$SOME_CODE</code>
-      <text>prop.</text>
+      <text>property.</text>
     </listitem>
   </list>
   <Pre>
@@ -5092,7 +4937,9 @@ exports[`chromium /components/dialogs/ 1`] = `
     </text>
   </paragraph>
   <paragraph>
-    <text>A Dialog is a type of</text>
+    <text>A</text>
+    <link>Dialog</link>
+    <text>is a type of</text>
     <link>modal</link>
     <text>
       window that appears in front of app content to provide critical
@@ -5106,54 +4953,10 @@ exports[`chromium /components/dialogs/ 1`] = `
       Dialogs are purposefully interruptive, so they should be used sparingly.
     </text>
   </paragraph>
-  <list>
-    <listitem level="1">
-      <link>
-        Feedback
-        <SVGRoot></SVGRoot>
-        <text>Feedback</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        WAI-ARIA
-        <SVGRoot></SVGRoot>
-        <text>WAI-ARIA</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-        <SVGRoot></SVGRoot>
-        <text>Bundle size</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Material Design
-        <SVGRoot></SVGRoot>
-        <text>Material Design</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Sketch
-        <SVGRoot></SVGRoot>
-        <text>Sketch</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Figma
-        <SVGRoot></SVGRoot>
-        <text>Figma</text>
-      </link>
-    </listitem>
-  </list>
   <heading level="2">
-    Basic dialog
+    Simple Dialogs
     <Anchor></Anchor>
-    <text>Basic dialog</text>
+    <text>Simple Dialogs</text>
   </heading>
   <paragraph>
     <text>
@@ -5545,7 +5348,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     <code>$SOME_CODE</code>
     <text>boolean. When the</text>
     <code>$SOME_CODE</code>
-    <text>prop is true, the dialog will adapt based on the</text>
+    <text>property is true, the dialog will adapt based on the</text>
     <code>$SOME_CODE</code>
     <text>value.</text>
   </paragraph>
@@ -5928,13 +5731,13 @@ exports[`chromium /components/dialogs/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Backdrop
+      Progress
       <SVGRoot></SVGRoot>
-      <text>Backdrop</text>
+      <text>Progress</text>
     </link>
     <link>
-      Progress
-      <text>Progress</text>
+      Snackbar
+      <text>Snackbar</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -5958,36 +5761,6 @@ exports[`chromium /components/pagination/ 1`] = `
       range of pages.
     </text>
   </paragraph>
-  <list>
-    <listitem level="1">
-      <link>
-        Feedback
-        <SVGRoot></SVGRoot>
-        <text>Feedback</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-        <SVGRoot></SVGRoot>
-        <text>Bundle size</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Sketch
-        <SVGRoot></SVGRoot>
-        <text>Sketch</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Figma
-        <SVGRoot></SVGRoot>
-        <text>Figma</text>
-      </link>
-    </listitem>
-  </list>
   <heading level="2">
     Basic pagination
     <Anchor></Anchor>
@@ -7719,50 +7492,6 @@ exports[`chromium /components/pickers 1`] = `
       </text>
     </listitem>
   </list>
-  <list>
-    <listitem level="1">
-      <link>
-        Feedback
-        <SVGRoot></SVGRoot>
-        <text>Feedback</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        WAI-ARIA
-        <SVGRoot></SVGRoot>
-        <text>WAI-ARIA</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-        <SVGRoot></SVGRoot>
-        <text>Bundle size</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Material Design
-        <SVGRoot></SVGRoot>
-        <text>Material Design</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Sketch
-        <SVGRoot></SVGRoot>
-        <text>Sketch</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Figma
-        <SVGRoot></SVGRoot>
-        <text>Figma</text>
-      </link>
-    </listitem>
-  </list>
   <heading level="2">
     @material-ui/pickers
     <Anchor></Anchor>
@@ -8130,10 +7859,11 @@ exports[`chromium /components/radio-buttons 1`] = `
     <text>Radio buttons allow the user to select one option from a set.</text>
   </paragraph>
   <paragraph>
+    <text>Use</text>
+    <link>radio buttons</link>
     <text>
-      Use radio buttons when the user needs to see all available options. If
-      available options can be collapsed, consider using a dropdown menu because
-      it uses less space.
+      when the user needs to see all available options. If available options can
+      be collapsed, consider using a dropdown menu because it uses less space.
     </text>
   </paragraph>
   <paragraph>
@@ -8142,50 +7872,6 @@ exports[`chromium /components/radio-buttons 1`] = `
       default.
     </text>
   </paragraph>
-  <list>
-    <listitem level="1">
-      <link>
-        Feedback
-        <SVGRoot></SVGRoot>
-        <text>Feedback</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        WAI-ARIA
-        <SVGRoot></SVGRoot>
-        <text>WAI-ARIA</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-        <SVGRoot></SVGRoot>
-        <text>Bundle size</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Material Design
-        <SVGRoot></SVGRoot>
-        <text>Material Design</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Sketch
-        <SVGRoot></SVGRoot>
-        <text>Sketch</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Figma
-        <SVGRoot></SVGRoot>
-        <text>Figma</text>
-      </link>
-    </listitem>
-  </list>
   <heading level="2">
     RadioGroup
     <Anchor></Anchor>
@@ -8808,43 +8494,6 @@ exports[`chromium /components/rating/ 1`] = `
       product. Users can also rate products they’ve purchased.
     </text>
   </paragraph>
-  <list>
-    <listitem level="1">
-      <link>
-        Feedback
-        <SVGRoot></SVGRoot>
-        <text>Feedback</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        WAI-ARIA
-        <SVGRoot></SVGRoot>
-        <text>WAI-ARIA</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-        <SVGRoot></SVGRoot>
-        <text>Bundle size</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Sketch
-        <SVGRoot></SVGRoot>
-        <text>Sketch</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Figma
-        <SVGRoot></SVGRoot>
-        <text>Figma</text>
-      </link>
-    </listitem>
-  </list>
   <heading level="2">
     Simple ratings
     <Anchor></Anchor>
@@ -9534,36 +9183,6 @@ exports[`chromium /components/selects/ 1`] = `
       list of options.
     </text>
   </paragraph>
-  <list>
-    <listitem level="1">
-      <link>
-        Feedback
-        <SVGRoot></SVGRoot>
-        <text>Feedback</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-        <SVGRoot></SVGRoot>
-        <text>Bundle size</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Sketch
-        <SVGRoot></SVGRoot>
-        <text>Sketch</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Figma
-        <SVGRoot></SVGRoot>
-        <text>Figma</text>
-      </link>
-    </listitem>
-  </list>
   <heading level="2">
     Basic select
     <Anchor></Anchor>
@@ -10012,7 +9631,7 @@ exports[`chromium /components/selects/ 1`] = `
       field or provide it to the select
     </text>
     <code>$SOME_CODE</code>
-    <text>prop to have a</text>
+    <text>property to have a</text>
     <code>$SOME_CODE</code>
     <text>field.</text>
   </paragraph>
@@ -10093,7 +9712,7 @@ exports[`chromium /components/selects/ 1`] = `
       component can handle multiple selections. It's enabled with the
     </text>
     <code>$SOME_CODE</code>
-    <text>prop.</text>
+    <text>property.</text>
   </paragraph>
   <paragraph>
     <text>
@@ -10633,9 +10252,10 @@ exports[`chromium /components/slider 1`] = `
     <text>Sliders allow users to make selections from a range of values.</text>
   </paragraph>
   <paragraph>
+    <link>Sliders</link>
     <text>
-      Sliders reflect a range of values along a bar, from which users may select
-      a single value. They are ideal for adjusting settings such as volume,
+      reflect a range of values along a bar, from which users may select a
+      single value. They are ideal for adjusting settings such as volume,
       brightness, or applying image filters.
     </text>
   </paragraph>
@@ -10649,50 +10269,6 @@ exports[`chromium /components/slider 1`] = `
       <text>
         (but only +8 kB when used together with other Material-UI components).
       </text>
-    </listitem>
-  </list>
-  <list>
-    <listitem level="1">
-      <link>
-        Feedback
-        <SVGRoot></SVGRoot>
-        <text>Feedback</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        WAI-ARIA
-        <SVGRoot></SVGRoot>
-        <text>WAI-ARIA</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-        <SVGRoot></SVGRoot>
-        <text>Bundle size</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Material Design
-        <SVGRoot></SVGRoot>
-        <text>Material Design</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Sketch
-        <SVGRoot></SVGRoot>
-        <text>Sketch</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Figma
-        <SVGRoot></SVGRoot>
-        <text>Figma</text>
-      </link>
     </listitem>
   </list>
   <heading level="2">
@@ -11746,49 +11322,13 @@ exports[`chromium /components/switches/ 1`] = `
     <text>Switches toggle the state of a single setting on or off.</text>
   </paragraph>
   <paragraph>
+    <link>Switches</link>
     <text>
-      Switches are the preferred way to adjust settings on mobile. The option
-      that the switch controls, as well as the state it’s in, should be made
-      clear from the corresponding inline label.
+      are the preferred way to adjust settings on mobile. The option that the
+      switch controls, as well as the state it’s in, should be made clear from
+      the corresponding inline label.
     </text>
   </paragraph>
-  <list>
-    <listitem level="1">
-      <link>
-        Feedback
-        <SVGRoot></SVGRoot>
-        <text>Feedback</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-        <SVGRoot></SVGRoot>
-        <text>Bundle size</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Material Design
-        <SVGRoot></SVGRoot>
-        <text>Material Design</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Sketch
-        <SVGRoot></SVGRoot>
-        <text>Sketch</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Figma
-        <SVGRoot></SVGRoot>
-        <text>Figma</text>
-      </link>
-    </listitem>
-  </list>
   <heading level="2">
     Basic switches
     <Anchor></Anchor>
@@ -12043,7 +11583,7 @@ exports[`chromium /components/switches/ 1`] = `
   <paragraph>
     <text>Fancy smaller switches? Use the</text>
     <code>$SOME_CODE</code>
-    <text>prop.</text>
+    <text>property.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -12209,7 +11749,7 @@ exports[`chromium /components/switches/ 1`] = `
       <code>$SOME_CODE</code>
       <text>) via the</text>
       <code>$SOME_CODE</code>
-      <text>prop.</text>
+      <text>property.</text>
     </listitem>
   </list>
   <Pre>
@@ -12300,55 +11840,12 @@ exports[`chromium /components/tabs/ 1`] = `
     </text>
   </paragraph>
   <paragraph>
+    <link>Tabs</link>
     <text>
-      Tabs organize and allow navigation between groups of content that are
-      related and at the same level of hierarchy.
+      organize and allow navigation between groups of content that are related
+      and at the same level of hierarchy.
     </text>
   </paragraph>
-  <list>
-    <listitem level="1">
-      <link>
-        Feedback
-        <SVGRoot></SVGRoot>
-        <text>Feedback</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        WAI-ARIA
-        <SVGRoot></SVGRoot>
-        <text>WAI-ARIA</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-        <SVGRoot></SVGRoot>
-        <text>Bundle size</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Material Design
-        <SVGRoot></SVGRoot>
-        <text>Material Design</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Sketch
-        <SVGRoot></SVGRoot>
-        <text>Sketch</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Figma
-        <SVGRoot></SVGRoot>
-        <text>Figma</text>
-      </link>
-    </listitem>
-  </list>
   <heading level="2">
     Basic tabs
     <Anchor></Anchor>
@@ -13685,8 +13182,8 @@ exports[`chromium /components/tabs/ 1`] = `
       <text>Stepper</text>
     </link>
     <link>
-      Accordion
-      <text>Accordion</text>
+      App Bar
+      <text>App Bar</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -13708,48 +13205,12 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Text fields let users enter and edit text.</text>
   </paragraph>
   <paragraph>
+    <link>Text fields</link>
     <text>
-      Text fields allow users to enter text into a UI. They typically appear in
-      forms and dialogs.
+      allow users to enter text into a UI. They typically appear in forms and
+      dialogs.
     </text>
   </paragraph>
-  <list>
-    <listitem level="1">
-      <link>
-        Feedback
-        <SVGRoot></SVGRoot>
-        <text>Feedback</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-        <SVGRoot></SVGRoot>
-        <text>Bundle size</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Material Design
-        <SVGRoot></SVGRoot>
-        <text>Material Design</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Sketch
-        <SVGRoot></SVGRoot>
-        <text>Sketch</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Figma
-        <SVGRoot></SVGRoot>
-        <text>Figma</text>
-      </link>
-    </listitem>
-  </list>
   <heading level="2">
     TextField
     <Anchor></Anchor>
@@ -16101,59 +15562,17 @@ exports[`chromium /components/tooltips/ 1`] = `
     </text>
   </paragraph>
   <paragraph>
+    <text>When activated,</text>
+    <link>Tooltips</link>
     <text>
-      When activated, Tooltips display a text label identifying an element, such
-      as a description of its function.
+      display a text label identifying an element, such as a description of its
+      function.
     </text>
   </paragraph>
-  <list>
-    <listitem level="1">
-      <link>
-        Feedback
-        <SVGRoot></SVGRoot>
-        <text>Feedback</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        WAI-ARIA
-        <SVGRoot></SVGRoot>
-        <text>WAI-ARIA</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-        <SVGRoot></SVGRoot>
-        <text>Bundle size</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Material Design
-        <SVGRoot></SVGRoot>
-        <text>Material Design</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Sketch
-        <SVGRoot></SVGRoot>
-        <text>Sketch</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Figma
-        <SVGRoot></SVGRoot>
-        <text>Figma</text>
-      </link>
-    </listitem>
-  </list>
   <heading level="2">
-    Basic tooltip
+    Simple Tooltips
     <Anchor></Anchor>
-    <text>Basic tooltip</text>
+    <text>Simple Tooltips</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -16426,7 +15845,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     <text>
       The tooltip needs to apply DOM event listeners to its child element. If
       the child is a custom React element, you need to make sure that it spreads
-      its props to the underlying DOM element.
+      its properties to the underlying DOM element.
     </text>
   </paragraph>
   <Pre>
@@ -16510,7 +15929,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     <code>$SOME_CODE</code>
     <text>and</text>
     <code>$SOME_CODE</code>
-    <text>props to control the behavior of the tooltip.</text>
+    <text>properties to control the behavior of the tooltip.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -16821,11 +16240,12 @@ exports[`chromium /components/tooltips/ 1`] = `
       The tooltip is normally shown immediately when the user's mouse
       hovers over the element, and hides immediately when the user's mouse
       leaves. A delay in showing or hiding the tooltip can be added through the
+      properties
     </text>
     <code>$SOME_CODE</code>
     <text>and</text>
     <code>$SOME_CODE</code>
-    <text>props, as shown in the Controlled Tooltips demo above.</text>
+    <text>, as shown in the Controlled Tooltips demo above.</text>
   </paragraph>
   <paragraph>
     <text>
@@ -16833,7 +16253,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       and hides after a delay of 1500ms. You can disable this feature with the
     </text>
     <code>$SOME_CODE</code>
-    <text>prop.</text>
+    <text>property.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -17222,43 +16642,6 @@ exports[`chromium /components/tree-view/ 1`] = `
       the contents of the folder, which may be files, folders, or both.
     </text>
   </paragraph>
-  <list>
-    <listitem level="1">
-      <link>
-        Feedback
-        <SVGRoot></SVGRoot>
-        <text>Feedback</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        WAI-ARIA
-        <SVGRoot></SVGRoot>
-        <text>WAI-ARIA</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-        <SVGRoot></SVGRoot>
-        <text>Bundle size</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Sketch
-        <SVGRoot></SVGRoot>
-        <text>Sketch</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Figma
-        <SVGRoot></SVGRoot>
-        <text>Figma</text>
-      </link>
-    </listitem>
-  </list>
   <heading level="2">
     Basic tree view
     <Anchor></Anchor>
@@ -18178,7 +17561,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.7. View versions page.</link>
+      <link>v5.0.0-alpha.6. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
@@ -19642,34 +19025,10 @@ exports[`firefox /components/breadcrumbs 1`] = `
       Breadcrumbs allow users to make selections from a range of values.
     </text>
   </paragraph>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      WAI-ARIA
-      <link>WAI-ARIA</link>
-    </listitem>
-    <listitem>
-      Bundle size
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-      </link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
-    </listitem>
-  </list>
   <heading level="2">
-    Basic breadcrumbs
+    Simple breadcrumbs
     <link></link>
-    <text>Basic breadcrumbs</text>
+    <text>Simple breadcrumbs</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -20123,26 +19482,6 @@ exports[`firefox /components/button-group/ 1`] = `
   <paragraph>
     <text>The ButtonGroup component can be used to group related buttons.</text>
   </paragraph>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      Bundle size
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-      </link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
-    </listitem>
-  </list>
   <heading level="2">
     Basic button group
     <link></link>
@@ -20438,8 +19777,9 @@ exports[`firefox /components/buttons/ 1`] = `
     </text>
   </paragraph>
   <paragraph>
+    <link>Buttons</link>
     <text>
-      Buttons communicate actions that users can take. They are typically placed
+      communicate actions that users can take. They are typically placed
       throughout your UI, in places like:
     </text>
   </paragraph>
@@ -20468,34 +19808,6 @@ exports[`firefox /components/buttons/ 1`] = `
       • Toolbars
       <statictext>•</statictext>
       <text>Toolbars</text>
-    </listitem>
-  </list>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      WAI-ARIA
-      <link>WAI-ARIA</link>
-    </listitem>
-    <listitem>
-      Bundle size
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-      </link>
-    </listitem>
-    <listitem>
-      Material Design
-      <link>Material Design</link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
     </listitem>
   </list>
   <heading level="2">
@@ -20737,7 +20049,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>Sizes</text>
   </heading>
   <paragraph>
-    <text>For larger or smaller buttons use the size prop.</text>
+    <text>Fancy larger or smaller buttons? Use the size property.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -21062,12 +20374,12 @@ exports[`firefox /components/buttons/ 1`] = `
   <paragraph>
     <text>
       One common use case is to use the button to trigger navigation to a new
-      page. The ButtonBase component provides the component prop to handle this
-      use case. However for certain focus polyfills ButtonBase requires the DOM
-      node of the provided component. This is achieved by attaching a ref to the
-      component and expecting that the component forwards this ref to the
-      underlying DOM node. Given that many of the interactive components rely on
-      ButtonBase, you should be able to take advantage of it everywhere.
+      page. The ButtonBase component provides a property to handle this use
+      case: component. However for certain focus polyfills ButtonBase requires
+      the DOM node of the provided component. This is achieved by attaching a
+      ref to the component and expecting that the component forwards this ref to
+      the underlying DOM node. Given that many of the interactive components
+      rely on ButtonBase, you should be able to take advantage of it everywhere.
     </text>
   </paragraph>
   <paragraph>
@@ -21197,7 +20509,8 @@ exports[`firefox /components/checkboxes/ 1`] = `
     </text>
   </paragraph>
   <paragraph>
-    <text>Checkboxes can be used to turn an option on or off.</text>
+    <link>Checkboxes</link>
+    <text>can be used to turn an option on or off.</text>
   </paragraph>
   <paragraph>
     <text>
@@ -21206,34 +20519,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
       option, avoid using a checkbox and use an on/off switch instead.
     </text>
   </paragraph>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      WAI-ARIA
-      <link>WAI-ARIA</link>
-    </listitem>
-    <listitem>
-      Bundle size
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-      </link>
-    </listitem>
-    <listitem>
-      Material Design
-      <link>Material Design</link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
-    </listitem>
-  </list>
   <heading level="2">
     Basic checkboxes
     <link></link>
@@ -21534,13 +20819,13 @@ exports[`firefox /components/checkboxes/ 1`] = `
       • When a label can't be used, it's necessary to add an attribute
       directly to the input component. In this case, you can apply the
       additional attribute (e.g. aria-label , aria-labelledby , title ) via the
-      inputProps prop.
+      inputProps property.
       <statictext>•</statictext>
       <text>
         When a label can't be used, it's necessary to add an attribute
         directly to the input component. In this case, you can apply the
         additional attribute (e.g. aria-label, aria-labelledby, title) via the
-        inputProps prop.
+        inputProps property.
       </text>
     </listitem>
   </list>
@@ -21601,7 +20886,9 @@ exports[`firefox /components/dialogs/ 1`] = `
     </text>
   </paragraph>
   <paragraph>
-    <text>A Dialog is a type of</text>
+    <text>A</text>
+    <link>Dialog</link>
+    <text>is a type of</text>
     <link>modal</link>
     <text>
       window that appears in front of app content to provide critical
@@ -21615,38 +20902,10 @@ exports[`firefox /components/dialogs/ 1`] = `
       Dialogs are purposefully interruptive, so they should be used sparingly.
     </text>
   </paragraph>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      WAI-ARIA
-      <link>WAI-ARIA</link>
-    </listitem>
-    <listitem>
-      Bundle size
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-      </link>
-    </listitem>
-    <listitem>
-      Material Design
-      <link>Material Design</link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
-    </listitem>
-  </list>
   <heading level="2">
-    Basic dialog
+    Simple Dialogs
     <link></link>
-    <text>Basic dialog</text>
+    <text>Simple Dialogs</text>
   </heading>
   <paragraph>
     <text>
@@ -21904,8 +21163,8 @@ exports[`firefox /components/dialogs/ 1`] = `
   <paragraph>
     <text>
       You can set a dialog maximum width by using the maxWidth enumerable in
-      combination with the fullWidth boolean. When the fullWidth prop is true,
-      the dialog will adapt based on the maxWidth value.
+      combination with the fullWidth boolean. When the fullWidth property is
+      true, the dialog will adapt based on the maxWidth value.
     </text>
   </paragraph>
   <button>
@@ -22149,8 +21408,8 @@ exports[`firefox /components/dialogs/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Backdrop</link>
   <link>Progress</link>
+  <link>Snackbar</link>
 </landmark>;
 
 `;
@@ -22168,26 +21427,6 @@ exports[`firefox /components/pagination/ 1`] = `
       range of pages.
     </text>
   </paragraph>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      Bundle size
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-      </link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
-    </listitem>
-  </list>
   <heading level="2">
     Basic pagination
     <link></link>
@@ -23729,34 +22968,6 @@ exports[`firefox /components/pickers 1`] = `
       </text>
     </listitem>
   </list>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      WAI-ARIA
-      <link>WAI-ARIA</link>
-    </listitem>
-    <listitem>
-      Bundle size
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-      </link>
-    </listitem>
-    <listitem>
-      Material Design
-      <link>Material Design</link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
-    </listitem>
-  </list>
   <heading level="2">
     @material-ui/pickers
     <link></link>
@@ -24017,10 +23228,11 @@ exports[`firefox /components/radio-buttons 1`] = `
     <text>Radio buttons allow the user to select one option from a set.</text>
   </paragraph>
   <paragraph>
+    <text>Use</text>
+    <link>radio buttons</link>
     <text>
-      Use radio buttons when the user needs to see all available options. If
-      available options can be collapsed, consider using a dropdown menu because
-      it uses less space.
+      when the user needs to see all available options. If available options can
+      be collapsed, consider using a dropdown menu because it uses less space.
     </text>
   </paragraph>
   <paragraph>
@@ -24029,34 +23241,6 @@ exports[`firefox /components/radio-buttons 1`] = `
       default.
     </text>
   </paragraph>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      WAI-ARIA
-      <link>WAI-ARIA</link>
-    </listitem>
-    <listitem>
-      Bundle size
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-      </link>
-    </listitem>
-    <listitem>
-      Material Design
-      <link>Material Design</link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
-    </listitem>
-  </list>
   <heading level="2">
     RadioGroup
     <link></link>
@@ -24507,30 +23691,6 @@ exports[`firefox /components/rating/ 1`] = `
       product. Users can also rate products they’ve purchased.
     </text>
   </paragraph>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      WAI-ARIA
-      <link>WAI-ARIA</link>
-    </listitem>
-    <listitem>
-      Bundle size
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-      </link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
-    </listitem>
-  </list>
   <heading level="2">
     Simple ratings
     <link></link>
@@ -25227,26 +24387,6 @@ exports[`firefox /components/selects/ 1`] = `
       list of options.
     </text>
   </paragraph>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      Bundle size
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-      </link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
-    </listitem>
-  </list>
   <heading level="2">
     Basic select
     <link></link>
@@ -25561,7 +24701,7 @@ exports[`firefox /components/selects/ 1`] = `
     <text>
       The first step is to style the InputBase component. Once it's styled,
       you can either use it directly as a text field or provide it to the select
-      input prop to have a select field.
+      input property to have a select field.
     </text>
   </paragraph>
   <button>
@@ -25624,7 +24764,7 @@ exports[`firefox /components/selects/ 1`] = `
   <paragraph>
     <text>
       The Select component can handle multiple selections. It's enabled
-      with the multiple prop.
+      with the multiple property.
     </text>
   </paragraph>
   <paragraph>
@@ -25999,9 +25139,10 @@ exports[`firefox /components/slider 1`] = `
     <text>Sliders allow users to make selections from a range of values.</text>
   </paragraph>
   <paragraph>
+    <link>Sliders</link>
     <text>
-      Sliders reflect a range of values along a bar, from which users may select
-      a single value. They are ideal for adjusting settings such as volume,
+      reflect a range of values along a bar, from which users may select a
+      single value. They are ideal for adjusting settings such as volume,
       brightness, or applying image filters.
     </text>
   </paragraph>
@@ -26015,34 +25156,6 @@ exports[`firefox /components/slider 1`] = `
       <text>
         (but only +8 kB when used together with other Material-UI components).
       </text>
-    </listitem>
-  </list>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      WAI-ARIA
-      <link>WAI-ARIA</link>
-    </listitem>
-    <listitem>
-      Bundle size
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-      </link>
-    </listitem>
-    <listitem>
-      Material Design
-      <link>Material Design</link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
     </listitem>
   </list>
   <heading level="2">
@@ -26625,36 +25738,13 @@ exports[`firefox /components/switches/ 1`] = `
     <text>Switches toggle the state of a single setting on or off.</text>
   </paragraph>
   <paragraph>
+    <link>Switches</link>
     <text>
-      Switches are the preferred way to adjust settings on mobile. The option
-      that the switch controls, as well as the state it’s in, should be made
-      clear from the corresponding inline label.
+      are the preferred way to adjust settings on mobile. The option that the
+      switch controls, as well as the state it’s in, should be made clear from
+      the corresponding inline label.
     </text>
   </paragraph>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      Bundle size
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-      </link>
-    </listitem>
-    <listitem>
-      Material Design
-      <link>Material Design</link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
-    </listitem>
-  </list>
   <heading level="2">
     Basic switches
     <link></link>
@@ -26838,7 +25928,7 @@ exports[`firefox /components/switches/ 1`] = `
     <text>Sizes</text>
   </heading>
   <paragraph>
-    <text>Fancy smaller switches? Use the size prop.</text>
+    <text>Fancy smaller switches? Use the size property.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -26964,13 +26054,13 @@ exports[`firefox /components/switches/ 1`] = `
       • When a label can't be used, it's necessary to add an attribute
       directly to the input component. In this case, you can apply the
       additional attribute (e.g. aria-label , aria-labelledby , title ) via the
-      inputProps prop.
+      inputProps property.
       <statictext>•</statictext>
       <text>
         When a label can't be used, it's necessary to add an attribute
         directly to the input component. In this case, you can apply the
         additional attribute (e.g. aria-label, aria-labelledby, title) via the
-        inputProps prop.
+        inputProps property.
       </text>
     </listitem>
   </list>
@@ -27030,39 +26120,12 @@ exports[`firefox /components/tabs/ 1`] = `
     </text>
   </paragraph>
   <paragraph>
+    <link>Tabs</link>
     <text>
-      Tabs organize and allow navigation between groups of content that are
-      related and at the same level of hierarchy.
+      organize and allow navigation between groups of content that are related
+      and at the same level of hierarchy.
     </text>
   </paragraph>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      WAI-ARIA
-      <link>WAI-ARIA</link>
-    </listitem>
-    <listitem>
-      Bundle size
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-      </link>
-    </listitem>
-    <listitem>
-      Material Design
-      <link>Material Design</link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
-    </listitem>
-  </list>
   <heading level="2">
     Basic tabs
     <link></link>
@@ -27620,7 +26683,7 @@ exports[`firefox /components/tabs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tablist orientation="vertical">
+  <tablist>
     Vertical tabs example
     <tab selected="true">
       ITEM ONE
@@ -28010,7 +27073,7 @@ exports[`firefox /components/tabs/ 1`] = `
   </list>
   <separator></separator>
   <link>Stepper</link>
-  <link>Accordion</link>
+  <link>App Bar</link>
 </landmark>;
 
 `;
@@ -28026,35 +27089,12 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>Text fields let users enter and edit text.</text>
   </paragraph>
   <paragraph>
+    <link>Text fields</link>
     <text>
-      Text fields allow users to enter text into a UI. They typically appear in
-      forms and dialogs.
+      allow users to enter text into a UI. They typically appear in forms and
+      dialogs.
     </text>
   </paragraph>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      Bundle size
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-      </link>
-    </listitem>
-    <listitem>
-      Material Design
-      <link>Material Design</link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
-    </listitem>
-  </list>
   <heading level="2">
     TextField
     <link></link>
@@ -29505,7 +28545,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     </text>
   </paragraph>
   <text>
-    <TextField inputProps={{ inputMode: 'numeric',
+    <TextField inputProps={{ inputmode: 'numeric',
     pattern: '[0-9]*' }} />
   </text>
   <paragraph>
@@ -29825,43 +28865,17 @@ exports[`firefox /components/tooltips/ 1`] = `
     </text>
   </paragraph>
   <paragraph>
+    <text>When activated,</text>
+    <link>Tooltips</link>
     <text>
-      When activated, Tooltips display a text label identifying an element, such
-      as a description of its function.
+      display a text label identifying an element, such as a description of its
+      function.
     </text>
   </paragraph>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      WAI-ARIA
-      <link>WAI-ARIA</link>
-    </listitem>
-    <listitem>
-      Bundle size
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-      </link>
-    </listitem>
-    <listitem>
-      Material Design
-      <link>Material Design</link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
-    </listitem>
-  </list>
   <heading level="2">
-    Basic tooltip
+    Simple Tooltips
     <link></link>
-    <text>Basic tooltip</text>
+    <text>Simple Tooltips</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -30044,7 +29058,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     <text>
       The tooltip needs to apply DOM event listeners to its child element. If
       the child is a custom React element, you need to make sure that it spreads
-      its props to the underlying DOM element.
+      its properties to the underlying DOM element.
     </text>
   </paragraph>
   <text>
@@ -30105,8 +29119,8 @@ exports[`firefox /components/tooltips/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      You can use the open, onOpen and onClose props to control the behavior of
-      the tooltip.
+      You can use the open, onOpen and onClose properties to control the
+      behavior of the tooltip.
     </text>
   </paragraph>
   <button>
@@ -30318,15 +29332,15 @@ exports[`firefox /components/tooltips/ 1`] = `
       The tooltip is normally shown immediately when the user's mouse
       hovers over the element, and hides immediately when the user's mouse
       leaves. A delay in showing or hiding the tooltip can be added through the
-      enterDelay and leaveDelay props, as shown in the Controlled Tooltips demo
-      above.
+      properties enterDelay and leaveDelay, as shown in the Controlled Tooltips
+      demo above.
     </text>
   </paragraph>
   <paragraph>
     <text>
       On mobile, the tooltip is displayed when the user longpresses the element
       and hides after a delay of 1500ms. You can disable this feature with the
-      disableTouchListener prop.
+      disableTouchListener property.
     </text>
   </paragraph>
   <button>
@@ -30588,30 +29602,6 @@ exports[`firefox /components/tree-view/ 1`] = `
       the contents of the folder, which may be files, folders, or both.
     </text>
   </paragraph>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      WAI-ARIA
-      <link>WAI-ARIA</link>
-    </listitem>
-    <listitem>
-      Bundle size
-      <link description="Scroll down to 'Exports Analysis' for a more detailed report.">
-        Bundle size
-      </link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
-    </listitem>
-  </list>
   <heading level="2">
     Basic tree view
     <link></link>
