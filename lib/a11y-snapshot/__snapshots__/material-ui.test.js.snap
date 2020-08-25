@@ -4500,9 +4500,9 @@ exports[`chromium /components/buttons/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Hidden
+      Image List
       <SVGRoot></SVGRoot>
-      <text>Hidden</text>
+      <text>Image List</text>
     </link>
     <link>
       Button Group
@@ -21178,7 +21178,7 @@ exports[`firefox /components/buttons/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Hidden</link>
+  <link>Image List</link>
   <link>Button Group</link>
 </landmark>;
 
