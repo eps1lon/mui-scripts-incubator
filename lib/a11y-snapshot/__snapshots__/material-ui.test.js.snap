@@ -28292,7 +28292,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Search field
       <text>Search field</text>
     </label>
-    <textbox>Search field</textbox>
+    <textbox></textbox>
     <label>
       Helper text
       <text>Helper text</text>
