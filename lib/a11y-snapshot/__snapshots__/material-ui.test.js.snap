@@ -7772,7 +7772,6 @@ exports[`chromium /components/pickers 1`] = `
   </heading>
   <paragraph>
     <img>stars</img>
-    <text></text>
     <img>npm downloads</img>
   </paragraph>
   <paragraph>
