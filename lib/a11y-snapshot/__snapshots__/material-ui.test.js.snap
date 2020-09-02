@@ -13112,6 +13112,13 @@ exports[`chromium /components/tabs/ 1`] = `
     <Anchor></Anchor>
     <text>Vertical tabs</text>
   </heading>
+  <paragraph>
+    <text>
+      To make vertical tabs instead of default horizontal ones, there is
+    </text>
+    <code>$SOME_CODE</code>
+    <text>:</text>
+  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -13186,6 +13193,11 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <paragraph>
+    <text>Note that you can restore the scrollbar with</text>
+    <code>$SOME_CODE</code>
+    <text>.</text>
+  </paragraph>
   <heading level="2">
     Nav Tabs
     <Anchor></Anchor>
@@ -27621,6 +27633,12 @@ exports[`firefox /components/tabs/ 1`] = `
     <link></link>
     <text>Vertical tabs</text>
   </heading>
+  <paragraph>
+    <text>
+      To make vertical tabs instead of default horizontal ones, there is
+      orientation="vertical":
+    </text>
+  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -27671,6 +27689,9 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <paragraph>
+    <text>Note that you can restore the scrollbar with visibleScrollbar.</text>
+  </paragraph>
   <heading level="2">
     Nav Tabs
     <link></link>
