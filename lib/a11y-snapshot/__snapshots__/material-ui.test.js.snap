@@ -154,9 +154,15 @@ exports[`chromium / 1`] = `
         octopus
         <img description="Repeatable, reliable deployments">octopus</img>
       </link>
+      <link>
+        doit-intl
+        <img description="Management Platform for Google Cloud and AWS">
+          doit-intl
+        </img>
+      </link>
     </paragraph>
     <paragraph>
-      <text>2/3 slots available</text>
+      <text>1/3 slots available</text>
     </paragraph>
     <heading level="3">
       Gold 🏆
@@ -298,6 +304,14 @@ exports[`chromium / 1`] = `
   <link>v5.0.0-alpha.8</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
+  <link>
+    <img description="Repeatable, reliable deployments">octopus</img>
+  </link>
+  <link>
+    <img description="Management Platform for Google Cloud and AWS">
+      octopus
+    </img>
+  </link>
   <link>
     Diamond Sponsors
     <SVGRoot></SVGRoot>
@@ -13112,6 +13126,13 @@ exports[`chromium /components/tabs/ 1`] = `
     <Anchor></Anchor>
     <text>Vertical tabs</text>
   </heading>
+  <paragraph>
+    <text>
+      To make vertical tabs instead of default horizontal ones, there is
+    </text>
+    <code>$SOME_CODE</code>
+    <text>:</text>
+  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -13186,6 +13207,11 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <paragraph>
+    <text>Note that you can restore the scrollbar with</text>
+    <code>$SOME_CODE</code>
+    <text>.</text>
+  </paragraph>
   <heading level="2">
     Nav Tabs
     <Anchor></Anchor>
@@ -18033,8 +18059,17 @@ exports[`firefox / 1`] = `
         octopus
       </img>
     </link>
+    <link>
+      doit-intl
+      <img
+        value="https://www.doit-intl.com/?utm_source=materialui&utm_medium=referral"
+        description="Management Platform for Google Cloud and AWS"
+      >
+        doit-intl
+      </img>
+    </link>
     <paragraph>
-      <text>2/3 slots available</text>
+      <text>1/3 slots available</text>
     </paragraph>
     <heading level="3">
       Gold 🏆
@@ -27621,6 +27656,12 @@ exports[`firefox /components/tabs/ 1`] = `
     <link></link>
     <text>Vertical tabs</text>
   </heading>
+  <paragraph>
+    <text>
+      To make vertical tabs instead of default horizontal ones, there is
+      orientation="vertical":
+    </text>
+  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -27671,6 +27712,9 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <paragraph>
+    <text>Note that you can restore the scrollbar with visibleScrollbar.</text>
+  </paragraph>
   <heading level="2">
     Nav Tabs
     <link></link>
