@@ -28331,7 +28331,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Number
       <text>Number</text>
     </label>
-    <spinbutton valuetext="">Number</spinbutton>
+    <spinbutton valuetext=""></spinbutton>
     <label>
       Search field
       <text>Search field</text>
