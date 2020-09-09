@@ -2711,20 +2711,20 @@ exports[`chromium /components/breadcrumbs 1`] = `
     breadcrumb
     <list>
       <listitem level="1">
-        <button>
+        <link>
           Home
           <SVGRoot></SVGRoot>
           <text>Home</text>
-        </button>
+        </link>
       </listitem>
       <listitem level="1">
         <text>/</text>
       </listitem>
       <listitem level="1">
-        <button>
+        <link>
           Catalog
           <text>Catalog</text>
-        </button>
+        </link>
       </listitem>
       <listitem level="1">
         <text>/</text>
@@ -19975,17 +19975,11 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <list>
       <listitem>
         Home
-        <button>
-          Home
-          <text>Home</text>
-        </button>
+        <link>Home</link>
       </listitem>
       <listitem>
         Catalog
-        <button>
-          Catalog
-          <text>Catalog</text>
-        </button>
+        <link>Catalog</link>
       </listitem>
       <listitem>
         Accessories
