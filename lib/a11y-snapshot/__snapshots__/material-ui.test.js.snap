@@ -9481,24 +9481,57 @@ exports[`chromium /components/rating/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <text>
-        A radio group is used with its fields visually hidden. It contains six
-        radio buttons, one for each star and another for 0 stars, which is
-        checked by default. Make sure you are providing a
-      </text>
-      <code>$SOME_CODE</code>
-      <text>prop that is unique to the parent form.</text>
+      <paragraph>
+        <text>
+          Distinguishing checked and unchecked values by coloranda underline for
+          the checked value.
+        </text>
+      </paragraph>
+      <paragraph>
+        <text>
+          The underline is only required if the current value is only encoded
+          with color. You can pass disable it with
+        </text>
+        <code>$SOME_CODE</code>
+        <text>
+          if the value is perceivable through something other than color e.g.
+          via text or different icons. Some examples on this page disable the
+          additional indicator where appropriate. For example, in the
+        </text>
+        <link>hover feedback demo</link>
+        <text>
+          the current value is available in text form. Or check out our
+        </text>
+        <link>customized ratings</link>
+        <text>where we use different icons for each value.</text>
+      </paragraph>
     </listitem>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <text>
-        The labels for the radio buttons contain actual text (“1 Star”, “2
-        Stars”, …), make sure you provide a
-      </text>
-      <code>$SOME_CODE</code>
-      <text>prop when the page language is not English.</text>
+      <paragraph>
+        <text>
+          A radio group is used with its fields visually hidden. It contains six
+          radio buttons, one for each star and another for 0 stars, which is
+          checked by default. Make sure you are providing a
+        </text>
+        <code>$SOME_CODE</code>
+        <text>prop that is unique to the parent form.</text>
+      </paragraph>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <paragraph>
+        <text>
+          The labels for the radio buttons contain actual text (“1 Star”, “2
+          Stars”, …), make sure you provide a
+        </text>
+        <code>$SOME_CODE</code>
+        <text>prop when the page language is not English.</text>
+      </paragraph>
     </listitem>
   </list>
   <heading level="2">
@@ -24999,11 +25032,12 @@ exports[`firefox /components/rating/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Rating name="hover-feedback" value={value}
-    precision={0.5} onChange={(event, newValue) => {
-    setValue(newValue); }} onChangeActive={(event, newHover)
-    => { setHover(newHover); }} /> {value !== null
-    && ( <Box ml={2}>{labels[hover !== -1 ? hover :
+    <Rating name="hover-feedback" disableVisualCheckedIndicator
+    value={value} precision={0.5} onChange={(event,
+    newValue) => { setValue(newValue); }}
+    onChangeActive={(event, newHover) => { setHover(newHover);
+    }} /> {value !== null && ( <Box
+    ml={2}>{labels[hover !== -1 ? hover :
     value]}</Box> )}
   </text>
   <heading level="2">
@@ -25205,28 +25239,65 @@ exports[`firefox /components/rating/ 1`] = `
   </paragraph>
   <list>
     <listitem>
+      • Distinguishing checked and unchecked values by color and a underline for
+      the checked value. The underline is only required if the current value is
+      only encoded with color. You can pass disable it with
+      disableVisualCheckedIndicator if the value is perceivable through
+      something other than color e.g. via text or different icons. Some examples
+      on this page disable the additional indicator where appropriate. For
+      example, in the hover feedback demo the current value is available in text
+      form. Or check out our customized ratings where we use different icons for
+      each value.
+      <statictext>•</statictext>
+      <paragraph>
+        <text>
+          Distinguishing checked and unchecked values by color and a underline
+          for the checked value.
+        </text>
+      </paragraph>
+      <paragraph>
+        <text>
+          The underline is only required if the current value is only encoded
+          with color. You can pass disable it with disableVisualCheckedIndicator
+          if the value is perceivable through something other than color e.g.
+          via text or different icons. Some examples on this page disable the
+          additional indicator where appropriate. For example, in the
+        </text>
+        <link>hover feedback demo</link>
+        <text>
+          the current value is available in text form. Or check out our
+        </text>
+        <link>customized ratings</link>
+        <text>where we use different icons for each value.</text>
+      </paragraph>
+    </listitem>
+    <listitem>
       • A radio group is used with its fields visually hidden. It contains six
       radio buttons, one for each star and another for 0 stars, which is checked
       by default. Make sure you are providing a name prop that is unique to the
       parent form.
       <statictext>•</statictext>
-      <text>
-        A radio group is used with its fields visually hidden. It contains six
-        radio buttons, one for each star and another for 0 stars, which is
-        checked by default. Make sure you are providing a name prop that is
-        unique to the parent form.
-      </text>
+      <paragraph>
+        <text>
+          A radio group is used with its fields visually hidden. It contains six
+          radio buttons, one for each star and another for 0 stars, which is
+          checked by default. Make sure you are providing a name prop that is
+          unique to the parent form.
+        </text>
+      </paragraph>
     </listitem>
     <listitem>
       • The labels for the radio buttons contain actual text (“1 Star”, “2
       Stars”, …), make sure you provide a getLabelText prop when the page
       language is not English.
       <statictext>•</statictext>
-      <text>
-        The labels for the radio buttons contain actual text (“1 Star”, “2
-        Stars”, …), make sure you provide a getLabelText prop when the page
-        language is not English.
-      </text>
+      <paragraph>
+        <text>
+          The labels for the radio buttons contain actual text (“1 Star”, “2
+          Stars”, …), make sure you provide a getLabelText prop when the page
+          language is not English.
+        </text>
+      </paragraph>
     </listitem>
   </list>
   <heading level="2">
