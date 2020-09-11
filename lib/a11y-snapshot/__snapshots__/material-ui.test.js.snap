@@ -9016,42 +9016,6 @@ exports[`chromium /components/rating/ 1`] = `
     navigation of our components.
   </button>
   <group>
-    Custom empty icon
-    <Legend>
-      <text>Custom empty icon</text>
-    </Legend>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">0.5 Stars</radio>
-    <SVGRoot></SVGRoot>
-    <radio checked="false">1 Star</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">1.5 Stars</radio>
-    <SVGRoot></SVGRoot>
-    <radio checked="true">2 Stars</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">2.5 Stars</radio>
-    <SVGRoot></SVGRoot>
-    <radio checked="false">3 Stars</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">3.5 Stars</radio>
-    <SVGRoot></SVGRoot>
-    <radio checked="false">4 Stars</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">4.5 Stars</radio>
-    <SVGRoot></SVGRoot>
-    <radio checked="false">5 Stars</radio>
-  </group>
-  <group>
     Custom icon and color
     <Legend>
       <text>Custom icon and color</text>
@@ -9501,6 +9465,61 @@ exports[`chromium /components/rating/ 1`] = `
       <text>prop when the page language is not English.</text>
     </listitem>
   </list>
+  <paragraph>
+    <text>
+      By default, the rating component uses both a difference of color and shape
+      between the filled and empty icons to indicate the value.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      In the event that you are using color as the only means to indicate the
+      value, the information should also be also displayed as text, as in this
+      demo. This is important to match
+    </text>
+    <link>success Criterion 1.4.1</link>
+    <text>of WCAG2.1.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <img>3.5 Stars</img>
+  <text>Good</text>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button description="Show the full source">
+      Show the full source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Edit in CodeSandbox">
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Copy the source">
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset focus to test keyboard navigation">
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset demo">
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     API
     <Anchor></Anchor>
@@ -24712,63 +24731,6 @@ exports[`firefox /components/rating/ 1`] = `
     navigation of our components.
   </button>
   <group>
-    Custom empty icon
-    <label>
-      Custom empty icon
-      <text>Custom empty icon</text>
-    </label>
-    <label>
-      0.5 Stars
-      <text>0.5 Stars</text>
-    </label>
-    <radio>0.5 Stars</radio>
-    <label>
-      1 Star
-      <text>1 Star</text>
-    </label>
-    <radio>1 Star</radio>
-    <label>
-      1.5 Stars
-      <text>1.5 Stars</text>
-    </label>
-    <radio>1.5 Stars</radio>
-    <label>
-      2 Stars
-      <text>2 Stars</text>
-    </label>
-    <radio checked="true">2 Stars</radio>
-    <label>
-      2.5 Stars
-      <text>2.5 Stars</text>
-    </label>
-    <radio>2.5 Stars</radio>
-    <label>
-      3 Stars
-      <text>3 Stars</text>
-    </label>
-    <radio>3 Stars</radio>
-    <label>
-      3.5 Stars
-      <text>3.5 Stars</text>
-    </label>
-    <radio>3.5 Stars</radio>
-    <label>
-      4 Stars
-      <text>4 Stars</text>
-    </label>
-    <radio>4 Stars</radio>
-    <label>
-      4.5 Stars
-      <text>4.5 Stars</text>
-    </label>
-    <radio>4.5 Stars</radio>
-    <label>
-      5 Stars
-      <text>5 Stars</text>
-    </label>
-    <radio>5 Stars</radio>
-  </group>
-  <group>
     Custom icon and color
     <label>
       Custom icon and color
@@ -25002,8 +24964,10 @@ exports[`firefox /components/rating/ 1`] = `
     <Rating name="hover-feedback" value={value}
     precision={0.5} onChange={(event, newValue) => {
     setValue(newValue); }} onChangeActive={(event, newHover)
-    => { setHover(newHover); }} /> {value !== null
-    && ( <Box ml={2}>{labels[hover !== -1 ? hover :
+    => { setHover(newHover); }} emptyIcon={<StarIcon
+    style={{ opacity: 0.55 }} fontSize="inherit"
+    />} /> {value !== null && ( <Box
+    ml={2}>{labels[hover !== -1 ? hover :
     value]}</Box> )}
   </text>
   <heading level="2">
@@ -25229,6 +25193,42 @@ exports[`firefox /components/rating/ 1`] = `
       </text>
     </listitem>
   </list>
+  <paragraph>
+    <text>
+      By default, the rating component uses both a difference of color and shape
+      between the filled and empty icons to indicate the value.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      In the event that you are using color as the only means to indicate the
+      value, the information should also be also displayed as text, as in this
+      demo. This is important to match
+    </text>
+    <link>success Criterion 1.4.1</link>
+    <text>of WCAG2.1.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <img>3.5 Stars</img>
+  <text>Good</text>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Rating name="text-feedback" value={value} readOnly
+    precision={0.5} emptyIcon={<StarIcon style={{
+    opacity: 0.55 }} fontSize="inherit" />} />
+    <Box ml={2}>{labels[value]}</Box>
+  </text>
   <heading level="2">
     API
     <link></link>
