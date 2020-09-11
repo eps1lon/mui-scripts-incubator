@@ -11948,7 +11948,7 @@ exports[`chromium /components/switches/ 1`] = `
     <code>$SOME_CODE</code>
     <text>
       is a helpful wrapper used to group selection controls components that
-      provides an easier API. However, you are encouraged you to use
+      provides an easier API. However, you are encouraged to use
     </text>
     <link>Checkboxes</link>
     <text>instead if multiple related controls are required. (See:</text>
@@ -26774,7 +26774,7 @@ exports[`firefox /components/switches/ 1`] = `
   <paragraph>
     <text>
       FormGroup is a helpful wrapper used to group selection controls components
-      that provides an easier API. However, you are encouraged you to use
+      that provides an easier API. However, you are encouraged to use
     </text>
     <link>Checkboxes</link>
     <text>instead if multiple related controls are required. (See:</text>
