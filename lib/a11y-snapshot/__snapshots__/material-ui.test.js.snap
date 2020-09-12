@@ -309,7 +309,7 @@ exports[`chromium / 1`] = `
   </link>
   <link>
     <img description="Management Platform for Google Cloud and AWS">
-      octopus
+      doit-intl
     </img>
   </link>
   <link>
@@ -1764,12 +1764,12 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        Callback function fired when a menu item is selected. Signature:
-        function(event: object, child?: object) => void event: The event
-        source of the callback. You can pull out the new value by accessing
-        event.target.value (any). child: The react element that was selected
-        when native is false (default).
-        <text>Callback function fired when a menu item is selected.</text>
+        Callback fired when a menu item is selected. Signature: function(event:
+        object, child?: object) => void event: The event source of the
+        callback. You can pull out the new value by accessing event.target.value
+        (any). child: The react element that was selected when native is false
+        (default).
+        <text>Callback fired when a menu item is selected.</text>
         <LineBreak></LineBreak>
         <LineBreak></LineBreak>
         <text>Signature:</text>
@@ -19310,7 +19310,7 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell></cell>
       <cell>
-        <text>Callback function fired when a menu item is selected.</text>
+        <text>Callback fired when a menu item is selected.</text>
         <whitespace></whitespace>
         <whitespace></whitespace>
         <text>Signature:</text>
