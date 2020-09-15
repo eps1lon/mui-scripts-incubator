@@ -294,14 +294,14 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.10. View versions page.</link>
+      <link>v5.0.0-alpha.9. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v5.0.0-alpha.10</link>
+  <link>v5.0.0-alpha.9</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -1527,27 +1527,30 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell>
         If true, a value is displayed even if no items are selected. In order to
-        display a meaningful value, a function should be passed to the
-        renderValue prop which returns the value to be displayed when no items
-        are selected. You can only use it when the native prop is false
-        (default).
+        display a meaningful value, a function can be passed to the renderValue
+        prop which returns the value to be displayed when no items are selected.
+        ⚠️ When using this prop, make sure the label doesn't overlap with
+        the empty displayed value. The label should either be hidden or forced
+        to a shrunk state.
         <text>If</text>
         <code>$SOME_CODE</code>
         <text>, a value is displayed even if no items are selected.</text>
         <LineBreak></LineBreak>
         <text>
-          In order to display a meaningful value, a function should be passed to
+          In order to display a meaningful value, a function can be passed to
           the
         </text>
         <code>$SOME_CODE</code>
         <text>
           prop which returns the value to be displayed when no items are
-          selected. You can only use it when the
+          selected.
         </text>
-        <code>$SOME_CODE</code>
-        <text>prop is</text>
-        <code>$SOME_CODE</code>
-        <text>(default).</text>
+        <LineBreak></LineBreak>
+        <text>
+          ⚠️ When using this prop, make sure the label doesn't overlap with
+          the empty displayed value. The label should either be hidden or forced
+          to a shrunk state.
+        </text>
       </gridcell>
     </row>
     <row>
@@ -18234,7 +18237,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.10. View versions page.</link>
+      <link>v5.0.0-alpha.9. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
@@ -19146,10 +19149,15 @@ exports[`firefox /api/select/ 1`] = `
         </text>
         <whitespace></whitespace>
         <text>
-          In order to display a meaningful value, a function should be passed to
+          In order to display a meaningful value, a function can be passed to
           the renderValue prop which returns the value to be displayed when no
-          items are selected. You can only use it when the native prop is false
-          (default).
+          items are selected.
+        </text>
+        <whitespace></whitespace>
+        <text>
+          ⚠️ When using this prop, make sure the label doesn't overlap with
+          the empty displayed value. The label should either be hidden or forced
+          to a shrunk state.
         </text>
       </cell>
     </row>
