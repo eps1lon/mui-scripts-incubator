@@ -8971,6 +8971,8 @@ exports[`chromium /components/rating/ 1`] = `
     <Legend>
       <text>Pristine</text>
     </Legend>
+    <radio checked="true">Empty</radio>
+    <Label></Label>
     <Label>
       <SVGRoot></SVGRoot>
     </Label>
@@ -8991,8 +8993,6 @@ exports[`chromium /components/rating/ 1`] = `
       <SVGRoot></SVGRoot>
     </Label>
     <radio checked="false">5 Stars</radio>
-    <radio checked="true">Empty</radio>
-    <Label></Label>
   </group>
   <toolbar>
     demo source
@@ -24818,6 +24818,11 @@ exports[`firefox /components/rating/ 1`] = `
       Pristine
       <text>Pristine</text>
     </label>
+    <radio checked="true">Empty</radio>
+    <label>
+      Empty
+      <text>Empty</text>
+    </label>
     <label>
       1 Star
       <text>1 Star</text>
@@ -24843,11 +24848,6 @@ exports[`firefox /components/rating/ 1`] = `
       <text>5 Stars</text>
     </label>
     <radio>5 Stars</radio>
-    <radio checked="true">Empty</radio>
-    <label>
-      Empty
-      <text>Empty</text>
-    </label>
   </group>
   <toolbar>
     demo source
