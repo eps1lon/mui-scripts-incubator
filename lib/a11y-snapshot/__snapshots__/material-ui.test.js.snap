@@ -8901,7 +8901,34 @@ exports[`chromium /components/rating/ 1`] = `
     <Legend>
       <text>Read only</text>
     </Legend>
-    <img>2 Stars</img>
+    <Label>
+      <SVGRoot></SVGRoot>
+    </Label>
+    <radio disabled="true" checked="false">
+      1 Star
+    </radio>
+    <Label>
+      <SVGRoot></SVGRoot>
+    </Label>
+    <radio checked="true">2 Stars</radio>
+    <Label>
+      <SVGRoot></SVGRoot>
+    </Label>
+    <radio disabled="true" checked="false">
+      3 Stars
+    </radio>
+    <Label>
+      <SVGRoot></SVGRoot>
+    </Label>
+    <radio disabled="true" checked="false">
+      4 Stars
+    </radio>
+    <Label>
+      <SVGRoot></SVGRoot>
+    </Label>
+    <radio disabled="true" checked="false">
+      5 Stars
+    </radio>
   </group>
   <group>
     Disabled
@@ -9282,7 +9309,54 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">4.5 Stars</radio>
   <SVGRoot></SVGRoot>
   <radio checked="false">5 Stars</radio>
-  <img>2.5 Stars</img>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    0.5 Stars
+  </radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    1 Star
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    1.5 Stars
+  </radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    2 Stars
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="true">2.5 Stars</radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    3 Stars
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    3.5 Stars
+  </radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    4 Stars
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    4.5 Stars
+  </radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    5 Stars
+  </radio>
   <toolbar>
     demo source
     <group>
@@ -9484,7 +9558,54 @@ exports[`chromium /components/rating/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img>3.5 Stars</img>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    0.5 Stars
+  </radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    1 Star
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    1.5 Stars
+  </radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    2 Stars
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    2.5 Stars
+  </radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    3 Stars
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="true">3.5 Stars</radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    4 Stars
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    4.5 Stars
+  </radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    5 Stars
+  </radio>
   <text>Good</text>
   <toolbar>
     demo source
@@ -24631,7 +24752,31 @@ exports[`firefox /components/rating/ 1`] = `
       Read only
       <text>Read only</text>
     </label>
-    <img>2 Stars</img>
+    <label>
+      1 Star
+      <text>1 Star</text>
+    </label>
+    <radio disabled="true">1 Star</radio>
+    <label>
+      2 Stars
+      <text>2 Stars</text>
+    </label>
+    <radio checked="true">2 Stars</radio>
+    <label>
+      3 Stars
+      <text>3 Stars</text>
+    </label>
+    <radio disabled="true">3 Stars</radio>
+    <label>
+      4 Stars
+      <text>4 Stars</text>
+    </label>
+    <radio disabled="true">4 Stars</radio>
+    <label>
+      5 Stars
+      <text>5 Stars</text>
+    </label>
+    <radio disabled="true">5 Stars</radio>
   </group>
   <group>
     Disabled
@@ -25035,7 +25180,56 @@ exports[`firefox /components/rating/ 1`] = `
     <text>5 Stars</text>
   </label>
   <radio>5 Stars</radio>
-  <img>2.5 Stars</img>
+  <label>
+    0.5 Stars
+    <text>0.5 Stars</text>
+  </label>
+  <radio disabled="true">0.5 Stars</radio>
+  <label>
+    1 Star
+    <text>1 Star</text>
+  </label>
+  <radio disabled="true">1 Star</radio>
+  <label>
+    1.5 Stars
+    <text>1.5 Stars</text>
+  </label>
+  <radio disabled="true">1.5 Stars</radio>
+  <label>
+    2 Stars
+    <text>2 Stars</text>
+  </label>
+  <radio disabled="true">2 Stars</radio>
+  <label>
+    2.5 Stars
+    <text>2.5 Stars</text>
+  </label>
+  <radio checked="true">2.5 Stars</radio>
+  <label>
+    3 Stars
+    <text>3 Stars</text>
+  </label>
+  <radio disabled="true">3 Stars</radio>
+  <label>
+    3.5 Stars
+    <text>3.5 Stars</text>
+  </label>
+  <radio disabled="true">3.5 Stars</radio>
+  <label>
+    4 Stars
+    <text>4 Stars</text>
+  </label>
+  <radio disabled="true">4 Stars</radio>
+  <label>
+    4.5 Stars
+    <text>4.5 Stars</text>
+  </label>
+  <radio disabled="true">4.5 Stars</radio>
+  <label>
+    5 Stars
+    <text>5 Stars</text>
+  </label>
+  <radio disabled="true">5 Stars</radio>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -25212,7 +25406,56 @@ exports[`firefox /components/rating/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img>3.5 Stars</img>
+  <label>
+    0.5 Stars
+    <text>0.5 Stars</text>
+  </label>
+  <radio disabled="true">0.5 Stars</radio>
+  <label>
+    1 Star
+    <text>1 Star</text>
+  </label>
+  <radio disabled="true">1 Star</radio>
+  <label>
+    1.5 Stars
+    <text>1.5 Stars</text>
+  </label>
+  <radio disabled="true">1.5 Stars</radio>
+  <label>
+    2 Stars
+    <text>2 Stars</text>
+  </label>
+  <radio disabled="true">2 Stars</radio>
+  <label>
+    2.5 Stars
+    <text>2.5 Stars</text>
+  </label>
+  <radio disabled="true">2.5 Stars</radio>
+  <label>
+    3 Stars
+    <text>3 Stars</text>
+  </label>
+  <radio disabled="true">3 Stars</radio>
+  <label>
+    3.5 Stars
+    <text>3.5 Stars</text>
+  </label>
+  <radio checked="true">3.5 Stars</radio>
+  <label>
+    4 Stars
+    <text>4 Stars</text>
+  </label>
+  <radio disabled="true">4 Stars</radio>
+  <label>
+    4.5 Stars
+    <text>4.5 Stars</text>
+  </label>
+  <radio disabled="true">4.5 Stars</radio>
+  <label>
+    5 Stars
+    <text>5 Stars</text>
+  </label>
+  <radio disabled="true">5 Stars</radio>
   <text>Good</text>
   <toolbar>
     demo source
