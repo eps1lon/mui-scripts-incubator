@@ -18082,8 +18082,8 @@ exports[`chromium /components/tree-view/ 1`] = `
       <text>Trap Focus</text>
     </link>
     <link>
-      Overview
-      <text>Overview</text>
+      Accordion
+      <text>Accordion</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -31350,7 +31350,7 @@ exports[`firefox /components/tree-view/ 1`] = `
   </list>
   <separator></separator>
   <link>Trap Focus</link>
-  <link>Overview</link>
+  <link>Accordion</link>
 </landmark>;
 
 `;
