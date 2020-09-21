@@ -1342,8 +1342,8 @@ exports[`chromium /api/button/ 1`] = `
       <text>Breadcrumbs</text>
     </link>
     <link>
-      Button Base
-      <text>Button Base</text>
+      ButtonBase
+      <text>ButtonBase</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -2250,9 +2250,9 @@ exports[`chromium /api/select/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Scoped Css Baseline
+      ScopedCssBaseline
       <SVGRoot></SVGRoot>
-      <text>Scoped Css Baseline</text>
+      <text>ScopedCssBaseline</text>
     </link>
     <link>
       Skeleton
@@ -19004,7 +19004,7 @@ exports[`firefox /api/button/ 1`] = `
   </list>
   <separator></separator>
   <link>Breadcrumbs</link>
-  <link>Button Base</link>
+  <link>ButtonBase</link>
 </landmark>;
 
 `;
@@ -19689,7 +19689,7 @@ exports[`firefox /api/select/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Scoped Css Baseline</link>
+  <link>ScopedCssBaseline</link>
   <link>Skeleton</link>
 </landmark>;
 
@@ -28282,7 +28282,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Number</text>
     </label>
     <statictext> </statictext>
-    <spinbutton valuetext="">Number</spinbutton>
+    <spinbutton valuetext=""></spinbutton>
     <label>
       Search field
       <text>Search field</text>
