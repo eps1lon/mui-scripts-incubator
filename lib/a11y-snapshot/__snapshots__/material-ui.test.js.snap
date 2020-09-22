@@ -1342,8 +1342,8 @@ exports[`chromium /api/button/ 1`] = `
       <text>Breadcrumbs</text>
     </link>
     <link>
-      Button Base
-      <text>Button Base</text>
+      ButtonBase
+      <text>ButtonBase</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -2250,9 +2250,9 @@ exports[`chromium /api/select/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Scoped Css Baseline
+      ScopedCssBaseline
       <SVGRoot></SVGRoot>
-      <text>Scoped Css Baseline</text>
+      <text>ScopedCssBaseline</text>
     </link>
     <link>
       Skeleton
@@ -4663,9 +4663,71 @@ exports[`chromium /components/checkboxes/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
-    Checkbox with FormControlLabel
+    Indeterminate
     <Anchor></Anchor>
-    <text>Checkbox with FormControlLabel</text>
+    <text>Indeterminate</text>
+  </heading>
+  <paragraph>
+    <text>
+      A checkbox input can only have two states in a form: checked or unchecked.
+      It either submits its value or doesn't. Visually, there are actually
+      three states a checkbox can be in: checked, unchecked, or indeterminate.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Label>
+    <checkbox checked="false">Parent</checkbox>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <Label>
+    <checkbox checked="true">Child 1</checkbox>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <Label>
+    <checkbox checked="false">Child 2</checkbox>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button description="Show the full source">
+      Show the full source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Edit in CodeSandbox">
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Copy the source">
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset focus to test keyboard navigation">
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset demo">
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Label
+    <Anchor></Anchor>
+    <text>Label</text>
   </heading>
   <paragraph>
     <code>$SOME_CODE</code>
@@ -4749,9 +4811,9 @@ exports[`chromium /components/checkboxes/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
-    Checkboxes with FormGroup
+    FormGroup
     <Anchor></Anchor>
-    <text>Checkboxes with FormGroup</text>
+    <text>FormGroup</text>
   </heading>
   <paragraph>
     <code>$SOME_CODE</code>
@@ -19004,7 +19066,7 @@ exports[`firefox /api/button/ 1`] = `
   </list>
   <separator></separator>
   <link>Breadcrumbs</link>
-  <link>Button Base</link>
+  <link>ButtonBase</link>
 </landmark>;
 
 `;
@@ -19689,7 +19751,7 @@ exports[`firefox /api/select/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Scoped Css Baseline</link>
+  <link>ScopedCssBaseline</link>
   <link>Skeleton</link>
 </landmark>;
 
@@ -21325,9 +21387,54 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Checkbox with FormControlLabel
+    Indeterminate
     <link></link>
-    <text>Checkbox with FormControlLabel</text>
+    <text>Indeterminate</text>
+  </heading>
+  <paragraph>
+    <text>
+      A checkbox input can only have two states in a form: checked or unchecked.
+      It either submits its value or doesn't. Visually, there are actually
+      three states a checkbox can be in: checked, unchecked, or indeterminate.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Parent
+    <checkbox>Parent</checkbox>
+    <text>Parent</text>
+  </label>
+  <label>
+    Child 1<checkbox checked="true">Child 1</checkbox>
+    <text>Child 1</text>
+  </label>
+  <label>
+    Child 2<checkbox>Child 2</checkbox>
+    <text>Child 2</text>
+  </label>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <FormControlLabel label="Parent" control={ <Checkbox
+    checked={checked[0] && checked[1]}
+    indeterminate={checked[0] !== checked[1]}
+    onChange={handleChange1} color="primary" /> }
+    /> {children}
+  </text>
+  <heading level="2">
+    Label
+    <link></link>
+    <text>Label</text>
   </heading>
   <paragraph>
     <text>
@@ -21396,9 +21503,9 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Checkboxes with FormGroup
+    FormGroup
     <link></link>
-    <text>Checkboxes with FormGroup</text>
+    <text>FormGroup</text>
   </heading>
   <paragraph>
     <text>
