@@ -1342,8 +1342,8 @@ exports[`chromium /api/button/ 1`] = `
       <text>Breadcrumbs</text>
     </link>
     <link>
-      ButtonBase
-      <text>ButtonBase</text>
+      Button Base
+      <text>Button Base</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -4663,71 +4663,9 @@ exports[`chromium /components/checkboxes/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
-    Indeterminate
+    Checkbox with FormControlLabel
     <Anchor></Anchor>
-    <text>Indeterminate</text>
-  </heading>
-  <paragraph>
-    <text>
-      A checkbox input can only have two states in a form: checked or unchecked.
-      It either submits its value or doesn't. Visually, there are actually
-      three states a checkbox can be in: checked, unchecked, or indeterminate.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <Label>
-    <checkbox checked="false">Parent</checkbox>
-    <SVGRoot></SVGRoot>
-  </Label>
-  <Label>
-    <checkbox checked="true">Child 1</checkbox>
-    <SVGRoot></SVGRoot>
-  </Label>
-  <Label>
-    <checkbox checked="false">Child 2</checkbox>
-    <SVGRoot></SVGRoot>
-  </Label>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the full source">
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
-    Label
-    <Anchor></Anchor>
-    <text>Label</text>
+    <text>Checkbox with FormControlLabel</text>
   </heading>
   <paragraph>
     <code>$SOME_CODE</code>
@@ -4811,9 +4749,9 @@ exports[`chromium /components/checkboxes/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
-    FormGroup
+    Checkboxes with FormGroup
     <Anchor></Anchor>
-    <text>FormGroup</text>
+    <text>Checkboxes with FormGroup</text>
   </heading>
   <paragraph>
     <code>$SOME_CODE</code>
@@ -8966,7 +8904,34 @@ exports[`chromium /components/rating/ 1`] = `
     <Legend>
       <text>Read only</text>
     </Legend>
-    <img>2 Stars</img>
+    <Label>
+      <SVGRoot></SVGRoot>
+    </Label>
+    <radio disabled="true" checked="false">
+      1 Star
+    </radio>
+    <Label>
+      <SVGRoot></SVGRoot>
+    </Label>
+    <radio checked="true">2 Stars</radio>
+    <Label>
+      <SVGRoot></SVGRoot>
+    </Label>
+    <radio disabled="true" checked="false">
+      3 Stars
+    </radio>
+    <Label>
+      <SVGRoot></SVGRoot>
+    </Label>
+    <radio disabled="true" checked="false">
+      4 Stars
+    </radio>
+    <Label>
+      <SVGRoot></SVGRoot>
+    </Label>
+    <radio disabled="true" checked="false">
+      5 Stars
+    </radio>
   </group>
   <group>
     Disabled
@@ -9348,7 +9313,54 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">4.5 Stars</radio>
   <SVGRoot></SVGRoot>
   <radio checked="false">5 Stars</radio>
-  <img>2.5 Stars</img>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    0.5 Stars
+  </radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    1 Star
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    1.5 Stars
+  </radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    2 Stars
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="true">2.5 Stars</radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    3 Stars
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    3.5 Stars
+  </radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    4 Stars
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    4.5 Stars
+  </radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    5 Stars
+  </radio>
   <toolbar>
     demo source
     <group>
@@ -9550,7 +9562,54 @@ exports[`chromium /components/rating/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img>3.5 Stars</img>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    0.5 Stars
+  </radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    1 Star
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    1.5 Stars
+  </radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    2 Stars
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    2.5 Stars
+  </radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    3 Stars
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="true">3.5 Stars</radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    4 Stars
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    4.5 Stars
+  </radio>
+  <SVGRoot></SVGRoot>
+  <radio disabled="true" checked="false">
+    5 Stars
+  </radio>
   <text>Good</text>
   <toolbar>
     demo source
@@ -18026,8 +18085,8 @@ exports[`chromium /components/tree-view/ 1`] = `
       <text>Trap Focus</text>
     </link>
     <link>
-      Overview
-      <text>Overview</text>
+      Accordion
+      <text>Accordion</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -19066,7 +19125,7 @@ exports[`firefox /api/button/ 1`] = `
   </list>
   <separator></separator>
   <link>Breadcrumbs</link>
-  <link>ButtonBase</link>
+  <link>Button Base</link>
 </landmark>;
 
 `;
@@ -19212,15 +19271,10 @@ exports[`firefox /api/select/ 1`] = `
         </text>
         <whitespace></whitespace>
         <text>
-          In order to display a meaningful value, a function can be passed to
+          In order to display a meaningful value, a function should be passed to
           the renderValue prop which returns the value to be displayed when no
-          items are selected.
-        </text>
-        <whitespace></whitespace>
-        <text>
-          ⚠️ When using this prop, make sure the label doesn't overlap with
-          the empty displayed value. The label should either be hidden or forced
-          to a shrunk state.
+          items are selected. You can only use it when the native prop is false
+          (default).
         </text>
       </cell>
     </row>
@@ -19751,7 +19805,7 @@ exports[`firefox /api/select/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>ScopedCssBaseline</link>
+  <link>Scoped Css Baseline</link>
   <link>Skeleton</link>
 </landmark>;
 
@@ -21387,54 +21441,9 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Indeterminate
+    Checkbox with FormControlLabel
     <link></link>
-    <text>Indeterminate</text>
-  </heading>
-  <paragraph>
-    <text>
-      A checkbox input can only have two states in a form: checked or unchecked.
-      It either submits its value or doesn't. Visually, there are actually
-      three states a checkbox can be in: checked, unchecked, or indeterminate.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <label>
-    Parent
-    <checkbox>Parent</checkbox>
-    <text>Parent</text>
-  </label>
-  <label>
-    Child 1<checkbox checked="true">Child 1</checkbox>
-    <text>Child 1</text>
-  </label>
-  <label>
-    Child 2<checkbox>Child 2</checkbox>
-    <text>Child 2</text>
-  </label>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <FormControlLabel label="Parent" control={ <Checkbox
-    checked={checked[0] && checked[1]}
-    indeterminate={checked[0] !== checked[1]}
-    onChange={handleChange1} color="primary" /> }
-    /> {children}
-  </text>
-  <heading level="2">
-    Label
-    <link></link>
-    <text>Label</text>
+    <text>Checkbox with FormControlLabel</text>
   </heading>
   <paragraph>
     <text>
@@ -21503,9 +21512,9 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    FormGroup
+    Checkboxes with FormGroup
     <link></link>
-    <text>FormGroup</text>
+    <text>Checkboxes with FormGroup</text>
   </heading>
   <paragraph>
     <text>
@@ -24747,7 +24756,31 @@ exports[`firefox /components/rating/ 1`] = `
       Read only
       <text>Read only</text>
     </label>
-    <img>2 Stars</img>
+    <label>
+      1 Star
+      <text>1 Star</text>
+    </label>
+    <radio disabled="true">1 Star</radio>
+    <label>
+      2 Stars
+      <text>2 Stars</text>
+    </label>
+    <radio checked="true">2 Stars</radio>
+    <label>
+      3 Stars
+      <text>3 Stars</text>
+    </label>
+    <radio disabled="true">3 Stars</radio>
+    <label>
+      4 Stars
+      <text>4 Stars</text>
+    </label>
+    <radio disabled="true">4 Stars</radio>
+    <label>
+      5 Stars
+      <text>5 Stars</text>
+    </label>
+    <radio disabled="true">5 Stars</radio>
   </group>
   <group>
     Disabled
@@ -25151,7 +25184,56 @@ exports[`firefox /components/rating/ 1`] = `
     <text>5 Stars</text>
   </label>
   <radio>5 Stars</radio>
-  <img>2.5 Stars</img>
+  <label>
+    0.5 Stars
+    <text>0.5 Stars</text>
+  </label>
+  <radio disabled="true">0.5 Stars</radio>
+  <label>
+    1 Star
+    <text>1 Star</text>
+  </label>
+  <radio disabled="true">1 Star</radio>
+  <label>
+    1.5 Stars
+    <text>1.5 Stars</text>
+  </label>
+  <radio disabled="true">1.5 Stars</radio>
+  <label>
+    2 Stars
+    <text>2 Stars</text>
+  </label>
+  <radio disabled="true">2 Stars</radio>
+  <label>
+    2.5 Stars
+    <text>2.5 Stars</text>
+  </label>
+  <radio checked="true">2.5 Stars</radio>
+  <label>
+    3 Stars
+    <text>3 Stars</text>
+  </label>
+  <radio disabled="true">3 Stars</radio>
+  <label>
+    3.5 Stars
+    <text>3.5 Stars</text>
+  </label>
+  <radio disabled="true">3.5 Stars</radio>
+  <label>
+    4 Stars
+    <text>4 Stars</text>
+  </label>
+  <radio disabled="true">4 Stars</radio>
+  <label>
+    4.5 Stars
+    <text>4.5 Stars</text>
+  </label>
+  <radio disabled="true">4.5 Stars</radio>
+  <label>
+    5 Stars
+    <text>5 Stars</text>
+  </label>
+  <radio disabled="true">5 Stars</radio>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -25328,7 +25410,56 @@ exports[`firefox /components/rating/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img>3.5 Stars</img>
+  <label>
+    0.5 Stars
+    <text>0.5 Stars</text>
+  </label>
+  <radio disabled="true">0.5 Stars</radio>
+  <label>
+    1 Star
+    <text>1 Star</text>
+  </label>
+  <radio disabled="true">1 Star</radio>
+  <label>
+    1.5 Stars
+    <text>1.5 Stars</text>
+  </label>
+  <radio disabled="true">1.5 Stars</radio>
+  <label>
+    2 Stars
+    <text>2 Stars</text>
+  </label>
+  <radio disabled="true">2 Stars</radio>
+  <label>
+    2.5 Stars
+    <text>2.5 Stars</text>
+  </label>
+  <radio disabled="true">2.5 Stars</radio>
+  <label>
+    3 Stars
+    <text>3 Stars</text>
+  </label>
+  <radio disabled="true">3 Stars</radio>
+  <label>
+    3.5 Stars
+    <text>3.5 Stars</text>
+  </label>
+  <radio checked="true">3.5 Stars</radio>
+  <label>
+    4 Stars
+    <text>4 Stars</text>
+  </label>
+  <radio disabled="true">4 Stars</radio>
+  <label>
+    4.5 Stars
+    <text>4.5 Stars</text>
+  </label>
+  <radio disabled="true">4.5 Stars</radio>
+  <label>
+    5 Stars
+    <text>5 Stars</text>
+  </label>
+  <radio disabled="true">5 Stars</radio>
   <text>Good</text>
   <toolbar>
     demo source
@@ -31222,7 +31353,7 @@ exports[`firefox /components/tree-view/ 1`] = `
   </list>
   <separator></separator>
   <link>Trap Focus</link>
-  <link>Overview</link>
+  <link>Accordion</link>
 </landmark>;
 
 `;
