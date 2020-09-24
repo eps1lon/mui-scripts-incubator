@@ -12892,6 +12892,7 @@ exports[`chromium /components/tabs/ 1`] = `
       the viewport width with
     </text>
     <code>$SOME_CODE</code>
+    <code>$SOME_CODE</code>
     <text>:</text>
   </paragraph>
   <button>
@@ -22107,7 +22108,7 @@ exports[`firefox /components/dialogs/ 1`] = `
   <text>
     import useMediaQuery from '@material-ui/core/useMediaQuery';
     function MyComponent() { const theme = useTheme(); const fullScreen =
-    useMediaQuery(theme.breakpoints.down('sm')); return <Dialog
+    useMediaQuery(theme.breakpoints.down('md')); return <Dialog
     fullScreen={fullScreen} />; }
   </text>
   <button>
@@ -27526,7 +27527,8 @@ exports[`firefox /components/tabs/ 1`] = `
   <paragraph>
     <text>
       Left and right scroll buttons be presented (reserve space) regardless of
-      the viewport width with scrollButtons="on":
+      the viewport width with scrollButtons={true}
+      allowScrollButtonsMobile:
     </text>
   </paragraph>
   <button>
@@ -27575,7 +27577,7 @@ exports[`firefox /components/tabs/ 1`] = `
   </toolbar>
   <text>
     <Tabs value={value} onChange={handleChange}
-    variant="scrollable" scrollButtons="on"
+    variant="scrollable" scrollButtons allowScrollButtonsMobile
     aria-label="scrollable force tabs example" > <Tab
     label="Item One" /> <Tab label="Item Two" />
     <Tab label="Item Three" /> <Tab label="Item
@@ -27642,7 +27644,7 @@ exports[`firefox /components/tabs/ 1`] = `
   <paragraph>
     <text>
       Left and right scroll buttons are never be presented with
-      scrollButtons="off". All scrolling must be initiated through
+      scrollButtons={false}. All scrolling must be initiated through
       user agent scrolling mechanisms (e.g. left/right swipe, shift-mousewheel,
       etc.)
     </text>
@@ -27693,7 +27695,7 @@ exports[`firefox /components/tabs/ 1`] = `
   </toolbar>
   <text>
     <Tabs value={value} onChange={handleChange}
-    variant="scrollable" scrollButtons="off"
+    variant="scrollable" scrollButtons={false}
     aria-label="scrollable prevent tabs example" > <Tab
     label="Item One" /> <Tab label="Item Two" />
     <Tab label="Item Three" /> <Tab label="Item
