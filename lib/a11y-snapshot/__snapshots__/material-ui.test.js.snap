@@ -294,14 +294,14 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.10. View versions page.</link>
+      <link>v5.0.0-alpha.11. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v5.0.0-alpha.10</link>
+  <link>v5.0.0-alpha.11</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -7756,8 +7756,8 @@ exports[`chromium /components/pagination/ 1`] = `
       <text>Autocomplete</text>
     </link>
     <link>
-      Rating
-      <text>Rating</text>
+      Skeleton
+      <text>Skeleton</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -8885,8 +8885,8 @@ exports[`chromium /components/rating/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Ratings provide insight regarding others’ opinions and experiences with a
-      product. Users can also rate products they’ve purchased.
+      Ratings provide insight regarding others’ opinions and experiences, and
+      can allow the user to submit a rating of thier own.
     </text>
   </paragraph>
   <list>
@@ -8927,347 +8927,100 @@ exports[`chromium /components/rating/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Simple ratings
+    Basic rating
     <Anchor></Anchor>
-    <text>Simple ratings</text>
+    <text>Basic rating</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <group>
-    Controlled
-    <Legend>
-      <text>Controlled</text>
-    </Legend>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">1 Star</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="true">2 Stars</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">3 Stars</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">4 Stars</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">5 Stars</radio>
-  </group>
-  <group>
-    Read only
-    <Legend>
-      <text>Read only</text>
-    </Legend>
-    <img>2 Stars</img>
-  </group>
-  <group>
-    Disabled
-    <Legend>
-      <text>Disabled</text>
-    </Legend>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio disabled="true" checked="false">
-      1 Star
-    </radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio disabled="true" checked="true">
-      2 Stars
-    </radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio disabled="true" checked="false">
-      3 Stars
-    </radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio disabled="true" checked="false">
-      4 Stars
-    </radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio disabled="true" checked="false">
-      5 Stars
-    </radio>
-  </group>
-  <group>
-    No rating given
-    <Legend>
-      <text>No rating given</text>
-    </Legend>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">1 Star</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">2 Stars</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">3 Stars</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">4 Stars</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">5 Stars</radio>
-    <Label>
-      <radio checked="true">Empty</radio>
-    </Label>
-  </group>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the source">
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <heading level="2">
-    Customized ratings
-    <Anchor></Anchor>
-    <text>Customized ratings</text>
-  </heading>
-  <paragraph>
-    <text>
-      Here are some examples of customizing the component. You can learn more
-      about this in the
-    </text>
-    <link>overrides documentation page</link>
-    <text>.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    Custom icon and color
-    <Legend>
-      <text>Custom icon and color</text>
-    </Legend>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">0.5 Hearts</radio>
-    <SVGRoot></SVGRoot>
-    <radio checked="false">1 Heart</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">1.5 Hearts</radio>
-    <SVGRoot></SVGRoot>
-    <radio checked="true">2 Hearts</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">2.5 Hearts</radio>
-    <SVGRoot></SVGRoot>
-    <radio checked="false">3 Hearts</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">3.5 Hearts</radio>
-    <SVGRoot></SVGRoot>
-    <radio checked="false">4 Hearts</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">4.5 Hearts</radio>
-    <SVGRoot></SVGRoot>
-    <radio checked="false">5 Hearts</radio>
-  </group>
-  <group>
-    10 stars
-    <Legend>
-      <text>10 stars</text>
-    </Legend>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">1 Star</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="true">2 Stars</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">3 Stars</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">4 Stars</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">5 Stars</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">6 Stars</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">7 Stars</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">8 Stars</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">9 Stars</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">10 Stars</radio>
-  </group>
-  <group>
-    Custom icon set
-    <Legend>
-      <text>Custom icon set</text>
-    </Legend>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">Very Dissatisfied</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="true">Dissatisfied</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">Neutral</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">Satisfied</radio>
-    <Label>
-      <SVGRoot></SVGRoot>
-    </Label>
-    <radio checked="false">Very Satisfied</radio>
-  </group>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button description="Show the source">
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Edit in CodeSandbox">
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Copy the source">
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset focus to test keyboard navigation">
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button description="Reset demo">
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      See more
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <heading level="2">
-    Hover feedback
-    <Anchor></Anchor>
-    <text>Hover feedback</text>
-  </heading>
-  <paragraph>
-    <text>
-      You can display a label on hover to help users pick the correct rating
-      value. The demo uses the
-    </text>
-    <code>$SOME_CODE</code>
-    <text>prop.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
+  <Legend>
+    <text>Controlled</text>
+  </Legend>
   <Label>
     <SVGRoot></SVGRoot>
   </Label>
-  <radio checked="false">0.5 Stars</radio>
-  <SVGRoot></SVGRoot>
   <radio checked="false">1 Star</radio>
   <Label>
     <SVGRoot></SVGRoot>
   </Label>
-  <radio checked="false">1.5 Stars</radio>
-  <SVGRoot></SVGRoot>
   <radio checked="true">2 Stars</radio>
   <Label>
     <SVGRoot></SVGRoot>
   </Label>
-  <radio checked="false">2.5 Stars</radio>
-  <SVGRoot></SVGRoot>
   <radio checked="false">3 Stars</radio>
   <Label>
     <SVGRoot></SVGRoot>
   </Label>
-  <radio checked="false">3.5 Stars</radio>
-  <SVGRoot></SVGRoot>
   <radio checked="false">4 Stars</radio>
   <Label>
     <SVGRoot></SVGRoot>
   </Label>
-  <radio checked="false">4.5 Stars</radio>
-  <SVGRoot></SVGRoot>
   <radio checked="false">5 Stars</radio>
-  <text>Poor+</text>
+  <Legend>
+    <text>Read only</text>
+  </Legend>
+  <img>2 Stars</img>
+  <Legend>
+    <text>Disabled</text>
+  </Legend>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    1 Star
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="true">
+    2 Stars
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    3 Stars
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    4 Stars
+  </radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio disabled="true" checked="false">
+    5 Stars
+  </radio>
+  <Legend>
+    <text>No rating given</text>
+  </Legend>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">1 Star</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">2 Stars</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">3 Stars</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">4 Stars</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">5 Stars</radio>
+  <Label>
+    <radio checked="true">Empty</radio>
+  </Label>
   <toolbar>
     demo source
     <group>
@@ -9303,9 +9056,9 @@ exports[`chromium /components/rating/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Half ratings
+    Rating precision
     <Anchor></Anchor>
-    <text>Half ratings</text>
+    <text>Rating precision</text>
   </heading>
   <paragraph>
     <text>The rating can display any float number with the</text>
@@ -9384,12 +9137,94 @@ exports[`chromium /components/rating/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
+    Hover feedback
+    <Anchor></Anchor>
+    <text>Hover feedback</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can display a label on hover to help the user pick the correct rating
+      value. The demo uses the
+    </text>
+    <code>$SOME_CODE</code>
+    <text>prop.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">0.5 Stars</radio>
+  <SVGRoot></SVGRoot>
+  <radio checked="false">1 Star</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">1.5 Stars</radio>
+  <SVGRoot></SVGRoot>
+  <radio checked="true">2 Stars</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">2.5 Stars</radio>
+  <SVGRoot></SVGRoot>
+  <radio checked="false">3 Stars</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">3.5 Stars</radio>
+  <SVGRoot></SVGRoot>
+  <radio checked="false">4 Stars</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">4.5 Stars</radio>
+  <SVGRoot></SVGRoot>
+  <radio checked="false">5 Stars</radio>
+  <text>Poor+</text>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button description="Show the full source">
+      Show the full source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Edit in CodeSandbox">
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Copy the source">
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset focus to test keyboard navigation">
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset demo">
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
     Sizes
     <Anchor></Anchor>
     <text>Sizes</text>
   </heading>
   <paragraph>
-    <text>Fancy larger or smaller ratings? Use the</text>
+    <text>For larger or smaller ratings use the</text>
     <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
@@ -9492,15 +9327,160 @@ exports[`chromium /components/rating/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
+    Customized rating
+    <Anchor></Anchor>
+    <text>Customized rating</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here are some examples of customizing the component. You can learn more
+      about this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Legend>
+    <text>Custom icon and color</text>
+  </Legend>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">0.5 Hearts</radio>
+  <SVGRoot></SVGRoot>
+  <radio checked="false">1 Heart</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">1.5 Hearts</radio>
+  <SVGRoot></SVGRoot>
+  <radio checked="true">2 Hearts</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">2.5 Hearts</radio>
+  <SVGRoot></SVGRoot>
+  <radio checked="false">3 Hearts</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">3.5 Hearts</radio>
+  <SVGRoot></SVGRoot>
+  <radio checked="false">4 Hearts</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">4.5 Hearts</radio>
+  <SVGRoot></SVGRoot>
+  <radio checked="false">5 Hearts</radio>
+  <Legend>
+    <text>10 stars</text>
+  </Legend>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">1 Star</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="true">2 Stars</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">3 Stars</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">4 Stars</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">5 Stars</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">6 Stars</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">7 Stars</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">8 Stars</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">9 Stars</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">10 Stars</radio>
+  <Legend>
+    <text>Custom icon set</text>
+  </Legend>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">Very Dissatisfied</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="true">Dissatisfied</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">Neutral</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">Satisfied</radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+  </Label>
+  <radio checked="false">Very Satisfied</radio>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button description="Show the source">
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Edit in CodeSandbox">
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Copy the source">
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset focus to test keyboard navigation">
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button description="Reset demo">
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <heading level="2">
     Accessibility
     <Anchor></Anchor>
     <text>Accessibility</text>
   </heading>
   <paragraph>
-    <text>(WAI tutorial:</text>
-    <link>
-      https://www.w3.org/WAI/tutorials/forms/custom-controls/#a-star-rating
-    </link>
+    <text>(</text>
+    <link>WAI tutorial</link>
     <text>)</text>
   </paragraph>
   <paragraph>
@@ -9512,9 +9492,9 @@ exports[`chromium /components/rating/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <text>
-        A radio group is used with its fields visually hidden. It contains six
-        radio buttons, one for each star and another for 0 stars, which is
-        checked by default. Make sure you are providing a
+        A radio group with its fields visually hidden. It contains six radio
+        buttons, one for each star, and another for 0 stars that is checked by
+        default. Be sure to provide a value for the
       </text>
       <code>$SOME_CODE</code>
       <text>prop that is unique to the parent form.</text>
@@ -9524,28 +9504,31 @@ exports[`chromium /components/rating/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <text>
-        The labels for the radio buttons contain actual text (“1 Star”, “2
-        Stars”, …), make sure you provide a
+        Labels for the radio buttons containing actual text (“1 Star”, “2
+        Stars”, …). Be sure to provide a suitable function to the
       </text>
       <code>$SOME_CODE</code>
-      <text>prop when the page language is not English.</text>
+      <text>
+        prop when the page is in a language other than English. You can use the
+      </text>
+      <link>included locales</link>
+      <text>, or provide your own.</text>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <text>
+        A visually distinct appearance for the rating icons. By default, the
+        rating component uses both a difference of color and shape (filled and
+        empty icons)to indicate the value. In the event that you are using color
+        as the only means to indicate the value, the information should also be
+        also displayed as text, as in this demo. This is important to match
+      </text>
+      <link>success Criterion 1.4.1</link>
+      <text>of WCAG2.1.</text>
     </listitem>
   </list>
-  <paragraph>
-    <text>
-      By default, the rating component uses both a difference of color and shape
-      between the filled and empty icons to indicate the value.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      In the event that you are using color as the only means to indicate the
-      value, the information should also be also displayed as text, as in this
-      demo. This is important to match
-    </text>
-    <link>success Criterion 1.4.1</link>
-    <text>of WCAG2.1.</text>
-  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -9586,6 +9569,32 @@ exports[`chromium /components/rating/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
+  <heading level="3">
+    ARIA
+    <Anchor></Anchor>
+    <text>ARIA</text>
+  </heading>
+  <paragraph>
+    <text>
+      The read only rating has a role of "img", and an aria-label that
+      describes the displayed rating.
+    </text>
+  </paragraph>
+  <heading level="3">
+    Keyboard
+    <Anchor></Anchor>
+    <text>Keyboard</text>
+  </heading>
+  <paragraph>
+    <text>
+      Because the rating component uses radio buttons, keyboard interaction
+      follows the native browser behavior. Tab will focus the current rating,
+      and cursor keys control the selected rating.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>The read only rating is not focusable.</text>
+  </paragraph>
   <heading level="2">
     API
     <Anchor></Anchor>
@@ -9605,13 +9614,13 @@ exports[`chromium /components/rating/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Pagination
+      Slider
       <SVGRoot></SVGRoot>
-      <text>Pagination</text>
+      <text>Slider</text>
     </link>
     <link>
-      Skeleton
-      <text>Skeleton</text>
+      Switch
+      <text>Switch</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -11824,8 +11833,8 @@ exports[`chromium /components/slider 1`] = `
       <text>Select</text>
     </link>
     <link>
-      Switch
-      <text>Switch</text>
+      Rating
+      <text>Rating</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -12371,9 +12380,9 @@ exports[`chromium /components/switches/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Slider
+      Rating
       <SVGRoot></SVGRoot>
-      <text>Slider</text>
+      <text>Rating</text>
     </link>
     <link>
       Text Field
@@ -12891,6 +12900,7 @@ exports[`chromium /components/tabs/ 1`] = `
       Left and right scroll buttons be presented (reserve space) regardless of
       the viewport width with
     </text>
+    <code>$SOME_CODE</code>
     <code>$SOME_CODE</code>
     <text>:</text>
   </paragraph>
@@ -18300,7 +18310,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.10. View versions page.</link>
+      <link>v5.0.0-alpha.11. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
@@ -23862,7 +23872,7 @@ exports[`firefox /components/pagination/ 1`] = `
   </list>
   <separator></separator>
   <link>Autocomplete</link>
-  <link>Rating</link>
+  <link>Skeleton</link>
 </landmark>;
 
 `;
@@ -24672,8 +24682,8 @@ exports[`firefox /components/rating/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Ratings provide insight regarding others’ opinions and experiences with a
-      product. Users can also rate products they’ve purchased.
+      Ratings provide insight regarding others’ opinions and experiences, and
+      can allow the user to submit a rating of thier own.
     </text>
   </paragraph>
   <list>
@@ -24701,306 +24711,215 @@ exports[`firefox /components/rating/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Simple ratings
+    Basic rating
     <link></link>
-    <text>Simple ratings</text>
+    <text>Basic rating</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <group>
+  <label>
     Controlled
-    <label>
-      Controlled
-      <text>Controlled</text>
-    </label>
-    <label>
-      1 Star
-      <text>1 Star</text>
-    </label>
-    <radio>1 Star</radio>
-    <label>
-      2 Stars
-      <text>2 Stars</text>
-    </label>
-    <radio checked="true">2 Stars</radio>
-    <label>
-      3 Stars
-      <text>3 Stars</text>
-    </label>
-    <radio>3 Stars</radio>
-    <label>
-      4 Stars
-      <text>4 Stars</text>
-    </label>
-    <radio>4 Stars</radio>
-    <label>
-      5 Stars
-      <text>5 Stars</text>
-    </label>
-    <radio>5 Stars</radio>
-  </group>
-  <group>
+    <text>Controlled</text>
+  </label>
+  <label>
+    1 Star
+    <text>1 Star</text>
+  </label>
+  <radio>1 Star</radio>
+  <label>
+    2 Stars
+    <text>2 Stars</text>
+  </label>
+  <radio checked="true">2 Stars</radio>
+  <label>
+    3 Stars
+    <text>3 Stars</text>
+  </label>
+  <radio>3 Stars</radio>
+  <label>
+    4 Stars
+    <text>4 Stars</text>
+  </label>
+  <radio>4 Stars</radio>
+  <label>
+    5 Stars
+    <text>5 Stars</text>
+  </label>
+  <radio>5 Stars</radio>
+  <label>
     Read only
-    <label>
-      Read only
-      <text>Read only</text>
-    </label>
-    <img>2 Stars</img>
-  </group>
-  <group>
+    <text>Read only</text>
+  </label>
+  <img>2 Stars</img>
+  <label>
     Disabled
-    <label>
-      Disabled
-      <text>Disabled</text>
-    </label>
-    <label>
-      1 Star
-      <text>1 Star</text>
-    </label>
-    <radio disabled="true">1 Star</radio>
-    <label>
-      2 Stars
-      <text>2 Stars</text>
-    </label>
-    <radio disabled="true" checked="true">
-      2 Stars
-    </radio>
-    <label>
-      3 Stars
-      <text>3 Stars</text>
-    </label>
-    <radio disabled="true">3 Stars</radio>
-    <label>
-      4 Stars
-      <text>4 Stars</text>
-    </label>
-    <radio disabled="true">4 Stars</radio>
-    <label>
-      5 Stars
-      <text>5 Stars</text>
-    </label>
-    <radio disabled="true">5 Stars</radio>
-  </group>
-  <group>
+    <text>Disabled</text>
+  </label>
+  <label>
+    1 Star
+    <text>1 Star</text>
+  </label>
+  <radio disabled="true">1 Star</radio>
+  <label>
+    2 Stars
+    <text>2 Stars</text>
+  </label>
+  <radio disabled="true" checked="true">
+    2 Stars
+  </radio>
+  <label>
+    3 Stars
+    <text>3 Stars</text>
+  </label>
+  <radio disabled="true">3 Stars</radio>
+  <label>
+    4 Stars
+    <text>4 Stars</text>
+  </label>
+  <radio disabled="true">4 Stars</radio>
+  <label>
+    5 Stars
+    <text>5 Stars</text>
+  </label>
+  <radio disabled="true">5 Stars</radio>
+  <label>
     No rating given
-    <label>
-      No rating given
-      <text>No rating given</text>
-    </label>
-    <label>
-      1 Star
-      <text>1 Star</text>
-    </label>
-    <radio>1 Star</radio>
-    <label>
-      2 Stars
-      <text>2 Stars</text>
-    </label>
-    <radio>2 Stars</radio>
-    <label>
-      3 Stars
-      <text>3 Stars</text>
-    </label>
-    <radio>3 Stars</radio>
-    <label>
-      4 Stars
-      <text>4 Stars</text>
-    </label>
-    <radio>4 Stars</radio>
-    <label>
-      5 Stars
-      <text>5 Stars</text>
-    </label>
-    <radio>5 Stars</radio>
-    <label>
-      Empty
-      <radio checked="true">Empty</radio>
-      <text>Empty</text>
-    </label>
-  </group>
+    <text>No rating given</text>
+  </label>
+  <label>
+    1 Star
+    <text>1 Star</text>
+  </label>
+  <radio>1 Star</radio>
+  <label>
+    2 Stars
+    <text>2 Stars</text>
+  </label>
+  <radio>2 Stars</radio>
+  <label>
+    3 Stars
+    <text>3 Stars</text>
+  </label>
+  <radio>3 Stars</radio>
+  <label>
+    4 Stars
+    <text>4 Stars</text>
+  </label>
+  <radio>4 Stars</radio>
+  <label>
+    5 Stars
+    <text>5 Stars</text>
+  </label>
+  <radio>5 Stars</radio>
+  <label>
+    Empty
+    <radio checked="true">Empty</radio>
+    <text>Empty</text>
+  </label>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <Typography component="legend">Controlled</Typography>
+    <Rating name="simple-controlled" value={value}
+    onChange={(event, newValue) => { setValue(newValue);
+    }} /> <Typography component="legend">Read
+    only</Typography> <Rating name="read-only"
+    value={value} readOnly /> <Typography
+    component="legend">Disabled</Typography> <Rating
+    name="disabled" value={value} disabled />
+    <Typography component="legend">No rating
+    given</Typography> <Rating name="no-value"
+    value={null} />
+  </text>
   <heading level="2">
-    Customized ratings
+    Rating precision
     <link></link>
-    <text>Customized ratings</text>
+    <text>Rating precision</text>
   </heading>
   <paragraph>
     <text>
-      Here are some examples of customizing the component. You can learn more
-      about this in the
+      The rating can display any float number with the value prop. Use the
+      precision prop to define the minimum increment value change allowed.
     </text>
-    <link>overrides documentation page</link>
-    <text>.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <group>
-    Custom icon and color
-    <label>
-      Custom icon and color
-      <text>Custom icon and color</text>
-    </label>
-    <label>
-      0.5 Hearts
-      <text>0.5 Hearts</text>
-    </label>
-    <radio>0.5 Hearts</radio>
-    <label>
-      1 Heart
-      <text>1 Heart</text>
-    </label>
-    <radio>1 Heart</radio>
-    <label>
-      1.5 Hearts
-      <text>1.5 Hearts</text>
-    </label>
-    <radio>1.5 Hearts</radio>
-    <label>
-      2 Hearts
-      <text>2 Hearts</text>
-    </label>
-    <radio checked="true">2 Hearts</radio>
-    <label>
-      2.5 Hearts
-      <text>2.5 Hearts</text>
-    </label>
-    <radio>2.5 Hearts</radio>
-    <label>
-      3 Hearts
-      <text>3 Hearts</text>
-    </label>
-    <radio>3 Hearts</radio>
-    <label>
-      3.5 Hearts
-      <text>3.5 Hearts</text>
-    </label>
-    <radio>3.5 Hearts</radio>
-    <label>
-      4 Hearts
-      <text>4 Hearts</text>
-    </label>
-    <radio>4 Hearts</radio>
-    <label>
-      4.5 Hearts
-      <text>4.5 Hearts</text>
-    </label>
-    <radio>4.5 Hearts</radio>
-    <label>
-      5 Hearts
-      <text>5 Hearts</text>
-    </label>
-    <radio>5 Hearts</radio>
-  </group>
-  <group>
-    10 stars
-    <label>
-      10 stars
-      <text>10 stars</text>
-    </label>
-    <label>
-      1 Star
-      <text>1 Star</text>
-    </label>
-    <radio>1 Star</radio>
-    <label>
-      2 Stars
-      <text>2 Stars</text>
-    </label>
-    <radio checked="true">2 Stars</radio>
-    <label>
-      3 Stars
-      <text>3 Stars</text>
-    </label>
-    <radio>3 Stars</radio>
-    <label>
-      4 Stars
-      <text>4 Stars</text>
-    </label>
-    <radio>4 Stars</radio>
-    <label>
-      5 Stars
-      <text>5 Stars</text>
-    </label>
-    <radio>5 Stars</radio>
-    <label>
-      6 Stars
-      <text>6 Stars</text>
-    </label>
-    <radio>6 Stars</radio>
-    <label>
-      7 Stars
-      <text>7 Stars</text>
-    </label>
-    <radio>7 Stars</radio>
-    <label>
-      8 Stars
-      <text>8 Stars</text>
-    </label>
-    <radio>8 Stars</radio>
-    <label>
-      9 Stars
-      <text>9 Stars</text>
-    </label>
-    <radio>9 Stars</radio>
-    <label>
-      10 Stars
-      <text>10 Stars</text>
-    </label>
-    <radio>10 Stars</radio>
-  </group>
-  <group>
-    Custom icon set
-    <label>
-      Custom icon set
-      <text>Custom icon set</text>
-    </label>
-    <label>
-      Very Dissatisfied
-      <text>Very Dissatisfied</text>
-    </label>
-    <radio>Very Dissatisfied</radio>
-    <label>
-      Dissatisfied
-      <text>Dissatisfied</text>
-    </label>
-    <radio checked="true">Dissatisfied</radio>
-    <label>
-      Neutral
-      <text>Neutral</text>
-    </label>
-    <radio>Neutral</radio>
-    <label>
-      Satisfied
-      <text>Satisfied</text>
-    </label>
-    <radio>Satisfied</radio>
-    <label>
-      Very Satisfied
-      <text>Very Satisfied</text>
-    </label>
-    <radio>Very Satisfied</radio>
-  </group>
+  <label>
+    0.5 Stars
+    <text>0.5 Stars</text>
+  </label>
+  <radio>0.5 Stars</radio>
+  <label>
+    1 Star
+    <text>1 Star</text>
+  </label>
+  <radio>1 Star</radio>
+  <label>
+    1.5 Stars
+    <text>1.5 Stars</text>
+  </label>
+  <radio>1.5 Stars</radio>
+  <label>
+    2 Stars
+    <text>2 Stars</text>
+  </label>
+  <radio>2 Stars</radio>
+  <label>
+    2.5 Stars
+    <text>2.5 Stars</text>
+  </label>
+  <radio checked="true">2.5 Stars</radio>
+  <label>
+    3 Stars
+    <text>3 Stars</text>
+  </label>
+  <radio>3 Stars</radio>
+  <label>
+    3.5 Stars
+    <text>3.5 Stars</text>
+  </label>
+  <radio>3.5 Stars</radio>
+  <label>
+    4 Stars
+    <text>4 Stars</text>
+  </label>
+  <radio>4 Stars</radio>
+  <label>
+    4.5 Stars
+    <text>4.5 Stars</text>
+  </label>
+  <radio>4.5 Stars</radio>
+  <label>
+    5 Stars
+    <text>5 Stars</text>
+  </label>
+  <radio>5 Stars</radio>
+  <img>2.5 Stars</img>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <Rating name="half-rating" defaultValue={2.5}
+    precision={0.5} /> <Rating name="half-rating-read"
+    defaultValue={2.5} precision={0.5} readOnly />
+  </text>
   <heading level="2">
     Hover feedback
     <link></link>
@@ -25008,7 +24927,7 @@ exports[`firefox /components/rating/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      You can display a label on hover to help users pick the correct rating
+      You can display a label on hover to help the user pick the correct rating
       value. The demo uses the onChangeActive prop.
     </text>
   </paragraph>
@@ -25087,92 +25006,12 @@ exports[`firefox /components/rating/ 1`] = `
     value]}</Box> )}
   </text>
   <heading level="2">
-    Half ratings
-    <link></link>
-    <text>Half ratings</text>
-  </heading>
-  <paragraph>
-    <text>
-      The rating can display any float number with the value prop. Use the
-      precision prop to define the minimum increment value change allowed.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <label>
-    0.5 Stars
-    <text>0.5 Stars</text>
-  </label>
-  <radio>0.5 Stars</radio>
-  <label>
-    1 Star
-    <text>1 Star</text>
-  </label>
-  <radio>1 Star</radio>
-  <label>
-    1.5 Stars
-    <text>1.5 Stars</text>
-  </label>
-  <radio>1.5 Stars</radio>
-  <label>
-    2 Stars
-    <text>2 Stars</text>
-  </label>
-  <radio>2 Stars</radio>
-  <label>
-    2.5 Stars
-    <text>2.5 Stars</text>
-  </label>
-  <radio checked="true">2.5 Stars</radio>
-  <label>
-    3 Stars
-    <text>3 Stars</text>
-  </label>
-  <radio>3 Stars</radio>
-  <label>
-    3.5 Stars
-    <text>3.5 Stars</text>
-  </label>
-  <radio>3.5 Stars</radio>
-  <label>
-    4 Stars
-    <text>4 Stars</text>
-  </label>
-  <radio>4 Stars</radio>
-  <label>
-    4.5 Stars
-    <text>4.5 Stars</text>
-  </label>
-  <radio>4.5 Stars</radio>
-  <label>
-    5 Stars
-    <text>5 Stars</text>
-  </label>
-  <radio>5 Stars</radio>
-  <img>2.5 Stars</img>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Rating name="half-rating" defaultValue={2.5}
-    precision={0.5} /> <Rating name="half-rating-read"
-    defaultValue={2.5} precision={0.5} readOnly />
-  </text>
-  <heading level="2">
     Sizes
     <link></link>
     <text>Sizes</text>
   </heading>
   <paragraph>
-    <text>Fancy larger or smaller ratings? Use the size prop.</text>
+    <text>For larger or smaller ratings use the size prop.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -25269,15 +25108,176 @@ exports[`firefox /components/rating/ 1`] = `
     defaultValue={2} size="large" />
   </text>
   <heading level="2">
+    Customized rating
+    <link></link>
+    <text>Customized rating</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here are some examples of customizing the component. You can learn more
+      about this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Custom icon and color
+    <text>Custom icon and color</text>
+  </label>
+  <label>
+    0.5 Hearts
+    <text>0.5 Hearts</text>
+  </label>
+  <radio>0.5 Hearts</radio>
+  <label>
+    1 Heart
+    <text>1 Heart</text>
+  </label>
+  <radio>1 Heart</radio>
+  <label>
+    1.5 Hearts
+    <text>1.5 Hearts</text>
+  </label>
+  <radio>1.5 Hearts</radio>
+  <label>
+    2 Hearts
+    <text>2 Hearts</text>
+  </label>
+  <radio checked="true">2 Hearts</radio>
+  <label>
+    2.5 Hearts
+    <text>2.5 Hearts</text>
+  </label>
+  <radio>2.5 Hearts</radio>
+  <label>
+    3 Hearts
+    <text>3 Hearts</text>
+  </label>
+  <radio>3 Hearts</radio>
+  <label>
+    3.5 Hearts
+    <text>3.5 Hearts</text>
+  </label>
+  <radio>3.5 Hearts</radio>
+  <label>
+    4 Hearts
+    <text>4 Hearts</text>
+  </label>
+  <radio>4 Hearts</radio>
+  <label>
+    4.5 Hearts
+    <text>4.5 Hearts</text>
+  </label>
+  <radio>4.5 Hearts</radio>
+  <label>
+    5 Hearts
+    <text>5 Hearts</text>
+  </label>
+  <radio>5 Hearts</radio>
+  <label>
+    10 stars
+    <text>10 stars</text>
+  </label>
+  <label>
+    1 Star
+    <text>1 Star</text>
+  </label>
+  <radio>1 Star</radio>
+  <label>
+    2 Stars
+    <text>2 Stars</text>
+  </label>
+  <radio checked="true">2 Stars</radio>
+  <label>
+    3 Stars
+    <text>3 Stars</text>
+  </label>
+  <radio>3 Stars</radio>
+  <label>
+    4 Stars
+    <text>4 Stars</text>
+  </label>
+  <radio>4 Stars</radio>
+  <label>
+    5 Stars
+    <text>5 Stars</text>
+  </label>
+  <radio>5 Stars</radio>
+  <label>
+    6 Stars
+    <text>6 Stars</text>
+  </label>
+  <radio>6 Stars</radio>
+  <label>
+    7 Stars
+    <text>7 Stars</text>
+  </label>
+  <radio>7 Stars</radio>
+  <label>
+    8 Stars
+    <text>8 Stars</text>
+  </label>
+  <radio>8 Stars</radio>
+  <label>
+    9 Stars
+    <text>9 Stars</text>
+  </label>
+  <radio>9 Stars</radio>
+  <label>
+    10 Stars
+    <text>10 Stars</text>
+  </label>
+  <radio>10 Stars</radio>
+  <label>
+    Custom icon set
+    <text>Custom icon set</text>
+  </label>
+  <label>
+    Very Dissatisfied
+    <text>Very Dissatisfied</text>
+  </label>
+  <radio>Very Dissatisfied</radio>
+  <label>
+    Dissatisfied
+    <text>Dissatisfied</text>
+  </label>
+  <radio checked="true">Dissatisfied</radio>
+  <label>
+    Neutral
+    <text>Neutral</text>
+  </label>
+  <radio>Neutral</radio>
+  <label>
+    Satisfied
+    <text>Satisfied</text>
+  </label>
+  <radio>Satisfied</radio>
+  <label>
+    Very Satisfied
+    <text>Very Satisfied</text>
+  </label>
+  <radio>Very Satisfied</radio>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
     Accessibility
     <link></link>
     <text>Accessibility</text>
   </heading>
   <paragraph>
-    <text>(WAI tutorial:</text>
-    <link>
-      https://www.w3.org/WAI/tutorials/forms/custom-controls/#a-star-rating
-    </link>
+    <text>(</text>
+    <link>WAI tutorial</link>
     <text>)</text>
   </paragraph>
   <paragraph>
@@ -25285,45 +25285,51 @@ exports[`firefox /components/rating/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • A radio group is used with its fields visually hidden. It contains six
-      radio buttons, one for each star and another for 0 stars, which is checked
-      by default. Make sure you are providing a name prop that is unique to the
-      parent form.
+      • A radio group with its fields visually hidden. It contains six radio
+      buttons, one for each star, and another for 0 stars that is checked by
+      default. Be sure to provide a value for the name prop that is unique to
+      the parent form.
       <statictext>•</statictext>
       <text>
-        A radio group is used with its fields visually hidden. It contains six
-        radio buttons, one for each star and another for 0 stars, which is
-        checked by default. Make sure you are providing a name prop that is
-        unique to the parent form.
+        A radio group with its fields visually hidden. It contains six radio
+        buttons, one for each star, and another for 0 stars that is checked by
+        default. Be sure to provide a value for the name prop that is unique to
+        the parent form.
       </text>
     </listitem>
     <listitem>
-      • The labels for the radio buttons contain actual text (“1 Star”, “2
-      Stars”, …), make sure you provide a getLabelText prop when the page
-      language is not English.
+      • Labels for the radio buttons containing actual text (“1 Star”, “2
+      Stars”, …). Be sure to provide a suitable function to the getLabelText
+      prop when the page is in a language other than English. You can use the
+      included locales , or provide your own.
       <statictext>•</statictext>
       <text>
-        The labels for the radio buttons contain actual text (“1 Star”, “2
-        Stars”, …), make sure you provide a getLabelText prop when the page
-        language is not English.
+        Labels for the radio buttons containing actual text (“1 Star”, “2
+        Stars”, …). Be sure to provide a suitable function to the getLabelText
+        prop when the page is in a language other than English. You can use the
       </text>
+      <link>included locales</link>
+      <text>, or provide your own.</text>
+    </listitem>
+    <listitem>
+      • A visually distinct appearance for the rating icons. By default, the
+      rating component uses both a difference of color and shape (filled and
+      empty icons)to indicate the value. In the event that you are using color
+      as the only means to indicate the value, the information should also be
+      also displayed as text, as in this demo. This is important to match
+      success Criterion 1.4.1 of WCAG2.1.
+      <statictext>•</statictext>
+      <text>
+        A visually distinct appearance for the rating icons. By default, the
+        rating component uses both a difference of color and shape (filled and
+        empty icons)to indicate the value. In the event that you are using color
+        as the only means to indicate the value, the information should also be
+        also displayed as text, as in this demo. This is important to match
+      </text>
+      <link>success Criterion 1.4.1</link>
+      <text>of WCAG2.1.</text>
     </listitem>
   </list>
-  <paragraph>
-    <text>
-      By default, the rating component uses both a difference of color and shape
-      between the filled and empty icons to indicate the value.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      In the event that you are using color as the only means to indicate the
-      value, the information should also be also displayed as text, as in this
-      demo. This is important to match
-    </text>
-    <link>success Criterion 1.4.1</link>
-    <text>of WCAG2.1.</text>
-  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -25345,6 +25351,32 @@ exports[`firefox /components/rating/ 1`] = `
     opacity: 0.55 }} fontSize="inherit" />} />
     <Box ml={2}>{labels[value]}</Box>
   </text>
+  <heading level="3">
+    ARIA
+    <link></link>
+    <text>ARIA</text>
+  </heading>
+  <paragraph>
+    <text>
+      The read only rating has a role of "img", and an aria-label that
+      describes the displayed rating.
+    </text>
+  </paragraph>
+  <heading level="3">
+    Keyboard
+    <link></link>
+    <text>Keyboard</text>
+  </heading>
+  <paragraph>
+    <text>
+      Because the rating component uses radio buttons, keyboard interaction
+      follows the native browser behavior. Tab will focus the current rating,
+      and cursor keys control the selected rating.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>The read only rating is not focusable.</text>
+  </paragraph>
   <heading level="2">
     API
     <link></link>
@@ -25358,8 +25390,8 @@ exports[`firefox /components/rating/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Pagination</link>
-  <link>Skeleton</link>
+  <link>Slider</link>
+  <link>Switch</link>
 </landmark>;
 
 `;
@@ -26759,7 +26791,7 @@ exports[`firefox /components/slider 1`] = `
   </list>
   <separator></separator>
   <link>Select</link>
-  <link>Switch</link>
+  <link>Rating</link>
 </landmark>;
 
 `;
@@ -27161,7 +27193,7 @@ exports[`firefox /components/switches/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Slider</link>
+  <link>Rating</link>
   <link>Text Field</link>
 </landmark>;
 
@@ -27526,7 +27558,8 @@ exports[`firefox /components/tabs/ 1`] = `
   <paragraph>
     <text>
       Left and right scroll buttons be presented (reserve space) regardless of
-      the viewport width with scrollButtons="on":
+      the viewport width with scrollButtons={true}
+      allowScrollButtonsMobile:
     </text>
   </paragraph>
   <button>
@@ -27575,7 +27608,7 @@ exports[`firefox /components/tabs/ 1`] = `
   </toolbar>
   <text>
     <Tabs value={value} onChange={handleChange}
-    variant="scrollable" scrollButtons="on"
+    variant="scrollable" scrollButtons allowScrollButtonsMobile
     aria-label="scrollable force tabs example" > <Tab
     label="Item One" /> <Tab label="Item Two" />
     <Tab label="Item Three" /> <Tab label="Item
@@ -27642,7 +27675,7 @@ exports[`firefox /components/tabs/ 1`] = `
   <paragraph>
     <text>
       Left and right scroll buttons are never be presented with
-      scrollButtons="off". All scrolling must be initiated through
+      scrollButtons={false}. All scrolling must be initiated through
       user agent scrolling mechanisms (e.g. left/right swipe, shift-mousewheel,
       etc.)
     </text>
@@ -27693,7 +27726,7 @@ exports[`firefox /components/tabs/ 1`] = `
   </toolbar>
   <text>
     <Tabs value={value} onChange={handleChange}
-    variant="scrollable" scrollButtons="off"
+    variant="scrollable" scrollButtons={false}
     aria-label="scrollable prevent tabs example" > <Tab
     label="Item One" /> <Tab label="Item Two" />
     <Tab label="Item Three" /> <Tab label="Item
