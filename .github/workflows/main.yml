@@ -23,7 +23,6 @@ jobs:
         run: yarn install
       - name: Check environment
         run: |
-          echo "LANG: '$LANG'"
           node bin/env.js
       - uses: ./actions/cleanup
         with:
@@ -31,5 +30,3 @@ jobs:
       - uses: ./actions/watch-material-ui
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-        env:
-          LANG: "en_US.UTF-8"
