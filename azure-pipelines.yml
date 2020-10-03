@@ -12,7 +12,7 @@ pool:
 steps:
   - powershell: |
       $REPO_PATH = $(Build.SourcesDirectory)
-      echo "path; $REPO_PATH"
+      write-verbose "path; $REPO_PATH"
 
   - task: NodeTool@0
     inputs:
