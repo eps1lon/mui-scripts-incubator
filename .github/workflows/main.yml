@@ -9,6 +9,10 @@ on:
     # how I could be notified if it finishes a deploy of the default branch
     - cron: "0 * * * *"
 
+defaults:
+  run:
+    shell: powershell
+
 jobs:
   a11y-snapshot:
     runs-on: windows-latest

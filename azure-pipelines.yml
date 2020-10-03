@@ -31,7 +31,7 @@ steps:
       yarn lint
     displayName: "check code semantics"
 
-  - script: |
+  - powershell: |
       $LOG_FILE_PATH = "$REPO_PATH\lib\a11y-snapshot\nvda.log"
       $NVDA_VENDOR = "$REPO_PATH\node_modules\screen-reader-testing-library\nvda-2020.2"
       $NVDA_BIN = "$NVDA_VENDOR\portable\nvda.exe"
