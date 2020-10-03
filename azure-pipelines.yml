@@ -32,6 +32,7 @@ steps:
     displayName: "check code semantics"
 
   - powershell: |
+      $REPO_PATH = ${{ variables['Build.SourcesDirectory'] }}
       $LOG_FILE_PATH = "$REPO_PATH\lib\a11y-snapshot\nvda.log"
       $NVDA_VENDOR = "$REPO_PATH\node_modules\screen-reader-testing-library\nvda-2020.2"
       $NVDA_BIN = "$NVDA_VENDOR\portable\nvda.exe"
@@ -39,8 +40,6 @@ steps:
       yarn a11y-snapshot --runInBand screen-reader.test.js
       & $NVDA_BIN -q
     displayName: "test"
-    env:
-      REPO_PATH: $(Build.SourcesDirectory)
 
   - task: Npm@1
     continueOnError: "true"
