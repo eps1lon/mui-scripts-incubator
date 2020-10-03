@@ -10,6 +10,10 @@ pool:
   vmImage: "windows-latest"
 
 steps:
+  - powershell: |
+      $REPO_PATH = ${{ variables.Build.SourcesDirectory }}
+      echo $REPO_PATH
+
   - task: NodeTool@0
     inputs:
       versionSpec: "14.x"
@@ -32,7 +36,7 @@ steps:
     displayName: "check code semantics"
 
   - powershell: |
-      $REPO_PATH = ${{ variables['Build.SourcesDirectory'] }}
+      $REPO_PATH = ${{ variables.Build.SourcesDirectory }}
       $LOG_FILE_PATH = "$REPO_PATH\lib\a11y-snapshot\nvda.log"
       $NVDA_VENDOR = "$REPO_PATH\node_modules\screen-reader-testing-library\nvda-2020.2"
       $NVDA_BIN = "$NVDA_VENDOR\portable\nvda.exe"
