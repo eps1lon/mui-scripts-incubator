@@ -15615,17 +15615,25 @@ exports[`chromium /components/pickers 1`] = `
   <text value="undefined" checked="undefined" pressed="undefined">
      
   </text>
-  <textbox
-    readonly="true"
-    value="09:11 PM"
-    checked="undefined"
-    pressed="undefined"
-  >
-    Choose time, selected time is 9:11 PM
+  <textbox value="09:11 PM" checked="undefined" pressed="undefined">
+    hh:mm (a|p)m
     <text value="undefined" checked="undefined" pressed="undefined">
       09:11 PM
     </text>
   </textbox>
+  <button value="undefined" checked="undefined" pressed="undefined">
+    change time
+    <SVGRoot
+      value="undefined"
+      checked="undefined"
+      pressed="undefined"
+    ></SVGRoot>
+  </button>
+  <paragraph value="undefined" checked="undefined" pressed="undefined">
+    <text value="undefined" checked="undefined" pressed="undefined">
+      hh:mm (a|p)m
+    </text>
+  </paragraph>
   <toolbar value="undefined" checked="undefined" pressed="undefined">
     demo source
     <group value="undefined" checked="undefined" pressed="undefined">
@@ -15747,22 +15755,6 @@ exports[`chromium /components/pickers 1`] = `
     <Date value="2017-05-24" checked="undefined" pressed="undefined">
       Birthday
       <spinbutton
-        valuetext="05"
-        valuemax="12"
-        valuemin="1"
-        value="5"
-        checked="undefined"
-        pressed="undefined"
-      >
-        Month
-        <text value="undefined" checked="undefined" pressed="undefined">
-          05
-        </text>
-      </spinbutton>
-      <text value="undefined" checked="undefined" pressed="undefined">
-        /
-      </text>
-      <spinbutton
         valuetext="24"
         valuemax="31"
         valuemin="1"
@@ -15773,6 +15765,22 @@ exports[`chromium /components/pickers 1`] = `
         Day
         <text value="undefined" checked="undefined" pressed="undefined">
           24
+        </text>
+      </spinbutton>
+      <text value="undefined" checked="undefined" pressed="undefined">
+        /
+      </text>
+      <spinbutton
+        valuetext="05"
+        valuemax="12"
+        valuemin="1"
+        value="5"
+        checked="undefined"
+        pressed="undefined"
+      >
+        Month
+        <text value="undefined" checked="undefined" pressed="undefined">
+          05
         </text>
       </spinbutton>
       <text value="undefined" checked="undefined" pressed="undefined">
@@ -15895,22 +15903,6 @@ exports[`chromium /components/pickers 1`] = `
     <DateTime value="2017-05-24T10:30" checked="undefined" pressed="undefined">
       Next appointment
       <spinbutton
-        valuetext="05"
-        valuemax="12"
-        valuemin="1"
-        value="5"
-        checked="undefined"
-        pressed="undefined"
-      >
-        Month
-        <text value="undefined" checked="undefined" pressed="undefined">
-          05
-        </text>
-      </spinbutton>
-      <text value="undefined" checked="undefined" pressed="undefined">
-        /
-      </text>
-      <spinbutton
         valuetext="24"
         valuemax="31"
         valuemin="1"
@@ -15921,6 +15913,22 @@ exports[`chromium /components/pickers 1`] = `
         Day
         <text value="undefined" checked="undefined" pressed="undefined">
           24
+        </text>
+      </spinbutton>
+      <text value="undefined" checked="undefined" pressed="undefined">
+        /
+      </text>
+      <spinbutton
+        valuetext="05"
+        valuemax="12"
+        valuemin="1"
+        value="5"
+        checked="undefined"
+        pressed="undefined"
+      >
+        Month
+        <text value="undefined" checked="undefined" pressed="undefined">
+          05
         </text>
       </spinbutton>
       <text value="undefined" checked="undefined" pressed="undefined">
@@ -15939,13 +15947,11 @@ exports[`chromium /components/pickers 1`] = `
           2017
         </text>
       </spinbutton>
-      <text value="undefined" checked="undefined" pressed="undefined">
-        ,
-      </text>
+      <text value="undefined" checked="undefined" pressed="undefined"></text>
       <spinbutton
         valuetext="10"
-        valuemax="12"
-        valuemin="1"
+        valuemax="23"
+        valuemin="0"
         value="10"
         checked="undefined"
         pressed="undefined"
@@ -15969,20 +15975,6 @@ exports[`chromium /components/pickers 1`] = `
         Minutes
         <text value="undefined" checked="undefined" pressed="undefined">
           30
-        </text>
-      </spinbutton>
-      <text value="undefined" checked="undefined" pressed="undefined"></text>
-      <spinbutton
-        valuetext="AM"
-        valuemax="2"
-        valuemin="1"
-        value="1"
-        checked="undefined"
-        pressed="undefined"
-      >
-        AM/PM
-        <text value="undefined" checked="undefined" pressed="undefined">
-          AM
         </text>
       </spinbutton>
     </DateTime>
@@ -16090,8 +16082,8 @@ exports[`chromium /components/pickers 1`] = `
       Alarm clock
       <spinbutton
         valuetext="07"
-        valuemax="12"
-        valuemin="1"
+        valuemax="23"
+        valuemin="0"
         value="7"
         checked="undefined"
         pressed="undefined"
@@ -16115,20 +16107,6 @@ exports[`chromium /components/pickers 1`] = `
         Minutes
         <text value="undefined" checked="undefined" pressed="undefined">
           30
-        </text>
-      </spinbutton>
-      <text value="undefined" checked="undefined" pressed="undefined"></text>
-      <spinbutton
-        valuetext="AM"
-        valuemax="2"
-        valuemin="1"
-        value="1"
-        checked="undefined"
-        pressed="undefined"
-      >
-        AM/PM
-        <text value="undefined" checked="undefined" pressed="undefined">
-          AM
         </text>
       </spinbutton>
     </InputTime>
@@ -45040,17 +45018,20 @@ exports[`firefox /components/pickers 1`] = `
   <statictext value="undefined" checked="undefined" pressed="undefined">
      
   </statictext>
-  <textbox
-    readonly="true"
-    value="09:11 PM"
-    checked="undefined"
-    pressed="undefined"
-  >
-    Choose time, selected time is 9:11 PM
+  <textbox value="09:11 PM" checked="undefined" pressed="undefined">
+    hh:mm (a|p)m
     <text value="undefined" checked="undefined" pressed="undefined">
       09:11 PM
     </text>
   </textbox>
+  <button value="undefined" checked="undefined" pressed="undefined">
+    change time
+  </button>
+  <paragraph value="undefined" checked="undefined" pressed="undefined">
+    <text value="undefined" checked="undefined" pressed="undefined">
+      hh:mm (a|p)m
+    </text>
+  </paragraph>
   <toolbar value="undefined" checked="undefined" pressed="undefined">
     demo source
     <button value="undefined" checked="undefined" pressed="undefined">
@@ -45128,20 +45109,6 @@ exports[`firefox /components/pickers 1`] = `
     <Date value="undefined" checked="undefined" pressed="undefined">
       Birthday
       <spinbutton
-        valuetext="05"
-        value="05"
-        checked="undefined"
-        pressed="undefined"
-      >
-        Month
-        <text value="undefined" checked="undefined" pressed="undefined">
-          05
-        </text>
-      </spinbutton>
-      <text value="undefined" checked="undefined" pressed="undefined">
-        /
-      </text>
-      <spinbutton
         valuetext="24"
         value="24"
         checked="undefined"
@@ -45150,6 +45117,20 @@ exports[`firefox /components/pickers 1`] = `
         Day
         <text value="undefined" checked="undefined" pressed="undefined">
           24
+        </text>
+      </spinbutton>
+      <text value="undefined" checked="undefined" pressed="undefined">
+        /
+      </text>
+      <spinbutton
+        valuetext="05"
+        value="05"
+        checked="undefined"
+        pressed="undefined"
+      >
+        Month
+        <text value="undefined" checked="undefined" pressed="undefined">
+          05
         </text>
       </spinbutton>
       <text value="undefined" checked="undefined" pressed="undefined">
@@ -45326,18 +45307,6 @@ exports[`firefox /components/pickers 1`] = `
           30
         </text>
       </spinbutton>
-      <text value="undefined" checked="undefined" pressed="undefined"></text>
-      <textbox
-        autocomplete="inline"
-        value="AM"
-        checked="undefined"
-        pressed="undefined"
-      >
-        AM/PM
-        <text value="undefined" checked="undefined" pressed="undefined">
-          AM
-        </text>
-      </textbox>
       <button value="undefined" checked="undefined" pressed="undefined">
         Clear
         <diagram
