@@ -3,6 +3,7 @@
 ## yarn `a11y-snapshot`
 
 The full test suite requires NVDA to be running:
+
 ```bash
 # The path you cloned this repository to
 $REPO_PATH = "C:\Users\eps1lon\Development\mui-scripts-incubator"
