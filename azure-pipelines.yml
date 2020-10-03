@@ -44,7 +44,9 @@ steps:
       yarn install
     displayName: "install dependencies"
 
-  - script: node bin/env.js
+  - script: |
+      echo "LANG: '$LANG'"
+      node bin/env.js
     displayName: Check environment
 
   - script: |

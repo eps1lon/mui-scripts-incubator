@@ -22,7 +22,9 @@ jobs:
       - name: install
         run: yarn install
       - name: Check environment
-        run: node bin/env.js
+        run: |
+          echo "LANG: '$LANG'"
+          node bin/env.js
       - uses: ./actions/cleanup
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
