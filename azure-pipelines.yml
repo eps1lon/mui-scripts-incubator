@@ -12,7 +12,7 @@ pool:
 steps:
   - task: NodeTool@0
     inputs:
-      versionSpec: "12.x"
+      versionSpec: "14.x"
     displayName: "Install Node.js"
 
   - script: |
@@ -43,6 +43,10 @@ steps:
   - script: |
       yarn install
     displayName: "install dependencies"
+
+  - script: |
+      node bin/env.js
+    displayName: Check environment
 
   - script: |
       yarn format:check
