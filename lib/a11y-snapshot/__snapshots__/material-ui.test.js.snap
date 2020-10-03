@@ -4639,9 +4639,9 @@ exports[`chromium /components/buttons/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link checked="undefined" pressed="undefined">
-      Autocomplete
+      Image List
       <SVGRoot></SVGRoot>
-      <text>Autocomplete</text>
+      <text>Image List</text>
     </link>
     <link checked="undefined" pressed="undefined">
       Button Group
@@ -7868,9 +7868,9 @@ exports[`chromium /components/pagination/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link checked="undefined" pressed="undefined">
-      About The Lab
+      Autocomplete
       <SVGRoot></SVGRoot>
-      <text>About The Lab</text>
+      <text>Autocomplete</text>
     </link>
     <link checked="undefined" pressed="undefined">
       Skeleton
@@ -9007,7 +9007,7 @@ exports[`chromium /components/rating/ 1`] = `
   <paragraph>
     <text>
       Ratings provide insight regarding others’ opinions and experiences, and
-      can allow the user to submit a rating of their own.
+      can allow the user to submit a rating of thier own.
     </text>
   </paragraph>
   <list>
@@ -21770,7 +21770,7 @@ exports[`firefox /components/buttons/ 1`] = `
   </list>
   <separator></separator>
   <link checked="undefined" pressed="undefined">
-    Autocomplete
+    Image List
   </link>
   <link checked="undefined" pressed="undefined">
     Button Group
@@ -24425,7 +24425,7 @@ exports[`firefox /components/pagination/ 1`] = `
   </list>
   <separator></separator>
   <link checked="undefined" pressed="undefined">
-    About The Lab
+    Autocomplete
   </link>
   <link checked="undefined" pressed="undefined">
     Skeleton
@@ -25296,7 +25296,7 @@ exports[`firefox /components/rating/ 1`] = `
   <paragraph>
     <text>
       Ratings provide insight regarding others’ opinions and experiences, and
-      can allow the user to submit a rating of their own.
+      can allow the user to submit a rating of thier own.
     </text>
   </paragraph>
   <list>
