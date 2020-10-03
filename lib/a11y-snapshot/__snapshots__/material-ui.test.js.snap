@@ -7868,13 +7868,13 @@ exports[`chromium /components/pagination/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link checked="undefined" pressed="undefined">
-      About The Lab
+      Menu
       <SVGRoot></SVGRoot>
-      <text>About The Lab</text>
+      <text>Menu</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Skeleton
-      <text>Skeleton</text>
+      Speed Dial
+      <text>Speed Dial</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -24234,7 +24234,7 @@ exports[`firefox /components/pagination/ 1`] = `
   </paragraph>
   <text>
     import { usePagination } from
-    '@material-ui/lab/Pagination';
+    '@material-ui/core/Pagination';
   </text>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -24425,10 +24425,10 @@ exports[`firefox /components/pagination/ 1`] = `
   </list>
   <separator></separator>
   <link checked="undefined" pressed="undefined">
-    About The Lab
+    Menu
   </link>
   <link checked="undefined" pressed="undefined">
-    Skeleton
+    Speed Dial
   </link>
 </landmark>;
 
