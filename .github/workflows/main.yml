@@ -31,3 +31,5 @@ jobs:
       - uses: ./actions/watch-material-ui
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          LANG: "en_US.UTF-8"

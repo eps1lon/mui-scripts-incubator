@@ -60,6 +60,8 @@ steps:
   - script: |
       yarn a11y-snapshot --runInBand
     displayName: "test"
+    env:
+      LANG: "en_US.UTF-8"
 
   - task: Npm@1
     continueOnError: "true"
