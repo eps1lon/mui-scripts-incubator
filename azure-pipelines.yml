@@ -10,10 +10,6 @@ pool:
   vmImage: "windows-latest"
 
 steps:
-  - powershell: |
-      $REPO_PATH = "$(Build.SourcesDirectory)"
-      write-verbose "path; $REPO_PATH"
-
   - task: NodeTool@0
     inputs:
       versionSpec: "14.x"
