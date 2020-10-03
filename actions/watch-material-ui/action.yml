@@ -1,7 +1,7 @@
 name: "watch-material-ui"
 description: "Watches mui-org/material-ui and runs experimental workflows"
 runs:
-  using: "node14"
+  using: "node12"
   main: "main.js"
 inputs:
   token:

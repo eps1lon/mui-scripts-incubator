@@ -22,7 +22,7 @@
 		"playwright": "1.4.2",
 		"prettier": "^2.1.2",
 		"react": "^16.13.1",
-		"screen-reader-testing-library": "0.0.1-alpha.0",
+		"screen-reader-testing-library": "0.0.1-alpha.1",
 		"yargs": "^16.0.3",
 		"yauzl": "^2.10.0"
 	},

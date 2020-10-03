@@ -1,7 +1,7 @@
 name: "repository-cleanup"
 description: "Various tasks to keep the repository clean"
 runs:
-  using: "node14"
+  using: "node12"
   main: "main.js"
 inputs:
   token:

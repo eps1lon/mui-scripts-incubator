@@ -5746,10 +5746,10 @@ scheduler@^0.18.0:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
-screen-reader-testing-library@0.0.1-alpha.0:
-  version "0.0.1-alpha.0"
-  resolved "https://registry.yarnpkg.com/screen-reader-testing-library/-/screen-reader-testing-library-0.0.1-alpha.0.tgz#8bb69aa78e1e00d1991b2eed6c2113a00ab7ba8b"
-  integrity sha512-Pfh0rSyUVgVMNc8Bla1rN+Bk9zkJWVnf1VxcOhy1XeCw4nPxHgNH/QO/TZ/dQUU980TSxfYrjii7r/ngQAmZKA==
+screen-reader-testing-library@0.0.1-alpha.1:
+  version "0.0.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/screen-reader-testing-library/-/screen-reader-testing-library-0.0.1-alpha.1.tgz#08d242020a808a007a22f6a7ecc68a9732b00ea7"
+  integrity sha512-lL6NoIBLf5IHm8wzQKJXTpG0ybX8wBgQsUHBvWOeaZceeQrzgKvUsgTvxLUuwZu2svRdHkCGFgZVHe0w97mBkg==
   dependencies:
     jest-diff "^26.4.2"
     jest-snapshot "^26.4.2"
