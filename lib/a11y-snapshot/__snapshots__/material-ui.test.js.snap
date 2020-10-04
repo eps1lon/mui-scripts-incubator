@@ -369,57 +369,68 @@ exports[`chromium / 1`] = `
   <list>
     <listitem level="1">
       <button>
+        Getting Started
+        <SVGRoot></SVGRoot>
         <text>Getting Started</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
+        Components
+        <SVGRoot></SVGRoot>
         <text>Components</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
+        Component API
+        <SVGRoot></SVGRoot>
         <text>Component API</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
+        Styles
+        <SVGRoot></SVGRoot>
         <text>Styles</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
+        System
+        <SVGRoot></SVGRoot>
         <text>System</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
+        Customization
+        <SVGRoot></SVGRoot>
         <text>Customization</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
+        Guides
+        <SVGRoot></SVGRoot>
         <text>Guides</text>
       </button>
     </listitem>
     <listitem level="1">
       <link checked="undefined" pressed="undefined">
-        <text>Premium themes</text>
+        Premium themes
       </link>
     </listitem>
     <listitem level="1">
       <button>
+        Discover More
+        <SVGRoot></SVGRoot>
         <text>Discover More</text>
       </button>
     </listitem>
     <listitem level="1">
       <link checked="undefined" pressed="undefined">
-        <text>Versions</text>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link checked="undefined" pressed="undefined">
-        <text>Blog</text>
+        Blog
       </link>
     </listitem>
   </list>
