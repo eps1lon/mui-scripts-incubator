@@ -8008,17 +8008,10 @@ exports[`chromium /components/pickers 1`] = `
     <text>Time picker</text>
   </Label>
   <text> </text>
-  <textbox value="09:11 PM">
-    hh:mm (a|p)m
+  <textbox readonly="true" value="09:11 PM">
+    Choose time, selected time is 9:11 PM
     <text>09:11 PM</text>
   </textbox>
-  <button>
-    change time
-    <SVGRoot></SVGRoot>
-  </button>
-  <paragraph>
-    <text>hh:mm (a|p)m</text>
-  </paragraph>
   <toolbar>
     demo source
     <group>
@@ -8086,14 +8079,14 @@ exports[`chromium /components/pickers 1`] = `
     <text> </text>
     <Date value="2017-05-24">
       Birthday
-      <spinbutton valuetext="24" valuemax="31" valuemin="1" value="24">
-        Day
-        <text>24</text>
-      </spinbutton>
-      <text>/</text>
       <spinbutton valuetext="05" valuemax="12" valuemin="1" value="5">
         Month
         <text>05</text>
+      </spinbutton>
+      <text>/</text>
+      <spinbutton valuetext="24" valuemax="31" valuemin="1" value="24">
+        Day
+        <text>24</text>
       </spinbutton>
       <text>/</text>
       <spinbutton valuetext="2017" valuemax="275760" valuemin="1" value="2017">
@@ -8156,22 +8149,22 @@ exports[`chromium /components/pickers 1`] = `
     <text> </text>
     <DateTime value="2017-05-24T10:30">
       Next appointment
-      <spinbutton valuetext="24" valuemax="31" valuemin="1" value="24">
-        Day
-        <text>24</text>
-      </spinbutton>
-      <text>/</text>
       <spinbutton valuetext="05" valuemax="12" valuemin="1" value="5">
         Month
         <text>05</text>
+      </spinbutton>
+      <text>/</text>
+      <spinbutton valuetext="24" valuemax="31" valuemin="1" value="24">
+        Day
+        <text>24</text>
       </spinbutton>
       <text>/</text>
       <spinbutton valuetext="2017" valuemax="275760" valuemin="1" value="2017">
         Year
         <text>2017</text>
       </spinbutton>
-      <text></text>
-      <spinbutton valuetext="10" valuemax="23" valuemin="0" value="10">
+      <text>,</text>
+      <spinbutton valuetext="10" valuemax="12" valuemin="1" value="10">
         Hours
         <text>10</text>
       </spinbutton>
@@ -8179,6 +8172,11 @@ exports[`chromium /components/pickers 1`] = `
       <spinbutton valuetext="30" valuemax="59" valuemin="0" value="30">
         Minutes
         <text>30</text>
+      </spinbutton>
+      <text></text>
+      <spinbutton valuetext="AM" valuemax="2" valuemin="1" value="1">
+        AM/PM
+        <text>AM</text>
       </spinbutton>
     </DateTime>
   </form>
@@ -8236,7 +8234,7 @@ exports[`chromium /components/pickers 1`] = `
     <text> </text>
     <InputTime value="07:30">
       Alarm clock
-      <spinbutton valuetext="07" valuemax="23" valuemin="0" value="7">
+      <spinbutton valuetext="07" valuemax="12" valuemin="1" value="7">
         Hours
         <text>07</text>
       </spinbutton>
@@ -8244,6 +8242,11 @@ exports[`chromium /components/pickers 1`] = `
       <spinbutton valuetext="30" valuemax="59" valuemin="0" value="30">
         Minutes
         <text>30</text>
+      </spinbutton>
+      <text></text>
+      <spinbutton valuetext="AM" valuemax="2" valuemin="1" value="1">
+        AM/PM
+        <text>AM</text>
       </spinbutton>
     </InputTime>
   </form>
@@ -24549,14 +24552,10 @@ exports[`firefox /components/pickers 1`] = `
     <text>Time picker</text>
   </label>
   <statictext> </statictext>
-  <textbox value="09:11 PM">
-    hh:mm (a|p)m
+  <textbox readonly="true" value="09:11 PM">
+    Choose time, selected time is 9:11 PM
     <text>09:11 PM</text>
   </textbox>
-  <button>change time</button>
-  <paragraph>
-    <text>hh:mm (a|p)m</text>
-  </paragraph>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -24602,14 +24601,14 @@ exports[`firefox /components/pickers 1`] = `
     <statictext> </statictext>
     <Date>
       Birthday
-      <spinbutton valuetext="24" value="24">
-        Day
-        <text>24</text>
-      </spinbutton>
-      <text>/</text>
       <spinbutton valuetext="05" value="05">
         Month
         <text>05</text>
+      </spinbutton>
+      <text>/</text>
+      <spinbutton valuetext="24" value="24">
+        Day
+        <text>24</text>
       </spinbutton>
       <text>/</text>
       <spinbutton valuetext="2017" value="2017">
@@ -24710,6 +24709,11 @@ exports[`firefox /components/pickers 1`] = `
         Minutes
         <text>30</text>
       </spinbutton>
+      <text></text>
+      <textbox autocomplete="inline" value="AM">
+        AM/PM
+        <text>AM</text>
+      </textbox>
       <button>
         Clear
         <diagram></diagram>
