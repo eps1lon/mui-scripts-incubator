@@ -7868,13 +7868,13 @@ exports[`chromium /components/pagination/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link checked="undefined" pressed="undefined">
-      About The Lab
+      Menu
       <SVGRoot></SVGRoot>
-      <text>About The Lab</text>
+      <text>Menu</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Skeleton
-      <text>Skeleton</text>
+      Speed Dial
+      <text>Speed Dial</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -8985,8 +8985,8 @@ exports[`chromium /components/radio-buttons 1`] = `
       <text>Date / Time</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Select
-      <text>Select</text>
+      Rating
+      <text>Rating</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -9737,13 +9737,13 @@ exports[`chromium /components/rating/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link checked="undefined" pressed="undefined">
-      Slider
+      Radio
       <SVGRoot></SVGRoot>
-      <text>Slider</text>
+      <text>Radio</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Switch
-      <text>Switch</text>
+      Select
+      <text>Select</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -10831,9 +10831,9 @@ exports[`chromium /components/selects/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link checked="undefined" pressed="undefined">
-      Radio
+      Rating
       <SVGRoot></SVGRoot>
-      <text>Radio</text>
+      <text>Rating</text>
     </link>
     <link checked="undefined" pressed="undefined">
       Slider
@@ -11944,8 +11944,8 @@ exports[`chromium /components/slider 1`] = `
       <text>Select</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Rating
-      <text>Rating</text>
+      Switch
+      <text>Switch</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -12497,9 +12497,9 @@ exports[`chromium /components/switches/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link checked="undefined" pressed="undefined">
-      Rating
+      Slider
       <SVGRoot></SVGRoot>
-      <text>Rating</text>
+      <text>Slider</text>
     </link>
     <link checked="undefined" pressed="undefined">
       Text Field
@@ -17536,8 +17536,8 @@ exports[`chromium /components/transfer-list 1`] = `
       <text>Text Field</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Bottom Navigation
-      <text>Bottom Navigation</text>
+      Toggle Button
+      <text>Toggle Button</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -24234,7 +24234,7 @@ exports[`firefox /components/pagination/ 1`] = `
   </paragraph>
   <text>
     import { usePagination } from
-    '@material-ui/lab/Pagination';
+    '@material-ui/core/Pagination';
   </text>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -24425,10 +24425,10 @@ exports[`firefox /components/pagination/ 1`] = `
   </list>
   <separator></separator>
   <link checked="undefined" pressed="undefined">
-    About The Lab
+    Menu
   </link>
   <link checked="undefined" pressed="undefined">
-    Skeleton
+    Speed Dial
   </link>
 </landmark>;
 
@@ -25278,7 +25278,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     Date / Time
   </link>
   <link checked="undefined" pressed="undefined">
-    Select
+    Rating
   </link>
 </landmark>;
 
@@ -26022,10 +26022,10 @@ exports[`firefox /components/rating/ 1`] = `
   </list>
   <separator></separator>
   <link checked="undefined" pressed="undefined">
-    Slider
+    Radio
   </link>
   <link checked="undefined" pressed="undefined">
-    Switch
+    Select
   </link>
 </landmark>;
 
@@ -26822,7 +26822,7 @@ exports[`firefox /components/selects/ 1`] = `
   </list>
   <separator></separator>
   <link checked="undefined" pressed="undefined">
-    Radio
+    Rating
   </link>
   <link checked="undefined" pressed="undefined">
     Slider
@@ -27477,7 +27477,7 @@ exports[`firefox /components/slider 1`] = `
     Select
   </link>
   <link checked="undefined" pressed="undefined">
-    Rating
+    Switch
   </link>
 </landmark>;
 
@@ -27913,7 +27913,7 @@ exports[`firefox /components/switches/ 1`] = `
   </list>
   <separator></separator>
   <link checked="undefined" pressed="undefined">
-    Rating
+    Slider
   </link>
   <link checked="undefined" pressed="undefined">
     Text Field
@@ -31708,7 +31708,7 @@ exports[`firefox /components/transfer-list 1`] = `
     Text Field
   </link>
   <link checked="undefined" pressed="undefined">
-    Bottom Navigation
+    Toggle Button
   </link>
 </landmark>;
 
