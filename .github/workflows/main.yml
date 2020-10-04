@@ -16,6 +16,10 @@ defaults:
 jobs:
   a11y-snapshot:
     runs-on: windows-latest
+    env:
+      NVDA_VENDOR: "${{ github.workspace }}\node_modules\screen-reader-testing-library\nvda-2020.2"
+      # NVDA_BIN: "${{ env.NVDA_VENDOR }}\portable\nvda.exe"
+      NVDA_BIN: "${{ github.workspace }}\node_modules\screen-reader-testing-library\nvda-2020.2\portable\nvda.exe"
     steps:
       - uses: actions/checkout@v2
       - name: Setup node
@@ -33,17 +37,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: "Setup NVDA"
         run: |
-          # The path you cloned this repository to
-          $REPO_PATH = "${{ github.workspace }}"
-
-          # End of configuration. Changing anything below at your own risk
-          $LOG_FILE_PATH = "$REPO_PATH\lib\a11y-snapshot\nvda.log"
-          $NVDA_VENDOR = "$REPO_PATH\node_modules\screen-reader-testing-library\nvda-2020.2"
-          $NVDA_BIN = "$NVDA_VENDOR\portable\nvda.exe"
-          & $NVDA_BIN --log-file=$LOG_FILE_PATH --config-path=$NVDA_VENDOR\settings
+          $LOG_FILE_PATH = "${{ github.workspace }}\lib\a11y-snapshot\nvda.log"
+          $CONFIG_PATH = "${{ env.NVDA_VENDOR }}\settings"
+          & ${{ env.NVDA_BIN }} --log-file=$LOG_FILE_PATH --config-path=$CONFIG_PATH
       - uses: ./actions/watch-material-ui
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: "Teardown NVDA"
         run: |
-          & $NVDA_BIN -q
+          & ${{ env.NVDA_BIN }} -q
