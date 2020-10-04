@@ -9,7 +9,15 @@ trigger:
 pool:
   vmImage: "windows-latest"
 
+variables:
+  NVDA_LOG_FILE_PATH: '$(Build.SourcesDirectory)\lib\a11y-snapshot\nvda.log'
+
 steps:
+  - powershell: |
+      # Set empty so that publishing the artifact doesn't fail if we haven't run NVDA yet.
+      Set-Content -Path '$(variables.NVDA_LOG_FILE_PATH)' -Value ''
+    displayName: setup
+
   - task: NodeTool@0
     inputs:
       versionSpec: "12.x"
@@ -33,13 +41,17 @@ steps:
 
   - powershell: |
       $REPO_PATH = "$(Build.SourcesDirectory)"
-      $LOG_FILE_PATH = "$REPO_PATH\lib\a11y-snapshot\nvda.log"
+      $LOG_FILE_PATH = "$(variables.NVDA_LOG_FILE_PATH)"
       $NVDA_VENDOR = "$REPO_PATH\node_modules\screen-reader-testing-library\nvda-2020.2"
       $NVDA_BIN = "$NVDA_VENDOR\portable\nvda.exe"
       & $NVDA_BIN --log-file=$LOG_FILE_PATH --config-path=$NVDA_VENDOR\settings
       yarn a11y-snapshot --runInBand screen-reader.test.js
       & $NVDA_BIN -q
     displayName: "test"
+
+  - publish: $(variables.NVDA_LOG_FILE_PATH)
+    artifact: nvda.log
+    condition: always()
 
   - task: Npm@1
     continueOnError: "true"
