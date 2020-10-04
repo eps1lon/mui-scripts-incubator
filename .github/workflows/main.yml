@@ -18,9 +18,6 @@ jobs:
     runs-on: windows-latest
     env:
       NVDA_LOG_FILE_PATH: '${{ github.workspace }}\lib\a11y-snapshot\nvda.log'
-      NVDA_VENDOR: '${{ github.workspace }}\node_modules\screen-reader-testing-library\nvda-2020.2'
-      # NVDA_BIN: "${{ env.NVDA_VENDOR }}\portable\nvda.exe"
-      NVDA_BIN: '${{ github.workspace }}\node_modules\screen-reader-testing-library\nvda-2020.2\portable\nvda.exe'
     steps:
       - uses: actions/checkout@v2
       - name: Setup node
@@ -38,15 +35,15 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: "Setup NVDA"
         run: |
+          $NVDA_VENDOR = "$REPO_PATH\node_modules\screen-reader-testing-library\nvda-2020.2"
+          $NVDA_BIN = "$NVDA_VENDOR\portable\nvda.exe"
           $LOG_FILE_PATH = "${{ env.NVDA_LOG_FILE_PATH }}"
-          $CONFIG_PATH = "${{ env.NVDA_VENDOR }}\settings"
+          $CONFIG_PATH = "$NVDA_VENDOR\settings"
           & ${{ env.NVDA_BIN }} --log-file=$LOG_FILE_PATH --config-path=$CONFIG_PATH
-      - uses: ./actions/watch-material-ui
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: "Teardown NVDA"
-        run: |
+          node bin/watch-material-ui.js --githubEventPath "$Env:GITHUB_EVENT_PATH" --githubEventName "$Env:GITHUB_EVENT_NAME" --githubRepository "$Env:GITHUB_REPOSITORY"
           & ${{ env.NVDA_BIN }} -q
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/upload-artifact@v2
         if: ${{ always() }}
         with:
