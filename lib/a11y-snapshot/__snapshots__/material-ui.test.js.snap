@@ -369,68 +369,57 @@ exports[`chromium / 1`] = `
   <list>
     <listitem level="1">
       <button>
-        Getting Started
-        <SVGRoot></SVGRoot>
         <text>Getting Started</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        Components
-        <SVGRoot></SVGRoot>
         <text>Components</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        Component API
-        <SVGRoot></SVGRoot>
         <text>Component API</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        Styles
-        <SVGRoot></SVGRoot>
         <text>Styles</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        System
-        <SVGRoot></SVGRoot>
         <text>System</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        Customization
-        <SVGRoot></SVGRoot>
         <text>Customization</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        Guides
-        <SVGRoot></SVGRoot>
         <text>Guides</text>
       </button>
     </listitem>
     <listitem level="1">
       <link checked="undefined" pressed="undefined">
-        Premium themes
+        <text>Premium themes</text>
       </link>
     </listitem>
     <listitem level="1">
       <button>
-        Discover More
-        <SVGRoot></SVGRoot>
         <text>Discover More</text>
       </button>
     </listitem>
     <listitem level="1">
       <link checked="undefined" pressed="undefined">
-        Blog
+        <text>Versions</text>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link checked="undefined" pressed="undefined">
+        <text>Blog</text>
       </link>
     </listitem>
   </list>
@@ -4650,9 +4639,9 @@ exports[`chromium /components/buttons/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link checked="undefined" pressed="undefined">
-      Autocomplete
+      Image List
       <SVGRoot></SVGRoot>
-      <text>Autocomplete</text>
+      <text>Image List</text>
     </link>
     <link checked="undefined" pressed="undefined">
       Button Group
@@ -7879,13 +7868,13 @@ exports[`chromium /components/pagination/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link checked="undefined" pressed="undefined">
-      Menu
+      Autocomplete
       <SVGRoot></SVGRoot>
-      <text>Menu</text>
+      <text>Autocomplete</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Speed Dial
-      <text>Speed Dial</text>
+      Skeleton
+      <text>Skeleton</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -8996,8 +8985,8 @@ exports[`chromium /components/radio-buttons 1`] = `
       <text>Date / Time</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Rating
-      <text>Rating</text>
+      Select
+      <text>Select</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -9018,7 +9007,7 @@ exports[`chromium /components/rating/ 1`] = `
   <paragraph>
     <text>
       Ratings provide insight regarding others’ opinions and experiences, and
-      can allow the user to submit a rating of their own.
+      can allow the user to submit a rating of thier own.
     </text>
   </paragraph>
   <list>
@@ -9748,13 +9737,13 @@ exports[`chromium /components/rating/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link checked="undefined" pressed="undefined">
-      Radio
+      Slider
       <SVGRoot></SVGRoot>
-      <text>Radio</text>
+      <text>Slider</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Select
-      <text>Select</text>
+      Switch
+      <text>Switch</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -10842,9 +10831,9 @@ exports[`chromium /components/selects/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link checked="undefined" pressed="undefined">
-      Rating
+      Radio
       <SVGRoot></SVGRoot>
-      <text>Rating</text>
+      <text>Radio</text>
     </link>
     <link checked="undefined" pressed="undefined">
       Slider
@@ -11955,8 +11944,8 @@ exports[`chromium /components/slider 1`] = `
       <text>Select</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Switch
-      <text>Switch</text>
+      Rating
+      <text>Rating</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -12508,9 +12497,9 @@ exports[`chromium /components/switches/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link checked="undefined" pressed="undefined">
-      Slider
+      Rating
       <SVGRoot></SVGRoot>
-      <text>Slider</text>
+      <text>Rating</text>
     </link>
     <link checked="undefined" pressed="undefined">
       Text Field
@@ -17547,8 +17536,8 @@ exports[`chromium /components/transfer-list 1`] = `
       <text>Text Field</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Toggle Button
-      <text>Toggle Button</text>
+      Bottom Navigation
+      <text>Bottom Navigation</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -21781,7 +21770,7 @@ exports[`firefox /components/buttons/ 1`] = `
   </list>
   <separator></separator>
   <link checked="undefined" pressed="undefined">
-    Autocomplete
+    Image List
   </link>
   <link checked="undefined" pressed="undefined">
     Button Group
@@ -24245,7 +24234,7 @@ exports[`firefox /components/pagination/ 1`] = `
   </paragraph>
   <text>
     import { usePagination } from
-    '@material-ui/core/Pagination';
+    '@material-ui/lab/Pagination';
   </text>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -24436,10 +24425,10 @@ exports[`firefox /components/pagination/ 1`] = `
   </list>
   <separator></separator>
   <link checked="undefined" pressed="undefined">
-    Menu
+    Autocomplete
   </link>
   <link checked="undefined" pressed="undefined">
-    Speed Dial
+    Skeleton
   </link>
 </landmark>;
 
@@ -25289,7 +25278,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     Date / Time
   </link>
   <link checked="undefined" pressed="undefined">
-    Rating
+    Select
   </link>
 </landmark>;
 
@@ -25307,7 +25296,7 @@ exports[`firefox /components/rating/ 1`] = `
   <paragraph>
     <text>
       Ratings provide insight regarding others’ opinions and experiences, and
-      can allow the user to submit a rating of their own.
+      can allow the user to submit a rating of thier own.
     </text>
   </paragraph>
   <list>
@@ -26033,10 +26022,10 @@ exports[`firefox /components/rating/ 1`] = `
   </list>
   <separator></separator>
   <link checked="undefined" pressed="undefined">
-    Radio
+    Slider
   </link>
   <link checked="undefined" pressed="undefined">
-    Select
+    Switch
   </link>
 </landmark>;
 
@@ -26833,7 +26822,7 @@ exports[`firefox /components/selects/ 1`] = `
   </list>
   <separator></separator>
   <link checked="undefined" pressed="undefined">
-    Rating
+    Radio
   </link>
   <link checked="undefined" pressed="undefined">
     Slider
@@ -27488,7 +27477,7 @@ exports[`firefox /components/slider 1`] = `
     Select
   </link>
   <link checked="undefined" pressed="undefined">
-    Switch
+    Rating
   </link>
 </landmark>;
 
@@ -27924,7 +27913,7 @@ exports[`firefox /components/switches/ 1`] = `
   </list>
   <separator></separator>
   <link checked="undefined" pressed="undefined">
-    Slider
+    Rating
   </link>
   <link checked="undefined" pressed="undefined">
     Text Field
@@ -31719,7 +31708,7 @@ exports[`firefox /components/transfer-list 1`] = `
     Text Field
   </link>
   <link checked="undefined" pressed="undefined">
-    Toggle Button
+    Bottom Navigation
   </link>
 </landmark>;
 
