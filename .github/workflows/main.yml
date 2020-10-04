@@ -17,9 +17,9 @@ jobs:
   a11y-snapshot:
     runs-on: windows-latest
     env:
-      NVDA_VENDOR: "${{ github.workspace }}\node_modules\screen-reader-testing-library\nvda-2020.2"
+      NVDA_VENDOR: '${{ github.workspace }}\node_modules\screen-reader-testing-library\nvda-2020.2'
       # NVDA_BIN: "${{ env.NVDA_VENDOR }}\portable\nvda.exe"
-      NVDA_BIN: "${{ github.workspace }}\node_modules\screen-reader-testing-library\nvda-2020.2\portable\nvda.exe"
+      NVDA_BIN: '${{ github.workspace }}\node_modules\screen-reader-testing-library\nvda-2020.2\portable\nvda.exe'
     steps:
       - uses: actions/checkout@v2
       - name: Setup node
