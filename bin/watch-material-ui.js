@@ -10,8 +10,6 @@ const exec = promisify(childProcess.exec);
 const muiMainBranch = "next";
 const githubToken = process.env.GITHUB_TOKEN;
 
-console.log(process.env);
-
 yargs
 	.command({
 		command: "$0",
@@ -68,7 +66,7 @@ async function main(argv) {
 	);
 
 	await a11ySnapshot({
-		argv: "--updateSnapshot --runInBand",
+		argv: "--updateSnapshot --runInBand --detectOpenHandles",
 		prNumber,
 	});
 
@@ -97,7 +95,7 @@ async function main(argv) {
 				maintainer_can_modify: true,
 			});
 		} catch (error) {
-			console.warning(`'${JSON.stringify(error, null, 2)}'`);
+			console.warn(`'${JSON.stringify(error, null, 2)}'`);
 		}
 	}
 }
