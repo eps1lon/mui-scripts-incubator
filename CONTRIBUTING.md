@@ -2,7 +2,8 @@
 
 ## yarn `a11y-snapshot`
 
-The full test suite requires NVDA to be running:
+The full test suite requires NVDA to be running.
+Example workflow using Windows' powershell:
 
 ```bash
 # The path you cloned this repository to
