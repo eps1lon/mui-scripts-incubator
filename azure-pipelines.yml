@@ -15,7 +15,7 @@ variables:
 steps:
   - powershell: |
       # Set empty so that publishing the artifact doesn't fail if we haven't run NVDA yet.
-      Set-Content -Path '$(variables.NVDA_LOG_FILE_PATH)' -Value ''
+      Set-Content -Path '${{ variables.NVDA_LOG_FILE_PATH }}' -Value ''
     displayName: setup
 
   - task: NodeTool@0
@@ -41,7 +41,7 @@ steps:
 
   - powershell: |
       $REPO_PATH = "$(Build.SourcesDirectory)"
-      $LOG_FILE_PATH = "$(variables.NVDA_LOG_FILE_PATH)"
+      $LOG_FILE_PATH = "${{ variables.NVDA_LOG_FILE_PATH }}"
       $NVDA_VENDOR = "$REPO_PATH\node_modules\screen-reader-testing-library\nvda-2020.2"
       $NVDA_BIN = "$NVDA_VENDOR\portable\nvda.exe"
       & $NVDA_BIN --log-file=$LOG_FILE_PATH --config-path=$NVDA_VENDOR\settings
@@ -49,7 +49,7 @@ steps:
       & $NVDA_BIN -q
     displayName: "test"
 
-  - publish: $(variables.NVDA_LOG_FILE_PATH)
+  - publish: ${{ variables.NVDA_LOG_FILE_PATH }}
     artifact: nvda.log
     condition: always()
 
