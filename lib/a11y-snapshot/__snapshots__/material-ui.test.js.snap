@@ -16892,12 +16892,20 @@ exports[`chromium /components/tooltips/ 1`] = `
     <text>Interactive</text>
   </heading>
   <paragraph>
+    <text>Tooltips are interactive by default (to pass</text>
+    <link checked="undefined" pressed="undefined">
+      WCAG 2.1 success criterion 1.4.13
+    </link>
     <text>
-      A tooltip can be interactive. It won't close when the user hovers
-      over the tooltip before the
+      ). It won't close when the user hovers over the tooltip before the
     </text>
     <code>$SOME_CODE</code>
-    <text>is expired.</text>
+    <text>
+      is expired. You can disable this behavior (thus failing the success
+      criterion which is required to reach level AA) by passing
+    </text>
+    <code>$SOME_CODE</code>
+    <text>.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -16905,7 +16913,7 @@ exports[`chromium /components/tooltips/ 1`] = `
   </button>
   <button>
     Add
-    <text>INTERACTIVE</text>
+    <text>NOT INTERACTIVE</text>
   </button>
   <toolbar>
     demo source
@@ -31258,9 +31266,15 @@ exports[`firefox /components/tooltips/ 1`] = `
     <text>Interactive</text>
   </heading>
   <paragraph>
+    <text>Tooltips are interactive by default (to pass</text>
+    <link checked="undefined" pressed="undefined">
+      WCAG 2.1 success criterion 1.4.13
+    </link>
     <text>
-      A tooltip can be interactive. It won't close when the user hovers
-      over the tooltip before the leaveDelay is expired.
+      ). It won't close when the user hovers over the tooltip before the
+      leaveDelay is expired. You can disable this behavior (thus failing the
+      success criterion which is required to reach level AA) by passing
+      disableInteractive.
     </text>
   </paragraph>
   <button>
@@ -31269,7 +31283,7 @@ exports[`firefox /components/tooltips/ 1`] = `
   </button>
   <button>
     Add
-    <text>INTERACTIVE</text>
+    <text>NOT INTERACTIVE</text>
   </button>
   <toolbar>
     demo source
@@ -31281,8 +31295,8 @@ exports[`firefox /components/tooltips/ 1`] = `
     <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
-    <Tooltip title="Add" interactive>
-    <Button>Interactive</Button> </Tooltip>
+    <Tooltip title="Add" disableInteractive> <Button>Not
+    interactive</Button> </Tooltip>
   </text>
   <heading level="2">
     Disabled Elements
