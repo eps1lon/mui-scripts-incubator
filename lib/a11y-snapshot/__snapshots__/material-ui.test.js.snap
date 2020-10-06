@@ -18272,8 +18272,8 @@ exports[`chromium /components/tree-view/ 1`] = `
       <text>Trap Focus</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Overview
-      <text>Overview</text>
+      Accordion
+      <text>Accordion</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -32254,7 +32254,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     Trap Focus
   </link>
   <link checked="undefined" pressed="undefined">
-    Overview
+    Accordion
   </link>
 </landmark>;
 
