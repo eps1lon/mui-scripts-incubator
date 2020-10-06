@@ -85,9 +85,7 @@ exports[`chromium / 1`] = `
     </text>
     <Pre>
       <code>
-        <text>
-          $ npm install @material-ui/core@next @emotion/core @emotion/styled
-        </text>
+        <text>$ npm install @material-ui/core@next</text>
       </code>
     </Pre>
     <link checked="undefined" pressed="undefined">
@@ -16892,20 +16890,12 @@ exports[`chromium /components/tooltips/ 1`] = `
     <text>Interactive</text>
   </heading>
   <paragraph>
-    <text>Tooltips are interactive by default (to pass</text>
-    <link checked="undefined" pressed="undefined">
-      WCAG 2.1 success criterion 1.4.13
-    </link>
     <text>
-      ). It won't close when the user hovers over the tooltip before the
+      A tooltip can be interactive. It won't close when the user hovers
+      over the tooltip before the
     </text>
     <code>$SOME_CODE</code>
-    <text>
-      is expired. You can disable this behavior (thus failing the success
-      criterion which is required to reach level AA) by passing
-    </text>
-    <code>$SOME_CODE</code>
-    <text>.</text>
+    <text>is expired.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -16913,7 +16903,7 @@ exports[`chromium /components/tooltips/ 1`] = `
   </button>
   <button>
     Add
-    <text>NOT INTERACTIVE</text>
+    <text>INTERACTIVE</text>
   </button>
   <toolbar>
     demo source
@@ -18272,8 +18262,8 @@ exports[`chromium /components/tree-view/ 1`] = `
       <text>Trap Focus</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Accordion
-      <text>Accordion</text>
+      Overview
+      <text>Overview</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -18341,8 +18331,7 @@ exports[`firefox / 1`] = `
     </heading>
     <text>
       Install Material-UI's source files via npm. We take care of injecting
-      the CSS needed.$ npm install @material-ui/core@next @emotion/core
-      @emotion/styled
+      the CSS needed.$ npm install @material-ui/core@next
     </text>
     <link checked="undefined" pressed="undefined">
       or use a CDN.
@@ -31266,15 +31255,9 @@ exports[`firefox /components/tooltips/ 1`] = `
     <text>Interactive</text>
   </heading>
   <paragraph>
-    <text>Tooltips are interactive by default (to pass</text>
-    <link checked="undefined" pressed="undefined">
-      WCAG 2.1 success criterion 1.4.13
-    </link>
     <text>
-      ). It won't close when the user hovers over the tooltip before the
-      leaveDelay is expired. You can disable this behavior (thus failing the
-      success criterion which is required to reach level AA) by passing
-      disableInteractive.
+      A tooltip can be interactive. It won't close when the user hovers
+      over the tooltip before the leaveDelay is expired.
     </text>
   </paragraph>
   <button>
@@ -31283,7 +31266,7 @@ exports[`firefox /components/tooltips/ 1`] = `
   </button>
   <button>
     Add
-    <text>NOT INTERACTIVE</text>
+    <text>INTERACTIVE</text>
   </button>
   <toolbar>
     demo source
@@ -31295,8 +31278,8 @@ exports[`firefox /components/tooltips/ 1`] = `
     <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
-    <Tooltip title="Add" disableInteractive> <Button>Not
-    interactive</Button> </Tooltip>
+    <Tooltip title="Add" interactive>
+    <Button>Interactive</Button> </Tooltip>
   </text>
   <heading level="2">
     Disabled Elements
@@ -32254,7 +32237,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     Trap Focus
   </link>
   <link checked="undefined" pressed="undefined">
-    Accordion
+    Overview
   </link>
 </landmark>;
 
