@@ -24374,9 +24374,9 @@ exports[`firefox /components/pagination/ 1`] = `
   </toolbar>
   <text>
     <TablePagination component="div" count={100}
-    page={page} onChangePage={handleChangePage}
+    page={page} onPageChange={handleChangePage}
     rowsPerPage={rowsPerPage}
-    onChangeRowsPerPage={handleChangeRowsPerPage} />
+    onRowsPerPageChange={handleChangeRowsPerPage} />
   </text>
   <blockquote>
     <paragraph>
