@@ -17089,6 +17089,111 @@ exports[`chromium /components/tooltips/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
+    Follow cursor
+    <Anchor></Anchor>
+    <text>Follow cursor</text>
+  </heading>
+  <paragraph>
+    <text>You can enable the tooltip to follow the cursor by setting</text>
+    <code>$SOME_CODE</code>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <text>Disabled Action</text>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button>
+      Show the full source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Faked reference object
+    <Anchor></Anchor>
+    <text>Faked reference object</text>
+  </heading>
+  <paragraph>
+    <text>
+      In the event you need to implement a custom placement, you can use the
+    </text>
+    <code>$SOME_CODE</code>
+    <text>prop: The value of the</text>
+    <code>$SOME_CODE</code>
+    <text>
+      prop can be a reference to a fake DOM element. You need to create an
+      object shaped like the
+    </text>
+    <link checked="undefined" pressed="undefined">
+      ReferenceObject
+      <code>$SOME_CODE</code>
+    </link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <text>Hover</text>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button>
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <heading level="2">
     Showing and hiding
     <Anchor></Anchor>
     <text>Showing and hiding</text>
@@ -31399,6 +31504,67 @@ exports[`firefox /components/tooltips/ 1`] = `
     TransitionComponent={Zoom} title="Add">
     <Button>Zoom</Button> </Tooltip>
   </text>
+  <heading level="2">
+    Follow cursor
+    <link checked="undefined" pressed="undefined"></link>
+    <text>Follow cursor</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can enable the tooltip to follow the cursor by setting
+      followCursor={true}.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <text>Disabled Action</text>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true"></buttonmenu>
+  </toolbar>
+  <text>
+    <Tooltip title="You don't have permission to do this"
+    followCursor> <Box bgcolor="text.disabled"
+    color="background.paper" p={2}> Disabled Action
+    </Box> </Tooltip>
+  </text>
+  <heading level="2">
+    Faked reference object
+    <link checked="undefined" pressed="undefined"></link>
+    <text>Faked reference object</text>
+  </heading>
+  <paragraph>
+    <text>
+      In the event you need to implement a custom placement, you can use the
+      anchorEl prop: The value of the anchorEl prop can be a reference to a fake
+      DOM element. You need to create an object shaped like the
+    </text>
+    <link checked="undefined" pressed="undefined">
+      ReferenceObject
+    </link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <text>Hover</text>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true"></buttonmenu>
+  </toolbar>
   <heading level="2">
     Showing and hiding
     <link checked="undefined" pressed="undefined"></link>
