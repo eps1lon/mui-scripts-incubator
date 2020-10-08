@@ -85,9 +85,7 @@ exports[`chromium / 1`] = `
     </text>
     <Pre>
       <code>
-        <text>
-          $ npm install @material-ui/core@next @emotion/core @emotion/styled
-        </text>
+        <text>$ npm install @material-ui/core@next</text>
       </code>
     </Pre>
     <link checked="undefined" pressed="undefined">
@@ -371,68 +369,57 @@ exports[`chromium / 1`] = `
   <list>
     <listitem level="1">
       <button>
-        Getting Started
-        <SVGRoot></SVGRoot>
         <text>Getting Started</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        Components
-        <SVGRoot></SVGRoot>
         <text>Components</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        Component API
-        <SVGRoot></SVGRoot>
         <text>Component API</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        Styles
-        <SVGRoot></SVGRoot>
         <text>Styles</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        System
-        <SVGRoot></SVGRoot>
         <text>System</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        Customization
-        <SVGRoot></SVGRoot>
         <text>Customization</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        Guides
-        <SVGRoot></SVGRoot>
         <text>Guides</text>
       </button>
     </listitem>
     <listitem level="1">
       <link checked="undefined" pressed="undefined">
-        Premium themes
+        <text>Premium themes</text>
       </link>
     </listitem>
     <listitem level="1">
       <button>
-        Discover More
-        <SVGRoot></SVGRoot>
         <text>Discover More</text>
       </button>
     </listitem>
     <listitem level="1">
       <link checked="undefined" pressed="undefined">
-        Blog
+        <text>Versions</text>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link checked="undefined" pressed="undefined">
+        <text>Blog</text>
       </link>
     </listitem>
   </list>
@@ -4652,9 +4639,9 @@ exports[`chromium /components/buttons/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link checked="undefined" pressed="undefined">
-      Autocomplete
+      Image List
       <SVGRoot></SVGRoot>
-      <text>Autocomplete</text>
+      <text>Image List</text>
     </link>
     <link checked="undefined" pressed="undefined">
       Button Group
@@ -7881,13 +7868,13 @@ exports[`chromium /components/pagination/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link checked="undefined" pressed="undefined">
-      Menu
+      Autocomplete
       <SVGRoot></SVGRoot>
-      <text>Menu</text>
+      <text>Autocomplete</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Speed Dial
-      <text>Speed Dial</text>
+      Skeleton
+      <text>Skeleton</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -8998,8 +8985,8 @@ exports[`chromium /components/radio-buttons 1`] = `
       <text>Date / Time</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Rating
-      <text>Rating</text>
+      Select
+      <text>Select</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -9020,7 +9007,7 @@ exports[`chromium /components/rating/ 1`] = `
   <paragraph>
     <text>
       Ratings provide insight regarding others’ opinions and experiences, and
-      can allow the user to submit a rating of their own.
+      can allow the user to submit a rating of thier own.
     </text>
   </paragraph>
   <list>
@@ -9750,13 +9737,13 @@ exports[`chromium /components/rating/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link checked="undefined" pressed="undefined">
-      Radio
+      Slider
       <SVGRoot></SVGRoot>
-      <text>Radio</text>
+      <text>Slider</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Select
-      <text>Select</text>
+      Switch
+      <text>Switch</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -10844,9 +10831,9 @@ exports[`chromium /components/selects/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link checked="undefined" pressed="undefined">
-      Rating
+      Radio
       <SVGRoot></SVGRoot>
-      <text>Rating</text>
+      <text>Radio</text>
     </link>
     <link checked="undefined" pressed="undefined">
       Slider
@@ -11957,8 +11944,8 @@ exports[`chromium /components/slider 1`] = `
       <text>Select</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Switch
-      <text>Switch</text>
+      Rating
+      <text>Rating</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -12510,9 +12497,9 @@ exports[`chromium /components/switches/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link checked="undefined" pressed="undefined">
-      Slider
+      Rating
       <SVGRoot></SVGRoot>
-      <text>Slider</text>
+      <text>Rating</text>
     </link>
     <link checked="undefined" pressed="undefined">
       Text Field
@@ -16892,20 +16879,12 @@ exports[`chromium /components/tooltips/ 1`] = `
     <text>Interactive</text>
   </heading>
   <paragraph>
-    <text>Tooltips are interactive by default (to pass</text>
-    <link checked="undefined" pressed="undefined">
-      WCAG 2.1 success criterion 1.4.13
-    </link>
     <text>
-      ). It won't close when the user hovers over the tooltip before the
+      A tooltip can be interactive. It won't close when the user hovers
+      over the tooltip before the
     </text>
     <code>$SOME_CODE</code>
-    <text>
-      is expired. You can disable this behavior (thus failing the success
-      criterion which is required to reach level AA) by passing
-    </text>
-    <code>$SOME_CODE</code>
-    <text>.</text>
+    <text>is expired.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -16913,7 +16892,7 @@ exports[`chromium /components/tooltips/ 1`] = `
   </button>
   <button>
     Add
-    <text>NOT INTERACTIVE</text>
+    <text>INTERACTIVE</text>
   </button>
   <toolbar>
     demo source
@@ -17088,111 +17067,6 @@ exports[`chromium /components/tooltips/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
-  <heading level="2">
-    Follow cursor
-    <Anchor></Anchor>
-    <text>Follow cursor</text>
-  </heading>
-  <paragraph>
-    <text>You can enable the tooltip to follow the cursor by setting</text>
-    <code>$SOME_CODE</code>
-    <text>.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <text>Disabled Action</text>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
-    Faked reference object
-    <Anchor></Anchor>
-    <text>Faked reference object</text>
-  </heading>
-  <paragraph>
-    <text>
-      In the event you need to implement a custom placement, you can use the
-    </text>
-    <code>$SOME_CODE</code>
-    <text>prop: The value of the</text>
-    <code>$SOME_CODE</code>
-    <text>
-      prop can be a reference to a fake DOM element. You need to create an
-      object shaped like the
-    </text>
-    <link checked="undefined" pressed="undefined">
-      ReferenceObject
-      <code>$SOME_CODE</code>
-    </link>
-    <text>.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <text>Hover</text>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
   <heading level="2">
     Showing and hiding
     <Anchor></Anchor>
@@ -17662,8 +17536,8 @@ exports[`chromium /components/transfer-list 1`] = `
       <text>Text Field</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Toggle Button
-      <text>Toggle Button</text>
+      Bottom Navigation
+      <text>Bottom Navigation</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -18377,8 +18251,8 @@ exports[`chromium /components/tree-view/ 1`] = `
       <text>Trap Focus</text>
     </link>
     <link checked="undefined" pressed="undefined">
-      Accordion
-      <text>Accordion</text>
+      Overview
+      <text>Overview</text>
       <SVGRoot></SVGRoot>
     </link>
   </FooterAsNonLandmark>
@@ -18446,8 +18320,7 @@ exports[`firefox / 1`] = `
     </heading>
     <text>
       Install Material-UI's source files via npm. We take care of injecting
-      the CSS needed.$ npm install @material-ui/core@next @emotion/core
-      @emotion/styled
+      the CSS needed.$ npm install @material-ui/core@next
     </text>
     <link checked="undefined" pressed="undefined">
       or use a CDN.
@@ -21897,7 +21770,7 @@ exports[`firefox /components/buttons/ 1`] = `
   </list>
   <separator></separator>
   <link checked="undefined" pressed="undefined">
-    Autocomplete
+    Image List
   </link>
   <link checked="undefined" pressed="undefined">
     Button Group
@@ -24361,7 +24234,7 @@ exports[`firefox /components/pagination/ 1`] = `
   </paragraph>
   <text>
     import { usePagination } from
-    '@material-ui/core/Pagination';
+    '@material-ui/lab/Pagination';
   </text>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -24479,9 +24352,9 @@ exports[`firefox /components/pagination/ 1`] = `
   </toolbar>
   <text>
     <TablePagination component="div" count={100}
-    page={page} onPageChange={handleChangePage}
+    page={page} onChangePage={handleChangePage}
     rowsPerPage={rowsPerPage}
-    onRowsPerPageChange={handleChangeRowsPerPage} />
+    onChangeRowsPerPage={handleChangeRowsPerPage} />
   </text>
   <blockquote>
     <paragraph>
@@ -24552,10 +24425,10 @@ exports[`firefox /components/pagination/ 1`] = `
   </list>
   <separator></separator>
   <link checked="undefined" pressed="undefined">
-    Menu
+    Autocomplete
   </link>
   <link checked="undefined" pressed="undefined">
-    Speed Dial
+    Skeleton
   </link>
 </landmark>;
 
@@ -25405,7 +25278,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     Date / Time
   </link>
   <link checked="undefined" pressed="undefined">
-    Rating
+    Select
   </link>
 </landmark>;
 
@@ -25423,7 +25296,7 @@ exports[`firefox /components/rating/ 1`] = `
   <paragraph>
     <text>
       Ratings provide insight regarding others’ opinions and experiences, and
-      can allow the user to submit a rating of their own.
+      can allow the user to submit a rating of thier own.
     </text>
   </paragraph>
   <list>
@@ -26149,10 +26022,10 @@ exports[`firefox /components/rating/ 1`] = `
   </list>
   <separator></separator>
   <link checked="undefined" pressed="undefined">
-    Radio
+    Slider
   </link>
   <link checked="undefined" pressed="undefined">
-    Select
+    Switch
   </link>
 </landmark>;
 
@@ -26949,7 +26822,7 @@ exports[`firefox /components/selects/ 1`] = `
   </list>
   <separator></separator>
   <link checked="undefined" pressed="undefined">
-    Rating
+    Radio
   </link>
   <link checked="undefined" pressed="undefined">
     Slider
@@ -27604,7 +27477,7 @@ exports[`firefox /components/slider 1`] = `
     Select
   </link>
   <link checked="undefined" pressed="undefined">
-    Switch
+    Rating
   </link>
 </landmark>;
 
@@ -28040,7 +27913,7 @@ exports[`firefox /components/switches/ 1`] = `
   </list>
   <separator></separator>
   <link checked="undefined" pressed="undefined">
-    Slider
+    Rating
   </link>
   <link checked="undefined" pressed="undefined">
     Text Field
@@ -31371,15 +31244,9 @@ exports[`firefox /components/tooltips/ 1`] = `
     <text>Interactive</text>
   </heading>
   <paragraph>
-    <text>Tooltips are interactive by default (to pass</text>
-    <link checked="undefined" pressed="undefined">
-      WCAG 2.1 success criterion 1.4.13
-    </link>
     <text>
-      ). It won't close when the user hovers over the tooltip before the
-      leaveDelay is expired. You can disable this behavior (thus failing the
-      success criterion which is required to reach level AA) by passing
-      disableInteractive.
+      A tooltip can be interactive. It won't close when the user hovers
+      over the tooltip before the leaveDelay is expired.
     </text>
   </paragraph>
   <button>
@@ -31388,7 +31255,7 @@ exports[`firefox /components/tooltips/ 1`] = `
   </button>
   <button>
     Add
-    <text>NOT INTERACTIVE</text>
+    <text>INTERACTIVE</text>
   </button>
   <toolbar>
     demo source
@@ -31400,8 +31267,8 @@ exports[`firefox /components/tooltips/ 1`] = `
     <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
-    <Tooltip title="Add" disableInteractive> <Button>Not
-    interactive</Button> </Tooltip>
+    <Tooltip title="Add" interactive>
+    <Button>Interactive</Button> </Tooltip>
   </text>
   <heading level="2">
     Disabled Elements
@@ -31504,67 +31371,6 @@ exports[`firefox /components/tooltips/ 1`] = `
     TransitionComponent={Zoom} title="Add">
     <Button>Zoom</Button> </Tooltip>
   </text>
-  <heading level="2">
-    Follow cursor
-    <link checked="undefined" pressed="undefined"></link>
-    <text>Follow cursor</text>
-  </heading>
-  <paragraph>
-    <text>
-      You can enable the tooltip to follow the cursor by setting
-      followCursor={true}.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <text>Disabled Action</text>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true"></buttonmenu>
-  </toolbar>
-  <text>
-    <Tooltip title="You don't have permission to do this"
-    followCursor> <Box bgcolor="text.disabled"
-    color="background.paper" p={2}> Disabled Action
-    </Box> </Tooltip>
-  </text>
-  <heading level="2">
-    Faked reference object
-    <link checked="undefined" pressed="undefined"></link>
-    <text>Faked reference object</text>
-  </heading>
-  <paragraph>
-    <text>
-      In the event you need to implement a custom placement, you can use the
-      anchorEl prop: The value of the anchorEl prop can be a reference to a fake
-      DOM element. You need to create an object shaped like the
-    </text>
-    <link checked="undefined" pressed="undefined">
-      ReferenceObject
-    </link>
-    <text>.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <text>Hover</text>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true"></buttonmenu>
-  </toolbar>
   <heading level="2">
     Showing and hiding
     <link checked="undefined" pressed="undefined"></link>
@@ -31902,7 +31708,7 @@ exports[`firefox /components/transfer-list 1`] = `
     Text Field
   </link>
   <link checked="undefined" pressed="undefined">
-    Toggle Button
+    Bottom Navigation
   </link>
 </landmark>;
 
@@ -32420,7 +32226,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     Trap Focus
   </link>
   <link checked="undefined" pressed="undefined">
-    Accordion
+    Overview
   </link>
 </landmark>;
 
