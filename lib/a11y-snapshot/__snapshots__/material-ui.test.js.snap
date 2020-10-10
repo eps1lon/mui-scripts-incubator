@@ -21677,12 +21677,12 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
-    <LoadingButton variant="outlined" pending> Submit
-    </LoadingButton> <LoadingButton variant="outlined"
-    pending pendingIndicator="Loading..."> Fetch data
-    </LoadingButton> <LoadingButton variant="outlined"
-    pending pendingPosition="start" startIcon={<SaveIcon
-    />} > Save </LoadingButton>
+    <LoadingButton pending variant="outlined"> Submit
+    </LoadingButton> <LoadingButton pending
+    pendingIndicator="Loading..." variant="outlined">
+    Fetch data </LoadingButton> <LoadingButton pending
+    pendingPosition="start" startIcon={<SaveIcon />}
+    variant="outlined" > Save </LoadingButton>
   </text>
   <paragraph>
     <text>
