@@ -339,7 +339,7 @@ exports[`chromium / 1`] = `
     <paragraph>
       <text>Currently</text>
       <link checked="undefined" pressed="undefined">
-        v5.0.0-alpha.11. View versions page.
+        v5.0.0-alpha.12. View versions page.
       </link>
       <text>. Released under the</text>
       <link checked="undefined" pressed="undefined">
@@ -352,7 +352,7 @@ exports[`chromium / 1`] = `
     Material-UI
   </link>
   <link checked="undefined" pressed="undefined">
-    v5.0.0-alpha.11
+    v5.0.0-alpha.12
   </link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
@@ -17974,6 +17974,118 @@ exports[`chromium /components/tree-view/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
+    ContentComponent prop
+    <Anchor></Anchor>
+    <text>ContentComponent prop</text>
+  </heading>
+  <paragraph>
+    <text>You can use the</text>
+    <code>$SOME_CODE</code>
+    <text>prop and the</text>
+    <code>$SOME_CODE</code>
+    <text>hook to further customize the behavior of the TreeItem.</text>
+  </paragraph>
+  <paragraph>
+    <text>Such as limiting expansion to clicking the icon:</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tree>
+    icon expansion
+    <treeitem level="1">
+      Applications
+      <SVGRoot></SVGRoot>
+      <text>Applications</text>
+    </treeitem>
+    <treeitem level="1">
+      Documents
+      <SVGRoot></SVGRoot>
+      <text>Documents</text>
+    </treeitem>
+  </tree>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button>
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <paragraph>
+    <text>Or increasing the width of the state indicator:</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tree>
+    icon expansion
+    <treeitem level="1">
+      Applications
+      <SVGRoot></SVGRoot>
+      <text>Applications</text>
+    </treeitem>
+    <treeitem level="1">
+      Documents
+      <SVGRoot></SVGRoot>
+      <text>Documents</text>
+    </treeitem>
+  </tree>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button>
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <heading level="2">
     Customized tree view
     <Anchor></Anchor>
     <text>Customized tree view</text>
@@ -18709,7 +18821,7 @@ exports[`firefox / 1`] = `
     <paragraph>
       <text>Currently</text>
       <link checked="undefined" pressed="undefined">
-        v5.0.0-alpha.11. View versions page.
+        v5.0.0-alpha.12. View versions page.
       </link>
       <text>. Released under the</text>
       <link checked="undefined" pressed="undefined">
@@ -32099,6 +32211,71 @@ exports[`firefox /components/tree-view/ 1`] = `
           Child - 3<text>Child - 3</text>
         </treeitem>
       </group>
+    </treeitem>
+  </tree>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true"></buttonmenu>
+  </toolbar>
+  <heading level="2">
+    ContentComponent prop
+    <link checked="undefined" pressed="undefined"></link>
+    <text>ContentComponent prop</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can use the ContentComponent prop and the useTreeItem hook to further
+      customize the behavior of the TreeItem.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>Such as limiting expansion to clicking the icon:</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tree>
+    icon expansion
+    <treeitem level="1">
+      Applications
+      <text>Applications</text>
+    </treeitem>
+    <treeitem level="1">
+      Documents
+      <text>Documents</text>
+    </treeitem>
+  </tree>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true"></buttonmenu>
+  </toolbar>
+  <paragraph>
+    <text>Or increasing the width of the state indicator:</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tree>
+    icon expansion
+    <treeitem level="1">
+      Applications
+      <text>Applications</text>
+    </treeitem>
+    <treeitem level="1">
+      Documents
+      <text>Documents</text>
     </treeitem>
   </tree>
   <toolbar>
