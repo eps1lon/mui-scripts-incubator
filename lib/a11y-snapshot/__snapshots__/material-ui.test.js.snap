@@ -339,7 +339,7 @@ exports[`chromium / 1`] = `
     <paragraph>
       <text>Currently</text>
       <link checked="undefined" pressed="undefined">
-        v5.0.0-alpha.12. View versions page.
+        v5.0.0-alpha.11. View versions page.
       </link>
       <text>. Released under the</text>
       <link checked="undefined" pressed="undefined">
@@ -352,7 +352,7 @@ exports[`chromium / 1`] = `
     Material-UI
   </link>
   <link checked="undefined" pressed="undefined">
-    v5.0.0-alpha.12
+    v5.0.0-alpha.11
   </link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
@@ -17089,111 +17089,6 @@ exports[`chromium /components/tooltips/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Follow cursor
-    <Anchor></Anchor>
-    <text>Follow cursor</text>
-  </heading>
-  <paragraph>
-    <text>You can enable the tooltip to follow the cursor by setting</text>
-    <code>$SOME_CODE</code>
-    <text>.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <text>Disabled Action</text>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
-    Faked reference object
-    <Anchor></Anchor>
-    <text>Faked reference object</text>
-  </heading>
-  <paragraph>
-    <text>
-      In the event you need to implement a custom placement, you can use the
-    </text>
-    <code>$SOME_CODE</code>
-    <text>prop: The value of the</text>
-    <code>$SOME_CODE</code>
-    <text>
-      prop can be a reference to a fake DOM element. You need to create an
-      object shaped like the
-    </text>
-    <link checked="undefined" pressed="undefined">
-      ReferenceObject
-      <code>$SOME_CODE</code>
-    </link>
-    <text>.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <text>Hover</text>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <heading level="2">
     Showing and hiding
     <Anchor></Anchor>
     <text>Showing and hiding</text>
@@ -17974,118 +17869,6 @@ exports[`chromium /components/tree-view/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
-    ContentComponent prop
-    <Anchor></Anchor>
-    <text>ContentComponent prop</text>
-  </heading>
-  <paragraph>
-    <text>You can use the</text>
-    <code>$SOME_CODE</code>
-    <text>prop and the</text>
-    <code>$SOME_CODE</code>
-    <text>hook to further customize the behavior of the TreeItem.</text>
-  </paragraph>
-  <paragraph>
-    <text>Such as limiting expansion to clicking the icon:</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <tree>
-    icon expansion
-    <treeitem level="1">
-      Applications
-      <SVGRoot></SVGRoot>
-      <text>Applications</text>
-    </treeitem>
-    <treeitem level="1">
-      Documents
-      <SVGRoot></SVGRoot>
-      <text>Documents</text>
-    </treeitem>
-  </tree>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <paragraph>
-    <text>Or increasing the width of the state indicator:</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <tree>
-    icon expansion
-    <treeitem level="1">
-      Applications
-      <SVGRoot></SVGRoot>
-      <text>Applications</text>
-    </treeitem>
-    <treeitem level="1">
-      Documents
-      <SVGRoot></SVGRoot>
-      <text>Documents</text>
-    </treeitem>
-  </tree>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
-  <heading level="2">
     Customized tree view
     <Anchor></Anchor>
     <text>Customized tree view</text>
@@ -18821,7 +18604,7 @@ exports[`firefox / 1`] = `
     <paragraph>
       <text>Currently</text>
       <link checked="undefined" pressed="undefined">
-        v5.0.0-alpha.12. View versions page.
+        v5.0.0-alpha.11. View versions page.
       </link>
       <text>. Released under the</text>
       <link checked="undefined" pressed="undefined">
@@ -21789,12 +21572,12 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
-    <LoadingButton pending variant="outlined"> Submit
-    </LoadingButton> <LoadingButton pending
-    pendingIndicator="Loading..." variant="outlined">
-    Fetch data </LoadingButton> <LoadingButton pending
-    pendingPosition="start" startIcon={<SaveIcon />}
-    variant="outlined" > Save </LoadingButton>
+    <LoadingButton variant="outlined" pending> Submit
+    </LoadingButton> <LoadingButton variant="outlined"
+    pending pendingIndicator="Loading..."> Fetch data
+    </LoadingButton> <LoadingButton variant="outlined"
+    pending pendingPosition="start" startIcon={<SaveIcon
+    />} > Save </LoadingButton>
   </text>
   <paragraph>
     <text>
@@ -24591,9 +24374,9 @@ exports[`firefox /components/pagination/ 1`] = `
   </toolbar>
   <text>
     <TablePagination component="div" count={100}
-    page={page} onPageChange={handleChangePage}
+    page={page} onChangePage={handleChangePage}
     rowsPerPage={rowsPerPage}
-    onRowsPerPageChange={handleChangeRowsPerPage} />
+    onChangeRowsPerPage={handleChangeRowsPerPage} />
   </text>
   <blockquote>
     <paragraph>
@@ -31617,67 +31400,6 @@ exports[`firefox /components/tooltips/ 1`] = `
     <Button>Zoom</Button> </Tooltip>
   </text>
   <heading level="2">
-    Follow cursor
-    <link checked="undefined" pressed="undefined"></link>
-    <text>Follow cursor</text>
-  </heading>
-  <paragraph>
-    <text>
-      You can enable the tooltip to follow the cursor by setting
-      followCursor={true}.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <text>Disabled Action</text>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true"></buttonmenu>
-  </toolbar>
-  <text>
-    <Tooltip title="You don't have permission to do this"
-    followCursor> <Box bgcolor="text.disabled"
-    color="background.paper" p={2}> Disabled Action
-    </Box> </Tooltip>
-  </text>
-  <heading level="2">
-    Faked reference object
-    <link checked="undefined" pressed="undefined"></link>
-    <text>Faked reference object</text>
-  </heading>
-  <paragraph>
-    <text>
-      In the event you need to implement a custom placement, you can use the
-      anchorEl prop: The value of the anchorEl prop can be a reference to a fake
-      DOM element. You need to create an object shaped like the
-    </text>
-    <link checked="undefined" pressed="undefined">
-      ReferenceObject
-    </link>
-    <text>.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <text>Hover</text>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true"></buttonmenu>
-  </toolbar>
-  <heading level="2">
     Showing and hiding
     <link checked="undefined" pressed="undefined"></link>
     <text>Showing and hiding</text>
@@ -32211,71 +31933,6 @@ exports[`firefox /components/tree-view/ 1`] = `
           Child - 3<text>Child - 3</text>
         </treeitem>
       </group>
-    </treeitem>
-  </tree>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true"></buttonmenu>
-  </toolbar>
-  <heading level="2">
-    ContentComponent prop
-    <link checked="undefined" pressed="undefined"></link>
-    <text>ContentComponent prop</text>
-  </heading>
-  <paragraph>
-    <text>
-      You can use the ContentComponent prop and the useTreeItem hook to further
-      customize the behavior of the TreeItem.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>Such as limiting expansion to clicking the icon:</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <tree>
-    icon expansion
-    <treeitem level="1">
-      Applications
-      <text>Applications</text>
-    </treeitem>
-    <treeitem level="1">
-      Documents
-      <text>Documents</text>
-    </treeitem>
-  </tree>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true"></buttonmenu>
-  </toolbar>
-  <paragraph>
-    <text>Or increasing the width of the state indicator:</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <tree>
-    icon expansion
-    <treeitem level="1">
-      Applications
-      <text>Applications</text>
-    </treeitem>
-    <treeitem level="1">
-      Documents
-      <text>Documents</text>
     </treeitem>
   </tree>
   <toolbar>
