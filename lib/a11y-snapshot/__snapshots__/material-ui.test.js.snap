@@ -16978,7 +16978,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     navigation of our components.
   </button>
   <button disabled="true">
-    A DISABLED BUTTON
+    You don't have permission to do this
     <text>A DISABLED BUTTON</text>
   </button>
   <toolbar>
@@ -31541,7 +31541,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     navigation of our components.
   </button>
   <button disabled="true">
-    A DISABLED BUTTON
+    You don't have permission to do this
     <text>A DISABLED BUTTON</text>
   </button>
   <toolbar>
@@ -31555,8 +31555,7 @@ exports[`firefox /components/tooltips/ 1`] = `
   </toolbar>
   <text>
     <Tooltip title="You don't have permission to do this">
-    <span> <Button disabled>A Disabled Button</Button>
-    </span> </Tooltip>
+    <Button disabled>A Disabled Button</Button> </Tooltip>
   </text>
   <blockquote>
     <paragraph>
@@ -31571,8 +31570,9 @@ exports[`firefox /components/tooltips/ 1`] = `
   <text>
     <Tooltip title="You don't have permission to do this">
     <span> <button disabled={disabled} style={disabled ?
-    { pointerEvents: 'none' } : {}} > A
-    disabled button </button> </span> </Tooltip>
+    { pointerEvents: 'none' } : {}} >
+    {'A disabled button'} </button> </span>
+    </Tooltip>
   </text>
   <heading level="2">
     Transitions
