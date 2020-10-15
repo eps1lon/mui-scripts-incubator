@@ -31571,9 +31571,8 @@ exports[`firefox /components/tooltips/ 1`] = `
   <text>
     <Tooltip title="You don't have permission to do this">
     <span> <button disabled={disabled} style={disabled ?
-    { pointerEvents: 'none' } : {}} >
-    {'A disabled button'} </button> </span>
-    </Tooltip>
+    { pointerEvents: 'none' } : {}} > A
+    disabled button </button> </span> </Tooltip>
   </text>
   <heading level="2">
     Transitions
