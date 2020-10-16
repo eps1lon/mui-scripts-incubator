@@ -11832,9 +11832,12 @@ exports[`chromium /components/slider 1`] = `
     <code>$SOME_CODE</code>
     <text>prop to represent the</text>
     <code>$SOME_CODE</code>
+    <text>on a different scale.</text>
+  </paragraph>
+  <paragraph>
     <text>
-      on a different scale. For instance, in the following demo, the
-      valuexrepresents the power of10^x.
+      In the following demo, the valuexrepresents the value2^x. Increasingxby
+      one increases the represented value by factor2.
     </text>
   </paragraph>
   <button>
@@ -11842,17 +11845,17 @@ exports[`chromium /components/slider 1`] = `
     navigation of our components.
   </button>
   <paragraph>
-    <text>Temperature range</text>
+    <text>Storage:1 MB</text>
   </paragraph>
   <slider
-    valuetext="1e^0"
-    valuemax="60466176"
-    valuemin="0"
+    valuetext="1 MB"
+    valuemax="1073741824"
+    valuemin="32"
     orientation="horizontal"
-    value="1"
+    value="1024"
   >
-    Temperature range
-    <text>1e^0</text>
+    Storage: 1 MB
+    <text>1 MB</text>
   </slider>
   <toolbar>
     demo source
@@ -27624,8 +27627,12 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>
       You can use the scale prop to represent the value on a different scale.
-      For instance, in the following demo, the value x represents the power of
-      10^x.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      In the following demo, the value x represents the value 2^x. Increasing x
+      by one increases the represented value by factor 2.
     </text>
   </paragraph>
   <button>
@@ -27633,11 +27640,11 @@ exports[`firefox /components/slider 1`] = `
     navigation of our components.
   </button>
   <paragraph>
-    <text>Temperature range</text>
+    <text>Storage: 1 MB</text>
   </paragraph>
-  <slider valuetext="1e^0" orientation="horizontal" value="1e^0">
-    Temperature range
-    <text>1e^0</text>
+  <slider valuetext="1 MB" orientation="horizontal" value="1 MB">
+    Storage: 1 MB
+    <text>1 MB</text>
   </slider>
   <toolbar>
     demo source
@@ -27649,10 +27656,11 @@ exports[`firefox /components/slider 1`] = `
     <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
-    <Typography id="non-linear-slider" gutterBottom> Temperature
-    range </Typography> <Slider value={value}
-    min={0} step={0.1} max={6} scale={(x)
-    => x ** 10} getAriaValueText={valueLabelFormat}
+    <Typography id="non-linear-slider" gutterBottom> Storage:
+    {valueLabelFormat(calculateValue(value))} </Typography>
+    <Slider value={value} min={5} step={1}
+    max={30} scale={calculateValue}
+    getAriaValueText={valueLabelFormat}
     valueLabelFormat={valueLabelFormat}
     onChange={handleChange} valueLabelDisplay="auto"
     aria-labelledby="non-linear-slider" />
