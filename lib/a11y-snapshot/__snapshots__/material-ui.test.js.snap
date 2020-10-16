@@ -16978,8 +16978,12 @@ exports[`chromium /components/tooltips/ 1`] = `
     navigation of our components.
   </button>
   <button disabled="true">
-    A DISABLED BUTTON
+    You don't have permission to do this
     <text>A DISABLED BUTTON</text>
+  </button>
+  <button>
+    Fetch
+    <text>LOAD</text>
   </button>
   <toolbar>
     demo source
@@ -17011,23 +17015,6 @@ exports[`chromium /components/tooltips/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <blockquote>
-    <paragraph>
-      <text>
-        If you're not wrapping a Material-UI component that inherits from
-      </text>
-      <code>$SOME_CODE</code>
-      <text>, for instance, a native</text>
-      <code>$SOME_CODE</code>
-      <text>
-        element, you should also add the CSS propertypointer-events: none;to
-        your element when disabled:
-      </text>
-    </paragraph>
-  </blockquote>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -31541,8 +31528,12 @@ exports[`firefox /components/tooltips/ 1`] = `
     navigation of our components.
   </button>
   <button disabled="true">
-    A DISABLED BUTTON
+    You don't have permission to do this
     <text>A DISABLED BUTTON</text>
+  </button>
+  <button>
+    Fetch
+    <text>LOAD</text>
   </button>
   <toolbar>
     demo source
@@ -31555,24 +31546,11 @@ exports[`firefox /components/tooltips/ 1`] = `
   </toolbar>
   <text>
     <Tooltip title="You don't have permission to do this">
-    <span> <Button disabled>A Disabled Button</Button>
-    </span> </Tooltip>
-  </text>
-  <blockquote>
-    <paragraph>
-      <text>
-        If you're not wrapping a Material-UI component that inherits from
-        ButtonBase, for instance, a native <button> element, you should
-        also add the CSS property pointer-events: none; to your element when
-        disabled:
-      </text>
-    </paragraph>
-  </blockquote>
-  <text>
-    <Tooltip title="You don't have permission to do this">
-    <span> <button disabled={disabled} style={disabled ?
-    { pointerEvents: 'none' } : {}} > A
-    disabled button </button> </span> </Tooltip>
+    <Button disabled>A Disabled Button</Button> </Tooltip>
+    <Tooltip title={pending ? 'Pending' :
+    'Fetch'}> <Button disabled={pending}
+    onClick={() => setPending(true)}> Load </Button>
+    </Tooltip>
   </text>
   <heading level="2">
     Transitions
