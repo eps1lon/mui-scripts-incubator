@@ -339,7 +339,7 @@ exports[`chromium / 1`] = `
     <paragraph>
       <text>Currently</text>
       <link checked="undefined" pressed="undefined">
-        v5.0.0-alpha.12. View versions page.
+        v5.0.0-alpha.13. View versions page.
       </link>
       <text>. Released under the</text>
       <link checked="undefined" pressed="undefined">
@@ -352,7 +352,7 @@ exports[`chromium / 1`] = `
     Material-UI
   </link>
   <link checked="undefined" pressed="undefined">
-    v5.0.0-alpha.12
+    v5.0.0-alpha.13
   </link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
@@ -18824,7 +18824,7 @@ exports[`firefox / 1`] = `
     <paragraph>
       <text>Currently</text>
       <link checked="undefined" pressed="undefined">
-        v5.0.0-alpha.12. View versions page.
+        v5.0.0-alpha.13. View versions page.
       </link>
       <text>. Released under the</text>
       <link checked="undefined" pressed="undefined">
