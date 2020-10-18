@@ -9074,24 +9074,29 @@ exports[`chromium /components/rating/ 1`] = `
   </Legend>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>1 Star</text>
   </Label>
-  <radio checked="false">1 Star</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>2 Stars</text>
   </Label>
-  <radio checked="true">2 Stars</radio>
+  <radio checked="true"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>3 Stars</text>
   </Label>
-  <radio checked="false">3 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>4 Stars</text>
   </Label>
-  <radio checked="false">4 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>5 Stars</text>
   </Label>
-  <radio checked="false">5 Stars</radio>
+  <radio checked="false"></radio>
   <Legend>
     <text>Read only</text>
   </Legend>
@@ -9101,57 +9106,57 @@ exports[`chromium /components/rating/ 1`] = `
   </Legend>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>1 Star</text>
   </Label>
-  <radio disabled="true" checked="false">
-    1 Star
-  </radio>
+  <radio disabled="true" checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>2 Stars</text>
   </Label>
-  <radio disabled="true" checked="true">
-    2 Stars
-  </radio>
+  <radio disabled="true" checked="true"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>3 Stars</text>
   </Label>
-  <radio disabled="true" checked="false">
-    3 Stars
-  </radio>
+  <radio disabled="true" checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>4 Stars</text>
   </Label>
-  <radio disabled="true" checked="false">
-    4 Stars
-  </radio>
+  <radio disabled="true" checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>5 Stars</text>
   </Label>
-  <radio disabled="true" checked="false">
-    5 Stars
-  </radio>
+  <radio disabled="true" checked="false"></radio>
   <Legend>
     <text>No rating given</text>
   </Legend>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>1 Star</text>
   </Label>
-  <radio checked="false">1 Star</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>2 Stars</text>
   </Label>
-  <radio checked="false">2 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>3 Stars</text>
   </Label>
-  <radio checked="false">3 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>4 Stars</text>
   </Label>
-  <radio checked="false">4 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>5 Stars</text>
   </Label>
-  <radio checked="false">5 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <radio checked="true">Empty</radio>
   </Label>
@@ -9206,34 +9211,54 @@ exports[`chromium /components/rating/ 1`] = `
   </button>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>0.5 Stars</text>
   </Label>
-  <radio checked="false">0.5 Stars</radio>
-  <SVGRoot></SVGRoot>
-  <radio checked="false">1 Star</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>1 Star</text>
   </Label>
-  <radio checked="false">1.5 Stars</radio>
-  <SVGRoot></SVGRoot>
-  <radio checked="false">2 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>1.5 Stars</text>
   </Label>
-  <radio checked="true">2.5 Stars</radio>
-  <SVGRoot></SVGRoot>
-  <radio checked="false">3 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>2 Stars</text>
   </Label>
-  <radio checked="false">3.5 Stars</radio>
-  <SVGRoot></SVGRoot>
-  <radio checked="false">4 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>2.5 Stars</text>
   </Label>
-  <radio checked="false">4.5 Stars</radio>
-  <SVGRoot></SVGRoot>
-  <radio checked="false">5 Stars</radio>
+  <radio checked="true"></radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+    <text>3 Stars</text>
+  </Label>
+  <radio checked="false"></radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+    <text>3.5 Stars</text>
+  </Label>
+  <radio checked="false"></radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+    <text>4 Stars</text>
+  </Label>
+  <radio checked="false"></radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+    <text>4.5 Stars</text>
+  </Label>
+  <radio checked="false"></radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+    <text>5 Stars</text>
+  </Label>
+  <radio checked="false"></radio>
   <img>2.5 Stars</img>
   <toolbar>
     demo source
@@ -9287,34 +9312,54 @@ exports[`chromium /components/rating/ 1`] = `
   </button>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>0.5 Stars</text>
   </Label>
-  <radio checked="false">0.5 Stars</radio>
-  <SVGRoot></SVGRoot>
-  <radio checked="false">1 Star</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>1 Star</text>
   </Label>
-  <radio checked="false">1.5 Stars</radio>
-  <SVGRoot></SVGRoot>
-  <radio checked="true">2 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>1.5 Stars</text>
   </Label>
-  <radio checked="false">2.5 Stars</radio>
-  <SVGRoot></SVGRoot>
-  <radio checked="false">3 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>2 Stars</text>
   </Label>
-  <radio checked="false">3.5 Stars</radio>
-  <SVGRoot></SVGRoot>
-  <radio checked="false">4 Stars</radio>
+  <radio checked="true"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>2.5 Stars</text>
   </Label>
-  <radio checked="false">4.5 Stars</radio>
-  <SVGRoot></SVGRoot>
-  <radio checked="false">5 Stars</radio>
+  <radio checked="false"></radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+    <text>3 Stars</text>
+  </Label>
+  <radio checked="false"></radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+    <text>3.5 Stars</text>
+  </Label>
+  <radio checked="false"></radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+    <text>4 Stars</text>
+  </Label>
+  <radio checked="false"></radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+    <text>4.5 Stars</text>
+  </Label>
+  <radio checked="false"></radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+    <text>5 Stars</text>
+  </Label>
+  <radio checked="false"></radio>
   <text>Poor+</text>
   <toolbar>
     demo source
@@ -9365,64 +9410,79 @@ exports[`chromium /components/rating/ 1`] = `
   </button>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>1 Star</text>
   </Label>
-  <radio checked="false">1 Star</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>2 Stars</text>
   </Label>
-  <radio checked="true">2 Stars</radio>
+  <radio checked="true"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>3 Stars</text>
   </Label>
-  <radio checked="false">3 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>4 Stars</text>
   </Label>
-  <radio checked="false">4 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>5 Stars</text>
   </Label>
-  <radio checked="false">5 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>1 Star</text>
   </Label>
-  <radio checked="false">1 Star</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>2 Stars</text>
   </Label>
-  <radio checked="true">2 Stars</radio>
+  <radio checked="true"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>3 Stars</text>
   </Label>
-  <radio checked="false">3 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>4 Stars</text>
   </Label>
-  <radio checked="false">4 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>5 Stars</text>
   </Label>
-  <radio checked="false">5 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>1 Star</text>
   </Label>
-  <radio checked="false">1 Star</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>2 Stars</text>
   </Label>
-  <radio checked="true">2 Stars</radio>
+  <radio checked="true"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>3 Stars</text>
   </Label>
-  <radio checked="false">3 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>4 Stars</text>
   </Label>
-  <radio checked="false">4 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>5 Stars</text>
   </Label>
-  <radio checked="false">5 Stars</radio>
+  <radio checked="false"></radio>
   <toolbar>
     demo source
     <group>
@@ -9480,100 +9540,135 @@ exports[`chromium /components/rating/ 1`] = `
   </Legend>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>0.5 Hearts</text>
   </Label>
-  <radio checked="false">0.5 Hearts</radio>
-  <SVGRoot></SVGRoot>
-  <radio checked="false">1 Heart</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>1 Heart</text>
   </Label>
-  <radio checked="false">1.5 Hearts</radio>
-  <SVGRoot></SVGRoot>
-  <radio checked="true">2 Hearts</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>1.5 Hearts</text>
   </Label>
-  <radio checked="false">2.5 Hearts</radio>
-  <SVGRoot></SVGRoot>
-  <radio checked="false">3 Hearts</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>2 Hearts</text>
   </Label>
-  <radio checked="false">3.5 Hearts</radio>
-  <SVGRoot></SVGRoot>
-  <radio checked="false">4 Hearts</radio>
+  <radio checked="true"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>2.5 Hearts</text>
   </Label>
-  <radio checked="false">4.5 Hearts</radio>
-  <SVGRoot></SVGRoot>
-  <radio checked="false">5 Hearts</radio>
+  <radio checked="false"></radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+    <text>3 Hearts</text>
+  </Label>
+  <radio checked="false"></radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+    <text>3.5 Hearts</text>
+  </Label>
+  <radio checked="false"></radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+    <text>4 Hearts</text>
+  </Label>
+  <radio checked="false"></radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+    <text>4.5 Hearts</text>
+  </Label>
+  <radio checked="false"></radio>
+  <Label>
+    <SVGRoot></SVGRoot>
+    <text>5 Hearts</text>
+  </Label>
+  <radio checked="false"></radio>
   <Legend>
     <text>10 stars</text>
   </Legend>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>1 Star</text>
   </Label>
-  <radio checked="false">1 Star</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>2 Stars</text>
   </Label>
-  <radio checked="true">2 Stars</radio>
+  <radio checked="true"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>3 Stars</text>
   </Label>
-  <radio checked="false">3 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>4 Stars</text>
   </Label>
-  <radio checked="false">4 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>5 Stars</text>
   </Label>
-  <radio checked="false">5 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>6 Stars</text>
   </Label>
-  <radio checked="false">6 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>7 Stars</text>
   </Label>
-  <radio checked="false">7 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>8 Stars</text>
   </Label>
-  <radio checked="false">8 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>9 Stars</text>
   </Label>
-  <radio checked="false">9 Stars</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>10 Stars</text>
   </Label>
-  <radio checked="false">10 Stars</radio>
+  <radio checked="false"></radio>
   <Legend>
     <text>Custom icon set</text>
   </Legend>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>Very Dissatisfied</text>
   </Label>
-  <radio checked="false">Very Dissatisfied</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>Dissatisfied</text>
   </Label>
-  <radio checked="true">Dissatisfied</radio>
+  <radio checked="true"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>Neutral</text>
   </Label>
-  <radio checked="false">Neutral</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>Satisfied</text>
   </Label>
-  <radio checked="false">Satisfied</radio>
+  <radio checked="false"></radio>
   <Label>
     <SVGRoot></SVGRoot>
+    <text>Very Satisfied</text>
   </Label>
-  <radio checked="false">Very Satisfied</radio>
+  <radio checked="false"></radio>
   <toolbar>
     demo source
     <group>
@@ -25590,27 +25685,27 @@ exports[`firefox /components/rating/ 1`] = `
     1 Star
     <text>1 Star</text>
   </label>
-  <radio>1 Star</radio>
+  <radio></radio>
   <label>
     2 Stars
     <text>2 Stars</text>
   </label>
-  <radio checked="true">2 Stars</radio>
+  <radio checked="true"></radio>
   <label>
     3 Stars
     <text>3 Stars</text>
   </label>
-  <radio>3 Stars</radio>
+  <radio></radio>
   <label>
     4 Stars
     <text>4 Stars</text>
   </label>
-  <radio>4 Stars</radio>
+  <radio></radio>
   <label>
     5 Stars
     <text>5 Stars</text>
   </label>
-  <radio>5 Stars</radio>
+  <radio></radio>
   <label>
     Read only
     <text>Read only</text>
@@ -25624,29 +25719,27 @@ exports[`firefox /components/rating/ 1`] = `
     1 Star
     <text>1 Star</text>
   </label>
-  <radio disabled="true">1 Star</radio>
+  <radio disabled="true"></radio>
   <label>
     2 Stars
     <text>2 Stars</text>
   </label>
-  <radio disabled="true" checked="true">
-    2 Stars
-  </radio>
+  <radio disabled="true" checked="true"></radio>
   <label>
     3 Stars
     <text>3 Stars</text>
   </label>
-  <radio disabled="true">3 Stars</radio>
+  <radio disabled="true"></radio>
   <label>
     4 Stars
     <text>4 Stars</text>
   </label>
-  <radio disabled="true">4 Stars</radio>
+  <radio disabled="true"></radio>
   <label>
     5 Stars
     <text>5 Stars</text>
   </label>
-  <radio disabled="true">5 Stars</radio>
+  <radio disabled="true"></radio>
   <label>
     No rating given
     <text>No rating given</text>
@@ -25655,27 +25748,27 @@ exports[`firefox /components/rating/ 1`] = `
     1 Star
     <text>1 Star</text>
   </label>
-  <radio>1 Star</radio>
+  <radio></radio>
   <label>
     2 Stars
     <text>2 Stars</text>
   </label>
-  <radio>2 Stars</radio>
+  <radio></radio>
   <label>
     3 Stars
     <text>3 Stars</text>
   </label>
-  <radio>3 Stars</radio>
+  <radio></radio>
   <label>
     4 Stars
     <text>4 Stars</text>
   </label>
-  <radio>4 Stars</radio>
+  <radio></radio>
   <label>
     5 Stars
     <text>5 Stars</text>
   </label>
-  <radio>5 Stars</radio>
+  <radio></radio>
   <label>
     Empty
     <radio checked="true">Empty</radio>
@@ -25722,52 +25815,52 @@ exports[`firefox /components/rating/ 1`] = `
     0.5 Stars
     <text>0.5 Stars</text>
   </label>
-  <radio>0.5 Stars</radio>
+  <radio></radio>
   <label>
     1 Star
     <text>1 Star</text>
   </label>
-  <radio>1 Star</radio>
+  <radio></radio>
   <label>
     1.5 Stars
     <text>1.5 Stars</text>
   </label>
-  <radio>1.5 Stars</radio>
+  <radio></radio>
   <label>
     2 Stars
     <text>2 Stars</text>
   </label>
-  <radio>2 Stars</radio>
+  <radio></radio>
   <label>
     2.5 Stars
     <text>2.5 Stars</text>
   </label>
-  <radio checked="true">2.5 Stars</radio>
+  <radio checked="true"></radio>
   <label>
     3 Stars
     <text>3 Stars</text>
   </label>
-  <radio>3 Stars</radio>
+  <radio></radio>
   <label>
     3.5 Stars
     <text>3.5 Stars</text>
   </label>
-  <radio>3.5 Stars</radio>
+  <radio></radio>
   <label>
     4 Stars
     <text>4 Stars</text>
   </label>
-  <radio>4 Stars</radio>
+  <radio></radio>
   <label>
     4.5 Stars
     <text>4.5 Stars</text>
   </label>
-  <radio>4.5 Stars</radio>
+  <radio></radio>
   <label>
     5 Stars
     <text>5 Stars</text>
   </label>
-  <radio>5 Stars</radio>
+  <radio></radio>
   <img>2.5 Stars</img>
   <toolbar>
     demo source
@@ -25802,52 +25895,52 @@ exports[`firefox /components/rating/ 1`] = `
     0.5 Stars
     <text>0.5 Stars</text>
   </label>
-  <radio>0.5 Stars</radio>
+  <radio></radio>
   <label>
     1 Star
     <text>1 Star</text>
   </label>
-  <radio>1 Star</radio>
+  <radio></radio>
   <label>
     1.5 Stars
     <text>1.5 Stars</text>
   </label>
-  <radio>1.5 Stars</radio>
+  <radio></radio>
   <label>
     2 Stars
     <text>2 Stars</text>
   </label>
-  <radio checked="true">2 Stars</radio>
+  <radio checked="true"></radio>
   <label>
     2.5 Stars
     <text>2.5 Stars</text>
   </label>
-  <radio>2.5 Stars</radio>
+  <radio></radio>
   <label>
     3 Stars
     <text>3 Stars</text>
   </label>
-  <radio>3 Stars</radio>
+  <radio></radio>
   <label>
     3.5 Stars
     <text>3.5 Stars</text>
   </label>
-  <radio>3.5 Stars</radio>
+  <radio></radio>
   <label>
     4 Stars
     <text>4 Stars</text>
   </label>
-  <radio>4 Stars</radio>
+  <radio></radio>
   <label>
     4.5 Stars
     <text>4.5 Stars</text>
   </label>
-  <radio>4.5 Stars</radio>
+  <radio></radio>
   <label>
     5 Stars
     <text>5 Stars</text>
   </label>
-  <radio>5 Stars</radio>
+  <radio></radio>
   <text>Poor+</text>
   <toolbar>
     demo source
@@ -25884,77 +25977,77 @@ exports[`firefox /components/rating/ 1`] = `
     1 Star
     <text>1 Star</text>
   </label>
-  <radio>1 Star</radio>
+  <radio></radio>
   <label>
     2 Stars
     <text>2 Stars</text>
   </label>
-  <radio checked="true">2 Stars</radio>
+  <radio checked="true"></radio>
   <label>
     3 Stars
     <text>3 Stars</text>
   </label>
-  <radio>3 Stars</radio>
+  <radio></radio>
   <label>
     4 Stars
     <text>4 Stars</text>
   </label>
-  <radio>4 Stars</radio>
+  <radio></radio>
   <label>
     5 Stars
     <text>5 Stars</text>
   </label>
-  <radio>5 Stars</radio>
+  <radio></radio>
   <label>
     1 Star
     <text>1 Star</text>
   </label>
-  <radio>1 Star</radio>
+  <radio></radio>
   <label>
     2 Stars
     <text>2 Stars</text>
   </label>
-  <radio checked="true">2 Stars</radio>
+  <radio checked="true"></radio>
   <label>
     3 Stars
     <text>3 Stars</text>
   </label>
-  <radio>3 Stars</radio>
+  <radio></radio>
   <label>
     4 Stars
     <text>4 Stars</text>
   </label>
-  <radio>4 Stars</radio>
+  <radio></radio>
   <label>
     5 Stars
     <text>5 Stars</text>
   </label>
-  <radio>5 Stars</radio>
+  <radio></radio>
   <label>
     1 Star
     <text>1 Star</text>
   </label>
-  <radio>1 Star</radio>
+  <radio></radio>
   <label>
     2 Stars
     <text>2 Stars</text>
   </label>
-  <radio checked="true">2 Stars</radio>
+  <radio checked="true"></radio>
   <label>
     3 Stars
     <text>3 Stars</text>
   </label>
-  <radio>3 Stars</radio>
+  <radio></radio>
   <label>
     4 Stars
     <text>4 Stars</text>
   </label>
-  <radio>4 Stars</radio>
+  <radio></radio>
   <label>
     5 Stars
     <text>5 Stars</text>
   </label>
-  <radio>5 Stars</radio>
+  <radio></radio>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -25997,52 +26090,52 @@ exports[`firefox /components/rating/ 1`] = `
     0.5 Hearts
     <text>0.5 Hearts</text>
   </label>
-  <radio>0.5 Hearts</radio>
+  <radio></radio>
   <label>
     1 Heart
     <text>1 Heart</text>
   </label>
-  <radio>1 Heart</radio>
+  <radio></radio>
   <label>
     1.5 Hearts
     <text>1.5 Hearts</text>
   </label>
-  <radio>1.5 Hearts</radio>
+  <radio></radio>
   <label>
     2 Hearts
     <text>2 Hearts</text>
   </label>
-  <radio checked="true">2 Hearts</radio>
+  <radio checked="true"></radio>
   <label>
     2.5 Hearts
     <text>2.5 Hearts</text>
   </label>
-  <radio>2.5 Hearts</radio>
+  <radio></radio>
   <label>
     3 Hearts
     <text>3 Hearts</text>
   </label>
-  <radio>3 Hearts</radio>
+  <radio></radio>
   <label>
     3.5 Hearts
     <text>3.5 Hearts</text>
   </label>
-  <radio>3.5 Hearts</radio>
+  <radio></radio>
   <label>
     4 Hearts
     <text>4 Hearts</text>
   </label>
-  <radio>4 Hearts</radio>
+  <radio></radio>
   <label>
     4.5 Hearts
     <text>4.5 Hearts</text>
   </label>
-  <radio>4.5 Hearts</radio>
+  <radio></radio>
   <label>
     5 Hearts
     <text>5 Hearts</text>
   </label>
-  <radio>5 Hearts</radio>
+  <radio></radio>
   <label>
     10 stars
     <text>10 stars</text>
@@ -26051,52 +26144,52 @@ exports[`firefox /components/rating/ 1`] = `
     1 Star
     <text>1 Star</text>
   </label>
-  <radio>1 Star</radio>
+  <radio></radio>
   <label>
     2 Stars
     <text>2 Stars</text>
   </label>
-  <radio checked="true">2 Stars</radio>
+  <radio checked="true"></radio>
   <label>
     3 Stars
     <text>3 Stars</text>
   </label>
-  <radio>3 Stars</radio>
+  <radio></radio>
   <label>
     4 Stars
     <text>4 Stars</text>
   </label>
-  <radio>4 Stars</radio>
+  <radio></radio>
   <label>
     5 Stars
     <text>5 Stars</text>
   </label>
-  <radio>5 Stars</radio>
+  <radio></radio>
   <label>
     6 Stars
     <text>6 Stars</text>
   </label>
-  <radio>6 Stars</radio>
+  <radio></radio>
   <label>
     7 Stars
     <text>7 Stars</text>
   </label>
-  <radio>7 Stars</radio>
+  <radio></radio>
   <label>
     8 Stars
     <text>8 Stars</text>
   </label>
-  <radio>8 Stars</radio>
+  <radio></radio>
   <label>
     9 Stars
     <text>9 Stars</text>
   </label>
-  <radio>9 Stars</radio>
+  <radio></radio>
   <label>
     10 Stars
     <text>10 Stars</text>
   </label>
-  <radio>10 Stars</radio>
+  <radio></radio>
   <label>
     Custom icon set
     <text>Custom icon set</text>
@@ -26105,27 +26198,27 @@ exports[`firefox /components/rating/ 1`] = `
     Very Dissatisfied
     <text>Very Dissatisfied</text>
   </label>
-  <radio>Very Dissatisfied</radio>
+  <radio></radio>
   <label>
     Dissatisfied
     <text>Dissatisfied</text>
   </label>
-  <radio checked="true">Dissatisfied</radio>
+  <radio checked="true"></radio>
   <label>
     Neutral
     <text>Neutral</text>
   </label>
-  <radio>Neutral</radio>
+  <radio></radio>
   <label>
     Satisfied
     <text>Satisfied</text>
   </label>
-  <radio>Satisfied</radio>
+  <radio></radio>
   <label>
     Very Satisfied
     <text>Very Satisfied</text>
   </label>
-  <radio>Very Satisfied</radio>
+  <radio></radio>
   <toolbar>
     demo source
     <button>Show the source</button>
