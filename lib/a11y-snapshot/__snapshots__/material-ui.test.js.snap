@@ -6060,6 +6060,18 @@ exports[`chromium /components/dialogs/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
+    Performance
+    <Anchor></Anchor>
+    <text>Performance</text>
+  </heading>
+  <paragraph>
+    <text>Follow the</text>
+    <link checked="undefined" pressed="undefined">
+      Modal performance section
+    </link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
     Limitations
     <Anchor></Anchor>
     <text>Limitations</text>
@@ -23031,6 +23043,18 @@ exports[`firefox /components/dialogs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
+  <heading level="2">
+    Performance
+    <link checked="undefined" pressed="undefined"></link>
+    <text>Performance</text>
+  </heading>
+  <paragraph>
+    <text>Follow the</text>
+    <link checked="undefined" pressed="undefined">
+      Modal performance section
+    </link>
+    <text>.</text>
+  </paragraph>
   <heading level="2">
     Limitations
     <link checked="undefined" pressed="undefined"></link>
