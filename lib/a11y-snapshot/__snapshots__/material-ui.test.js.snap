@@ -3154,36 +3154,7 @@ exports[`chromium /components/button-group/ 1`] = `
       <text>THREE</text>
     </button>
   </group>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Sizes and colors
     <Anchor></Anchor>
@@ -3238,36 +3209,7 @@ exports[`chromium /components/button-group/ 1`] = `
       <text>THREE</text>
     </button>
   </group>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Vertical group
     <Anchor></Anchor>
@@ -3322,36 +3264,7 @@ exports[`chromium /components/button-group/ 1`] = `
       <text>THREE</text>
     </button>
   </group>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Split button
     <Anchor></Anchor>
@@ -3380,36 +3293,7 @@ exports[`chromium /components/button-group/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </group>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Disabled elevation
     <Anchor></Anchor>
@@ -3434,36 +3318,7 @@ exports[`chromium /components/button-group/ 1`] = `
       <text>TWO</text>
     </button>
   </group>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
