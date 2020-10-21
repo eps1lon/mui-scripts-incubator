@@ -1426,12 +1426,42 @@ exports[`chromium /api/button/ 1`] = `
       <SVGRoot></SVGRoot>
       <text>Breadcrumbs</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       ButtonBase
       <text>ButtonBase</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
@@ -2365,12 +2395,42 @@ exports[`chromium /api/select/ 1`] = `
       <SVGRoot></SVGRoot>
       <text>ScopedCssBaseline</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       Skeleton
       <text>Skeleton</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
@@ -3089,12 +3149,42 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <SVGRoot></SVGRoot>
       <text>Bottom Navigation</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       Drawer
       <text>Drawer</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
@@ -3541,12 +3631,42 @@ exports[`chromium /components/button-group/ 1`] = `
       <SVGRoot></SVGRoot>
       <text>Button</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       Checkbox
       <text>Checkbox</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
@@ -4656,12 +4776,42 @@ exports[`chromium /components/buttons/ 1`] = `
       <SVGRoot></SVGRoot>
       <text>Autocomplete</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       Button Group
       <text>Button Group</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
@@ -5285,12 +5435,42 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <SVGRoot></SVGRoot>
       <text>Button Group</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       Floating Action Button
       <text>Floating Action Button</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
@@ -6060,6 +6240,18 @@ exports[`chromium /components/dialogs/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
+    Performance
+    <Anchor></Anchor>
+    <text>Performance</text>
+  </heading>
+  <paragraph>
+    <text>Follow the</text>
+    <link checked="undefined" pressed="undefined">
+      Modal performance section
+    </link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
     Limitations
     <Anchor></Anchor>
     <text>Limitations</text>
@@ -6151,12 +6343,42 @@ exports[`chromium /components/dialogs/ 1`] = `
       <SVGRoot></SVGRoot>
       <text>Backdrop</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       Progress
       <text>Progress</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
@@ -7885,12 +8107,42 @@ exports[`chromium /components/pagination/ 1`] = `
       <SVGRoot></SVGRoot>
       <text>Menu</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       Speed Dial
       <text>Speed Dial</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
@@ -8319,12 +8571,42 @@ exports[`chromium /components/pickers 1`] = `
       <SVGRoot></SVGRoot>
       <text>Floating Action Button</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       Radio
       <text>Radio</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
@@ -8997,12 +9279,42 @@ exports[`chromium /components/radio-buttons 1`] = `
       <SVGRoot></SVGRoot>
       <text>Date / Time</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       Rating
       <text>Rating</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
@@ -9754,12 +10066,42 @@ exports[`chromium /components/rating/ 1`] = `
       <SVGRoot></SVGRoot>
       <text>Radio</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       Select
       <text>Select</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
@@ -10848,12 +11190,42 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
       <text>Rating</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       Slider
       <text>Slider</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
@@ -11959,12 +12331,42 @@ exports[`chromium /components/slider 1`] = `
       <SVGRoot></SVGRoot>
       <text>Select</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       Switch
       <text>Switch</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
@@ -12517,12 +12919,42 @@ exports[`chromium /components/switches/ 1`] = `
       <SVGRoot></SVGRoot>
       <text>Slider</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       Text Field
       <text>Text Field</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
@@ -13938,12 +14370,42 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
       <text>Stepper</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       Accordion
       <text>Accordion</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
@@ -16142,11 +16604,9 @@ exports[`chromium /components/text-fields/ 1`] = `
     </combobox>
   </toolbar>
   <paragraph>
-    <text>The provided input component should handle the</text>
-    <code>$SOME_CODE</code>
     <text>
-      property. The property should be called with a value that implements the
-      following interface:
+      The provided input component should expose a ref with a value that
+      implements the following interface:
     </text>
   </paragraph>
   <Pre>
@@ -16346,12 +16806,42 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
       <text>Switch</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       Transfer List
       <text>Transfer List</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
@@ -17374,12 +17864,42 @@ exports[`chromium /components/tooltips/ 1`] = `
       <SVGRoot></SVGRoot>
       <text>Table</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       Typography
       <text>Typography</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
@@ -17664,12 +18184,42 @@ exports[`chromium /components/transfer-list 1`] = `
       <SVGRoot></SVGRoot>
       <text>Text Field</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       Toggle Button
       <text>Toggle Button</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
@@ -18491,12 +19041,42 @@ exports[`chromium /components/tree-view/ 1`] = `
       <SVGRoot></SVGRoot>
       <text>Trap Focus</text>
     </link>
+    <group>
+      give page feedback
+      <heading level="6">
+        Was this page helpful?
+        <text>Was this page helpful?</text>
+      </heading>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
     <link checked="undefined" pressed="undefined">
       Accordion
       <text>Accordion</text>
       <SVGRoot></SVGRoot>
     </link>
+    <heading level="6">
+      Thanks for your feedback!
+      <text>Thanks for your feedback!</text>
+    </heading>
+    <paragraph>
+      Please let us know what we could do to improve this page.
+      <text>Please let us know what we could do to improve this page.</text>
+    </paragraph>
+    <textbox multiline="true"></textbox>
+    <group>
+      <Legend>
+        <text>​</text>
+      </Legend>
+    </group>
+    <button>
+      <text>CANCEL</text>
+    </button>
+    <button>
+      <text>SUBMIT</text>
+    </button>
   </FooterAsNonLandmark>
+  <textbox></textbox>
 </main>;
 
 `;
