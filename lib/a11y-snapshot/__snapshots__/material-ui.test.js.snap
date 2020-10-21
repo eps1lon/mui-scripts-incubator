@@ -4752,11 +4752,11 @@ exports[`chromium /components/checkboxes/ 1`] = `
   <SVGRoot></SVGRoot>
   <checkbox checked="false">uncontrolled-checkbox</checkbox>
   <SVGRoot></SVGRoot>
-  <checkbox disabled="true" checked="false">
+  <checkbox checked="false" disabled="true">
     disabled checkbox
   </checkbox>
   <SVGRoot></SVGRoot>
-  <checkbox disabled="true" checked="true">
+  <checkbox checked="true" disabled="true">
     disabled checked checkbox
   </checkbox>
   <SVGRoot></SVGRoot>
@@ -4885,13 +4885,13 @@ exports[`chromium /components/checkboxes/ 1`] = `
     <SVGRoot></SVGRoot>
   </Label>
   <Label>
-    <checkbox disabled="true" checked="false">
+    <checkbox checked="false" disabled="true">
       Disabled
     </checkbox>
     <SVGRoot></SVGRoot>
   </Label>
   <Label>
-    <checkbox disabled="true" checked="true">
+    <checkbox checked="true" disabled="true">
       Disabled
     </checkbox>
     <SVGRoot></SVGRoot>
@@ -5113,7 +5113,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </button>
   <checkbox checked="false">decorative checkbox</checkbox>
   <checkbox checked="true">decorative checkbox</checkbox>
-  <checkbox disabled="true" checked="false">
+  <checkbox checked="false" disabled="true">
     decorative checkbox
   </checkbox>
   <toolbar>
@@ -8074,7 +8074,7 @@ exports[`chromium /components/pickers 1`] = `
     <text>Date picker desktop</text>
   </Label>
   <text> </text>
-  <textbox value="08/18/2014" description="mm/dd/yyyy">
+  <textbox description="mm/dd/yyyy" value="08/18/2014">
     Date picker desktop
     <text>08/18/2014</text>
   </textbox>
@@ -8089,7 +8089,7 @@ exports[`chromium /components/pickers 1`] = `
     <text>Date picker mobile</text>
   </Label>
   <text> </text>
-  <textbox value="08/18/2014" readonly="true">
+  <textbox readonly="true" value="08/18/2014">
     Choose date, selected date is Aug 18, 2014
     <text>08/18/2014</text>
   </textbox>
@@ -8097,7 +8097,7 @@ exports[`chromium /components/pickers 1`] = `
     <text>Time picker</text>
   </Label>
   <text> </text>
-  <textbox value="09:11 PM" readonly="true">
+  <textbox readonly="true" value="09:11 PM">
     Choose time, selected time is 9:11 PM
     <text>09:11 PM</text>
   </textbox>
@@ -8164,17 +8164,17 @@ exports[`chromium /components/pickers 1`] = `
     <text> </text>
     <Date value="2017-05-24">
       Birthday
-      <spinbutton value="5" valuetext="05" valuemax="12" valuemin="1">
+      <spinbutton value="5" valuemax="12" valuemin="1" valuetext="05">
         Month
         <text>05</text>
       </spinbutton>
       <text>/</text>
-      <spinbutton value="24" valuetext="24" valuemax="31" valuemin="1">
+      <spinbutton value="24" valuemax="31" valuemin="1" valuetext="24">
         Day
         <text>24</text>
       </spinbutton>
       <text>/</text>
-      <spinbutton value="2017" valuetext="2017" valuemax="275760" valuemin="1">
+      <spinbutton value="2017" valuemax="275760" valuemin="1" valuetext="2017">
         Year
         <text>2017</text>
       </spinbutton>
@@ -8234,32 +8234,32 @@ exports[`chromium /components/pickers 1`] = `
     <text> </text>
     <DateTime value="2017-05-24T10:30">
       Next appointment
-      <spinbutton value="5" valuetext="05" valuemax="12" valuemin="1">
+      <spinbutton value="5" valuemax="12" valuemin="1" valuetext="05">
         Month
         <text>05</text>
       </spinbutton>
       <text>/</text>
-      <spinbutton value="24" valuetext="24" valuemax="31" valuemin="1">
+      <spinbutton value="24" valuemax="31" valuemin="1" valuetext="24">
         Day
         <text>24</text>
       </spinbutton>
       <text>/</text>
-      <spinbutton value="2017" valuetext="2017" valuemax="275760" valuemin="1">
+      <spinbutton value="2017" valuemax="275760" valuemin="1" valuetext="2017">
         Year
         <text>2017</text>
       </spinbutton>
       <text>,</text>
-      <spinbutton value="10" valuetext="10" valuemax="12" valuemin="1">
+      <spinbutton value="10" valuemax="12" valuemin="1" valuetext="10">
         Hours
         <text>10</text>
       </spinbutton>
       <text>:</text>
-      <spinbutton value="30" valuetext="30" valuemax="59" valuemin="0">
+      <spinbutton value="30" valuemax="59" valuemin="0" valuetext="30">
         Minutes
         <text>30</text>
       </spinbutton>
       <text></text>
-      <spinbutton value="1" valuetext="AM" valuemax="2" valuemin="1">
+      <spinbutton value="1" valuemax="2" valuemin="1" valuetext="AM">
         AM/PM
         <text>AM</text>
       </spinbutton>
@@ -8319,17 +8319,17 @@ exports[`chromium /components/pickers 1`] = `
     <text> </text>
     <InputTime value="07:30">
       Alarm clock
-      <spinbutton value="7" valuetext="07" valuemax="12" valuemin="1">
+      <spinbutton value="7" valuemax="12" valuemin="1" valuetext="07">
         Hours
         <text>07</text>
       </spinbutton>
       <text>:</text>
-      <spinbutton value="30" valuetext="30" valuemax="59" valuemin="0">
+      <spinbutton value="30" valuemax="59" valuemin="0" valuetext="30">
         Minutes
         <text>30</text>
       </spinbutton>
       <text></text>
-      <spinbutton value="1" valuetext="AM" valuemax="2" valuemin="1">
+      <spinbutton value="1" valuemax="2" valuemin="1" valuetext="AM">
         AM/PM
         <text>AM</text>
       </spinbutton>
@@ -8542,7 +8542,7 @@ exports[`chromium /components/radio-buttons 1`] = `
         <SVGRoot></SVGRoot>
       </Label>
       <Label>
-        <radio disabled="true" checked="false">
+        <radio checked="false" disabled="true">
           (Disabled option)
         </radio>
         <SVGRoot></SVGRoot>
@@ -8828,7 +8828,7 @@ exports[`chromium /components/radio-buttons 1`] = `
         <radio checked="false">Other</radio>
       </Label>
       <Label>
-        <radio disabled="true" checked="false">
+        <radio checked="false" disabled="true">
           (Disabled option)
         </radio>
       </Label>
@@ -9226,31 +9226,31 @@ exports[`chromium /components/rating/ 1`] = `
   <Label>
     <SVGRoot></SVGRoot>
   </Label>
-  <radio disabled="true" checked="false">
+  <radio checked="false" disabled="true">
     1 Star
   </radio>
   <Label>
     <SVGRoot></SVGRoot>
   </Label>
-  <radio disabled="true" checked="true">
+  <radio checked="true" disabled="true">
     2 Stars
   </radio>
   <Label>
     <SVGRoot></SVGRoot>
   </Label>
-  <radio disabled="true" checked="false">
+  <radio checked="false" disabled="true">
     3 Stars
   </radio>
   <Label>
     <SVGRoot></SVGRoot>
   </Label>
-  <radio disabled="true" checked="false">
+  <radio checked="false" disabled="true">
     4 Stars
   </radio>
   <Label>
     <SVGRoot></SVGRoot>
   </Label>
-  <radio disabled="true" checked="false">
+  <radio checked="false" disabled="true">
     5 Stars
   </radio>
   <Legend>
@@ -10266,7 +10266,7 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
-  <textbox required="true" invalid="true"></textbox>
+  <textbox invalid="true" required="true"></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Required</text>
@@ -11121,11 +11121,11 @@ exports[`chromium /components/slider 1`] = `
   </paragraph>
   <SVGRoot></SVGRoot>
   <slider
+    orientation="horizontal"
     value="30"
-    valuetext=""
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext=""
   >
     Volume
   </slider>
@@ -11134,11 +11134,11 @@ exports[`chromium /components/slider 1`] = `
     <text>Disabled slider</text>
   </paragraph>
   <slider
+    orientation="horizontal"
     value="30"
-    valuetext=""
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext=""
   >
     Disabled slider
   </slider>
@@ -11196,11 +11196,11 @@ exports[`chromium /components/slider 1`] = `
     <text>Temperature</text>
   </paragraph>
   <slider
+    orientation="horizontal"
     value="30"
-    valuetext="30°C"
     valuemax="110"
     valuemin="10"
-    orientation="horizontal"
+    valuetext="30°C"
   >
     Temperature
     <text>30</text>
@@ -11209,11 +11209,11 @@ exports[`chromium /components/slider 1`] = `
     <text>Disabled</text>
   </paragraph>
   <slider
+    orientation="horizontal"
     value="30"
-    valuetext="30°C"
     valuemax="110"
     valuemin="10"
-    orientation="horizontal"
+    valuetext="30°C"
   >
     Disabled
     <text>30</text>
@@ -11264,11 +11264,11 @@ exports[`chromium /components/slider 1`] = `
     <text>Small steps</text>
   </paragraph>
   <slider
+    orientation="horizontal"
     value="5.000000058430487e-8"
-    valuetext="5e-8°C"
     valuemax="1.0000000116860974e-7"
     valuemin="-5.000000058430487e-8"
-    orientation="horizontal"
+    valuetext="5e-8°C"
   >
     Small steps
     <text>5e-8</text>
@@ -11325,11 +11325,11 @@ exports[`chromium /components/slider 1`] = `
   </paragraph>
   <text>0°C20°C37°C100°C</text>
   <slider
+    orientation="horizontal"
     value="20"
-    valuetext="20°C"
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext="20°C"
   >
     Custom marks
     <text>20</text>
@@ -11390,11 +11390,11 @@ exports[`chromium /components/slider 1`] = `
   </paragraph>
   <text>0°C20°C37°C100°C</text>
   <slider
+    orientation="horizontal"
     value="20"
-    valuetext="20°C"
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext="20°C"
   >
     Restricted values
     <text>2</text>
@@ -11451,11 +11451,11 @@ exports[`chromium /components/slider 1`] = `
   </paragraph>
   <text>0°C20°C37°C100°C</text>
   <slider
+    orientation="horizontal"
     value="80"
-    valuetext="80°C"
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext="80°C"
   >
     Always visible
     <text>80</text>
@@ -11514,21 +11514,21 @@ exports[`chromium /components/slider 1`] = `
     <text>Temperature range</text>
   </paragraph>
   <slider
+    orientation="horizontal"
     value="20"
-    valuetext="20°C"
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext="20°C"
   >
     Temperature range
     <text>20</text>
   </slider>
   <slider
+    orientation="horizontal"
     value="37"
-    valuetext="37°C"
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext="37°C"
   >
     Temperature range
     <text>37</text>
@@ -11583,16 +11583,16 @@ exports[`chromium /components/slider 1`] = `
   </paragraph>
   <SVGRoot></SVGRoot>
   <slider
+    orientation="horizontal"
     value="30"
-    valuetext=""
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext=""
   >
     Volume
   </slider>
   <text> </text>
-  <spinbutton value="30" valuetext="" valuemax="100" valuemin="0">
+  <spinbutton value="30" valuemax="100" valuemin="0" valuetext="">
     Volume
     <text>30</text>
   </spinbutton>
@@ -11647,11 +11647,11 @@ exports[`chromium /components/slider 1`] = `
     <text>iOS</text>
   </paragraph>
   <slider
+    orientation="horizontal"
     value="60"
-    valuetext=""
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext=""
   >
     ios slider
     <text>60</text>
@@ -11660,11 +11660,11 @@ exports[`chromium /components/slider 1`] = `
     <text>pretto.fr</text>
   </paragraph>
   <slider
+    orientation="horizontal"
     value="20"
-    valuetext=""
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext=""
   >
     pretto slider
     <text>20</text>
@@ -11673,11 +11673,11 @@ exports[`chromium /components/slider 1`] = `
     <text>Tooltip value label</text>
   </paragraph>
   <slider
+    orientation="horizontal"
     value="20"
-    valuetext=""
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext=""
   >
     custom thumb label
   </slider>
@@ -11685,20 +11685,20 @@ exports[`chromium /components/slider 1`] = `
     <text>Airbnb</text>
   </paragraph>
   <slider
+    orientation="horizontal"
     value="20"
-    valuetext=""
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext=""
   >
     Minimum price
   </slider>
   <slider
+    orientation="horizontal"
     value="40"
-    valuetext=""
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext=""
   >
     Maximum price
   </slider>
@@ -11745,39 +11745,39 @@ exports[`chromium /components/slider 1`] = `
     <text>Temperature</text>
   </paragraph>
   <slider
+    orientation="vertical"
     value="30"
-    valuetext="30°C"
     valuemax="100"
     valuemin="0"
-    orientation="vertical"
+    valuetext="30°C"
   >
     Temperature
   </slider>
   <slider
+    orientation="vertical"
     value="30"
-    valuetext="30°C"
     valuemax="100"
     valuemin="0"
-    orientation="vertical"
+    valuetext="30°C"
   >
     Temperature
   </slider>
   <text>0°C20°C37°C100°C</text>
   <slider
+    orientation="vertical"
     value="20"
-    valuetext="20°C"
     valuemax="100"
     valuemin="0"
-    orientation="vertical"
+    valuetext="20°C"
   >
     Temperature
   </slider>
   <slider
+    orientation="vertical"
     value="37"
-    valuetext="37°C"
     valuemax="100"
     valuemin="0"
-    orientation="vertical"
+    valuetext="37°C"
   >
     Temperature
   </slider>
@@ -11838,11 +11838,11 @@ exports[`chromium /components/slider 1`] = `
   </paragraph>
   <text>0°C20°C37°C100°C</text>
   <slider
+    orientation="horizontal"
     value="30"
-    valuetext="30°C"
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext="30°C"
   >
     Removed track
   </slider>
@@ -11851,29 +11851,29 @@ exports[`chromium /components/slider 1`] = `
   </paragraph>
   <text>0°C20°C37°C100°C</text>
   <slider
+    orientation="horizontal"
     value="20"
+    valuemax="100"
+    valuemin="0"
     valuetext="20°C"
-    valuemax="100"
-    valuemin="0"
-    orientation="horizontal"
   >
     Removed track range slider
   </slider>
   <slider
+    orientation="horizontal"
     value="37"
-    valuetext="37°C"
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext="37°C"
   >
     Removed track range slider
   </slider>
   <slider
+    orientation="horizontal"
     value="50"
-    valuetext="50°C"
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext="50°C"
   >
     Removed track range slider
   </slider>
@@ -11926,11 +11926,11 @@ exports[`chromium /components/slider 1`] = `
   </paragraph>
   <text>0°C20°C37°C100°C</text>
   <slider
+    orientation="horizontal"
     value="30"
-    valuetext="30°C"
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext="30°C"
   >
     Inverted track
   </slider>
@@ -11939,20 +11939,20 @@ exports[`chromium /components/slider 1`] = `
   </paragraph>
   <text>0°C20°C37°C100°C</text>
   <slider
+    orientation="horizontal"
     value="20"
-    valuetext="20°C"
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext="20°C"
   >
     Inverted track range
   </slider>
   <slider
+    orientation="horizontal"
     value="37"
-    valuetext="37°C"
     valuemax="100"
     valuemin="0"
-    orientation="horizontal"
+    valuetext="37°C"
   >
     Inverted track range
   </slider>
@@ -12012,11 +12012,11 @@ exports[`chromium /components/slider 1`] = `
     <text>Storage:1 MB</text>
   </paragraph>
   <slider
+    orientation="horizontal"
     value="1024"
-    valuetext="1 MB"
     valuemax="1073741824"
     valuemin="32"
-    orientation="horizontal"
+    valuetext="1 MB"
   >
     Storage: 1 MB
     <text>1 MB</text>
@@ -12230,10 +12230,10 @@ exports[`chromium /components/switches/ 1`] = `
   <checkbox checked="true">secondary checkbox</checkbox>
   <checkbox checked="true">primary checkbox</checkbox>
   <checkbox checked="false">primary checkbox</checkbox>
-  <checkbox disabled="true" checked="false">
+  <checkbox checked="false" disabled="true">
     disabled checkbox
   </checkbox>
-  <checkbox disabled="true" checked="true">
+  <checkbox checked="true" disabled="true">
     primary checkbox
   </checkbox>
   <checkbox checked="true">checkbox with default color</checkbox>
@@ -12292,12 +12292,12 @@ exports[`chromium /components/switches/ 1`] = `
     <checkbox checked="false">Uncontrolled</checkbox>
   </Label>
   <Label>
-    <checkbox disabled="true" checked="false">
+    <checkbox checked="false" disabled="true">
       Disabled
     </checkbox>
   </Label>
   <Label>
-    <checkbox disabled="true" checked="true">
+    <checkbox checked="true" disabled="true">
       Disabled
     </checkbox>
   </Label>
@@ -14341,7 +14341,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Required *</text>
     </Label>
     <text> </text>
-    <textbox value="Hello World" required="true">
+    <textbox required="true" value="Hello World">
       Required
       <text>Hello World</text>
     </textbox>
@@ -14349,7 +14349,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Disabled</text>
     </Label>
     <text> </text>
-    <textbox value="Hello World" disabled="true">
+    <textbox disabled="true" value="Hello World">
       Disabled
       <text>Hello World</text>
     </textbox>
@@ -14362,7 +14362,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Read Only</text>
     </Label>
     <text> </text>
-    <textbox value="Hello World" readonly="true">
+    <textbox readonly="true" value="Hello World">
       Read Only
       <text>Hello World</text>
     </textbox>
@@ -14380,7 +14380,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Helper text</text>
     </Label>
     <text> </text>
-    <textbox value="Default Value" description="Some important text">
+    <textbox description="Some important text" value="Default Value">
       Helper text
       <text>Default Value</text>
     </textbox>
@@ -14391,7 +14391,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Required *</text>
     </Label>
     <text> </text>
-    <textbox value="Hello World" required="true">
+    <textbox required="true" value="Hello World">
       Required
       <text>Hello World</text>
     </textbox>
@@ -14399,7 +14399,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Disabled</text>
     </Label>
     <text> </text>
-    <textbox value="Hello World" disabled="true">
+    <textbox disabled="true" value="Hello World">
       Disabled
       <text>Hello World</text>
     </textbox>
@@ -14412,7 +14412,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Read Only</text>
     </Label>
     <text> </text>
-    <textbox value="Hello World" readonly="true">
+    <textbox readonly="true" value="Hello World">
       Read Only
       <text>Hello World</text>
     </textbox>
@@ -14430,7 +14430,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Helper text</text>
     </Label>
     <text> </text>
-    <textbox value="Default Value" description="Some important text">
+    <textbox description="Some important text" value="Default Value">
       Helper text
       <text>Default Value</text>
     </textbox>
@@ -14440,7 +14440,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Required *</text>
     </Label>
-    <textbox value="Hello World" required="true">
+    <textbox required="true" value="Hello World">
       Required
       <text>Hello World</text>
     </textbox>
@@ -14452,7 +14452,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Disabled</text>
     </Label>
-    <textbox value="Hello World" disabled="true">
+    <textbox disabled="true" value="Hello World">
       Disabled
       <text>Hello World</text>
     </textbox>
@@ -14473,7 +14473,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Read Only</text>
     </Label>
-    <textbox value="Hello World" readonly="true">
+    <textbox readonly="true" value="Hello World">
       Read Only
       <text>Hello World</text>
     </textbox>
@@ -14503,7 +14503,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Helper text</text>
     </Label>
-    <textbox value="Default Value" description="Some important text">
+    <textbox description="Some important text" value="Default Value">
       Helper text
       <text>Default Value</text>
     </textbox>
@@ -14569,7 +14569,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Error</text>
     </Label>
     <text> </text>
-    <textbox value="Hello World" invalid="true">
+    <textbox invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
@@ -14577,7 +14577,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Error</text>
     </Label>
     <text> </text>
-    <textbox value="Hello World" description="Incorrect entry." invalid="true">
+    <textbox description="Incorrect entry." invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
@@ -14588,7 +14588,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Error</text>
     </Label>
     <text> </text>
-    <textbox value="Hello World" invalid="true">
+    <textbox invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
@@ -14596,7 +14596,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Error</text>
     </Label>
     <text> </text>
-    <textbox value="Hello World" description="Incorrect entry." invalid="true">
+    <textbox description="Incorrect entry." invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
@@ -14606,7 +14606,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Error</text>
     </Label>
-    <textbox value="Hello World" invalid="true">
+    <textbox invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
@@ -14618,7 +14618,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Error</text>
     </Label>
-    <textbox value="Hello World" description="Incorrect entry." invalid="true">
+    <textbox description="Incorrect entry." invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
@@ -14696,11 +14696,11 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Multiline</text>
     </Label>
     <text> </text>
-    <textbox value="Controlled" multiline="true">
+    <textbox multiline="true" value="Controlled">
       Multiline
       <text>Controlled</text>
     </textbox>
-    <textbox value="x" multiline="true" readonly="true"></textbox>
+    <textbox multiline="true" readonly="true" value="x"></textbox>
     <Label>
       <text>Multiline Placeholder</text>
     </Label>
@@ -14709,12 +14709,12 @@ exports[`chromium /components/text-fields/ 1`] = `
       Multiline Placeholder
       <text>Placeholder</text>
     </textbox>
-    <textbox value="x" multiline="true" readonly="true"></textbox>
+    <textbox multiline="true" readonly="true" value="x"></textbox>
     <Label>
       <text>Multiline</text>
     </Label>
     <text> </text>
-    <textbox value="Default Value" multiline="true">
+    <textbox multiline="true" value="Default Value">
       Multiline
       <text>Default Value</text>
     </textbox>
@@ -14722,11 +14722,11 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Multiline</text>
     </Label>
     <text> </text>
-    <textbox value="Controlled" multiline="true">
+    <textbox multiline="true" value="Controlled">
       Multiline
       <text>Controlled</text>
     </textbox>
-    <textbox value="x" multiline="true" readonly="true"></textbox>
+    <textbox multiline="true" readonly="true" value="x"></textbox>
     <Label>
       <text>Multiline Placeholder</text>
     </Label>
@@ -14735,23 +14735,23 @@ exports[`chromium /components/text-fields/ 1`] = `
       Multiline Placeholder
       <text>Placeholder</text>
     </textbox>
-    <textbox value="x" multiline="true" readonly="true"></textbox>
+    <textbox multiline="true" readonly="true" value="x"></textbox>
     <Label>
       <text>Multiline</text>
     </Label>
     <text> </text>
-    <textbox value="Default Value" multiline="true">
+    <textbox multiline="true" value="Default Value">
       Multiline
       <text>Default Value</text>
     </textbox>
     <Label>
       <text>Multiline</text>
     </Label>
-    <textbox value="Controlled" multiline="true">
+    <textbox multiline="true" value="Controlled">
       Multiline
       <text>Controlled</text>
     </textbox>
-    <textbox value="x" multiline="true" readonly="true"></textbox>
+    <textbox multiline="true" readonly="true" value="x"></textbox>
     <group>
       <Legend>
         <text>Multiline</text>
@@ -14764,7 +14764,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       Multiline Placeholder
       <text>Placeholder</text>
     </textbox>
-    <textbox value="x" multiline="true" readonly="true"></textbox>
+    <textbox multiline="true" readonly="true" value="x"></textbox>
     <group>
       <Legend>
         <text>Multiline Placeholder</text>
@@ -14773,7 +14773,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Multiline</text>
     </Label>
-    <textbox value="Default Value" multiline="true">
+    <textbox multiline="true" value="Default Value">
       Multiline
       <text>Default Value</text>
     </textbox>
@@ -14835,7 +14835,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     </Label>
     <text> </text>
     <combobox haspopup="listbox">Select €</combobox>
-    <textbox value="EUR" description="Please select your currency"></textbox>
+    <textbox description="Please select your currency" value="EUR"></textbox>
     <SVGRoot></SVGRoot>
     <paragraph>
       <text>Please select your currency</text>
@@ -14844,7 +14844,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Native select</text>
     </Label>
     <text> </text>
-    <combobox value="€" description="Please select your currency">
+    <combobox description="Please select your currency" value="€">
       Native select
       <MenuListPopup>
         <menuitem>$</menuitem>
@@ -14862,7 +14862,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     </Label>
     <text> </text>
     <combobox haspopup="listbox">Select €</combobox>
-    <textbox value="EUR" description="Please select your currency"></textbox>
+    <textbox description="Please select your currency" value="EUR"></textbox>
     <SVGRoot></SVGRoot>
     <paragraph>
       <text>Please select your currency</text>
@@ -14871,7 +14871,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Native select</text>
     </Label>
     <text> </text>
-    <combobox value="€" description="Please select your currency">
+    <combobox description="Please select your currency" value="€">
       Native select
       <MenuListPopup>
         <menuitem>$</menuitem>
@@ -14888,7 +14888,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Select</text>
     </Label>
     <combobox haspopup="listbox">Select €</combobox>
-    <textbox value="EUR" description="Please select your currency"></textbox>
+    <textbox description="Please select your currency" value="EUR"></textbox>
     <SVGRoot></SVGRoot>
     <group>
       <Legend>
@@ -14901,7 +14901,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Native select</text>
     </Label>
-    <combobox value="€" description="Please select your currency">
+    <combobox description="Please select your currency" value="€">
       Native select
       <MenuListPopup>
         <menuitem>$</menuitem>
@@ -15323,7 +15323,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>None</text>
   </Label>
   <text> </text>
-  <textbox value="Default Value" description="Some important text">
+  <textbox description="Some important text" value="Default Value">
     None
     <text>Default Value</text>
   </textbox>
@@ -15334,7 +15334,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Dense</text>
   </Label>
   <text> </text>
-  <textbox value="Default Value" description="Some important text">
+  <textbox description="Some important text" value="Default Value">
     Dense
     <text>Default Value</text>
   </textbox>
@@ -15345,7 +15345,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Normal</text>
   </Label>
   <text> </text>
-  <textbox value="Default Value" description="Some important text">
+  <textbox description="Some important text" value="Default Value">
     Normal
     <text>Default Value</text>
   </textbox>
@@ -15367,7 +15367,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>None</text>
   </Label>
   <text> </text>
-  <textbox value="Default Value" description="Some important text">
+  <textbox description="Some important text" value="Default Value">
     None
     <text>Default Value</text>
   </textbox>
@@ -15378,7 +15378,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Dense</text>
   </Label>
   <text> </text>
-  <textbox value="Default Value" description="Some important text">
+  <textbox description="Some important text" value="Default Value">
     Dense
     <text>Default Value</text>
   </textbox>
@@ -15389,7 +15389,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Normal</text>
   </Label>
   <text> </text>
-  <textbox value="Default Value" description="Some important text">
+  <textbox description="Some important text" value="Default Value">
     Normal
     <text>Default Value</text>
   </textbox>
@@ -15414,7 +15414,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   <Label>
     <text>None</text>
   </Label>
-  <textbox value="Default Value" description="Some important text">
+  <textbox description="Some important text" value="Default Value">
     None
     <text>Default Value</text>
   </textbox>
@@ -15429,7 +15429,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   <Label>
     <text>Dense</text>
   </Label>
-  <textbox value="Default Value" description="Some important text">
+  <textbox description="Some important text" value="Default Value">
     Dense
     <text>Default Value</text>
   </textbox>
@@ -15444,7 +15444,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   <Label>
     <text>Normal</text>
   </Label>
-  <textbox value="Default Value" description="Some important text">
+  <textbox description="Some important text" value="Default Value">
     Normal
     <text>Default Value</text>
   </textbox>
@@ -15664,8 +15664,8 @@ exports[`chromium /components/text-fields/ 1`] = `
     </Label>
     <text> </text>
     <textbox
-      value="Composed TextField"
       description="Some important helper text"
+      value="Composed TextField"
     >
       Name
       <text>Composed TextField</text>
@@ -15677,7 +15677,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Name</text>
     </Label>
     <text> </text>
-    <textbox value="Composed TextField" disabled="true">
+    <textbox disabled="true" value="Composed TextField">
       Name
       <text>Composed TextField</text>
     </textbox>
@@ -15688,7 +15688,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Name</text>
     </Label>
     <text> </text>
-    <textbox value="Composed TextField" description="Error" invalid="true">
+    <textbox description="Error" invalid="true" value="Composed TextField">
       Name
       <text>Composed TextField</text>
     </textbox>
@@ -15767,12 +15767,12 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Placeholder</text>
     </textbox>
     <text> </text>
-    <textbox value="Disabled" disabled="true">
+    <textbox disabled="true" value="Disabled">
       description
       <text>Disabled</text>
     </textbox>
     <text> </text>
-    <textbox value="Error" invalid="true">
+    <textbox invalid="true" value="Error">
       description
       <text>Error</text>
     </textbox>
@@ -15941,7 +15941,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>CSS validation style *</text>
     </Label>
-    <textbox value="Success" required="true">
+    <textbox required="true" value="Success">
       CSS validation style
       <text>Success</text>
     </textbox>
@@ -18901,8 +18901,8 @@ exports[`firefox / 1`] = `
     <link>
       octopus
       <img
-        value="https://octopus.com/?utm_source=materialui&utm_medium=referral"
         description="Repeatable, reliable deployments"
+        value="https://octopus.com/?utm_source=materialui&utm_medium=referral"
       >
         octopus
       </img>
@@ -18910,8 +18910,8 @@ exports[`firefox / 1`] = `
     <link>
       doit-intl
       <img
-        value="https://www.doit-intl.com/?utm_source=materialui&utm_medium=referral"
         description="Management Platform for Google Cloud and AWS"
+        value="https://www.doit-intl.com/?utm_source=materialui&utm_medium=referral"
       >
         doit-intl
       </img>
@@ -18927,23 +18927,23 @@ exports[`firefox / 1`] = `
     <link>
       tidelift
       <img
-        value="https://tidelift.com/subscription/pkg/npm-material-ui?utm_source=npm-material-ui&utm_medium=referral&utm_campaign=homepage"
         description="Enterprise-ready open source software"
+        value="https://tidelift.com/subscription/pkg/npm-material-ui?utm_source=npm-material-ui&utm_medium=referral&utm_campaign=homepage"
       >
         tidelift
       </img>
     </link>
     <link>
       bitsrc
-      <img value="https://bit.dev/" description="The fastest way to share code">
+      <img description="The fastest way to share code" value="https://bit.dev/">
         bitsrc
       </img>
     </link>
     <link>
       call-em-all
       <img
-        value="https://www.text-em-all.com/"
         description="Mass Text Messaging & Automated Calling"
+        value="https://www.text-em-all.com/"
       >
         call-em-all
       </img>
@@ -21869,7 +21869,7 @@ exports[`firefox /components/buttons/ 1`] = `
   </button>
   <button disabled="true">
     50
-    <progressbar value="50" valuetext="50" checked="mixed">
+    <progressbar checked="mixed" value="50" valuetext="50">
       <diagram>
         <img></img>
       </diagram>
@@ -21881,7 +21881,7 @@ exports[`firefox /components/buttons/ 1`] = `
   </button>
   <button disabled="true">
     50 SAVE
-    <progressbar value="50" valuetext="50" checked="mixed">
+    <progressbar checked="mixed" value="50" valuetext="50">
       <diagram>
         <img></img>
       </diagram>
@@ -22184,7 +22184,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
   <checkbox checked="true">secondary checkbox</checkbox>
   <checkbox>uncontrolled-checkbox</checkbox>
   <checkbox disabled="true">disabled checkbox</checkbox>
-  <checkbox disabled="true" checked="true">
+  <checkbox checked="true" disabled="true">
     disabled checked checkbox
   </checkbox>
   <checkbox checked="true">indeterminate checkbox</checkbox>
@@ -22281,7 +22281,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </label>
   <label>
     Disabled
-    <checkbox disabled="true" checked="true">
+    <checkbox checked="true" disabled="true">
       Disabled
     </checkbox>
     <text>Disabled</text>
@@ -24802,7 +24802,7 @@ exports[`firefox /components/pickers 1`] = `
     <text>Date picker desktop</text>
   </label>
   <statictext> </statictext>
-  <textbox value="08/18/2014" description="mm/dd/yyyy">
+  <textbox description="mm/dd/yyyy" value="08/18/2014">
     Date picker desktop
     <text>08/18/2014</text>
   </textbox>
@@ -24815,7 +24815,7 @@ exports[`firefox /components/pickers 1`] = `
     <text>Date picker mobile</text>
   </label>
   <statictext> </statictext>
-  <textbox value="08/18/2014" readonly="true">
+  <textbox readonly="true" value="08/18/2014">
     Choose date, selected date is Aug 18, 2014
     <text>08/18/2014</text>
   </textbox>
@@ -24824,7 +24824,7 @@ exports[`firefox /components/pickers 1`] = `
     <text>Time picker</text>
   </label>
   <statictext> </statictext>
-  <textbox value="09:11 PM" readonly="true">
+  <textbox readonly="true" value="09:11 PM">
     Choose time, selected time is 9:11 PM
     <text>09:11 PM</text>
   </textbox>
@@ -24980,7 +24980,7 @@ exports[`firefox /components/pickers 1`] = `
         <text>30</text>
       </spinbutton>
       <text></text>
-      <textbox value="AM" autocomplete="inline">
+      <textbox autocomplete="inline" value="AM">
         AM/PM
         <text>AM</text>
       </textbox>
@@ -25629,7 +25629,7 @@ exports[`firefox /components/rating/ 1`] = `
     2 Stars
     <text>2 Stars</text>
   </label>
-  <radio disabled="true" checked="true">
+  <radio checked="true" disabled="true">
     2 Stars
   </radio>
   <label>
@@ -26550,7 +26550,7 @@ exports[`firefox /components/selects/ 1`] = `
     <text>Age</text>
   </label>
   <statictext> </statictext>
-  <combobox value="Thirty" haspopup="true">
+  <combobox haspopup="true" value="Thirty">
     Age
     <MenuListPopup>
       <menuitem>
@@ -26639,7 +26639,7 @@ exports[`firefox /components/selects/ 1`] = `
     Age
     <text>Age</text>
   </label>
-  <combobox value="None" haspopup="true">
+  <combobox haspopup="true" value="None">
     Age
     <MenuListPopup>
       <menuitem selected="true">None</menuitem>
@@ -26934,7 +26934,7 @@ exports[`firefox /components/selects/ 1`] = `
     <text>Grouping</text>
   </label>
   <statictext> </statictext>
-  <combobox value="None" haspopup="true">
+  <combobox haspopup="true" value="None">
     Grouping
     <MenuListPopup>
       <menuitem selected="true">None</menuitem>
@@ -27127,13 +27127,13 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>Volume</text>
   </paragraph>
-  <slider value="30" valuetext="30" orientation="horizontal">
+  <slider orientation="horizontal" value="30" valuetext="30">
     Volume
   </slider>
   <paragraph>
     <text>Disabled slider</text>
   </paragraph>
-  <slider value="30" valuetext="30" orientation="horizontal">
+  <slider orientation="horizontal" value="30" valuetext="30">
     Disabled slider
   </slider>
   <toolbar>
@@ -27168,14 +27168,14 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>Temperature</text>
   </paragraph>
-  <slider value="30°C" valuetext="30°C" orientation="horizontal">
+  <slider orientation="horizontal" value="30°C" valuetext="30°C">
     Temperature
     <text>30</text>
   </slider>
   <paragraph>
     <text>Disabled</text>
   </paragraph>
-  <slider value="30°C" valuetext="30°C" orientation="horizontal">
+  <slider orientation="horizontal" value="30°C" valuetext="30°C">
     Disabled
     <text>30</text>
   </slider>
@@ -27203,7 +27203,7 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>Small steps</text>
   </paragraph>
-  <slider value="5e-8°C" valuetext="5e-8°C" orientation="horizontal">
+  <slider orientation="horizontal" value="5e-8°C" valuetext="5e-8°C">
     Small steps
     <text>5e-8</text>
   </slider>
@@ -27241,7 +27241,7 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>Custom marks</text>
   </paragraph>
-  <slider value="20°C" valuetext="20°C" orientation="horizontal">
+  <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Custom marks
     <text>20</text>
   </slider>
@@ -27279,7 +27279,7 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>Restricted values</text>
   </paragraph>
-  <slider value="20°C" valuetext="20°C" orientation="horizontal">
+  <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Restricted values
     <text>2</text>
   </slider>
@@ -27318,7 +27318,7 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>Always visible</text>
   </paragraph>
-  <slider value="80°C" valuetext="80°C" orientation="horizontal">
+  <slider orientation="horizontal" value="80°C" valuetext="80°C">
     Always visible
     <text>80</text>
   </slider>
@@ -27356,11 +27356,11 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>Temperature range</text>
   </paragraph>
-  <slider value="20°C" valuetext="20°C" orientation="horizontal">
+  <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Temperature range
     <text>20</text>
   </slider>
-  <slider value="37°C" valuetext="37°C" orientation="horizontal">
+  <slider orientation="horizontal" value="37°C" valuetext="37°C">
     Temperature range
     <text>37</text>
   </slider>
@@ -27395,7 +27395,7 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>Volume</text>
   </paragraph>
-  <slider value="30" valuetext="30" orientation="horizontal">
+  <slider orientation="horizontal" value="30" valuetext="30">
     Volume
   </slider>
   <statictext> </statictext>
@@ -27432,30 +27432,30 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>iOS</text>
   </paragraph>
-  <slider value="60" valuetext="60" orientation="horizontal">
+  <slider orientation="horizontal" value="60" valuetext="60">
     ios slider
     <text>60</text>
   </slider>
   <paragraph>
     <text>pretto.fr</text>
   </paragraph>
-  <slider value="20" valuetext="20" orientation="horizontal">
+  <slider orientation="horizontal" value="20" valuetext="20">
     pretto slider
     <text>20</text>
   </slider>
   <paragraph>
     <text>Tooltip value label</text>
   </paragraph>
-  <slider value="20" valuetext="20" orientation="horizontal">
+  <slider orientation="horizontal" value="20" valuetext="20">
     custom thumb label
   </slider>
   <paragraph>
     <text>Airbnb</text>
   </paragraph>
-  <slider value="20" valuetext="20" orientation="horizontal">
+  <slider orientation="horizontal" value="20" valuetext="20">
     Minimum price
   </slider>
-  <slider value="40" valuetext="40" orientation="horizontal">
+  <slider orientation="horizontal" value="40" valuetext="40">
     Maximum price
   </slider>
   <toolbar>
@@ -27479,16 +27479,16 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>Temperature</text>
   </paragraph>
-  <slider value="30°C" valuetext="30°C" orientation="vertical">
+  <slider orientation="vertical" value="30°C" valuetext="30°C">
     Temperature
   </slider>
-  <slider value="30°C" valuetext="30°C" orientation="vertical">
+  <slider orientation="vertical" value="30°C" valuetext="30°C">
     Temperature
   </slider>
-  <slider value="20°C" valuetext="20°C" orientation="vertical">
+  <slider orientation="vertical" value="20°C" valuetext="20°C">
     Temperature
   </slider>
-  <slider value="37°C" valuetext="37°C" orientation="vertical">
+  <slider orientation="vertical" value="37°C" valuetext="37°C">
     Temperature
   </slider>
   <toolbar>
@@ -27523,19 +27523,19 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>Removed track</text>
   </paragraph>
-  <slider value="30°C" valuetext="30°C" orientation="horizontal">
+  <slider orientation="horizontal" value="30°C" valuetext="30°C">
     Removed track
   </slider>
   <paragraph>
     <text>Removed track range slider</text>
   </paragraph>
-  <slider value="20°C" valuetext="20°C" orientation="horizontal">
+  <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Removed track range slider
   </slider>
-  <slider value="37°C" valuetext="37°C" orientation="horizontal">
+  <slider orientation="horizontal" value="37°C" valuetext="37°C">
     Removed track range slider
   </slider>
-  <slider value="50°C" valuetext="50°C" orientation="horizontal">
+  <slider orientation="horizontal" value="50°C" valuetext="50°C">
     Removed track range slider
   </slider>
   <toolbar>
@@ -27562,16 +27562,16 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>Inverted track</text>
   </paragraph>
-  <slider value="30°C" valuetext="30°C" orientation="horizontal">
+  <slider orientation="horizontal" value="30°C" valuetext="30°C">
     Inverted track
   </slider>
   <paragraph>
     <text>Inverted track range</text>
   </paragraph>
-  <slider value="20°C" valuetext="20°C" orientation="horizontal">
+  <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Inverted track range
   </slider>
-  <slider value="37°C" valuetext="37°C" orientation="horizontal">
+  <slider orientation="horizontal" value="37°C" valuetext="37°C">
     Inverted track range
   </slider>
   <toolbar>
@@ -27606,7 +27606,7 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>Storage: 1 MB</text>
   </paragraph>
-  <slider value="1 MB" valuetext="1 MB" orientation="horizontal">
+  <slider orientation="horizontal" value="1 MB" valuetext="1 MB">
     Storage: 1 MB
     <text>1 MB</text>
   </slider>
@@ -27750,7 +27750,7 @@ exports[`firefox /components/switches/ 1`] = `
   <checkbox checked="true">primary checkbox</checkbox>
   <checkbox>primary checkbox</checkbox>
   <checkbox disabled="true">disabled checkbox</checkbox>
-  <checkbox disabled="true" checked="true">
+  <checkbox checked="true" disabled="true">
     primary checkbox
   </checkbox>
   <checkbox checked="true">checkbox with default color</checkbox>
@@ -27800,7 +27800,7 @@ exports[`firefox /components/switches/ 1`] = `
   </label>
   <label>
     Disabled
-    <checkbox disabled="true" checked="true">
+    <checkbox checked="true" disabled="true">
       Disabled
     </checkbox>
     <text>Disabled</text>
@@ -29252,7 +29252,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Required</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Hello World" required="true">
+    <textbox required="true" value="Hello World">
       Required
       <text>Hello World</text>
     </textbox>
@@ -29261,7 +29261,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Disabled</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Hello World" disabled="true">
+    <textbox disabled="true" value="Hello World">
       Disabled
       <text>Hello World</text>
     </textbox>
@@ -29276,7 +29276,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Read Only</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Hello World" readonly="true">
+    <textbox readonly="true" value="Hello World">
       Read Only
       <text>Hello World</text>
     </textbox>
@@ -29297,7 +29297,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Helper text</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Default Value" description="Some important text">
+    <textbox description="Some important text" value="Default Value">
       Helper text
       <text>Default Value</text>
     </textbox>
@@ -29309,7 +29309,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Required</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Hello World" required="true">
+    <textbox required="true" value="Hello World">
       Required
       <text>Hello World</text>
     </textbox>
@@ -29318,7 +29318,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Disabled</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Hello World" disabled="true">
+    <textbox disabled="true" value="Hello World">
       Disabled
       <text>Hello World</text>
     </textbox>
@@ -29333,7 +29333,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Read Only</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Hello World" readonly="true">
+    <textbox readonly="true" value="Hello World">
       Read Only
       <text>Hello World</text>
     </textbox>
@@ -29354,7 +29354,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Helper text</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Default Value" description="Some important text">
+    <textbox description="Some important text" value="Default Value">
       Helper text
       <text>Default Value</text>
     </textbox>
@@ -29365,7 +29365,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Required
       <text>Required</text>
     </label>
-    <textbox value="Hello World" required="true">
+    <textbox required="true" value="Hello World">
       Required
       <text>Hello World</text>
     </textbox>
@@ -29373,7 +29373,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Disabled
       <text>Disabled</text>
     </label>
-    <textbox value="Hello World" disabled="true">
+    <textbox disabled="true" value="Hello World">
       Disabled
       <text>Hello World</text>
     </textbox>
@@ -29386,7 +29386,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Read Only
       <text>Read Only</text>
     </label>
-    <textbox value="Hello World" readonly="true">
+    <textbox readonly="true" value="Hello World">
       Read Only
       <text>Hello World</text>
     </textbox>
@@ -29404,7 +29404,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Helper text
       <text>Helper text</text>
     </label>
-    <textbox value="Default Value" description="Some important text">
+    <textbox description="Some important text" value="Default Value">
       Helper text
       <text>Default Value</text>
     </textbox>
@@ -29442,7 +29442,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Error</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Hello World" invalid="true">
+    <textbox invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
@@ -29451,7 +29451,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Error</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Hello World" description="Incorrect entry." invalid="true">
+    <textbox description="Incorrect entry." invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
@@ -29463,7 +29463,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Error</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Hello World" invalid="true">
+    <textbox invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
@@ -29472,7 +29472,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Error</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Hello World" description="Incorrect entry." invalid="true">
+    <textbox description="Incorrect entry." invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
@@ -29483,7 +29483,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Error
       <text>Error</text>
     </label>
-    <textbox value="Hello World" invalid="true">
+    <textbox invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
@@ -29491,7 +29491,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Error
       <text>Error</text>
     </label>
-    <textbox value="Hello World" description="Incorrect entry." invalid="true">
+    <textbox description="Incorrect entry." invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
@@ -29533,7 +29533,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Multiline</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Controlled" multiline="true">
+    <textbox multiline="true" value="Controlled">
       Multiline
       <text>Controlled</text>
     </textbox>
@@ -29548,7 +29548,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Multiline</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Default Value" multiline="true">
+    <textbox multiline="true" value="Default Value">
       Multiline
       <text>Default Value</text>
     </textbox>
@@ -29557,7 +29557,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Multiline</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Controlled" multiline="true">
+    <textbox multiline="true" value="Controlled">
       Multiline
       <text>Controlled</text>
     </textbox>
@@ -29572,7 +29572,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Multiline</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Default Value" multiline="true">
+    <textbox multiline="true" value="Default Value">
       Multiline
       <text>Default Value</text>
     </textbox>
@@ -29580,7 +29580,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Multiline
       <text>Multiline</text>
     </label>
-    <textbox value="Controlled" multiline="true">
+    <textbox multiline="true" value="Controlled">
       Multiline
       <text>Controlled</text>
     </textbox>
@@ -29593,7 +29593,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Multiline
       <text>Multiline</text>
     </label>
-    <textbox value="Default Value" multiline="true">
+    <textbox multiline="true" value="Default Value">
       Multiline
       <text>Default Value</text>
     </textbox>
@@ -29639,9 +29639,9 @@ exports[`firefox /components/text-fields/ 1`] = `
     </label>
     <statictext> </statictext>
     <combobox
-      value="€"
       description="Please select your currency"
       haspopup="true"
+      value="€"
     >
       Native select
       <MenuListPopup>
@@ -29679,9 +29679,9 @@ exports[`firefox /components/text-fields/ 1`] = `
     </label>
     <statictext> </statictext>
     <combobox
-      value="€"
       description="Please select your currency"
       haspopup="true"
+      value="€"
     >
       Native select
       <MenuListPopup>
@@ -29717,9 +29717,9 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Native select</text>
     </label>
     <combobox
-      value="€"
       description="Please select your currency"
       haspopup="true"
+      value="€"
     >
       Native select
       <MenuListPopup>
@@ -30021,7 +30021,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>None</text>
   </label>
   <statictext> </statictext>
-  <textbox value="Default Value" description="Some important text">
+  <textbox description="Some important text" value="Default Value">
     None
     <text>Default Value</text>
   </textbox>
@@ -30033,7 +30033,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>Dense</text>
   </label>
   <statictext> </statictext>
-  <textbox value="Default Value" description="Some important text">
+  <textbox description="Some important text" value="Default Value">
     Dense
     <text>Default Value</text>
   </textbox>
@@ -30045,7 +30045,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>Normal</text>
   </label>
   <statictext> </statictext>
-  <textbox value="Default Value" description="Some important text">
+  <textbox description="Some important text" value="Default Value">
     Normal
     <text>Default Value</text>
   </textbox>
@@ -30066,7 +30066,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>None</text>
   </label>
   <statictext> </statictext>
-  <textbox value="Default Value" description="Some important text">
+  <textbox description="Some important text" value="Default Value">
     None
     <text>Default Value</text>
   </textbox>
@@ -30078,7 +30078,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>Dense</text>
   </label>
   <statictext> </statictext>
-  <textbox value="Default Value" description="Some important text">
+  <textbox description="Some important text" value="Default Value">
     Dense
     <text>Default Value</text>
   </textbox>
@@ -30090,7 +30090,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>Normal</text>
   </label>
   <statictext> </statictext>
-  <textbox value="Default Value" description="Some important text">
+  <textbox description="Some important text" value="Default Value">
     Normal
     <text>Default Value</text>
   </textbox>
@@ -30109,7 +30109,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     None
     <text>None</text>
   </label>
-  <textbox value="Default Value" description="Some important text">
+  <textbox description="Some important text" value="Default Value">
     None
     <text>Default Value</text>
   </textbox>
@@ -30120,7 +30120,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     Dense
     <text>Dense</text>
   </label>
-  <textbox value="Default Value" description="Some important text">
+  <textbox description="Some important text" value="Default Value">
     Dense
     <text>Default Value</text>
   </textbox>
@@ -30131,7 +30131,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     Normal
     <text>Normal</text>
   </label>
-  <textbox value="Default Value" description="Some important text">
+  <textbox description="Some important text" value="Default Value">
     Normal
     <text>Default Value</text>
   </textbox>
@@ -30275,8 +30275,8 @@ exports[`firefox /components/text-fields/ 1`] = `
     </label>
     <statictext> </statictext>
     <textbox
-      value="Composed TextField"
       description="Some important helper text"
+      value="Composed TextField"
     >
       Name
       <text>Composed TextField</text>
@@ -30289,7 +30289,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Name</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Composed TextField" disabled="true">
+    <textbox disabled="true" value="Composed TextField">
       Name
       <text>Composed TextField</text>
     </textbox>
@@ -30301,7 +30301,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Name</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Composed TextField" description="Error" invalid="true">
+    <textbox description="Error" invalid="true" value="Composed TextField">
       Name
       <text>Composed TextField</text>
     </textbox>
@@ -30353,12 +30353,12 @@ exports[`firefox /components/text-fields/ 1`] = `
     <statictext> </statictext>
     <textbox>description</textbox>
     <statictext> </statictext>
-    <textbox value="Disabled" disabled="true">
+    <textbox disabled="true" value="Disabled">
       description
       <text>Disabled</text>
     </textbox>
     <statictext> </statictext>
-    <textbox value="Error" invalid="true">
+    <textbox invalid="true" value="Error">
       description
       <text>Error</text>
     </textbox>
@@ -30478,7 +30478,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       CSS validation style
       <text>CSS validation style</text>
     </label>
-    <textbox value="Success" required="true">
+    <textbox required="true" value="Success">
       CSS validation style
       <text>Success</text>
     </textbox>
