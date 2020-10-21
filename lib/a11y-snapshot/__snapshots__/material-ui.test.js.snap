@@ -21870,9 +21870,7 @@ exports[`firefox /components/buttons/ 1`] = `
   <button disabled="true">
     50
     <progressbar checked="mixed" value="50" valuetext="50">
-      <diagram>
-        <img></img>
-      </diagram>
+      <diagram></diagram>
     </progressbar>
   </button>
   <button disabled="true">
@@ -21882,9 +21880,7 @@ exports[`firefox /components/buttons/ 1`] = `
   <button disabled="true">
     50 SAVE
     <progressbar checked="mixed" value="50" valuetext="50">
-      <diagram>
-        <img></img>
-      </diagram>
+      <diagram></diagram>
     </progressbar>
     <text>SAVE</text>
   </button>
@@ -24885,9 +24881,7 @@ exports[`firefox /components/pickers 1`] = `
       </spinbutton>
       <button>
         Clear
-        <diagram>
-          <img></img>
-        </diagram>
+        <diagram></diagram>
       </button>
     </Date>
   </form>
@@ -24986,9 +24980,7 @@ exports[`firefox /components/pickers 1`] = `
       </textbox>
       <button>
         Clear
-        <diagram>
-          <img></img>
-        </diagram>
+        <diagram></diagram>
       </button>
     </group>
   </form>
@@ -32007,7 +31999,8 @@ exports[`firefox /components/tree-view/ 1`] = `
   <tree>
     rich object
     <treeitem expanded="true" level="1">
-      Parent Child - 1 Child - 3<text>Parent</text>
+      Parent
+      <text>Parent</text>
       <group>
         <treeitem level="2">
           Child - 1<text>Child - 1</text>
@@ -32109,7 +32102,7 @@ exports[`firefox /components/tree-view/ 1`] = `
   <tree>
     customized
     <treeitem expanded="true" level="1">
-      Main Hello Subtree with children World Something something
+      Main
       <text>Main</text>
       <group>
         <treeitem level="2">
@@ -32164,7 +32157,7 @@ exports[`firefox /components/tree-view/ 1`] = `
       </paragraph>
     </treeitem>
     <treeitem expanded="true" level="1">
-      Categories Social 90 Updates 2,294 Forums 3,566 Promotions 733
+      Categories
       <paragraph>
         <text>Categories</text>
       </paragraph>
