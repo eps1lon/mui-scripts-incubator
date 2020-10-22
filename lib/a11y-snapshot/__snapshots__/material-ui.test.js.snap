@@ -16695,9 +16695,9 @@ exports[`chromium /components/tooltips/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Positioned Tooltips
+    Positioned tooltips
     <Anchor></Anchor>
-    <text>Positioned Tooltips</text>
+    <text>Positioned tooltips</text>
   </heading>
   <paragraph>
     <text>The</text>
@@ -16851,9 +16851,9 @@ exports[`chromium /components/tooltips/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
-    Arrow Tooltips
+    Arrow tooltips
     <Anchor></Anchor>
-    <text>Arrow Tooltips</text>
+    <text>Arrow tooltips</text>
   </heading>
   <paragraph>
     <text>You can use the</text>
@@ -16984,9 +16984,9 @@ exports[`chromium /components/tooltips/ 1`] = `
     </combobox>
   </toolbar>
   <heading level="2">
-    Controlled Tooltips
+    Controlled tooltips
     <Anchor></Anchor>
-    <text>Controlled Tooltips</text>
+    <text>Controlled tooltips</text>
   </heading>
   <paragraph>
     <text>You can use the</text>
@@ -17039,9 +17039,9 @@ exports[`chromium /components/tooltips/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Variable Width
+    Variable width
     <Anchor></Anchor>
-    <text>Variable Width</text>
+    <text>Variable width</text>
   </heading>
   <paragraph>
     <text>The</text>
@@ -17164,9 +17164,9 @@ exports[`chromium /components/tooltips/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Disabled Elements
+    Disabled elements
     <Anchor></Anchor>
-    <text>Disabled Elements</text>
+    <text>Disabled elements</text>
   </heading>
   <paragraph>
     <text>By default disabled elements like</text>
@@ -17352,9 +17352,9 @@ exports[`chromium /components/tooltips/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Faked reference object
+    Virtual element
     <Anchor></Anchor>
-    <text>Faked reference object</text>
+    <text>Virtual element</text>
   </heading>
   <paragraph>
     <text>
@@ -17368,7 +17368,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       object shaped like the
     </text>
     <link>
-      ReferenceObject
+      VirtualElement
       <code>$SOME_CODE</code>
     </link>
     <text>.</text>
@@ -31004,9 +31004,9 @@ exports[`firefox /components/tooltips/ 1`] = `
     </Tooltip>
   </text>
   <heading level="2">
-    Positioned Tooltips
+    Positioned tooltips
     <link></link>
-    <text>Positioned Tooltips</text>
+    <text>Positioned tooltips</text>
   </heading>
   <paragraph>
     <text>
@@ -31117,9 +31117,9 @@ exports[`firefox /components/tooltips/ 1`] = `
     <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
-    Arrow Tooltips
+    Arrow tooltips
     <link></link>
-    <text>Arrow Tooltips</text>
+    <text>Arrow tooltips</text>
   </heading>
   <paragraph>
     <text>
@@ -31212,9 +31212,9 @@ exports[`firefox /components/tooltips/ 1`] = `
     <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
-    Controlled Tooltips
+    Controlled tooltips
     <link></link>
-    <text>Controlled Tooltips</text>
+    <text>Controlled tooltips</text>
   </heading>
   <paragraph>
     <text>
@@ -31245,9 +31245,9 @@ exports[`firefox /components/tooltips/ 1`] = `
     <Button>Controlled</Button> </Tooltip>
   </text>
   <heading level="2">
-    Variable Width
+    Variable width
     <link></link>
-    <text>Variable Width</text>
+    <text>Variable width</text>
   </heading>
   <paragraph>
     <text>The Tooltip wraps long text by default to make it readable.</text>
@@ -31331,9 +31331,9 @@ exports[`firefox /components/tooltips/ 1`] = `
     interactive</Button> </Tooltip>
   </text>
   <heading level="2">
-    Disabled Elements
+    Disabled elements
     <link></link>
-    <text>Disabled Elements</text>
+    <text>Disabled elements</text>
   </heading>
   <paragraph>
     <text>
@@ -31462,9 +31462,9 @@ exports[`firefox /components/tooltips/ 1`] = `
     </Box> </Tooltip>
   </text>
   <heading level="2">
-    Faked reference object
+    Virtual element
     <link></link>
-    <text>Faked reference object</text>
+    <text>Virtual element</text>
   </heading>
   <paragraph>
     <text>
@@ -31472,7 +31472,7 @@ exports[`firefox /components/tooltips/ 1`] = `
       anchorEl prop: The value of the anchorEl prop can be a reference to a fake
       DOM element. You need to create an object shaped like the
     </text>
-    <link>ReferenceObject</link>
+    <link>VirtualElement</link>
     <text>.</text>
   </paragraph>
   <button>
