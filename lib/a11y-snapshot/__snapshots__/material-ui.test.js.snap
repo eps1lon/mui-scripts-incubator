@@ -296,14 +296,14 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.14. View versions page.</link>
+      <link>v5.0.0-alpha.13. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v5.0.0-alpha.14</link>
+  <link>v5.0.0-alpha.13</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -548,10 +548,10 @@ exports[`chromium /api/button/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        If true, the button will be disabled.
+        If true, the button is disabled.
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, the button will be disabled.</text>
+        <text>, the button is disabled.</text>
       </gridcell>
     </row>
     <row>
@@ -588,10 +588,10 @@ exports[`chromium /api/button/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        If true, the keyboard focus ripple will be disabled.
+        If true, the keyboard focus ripple is disabled.
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, the keyboard focus ripple will be disabled.</text>
+        <text>, the keyboard focus ripple is disabled.</text>
       </gridcell>
     </row>
     <row>
@@ -605,12 +605,12 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        If true, the ripple effect will be disabled. ⚠️ Without a ripple there
-        is no styling for :focus-visible by default. Be sure to highlight the
-        element by applying separate styles with the focusVisibleClassName.
+        If true, the ripple effect is disabled. ⚠️ Without a ripple there is no
+        styling for :focus-visible by default. Be sure to highlight the element
+        by applying separate styles with the focusVisibleClassName.
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, the ripple effect will be disabled.</text>
+        <text>, the ripple effect is disabled.</text>
         <LineBreak></LineBreak>
         <text>
           ⚠️ Without a ripple there is no styling for :focus-visible by default.
@@ -1787,10 +1787,10 @@ exports[`chromium /api/select/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        If true, the component will be using a native select element.
+        If true, the component uses a native select element.
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, the component will be using a native</text>
+        <text>, the component uses a native</text>
         <code>$SOME_CODE</code>
         <text>element.</text>
       </gridcell>
@@ -8401,8 +8401,8 @@ exports[`chromium /components/pickers 1`] = `
       <button pressed="false">No</button>
     </group>
     <link>
-      Radio button
-      <text>Radio button</text>
+      Radio
+      <text>Radio</text>
       <SVGRoot></SVGRoot>
     </link>
     <heading level="6">
@@ -9866,9 +9866,9 @@ exports[`chromium /components/rating/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Radio button
+      Radio
       <SVGRoot></SVGRoot>
-      <text>Radio button</text>
+      <text>Radio</text>
     </link>
     <group>
       give page feedback
@@ -12707,8 +12707,8 @@ exports[`chromium /components/switches/ 1`] = `
       <button pressed="false">No</button>
     </group>
     <link>
-      Text field
-      <text>Text field</text>
+      Text Field
+      <text>Text Field</text>
       <SVGRoot></SVGRoot>
     </link>
     <heading level="6">
@@ -17898,9 +17898,9 @@ exports[`chromium /components/transfer-list 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Text field
+      Text Field
       <SVGRoot></SVGRoot>
-      <text>Text field</text>
+      <text>Text Field</text>
     </link>
     <group>
       give page feedback
@@ -19063,7 +19063,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.14. View versions page.</link>
+      <link>v5.0.0-alpha.13. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
@@ -19207,7 +19207,7 @@ exports[`firefox /api/button/ 1`] = `
         <text>false</text>
       </cell>
       <cell>
-        <text>If true, the button will be disabled.</text>
+        <text>If true, the button is disabled.</text>
       </cell>
     </row>
     <row>
@@ -19235,7 +19235,7 @@ exports[`firefox /api/button/ 1`] = `
         <text>false</text>
       </cell>
       <cell>
-        <text>If true, the keyboard focus ripple will be disabled.</text>
+        <text>If true, the keyboard focus ripple is disabled.</text>
       </cell>
     </row>
     <row>
@@ -19247,7 +19247,7 @@ exports[`firefox /api/button/ 1`] = `
       </cell>
       <cell></cell>
       <cell>
-        <text>If true, the ripple effect will be disabled.</text>
+        <text>If true, the ripple effect is disabled.</text>
         <whitespace></whitespace>
         <text>
           ⚠️ Without a ripple there is no styling for :focus-visible by default.
@@ -20140,9 +20140,7 @@ exports[`firefox /api/select/ 1`] = `
         <text>false</text>
       </cell>
       <cell>
-        <text>
-          If true, the component will be using a native select element.
-        </text>
+        <text>If true, the component uses a native select element.</text>
       </cell>
     </row>
     <row>
@@ -25024,7 +25022,7 @@ exports[`firefox /components/pickers 1`] = `
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Radio button</link>
+  <link>Radio</link>
   <textbox></textbox>
 </landmark>;
 
@@ -26245,7 +26243,7 @@ exports[`firefox /components/rating/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Radio button</link>
+  <link>Radio</link>
   <group>
     give page feedback
     <heading level="6">
@@ -28095,7 +28093,7 @@ exports[`firefox /components/switches/ 1`] = `
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Text field</link>
+  <link>Text Field</link>
   <textbox></textbox>
 </landmark>;
 
@@ -31812,7 +31810,7 @@ exports[`firefox /components/transfer-list 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Text field</link>
+  <link>Text Field</link>
   <group>
     give page feedback
     <heading level="6">
