@@ -548,10 +548,10 @@ exports[`chromium /api/button/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        If true, the button will be disabled.
+        If true, the button is disabled.
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, the button will be disabled.</text>
+        <text>, the button is disabled.</text>
       </gridcell>
     </row>
     <row>
@@ -588,10 +588,10 @@ exports[`chromium /api/button/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        If true, the keyboard focus ripple will be disabled.
+        If true, the keyboard focus ripple is disabled.
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, the keyboard focus ripple will be disabled.</text>
+        <text>, the keyboard focus ripple is disabled.</text>
       </gridcell>
     </row>
     <row>
@@ -605,12 +605,12 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        If true, the ripple effect will be disabled. ⚠️ Without a ripple there
-        is no styling for :focus-visible by default. Be sure to highlight the
-        element by applying separate styles with the focusVisibleClassName.
+        If true, the ripple effect is disabled. ⚠️ Without a ripple there is no
+        styling for :focus-visible by default. Be sure to highlight the element
+        by applying separate styles with the focusVisibleClassName.
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, the ripple effect will be disabled.</text>
+        <text>, the ripple effect is disabled.</text>
         <LineBreak></LineBreak>
         <text>
           ⚠️ Without a ripple there is no styling for :focus-visible by default.
@@ -1787,10 +1787,10 @@ exports[`chromium /api/select/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        If true, the component will be using a native select element.
+        If true, the component uses a native select element.
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, the component will be using a native</text>
+        <text>, the component uses a native</text>
         <code>$SOME_CODE</code>
         <text>element.</text>
       </gridcell>
@@ -2416,36 +2416,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -2481,36 +2452,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Custom separator
     <Anchor></Anchor>
@@ -2592,36 +2534,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Breadcrumbs with icons
     <Anchor></Anchor>
@@ -2660,36 +2573,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Collapsed breadcrumbs
     <Anchor></Anchor>
@@ -2724,36 +2608,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -2805,36 +2660,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Integration with react-router
     <Anchor></Anchor>
@@ -2894,36 +2720,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Accessibility
     <Anchor></Anchor>
@@ -19207,7 +19004,7 @@ exports[`firefox /api/button/ 1`] = `
         <text>false</text>
       </cell>
       <cell>
-        <text>If true, the button will be disabled.</text>
+        <text>If true, the button is disabled.</text>
       </cell>
     </row>
     <row>
@@ -19235,7 +19032,7 @@ exports[`firefox /api/button/ 1`] = `
         <text>false</text>
       </cell>
       <cell>
-        <text>If true, the keyboard focus ripple will be disabled.</text>
+        <text>If true, the keyboard focus ripple is disabled.</text>
       </cell>
     </row>
     <row>
@@ -19247,7 +19044,7 @@ exports[`firefox /api/button/ 1`] = `
       </cell>
       <cell></cell>
       <cell>
-        <text>If true, the ripple effect will be disabled.</text>
+        <text>If true, the ripple effect is disabled.</text>
         <whitespace></whitespace>
         <text>
           ⚠️ Without a ripple there is no styling for :focus-visible by default.
@@ -20140,9 +19937,7 @@ exports[`firefox /api/select/ 1`] = `
         <text>false</text>
       </cell>
       <cell>
-        <text>
-          If true, the component will be using a native select element.
-        </text>
+        <text>If true, the component uses a native select element.</text>
       </cell>
     </row>
     <row>
