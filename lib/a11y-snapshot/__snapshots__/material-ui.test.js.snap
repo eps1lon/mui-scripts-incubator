@@ -8401,8 +8401,8 @@ exports[`chromium /components/pickers 1`] = `
       <button pressed="false">No</button>
     </group>
     <link>
-      Radio button
-      <text>Radio button</text>
+      Radio
+      <text>Radio</text>
       <SVGRoot></SVGRoot>
     </link>
     <heading level="6">
@@ -9866,9 +9866,9 @@ exports[`chromium /components/rating/ 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Radio button
+      Radio
       <SVGRoot></SVGRoot>
-      <text>Radio button</text>
+      <text>Radio</text>
     </link>
     <group>
       give page feedback
@@ -12707,8 +12707,8 @@ exports[`chromium /components/switches/ 1`] = `
       <button pressed="false">No</button>
     </group>
     <link>
-      Text field
-      <text>Text field</text>
+      Text Field
+      <text>Text Field</text>
       <SVGRoot></SVGRoot>
     </link>
     <heading level="6">
@@ -17898,9 +17898,9 @@ exports[`chromium /components/transfer-list 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Text field
+      Text Field
       <SVGRoot></SVGRoot>
-      <text>Text field</text>
+      <text>Text Field</text>
     </link>
     <group>
       give page feedback
@@ -25024,7 +25024,7 @@ exports[`firefox /components/pickers 1`] = `
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Radio button</link>
+  <link>Radio</link>
   <textbox></textbox>
 </landmark>;
 
@@ -26245,7 +26245,7 @@ exports[`firefox /components/rating/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Radio button</link>
+  <link>Radio</link>
   <group>
     give page feedback
     <heading level="6">
@@ -28095,7 +28095,7 @@ exports[`firefox /components/switches/ 1`] = `
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Text field</link>
+  <link>Text Field</link>
   <textbox></textbox>
 </landmark>;
 
@@ -31812,7 +31812,7 @@ exports[`firefox /components/transfer-list 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Text field</link>
+  <link>Text Field</link>
   <group>
     give page feedback
     <heading level="6">
