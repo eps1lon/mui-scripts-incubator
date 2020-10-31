@@ -2,253 +2,244 @@
 
 exports[`chromium / 1`] = `
 <WebArea>
-  Material-UI: A popular React UI framework
-  <link>Skip to content</link>
+  The world's most popular React UI framework - Material-UI
   <banner>
+    <link>Aww yeah, Material-UI v4 is here!</link>
     <button>
-      Open main navigation
+      Open drawer
       <SVGRoot></SVGRoot>
     </button>
     <SVGRoot></SVGRoot>
-    <searchbox>Search</searchbox>
-    <combobox autocomplete="list" haspopup="listbox">
-      Search
+    <textbox>
+      Search…
       <text>Search…</text>
-    </combobox>
-    <Pre></Pre>
+    </textbox>
     <combobox haspopup="menu">
       Change language
       <SVGRoot></SVGRoot>
-      <text>ENGLISH</text>
-      <SVGRoot></SVGRoot>
     </combobox>
-    <combobox haspopup="menu">
-      Toggle notifications panel
+    <button description="Edit docs colors">
+      Edit docs colors
       <SVGRoot></SVGRoot>
-    </combobox>
-    <link>
-      Edit website colors
-      <SVGRoot></SVGRoot>
-    </link>
-    <link>
-      GitHub repository
-      <SVGRoot></SVGRoot>
-    </link>
-    <button>
+    </button>
+    <button description="Toggle light/dark theme">
       Toggle light/dark theme
       <SVGRoot></SVGRoot>
     </button>
-    <button>
+    <button description="Toggle right-to-left/left-to-right">
       Toggle right-to-left/left-to-right
       <SVGRoot></SVGRoot>
     </button>
+    <button description="GitHub repository">
+      GitHub repository
+      <SVGRoot></SVGRoot>
+    </button>
   </banner>
-  <navigation>Main navigation</navigation>
-  <main>
-    <heading level="1">
-      MATERIAL-UI
-      <text>MATERIAL-UI</text>
-    </heading>
+  <navigation></navigation>
+  <link>
+    Get Professionally Supported Material-UI
     <paragraph>
-      <text>
-        React components for faster and simpler web development. Build your own
-        design system, or start with Material Design.
-      </text>
+      <text>Get Professionally Supported Material-UI</text>
     </paragraph>
-    <link>
-      GET STARTED
-      <text>GET STARTED</text>
-    </link>
-    <link>Star</link>
-    <link>Follow</link>
-    <link>Get Professional Support</link>
-    <text>random sponsor</text>
-    <link>a random quick word</link>
-    <SVGRoot></SVGRoot>
-    <heading level="2">
-      Installation
-      <text>Installation</text>
-    </heading>
+  </link>
+  <img>Material-UI Logo</img>
+  <heading level="1">
+    MATERIAL-UI
+    <text>MATERIAL-UI</text>
+  </heading>
+  <heading level="2">
+    React components that implement Google's Material Design.
+    <text>React components that implement Google's Material Design.</text>
+  </heading>
+  <button>
+    GET STARTED
+    <text>GET STARTED</text>
+  </button>
+  <link>Star mui-org/material-ui on GitHub</link>
+  <link>Follow</link>
+  <SVGRoot></SVGRoot>
+  <heading level="6">
+    Installation
+    <text>Installation</text>
+  </heading>
+  <heading level="6">
+    Install Material-UI's source files via npm. We take care of injecting
+    the CSS needed.
     <text>
       Install Material-UI's source files via npm. We take care of injecting
       the CSS needed.
     </text>
-    <Pre>
-      <code>
-        <text>
-          $ npm install @material-ui/core@next @emotion/core @emotion/styled
-        </text>
-      </code>
-    </Pre>
-    <link>or use a CDN.</link>
+  </heading>
+  <Pre>
+    <code>
+      <text>$ npm install @material-ui/core</text>
+    </code>
+  </Pre>
+  <heading level="6">
+    or use a CDN.
+    <text>or use a CDN.</text>
+  </heading>
+  <Pre>
+    <code>
+      <text>
+        <scriptsrc="https://unpkg.com/@material-ui/core/umd/material-ui.production.min.js"crossorigin="anonymous"></script>
+      </text>
+    </code>
+  </Pre>
+  <heading level="6">
+    Load the default Roboto font.
     <text>Load the default Roboto font.</text>
-    <Pre>
-      <code>
-        <text>
-          <linkrel="stylesheet"href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
-        </text>
-      </code>
-    </Pre>
-    <separator orientation="horizontal"></separator>
-    <link>
-      READ INSTALLATION DOCS
-      <text>READ INSTALLATION DOCS</text>
-    </link>
-    <SVGRoot></SVGRoot>
-    <heading level="2">
-      Usage
-      <text>Usage</text>
-    </heading>
-    <text>
-      Material-UI components work without any additional setup, and don't
-      pollute the global scope.
-    </text>
-    <Pre>
-      <code>
-        <text>
-          import*asReactfrom'react';import{Button}from'@material-ui/core';functionApp(){return<Button>Hello
-          World</Button>;}
-        </text>
-      </code>
-    </Pre>
-    <separator orientation="horizontal"></separator>
-    <link>
-      EXPLORE THE DOCS
-      <text>EXPLORE THE DOCS</text>
-    </link>
-    <heading level="2">
-      Premium themes
-      <text>Premium themes</text>
-    </heading>
-    <paragraph>
+  </heading>
+  <Pre>
+    <code>
       <text>
-        Take your project to the next level with premium themes from our store –
-        all built on Material-UI.
+        <linkrel="stylesheet"href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
       </text>
-    </paragraph>
-    <link>
-      Browse themes
-      <img>Browse themes</img>
-    </link>
-    <link>
-      BROWSE THEMES
-      <text>BROWSE THEMES</text>
-    </link>
-    <separator orientation="horizontal"></separator>
-    <heading level="2">
-      Material-UI's sponsors
-      <Anchor></Anchor>
-      <text>Material-UI's sponsors</text>
-    </heading>
-    <paragraph>
-      <text>
-        The continued development and maintenance of Material-UI is made
-        possible by these generous sponsors:
-      </text>
-    </paragraph>
-    <heading level="3">
-      Diamond 💎
-      <Anchor></Anchor>
-      <text>Diamond 💎</text>
-    </heading>
-    <paragraph>
-      <link>
-        octopus
-        <img description="Repeatable, reliable deployments">octopus</img>
-      </link>
-      <link>
-        doit-intl
-        <img description="Management Platform for Google Cloud and AWS">
-          doit-intl
-        </img>
-      </link>
-    </paragraph>
-    <paragraph>
-      <text>1/3 slots available</text>
-    </paragraph>
-    <heading level="3">
-      Gold 🏆
-      <Anchor></Anchor>
-      <text>Gold 🏆</text>
-    </heading>
-    <paragraph>
-      <link>
-        tidelift
-        <img description="Enterprise-ready open source software">tidelift</img>
-      </link>
-      <link>
-        bitsrc
-        <img description="The fastest way to share code">bitsrc</img>
-      </link>
-    </paragraph>
-    <paragraph>
-      <link>
-        call-em-all
-        <img description="Mass Text Messaging & Automated Calling">
-          call-em-all
-        </img>
-      </link>
-      <link>
-        bitsrc
-        <img>bitsrc</img>
-      </link>
-    </paragraph>
-    <heading level="3">
-      There are more!
-      <Anchor></Anchor>
-      <text>There are more!</text>
-    </heading>
-    <paragraph>
-      <text>See the full list of</text>
-      <link>our sponsors</link>
-      <text>
-        , and learn how you can contribute to the future of Material-UI.
-      </text>
-    </paragraph>
-    <separator orientation="horizontal"></separator>
-    <heading level="2">
-      Praise for Material-UI
-      <text>Praise for Material-UI</text>
-    </heading>
-    <paragraph>
-      <text>Here's what some of our users are saying.</text>
-    </paragraph>
-    <link>a random quote about Material-UI</link>
-    <link>a random quote about Material-UI</link>
-    <link>a random quote about Material-UI</link>
-    <separator orientation="horizontal"></separator>
-    <heading level="2">
-      Who's using Material-UI?
-      <text>Who's using Material-UI?</text>
-    </heading>
-    <paragraph>
-      <text>Join these and other great organisations!</text>
-    </paragraph>
-    <img>NASA</img>
-    <img>Walmart Labs</img>
-    <img>Capgemini</img>
-    <img>Uniqlo</img>
-    <img>Bethesda</img>
-    <img>J.P. Morgan</img>
-    <img>Shutterstock</img>
-    <img>Netflix</img>
-    <img>Coursera</img>
-    <img>Amazon</img>
-    <img>Unity</img>
-    <paragraph>
-      <text>Are you using Material-UI?</text>
-    </paragraph>
-    <link>
-      LET US KNOW!
-      <text>LET US KNOW!</text>
-    </link>
-  </main>
+    </code>
+  </Pre>
   <separator orientation="horizontal"></separator>
+  <button>
+    READ INSTALLATION DOCS
+    <text>READ INSTALLATION DOCS</text>
+  </button>
+  <SVGRoot></SVGRoot>
+  <heading level="6">
+    Usage
+    <text>Usage</text>
+  </heading>
+  <heading level="6">
+    Material-UI components work in isolation. They are self-supporting.
+    <text>
+      Material-UI components work in isolation. They are self-supporting.
+    </text>
+  </heading>
+  <Pre>
+    <code>
+      <text>
+        importReactfrom'react';importButtonfrom'@material-ui/core/Button';constApp=()=>(<Buttonvariant="contained"color="primary">Hello
+        World</Button>);
+      </text>
+    </code>
+  </Pre>
+  <separator orientation="horizontal"></separator>
+  <button>
+    EXPLORE THE DOCS
+    <text>EXPLORE THE DOCS</text>
+  </button>
+  <SVGRoot></SVGRoot>
+  <heading level="6">
+    Premium Themes
+    <text>Premium Themes</text>
+  </heading>
+  <heading level="6">
+    Take Material-UI to the next level with premium themes from our official
+    marketplace—all built on Material-UI.
+    <text>
+      Take Material-UI to the next level with premium themes from our official
+      marketplace—all built on Material-UI.
+    </text>
+  </heading>
+  <link>
+    themes
+    <img>themes</img>
+  </link>
+  <separator orientation="horizontal"></separator>
+  <button>
+    BROWSE THEMES
+    <text>BROWSE THEMES</text>
+  </button>
+  <heading level="2">
+    Supporting Material-UI
+    <Anchor></Anchor>
+    <text>Supporting Material-UI</text>
+  </heading>
+  <paragraph>
+    <text>
+      Material-UI is an MIT-licensed open source project. It's an
+      independent project with ongoing development made possible entirely thanks
+      to the support of these awesome
+    </text>
+    <link>backers</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="3">
+    Gold Sponsors
+    <Anchor></Anchor>
+    <text>Gold Sponsors</text>
+  </heading>
+  <paragraph>
+    <text>
+      Gold Sponsors are those who have pledged $500/month and more to
+      Material-UI.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>via</text>
+    <link>Patreon</link>
+  </paragraph>
+  <paragraph>
+    <link>
+      creative-tim
+      <img description="Premium Themes">creative-tim</img>
+    </link>
+    <link>
+      bitsrc
+      <img description="The fastest way to share code">bitsrc</img>
+    </link>
+    <link>
+      blokt
+      <img description="Leading Cryptocurrency News">blokt</img>
+    </link>
+  </paragraph>
+  <paragraph>
+    <text>via</text>
+    <link>OpenCollective</link>
+  </paragraph>
+  <paragraph>
+    <link>
+      callemall
+      <img description="The easy way to message your group">callemall</img>
+    </link>
+    <link>
+      localize
+      <img description="Application translation & localization platform">
+        localize
+      </img>
+    </link>
+  </paragraph>
+  <heading level="3">
+    There are more!
+    <Anchor></Anchor>
+    <text>There are more!</text>
+  </heading>
+  <paragraph>
+    <text>See the full list of</text>
+    <link>our backers</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="4">
+    Who's using Material-UI?
+    <text>Who's using Material-UI?</text>
+  </heading>
+  <paragraph>
+    <text>Join these and many other great organisations!</text>
+  </paragraph>
+  <img>NASA</img>
+  <img>Walmart Labs</img>
+  <img>Capgemini</img>
+  <img>Uniqlo</img>
+  <img>Bethesda</img>
+  <paragraph>
+    <text>Are you using Material-UI?</text>
+  </paragraph>
+  <button>
+    LET US KNOW!
+    <text>LET US KNOW!</text>
+  </button>
   <contentinfo>
-    <link>Material-UI</link>
-    <heading level="2">
-      Community
-      <text>Community</text>
+    <heading level="6">
+      Quick Links
+      <text>Quick Links</text>
     </heading>
     <list>
       <listitem level="1">
@@ -258,177 +249,127 @@ exports[`chromium / 1`] = `
         <link>Twitter</link>
       </listitem>
       <listitem level="1">
-        <link>StackOverflow</link>
+        <link>Examples</link>
+      </listitem>
+    </list>
+    <list>
+      <listitem level="1">
+        <link>Icons</link>
+      </listitem>
+      <listitem level="1">
+        <link>Color</link>
       </listitem>
       <listitem level="1">
         <link>Team</link>
       </listitem>
     </list>
-    <heading level="2">
-      Resources
-      <text>Resources</text>
-    </heading>
-    <list>
-      <listitem level="1">
-        <link>Support</link>
-      </listitem>
-      <listitem level="1">
-        <link>Blog</link>
-      </listitem>
-      <listitem level="1">
-        <link>Material Icons</link>
-      </listitem>
-    </list>
-    <heading level="2">
-      Company
-      <text>Company</text>
-    </heading>
-    <list>
-      <listitem level="1">
-        <link>About</link>
-      </listitem>
-      <listitem level="1">
-        <link>Contact Us</link>
-      </listitem>
-      <listitem level="1">
-        <link>Jobs</link>
-      </listitem>
-    </list>
     <paragraph>
-      <text>Currently</text>
-      <link>v5.0.0-alpha.14. View versions page.</link>
-      <text>. Released under the</text>
+      <text>Currently v3.9.4. Released under the</text>
       <link>MIT License</link>
-      <text>.Copyright ©2020Material-UI.</text>
+      <text>.</text>
     </paragraph>
   </contentinfo>
-  <link>Material-UI</link>
-  <link>v5.0.0-alpha.14</link>
-  <separator orientation="horizontal"></separator>
-  <text>Diamond Sponsors</text>
-  <link>
-    <img description="Repeatable, reliable deployments">octopus</img>
-  </link>
-  <link>
-    <img description="Management Platform for Google Cloud and AWS">
-      doit-intl
-    </img>
-  </link>
-  <link>
-    Diamond Sponsors
-    <SVGRoot></SVGRoot>
-  </link>
-  <list>
-    <listitem level="1">
-      <button>
-        Getting Started
-        <SVGRoot></SVGRoot>
-        <text>Getting Started</text>
-      </button>
-    </listitem>
-    <listitem level="1">
-      <button>
-        Components
-        <SVGRoot></SVGRoot>
-        <text>Components</text>
-      </button>
-    </listitem>
-    <listitem level="1">
-      <button>
-        Component API
-        <SVGRoot></SVGRoot>
-        <text>Component API</text>
-      </button>
-    </listitem>
-    <listitem level="1">
-      <button>
-        Styles
-        <SVGRoot></SVGRoot>
-        <text>Styles</text>
-      </button>
-    </listitem>
-    <listitem level="1">
-      <button>
-        System
-        <SVGRoot></SVGRoot>
-        <text>System</text>
-      </button>
-    </listitem>
-    <listitem level="1">
-      <button>
-        Customization
-        <SVGRoot></SVGRoot>
-        <text>Customization</text>
-      </button>
-    </listitem>
-    <listitem level="1">
-      <button>
-        Guides
-        <SVGRoot></SVGRoot>
-        <text>Guides</text>
-      </button>
-    </listitem>
-    <listitem level="1">
-      <link>Premium themes</link>
-    </listitem>
-    <listitem level="1">
-      <button>
-        Discover More
-        <SVGRoot></SVGRoot>
-        <text>Discover More</text>
-      </button>
-    </listitem>
-    <listitem level="1">
-      <link>Blog</link>
-    </listitem>
-  </list>
+  <document>
+    <link>Material-UI</link>
+    <link>v3.9.4</link>
+    <separator orientation="horizontal"></separator>
+    <list>
+      <listitem level="1">
+        <button>
+          <text>Getting Started</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          <text>Style</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          <text>Layout</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          <text>Utils</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          <text>Component Demos</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          <text>Component API</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          <text>CSS in JS (alpha)</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          <text>System (alpha)</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          <text>Customization</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          <text>Guides</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          <text>Premium Themes</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          <text>Lab</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          <text>Discover More</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          <text>Blog</text>
+        </button>
+      </listitem>
+    </list>
+  </document>
 </WebArea>;
 
 `;
 
 exports[`chromium /api/button/ 1`] = `
 <main>
-  <link>
+  <button>
     EDIT THIS PAGE
     <text>EDIT THIS PAGE</text>
-  </link>
+  </button>
   <heading level="1">
     Button API
+    <Anchor></Anchor>
     <text>Button API</text>
   </heading>
   <paragraph>
     <text>
       The API documentation of the Button React component. Learn more about the
-      props and the CSS customization points.
+      properties and the CSS customization points.
     </text>
   </paragraph>
-  <heading level="2">
-    Import
-    <Anchor></Anchor>
-    <text>Import</text>
-  </heading>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
-  <paragraph>
-    <text>You can learn more about the difference by</text>
-    <link>reading this guide</link>
-    <text>.</text>
-  </paragraph>
-  <heading level="2">
-    Component name
-    <Anchor></Anchor>
-    <text>Component name</text>
-  </heading>
-  <paragraph>
-    <text>The</text>
-    <code>$SOME_CODE</code>
-    <text>name can be used for providing</text>
-    <link>default props</link>
-    <text>or</text>
-    <link>style overrides</link>
-    <text>at the theme level.</text>
-  </paragraph>
   <heading level="2">
     Props
     <Anchor></Anchor>
@@ -455,8 +396,8 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
-        children
-        <text>children</text>
+        children *
+        <text>children *</text>
       </gridcell>
       <gridcell>
         node
@@ -492,16 +433,20 @@ exports[`chromium /api/button/ 1`] = `
         <text>color</text>
       </gridcell>
       <gridcell>
-        'inherit' | 'primary' | 'secondary'
-        <text>'inherit'</text>
+        enum: 'default' |  'inherit' |
+         'primary' |  'secondary'
+        <text>enum: 'default' |</text>
         <LineBreak></LineBreak>
-        <text>| 'primary'</text>
+        <text> 'inherit' |</text>
         <LineBreak></LineBreak>
-        <text>| 'secondary'</text>
+        <text> 'primary' |</text>
+        <LineBreak></LineBreak>
+        <text> 'secondary'</text>
+        <LineBreak></LineBreak>
       </gridcell>
       <gridcell>
-        'primary'
-        <text>'primary'</text>
+        'default'
+        <text>'default'</text>
       </gridcell>
       <gridcell>
         The color of the component. It supports those theme colors that make
@@ -518,18 +463,18 @@ exports[`chromium /api/button/ 1`] = `
         <text>component</text>
       </gridcell>
       <gridcell>
-        elementType
-        <text>elementType</text>
+        Component
+        <text>Component</text>
       </gridcell>
       <gridcell>
         'button'
         <text>'button'</text>
       </gridcell>
       <gridcell>
-        The component used for the root node. Either a string to use a HTML
+        The component used for the root node. Either a string to use a DOM
         element or a component.
         <text>
-          The component used for the root node. Either a string to use a HTML
+          The component used for the root node. Either a string to use a DOM
           element or a component.
         </text>
       </gridcell>
@@ -548,30 +493,10 @@ exports[`chromium /api/button/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        If true, the button is disabled.
+        If true, the button will be disabled.
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, the button is disabled.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        disableElevation
-        <text>disableElevation</text>
-      </gridcell>
-      <gridcell>
-        bool
-        <text>bool</text>
-      </gridcell>
-      <gridcell>
-        false
-        <text>false</text>
-      </gridcell>
-      <gridcell>
-        If true, no elevation is used.
-        <text>If</text>
-        <code>$SOME_CODE</code>
-        <text>, no elevation is used.</text>
+        <text>, the button will be disabled.</text>
       </gridcell>
     </row>
     <row>
@@ -588,10 +513,13 @@ exports[`chromium /api/button/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        If true, the keyboard focus ripple is disabled.
+        If true, the keyboard focus ripple will be disabled. disableRipple must
+        also be true.
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, the keyboard focus ripple is disabled.</text>
+        <text>, the keyboard focus ripple will be disabled.</text>
+        <code>$SOME_CODE</code>
+        <text>must also be true.</text>
       </gridcell>
     </row>
     <row>
@@ -605,34 +533,10 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        If true, the ripple effect is disabled. ⚠️ Without a ripple there is no
-        styling for :focus-visible by default. Be sure to highlight the element
-        by applying separate styles with the focusVisibleClassName.
+        If true, the ripple effect will be disabled.
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, the ripple effect is disabled.</text>
-        <LineBreak></LineBreak>
-        <text>
-          ⚠️ Without a ripple there is no styling for :focus-visible by default.
-          Be sure to highlight the element by applying separate styles with the
-        </text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        endIcon
-        <text>endIcon</text>
-      </gridcell>
-      <gridcell>
-        node
-        <text>node</text>
-      </gridcell>
-      <gridcell></gridcell>
-      <gridcell>
-        Element placed after the children.
-        <text>Element placed after the children.</text>
+        <text>, the ripple effect will be disabled.</text>
       </gridcell>
     </row>
     <row>
@@ -677,16 +581,42 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
+        mini
+        <text>mini</text>
+      </gridcell>
+      <gridcell>
+        bool
+        <text>bool</text>
+      </gridcell>
+      <gridcell>
+        false
+        <text>false</text>
+      </gridcell>
+      <gridcell>
+        If true, and variant is 'fab', will use mini floating action
+        button styling.
+        <text>If</text>
+        <code>$SOME_CODE</code>
+        <text>, and</text>
+        <code>$SOME_CODE</code>
+        <text>is</text>
+        <code>$SOME_CODE</code>
+        <text>, will use mini floating action button styling.</text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
         size
         <text>size</text>
       </gridcell>
       <gridcell>
-        'large' | 'medium' | 'small'
-        <text>'large'</text>
+        enum: 'small' |  'medium' |  'large'
+        <text>enum: 'small' |</text>
         <LineBreak></LineBreak>
-        <text>| 'medium'</text>
+        <text> 'medium' |</text>
         <LineBreak></LineBreak>
-        <text>| 'small'</text>
+        <text> 'large'</text>
+        <LineBreak></LineBreak>
       </gridcell>
       <gridcell>
         'medium'
@@ -701,51 +631,51 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
-        startIcon
-        <text>startIcon</text>
-      </gridcell>
-      <gridcell>
-        node
-        <text>node</text>
-      </gridcell>
-      <gridcell></gridcell>
-      <gridcell>
-        Element placed before the children.
-        <text>Element placed before the children.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
         variant
         <text>variant</text>
       </gridcell>
       <gridcell>
-        'contained' | 'outlined' | 'text' | string
-        <text>'contained'</text>
+        enum: 'text', 'outlined', 'contained',
+        'fab', 'extendedFab', 'flat',
+        'raised'
+        <text>
+          enum: 'text', 'outlined', 'contained',
+          'fab', 'extendedFab', 'flat',
+          'raised'
+        </text>
         <LineBreak></LineBreak>
-        <text>| 'outlined'</text>
-        <LineBreak></LineBreak>
-        <text>| 'text'</text>
-        <LineBreak></LineBreak>
-        <text>| string</text>
       </gridcell>
       <gridcell>
         'text'
         <text>'text'</text>
       </gridcell>
       <gridcell>
-        The variant to use.
-        <text>The variant to use.</text>
+        The variant to use. WARNING: flat and raised are deprecated. Instead use
+        text and contained respectively. fab and extendedFab are deprecated.
+        Instead use <Fab> and <Fab variant="extended">
+        <text>The variant to use.WARNING:</text>
+        <code>$SOME_CODE</code>
+        <text>and</text>
+        <code>$SOME_CODE</code>
+        <text>are deprecated. Instead use</text>
+        <code>$SOME_CODE</code>
+        <text>and</text>
+        <code>$SOME_CODE</code>
+        <text>respectively.</text>
+        <code>$SOME_CODE</code>
+        <text>and</text>
+        <code>$SOME_CODE</code>
+        <text>are deprecated. Instead use</text>
+        <code>$SOME_CODE</code>
+        <text>and</text>
+        <code>$SOME_CODE</code>
       </gridcell>
     </row>
   </table>
   <paragraph>
-    <text>The</text>
-    <code>$SOME_CODE</code>
-    <text>is forwarded to the root element.</text>
-  </paragraph>
-  <paragraph>
-    <text>Any other props supplied will be provided to the root element (</text>
+    <text>
+      Any other properties supplied will be spread to the root element (
+    </text>
     <link>ButtonBase</link>
     <text>).</text>
   </paragraph>
@@ -754,15 +684,18 @@ exports[`chromium /api/button/ 1`] = `
     <Anchor></Anchor>
     <text>CSS</text>
   </heading>
+  <paragraph>
+    <text>
+      You can override all the class names injected by Material-UI thanks to the
+    </text>
+    <code>$SOME_CODE</code>
+    <text>property. This property accepts the following keys:</text>
+  </paragraph>
   <table>
     <row>
       <columnheader>
-        Rule name
-        <text>Rule name</text>
-      </columnheader>
-      <columnheader>
-        Global class
-        <text>Global class</text>
+        Name
+        <text>Name</text>
       </columnheader>
       <columnheader>
         Description
@@ -775,10 +708,6 @@ exports[`chromium /api/button/ 1`] = `
         <text>root</text>
       </gridcell>
       <gridcell>
-        .MuiButton-root
-        <text>.MuiButton-root</text>
-      </gridcell>
-      <gridcell>
         Styles applied to the root element.
         <text>Styles applied to the root element.</text>
       </gridcell>
@@ -787,10 +716,6 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         label
         <text>label</text>
-      </gridcell>
-      <gridcell>
-        .MuiButton-label
-        <text>.MuiButton-label</text>
       </gridcell>
       <gridcell>
         Styles applied to the span element that wraps the children.
@@ -803,10 +728,6 @@ exports[`chromium /api/button/ 1`] = `
         <text>text</text>
       </gridcell>
       <gridcell>
-        .MuiButton-text
-        <text>.MuiButton-text</text>
-      </gridcell>
-      <gridcell>
         Styles applied to the root element if variant="text".
         <text>Styles applied to the root element if</text>
         <code>$SOME_CODE</code>
@@ -817,10 +738,6 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         textPrimary
         <text>textPrimary</text>
-      </gridcell>
-      <gridcell>
-        .MuiButton-textPrimary
-        <text>.MuiButton-textPrimary</text>
       </gridcell>
       <gridcell>
         Styles applied to the root element if variant="text" and
@@ -838,10 +755,6 @@ exports[`chromium /api/button/ 1`] = `
         <text>textSecondary</text>
       </gridcell>
       <gridcell>
-        .MuiButton-textSecondary
-        <text>.MuiButton-textSecondary</text>
-      </gridcell>
-      <gridcell>
         Styles applied to the root element if variant="text" and
         color="secondary".
         <text>Styles applied to the root element if</text>
@@ -853,12 +766,50 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
-        outlined
-        <text>outlined</text>
+        flat
+        <text>flat</text>
       </gridcell>
       <gridcell>
-        .MuiButton-outlined
-        <text>.MuiButton-outlined</text>
+        Styles applied to the root element for backwards compatibility with
+        legacy variant naming.
+        <text>
+          Styles applied to the root element for backwards compatibility with
+          legacy variant naming.
+        </text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
+        flatPrimary
+        <text>flatPrimary</text>
+      </gridcell>
+      <gridcell>
+        Styles applied to the root element for backwards compatibility with
+        legacy variant naming.
+        <text>
+          Styles applied to the root element for backwards compatibility with
+          legacy variant naming.
+        </text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
+        flatSecondary
+        <text>flatSecondary</text>
+      </gridcell>
+      <gridcell>
+        Styles applied to the root element for backwards compatibility with
+        legacy variant naming.
+        <text>
+          Styles applied to the root element for backwards compatibility with
+          legacy variant naming.
+        </text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
+        outlined
+        <text>outlined</text>
       </gridcell>
       <gridcell>
         Styles applied to the root element if variant="outlined".
@@ -871,10 +822,6 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         outlinedPrimary
         <text>outlinedPrimary</text>
-      </gridcell>
-      <gridcell>
-        .MuiButton-outlinedPrimary
-        <text>.MuiButton-outlinedPrimary</text>
       </gridcell>
       <gridcell>
         Styles applied to the root element if variant="outlined" and
@@ -892,10 +839,6 @@ exports[`chromium /api/button/ 1`] = `
         <text>outlinedSecondary</text>
       </gridcell>
       <gridcell>
-        .MuiButton-outlinedSecondary
-        <text>.MuiButton-outlinedSecondary</text>
-      </gridcell>
-      <gridcell>
         Styles applied to the root element if variant="outlined" and
         color="secondary".
         <text>Styles applied to the root element if</text>
@@ -911,11 +854,8 @@ exports[`chromium /api/button/ 1`] = `
         <text>contained</text>
       </gridcell>
       <gridcell>
-        .MuiButton-contained
-        <text>.MuiButton-contained</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the root element if variant="contained".
+        Styles applied to the root element if variant="[contained |
+        fab]".
         <text>Styles applied to the root element if</text>
         <code>$SOME_CODE</code>
         <text>.</text>
@@ -927,12 +867,8 @@ exports[`chromium /api/button/ 1`] = `
         <text>containedPrimary</text>
       </gridcell>
       <gridcell>
-        .MuiButton-containedPrimary
-        <text>.MuiButton-containedPrimary</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the root element if variant="contained" and
-        color="primary".
+        Styles applied to the root element if variant="[contained |
+        fab]" and color="primary".
         <text>Styles applied to the root element if</text>
         <code>$SOME_CODE</code>
         <text>and</text>
@@ -946,12 +882,8 @@ exports[`chromium /api/button/ 1`] = `
         <text>containedSecondary</text>
       </gridcell>
       <gridcell>
-        .MuiButton-containedSecondary
-        <text>.MuiButton-containedSecondary</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the root element if variant="contained" and
-        color="secondary".
+        Styles applied to the root element if variant="[contained |
+        fab]" and color="secondary".
         <text>Styles applied to the root element if</text>
         <code>$SOME_CODE</code>
         <text>and</text>
@@ -961,15 +893,66 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
-        disableElevation
-        <text>disableElevation</text>
+        raised
+        <text>raised</text>
       </gridcell>
       <gridcell>
-        .MuiButton-disableElevation
-        <text>.MuiButton-disableElevation</text>
+        Styles applied to the root element for backwards compatibility with
+        legacy variant naming.
+        <text>
+          Styles applied to the root element for backwards compatibility with
+          legacy variant naming.
+        </text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
+        raisedPrimary
+        <text>raisedPrimary</text>
       </gridcell>
       <gridcell>
-        Styles applied to the root element if disableElevation={true}.
+        Styles applied to the root element for backwards compatibility with
+        legacy variant naming.
+        <text>
+          Styles applied to the root element for backwards compatibility with
+          legacy variant naming.
+        </text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
+        raisedSecondary
+        <text>raisedSecondary</text>
+      </gridcell>
+      <gridcell>
+        Styles applied to the root element for backwards compatibility with
+        legacy variant naming.
+        <text>
+          Styles applied to the root element for backwards compatibility with
+          legacy variant naming.
+        </text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
+        fab
+        <text>fab</text>
+      </gridcell>
+      <gridcell>
+        Styles applied to the root element if variant="[fab |
+        extendedFab]".
+        <text>Styles applied to the root element if</text>
+        <code>$SOME_CODE</code>
+        <text>.</text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
+        extendedFab
+        <text>extendedFab</text>
+      </gridcell>
+      <gridcell>
+        Styles applied to the root element if variant="extendedFab".
         <text>Styles applied to the root element if</text>
         <code>$SOME_CODE</code>
         <text>.</text>
@@ -981,14 +964,10 @@ exports[`chromium /api/button/ 1`] = `
         <text>focusVisible</text>
       </gridcell>
       <gridcell>
-        .Mui-focusVisible
-        <text>.Mui-focusVisible</text>
-      </gridcell>
-      <gridcell>
-        Pseudo-class applied to the ButtonBase root element if the button is
-        keyboard focused.
+        Styles applied to the ButtonBase root element if the button is keyboard
+        focused.
         <text>
-          Pseudo-class applied to the ButtonBase root element if the button is
+          Styles applied to the ButtonBase root element if the button is
           keyboard focused.
         </text>
       </gridcell>
@@ -999,12 +978,8 @@ exports[`chromium /api/button/ 1`] = `
         <text>disabled</text>
       </gridcell>
       <gridcell>
-        .Mui-disabled
-        <text>.Mui-disabled</text>
-      </gridcell>
-      <gridcell>
-        Pseudo-class applied to the root element if disabled={true}.
-        <text>Pseudo-class applied to the root element if</text>
+        Styles applied to the root element if disabled={true}.
+        <text>Styles applied to the root element if</text>
         <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
@@ -1015,10 +990,6 @@ exports[`chromium /api/button/ 1`] = `
         <text>colorInherit</text>
       </gridcell>
       <gridcell>
-        .MuiButton-colorInherit
-        <text>.MuiButton-colorInherit</text>
-      </gridcell>
-      <gridcell>
         Styles applied to the root element if color="inherit".
         <text>Styles applied to the root element if</text>
         <code>$SOME_CODE</code>
@@ -1027,114 +998,15 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
-        textSizeSmall
-        <text>textSizeSmall</text>
+        mini
+        <text>mini</text>
       </gridcell>
       <gridcell>
-        .MuiButton-textSizeSmall
-        <text>.MuiButton-textSizeSmall</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the root element if size="small" and
-        variant="text".
+        Styles applied to the root element if mini={true} &
+        variant="[fab | extendedFab]".
         <text>Styles applied to the root element if</text>
         <code>$SOME_CODE</code>
-        <text>and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        textSizeLarge
-        <text>textSizeLarge</text>
-      </gridcell>
-      <gridcell>
-        .MuiButton-textSizeLarge
-        <text>.MuiButton-textSizeLarge</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the root element if size="large" and
-        variant="text".
-        <text>Styles applied to the root element if</text>
-        <code>$SOME_CODE</code>
-        <text>and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        outlinedSizeSmall
-        <text>outlinedSizeSmall</text>
-      </gridcell>
-      <gridcell>
-        .MuiButton-outlinedSizeSmall
-        <text>.MuiButton-outlinedSizeSmall</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the root element if size="small" and
-        variant="outlined".
-        <text>Styles applied to the root element if</text>
-        <code>$SOME_CODE</code>
-        <text>and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        outlinedSizeLarge
-        <text>outlinedSizeLarge</text>
-      </gridcell>
-      <gridcell>
-        .MuiButton-outlinedSizeLarge
-        <text>.MuiButton-outlinedSizeLarge</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the root element if size="large" and
-        variant="outlined".
-        <text>Styles applied to the root element if</text>
-        <code>$SOME_CODE</code>
-        <text>and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        containedSizeSmall
-        <text>containedSizeSmall</text>
-      </gridcell>
-      <gridcell>
-        .MuiButton-containedSizeSmall
-        <text>.MuiButton-containedSizeSmall</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the root element if size="small" and
-        variant="contained".
-        <text>Styles applied to the root element if</text>
-        <code>$SOME_CODE</code>
-        <text>and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        containedSizeLarge
-        <text>containedSizeLarge</text>
-      </gridcell>
-      <gridcell>
-        .MuiButton-containedSizeLarge
-        <text>.MuiButton-containedSizeLarge</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the root element if size="large" and
-        variant="contained".
-        <text>Styles applied to the root element if</text>
-        <code>$SOME_CODE</code>
-        <text>and</text>
+        <text>&</text>
         <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
@@ -1143,10 +1015,6 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         sizeSmall
         <text>sizeSmall</text>
-      </gridcell>
-      <gridcell>
-        .MuiButton-sizeSmall
-        <text>.MuiButton-sizeSmall</text>
       </gridcell>
       <gridcell>
         Styles applied to the root element if size="small".
@@ -1161,10 +1029,6 @@ exports[`chromium /api/button/ 1`] = `
         <text>sizeLarge</text>
       </gridcell>
       <gridcell>
-        .MuiButton-sizeLarge
-        <text>.MuiButton-sizeLarge</text>
-      </gridcell>
-      <gridcell>
         Styles applied to the root element if size="large".
         <text>Styles applied to the root element if</text>
         <code>$SOME_CODE</code>
@@ -1177,138 +1041,27 @@ exports[`chromium /api/button/ 1`] = `
         <text>fullWidth</text>
       </gridcell>
       <gridcell>
-        .MuiButton-fullWidth
-        <text>.MuiButton-fullWidth</text>
-      </gridcell>
-      <gridcell>
         Styles applied to the root element if fullWidth={true}.
         <text>Styles applied to the root element if</text>
         <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
     </row>
-    <row>
-      <gridcell>
-        startIcon
-        <text>startIcon</text>
-      </gridcell>
-      <gridcell>
-        .MuiButton-startIcon
-        <text>.MuiButton-startIcon</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the startIcon element if supplied.
-        <text>Styles applied to the startIcon element if supplied.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        endIcon
-        <text>endIcon</text>
-      </gridcell>
-      <gridcell>
-        .MuiButton-endIcon
-        <text>.MuiButton-endIcon</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the endIcon element if supplied.
-        <text>Styles applied to the endIcon element if supplied.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        iconSizeSmall
-        <text>iconSizeSmall</text>
-      </gridcell>
-      <gridcell>
-        .MuiButton-iconSizeSmall
-        <text>.MuiButton-iconSizeSmall</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the icon element if supplied and
-        size="small".
-        <text>Styles applied to the icon element if supplied and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        iconSizeMedium
-        <text>iconSizeMedium</text>
-      </gridcell>
-      <gridcell>
-        .MuiButton-iconSizeMedium
-        <text>.MuiButton-iconSizeMedium</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the icon element if supplied and
-        size="medium".
-        <text>Styles applied to the icon element if supplied and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        iconSizeLarge
-        <text>iconSizeLarge</text>
-      </gridcell>
-      <gridcell>
-        .MuiButton-iconSizeLarge
-        <text>.MuiButton-iconSizeLarge</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the icon element if supplied and
-        size="large".
-        <text>Styles applied to the icon element if supplied and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
-      </gridcell>
-    </row>
   </table>
   <paragraph>
-    <text>
-      You can override the style of the component thanks to one of these
-      customization points:
-    </text>
-  </paragraph>
-  <list>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>With a rule name of the</text>
-      <link>
-        classes object prop
-        <code>$SOME_CODE</code>
-      </link>
-      <text>.</text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>With a</text>
-      <link>global class name</link>
-      <text>.</text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>With a theme and an</text>
-      <link>
-        overrides property
-        <code>$SOME_CODE</code>
-      </link>
-      <text>.</text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>If that's not sufficient, you can check the</text>
+    <text>Have a look at</text>
+    <link>overriding with classes</link>
+    <text>section and the</text>
     <link>implementation of the component</link>
     <text>for more detail.</text>
+  </paragraph>
+  <paragraph>
+    <text>If using the</text>
+    <code>$SOME_CODE</code>
+    <link>key of the theme</link>
+    <text>, you need to use the following style sheet name:</text>
+    <code>$SOME_CODE</code>
+    <text>.</text>
   </paragraph>
   <heading level="2">
     Inheritance
@@ -1316,7 +1069,7 @@ exports[`chromium /api/button/ 1`] = `
     <text>Inheritance</text>
   </heading>
   <paragraph>
-    <text>The props of the</text>
+    <text>The properties of the</text>
     <link>ButtonBase</link>
     <text>
       component are also available. You can take advantage of this behavior to
@@ -1334,105 +1087,33 @@ exports[`chromium /api/button/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <link>Button Group</link>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>Buttons</link>
     </listitem>
   </list>
-  <FooterAsNonLandmark>
-    <separator orientation="horizontal"></separator>
-    <link>
-      Breadcrumbs
-      <SVGRoot></SVGRoot>
-      <text>Breadcrumbs</text>
-    </link>
-    <group>
-      give page feedback
-      <heading level="6">
-        Was this page helpful?
-        <text>Was this page helpful?</text>
-      </heading>
-      <button pressed="false">Yes</button>
-      <button pressed="false">No</button>
-    </group>
-    <link>
-      ButtonBase
-      <text>ButtonBase</text>
-      <SVGRoot></SVGRoot>
-    </link>
-    <heading level="6">
-      Thanks for your feedback!
-      <text>Thanks for your feedback!</text>
-    </heading>
-    <paragraph>
-      Please let us know what we could do to improve this page.
-      <text>Please let us know what we could do to improve this page.</text>
-    </paragraph>
-    <textbox multiline="true"></textbox>
-    <group>
-      <Legend>
-        <text>​</text>
-      </Legend>
-    </group>
-    <button>
-      <text>CANCEL</text>
-    </button>
-    <button>
-      <text>SUBMIT</text>
-    </button>
-  </FooterAsNonLandmark>
-  <textbox></textbox>
 </main>;
 
 `;
 
 exports[`chromium /api/select/ 1`] = `
 <main>
-  <link>
+  <button>
     EDIT THIS PAGE
     <text>EDIT THIS PAGE</text>
-  </link>
+  </button>
   <heading level="1">
     Select API
+    <Anchor></Anchor>
     <text>Select API</text>
   </heading>
   <paragraph>
     <text>
       The API documentation of the Select React component. Learn more about the
-      props and the CSS customization points.
+      properties and the CSS customization points.
     </text>
   </paragraph>
-  <heading level="2">
-    Import
-    <Anchor></Anchor>
-    <text>Import</text>
-  </heading>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
-  <paragraph>
-    <text>You can learn more about the difference by</text>
-    <link>reading this guide</link>
-    <text>.</text>
-  </paragraph>
-  <heading level="2">
-    Component name
-    <Anchor></Anchor>
-    <text>Component name</text>
-  </heading>
-  <paragraph>
-    <text>The</text>
-    <code>$SOME_CODE</code>
-    <text>name can be used for providing</text>
-    <link>default props</link>
-    <text>or</text>
-    <link>style overrides</link>
-    <text>at the theme level.</text>
-  </paragraph>
   <heading level="2">
     Props
     <Anchor></Anchor>
@@ -1474,12 +1155,10 @@ exports[`chromium /api/select/ 1`] = `
         If true, the width of the popover will automatically be set according to
         the items inside the menu, otherwise it will be at least the width of
         the select input.
-        <text>If</text>
-        <code>$SOME_CODE</code>
         <text>
-          , the width of the popover will automatically be set according to the
-          items inside the menu, otherwise it will be at least the width of the
-          select input.
+          If true, the width of the popover will automatically be set according
+          to the items inside the menu, otherwise it will be at least the width
+          of the select input.
         </text>
       </gridcell>
     </row>
@@ -1495,8 +1174,7 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell></gridcell>
       <gridcell>
         The option elements to populate the select with. Can be some MenuItem
-        when native is false and option when native is true. ⚠️The MenuItem
-        elements must be direct descendants when native is false.
+        when native is false and option when native is true.
         <text>
           The option elements to populate the select with. Can be some
         </text>
@@ -1508,12 +1186,6 @@ exports[`chromium /api/select/ 1`] = `
         <text>when</text>
         <code>$SOME_CODE</code>
         <text>is true.</text>
-        <LineBreak></LineBreak>
-        <text>⚠️The</text>
-        <code>$SOME_CODE</code>
-        <text>elementsmustbe direct descendants when</text>
-        <code>$SOME_CODE</code>
-        <text>is false.</text>
       </gridcell>
     </row>
     <row>
@@ -1536,23 +1208,6 @@ exports[`chromium /api/select/ 1`] = `
     </row>
     <row>
       <gridcell>
-        defaultValue
-        <text>defaultValue</text>
-      </gridcell>
-      <gridcell>
-        any
-        <text>any</text>
-      </gridcell>
-      <gridcell></gridcell>
-      <gridcell>
-        The default element value. Use when the component is not controlled.
-        <text>
-          The default element value. Use when the component is not controlled.
-        </text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
         displayEmpty
         <text>displayEmpty</text>
       </gridcell>
@@ -1565,31 +1220,18 @@ exports[`chromium /api/select/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        If true, a value is displayed even if no items are selected. In order to
-        display a meaningful value, a function can be passed to the renderValue
-        prop which returns the value to be displayed when no items are selected.
-        ⚠️ When using this prop, make sure the label doesn't overlap with
-        the empty displayed value. The label should either be hidden or forced
-        to a shrunk state.
+        If true, the selected item is displayed even if its value is empty. You
+        can only use it when the native property is false (default).
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, a value is displayed even if no items are selected.</text>
-        <LineBreak></LineBreak>
         <text>
-          In order to display a meaningful value, a function can be passed to
-          the
+          , the selected item is displayed even if its value is empty. You can
+          only use it when the
         </text>
         <code>$SOME_CODE</code>
-        <text>
-          prop which returns the value to be displayed when no items are
-          selected.
-        </text>
-        <LineBreak></LineBreak>
-        <text>
-          ⚠️ When using this prop, make sure the label doesn't overlap with
-          the empty displayed value. The label should either be hidden or forced
-          to a shrunk state.
-        </text>
+        <text>property is</text>
+        <code>$SOME_CODE</code>
+        <text>(default).</text>
       </gridcell>
     </row>
     <row>
@@ -1598,8 +1240,8 @@ exports[`chromium /api/select/ 1`] = `
         <text>IconComponent</text>
       </gridcell>
       <gridcell>
-        elementType
-        <text>elementType</text>
+        Component
+        <text>Component</text>
       </gridcell>
       <gridcell>
         ArrowDropDownIcon
@@ -1612,27 +1254,6 @@ exports[`chromium /api/select/ 1`] = `
     </row>
     <row>
       <gridcell>
-        id
-        <text>id</text>
-      </gridcell>
-      <gridcell>
-        string
-        <text>string</text>
-      </gridcell>
-      <gridcell></gridcell>
-      <gridcell>
-        The id of the wrapper element or the select element when native.
-        <text>The</text>
-        <code>$SOME_CODE</code>
-        <text>of the wrapper element or the</text>
-        <code>$SOME_CODE</code>
-        <text>element when</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
         input
         <text>input</text>
       </gridcell>
@@ -1640,7 +1261,10 @@ exports[`chromium /api/select/ 1`] = `
         element
         <text>element</text>
       </gridcell>
-      <gridcell></gridcell>
+      <gridcell>
+        <Input />
+        <text><Input /></text>
+      </gridcell>
       <gridcell>
         An Input element; does not have to be a material-ui specific Input.
         <text>An</text>
@@ -1663,8 +1287,7 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell>
         Attributes applied to the input element. When native is true, the
         attributes are applied on the select element.
-        <link>Attributes</link>
-        <text>applied to the</text>
+        <text>Attributes applied to the</text>
         <code>$SOME_CODE</code>
         <text>element. When</text>
         <code>$SOME_CODE</code>
@@ -1673,59 +1296,6 @@ exports[`chromium /api/select/ 1`] = `
         <text>, the attributes are applied on the</text>
         <code>$SOME_CODE</code>
         <text>element.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        label
-        <text>label</text>
-      </gridcell>
-      <gridcell>
-        node
-        <text>node</text>
-      </gridcell>
-      <gridcell></gridcell>
-      <gridcell>
-        See OutlinedInput#label
-        <text>See</text>
-        <link>OutlinedInput#label</link>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        labelId
-        <text>labelId</text>
-      </gridcell>
-      <gridcell>
-        string
-        <text>string</text>
-      </gridcell>
-      <gridcell></gridcell>
-      <gridcell>
-        The ID of an element that acts as an additional label. The Select will
-        be labelled by the additional label and the selected value.
-        <text>
-          The ID of an element that acts as an additional label. The Select will
-          be labelled by the additional label and the selected value.
-        </text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        labelWidth
-        <text>labelWidth</text>
-      </gridcell>
-      <gridcell>
-        number
-        <text>number</text>
-      </gridcell>
-      <gridcell>
-        0<text>0</text>
-      </gridcell>
-      <gridcell>
-        See OutlinedInput#label
-        <text>See</text>
-        <link>OutlinedInput#label</link>
       </gridcell>
     </row>
     <row>
@@ -1739,8 +1309,8 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        Props applied to the Menu element.
-        <text>Props applied to the</text>
+        Properties applied to the Menu element.
+        <text>Properties applied to the</text>
         <link>
           Menu
           <code>$SOME_CODE</code>
@@ -1764,9 +1334,7 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell>
         If true, value must be an array and the menu will support multiple
         selections.
-        <text>If</text>
-        <code>$SOME_CODE</code>
-        <text>,</text>
+        <text>If true,</text>
         <code>$SOME_CODE</code>
         <text>
           must be an array and the menu will support multiple selections.
@@ -1787,10 +1355,10 @@ exports[`chromium /api/select/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        If true, the component uses a native select element.
+        If true, the component will be using a native select element.
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, the component uses a native</text>
+        <text>, the component will be using a native</text>
         <code>$SOME_CODE</code>
         <text>element.</text>
       </gridcell>
@@ -1806,12 +1374,12 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        Callback fired when a menu item is selected. Signature: function(event:
-        object, child?: object) => void event: The event source of the
-        callback. You can pull out the new value by accessing event.target.value
-        (any). child: The react element that was selected when native is false
-        (default).
-        <text>Callback fired when a menu item is selected.</text>
+        Callback function fired when a menu item is selected. Signature:
+        function(event: object, child?: object) => void event: The event
+        source of the callback. You can pull out the new value by accessing
+        event.target.value. child: The react element that was selected when
+        native is false (default).
+        <text>Callback function fired when a menu item is selected.</text>
         <LineBreak></LineBreak>
         <LineBreak></LineBreak>
         <text>Signature:</text>
@@ -1823,7 +1391,7 @@ exports[`chromium /api/select/ 1`] = `
           by accessing
         </text>
         <code>$SOME_CODE</code>
-        <text>(any).</text>
+        <text>.</text>
         <LineBreak></LineBreak>
         <text>child:The react element that was selected when</text>
         <code>$SOME_CODE</code>
@@ -1845,7 +1413,7 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell>
         Callback fired when the component requests to be closed. Use in
         controlled mode (see open). Signature: function(event: object) =>
-        void event: The event source of the callback.
+        void event: The event source of the callback
         <text>
           Callback fired when the component requests to be closed. Use in
           controlled mode (see open).
@@ -1856,7 +1424,7 @@ exports[`chromium /api/select/ 1`] = `
         <LineBreak></LineBreak>
         <code>$SOME_CODE</code>
         <LineBreak></LineBreak>
-        <text>event:The event source of the callback.</text>
+        <text>event:The event source of the callback</text>
       </gridcell>
     </row>
     <row>
@@ -1872,7 +1440,7 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell>
         Callback fired when the component requests to be opened. Use in
         controlled mode (see open). Signature: function(event: object) =>
-        void event: The event source of the callback.
+        void event: The event source of the callback
         <text>
           Callback fired when the component requests to be opened. Use in
           controlled mode (see open).
@@ -1883,7 +1451,7 @@ exports[`chromium /api/select/ 1`] = `
         <LineBreak></LineBreak>
         <code>$SOME_CODE</code>
         <LineBreak></LineBreak>
-        <text>event:The event source of the callback.</text>
+        <text>event:The event source of the callback</text>
       </gridcell>
     </row>
     <row>
@@ -1897,13 +1465,13 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        Control select open state. You can only use it when the native prop is
-        false (default).
+        Control select open state. You can only use it when the native property
+        is false (default).
         <text>Control</text>
         <code>$SOME_CODE</code>
         <text>open state. You can only use it when the</text>
         <code>$SOME_CODE</code>
-        <text>prop is</text>
+        <text>property is</text>
         <code>$SOME_CODE</code>
         <text>(default).</text>
       </gridcell>
@@ -1919,12 +1487,12 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        Render the selected value. You can only use it when the native prop is
-        false (default). Signature: function(value: any) => ReactNode value:
-        The value provided to the component.
+        Render the selected value. You can only use it when the native property
+        is false (default). Signature: function(value: any) => ReactElement
+        value: The value provided to the component.
         <text>Render the selected value. You can only use it when the</text>
         <code>$SOME_CODE</code>
-        <text>prop is</text>
+        <text>property is</text>
         <code>$SOME_CODE</code>
         <text>(default).</text>
         <LineBreak></LineBreak>
@@ -1949,8 +1517,8 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        Props applied to the clickable div element.
-        <text>Props applied to the clickable div element.</text>
+        Properties applied to the clickable div element.
+        <text>Properties applied to the clickable div element.</text>
       </gridcell>
     </row>
     <row>
@@ -1959,37 +1527,19 @@ exports[`chromium /api/select/ 1`] = `
         <text>value</text>
       </gridcell>
       <gridcell>
-        any
-        <text>any</text>
+        union: string, number, bool, object, arrayOf
+        <text>union: string, number, bool, object, arrayOf</text>
+        <LineBreak></LineBreak>
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        The input value. Providing an empty string will select no options. This
-        prop is required when the native prop is false (default). Set to an
-        empty string '' if you don't want any of the available
-        options to be selected. If the value is an object it must have reference
-        equality with the option in order to be selected. If the value is not an
-        object, the string representation must match with the string
-        representation of the option in order to be selected.
-        <text>
-          The input value. Providing an empty string will select no options.
-          This prop is required when the
-        </text>
+        The input value. This property is required when the native property is
+        false (default).
+        <text>The input value. This property is required when the</text>
         <code>$SOME_CODE</code>
-        <text>prop is</text>
+        <text>property is</text>
         <code>$SOME_CODE</code>
-        <text>(default). Set to an empty string</text>
-        <code>$SOME_CODE</code>
-        <text>
-          if you don't want any of the available options to be selected.
-        </text>
-        <LineBreak></LineBreak>
-        <text>
-          If the value is an object it must have reference equality with the
-          option in order to be selected. If the value is not an object, the
-          string representation must match with the string representation of the
-          option in order to be selected.
-        </text>
+        <text>(default).</text>
       </gridcell>
     </row>
     <row>
@@ -1998,17 +1548,15 @@ exports[`chromium /api/select/ 1`] = `
         <text>variant</text>
       </gridcell>
       <gridcell>
-        'filled' | 'outlined' | 'standard'
-        <text>'filled'</text>
+        enum: 'standard' |  'outlined' |  'filled'
+        <text>enum: 'standard' |</text>
         <LineBreak></LineBreak>
-        <text>| 'outlined'</text>
+        <text> 'outlined' |</text>
         <LineBreak></LineBreak>
-        <text>| 'standard'</text>
+        <text> 'filled'</text>
+        <LineBreak></LineBreak>
       </gridcell>
-      <gridcell>
-        'standard'
-        <text>'standard'</text>
-      </gridcell>
+      <gridcell></gridcell>
       <gridcell>
         The variant to use.
         <text>The variant to use.</text>
@@ -2016,12 +1564,9 @@ exports[`chromium /api/select/ 1`] = `
     </row>
   </table>
   <paragraph>
-    <text>The</text>
-    <code>$SOME_CODE</code>
-    <text>is forwarded to the root element.</text>
-  </paragraph>
-  <paragraph>
-    <text>Any other props supplied will be provided to the root element (</text>
+    <text>
+      Any other properties supplied will be spread to the root element (
+    </text>
     <link>Input</link>
     <text>).</text>
   </paragraph>
@@ -2030,15 +1575,18 @@ exports[`chromium /api/select/ 1`] = `
     <Anchor></Anchor>
     <text>CSS</text>
   </heading>
+  <paragraph>
+    <text>
+      You can override all the class names injected by Material-UI thanks to the
+    </text>
+    <code>$SOME_CODE</code>
+    <text>property. This property accepts the following keys:</text>
+  </paragraph>
   <table>
     <row>
       <columnheader>
-        Rule name
-        <text>Rule name</text>
-      </columnheader>
-      <columnheader>
-        Global class
-        <text>Global class</text>
+        Name
+        <text>Name</text>
       </columnheader>
       <columnheader>
         Description
@@ -2051,12 +1599,10 @@ exports[`chromium /api/select/ 1`] = `
         <text>root</text>
       </gridcell>
       <gridcell>
-        .MuiSelect-root
-        <text>.MuiSelect-root</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the select component root class.
-        <text>Styles applied to the select component</text>
+        Styles applied to the Input component root class.
+        <text>Styles applied to the</text>
+        <code>$SOME_CODE</code>
+        <text>component</text>
         <code>$SOME_CODE</code>
         <text>class.</text>
       </gridcell>
@@ -2067,12 +1613,10 @@ exports[`chromium /api/select/ 1`] = `
         <text>select</text>
       </gridcell>
       <gridcell>
-        .MuiSelect-select
-        <text>.MuiSelect-select</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the select component select class.
-        <text>Styles applied to the select component</text>
+        Styles applied to the Input component select class.
+        <text>Styles applied to the</text>
+        <code>$SOME_CODE</code>
+        <text>component</text>
         <code>$SOME_CODE</code>
         <text>class.</text>
       </gridcell>
@@ -2083,12 +1627,10 @@ exports[`chromium /api/select/ 1`] = `
         <text>filled</text>
       </gridcell>
       <gridcell>
-        .MuiSelect-filled
-        <text>.MuiSelect-filled</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the select component if variant="filled".
-        <text>Styles applied to the select component if</text>
+        Styles applied to the Input component if variant="filled".
+        <text>Styles applied to the</text>
+        <code>$SOME_CODE</code>
+        <text>component if</text>
         <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
@@ -2099,12 +1641,10 @@ exports[`chromium /api/select/ 1`] = `
         <text>outlined</text>
       </gridcell>
       <gridcell>
-        .MuiSelect-outlined
-        <text>.MuiSelect-outlined</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the select component if variant="outlined".
-        <text>Styles applied to the select component if</text>
+        Styles applied to the Input component if variant="outlined".
+        <text>Styles applied to the</text>
+        <code>$SOME_CODE</code>
+        <text>component if</text>
         <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
@@ -2115,12 +1655,10 @@ exports[`chromium /api/select/ 1`] = `
         <text>selectMenu</text>
       </gridcell>
       <gridcell>
-        .MuiSelect-selectMenu
-        <text>.MuiSelect-selectMenu</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the select component selectMenu class.
-        <text>Styles applied to the select component</text>
+        Styles applied to the Input component selectMenu class.
+        <text>Styles applied to the</text>
+        <code>$SOME_CODE</code>
+        <text>component</text>
         <code>$SOME_CODE</code>
         <text>class.</text>
       </gridcell>
@@ -2131,12 +1669,10 @@ exports[`chromium /api/select/ 1`] = `
         <text>disabled</text>
       </gridcell>
       <gridcell>
-        .Mui-disabled
-        <text>.Mui-disabled</text>
-      </gridcell>
-      <gridcell>
-        Pseudo-class applied to the select component disabled class.
-        <text>Pseudo-class applied to the select component</text>
+        Styles applied to the Input component disabled class.
+        <text>Styles applied to the</text>
+        <code>$SOME_CODE</code>
+        <text>component</text>
         <code>$SOME_CODE</code>
         <text>class.</text>
       </gridcell>
@@ -2147,117 +1683,29 @@ exports[`chromium /api/select/ 1`] = `
         <text>icon</text>
       </gridcell>
       <gridcell>
-        .MuiSelect-icon
-        <text>.MuiSelect-icon</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the icon component.
-        <text>Styles applied to the icon component.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        iconOpen
-        <text>iconOpen</text>
-      </gridcell>
-      <gridcell>
-        .MuiSelect-iconOpen
-        <text>.MuiSelect-iconOpen</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the icon component if the popup is open.
-        <text>Styles applied to the icon component if the popup is open.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        iconFilled
-        <text>iconFilled</text>
-      </gridcell>
-      <gridcell>
-        .MuiSelect-iconFilled
-        <text>.MuiSelect-iconFilled</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the icon component if variant="filled".
-        <text>Styles applied to the icon component if</text>
+        Styles applied to the Input component icon class.
+        <text>Styles applied to the</text>
         <code>$SOME_CODE</code>
-        <text>.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        iconOutlined
-        <text>iconOutlined</text>
-      </gridcell>
-      <gridcell>
-        .MuiSelect-iconOutlined
-        <text>.MuiSelect-iconOutlined</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the icon component if variant="outlined".
-        <text>Styles applied to the icon component if</text>
+        <text>component</text>
         <code>$SOME_CODE</code>
-        <text>.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        nativeInput
-        <text>nativeInput</text>
-      </gridcell>
-      <gridcell>
-        .MuiSelect-nativeInput
-        <text>.MuiSelect-nativeInput</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the underlying native input component.
-        <text>Styles applied to the underlying native input component.</text>
+        <text>class.</text>
       </gridcell>
     </row>
   </table>
   <paragraph>
-    <text>
-      You can override the style of the component thanks to one of these
-      customization points:
-    </text>
-  </paragraph>
-  <list>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>With a rule name of the</text>
-      <link>
-        classes object prop
-        <code>$SOME_CODE</code>
-      </link>
-      <text>.</text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>With a</text>
-      <link>global class name</link>
-      <text>.</text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
-      <text>With a theme and an</text>
-      <link>
-        overrides property
-        <code>$SOME_CODE</code>
-      </link>
-      <text>.</text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>If that's not sufficient, you can check the</text>
+    <text>Have a look at</text>
+    <link>overriding with classes</link>
+    <text>section and the</text>
     <link>implementation of the component</link>
     <text>for more detail.</text>
+  </paragraph>
+  <paragraph>
+    <text>If using the</text>
+    <code>$SOME_CODE</code>
+    <link>key of the theme</link>
+    <text>, you need to use the following style sheet name:</text>
+    <code>$SOME_CODE</code>
+    <text>.</text>
   </paragraph>
   <heading level="2">
     Inheritance
@@ -2265,7 +1713,7 @@ exports[`chromium /api/select/ 1`] = `
     <text>Inheritance</text>
   </heading>
   <paragraph>
-    <text>The props of the</text>
+    <text>The properties of the</text>
     <link>Input</link>
     <text>
       component are also available. You can take advantage of this behavior to
@@ -2286,49 +1734,6 @@ exports[`chromium /api/select/ 1`] = `
       <link>Selects</link>
     </listitem>
   </list>
-  <FooterAsNonLandmark>
-    <separator orientation="horizontal"></separator>
-    <link>
-      ScopedCssBaseline
-      <SVGRoot></SVGRoot>
-      <text>ScopedCssBaseline</text>
-    </link>
-    <group>
-      give page feedback
-      <heading level="6">
-        Was this page helpful?
-        <text>Was this page helpful?</text>
-      </heading>
-      <button pressed="false">Yes</button>
-      <button pressed="false">No</button>
-    </group>
-    <link>
-      Skeleton
-      <text>Skeleton</text>
-      <SVGRoot></SVGRoot>
-    </link>
-    <heading level="6">
-      Thanks for your feedback!
-      <text>Thanks for your feedback!</text>
-    </heading>
-    <paragraph>
-      Please let us know what we could do to improve this page.
-      <text>Please let us know what we could do to improve this page.</text>
-    </paragraph>
-    <textbox multiline="true"></textbox>
-    <group>
-      <Legend>
-        <text>​</text>
-      </Legend>
-    </group>
-    <button>
-      <text>CANCEL</text>
-    </button>
-    <button>
-      <text>SUBMIT</text>
-    </button>
-  </FooterAsNonLandmark>
-  <textbox></textbox>
 </main>;
 
 `;
@@ -18799,213 +18204,222 @@ exports[`chromium /components/tree-view/ 1`] = `
 
 exports[`firefox / 1`] = `
 <document>
-  Material-UI: A popular React UI framework
-  <link>Skip to content</link>
+  The world's most popular React UI framework - Material-UI
   <landmark>
-    <button>Open main navigation</button>
+    <link>Aww yeah, Material-UI v4 is here!</link>
+    <button>Open drawer</button>
     <combobox autocomplete="list" haspopup="true">
-      Search
+      search input
     </combobox>
-    <buttonmenu haspopup="true">
-      Change language
-      <text>ENGLISH</text>
-    </buttonmenu>
-    <buttonmenu haspopup="true">Toggle notifications panel</buttonmenu>
-    <link>Edit website colors</link>
-    <link>GitHub repository</link>
+    <buttonmenu haspopup="true">Change language</buttonmenu>
+    <button>Edit docs colors</button>
     <button>Toggle light/dark theme</button>
     <button>Toggle right-to-left/left-to-right</button>
+    <button>GitHub repository</button>
   </landmark>
-  <landmark>Main navigation</landmark>
-  <landmark>
-    <img></img>
-    <heading level="1">
-      MATERIAL-UI
-      <text>MATERIAL-UI</text>
-    </heading>
+  <landmark></landmark>
+  <link>
+    Get Professionally Supported Material-UI
     <paragraph>
-      <text>
-        React components for faster and simpler web development. Build your own
-        design system, or start with Material Design.
+      <text value="https://tidelift.com/subscription/pkg/npm-material-ui/?utm_source=material_ui&utm_medium=referral&utm_campaign=homepage">
+        Get Professionally Supported Material-UI
       </text>
     </paragraph>
-    <link>GET STARTED</link>
-    <link>Star</link>
-    <link>Follow</link>
-    <link>Get Professional Support</link>
-    <text>random sponsor</text>
-    <link>a random quick word</link>
-    <heading level="2">
-      Installation
-      <text>Installation</text>
-    </heading>
+  </link>
+  <img>Material-UI Logo</img>
+  <heading level="1">
+    MATERIAL-UI
+    <text>MATERIAL-UI</text>
+  </heading>
+  <heading level="2">
+    React components that implement Google's Material Design.
+    <text>React components that implement Google's Material Design.</text>
+  </heading>
+  <button>
+    GET STARTED
+    <text>GET STARTED</text>
+  </button>
+  <link>Star mui-org/material-ui on GitHub</link>
+  <link>Follow</link>
+  <heading level="6">
+    Installation
+    <text>Installation</text>
+  </heading>
+  <heading level="6">
+    Install Material-UI's source files via npm. We take care of injecting
+    the CSS needed.
     <text>
       Install Material-UI's source files via npm. We take care of injecting
-      the CSS needed.$ npm install @material-ui/core@next @emotion/core
-      @emotion/styled
+      the CSS needed.
     </text>
-    <link>or use a CDN.</link>
-    <text>
-      Load the default Roboto font.<link rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-      />
-    </text>
-    <separator></separator>
-    <link>READ INSTALLATION DOCS</link>
-    <heading level="2">
-      Usage
-      <text>Usage</text>
-    </heading>
-    <text>
-      Material-UI components work without any additional setup, and don't
-      pollute the global scope.import * as React from 'react'; import
-      { Button } from '@material-ui/core'; function App()
-      { return <Button>Hello World</Button>; }
-    </text>
-    <separator></separator>
-    <link>EXPLORE THE DOCS</link>
-    <heading level="2">
-      Premium themes
-      <text>Premium themes</text>
-    </heading>
-    <paragraph>
-      <text>
-        Take your project to the next level with premium themes from our store –
-        all built on Material-UI.
-      </text>
-    </paragraph>
-    <link>
-      Browse themes
-      <img value="https://material-ui.com/store/?utm_source=docs&utm_medium=referral&utm_campaign=home-store">
-        Browse themes
-      </img>
-    </link>
-    <link>BROWSE THEMES</link>
-    <separator></separator>
-    <heading level="2">
-      Material-UI's sponsors
-      <link></link>
-      <text>Material-UI's sponsors</text>
-    </heading>
-    <paragraph>
-      <text>
-        The continued development and maintenance of Material-UI is made
-        possible by these generous sponsors:
-      </text>
-    </paragraph>
-    <heading level="3">
-      Diamond 💎
-      <link></link>
-      <text>Diamond 💎</text>
-    </heading>
-    <link>
-      octopus
-      <img
-        description="Repeatable, reliable deployments"
-        value="https://octopus.com/?utm_source=materialui&utm_medium=referral"
-      >
-        octopus
-      </img>
-    </link>
-    <link>
-      doit-intl
-      <img
-        description="Management Platform for Google Cloud and AWS"
-        value="https://www.doit-intl.com/?utm_source=materialui&utm_medium=referral"
-      >
-        doit-intl
-      </img>
-    </link>
-    <paragraph>
-      <text>1/3 slots available</text>
-    </paragraph>
-    <heading level="3">
-      Gold 🏆
-      <link></link>
-      <text>Gold 🏆</text>
-    </heading>
-    <link>
-      tidelift
-      <img
-        description="Enterprise-ready open source software"
-        value="https://tidelift.com/subscription/pkg/npm-material-ui?utm_source=npm-material-ui&utm_medium=referral&utm_campaign=homepage"
-      >
-        tidelift
-      </img>
-    </link>
-    <link>
-      bitsrc
-      <img description="The fastest way to share code" value="https://bit.dev/">
-        bitsrc
-      </img>
-    </link>
-    <link>
-      call-em-all
-      <img
-        description="Mass Text Messaging & Automated Calling"
-        value="https://www.text-em-all.com/"
-      >
-        call-em-all
-      </img>
-    </link>
-    <link>
-      bitsrc
-      <img value="https://www.canadacasino.ca/">bitsrc</img>
-    </link>
-    <heading level="3">
-      There are more!
-      <link></link>
-      <text>There are more!</text>
-    </heading>
-    <paragraph>
-      <text>See the full list of</text>
-      <link>our sponsors</link>
-      <text>
-        , and learn how you can contribute to the future of Material-UI.
-      </text>
-    </paragraph>
-    <separator></separator>
-    <heading level="2">
-      Praise for Material-UI
-      <text>Praise for Material-UI</text>
-    </heading>
-    <paragraph>
-      <text>Here's what some of our users are saying.</text>
-    </paragraph>
-    <link>a random quote about Material-UI</link>
-    <link>a random quote about Material-UI</link>
-    <link>a random quote about Material-UI</link>
-    <separator></separator>
-    <heading level="2">
-      Who's using Material-UI?
-      <text>Who's using Material-UI?</text>
-    </heading>
-    <paragraph>
-      <text>Join these and other great organisations!</text>
-    </paragraph>
-    <img>NASA</img>
-    <img>Walmart Labs</img>
-    <img>Capgemini</img>
-    <img>Uniqlo</img>
-    <img>Bethesda</img>
-    <img>J.P. Morgan</img>
-    <img>Shutterstock</img>
-    <img>Netflix</img>
-    <img>Coursera</img>
-    <img>Amazon</img>
-    <img>Unity</img>
-    <paragraph>
-      <text>Are you using Material-UI?</text>
-    </paragraph>
-    <link>LET US KNOW!</link>
-  </landmark>
+  </heading>
+  <text>$ npm install @material-ui/core</text>
+  <heading level="6">
+    or use a CDN.
+    <text>or use a CDN.</text>
+  </heading>
+  <text>
+    <script
+    src="https://unpkg.com/@material-ui/core/umd/material-ui.production.min.js"
+    crossorigin="anonymous"></script>
+  </text>
+  <heading level="6">
+    Load the default Roboto font.
+    <text>Load the default Roboto font.</text>
+  </heading>
+  <text>
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+  </text>
   <separator></separator>
+  <button>
+    READ INSTALLATION DOCS
+    <text>READ INSTALLATION DOCS</text>
+  </button>
+  <heading level="6">
+    Usage
+    <text>Usage</text>
+  </heading>
+  <heading level="6">
+    Material-UI components work in isolation. They are self-supporting.
+    <text>
+      Material-UI components work in isolation. They are self-supporting.
+    </text>
+  </heading>
+  <text>
+    import React from 'react'; import Button from
+    '@material-ui/core/Button'; const App = () => ( <Button
+    variant="contained" color="primary"> Hello World
+    </Button> );
+  </text>
+  <separator></separator>
+  <button>
+    EXPLORE THE DOCS
+    <text>EXPLORE THE DOCS</text>
+  </button>
+  <heading level="6">
+    Premium Themes
+    <text>Premium Themes</text>
+  </heading>
+  <heading level="6">
+    Take Material-UI to the next level with premium themes from our official
+    marketplace—all built on Material-UI.
+    <text>
+      Take Material-UI to the next level with premium themes from our official
+      marketplace—all built on Material-UI.
+    </text>
+  </heading>
+  <link>
+    themes
+    <img value="https://deploy-preview-23339--material-ui.netlify.app/premium-themes/">
+      themes
+    </img>
+  </link>
+  <separator></separator>
+  <button>
+    BROWSE THEMES
+    <text>BROWSE THEMES</text>
+  </button>
+  <heading level="2">
+    Supporting Material-UI
+    <link></link>
+    <text>Supporting Material-UI</text>
+  </heading>
+  <paragraph>
+    <text>
+      Material-UI is an MIT-licensed open source project. It's an
+      independent project with ongoing development made possible entirely thanks
+      to the support of these awesome
+    </text>
+    <link>backers</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="3">
+    Gold Sponsors
+    <link></link>
+    <text>Gold Sponsors</text>
+  </heading>
+  <paragraph>
+    <text>
+      Gold Sponsors are those who have pledged $500/month and more to
+      Material-UI.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>via</text>
+    <link>Patreon</link>
+  </paragraph>
+  <link>
+    creative-tim
+    <img
+      description="Premium Themes"
+      value="https://www.creative-tim.com/?utm_source=material-ui&utm_medium=docs&utm_campaign=homepage"
+    >
+      creative-tim
+    </img>
+  </link>
+  <link>
+    bitsrc
+    <img description="The fastest way to share code" value="https://bitsrc.io/">
+      bitsrc
+    </img>
+  </link>
+  <link>blokt</link>
+  <paragraph>
+    <text>via</text>
+    <link>OpenCollective</link>
+  </paragraph>
+  <link>
+    callemall
+    <img
+      description="The easy way to message your group"
+      value="https://www.call-em-all.com/"
+    >
+      callemall
+    </img>
+  </link>
+  <link>
+    localize
+    <img
+      description="Application translation & localization platform"
+      value="https://localizejs.com/"
+    >
+      localize
+    </img>
+  </link>
+  <heading level="3">
+    There are more!
+    <link></link>
+    <text>There are more!</text>
+  </heading>
+  <paragraph>
+    <text>See the full list of</text>
+    <link>our backers</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="4">
+    Who's using Material-UI?
+    <text>Who's using Material-UI?</text>
+  </heading>
+  <paragraph>
+    <text>Join these and many other great organisations!</text>
+  </paragraph>
+  <img>NASA</img>
+  <img>Walmart Labs</img>
+  <img>Capgemini</img>
+  <img>Uniqlo</img>
+  <img>Bethesda</img>
+  <paragraph>
+    <text>Are you using Material-UI?</text>
+  </paragraph>
+  <button>
+    LET US KNOW!
+    <text>LET US KNOW!</text>
+  </button>
   <landmark>
-    <img></img>
-    <link>Material-UI</link>
-    <heading level="2">
-      Community
-      <text>Community</text>
+    <heading level="6">
+      Quick Links
+      <text>Quick Links</text>
     </heading>
     <list>
       <listitem>
@@ -19017,56 +18431,28 @@ exports[`firefox / 1`] = `
         <link>Twitter</link>
       </listitem>
       <listitem>
-        StackOverflow
-        <link>StackOverflow</link>
+        Examples
+        <link>Examples</link>
+      </listitem>
+    </list>
+    <list>
+      <listitem>
+        Icons
+        <link>Icons</link>
+      </listitem>
+      <listitem>
+        Color
+        <link>Color</link>
       </listitem>
       <listitem>
         Team
         <link>Team</link>
       </listitem>
     </list>
-    <heading level="2">
-      Resources
-      <text>Resources</text>
-    </heading>
-    <list>
-      <listitem>
-        Support
-        <link>Support</link>
-      </listitem>
-      <listitem>
-        Blog
-        <link>Blog</link>
-      </listitem>
-      <listitem>
-        Material Icons
-        <link>Material Icons</link>
-      </listitem>
-    </list>
-    <heading level="2">
-      Company
-      <text>Company</text>
-    </heading>
-    <list>
-      <listitem>
-        About
-        <link>About</link>
-      </listitem>
-      <listitem>
-        Contact Us
-        <link>Contact Us</link>
-      </listitem>
-      <listitem>
-        Jobs
-        <link>Jobs</link>
-      </listitem>
-    </list>
     <paragraph>
-      <text>Currently</text>
-      <link>v5.0.0-alpha.14. View versions page.</link>
-      <text>. Released under the</text>
+      <text>Currently v3.9.4. Released under the</text>
       <link>MIT License</link>
-      <text>. Copyright © 2020 Material-UI.</text>
+      <text>.</text>
     </paragraph>
   </landmark>
 </document>;
@@ -19075,43 +18461,22 @@ exports[`firefox / 1`] = `
 
 exports[`firefox /api/button/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <button>
+    EDIT THIS PAGE
+    <text>EDIT THIS PAGE</text>
+  </button>
   <heading level="1">
     Button API
+    <link></link>
     <text>Button API</text>
   </heading>
   <paragraph>
     <text>
       The API documentation of the Button React component. Learn more about the
-      props and the CSS customization points.
+      properties and the CSS customization points.
     </text>
   </paragraph>
-  <heading level="2">
-    Import
-    <link></link>
-    <text>Import</text>
-  </heading>
-  <text>
-    import Button from '@material-ui/core/Button'; // or import {
-    Button } from '@material-ui/core';
-  </text>
-  <paragraph>
-    <text>You can learn more about the difference by</text>
-    <link>reading this guide</link>
-    <text>.</text>
-  </paragraph>
-  <heading level="2">
-    Component name
-    <link></link>
-    <text>Component name</text>
-  </heading>
-  <paragraph>
-    <text>The MuiButton name can be used for providing</text>
-    <link>default props</link>
-    <text>or</text>
-    <link>style overrides</link>
-    <text>at the theme level.</text>
-  </paragraph>
+  <text>import Button from '@material-ui/core/Button';</text>
   <heading level="2">
     Props
     <link></link>
@@ -19134,7 +18499,7 @@ exports[`firefox /api/button/ 1`] = `
     </row>
     <row>
       <cell>
-        <text>children</text>
+        <text>children *</text>
       </cell>
       <cell>
         <text>node</text>
@@ -19163,14 +18528,17 @@ exports[`firefox /api/button/ 1`] = `
         <text>color</text>
       </cell>
       <cell>
-        <text>'inherit'</text>
+        <text>enum: 'default' |</text>
         <whitespace></whitespace>
-        <text>| 'primary'</text>
+        <text> 'inherit' |</text>
         <whitespace></whitespace>
-        <text>| 'secondary'</text>
+        <text> 'primary' |</text>
+        <whitespace></whitespace>
+        <text> 'secondary'</text>
+        <whitespace></whitespace>
       </cell>
       <cell>
-        <text>'primary'</text>
+        <text>'default'</text>
       </cell>
       <cell>
         <text>
@@ -19184,14 +18552,14 @@ exports[`firefox /api/button/ 1`] = `
         <text>component</text>
       </cell>
       <cell>
-        <text>elementType</text>
+        <text>Component</text>
       </cell>
       <cell>
         <text>'button'</text>
       </cell>
       <cell>
         <text>
-          The component used for the root node. Either a string to use a HTML
+          The component used for the root node. Either a string to use a DOM
           element or a component.
         </text>
       </cell>
@@ -19207,21 +18575,7 @@ exports[`firefox /api/button/ 1`] = `
         <text>false</text>
       </cell>
       <cell>
-        <text>If true, the button is disabled.</text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>disableElevation</text>
-      </cell>
-      <cell>
-        <text>bool</text>
-      </cell>
-      <cell>
-        <text>false</text>
-      </cell>
-      <cell>
-        <text>If true, no elevation is used.</text>
+        <text>If true, the button will be disabled.</text>
       </cell>
     </row>
     <row>
@@ -19235,7 +18589,10 @@ exports[`firefox /api/button/ 1`] = `
         <text>false</text>
       </cell>
       <cell>
-        <text>If true, the keyboard focus ripple is disabled.</text>
+        <text>
+          If true, the keyboard focus ripple will be disabled. disableRipple
+          must also be true.
+        </text>
       </cell>
     </row>
     <row>
@@ -19247,25 +18604,7 @@ exports[`firefox /api/button/ 1`] = `
       </cell>
       <cell></cell>
       <cell>
-        <text>If true, the ripple effect is disabled.</text>
-        <whitespace></whitespace>
-        <text>
-          ⚠️ Without a ripple there is no styling for :focus-visible by default.
-          Be sure to highlight the element by applying separate styles with the
-          focusVisibleClassName.
-        </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>endIcon</text>
-      </cell>
-      <cell>
-        <text>node</text>
-      </cell>
-      <cell></cell>
-      <cell>
-        <text>Element placed after the children.</text>
+        <text>If true, the ripple effect will be disabled.</text>
       </cell>
     </row>
     <row>
@@ -19301,14 +18640,32 @@ exports[`firefox /api/button/ 1`] = `
     </row>
     <row>
       <cell>
+        <text>mini</text>
+      </cell>
+      <cell>
+        <text>bool</text>
+      </cell>
+      <cell>
+        <text>false</text>
+      </cell>
+      <cell>
+        <text>
+          If true, and variant is 'fab', will use mini floating action
+          button styling.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
         <text>size</text>
       </cell>
       <cell>
-        <text>'large'</text>
+        <text>enum: 'small' |</text>
         <whitespace></whitespace>
-        <text>| 'medium'</text>
+        <text> 'medium' |</text>
         <whitespace></whitespace>
-        <text>| 'small'</text>
+        <text> 'large'</text>
+        <whitespace></whitespace>
       </cell>
       <cell>
         <text>'medium'</text>
@@ -19322,42 +18679,33 @@ exports[`firefox /api/button/ 1`] = `
     </row>
     <row>
       <cell>
-        <text>startIcon</text>
-      </cell>
-      <cell>
-        <text>node</text>
-      </cell>
-      <cell></cell>
-      <cell>
-        <text>Element placed before the children.</text>
-      </cell>
-    </row>
-    <row>
-      <cell>
         <text>variant</text>
       </cell>
       <cell>
-        <text>'contained'</text>
+        <text>
+          enum: 'text', 'outlined', 'contained',
+          'fab', 'extendedFab', 'flat',
+          'raised'
+        </text>
         <whitespace></whitespace>
-        <text>| 'outlined'</text>
-        <whitespace></whitespace>
-        <text>| 'text'</text>
-        <whitespace></whitespace>
-        <text>| string</text>
       </cell>
       <cell>
         <text>'text'</text>
       </cell>
       <cell>
-        <text>The variant to use.</text>
+        <text>
+          The variant to use. WARNING: flat and raised are deprecated. Instead
+          use text and contained respectively. fab and extendedFab are
+          deprecated. Instead use <Fab> and <Fab
+          variant="extended">
+        </text>
       </cell>
     </row>
   </table>
   <paragraph>
-    <text>The ref is forwarded to the root element.</text>
-  </paragraph>
-  <paragraph>
-    <text>Any other props supplied will be provided to the root element (</text>
+    <text>
+      Any other properties supplied will be spread to the root element (
+    </text>
     <link>ButtonBase</link>
     <text>).</text>
   </paragraph>
@@ -19366,13 +18714,16 @@ exports[`firefox /api/button/ 1`] = `
     <link></link>
     <text>CSS</text>
   </heading>
+  <paragraph>
+    <text>
+      You can override all the class names injected by Material-UI thanks to the
+      classes property. This property accepts the following keys:
+    </text>
+  </paragraph>
   <table>
     <row>
       <cell>
-        <text>Rule name</text>
-      </cell>
-      <cell>
-        <text>Global class</text>
+        <text>Name</text>
       </cell>
       <cell>
         <text>Description</text>
@@ -19383,18 +18734,12 @@ exports[`firefox /api/button/ 1`] = `
         <text>root</text>
       </cell>
       <cell>
-        <text>.MuiButton-root</text>
-      </cell>
-      <cell>
         <text>Styles applied to the root element.</text>
       </cell>
     </row>
     <row>
       <cell>
         <text>label</text>
-      </cell>
-      <cell>
-        <text>.MuiButton-label</text>
       </cell>
       <cell>
         <text>Styles applied to the span element that wraps the children.</text>
@@ -19405,9 +18750,6 @@ exports[`firefox /api/button/ 1`] = `
         <text>text</text>
       </cell>
       <cell>
-        <text>.MuiButton-text</text>
-      </cell>
-      <cell>
         <text>
           Styles applied to the root element if variant="text".
         </text>
@@ -19416,9 +18758,6 @@ exports[`firefox /api/button/ 1`] = `
     <row>
       <cell>
         <text>textPrimary</text>
-      </cell>
-      <cell>
-        <text>.MuiButton-textPrimary</text>
       </cell>
       <cell>
         <text>
@@ -19432,9 +18771,6 @@ exports[`firefox /api/button/ 1`] = `
         <text>textSecondary</text>
       </cell>
       <cell>
-        <text>.MuiButton-textSecondary</text>
-      </cell>
-      <cell>
         <text>
           Styles applied to the root element if variant="text" and
           color="secondary".
@@ -19443,10 +18779,40 @@ exports[`firefox /api/button/ 1`] = `
     </row>
     <row>
       <cell>
-        <text>outlined</text>
+        <text>flat</text>
       </cell>
       <cell>
-        <text>.MuiButton-outlined</text>
+        <text>
+          Styles applied to the root element for backwards compatibility with
+          legacy variant naming.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>flatPrimary</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element for backwards compatibility with
+          legacy variant naming.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>flatSecondary</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element for backwards compatibility with
+          legacy variant naming.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>outlined</text>
       </cell>
       <cell>
         <text>
@@ -19457,9 +18823,6 @@ exports[`firefox /api/button/ 1`] = `
     <row>
       <cell>
         <text>outlinedPrimary</text>
-      </cell>
-      <cell>
-        <text>.MuiButton-outlinedPrimary</text>
       </cell>
       <cell>
         <text>
@@ -19473,9 +18836,6 @@ exports[`firefox /api/button/ 1`] = `
         <text>outlinedSecondary</text>
       </cell>
       <cell>
-        <text>.MuiButton-outlinedSecondary</text>
-      </cell>
-      <cell>
         <text>
           Styles applied to the root element if variant="outlined" and
           color="secondary".
@@ -19487,11 +18847,9 @@ exports[`firefox /api/button/ 1`] = `
         <text>contained</text>
       </cell>
       <cell>
-        <text>.MuiButton-contained</text>
-      </cell>
-      <cell>
         <text>
-          Styles applied to the root element if variant="contained".
+          Styles applied to the root element if variant="[contained |
+          fab]".
         </text>
       </cell>
     </row>
@@ -19500,12 +18858,9 @@ exports[`firefox /api/button/ 1`] = `
         <text>containedPrimary</text>
       </cell>
       <cell>
-        <text>.MuiButton-containedPrimary</text>
-      </cell>
-      <cell>
         <text>
-          Styles applied to the root element if variant="contained"
-          and color="primary".
+          Styles applied to the root element if variant="[contained |
+          fab]" and color="primary".
         </text>
       </cell>
     </row>
@@ -19514,26 +18869,63 @@ exports[`firefox /api/button/ 1`] = `
         <text>containedSecondary</text>
       </cell>
       <cell>
-        <text>.MuiButton-containedSecondary</text>
-      </cell>
-      <cell>
         <text>
-          Styles applied to the root element if variant="contained"
-          and color="secondary".
+          Styles applied to the root element if variant="[contained |
+          fab]" and color="secondary".
         </text>
       </cell>
     </row>
     <row>
       <cell>
-        <text>disableElevation</text>
-      </cell>
-      <cell>
-        <text>.MuiButton-disableElevation</text>
+        <text>raised</text>
       </cell>
       <cell>
         <text>
-          Styles applied to the root element if
-          disableElevation={true}.
+          Styles applied to the root element for backwards compatibility with
+          legacy variant naming.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>raisedPrimary</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element for backwards compatibility with
+          legacy variant naming.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>raisedSecondary</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element for backwards compatibility with
+          legacy variant naming.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>fab</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="[fab |
+          extendedFab]".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>extendedFab</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="extendedFab".
         </text>
       </cell>
     </row>
@@ -19542,11 +18934,8 @@ exports[`firefox /api/button/ 1`] = `
         <text>focusVisible</text>
       </cell>
       <cell>
-        <text>.Mui-focusVisible</text>
-      </cell>
-      <cell>
         <text>
-          Pseudo-class applied to the ButtonBase root element if the button is
+          Styles applied to the ButtonBase root element if the button is
           keyboard focused.
         </text>
       </cell>
@@ -19556,20 +18945,14 @@ exports[`firefox /api/button/ 1`] = `
         <text>disabled</text>
       </cell>
       <cell>
-        <text>.Mui-disabled</text>
-      </cell>
-      <cell>
         <text>
-          Pseudo-class applied to the root element if disabled={true}.
+          Styles applied to the root element if disabled={true}.
         </text>
       </cell>
     </row>
     <row>
       <cell>
         <text>colorInherit</text>
-      </cell>
-      <cell>
-        <text>.MuiButton-colorInherit</text>
       </cell>
       <cell>
         <text>
@@ -19579,94 +18962,18 @@ exports[`firefox /api/button/ 1`] = `
     </row>
     <row>
       <cell>
-        <text>textSizeSmall</text>
-      </cell>
-      <cell>
-        <text>.MuiButton-textSizeSmall</text>
+        <text>mini</text>
       </cell>
       <cell>
         <text>
-          Styles applied to the root element if size="small" and
-          variant="text".
-        </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>textSizeLarge</text>
-      </cell>
-      <cell>
-        <text>.MuiButton-textSizeLarge</text>
-      </cell>
-      <cell>
-        <text>
-          Styles applied to the root element if size="large" and
-          variant="text".
-        </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>outlinedSizeSmall</text>
-      </cell>
-      <cell>
-        <text>.MuiButton-outlinedSizeSmall</text>
-      </cell>
-      <cell>
-        <text>
-          Styles applied to the root element if size="small" and
-          variant="outlined".
-        </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>outlinedSizeLarge</text>
-      </cell>
-      <cell>
-        <text>.MuiButton-outlinedSizeLarge</text>
-      </cell>
-      <cell>
-        <text>
-          Styles applied to the root element if size="large" and
-          variant="outlined".
-        </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>containedSizeSmall</text>
-      </cell>
-      <cell>
-        <text>.MuiButton-containedSizeSmall</text>
-      </cell>
-      <cell>
-        <text>
-          Styles applied to the root element if size="small" and
-          variant="contained".
-        </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>containedSizeLarge</text>
-      </cell>
-      <cell>
-        <text>.MuiButton-containedSizeLarge</text>
-      </cell>
-      <cell>
-        <text>
-          Styles applied to the root element if size="large" and
-          variant="contained".
+          Styles applied to the root element if mini={true} &
+          variant="[fab | extendedFab]".
         </text>
       </cell>
     </row>
     <row>
       <cell>
         <text>sizeSmall</text>
-      </cell>
-      <cell>
-        <text>.MuiButton-sizeSmall</text>
       </cell>
       <cell>
         <text>
@@ -19679,9 +18986,6 @@ exports[`firefox /api/button/ 1`] = `
         <text>sizeLarge</text>
       </cell>
       <cell>
-        <text>.MuiButton-sizeLarge</text>
-      </cell>
-      <cell>
         <text>
           Styles applied to the root element if size="large".
         </text>
@@ -19692,109 +18996,23 @@ exports[`firefox /api/button/ 1`] = `
         <text>fullWidth</text>
       </cell>
       <cell>
-        <text>.MuiButton-fullWidth</text>
-      </cell>
-      <cell>
         <text>
           Styles applied to the root element if fullWidth={true}.
         </text>
       </cell>
     </row>
-    <row>
-      <cell>
-        <text>startIcon</text>
-      </cell>
-      <cell>
-        <text>.MuiButton-startIcon</text>
-      </cell>
-      <cell>
-        <text>Styles applied to the startIcon element if supplied.</text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>endIcon</text>
-      </cell>
-      <cell>
-        <text>.MuiButton-endIcon</text>
-      </cell>
-      <cell>
-        <text>Styles applied to the endIcon element if supplied.</text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>iconSizeSmall</text>
-      </cell>
-      <cell>
-        <text>.MuiButton-iconSizeSmall</text>
-      </cell>
-      <cell>
-        <text>
-          Styles applied to the icon element if supplied and
-          size="small".
-        </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>iconSizeMedium</text>
-      </cell>
-      <cell>
-        <text>.MuiButton-iconSizeMedium</text>
-      </cell>
-      <cell>
-        <text>
-          Styles applied to the icon element if supplied and
-          size="medium".
-        </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>iconSizeLarge</text>
-      </cell>
-      <cell>
-        <text>.MuiButton-iconSizeLarge</text>
-      </cell>
-      <cell>
-        <text>
-          Styles applied to the icon element if supplied and
-          size="large".
-        </text>
-      </cell>
-    </row>
   </table>
   <paragraph>
-    <text>
-      You can override the style of the component thanks to one of these
-      customization points:
-    </text>
-  </paragraph>
-  <list>
-    <listitem>
-      • With a rule name of the classes object prop .<statictext>•</statictext>
-      <text>With a rule name of the</text>
-      <link>classes object prop</link>
-      <text>.</text>
-    </listitem>
-    <listitem>
-      • With a global class name .<statictext>•</statictext>
-      <text>With a</text>
-      <link>global class name</link>
-      <text>.</text>
-    </listitem>
-    <listitem>
-      • With a theme and an overrides property .<statictext>•</statictext>
-      <text>With a theme and an</text>
-      <link>overrides property</link>
-      <text>.</text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>If that's not sufficient, you can check the</text>
+    <text>Have a look at</text>
+    <link>overriding with classes</link>
+    <text>section and the</text>
     <link>implementation of the component</link>
     <text>for more detail.</text>
+  </paragraph>
+  <paragraph>
+    <text>If using the overrides</text>
+    <link>key of the theme</link>
+    <text>, you need to use the following style sheet name: MuiButton.</text>
   </paragraph>
   <heading level="2">
     Inheritance
@@ -19802,7 +19020,7 @@ exports[`firefox /api/button/ 1`] = `
     <text>Inheritance</text>
   </heading>
   <paragraph>
-    <text>The props of the</text>
+    <text>The properties of the</text>
     <link>ButtonBase</link>
     <text>
       component are also available. You can take advantage of this behavior to
@@ -19817,72 +19035,33 @@ exports[`firefox /api/button/ 1`] = `
   </heading>
   <list>
     <listitem>
-      • Button Group
-      <statictext>•</statictext>
-      <link>Button Group</link>
-    </listitem>
-    <listitem>
       • Buttons
       <statictext>•</statictext>
       <link>Buttons</link>
     </listitem>
   </list>
-  <separator></separator>
-  <link>Breadcrumbs</link>
-  <group>
-    give page feedback
-    <heading level="6">
-      Was this page helpful?
-      <text>Was this page helpful?</text>
-    </heading>
-    <togglebutton>Yes</togglebutton>
-    <togglebutton>No</togglebutton>
-  </group>
-  <link>ButtonBase</link>
-  <textbox></textbox>
 </landmark>;
 
 `;
 
 exports[`firefox /api/select/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <button>
+    EDIT THIS PAGE
+    <text>EDIT THIS PAGE</text>
+  </button>
   <heading level="1">
     Select API
+    <link></link>
     <text>Select API</text>
   </heading>
   <paragraph>
     <text>
       The API documentation of the Select React component. Learn more about the
-      props and the CSS customization points.
+      properties and the CSS customization points.
     </text>
   </paragraph>
-  <heading level="2">
-    Import
-    <link></link>
-    <text>Import</text>
-  </heading>
-  <text>
-    import Select from '@material-ui/core/Select'; // or import {
-    Select } from '@material-ui/core';
-  </text>
-  <paragraph>
-    <text>You can learn more about the difference by</text>
-    <link>reading this guide</link>
-    <text>.</text>
-  </paragraph>
-  <heading level="2">
-    Component name
-    <link></link>
-    <text>Component name</text>
-  </heading>
-  <paragraph>
-    <text>The MuiSelect name can be used for providing</text>
-    <link>default props</link>
-    <text>or</text>
-    <link>style overrides</link>
-    <text>at the theme level.</text>
-  </paragraph>
+  <text>import Select from '@material-ui/core/Select';</text>
   <heading level="2">
     Props
     <link></link>
@@ -19934,11 +19113,6 @@ exports[`firefox /api/select/ 1`] = `
           The option elements to populate the select with. Can be some MenuItem
           when native is false and option when native is true.
         </text>
-        <whitespace></whitespace>
-        <text>
-          ⚠️The MenuItem elements must be direct descendants when native is
-          false.
-        </text>
       </cell>
     </row>
     <row>
@@ -19957,20 +19131,6 @@ exports[`firefox /api/select/ 1`] = `
     </row>
     <row>
       <cell>
-        <text>defaultValue</text>
-      </cell>
-      <cell>
-        <text>any</text>
-      </cell>
-      <cell></cell>
-      <cell>
-        <text>
-          The default element value. Use when the component is not controlled.
-        </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
         <text>displayEmpty</text>
       </cell>
       <cell>
@@ -19981,19 +19141,8 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell>
         <text>
-          If true, a value is displayed even if no items are selected.
-        </text>
-        <whitespace></whitespace>
-        <text>
-          In order to display a meaningful value, a function can be passed to
-          the renderValue prop which returns the value to be displayed when no
-          items are selected.
-        </text>
-        <whitespace></whitespace>
-        <text>
-          ⚠️ When using this prop, make sure the label doesn't overlap with
-          the empty displayed value. The label should either be hidden or forced
-          to a shrunk state.
+          If true, the selected item is displayed even if its value is empty.
+          You can only use it when the native property is false (default).
         </text>
       </cell>
     </row>
@@ -20002,7 +19151,7 @@ exports[`firefox /api/select/ 1`] = `
         <text>IconComponent</text>
       </cell>
       <cell>
-        <text>elementType</text>
+        <text>Component</text>
       </cell>
       <cell>
         <text>ArrowDropDownIcon</text>
@@ -20013,26 +19162,14 @@ exports[`firefox /api/select/ 1`] = `
     </row>
     <row>
       <cell>
-        <text>id</text>
-      </cell>
-      <cell>
-        <text>string</text>
-      </cell>
-      <cell></cell>
-      <cell>
-        <text>
-          The id of the wrapper element or the select element when native.
-        </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
         <text>input</text>
       </cell>
       <cell>
         <text>element</text>
       </cell>
-      <cell></cell>
+      <cell>
+        <text><Input /></text>
+      </cell>
       <cell>
         <text>
           An Input element; does not have to be a material-ui specific Input.
@@ -20048,54 +19185,10 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell></cell>
       <cell>
-        <link>Attributes</link>
         <text>
-          applied to the input element. When native is true, the attributes are
-          applied on the select element.
+          Attributes applied to the input element. When native is true, the
+          attributes are applied on the select element.
         </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>label</text>
-      </cell>
-      <cell>
-        <text>node</text>
-      </cell>
-      <cell></cell>
-      <cell>
-        <text>See</text>
-        <link>OutlinedInput#label</link>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>labelId</text>
-      </cell>
-      <cell>
-        <text>string</text>
-      </cell>
-      <cell></cell>
-      <cell>
-        <text>
-          The ID of an element that acts as an additional label. The Select will
-          be labelled by the additional label and the selected value.
-        </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>labelWidth</text>
-      </cell>
-      <cell>
-        <text>number</text>
-      </cell>
-      <cell>
-        <text>0</text>
-      </cell>
-      <cell>
-        <text>See</text>
-        <link>OutlinedInput#label</link>
       </cell>
     </row>
     <row>
@@ -20107,7 +19200,7 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell></cell>
       <cell>
-        <text>Props applied to the</text>
+        <text>Properties applied to the</text>
         <link>Menu</link>
         <text>element.</text>
       </cell>
@@ -20140,7 +19233,9 @@ exports[`firefox /api/select/ 1`] = `
         <text>false</text>
       </cell>
       <cell>
-        <text>If true, the component uses a native select element.</text>
+        <text>
+          If true, the component will be using a native select element.
+        </text>
       </cell>
     </row>
     <row>
@@ -20152,7 +19247,7 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell></cell>
       <cell>
-        <text>Callback fired when a menu item is selected.</text>
+        <text>Callback function fired when a menu item is selected.</text>
         <whitespace></whitespace>
         <whitespace></whitespace>
         <text>Signature:</text>
@@ -20161,7 +19256,7 @@ exports[`firefox /api/select/ 1`] = `
         <whitespace></whitespace>
         <text>
           event: The event source of the callback. You can pull out the new
-          value by accessing event.target.value (any).
+          value by accessing event.target.value.
         </text>
         <whitespace></whitespace>
         <text>
@@ -20189,7 +19284,7 @@ exports[`firefox /api/select/ 1`] = `
         <whitespace></whitespace>
         <text>function(event: object) => void</text>
         <whitespace></whitespace>
-        <text>event: The event source of the callback.</text>
+        <text>event: The event source of the callback</text>
       </cell>
     </row>
     <row>
@@ -20211,7 +19306,7 @@ exports[`firefox /api/select/ 1`] = `
         <whitespace></whitespace>
         <text>function(event: object) => void</text>
         <whitespace></whitespace>
-        <text>event: The event source of the callback.</text>
+        <text>event: The event source of the callback</text>
       </cell>
     </row>
     <row>
@@ -20224,8 +19319,8 @@ exports[`firefox /api/select/ 1`] = `
       <cell></cell>
       <cell>
         <text>
-          Control select open state. You can only use it when the native prop is
-          false (default).
+          Control select open state. You can only use it when the native
+          property is false (default).
         </text>
       </cell>
     </row>
@@ -20239,14 +19334,14 @@ exports[`firefox /api/select/ 1`] = `
       <cell></cell>
       <cell>
         <text>
-          Render the selected value. You can only use it when the native prop is
-          false (default).
+          Render the selected value. You can only use it when the native
+          property is false (default).
         </text>
         <whitespace></whitespace>
         <whitespace></whitespace>
         <text>Signature:</text>
         <whitespace></whitespace>
-        <text>function(value: any) => ReactNode</text>
+        <text>function(value: any) => ReactElement</text>
         <whitespace></whitespace>
         <text>value: The value provided to the component.</text>
       </cell>
@@ -20260,7 +19355,7 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell></cell>
       <cell>
-        <text>Props applied to the clickable div element.</text>
+        <text>Properties applied to the clickable div element.</text>
       </cell>
     </row>
     <row>
@@ -20268,22 +19363,14 @@ exports[`firefox /api/select/ 1`] = `
         <text>value</text>
       </cell>
       <cell>
-        <text>any</text>
+        <text>union: string, number, bool, object, arrayOf</text>
+        <whitespace></whitespace>
       </cell>
       <cell></cell>
       <cell>
         <text>
-          The input value. Providing an empty string will select no options.
-          This prop is required when the native prop is false (default). Set to
-          an empty string '' if you don't want any of the
-          available options to be selected.
-        </text>
-        <whitespace></whitespace>
-        <text>
-          If the value is an object it must have reference equality with the
-          option in order to be selected. If the value is not an object, the
-          string representation must match with the string representation of the
-          option in order to be selected.
+          The input value. This property is required when the native property is
+          false (default).
         </text>
       </cell>
     </row>
@@ -20292,25 +19379,23 @@ exports[`firefox /api/select/ 1`] = `
         <text>variant</text>
       </cell>
       <cell>
-        <text>'filled'</text>
+        <text>enum: 'standard' |</text>
         <whitespace></whitespace>
-        <text>| 'outlined'</text>
+        <text> 'outlined' |</text>
         <whitespace></whitespace>
-        <text>| 'standard'</text>
+        <text> 'filled'</text>
+        <whitespace></whitespace>
       </cell>
-      <cell>
-        <text>'standard'</text>
-      </cell>
+      <cell></cell>
       <cell>
         <text>The variant to use.</text>
       </cell>
     </row>
   </table>
   <paragraph>
-    <text>The ref is forwarded to the root element.</text>
-  </paragraph>
-  <paragraph>
-    <text>Any other props supplied will be provided to the root element (</text>
+    <text>
+      Any other properties supplied will be spread to the root element (
+    </text>
     <link>Input</link>
     <text>).</text>
   </paragraph>
@@ -20319,13 +19404,16 @@ exports[`firefox /api/select/ 1`] = `
     <link></link>
     <text>CSS</text>
   </heading>
+  <paragraph>
+    <text>
+      You can override all the class names injected by Material-UI thanks to the
+      classes property. This property accepts the following keys:
+    </text>
+  </paragraph>
   <table>
     <row>
       <cell>
-        <text>Rule name</text>
-      </cell>
-      <cell>
-        <text>Global class</text>
+        <text>Name</text>
       </cell>
       <cell>
         <text>Description</text>
@@ -20336,10 +19424,7 @@ exports[`firefox /api/select/ 1`] = `
         <text>root</text>
       </cell>
       <cell>
-        <text>.MuiSelect-root</text>
-      </cell>
-      <cell>
-        <text>Styles applied to the select component root class.</text>
+        <text>Styles applied to the Input component root class.</text>
       </cell>
     </row>
     <row>
@@ -20347,10 +19432,7 @@ exports[`firefox /api/select/ 1`] = `
         <text>select</text>
       </cell>
       <cell>
-        <text>.MuiSelect-select</text>
-      </cell>
-      <cell>
-        <text>Styles applied to the select component select class.</text>
+        <text>Styles applied to the Input component select class.</text>
       </cell>
     </row>
     <row>
@@ -20358,11 +19440,8 @@ exports[`firefox /api/select/ 1`] = `
         <text>filled</text>
       </cell>
       <cell>
-        <text>.MuiSelect-filled</text>
-      </cell>
-      <cell>
         <text>
-          Styles applied to the select component if variant="filled".
+          Styles applied to the Input component if variant="filled".
         </text>
       </cell>
     </row>
@@ -20371,12 +19450,8 @@ exports[`firefox /api/select/ 1`] = `
         <text>outlined</text>
       </cell>
       <cell>
-        <text>.MuiSelect-outlined</text>
-      </cell>
-      <cell>
         <text>
-          Styles applied to the select component if
-          variant="outlined".
+          Styles applied to the Input component if variant="outlined".
         </text>
       </cell>
     </row>
@@ -20385,10 +19460,7 @@ exports[`firefox /api/select/ 1`] = `
         <text>selectMenu</text>
       </cell>
       <cell>
-        <text>.MuiSelect-selectMenu</text>
-      </cell>
-      <cell>
-        <text>Styles applied to the select component selectMenu class.</text>
+        <text>Styles applied to the Input component selectMenu class.</text>
       </cell>
     </row>
     <row>
@@ -20396,12 +19468,7 @@ exports[`firefox /api/select/ 1`] = `
         <text>disabled</text>
       </cell>
       <cell>
-        <text>.Mui-disabled</text>
-      </cell>
-      <cell>
-        <text>
-          Pseudo-class applied to the select component disabled class.
-        </text>
+        <text>Styles applied to the Input component disabled class.</text>
       </cell>
     </row>
     <row>
@@ -20409,91 +19476,21 @@ exports[`firefox /api/select/ 1`] = `
         <text>icon</text>
       </cell>
       <cell>
-        <text>.MuiSelect-icon</text>
-      </cell>
-      <cell>
-        <text>Styles applied to the icon component.</text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>iconOpen</text>
-      </cell>
-      <cell>
-        <text>.MuiSelect-iconOpen</text>
-      </cell>
-      <cell>
-        <text>Styles applied to the icon component if the popup is open.</text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>iconFilled</text>
-      </cell>
-      <cell>
-        <text>.MuiSelect-iconFilled</text>
-      </cell>
-      <cell>
-        <text>
-          Styles applied to the icon component if variant="filled".
-        </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>iconOutlined</text>
-      </cell>
-      <cell>
-        <text>.MuiSelect-iconOutlined</text>
-      </cell>
-      <cell>
-        <text>
-          Styles applied to the icon component if variant="outlined".
-        </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>nativeInput</text>
-      </cell>
-      <cell>
-        <text>.MuiSelect-nativeInput</text>
-      </cell>
-      <cell>
-        <text>Styles applied to the underlying native input component.</text>
+        <text>Styles applied to the Input component icon class.</text>
       </cell>
     </row>
   </table>
   <paragraph>
-    <text>
-      You can override the style of the component thanks to one of these
-      customization points:
-    </text>
-  </paragraph>
-  <list>
-    <listitem>
-      • With a rule name of the classes object prop .<statictext>•</statictext>
-      <text>With a rule name of the</text>
-      <link>classes object prop</link>
-      <text>.</text>
-    </listitem>
-    <listitem>
-      • With a global class name .<statictext>•</statictext>
-      <text>With a</text>
-      <link>global class name</link>
-      <text>.</text>
-    </listitem>
-    <listitem>
-      • With a theme and an overrides property .<statictext>•</statictext>
-      <text>With a theme and an</text>
-      <link>overrides property</link>
-      <text>.</text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>If that's not sufficient, you can check the</text>
+    <text>Have a look at</text>
+    <link>overriding with classes</link>
+    <text>section and the</text>
     <link>implementation of the component</link>
     <text>for more detail.</text>
+  </paragraph>
+  <paragraph>
+    <text>If using the overrides</text>
+    <link>key of the theme</link>
+    <text>, you need to use the following style sheet name: MuiSelect.</text>
   </paragraph>
   <heading level="2">
     Inheritance
@@ -20501,7 +19498,7 @@ exports[`firefox /api/select/ 1`] = `
     <text>Inheritance</text>
   </heading>
   <paragraph>
-    <text>The props of the</text>
+    <text>The properties of the</text>
     <link>Input</link>
     <text>
       component are also available. You can take advantage of this behavior to
@@ -20521,19 +19518,6 @@ exports[`firefox /api/select/ 1`] = `
       <link>Selects</link>
     </listitem>
   </list>
-  <separator></separator>
-  <link>ScopedCssBaseline</link>
-  <group>
-    give page feedback
-    <heading level="6">
-      Was this page helpful?
-      <text>Was this page helpful?</text>
-    </heading>
-    <togglebutton>Yes</togglebutton>
-    <togglebutton>No</togglebutton>
-  </group>
-  <link>Skeleton</link>
-  <textbox></textbox>
 </landmark>;
 
 `;
