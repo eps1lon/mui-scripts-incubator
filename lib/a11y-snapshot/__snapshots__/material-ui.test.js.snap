@@ -9774,9 +9774,10 @@ exports[`chromium /components/rating/ 1`] = `
       <text>
         A visually distinct appearance for the rating icons. By default, the
         rating component uses both a difference of color and shape (filled and
-        empty icons)to indicate the value. In the event that you are using color
-        as the only means to indicate the value, the information should also be
-        also displayed as text, as in this demo. This is important to match
+        empty icons) to indicate the value. In the event that you are using
+        color as the only means to indicate the value, the information should
+        also be also displayed as text, as in this demo. This is important to
+        match
       </text>
       <link>success Criterion 1.4.1</link>
       <text>of WCAG2.1.</text>
@@ -18021,36 +18022,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       <text>Documents</text>
     </treeitem>
   </tree>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Multi-selection
     <Anchor></Anchor>
@@ -18076,36 +18048,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       <text>Documents</text>
     </treeitem>
   </tree>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Controlled tree view
     <Anchor></Anchor>
@@ -18139,36 +18082,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       <text>Documents</text>
     </treeitem>
   </tree>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Rich object
     <Anchor></Anchor>
@@ -18214,36 +18128,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       </group>
     </treeitem>
   </tree>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     ContentComponent prop
     <Anchor></Anchor>
@@ -18276,36 +18161,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       <text>Documents</text>
     </treeitem>
   </tree>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <paragraph>
     <text>Or increasing the width of the state indicator:</text>
   </paragraph>
@@ -18326,36 +18182,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       <text>Documents</text>
     </treeitem>
   </tree>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Customized tree view
     <Anchor></Anchor>
@@ -18400,36 +18227,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       </group>
     </treeitem>
   </tree>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="3">
     Gmail clone
     <Anchor></Anchor>
@@ -18505,36 +18303,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       </paragraph>
     </treeitem>
   </tree>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Disabled tree items
     <Anchor></Anchor>
@@ -18565,36 +18334,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       <text>Seven</text>
     </treeitem>
   </tree>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <paragraph>
     <text>The behavior of disabled tree items depends on the</text>
     <code>$SOME_CODE</code>
@@ -26167,7 +25907,7 @@ exports[`firefox /components/rating/ 1`] = `
     <listitem>
       • A visually distinct appearance for the rating icons. By default, the
       rating component uses both a difference of color and shape (filled and
-      empty icons)to indicate the value. In the event that you are using color
+      empty icons) to indicate the value. In the event that you are using color
       as the only means to indicate the value, the information should also be
       also displayed as text, as in this demo. This is important to match
       success Criterion 1.4.1 of WCAG2.1.
@@ -26175,9 +25915,10 @@ exports[`firefox /components/rating/ 1`] = `
       <text>
         A visually distinct appearance for the rating icons. By default, the
         rating component uses both a difference of color and shape (filled and
-        empty icons)to indicate the value. In the event that you are using color
-        as the only means to indicate the value, the information should also be
-        also displayed as text, as in this demo. This is important to match
+        empty icons) to indicate the value. In the event that you are using
+        color as the only means to indicate the value, the information should
+        also be also displayed as text, as in this demo. This is important to
+        match
       </text>
       <link>success Criterion 1.4.1</link>
       <text>of WCAG2.1.</text>
