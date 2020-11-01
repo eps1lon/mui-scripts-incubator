@@ -1971,9 +1971,11 @@ exports[`chromium /api/select/ 1`] = `
         equality with the option in order to be selected. If the value is not an
         object, the string representation must match with the string
         representation of the option in order to be selected.
+        <text>The</text>
+        <code>$SOME_CODE</code>
         <text>
-          The input value. Providing an empty string will select no options.
-          This prop is required when the
+          value. Providing an empty string will select no options. This prop is
+          required when the
         </text>
         <code>$SOME_CODE</code>
         <text>prop is</text>
