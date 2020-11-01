@@ -21,7 +21,7 @@
 		"node-fetch": "^2.6.1",
 		"playwright": "1.4.2",
 		"prettier": "^2.1.2",
-		"react": "^16.13.1",
+		"react": "^17.0.1",
 		"yargs": "^16.1.0",
 		"yauzl": "^2.10.0"
 	},
