@@ -1971,9 +1971,11 @@ exports[`chromium /api/select/ 1`] = `
         equality with the option in order to be selected. If the value is not an
         object, the string representation must match with the string
         representation of the option in order to be selected.
+        <text>The</text>
+        <code>$SOME_CODE</code>
         <text>
-          The input value. Providing an empty string will select no options.
-          This prop is required when the
+          value. Providing an empty string will select no options. This prop is
+          required when the
         </text>
         <code>$SOME_CODE</code>
         <text>prop is</text>
@@ -9774,9 +9776,10 @@ exports[`chromium /components/rating/ 1`] = `
       <text>
         A visually distinct appearance for the rating icons. By default, the
         rating component uses both a difference of color and shape (filled and
-        empty icons)to indicate the value. In the event that you are using color
-        as the only means to indicate the value, the information should also be
-        also displayed as text, as in this demo. This is important to match
+        empty icons) to indicate the value. In the event that you are using
+        color as the only means to indicate the value, the information should
+        also be also displayed as text, as in this demo. This is important to
+        match
       </text>
       <link>success Criterion 1.4.1</link>
       <text>of WCAG2.1.</text>
@@ -26167,7 +26170,7 @@ exports[`firefox /components/rating/ 1`] = `
     <listitem>
       • A visually distinct appearance for the rating icons. By default, the
       rating component uses both a difference of color and shape (filled and
-      empty icons)to indicate the value. In the event that you are using color
+      empty icons) to indicate the value. In the event that you are using color
       as the only means to indicate the value, the information should also be
       also displayed as text, as in this demo. This is important to match
       success Criterion 1.4.1 of WCAG2.1.
@@ -26175,9 +26178,10 @@ exports[`firefox /components/rating/ 1`] = `
       <text>
         A visually distinct appearance for the rating icons. By default, the
         rating component uses both a difference of color and shape (filled and
-        empty icons)to indicate the value. In the event that you are using color
-        as the only means to indicate the value, the information should also be
-        also displayed as text, as in this demo. This is important to match
+        empty icons) to indicate the value. In the event that you are using
+        color as the only means to indicate the value, the information should
+        also be also displayed as text, as in this demo. This is important to
+        match
       </text>
       <link>success Criterion 1.4.1</link>
       <text>of WCAG2.1.</text>
