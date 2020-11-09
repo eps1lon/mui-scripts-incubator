@@ -8055,19 +8055,10 @@ exports[`chromium /components/pickers 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    @material-ui/pickers
+    React components
     <Anchor></Anchor>
-    <text>@material-ui/pickers</text>
+    <text>React components</text>
   </heading>
-  <paragraph>
-    <img>stars</img>
-    <text></text>
-    <img>npm downloads</img>
-  </paragraph>
-  <paragraph>
-    <link>@material-ui/pickers</link>
-    <text>provides date picker and time picker controls.</text>
-  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -8141,9 +8132,7 @@ exports[`chromium /components/pickers 1`] = `
   <paragraph>
     <text>⚠️ Native input controls support by browsers</text>
     <link>isn't perfect</link>
-    <text>. Have a look at</text>
-    <link>@material-ui/pickers</link>
-    <text>for a richer solution.</text>
+    <text>.</text>
   </paragraph>
   <heading level="3">
     Datepickers
@@ -8389,9 +8378,9 @@ exports[`chromium /components/pickers 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Floating Action Button
+      About the lab 🧪
       <SVGRoot></SVGRoot>
-      <text>Floating Action Button</text>
+      <text>About the lab 🧪</text>
     </link>
     <group>
       give page feedback
@@ -8403,8 +8392,8 @@ exports[`chromium /components/pickers 1`] = `
       <button pressed="false">No</button>
     </group>
     <link>
-      Radio button
-      <text>Radio button</text>
+      Date Picker
+      <text>Date Picker</text>
       <SVGRoot></SVGRoot>
     </link>
     <heading level="6">
@@ -9089,9 +9078,9 @@ exports[`chromium /components/radio-buttons 1`] = `
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
     <link>
-      Date / Time
+      Floating Action Button
       <SVGRoot></SVGRoot>
-      <text>Date / Time</text>
+      <text>Floating Action Button</text>
     </link>
     <group>
       give page feedback
@@ -24777,19 +24766,10 @@ exports[`firefox /components/pickers 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    @material-ui/pickers
+    React components
     <link></link>
-    <text>@material-ui/pickers</text>
+    <text>React components</text>
   </heading>
-  <paragraph>
-    <img>stars</img>
-    <text></text>
-    <img>npm downloads</img>
-  </paragraph>
-  <paragraph>
-    <link>@material-ui/pickers</link>
-    <text>provides date picker and time picker controls.</text>
-  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -24842,9 +24822,7 @@ exports[`firefox /components/pickers 1`] = `
   <paragraph>
     <text>⚠️ Native input controls support by browsers</text>
     <link>isn't perfect</link>
-    <text>. Have a look at</text>
-    <link>@material-ui/pickers</link>
-    <text>for a richer solution.</text>
+    <text>.</text>
   </paragraph>
   <heading level="3">
     Datepickers
@@ -25015,7 +24993,7 @@ exports[`firefox /components/pickers 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Floating Action Button</link>
+  <link>About the lab 🧪</link>
   <group>
     give page feedback
     <heading level="6">
@@ -25025,7 +25003,7 @@ exports[`firefox /components/pickers 1`] = `
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Radio button</link>
+  <link>Date Picker</link>
   <textbox></textbox>
 </landmark>;
 
@@ -25513,7 +25491,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Date / Time</link>
+  <link>Floating Action Button</link>
   <group>
     give page feedback
     <heading level="6">
