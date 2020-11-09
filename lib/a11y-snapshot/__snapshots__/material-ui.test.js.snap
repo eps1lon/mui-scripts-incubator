@@ -16653,15 +16653,15 @@ exports[`chromium /components/tooltips/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    delete
+    Delete
     <SVGRoot></SVGRoot>
   </button>
   <button>
-    add
+    Add
     <SVGRoot></SVGRoot>
   </button>
   <button>
-    add
+    Add
     <SVGRoot></SVGRoot>
   </button>
   <toolbar>
@@ -30982,9 +30982,9 @@ exports[`firefox /components/tooltips/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <button>delete</button>
-  <button>add</button>
-  <button>add</button>
+  <button>Delete</button>
+  <button>Add</button>
+  <button>Add</button>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -30995,15 +30995,13 @@ exports[`firefox /components/tooltips/ 1`] = `
     <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
-    <Tooltip title="Delete"> <IconButton
-    aria-label="delete"> <DeleteIcon /> </IconButton>
-    </Tooltip> <Tooltip title="Add"
-    aria-label="add"> <Fab color="primary"
+    <Tooltip title="Delete"> <IconButton> <DeleteIcon
+    /> </IconButton> </Tooltip> <Tooltip
+    title="Add"> <Fab color="primary"
     className={classes.fab}> <AddIcon /> </Fab>
-    </Tooltip> <Tooltip title="Add"
-    aria-label="add"> <Fab color="secondary"
-    className={classes.absolute}> <AddIcon /> </Fab>
-    </Tooltip>
+    </Tooltip> <Tooltip title="Add"> <Fab
+    color="secondary" className={classes.absolute}>
+    <AddIcon /> </Fab> </Tooltip>
   </text>
   <heading level="2">
     Positioned tooltips
