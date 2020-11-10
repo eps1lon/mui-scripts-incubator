@@ -2418,36 +2418,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -2483,36 +2454,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Custom separator
     <Anchor></Anchor>
@@ -2594,36 +2536,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Breadcrumbs with icons
     <Anchor></Anchor>
@@ -2662,36 +2575,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Collapsed breadcrumbs
     <Anchor></Anchor>
@@ -2726,36 +2610,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -2807,36 +2662,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Integration with react-router
     <Anchor></Anchor>
@@ -2896,36 +2722,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Accessibility
     <Anchor></Anchor>
@@ -12829,36 +12626,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <text>Item One</text>
     </paragraph>
   </tabpanel>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="3">
     Wrapped labels
     <Anchor></Anchor>
@@ -12897,36 +12665,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <text>Item One</text>
     </paragraph>
   </tabpanel>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="3">
     Disabled tab
     <Anchor></Anchor>
@@ -12956,36 +12695,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <text>ACTIVE</text>
     </tab>
   </tablist>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -13042,36 +12752,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <text>Item One</text>
     </paragraph>
   </tabpanel>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="3">
     Centered
     <Anchor></Anchor>
@@ -13100,36 +12781,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <text>ITEM THREE</text>
     </tab>
   </tablist>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -13186,36 +12838,7 @@ exports[`chromium /components/tabs/ 1`] = `
     </tab>
   </tablist>
   <SVGRoot></SVGRoot>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -13270,36 +12893,7 @@ exports[`chromium /components/tabs/ 1`] = `
     </tab>
   </tablist>
   <SVGRoot></SVGRoot>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -13349,36 +12943,7 @@ exports[`chromium /components/tabs/ 1`] = `
     </tab>
   </tablist>
   <SVGRoot></SVGRoot>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="3">
     Prevent scroll buttons
     <Anchor></Anchor>
@@ -13427,36 +12992,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <text>ITEM SEVEN</text>
     </tab>
   </tablist>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -13506,36 +13042,7 @@ exports[`chromium /components/tabs/ 1`] = `
     </tab>
   </tablist>
   <paragraph></paragraph>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -13596,36 +13103,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <text>Item One</text>
     </paragraph>
   </tabpanel>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <paragraph>
     <text>Note that you can restore the scrollbar with</text>
     <code>$SOME_CODE</code>
@@ -13671,36 +13149,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <text>Page One</text>
     </paragraph>
   </tabpanel>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Icon Tabs
     <Anchor></Anchor>
@@ -13728,36 +13177,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </tab>
   </tablist>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -13783,36 +13203,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <text>NEARBY</text>
     </tab>
   </tablist>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -13956,36 +13347,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <text>Item One</text>
     </paragraph>
   </tabpanel>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <heading level="2">
     Experimental API
     <Anchor></Anchor>
@@ -14025,36 +13387,7 @@ exports[`chromium /components/tabs/ 1`] = `
     ITEM ONE
     <text>Item One</text>
   </tabpanel>
-  <toolbar>
-    demo source
-    <group>
-      <button pressed="true">Show JavaScript source</button>
-      <button pressed="false">Show TypeScript source</button>
-    </group>
-    <button>
-      Show the full source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Edit in CodeSandbox
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Copy the source
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset focus to test keyboard navigation
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Reset demo
-      <SVGRoot></SVGRoot>
-    </button>
-    <combobox haspopup="menu">
-      <SVGRoot></SVGRoot>
-    </combobox>
-  </toolbar>
+  <toolbar>demo source</toolbar>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
