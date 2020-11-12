@@ -342,16 +342,16 @@ exports[`chromium / 1`] = `
     </listitem>
     <listitem level="1">
       <button>
-        Styles
+        System
         <SVGRoot></SVGRoot>
-        <text>Styles</text>
+        <text>System</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        System
+        Styles
         <SVGRoot></SVGRoot>
-        <text>System</text>
+        <text>Styles</text>
       </button>
     </listitem>
     <listitem level="1">
