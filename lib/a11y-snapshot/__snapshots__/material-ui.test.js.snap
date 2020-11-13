@@ -76,7 +76,7 @@ exports[`chromium / 1`] = `
     <Pre>
       <code>
         <text>
-          $ npm install @material-ui/core@next @emotion/core @emotion/styled
+          $ npm install @material-ui/core@next @emotion/react @emotion/styled
         </text>
       </code>
     </Pre>
@@ -342,16 +342,16 @@ exports[`chromium / 1`] = `
     </listitem>
     <listitem level="1">
       <button>
-        System
+        Styles
         <SVGRoot></SVGRoot>
-        <text>System</text>
+        <text>Styles</text>
       </button>
     </listitem>
     <listitem level="1">
       <button>
-        Styles
+        System
         <SVGRoot></SVGRoot>
-        <text>Styles</text>
+        <text>System</text>
       </button>
     </listitem>
     <listitem level="1">
@@ -18833,7 +18833,7 @@ exports[`firefox / 1`] = `
     </heading>
     <text>
       Install Material-UI's source files via npm. We take care of injecting
-      the CSS needed.$ npm install @material-ui/core@next @emotion/core
+      the CSS needed.$ npm install @material-ui/core@next @emotion/react
       @emotion/styled
     </text>
     <link>or use a CDN.</link>
