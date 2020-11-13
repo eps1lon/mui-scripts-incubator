@@ -25795,8 +25795,8 @@ exports[`firefox /components/rating/ 1`] = `
     setValue(newValue); }} onChangeActive={(event, newHover)
     => { setHover(newHover); }} emptyIcon={<StarIcon
     style={{ opacity: 0.55 }} fontSize="inherit"
-    />} /> {value !== null && ( <Box
-    ml={2}>{labels[hover !== -1 ? hover :
+    />} /> {value !== null && ( <Box sx={{
+    ml: 2 }}>{labels[hover !== -1 ? hover :
     value]}</Box> )}
   </text>
   <heading level="2">
@@ -26144,7 +26144,8 @@ exports[`firefox /components/rating/ 1`] = `
     <Rating name="text-feedback" value={value} readOnly
     precision={0.5} emptyIcon={<StarIcon style={{
     opacity: 0.55 }} fontSize="inherit" />} />
-    <Box ml={2}>{labels[value]}</Box>
+    <Box sx={{ ml: 2
+    }}>{labels[value]}</Box>
   </text>
   <heading level="3">
     ARIA
@@ -31371,8 +31372,8 @@ exports[`firefox /components/tooltips/ 1`] = `
   </toolbar>
   <text>
     <Tooltip title="You don't have permission to do this"
-    followCursor> <Box bgcolor="text.disabled"
-    color="background.paper" p={2}> Disabled Action
+    followCursor> <Box sx={{ bgcolor: 'text.disabled',
+    color: 'background.paper', p: 2 }}> Disabled Action
     </Box> </Tooltip>
   </text>
   <heading level="2">
