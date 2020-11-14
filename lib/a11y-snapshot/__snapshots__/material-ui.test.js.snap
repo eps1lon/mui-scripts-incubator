@@ -76,7 +76,7 @@ exports[`chromium / 1`] = `
     <Pre>
       <code>
         <text>
-          $ npm install @material-ui/core@next @emotion/core @emotion/styled
+          $ npm install @material-ui/core@next @emotion/react @emotion/styled
         </text>
       </code>
     </Pre>
@@ -14244,16 +14244,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </button>
   <form>
     <Label>
-      <text>Standard</text>
-    </Label>
-    <text> </text>
-    <textbox>Standard</textbox>
-    <Label>
-      <text>Filled</text>
-    </Label>
-    <text> </text>
-    <textbox>Filled</textbox>
-    <Label>
       <text>Outlined</text>
     </Label>
     <textbox>Outlined</textbox>
@@ -14262,6 +14252,16 @@ exports[`chromium /components/text-fields/ 1`] = `
         <text>Outlined</text>
       </Legend>
     </group>
+    <Label>
+      <text>Filled</text>
+    </Label>
+    <text> </text>
+    <textbox>Filled</textbox>
+    <Label>
+      <text>Standard</text>
+    </Label>
+    <text> </text>
+    <textbox>Standard</textbox>
   </form>
   <toolbar>
     demo source
@@ -14329,106 +14329,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <form>
-    <Label>
-      <text>Required *</text>
-    </Label>
-    <text> </text>
-    <textbox required="true" value="Hello World">
-      Required
-      <text>Hello World</text>
-    </textbox>
-    <Label>
-      <text>Disabled</text>
-    </Label>
-    <text> </text>
-    <textbox disabled="true" value="Hello World">
-      Disabled
-      <text>Hello World</text>
-    </textbox>
-    <Label>
-      <text>Password</text>
-    </Label>
-    <text> </text>
-    <textbox>Password</textbox>
-    <Label>
-      <text>Read Only</text>
-    </Label>
-    <text> </text>
-    <textbox readonly="true" value="Hello World">
-      Read Only
-      <text>Hello World</text>
-    </textbox>
-    <Label>
-      <text>Number</text>
-    </Label>
-    <text> </text>
-    <spinbutton valuetext="">Number</spinbutton>
-    <Label>
-      <text>Search field</text>
-    </Label>
-    <text> </text>
-    <searchbox>Search field</searchbox>
-    <Label>
-      <text>Helper text</text>
-    </Label>
-    <text> </text>
-    <textbox description="Some important text" value="Default Value">
-      Helper text
-      <text>Default Value</text>
-    </textbox>
-    <paragraph>
-      <text>Some important text</text>
-    </paragraph>
-    <Label>
-      <text>Required *</text>
-    </Label>
-    <text> </text>
-    <textbox required="true" value="Hello World">
-      Required
-      <text>Hello World</text>
-    </textbox>
-    <Label>
-      <text>Disabled</text>
-    </Label>
-    <text> </text>
-    <textbox disabled="true" value="Hello World">
-      Disabled
-      <text>Hello World</text>
-    </textbox>
-    <Label>
-      <text>Password</text>
-    </Label>
-    <text> </text>
-    <textbox>Password</textbox>
-    <Label>
-      <text>Read Only</text>
-    </Label>
-    <text> </text>
-    <textbox readonly="true" value="Hello World">
-      Read Only
-      <text>Hello World</text>
-    </textbox>
-    <Label>
-      <text>Number</text>
-    </Label>
-    <text> </text>
-    <spinbutton valuetext="">Number</spinbutton>
-    <Label>
-      <text>Search field</text>
-    </Label>
-    <text> </text>
-    <searchbox>Search field</searchbox>
-    <Label>
-      <text>Helper text</text>
-    </Label>
-    <text> </text>
-    <textbox description="Some important text" value="Default Value">
-      Helper text
-      <text>Default Value</text>
-    </textbox>
-    <paragraph>
-      <text>Some important text</text>
-    </paragraph>
     <Label>
       <text>Required *</text>
     </Label>
@@ -14507,6 +14407,106 @@ exports[`chromium /components/text-fields/ 1`] = `
     <paragraph>
       <text>Some important text</text>
     </paragraph>
+    <Label>
+      <text>Required *</text>
+    </Label>
+    <text> </text>
+    <textbox required="true" value="Hello World">
+      Required
+      <text>Hello World</text>
+    </textbox>
+    <Label>
+      <text>Disabled</text>
+    </Label>
+    <text> </text>
+    <textbox disabled="true" value="Hello World">
+      Disabled
+      <text>Hello World</text>
+    </textbox>
+    <Label>
+      <text>Password</text>
+    </Label>
+    <text> </text>
+    <textbox>Password</textbox>
+    <Label>
+      <text>Read Only</text>
+    </Label>
+    <text> </text>
+    <textbox readonly="true" value="Hello World">
+      Read Only
+      <text>Hello World</text>
+    </textbox>
+    <Label>
+      <text>Number</text>
+    </Label>
+    <text> </text>
+    <spinbutton valuetext="">Number</spinbutton>
+    <Label>
+      <text>Search field</text>
+    </Label>
+    <text> </text>
+    <searchbox>Search field</searchbox>
+    <Label>
+      <text>Helper text</text>
+    </Label>
+    <text> </text>
+    <textbox description="Some important text" value="Default Value">
+      Helper text
+      <text>Default Value</text>
+    </textbox>
+    <paragraph>
+      <text>Some important text</text>
+    </paragraph>
+    <Label>
+      <text>Required *</text>
+    </Label>
+    <text> </text>
+    <textbox required="true" value="Hello World">
+      Required
+      <text>Hello World</text>
+    </textbox>
+    <Label>
+      <text>Disabled</text>
+    </Label>
+    <text> </text>
+    <textbox disabled="true" value="Hello World">
+      Disabled
+      <text>Hello World</text>
+    </textbox>
+    <Label>
+      <text>Password</text>
+    </Label>
+    <text> </text>
+    <textbox>Password</textbox>
+    <Label>
+      <text>Read Only</text>
+    </Label>
+    <text> </text>
+    <textbox readonly="true" value="Hello World">
+      Read Only
+      <text>Hello World</text>
+    </textbox>
+    <Label>
+      <text>Number</text>
+    </Label>
+    <text> </text>
+    <spinbutton valuetext="">Number</spinbutton>
+    <Label>
+      <text>Search field</text>
+    </Label>
+    <text> </text>
+    <searchbox>Search field</searchbox>
+    <Label>
+      <text>Helper text</text>
+    </Label>
+    <text> </text>
+    <textbox description="Some important text" value="Default Value">
+      Helper text
+      <text>Default Value</text>
+    </textbox>
+    <paragraph>
+      <text>Some important text</text>
+    </paragraph>
   </form>
   <toolbar>
     demo source
@@ -14560,19 +14560,27 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Error</text>
     </Label>
-    <text> </text>
     <textbox invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
+    <group>
+      <Legend>
+        <text>Error</text>
+      </Legend>
+    </group>
     <Label>
       <text>Error</text>
     </Label>
-    <text> </text>
     <textbox description="Incorrect entry." invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
+    <group>
+      <Legend>
+        <text>Error</text>
+      </Legend>
+    </group>
     <paragraph>
       <text>Incorrect entry.</text>
     </paragraph>
@@ -14598,27 +14606,19 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Error</text>
     </Label>
+    <text> </text>
     <textbox invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
-    <group>
-      <Legend>
-        <text>Error</text>
-      </Legend>
-    </group>
     <Label>
       <text>Error</text>
     </Label>
+    <text> </text>
     <textbox description="Incorrect entry." invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
-    <group>
-      <Legend>
-        <text>Error</text>
-      </Legend>
-    </group>
     <paragraph>
       <text>Incorrect entry.</text>
     </paragraph>
@@ -14687,58 +14687,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Multiline</text>
     </Label>
-    <text> </text>
-    <textbox multiline="true" value="Controlled">
-      Multiline
-      <text>Controlled</text>
-    </textbox>
-    <textbox multiline="true" readonly="true" value="x"></textbox>
-    <Label>
-      <text>Multiline Placeholder</text>
-    </Label>
-    <text> </text>
-    <textbox multiline="true">
-      Multiline Placeholder
-      <text>Placeholder</text>
-    </textbox>
-    <textbox multiline="true" readonly="true" value="x"></textbox>
-    <Label>
-      <text>Multiline</text>
-    </Label>
-    <text> </text>
-    <textbox multiline="true" value="Default Value">
-      Multiline
-      <text>Default Value</text>
-    </textbox>
-    <Label>
-      <text>Multiline</text>
-    </Label>
-    <text> </text>
-    <textbox multiline="true" value="Controlled">
-      Multiline
-      <text>Controlled</text>
-    </textbox>
-    <textbox multiline="true" readonly="true" value="x"></textbox>
-    <Label>
-      <text>Multiline Placeholder</text>
-    </Label>
-    <text> </text>
-    <textbox multiline="true">
-      Multiline Placeholder
-      <text>Placeholder</text>
-    </textbox>
-    <textbox multiline="true" readonly="true" value="x"></textbox>
-    <Label>
-      <text>Multiline</text>
-    </Label>
-    <text> </text>
-    <textbox multiline="true" value="Default Value">
-      Multiline
-      <text>Default Value</text>
-    </textbox>
-    <Label>
-      <text>Multiline</text>
-    </Label>
     <textbox multiline="true" value="Controlled">
       Multiline
       <text>Controlled</text>
@@ -14774,6 +14722,58 @@ exports[`chromium /components/text-fields/ 1`] = `
         <text>Multiline</text>
       </Legend>
     </group>
+    <Label>
+      <text>Multiline</text>
+    </Label>
+    <text> </text>
+    <textbox multiline="true" value="Controlled">
+      Multiline
+      <text>Controlled</text>
+    </textbox>
+    <textbox multiline="true" readonly="true" value="x"></textbox>
+    <Label>
+      <text>Multiline Placeholder</text>
+    </Label>
+    <text> </text>
+    <textbox multiline="true">
+      Multiline Placeholder
+      <text>Placeholder</text>
+    </textbox>
+    <textbox multiline="true" readonly="true" value="x"></textbox>
+    <Label>
+      <text>Multiline</text>
+    </Label>
+    <text> </text>
+    <textbox multiline="true" value="Default Value">
+      Multiline
+      <text>Default Value</text>
+    </textbox>
+    <Label>
+      <text>Multiline</text>
+    </Label>
+    <text> </text>
+    <textbox multiline="true" value="Controlled">
+      Multiline
+      <text>Controlled</text>
+    </textbox>
+    <textbox multiline="true" readonly="true" value="x"></textbox>
+    <Label>
+      <text>Multiline Placeholder</text>
+    </Label>
+    <text> </text>
+    <textbox multiline="true">
+      Multiline Placeholder
+      <text>Placeholder</text>
+    </textbox>
+    <textbox multiline="true" readonly="true" value="x"></textbox>
+    <Label>
+      <text>Multiline</text>
+    </Label>
+    <text> </text>
+    <textbox multiline="true" value="Default Value">
+      Multiline
+      <text>Default Value</text>
+    </textbox>
   </form>
   <toolbar>
     demo source
@@ -14825,60 +14825,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Select</text>
     </Label>
-    <text> </text>
-    <combobox haspopup="listbox">Select €</combobox>
-    <textbox description="Please select your currency" value="EUR"></textbox>
-    <SVGRoot></SVGRoot>
-    <paragraph>
-      <text>Please select your currency</text>
-    </paragraph>
-    <Label>
-      <text>Native select</text>
-    </Label>
-    <text> </text>
-    <combobox description="Please select your currency" value="€">
-      Native select
-      <MenuListPopup>
-        <menuitem>$</menuitem>
-        <menuitem selected="true">€</menuitem>
-        <menuitem>฿</menuitem>
-        <menuitem>¥</menuitem>
-      </MenuListPopup>
-    </combobox>
-    <SVGRoot></SVGRoot>
-    <paragraph>
-      <text>Please select your currency</text>
-    </paragraph>
-    <Label>
-      <text>Select</text>
-    </Label>
-    <text> </text>
-    <combobox haspopup="listbox">Select €</combobox>
-    <textbox description="Please select your currency" value="EUR"></textbox>
-    <SVGRoot></SVGRoot>
-    <paragraph>
-      <text>Please select your currency</text>
-    </paragraph>
-    <Label>
-      <text>Native select</text>
-    </Label>
-    <text> </text>
-    <combobox description="Please select your currency" value="€">
-      Native select
-      <MenuListPopup>
-        <menuitem>$</menuitem>
-        <menuitem selected="true">€</menuitem>
-        <menuitem>฿</menuitem>
-        <menuitem>¥</menuitem>
-      </MenuListPopup>
-    </combobox>
-    <SVGRoot></SVGRoot>
-    <paragraph>
-      <text>Please select your currency</text>
-    </paragraph>
-    <Label>
-      <text>Select</text>
-    </Label>
     <combobox haspopup="listbox">Select €</combobox>
     <textbox description="Please select your currency" value="EUR"></textbox>
     <SVGRoot></SVGRoot>
@@ -14908,6 +14854,60 @@ exports[`chromium /components/text-fields/ 1`] = `
         <text>Native select</text>
       </Legend>
     </group>
+    <paragraph>
+      <text>Please select your currency</text>
+    </paragraph>
+    <Label>
+      <text>Select</text>
+    </Label>
+    <text> </text>
+    <combobox haspopup="listbox">Select €</combobox>
+    <textbox description="Please select your currency" value="EUR"></textbox>
+    <SVGRoot></SVGRoot>
+    <paragraph>
+      <text>Please select your currency</text>
+    </paragraph>
+    <Label>
+      <text>Native select</text>
+    </Label>
+    <text> </text>
+    <combobox description="Please select your currency" value="€">
+      Native select
+      <MenuListPopup>
+        <menuitem>$</menuitem>
+        <menuitem selected="true">€</menuitem>
+        <menuitem>฿</menuitem>
+        <menuitem>¥</menuitem>
+      </MenuListPopup>
+    </combobox>
+    <SVGRoot></SVGRoot>
+    <paragraph>
+      <text>Please select your currency</text>
+    </paragraph>
+    <Label>
+      <text>Select</text>
+    </Label>
+    <text> </text>
+    <combobox haspopup="listbox">Select €</combobox>
+    <textbox description="Please select your currency" value="EUR"></textbox>
+    <SVGRoot></SVGRoot>
+    <paragraph>
+      <text>Please select your currency</text>
+    </paragraph>
+    <Label>
+      <text>Native select</text>
+    </Label>
+    <text> </text>
+    <combobox description="Please select your currency" value="€">
+      Native select
+      <MenuListPopup>
+        <menuitem>$</menuitem>
+        <menuitem selected="true">€</menuitem>
+        <menuitem>฿</menuitem>
+        <menuitem>¥</menuitem>
+      </MenuListPopup>
+    </combobox>
+    <SVGRoot></SVGRoot>
     <paragraph>
       <text>Please select your currency</text>
     </paragraph>
@@ -15022,72 +15022,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   <Label>
     <text>With normal TextField</text>
   </Label>
-  <text> </text>
-  <paragraph>
-    <text>Kg</text>
-  </paragraph>
-  <textbox>With normal TextField</textbox>
-  <text> </text>
-  <textbox description="Weight">weight</textbox>
-  <paragraph>
-    <text>Kg</text>
-  </paragraph>
-  <paragraph>
-    <text>Weight</text>
-  </paragraph>
-  <Label>
-    <text>Password</text>
-  </Label>
-  <text> </text>
-  <textbox>Password</textbox>
-  <button>
-    toggle password visibility
-    <SVGRoot></SVGRoot>
-  </button>
-  <Label>
-    <text>Amount</text>
-  </Label>
-  <text> </text>
-  <paragraph>
-    <text>$</text>
-  </paragraph>
-  <textbox>Amount</textbox>
-  <Label>
-    <text>With normal TextField</text>
-  </Label>
-  <text> </text>
-  <paragraph>
-    <text>Kg</text>
-  </paragraph>
-  <textbox>With normal TextField</textbox>
-  <text> </text>
-  <textbox description="Weight">weight</textbox>
-  <paragraph>
-    <text>Kg</text>
-  </paragraph>
-  <paragraph>
-    <text>Weight</text>
-  </paragraph>
-  <Label>
-    <text>Password</text>
-  </Label>
-  <text> </text>
-  <textbox>Password</textbox>
-  <button>
-    toggle password visibility
-    <SVGRoot></SVGRoot>
-  </button>
-  <Label>
-    <text>Amount</text>
-  </Label>
-  <text> </text>
-  <paragraph>
-    <text>$</text>
-  </paragraph>
-  <textbox>Amount</textbox>
-  <Label>
-    <text>With normal TextField</text>
-  </Label>
   <paragraph>
     <text>Kg</text>
   </paragraph>
@@ -15137,6 +15071,72 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>​</text>
     </Legend>
   </group>
+  <Label>
+    <text>With normal TextField</text>
+  </Label>
+  <text> </text>
+  <paragraph>
+    <text>Kg</text>
+  </paragraph>
+  <textbox>With normal TextField</textbox>
+  <text> </text>
+  <textbox description="Weight">weight</textbox>
+  <paragraph>
+    <text>Kg</text>
+  </paragraph>
+  <paragraph>
+    <text>Weight</text>
+  </paragraph>
+  <Label>
+    <text>Password</text>
+  </Label>
+  <text> </text>
+  <textbox>Password</textbox>
+  <button>
+    toggle password visibility
+    <SVGRoot></SVGRoot>
+  </button>
+  <Label>
+    <text>Amount</text>
+  </Label>
+  <text> </text>
+  <paragraph>
+    <text>$</text>
+  </paragraph>
+  <textbox>Amount</textbox>
+  <Label>
+    <text>With normal TextField</text>
+  </Label>
+  <text> </text>
+  <paragraph>
+    <text>Kg</text>
+  </paragraph>
+  <textbox>With normal TextField</textbox>
+  <text> </text>
+  <textbox description="Weight">weight</textbox>
+  <paragraph>
+    <text>Kg</text>
+  </paragraph>
+  <paragraph>
+    <text>Weight</text>
+  </paragraph>
+  <Label>
+    <text>Password</text>
+  </Label>
+  <text> </text>
+  <textbox>Password</textbox>
+  <button>
+    toggle password visibility
+    <SVGRoot></SVGRoot>
+  </button>
+  <Label>
+    <text>Amount</text>
+  </Label>
+  <text> </text>
+  <paragraph>
+    <text>$</text>
+  </paragraph>
+  <textbox>Amount</textbox>
   <toolbar>
     demo source
     <group>
@@ -15185,38 +15185,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Size</text>
     </Label>
-    <text> </text>
-    <textbox value="Small">
-      Size
-      <text>Small</text>
-    </textbox>
-    <Label>
-      <text>Size</text>
-    </Label>
-    <text> </text>
-    <textbox value="Normal">
-      Size
-      <text>Normal</text>
-    </textbox>
-    <Label>
-      <text>Size</text>
-    </Label>
-    <text> </text>
-    <textbox value="Small">
-      Size
-      <text>Small</text>
-    </textbox>
-    <Label>
-      <text>Size</text>
-    </Label>
-    <text> </text>
-    <textbox value="Normal">
-      Size
-      <text>Normal</text>
-    </textbox>
-    <Label>
-      <text>Size</text>
-    </Label>
     <textbox value="Small">
       Size
       <text>Small</text>
@@ -15238,6 +15206,38 @@ exports[`chromium /components/text-fields/ 1`] = `
         <text>Size</text>
       </Legend>
     </group>
+    <Label>
+      <text>Size</text>
+    </Label>
+    <text> </text>
+    <textbox value="Small">
+      Size
+      <text>Small</text>
+    </textbox>
+    <Label>
+      <text>Size</text>
+    </Label>
+    <text> </text>
+    <textbox value="Normal">
+      Size
+      <text>Normal</text>
+    </textbox>
+    <Label>
+      <text>Size</text>
+    </Label>
+    <text> </text>
+    <textbox value="Small">
+      Size
+      <text>Small</text>
+    </textbox>
+    <Label>
+      <text>Size</text>
+    </Label>
+    <text> </text>
+    <textbox value="Normal">
+      Size
+      <text>Normal</text>
+    </textbox>
   </form>
   <toolbar>
     demo source
@@ -15303,94 +15303,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   <Label>
     <text>Label</text>
   </Label>
-  <text> </text>
-  <textbox description="Full width!">
-    Label
-    <text>Placeholder</text>
-  </textbox>
-  <paragraph>
-    <text>Full width!</text>
-  </paragraph>
-  <Label>
-    <text>None</text>
-  </Label>
-  <text> </text>
-  <textbox description="Some important text" value="Default Value">
-    None
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <Label>
-    <text>Dense</text>
-  </Label>
-  <text> </text>
-  <textbox description="Some important text" value="Default Value">
-    Dense
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <Label>
-    <text>Normal</text>
-  </Label>
-  <text> </text>
-  <textbox description="Some important text" value="Default Value">
-    Normal
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <Label>
-    <text>Label</text>
-  </Label>
-  <text> </text>
-  <textbox description="Full width!">
-    Label
-    <text>Placeholder</text>
-  </textbox>
-  <paragraph>
-    <text>Full width!</text>
-  </paragraph>
-  <Label>
-    <text>None</text>
-  </Label>
-  <text> </text>
-  <textbox description="Some important text" value="Default Value">
-    None
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <Label>
-    <text>Dense</text>
-  </Label>
-  <text> </text>
-  <textbox description="Some important text" value="Default Value">
-    Dense
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <Label>
-    <text>Normal</text>
-  </Label>
-  <text> </text>
-  <textbox description="Some important text" value="Default Value">
-    Normal
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <Label>
-    <text>Label</text>
-  </Label>
   <textbox description="Full width!">
     Label
     <text>Placeholder</text>
@@ -15448,6 +15360,94 @@ exports[`chromium /components/text-fields/ 1`] = `
   <paragraph>
     <text>Some important text</text>
   </paragraph>
+  <Label>
+    <text>Label</text>
+  </Label>
+  <text> </text>
+  <textbox description="Full width!">
+    Label
+    <text>Placeholder</text>
+  </textbox>
+  <paragraph>
+    <text>Full width!</text>
+  </paragraph>
+  <Label>
+    <text>None</text>
+  </Label>
+  <text> </text>
+  <textbox description="Some important text" value="Default Value">
+    None
+    <text>Default Value</text>
+  </textbox>
+  <paragraph>
+    <text>Some important text</text>
+  </paragraph>
+  <Label>
+    <text>Dense</text>
+  </Label>
+  <text> </text>
+  <textbox description="Some important text" value="Default Value">
+    Dense
+    <text>Default Value</text>
+  </textbox>
+  <paragraph>
+    <text>Some important text</text>
+  </paragraph>
+  <Label>
+    <text>Normal</text>
+  </Label>
+  <text> </text>
+  <textbox description="Some important text" value="Default Value">
+    Normal
+    <text>Default Value</text>
+  </textbox>
+  <paragraph>
+    <text>Some important text</text>
+  </paragraph>
+  <Label>
+    <text>Label</text>
+  </Label>
+  <text> </text>
+  <textbox description="Full width!">
+    Label
+    <text>Placeholder</text>
+  </textbox>
+  <paragraph>
+    <text>Full width!</text>
+  </paragraph>
+  <Label>
+    <text>None</text>
+  </Label>
+  <text> </text>
+  <textbox description="Some important text" value="Default Value">
+    None
+    <text>Default Value</text>
+  </textbox>
+  <paragraph>
+    <text>Some important text</text>
+  </paragraph>
+  <Label>
+    <text>Dense</text>
+  </Label>
+  <text> </text>
+  <textbox description="Some important text" value="Default Value">
+    Dense
+    <text>Default Value</text>
+  </textbox>
+  <paragraph>
+    <text>Some important text</text>
+  </paragraph>
+  <Label>
+    <text>Normal</text>
+  </Label>
+  <text> </text>
+  <textbox description="Some important text" value="Default Value">
+    Normal
+    <text>Default Value</text>
+  </textbox>
+  <paragraph>
+    <text>Some important text</text>
+  </paragraph>
   <toolbar>
     demo source
     <group>
@@ -15494,38 +15494,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Name</text>
     </Label>
-    <text> </text>
-    <textbox value="Cat in the Hat">
-      Name
-      <text>Cat in the Hat</text>
-    </textbox>
-    <Label>
-      <text>Uncontrolled</text>
-    </Label>
-    <text> </text>
-    <textbox value="foo">
-      Uncontrolled
-      <text>foo</text>
-    </textbox>
-    <Label>
-      <text>Name</text>
-    </Label>
-    <text> </text>
-    <textbox value="Cat in the Hat">
-      Name
-      <text>Cat in the Hat</text>
-    </textbox>
-    <Label>
-      <text>Uncontrolled</text>
-    </Label>
-    <text> </text>
-    <textbox value="foo">
-      Uncontrolled
-      <text>foo</text>
-    </textbox>
-    <Label>
-      <text>Name</text>
-    </Label>
     <textbox value="Cat in the Hat">
       Name
       <text>Cat in the Hat</text>
@@ -15547,6 +15515,38 @@ exports[`chromium /components/text-fields/ 1`] = `
         <text>Uncontrolled</text>
       </Legend>
     </group>
+    <Label>
+      <text>Name</text>
+    </Label>
+    <text> </text>
+    <textbox value="Cat in the Hat">
+      Name
+      <text>Cat in the Hat</text>
+    </textbox>
+    <Label>
+      <text>Uncontrolled</text>
+    </Label>
+    <text> </text>
+    <textbox value="foo">
+      Uncontrolled
+      <text>foo</text>
+    </textbox>
+    <Label>
+      <text>Name</text>
+    </Label>
+    <text> </text>
+    <textbox value="Cat in the Hat">
+      Name
+      <text>Cat in the Hat</text>
+    </textbox>
+    <Label>
+      <text>Uncontrolled</text>
+    </Label>
+    <text> </text>
+    <textbox value="foo">
+      Uncontrolled
+      <text>foo</text>
+    </textbox>
   </form>
   <toolbar>
     demo source
@@ -15817,16 +15817,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </button>
   <form>
     <Label>
-      <text>Standard secondary</text>
-    </Label>
-    <text> </text>
-    <textbox>Standard secondary</textbox>
-    <Label>
-      <text>Filled secondary</text>
-    </Label>
-    <text> </text>
-    <textbox>Filled secondary</textbox>
-    <Label>
       <text>Outlined secondary</text>
     </Label>
     <textbox>Outlined secondary</textbox>
@@ -15835,6 +15825,16 @@ exports[`chromium /components/text-fields/ 1`] = `
         <text>Outlined secondary</text>
       </Legend>
     </group>
+    <Label>
+      <text>Filled secondary</text>
+    </Label>
+    <text> </text>
+    <textbox>Filled secondary</textbox>
+    <Label>
+      <text>Standard secondary</text>
+    </Label>
+    <text> </text>
+    <textbox>Standard secondary</textbox>
   </form>
   <toolbar>
     demo source
@@ -18833,7 +18833,7 @@ exports[`firefox / 1`] = `
     </heading>
     <text>
       Install Material-UI's source files via npm. We take care of injecting
-      the CSS needed.$ npm install @material-ui/core@next @emotion/core
+      the CSS needed.$ npm install @material-ui/core@next @emotion/react
       @emotion/styled
     </text>
     <link>or use a CDN.</link>
@@ -24846,7 +24846,7 @@ exports[`firefox /components/pickers 1`] = `
     <TextField id="date" label="Birthday"
     type="date" defaultValue="2017-05-24"
     className={classes.textField} InputLabelProps={{ shrink:
-    true, }} /> </form>
+    true, }} variant="standard" /> </form>
   </text>
   <heading level="3">
     Date & Time pickers
@@ -24889,7 +24889,7 @@ exports[`firefox /components/pickers 1`] = `
     appointment" type="datetime-local"
     defaultValue="2017-05-24T10:30"
     className={classes.textField} InputLabelProps={{ shrink:
-    true, }} /> </form>
+    true, }} variant="standard" /> </form>
   </text>
   <heading level="3">
     Time pickers
@@ -24946,7 +24946,7 @@ exports[`firefox /components/pickers 1`] = `
     type="time" defaultValue="07:30"
     className={classes.textField} InputLabelProps={{ shrink:
     true, }} inputProps={{ step: 300, // 5 min }}
-    /> </form>
+    variant="standard" /> </form>
   </text>
   <heading level="2">
     API
@@ -25795,8 +25795,8 @@ exports[`firefox /components/rating/ 1`] = `
     setValue(newValue); }} onChangeActive={(event, newHover)
     => { setHover(newHover); }} emptyIcon={<StarIcon
     style={{ opacity: 0.55 }} fontSize="inherit"
-    />} /> {value !== null && ( <Box
-    ml={2}>{labels[hover !== -1 ? hover :
+    />} /> {value !== null && ( <Box sx={{
+    ml: 2 }}>{labels[hover !== -1 ? hover :
     value]}</Box> )}
   </text>
   <heading level="2">
@@ -26144,7 +26144,8 @@ exports[`firefox /components/rating/ 1`] = `
     <Rating name="text-feedback" value={value} readOnly
     precision={0.5} emptyIcon={<StarIcon style={{
     opacity: 0.55 }} fontSize="inherit" />} />
-    <Box ml={2}>{labels[value]}</Box>
+    <Box sx={{ ml: 2
+    }}>{labels[value]}</Box>
   </text>
   <heading level="3">
     ARIA
@@ -29099,11 +29100,10 @@ exports[`firefox /components/text-fields/ 1`] = `
   </button>
   <form>
     <label>
-      Standard
-      <text>Standard</text>
+      Outlined
+      <text>Outlined</text>
     </label>
-    <statictext> </statictext>
-    <textbox>Standard</textbox>
+    <textbox>Outlined</textbox>
     <label>
       Filled
       <text>Filled</text>
@@ -29111,10 +29111,11 @@ exports[`firefox /components/text-fields/ 1`] = `
     <statictext> </statictext>
     <textbox>Filled</textbox>
     <label>
-      Outlined
-      <text>Outlined</text>
+      Standard
+      <text>Standard</text>
     </label>
-    <textbox>Outlined</textbox>
+    <statictext> </statictext>
+    <textbox>Standard</textbox>
   </form>
   <toolbar>
     demo source
@@ -29127,11 +29128,11 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <text>
     <form className={classes.root} noValidate
-    autoComplete="off"> <TextField id="standard-basic"
-    label="Standard" /> <TextField id="filled-basic"
+    autoComplete="off"> <TextField id="outlined-basic"
+    label="Outlined" /> <TextField id="filled-basic"
     label="Filled" variant="filled" /> <TextField
-    id="outlined-basic" label="Outlined"
-    variant="outlined" /> </form>
+    id="standard-basic" label="Standard"
+    variant="standard" /> </form>
   </text>
   <paragraph>
     <text>
@@ -29163,7 +29164,6 @@ exports[`firefox /components/text-fields/ 1`] = `
       Required
       <text>Required</text>
     </label>
-    <statictext> </statictext>
     <textbox required="true" value="Hello World">
       Required
       <text>Hello World</text>
@@ -29172,7 +29172,6 @@ exports[`firefox /components/text-fields/ 1`] = `
       Disabled
       <text>Disabled</text>
     </label>
-    <statictext> </statictext>
     <textbox disabled="true" value="Hello World">
       Disabled
       <text>Hello World</text>
@@ -29181,13 +29180,11 @@ exports[`firefox /components/text-fields/ 1`] = `
       Password
       <text>Password</text>
     </label>
-    <statictext> </statictext>
     <textbox>Password</textbox>
     <label>
       Read Only
       <text>Read Only</text>
     </label>
-    <statictext> </statictext>
     <textbox readonly="true" value="Hello World">
       Read Only
       <text>Hello World</text>
@@ -29196,19 +29193,16 @@ exports[`firefox /components/text-fields/ 1`] = `
       Number
       <text>Number</text>
     </label>
-    <statictext> </statictext>
     <spinbutton valuetext="">Number</spinbutton>
     <label>
       Search field
       <text>Search field</text>
     </label>
-    <statictext> </statictext>
     <textbox>Search field</textbox>
     <label>
       Helper text
       <text>Helper text</text>
     </label>
-    <statictext> </statictext>
     <textbox description="Some important text" value="Default Value">
       Helper text
       <text>Default Value</text>
@@ -29277,6 +29271,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Required
       <text>Required</text>
     </label>
+    <statictext> </statictext>
     <textbox required="true" value="Hello World">
       Required
       <text>Hello World</text>
@@ -29285,6 +29280,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Disabled
       <text>Disabled</text>
     </label>
+    <statictext> </statictext>
     <textbox disabled="true" value="Hello World">
       Disabled
       <text>Hello World</text>
@@ -29293,11 +29289,13 @@ exports[`firefox /components/text-fields/ 1`] = `
       Password
       <text>Password</text>
     </label>
+    <statictext> </statictext>
     <textbox>Password</textbox>
     <label>
       Read Only
       <text>Read Only</text>
     </label>
+    <statictext> </statictext>
     <textbox readonly="true" value="Hello World">
       Read Only
       <text>Hello World</text>
@@ -29306,16 +29304,19 @@ exports[`firefox /components/text-fields/ 1`] = `
       Number
       <text>Number</text>
     </label>
+    <statictext> </statictext>
     <spinbutton valuetext="">Number</spinbutton>
     <label>
       Search field
       <text>Search field</text>
     </label>
+    <statictext> </statictext>
     <textbox>Search field</textbox>
     <label>
       Helper text
       <text>Helper text</text>
     </label>
+    <statictext> </statictext>
     <textbox description="Some important text" value="Default Value">
       Helper text
       <text>Default Value</text>
@@ -29353,7 +29354,6 @@ exports[`firefox /components/text-fields/ 1`] = `
       Error
       <text>Error</text>
     </label>
-    <statictext> </statictext>
     <textbox invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
@@ -29362,7 +29362,6 @@ exports[`firefox /components/text-fields/ 1`] = `
       Error
       <text>Error</text>
     </label>
-    <statictext> </statictext>
     <textbox description="Incorrect entry." invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
@@ -29395,6 +29394,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Error
       <text>Error</text>
     </label>
+    <statictext> </statictext>
     <textbox invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
@@ -29403,6 +29403,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Error
       <text>Error</text>
     </label>
+    <statictext> </statictext>
     <textbox description="Incorrect entry." invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
@@ -29444,7 +29445,6 @@ exports[`firefox /components/text-fields/ 1`] = `
       Multiline
       <text>Multiline</text>
     </label>
-    <statictext> </statictext>
     <textbox multiline="true" value="Controlled">
       Multiline
       <text>Controlled</text>
@@ -29453,13 +29453,11 @@ exports[`firefox /components/text-fields/ 1`] = `
       Multiline Placeholder
       <text>Multiline Placeholder</text>
     </label>
-    <statictext> </statictext>
     <textbox multiline="true">Multiline Placeholder</textbox>
     <label>
       Multiline
       <text>Multiline</text>
     </label>
-    <statictext> </statictext>
     <textbox multiline="true" value="Default Value">
       Multiline
       <text>Default Value</text>
@@ -29492,6 +29490,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Multiline
       <text>Multiline</text>
     </label>
+    <statictext> </statictext>
     <textbox multiline="true" value="Controlled">
       Multiline
       <text>Controlled</text>
@@ -29500,11 +29499,13 @@ exports[`firefox /components/text-fields/ 1`] = `
       Multiline Placeholder
       <text>Multiline Placeholder</text>
     </label>
+    <statictext> </statictext>
     <textbox multiline="true">Multiline Placeholder</textbox>
     <label>
       Multiline
       <text>Multiline</text>
     </label>
+    <statictext> </statictext>
     <textbox multiline="true" value="Default Value">
       Multiline
       <text>Default Value</text>
@@ -29538,7 +29539,6 @@ exports[`firefox /components/text-fields/ 1`] = `
       Select
       <text>Select</text>
     </label>
-    <statictext> </statictext>
     <button haspopup="true">
       Select €<text>€</text>
     </button>
@@ -29549,7 +29549,6 @@ exports[`firefox /components/text-fields/ 1`] = `
       Native select
       <text>Native select</text>
     </label>
-    <statictext> </statictext>
     <combobox
       description="Please select your currency"
       haspopup="true"
@@ -29618,6 +29617,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Select
       <text>Select</text>
     </label>
+    <statictext> </statictext>
     <button haspopup="true">
       Select €<text>€</text>
     </button>
@@ -29628,6 +29628,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Native select
       <text>Native select</text>
     </label>
+    <statictext> </statictext>
     <combobox
       description="Please select your currency"
       haspopup="true"
@@ -29721,12 +29722,10 @@ exports[`firefox /components/text-fields/ 1`] = `
     With normal TextField
     <text>With normal TextField</text>
   </label>
-  <statictext> </statictext>
   <paragraph>
     <text>Kg</text>
   </paragraph>
   <textbox>With normal TextField</textbox>
-  <statictext> </statictext>
   <textbox description="Weight">weight</textbox>
   <paragraph>
     <text>Kg</text>
@@ -29738,14 +29737,12 @@ exports[`firefox /components/text-fields/ 1`] = `
     Password
     <text>Password</text>
   </label>
-  <statictext> </statictext>
   <textbox>Password</textbox>
   <button>toggle password visibility</button>
   <label>
     Amount
     <text>Amount</text>
   </label>
-  <statictext> </statictext>
   <paragraph>
     <text>$</text>
   </paragraph>
@@ -29787,10 +29784,12 @@ exports[`firefox /components/text-fields/ 1`] = `
     With normal TextField
     <text>With normal TextField</text>
   </label>
+  <statictext> </statictext>
   <paragraph>
     <text>Kg</text>
   </paragraph>
   <textbox>With normal TextField</textbox>
+  <statictext> </statictext>
   <textbox description="Weight">weight</textbox>
   <paragraph>
     <text>Kg</text>
@@ -29802,12 +29801,14 @@ exports[`firefox /components/text-fields/ 1`] = `
     Password
     <text>Password</text>
   </label>
+  <statictext> </statictext>
   <textbox>Password</textbox>
   <button>toggle password visibility</button>
   <label>
     Amount
     <text>Amount</text>
   </label>
+  <statictext> </statictext>
   <paragraph>
     <text>$</text>
   </paragraph>
@@ -29838,7 +29839,6 @@ exports[`firefox /components/text-fields/ 1`] = `
       Size
       <text>Size</text>
     </label>
-    <statictext> </statictext>
     <textbox value="Small">
       Size
       <text>Small</text>
@@ -29847,7 +29847,6 @@ exports[`firefox /components/text-fields/ 1`] = `
       Size
       <text>Size</text>
     </label>
-    <statictext> </statictext>
     <textbox value="Normal">
       Size
       <text>Normal</text>
@@ -29874,6 +29873,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Size
       <text>Size</text>
     </label>
+    <statictext> </statictext>
     <textbox value="Small">
       Size
       <text>Small</text>
@@ -29882,6 +29882,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Size
       <text>Size</text>
     </label>
+    <statictext> </statictext>
     <textbox value="Normal">
       Size
       <text>Normal</text>
@@ -29923,7 +29924,6 @@ exports[`firefox /components/text-fields/ 1`] = `
     Label
     <text>Label</text>
   </label>
-  <statictext> </statictext>
   <textbox description="Full width!">Label</textbox>
   <paragraph>
     <text>Full width!</text>
@@ -29932,7 +29932,6 @@ exports[`firefox /components/text-fields/ 1`] = `
     None
     <text>None</text>
   </label>
-  <statictext> </statictext>
   <textbox description="Some important text" value="Default Value">
     None
     <text>Default Value</text>
@@ -29944,7 +29943,6 @@ exports[`firefox /components/text-fields/ 1`] = `
     Dense
     <text>Dense</text>
   </label>
-  <statictext> </statictext>
   <textbox description="Some important text" value="Default Value">
     Dense
     <text>Default Value</text>
@@ -29956,7 +29954,6 @@ exports[`firefox /components/text-fields/ 1`] = `
     Normal
     <text>Normal</text>
   </label>
-  <statictext> </statictext>
   <textbox description="Some important text" value="Default Value">
     Normal
     <text>Default Value</text>
@@ -30013,6 +30010,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     Label
     <text>Label</text>
   </label>
+  <statictext> </statictext>
   <textbox description="Full width!">Label</textbox>
   <paragraph>
     <text>Full width!</text>
@@ -30021,6 +30019,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     None
     <text>None</text>
   </label>
+  <statictext> </statictext>
   <textbox description="Some important text" value="Default Value">
     None
     <text>Default Value</text>
@@ -30032,6 +30031,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     Dense
     <text>Dense</text>
   </label>
+  <statictext> </statictext>
   <textbox description="Some important text" value="Default Value">
     Dense
     <text>Default Value</text>
@@ -30043,6 +30043,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     Normal
     <text>Normal</text>
   </label>
+  <statictext> </statictext>
   <textbox description="Some important text" value="Default Value">
     Normal
     <text>Default Value</text>
@@ -30076,7 +30077,6 @@ exports[`firefox /components/text-fields/ 1`] = `
       Name
       <text>Name</text>
     </label>
-    <statictext> </statictext>
     <textbox value="Cat in the Hat">
       Name
       <text>Cat in the Hat</text>
@@ -30085,7 +30085,6 @@ exports[`firefox /components/text-fields/ 1`] = `
       Uncontrolled
       <text>Uncontrolled</text>
     </label>
-    <statictext> </statictext>
     <textbox value="foo">
       Uncontrolled
       <text>foo</text>
@@ -30112,6 +30111,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Name
       <text>Name</text>
     </label>
+    <statictext> </statictext>
     <textbox value="Cat in the Hat">
       Name
       <text>Cat in the Hat</text>
@@ -30120,6 +30120,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Uncontrolled
       <text>Uncontrolled</text>
     </label>
+    <statictext> </statictext>
     <textbox value="foo">
       Uncontrolled
       <text>foo</text>
@@ -30300,11 +30301,10 @@ exports[`firefox /components/text-fields/ 1`] = `
   </button>
   <form>
     <label>
-      Standard secondary
-      <text>Standard secondary</text>
+      Outlined secondary
+      <text>Outlined secondary</text>
     </label>
-    <statictext> </statictext>
-    <textbox>Standard secondary</textbox>
+    <textbox>Outlined secondary</textbox>
     <label>
       Filled secondary
       <text>Filled secondary</text>
@@ -30312,10 +30312,11 @@ exports[`firefox /components/text-fields/ 1`] = `
     <statictext> </statictext>
     <textbox>Filled secondary</textbox>
     <label>
-      Outlined secondary
-      <text>Outlined secondary</text>
+      Standard secondary
+      <text>Standard secondary</text>
     </label>
-    <textbox>Outlined secondary</textbox>
+    <statictext> </statictext>
+    <textbox>Standard secondary</textbox>
   </form>
   <toolbar>
     demo source
@@ -30579,7 +30580,8 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <text>
     <TextField helperText="Please enter your name"
-    label="Name" /> <TextField label="Name" />
+    label="Name" variant="standard" /> <TextField
+    label="Name" variant="standard" />
   </text>
   <paragraph>
     <text>
@@ -30619,8 +30621,9 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <text>
     <TextField helperText="Please enter your name"
-    label="Name" /> <TextField helperText=" "
-    label="Name" />
+    label="Name" variant="standard" /> <TextField
+    helperText=" " label="Name" variant="standard"
+    />
   </text>
   <heading level="2">
     Integration with 3rd party input libraries
@@ -31371,8 +31374,8 @@ exports[`firefox /components/tooltips/ 1`] = `
   </toolbar>
   <text>
     <Tooltip title="You don't have permission to do this"
-    followCursor> <Box bgcolor="text.disabled"
-    color="background.paper" p={2}> Disabled Action
+    followCursor> <Box sx={{ bgcolor: 'text.disabled',
+    color: 'background.paper', p: 2 }}> Disabled Action
     </Box> </Tooltip>
   </text>
   <heading level="2">
