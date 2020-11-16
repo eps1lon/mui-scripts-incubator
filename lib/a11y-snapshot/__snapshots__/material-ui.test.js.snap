@@ -2418,7 +2418,36 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>demo source</toolbar>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button>
+      Show the full source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -2454,7 +2483,36 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>demo source</toolbar>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button>
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
   <heading level="2">
     Custom separator
     <Anchor></Anchor>
@@ -2536,7 +2594,36 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>demo source</toolbar>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button>
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
   <heading level="2">
     Breadcrumbs with icons
     <Anchor></Anchor>
@@ -2575,7 +2662,36 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>demo source</toolbar>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button>
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
   <heading level="2">
     Collapsed breadcrumbs
     <Anchor></Anchor>
@@ -2610,7 +2726,36 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>demo source</toolbar>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button>
+      Show the full source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -2662,7 +2807,36 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>demo source</toolbar>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button>
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
   <heading level="2">
     Integration with react-router
     <Anchor></Anchor>
@@ -2722,7 +2896,36 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
     </list>
   </navigation>
-  <toolbar>demo source</toolbar>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button>
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
   <heading level="2">
     Accessibility
     <Anchor></Anchor>
