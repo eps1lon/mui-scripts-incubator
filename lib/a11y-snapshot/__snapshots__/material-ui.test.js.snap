@@ -13,7 +13,6 @@ exports[`chromium / 1`] = `
     <searchbox>Search</searchbox>
     <combobox autocomplete="list" haspopup="listbox">
       Search
-      <text>Search…</text>
     </combobox>
     <Pre></Pre>
     <combobox haspopup="menu">
@@ -307,9 +306,11 @@ exports[`chromium / 1`] = `
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
+    octopus
     <img description="Repeatable, reliable deployments">octopus</img>
   </link>
   <link>
+    doit-intl
     <img description="Management Platform for Google Cloud and AWS">
       doit-intl
     </img>
@@ -1362,9 +1363,9 @@ exports[`chromium /api/button/ 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -1374,14 +1375,17 @@ exports[`chromium /api/button/ 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -2307,9 +2311,9 @@ exports[`chromium /api/select/ 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -2319,14 +2323,17 @@ exports[`chromium /api/select/ 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -3031,9 +3038,9 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -3043,14 +3050,17 @@ exports[`chromium /components/breadcrumbs 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -3513,9 +3523,9 @@ exports[`chromium /components/button-group/ 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -3525,14 +3535,17 @@ exports[`chromium /components/button-group/ 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -4642,9 +4655,9 @@ exports[`chromium /components/buttons/ 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -4654,14 +4667,17 @@ exports[`chromium /components/buttons/ 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -5289,9 +5305,9 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -5301,14 +5317,17 @@ exports[`chromium /components/checkboxes/ 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -6185,9 +6204,9 @@ exports[`chromium /components/dialogs/ 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -6197,14 +6216,17 @@ exports[`chromium /components/dialogs/ 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -7947,9 +7969,9 @@ exports[`chromium /components/pagination/ 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -7959,14 +7981,17 @@ exports[`chromium /components/pagination/ 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -8090,10 +8115,17 @@ exports[`chromium /components/pickers 1`] = `
     <text>Time picker</text>
   </Label>
   <text> </text>
-  <textbox readonly="true" value="09:11 PM">
-    Choose time, selected time is 9:11 PM
+  <textbox value="09:11 PM">
+    hh:mm (a|p)m
     <text>09:11 PM</text>
   </textbox>
+  <button>
+    change time
+    <SVGRoot></SVGRoot>
+  </button>
+  <paragraph>
+    <text>hh:mm (a|p)m</text>
+  </paragraph>
   <toolbar>
     demo source
     <group>
@@ -8394,9 +8426,9 @@ exports[`chromium /components/pickers 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -8406,14 +8438,17 @@ exports[`chromium /components/pickers 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -9094,9 +9129,9 @@ exports[`chromium /components/radio-buttons 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -9106,14 +9141,17 @@ exports[`chromium /components/radio-buttons 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -9874,9 +9912,9 @@ exports[`chromium /components/rating/ 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -9886,14 +9924,17 @@ exports[`chromium /components/rating/ 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -10990,9 +11031,9 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -11002,14 +11043,17 @@ exports[`chromium /components/selects/ 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -12125,9 +12169,9 @@ exports[`chromium /components/slider 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -12137,14 +12181,17 @@ exports[`chromium /components/slider 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -12701,9 +12748,9 @@ exports[`chromium /components/switches/ 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -12713,14 +12760,17 @@ exports[`chromium /components/switches/ 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -14138,9 +14188,9 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -14150,14 +14200,17 @@ exports[`chromium /components/tabs/ 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -14700,10 +14753,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Multiline Placeholder</text>
     </Label>
-    <textbox multiline="true">
-      Multiline Placeholder
-      <text>Placeholder</text>
-    </textbox>
+    <textbox multiline="true">Multiline Placeholder</textbox>
     <textbox multiline="true" readonly="true" value="x"></textbox>
     <group>
       <Legend>
@@ -14735,10 +14785,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Multiline Placeholder</text>
     </Label>
     <text> </text>
-    <textbox multiline="true">
-      Multiline Placeholder
-      <text>Placeholder</text>
-    </textbox>
+    <textbox multiline="true">Multiline Placeholder</textbox>
     <textbox multiline="true" readonly="true" value="x"></textbox>
     <Label>
       <text>Multiline</text>
@@ -14761,10 +14808,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Multiline Placeholder</text>
     </Label>
     <text> </text>
-    <textbox multiline="true">
-      Multiline Placeholder
-      <text>Placeholder</text>
-    </textbox>
+    <textbox multiline="true">Multiline Placeholder</textbox>
     <textbox multiline="true" readonly="true" value="x"></textbox>
     <Label>
       <text>Multiline</text>
@@ -15303,10 +15347,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   <Label>
     <text>Label</text>
   </Label>
-  <textbox description="Full width!">
-    Label
-    <text>Placeholder</text>
-  </textbox>
+  <textbox description="Full width!">Label</textbox>
   <group>
     <Legend>
       <text>Label</text>
@@ -15364,10 +15405,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Label</text>
   </Label>
   <text> </text>
-  <textbox description="Full width!">
-    Label
-    <text>Placeholder</text>
-  </textbox>
+  <textbox description="Full width!">Label</textbox>
   <paragraph>
     <text>Full width!</text>
   </paragraph>
@@ -15408,10 +15446,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Label</text>
   </Label>
   <text> </text>
-  <textbox description="Full width!">
-    Label
-    <text>Placeholder</text>
-  </textbox>
+  <textbox description="Full width!">Label</textbox>
   <paragraph>
     <text>Full width!</text>
   </paragraph>
@@ -15754,10 +15789,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Hello world</text>
     </textbox>
     <text> </text>
-    <textbox>
-      description
-      <text>Placeholder</text>
-    </textbox>
+    <textbox>description</textbox>
     <text> </text>
     <textbox disabled="true" value="Disabled">
       description
@@ -15994,10 +16026,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       menu
       <SVGRoot></SVGRoot>
     </button>
-    <textbox>
-      search google maps
-      <text>Search Google Maps</text>
-    </textbox>
+    <textbox>search google maps</textbox>
     <button>
       search
       <SVGRoot></SVGRoot>
@@ -16538,9 +16567,9 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -16550,14 +16579,17 @@ exports[`chromium /components/text-fields/ 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -17586,9 +17618,9 @@ exports[`chromium /components/tooltips/ 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -17598,14 +17630,17 @@ exports[`chromium /components/tooltips/ 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -17906,9 +17941,9 @@ exports[`chromium /components/transfer-list 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -17918,14 +17953,17 @@ exports[`chromium /components/transfer-list 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -18761,9 +18799,9 @@ exports[`chromium /components/tree-view/ 1`] = `
       <SVGRoot></SVGRoot>
     </link>
     <form>
+      Was this page helpful?
       <text>Thanks for your feedback!</text>
       <paragraph>
-        Please let us know what we could do to improve this page.
         <text>Please let us know what we could do to improve this page.</text>
       </paragraph>
       <textbox
@@ -18773,14 +18811,17 @@ exports[`chromium /components/tree-view/ 1`] = `
         Comment
       </textbox>
       <group>
+        ​
         <Legend>
           <text>​</text>
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -19765,19 +19806,21 @@ exports[`firefox /api/button/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • With a rule name of the classes object prop .<statictext>•</statictext>
+      • With a rule name of the classes object prop .
+      <list-item-marker>•</list-item-marker>
       <text>With a rule name of the</text>
       <link>classes object prop</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • With a global class name .<statictext>•</statictext>
+      • With a global class name .<list-item-marker>•</list-item-marker>
       <text>With a</text>
       <link>global class name</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • With a theme and an overrides property .<statictext>•</statictext>
+      • With a theme and an overrides property .
+      <list-item-marker>•</list-item-marker>
       <text>With a theme and an</text>
       <link>overrides property</link>
       <text>.</text>
@@ -19810,12 +19853,12 @@ exports[`firefox /api/button/ 1`] = `
   <list>
     <listitem>
       • Button Group
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link>Button Group</link>
     </listitem>
     <listitem>
       • Buttons
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link>Buttons</link>
     </listitem>
   </list>
@@ -20460,19 +20503,21 @@ exports[`firefox /api/select/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • With a rule name of the classes object prop .<statictext>•</statictext>
+      • With a rule name of the classes object prop .
+      <list-item-marker>•</list-item-marker>
       <text>With a rule name of the</text>
       <link>classes object prop</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • With a global class name .<statictext>•</statictext>
+      • With a global class name .<list-item-marker>•</list-item-marker>
       <text>With a</text>
       <link>global class name</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • With a theme and an overrides property .<statictext>•</statictext>
+      • With a theme and an overrides property .
+      <list-item-marker>•</list-item-marker>
       <text>With a theme and an</text>
       <link>overrides property</link>
       <text>.</text>
@@ -20505,7 +20550,7 @@ exports[`firefox /api/select/ 1`] = `
   <list>
     <listitem>
       • Selects
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link>Selects</link>
     </listitem>
   </list>
@@ -20947,7 +20992,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <listitem>
       • The set of links is structured using an ordered list ( <ol>
       element).
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         The set of links is structured using an ordered list (<ol>
         element).
@@ -20955,7 +21000,8 @@ exports[`firefox /components/breadcrumbs 1`] = `
     </listitem>
     <listitem>
       • To prevent screen reader announcement of the visual separators between
-      links, they are hidden with aria-hidden .<statictext>•</statictext>
+      links, they are hidden with aria-hidden .
+      <list-item-marker>•</list-item-marker>
       <text>
         To prevent screen reader announcement of the visual separators between
         links, they are hidden with aria-hidden.
@@ -20965,7 +21011,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
       • A nav element labeled with aria-label identifies the structure as a
       breadcrumb trail and makes it a navigation landmark so that it is easy to
       locate.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         A nav element labeled with aria-label identifies the structure as a
         breadcrumb trail and makes it a navigation landmark so that it is easy
@@ -20981,17 +21027,17 @@ exports[`firefox /components/breadcrumbs 1`] = `
   <list>
     <listitem>
       • <Breadcrumbs />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Breadcrumbs /></link>
     </listitem>
     <listitem>
       • <Link />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Link /></link>
     </listitem>
     <listitem>
       • <Typography />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Typography /></link>
     </listitem>
   </list>
@@ -21304,12 +21350,12 @@ exports[`firefox /components/button-group/ 1`] = `
   <list>
     <listitem>
       • <Button />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Button /></link>
     </listitem>
     <listitem>
       • <ButtonGroup />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><ButtonGroup /></link>
     </listitem>
   </list>
@@ -21347,27 +21393,27 @@ exports[`firefox /components/buttons/ 1`] = `
   <list>
     <listitem>
       • Dialogs
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>Dialogs</text>
     </listitem>
     <listitem>
       • Modal windows
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>Modal windows</text>
     </listitem>
     <listitem>
       • Forms
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>Forms</text>
     </listitem>
     <listitem>
       • Cards
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>Cards</text>
     </listitem>
     <listitem>
       • Toolbars
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>Toolbars</text>
     </listitem>
   </list>
@@ -21483,12 +21529,12 @@ exports[`firefox /components/buttons/ 1`] = `
   <list>
     <listitem>
       • In dialogs
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>In dialogs</text>
     </listitem>
     <listitem>
       • In cards
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>In cards</text>
     </listitem>
   </list>
@@ -21995,7 +22041,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <listitem>
       1. CSS only . You can remove the pointer events style on the disabled
       state of the <button> element:
-      <statictext>1.</statictext>
+      <list-item-marker>1.</list-item-marker>
       <text>
         CSS only. You can remove the pointer events style on the disabled state
         of the <button> element:
@@ -22012,7 +22058,7 @@ exports[`firefox /components/buttons/ 1`] = `
   <list>
     <listitem>
       • You should add pointer-events: none; back when you need to display
-      tooltips on disabled elements .<statictext>•</statictext>
+      tooltips on disabled elements .<list-item-marker>•</list-item-marker>
       <text>
         You should add pointer-events: none; back when you need to display
       </text>
@@ -22022,7 +22068,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <listitem>
       • The cursor won't change if you render something other than a button
       element, for instance, a link <a> element.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         The cursor won't change if you render something other than a button
         element, for instance, a link <a> element.
@@ -22032,7 +22078,7 @@ exports[`firefox /components/buttons/ 1`] = `
   <list>
     <listitem>
       2. DOM change . You can wrap the button:
-      <statictext>2.</statictext>
+      <list-item-marker>2.</list-item-marker>
       <text>DOM change. You can wrap the button:</text>
     </listitem>
   </list>
@@ -22055,22 +22101,22 @@ exports[`firefox /components/buttons/ 1`] = `
   <list>
     <listitem>
       • <Button />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Button /></link>
     </listitem>
     <listitem>
       • <ButtonBase />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><ButtonBase /></link>
     </listitem>
     <listitem>
       • <IconButton />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><IconButton /></link>
     </listitem>
     <listitem>
       • <LoadingButton />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><LoadingButton /></link>
     </listitem>
   </list>
@@ -22445,12 +22491,12 @@ exports[`firefox /components/checkboxes/ 1`] = `
   <list>
     <listitem>
       • Checkboxes vs. Radio Buttons
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link>Checkboxes vs. Radio Buttons</link>
     </listitem>
     <listitem>
       • Checkboxes vs. Switches
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link>Checkboxes vs. Switches</link>
     </listitem>
   </list>
@@ -22469,7 +22515,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
       • All form controls should have labels, and this includes radio buttons,
       checkboxes, and switches. In most cases, this is done by using the
       <label> element ( FormControlLabel ).
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         All form controls should have labels, and this includes radio buttons,
         checkboxes, and switches. In most cases, this is done by using the
@@ -22483,7 +22529,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
       directly to the input component. In this case, you can apply the
       additional attribute (e.g. aria-label , aria-labelledby , title ) via the
       inputProps prop.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         When a label can't be used, it's necessary to add an attribute
         directly to the input component. In this case, you can apply the
@@ -22504,27 +22550,27 @@ exports[`firefox /components/checkboxes/ 1`] = `
   <list>
     <listitem>
       • <Checkbox />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Checkbox /></link>
     </listitem>
     <listitem>
       • <FormControl />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><FormControl /></link>
     </listitem>
     <listitem>
       • <FormControlLabel />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><FormControlLabel /></link>
     </listitem>
     <listitem>
       • <FormGroup />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><FormGroup /></link>
     </listitem>
     <listitem>
       • <FormLabel />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><FormLabel /></link>
     </listitem>
   </list>
@@ -22615,7 +22661,7 @@ exports[`firefox /components/dialogs/ 1`] = `
   <list>
     <listitem>
       • Choosing an option immediately commits the option and closes the menu
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         Choosing an option immediately commits the option and closes the menu
       </text>
@@ -22623,7 +22669,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <listitem>
       • Touching outside of the dialog, or pressing Back, cancels the action and
       closes the dialog
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         Touching outside of the dialog, or pressing Back, cancels the action and
         closes the dialog
@@ -22680,14 +22726,14 @@ exports[`firefox /components/dialogs/ 1`] = `
   <list>
     <listitem>
       • Asking a question (e.g. "Delete this conversation?")
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         Asking a question (e.g. "Delete this conversation?")
       </text>
     </listitem>
     <listitem>
       • Making a statement related to the action buttons
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>Making a statement related to the action buttons</text>
     </listitem>
   </list>
@@ -22705,7 +22751,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <listitem>
       • Use a clear question or statement with an explanation in the content
       area, such as "Erase USB storage?".
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         Use a clear question or statement with an explanation in the content
         area, such as "Erase USB storage?".
@@ -22714,7 +22760,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <listitem>
       • Avoid apologies, ambiguity, or questions, such as “Warning!” or “Are you
       sure?”
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         Avoid apologies, ambiguity, or questions, such as “Warning!” or “Are you
         sure?”
@@ -23008,14 +23054,14 @@ exports[`firefox /components/dialogs/ 1`] = `
   <list>
     <listitem>
       • scroll=paper the content of the dialog scrolls within the paper element.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         scroll=paper the content of the dialog scrolls within the paper element.
       </text>
     </listitem>
     <listitem>
       • scroll=body the content of the dialog scrolls within the body element.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         scroll=body the content of the dialog scrolls within the body element.
       </text>
@@ -23083,32 +23129,32 @@ exports[`firefox /components/dialogs/ 1`] = `
   <list>
     <listitem>
       • <Dialog />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Dialog /></link>
     </listitem>
     <listitem>
       • <DialogActions />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><DialogActions /></link>
     </listitem>
     <listitem>
       • <DialogContent />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><DialogContent /></link>
     </listitem>
     <listitem>
       • <DialogContentText />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><DialogContentText /></link>
     </listitem>
     <listitem>
       • <DialogTitle />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><DialogTitle /></link>
     </listitem>
     <listitem>
       • <Slide />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Slide /></link>
     </listitem>
   </list>
@@ -24652,12 +24698,12 @@ exports[`firefox /components/pagination/ 1`] = `
   <list>
     <listitem>
       • <Pagination />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Pagination /></link>
     </listitem>
     <listitem>
       • <PaginationItem />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><PaginationItem /></link>
     </listitem>
   </list>
@@ -24690,7 +24736,7 @@ exports[`firefox /components/pickers 1`] = `
   <list>
     <listitem>
       • On mobile, pickers are best suited for display in confirmation dialog.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         On mobile, pickers are best suited for display in confirmation dialog.
       </text>
@@ -24698,7 +24744,7 @@ exports[`firefox /components/pickers 1`] = `
     <listitem>
       • For inline display, such as on a form, consider using compact controls
       such as segmented dropdown buttons.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         For inline display, such as on a form, consider using compact controls
         such as segmented dropdown buttons.
@@ -24909,7 +24955,7 @@ exports[`firefox /components/pickers 1`] = `
       <text>Alarm clock</text>
     </label>
     <statictext> </statictext>
-    <group>
+    <InputTime>
       Alarm clock
       <spinbutton value="07" valuetext="07">
         Hours
@@ -24929,7 +24975,7 @@ exports[`firefox /components/pickers 1`] = `
         Clear
         <diagram></diagram>
       </button>
-    </group>
+    </InputTime>
   </form>
   <toolbar>
     demo source
@@ -24956,7 +25002,7 @@ exports[`firefox /components/pickers 1`] = `
   <list>
     <listitem>
       • <TextField />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><TextField /></link>
     </listitem>
   </list>
@@ -25308,7 +25354,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     <listitem>
       • value.name ( String [optional]): The name used to reference the value of
       the control.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         value.name (String [optional]): The name used to reference the value of
         the control.
@@ -25317,7 +25363,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     <listitem>
       • value.onChange ( Void [optional]): Callback fired when a radio button is
       selected.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         value.onChange (Void [optional]): Callback fired when a radio button is
         selected.
@@ -25325,7 +25371,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     </listitem>
     <listitem>
       • value.value ( Any [optional]): Value of the selected radio button.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         value.value (Any [optional]): Value of the selected radio button.
       </text>
@@ -25376,7 +25422,7 @@ exports[`firefox /components/radio-buttons 1`] = `
   <list>
     <listitem>
       • Checkboxes vs. Radio Buttons
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link>Checkboxes vs. Radio Buttons</link>
     </listitem>
   </list>
@@ -25395,7 +25441,7 @@ exports[`firefox /components/radio-buttons 1`] = `
       • All form controls should have labels, and this includes radio buttons,
       checkboxes, and switches. In most cases, this is done by using the
       <label> element ( FormControlLabel ).
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         All form controls should have labels, and this includes radio buttons,
         checkboxes, and switches. In most cases, this is done by using the
@@ -25409,7 +25455,7 @@ exports[`firefox /components/radio-buttons 1`] = `
       directly to the input component. In this case, you can apply the
       additional attribute (e.g. aria-label , aria-labelledby , title ) via the
       inputProps property.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         When a label can't be used, it's necessary to add an attribute
         directly to the input component. In this case, you can apply the
@@ -25430,27 +25476,27 @@ exports[`firefox /components/radio-buttons 1`] = `
   <list>
     <listitem>
       • <FormControl />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><FormControl /></link>
     </listitem>
     <listitem>
       • <FormControlLabel />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><FormControlLabel /></link>
     </listitem>
     <listitem>
       • <FormLabel />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><FormLabel /></link>
     </listitem>
     <listitem>
       • <Radio />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Radio /></link>
     </listitem>
     <listitem>
       • <RadioGroup />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><RadioGroup /></link>
     </listitem>
   </list>
@@ -26083,7 +26129,7 @@ exports[`firefox /components/rating/ 1`] = `
       buttons, one for each star, and another for 0 stars that is checked by
       default. Be sure to provide a value for the name prop that is unique to
       the parent form.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         A radio group with its fields visually hidden. It contains six radio
         buttons, one for each star, and another for 0 stars that is checked by
@@ -26096,7 +26142,7 @@ exports[`firefox /components/rating/ 1`] = `
       Stars”, …). Be sure to provide a suitable function to the getLabelText
       prop when the page is in a language other than English. You can use the
       included locales , or provide your own.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         Labels for the radio buttons containing actual text (“1 Star”, “2
         Stars”, …). Be sure to provide a suitable function to the getLabelText
@@ -26112,7 +26158,7 @@ exports[`firefox /components/rating/ 1`] = `
       as the only means to indicate the value, the information should also be
       also displayed as text, as in this demo. This is important to match
       success Criterion 1.4.1 of WCAG2.1.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         A visually distinct appearance for the rating icons. By default, the
         rating component uses both a difference of color and shape (filled and
@@ -26181,7 +26227,7 @@ exports[`firefox /components/rating/ 1`] = `
   <list>
     <listitem>
       • <Rating />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Rating /></link>
     </listitem>
   </list>
@@ -26956,12 +27002,12 @@ exports[`firefox /components/selects/ 1`] = `
   <list>
     <listitem>
       • <NativeSelect />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><NativeSelect /></link>
     </listitem>
     <listitem>
       • <Select />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Select /></link>
     </listitem>
   </list>
@@ -26999,7 +27045,7 @@ exports[`firefox /components/slider 1`] = `
     <listitem>
       • 📦 22 kB gzipped (but only +8 kB when used together with other
       Material-UI components).
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>📦</text>
       <link>22 kB gzipped</link>
       <text>
@@ -27574,7 +27620,7 @@ exports[`firefox /components/slider 1`] = `
     <listitem>
       • Each thumb has a user-friendly label ( aria-label , aria-labelledby or
       getAriaLabel prop).
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         Each thumb has a user-friendly label (aria-label, aria-labelledby or
         getAriaLabel prop).
@@ -27584,7 +27630,7 @@ exports[`firefox /components/slider 1`] = `
       • Each thumb has a user-friendly text for its current value. This is not
       required if the value matches the semantics of the label. You can change
       the name with the getAriaValueText or aria-valuetext prop.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         Each thumb has a user-friendly text for its current value. This is not
         required if the value matches the semantics of the label. You can change
@@ -27600,7 +27646,7 @@ exports[`firefox /components/slider 1`] = `
   <list>
     <listitem>
       • <Slider />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Slider /></link>
     </listitem>
   </list>
@@ -27925,7 +27971,7 @@ exports[`firefox /components/switches/ 1`] = `
   <list>
     <listitem>
       • Checkboxes vs. Switches
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link>Checkboxes vs. Switches</link>
     </listitem>
   </list>
@@ -27941,7 +27987,7 @@ exports[`firefox /components/switches/ 1`] = `
       technology of your target audience supports this role properly. Then you
       can change the role with <Switch inputProps={{ role:
       'switch' }}>
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         It will render an element with the checkbox role not switch role since
         this role isn't widely supported yet. Please test first if
@@ -27954,7 +28000,7 @@ exports[`firefox /components/switches/ 1`] = `
       • All form controls should have labels, and this includes radio buttons,
       checkboxes, and switches. In most cases, this is done by using the
       <label> element ( FormControlLabel ).
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         All form controls should have labels, and this includes radio buttons,
         checkboxes, and switches. In most cases, this is done by using the
@@ -27968,7 +28014,7 @@ exports[`firefox /components/switches/ 1`] = `
       directly to the input component. In this case, you can apply the
       additional attribute (e.g. aria-label , aria-labelledby , title ) via the
       inputProps prop.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         When a label can't be used, it's necessary to add an attribute
         directly to the input component. In this case, you can apply the
@@ -27989,27 +28035,27 @@ exports[`firefox /components/switches/ 1`] = `
   <list>
     <listitem>
       • <FormControl />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><FormControl /></link>
     </listitem>
     <listitem>
       • <FormControlLabel />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><FormControlLabel /></link>
     </listitem>
     <listitem>
       • <FormGroup />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><FormGroup /></link>
     </listitem>
     <listitem>
       • <FormLabel />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><FormLabel /></link>
     </listitem>
     <listitem>
       • <Switch />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Switch /></link>
     </listitem>
   </list>
@@ -28826,13 +28872,13 @@ exports[`firefox /components/tabs/ 1`] = `
   <list>
     <listitem>
       1. Label Tabs via aria-label or aria-labelledby .
-      <statictext>1.</statictext>
+      <list-item-marker>1.</list-item-marker>
       <text>Label Tabs via aria-label or aria-labelledby.</text>
     </listitem>
     <listitem>
       2. Tab s need to be connected to their corresponding
       [role="tabpanel"] by setting the correct id , aria-controls and
-      aria-labelledby .<statictext>2.</statictext>
+      aria-labelledby .<list-item-marker>2.</list-item-marker>
       <text>
         Tabs need to be connected to their corresponding
         [role="tabpanel"] by setting the correct id, aria-controls and
@@ -28998,32 +29044,32 @@ exports[`firefox /components/tabs/ 1`] = `
   <list>
     <listitem>
       • <Tab />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Tab /></link>
     </listitem>
     <listitem>
       • <TabContext />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><TabContext /></link>
     </listitem>
     <listitem>
       • <TabList />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><TabList /></link>
     </listitem>
     <listitem>
       • <TabPanel />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><TabPanel /></link>
     </listitem>
     <listitem>
       • <TabScrollButton />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><TabScrollButton /></link>
     </listitem>
     <listitem>
       • <Tabs />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Tabs /></link>
     </listitem>
   </list>
@@ -30500,7 +30546,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <listitem>
       • Allowing certain non-numeric characters ('e', '+',
       '-', '.') and silently discarding others
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         Allowing certain non-numeric characters ('e', '+',
         '-', '.') and silently discarding others
@@ -30509,7 +30555,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <listitem>
       • The functionality of scrolling to increment/decrement the number can
       cause accidental and hard-to-notice changes
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         The functionality of scrolling to increment/decrement the number can
         cause accidental and hard-to-notice changes
@@ -30717,7 +30763,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   <list>
     <listitem>
       • If you are using the TextField component, you just have to provide a
-      unique id .<statictext>•</statictext>
+      unique id .<list-item-marker>•</list-item-marker>
       <text>
         If you are using the TextField component, you just have to provide a
         unique id.
@@ -30725,7 +30771,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     </listitem>
     <listitem>
       • If you are composing the component:
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>If you are composing the component:</text>
     </listitem>
   </list>
@@ -30749,13 +30795,13 @@ exports[`firefox /components/text-fields/ 1`] = `
   <list>
     <listitem>
       • react-hook-form : React hook for form validation.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link>react-hook-form</link>
       <text>: React hook for form validation.</text>
     </listitem>
     <listitem>
       • formik-material-ui : Bindings for using Material-UI with formik .
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link>formik-material-ui</link>
       <text>: Bindings for using Material-UI with</text>
       <link>formik</link>
@@ -30763,7 +30809,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     </listitem>
     <listitem>
       • redux-form-material-ui : Bindings for using Material-UI with Redux Form
-      .<statictext>•</statictext>
+      .<list-item-marker>•</list-item-marker>
       <link>redux-form-material-ui</link>
       <text>: Bindings for using Material-UI with</text>
       <link>Redux Form</link>
@@ -30771,7 +30817,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     </listitem>
     <listitem>
       • mui-rff : Bindings for using Material-UI with React Final Form .
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link>mui-rff</link>
       <text>: Bindings for using Material-UI with</text>
       <link>React Final Form</link>
@@ -30786,47 +30832,47 @@ exports[`firefox /components/text-fields/ 1`] = `
   <list>
     <listitem>
       • <FilledInput />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><FilledInput /></link>
     </listitem>
     <listitem>
       • <FormControl />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><FormControl /></link>
     </listitem>
     <listitem>
       • <FormHelperText />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><FormHelperText /></link>
     </listitem>
     <listitem>
       • <Input />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Input /></link>
     </listitem>
     <listitem>
       • <InputAdornment />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><InputAdornment /></link>
     </listitem>
     <listitem>
       • <InputBase />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><InputBase /></link>
     </listitem>
     <listitem>
       • <InputLabel />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><InputLabel /></link>
     </listitem>
     <listitem>
       • <OutlinedInput />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><OutlinedInput /></link>
     </listitem>
     <listitem>
       • <TextField />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><TextField /></link>
     </listitem>
   </list>
@@ -31513,7 +31559,7 @@ exports[`firefox /components/tooltips/ 1`] = `
   <list>
     <listitem>
       • <Tooltip />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Tooltip /></link>
     </listitem>
   </list>
@@ -31705,22 +31751,22 @@ exports[`firefox /components/transfer-list 1`] = `
   <list>
     <listitem>
       • <Checkbox />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Checkbox /></link>
     </listitem>
     <listitem>
       • <List />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><List /></link>
     </listitem>
     <listitem>
       • <ListItem />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><ListItem /></link>
     </listitem>
     <listitem>
       • <Switch />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><Switch /></link>
     </listitem>
   </list>
@@ -32168,7 +32214,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     <listitem>
       • Arrow keys will not focus disabled items and, the next non-disabled item
       will be focused.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         Arrow keys will not focus disabled items and, the next non-disabled item
         will be focused.
@@ -32177,7 +32223,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     <listitem>
       • Typing the first character of a disabled item's label will not
       focus the item.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         Typing the first character of a disabled item's label will not
         focus the item.
@@ -32185,20 +32231,20 @@ exports[`firefox /components/tree-view/ 1`] = `
     </listitem>
     <listitem>
       • Mouse or keyboard interaction will not expand/collapse disabled items.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         Mouse or keyboard interaction will not expand/collapse disabled items.
       </text>
     </listitem>
     <listitem>
       • Mouse or keyboard interaction will not select disabled items.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>Mouse or keyboard interaction will not select disabled items.</text>
     </listitem>
     <listitem>
       • Shift + arrow keys will skip disabled items and, the next non-disabled
       item will be selected.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         Shift + arrow keys will skip disabled items and, the next non-disabled
         item will be selected.
@@ -32206,7 +32252,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     </listitem>
     <listitem>
       • Programmatic focus will not focus disabled items.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>Programmatic focus will not focus disabled items.</text>
     </listitem>
   </list>
@@ -32216,13 +32262,13 @@ exports[`firefox /components/tree-view/ 1`] = `
   <list>
     <listitem>
       • Arrow keys will focus disabled items.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>Arrow keys will focus disabled items.</text>
     </listitem>
     <listitem>
       • Typing the first character of a disabled item's label will focus
       the item.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         Typing the first character of a disabled item's label will focus
         the item.
@@ -32230,20 +32276,20 @@ exports[`firefox /components/tree-view/ 1`] = `
     </listitem>
     <listitem>
       • Mouse or keyboard interaction will not expand/collapse disabled items.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         Mouse or keyboard interaction will not expand/collapse disabled items.
       </text>
     </listitem>
     <listitem>
       • Mouse or keyboard interaction will not select disabled items.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>Mouse or keyboard interaction will not select disabled items.</text>
     </listitem>
     <listitem>
       • Shift + arrow keys will not skip disabled items but, the disabled item
       will not be selected.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>
         Shift + arrow keys will not skip disabled items but, the disabled item
         will not be selected.
@@ -32251,7 +32297,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     </listitem>
     <listitem>
       • Programmatic focus will focus disabled items.
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <text>Programmatic focus will focus disabled items.</text>
     </listitem>
   </list>
@@ -32284,12 +32330,12 @@ exports[`firefox /components/tree-view/ 1`] = `
   <list>
     <listitem>
       • <TreeItem />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><TreeItem /></link>
     </listitem>
     <listitem>
       • <TreeView />
-      <statictext>•</statictext>
+      <list-item-marker>•</list-item-marker>
       <link><TreeView /></link>
     </listitem>
   </list>
