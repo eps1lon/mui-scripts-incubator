@@ -14177,7 +14177,11 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Text Field</text>
   </heading>
   <paragraph>
-    <text>Text fields let users enter and edit text.</text>
+    <text>
+      Text fields let users enter and edit text.Help us keep runningIf you
+      don't mind tech related ads (no tracking or remarketing), and want to
+      keep us running, please whitelist Material-UI in your blocker.Thank you!
+    </text>
   </paragraph>
   <paragraph>
     <text>
