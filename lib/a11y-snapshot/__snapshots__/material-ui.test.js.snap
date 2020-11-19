@@ -12047,6 +12047,55 @@ exports[`chromium /components/slider 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
+    Unstyled slider
+    <Anchor></Anchor>
+    <text>Unstyled slider</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <slider
+    orientation="horizontal"
+    value="10"
+    valuemax="100"
+    valuemin="0"
+    valuetext=""
+  ></slider>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button>
+      Show the full source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
     Accessibility
     <Anchor></Anchor>
     <text>Accessibility</text>
@@ -12102,6 +12151,15 @@ exports[`chromium /components/slider 1`] = `
       </ListMarker>
       <link>
         <Slider />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
+      <link>
+        <SliderUnstyled />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
@@ -27555,6 +27613,26 @@ exports[`firefox /components/slider 1`] = `
     aria-labelledby="non-linear-slider" />
   </text>
   <heading level="2">
+    Unstyled slider
+    <link></link>
+    <text>Unstyled slider</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <slider orientation="horizontal" value="10" valuetext="10"></slider>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true"></buttonmenu>
+  </toolbar>
+  <text><StyledSlider defaultValue={10} /></text>
+  <heading level="2">
     Accessibility
     <link></link>
     <text>Accessibility</text>
@@ -27602,6 +27680,11 @@ exports[`firefox /components/slider 1`] = `
       • <Slider />
       <statictext>•</statictext>
       <link><Slider /></link>
+    </listitem>
+    <listitem>
+      • <SliderUnstyled />
+      <statictext>•</statictext>
+      <link><SliderUnstyled /></link>
     </listitem>
   </list>
   <separator></separator>
