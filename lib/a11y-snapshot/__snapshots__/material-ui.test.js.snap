@@ -14191,8 +14191,8 @@ exports[`chromium /components/tabs/ 1`] = `
       <button pressed="false">No</button>
     </group>
     <link>
-      Accordion
-      <text>Accordion</text>
+      Box
+      <text>Box</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -29118,7 +29118,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Accordion</link>
+  <link>Box</link>
 </landmark>;
 
 `;
