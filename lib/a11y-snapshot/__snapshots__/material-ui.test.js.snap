@@ -20589,7 +20589,10 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </heading>
   <paragraph>
     <text>
-      Breadcrumbs allow users to make selections from a range of values.
+      Breadcrumbs allow users to make selections from a range of values.Help us
+      keep runningIf you don't mind tech related ads (no tracking or
+      remarketing), and want to keep us running, please whitelist Material-UI in
+      your blocker.Thank you!
     </text>
   </paragraph>
   <list>
