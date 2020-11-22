@@ -8832,7 +8832,7 @@ exports[`chromium /components/radio-buttons 1`] = `
       <button pressed="false">Show TypeScript source</button>
     </group>
     <button>
-      Show the source
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button>
@@ -8855,6 +8855,9 @@ exports[`chromium /components/radio-buttons 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     useRadioGroup
     <Anchor></Anchor>
@@ -12894,7 +12897,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <button pressed="false">Show TypeScript source</button>
     </group>
     <button>
-      Show the source
+      Show the full source
       <SVGRoot></SVGRoot>
     </button>
     <button>
@@ -12917,6 +12920,9 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="3">
     Wrapped labels
     <Anchor></Anchor>
@@ -25327,13 +25333,27 @@ exports[`firefox /components/radio-buttons 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
+  <text>
+    <FormControl component="fieldset"> <FormLabel
+    component="legend">Gender</FormLabel> <RadioGroup
+    defaultValue="female" aria-label="gender"
+    name="customized-radios"> <FormControlLabel
+    value="female" control={<StyledRadio />}
+    label="Female" /> <FormControlLabel value="male"
+    control={<StyledRadio />} label="Male" />
+    <FormControlLabel value="other" control={<StyledRadio
+    />} label="Other" /> <FormControlLabel
+    value="disabled" disabled control={<StyledRadio
+    />} label="(Disabled option)" /> </RadioGroup>
+    </FormControl>
+  </text>
   <heading level="2">
     useRadioGroup
     <link></link>
@@ -27950,12 +27970,12 @@ exports[`firefox /components/switches/ 1`] = `
     <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
-    <FormGroup> <FormControlLabel control={ <Switch
+    <FormGroup> <FormControlLabel control={<Switch
     size="small" checked={checked}
-    onChange={toggleChecked} /> } label="Small"
-    /> <FormControlLabel control={<Switch
-    checked={checked} onChange={toggleChecked} />}
-    label="Normal" /> </FormGroup>
+    onChange={toggleChecked} />} label="Small" />
+    <FormControlLabel control={<Switch checked={checked}
+    onChange={toggleChecked} />} label="Normal"
+    /> </FormGroup>
   </text>
   <heading level="2">
     Label placement
@@ -28190,13 +28210,25 @@ exports[`firefox /components/tabs/ 1`] = `
   </tabpanel>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
+  <text>
+    <AppBar position="static"> <Tabs value={value}
+    onChange={handleChange} aria-label="simple tabs
+    example"> <Tab label="Item One"
+    {...a11yProps(0)} /> <Tab label="Item Two"
+    {...a11yProps(1)} /> <Tab label="Item Three"
+    {...a11yProps(2)} /> </Tabs> </AppBar> <TabPanel
+    value={value} index={0}> Item One </TabPanel>
+    <TabPanel value={value} index={1}> Item Two
+    </TabPanel> <TabPanel value={value}
+    index={2}> Item Three </TabPanel>
+  </text>
   <heading level="3">
     Wrapped labels
     <link></link>
@@ -30816,8 +30848,8 @@ exports[`firefox /components/text-fields/ 1`] = `
     <FormControl> <InputLabel htmlFor="my-input">Email
     address</InputLabel> <Input id="my-input"
     aria-describedby="my-helper-text" /> <FormHelperText
-    id="my-helper-text"> We'll never share your email.
-    </FormHelperText> </FormControl>
+    id="my-helper-text">We'll never share your
+    email.</FormHelperText> </FormControl>
   </text>
   <heading level="2">
     Complementary projects
@@ -31386,7 +31418,7 @@ exports[`firefox /components/tooltips/ 1`] = `
   <text>
     <Tooltip title="You don't have permission to do this">
     <span> <button disabled={disabled} style={disabled ?
-    { pointerEvents: 'none' } : {}} > A
+    { pointerEvents: 'none' } : {}}> A
     disabled button </button> </span> </Tooltip>
   </text>
   <heading level="2">
