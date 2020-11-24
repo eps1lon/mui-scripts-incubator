@@ -296,14 +296,14 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.17. View versions page.</link>
+      <link>v5.0.0-alpha.16. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v5.0.0-alpha.17</link>
+  <link>v5.0.0-alpha.16</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -2445,7 +2445,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -2511,7 +2510,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -2623,7 +2621,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -2692,7 +2689,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -2757,7 +2753,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -2839,7 +2834,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -2929,7 +2923,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -3190,7 +3183,6 @@ exports[`chromium /components/button-group/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -3275,7 +3267,6 @@ exports[`chromium /components/button-group/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -3360,7 +3351,6 @@ exports[`chromium /components/button-group/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -3419,7 +3409,6 @@ exports[`chromium /components/button-group/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -3474,7 +3463,6 @@ exports[`chromium /components/button-group/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -3709,7 +3697,6 @@ exports[`chromium /components/buttons/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -3756,7 +3743,6 @@ exports[`chromium /components/buttons/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -3840,7 +3826,6 @@ exports[`chromium /components/buttons/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -3912,7 +3897,6 @@ exports[`chromium /components/buttons/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -3988,7 +3972,6 @@ exports[`chromium /components/buttons/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -4085,7 +4068,6 @@ exports[`chromium /components/buttons/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -4162,7 +4144,6 @@ exports[`chromium /components/buttons/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -4228,7 +4209,6 @@ exports[`chromium /components/buttons/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -4291,7 +4271,6 @@ exports[`chromium /components/buttons/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -4358,7 +4337,6 @@ exports[`chromium /components/buttons/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -4422,7 +4400,6 @@ exports[`chromium /components/buttons/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -4485,7 +4462,6 @@ exports[`chromium /components/buttons/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -4819,7 +4795,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -4878,7 +4853,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -4967,7 +4941,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -5056,7 +5029,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -5121,7 +5093,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -5174,7 +5145,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -5496,7 +5466,6 @@ exports[`chromium /components/dialogs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -5601,7 +5570,6 @@ exports[`chromium /components/dialogs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -5650,7 +5618,6 @@ exports[`chromium /components/dialogs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -5702,7 +5669,6 @@ exports[`chromium /components/dialogs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -5757,7 +5723,6 @@ exports[`chromium /components/dialogs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -5801,7 +5766,6 @@ exports[`chromium /components/dialogs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -5856,7 +5820,6 @@ exports[`chromium /components/dialogs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -5911,7 +5874,6 @@ exports[`chromium /components/dialogs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -5984,7 +5946,6 @@ exports[`chromium /components/dialogs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -6039,7 +6000,6 @@ exports[`chromium /components/dialogs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -6112,7 +6072,6 @@ exports[`chromium /components/dialogs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -6540,7 +6499,6 @@ exports[`chromium /components/pagination/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -6787,7 +6745,6 @@ exports[`chromium /components/pagination/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -6932,7 +6889,6 @@ exports[`chromium /components/pagination/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -7128,7 +7084,6 @@ exports[`chromium /components/pagination/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -7279,7 +7234,6 @@ exports[`chromium /components/pagination/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -7530,7 +7484,6 @@ exports[`chromium /components/pagination/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -7627,7 +7580,6 @@ exports[`chromium /components/pagination/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -7721,7 +7673,6 @@ exports[`chromium /components/pagination/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -7823,7 +7774,6 @@ exports[`chromium /components/pagination/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -7896,7 +7846,6 @@ exports[`chromium /components/pagination/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -8172,7 +8121,6 @@ exports[`chromium /components/pickers 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -8250,7 +8198,6 @@ exports[`chromium /components/pickers 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -8336,7 +8283,6 @@ exports[`chromium /components/pickers 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -8407,7 +8353,6 @@ exports[`chromium /components/pickers 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -8623,7 +8568,6 @@ exports[`chromium /components/radio-buttons 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -8689,7 +8633,6 @@ exports[`chromium /components/radio-buttons 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -8765,7 +8708,6 @@ exports[`chromium /components/radio-buttons 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -8840,7 +8782,6 @@ exports[`chromium /components/radio-buttons 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -8891,7 +8832,7 @@ exports[`chromium /components/radio-buttons 1`] = `
       <button pressed="false">Show TypeScript source</button>
     </group>
     <button>
-      Show the full source
+      Show the source
       <SVGRoot></SVGRoot>
     </button>
     <button>
@@ -8911,13 +8852,9 @@ exports[`chromium /components/radio-buttons 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     useRadioGroup
     <Anchor></Anchor>
@@ -9021,7 +8958,6 @@ exports[`chromium /components/radio-buttons 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -9361,7 +9297,6 @@ exports[`chromium /components/rating/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -9442,7 +9377,6 @@ exports[`chromium /components/rating/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -9524,7 +9458,6 @@ exports[`chromium /components/rating/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -9632,7 +9565,6 @@ exports[`chromium /components/rating/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -9782,7 +9714,6 @@ exports[`chromium /components/rating/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -9876,7 +9807,6 @@ exports[`chromium /components/rating/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -10069,7 +9999,6 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -10165,7 +10094,6 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -10227,7 +10155,6 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -10276,7 +10203,6 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -10364,7 +10290,6 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -10423,7 +10348,6 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -10526,7 +10450,6 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -10604,7 +10527,6 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -10653,7 +10575,6 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -10702,7 +10623,6 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -10749,7 +10669,6 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -10806,7 +10725,6 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -10859,7 +10777,6 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -10909,7 +10826,6 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -10980,7 +10896,6 @@ exports[`chromium /components/selects/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -11246,7 +11161,6 @@ exports[`chromium /components/slider 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -11323,7 +11237,6 @@ exports[`chromium /components/slider 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -11379,7 +11292,6 @@ exports[`chromium /components/slider 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -11441,7 +11353,6 @@ exports[`chromium /components/slider 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -11507,7 +11418,6 @@ exports[`chromium /components/slider 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -11569,7 +11479,6 @@ exports[`chromium /components/slider 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -11643,7 +11552,6 @@ exports[`chromium /components/slider 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -11707,7 +11615,6 @@ exports[`chromium /components/slider 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -11814,7 +11721,6 @@ exports[`chromium /components/slider 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -11894,7 +11800,6 @@ exports[`chromium /components/slider 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -11991,7 +11896,6 @@ exports[`chromium /components/slider 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -12071,7 +11975,6 @@ exports[`chromium /components/slider 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -12137,7 +12040,6 @@ exports[`chromium /components/slider 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -12187,7 +12089,6 @@ exports[`chromium /components/slider 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -12413,7 +12314,6 @@ exports[`chromium /components/switches/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -12478,7 +12378,6 @@ exports[`chromium /components/switches/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -12547,7 +12446,6 @@ exports[`chromium /components/switches/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -12604,7 +12502,6 @@ exports[`chromium /components/switches/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -12660,7 +12557,6 @@ exports[`chromium /components/switches/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -12720,7 +12616,6 @@ exports[`chromium /components/switches/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -12999,7 +12894,7 @@ exports[`chromium /components/tabs/ 1`] = `
       <button pressed="false">Show TypeScript source</button>
     </group>
     <button>
-      Show the full source
+      Show the source
       <SVGRoot></SVGRoot>
     </button>
     <button>
@@ -13019,13 +12914,9 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="3">
     Wrapped labels
     <Anchor></Anchor>
@@ -13091,7 +12982,6 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -13151,7 +13041,6 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -13238,7 +13127,6 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -13297,7 +13185,6 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -13384,7 +13271,6 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -13469,7 +13355,6 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -13549,7 +13434,6 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -13628,7 +13512,6 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -13708,7 +13591,6 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -13799,7 +13681,6 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -13875,7 +13756,6 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -13933,7 +13813,6 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -13989,7 +13868,6 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -14163,7 +14041,6 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -14233,7 +14110,6 @@ exports[`chromium /components/tabs/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -14472,7 +14348,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -14718,7 +14593,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -14834,7 +14708,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -14987,7 +14860,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -15125,7 +14997,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -15186,7 +15057,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -15352,7 +15222,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -15455,7 +15324,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -15665,7 +15533,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -15766,7 +15633,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -15927,7 +15793,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -15989,7 +15854,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -16057,7 +15921,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -16165,7 +16028,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -16231,7 +16093,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -16396,7 +16257,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -16455,7 +16315,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -16533,7 +16392,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -16880,7 +16738,6 @@ exports[`chromium /components/tooltips/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -16981,7 +16838,6 @@ exports[`chromium /components/tooltips/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -17041,7 +16897,6 @@ exports[`chromium /components/tooltips/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -17092,7 +16947,6 @@ exports[`chromium /components/tooltips/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -17176,7 +17030,6 @@ exports[`chromium /components/tooltips/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -17229,7 +17082,6 @@ exports[`chromium /components/tooltips/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -17295,7 +17147,6 @@ exports[`chromium /components/tooltips/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -17356,7 +17207,6 @@ exports[`chromium /components/tooltips/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -17423,7 +17273,6 @@ exports[`chromium /components/tooltips/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -17498,7 +17347,6 @@ exports[`chromium /components/tooltips/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -17547,7 +17395,6 @@ exports[`chromium /components/tooltips/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -17608,7 +17455,6 @@ exports[`chromium /components/tooltips/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -17671,7 +17517,6 @@ exports[`chromium /components/tooltips/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -17758,7 +17603,6 @@ exports[`chromium /components/tooltips/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -17948,7 +17792,6 @@ exports[`chromium /components/transfer-list 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -18056,7 +17899,6 @@ exports[`chromium /components/transfer-list 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -18256,7 +18098,6 @@ exports[`chromium /components/tree-view/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -18312,7 +18153,6 @@ exports[`chromium /components/tree-view/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -18376,7 +18216,6 @@ exports[`chromium /components/tree-view/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -18452,7 +18291,6 @@ exports[`chromium /components/tree-view/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -18515,7 +18353,6 @@ exports[`chromium /components/tree-view/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -18566,7 +18403,6 @@ exports[`chromium /components/tree-view/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -18641,7 +18477,6 @@ exports[`chromium /components/tree-view/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -18747,7 +18582,6 @@ exports[`chromium /components/tree-view/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -18808,7 +18642,6 @@ exports[`chromium /components/tree-view/ 1`] = `
       <SVGRoot></SVGRoot>
     </button>
     <combobox haspopup="menu">
-      See more
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
@@ -19280,7 +19113,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.17. View versions page.</link>
+      <link>v5.0.0-alpha.16. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
@@ -20818,7 +20651,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Breadcrumbs aria-label="breadcrumb"> <Link
@@ -20865,7 +20698,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Custom separator
@@ -20946,7 +20779,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Breadcrumbs with icons
@@ -20981,7 +20814,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Collapsed breadcrumbs
@@ -21018,7 +20851,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Breadcrumbs maxItems={2} aria-label="breadcrumb">
@@ -21077,7 +20910,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Integration with react-router
@@ -21148,7 +20981,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Accessibility
@@ -21324,7 +21157,7 @@ exports[`firefox /components/button-group/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Sizes and colors
@@ -21387,7 +21220,7 @@ exports[`firefox /components/button-group/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Vertical group
@@ -21450,7 +21283,7 @@ exports[`firefox /components/button-group/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Split button
@@ -21483,7 +21316,7 @@ exports[`firefox /components/button-group/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Disabled elevation
@@ -21514,7 +21347,7 @@ exports[`firefox /components/button-group/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <ButtonGroup disableElevation variant="contained"
@@ -21660,7 +21493,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Button variant="contained">Primary</Button>
@@ -21688,7 +21521,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Button variant="contained" disableElevation> Disable
@@ -21746,7 +21579,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Button>Primary</Button> <Button
@@ -21796,7 +21629,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Button variant="outlined">Primary</Button> <Button
@@ -21855,7 +21688,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Sizes
@@ -21916,7 +21749,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Buttons with icons and label
@@ -21966,7 +21799,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Icon Buttons
@@ -21998,7 +21831,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <IconButton aria-label="delete"> <DeleteIcon />
@@ -22045,7 +21878,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
@@ -22090,7 +21923,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <LoadingButton pending variant="outlined"> Submit
@@ -22137,7 +21970,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Complex Buttons
@@ -22174,7 +22007,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Third-party routing library
@@ -22388,7 +22221,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Indeterminate
@@ -22426,7 +22259,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <FormControlLabel label="Parent" control={ <Checkbox
@@ -22504,7 +22337,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     FormGroup
@@ -22578,7 +22411,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Label placement
@@ -22626,7 +22459,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Customized checkbox
@@ -22655,7 +22488,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
@@ -22875,7 +22708,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Typography variant="subtitle1">Selected:
@@ -22961,7 +22794,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Transitions
@@ -22988,7 +22821,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Form dialogs
@@ -23018,7 +22851,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Customized dialogs
@@ -23051,7 +22884,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Full-screen dialogs
@@ -23073,7 +22906,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Optional sizes
@@ -23102,7 +22935,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Responsive full-screen
@@ -23135,7 +22968,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Confirmation dialogs
@@ -23186,7 +23019,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Draggable dialog
@@ -23217,7 +23050,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Scrolling long content
@@ -23268,7 +23101,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Performance
@@ -23611,7 +23444,7 @@ exports[`firefox /components/pagination/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Pagination count={10} /> <Pagination
@@ -23847,7 +23680,7 @@ exports[`firefox /components/pagination/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Pagination count={10} variant="outlined" />
@@ -23979,7 +23812,7 @@ exports[`firefox /components/pagination/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Pagination count={10} shape="rounded" />
@@ -24161,7 +23994,7 @@ exports[`firefox /components/pagination/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Pagination count={10} size="small" />
@@ -24296,7 +24129,7 @@ exports[`firefox /components/pagination/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Pagination count={10} showFirstButton showLastButton />
@@ -24527,7 +24360,7 @@ exports[`firefox /components/pagination/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Pagination count={11} defaultPage={6}
@@ -24610,7 +24443,7 @@ exports[`firefox /components/pagination/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Typography>Page: {page}</Typography> <Pagination
@@ -24686,7 +24519,7 @@ exports[`firefox /components/pagination/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     usePagination
@@ -24774,7 +24607,7 @@ exports[`firefox /components/pagination/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Table pagination
@@ -24817,7 +24650,7 @@ exports[`firefox /components/pagination/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <TablePagination component="div" count={100}
@@ -25005,7 +24838,7 @@ exports[`firefox /components/pickers 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Native pickers
@@ -25064,7 +24897,7 @@ exports[`firefox /components/pickers 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <form className={classes.container} noValidate>
@@ -25106,7 +24939,7 @@ exports[`firefox /components/pickers 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <form className={classes.container} noValidate>
@@ -25163,7 +24996,7 @@ exports[`firefox /components/pickers 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <form className={classes.container} noValidate>
@@ -25301,7 +25134,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <paragraph>
     <text>
@@ -25335,7 +25168,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Label placement
@@ -25389,7 +25222,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Show error
@@ -25443,7 +25276,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Customized radios
@@ -25494,27 +25327,13 @@ exports[`firefox /components/radio-buttons 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
-  <text>
-    <FormControl component="fieldset"> <FormLabel
-    component="legend">Gender</FormLabel> <RadioGroup
-    defaultValue="female" aria-label="gender"
-    name="customized-radios"> <FormControlLabel
-    value="female" control={<StyledRadio />}
-    label="Female" /> <FormControlLabel value="male"
-    control={<StyledRadio />} label="Male" />
-    <FormControlLabel value="other" control={<StyledRadio
-    />} label="Other" /> <FormControlLabel
-    value="disabled" disabled control={<StyledRadio
-    />} label="(Disabled option)" /> </RadioGroup>
-    </FormControl>
-  </text>
   <heading level="2">
     useRadioGroup
     <link></link>
@@ -25597,7 +25416,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <RadioGroup name="use-radio-group"
@@ -25858,7 +25677,7 @@ exports[`firefox /components/rating/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Typography component="legend">Controlled</Typography>
@@ -25946,7 +25765,7 @@ exports[`firefox /components/rating/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Rating name="half-rating" defaultValue={2.5}
@@ -26026,7 +25845,7 @@ exports[`firefox /components/rating/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Rating name="hover-feedback" value={value}
@@ -26132,7 +25951,7 @@ exports[`firefox /components/rating/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Rating name="size-small" defaultValue={2}
@@ -26301,7 +26120,7 @@ exports[`firefox /components/rating/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Accessibility
@@ -26377,7 +26196,7 @@ exports[`firefox /components/rating/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Rating name="text-feedback" value={value} readOnly
@@ -26500,7 +26319,7 @@ exports[`firefox /components/selects/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <FormControl fullWidth> <InputLabel
@@ -26571,7 +26390,7 @@ exports[`firefox /components/selects/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="3">
     Labels and helper text
@@ -26608,7 +26427,7 @@ exports[`firefox /components/selects/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="3">
     Auto width
@@ -26634,7 +26453,7 @@ exports[`firefox /components/selects/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="3">
     Other props
@@ -26696,7 +26515,7 @@ exports[`firefox /components/selects/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Native select
@@ -26742,7 +26561,7 @@ exports[`firefox /components/selects/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <FormControl fullWidth> <InputLabel
@@ -26832,7 +26651,7 @@ exports[`firefox /components/selects/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
@@ -26881,7 +26700,7 @@ exports[`firefox /components/selects/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="3">
     Checkmarks
@@ -26907,7 +26726,7 @@ exports[`firefox /components/selects/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="3">
     Chip
@@ -26933,7 +26752,7 @@ exports[`firefox /components/selects/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="3">
     Placeholder
@@ -26956,7 +26775,7 @@ exports[`firefox /components/selects/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="3">
     Native
@@ -27022,7 +26841,7 @@ exports[`firefox /components/selects/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Controlled open select
@@ -27052,7 +26871,7 @@ exports[`firefox /components/selects/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     With a dialog
@@ -27080,7 +26899,7 @@ exports[`firefox /components/selects/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Grouping
@@ -27141,7 +26960,7 @@ exports[`firefox /components/selects/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Accessibility
@@ -27307,7 +27126,7 @@ exports[`firefox /components/slider 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Discrete sliders
@@ -27350,7 +27169,7 @@ exports[`firefox /components/slider 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="3">
     Small steps
@@ -27378,7 +27197,7 @@ exports[`firefox /components/slider 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Typography id="discrete-slider-small-steps" gutterBottom>
@@ -27416,7 +27235,7 @@ exports[`firefox /components/slider 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Typography id="discrete-slider-custom" gutterBottom> Custom
@@ -27454,7 +27273,7 @@ exports[`firefox /components/slider 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Typography id="discrete-slider-restrict" gutterBottom>
@@ -27493,7 +27312,7 @@ exports[`firefox /components/slider 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Typography id="discrete-slider-always" gutterBottom> Always
@@ -27535,7 +27354,7 @@ exports[`firefox /components/slider 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Typography id="range-slider-demo" gutterBottom> Temperature
@@ -27574,7 +27393,7 @@ exports[`firefox /components/slider 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Customized sliders
@@ -27629,7 +27448,7 @@ exports[`firefox /components/slider 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Vertical sliders
@@ -27662,7 +27481,7 @@ exports[`firefox /components/slider 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Track
@@ -27709,7 +27528,7 @@ exports[`firefox /components/slider 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="3">
     Inverted track
@@ -27745,7 +27564,7 @@ exports[`firefox /components/slider 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Non-linear scale
@@ -27781,7 +27600,7 @@ exports[`firefox /components/slider 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Typography id="non-linear-slider" gutterBottom> Storage:
@@ -27810,7 +27629,7 @@ exports[`firefox /components/slider 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text><StyledSlider defaultValue={10} /></text>
   <heading level="2">
@@ -27946,7 +27765,7 @@ exports[`firefox /components/switches/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Switch with FormControlLabel
@@ -27997,7 +27816,7 @@ exports[`firefox /components/switches/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Switches with FormGroup
@@ -28050,7 +27869,7 @@ exports[`firefox /components/switches/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Customized switches
@@ -28092,7 +27911,7 @@ exports[`firefox /components/switches/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
@@ -28128,15 +27947,15 @@ exports[`firefox /components/switches/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
-    <FormGroup> <FormControlLabel control={<Switch
+    <FormGroup> <FormControlLabel control={ <Switch
     size="small" checked={checked}
-    onChange={toggleChecked} />} label="Small" />
-    <FormControlLabel control={<Switch checked={checked}
-    onChange={toggleChecked} />} label="Normal"
-    /> </FormGroup>
+    onChange={toggleChecked} /> } label="Small"
+    /> <FormControlLabel control={<Switch
+    checked={checked} onChange={toggleChecked} />}
+    label="Normal" /> </FormGroup>
   </text>
   <heading level="2">
     Label placement
@@ -28179,7 +27998,7 @@ exports[`firefox /components/switches/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     When to use
@@ -28371,25 +28190,13 @@ exports[`firefox /components/tabs/ 1`] = `
   </tabpanel>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
-  <text>
-    <AppBar position="static"> <Tabs value={value}
-    onChange={handleChange} aria-label="simple tabs
-    example"> <Tab label="Item One"
-    {...a11yProps(0)} /> <Tab label="Item Two"
-    {...a11yProps(1)} /> <Tab label="Item Three"
-    {...a11yProps(2)} /> </Tabs> </AppBar> <TabPanel
-    value={value} index={0}> Item One </TabPanel>
-    <TabPanel value={value} index={1}> Item Two
-    </TabPanel> <TabPanel value={value}
-    index={2}> Item Three </TabPanel>
-  </text>
   <heading level="3">
     Wrapped labels
     <link></link>
@@ -28433,7 +28240,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="3">
     Disabled tab
@@ -28469,7 +28276,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Paper square> <Tabs value={value}
@@ -28538,7 +28345,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="3">
     Centered
@@ -28573,7 +28380,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Paper className={classes.root}> <Tabs
@@ -28641,7 +28448,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Tabs value={value} onChange={handleChange}
@@ -28707,7 +28514,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Tabs value={value} onChange={handleChange}
@@ -28768,7 +28575,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="3">
     Prevent scroll buttons
@@ -28825,7 +28632,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Tabs value={value} onChange={handleChange}
@@ -28890,7 +28697,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
@@ -28956,7 +28763,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <paragraph>
     <text>Note that you can restore the scrollbar with visibleScrollbar.</text>
@@ -29005,7 +28812,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Icon Tabs
@@ -29032,7 +28839,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Paper square className={classes.root}> <Tabs
@@ -29070,7 +28877,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Paper square className={classes.root}> <Tabs
@@ -29207,7 +29014,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Experimental API
@@ -29252,7 +29059,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <TabContext value={value}> <AppBar
@@ -29400,7 +29207,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <form className={classes.root} noValidate
@@ -29608,7 +29415,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Validation
@@ -29695,7 +29502,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Multiline
@@ -29794,7 +29601,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Select
@@ -29937,7 +29744,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Icons
@@ -29976,7 +29783,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="3">
     Input Adornments
@@ -30096,7 +29903,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Sizes
@@ -30171,7 +29978,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Layout
@@ -30334,7 +30141,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Uncontrolled vs Controlled
@@ -30409,7 +30216,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Components
@@ -30522,7 +30329,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Inputs
@@ -30559,7 +30366,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Color
@@ -30601,7 +30408,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Customized inputs
@@ -30679,7 +30486,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <paragraph>
     <text>
@@ -30708,7 +30515,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
@@ -30852,7 +30659,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <TextField helperText="Please enter your name"
@@ -30893,7 +30700,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <TextField helperText="Please enter your name"
@@ -30951,7 +30758,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <paragraph>
     <text>
@@ -31009,8 +30816,8 @@ exports[`firefox /components/text-fields/ 1`] = `
     <FormControl> <InputLabel htmlFor="my-input">Email
     address</InputLabel> <Input id="my-input"
     aria-describedby="my-helper-text" /> <FormHelperText
-    id="my-helper-text">We'll never share your
-    email.</FormHelperText> </FormControl>
+    id="my-helper-text"> We'll never share your email.
+    </FormHelperText> </FormControl>
   </text>
   <heading level="2">
     Complementary projects
@@ -31185,7 +30992,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Tooltip title="Delete"> <IconButton> <DeleteIcon
@@ -31269,7 +31076,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Customized tooltips
@@ -31307,7 +31114,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Arrow tooltips
@@ -31335,7 +31142,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Tooltip title="Add" arrow>
@@ -31402,7 +31209,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Controlled tooltips
@@ -31430,7 +31237,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Tooltip open={open} onClose={handleClose}
@@ -31474,7 +31281,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Tooltip title={longText}> <Button
@@ -31517,7 +31324,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Tooltip title="Add" disableInteractive> <Button>Not
@@ -31559,7 +31366,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Tooltip title="You don't have permission to do this">
@@ -31579,7 +31386,7 @@ exports[`firefox /components/tooltips/ 1`] = `
   <text>
     <Tooltip title="You don't have permission to do this">
     <span> <button disabled={disabled} style={disabled ?
-    { pointerEvents: 'none' } : {}}> A
+    { pointerEvents: 'none' } : {}} > A
     disabled button </button> </span> </Tooltip>
   </text>
   <heading level="2">
@@ -31613,7 +31420,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Tooltip title="Add"> <Button>Grow</Button>
@@ -31646,7 +31453,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Tooltip title="You don't have permission to do this"
@@ -31680,7 +31487,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Showing and hiding
@@ -31718,7 +31525,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Tooltip title="Add" enterDelay={500}
@@ -31773,7 +31580,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <text>
     <Tooltip title="Delete"> <IconButton> <DeleteIcon
@@ -31895,7 +31702,7 @@ exports[`firefox /components/transfer-list 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Enhanced Transfer List
@@ -31971,7 +31778,7 @@ exports[`firefox /components/transfer-list 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     API
@@ -32081,7 +31888,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Multi-selection
@@ -32113,7 +31920,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Controlled tree view
@@ -32153,7 +31960,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Rich object
@@ -32203,7 +32010,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     ContentComponent prop
@@ -32241,7 +32048,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <paragraph>
     <text>Or increasing the width of the state indicator:</text>
@@ -32268,7 +32075,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Customized tree view
@@ -32316,7 +32123,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="3">
     Gmail clone
@@ -32391,7 +32198,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <heading level="2">
     Disabled tree items
@@ -32429,7 +32236,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
+    <buttonmenu haspopup="true"></buttonmenu>
   </toolbar>
   <paragraph>
     <text>
