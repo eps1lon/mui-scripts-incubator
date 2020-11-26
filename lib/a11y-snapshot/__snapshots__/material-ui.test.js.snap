@@ -22,26 +22,18 @@ exports[`chromium / 1`] = `
       <text>ENGLISH</text>
       <SVGRoot></SVGRoot>
     </combobox>
+    <button>
+      Toggle settings drawer
+      <SVGRoot></SVGRoot>
+    </button>
     <combobox haspopup="menu">
       Toggle notifications panel
       <SVGRoot></SVGRoot>
     </combobox>
     <link>
-      Edit website colors
-      <SVGRoot></SVGRoot>
-    </link>
-    <link>
       GitHub repository
       <SVGRoot></SVGRoot>
     </link>
-    <button>
-      Toggle light/dark theme
-      <SVGRoot></SVGRoot>
-    </button>
-    <button>
-      Toggle right-to-left/left-to-right
-      <SVGRoot></SVGRoot>
-    </button>
   </banner>
   <navigation>Main navigation</navigation>
   <main>
@@ -19027,11 +19019,9 @@ exports[`firefox / 1`] = `
       Change language
       <text>ENGLISH</text>
     </buttonmenu>
+    <button>Toggle settings drawer</button>
     <buttonmenu haspopup="true">Toggle notifications panel</buttonmenu>
-    <link>Edit website colors</link>
     <link>GitHub repository</link>
-    <button>Toggle light/dark theme</button>
-    <button>Toggle right-to-left/left-to-right</button>
   </landmark>
   <landmark>Main navigation</landmark>
   <landmark>
