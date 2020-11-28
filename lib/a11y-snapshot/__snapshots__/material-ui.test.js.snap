@@ -214,7 +214,7 @@ exports[`chromium / 1`] = `
       <text>Who's using Material-UI?</text>
     </heading>
     <paragraph>
-      <text>Join these and other great organisations!</text>
+      <text>Join these and other great organizations!</text>
     </paragraph>
     <img>NASA</img>
     <img>Walmart Labs</img>
@@ -386,12 +386,12 @@ exports[`chromium /api/button/ 1`] = `
   </link>
   <heading level="1">
     Button API
-    <text>Button API</text>
+    <text>ButtonAPI</text>
   </heading>
   <paragraph>
     <text>
-      The API documentation of the Button React component. Learn more about the
-      props and the CSS customization points.
+      API documentation for the React Button component. Learn about the
+      available props, and the CSS API.
     </text>
   </paragraph>
   <heading level="2">
@@ -402,25 +402,9 @@ exports[`chromium /api/button/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
-  <paragraph>
-    <text>You can learn more about the difference by</text>
-    <link>reading this guide</link>
-    <text>.</text>
-  </paragraph>
-  <heading level="2">
-    Component name
-    <Anchor></Anchor>
-    <text>Component name</text>
-  </heading>
-  <paragraph>
-    <text>The</text>
-    <code>$SOME_CODE</code>
-    <text>name can be used for providing</text>
-    <link>default props</link>
-    <text>or</text>
-    <link>style overrides</link>
-    <text>at the theme level.</text>
-  </paragraph>
+  <text>You can learn about the difference by</text>
+  <link>reading this guide on minimizing bundle size</link>
+  <text>.</text>
   <heading level="2">
     Props
     <Anchor></Anchor>
@@ -513,10 +497,7 @@ exports[`chromium /api/button/ 1`] = `
         elementType
         <text>elementType</text>
       </gridcell>
-      <gridcell>
-        'button'
-        <text>'button'</text>
-      </gridcell>
+      <gridcell></gridcell>
       <gridcell>
         The component used for the root node. Either a string to use a HTML
         element or a component.
@@ -595,18 +576,20 @@ exports[`chromium /api/button/ 1`] = `
         bool
         <text>bool</text>
       </gridcell>
-      <gridcell></gridcell>
+      <gridcell>
+        false
+        <text>false</text>
+      </gridcell>
       <gridcell>
         If true, the ripple effect is disabled. ⚠️ Without a ripple there is no
         styling for :focus-visible by default. Be sure to highlight the element
         by applying separate styles with the focusVisibleClassName.
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, the ripple effect is disabled.</text>
-        <LineBreak></LineBreak>
         <text>
-          ⚠️ Without a ripple there is no styling for :focus-visible by default.
-          Be sure to highlight the element by applying separate styles with the
+          , the ripple effect is disabled. ⚠️ Without a ripple there is no
+          styling for :focus-visible by default. Be sure to highlight the
+          element by applying separate styles with the
         </text>
         <code>$SOME_CODE</code>
         <text>.</text>
@@ -731,16 +714,26 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
     </row>
   </table>
-  <paragraph>
-    <text>The</text>
-    <code>$SOME_CODE</code>
-    <text>is forwarded to the root element.</text>
-  </paragraph>
-  <paragraph>
-    <text>Any other props supplied will be provided to the root element (</text>
-    <link>ButtonBase</link>
-    <text>).</text>
-  </paragraph>
+  <LineBreak></LineBreak>
+  <text>The</text>
+  <code>$SOME_CODE</code>
+  <text>is forwarded to the root element.</text>
+  <LineBreak></LineBreak>
+  <text>Any other props supplied will be provided to the root element (</text>
+  <link>ButtonBase</link>
+  <text>).</text>
+  <heading level="3">
+    Inheritance
+    <Anchor></Anchor>
+    <text>Inheritance</text>
+  </heading>
+  <text>While not explicitly documented above, the props of the</text>
+  <link>ButtonBase</link>
+  <text>
+    component are also available on Button. You can take advantage of this to
+  </text>
+  <link>target nested components</link>
+  <text>.</text>
   <heading level="2">
     CSS
     <Anchor></Anchor>
@@ -1218,10 +1211,11 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the icon element if supplied and
-        size="small".
-        <text>Styles applied to the icon element if supplied and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
+        \`size="small"\`.
+        <text>
+          Styles applied to the icon element if supplied and
+          \`size="small"\`.
+        </text>
       </gridcell>
     </row>
     <row>
@@ -1235,10 +1229,11 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the icon element if supplied and
-        size="medium".
-        <text>Styles applied to the icon element if supplied and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
+        \`size="medium"\`.
+        <text>
+          Styles applied to the icon element if supplied and
+          \`size="medium"\`.
+        </text>
       </gridcell>
     </row>
     <row>
@@ -1252,29 +1247,26 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the icon element if supplied and
-        size="large".
-        <text>Styles applied to the icon element if supplied and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
+        \`size="large"\`.
+        <text>
+          Styles applied to the icon element if supplied and
+          \`size="large"\`.
+        </text>
       </gridcell>
     </row>
   </table>
-  <paragraph>
-    <text>
-      You can override the style of the component thanks to one of these
-      customization points:
-    </text>
-  </paragraph>
+  <LineBreak></LineBreak>
+  <text>
+    You can override the style of the component using one of these customization
+    options:
+  </text>
   <list>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
       <text>With a rule name of the</text>
-      <link>
-        classes object prop
-        <code>$SOME_CODE</code>
-      </link>
+      <link>\`classes\` object prop</link>
       <text>.</text>
     </listitem>
     <listitem level="1">
@@ -1290,32 +1282,13 @@ exports[`chromium /api/button/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <text>With a theme and an</text>
-      <link>
-        overrides property
-        <code>$SOME_CODE</code>
-      </link>
+      <link>\`overrides\` property</link>
       <text>.</text>
     </listitem>
   </list>
-  <paragraph>
-    <text>If that's not sufficient, you can check the</text>
-    <link>implementation of the component</link>
-    <text>for more detail.</text>
-  </paragraph>
-  <heading level="2">
-    Inheritance
-    <Anchor></Anchor>
-    <text>Inheritance</text>
-  </heading>
-  <paragraph>
-    <text>The props of the</text>
-    <link>ButtonBase</link>
-    <text>
-      component are also available. You can take advantage of this behavior to
-    </text>
-    <link>target nested components</link>
-    <text>.</text>
-  </paragraph>
+  <text>If that isn't sufficient, you can check the</text>
+  <link>implementation of the component</link>
+  <text>for more detail.</text>
   <heading level="2">
     Demos
     <Anchor></Anchor>
@@ -1390,12 +1363,12 @@ exports[`chromium /api/select/ 1`] = `
   </link>
   <heading level="1">
     Select API
-    <text>Select API</text>
+    <text>SelectAPI</text>
   </heading>
   <paragraph>
     <text>
-      The API documentation of the Select React component. Learn more about the
-      props and the CSS customization points.
+      API documentation for the React Select component. Learn about the
+      available props, and the CSS API.
     </text>
   </paragraph>
   <heading level="2">
@@ -1406,25 +1379,9 @@ exports[`chromium /api/select/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
-  <paragraph>
-    <text>You can learn more about the difference by</text>
-    <link>reading this guide</link>
-    <text>.</text>
-  </paragraph>
-  <heading level="2">
-    Component name
-    <Anchor></Anchor>
-    <text>Component name</text>
-  </heading>
-  <paragraph>
-    <text>The</text>
-    <code>$SOME_CODE</code>
-    <text>name can be used for providing</text>
-    <link>default props</link>
-    <text>or</text>
-    <link>style overrides</link>
-    <text>at the theme level.</text>
-  </paragraph>
+  <text>You can learn about the difference by</text>
+  <link>reading this guide on minimizing bundle size</link>
+  <text>.</text>
   <heading level="2">
     Props
     <Anchor></Anchor>
@@ -1499,9 +1456,7 @@ exports[`chromium /api/select/ 1`] = `
         <code>$SOME_CODE</code>
         <text>when</text>
         <code>$SOME_CODE</code>
-        <text>is true.</text>
-        <LineBreak></LineBreak>
-        <text>⚠️The</text>
+        <text>is true. ⚠️The</text>
         <code>$SOME_CODE</code>
         <text>elementsmustbe direct descendants when</text>
         <code>$SOME_CODE</code>
@@ -1565,22 +1520,16 @@ exports[`chromium /api/select/ 1`] = `
         to a shrunk state.
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, a value is displayed even if no items are selected.</text>
-        <LineBreak></LineBreak>
         <text>
-          In order to display a meaningful value, a function can be passed to
-          the
+          , a value is displayed even if no items are selected. In order to
+          display a meaningful value, a function can be passed to the
         </text>
         <code>$SOME_CODE</code>
         <text>
           prop which returns the value to be displayed when no items are
-          selected.
-        </text>
-        <LineBreak></LineBreak>
-        <text>
-          ⚠️ When using this prop, make sure the label doesn't overlap with
-          the empty displayed value. The label should either be hidden or forced
-          to a shrunk state.
+          selected. ⚠️ When using this prop, make sure the label doesn't
+          overlap with the empty displayed value. The label should either be
+          hidden or forced to a shrunk state.
         </text>
       </gridcell>
     </row>
@@ -1798,26 +1747,20 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        Callback fired when a menu item is selected. Signature: function(event:
-        object, child?: object) => void event: The event source of the
-        callback. You can pull out the new value by accessing event.target.value
-        (any). child: The react element that was selected when native is false
-        (default).
-        <text>Callback fired when a menu item is selected.</text>
-        <LineBreak></LineBreak>
-        <LineBreak></LineBreak>
-        <text>Signature:</text>
-        <LineBreak></LineBreak>
-        <code>$SOME_CODE</code>
-        <LineBreak></LineBreak>
+        Callback fired when a menu item is selected. @param {object}
+        event The event source of the callback. You can pull out the new value
+        by accessing event.target.value (any). @param {object} [child]
+        The react element that was selected when native is false (default).
         <text>
-          event:The event source of the callback. You can pull out the new value
+          Callback fired when a menu item is selected. @param {object}
+          event The event source of the callback. You can pull out the new value
           by accessing
         </text>
         <code>$SOME_CODE</code>
-        <text>(any).</text>
-        <LineBreak></LineBreak>
-        <text>child:The react element that was selected when</text>
+        <text>
+          (any). @param {object} [child] The react element that was
+          selected when
+        </text>
         <code>$SOME_CODE</code>
         <text>is</text>
         <code>$SOME_CODE</code>
@@ -1836,19 +1779,13 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell></gridcell>
       <gridcell>
         Callback fired when the component requests to be closed. Use in
-        controlled mode (see open). Signature: function(event: object) =>
-        void event: The event source of the callback.
+        controlled mode (see open). @param {object} event The event
+        source of the callback.
         <text>
           Callback fired when the component requests to be closed. Use in
-          controlled mode (see open).
+          controlled mode (see open). @param {object} event The event
+          source of the callback.
         </text>
-        <LineBreak></LineBreak>
-        <LineBreak></LineBreak>
-        <text>Signature:</text>
-        <LineBreak></LineBreak>
-        <code>$SOME_CODE</code>
-        <LineBreak></LineBreak>
-        <text>event:The event source of the callback.</text>
       </gridcell>
     </row>
     <row>
@@ -1863,19 +1800,13 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell></gridcell>
       <gridcell>
         Callback fired when the component requests to be opened. Use in
-        controlled mode (see open). Signature: function(event: object) =>
-        void event: The event source of the callback.
+        controlled mode (see open). @param {object} event The event
+        source of the callback.
         <text>
           Callback fired when the component requests to be opened. Use in
-          controlled mode (see open).
+          controlled mode (see open). @param {object} event The event
+          source of the callback.
         </text>
-        <LineBreak></LineBreak>
-        <LineBreak></LineBreak>
-        <text>Signature:</text>
-        <LineBreak></LineBreak>
-        <code>$SOME_CODE</code>
-        <LineBreak></LineBreak>
-        <text>event:The event source of the callback.</text>
       </gridcell>
     </row>
     <row>
@@ -1887,7 +1818,10 @@ exports[`chromium /api/select/ 1`] = `
         bool
         <text>bool</text>
       </gridcell>
-      <gridcell></gridcell>
+      <gridcell>
+        false
+        <text>false</text>
+      </gridcell>
       <gridcell>
         Control select open state. You can only use it when the native prop is
         false (default).
@@ -1912,22 +1846,15 @@ exports[`chromium /api/select/ 1`] = `
       <gridcell></gridcell>
       <gridcell>
         Render the selected value. You can only use it when the native prop is
-        false (default). Signature: function(value: any) => ReactNode value:
-        The value provided to the component.
+        false (default). @param {any} value The value provided to the
+        component. @returns {ReactNode}
         <text>Render the selected value. You can only use it when the</text>
         <code>$SOME_CODE</code>
         <text>prop is</text>
         <code>$SOME_CODE</code>
-        <text>(default).</text>
-        <LineBreak></LineBreak>
-        <LineBreak></LineBreak>
-        <text>Signature:</text>
-        <LineBreak></LineBreak>
+        <text>(default). @param {any} value The</text>
         <code>$SOME_CODE</code>
-        <LineBreak></LineBreak>
-        <text>value:The</text>
-        <code>$SOME_CODE</code>
-        <text>provided to the component.</text>
+        <text>provided to the component. @returns {ReactNode}</text>
       </gridcell>
     </row>
     <row>
@@ -1975,14 +1902,11 @@ exports[`chromium /api/select/ 1`] = `
         <text>(default). Set to an empty string</text>
         <code>$SOME_CODE</code>
         <text>
-          if you don't want any of the available options to be selected.
-        </text>
-        <LineBreak></LineBreak>
-        <text>
-          If the value is an object it must have reference equality with the
-          option in order to be selected. If the value is not an object, the
-          string representation must match with the string representation of the
-          option in order to be selected.
+          if you don't want any of the available options to be selected. If
+          the value is an object it must have reference equality with the option
+          in order to be selected. If the value is not an object, the string
+          representation must match with the string representation of the option
+          in order to be selected.
         </text>
       </gridcell>
     </row>
@@ -2009,16 +1933,26 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
     </row>
   </table>
-  <paragraph>
-    <text>The</text>
-    <code>$SOME_CODE</code>
-    <text>is forwarded to the root element.</text>
-  </paragraph>
-  <paragraph>
-    <text>Any other props supplied will be provided to the root element (</text>
-    <link>Input</link>
-    <text>).</text>
-  </paragraph>
+  <LineBreak></LineBreak>
+  <text>The</text>
+  <code>$SOME_CODE</code>
+  <text>is forwarded to the root element.</text>
+  <LineBreak></LineBreak>
+  <text>Any other props supplied will be provided to the root element (</text>
+  <link>Input</link>
+  <text>).</text>
+  <heading level="3">
+    Inheritance
+    <Anchor></Anchor>
+    <text>Inheritance</text>
+  </heading>
+  <text>While not explicitly documented above, the props of the</text>
+  <link>Input</link>
+  <text>
+    component are also available on Select. You can take advantage of this to
+  </text>
+  <link>target nested components</link>
+  <text>.</text>
   <heading level="2">
     CSS
     <Anchor></Anchor>
@@ -2049,10 +1983,8 @@ exports[`chromium /api/select/ 1`] = `
         <text>.MuiSelect-root</text>
       </gridcell>
       <gridcell>
-        Styles applied to the select component root class.
-        <text>Styles applied to the select component</text>
-        <code>$SOME_CODE</code>
-        <text>class.</text>
+        Styles applied to the select component \`root\` class.
+        <text>Styles applied to the select component \`root\` class.</text>
       </gridcell>
     </row>
     <row>
@@ -2065,10 +1997,8 @@ exports[`chromium /api/select/ 1`] = `
         <text>.MuiSelect-select</text>
       </gridcell>
       <gridcell>
-        Styles applied to the select component select class.
-        <text>Styles applied to the select component</text>
-        <code>$SOME_CODE</code>
-        <text>class.</text>
+        Styles applied to the select component \`select\` class.
+        <text>Styles applied to the select component \`select\` class.</text>
       </gridcell>
     </row>
     <row>
@@ -2113,10 +2043,8 @@ exports[`chromium /api/select/ 1`] = `
         <text>.MuiSelect-selectMenu</text>
       </gridcell>
       <gridcell>
-        Styles applied to the select component selectMenu class.
-        <text>Styles applied to the select component</text>
-        <code>$SOME_CODE</code>
-        <text>class.</text>
+        Styles applied to the select component \`selectMenu\` class.
+        <text>Styles applied to the select component \`selectMenu\` class.</text>
       </gridcell>
     </row>
     <row>
@@ -2129,10 +2057,10 @@ exports[`chromium /api/select/ 1`] = `
         <text>.Mui-disabled</text>
       </gridcell>
       <gridcell>
-        Pseudo-class applied to the select component disabled class.
-        <text>Pseudo-class applied to the select component</text>
-        <code>$SOME_CODE</code>
-        <text>class.</text>
+        Pseudo-class applied to the select component \`disabled\` class.
+        <text>
+          Pseudo-class applied to the select component \`disabled\` class.
+        </text>
       </gridcell>
     </row>
     <row>
@@ -2210,22 +2138,18 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
     </row>
   </table>
-  <paragraph>
-    <text>
-      You can override the style of the component thanks to one of these
-      customization points:
-    </text>
-  </paragraph>
+  <LineBreak></LineBreak>
+  <text>
+    You can override the style of the component using one of these customization
+    options:
+  </text>
   <list>
     <listitem level="1">
       <ListMarker>
         •<text>•</text>
       </ListMarker>
       <text>With a rule name of the</text>
-      <link>
-        classes object prop
-        <code>$SOME_CODE</code>
-      </link>
+      <link>\`classes\` object prop</link>
       <text>.</text>
     </listitem>
     <listitem level="1">
@@ -2241,32 +2165,13 @@ exports[`chromium /api/select/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <text>With a theme and an</text>
-      <link>
-        overrides property
-        <code>$SOME_CODE</code>
-      </link>
+      <link>\`overrides\` property</link>
       <text>.</text>
     </listitem>
   </list>
-  <paragraph>
-    <text>If that's not sufficient, you can check the</text>
-    <link>implementation of the component</link>
-    <text>for more detail.</text>
-  </paragraph>
-  <heading level="2">
-    Inheritance
-    <Anchor></Anchor>
-    <text>Inheritance</text>
-  </heading>
-  <paragraph>
-    <text>The props of the</text>
-    <link>Input</link>
-    <text>
-      component are also available. You can take advantage of this behavior to
-    </text>
-    <link>target nested components</link>
-    <text>.</text>
-  </paragraph>
+  <text>If that isn't sufficient, you can check the</text>
+  <link>implementation of the component</link>
+  <text>for more detail.</text>
   <heading level="2">
     Demos
     <Anchor></Anchor>
@@ -19188,7 +19093,7 @@ exports[`firefox / 1`] = `
       <text>Who's using Material-UI?</text>
     </heading>
     <paragraph>
-      <text>Join these and other great organisations!</text>
+      <text>Join these and other great organizations!</text>
     </paragraph>
     <img>NASA</img>
     <img>Walmart Labs</img>
@@ -20056,8 +19961,8 @@ exports[`firefox /api/select/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      The API documentation of the Select React component. Learn more about the
-      props and the CSS customization points.
+      API documentation for the React Select component. Learn about the
+      available props, and the CSS API.
     </text>
   </paragraph>
   <heading level="2">
@@ -20067,25 +19972,11 @@ exports[`firefox /api/select/ 1`] = `
   </heading>
   <text>
     import Select from '@material-ui/core/Select'; // or import {
-    Select } from '@material-ui/core';
+    Select } from '@material-ui/core';You can learn about the
+    difference by
   </text>
-  <paragraph>
-    <text>You can learn more about the difference by</text>
-    <link>reading this guide</link>
-    <text>.</text>
-  </paragraph>
-  <heading level="2">
-    Component name
-    <link></link>
-    <text>Component name</text>
-  </heading>
-  <paragraph>
-    <text>The MuiSelect name can be used for providing</text>
-    <link>default props</link>
-    <text>or</text>
-    <link>style overrides</link>
-    <text>at the theme level.</text>
-  </paragraph>
+  <link>reading this guide on minimizing bundle size</link>
+  <text>.</text>
   <heading level="2">
     Props
     <link></link>
@@ -20135,12 +20026,8 @@ exports[`firefox /api/select/ 1`] = `
       <cell>
         <text>
           The option elements to populate the select with. Can be some MenuItem
-          when native is false and option when native is true.
-        </text>
-        <whitespace></whitespace>
-        <text>
-          ⚠️The MenuItem elements must be direct descendants when native is
-          false.
+          when native is false and option when native is true. ⚠️The MenuItem
+          elements must be direct descendants when native is false.
         </text>
       </cell>
     </row>
@@ -20184,19 +20071,12 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell>
         <text>
-          If true, a value is displayed even if no items are selected.
-        </text>
-        <whitespace></whitespace>
-        <text>
-          In order to display a meaningful value, a function can be passed to
-          the renderValue prop which returns the value to be displayed when no
-          items are selected.
-        </text>
-        <whitespace></whitespace>
-        <text>
-          ⚠️ When using this prop, make sure the label doesn't overlap with
-          the empty displayed value. The label should either be hidden or forced
-          to a shrunk state.
+          If true, a value is displayed even if no items are selected. In order
+          to display a meaningful value, a function can be passed to the
+          renderValue prop which returns the value to be displayed when no items
+          are selected. ⚠️ When using this prop, make sure the label
+          doesn't overlap with the empty displayed value. The label should
+          either be hidden or forced to a shrunk state.
         </text>
       </cell>
     </row>
@@ -20355,20 +20235,11 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell></cell>
       <cell>
-        <text>Callback fired when a menu item is selected.</text>
-        <whitespace></whitespace>
-        <whitespace></whitespace>
-        <text>Signature:</text>
-        <whitespace></whitespace>
-        <text>function(event: object, child?: object) => void</text>
-        <whitespace></whitespace>
         <text>
-          event: The event source of the callback. You can pull out the new
-          value by accessing event.target.value (any).
-        </text>
-        <whitespace></whitespace>
-        <text>
-          child: The react element that was selected when native is false
+          Callback fired when a menu item is selected. @param {object}
+          event The event source of the callback. You can pull out the new value
+          by accessing event.target.value (any). @param {object}
+          [child] The react element that was selected when native is false
           (default).
         </text>
       </cell>
@@ -20384,15 +20255,9 @@ exports[`firefox /api/select/ 1`] = `
       <cell>
         <text>
           Callback fired when the component requests to be closed. Use in
-          controlled mode (see open).
+          controlled mode (see open). @param {object} event The event
+          source of the callback.
         </text>
-        <whitespace></whitespace>
-        <whitespace></whitespace>
-        <text>Signature:</text>
-        <whitespace></whitespace>
-        <text>function(event: object) => void</text>
-        <whitespace></whitespace>
-        <text>event: The event source of the callback.</text>
       </cell>
     </row>
     <row>
@@ -20406,15 +20271,9 @@ exports[`firefox /api/select/ 1`] = `
       <cell>
         <text>
           Callback fired when the component requests to be opened. Use in
-          controlled mode (see open).
+          controlled mode (see open). @param {object} event The event
+          source of the callback.
         </text>
-        <whitespace></whitespace>
-        <whitespace></whitespace>
-        <text>Signature:</text>
-        <whitespace></whitespace>
-        <text>function(event: object) => void</text>
-        <whitespace></whitespace>
-        <text>event: The event source of the callback.</text>
       </cell>
     </row>
     <row>
@@ -20424,7 +20283,9 @@ exports[`firefox /api/select/ 1`] = `
       <cell>
         <text>bool</text>
       </cell>
-      <cell></cell>
+      <cell>
+        <text>false</text>
+      </cell>
       <cell>
         <text>
           Control select open state. You can only use it when the native prop is
@@ -20443,15 +20304,9 @@ exports[`firefox /api/select/ 1`] = `
       <cell>
         <text>
           Render the selected value. You can only use it when the native prop is
-          false (default).
+          false (default). @param {any} value The value provided to
+          the component. @returns {ReactNode}
         </text>
-        <whitespace></whitespace>
-        <whitespace></whitespace>
-        <text>Signature:</text>
-        <whitespace></whitespace>
-        <text>function(value: any) => ReactNode</text>
-        <whitespace></whitespace>
-        <text>value: The value provided to the component.</text>
       </cell>
     </row>
     <row>
@@ -20479,14 +20334,10 @@ exports[`firefox /api/select/ 1`] = `
           The input value. Providing an empty string will select no options.
           This prop is required when the native prop is false (default). Set to
           an empty string '' if you don't want any of the
-          available options to be selected.
-        </text>
-        <whitespace></whitespace>
-        <text>
-          If the value is an object it must have reference equality with the
-          option in order to be selected. If the value is not an object, the
-          string representation must match with the string representation of the
-          option in order to be selected.
+          available options to be selected. If the value is an object it must
+          have reference equality with the option in order to be selected. If
+          the value is not an object, the string representation must match with
+          the string representation of the option in order to be selected.
         </text>
       </cell>
     </row>
@@ -20509,14 +20360,24 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
     </row>
   </table>
-  <paragraph>
-    <text>The ref is forwarded to the root element.</text>
-  </paragraph>
-  <paragraph>
-    <text>Any other props supplied will be provided to the root element (</text>
-    <link>Input</link>
-    <text>).</text>
-  </paragraph>
+  <whitespace></whitespace>
+  <text>The ref is forwarded to the root element.</text>
+  <whitespace></whitespace>
+  <text>Any other props supplied will be provided to the root element (</text>
+  <link>Input</link>
+  <text>).</text>
+  <heading level="3">
+    Inheritance
+    <link></link>
+    <text>Inheritance</text>
+  </heading>
+  <text>While not explicitly documented above, the props of the</text>
+  <link>Input</link>
+  <text>
+    component are also available on Select. You can take advantage of this to
+  </text>
+  <link>target nested components</link>
+  <text>.</text>
   <heading level="2">
     CSS
     <link></link>
@@ -20542,7 +20403,7 @@ exports[`firefox /api/select/ 1`] = `
         <text>.MuiSelect-root</text>
       </cell>
       <cell>
-        <text>Styles applied to the select component root class.</text>
+        <text>Styles applied to the select component \`root\` class.</text>
       </cell>
     </row>
     <row>
@@ -20553,7 +20414,7 @@ exports[`firefox /api/select/ 1`] = `
         <text>.MuiSelect-select</text>
       </cell>
       <cell>
-        <text>Styles applied to the select component select class.</text>
+        <text>Styles applied to the select component \`select\` class.</text>
       </cell>
     </row>
     <row>
@@ -20591,7 +20452,7 @@ exports[`firefox /api/select/ 1`] = `
         <text>.MuiSelect-selectMenu</text>
       </cell>
       <cell>
-        <text>Styles applied to the select component selectMenu class.</text>
+        <text>Styles applied to the select component \`selectMenu\` class.</text>
       </cell>
     </row>
     <row>
@@ -20603,7 +20464,7 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell>
         <text>
-          Pseudo-class applied to the select component disabled class.
+          Pseudo-class applied to the select component \`disabled\` class.
         </text>
       </cell>
     </row>
@@ -20667,17 +20528,17 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
     </row>
   </table>
-  <paragraph>
-    <text>
-      You can override the style of the component thanks to one of these
-      customization points:
-    </text>
-  </paragraph>
+  <whitespace></whitespace>
+  <text>
+    You can override the style of the component using one of these customization
+    options:
+  </text>
   <list>
     <listitem>
-      • With a rule name of the classes object prop .<statictext>•</statictext>
+      • With a rule name of the \`classes\` object prop .
+      <statictext>•</statictext>
       <text>With a rule name of the</text>
-      <link>classes object prop</link>
+      <link>\`classes\` object prop</link>
       <text>.</text>
     </listitem>
     <listitem>
@@ -20687,31 +20548,15 @@ exports[`firefox /api/select/ 1`] = `
       <text>.</text>
     </listitem>
     <listitem>
-      • With a theme and an overrides property .<statictext>•</statictext>
+      • With a theme and an \`overrides\` property .<statictext>•</statictext>
       <text>With a theme and an</text>
-      <link>overrides property</link>
+      <link>\`overrides\` property</link>
       <text>.</text>
     </listitem>
   </list>
-  <paragraph>
-    <text>If that's not sufficient, you can check the</text>
-    <link>implementation of the component</link>
-    <text>for more detail.</text>
-  </paragraph>
-  <heading level="2">
-    Inheritance
-    <link></link>
-    <text>Inheritance</text>
-  </heading>
-  <paragraph>
-    <text>The props of the</text>
-    <link>Input</link>
-    <text>
-      component are also available. You can take advantage of this behavior to
-    </text>
-    <link>target nested components</link>
-    <text>.</text>
-  </paragraph>
+  <text>If that isn't sufficient, you can check the</text>
+  <link>implementation of the component</link>
+  <text>for more detail.</text>
   <heading level="2">
     Demos
     <link></link>
