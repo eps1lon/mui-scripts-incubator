@@ -33,7 +33,7 @@ jobs:
       - uses: ./actions/cleanup
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: "Setup NVDA"
+      - name: "Run bin/watch-material-ui.js"
         run: |
           $NVDA_VENDOR = "${{ github.workspace }}\node_modules\screen-reader-testing-library\nvda"
           $NVDA_BIN = "$NVDA_VENDOR\portable\nvda.exe"
