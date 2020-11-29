@@ -9,9 +9,15 @@ on:
     # how I could be notified if it finishes a deploy of the default branch
     - cron: "0 * * * *"
 
+defaults:
+  run:
+    shell: powershell
+
 jobs:
   a11y-snapshot:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
+    env:
+      NVDA_LOG_FILE_PATH: '${{ github.workspace }}\lib\a11y-snapshot\nvda.log'
     steps:
       - uses: actions/checkout@v2
       - name: Setup node
@@ -27,6 +33,20 @@ jobs:
       - uses: ./actions/cleanup
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: ./actions/watch-material-ui
+      - name: "Run bin/watch-material-ui.js"
+        run: |
+          $NVDA_VENDOR = "${{ github.workspace }}\node_modules\screen-reader-testing-library\nvda"
+          $NVDA_BIN = "$NVDA_VENDOR\portable\nvda.exe"
+          $LOG_FILE_PATH = "${{ env.NVDA_LOG_FILE_PATH }}"
+          $CONFIG_PATH = "$NVDA_VENDOR\settings"
+          & $NVDA_BIN --log-file="$LOG_FILE_PATH" --config-path="$CONFIG_PATH"
+          node bin/watch-material-ui.js --githubEventPath "$Env:GITHUB_EVENT_PATH" --githubEventName "$Env:GITHUB_EVENT_NAME" --githubRepository "$Env:GITHUB_REPOSITORY"
+          & $NVDA_BIN -q
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/upload-artifact@v2
+        if: ${{ always() }}
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          name: nvda.log
+          path: |
+            ${{ env.NVDA_LOG_FILE_PATH }}

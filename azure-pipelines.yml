@@ -7,38 +7,21 @@ trigger:
   - main
 
 pool:
-  vmImage: "ubuntu-latest"
+  vmImage: "windows-latest"
+
+variables:
+  NVDA_LOG_FILE_PATH: '$(Build.SourcesDirectory)\lib\a11y-snapshot\nvda.log'
 
 steps:
+  - powershell: |
+      # Set empty so that publishing the artifact doesn't fail if we haven't run NVDA yet.
+      Set-Content -Path '${{ variables.NVDA_LOG_FILE_PATH }}' -Value ''
+    displayName: setup
+
   - task: NodeTool@0
     inputs:
-      versionSpec: "14.x"
+      versionSpec: "12.x"
     displayName: "Install Node.js"
-
-  - script: |
-      # Install WebKit dependencies 
-      sudo apt-get install -y libwoff1 \
-                              libopus0 \
-                              libwebp6 \
-                              libwebpdemux2 \
-                              libenchant1c2a \
-                              libgudev-1.0-0 \
-                              libsecret-1-0 \
-                              libhyphen0 \
-                              libgdk-pixbuf2.0-0 \
-                              libegl1 \
-                              libnotify4 \
-                              libxslt1.1 \
-                              libevent-2.1-6 \
-                              libgles2 \
-                              libvpx5
-      # Install Chromium dependencies
-      sudo apt-get install -y libnss3 \
-                              libxss1 \
-                              libasound2
-      # Install Firefox dependencies
-      sudo apt-get install -y libdbus-glib-1-2
-    displayName: "install playwright dependencies"
 
   - script: |
       yarn install
@@ -56,9 +39,19 @@ steps:
       yarn lint
     displayName: "check code semantics"
 
-  - script: |
-      yarn a11y-snapshot --runInBand
+  - powershell: |
+      $REPO_PATH = "$(Build.SourcesDirectory)"
+      $LOG_FILE_PATH = "${{ variables.NVDA_LOG_FILE_PATH }}"
+      $NVDA_VENDOR = "$REPO_PATH\node_modules\screen-reader-testing-library\nvda"
+      $NVDA_BIN = "$NVDA_VENDOR\portable\nvda.exe"
+      & $NVDA_BIN --log-file=$LOG_FILE_PATH --config-path=$NVDA_VENDOR\settings
+      yarn a11y-snapshot --ci --runInBand
+      & $NVDA_BIN -q
     displayName: "test"
+
+  - publish: ${{ variables.NVDA_LOG_FILE_PATH }}
+    artifact: nvda.log
+    condition: always()
 
   - task: Npm@1
     continueOnError: "true"
