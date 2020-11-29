@@ -3106,6 +3106,9 @@ exports[`chromium /components/button-group/ 1`] = `
     <Anchor></Anchor>
     <text>Basic button group</text>
   </heading>
+  <paragraph>
+    <text>The standard Button variants are supported.</text>
+  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -3191,6 +3194,13 @@ exports[`chromium /components/button-group/ 1`] = `
     <Anchor></Anchor>
     <text>Sizes and colors</text>
   </heading>
+  <paragraph>
+    <text>The</text>
+    <code>$SOME_CODE</code>
+    <text>and</text>
+    <code>$SOME_CODE</code>
+    <text>props can be used to control the appearance of the ButtonGroup.</text>
+  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -3276,6 +3286,11 @@ exports[`chromium /components/button-group/ 1`] = `
     <Anchor></Anchor>
     <text>Vertical group</text>
   </heading>
+  <paragraph>
+    <text>The ButtonGroup can be displayed veritcally using the</text>
+    <code>$SOME_CODE</code>
+    <text>prop.</text>
+  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -21258,6 +21273,9 @@ exports[`firefox /components/button-group/ 1`] = `
     <link></link>
     <text>Basic button group</text>
   </heading>
+  <paragraph>
+    <text>The standard Button variants are supported.</text>
+  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -21321,6 +21339,12 @@ exports[`firefox /components/button-group/ 1`] = `
     <link></link>
     <text>Sizes and colors</text>
   </heading>
+  <paragraph>
+    <text>
+      The size and color props can be used to control the appearance of the
+      ButtonGroup.
+    </text>
+  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -21384,6 +21408,11 @@ exports[`firefox /components/button-group/ 1`] = `
     <link></link>
     <text>Vertical group</text>
   </heading>
+  <paragraph>
+    <text>
+      The ButtonGroup can be displayed veritcally using the orientation prop.
+    </text>
+  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
