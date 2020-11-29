@@ -5802,10 +5802,10 @@ scheduler@^0.18.0:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
-screen-reader-testing-library@0.0.1-alpha.1:
-  version "0.0.1-alpha.1"
-  resolved "https://registry.yarnpkg.com/screen-reader-testing-library/-/screen-reader-testing-library-0.0.1-alpha.1.tgz#08d242020a808a007a22f6a7ecc68a9732b00ea7"
-  integrity sha512-lL6NoIBLf5IHm8wzQKJXTpG0ybX8wBgQsUHBvWOeaZceeQrzgKvUsgTvxLUuwZu2svRdHkCGFgZVHe0w97mBkg==
+screen-reader-testing-library@0.0.1-alpha.2:
+  version "0.0.1-alpha.2"
+  resolved "https://registry.yarnpkg.com/screen-reader-testing-library/-/screen-reader-testing-library-0.0.1-alpha.2.tgz#61ece103d807b3b3c94803c65f9d1ffd4b936759"
+  integrity sha512-ECBqojrDhJpJ89thfZ7We8Wjy+LXFcUXG9C0z3TUk3onG5KjwhorO08GH6dpQBeZ3sJrG9MqhdcUtytFdzz6bg==
   dependencies:
     jest-diff "^26.4.2"
     jest-snapshot "^26.4.2"
