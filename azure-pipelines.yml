@@ -42,7 +42,7 @@ steps:
   - powershell: |
       $REPO_PATH = "$(Build.SourcesDirectory)"
       $LOG_FILE_PATH = "${{ variables.NVDA_LOG_FILE_PATH }}"
-      $NVDA_VENDOR = "$REPO_PATH\node_modules\screen-reader-testing-library\nvda-2020.2"
+      $NVDA_VENDOR = "$REPO_PATH\node_modules\screen-reader-testing-library\nvda"
       $NVDA_BIN = "$NVDA_VENDOR\portable\nvda.exe"
       & $NVDA_BIN --log-file=$LOG_FILE_PATH --config-path=$NVDA_VENDOR\settings
       yarn a11y-snapshot --ci --runInBand
