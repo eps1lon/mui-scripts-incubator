@@ -29,8 +29,8 @@ steps:
       restoreKeys: |
         yarn | "$(Agent.OS)"
         yarn
-      path: node_modules
-    displayName: Cache node_modules
+      path: $(Pipeline.Workspace)/.yarn
+    displayName: Cache Yarn packages
 
   - script: |
       yarn install
