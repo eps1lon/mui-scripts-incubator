@@ -49,12 +49,12 @@ async function main(argv) {
 	} = argv;
 
 	const [repoOwner, repoName] = githubRepository.split("/");
-	const payload = fse.readJSON(githubEventPath);
+	const payload = await fse.readJSON(githubEventPath);
 	const targetUrl =
 		eventName === "repository_dispatch"
 			? payload.client_payload.target_url
 			: `https://${muiMainBranch}--material-ui.netlify.app/`;
-	console.info(`client_payload: ${JSON.stringify(payload.client_payload)}`);
+	console.debug(`client_payload: ${JSON.stringify(payload.client_payload)}`);
 
 	const prNumberMatch = targetUrl.match(/deploy-preview-(\d+)/);
 	const prNumber = prNumberMatch === null ? Number.NaN : +prNumberMatch[1];
@@ -95,7 +95,7 @@ async function main(argv) {
 				maintainer_can_modify: true,
 			});
 		} catch (error) {
-			console.warn(`'${JSON.stringify(error, null, 2)}'`);
+			console.warn(`Error when creating a pull request: ${error}`);
 		}
 	}
 }

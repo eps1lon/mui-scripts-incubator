@@ -5467,10 +5467,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <heading level="6">
-    Selected: user02@gmail.com
-    <text>Selected:user02@gmail.com</text>
-  </heading>
+  <text>Selected:user02@gmail.com</text>
   <LineBreak></LineBreak>
   <button>
     OPEN SIMPLE DIALOG
@@ -16374,7 +16371,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Name</text>
   </Label>
   <text> </text>
-  <textbox></textbox>
+  <textbox description="Please enter your name">Name</textbox>
   <paragraph>
     <text>Please enter your name</text>
   </paragraph>
@@ -16382,7 +16379,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Name</text>
   </Label>
   <text> </text>
-  <textbox></textbox>
+  <textbox>Name</textbox>
   <toolbar>
     demo source
     <group>
@@ -16430,7 +16427,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Name</text>
   </Label>
   <text> </text>
-  <textbox></textbox>
+  <textbox description="Please enter your name">Name</textbox>
   <paragraph>
     <text>Please enter your name</text>
   </paragraph>
@@ -16438,7 +16435,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Name</text>
   </Label>
   <text> </text>
-  <textbox></textbox>
+  <textbox description="​">Name</textbox>
   <paragraph>
     <text>​</text>
   </paragraph>
@@ -22885,10 +22882,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <heading level="6">
-    Selected: user02@gmail.com
-    <text>Selected: user02@gmail.com</text>
-  </heading>
+  <text>Selected: user02@gmail.com</text>
   <whitespace></whitespace>
   <button>
     OPEN SIMPLE DIALOG
@@ -22904,12 +22898,12 @@ exports[`firefox /components/dialogs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Typography variant="subtitle1">Selected:
-    {selectedValue}</Typography> <br /> <Button
-    variant="outlined" onClick={handleClickOpen}> Open
-    simple dialog </Button> <SimpleDialog
-    selectedValue={selectedValue} open={open}
-    onClose={handleClose} />
+    <Typography variant="subtitle1" component="div">
+    Selected: {selectedValue} </Typography> <br />
+    <Button variant="outlined"
+    onClick={handleClickOpen}> Open simple dialog </Button>
+    <SimpleDialog selectedValue={selectedValue}
+    open={open} onClose={handleClose} />
   </text>
   <heading level="2">
     Alerts
@@ -30865,7 +30859,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>Name</text>
   </label>
   <statictext> </statictext>
-  <textbox></textbox>
+  <textbox description="Please enter your name">Name</textbox>
   <paragraph>
     <text>Please enter your name</text>
   </paragraph>
@@ -30874,7 +30868,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>Name</text>
   </label>
   <statictext> </statictext>
-  <textbox></textbox>
+  <textbox>Name</textbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -30886,8 +30880,10 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <text>
     <TextField helperText="Please enter your name"
-    label="Name" variant="standard" /> <TextField
-    label="Name" variant="standard" />
+    id="demo-helper-text-misaligned" label="Name"
+    variant="standard" /> <TextField
+    id="demo-helper-text-misaligned-no-helper" label="Name"
+    variant="standard" />
   </text>
   <paragraph>
     <text>
@@ -30903,7 +30899,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>Name</text>
   </label>
   <statictext> </statictext>
-  <textbox></textbox>
+  <textbox description="Please enter your name">Name</textbox>
   <paragraph>
     <text>Please enter your name</text>
   </paragraph>
@@ -30912,7 +30908,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>Name</text>
   </label>
   <statictext> </statictext>
-  <textbox></textbox>
+  <textbox description="​">Name</textbox>
   <paragraph>
     <text>​</text>
   </paragraph>
@@ -30927,9 +30923,10 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <text>
     <TextField helperText="Please enter your name"
-    label="Name" variant="standard" /> <TextField
-    helperText=" " label="Name" variant="standard"
-    />
+    id="demo-helper-text-aligned" label="Name"
+    variant="standard" /> <TextField helperText=" "
+    id="demo-helper-text-aligned-no-helper" label="Name"
+    variant="standard" />
   </text>
   <heading level="2">
     Integration with 3rd party input libraries
