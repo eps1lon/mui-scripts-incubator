@@ -1,4 +1,4 @@
-const { Octokit } = require("@octokit/core");
+const { Octokit } = require("@octokit/rest");
 const childProcess = require("child_process");
 const fse = require("fs-extra");
 const { promisify } = require("util");
