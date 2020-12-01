@@ -96,7 +96,7 @@ async function main(argv) {
 				maintainer_can_modify: true,
 			});
 		} catch (error) {
-			console.warn(`'${JSON.stringify(error, null, 2)}'`);
+			console.warn(`Error when creating a pull request: ${error}`);
 		}
 	}
 }
