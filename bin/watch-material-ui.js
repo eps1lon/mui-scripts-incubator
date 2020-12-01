@@ -49,15 +49,13 @@ async function main(argv) {
 	} = argv;
 
 	const [repoOwner, repoName] = githubRepository.split("/");
-	console.debug('event saved at "%s"', githubEventPath);
 	const payload = await fse.readJSON(githubEventPath);
-	console.debug(`eventpayload: ${JSON.stringify(payload, null, 2)}`);
 	const targetUrl =
 		eventName === "repository_dispatch"
 			? payload.client_payload.target_url
 			: `https://${muiMainBranch}--material-ui.netlify.app/`;
 	console.debug(`client_payload: ${JSON.stringify(payload.client_payload)}`);
-	return;
+
 	const prNumberMatch = targetUrl.match(/deploy-preview-(\d+)/);
 	const prNumber = prNumberMatch === null ? Number.NaN : +prNumberMatch[1];
 
