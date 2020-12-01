@@ -1,17 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`chromium / 1`] = `
-Array [
-  Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/scrollable-region-focusable?application=axeAPI",
-    "id": "scrollable-region-focusable",
-    "nodes": Array [
-      ".jss38.markdown-body:nth-child(2) > .language-sh",
-      ".jss38.markdown-body:nth-child(5) > .language-html",
-    ],
-  },
-]
-`;
+exports[`chromium / 1`] = `Array []`;
 
 exports[`chromium /api/button/ 1`] = `Array []`;
 
