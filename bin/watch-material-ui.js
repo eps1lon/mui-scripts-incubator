@@ -50,6 +50,7 @@ async function main(argv) {
 
 	const [repoOwner, repoName] = githubRepository.split("/");
 	const payload = fse.readJSON(githubEventPath);
+	console.info(`eventpayload: ${JSON.stringify(payload, null, 2)}`);
 	const targetUrl =
 		eventName === "repository_dispatch"
 			? payload.client_payload.target_url
