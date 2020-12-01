@@ -10310,7 +10310,7 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox disabled="true" haspopup="listbox">
     Name ​<text>​</text>
   </combobox>
-  <textbox></textbox>
+  <textbox disabled="true"></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Disabled</text>
