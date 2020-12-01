@@ -22,7 +22,7 @@
 		"node-fetch": "^2.6.1",
 		"playwright": "1.4.2",
 		"playwright-testing-library": "^2.7.0",
-		"prettier": "^2.1.2",
+		"prettier": "^2.2.1",
 		"react": "^17.0.1",
 		"screen-reader-testing-library": "0.0.1-alpha.2",
 		"yargs": "^16.1.1",
