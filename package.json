@@ -47,7 +47,7 @@
 	"devDependencies": {
 		"@actions/core": "^1.2.6",
 		"@actions/github": "^2.2.0",
-		"eslint": "^7.12.1",
+		"eslint": "^7.14.0",
 		"eslint-plugin-react": "^7.21.5"
 	},
 	"resolutions": {
