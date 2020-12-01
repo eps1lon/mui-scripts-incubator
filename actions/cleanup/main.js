@@ -11,7 +11,7 @@ main().catch((error) => {
 });
 
 async function main() {
-	const octokit = new github.GitHub(core.getInput("token"));
+	const octokit = new github.getOctokit(core.getInput("token"));
 	await cleanupSnapshotPrsForClosedMuiPrs(octokit);
 }
 
