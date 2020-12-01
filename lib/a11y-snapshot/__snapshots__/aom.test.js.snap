@@ -12588,6 +12588,10 @@ exports[`chromium /components/switches/ 1`] = `
   <Label>
     <checkbox checked="true">Off On</checkbox>
   </Label>
+  <Label>
+    <checkbox checked="true">Custom shape with icon</checkbox>
+    <SVGRoot></SVGRoot>
+  </Label>
   <toolbar>
     demo source
     <group>
@@ -28108,6 +28112,11 @@ exports[`firefox /components/switches/ 1`] = `
     <text>Off</text>
     <checkbox checked="true">Off On</checkbox>
     <text>On</text>
+  </label>
+  <label>
+    Custom shape with icon
+    <checkbox checked="true">Custom shape with icon</checkbox>
+    <text>Custom shape with icon</text>
   </label>
   <toolbar>
     demo source
