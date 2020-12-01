@@ -50,3 +50,9 @@ jobs:
           name: nvda.log
           path: |
             ${{ env.NVDA_LOG_FILE_PATH }}
+      - uses: actions/upload-artifact@v2
+        if: ${{ always() }}
+        with:
+          name: nvda.log
+          path: |
+            ${{ env.GITHUB_EVENT_PATH }}
