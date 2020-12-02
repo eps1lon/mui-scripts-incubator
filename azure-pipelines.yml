@@ -11,7 +11,7 @@ pool:
 
 variables:
   NVDA_LOG_FILE_PATH: '$(Build.SourcesDirectory)\lib\a11y-snapshot\nvda.log'
-  PLAYWRIGHT_CACHE_FOLDER: '%USERPROFILE%\AppData\Local\ms-playwright'
+  PLAYWRIGHT_CACHE_FOLDER: '$(UserProfile)\AppData\Local\ms-playwright'
   YARN_CACHE_FOLDER: '$(Pipeline.Workspace)\.yarn'
 
 steps:
