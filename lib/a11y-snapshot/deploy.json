@@ -1,0 +1,33 @@
+{
+	"id": "5fc7a6cda2fc530007a31b33",
+	"site_id": "64f32322-7c26-4008-b886-60800cd747b0",
+	"build_id": "5fc7a6cda2fc530007a31b31",
+	"state": "ready",
+	"name": "material-ui",
+	"url": "http://material-ui.netlify.app",
+	"admin_url": "https://app.netlify.com/sites/material-ui",
+	"deploy_url": "http://next--material-ui.netlify.app",
+	"deploy_ssl_url": "https://next--material-ui.netlify.app",
+	"created_at": "2020-12-02T14:38:05.702Z",
+	"updated_at": "2020-12-02T14:54:03.358Z",
+	"commit_ref": "4cbf5d6af97f9bd1ec0e1da6b67658caa206f5a9",
+	"review_id": null,
+	"skipped": null,
+	"locked": null,
+	"branch": "next",
+	"commit_url": "https://github.com/mui-org/material-ui/commit/4cbf5d6af97f9bd1ec0e1da6b67658caa206f5a9",
+	"log_access_attributes": {
+		"type": "firebase",
+		"url": "https://netlify-builds2.firebaseio.com/builds/5fc7a6cda2fc530007a31b31/log",
+		"endpoint": "https://netlify-builds2.firebaseio.com",
+		"path": "/builds/5fc7a6cda2fc530007a31b31/log",
+		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2IjowLCJpYXQiOjE2MDY5MjI5NDQsImQiOnsidWlkIjoiIn19.eyzOWfZQSY2W7aZwrK7ITcSFvQqDE-tvfaZRux4IupE"
+	},
+	"title": "[docs] Fix rtl not working (#23796)",
+	"review_url": null,
+	"published_at": null,
+	"context": "branch-deploy",
+	"deploy_time": 954,
+	"public": true,
+	"plugin_state": "success"
+}
