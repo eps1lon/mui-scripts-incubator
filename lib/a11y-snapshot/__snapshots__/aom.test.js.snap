@@ -181,8 +181,8 @@ exports[`chromium / 1`] = `
         </img>
       </link>
       <link>
-        canadacasino
-        <img>canadacasino</img>
+        bitsrc
+        <img>bitsrc</img>
       </link>
     </paragraph>
     <heading level="3">
@@ -3106,9 +3106,6 @@ exports[`chromium /components/button-group/ 1`] = `
     <Anchor></Anchor>
     <text>Basic button group</text>
   </heading>
-  <paragraph>
-    <text>The standard Button variants are supported.</text>
-  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -3194,13 +3191,6 @@ exports[`chromium /components/button-group/ 1`] = `
     <Anchor></Anchor>
     <text>Sizes and colors</text>
   </heading>
-  <paragraph>
-    <text>The</text>
-    <code>$SOME_CODE</code>
-    <text>and</text>
-    <code>$SOME_CODE</code>
-    <text>props can be used to control the appearance of the ButtonGroup.</text>
-  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -3286,11 +3276,6 @@ exports[`chromium /components/button-group/ 1`] = `
     <Anchor></Anchor>
     <text>Vertical group</text>
   </heading>
-  <paragraph>
-    <text>The ButtonGroup can be displayed veritcally using the</text>
-    <code>$SOME_CODE</code>
-    <text>prop.</text>
-  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -5467,7 +5452,10 @@ exports[`chromium /components/dialogs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <text>Selected:user02@gmail.com</text>
+  <heading level="6">
+    Selected: user02@gmail.com
+    <text>Selected:user02@gmail.com</text>
+  </heading>
   <LineBreak></LineBreak>
   <button>
     OPEN SIMPLE DIALOG
@@ -10307,7 +10295,7 @@ exports[`chromium /components/selects/ 1`] = `
   <combobox disabled="true" haspopup="listbox">
     Name ​<text>​</text>
   </combobox>
-  <textbox disabled="true"></textbox>
+  <textbox></textbox>
   <SVGRoot></SVGRoot>
   <paragraph>
     <text>Disabled</text>
@@ -16371,7 +16359,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Name</text>
   </Label>
   <text> </text>
-  <textbox description="Please enter your name">Name</textbox>
+  <textbox></textbox>
   <paragraph>
     <text>Please enter your name</text>
   </paragraph>
@@ -16379,7 +16367,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Name</text>
   </Label>
   <text> </text>
-  <textbox>Name</textbox>
+  <textbox></textbox>
   <toolbar>
     demo source
     <group>
@@ -16427,7 +16415,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Name</text>
   </Label>
   <text> </text>
-  <textbox description="Please enter your name">Name</textbox>
+  <textbox></textbox>
   <paragraph>
     <text>Please enter your name</text>
   </paragraph>
@@ -16435,7 +16423,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>Name</text>
   </Label>
   <text> </text>
-  <textbox description="​">Name</textbox>
+  <textbox></textbox>
   <paragraph>
     <text>​</text>
   </paragraph>
@@ -19175,8 +19163,8 @@ exports[`firefox / 1`] = `
       </img>
     </link>
     <link>
-      canadacasino
-      <img value="https://www.canadacasino.ca/">canadacasino</img>
+      bitsrc
+      <img value="https://www.canadacasino.ca/">bitsrc</img>
     </link>
     <heading level="3">
       There are more!
@@ -21277,9 +21265,6 @@ exports[`firefox /components/button-group/ 1`] = `
     <link></link>
     <text>Basic button group</text>
   </heading>
-  <paragraph>
-    <text>The standard Button variants are supported.</text>
-  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -21343,12 +21328,6 @@ exports[`firefox /components/button-group/ 1`] = `
     <link></link>
     <text>Sizes and colors</text>
   </heading>
-  <paragraph>
-    <text>
-      The size and color props can be used to control the appearance of the
-      ButtonGroup.
-    </text>
-  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -21412,11 +21391,6 @@ exports[`firefox /components/button-group/ 1`] = `
     <link></link>
     <text>Vertical group</text>
   </heading>
-  <paragraph>
-    <text>
-      The ButtonGroup can be displayed veritcally using the orientation prop.
-    </text>
-  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -22882,7 +22856,10 @@ exports[`firefox /components/dialogs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <text>Selected: user02@gmail.com</text>
+  <heading level="6">
+    Selected: user02@gmail.com
+    <text>Selected: user02@gmail.com</text>
+  </heading>
   <whitespace></whitespace>
   <button>
     OPEN SIMPLE DIALOG
@@ -22898,12 +22875,12 @@ exports[`firefox /components/dialogs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Typography variant="subtitle1" component="div">
-    Selected: {selectedValue} </Typography> <br />
-    <Button variant="outlined"
-    onClick={handleClickOpen}> Open simple dialog </Button>
-    <SimpleDialog selectedValue={selectedValue}
-    open={open} onClose={handleClose} />
+    <Typography variant="subtitle1">Selected:
+    {selectedValue}</Typography> <br /> <Button
+    variant="outlined" onClick={handleClickOpen}> Open
+    simple dialog </Button> <SimpleDialog
+    selectedValue={selectedValue} open={open}
+    onClose={handleClose} />
   </text>
   <heading level="2">
     Alerts
@@ -30859,7 +30836,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>Name</text>
   </label>
   <statictext> </statictext>
-  <textbox description="Please enter your name">Name</textbox>
+  <textbox></textbox>
   <paragraph>
     <text>Please enter your name</text>
   </paragraph>
@@ -30868,7 +30845,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>Name</text>
   </label>
   <statictext> </statictext>
-  <textbox>Name</textbox>
+  <textbox></textbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -30880,10 +30857,8 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <text>
     <TextField helperText="Please enter your name"
-    id="demo-helper-text-misaligned" label="Name"
-    variant="standard" /> <TextField
-    id="demo-helper-text-misaligned-no-helper" label="Name"
-    variant="standard" />
+    label="Name" variant="standard" /> <TextField
+    label="Name" variant="standard" />
   </text>
   <paragraph>
     <text>
@@ -30899,7 +30874,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>Name</text>
   </label>
   <statictext> </statictext>
-  <textbox description="Please enter your name">Name</textbox>
+  <textbox></textbox>
   <paragraph>
     <text>Please enter your name</text>
   </paragraph>
@@ -30908,7 +30883,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>Name</text>
   </label>
   <statictext> </statictext>
-  <textbox description="​">Name</textbox>
+  <textbox></textbox>
   <paragraph>
     <text>​</text>
   </paragraph>
@@ -30923,10 +30898,9 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <text>
     <TextField helperText="Please enter your name"
-    id="demo-helper-text-aligned" label="Name"
-    variant="standard" /> <TextField helperText=" "
-    id="demo-helper-text-aligned-no-helper" label="Name"
-    variant="standard" />
+    label="Name" variant="standard" /> <TextField
+    helperText=" " label="Name" variant="standard"
+    />
   </text>
   <heading level="2">
     Integration with 3rd party input libraries
