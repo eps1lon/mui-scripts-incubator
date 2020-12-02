@@ -11,6 +11,7 @@ pool:
 
 variables:
   NVDA_LOG_FILE_PATH: '$(Build.SourcesDirectory)\lib\a11y-snapshot\nvda.log'
+  YARN_CACHE_FOLDER: $(Pipeline.Workspace)/.yarn
 
 steps:
   - powershell: |
@@ -29,7 +30,7 @@ steps:
       restoreKeys: |
         yarn-v2 | "$(Agent.OS)"
         yarn-v2
-      path: $(Pipeline.Workspace)/.yarn
+      path: $(YARN_CACHE_FOLDER)
     displayName: Cache Yarn packages
 
   - script: |
