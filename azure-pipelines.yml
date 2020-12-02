@@ -11,6 +11,8 @@ pool:
 
 variables:
   NVDA_LOG_FILE_PATH: '$(Build.SourcesDirectory)\lib\a11y-snapshot\nvda.log'
+  PLAYWRIGHT_CACHE_FOLDER: '$(UserProfile)\AppData\Local\ms-playwright'
+  YARN_CACHE_FOLDER: '$(Pipeline.Workspace)\.yarn'
 
 steps:
   - powershell: |
@@ -22,6 +24,23 @@ steps:
     inputs:
       versionSpec: "12.x"
     displayName: "Install Node.js"
+
+  - task: Cache@2
+    inputs:
+      key: 'yarn-v2 | "$(Agent.OS)" | yarn.lock'
+      restoreKeys: |
+        yarn-v2 | "$(Agent.OS)"
+        yarn-v2
+      path: $(YARN_CACHE_FOLDER)
+    displayName: Cache Yarn packages
+
+  - task: Cache@2
+    inputs:
+      key: 'playwright | "$(Agent.OS)" | yarn.lock'
+      restoreKeys: |
+        playwright | "$(Agent.OS)"
+      path: $(PLAYWRIGHT_CACHE_FOLDER)
+    displayName: Cache Playwright browser binaries
 
   - script: |
       yarn install
@@ -52,10 +71,3 @@ steps:
   - publish: ${{ variables.NVDA_LOG_FILE_PATH }}
     artifact: nvda.log
     condition: always()
-
-  - task: Npm@1
-    continueOnError: "true"
-    inputs:
-      command: publish
-      publishEndpoint: github
-    displayName: "publish if version changed"
