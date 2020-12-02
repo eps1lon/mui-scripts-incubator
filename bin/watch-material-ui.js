@@ -4,6 +4,7 @@ const fse = require("fs-extra");
 const { promisify } = require("util");
 const yargs = require("yargs");
 const a11ySnapshot = require("../lib/a11y-snapshot");
+const { updateDeploy } = require("../lib/a11y-snapshot/deploy");
 
 const exec = promisify(childProcess.exec);
 
@@ -67,11 +68,13 @@ async function main(argv) {
 
 	await a11ySnapshot({
 		argv: "--updateSnapshot --runInBand --detectOpenHandles",
-		prNumber,
+		targetUrl,
 	});
 
 	const { stdout: gotUpdated } = await git("status --porcelain");
 	if (gotUpdated) {
+		await updateDeploy();
+
 		await git('config --local user.email "action@github.com"');
 		await git('config --local user.name "GitHub Action"');
 

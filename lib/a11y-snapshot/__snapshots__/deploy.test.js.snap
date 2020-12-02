@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`update netlify deploy 1`] = `
+Object {
+  "admin_url": "https://app.netlify.com/sites/material-ui",
+  "branch": "next",
+  "build_id": "5fc7a6cda2fc530007a31b31",
+  "commit_ref": "4cbf5d6af97f9bd1ec0e1da6b67658caa206f5a9",
+  "commit_url": "https://github.com/mui-org/material-ui/commit/4cbf5d6af97f9bd1ec0e1da6b67658caa206f5a9",
+  "context": "branch-deploy",
+  "created_at": "2020-12-02T14:38:05.702Z",
+  "deploy_ssl_url": "https://next--material-ui.netlify.app",
+  "deploy_time": 954,
+  "deploy_url": "http://next--material-ui.netlify.app",
+  "id": "5fc7a6cda2fc530007a31b33",
+  "locked": null,
+  "log_access_attributes": Object {
+    "endpoint": "https://netlify-builds2.firebaseio.com",
+    "path": "/builds/5fc7a6cda2fc530007a31b31/log",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2IjowLCJpYXQiOjE2MDY5MjE0NTEsImQiOnsidWlkIjoiIn19.1PeYs83-FMS7Rs1aj9qH3LCEj8ICckjpLjetrCxvJFI",
+    "type": "firebase",
+    "url": "https://netlify-builds2.firebaseio.com/builds/5fc7a6cda2fc530007a31b31/log",
+  },
+  "name": "material-ui",
+  "plugin_state": "success",
+  "public": true,
+  "published_at": null,
+  "review_id": null,
+  "review_url": null,
+  "site_id": "64f32322-7c26-4008-b886-60800cd747b0",
+  "skipped": null,
+  "state": "ready",
+  "title": "[docs] Fix rtl not working (#23796)",
+  "updated_at": "2020-12-02T14:54:03.358Z",
+  "url": "http://material-ui.netlify.app",
+}
+`;
