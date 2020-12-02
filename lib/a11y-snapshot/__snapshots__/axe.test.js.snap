@@ -43,7 +43,17 @@ Array [
 
 exports[`chromium /components/checkboxes/ 1`] = `Array []`;
 
-exports[`chromium /components/dialogs/ 1`] = `Array []`;
+exports[`chromium /components/dialogs/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/heading-order?application=axeAPI",
+    "id": "heading-order",
+    "nodes": Array [
+      "h6",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/pagination/ 1`] = `
 Array [
@@ -100,7 +110,20 @@ Array [
 ]
 `;
 
-exports[`chromium /components/text-fields/ 1`] = `Array []`;
+exports[`chromium /components/text-fields/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
+    "id": "label",
+    "nodes": Array [
+      ".jss153 > .MuiTextField-root.MuiFormControl-root:nth-child(1) > .MuiInput-formControl.MuiInput-underline.MuiInput-root > .MuiInput-input[value=\\"\\"][type=\\"text\\"]",
+      ".jss153 > .MuiTextField-root.MuiFormControl-root:nth-child(2) > .MuiInput-formControl.MuiInput-underline.MuiInput-root > .MuiInput-input[value=\\"\\"][type=\\"text\\"]",
+      ".jss154 > .MuiTextField-root.MuiFormControl-root:nth-child(1) > .MuiInput-formControl.MuiInput-underline.MuiInput-root > .MuiInput-input[value=\\"\\"][type=\\"text\\"]",
+      ".jss154 > .MuiTextField-root.MuiFormControl-root:nth-child(2) > .MuiInput-formControl.MuiInput-underline.MuiInput-root > .MuiInput-input[value=\\"\\"][type=\\"text\\"]",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/tooltips/ 1`] = `Array []`;
 
