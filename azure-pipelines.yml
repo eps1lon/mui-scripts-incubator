@@ -68,7 +68,7 @@ steps:
     displayName: "check code semantics"
 
   - powershell: |
-      $NVDA_BIN = "${{ github.workspace }}\node_modules\screen-reader-testing-library\bin\nvda.ps1"
+      $NVDA_BIN = "$(Build.SourcesDirectory)\node_modules\screen-reader-testing-library\bin\nvda.ps1"
       $LOG_FILE_PATH = "${{ variables.NVDA_LOG_FILE_PATH }}"
       & $NVDA_BIN -logFile "$LOG_FILE_PATH"
       yarn a11y-snapshot --ci --runInBand
