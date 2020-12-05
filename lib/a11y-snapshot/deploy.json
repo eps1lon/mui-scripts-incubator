@@ -21,7 +21,7 @@
 		"url": "https://netlify-builds1.firebaseio.com/builds/5fcab13cf54a0600087bdb9e/log",
 		"endpoint": "https://netlify-builds1.firebaseio.com",
 		"path": "/builds/5fcab13cf54a0600087bdb9e/log",
-		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2IjowLCJpYXQiOjE2MDcyMDg4ODIsImQiOnsidWlkIjoiIn19.WLMQ_uCrg8ZNblSMFIHOXIfIcmZzgPnTn_ZtR6YcQsE"
+		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2IjowLCJpYXQiOjE2MDcyMTExODMsImQiOnsidWlkIjoiIn19.o7yR2az57hNYjn8vHxb97RRpaJ7QTyAdm5IYSp0JBhc"
 	},
 	"title": "[docs] Add eslint rule to docs (#23843)",
 	"review_url": null,
