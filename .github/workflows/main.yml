@@ -24,6 +24,17 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "12.x"
+      - name: Cache modules
+        uses: actions/cache@v2
+        with:
+          # https://github.com/microsoft/playwright/blob/HEAD/docs/installation.md#managing-browser-binaries
+          path: |
+            '$(UserProfile)\AppData\Local\ms-playwright'
+            '$(UserProfile)\AppData\Local\screen-reader-testing-library'
+            **/node_modules
+          key: cache-v1-${{ runner.os }}-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            cache-v1-${{ runner.os }}
       - uses: microsoft/playwright-github-action@v1
       - name: install
         run: yarn install
@@ -35,13 +46,11 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: "Run bin/watch-material-ui.js"
         run: |
-          $NVDA_VENDOR = "${{ github.workspace }}\node_modules\screen-reader-testing-library\nvda"
-          $NVDA_BIN = "$NVDA_VENDOR\portable\nvda.exe"
+          $NVDA_BIN = "${{ github.workspace }}\node_modules\screen-reader-testing-library\bin\nvda.ps1"
           $LOG_FILE_PATH = "${{ env.NVDA_LOG_FILE_PATH }}"
-          $CONFIG_PATH = "$NVDA_VENDOR\settings"
-          & $NVDA_BIN --log-file="$LOG_FILE_PATH" --config-path="$CONFIG_PATH"
+          & $NVDA_BIN -logFile "$LOG_FILE_PATH" 
           node bin/watch-material-ui.js --githubEventPath "$Env:GITHUB_EVENT_PATH" --githubEventName "$Env:GITHUB_EVENT_NAME" --githubRepository "$Env:GITHUB_REPOSITORY"
-          & $NVDA_BIN -q
+          & $NVDA_BIN -quit
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/upload-artifact@v2

@@ -26,7 +26,7 @@
 		"playwright-testing-library": "^2.7.0",
 		"prettier": "^2.2.1",
 		"react": "^17.0.1",
-		"screen-reader-testing-library": "0.0.1-alpha.2",
+		"screen-reader-testing-library": "^0.0.3",
 		"yargs": "^16.1.1",
 		"yauzl": "^2.10.0"
 	},

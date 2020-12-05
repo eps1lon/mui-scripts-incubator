@@ -12,6 +12,7 @@ pool:
 variables:
   NVDA_LOG_FILE_PATH: '$(Build.SourcesDirectory)\lib\a11y-snapshot\nvda.log'
   PLAYWRIGHT_CACHE_FOLDER: '$(UserProfile)\AppData\Local\ms-playwright'
+  SCREEN_READER_TESTING_LIBRARY_CACHE_FOLDER: '$(UserProfile)\AppData\Local\screen-reader-testing-library'
   YARN_CACHE_FOLDER: '$(Pipeline.Workspace)\.yarn'
 
 steps:
@@ -42,6 +43,14 @@ steps:
       path: $(PLAYWRIGHT_CACHE_FOLDER)
     displayName: Cache Playwright browser binaries
 
+  - task: Cache@2
+    inputs:
+      key: 'screen-reader-testing-library | "$(Agent.OS)" | yarn.lock'
+      restoreKeys: |
+        screen-reader-testing-library | "$(Agent.OS)"
+      path: $(SCREEN_READER_TESTING_LIBRARY_CACHE_FOLDER)
+    displayName: Cache screen-reader binaries
+
   - script: |
       yarn install
     displayName: "install dependencies"
@@ -59,13 +68,11 @@ steps:
     displayName: "check code semantics"
 
   - powershell: |
-      $REPO_PATH = "$(Build.SourcesDirectory)"
+      $NVDA_BIN = "$(Build.SourcesDirectory)\node_modules\screen-reader-testing-library\bin\nvda.ps1"
       $LOG_FILE_PATH = "${{ variables.NVDA_LOG_FILE_PATH }}"
-      $NVDA_VENDOR = "$REPO_PATH\node_modules\screen-reader-testing-library\nvda"
-      $NVDA_BIN = "$NVDA_VENDOR\portable\nvda.exe"
-      & $NVDA_BIN --log-file=$LOG_FILE_PATH --config-path=$NVDA_VENDOR\settings
+      & $NVDA_BIN -logFile "$LOG_FILE_PATH"
       yarn a11y-snapshot --ci --runInBand
-      & $NVDA_BIN -q
+      & $NVDA_BIN -quit
     displayName: "test"
 
   - publish: ${{ variables.NVDA_LOG_FILE_PATH }}
