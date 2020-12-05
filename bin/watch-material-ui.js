@@ -73,7 +73,7 @@ async function main(argv) {
 
 	const { stdout: gotUpdated } = await git("status --porcelain");
 	if (gotUpdated) {
-		await updateDeploy();
+		await updateDeploy(targetUrl);
 
 		await git('config --local user.email "action@github.com"');
 		await git('config --local user.name "GitHub Action"');
