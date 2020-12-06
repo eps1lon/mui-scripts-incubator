@@ -6362,10 +6362,10 @@ scheduler@^0.18.0:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
-screen-reader-testing-library@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/screen-reader-testing-library/-/screen-reader-testing-library-0.0.3.tgz#b07b387aeeba62c4f215460853c8c1095771dc42"
-  integrity sha512-w1T4Kl+51rvO4fcTOb4jZ/NdHU8Jk+IiZLW6JLSoYvW/gbPi8UId+PnbJVjK21wv+h6Np/dVBSyG7pv22uQcGA==
+screen-reader-testing-library@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/screen-reader-testing-library/-/screen-reader-testing-library-0.0.6.tgz#c28365e74ac2fecd3d2f16ed8ee6b3a67fe817b4"
+  integrity sha512-DrhiiK/Eyr8WOFv/9NV8BzI5pWwzCt8c8se3sQhEkYwZxdW631l2jfg/1pCc/ywjZwph+SdoAmM1YfUd7fXGwA==
   dependencies:
     extract-zip "^2.0.1"
     fs-extra "^9.0.1"
