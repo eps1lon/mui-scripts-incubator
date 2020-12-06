@@ -24,17 +24,18 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "12.x"
-      - name: Cache modules
-        uses: actions/cache@v2
-        with:
-          # https://github.com/microsoft/playwright/blob/HEAD/docs/installation.md#managing-browser-binaries
-          path: |
-            '$(UserProfile)\AppData\Local\ms-playwright'
-            '$(UserProfile)\AppData\Local\screen-reader-testing-library'
-            **/node_modules
-          key: cache-v1-${{ runner.os }}-${{ hashFiles('yarn.lock') }}
-          restore-keys: |
-            cache-v1-${{ runner.os }}
+      # TODO: Fails on scheduled and repository dispatch events e.g. https://github.com/eps1lon/mui-scripts-incubator/runs/1506954046?check_suite_focus=true
+      # - name: Cache modules
+      #   uses: actions/cache@v2
+      #   with:
+      #     # https://github.com/microsoft/playwright/blob/HEAD/docs/installation.md#managing-browser-binaries
+      #     path: |
+      #       '$(UserProfile)\AppData\Local\ms-playwright'
+      #       '$(UserProfile)\AppData\Local\screen-reader-testing-library'
+      #       **/node_modules
+      #     key: cache-v1-${{ runner.os }}-${{ hashFiles('yarn.lock') }}
+      #     restore-keys: |
+      #       cache-v1-${{ runner.os }}
       - uses: microsoft/playwright-github-action@v1
       - name: install
         run: yarn install
