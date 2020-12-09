@@ -214,7 +214,7 @@ exports[`chromium / 1`] = `
       <text>Who's using Material-UI?</text>
     </heading>
     <paragraph>
-      <text>Join these and other great organisations!</text>
+      <text>Join these and other great organizations!</text>
     </paragraph>
     <img>NASA</img>
     <img>Walmart Labs</img>
@@ -386,12 +386,12 @@ exports[`chromium /api/button/ 1`] = `
   </link>
   <heading level="1">
     Button API
-    <text>Button API</text>
+    <text>ButtonAPI</text>
   </heading>
   <paragraph>
     <text>
-      The API documentation of the Button React component. Learn more about the
-      props and the CSS customization points.
+      API documentation for the React Button component. Learn about the
+      available props, and the CSS API.
     </text>
   </paragraph>
   <heading level="2">
@@ -402,25 +402,21 @@ exports[`chromium /api/button/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
-  <paragraph>
-    <text>You can learn more about the difference by</text>
-    <link>reading this guide</link>
-    <text>.</text>
-  </paragraph>
+  <text>You can learn about the difference by</text>
+  <link>reading this guide on minimizing bundle size</link>
+  <text>.</text>
   <heading level="2">
     Component name
     <Anchor></Anchor>
     <text>Component name</text>
   </heading>
-  <paragraph>
-    <text>The</text>
-    <code>$SOME_CODE</code>
-    <text>name can be used for providing</text>
-    <link>default props</link>
-    <text>or</text>
-    <link>style overrides</link>
-    <text>at the theme level.</text>
-  </paragraph>
+  <text>The name</text>
+  <code>$SOME_CODE</code>
+  <text>can be used when providing</text>
+  <link>default props</link>
+  <text>or</text>
+  <link>style overrides</link>
+  <text>in the theme.</text>
   <heading level="2">
     Props
     <Anchor></Anchor>
@@ -513,10 +509,7 @@ exports[`chromium /api/button/ 1`] = `
         elementType
         <text>elementType</text>
       </gridcell>
-      <gridcell>
-        'button'
-        <text>'button'</text>
-      </gridcell>
+      <gridcell></gridcell>
       <gridcell>
         The component used for the root node. Either a string to use a HTML
         element or a component.
@@ -595,7 +588,10 @@ exports[`chromium /api/button/ 1`] = `
         bool
         <text>bool</text>
       </gridcell>
-      <gridcell></gridcell>
+      <gridcell>
+        false
+        <text>false</text>
+      </gridcell>
       <gridcell>
         If true, the ripple effect is disabled. ⚠️ Without a ripple there is no
         styling for :focus-visible by default. Be sure to highlight the element
@@ -731,16 +727,26 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
     </row>
   </table>
-  <paragraph>
-    <text>The</text>
-    <code>$SOME_CODE</code>
-    <text>is forwarded to the root element.</text>
-  </paragraph>
-  <paragraph>
-    <text>Any other props supplied will be provided to the root element (</text>
-    <link>ButtonBase</link>
-    <text>).</text>
-  </paragraph>
+  <LineBreak></LineBreak>
+  <text>The</text>
+  <code>$SOME_CODE</code>
+  <text>is forwarded to the root element.</text>
+  <LineBreak></LineBreak>
+  <text>Any other props supplied will be provided to the root element (</text>
+  <link>ButtonBase</link>
+  <text>).</text>
+  <heading level="3">
+    Inheritance
+    <Anchor></Anchor>
+    <text>Inheritance</text>
+  </heading>
+  <text>While not explicitly documented above, the props of the</text>
+  <link>ButtonBase</link>
+  <text>
+    component are also available on Button. You can take advantage of this to
+  </text>
+  <link>target nested components</link>
+  <text>.</text>
   <heading level="2">
     CSS
     <Anchor></Anchor>
@@ -1218,10 +1224,11 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the icon element if supplied and
-        size="small".
-        <text>Styles applied to the icon element if supplied and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
+        \`size="small"\`.
+        <text>
+          Styles applied to the icon element if supplied and
+          \`size="small"\`.
+        </text>
       </gridcell>
     </row>
     <row>
@@ -1235,10 +1242,11 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the icon element if supplied and
-        size="medium".
-        <text>Styles applied to the icon element if supplied and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
+        \`size="medium"\`.
+        <text>
+          Styles applied to the icon element if supplied and
+          \`size="medium"\`.
+        </text>
       </gridcell>
     </row>
     <row>
@@ -1252,19 +1260,19 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the icon element if supplied and
-        size="large".
-        <text>Styles applied to the icon element if supplied and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
+        \`size="large"\`.
+        <text>
+          Styles applied to the icon element if supplied and
+          \`size="large"\`.
+        </text>
       </gridcell>
     </row>
   </table>
-  <paragraph>
-    <text>
-      You can override the style of the component thanks to one of these
-      customization points:
-    </text>
-  </paragraph>
+  <LineBreak></LineBreak>
+  <text>
+    You can override the style of the component using one of these customization
+    options:
+  </text>
   <list>
     <listitem level="1">
       <ListMarker>
@@ -1291,31 +1299,15 @@ exports[`chromium /api/button/ 1`] = `
       </ListMarker>
       <text>With a theme and an</text>
       <link>
-        overrides property
+        styleOverrides property
         <code>$SOME_CODE</code>
       </link>
       <text>.</text>
     </listitem>
   </list>
-  <paragraph>
-    <text>If that's not sufficient, you can check the</text>
-    <link>implementation of the component</link>
-    <text>for more detail.</text>
-  </paragraph>
-  <heading level="2">
-    Inheritance
-    <Anchor></Anchor>
-    <text>Inheritance</text>
-  </heading>
-  <paragraph>
-    <text>The props of the</text>
-    <link>ButtonBase</link>
-    <text>
-      component are also available. You can take advantage of this behavior to
-    </text>
-    <link>target nested components</link>
-    <text>.</text>
-  </paragraph>
+  <text>If that isn't sufficient, you can check the</text>
+  <link>implementation of the component</link>
+  <text>for more detail.</text>
   <heading level="2">
     Demos
     <Anchor></Anchor>
@@ -1390,12 +1382,12 @@ exports[`chromium /api/select/ 1`] = `
   </link>
   <heading level="1">
     Select API
-    <text>Select API</text>
+    <text>SelectAPI</text>
   </heading>
   <paragraph>
     <text>
-      The API documentation of the Select React component. Learn more about the
-      props and the CSS customization points.
+      API documentation for the React Select component. Learn about the
+      available props, and the CSS API.
     </text>
   </paragraph>
   <heading level="2">
@@ -1406,25 +1398,21 @@ exports[`chromium /api/select/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
-  <paragraph>
-    <text>You can learn more about the difference by</text>
-    <link>reading this guide</link>
-    <text>.</text>
-  </paragraph>
+  <text>You can learn about the difference by</text>
+  <link>reading this guide on minimizing bundle size</link>
+  <text>.</text>
   <heading level="2">
     Component name
     <Anchor></Anchor>
     <text>Component name</text>
   </heading>
-  <paragraph>
-    <text>The</text>
-    <code>$SOME_CODE</code>
-    <text>name can be used for providing</text>
-    <link>default props</link>
-    <text>or</text>
-    <link>style overrides</link>
-    <text>at the theme level.</text>
-  </paragraph>
+  <text>The name</text>
+  <code>$SOME_CODE</code>
+  <text>can be used when providing</text>
+  <link>default props</link>
+  <text>or</text>
+  <link>style overrides</link>
+  <text>in the theme.</text>
   <heading level="2">
     Props
     <Anchor></Anchor>
@@ -1887,7 +1875,10 @@ exports[`chromium /api/select/ 1`] = `
         bool
         <text>bool</text>
       </gridcell>
-      <gridcell></gridcell>
+      <gridcell>
+        false
+        <text>false</text>
+      </gridcell>
       <gridcell>
         Control select open state. You can only use it when the native prop is
         false (default).
@@ -2009,16 +2000,26 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
     </row>
   </table>
-  <paragraph>
-    <text>The</text>
-    <code>$SOME_CODE</code>
-    <text>is forwarded to the root element.</text>
-  </paragraph>
-  <paragraph>
-    <text>Any other props supplied will be provided to the root element (</text>
-    <link>Input</link>
-    <text>).</text>
-  </paragraph>
+  <LineBreak></LineBreak>
+  <text>The</text>
+  <code>$SOME_CODE</code>
+  <text>is forwarded to the root element.</text>
+  <LineBreak></LineBreak>
+  <text>Any other props supplied will be provided to the root element (</text>
+  <link>Input</link>
+  <text>).</text>
+  <heading level="3">
+    Inheritance
+    <Anchor></Anchor>
+    <text>Inheritance</text>
+  </heading>
+  <text>While not explicitly documented above, the props of the</text>
+  <link>Input</link>
+  <text>
+    component are also available on Select. You can take advantage of this to
+  </text>
+  <link>target nested components</link>
+  <text>.</text>
   <heading level="2">
     CSS
     <Anchor></Anchor>
@@ -2049,10 +2050,8 @@ exports[`chromium /api/select/ 1`] = `
         <text>.MuiSelect-root</text>
       </gridcell>
       <gridcell>
-        Styles applied to the select component root class.
-        <text>Styles applied to the select component</text>
-        <code>$SOME_CODE</code>
-        <text>class.</text>
+        Styles applied to the select component \`root\` class.
+        <text>Styles applied to the select component \`root\` class.</text>
       </gridcell>
     </row>
     <row>
@@ -2065,10 +2064,8 @@ exports[`chromium /api/select/ 1`] = `
         <text>.MuiSelect-select</text>
       </gridcell>
       <gridcell>
-        Styles applied to the select component select class.
-        <text>Styles applied to the select component</text>
-        <code>$SOME_CODE</code>
-        <text>class.</text>
+        Styles applied to the select component \`select\` class.
+        <text>Styles applied to the select component \`select\` class.</text>
       </gridcell>
     </row>
     <row>
@@ -2113,10 +2110,8 @@ exports[`chromium /api/select/ 1`] = `
         <text>.MuiSelect-selectMenu</text>
       </gridcell>
       <gridcell>
-        Styles applied to the select component selectMenu class.
-        <text>Styles applied to the select component</text>
-        <code>$SOME_CODE</code>
-        <text>class.</text>
+        Styles applied to the select component \`selectMenu\` class.
+        <text>Styles applied to the select component \`selectMenu\` class.</text>
       </gridcell>
     </row>
     <row>
@@ -2129,10 +2124,10 @@ exports[`chromium /api/select/ 1`] = `
         <text>.Mui-disabled</text>
       </gridcell>
       <gridcell>
-        Pseudo-class applied to the select component disabled class.
-        <text>Pseudo-class applied to the select component</text>
-        <code>$SOME_CODE</code>
-        <text>class.</text>
+        Pseudo-class applied to the select component \`disabled\` class.
+        <text>
+          Pseudo-class applied to the select component \`disabled\` class.
+        </text>
       </gridcell>
     </row>
     <row>
@@ -2210,12 +2205,11 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
     </row>
   </table>
-  <paragraph>
-    <text>
-      You can override the style of the component thanks to one of these
-      customization points:
-    </text>
-  </paragraph>
+  <LineBreak></LineBreak>
+  <text>
+    You can override the style of the component using one of these customization
+    options:
+  </text>
   <list>
     <listitem level="1">
       <ListMarker>
@@ -2242,31 +2236,15 @@ exports[`chromium /api/select/ 1`] = `
       </ListMarker>
       <text>With a theme and an</text>
       <link>
-        overrides property
+        styleOverrides property
         <code>$SOME_CODE</code>
       </link>
       <text>.</text>
     </listitem>
   </list>
-  <paragraph>
-    <text>If that's not sufficient, you can check the</text>
-    <link>implementation of the component</link>
-    <text>for more detail.</text>
-  </paragraph>
-  <heading level="2">
-    Inheritance
-    <Anchor></Anchor>
-    <text>Inheritance</text>
-  </heading>
-  <paragraph>
-    <text>The props of the</text>
-    <link>Input</link>
-    <text>
-      component are also available. You can take advantage of this behavior to
-    </text>
-    <link>target nested components</link>
-    <text>.</text>
-  </paragraph>
+  <text>If that isn't sufficient, you can check the</text>
+  <link>implementation of the component</link>
+  <text>for more detail.</text>
   <heading level="2">
     Demos
     <Anchor></Anchor>
@@ -19207,7 +19185,7 @@ exports[`firefox / 1`] = `
       <text>Who's using Material-UI?</text>
     </heading>
     <paragraph>
-      <text>Join these and other great organisations!</text>
+      <text>Join these and other great organizations!</text>
     </paragraph>
     <img>NASA</img>
     <img>Walmart Labs</img>
@@ -19308,8 +19286,8 @@ exports[`firefox /api/button/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      The API documentation of the Button React component. Learn more about the
-      props and the CSS customization points.
+      API documentation for the React Button component. Learn about the
+      available props, and the CSS API.
     </text>
   </paragraph>
   <heading level="2">
@@ -19319,25 +19297,21 @@ exports[`firefox /api/button/ 1`] = `
   </heading>
   <text>
     import Button from '@material-ui/core/Button'; // or import {
-    Button } from '@material-ui/core';
+    Button } from '@material-ui/core';You can learn about the
+    difference by
   </text>
-  <paragraph>
-    <text>You can learn more about the difference by</text>
-    <link>reading this guide</link>
-    <text>.</text>
-  </paragraph>
+  <link>reading this guide on minimizing bundle size</link>
+  <text>.</text>
   <heading level="2">
     Component name
     <link></link>
     <text>Component name</text>
   </heading>
-  <paragraph>
-    <text>The MuiButton name can be used for providing</text>
-    <link>default props</link>
-    <text>or</text>
-    <link>style overrides</link>
-    <text>at the theme level.</text>
-  </paragraph>
+  <text>The name MuiButton can be used when providing</text>
+  <link>default props</link>
+  <text>or</text>
+  <link>style overrides</link>
+  <text>in the theme.</text>
   <heading level="2">
     Props
     <link></link>
@@ -19412,9 +19386,7 @@ exports[`firefox /api/button/ 1`] = `
       <cell>
         <text>elementType</text>
       </cell>
-      <cell>
-        <text>'button'</text>
-      </cell>
+      <cell></cell>
       <cell>
         <text>
           The component used for the root node. Either a string to use a HTML
@@ -19471,7 +19443,9 @@ exports[`firefox /api/button/ 1`] = `
       <cell>
         <text>bool</text>
       </cell>
-      <cell></cell>
+      <cell>
+        <text>false</text>
+      </cell>
       <cell>
         <text>If true, the ripple effect is disabled.</text>
         <whitespace></whitespace>
@@ -19579,14 +19553,24 @@ exports[`firefox /api/button/ 1`] = `
       </cell>
     </row>
   </table>
-  <paragraph>
-    <text>The ref is forwarded to the root element.</text>
-  </paragraph>
-  <paragraph>
-    <text>Any other props supplied will be provided to the root element (</text>
-    <link>ButtonBase</link>
-    <text>).</text>
-  </paragraph>
+  <whitespace></whitespace>
+  <text>The ref is forwarded to the root element.</text>
+  <whitespace></whitespace>
+  <text>Any other props supplied will be provided to the root element (</text>
+  <link>ButtonBase</link>
+  <text>).</text>
+  <heading level="3">
+    Inheritance
+    <link></link>
+    <text>Inheritance</text>
+  </heading>
+  <text>While not explicitly documented above, the props of the</text>
+  <link>ButtonBase</link>
+  <text>
+    component are also available on Button. You can take advantage of this to
+  </text>
+  <link>target nested components</link>
+  <text>.</text>
   <heading level="2">
     CSS
     <link></link>
@@ -19958,7 +19942,7 @@ exports[`firefox /api/button/ 1`] = `
       <cell>
         <text>
           Styles applied to the icon element if supplied and
-          size="small".
+          \`size="small"\`.
         </text>
       </cell>
     </row>
@@ -19972,7 +19956,7 @@ exports[`firefox /api/button/ 1`] = `
       <cell>
         <text>
           Styles applied to the icon element if supplied and
-          size="medium".
+          \`size="medium"\`.
         </text>
       </cell>
     </row>
@@ -19986,17 +19970,16 @@ exports[`firefox /api/button/ 1`] = `
       <cell>
         <text>
           Styles applied to the icon element if supplied and
-          size="large".
+          \`size="large"\`.
         </text>
       </cell>
     </row>
   </table>
-  <paragraph>
-    <text>
-      You can override the style of the component thanks to one of these
-      customization points:
-    </text>
-  </paragraph>
+  <whitespace></whitespace>
+  <text>
+    You can override the style of the component using one of these customization
+    options:
+  </text>
   <list>
     <listitem>
       • With a rule name of the classes object prop .<statictext>•</statictext>
@@ -20011,31 +19994,15 @@ exports[`firefox /api/button/ 1`] = `
       <text>.</text>
     </listitem>
     <listitem>
-      • With a theme and an overrides property .<statictext>•</statictext>
+      • With a theme and an styleOverrides property .<statictext>•</statictext>
       <text>With a theme and an</text>
-      <link>overrides property</link>
+      <link>styleOverrides property</link>
       <text>.</text>
     </listitem>
   </list>
-  <paragraph>
-    <text>If that's not sufficient, you can check the</text>
-    <link>implementation of the component</link>
-    <text>for more detail.</text>
-  </paragraph>
-  <heading level="2">
-    Inheritance
-    <link></link>
-    <text>Inheritance</text>
-  </heading>
-  <paragraph>
-    <text>The props of the</text>
-    <link>ButtonBase</link>
-    <text>
-      component are also available. You can take advantage of this behavior to
-    </text>
-    <link>target nested components</link>
-    <text>.</text>
-  </paragraph>
+  <text>If that isn't sufficient, you can check the</text>
+  <link>implementation of the component</link>
+  <text>for more detail.</text>
   <heading level="2">
     Demos
     <link></link>
@@ -20075,8 +20042,8 @@ exports[`firefox /api/select/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      The API documentation of the Select React component. Learn more about the
-      props and the CSS customization points.
+      API documentation for the React Select component. Learn about the
+      available props, and the CSS API.
     </text>
   </paragraph>
   <heading level="2">
@@ -20086,25 +20053,21 @@ exports[`firefox /api/select/ 1`] = `
   </heading>
   <text>
     import Select from '@material-ui/core/Select'; // or import {
-    Select } from '@material-ui/core';
+    Select } from '@material-ui/core';You can learn about the
+    difference by
   </text>
-  <paragraph>
-    <text>You can learn more about the difference by</text>
-    <link>reading this guide</link>
-    <text>.</text>
-  </paragraph>
+  <link>reading this guide on minimizing bundle size</link>
+  <text>.</text>
   <heading level="2">
     Component name
     <link></link>
     <text>Component name</text>
   </heading>
-  <paragraph>
-    <text>The MuiSelect name can be used for providing</text>
-    <link>default props</link>
-    <text>or</text>
-    <link>style overrides</link>
-    <text>at the theme level.</text>
-  </paragraph>
+  <text>The name MuiSelect can be used when providing</text>
+  <link>default props</link>
+  <text>or</text>
+  <link>style overrides</link>
+  <text>in the theme.</text>
   <heading level="2">
     Props
     <link></link>
@@ -20443,7 +20406,9 @@ exports[`firefox /api/select/ 1`] = `
       <cell>
         <text>bool</text>
       </cell>
-      <cell></cell>
+      <cell>
+        <text>false</text>
+      </cell>
       <cell>
         <text>
           Control select open state. You can only use it when the native prop is
@@ -20528,14 +20493,24 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
     </row>
   </table>
-  <paragraph>
-    <text>The ref is forwarded to the root element.</text>
-  </paragraph>
-  <paragraph>
-    <text>Any other props supplied will be provided to the root element (</text>
-    <link>Input</link>
-    <text>).</text>
-  </paragraph>
+  <whitespace></whitespace>
+  <text>The ref is forwarded to the root element.</text>
+  <whitespace></whitespace>
+  <text>Any other props supplied will be provided to the root element (</text>
+  <link>Input</link>
+  <text>).</text>
+  <heading level="3">
+    Inheritance
+    <link></link>
+    <text>Inheritance</text>
+  </heading>
+  <text>While not explicitly documented above, the props of the</text>
+  <link>Input</link>
+  <text>
+    component are also available on Select. You can take advantage of this to
+  </text>
+  <link>target nested components</link>
+  <text>.</text>
   <heading level="2">
     CSS
     <link></link>
@@ -20561,7 +20536,7 @@ exports[`firefox /api/select/ 1`] = `
         <text>.MuiSelect-root</text>
       </cell>
       <cell>
-        <text>Styles applied to the select component root class.</text>
+        <text>Styles applied to the select component \`root\` class.</text>
       </cell>
     </row>
     <row>
@@ -20572,7 +20547,7 @@ exports[`firefox /api/select/ 1`] = `
         <text>.MuiSelect-select</text>
       </cell>
       <cell>
-        <text>Styles applied to the select component select class.</text>
+        <text>Styles applied to the select component \`select\` class.</text>
       </cell>
     </row>
     <row>
@@ -20610,7 +20585,7 @@ exports[`firefox /api/select/ 1`] = `
         <text>.MuiSelect-selectMenu</text>
       </cell>
       <cell>
-        <text>Styles applied to the select component selectMenu class.</text>
+        <text>Styles applied to the select component \`selectMenu\` class.</text>
       </cell>
     </row>
     <row>
@@ -20622,7 +20597,7 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell>
         <text>
-          Pseudo-class applied to the select component disabled class.
+          Pseudo-class applied to the select component \`disabled\` class.
         </text>
       </cell>
     </row>
@@ -20686,12 +20661,11 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
     </row>
   </table>
-  <paragraph>
-    <text>
-      You can override the style of the component thanks to one of these
-      customization points:
-    </text>
-  </paragraph>
+  <whitespace></whitespace>
+  <text>
+    You can override the style of the component using one of these customization
+    options:
+  </text>
   <list>
     <listitem>
       • With a rule name of the classes object prop .<statictext>•</statictext>
@@ -20706,31 +20680,15 @@ exports[`firefox /api/select/ 1`] = `
       <text>.</text>
     </listitem>
     <listitem>
-      • With a theme and an overrides property .<statictext>•</statictext>
+      • With a theme and an styleOverrides property .<statictext>•</statictext>
       <text>With a theme and an</text>
-      <link>overrides property</link>
+      <link>styleOverrides property</link>
       <text>.</text>
     </listitem>
   </list>
-  <paragraph>
-    <text>If that's not sufficient, you can check the</text>
-    <link>implementation of the component</link>
-    <text>for more detail.</text>
-  </paragraph>
-  <heading level="2">
-    Inheritance
-    <link></link>
-    <text>Inheritance</text>
-  </heading>
-  <paragraph>
-    <text>The props of the</text>
-    <link>Input</link>
-    <text>
-      component are also available. You can take advantage of this behavior to
-    </text>
-    <link>target nested components</link>
-    <text>.</text>
-  </paragraph>
+  <text>If that isn't sufficient, you can check the</text>
+  <link>implementation of the component</link>
+  <text>for more detail.</text>
   <heading level="2">
     Demos
     <link></link>
