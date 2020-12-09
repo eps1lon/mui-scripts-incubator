@@ -28281,7 +28281,10 @@ exports[`firefox /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Tabs make it easy to explore and switch between different views.
+      Tabs make it easy to explore and switch between different views.Help us
+      keep runningIf you don't mind-tech related ads (no tracking or
+      remarketing), and want to keep us running, please whitelist Material-UI in
+      your blocker.Thank you!
     </text>
   </paragraph>
   <paragraph>
