@@ -1947,23 +1947,18 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        The input value. Providing an empty string will select no options. This
-        prop is required when the native prop is false (default). Set to an
-        empty string '' if you don't want any of the available
-        options to be selected. If the value is an object it must have reference
-        equality with the option in order to be selected. If the value is not an
-        object, the string representation must match with the string
+        The input value. Providing an empty string will select no options. Set
+        to an empty string '' if you don't want any of the
+        available options to be selected. If the value is an object it must have
+        reference equality with the option in order to be selected. If the value
+        is not an object, the string representation must match with the string
         representation of the option in order to be selected.
         <text>The</text>
         <code>$SOME_CODE</code>
         <text>
-          value. Providing an empty string will select no options. This prop is
-          required when the
+          value. Providing an empty string will select no options. Set to an
+          empty string
         </text>
-        <code>$SOME_CODE</code>
-        <text>prop is</text>
-        <code>$SOME_CODE</code>
-        <text>(default). Set to an empty string</text>
         <code>$SOME_CODE</code>
         <text>
           if you don't want any of the available options to be selected.
@@ -15448,6 +15443,67 @@ exports[`chromium /components/text-fields/ 1`] = `
       <SVGRoot></SVGRoot>
     </combobox>
   </toolbar>
+  <paragraph>
+    <text>The</text>
+    <code>$SOME_CODE</code>
+    <text>
+      variant input height can be further reduced by rendering the label outside
+      of it.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <Label>
+      <text>Hidden label</text>
+    </Label>
+    <text> </text>
+    <textbox value="Small">
+      Hidden label
+      <text>Small</text>
+    </textbox>
+    <Label>
+      <text>Hidden label</text>
+    </Label>
+    <text> </text>
+    <textbox value="Normal">
+      Hidden label
+      <text>Normal</text>
+    </textbox>
+  </form>
+  <toolbar>
+    demo source
+    <group>
+      <button pressed="true">Show JavaScript source</button>
+      <button pressed="false">Show TypeScript source</button>
+    </group>
+    <button>
+      Show the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Edit in CodeSandbox
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Copy the source
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset focus to test keyboard navigation
+      <SVGRoot></SVGRoot>
+    </button>
+    <button>
+      Reset demo
+      <SVGRoot></SVGRoot>
+    </button>
+    <combobox haspopup="menu">
+      See more
+      <SVGRoot></SVGRoot>
+    </combobox>
+  </toolbar>
   <heading level="2">
     Layout
     <Anchor></Anchor>
@@ -20460,9 +20516,8 @@ exports[`firefox /api/select/ 1`] = `
       <cell></cell>
       <cell>
         <text>
-          The input value. Providing an empty string will select no options.
-          This prop is required when the native prop is false (default). Set to
-          an empty string '' if you don't want any of the
+          The input value. Providing an empty string will select no options. Set
+          to an empty string '' if you don't want any of the
           available options to be selected.
         </text>
         <whitespace></whitespace>
@@ -30143,6 +30198,45 @@ exports[`firefox /components/text-fields/ 1`] = `
     <statictext> </statictext>
     <textbox value="Normal">
       Size
+      <text>Normal</text>
+    </textbox>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <paragraph>
+    <text>
+      The filled variant input height can be further reduced by rendering the
+      label outside of it.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <label>
+      Hidden label
+      <text>Hidden label</text>
+    </label>
+    <statictext> </statictext>
+    <textbox value="Small">
+      Hidden label
+      <text>Small</text>
+    </textbox>
+    <label>
+      Hidden label
+      <text>Hidden label</text>
+    </label>
+    <statictext> </statictext>
+    <textbox value="Normal">
+      Hidden label
       <text>Normal</text>
     </textbox>
   </form>
