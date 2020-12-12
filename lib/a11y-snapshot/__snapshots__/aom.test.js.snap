@@ -2339,16 +2339,16 @@ exports[`chromium /components/breadcrumbs 1`] = `
     </listitem>
     <listitem level="1">
       <link>
-        Sketch
+        Figma
         <SVGRoot></SVGRoot>
-        <text>Sketch</text>
+        <text>Figma</text>
       </link>
     </listitem>
     <listitem level="1">
       <link>
-        Figma
+        Sketch
         <SVGRoot></SVGRoot>
-        <text>Figma</text>
+        <text>Sketch</text>
       </link>
     </listitem>
   </list>
@@ -3061,16 +3061,16 @@ exports[`chromium /components/button-group/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>
-        Sketch
+        Figma
         <SVGRoot></SVGRoot>
-        <text>Sketch</text>
+        <text>Figma</text>
       </link>
     </listitem>
     <listitem level="1">
       <link>
-        Figma
+        Sketch
         <SVGRoot></SVGRoot>
-        <text>Figma</text>
+        <text>Sketch</text>
       </link>
     </listitem>
   </list>
@@ -3617,16 +3617,16 @@ exports[`chromium /components/buttons/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>
-        Sketch
+        Figma
         <SVGRoot></SVGRoot>
-        <text>Sketch</text>
+        <text>Figma</text>
       </link>
     </listitem>
     <listitem level="1">
       <link>
-        Figma
+        Sketch
         <SVGRoot></SVGRoot>
-        <text>Figma</text>
+        <text>Sketch</text>
       </link>
     </listitem>
   </list>
@@ -4730,16 +4730,16 @@ exports[`chromium /components/checkboxes/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>
-        Sketch
+        Figma
         <SVGRoot></SVGRoot>
-        <text>Sketch</text>
+        <text>Figma</text>
       </link>
     </listitem>
     <listitem level="1">
       <link>
-        Figma
+        Sketch
         <SVGRoot></SVGRoot>
-        <text>Figma</text>
+        <text>Sketch</text>
       </link>
     </listitem>
   </list>
@@ -5389,16 +5389,16 @@ exports[`chromium /components/dialogs/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>
-        Sketch
+        Figma
         <SVGRoot></SVGRoot>
-        <text>Sketch</text>
+        <text>Figma</text>
       </link>
     </listitem>
     <listitem level="1">
       <link>
-        Figma
+        Sketch
         <SVGRoot></SVGRoot>
-        <text>Figma</text>
+        <text>Sketch</text>
       </link>
     </listitem>
   </list>
@@ -6264,16 +6264,16 @@ exports[`chromium /components/pagination/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>
-        Sketch
+        Figma
         <SVGRoot></SVGRoot>
-        <text>Sketch</text>
+        <text>Figma</text>
       </link>
     </listitem>
     <listitem level="1">
       <link>
-        Figma
+        Sketch
         <SVGRoot></SVGRoot>
-        <text>Figma</text>
+        <text>Sketch</text>
       </link>
     </listitem>
   </list>
@@ -8069,16 +8069,16 @@ exports[`chromium /components/pickers 1`] = `
     </listitem>
     <listitem level="1">
       <link>
-        Sketch
+        Figma
         <SVGRoot></SVGRoot>
-        <text>Sketch</text>
+        <text>Figma</text>
       </link>
     </listitem>
     <listitem level="1">
       <link>
-        Figma
+        Sketch
         <SVGRoot></SVGRoot>
-        <text>Figma</text>
+        <text>Sketch</text>
       </link>
     </listitem>
   </list>
@@ -8518,16 +8518,16 @@ exports[`chromium /components/radio-buttons 1`] = `
     </listitem>
     <listitem level="1">
       <link>
-        Sketch
+        Figma
         <SVGRoot></SVGRoot>
-        <text>Sketch</text>
+        <text>Figma</text>
       </link>
     </listitem>
     <listitem level="1">
       <link>
-        Figma
+        Sketch
         <SVGRoot></SVGRoot>
-        <text>Figma</text>
+        <text>Sketch</text>
       </link>
     </listitem>
   </list>
@@ -9210,16 +9210,16 @@ exports[`chromium /components/rating/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>
-        Sketch
+        Figma
         <SVGRoot></SVGRoot>
-        <text>Sketch</text>
+        <text>Figma</text>
       </link>
     </listitem>
     <listitem level="1">
       <link>
-        Figma
+        Sketch
         <SVGRoot></SVGRoot>
-        <text>Figma</text>
+        <text>Sketch</text>
       </link>
     </listitem>
   </list>
@@ -9989,16 +9989,16 @@ exports[`chromium /components/selects/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>
-        Sketch
+        Figma
         <SVGRoot></SVGRoot>
-        <text>Sketch</text>
+        <text>Figma</text>
       </link>
     </listitem>
     <listitem level="1">
       <link>
-        Figma
+        Sketch
         <SVGRoot></SVGRoot>
-        <text>Figma</text>
+        <text>Sketch</text>
       </link>
     </listitem>
   </list>
@@ -11150,16 +11150,16 @@ exports[`chromium /components/slider 1`] = `
     </listitem>
     <listitem level="1">
       <link>
-        Sketch
+        Figma
         <SVGRoot></SVGRoot>
-        <text>Sketch</text>
+        <text>Figma</text>
       </link>
     </listitem>
     <listitem level="1">
       <link>
-        Figma
+        Sketch
         <SVGRoot></SVGRoot>
-        <text>Figma</text>
+        <text>Sketch</text>
       </link>
     </listitem>
   </list>
@@ -12338,16 +12338,16 @@ exports[`chromium /components/switches/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>
-        Sketch
+        Figma
         <SVGRoot></SVGRoot>
-        <text>Sketch</text>
+        <text>Figma</text>
       </link>
     </listitem>
     <listitem level="1">
       <link>
-        Figma
+        Sketch
         <SVGRoot></SVGRoot>
-        <text>Figma</text>
+        <text>Sketch</text>
       </link>
     </listitem>
   </list>
@@ -12928,16 +12928,16 @@ exports[`chromium /components/tabs/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>
-        Sketch
+        Figma
         <SVGRoot></SVGRoot>
-        <text>Sketch</text>
+        <text>Figma</text>
       </link>
     </listitem>
     <listitem level="1">
       <link>
-        Figma
+        Sketch
         <SVGRoot></SVGRoot>
-        <text>Figma</text>
+        <text>Sketch</text>
       </link>
     </listitem>
   </list>
@@ -14375,16 +14375,16 @@ exports[`chromium /components/text-fields/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>
-        Sketch
+        Figma
         <SVGRoot></SVGRoot>
-        <text>Sketch</text>
+        <text>Figma</text>
       </link>
     </listitem>
     <listitem level="1">
       <link>
-        Figma
+        Sketch
         <SVGRoot></SVGRoot>
-        <text>Figma</text>
+        <text>Sketch</text>
       </link>
     </listitem>
   </list>
@@ -16864,16 +16864,16 @@ exports[`chromium /components/tooltips/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>
-        Sketch
+        Figma
         <SVGRoot></SVGRoot>
-        <text>Sketch</text>
+        <text>Figma</text>
       </link>
     </listitem>
     <listitem level="1">
       <link>
-        Figma
+        Sketch
         <SVGRoot></SVGRoot>
-        <text>Figma</text>
+        <text>Sketch</text>
       </link>
     </listitem>
   </list>
@@ -18239,16 +18239,16 @@ exports[`chromium /components/tree-view/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>
-        Sketch
+        Figma
         <SVGRoot></SVGRoot>
-        <text>Sketch</text>
+        <text>Figma</text>
       </link>
     </listitem>
     <listitem level="1">
       <link>
-        Figma
+        Sketch
         <SVGRoot></SVGRoot>
-        <text>Figma</text>
+        <text>Sketch</text>
       </link>
     </listitem>
   </list>
@@ -20797,12 +20797,12 @@ exports[`firefox /components/breadcrumbs 1`] = `
       </link>
     </listitem>
     <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
       Figma
       <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
     </listitem>
   </list>
   <heading level="2">
@@ -21277,12 +21277,12 @@ exports[`firefox /components/button-group/ 1`] = `
       </link>
     </listitem>
     <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
       Figma
       <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
     </listitem>
   </list>
   <heading level="2">
@@ -21652,12 +21652,12 @@ exports[`firefox /components/buttons/ 1`] = `
       <link>Material Design</link>
     </listitem>
     <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
       Figma
       <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
     </listitem>
   </list>
   <heading level="2">
@@ -22390,12 +22390,12 @@ exports[`firefox /components/checkboxes/ 1`] = `
       <link>Material Design</link>
     </listitem>
     <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
       Figma
       <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
     </listitem>
   </list>
   <heading level="2">
@@ -22850,12 +22850,12 @@ exports[`firefox /components/dialogs/ 1`] = `
       <link>Material Design</link>
     </listitem>
     <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
       Figma
       <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
     </listitem>
   </list>
   <heading level="2">
@@ -23408,12 +23408,12 @@ exports[`firefox /components/pagination/ 1`] = `
       </link>
     </listitem>
     <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
       Figma
       <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
     </listitem>
   </list>
   <heading level="2">
@@ -24983,12 +24983,12 @@ exports[`firefox /components/pickers 1`] = `
       <link>Material Design</link>
     </listitem>
     <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
       Figma
       <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
     </listitem>
   </list>
   <heading level="2">
@@ -25278,12 +25278,12 @@ exports[`firefox /components/radio-buttons 1`] = `
       <link>Material Design</link>
     </listitem>
     <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
       Figma
       <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
     </listitem>
   </list>
   <heading level="2">
@@ -25772,12 +25772,12 @@ exports[`firefox /components/rating/ 1`] = `
       </link>
     </listitem>
     <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
       Figma
       <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
     </listitem>
   </list>
   <heading level="2">
@@ -26499,12 +26499,12 @@ exports[`firefox /components/selects/ 1`] = `
       </link>
     </listitem>
     <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
       Figma
       <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
     </listitem>
   </list>
   <heading level="2">
@@ -27303,12 +27303,12 @@ exports[`firefox /components/slider 1`] = `
       <link>Material Design</link>
     </listitem>
     <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
       Figma
       <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
     </listitem>
   </list>
   <heading level="2">
@@ -27951,12 +27951,12 @@ exports[`firefox /components/switches/ 1`] = `
       <link>Material Design</link>
     </listitem>
     <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
       Figma
       <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
     </listitem>
   </list>
   <heading level="2">
@@ -28365,12 +28365,12 @@ exports[`firefox /components/tabs/ 1`] = `
       <link>Material Design</link>
     </listitem>
     <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
       Figma
       <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
     </listitem>
   </list>
   <heading level="2">
@@ -29385,12 +29385,12 @@ exports[`firefox /components/text-fields/ 1`] = `
       <link>Material Design</link>
     </listitem>
     <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
       Figma
       <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
     </listitem>
   </list>
   <heading level="2">
@@ -31237,12 +31237,12 @@ exports[`firefox /components/tooltips/ 1`] = `
       <link>Material Design</link>
     </listitem>
     <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
       Figma
       <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
     </listitem>
   </list>
   <heading level="2">
@@ -32125,12 +32125,12 @@ exports[`firefox /components/tree-view/ 1`] = `
       </link>
     </listitem>
     <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-    <listitem>
       Figma
       <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
     </listitem>
   </list>
   <heading level="2">
