@@ -71,7 +71,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-input-field-name?application=axeAPI",
     "id": "aria-input-field-name",
     "nodes": Array [
-      ".css-18yec3w > span[aria-orientation=\\"horizontal\\"][aria-valuemax=\\"\\\\31 00\\"][aria-valuemin=\\"\\\\30 \\"]",
+      ".css-mnij8t > span[aria-orientation=\\"horizontal\\"][aria-valuemax=\\"\\\\31 00\\"][aria-valuemin=\\"\\\\30 \\"]",
     ],
   },
   Object {
