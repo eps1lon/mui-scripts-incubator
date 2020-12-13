@@ -9,6 +9,13 @@ exports[`chromium /api/select/ 1`] = `Array []`;
 exports[`chromium /components/breadcrumbs 1`] = `
 Array [
   Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-allowed-role?application=axeAPI",
+    "id": "aria-allowed-role",
+    "nodes": Array [
+      ".jss68",
+    ],
+  },
+  Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
     "nodes": Array [
@@ -20,30 +27,21 @@ Array [
 
 exports[`chromium /components/button-group/ 1`] = `Array []`;
 
-exports[`chromium /components/buttons/ 1`] = `
+exports[`chromium /components/buttons/ 1`] = `Array []`;
+
+exports[`chromium /components/checkboxes/ 1`] = `Array []`;
+
+exports[`chromium /components/dialogs/ 1`] = `
 Array [
   Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
-    "id": "aria-progressbar-name",
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/heading-order?application=axeAPI",
+    "id": "heading-order",
     "nodes": Array [
-      ".MuiLoadingButton-pendingIndicatorCenter.MuiLoadingButton-pendingIndicator > .MuiCircularProgress-root.MuiCircularProgress-indeterminate[role=\\"progressbar\\"]",
-      ".MuiLoadingButton-pendingIndicatorStart > .MuiCircularProgress-root.MuiCircularProgress-indeterminate[role=\\"progressbar\\"]",
-    ],
-  },
-  Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/button-name?application=axeAPI",
-    "id": "button-name",
-    "nodes": Array [
-      ".MuiLoadingButton-pending.MuiLoadingButton-root.Mui-disabled:nth-child(1)",
-      ".MuiLoadingButton-pending.MuiLoadingButton-root.Mui-disabled:nth-child(2)",
+      "h6",
     ],
   },
 ]
 `;
-
-exports[`chromium /components/checkboxes/ 1`] = `Array []`;
-
-exports[`chromium /components/dialogs/ 1`] = `Array []`;
 
 exports[`chromium /components/pagination/ 1`] = `
 Array [
@@ -51,7 +49,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
     "nodes": Array [
-      ".jss59 > .MuiPagination-text.MuiPagination-root[aria-label=\\"pagination\\\\ navigation\\"]:nth-child(1)",
+      ".jss61 > .MuiPagination-root[aria-label=\\"pagination\\\\ navigation\\"]:nth-child(1)",
     ],
   },
 ]
@@ -71,7 +69,8 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-input-field-name?application=axeAPI",
     "id": "aria-input-field-name",
     "nodes": Array [
-      ".css-18yec3w > span[aria-orientation=\\"horizontal\\"][aria-valuemax=\\"\\\\31 00\\"][aria-valuemin=\\"\\\\30 \\"]",
+      ".jss62[aria-labelledby=\\"range-slider\\"][aria-valuetext=\\"\\\\32 0°C\\"]",
+      ".jss62[aria-labelledby=\\"range-slider\\"][aria-valuetext=\\"\\\\33 7°C\\"]",
     ],
   },
   Object {
@@ -79,6 +78,14 @@ Array [
     "id": "aria-valid-attr-value",
     "nodes": Array [
       "span[aria-labelledby=\\"discrete-slider-small-steps\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/duplicate-id-aria?application=axeAPI",
+    "id": "duplicate-id-aria",
+    "nodes": Array [
+      ".jss71 > .MuiTypography-body1.MuiTypography-gutterBottom:nth-child(1)",
+      ".jss51.markdown-body:nth-child(14) > h2 > .anchor-link",
     ],
   },
 ]
