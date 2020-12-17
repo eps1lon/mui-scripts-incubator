@@ -16,6 +16,7 @@ exports[`chromium / 1`] = `
       <text>Search…</text>
     </combobox>
     <Pre></Pre>
+    <text>CtrlK</text>
     <combobox haspopup="menu">
       Change language
       <SVGRoot></SVGRoot>
@@ -19076,6 +19077,7 @@ exports[`firefox / 1`] = `
     <combobox autocomplete="list" haspopup="true">
       Search
     </combobox>
+    <text>CtrlK</text>
     <buttonmenu haspopup="true">
       Change language
       <text>ENGLISH</text>
