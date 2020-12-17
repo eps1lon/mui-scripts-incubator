@@ -15003,8 +15003,10 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Select</text>
     </Label>
-    <combobox haspopup="listbox">Select €</combobox>
-    <textbox description="Please select your currency" value="EUR"></textbox>
+    <combobox description="Please select your currency" haspopup="listbox">
+      Select €
+    </combobox>
+    <textbox value="EUR"></textbox>
     <SVGRoot></SVGRoot>
     <group>
       <Legend>
@@ -15039,8 +15041,10 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Select</text>
     </Label>
     <text> </text>
-    <combobox haspopup="listbox">Select €</combobox>
-    <textbox description="Please select your currency" value="EUR"></textbox>
+    <combobox description="Please select your currency" haspopup="listbox">
+      Select €
+    </combobox>
+    <textbox value="EUR"></textbox>
     <SVGRoot></SVGRoot>
     <paragraph>
       <text>Please select your currency</text>
@@ -15066,8 +15070,10 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Select</text>
     </Label>
     <text> </text>
-    <combobox haspopup="listbox">Select €</combobox>
-    <textbox description="Please select your currency" value="EUR"></textbox>
+    <combobox description="Please select your currency" haspopup="listbox">
+      Select €
+    </combobox>
+    <textbox value="EUR"></textbox>
     <SVGRoot></SVGRoot>
     <paragraph>
       <text>Please select your currency</text>
@@ -29869,7 +29875,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Select
       <text>Select</text>
     </label>
-    <button haspopup="true">
+    <button description="Please select your currency" haspopup="true">
       Select €<text>€</text>
     </button>
     <paragraph>
@@ -29908,7 +29914,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Select</text>
     </label>
     <statictext> </statictext>
-    <button haspopup="true">
+    <button description="Please select your currency" haspopup="true">
       Select €<text>€</text>
     </button>
     <paragraph>
@@ -29948,7 +29954,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Select</text>
     </label>
     <statictext> </statictext>
-    <button haspopup="true">
+    <button description="Please select your currency" haspopup="true">
       Select €<text>€</text>
     </button>
     <paragraph>
