@@ -16,6 +16,7 @@ exports[`chromium / 1`] = `
       <text>Search…</text>
     </combobox>
     <Pre></Pre>
+    <text>CtrlK</text>
     <combobox haspopup="menu">
       Change language
       <SVGRoot></SVGRoot>
@@ -296,14 +297,14 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.19. View versions page.</link>
+      <link>v5.0.0-alpha.20. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v5.0.0-alpha.19</link>
+  <link>v5.0.0-alpha.20</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -821,6 +822,25 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
+        textInherit
+        <text>textInherit</text>
+      </gridcell>
+      <gridcell>
+        .MuiButton-textInherit
+        <text>.MuiButton-textInherit</text>
+      </gridcell>
+      <gridcell>
+        Styles applied to the root element if variant="text" and
+        color="inherit".
+        <text>Styles applied to the root element if</text>
+        <code>$SOME_CODE</code>
+        <text>and</text>
+        <code>$SOME_CODE</code>
+        <text>.</text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
         textPrimary
         <text>textPrimary</text>
       </gridcell>
@@ -875,6 +895,25 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
+        outlinedInherit
+        <text>outlinedInherit</text>
+      </gridcell>
+      <gridcell>
+        .MuiButton-outlinedInherit
+        <text>.MuiButton-outlinedInherit</text>
+      </gridcell>
+      <gridcell>
+        Styles applied to the root element if variant="outlined" and
+        color="inherit".
+        <text>Styles applied to the root element if</text>
+        <code>$SOME_CODE</code>
+        <text>and</text>
+        <code>$SOME_CODE</code>
+        <text>.</text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
         outlinedPrimary
         <text>outlinedPrimary</text>
       </gridcell>
@@ -923,6 +962,25 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         Styles applied to the root element if variant="contained".
         <text>Styles applied to the root element if</text>
+        <code>$SOME_CODE</code>
+        <text>.</text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
+        containedInherit
+        <text>containedInherit</text>
+      </gridcell>
+      <gridcell>
+        .MuiButton-containedInherit
+        <text>.MuiButton-containedInherit</text>
+      </gridcell>
+      <gridcell>
+        Styles applied to the root element if variant="contained" and
+        color="inherit".
+        <text>Styles applied to the root element if</text>
+        <code>$SOME_CODE</code>
+        <text>and</text>
         <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
@@ -1052,6 +1110,25 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
+        textSizeMedium
+        <text>textSizeMedium</text>
+      </gridcell>
+      <gridcell>
+        .MuiButton-textSizeMedium
+        <text>.MuiButton-textSizeMedium</text>
+      </gridcell>
+      <gridcell>
+        Styles applied to the root element if size="medium" and
+        variant="text".
+        <text>Styles applied to the root element if</text>
+        <code>$SOME_CODE</code>
+        <text>and</text>
+        <code>$SOME_CODE</code>
+        <text>.</text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
         textSizeLarge
         <text>textSizeLarge</text>
       </gridcell>
@@ -1080,6 +1157,25 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the root element if size="small" and
+        variant="outlined".
+        <text>Styles applied to the root element if</text>
+        <code>$SOME_CODE</code>
+        <text>and</text>
+        <code>$SOME_CODE</code>
+        <text>.</text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
+        outlinedSizeMedium
+        <text>outlinedSizeMedium</text>
+      </gridcell>
+      <gridcell>
+        .MuiButton-outlinedSizeMedium
+        <text>.MuiButton-outlinedSizeMedium</text>
+      </gridcell>
+      <gridcell>
+        Styles applied to the root element if size="medium" and
         variant="outlined".
         <text>Styles applied to the root element if</text>
         <code>$SOME_CODE</code>
@@ -1128,6 +1224,25 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
+        containedSizeMedium
+        <text>containedSizeMedium</text>
+      </gridcell>
+      <gridcell>
+        .MuiButton-containedSizeMedium
+        <text>.MuiButton-containedSizeMedium</text>
+      </gridcell>
+      <gridcell>
+        Styles applied to the root element if size="small" and
+        variant="contained".
+        <text>Styles applied to the root element if</text>
+        <code>$SOME_CODE</code>
+        <text>and</text>
+        <code>$SOME_CODE</code>
+        <text>.</text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
         containedSizeLarge
         <text>containedSizeLarge</text>
       </gridcell>
@@ -1156,6 +1271,22 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the root element if size="small".
+        <text>Styles applied to the root element if</text>
+        <code>$SOME_CODE</code>
+        <text>.</text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
+        sizeMedium
+        <text>sizeMedium</text>
+      </gridcell>
+      <gridcell>
+        .MuiButton-sizeMedium
+        <text>.MuiButton-sizeMedium</text>
+      </gridcell>
+      <gridcell>
+        Styles applied to the root element if size="medium".
         <text>Styles applied to the root element if</text>
         <code>$SOME_CODE</code>
         <text>.</text>
@@ -1286,17 +1417,6 @@ exports[`chromium /api/button/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <text>With a rule name of the</text>
-      <link>
-        classes object prop
-        <code>$SOME_CODE</code>
-      </link>
-      <text>.</text>
-    </listitem>
-    <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>With a</text>
       <link>global class name</link>
       <text>.</text>
@@ -1305,17 +1425,14 @@ exports[`chromium /api/button/ 1`] = `
       <ListMarker>
         •<text>•</text>
       </ListMarker>
-      <text>With a theme and an</text>
+      <text>With a rule name as part of the component's</text>
       <link>
         styleOverrides property
         <code>$SOME_CODE</code>
       </link>
-      <text>.</text>
+      <text>in a custom theme.</text>
     </listitem>
   </list>
-  <text>If that isn't sufficient, you can check the</text>
-  <link>implementation of the component</link>
-  <text>for more detail.</text>
   <heading level="2">
     Demos
     <Anchor></Anchor>
@@ -15003,8 +15120,10 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Select</text>
     </Label>
-    <combobox haspopup="listbox">Select €</combobox>
-    <textbox description="Please select your currency" value="EUR"></textbox>
+    <combobox description="Please select your currency" haspopup="listbox">
+      Select €
+    </combobox>
+    <textbox value="EUR"></textbox>
     <SVGRoot></SVGRoot>
     <group>
       <Legend>
@@ -15039,8 +15158,10 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Select</text>
     </Label>
     <text> </text>
-    <combobox haspopup="listbox">Select €</combobox>
-    <textbox description="Please select your currency" value="EUR"></textbox>
+    <combobox description="Please select your currency" haspopup="listbox">
+      Select €
+    </combobox>
+    <textbox value="EUR"></textbox>
     <SVGRoot></SVGRoot>
     <paragraph>
       <text>Please select your currency</text>
@@ -15066,8 +15187,10 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Select</text>
     </Label>
     <text> </text>
-    <combobox haspopup="listbox">Select €</combobox>
-    <textbox description="Please select your currency" value="EUR"></textbox>
+    <combobox description="Please select your currency" haspopup="listbox">
+      Select €
+    </combobox>
+    <textbox value="EUR"></textbox>
     <SVGRoot></SVGRoot>
     <paragraph>
       <text>Please select your currency</text>
@@ -19076,6 +19199,7 @@ exports[`firefox / 1`] = `
     <combobox autocomplete="list" haspopup="true">
       Search
     </combobox>
+    <text>CtrlK</text>
     <buttonmenu haspopup="true">
       Change language
       <text>ENGLISH</text>
@@ -19340,7 +19464,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.19. View versions page.</link>
+      <link>v5.0.0-alpha.20. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
@@ -19698,6 +19822,20 @@ exports[`firefox /api/button/ 1`] = `
     </row>
     <row>
       <cell>
+        <text>textInherit</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-textInherit</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="text" and
+          color="inherit".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
         <text>textPrimary</text>
       </cell>
       <cell>
@@ -19739,6 +19877,20 @@ exports[`firefox /api/button/ 1`] = `
     </row>
     <row>
       <cell>
+        <text>outlinedInherit</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-outlinedInherit</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="outlined" and
+          color="inherit".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
         <text>outlinedPrimary</text>
       </cell>
       <cell>
@@ -19775,6 +19927,20 @@ exports[`firefox /api/button/ 1`] = `
       <cell>
         <text>
           Styles applied to the root element if variant="contained".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>containedInherit</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-containedInherit</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="contained"
+          and color="inherit".
         </text>
       </cell>
     </row>
@@ -19876,6 +20042,20 @@ exports[`firefox /api/button/ 1`] = `
     </row>
     <row>
       <cell>
+        <text>textSizeMedium</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-textSizeMedium</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if size="medium" and
+          variant="text".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
         <text>textSizeLarge</text>
       </cell>
       <cell>
@@ -19898,6 +20078,20 @@ exports[`firefox /api/button/ 1`] = `
       <cell>
         <text>
           Styles applied to the root element if size="small" and
+          variant="outlined".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>outlinedSizeMedium</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-outlinedSizeMedium</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if size="medium" and
           variant="outlined".
         </text>
       </cell>
@@ -19932,6 +20126,20 @@ exports[`firefox /api/button/ 1`] = `
     </row>
     <row>
       <cell>
+        <text>containedSizeMedium</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-containedSizeMedium</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if size="small" and
+          variant="contained".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
         <text>containedSizeLarge</text>
       </cell>
       <cell>
@@ -19954,6 +20162,19 @@ exports[`firefox /api/button/ 1`] = `
       <cell>
         <text>
           Styles applied to the root element if size="small".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>sizeMedium</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-sizeMedium</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if size="medium".
         </text>
       </cell>
     </row>
@@ -20055,27 +20276,20 @@ exports[`firefox /api/button/ 1`] = `
   </text>
   <list>
     <listitem>
-      • With a rule name of the classes object prop .<statictext>•</statictext>
-      <text>With a rule name of the</text>
-      <link>classes object prop</link>
-      <text>.</text>
-    </listitem>
-    <listitem>
       • With a global class name .<statictext>•</statictext>
       <text>With a</text>
       <link>global class name</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • With a theme and an styleOverrides property .<statictext>•</statictext>
-      <text>With a theme and an</text>
+      • With a rule name as part of the component's styleOverrides property
+      in a custom theme.
+      <statictext>•</statictext>
+      <text>With a rule name as part of the component's</text>
       <link>styleOverrides property</link>
-      <text>.</text>
+      <text>in a custom theme.</text>
     </listitem>
   </list>
-  <text>If that isn't sufficient, you can check the</text>
-  <link>implementation of the component</link>
-  <text>for more detail.</text>
   <heading level="2">
     Demos
     <link></link>
@@ -29869,7 +30083,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       Select
       <text>Select</text>
     </label>
-    <button haspopup="true">
+    <button description="Please select your currency" haspopup="true">
       Select €<text>€</text>
     </button>
     <paragraph>
@@ -29908,7 +30122,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Select</text>
     </label>
     <statictext> </statictext>
-    <button haspopup="true">
+    <button description="Please select your currency" haspopup="true">
       Select €<text>€</text>
     </button>
     <paragraph>
@@ -29948,7 +30162,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Select</text>
     </label>
     <statictext> </statictext>
-    <button haspopup="true">
+    <button description="Please select your currency" haspopup="true">
       Select €<text>€</text>
     </button>
     <paragraph>
