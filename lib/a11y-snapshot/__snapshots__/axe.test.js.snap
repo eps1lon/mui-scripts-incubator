@@ -12,7 +12,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
     "nodes": Array [
-      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .MuiBreadcrumbs-root[aria-label=\\"breadcrumb\\"]",
+      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .MuiBreadcrumbs-root.css-1h1un4w-MuiTypography-root[aria-label=\\"breadcrumb\\"]",
     ],
   },
 ]
@@ -34,8 +34,8 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/button-name?application=axeAPI",
     "id": "button-name",
     "nodes": Array [
-      ".MuiLoadingButton-pending.MuiLoadingButton-root.Mui-disabled:nth-child(1)",
-      ".MuiLoadingButton-pending.MuiLoadingButton-root.Mui-disabled:nth-child(2)",
+      ".MuiLoadingButton-pending.MuiLoadingButton-root[classes=\\"\\\\[object\\\\ Object\\\\]\\"]:nth-child(1)",
+      ".MuiLoadingButton-pending.MuiLoadingButton-root[classes=\\"\\\\[object\\\\ Object\\\\]\\"]:nth-child(2)",
     ],
   },
 ]
