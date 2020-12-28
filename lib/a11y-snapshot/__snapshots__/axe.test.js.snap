@@ -51,7 +51,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
     "nodes": Array [
-      ".jss59 > .MuiPagination-text.MuiPagination-root[aria-label=\\"pagination\\\\ navigation\\"]:nth-child(1)",
+      ".jss60 > .MuiPagination-text.MuiPagination-root[aria-label=\\"pagination\\\\ navigation\\"]:nth-child(1)",
     ],
   },
 ]
