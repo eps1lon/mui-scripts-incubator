@@ -3961,7 +3961,7 @@ exports[`chromium /components/buttons/ 1`] = `
     <link>Outlined buttons</link>
     <text>
       are medium-emphasis buttons. They contain actions that are important, but
-      aren’t the primary action in an app.
+      aren't the primary action in an app.
     </text>
   </paragraph>
   <paragraph>
@@ -5663,8 +5663,8 @@ exports[`chromium /components/dialogs/ 1`] = `
         •<text>•</text>
       </ListMarker>
       <text>
-        Avoid apologies, ambiguity, or questions, such as “Warning!” or “Are you
-        sure?”
+        Avoid apologies, ambiguity, or questions, such as "Warning!"
+        or "Are you sure?"
       </text>
     </listitem>
   </list>
@@ -6026,13 +6026,13 @@ exports[`chromium /components/dialogs/ 1`] = `
     <text>
       Confirmation dialogs require users to explicitly confirm their choice
       before an option is committed. For example, users can listen to multiple
-      ringtones but only make a final selection upon touching “OK”.
+      ringtones but only make a final selection upon touching "OK".
     </text>
   </paragraph>
   <paragraph>
     <text>
-      Touching “Cancel” in a confirmation dialog, or pressing Back, cancels the
-      action, discards any changes, and closes the dialog.
+      Touching "Cancel" in a confirmation dialog, or pressing Back,
+      cancels the action, discards any changes, and closes the dialog.
     </text>
   </paragraph>
   <button>
@@ -6152,7 +6152,7 @@ exports[`chromium /components/dialogs/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      When dialogs become too long for the user’s viewport or device, they
+      When dialogs become too long for the user's viewport or device, they
       scroll.
     </text>
   </paragraph>
@@ -9307,8 +9307,8 @@ exports[`chromium /components/rating/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Ratings provide insight regarding others’ opinions and experiences, and
-      can allow the user to submit a rating of their own.
+      Ratings provide insight regarding others' opinions and experiences,
+      and can allow the user to submit a rating of their own.
     </text>
   </paragraph>
   <list>
@@ -12435,8 +12435,8 @@ exports[`chromium /components/switches/ 1`] = `
   <paragraph>
     <text>
       Switches are the preferred way to adjust settings on mobile. The option
-      that the switch controls, as well as the state it’s in, should be made
-      clear from the corresponding inline label.
+      that the switch controls, as well as the state it's in, should be
+      made clear from the corresponding inline label.
     </text>
   </paragraph>
   <list>
@@ -14612,8 +14612,8 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>, etc. as well as a</text>
     <code>$SOME_CODE</code>
     <text>
-      which is used to give context about a field’s input, such as how the input
-      will be used.
+      which is used to give context about a field's input, such as how the
+      input will be used.
     </text>
   </paragraph>
   <button>
@@ -17021,14 +17021,6 @@ exports[`chromium /components/tooltips/ 1`] = `
     Delete
     <SVGRoot></SVGRoot>
   </button>
-  <button>
-    Add
-    <SVGRoot></SVGRoot>
-  </button>
-  <button>
-    Add
-    <SVGRoot></SVGRoot>
-  </button>
   <toolbar>
     demo source
     <group>
@@ -17072,8 +17064,8 @@ exports[`chromium /components/tooltips/ 1`] = `
     <text>The</text>
     <code>$SOME_CODE</code>
     <text>
-      has 12placementschoice. They don’t have directional arrows; instead, they
-      rely on motion emanating from the source to convey direction.
+      has 12placementschoice. They don't have directional arrows; instead,
+      they rely on motion emanating from the source to convey direction.
     </text>
   </paragraph>
   <button>
@@ -22030,7 +22022,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <link>Outlined buttons</link>
     <text>
       are medium-emphasis buttons. They contain actions that are important, but
-      aren’t the primary action in an app.
+      aren't the primary action in an app.
     </text>
   </paragraph>
   <paragraph>
@@ -23201,12 +23193,12 @@ exports[`firefox /components/dialogs/ 1`] = `
       </text>
     </listitem>
     <listitem>
-      • Avoid apologies, ambiguity, or questions, such as “Warning!” or “Are you
-      sure?”
+      • Avoid apologies, ambiguity, or questions, such as "Warning!"
+      or "Are you sure?"
       <statictext>•</statictext>
       <text>
-        Avoid apologies, ambiguity, or questions, such as “Warning!” or “Are you
-        sure?”
+        Avoid apologies, ambiguity, or questions, such as "Warning!"
+        or "Are you sure?"
       </text>
     </listitem>
   </list>
@@ -23410,13 +23402,13 @@ exports[`firefox /components/dialogs/ 1`] = `
     <text>
       Confirmation dialogs require users to explicitly confirm their choice
       before an option is committed. For example, users can listen to multiple
-      ringtones but only make a final selection upon touching “OK”.
+      ringtones but only make a final selection upon touching "OK".
     </text>
   </paragraph>
   <paragraph>
     <text>
-      Touching “Cancel” in a confirmation dialog, or pressing Back, cancels the
-      action, discards any changes, and closes the dialog.
+      Touching "Cancel" in a confirmation dialog, or pressing Back,
+      cancels the action, discards any changes, and closes the dialog.
     </text>
   </paragraph>
   <button>
@@ -23490,7 +23482,7 @@ exports[`firefox /components/dialogs/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      When dialogs become too long for the user’s viewport or device, they
+      When dialogs become too long for the user's viewport or device, they
       scroll.
     </text>
   </paragraph>
@@ -25983,8 +25975,8 @@ exports[`firefox /components/rating/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Ratings provide insight regarding others’ opinions and experiences, and
-      can allow the user to submit a rating of their own.
+      Ratings provide insight regarding others' opinions and experiences,
+      and can allow the user to submit a rating of their own.
     </text>
   </paragraph>
   <list>
@@ -28162,8 +28154,8 @@ exports[`firefox /components/switches/ 1`] = `
   <paragraph>
     <text>
       Switches are the preferred way to adjust settings on mobile. The option
-      that the switch controls, as well as the state it’s in, should be made
-      clear from the corresponding inline label.
+      that the switch controls, as well as the state it's in, should be
+      made clear from the corresponding inline label.
     </text>
   </paragraph>
   <list>
@@ -29695,7 +29687,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   <paragraph>
     <text>
       Standard form attributes are supported e.g. required, disabled, type, etc.
-      as well as a helperText which is used to give context about a field’s
+      as well as a helperText which is used to give context about a field's
       input, such as how the input will be used.
     </text>
   </paragraph>
@@ -31486,8 +31478,6 @@ exports[`firefox /components/tooltips/ 1`] = `
     navigation of our components.
   </button>
   <button>Delete</button>
-  <button>Add</button>
-  <button>Add</button>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -31499,12 +31489,7 @@ exports[`firefox /components/tooltips/ 1`] = `
   </toolbar>
   <text>
     <Tooltip title="Delete"> <IconButton> <DeleteIcon
-    /> </IconButton> </Tooltip> <Tooltip
-    title="Add"> <Fab color="primary"
-    className={classes.fab}> <AddIcon /> </Fab>
-    </Tooltip> <Tooltip title="Add"> <Fab
-    color="secondary" className={classes.absolute}>
-    <AddIcon /> </Fab> </Tooltip>
+    /> </IconButton> </Tooltip>
   </text>
   <heading level="2">
     Positioned tooltips
@@ -31513,8 +31498,8 @@ exports[`firefox /components/tooltips/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      The Tooltip has 12 placements choice. They don’t have directional arrows;
-      instead, they rely on motion emanating from the source to convey
+      The Tooltip has 12 placements choice. They don't have directional
+      arrows; instead, they rely on motion emanating from the source to convey
       direction.
     </text>
   </paragraph>
