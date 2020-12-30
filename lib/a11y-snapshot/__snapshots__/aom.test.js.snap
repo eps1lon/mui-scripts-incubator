@@ -364,9 +364,9 @@ exports[`chromium / 1`] = `
     </listitem>
     <listitem level="1">
       <button>
-        Guides
+        How To Guides
         <SVGRoot></SVGRoot>
-        <text>Guides</text>
+        <text>How To Guides</text>
       </button>
     </listitem>
     <listitem level="1">
