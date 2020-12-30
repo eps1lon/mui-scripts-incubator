@@ -297,14 +297,14 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.20. View versions page.</link>
+      <link>v5.0.0-alpha.21. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v5.0.0-alpha.20</link>
+  <link>v5.0.0-alpha.21</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -364,9 +364,9 @@ exports[`chromium / 1`] = `
     </listitem>
     <listitem level="1">
       <button>
-        Guides
+        How To Guides
         <SVGRoot></SVGRoot>
-        <text>Guides</text>
+        <text>How To Guides</text>
       </button>
     </listitem>
     <listitem level="1">
@@ -19456,7 +19456,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.20. View versions page.</link>
+      <link>v5.0.0-alpha.21. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
