@@ -297,14 +297,14 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.21. View versions page.</link>
+      <link>v5.0.0-alpha.20. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2020Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
-  <link>v5.0.0-alpha.21</link>
+  <link>v5.0.0-alpha.20</link>
   <separator orientation="horizontal"></separator>
   <text>Diamond Sponsors</text>
   <link>
@@ -364,9 +364,9 @@ exports[`chromium / 1`] = `
     </listitem>
     <listitem level="1">
       <button>
-        How To Guides
+        Guides
         <SVGRoot></SVGRoot>
-        <text>How To Guides</text>
+        <text>Guides</text>
       </button>
     </listitem>
     <listitem level="1">
@@ -10216,6 +10216,25 @@ exports[`chromium /components/selects/ 1`] = `
     <Anchor></Anchor>
     <text>Props</text>
   </heading>
+  <paragraph>
+    <text>The Select component is implemented as a custom</text>
+    <code>$SOME_CODE</code>
+    <text>element of the</text>
+    <link>InputBase</link>
+    <text>. It extends the</text>
+    <link>text field components</link>
+    <text>sub-components, either the</text>
+    <link>Input</link>
+    <text>,</text>
+    <link>FilledInput</link>
+    <text>, or</text>
+    <link>OutlinedInput</link>
+    <text>
+      , depending on the variant selected. It shares the same styles and many of
+      the same props. Refer to the respective component's API page for
+      details.
+    </text>
+  </paragraph>
   <heading level="3">
     Filled and outlined variants
     <Anchor></Anchor>
@@ -19456,7 +19475,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.21. View versions page.</link>
+      <link>v5.0.0-alpha.20. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2020 Material-UI.</text>
@@ -26800,6 +26819,26 @@ exports[`firefox /components/selects/ 1`] = `
     <link></link>
     <text>Props</text>
   </heading>
+  <paragraph>
+    <text>
+      The Select component is implemented as a custom <input> element of
+      the
+    </text>
+    <link>InputBase</link>
+    <text>. It extends the</text>
+    <link>text field components</link>
+    <text>sub-components, either the</text>
+    <link>Input</link>
+    <text>,</text>
+    <link>FilledInput</link>
+    <text>, or</text>
+    <link>OutlinedInput</link>
+    <text>
+      , depending on the variant selected. It shares the same styles and many of
+      the same props. Refer to the respective component's API page for
+      details.
+    </text>
+  </paragraph>
   <heading level="3">
     Filled and outlined variants
     <link></link>
