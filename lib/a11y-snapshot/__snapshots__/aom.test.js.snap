@@ -713,27 +713,6 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
-        sx
-        <text>sx</text>
-      </gridcell>
-      <gridcell>
-        object
-        <text>object</text>
-      </gridcell>
-      <gridcell></gridcell>
-      <gridcell>
-        The system prop that allows defining system overrides as well as
-        additional CSS styles. See the \`sx\` page for more details.
-        <text>
-          The system prop that allows defining system overrides as well as
-          additional CSS styles. See the
-        </text>
-        <link>\`sx\` page</link>
-        <text>for more details.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
         variant
         <text>variant</text>
       </gridcell>
@@ -10237,25 +10216,6 @@ exports[`chromium /components/selects/ 1`] = `
     <Anchor></Anchor>
     <text>Props</text>
   </heading>
-  <paragraph>
-    <text>The Select component is implemented as a custom</text>
-    <code>$SOME_CODE</code>
-    <text>element of the</text>
-    <link>InputBase</link>
-    <text>. It extends the</text>
-    <link>text field components</link>
-    <text>sub-components, either the</text>
-    <link>Input</link>
-    <text>,</text>
-    <link>FilledInput</link>
-    <text>, or</text>
-    <link>OutlinedInput</link>
-    <text>
-      , depending on the variant selected. It shares the same styles and many of
-      the same props. Refer to the respective component's API page for
-      details.
-    </text>
-  </paragraph>
   <heading level="3">
     Filled and outlined variants
     <Anchor></Anchor>
@@ -19763,23 +19723,6 @@ exports[`firefox /api/button/ 1`] = `
     </row>
     <row>
       <cell>
-        <text>sx</text>
-      </cell>
-      <cell>
-        <text>object</text>
-      </cell>
-      <cell></cell>
-      <cell>
-        <text>
-          The system prop that allows defining system overrides as well as
-          additional CSS styles. See the
-        </text>
-        <link>\`sx\` page</link>
-        <text>for more details.</text>
-      </cell>
-    </row>
-    <row>
-      <cell>
         <text>variant</text>
       </cell>
       <cell>
@@ -26857,26 +26800,6 @@ exports[`firefox /components/selects/ 1`] = `
     <link></link>
     <text>Props</text>
   </heading>
-  <paragraph>
-    <text>
-      The Select component is implemented as a custom <input> element of
-      the
-    </text>
-    <link>InputBase</link>
-    <text>. It extends the</text>
-    <link>text field components</link>
-    <text>sub-components, either the</text>
-    <link>Input</link>
-    <text>,</text>
-    <link>FilledInput</link>
-    <text>, or</text>
-    <link>OutlinedInput</link>
-    <text>
-      , depending on the variant selected. It shares the same styles and many of
-      the same props. Refer to the respective component's API page for
-      details.
-    </text>
-  </paragraph>
   <heading level="3">
     Filled and outlined variants
     <link></link>
