@@ -300,7 +300,7 @@ exports[`chromium / 1`] = `
       <link>v5.0.0-alpha.21. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
-      <text>.Copyright ©2020Material-UI.</text>
+      <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
@@ -10237,6 +10237,25 @@ exports[`chromium /components/selects/ 1`] = `
     <Anchor></Anchor>
     <text>Props</text>
   </heading>
+  <paragraph>
+    <text>The Select component is implemented as a custom</text>
+    <code>$SOME_CODE</code>
+    <text>element of the</text>
+    <link>InputBase</link>
+    <text>. It extends the</text>
+    <link>text field components</link>
+    <text>sub-components, either the</text>
+    <link>Input</link>
+    <text>,</text>
+    <link>FilledInput</link>
+    <text>, or</text>
+    <link>OutlinedInput</link>
+    <text>
+      , depending on the variant selected. It shares the same styles and many of
+      the same props. Refer to the respective component's API page for
+      details.
+    </text>
+  </paragraph>
   <heading level="3">
     Filled and outlined variants
     <Anchor></Anchor>
@@ -19480,7 +19499,7 @@ exports[`firefox / 1`] = `
       <link>v5.0.0-alpha.21. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
-      <text>. Copyright © 2020 Material-UI.</text>
+      <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
 </document>;
@@ -26838,6 +26857,26 @@ exports[`firefox /components/selects/ 1`] = `
     <link></link>
     <text>Props</text>
   </heading>
+  <paragraph>
+    <text>
+      The Select component is implemented as a custom <input> element of
+      the
+    </text>
+    <link>InputBase</link>
+    <text>. It extends the</text>
+    <link>text field components</link>
+    <text>sub-components, either the</text>
+    <link>Input</link>
+    <text>,</text>
+    <link>FilledInput</link>
+    <text>, or</text>
+    <link>OutlinedInput</link>
+    <text>
+      , depending on the variant selected. It shares the same styles and many of
+      the same props. Refer to the respective component's API page for
+      details.
+    </text>
+  </paragraph>
   <heading level="3">
     Filled and outlined variants
     <link></link>
