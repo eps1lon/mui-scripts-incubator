@@ -300,7 +300,7 @@ exports[`chromium / 1`] = `
       <link>v5.0.0-alpha.21. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
-      <text>.Copyright ©2020Material-UI.</text>
+      <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
   <link>Material-UI</link>
@@ -19480,7 +19480,7 @@ exports[`firefox / 1`] = `
       <link>v5.0.0-alpha.21. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
-      <text>. Copyright © 2020 Material-UI.</text>
+      <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
 </document>;
