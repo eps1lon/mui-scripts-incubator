@@ -19682,10 +19682,14 @@ exports[`firefox /components/pickers 1`] = `
     <text>Time picker</text>
   </label>
   <statictext> </statictext>
-  <textbox readonly="true" value="09:11 PM">
-    Choose time, selected time is 9:11 PM
+  <textbox value="09:11 PM">
+    hh:mm (a|p)m
     <text>09:11 PM</text>
   </textbox>
+  <button>change time</button>
+  <paragraph>
+    <text>hh:mm (a|p)m</text>
+  </paragraph>
   <toolbar>
     demo source
     <button>Show the source</button>

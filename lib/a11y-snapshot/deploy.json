@@ -21,7 +21,7 @@
 		"url": "https://netlify-builds4.firebaseio.com/builds/5ff055ad0661c60008aec541/log",
 		"endpoint": "https://netlify-builds4.firebaseio.com",
 		"path": "/builds/5ff055ad0661c60008aec541/log",
-		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2IjowLCJpYXQiOjE2MDk1OTQwNzMsImQiOnsidWlkIjoiIn19.lviclpdflpP4Yug8WWZl40nQMKfUjPIsCafSfExB6pg"
+		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2IjowLCJpYXQiOjE2MDk2MDg5NTQsImQiOnsidWlkIjoiIn19.F1yeT05D7ZoesQB_G593dvne7U5jEWu5WyadmhZOTEA"
 	},
 	"title": "[docs] Sync translations (#24161)",
 	"review_url": null,
