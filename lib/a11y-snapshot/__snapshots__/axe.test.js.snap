@@ -30,14 +30,6 @@ Array [
       ".MuiLoadingButton-pendingIndicatorStart > .MuiCircularProgress-root.MuiCircularProgress-indeterminate[role=\\"progressbar\\"]",
     ],
   },
-  Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/button-name?application=axeAPI",
-    "id": "button-name",
-    "nodes": Array [
-      ".MuiLoadingButton-pending.MuiLoadingButton-root[classes=\\"\\\\[object\\\\ Object\\\\]\\"]:nth-child(1)",
-      ".MuiLoadingButton-pending.MuiLoadingButton-root[classes=\\"\\\\[object\\\\ Object\\\\]\\"]:nth-child(2)",
-    ],
-  },
 ]
 `;
 

@@ -48,10 +48,7 @@ exports[`chromium / 1`] = `
         design system, or start with Material Design.
       </text>
     </paragraph>
-    <link>
-      GET STARTED
-      <text>GET STARTED</text>
-    </link>
+    <link>GET STARTED</link>
     <link>Star</link>
     <link>Follow</link>
     <link>Get Professional Support</link>
@@ -83,10 +80,7 @@ exports[`chromium / 1`] = `
       </code>
     </Pre>
     <separator orientation="horizontal"></separator>
-    <link>
-      READ INSTALLATION DOCS
-      <text>READ INSTALLATION DOCS</text>
-    </link>
+    <link>READ INSTALLATION DOCS</link>
     <SVGRoot></SVGRoot>
     <heading level="2">
       Usage
@@ -105,10 +99,7 @@ exports[`chromium / 1`] = `
       </code>
     </Pre>
     <separator orientation="horizontal"></separator>
-    <link>
-      EXPLORE THE DOCS
-      <text>EXPLORE THE DOCS</text>
-    </link>
+    <link>EXPLORE THE DOCS</link>
     <heading level="2">
       Premium themes
       <text>Premium themes</text>
@@ -123,10 +114,7 @@ exports[`chromium / 1`] = `
       Browse themes
       <img>Browse themes</img>
     </link>
-    <link>
-      BROWSE THEMES
-      <text>BROWSE THEMES</text>
-    </link>
+    <link>BROWSE THEMES</link>
     <separator orientation="horizontal"></separator>
     <heading level="2">
       Material-UI's sponsors
@@ -239,10 +227,7 @@ exports[`chromium / 1`] = `
     <paragraph>
       <text>Are you using Material-UI?</text>
     </paragraph>
-    <link>
-      LET US KNOW!
-      <text>LET US KNOW!</text>
-    </link>
+    <link>LET US KNOW!</link>
   </main>
   <separator orientation="horizontal"></separator>
   <contentinfo>
@@ -389,10 +374,7 @@ exports[`chromium / 1`] = `
 
 exports[`chromium /api/button/ 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Button API
     <text>ButtonAPI</text>
@@ -1478,7 +1460,6 @@ exports[`chromium /api/button/ 1`] = `
     <link>
       Breadcrumbs
       <SVGRoot></SVGRoot>
-      <text>Breadcrumbs</text>
     </link>
     <group>
       Was this page helpful?
@@ -1488,7 +1469,6 @@ exports[`chromium /api/button/ 1`] = `
     </group>
     <link>
       ButtonBase
-      <text>ButtonBase</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -1509,9 +1489,11 @@ exports[`chromium /api/button/ 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -1522,10 +1504,7 @@ exports[`chromium /api/button/ 1`] = `
 
 exports[`chromium /api/select/ 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Select API
     <text>SelectAPI</text>
@@ -2404,7 +2383,6 @@ exports[`chromium /api/select/ 1`] = `
     <link>
       ScopedCssBaseline
       <SVGRoot></SVGRoot>
-      <text>ScopedCssBaseline</text>
     </link>
     <group>
       Was this page helpful?
@@ -2414,7 +2392,6 @@ exports[`chromium /api/select/ 1`] = `
     </group>
     <link>
       Skeleton
-      <text>Skeleton</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -2435,9 +2412,11 @@ exports[`chromium /api/select/ 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -2448,10 +2427,7 @@ exports[`chromium /api/select/ 1`] = `
 
 exports[`chromium /components/breadcrumbs 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Breadcrumbs
     <text>Breadcrumbs</text>
@@ -3135,7 +3111,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
     <link>
       Bottom Navigation
       <SVGRoot></SVGRoot>
-      <text>Bottom Navigation</text>
     </link>
     <group>
       Was this page helpful?
@@ -3145,7 +3120,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
     </group>
     <link>
       Drawer
-      <text>Drawer</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -3166,9 +3140,11 @@ exports[`chromium /components/breadcrumbs 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -3179,10 +3155,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
 
 exports[`chromium /components/button-group/ 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Button group
     <text>Button group</text>
@@ -3637,7 +3610,6 @@ exports[`chromium /components/button-group/ 1`] = `
     <link>
       Button
       <SVGRoot></SVGRoot>
-      <text>Button</text>
     </link>
     <group>
       Was this page helpful?
@@ -3647,7 +3619,6 @@ exports[`chromium /components/button-group/ 1`] = `
     </group>
     <link>
       Checkbox
-      <text>Checkbox</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -3668,9 +3639,11 @@ exports[`chromium /components/button-group/ 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -3681,10 +3654,7 @@ exports[`chromium /components/button-group/ 1`] = `
 
 exports[`chromium /components/buttons/ 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Button
     <text>Button</text>
@@ -3804,10 +3774,7 @@ exports[`chromium /components/buttons/ 1`] = `
     DISABLED
     <text>DISABLED</text>
   </button>
-  <link>
-    LINK
-    <text>LINK</text>
-  </link>
+  <link>LINK</link>
   <toolbar>
     demo source
     <group>
@@ -3935,10 +3902,7 @@ exports[`chromium /components/buttons/ 1`] = `
     DISABLED
     <text>DISABLED</text>
   </button>
-  <link>
-    LINK
-    <text>LINK</text>
-  </link>
+  <link>LINK</link>
   <toolbar>
     demo source
     <group>
@@ -4007,10 +3971,7 @@ exports[`chromium /components/buttons/ 1`] = `
     DISABLED
     <text>DISABLED</text>
   </button>
-  <link>
-    LINK
-    <text>LINK</text>
-  </link>
+  <link>LINK</link>
   <toolbar>
     demo source
     <group>
@@ -4441,12 +4402,14 @@ exports[`chromium /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button disabled="true">
+    SUBMIT
     <progressbar valuetext="">
       <SVGRoot></SVGRoot>
     </progressbar>
     <text>SUBMIT</text>
   </button>
   <button disabled="true">
+    LOADING... FETCH DATA
     <text>LOADING...FETCH DATA</text>
   </button>
   <button disabled="true">
@@ -4778,7 +4741,6 @@ exports[`chromium /components/buttons/ 1`] = `
     <link>
       Autocomplete
       <SVGRoot></SVGRoot>
-      <text>Autocomplete</text>
     </link>
     <group>
       Was this page helpful?
@@ -4788,7 +4750,6 @@ exports[`chromium /components/buttons/ 1`] = `
     </group>
     <link>
       Button Group
-      <text>Button Group</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -4809,9 +4770,11 @@ exports[`chromium /components/buttons/ 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -4822,10 +4785,7 @@ exports[`chromium /components/buttons/ 1`] = `
 
 exports[`chromium /components/checkboxes/ 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Checkbox
     <text>Checkbox</text>
@@ -5431,7 +5391,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
     <link>
       Button Group
       <SVGRoot></SVGRoot>
-      <text>Button Group</text>
     </link>
     <group>
       Was this page helpful?
@@ -5441,7 +5400,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
     </group>
     <link>
       Floating Action Button
-      <text>Floating Action Button</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -5462,9 +5420,11 @@ exports[`chromium /components/checkboxes/ 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -5475,10 +5435,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
 
 exports[`chromium /components/dialogs/ 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Dialog
     <text>Dialog</text>
@@ -6335,7 +6292,6 @@ exports[`chromium /components/dialogs/ 1`] = `
     <link>
       Backdrop
       <SVGRoot></SVGRoot>
-      <text>Backdrop</text>
     </link>
     <group>
       Was this page helpful?
@@ -6345,7 +6301,6 @@ exports[`chromium /components/dialogs/ 1`] = `
     </group>
     <link>
       Progress
-      <text>Progress</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -6366,9 +6321,11 @@ exports[`chromium /components/dialogs/ 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -6379,10 +6336,7 @@ exports[`chromium /components/dialogs/ 1`] = `
 
 exports[`chromium /components/pagination/ 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Pagination
     <text>Pagination</text>
@@ -8107,7 +8061,6 @@ exports[`chromium /components/pagination/ 1`] = `
     <link>
       Menu
       <SVGRoot></SVGRoot>
-      <text>Menu</text>
     </link>
     <group>
       Was this page helpful?
@@ -8117,7 +8070,6 @@ exports[`chromium /components/pagination/ 1`] = `
     </group>
     <link>
       Speed Dial
-      <text>Speed Dial</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -8138,9 +8090,11 @@ exports[`chromium /components/pagination/ 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -8151,10 +8105,7 @@ exports[`chromium /components/pagination/ 1`] = `
 
 exports[`chromium /components/pickers 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Date / Time pickers
     <text>Date / Time pickers</text>
@@ -8565,7 +8516,6 @@ exports[`chromium /components/pickers 1`] = `
     <link>
       About the lab 🧪
       <SVGRoot></SVGRoot>
-      <text>About the lab 🧪</text>
     </link>
     <group>
       Was this page helpful?
@@ -8575,7 +8525,6 @@ exports[`chromium /components/pickers 1`] = `
     </group>
     <link>
       Date Picker
-      <text>Date Picker</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -8596,9 +8545,11 @@ exports[`chromium /components/pickers 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -8609,10 +8560,7 @@ exports[`chromium /components/pickers 1`] = `
 
 exports[`chromium /components/radio-buttons 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Radio
     <text>Radio</text>
@@ -9274,7 +9222,6 @@ exports[`chromium /components/radio-buttons 1`] = `
     <link>
       Floating Action Button
       <SVGRoot></SVGRoot>
-      <text>Floating Action Button</text>
     </link>
     <group>
       Was this page helpful?
@@ -9284,7 +9231,6 @@ exports[`chromium /components/radio-buttons 1`] = `
     </group>
     <link>
       Rating
-      <text>Rating</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -9305,9 +9251,11 @@ exports[`chromium /components/radio-buttons 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -9318,10 +9266,7 @@ exports[`chromium /components/radio-buttons 1`] = `
 
 exports[`chromium /components/rating/ 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Rating
     <text>Rating</text>
@@ -10060,7 +10005,6 @@ exports[`chromium /components/rating/ 1`] = `
     <link>
       Radio button
       <SVGRoot></SVGRoot>
-      <text>Radio button</text>
     </link>
     <group>
       Was this page helpful?
@@ -10070,7 +10014,6 @@ exports[`chromium /components/rating/ 1`] = `
     </group>
     <link>
       Select
-      <text>Select</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -10091,9 +10034,11 @@ exports[`chromium /components/rating/ 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -10104,10 +10049,7 @@ exports[`chromium /components/rating/ 1`] = `
 
 exports[`chromium /components/selects/ 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Select
     <text>Select</text>
@@ -11210,7 +11152,6 @@ exports[`chromium /components/selects/ 1`] = `
     <link>
       Rating
       <SVGRoot></SVGRoot>
-      <text>Rating</text>
     </link>
     <group>
       Was this page helpful?
@@ -11220,7 +11161,6 @@ exports[`chromium /components/selects/ 1`] = `
     </group>
     <link>
       Slider
-      <text>Slider</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -11241,9 +11181,11 @@ exports[`chromium /components/selects/ 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -11254,10 +11196,7 @@ exports[`chromium /components/selects/ 1`] = `
 
 exports[`chromium /components/slider 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Slider
     <text>Slider</text>
@@ -12417,7 +12356,6 @@ exports[`chromium /components/slider 1`] = `
     <link>
       Select
       <SVGRoot></SVGRoot>
-      <text>Select</text>
     </link>
     <group>
       Was this page helpful?
@@ -12427,7 +12365,6 @@ exports[`chromium /components/slider 1`] = `
     </group>
     <link>
       Switch
-      <text>Switch</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -12448,9 +12385,11 @@ exports[`chromium /components/slider 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -12461,10 +12400,7 @@ exports[`chromium /components/slider 1`] = `
 
 exports[`chromium /components/switches/ 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Switch
     <text>Switch</text>
@@ -12999,7 +12935,6 @@ exports[`chromium /components/switches/ 1`] = `
     <link>
       Slider
       <SVGRoot></SVGRoot>
-      <text>Slider</text>
     </link>
     <group>
       Was this page helpful?
@@ -13009,7 +12944,6 @@ exports[`chromium /components/switches/ 1`] = `
     </group>
     <link>
       Text field
-      <text>Text field</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -13030,9 +12964,11 @@ exports[`chromium /components/switches/ 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -13043,10 +12979,7 @@ exports[`chromium /components/switches/ 1`] = `
 
 exports[`chromium /components/tabs/ 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Tabs
     <text>Tabs</text>
@@ -14455,7 +14388,6 @@ exports[`chromium /components/tabs/ 1`] = `
     <link>
       Stepper
       <SVGRoot></SVGRoot>
-      <text>Stepper</text>
     </link>
     <group>
       Was this page helpful?
@@ -14465,7 +14397,6 @@ exports[`chromium /components/tabs/ 1`] = `
     </group>
     <link>
       Accordion
-      <text>Accordion</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -14486,9 +14417,11 @@ exports[`chromium /components/tabs/ 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -14499,10 +14432,7 @@ exports[`chromium /components/tabs/ 1`] = `
 
 exports[`chromium /components/text-fields/ 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Text Field
     <text>Text Field</text>
@@ -16940,7 +16870,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     <link>
       Switch
       <SVGRoot></SVGRoot>
-      <text>Switch</text>
     </link>
     <group>
       Was this page helpful?
@@ -16950,7 +16879,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     </group>
     <link>
       Transfer List
-      <text>Transfer List</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -16971,9 +16899,11 @@ exports[`chromium /components/text-fields/ 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -16984,10 +16914,7 @@ exports[`chromium /components/text-fields/ 1`] = `
 
 exports[`chromium /components/tooltips/ 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Tooltip
     <text>Tooltip</text>
@@ -17994,7 +17921,6 @@ exports[`chromium /components/tooltips/ 1`] = `
     <link>
       Table
       <SVGRoot></SVGRoot>
-      <text>Table</text>
     </link>
     <group>
       Was this page helpful?
@@ -18004,7 +17930,6 @@ exports[`chromium /components/tooltips/ 1`] = `
     </group>
     <link>
       Typography
-      <text>Typography</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -18025,9 +17950,11 @@ exports[`chromium /components/tooltips/ 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -18038,10 +17965,7 @@ exports[`chromium /components/tooltips/ 1`] = `
 
 exports[`chromium /components/transfer-list 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Transfer List
     <text>Transfer List</text>
@@ -18316,7 +18240,6 @@ exports[`chromium /components/transfer-list 1`] = `
     <link>
       Text field
       <SVGRoot></SVGRoot>
-      <text>Text field</text>
     </link>
     <group>
       Was this page helpful?
@@ -18326,7 +18249,6 @@ exports[`chromium /components/transfer-list 1`] = `
     </group>
     <link>
       Toggle Button
-      <text>Toggle Button</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -18347,9 +18269,11 @@ exports[`chromium /components/transfer-list 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -18360,10 +18284,7 @@ exports[`chromium /components/transfer-list 1`] = `
 
 exports[`chromium /components/tree-view/ 1`] = `
 <main>
-  <link>
-    EDIT THIS PAGE
-    <text>EDIT THIS PAGE</text>
-  </link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Tree View
     <text>Tree View</text>
@@ -19180,7 +19101,6 @@ exports[`chromium /components/tree-view/ 1`] = `
     <link>
       Trap Focus
       <SVGRoot></SVGRoot>
-      <text>Trap Focus</text>
     </link>
     <group>
       Was this page helpful?
@@ -19190,7 +19110,6 @@ exports[`chromium /components/tree-view/ 1`] = `
     </group>
     <link>
       Accordion
-      <text>Accordion</text>
       <SVGRoot></SVGRoot>
     </link>
     <form>
@@ -19211,9 +19130,11 @@ exports[`chromium /components/tree-view/ 1`] = `
         </Legend>
       </group>
       <button>
+        CANCEL
         <text>CANCEL</text>
       </button>
       <button>
+        SUBMIT
         <text>SUBMIT</text>
       </button>
     </form>
@@ -22383,14 +22304,15 @@ exports[`firefox /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button disabled="true">
-    50
+    50 SUBMIT
     <progressbar checked="mixed" value="50" valuetext="50">
       <diagram></diagram>
     </progressbar>
+    <text>SUBMIT</text>
   </button>
   <button disabled="true">
-    LOADING...
-    <text>LOADING...</text>
+    LOADING... FETCH DATA
+    <text>LOADING...FETCH DATA</text>
   </button>
   <button disabled="true">
     50 SAVE
