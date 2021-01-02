@@ -4,7 +4,7 @@
 #set -e
 for (( ; ; ))
 do
-  yarn a11y-snapshot --testNamePattern="firefox \/components"
+  yarn a11y-snapshot aom --testNamePattern="chromium \/components\/buttons/"
   exitCode=$?
   if [ $exitCode -ne 0 ]; then
     exit $exitCode
