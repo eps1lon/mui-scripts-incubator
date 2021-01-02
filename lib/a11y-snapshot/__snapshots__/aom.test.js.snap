@@ -14700,7 +14700,7 @@ exports[`firefox /api/button/ 1`] = `
   </text>
   <list>
     <listitem>
-      • With a global class name .<statictext>•</statictext>
+      • With a global class name .<ListMarker>•</ListMarker>
       <text>With a</text>
       <link>global class name</link>
       <text>.</text>
@@ -14708,7 +14708,7 @@ exports[`firefox /api/button/ 1`] = `
     <listitem>
       • With a rule name as part of the component's styleOverrides property
       in a custom theme.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>With a rule name as part of the component's</text>
       <link>styleOverrides property</link>
       <text>in a custom theme.</text>
@@ -14722,12 +14722,12 @@ exports[`firefox /api/button/ 1`] = `
   <list>
     <listitem>
       • Button Group
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link>Button Group</link>
     </listitem>
     <listitem>
       • Buttons
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link>Buttons</link>
     </listitem>
   </list>
@@ -15378,19 +15378,19 @@ exports[`firefox /api/select/ 1`] = `
   </text>
   <list>
     <listitem>
-      • With a rule name of the classes object prop .<statictext>•</statictext>
+      • With a rule name of the classes object prop .<ListMarker>•</ListMarker>
       <text>With a rule name of the</text>
       <link>classes object prop</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • With a global class name .<statictext>•</statictext>
+      • With a global class name .<ListMarker>•</ListMarker>
       <text>With a</text>
       <link>global class name</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • With a theme and an styleOverrides property .<statictext>•</statictext>
+      • With a theme and an styleOverrides property .<ListMarker>•</ListMarker>
       <text>With a theme and an</text>
       <link>styleOverrides property</link>
       <text>.</text>
@@ -15407,7 +15407,7 @@ exports[`firefox /api/select/ 1`] = `
   <list>
     <listitem>
       • Selects
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link>Selects</link>
     </listitem>
   </list>
@@ -15849,7 +15849,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <listitem>
       • The set of links is structured using an ordered list ( <ol>
       element).
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         The set of links is structured using an ordered list (<ol>
         element).
@@ -15857,7 +15857,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     </listitem>
     <listitem>
       • To prevent screen reader announcement of the visual separators between
-      links, they are hidden with aria-hidden .<statictext>•</statictext>
+      links, they are hidden with aria-hidden .<ListMarker>•</ListMarker>
       <text>
         To prevent screen reader announcement of the visual separators between
         links, they are hidden with aria-hidden.
@@ -15867,7 +15867,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
       • A nav element labeled with aria-label identifies the structure as a
       breadcrumb trail and makes it a navigation landmark so that it is easy to
       locate.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         A nav element labeled with aria-label identifies the structure as a
         breadcrumb trail and makes it a navigation landmark so that it is easy
@@ -15883,17 +15883,17 @@ exports[`firefox /components/breadcrumbs 1`] = `
   <list>
     <listitem>
       • <Breadcrumbs />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><Breadcrumbs /></link>
     </listitem>
     <listitem>
       • <Link />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><Link /></link>
     </listitem>
     <listitem>
       • <Typography />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><Typography /></link>
     </listitem>
   </list>
@@ -16220,12 +16220,12 @@ exports[`firefox /components/button-group/ 1`] = `
   <list>
     <listitem>
       • <Button />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><Button /></link>
     </listitem>
     <listitem>
       • <ButtonGroup />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><ButtonGroup /></link>
     </listitem>
   </list>
@@ -16263,27 +16263,27 @@ exports[`firefox /components/buttons/ 1`] = `
   <list>
     <listitem>
       • Dialogs
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>Dialogs</text>
     </listitem>
     <listitem>
       • Modal windows
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>Modal windows</text>
     </listitem>
     <listitem>
       • Forms
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>Forms</text>
     </listitem>
     <listitem>
       • Cards
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>Cards</text>
     </listitem>
     <listitem>
       • Toolbars
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>Toolbars</text>
     </listitem>
   </list>
@@ -16399,12 +16399,12 @@ exports[`firefox /components/buttons/ 1`] = `
   <list>
     <listitem>
       • In dialogs
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>In dialogs</text>
     </listitem>
     <listitem>
       • In cards
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>In cards</text>
     </listitem>
   </list>
@@ -16911,7 +16911,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <listitem>
       1. CSS only . You can remove the pointer events style on the disabled
       state of the <button> element:
-      <statictext>1.</statictext>
+      <ListMarker>1.</ListMarker>
       <text>
         CSS only. You can remove the pointer events style on the disabled state
         of the <button> element:
@@ -16928,7 +16928,7 @@ exports[`firefox /components/buttons/ 1`] = `
   <list>
     <listitem>
       • You should add pointer-events: none; back when you need to display
-      tooltips on disabled elements .<statictext>•</statictext>
+      tooltips on disabled elements .<ListMarker>•</ListMarker>
       <text>
         You should add pointer-events: none; back when you need to display
       </text>
@@ -16938,7 +16938,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <listitem>
       • The cursor won't change if you render something other than a button
       element, for instance, a link <a> element.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         The cursor won't change if you render something other than a button
         element, for instance, a link <a> element.
@@ -16948,7 +16948,7 @@ exports[`firefox /components/buttons/ 1`] = `
   <list>
     <listitem>
       2. DOM change . You can wrap the button:
-      <statictext>2.</statictext>
+      <ListMarker>2.</ListMarker>
       <text>DOM change. You can wrap the button:</text>
     </listitem>
   </list>
@@ -16971,22 +16971,22 @@ exports[`firefox /components/buttons/ 1`] = `
   <list>
     <listitem>
       • <Button />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><Button /></link>
     </listitem>
     <listitem>
       • <ButtonBase />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><ButtonBase /></link>
     </listitem>
     <listitem>
       • <IconButton />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><IconButton /></link>
     </listitem>
     <listitem>
       • <LoadingButton />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><LoadingButton /></link>
     </listitem>
   </list>
@@ -17361,12 +17361,12 @@ exports[`firefox /components/checkboxes/ 1`] = `
   <list>
     <listitem>
       • Checkboxes vs. Radio Buttons
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link>Checkboxes vs. Radio Buttons</link>
     </listitem>
     <listitem>
       • Checkboxes vs. Switches
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link>Checkboxes vs. Switches</link>
     </listitem>
   </list>
@@ -17385,7 +17385,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
       • All form controls should have labels, and this includes radio buttons,
       checkboxes, and switches. In most cases, this is done by using the
       <label> element ( FormControlLabel ).
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         All form controls should have labels, and this includes radio buttons,
         checkboxes, and switches. In most cases, this is done by using the
@@ -17399,7 +17399,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
       directly to the input component. In this case, you can apply the
       additional attribute (e.g. aria-label , aria-labelledby , title ) via the
       inputProps prop.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         When a label can't be used, it's necessary to add an attribute
         directly to the input component. In this case, you can apply the
@@ -17420,27 +17420,27 @@ exports[`firefox /components/checkboxes/ 1`] = `
   <list>
     <listitem>
       • <Checkbox />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><Checkbox /></link>
     </listitem>
     <listitem>
       • <FormControl />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><FormControl /></link>
     </listitem>
     <listitem>
       • <FormControlLabel />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><FormControlLabel /></link>
     </listitem>
     <listitem>
       • <FormGroup />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><FormGroup /></link>
     </listitem>
     <listitem>
       • <FormLabel />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><FormLabel /></link>
     </listitem>
   </list>
@@ -17458,7 +17458,583 @@ exports[`firefox /components/checkboxes/ 1`] = `
 `;
 
 exports[`firefox /components/dialogs/ 1`] = `
-<document></document>;
+<landmark>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
+    Dialog
+    <text>Dialog</text>
+  </heading>
+  <paragraph>
+    <text>
+      Dialogs inform users about a task and can contain critical information,
+      require decisions, or involve multiple tasks.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>A Dialog is a type of</text>
+    <link>modal</link>
+    <text>
+      window that appears in front of app content to provide critical
+      information or ask for a decision. Dialogs disable all app functionality
+      when they appear, and remain on screen until confirmed, dismissed, or a
+      required action has been taken.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Dialogs are purposefully interruptive, so they should be used sparingly.
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      Feedback
+      <link>Feedback</link>
+    </listitem>
+    <listitem>
+      WAI-ARIA
+      <link>WAI-ARIA</link>
+    </listitem>
+    <listitem>
+      Scroll down to 'Exports Analysis' for a more detailed report.
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem>
+      Material Design
+      <link>Material Design</link>
+    </listitem>
+    <listitem>
+      Figma
+      <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Basic dialog
+    <link></link>
+    <text>Basic dialog</text>
+  </heading>
+  <paragraph>
+    <text>
+      Simple dialogs can provide additional details or actions about a list
+      item. For example, they can display avatars, icons, clarifying subtext, or
+      orthogonal actions (such as adding an account).
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>Touch mechanics:</text>
+  </paragraph>
+  <list>
+    <listitem>
+      • Choosing an option immediately commits the option and closes the menu
+      <ListMarker>•</ListMarker>
+      <text>
+        Choosing an option immediately commits the option and closes the menu
+      </text>
+    </listitem>
+    <listitem>
+      • Touching outside of the dialog, or pressing Back, cancels the action and
+      closes the dialog
+      <ListMarker>•</ListMarker>
+      <text>
+        Touching outside of the dialog, or pressing Back, cancels the action and
+        closes the dialog
+      </text>
+    </listitem>
+  </list>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <text>Selected: user02@gmail.com</text>
+  <whitespace></whitespace>
+  <button>
+    OPEN SIMPLE DIALOG
+    <text>OPEN SIMPLE DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Typography variant="subtitle1" component="div">
+    Selected: {selectedValue} </Typography> <br />
+    <Button variant="outlined"
+    onClick={handleClickOpen}> Open simple dialog </Button>
+    <SimpleDialog selectedValue={selectedValue}
+    open={open} onClose={handleClose} />
+  </text>
+  <heading level="2">
+    Alerts
+    <link></link>
+    <text>Alerts</text>
+  </heading>
+  <paragraph>
+    <text>
+      Alerts are urgent interruptions, requiring acknowledgement, that inform
+      the user about a situation.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Most alerts don't need titles. They summarize a decision in a
+      sentence or two by either:
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      • Asking a question (e.g. "Delete this conversation?")
+      <ListMarker>•</ListMarker>
+      <text>
+        Asking a question (e.g. "Delete this conversation?")
+      </text>
+    </listitem>
+    <listitem>
+      • Making a statement related to the action buttons
+      <ListMarker>•</ListMarker>
+      <text>Making a statement related to the action buttons</text>
+    </listitem>
+  </list>
+  <paragraph>
+    <text>
+      Use title bar alerts only for high-risk situations, such as the potential
+      loss of connectivity. Users should be able to understand the choices based
+      on the title and button text alone.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>If a title is required:</text>
+  </paragraph>
+  <list>
+    <listitem>
+      • Use a clear question or statement with an explanation in the content
+      area, such as "Erase USB storage?".
+      <ListMarker>•</ListMarker>
+      <text>
+        Use a clear question or statement with an explanation in the content
+        area, such as "Erase USB storage?".
+      </text>
+    </listitem>
+    <listitem>
+      • Avoid apologies, ambiguity, or questions, such as "Warning!"
+      or "Are you sure?"
+      <ListMarker>•</ListMarker>
+      <text>
+        Avoid apologies, ambiguity, or questions, such as "Warning!"
+        or "Are you sure?"
+      </text>
+    </listitem>
+  </list>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN ALERT DIALOG
+    <text>OPEN ALERT DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Transitions
+    <link></link>
+    <text>Transitions</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can also swap out the transition, the next example uses Slide.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    SLIDE IN ALERT DIALOG
+    <text>SLIDE IN ALERT DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Form dialogs
+    <link></link>
+    <text>Form dialogs</text>
+  </heading>
+  <paragraph>
+    <text>
+      Form dialogs allow users to fill out form fields within a dialog. For
+      example, if your site prompts for potential subscribers to fill in their
+      email address, they can fill out the email field and touch
+      'Submit'.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN FORM DIALOG
+    <text>OPEN FORM DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Customized dialogs
+    <link></link>
+    <text>Customized dialogs</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here is an example of customizing the component. You can learn more about
+      this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <paragraph>
+    <text>The dialog has a close button added to aide usability.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN DIALOG
+    <text>OPEN DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Full-screen dialogs
+    <link></link>
+    <text>Full-screen dialogs</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN FULL-SCREEN DIALOG
+    <text>OPEN FULL-SCREEN DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Optional sizes
+    <link></link>
+    <text>Optional sizes</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can set a dialog maximum width by using the maxWidth enumerable in
+      combination with the fullWidth boolean. When the fullWidth prop is true,
+      the dialog will adapt based on the maxWidth value.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN MAX-WIDTH DIALOG
+    <text>OPEN MAX-WIDTH DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Responsive full-screen
+    <link></link>
+    <text>Responsive full-screen</text>
+  </heading>
+  <paragraph>
+    <text>You may make a dialog responsively full screen using</text>
+    <link>useMediaQuery</link>
+    <text>.</text>
+  </paragraph>
+  <text>
+    import useMediaQuery from '@material-ui/core/useMediaQuery';
+    function MyComponent() { const theme = useTheme(); const fullScreen =
+    useMediaQuery(theme.breakpoints.down('md')); return <Dialog
+    fullScreen={fullScreen} />; }
+  </text>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN RESPONSIVE DIALOG
+    <text>OPEN RESPONSIVE DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Confirmation dialogs
+    <link></link>
+    <text>Confirmation dialogs</text>
+  </heading>
+  <paragraph>
+    <text>
+      Confirmation dialogs require users to explicitly confirm their choice
+      before an option is committed. For example, users can listen to multiple
+      ringtones but only make a final selection upon touching "OK".
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Touching "Cancel" in a confirmation dialog, or pressing Back,
+      cancels the action, discards any changes, and closes the dialog.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <group>
+    <button disabled="true">
+      Interruptions
+      <text>Interruptions</text>
+    </button>
+    <buttonmenu haspopup="true">
+      phone ringtone
+      <text>Phone ringtone</text>
+      <paragraph>
+        <text>Dione</text>
+      </paragraph>
+    </buttonmenu>
+    <button disabled="true">
+      Default notification ringtone Tethys
+      <text>Default notification ringtone</text>
+      <paragraph>
+        <text>Tethys</text>
+      </paragraph>
+    </button>
+  </group>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Draggable dialog
+    <link></link>
+    <text>Draggable dialog</text>
+  </heading>
+  <paragraph>
+    <text>You can create a draggable dialog by using</text>
+    <link>react-draggable</link>
+    <text>
+      . To do so, you can pass the imported Draggable component as the
+      PaperComponent of the Dialog component. This will make the entire dialog
+      draggable.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN DRAGGABLE DIALOG
+    <text>OPEN DRAGGABLE DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Scrolling long content
+    <link></link>
+    <text>Scrolling long content</text>
+  </heading>
+  <paragraph>
+    <text>
+      When dialogs become too long for the user's viewport or device, they
+      scroll.
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      • scroll=paper the content of the dialog scrolls within the paper element.
+      <ListMarker>•</ListMarker>
+      <text>
+        scroll=paper the content of the dialog scrolls within the paper element.
+      </text>
+    </listitem>
+    <listitem>
+      • scroll=body the content of the dialog scrolls within the body element.
+      <ListMarker>•</ListMarker>
+      <text>
+        scroll=body the content of the dialog scrolls within the body element.
+      </text>
+    </listitem>
+  </list>
+  <paragraph>
+    <text>Try the demo below to see what we mean:</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    SCROLL=PAPER
+    <text>SCROLL=PAPER</text>
+  </button>
+  <button>
+    SCROLL=BODY
+    <text>SCROLL=BODY</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Performance
+    <link></link>
+    <text>Performance</text>
+  </heading>
+  <paragraph>
+    <text>Follow the</text>
+    <link>Modal performance section</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    Limitations
+    <link></link>
+    <text>Limitations</text>
+  </heading>
+  <paragraph>
+    <text>Follow the</text>
+    <link>Modal limitations section</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    Accessibility
+    <link></link>
+    <text>Accessibility</text>
+  </heading>
+  <paragraph>
+    <text>Follow the</text>
+    <link>Modal accessibility section</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    API
+    <link></link>
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem>
+      • <Dialog />
+      <ListMarker>•</ListMarker>
+      <link><Dialog /></link>
+    </listitem>
+    <listitem>
+      • <DialogActions />
+      <ListMarker>•</ListMarker>
+      <link><DialogActions /></link>
+    </listitem>
+    <listitem>
+      • <DialogContent />
+      <ListMarker>•</ListMarker>
+      <link><DialogContent /></link>
+    </listitem>
+    <listitem>
+      • <DialogContentText />
+      <ListMarker>•</ListMarker>
+      <link><DialogContentText /></link>
+    </listitem>
+    <listitem>
+      • <DialogTitle />
+      <ListMarker>•</ListMarker>
+      <link><DialogTitle /></link>
+    </listitem>
+    <listitem>
+      • <Slide />
+      <ListMarker>•</ListMarker>
+      <link><Slide /></link>
+    </listitem>
+  </list>
+  <separator></separator>
+  <link>Backdrop</link>
+  <group>
+    Was this page helpful?
+    <text>Was this page helpful?</text>
+    <togglebutton>Yes</togglebutton>
+    <togglebutton>No</togglebutton>
+  </group>
+  <link>Progress</link>
+</landmark>;
 
 `;
 
@@ -18989,12 +19565,12 @@ exports[`firefox /components/pagination/ 1`] = `
   <list>
     <listitem>
       • <Pagination />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><Pagination /></link>
     </listitem>
     <listitem>
       • <PaginationItem />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><PaginationItem /></link>
     </listitem>
   </list>
@@ -19027,7 +19603,7 @@ exports[`firefox /components/pickers 1`] = `
   <list>
     <listitem>
       • On mobile, pickers are best suited for display in confirmation dialog.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         On mobile, pickers are best suited for display in confirmation dialog.
       </text>
@@ -19035,7 +19611,7 @@ exports[`firefox /components/pickers 1`] = `
     <listitem>
       • For inline display, such as on a form, consider using compact controls
       such as segmented dropdown buttons.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         For inline display, such as on a form, consider using compact controls
         such as segmented dropdown buttons.
@@ -19106,14 +19682,10 @@ exports[`firefox /components/pickers 1`] = `
     <text>Time picker</text>
   </label>
   <statictext> </statictext>
-  <textbox value="09:11 PM">
-    hh:mm (a|p)m
+  <textbox readonly="true" value="09:11 PM">
+    Choose time, selected time is 9:11 PM
     <text>09:11 PM</text>
   </textbox>
-  <button>change time</button>
-  <paragraph>
-    <text>hh:mm (a|p)m</text>
-  </paragraph>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -19151,7 +19723,7 @@ exports[`firefox /components/pickers 1`] = `
       <text>Birthday</text>
     </label>
     <statictext> </statictext>
-    <Date>
+    <DateTime>
       Birthday
       <spinbutton value="05" valuetext="05">
         Month
@@ -19171,7 +19743,7 @@ exports[`firefox /components/pickers 1`] = `
         Clear
         <diagram></diagram>
       </button>
-    </Date>
+    </DateTime>
   </form>
   <toolbar>
     demo source
@@ -19250,7 +19822,7 @@ exports[`firefox /components/pickers 1`] = `
       <text>Alarm clock</text>
     </label>
     <statictext> </statictext>
-    <group>
+    <InputTime>
       Alarm clock
       <spinbutton value="07" valuetext="07">
         Hours
@@ -19270,7 +19842,7 @@ exports[`firefox /components/pickers 1`] = `
         Clear
         <diagram></diagram>
       </button>
-    </group>
+    </InputTime>
   </form>
   <toolbar>
     demo source
@@ -19297,7 +19869,7 @@ exports[`firefox /components/pickers 1`] = `
   <list>
     <listitem>
       • <TextField />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><TextField /></link>
     </listitem>
   </list>
@@ -19663,7 +20235,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     <listitem>
       • value.name ( String [optional]): The name used to reference the value of
       the control.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         value.name (String [optional]): The name used to reference the value of
         the control.
@@ -19672,7 +20244,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     <listitem>
       • value.onChange ( Void [optional]): Callback fired when a radio button is
       selected.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         value.onChange (Void [optional]): Callback fired when a radio button is
         selected.
@@ -19680,7 +20252,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     </listitem>
     <listitem>
       • value.value ( Any [optional]): Value of the selected radio button.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         value.value (Any [optional]): Value of the selected radio button.
       </text>
@@ -19731,7 +20303,7 @@ exports[`firefox /components/radio-buttons 1`] = `
   <list>
     <listitem>
       • Checkboxes vs. Radio Buttons
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link>Checkboxes vs. Radio Buttons</link>
     </listitem>
   </list>
@@ -19750,7 +20322,7 @@ exports[`firefox /components/radio-buttons 1`] = `
       • All form controls should have labels, and this includes radio buttons,
       checkboxes, and switches. In most cases, this is done by using the
       <label> element ( FormControlLabel ).
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         All form controls should have labels, and this includes radio buttons,
         checkboxes, and switches. In most cases, this is done by using the
@@ -19764,7 +20336,7 @@ exports[`firefox /components/radio-buttons 1`] = `
       directly to the input component. In this case, you can apply the
       additional attribute (e.g. aria-label , aria-labelledby , title ) via the
       inputProps property.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         When a label can't be used, it's necessary to add an attribute
         directly to the input component. In this case, you can apply the
@@ -19785,27 +20357,27 @@ exports[`firefox /components/radio-buttons 1`] = `
   <list>
     <listitem>
       • <FormControl />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><FormControl /></link>
     </listitem>
     <listitem>
       • <FormControlLabel />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><FormControlLabel /></link>
     </listitem>
     <listitem>
       • <FormLabel />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><FormLabel /></link>
     </listitem>
     <listitem>
       • <Radio />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><Radio /></link>
     </listitem>
     <listitem>
       • <RadioGroup />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><RadioGroup /></link>
     </listitem>
   </list>
@@ -20438,7 +21010,7 @@ exports[`firefox /components/rating/ 1`] = `
       buttons, one for each star, and another for 0 stars that is checked by
       default. Be sure to provide a value for the name prop that is unique to
       the parent form.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         A radio group with its fields visually hidden. It contains six radio
         buttons, one for each star, and another for 0 stars that is checked by
@@ -20451,7 +21023,7 @@ exports[`firefox /components/rating/ 1`] = `
       Stars”, …). Be sure to provide a suitable function to the getLabelText
       prop when the page is in a language other than English. You can use the
       included locales , or provide your own.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         Labels for the radio buttons containing actual text (“1 Star”, “2
         Stars”, …). Be sure to provide a suitable function to the getLabelText
@@ -20467,7 +21039,7 @@ exports[`firefox /components/rating/ 1`] = `
       as the only means to indicate the value, the information should also be
       also displayed as text, as in this demo. This is important to match
       success Criterion 1.4.1 of WCAG2.1.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         A visually distinct appearance for the rating icons. By default, the
         rating component uses both a difference of color and shape (filled and
@@ -20536,7 +21108,7 @@ exports[`firefox /components/rating/ 1`] = `
   <list>
     <listitem>
       • <Rating />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><Rating /></link>
     </listitem>
   </list>
@@ -21331,12 +21903,12 @@ exports[`firefox /components/selects/ 1`] = `
   <list>
     <listitem>
       • <NativeSelect />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><NativeSelect /></link>
     </listitem>
     <listitem>
       • <Select />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><Select /></link>
     </listitem>
   </list>
@@ -21374,7 +21946,7 @@ exports[`firefox /components/slider 1`] = `
     <listitem>
       • 📦 22 kB gzipped (but only +8 kB when used together with other
       Material-UI components).
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>📦</text>
       <link>22 kB gzipped</link>
       <text>
@@ -21969,7 +22541,7 @@ exports[`firefox /components/slider 1`] = `
     <listitem>
       • Each thumb has a user-friendly label ( aria-label , aria-labelledby or
       getAriaLabel prop).
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         Each thumb has a user-friendly label (aria-label, aria-labelledby or
         getAriaLabel prop).
@@ -21979,7 +22551,7 @@ exports[`firefox /components/slider 1`] = `
       • Each thumb has a user-friendly text for its current value. This is not
       required if the value matches the semantics of the label. You can change
       the name with the getAriaValueText or aria-valuetext prop.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         Each thumb has a user-friendly text for its current value. This is not
         required if the value matches the semantics of the label. You can change
@@ -21995,12 +22567,12 @@ exports[`firefox /components/slider 1`] = `
   <list>
     <listitem>
       • <Slider />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><Slider /></link>
     </listitem>
     <listitem>
       • <SliderUnstyled />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><SliderUnstyled /></link>
     </listitem>
   </list>
@@ -22325,7 +22897,7 @@ exports[`firefox /components/switches/ 1`] = `
   <list>
     <listitem>
       • Checkboxes vs. Switches
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link>Checkboxes vs. Switches</link>
     </listitem>
   </list>
@@ -22341,7 +22913,7 @@ exports[`firefox /components/switches/ 1`] = `
       technology of your target audience supports this role properly. Then you
       can change the role with <Switch inputProps={{ role:
       'switch' }}>
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         It will render an element with the checkbox role not switch role since
         this role isn't widely supported yet. Please test first if
@@ -22354,7 +22926,7 @@ exports[`firefox /components/switches/ 1`] = `
       • All form controls should have labels, and this includes radio buttons,
       checkboxes, and switches. In most cases, this is done by using the
       <label> element ( FormControlLabel ).
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         All form controls should have labels, and this includes radio buttons,
         checkboxes, and switches. In most cases, this is done by using the
@@ -22368,7 +22940,7 @@ exports[`firefox /components/switches/ 1`] = `
       directly to the input component. In this case, you can apply the
       additional attribute (e.g. aria-label , aria-labelledby , title ) via the
       inputProps prop.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         When a label can't be used, it's necessary to add an attribute
         directly to the input component. In this case, you can apply the
@@ -22389,27 +22961,27 @@ exports[`firefox /components/switches/ 1`] = `
   <list>
     <listitem>
       • <FormControl />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><FormControl /></link>
     </listitem>
     <listitem>
       • <FormControlLabel />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><FormControlLabel /></link>
     </listitem>
     <listitem>
       • <FormGroup />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><FormGroup /></link>
     </listitem>
     <listitem>
       • <FormLabel />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><FormLabel /></link>
     </listitem>
     <listitem>
       • <Switch />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><Switch /></link>
     </listitem>
   </list>
@@ -23238,13 +23810,13 @@ exports[`firefox /components/tabs/ 1`] = `
   <list>
     <listitem>
       1. Label Tabs via aria-label or aria-labelledby .
-      <statictext>1.</statictext>
+      <ListMarker>1.</ListMarker>
       <text>Label Tabs via aria-label or aria-labelledby.</text>
     </listitem>
     <listitem>
       2. Tab s need to be connected to their corresponding
       [role="tabpanel"] by setting the correct id , aria-controls and
-      aria-labelledby .<statictext>2.</statictext>
+      aria-labelledby .<ListMarker>2.</ListMarker>
       <text>
         Tabs need to be connected to their corresponding
         [role="tabpanel"] by setting the correct id, aria-controls and
@@ -23410,32 +23982,32 @@ exports[`firefox /components/tabs/ 1`] = `
   <list>
     <listitem>
       • <Tab />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><Tab /></link>
     </listitem>
     <listitem>
       • <TabContext />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><TabContext /></link>
     </listitem>
     <listitem>
       • <TabList />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><TabList /></link>
     </listitem>
     <listitem>
       • <TabPanel />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><TabPanel /></link>
     </listitem>
     <listitem>
       • <TabScrollButton />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><TabScrollButton /></link>
     </listitem>
     <listitem>
       • <Tabs />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><Tabs /></link>
     </listitem>
   </list>
@@ -24951,7 +25523,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <listitem>
       • Allowing certain non-numeric characters ('e', '+',
       '-', '.') and silently discarding others
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         Allowing certain non-numeric characters ('e', '+',
         '-', '.') and silently discarding others
@@ -24960,7 +25532,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <listitem>
       • The functionality of scrolling to increment/decrement the number can
       cause accidental and hard-to-notice changes
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         The functionality of scrolling to increment/decrement the number can
         cause accidental and hard-to-notice changes
@@ -25171,7 +25743,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   <list>
     <listitem>
       • If you are using the TextField component, you just have to provide a
-      unique id .<statictext>•</statictext>
+      unique id .<ListMarker>•</ListMarker>
       <text>
         If you are using the TextField component, you just have to provide a
         unique id.
@@ -25179,7 +25751,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     </listitem>
     <listitem>
       • If you are composing the component:
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>If you are composing the component:</text>
     </listitem>
   </list>
@@ -25203,13 +25775,13 @@ exports[`firefox /components/text-fields/ 1`] = `
   <list>
     <listitem>
       • react-hook-form : React hook for form validation.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link>react-hook-form</link>
       <text>: React hook for form validation.</text>
     </listitem>
     <listitem>
       • formik-material-ui : Bindings for using Material-UI with formik .
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link>formik-material-ui</link>
       <text>: Bindings for using Material-UI with</text>
       <link>formik</link>
@@ -25217,7 +25789,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     </listitem>
     <listitem>
       • redux-form-material-ui : Bindings for using Material-UI with Redux Form
-      .<statictext>•</statictext>
+      .<ListMarker>•</ListMarker>
       <link>redux-form-material-ui</link>
       <text>: Bindings for using Material-UI with</text>
       <link>Redux Form</link>
@@ -25225,7 +25797,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     </listitem>
     <listitem>
       • mui-rff : Bindings for using Material-UI with React Final Form .
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link>mui-rff</link>
       <text>: Bindings for using Material-UI with</text>
       <link>React Final Form</link>
@@ -25240,47 +25812,47 @@ exports[`firefox /components/text-fields/ 1`] = `
   <list>
     <listitem>
       • <FilledInput />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><FilledInput /></link>
     </listitem>
     <listitem>
       • <FormControl />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><FormControl /></link>
     </listitem>
     <listitem>
       • <FormHelperText />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><FormHelperText /></link>
     </listitem>
     <listitem>
       • <Input />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><Input /></link>
     </listitem>
     <listitem>
       • <InputAdornment />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><InputAdornment /></link>
     </listitem>
     <listitem>
       • <InputBase />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><InputBase /></link>
     </listitem>
     <listitem>
       • <InputLabel />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><InputLabel /></link>
     </listitem>
     <listitem>
       • <OutlinedInput />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><OutlinedInput /></link>
     </listitem>
     <listitem>
       • <TextField />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><TextField /></link>
     </listitem>
   </list>
@@ -25960,7 +26532,7 @@ exports[`firefox /components/tooltips/ 1`] = `
   <list>
     <listitem>
       • <Tooltip />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><Tooltip /></link>
     </listitem>
   </list>
@@ -26152,22 +26724,22 @@ exports[`firefox /components/transfer-list 1`] = `
   <list>
     <listitem>
       • <Checkbox />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><Checkbox /></link>
     </listitem>
     <listitem>
       • <List />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><List /></link>
     </listitem>
     <listitem>
       • <ListItem />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><ListItem /></link>
     </listitem>
     <listitem>
       • <Switch />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><Switch /></link>
     </listitem>
   </list>
@@ -26615,7 +27187,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     <listitem>
       • Arrow keys will not focus disabled items and, the next non-disabled item
       will be focused.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         Arrow keys will not focus disabled items and, the next non-disabled item
         will be focused.
@@ -26624,7 +27196,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     <listitem>
       • Typing the first character of a disabled item's label will not
       focus the item.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         Typing the first character of a disabled item's label will not
         focus the item.
@@ -26632,20 +27204,20 @@ exports[`firefox /components/tree-view/ 1`] = `
     </listitem>
     <listitem>
       • Mouse or keyboard interaction will not expand/collapse disabled items.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         Mouse or keyboard interaction will not expand/collapse disabled items.
       </text>
     </listitem>
     <listitem>
       • Mouse or keyboard interaction will not select disabled items.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>Mouse or keyboard interaction will not select disabled items.</text>
     </listitem>
     <listitem>
       • Shift + arrow keys will skip disabled items and, the next non-disabled
       item will be selected.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         Shift + arrow keys will skip disabled items and, the next non-disabled
         item will be selected.
@@ -26653,7 +27225,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     </listitem>
     <listitem>
       • Programmatic focus will not focus disabled items.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>Programmatic focus will not focus disabled items.</text>
     </listitem>
   </list>
@@ -26663,13 +27235,13 @@ exports[`firefox /components/tree-view/ 1`] = `
   <list>
     <listitem>
       • Arrow keys will focus disabled items.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>Arrow keys will focus disabled items.</text>
     </listitem>
     <listitem>
       • Typing the first character of a disabled item's label will focus
       the item.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         Typing the first character of a disabled item's label will focus
         the item.
@@ -26677,20 +27249,20 @@ exports[`firefox /components/tree-view/ 1`] = `
     </listitem>
     <listitem>
       • Mouse or keyboard interaction will not expand/collapse disabled items.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         Mouse or keyboard interaction will not expand/collapse disabled items.
       </text>
     </listitem>
     <listitem>
       • Mouse or keyboard interaction will not select disabled items.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>Mouse or keyboard interaction will not select disabled items.</text>
     </listitem>
     <listitem>
       • Shift + arrow keys will not skip disabled items but, the disabled item
       will not be selected.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>
         Shift + arrow keys will not skip disabled items but, the disabled item
         will not be selected.
@@ -26698,7 +27270,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     </listitem>
     <listitem>
       • Programmatic focus will focus disabled items.
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <text>Programmatic focus will focus disabled items.</text>
     </listitem>
   </list>
@@ -26731,12 +27303,12 @@ exports[`firefox /components/tree-view/ 1`] = `
   <list>
     <listitem>
       • <TreeItem />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><TreeItem /></link>
     </listitem>
     <listitem>
       • <TreeView />
-      <statictext>•</statictext>
+      <ListMarker>•</ListMarker>
       <link><TreeView /></link>
     </listitem>
   </list>
