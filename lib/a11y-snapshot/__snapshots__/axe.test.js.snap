@@ -68,17 +68,17 @@ exports[`chromium /components/selects/ 1`] = `Array []`;
 exports[`chromium /components/slider 1`] = `
 Array [
   Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-input-field-name?application=axeAPI",
-    "id": "aria-input-field-name",
-    "nodes": Array [
-      ".css-mnij8t > span[aria-orientation=\\"horizontal\\"][aria-valuemax=\\"\\\\31 00\\"][aria-valuemin=\\"\\\\30 \\"]",
-    ],
-  },
-  Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
     "id": "aria-valid-attr-value",
     "nodes": Array [
-      "span[aria-labelledby=\\"discrete-slider-small-steps\\"]",
+      "input[aria-labelledby=\\"discrete-slider-small-steps\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
+    "id": "label",
+    "nodes": Array [
+      "input[value=\\"\\\\31 0\\"][aria-orientation=\\"horizontal\\"][aria-valuemax=\\"\\\\31 00\\"]",
     ],
   },
 ]
