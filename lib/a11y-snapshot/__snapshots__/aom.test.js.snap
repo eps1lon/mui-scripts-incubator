@@ -8175,6 +8175,7 @@ exports[`chromium /components/slider 1`] = `
     <text>Disabled slider</text>
   </paragraph>
   <slider
+    disabled="true"
     orientation="horizontal"
     value="30"
     valuemax="100"
@@ -8223,12 +8224,12 @@ exports[`chromium /components/slider 1`] = `
     valuetext="30°C"
   >
     Temperature
-    <text>30</text>
   </slider>
   <paragraph>
     <text>Disabled</text>
   </paragraph>
   <slider
+    disabled="true"
     orientation="horizontal"
     value="30"
     valuemax="110"
@@ -8236,7 +8237,6 @@ exports[`chromium /components/slider 1`] = `
     valuetext="30°C"
   >
     Disabled
-    <text>30</text>
   </slider>
   <toolbar>
     demo source
@@ -8270,7 +8270,6 @@ exports[`chromium /components/slider 1`] = `
     valuetext="5e-8°C"
   >
     Small steps
-    <text>5e-8</text>
   </slider>
   <toolbar>
     demo source
@@ -8309,7 +8308,6 @@ exports[`chromium /components/slider 1`] = `
     valuetext="20°C"
   >
     Custom marks
-    <text>20</text>
   </slider>
   <toolbar>
     demo source
@@ -8352,7 +8350,6 @@ exports[`chromium /components/slider 1`] = `
     valuetext="20°C"
   >
     Restricted values
-    <text>2</text>
   </slider>
   <toolbar>
     demo source
@@ -8391,7 +8388,6 @@ exports[`chromium /components/slider 1`] = `
     valuetext="80°C"
   >
     Always visible
-    <text>80</text>
   </slider>
   <toolbar>
     demo source
@@ -8433,7 +8429,6 @@ exports[`chromium /components/slider 1`] = `
     valuetext="20°C"
   >
     Temperature range
-    <text>20</text>
   </slider>
   <slider
     orientation="horizontal"
@@ -8443,7 +8438,6 @@ exports[`chromium /components/slider 1`] = `
     valuetext="37°C"
   >
     Temperature range
-    <text>37</text>
   </slider>
   <toolbar>
     demo source
@@ -8523,7 +8517,6 @@ exports[`chromium /components/slider 1`] = `
     valuetext=""
   >
     ios slider
-    <text>60</text>
   </slider>
   <paragraph>
     <text>pretto.fr</text>
@@ -8536,7 +8529,6 @@ exports[`chromium /components/slider 1`] = `
     valuetext=""
   >
     pretto slider
-    <text>20</text>
   </slider>
   <paragraph>
     <text>Tooltip value label</text>
@@ -8593,7 +8585,7 @@ exports[`chromium /components/slider 1`] = `
     <text>Temperature</text>
   </paragraph>
   <slider
-    orientation="vertical"
+    orientation="horizontal"
     value="30"
     valuemax="100"
     valuemin="0"
@@ -8602,7 +8594,8 @@ exports[`chromium /components/slider 1`] = `
     Temperature
   </slider>
   <slider
-    orientation="vertical"
+    disabled="true"
+    orientation="horizontal"
     value="30"
     valuemax="100"
     valuemin="0"
@@ -8611,7 +8604,7 @@ exports[`chromium /components/slider 1`] = `
     Temperature
   </slider>
   <slider
-    orientation="vertical"
+    orientation="horizontal"
     value="20"
     valuemax="100"
     valuemin="0"
@@ -8620,11 +8613,67 @@ exports[`chromium /components/slider 1`] = `
     Temperature
   </slider>
   <slider
-    orientation="vertical"
+    orientation="horizontal"
     value="37"
     valuemax="100"
     valuemin="0"
     valuetext="37°C"
+  >
+    Temperature
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <paragraph>
+    <text>
+      WARNING: Chrome, Safari and newer Edge versions i.e. any browser based on
+      WebKit exposes
+    </text>
+    <code>$SOME_CODE</code>
+    <text>as horizontal (</text>
+    <link>chromium issue #1158217</link>
+    <text>). By applying</text>
+    <code>$SOME_CODE</code>
+    <text>the slider is exposed as vertical.</text>
+  </paragraph>
+  <paragraph>
+    <text>However, by applying</text>
+    <code>$SOME_CODE</code>
+    <text>
+      keyboard navigation for horizontal keys (Arrow Left,Arrow Right) is
+      reversed (
+    </text>
+    <link>chromium issue #1162640</link>
+    <text>
+      ). Usually, up and right should increase and left and down should decrease
+      the value. If you apply
+    </text>
+    <code>$SOME_CODE</code>
+    <text>
+      you could prevent keyboard navigation for horizontal arrow keys for a
+      truly vertical slider. This might be less confusing to users compared to a
+      change in direction.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Temperature</text>
+  </paragraph>
+  <slider
+    orientation="vertical"
+    value="30"
+    valuemax="100"
+    valuemin="0"
+    valuetext=""
   >
     Temperature
   </slider>
@@ -8799,7 +8848,6 @@ exports[`chromium /components/slider 1`] = `
     valuetext="1 MB"
   >
     Storage: 1 MB
-    <text>1 MB</text>
   </slider>
   <toolbar>
     demo source
@@ -22009,7 +22057,7 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>Disabled slider</text>
   </paragraph>
-  <slider orientation="horizontal" value="30" valuetext="30">
+  <slider disabled="true" orientation="horizontal" value="30" valuetext="30">
     Disabled slider
   </slider>
   <toolbar>
@@ -22046,14 +22094,17 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="30°C" valuetext="30°C">
     Temperature
-    <text>30</text>
   </slider>
   <paragraph>
     <text>Disabled</text>
   </paragraph>
-  <slider orientation="horizontal" value="30°C" valuetext="30°C">
+  <slider
+    disabled="true"
+    orientation="horizontal"
+    value="30°C"
+    valuetext="30°C"
+  >
     Disabled
-    <text>30</text>
   </slider>
   <toolbar>
     demo source
@@ -22081,7 +22132,6 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="5e-8°C" valuetext="5e-8°C">
     Small steps
-    <text>5e-8</text>
   </slider>
   <toolbar>
     demo source
@@ -22119,7 +22169,6 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Custom marks
-    <text>20</text>
   </slider>
   <toolbar>
     demo source
@@ -22157,7 +22206,6 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Restricted values
-    <text>2</text>
   </slider>
   <toolbar>
     demo source
@@ -22196,7 +22244,6 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="80°C" valuetext="80°C">
     Always visible
-    <text>80</text>
   </slider>
   <toolbar>
     demo source
@@ -22234,11 +22281,9 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Temperature range
-    <text>20</text>
   </slider>
   <slider orientation="horizontal" value="37°C" valuetext="37°C">
     Temperature range
-    <text>37</text>
   </slider>
   <toolbar>
     demo source
@@ -22310,14 +22355,12 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="60" valuetext="60">
     ios slider
-    <text>60</text>
   </slider>
   <paragraph>
     <text>pretto.fr</text>
   </paragraph>
   <slider orientation="horizontal" value="20" valuetext="20">
     pretto slider
-    <text>20</text>
   </slider>
   <paragraph>
     <text>Tooltip value label</text>
@@ -22358,13 +22401,57 @@ exports[`firefox /components/slider 1`] = `
   <slider orientation="vertical" value="30°C" valuetext="30°C">
     Temperature
   </slider>
-  <slider orientation="vertical" value="30°C" valuetext="30°C">
+  <slider disabled="true" orientation="vertical" value="30°C" valuetext="30°C">
     Temperature
   </slider>
   <slider orientation="vertical" value="20°C" valuetext="20°C">
     Temperature
   </slider>
   <slider orientation="vertical" value="37°C" valuetext="37°C">
+    Temperature
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <paragraph>
+    <text>
+      WARNING: Chrome, Safari and newer Edge versions i.e. any browser based on
+      WebKit exposes <Slider orientation="vertical" /> as
+      horizontal (
+    </text>
+    <link>chromium issue #1158217</link>
+    <text>
+      ). By applying -webkit-appearance: slider-vertical; the slider is exposed
+      as vertical.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      However, by applying -webkit-appearance: slider-vertical; keyboard
+      navigation for horizontal keys (Arrow Left, Arrow Right) is reversed (
+    </text>
+    <link>chromium issue #1162640</link>
+    <text>
+      ). Usually, up and right should increase and left and down should decrease
+      the value. If you apply -webkit-appearance you could prevent keyboard
+      navigation for horizontal arrow keys for a truly vertical slider. This
+      might be less confusing to users compared to a change in direction.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Temperature</text>
+  </paragraph>
+  <slider orientation="vertical" value="30" valuetext="30">
     Temperature
   </slider>
   <toolbar>
@@ -22484,7 +22571,6 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="1 MB" valuetext="1 MB">
     Storage: 1 MB
-    <text>1 MB</text>
   </slider>
   <toolbar>
     demo source
