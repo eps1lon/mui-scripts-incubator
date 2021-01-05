@@ -255,7 +255,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.22. View versions page.</link>
+      <link>v5.0.0-alpha.21. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -336,8 +336,8 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        The content of the button.
-        <text>The content of the button.</text>
+        The content of the component.
+        <text>The content of the component.</text>
       </gridcell>
     </row>
     <row>
@@ -417,10 +417,10 @@ exports[`chromium /api/button/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        If true, the button is disabled.
+        If true, the component is disabled.
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, the button is disabled.</text>
+        <text>, the component is disabled.</text>
       </gridcell>
     </row>
     <row>
@@ -479,7 +479,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         If true, the ripple effect is disabled. ⚠️ Without a ripple there is no
         styling for :focus-visible by default. Be sure to highlight the element
-        by applying separate styles with the focusVisibleClassName.
+        by applying separate styles with the .Mui-focusedVisible class.
         <text>If</text>
         <code>$SOME_CODE</code>
         <text>, the ripple effect is disabled.</text>
@@ -489,7 +489,7 @@ exports[`chromium /api/button/ 1`] = `
           Be sure to highlight the element by applying separate styles with the
         </text>
         <code>$SOME_CODE</code>
-        <text>.</text>
+        <text>class.</text>
       </gridcell>
     </row>
     <row>
@@ -565,8 +565,9 @@ exports[`chromium /api/button/ 1`] = `
         <text>'medium'</text>
       </gridcell>
       <gridcell>
-        The size of the button. small is equivalent to the dense button styling.
-        <text>The size of the button.</text>
+        The size of the component. small is equivalent to the dense button
+        styling.
+        <text>The size of the component.</text>
         <code>$SOME_CODE</code>
         <text>is equivalent to the dense button styling.</text>
       </gridcell>
@@ -1511,9 +1512,9 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        The default element value. Use when the component is not controlled.
+        The default value. Use when the component is not controlled.
         <text>
-          The default element value. Use when the component is not controlled.
+          The default value. Use when the component is not controlled.
         </text>
       </gridcell>
     </row>
@@ -1866,11 +1867,11 @@ exports[`chromium /api/select/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        Control select open state. You can only use it when the native prop is
-        false (default).
-        <text>Control</text>
+        If true, the component is shown. You can only use it when the native
+        prop is false (default).
+        <text>If</text>
         <code>$SOME_CODE</code>
-        <text>open state. You can only use it when the</text>
+        <text>, the component is shown. You can only use it when the</text>
         <code>$SOME_CODE</code>
         <text>prop is</text>
         <code>$SOME_CODE</code>
@@ -8175,7 +8176,6 @@ exports[`chromium /components/slider 1`] = `
     <text>Disabled slider</text>
   </paragraph>
   <slider
-    disabled="true"
     orientation="horizontal"
     value="30"
     valuemax="100"
@@ -8224,12 +8224,12 @@ exports[`chromium /components/slider 1`] = `
     valuetext="30°C"
   >
     Temperature
+    <text>30</text>
   </slider>
   <paragraph>
     <text>Disabled</text>
   </paragraph>
   <slider
-    disabled="true"
     orientation="horizontal"
     value="30"
     valuemax="110"
@@ -8237,6 +8237,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext="30°C"
   >
     Disabled
+    <text>30</text>
   </slider>
   <toolbar>
     demo source
@@ -8270,6 +8271,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext="5e-8°C"
   >
     Small steps
+    <text>5e-8</text>
   </slider>
   <toolbar>
     demo source
@@ -8308,6 +8310,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext="20°C"
   >
     Custom marks
+    <text>20</text>
   </slider>
   <toolbar>
     demo source
@@ -8350,6 +8353,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext="20°C"
   >
     Restricted values
+    <text>2</text>
   </slider>
   <toolbar>
     demo source
@@ -8388,6 +8392,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext="80°C"
   >
     Always visible
+    <text>80</text>
   </slider>
   <toolbar>
     demo source
@@ -8429,6 +8434,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext="20°C"
   >
     Temperature range
+    <text>20</text>
   </slider>
   <slider
     orientation="horizontal"
@@ -8438,6 +8444,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext="37°C"
   >
     Temperature range
+    <text>37</text>
   </slider>
   <toolbar>
     demo source
@@ -8517,6 +8524,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext=""
   >
     ios slider
+    <text>60</text>
   </slider>
   <paragraph>
     <text>pretto.fr</text>
@@ -8529,6 +8537,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext=""
   >
     pretto slider
+    <text>20</text>
   </slider>
   <paragraph>
     <text>Tooltip value label</text>
@@ -8585,7 +8594,7 @@ exports[`chromium /components/slider 1`] = `
     <text>Temperature</text>
   </paragraph>
   <slider
-    orientation="horizontal"
+    orientation="vertical"
     value="30"
     valuemax="100"
     valuemin="0"
@@ -8594,8 +8603,7 @@ exports[`chromium /components/slider 1`] = `
     Temperature
   </slider>
   <slider
-    disabled="true"
-    orientation="horizontal"
+    orientation="vertical"
     value="30"
     valuemax="100"
     valuemin="0"
@@ -8604,7 +8612,7 @@ exports[`chromium /components/slider 1`] = `
     Temperature
   </slider>
   <slider
-    orientation="horizontal"
+    orientation="vertical"
     value="20"
     valuemax="100"
     valuemin="0"
@@ -8613,67 +8621,11 @@ exports[`chromium /components/slider 1`] = `
     Temperature
   </slider>
   <slider
-    orientation="horizontal"
+    orientation="vertical"
     value="37"
     valuemax="100"
     valuemin="0"
     valuetext="37°C"
-  >
-    Temperature
-  </slider>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <paragraph>
-    <text>
-      WARNING: Chrome, Safari and newer Edge versions i.e. any browser based on
-      WebKit exposes
-    </text>
-    <code>$SOME_CODE</code>
-    <text>as horizontal (</text>
-    <link>chromium issue #1158217</link>
-    <text>). By applying</text>
-    <code>$SOME_CODE</code>
-    <text>the slider is exposed as vertical.</text>
-  </paragraph>
-  <paragraph>
-    <text>However, by applying</text>
-    <code>$SOME_CODE</code>
-    <text>
-      keyboard navigation for horizontal keys (Arrow Left,Arrow Right) is
-      reversed (
-    </text>
-    <link>chromium issue #1162640</link>
-    <text>
-      ). Usually, up and right should increase and left and down should decrease
-      the value. If you apply
-    </text>
-    <code>$SOME_CODE</code>
-    <text>
-      you could prevent keyboard navigation for horizontal arrow keys for a
-      truly vertical slider. This might be less confusing to users compared to a
-      change in direction.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <paragraph>
-    <text>Temperature</text>
-  </paragraph>
-  <slider
-    orientation="vertical"
-    value="30"
-    valuemax="100"
-    valuemin="0"
-    valuetext=""
   >
     Temperature
   </slider>
@@ -8848,6 +8800,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext="1 MB"
   >
     Storage: 1 MB
+    <text>1 MB</text>
   </slider>
   <toolbar>
     demo source
@@ -13919,7 +13872,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.22. View versions page.</link>
+      <link>v5.0.0-alpha.21. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -13993,7 +13946,7 @@ exports[`firefox /api/button/ 1`] = `
       </cell>
       <cell></cell>
       <cell>
-        <text>The content of the button.</text>
+        <text>The content of the component.</text>
       </cell>
     </row>
     <row>
@@ -14057,7 +14010,7 @@ exports[`firefox /api/button/ 1`] = `
         <text>false</text>
       </cell>
       <cell>
-        <text>If true, the button is disabled.</text>
+        <text>If true, the component is disabled.</text>
       </cell>
     </row>
     <row>
@@ -14104,7 +14057,7 @@ exports[`firefox /api/button/ 1`] = `
         <text>
           ⚠️ Without a ripple there is no styling for :focus-visible by default.
           Be sure to highlight the element by applying separate styles with the
-          focusVisibleClassName.
+          .Mui-focusedVisible class.
         </text>
       </cell>
     </row>
@@ -14167,7 +14120,7 @@ exports[`firefox /api/button/ 1`] = `
       </cell>
       <cell>
         <text>
-          The size of the button. small is equivalent to the dense button
+          The size of the component. small is equivalent to the dense button
           styling.
         </text>
       </cell>
@@ -14909,7 +14862,7 @@ exports[`firefox /api/select/ 1`] = `
       <cell></cell>
       <cell>
         <text>
-          The default element value. Use when the component is not controlled.
+          The default value. Use when the component is not controlled.
         </text>
       </cell>
     </row>
@@ -15170,8 +15123,8 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell>
         <text>
-          Control select open state. You can only use it when the native prop is
-          false (default).
+          If true, the component is shown. You can only use it when the native
+          prop is false (default).
         </text>
       </cell>
     </row>
@@ -22057,7 +22010,7 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>Disabled slider</text>
   </paragraph>
-  <slider disabled="true" orientation="horizontal" value="30" valuetext="30">
+  <slider orientation="horizontal" value="30" valuetext="30">
     Disabled slider
   </slider>
   <toolbar>
@@ -22094,17 +22047,14 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="30°C" valuetext="30°C">
     Temperature
+    <text>30</text>
   </slider>
   <paragraph>
     <text>Disabled</text>
   </paragraph>
-  <slider
-    disabled="true"
-    orientation="horizontal"
-    value="30°C"
-    valuetext="30°C"
-  >
+  <slider orientation="horizontal" value="30°C" valuetext="30°C">
     Disabled
+    <text>30</text>
   </slider>
   <toolbar>
     demo source
@@ -22132,6 +22082,7 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="5e-8°C" valuetext="5e-8°C">
     Small steps
+    <text>5e-8</text>
   </slider>
   <toolbar>
     demo source
@@ -22169,6 +22120,7 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Custom marks
+    <text>20</text>
   </slider>
   <toolbar>
     demo source
@@ -22206,6 +22158,7 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Restricted values
+    <text>2</text>
   </slider>
   <toolbar>
     demo source
@@ -22244,6 +22197,7 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="80°C" valuetext="80°C">
     Always visible
+    <text>80</text>
   </slider>
   <toolbar>
     demo source
@@ -22281,9 +22235,11 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Temperature range
+    <text>20</text>
   </slider>
   <slider orientation="horizontal" value="37°C" valuetext="37°C">
     Temperature range
+    <text>37</text>
   </slider>
   <toolbar>
     demo source
@@ -22355,12 +22311,14 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="60" valuetext="60">
     ios slider
+    <text>60</text>
   </slider>
   <paragraph>
     <text>pretto.fr</text>
   </paragraph>
   <slider orientation="horizontal" value="20" valuetext="20">
     pretto slider
+    <text>20</text>
   </slider>
   <paragraph>
     <text>Tooltip value label</text>
@@ -22401,57 +22359,13 @@ exports[`firefox /components/slider 1`] = `
   <slider orientation="vertical" value="30°C" valuetext="30°C">
     Temperature
   </slider>
-  <slider disabled="true" orientation="vertical" value="30°C" valuetext="30°C">
+  <slider orientation="vertical" value="30°C" valuetext="30°C">
     Temperature
   </slider>
   <slider orientation="vertical" value="20°C" valuetext="20°C">
     Temperature
   </slider>
   <slider orientation="vertical" value="37°C" valuetext="37°C">
-    Temperature
-  </slider>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <paragraph>
-    <text>
-      WARNING: Chrome, Safari and newer Edge versions i.e. any browser based on
-      WebKit exposes <Slider orientation="vertical" /> as
-      horizontal (
-    </text>
-    <link>chromium issue #1158217</link>
-    <text>
-      ). By applying -webkit-appearance: slider-vertical; the slider is exposed
-      as vertical.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      However, by applying -webkit-appearance: slider-vertical; keyboard
-      navigation for horizontal keys (Arrow Left, Arrow Right) is reversed (
-    </text>
-    <link>chromium issue #1162640</link>
-    <text>
-      ). Usually, up and right should increase and left and down should decrease
-      the value. If you apply -webkit-appearance you could prevent keyboard
-      navigation for horizontal arrow keys for a truly vertical slider. This
-      might be less confusing to users compared to a change in direction.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <paragraph>
-    <text>Temperature</text>
-  </paragraph>
-  <slider orientation="vertical" value="30" valuetext="30">
     Temperature
   </slider>
   <toolbar>
@@ -22571,6 +22485,7 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="1 MB" valuetext="1 MB">
     Storage: 1 MB
+    <text>1 MB</text>
   </slider>
   <toolbar>
     demo source
