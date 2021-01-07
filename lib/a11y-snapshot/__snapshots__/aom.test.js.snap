@@ -10,7 +10,7 @@ exports[`chromium / 1`] = `
     <combobox autocomplete="list" haspopup="listbox">
       Search
     </combobox>
-    <text>Ctrl+K</text>
+    <text>CtrlK</text>
     <combobox haspopup="menu">
       Change language
       <text>ENGLISH</text>
@@ -336,8 +336,8 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        The content of the component.
-        <text>The content of the component.</text>
+        The content of the button.
+        <text>The content of the button.</text>
       </gridcell>
     </row>
     <row>
@@ -417,10 +417,10 @@ exports[`chromium /api/button/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        If true, the component is disabled.
+        If true, the button is disabled.
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, the component is disabled.</text>
+        <text>, the button is disabled.</text>
       </gridcell>
     </row>
     <row>
@@ -479,7 +479,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         If true, the ripple effect is disabled. ⚠️ Without a ripple there is no
         styling for :focus-visible by default. Be sure to highlight the element
-        by applying separate styles with the .Mui-focusedVisible class.
+        by applying separate styles with the focusVisibleClassName.
         <text>If</text>
         <code>$SOME_CODE</code>
         <text>, the ripple effect is disabled.</text>
@@ -489,7 +489,7 @@ exports[`chromium /api/button/ 1`] = `
           Be sure to highlight the element by applying separate styles with the
         </text>
         <code>$SOME_CODE</code>
-        <text>class.</text>
+        <text>.</text>
       </gridcell>
     </row>
     <row>
@@ -565,9 +565,8 @@ exports[`chromium /api/button/ 1`] = `
         <text>'medium'</text>
       </gridcell>
       <gridcell>
-        The size of the component. small is equivalent to the dense button
-        styling.
-        <text>The size of the component.</text>
+        The size of the button. small is equivalent to the dense button styling.
+        <text>The size of the button.</text>
         <code>$SOME_CODE</code>
         <text>is equivalent to the dense button styling.</text>
       </gridcell>
@@ -1512,9 +1511,9 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        The default value. Use when the component is not controlled.
+        The default element value. Use when the component is not controlled.
         <text>
-          The default value. Use when the component is not controlled.
+          The default element value. Use when the component is not controlled.
         </text>
       </gridcell>
     </row>
@@ -1867,11 +1866,11 @@ exports[`chromium /api/select/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        If true, the component is shown. You can only use it when the native
-        prop is false (default).
-        <text>If</text>
+        Control select open state. You can only use it when the native prop is
+        false (default).
+        <text>Control</text>
         <code>$SOME_CODE</code>
-        <text>, the component is shown. You can only use it when the</text>
+        <text>open state. You can only use it when the</text>
         <code>$SOME_CODE</code>
         <text>prop is</text>
         <code>$SOME_CODE</code>
@@ -13655,7 +13654,7 @@ exports[`firefox / 1`] = `
     <combobox autocomplete="list" haspopup="true">
       Search
     </combobox>
-    <text>Ctrl+K</text>
+    <text>CtrlK</text>
     <buttonmenu haspopup="true">
       Change language
       <text>ENGLISH</text>
@@ -13994,7 +13993,7 @@ exports[`firefox /api/button/ 1`] = `
       </cell>
       <cell></cell>
       <cell>
-        <text>The content of the component.</text>
+        <text>The content of the button.</text>
       </cell>
     </row>
     <row>
@@ -14058,7 +14057,7 @@ exports[`firefox /api/button/ 1`] = `
         <text>false</text>
       </cell>
       <cell>
-        <text>If true, the component is disabled.</text>
+        <text>If true, the button is disabled.</text>
       </cell>
     </row>
     <row>
@@ -14105,7 +14104,7 @@ exports[`firefox /api/button/ 1`] = `
         <text>
           ⚠️ Without a ripple there is no styling for :focus-visible by default.
           Be sure to highlight the element by applying separate styles with the
-          .Mui-focusedVisible class.
+          focusVisibleClassName.
         </text>
       </cell>
     </row>
@@ -14168,7 +14167,7 @@ exports[`firefox /api/button/ 1`] = `
       </cell>
       <cell>
         <text>
-          The size of the component. small is equivalent to the dense button
+          The size of the button. small is equivalent to the dense button
           styling.
         </text>
       </cell>
@@ -14910,7 +14909,7 @@ exports[`firefox /api/select/ 1`] = `
       <cell></cell>
       <cell>
         <text>
-          The default value. Use when the component is not controlled.
+          The default element value. Use when the component is not controlled.
         </text>
       </cell>
     </row>
@@ -15171,8 +15170,8 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell>
         <text>
-          If true, the component is shown. You can only use it when the native
-          prop is false (default).
+          Control select open state. You can only use it when the native prop is
+          false (default).
         </text>
       </cell>
     </row>
