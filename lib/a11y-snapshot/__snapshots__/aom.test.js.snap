@@ -10,7 +10,7 @@ exports[`chromium / 1`] = `
     <combobox autocomplete="list" haspopup="listbox">
       Search
     </combobox>
-    <text>CtrlK</text>
+    <text>Ctrl+K</text>
     <combobox haspopup="menu">
       Change language
       <text>ENGLISH</text>
@@ -13655,7 +13655,7 @@ exports[`firefox / 1`] = `
     <combobox autocomplete="list" haspopup="true">
       Search
     </combobox>
-    <text>CtrlK</text>
+    <text>Ctrl+K</text>
     <buttonmenu haspopup="true">
       Change language
       <text>ENGLISH</text>
