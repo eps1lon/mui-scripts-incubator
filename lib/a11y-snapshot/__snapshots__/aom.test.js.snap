@@ -13940,7 +13940,9 @@ exports[`firefox /api/button/ 1`] = `
   <paragraph>
     <text>
       API documentation for the React Button component. Learn about the
-      available props, and the CSS API.
+      available props, and the CSS API.Help us keep runningIf you don't
+      mind-tech related ads (no tracking or remarketing), and want to keep us
+      running, please whitelist Material-UI in your blocker.Thank you!
     </text>
   </paragraph>
   <heading level="2">

@@ -21,7 +21,7 @@
 		"url": "https://netlify-builds3.firebaseio.com/builds/5ff6eb52143704000708d37d/log",
 		"endpoint": "https://netlify-builds3.firebaseio.com",
 		"path": "/builds/5ff6eb52143704000708d37d/log",
-		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2IjowLCJpYXQiOjE2MTAwMjM2NjQsImQiOnsidWlkIjoiIn19.uF9WmyGZDEqqsXMlX15bSRQf7czPl7KV7wGEHr3PmQ4"
+		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2IjowLCJpYXQiOjE2MTAwMzA3MDgsImQiOnsidWlkIjoiIn19.2JHXmAQHVaqOEG-9Zzxrx8JYQPZkCiXURxtcD7I9Amk"
 	},
 	"title": "[docs] Focus docs search input when the shortcut is clicked (#24296)",
 	"review_url": null,
