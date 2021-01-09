@@ -3120,9 +3120,9 @@ exports[`chromium /components/buttons/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Contained Buttons
+    Contained buttons
     <Anchor></Anchor>
-    <text>Contained Buttons</text>
+    <text>Contained buttons</text>
   </heading>
   <paragraph>
     <link>Contained buttons</link>
@@ -3186,9 +3186,9 @@ exports[`chromium /components/buttons/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Text Buttons
+    Text buttons
     <Anchor></Anchor>
-    <text>Text Buttons</text>
+    <text>Text buttons</text>
   </heading>
   <paragraph>
     <link>Text buttons</link>
@@ -3245,9 +3245,9 @@ exports[`chromium /components/buttons/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Outlined Buttons
+    Outlined buttons
     <Anchor></Anchor>
-    <text>Outlined Buttons</text>
+    <text>Outlined buttons</text>
   </heading>
   <paragraph>
     <link>Outlined buttons</link>
@@ -3409,7 +3409,7 @@ exports[`chromium /components/buttons/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Sometimes you might want to have icons for certain button to enhance the
+      Sometimes you might want to have icons for certain buttons to enhance the
       UX of the application as we recognize logos more easily than plain text.
       For example, if you have a delete button you can label it with a dustbin
       icon.
@@ -3427,35 +3427,22 @@ exports[`chromium /components/buttons/ 1`] = `
     SEND
     <text>SEND</text>
   </button>
-  <button>
-    UPLOAD
-    <text>UPLOAD</text>
-  </button>
-  <button disabled="true">
-    TALK
-    <text>TALK</text>
-  </button>
-  <button>
-    SAVE
-    <text>SAVE</text>
-  </button>
-  <button>
-    SAVE
-    <text>SAVE</text>
-  </button>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
-    Icon Buttons
+    Icon button
     <Anchor></Anchor>
-    <text>Icon Buttons</text>
+    <text>Icon button</text>
   </heading>
   <paragraph>
     <text>Icon buttons are commonly found in app bars and toolbars.</text>
@@ -3607,9 +3594,9 @@ exports[`chromium /components/buttons/ 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
-    Complex Buttons
+    Complex buttons
     <Anchor></Anchor>
-    <text>Complex Buttons</text>
+    <text>Complex buttons</text>
   </heading>
   <paragraph>
     <text>
@@ -3618,7 +3605,7 @@ exports[`chromium /components/buttons/ 1`] = `
     </text>
     <code>$SOME_CODE</code>
     <text>
-      . You can take advantage of this lower level component to build custom
+      . You can take advantage of this lower-level component to build custom
       interactions.
     </text>
   </paragraph>
@@ -6300,9 +6287,9 @@ exports[`chromium /components/pickers 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="3">
-    Datepickers
+    Date picker
     <Anchor></Anchor>
-    <text>Datepickers</text>
+    <text>Date picker</text>
   </heading>
   <paragraph>
     <text>A native datepicker example with</text>
@@ -6317,7 +6304,6 @@ exports[`chromium /components/pickers 1`] = `
     <Label>
       <text>Birthday</text>
     </Label>
-    <text> </text>
     <Date value="2017-05-24">
       Birthday
       <spinbutton value="5" valuemax="12" valuemin="1" valuetext="05">
@@ -6349,9 +6335,9 @@ exports[`chromium /components/pickers 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
-    Date & Time pickers
+    Date & Time picker
     <Anchor></Anchor>
-    <text>Date & Time pickers</text>
+    <text>Date & Time picker</text>
   </heading>
   <paragraph>
     <text>A native date & time picker example with</text>
@@ -6366,7 +6352,6 @@ exports[`chromium /components/pickers 1`] = `
     <Label>
       <text>Next appointment</text>
     </Label>
-    <text> </text>
     <DateTime value="2017-05-24T10:30">
       Next appointment
       <spinbutton value="5" valuemax="12" valuemin="1" valuetext="05">
@@ -6413,9 +6398,9 @@ exports[`chromium /components/pickers 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
-    Time pickers
+    Time picker
     <Anchor></Anchor>
-    <text>Time pickers</text>
+    <text>Time picker</text>
   </heading>
   <paragraph>
     <text>A native time picker example with</text>
@@ -6430,7 +6415,6 @@ exports[`chromium /components/pickers 1`] = `
     <Label>
       <text>Alarm clock</text>
     </Label>
-    <text> </text>
     <InputTime value="07:30">
       Alarm clock
       <spinbutton value="7" valuemax="12" valuemin="1" valuetext="07">
@@ -16365,9 +16349,9 @@ exports[`firefox /components/buttons/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Contained Buttons
+    Contained buttons
     <link></link>
-    <text>Contained Buttons</text>
+    <text>Contained buttons</text>
   </heading>
   <paragraph>
     <link>Contained buttons</link>
@@ -16435,9 +16419,9 @@ exports[`firefox /components/buttons/ 1`] = `
     elevation </Button>
   </text>
   <heading level="2">
-    Text Buttons
+    Text buttons
     <link></link>
-    <text>Text Buttons</text>
+    <text>Text buttons</text>
   </heading>
   <paragraph>
     <link>Text buttons</link>
@@ -16495,9 +16479,9 @@ exports[`firefox /components/buttons/ 1`] = `
     href="#text-buttons">Link</Button>
   </text>
   <heading level="2">
-    Outlined Buttons
+    Outlined buttons
     <link></link>
-    <text>Outlined Buttons</text>
+    <text>Outlined buttons</text>
   </heading>
   <paragraph>
     <link>Outlined buttons</link>
@@ -16665,7 +16649,7 @@ exports[`firefox /components/buttons/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Sometimes you might want to have icons for certain button to enhance the
+      Sometimes you might want to have icons for certain buttons to enhance the
       UX of the application as we recognize logos more easily than plain text.
       For example, if you have a delete button you can label it with a dustbin
       icon.
@@ -16683,35 +16667,25 @@ exports[`firefox /components/buttons/ 1`] = `
     SEND
     <text>SEND</text>
   </button>
-  <button>
-    UPLOAD
-    <text>UPLOAD</text>
-  </button>
-  <button disabled="true">
-    TALK
-    <text>TALK</text>
-  </button>
-  <button>
-    SAVE
-    <text>SAVE</text>
-  </button>
-  <button>
-    SAVE
-    <text>SAVE</text>
-  </button>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <Button variant="outlined" startIcon={<DeleteIcon
+    />}> Delete </Button> <Button
+    variant="contained" endIcon={<SendIcon />}>
+    Send </Button>
+  </text>
   <heading level="2">
-    Icon Buttons
+    Icon button
     <link></link>
-    <text>Icon Buttons</text>
+    <text>Icon button</text>
   </heading>
   <paragraph>
     <text>Icon buttons are commonly found in app bars and toolbars.</text>
@@ -16880,15 +16854,15 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Complex Buttons
+    Complex buttons
     <link></link>
-    <text>Complex Buttons</text>
+    <text>Complex buttons</text>
   </heading>
   <paragraph>
     <text>
       The Text Buttons, Contained Buttons, Floating Action Buttons and Icon
       Buttons are built on top of the same component: the ButtonBase. You can
-      take advantage of this lower level component to build custom interactions.
+      take advantage of this lower-level component to build custom interactions.
     </text>
   </paragraph>
   <button>
@@ -19759,9 +19733,9 @@ exports[`firefox /components/pickers 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="3">
-    Datepickers
+    Date picker
     <link></link>
-    <text>Datepickers</text>
+    <text>Date picker</text>
   </heading>
   <paragraph>
     <text>A native datepicker example with type="date".</text>
@@ -19775,7 +19749,6 @@ exports[`firefox /components/pickers 1`] = `
       Birthday
       <text>Birthday</text>
     </label>
-    <statictext> </statictext>
     <DateTime>
       Birthday
       <spinbutton value="05" valuetext="05">
@@ -19808,16 +19781,16 @@ exports[`firefox /components/pickers 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <form className={classes.container} noValidate>
-    <TextField id="date" label="Birthday"
-    type="date" defaultValue="2017-05-24"
-    className={classes.textField} InputLabelProps={{ shrink:
-    true, }} variant="standard" /> </form>
+    <form noValidate> <TextField id="date"
+    label="Birthday" type="date"
+    defaultValue="2017-05-24" style={{ width: 220
+    }} InputLabelProps={{ shrink: true, }} />
+    </form>
   </text>
   <heading level="3">
-    Date & Time pickers
+    Date & Time picker
     <link></link>
-    <text>Date & Time pickers</text>
+    <text>Date & Time picker</text>
   </heading>
   <paragraph>
     <text>
@@ -19834,7 +19807,6 @@ exports[`firefox /components/pickers 1`] = `
       Next appointment
       <text>Next appointment</text>
     </label>
-    <statictext> </statictext>
     <textbox value="2017-05-24T10:30">
       Next appointment
       <text>2017-05-24T10:30</text>
@@ -19850,17 +19822,16 @@ exports[`firefox /components/pickers 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <form className={classes.container} noValidate>
-    <TextField id="datetime-local" label="Next
-    appointment" type="datetime-local"
-    defaultValue="2017-05-24T10:30"
-    className={classes.textField} InputLabelProps={{ shrink:
-    true, }} variant="standard" /> </form>
+    <form noValidate> <TextField id="datetime-local"
+    label="Next appointment" type="datetime-local"
+    defaultValue="2017-05-24T10:30" style={{ width: 250
+    }} InputLabelProps={{ shrink: true, }} />
+    </form>
   </text>
   <heading level="3">
-    Time pickers
+    Time picker
     <link></link>
-    <text>Time pickers</text>
+    <text>Time picker</text>
   </heading>
   <paragraph>
     <text>A native time picker example with type="time".</text>
@@ -19874,7 +19845,6 @@ exports[`firefox /components/pickers 1`] = `
       Alarm clock
       <text>Alarm clock</text>
     </label>
-    <statictext> </statictext>
     <InputTime>
       Alarm clock
       <spinbutton value="07" valuetext="07">
@@ -19907,12 +19877,11 @@ exports[`firefox /components/pickers 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <form className={classes.container} noValidate>
-    <TextField id="time" label="Alarm clock"
-    type="time" defaultValue="07:30"
-    className={classes.textField} InputLabelProps={{ shrink:
-    true, }} inputProps={{ step: 300, // 5 min }}
-    variant="standard" /> </form>
+    <form noValidate> <TextField id="time" label="Alarm
+    clock" type="time" defaultValue="07:30"
+    InputLabelProps={{ shrink: true, }}
+    inputProps={{ step: 300, // 5 min }} style={{
+    width: 150 }} /> </form>
   </text>
   <heading level="2">
     API
