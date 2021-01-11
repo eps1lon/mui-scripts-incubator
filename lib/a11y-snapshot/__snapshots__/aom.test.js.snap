@@ -6287,9 +6287,9 @@ exports[`chromium /components/pickers 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="3">
-    Date picker
+    Datepickers
     <Anchor></Anchor>
-    <text>Date picker</text>
+    <text>Datepickers</text>
   </heading>
   <paragraph>
     <text>A native datepicker example with</text>
@@ -6304,6 +6304,7 @@ exports[`chromium /components/pickers 1`] = `
     <Label>
       <text>Birthday</text>
     </Label>
+    <text> </text>
     <Date value="2017-05-24">
       Birthday
       <spinbutton value="5" valuemax="12" valuemin="1" valuetext="05">
@@ -6335,9 +6336,9 @@ exports[`chromium /components/pickers 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
-    Date & Time picker
+    Date & Time pickers
     <Anchor></Anchor>
-    <text>Date & Time picker</text>
+    <text>Date & Time pickers</text>
   </heading>
   <paragraph>
     <text>A native date & time picker example with</text>
@@ -6352,6 +6353,7 @@ exports[`chromium /components/pickers 1`] = `
     <Label>
       <text>Next appointment</text>
     </Label>
+    <text> </text>
     <DateTime value="2017-05-24T10:30">
       Next appointment
       <spinbutton value="5" valuemax="12" valuemin="1" valuetext="05">
@@ -6398,9 +6400,9 @@ exports[`chromium /components/pickers 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
-    Time picker
+    Time pickers
     <Anchor></Anchor>
-    <text>Time picker</text>
+    <text>Time pickers</text>
   </heading>
   <paragraph>
     <text>A native time picker example with</text>
@@ -6415,6 +6417,7 @@ exports[`chromium /components/pickers 1`] = `
     <Label>
       <text>Alarm clock</text>
     </Label>
+    <text> </text>
     <InputTime value="07:30">
       Alarm clock
       <spinbutton value="7" valuemax="12" valuemin="1" valuetext="07">
@@ -19733,9 +19736,9 @@ exports[`firefox /components/pickers 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="3">
-    Date picker
+    Datepickers
     <link></link>
-    <text>Date picker</text>
+    <text>Datepickers</text>
   </heading>
   <paragraph>
     <text>A native datepicker example with type="date".</text>
@@ -19749,6 +19752,7 @@ exports[`firefox /components/pickers 1`] = `
       Birthday
       <text>Birthday</text>
     </label>
+    <statictext> </statictext>
     <DateTime>
       Birthday
       <spinbutton value="05" valuetext="05">
@@ -19781,16 +19785,16 @@ exports[`firefox /components/pickers 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <form noValidate> <TextField id="date"
-    label="Birthday" type="date"
-    defaultValue="2017-05-24" style={{ width: 220
-    }} InputLabelProps={{ shrink: true, }} />
-    </form>
+    <form className={classes.container} noValidate>
+    <TextField id="date" label="Birthday"
+    type="date" defaultValue="2017-05-24"
+    className={classes.textField} InputLabelProps={{ shrink:
+    true, }} variant="standard" /> </form>
   </text>
   <heading level="3">
-    Date & Time picker
+    Date & Time pickers
     <link></link>
-    <text>Date & Time picker</text>
+    <text>Date & Time pickers</text>
   </heading>
   <paragraph>
     <text>
@@ -19807,6 +19811,7 @@ exports[`firefox /components/pickers 1`] = `
       Next appointment
       <text>Next appointment</text>
     </label>
+    <statictext> </statictext>
     <textbox value="2017-05-24T10:30">
       Next appointment
       <text>2017-05-24T10:30</text>
@@ -19822,16 +19827,17 @@ exports[`firefox /components/pickers 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <form noValidate> <TextField id="datetime-local"
-    label="Next appointment" type="datetime-local"
-    defaultValue="2017-05-24T10:30" style={{ width: 250
-    }} InputLabelProps={{ shrink: true, }} />
-    </form>
+    <form className={classes.container} noValidate>
+    <TextField id="datetime-local" label="Next
+    appointment" type="datetime-local"
+    defaultValue="2017-05-24T10:30"
+    className={classes.textField} InputLabelProps={{ shrink:
+    true, }} variant="standard" /> </form>
   </text>
   <heading level="3">
-    Time picker
+    Time pickers
     <link></link>
-    <text>Time picker</text>
+    <text>Time pickers</text>
   </heading>
   <paragraph>
     <text>A native time picker example with type="time".</text>
@@ -19845,6 +19851,7 @@ exports[`firefox /components/pickers 1`] = `
       Alarm clock
       <text>Alarm clock</text>
     </label>
+    <statictext> </statictext>
     <InputTime>
       Alarm clock
       <spinbutton value="07" valuetext="07">
@@ -19877,11 +19884,12 @@ exports[`firefox /components/pickers 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <form noValidate> <TextField id="time" label="Alarm
-    clock" type="time" defaultValue="07:30"
-    InputLabelProps={{ shrink: true, }}
-    inputProps={{ step: 300, // 5 min }} style={{
-    width: 150 }} /> </form>
+    <form className={classes.container} noValidate>
+    <TextField id="time" label="Alarm clock"
+    type="time" defaultValue="07:30"
+    className={classes.textField} InputLabelProps={{ shrink:
+    true, }} inputProps={{ step: 300, // 5 min }}
+    variant="standard" /> </form>
   </text>
   <heading level="2">
     API
