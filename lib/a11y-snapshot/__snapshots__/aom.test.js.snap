@@ -26619,7 +26619,9 @@ exports[`firefox /components/transfer-list 1`] = `
   <paragraph>
     <text>
       A transfer list (or "shuttle") enables the user to move one or
-      more list items between lists.
+      more list items between lists.Help us keep runningIf you don't
+      mind-tech related ads (no tracking or remarketing), and want to keep us
+      running, please whitelist Material-UI in your blocker.Thank you!
     </text>
   </paragraph>
   <heading level="2">
