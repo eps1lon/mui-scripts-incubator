@@ -10,7 +10,7 @@ exports[`chromium / 1`] = `
     <combobox autocomplete="list" haspopup="listbox">
       Search
     </combobox>
-    <text>Ctrl+K</text>
+    <text>CtrlK</text>
     <combobox haspopup="menu">
       Change language
       <text>ENGLISH</text>
@@ -255,7 +255,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.22. View versions page.</link>
+      <link>v5.0.0-alpha.21. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -336,8 +336,8 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        The content of the component.
-        <text>The content of the component.</text>
+        The content of the button.
+        <text>The content of the button.</text>
       </gridcell>
     </row>
     <row>
@@ -417,10 +417,10 @@ exports[`chromium /api/button/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        If true, the component is disabled.
+        If true, the button is disabled.
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, the component is disabled.</text>
+        <text>, the button is disabled.</text>
       </gridcell>
     </row>
     <row>
@@ -479,7 +479,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         If true, the ripple effect is disabled. ⚠️ Without a ripple there is no
         styling for :focus-visible by default. Be sure to highlight the element
-        by applying separate styles with the .Mui-focusedVisible class.
+        by applying separate styles with the focusVisibleClassName.
         <text>If</text>
         <code>$SOME_CODE</code>
         <text>, the ripple effect is disabled.</text>
@@ -489,7 +489,7 @@ exports[`chromium /api/button/ 1`] = `
           Be sure to highlight the element by applying separate styles with the
         </text>
         <code>$SOME_CODE</code>
-        <text>class.</text>
+        <text>.</text>
       </gridcell>
     </row>
     <row>
@@ -565,9 +565,8 @@ exports[`chromium /api/button/ 1`] = `
         <text>'medium'</text>
       </gridcell>
       <gridcell>
-        The size of the component. small is equivalent to the dense button
-        styling.
-        <text>The size of the component.</text>
+        The size of the button. small is equivalent to the dense button styling.
+        <text>The size of the button.</text>
         <code>$SOME_CODE</code>
         <text>is equivalent to the dense button styling.</text>
       </gridcell>
@@ -1512,9 +1511,9 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        The default value. Use when the component is not controlled.
+        The default element value. Use when the component is not controlled.
         <text>
-          The default value. Use when the component is not controlled.
+          The default element value. Use when the component is not controlled.
         </text>
       </gridcell>
     </row>
@@ -1867,11 +1866,11 @@ exports[`chromium /api/select/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        If true, the component is shown. You can only use it when the native
-        prop is false (default).
-        <text>If</text>
+        Control select open state. You can only use it when the native prop is
+        false (default).
+        <text>Control</text>
         <code>$SOME_CODE</code>
-        <text>, the component is shown. You can only use it when the</text>
+        <text>open state. You can only use it when the</text>
         <code>$SOME_CODE</code>
         <text>prop is</text>
         <code>$SOME_CODE</code>
@@ -3120,9 +3119,9 @@ exports[`chromium /components/buttons/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Contained buttons
+    Contained Buttons
     <Anchor></Anchor>
-    <text>Contained buttons</text>
+    <text>Contained Buttons</text>
   </heading>
   <paragraph>
     <link>Contained buttons</link>
@@ -3186,9 +3185,9 @@ exports[`chromium /components/buttons/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Text buttons
+    Text Buttons
     <Anchor></Anchor>
-    <text>Text buttons</text>
+    <text>Text Buttons</text>
   </heading>
   <paragraph>
     <link>Text buttons</link>
@@ -3245,9 +3244,9 @@ exports[`chromium /components/buttons/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Outlined buttons
+    Outlined Buttons
     <Anchor></Anchor>
-    <text>Outlined buttons</text>
+    <text>Outlined Buttons</text>
   </heading>
   <paragraph>
     <link>Outlined buttons</link>
@@ -3409,7 +3408,7 @@ exports[`chromium /components/buttons/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Sometimes you might want to have icons for certain buttons to enhance the
+      Sometimes you might want to have icons for certain button to enhance the
       UX of the application as we recognize logos more easily than plain text.
       For example, if you have a delete button you can label it with a dustbin
       icon.
@@ -3427,22 +3426,35 @@ exports[`chromium /components/buttons/ 1`] = `
     SEND
     <text>SEND</text>
   </button>
+  <button>
+    UPLOAD
+    <text>UPLOAD</text>
+  </button>
+  <button disabled="true">
+    TALK
+    <text>TALK</text>
+  </button>
+  <button>
+    SAVE
+    <text>SAVE</text>
+  </button>
+  <button>
+    SAVE
+    <text>SAVE</text>
+  </button>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
-    Icon button
+    Icon Buttons
     <Anchor></Anchor>
-    <text>Icon button</text>
+    <text>Icon Buttons</text>
   </heading>
   <paragraph>
     <text>Icon buttons are commonly found in app bars and toolbars.</text>
@@ -3594,9 +3606,9 @@ exports[`chromium /components/buttons/ 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
-    Complex buttons
+    Complex Buttons
     <Anchor></Anchor>
-    <text>Complex buttons</text>
+    <text>Complex Buttons</text>
   </heading>
   <paragraph>
     <text>
@@ -3605,7 +3617,7 @@ exports[`chromium /components/buttons/ 1`] = `
     </text>
     <code>$SOME_CODE</code>
     <text>
-      . You can take advantage of this lower-level component to build custom
+      . You can take advantage of this lower level component to build custom
       interactions.
     </text>
   </paragraph>
@@ -6287,9 +6299,9 @@ exports[`chromium /components/pickers 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="3">
-    Date picker
+    Datepickers
     <Anchor></Anchor>
-    <text>Date picker</text>
+    <text>Datepickers</text>
   </heading>
   <paragraph>
     <text>A native datepicker example with</text>
@@ -6304,6 +6316,7 @@ exports[`chromium /components/pickers 1`] = `
     <Label>
       <text>Birthday</text>
     </Label>
+    <text> </text>
     <Date value="2017-05-24">
       Birthday
       <spinbutton value="5" valuemax="12" valuemin="1" valuetext="05">
@@ -6335,9 +6348,9 @@ exports[`chromium /components/pickers 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
-    Date & Time picker
+    Date & Time pickers
     <Anchor></Anchor>
-    <text>Date & Time picker</text>
+    <text>Date & Time pickers</text>
   </heading>
   <paragraph>
     <text>A native date & time picker example with</text>
@@ -6352,6 +6365,7 @@ exports[`chromium /components/pickers 1`] = `
     <Label>
       <text>Next appointment</text>
     </Label>
+    <text> </text>
     <DateTime value="2017-05-24T10:30">
       Next appointment
       <spinbutton value="5" valuemax="12" valuemin="1" valuetext="05">
@@ -6398,9 +6412,9 @@ exports[`chromium /components/pickers 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
-    Time picker
+    Time pickers
     <Anchor></Anchor>
-    <text>Time picker</text>
+    <text>Time pickers</text>
   </heading>
   <paragraph>
     <text>A native time picker example with</text>
@@ -6415,6 +6429,7 @@ exports[`chromium /components/pickers 1`] = `
     <Label>
       <text>Alarm clock</text>
     </Label>
+    <text> </text>
     <InputTime value="07:30">
       Alarm clock
       <spinbutton value="7" valuemax="12" valuemin="1" valuetext="07">
@@ -8160,7 +8175,6 @@ exports[`chromium /components/slider 1`] = `
     <text>Disabled slider</text>
   </paragraph>
   <slider
-    disabled="true"
     orientation="horizontal"
     value="30"
     valuemax="100"
@@ -8209,12 +8223,12 @@ exports[`chromium /components/slider 1`] = `
     valuetext="30°C"
   >
     Temperature
+    <text>30</text>
   </slider>
   <paragraph>
     <text>Disabled</text>
   </paragraph>
   <slider
-    disabled="true"
     orientation="horizontal"
     value="30"
     valuemax="110"
@@ -8222,6 +8236,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext="30°C"
   >
     Disabled
+    <text>30</text>
   </slider>
   <toolbar>
     demo source
@@ -8255,6 +8270,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext="5e-8°C"
   >
     Small steps
+    <text>5e-8</text>
   </slider>
   <toolbar>
     demo source
@@ -8293,6 +8309,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext="20°C"
   >
     Custom marks
+    <text>20</text>
   </slider>
   <toolbar>
     demo source
@@ -8335,6 +8352,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext="20°C"
   >
     Restricted values
+    <text>2</text>
   </slider>
   <toolbar>
     demo source
@@ -8373,6 +8391,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext="80°C"
   >
     Always visible
+    <text>80</text>
   </slider>
   <toolbar>
     demo source
@@ -8414,6 +8433,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext="20°C"
   >
     Temperature range
+    <text>20</text>
   </slider>
   <slider
     orientation="horizontal"
@@ -8423,6 +8443,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext="37°C"
   >
     Temperature range
+    <text>37</text>
   </slider>
   <toolbar>
     demo source
@@ -8502,6 +8523,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext=""
   >
     ios slider
+    <text>60</text>
   </slider>
   <paragraph>
     <text>pretto.fr</text>
@@ -8514,6 +8536,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext=""
   >
     pretto slider
+    <text>20</text>
   </slider>
   <paragraph>
     <text>Tooltip value label</text>
@@ -8570,7 +8593,7 @@ exports[`chromium /components/slider 1`] = `
     <text>Temperature</text>
   </paragraph>
   <slider
-    orientation="horizontal"
+    orientation="vertical"
     value="30"
     valuemax="100"
     valuemin="0"
@@ -8579,8 +8602,7 @@ exports[`chromium /components/slider 1`] = `
     Temperature
   </slider>
   <slider
-    disabled="true"
-    orientation="horizontal"
+    orientation="vertical"
     value="30"
     valuemax="100"
     valuemin="0"
@@ -8589,7 +8611,7 @@ exports[`chromium /components/slider 1`] = `
     Temperature
   </slider>
   <slider
-    orientation="horizontal"
+    orientation="vertical"
     value="20"
     valuemax="100"
     valuemin="0"
@@ -8598,67 +8620,11 @@ exports[`chromium /components/slider 1`] = `
     Temperature
   </slider>
   <slider
-    orientation="horizontal"
+    orientation="vertical"
     value="37"
     valuemax="100"
     valuemin="0"
     valuetext="37°C"
-  >
-    Temperature
-  </slider>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <paragraph>
-    <text>
-      WARNING: Chrome, Safari and newer Edge versions i.e. any browser based on
-      WebKit exposes
-    </text>
-    <code>$SOME_CODE</code>
-    <text>as horizontal (</text>
-    <link>chromium issue #1158217</link>
-    <text>). By applying</text>
-    <code>$SOME_CODE</code>
-    <text>the slider is exposed as vertical.</text>
-  </paragraph>
-  <paragraph>
-    <text>However, by applying</text>
-    <code>$SOME_CODE</code>
-    <text>
-      keyboard navigation for horizontal keys (Arrow Left,Arrow Right) is
-      reversed (
-    </text>
-    <link>chromium issue #1162640</link>
-    <text>
-      ). Usually, up and right should increase and left and down should decrease
-      the value. If you apply
-    </text>
-    <code>$SOME_CODE</code>
-    <text>
-      you could prevent keyboard navigation for horizontal arrow keys for a
-      truly vertical slider. This might be less confusing to users compared to a
-      change in direction.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <paragraph>
-    <text>Temperature</text>
-  </paragraph>
-  <slider
-    orientation="vertical"
-    value="30"
-    valuemax="100"
-    valuemin="0"
-    valuetext=""
   >
     Temperature
   </slider>
@@ -8833,6 +8799,7 @@ exports[`chromium /components/slider 1`] = `
     valuetext="1 MB"
   >
     Storage: 1 MB
+    <text>1 MB</text>
   </slider>
   <toolbar>
     demo source
@@ -13639,7 +13606,7 @@ exports[`firefox / 1`] = `
     <combobox autocomplete="list" haspopup="true">
       Search
     </combobox>
-    <text>Ctrl+K</text>
+    <text>CtrlK</text>
     <buttonmenu haspopup="true">
       Change language
       <text>ENGLISH</text>
@@ -13904,7 +13871,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.22. View versions page.</link>
+      <link>v5.0.0-alpha.21. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -13978,7 +13945,7 @@ exports[`firefox /api/button/ 1`] = `
       </cell>
       <cell></cell>
       <cell>
-        <text>The content of the component.</text>
+        <text>The content of the button.</text>
       </cell>
     </row>
     <row>
@@ -14042,7 +14009,7 @@ exports[`firefox /api/button/ 1`] = `
         <text>false</text>
       </cell>
       <cell>
-        <text>If true, the component is disabled.</text>
+        <text>If true, the button is disabled.</text>
       </cell>
     </row>
     <row>
@@ -14089,7 +14056,7 @@ exports[`firefox /api/button/ 1`] = `
         <text>
           ⚠️ Without a ripple there is no styling for :focus-visible by default.
           Be sure to highlight the element by applying separate styles with the
-          .Mui-focusedVisible class.
+          focusVisibleClassName.
         </text>
       </cell>
     </row>
@@ -14152,7 +14119,7 @@ exports[`firefox /api/button/ 1`] = `
       </cell>
       <cell>
         <text>
-          The size of the component. small is equivalent to the dense button
+          The size of the button. small is equivalent to the dense button
           styling.
         </text>
       </cell>
@@ -14894,7 +14861,7 @@ exports[`firefox /api/select/ 1`] = `
       <cell></cell>
       <cell>
         <text>
-          The default value. Use when the component is not controlled.
+          The default element value. Use when the component is not controlled.
         </text>
       </cell>
     </row>
@@ -15155,8 +15122,8 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell>
         <text>
-          If true, the component is shown. You can only use it when the native
-          prop is false (default).
+          Control select open state. You can only use it when the native prop is
+          false (default).
         </text>
       </cell>
     </row>
@@ -16349,9 +16316,9 @@ exports[`firefox /components/buttons/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Contained buttons
+    Contained Buttons
     <link></link>
-    <text>Contained buttons</text>
+    <text>Contained Buttons</text>
   </heading>
   <paragraph>
     <link>Contained buttons</link>
@@ -16419,9 +16386,9 @@ exports[`firefox /components/buttons/ 1`] = `
     elevation </Button>
   </text>
   <heading level="2">
-    Text buttons
+    Text Buttons
     <link></link>
-    <text>Text buttons</text>
+    <text>Text Buttons</text>
   </heading>
   <paragraph>
     <link>Text buttons</link>
@@ -16479,9 +16446,9 @@ exports[`firefox /components/buttons/ 1`] = `
     href="#text-buttons">Link</Button>
   </text>
   <heading level="2">
-    Outlined buttons
+    Outlined Buttons
     <link></link>
-    <text>Outlined buttons</text>
+    <text>Outlined Buttons</text>
   </heading>
   <paragraph>
     <link>Outlined buttons</link>
@@ -16649,7 +16616,7 @@ exports[`firefox /components/buttons/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Sometimes you might want to have icons for certain buttons to enhance the
+      Sometimes you might want to have icons for certain button to enhance the
       UX of the application as we recognize logos more easily than plain text.
       For example, if you have a delete button you can label it with a dustbin
       icon.
@@ -16667,25 +16634,35 @@ exports[`firefox /components/buttons/ 1`] = `
     SEND
     <text>SEND</text>
   </button>
+  <button>
+    UPLOAD
+    <text>UPLOAD</text>
+  </button>
+  <button disabled="true">
+    TALK
+    <text>TALK</text>
+  </button>
+  <button>
+    SAVE
+    <text>SAVE</text>
+  </button>
+  <button>
+    SAVE
+    <text>SAVE</text>
+  </button>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Button variant="outlined" startIcon={<DeleteIcon
-    />}> Delete </Button> <Button
-    variant="contained" endIcon={<SendIcon />}>
-    Send </Button>
-  </text>
   <heading level="2">
-    Icon button
+    Icon Buttons
     <link></link>
-    <text>Icon button</text>
+    <text>Icon Buttons</text>
   </heading>
   <paragraph>
     <text>Icon buttons are commonly found in app bars and toolbars.</text>
@@ -16854,15 +16831,15 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Complex buttons
+    Complex Buttons
     <link></link>
-    <text>Complex buttons</text>
+    <text>Complex Buttons</text>
   </heading>
   <paragraph>
     <text>
       The Text Buttons, Contained Buttons, Floating Action Buttons and Icon
       Buttons are built on top of the same component: the ButtonBase. You can
-      take advantage of this lower-level component to build custom interactions.
+      take advantage of this lower level component to build custom interactions.
     </text>
   </paragraph>
   <button>
@@ -19733,9 +19710,9 @@ exports[`firefox /components/pickers 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="3">
-    Date picker
+    Datepickers
     <link></link>
-    <text>Date picker</text>
+    <text>Datepickers</text>
   </heading>
   <paragraph>
     <text>A native datepicker example with type="date".</text>
@@ -19749,6 +19726,7 @@ exports[`firefox /components/pickers 1`] = `
       Birthday
       <text>Birthday</text>
     </label>
+    <statictext> </statictext>
     <DateTime>
       Birthday
       <spinbutton value="05" valuetext="05">
@@ -19781,16 +19759,16 @@ exports[`firefox /components/pickers 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <form noValidate> <TextField id="date"
-    label="Birthday" type="date"
-    defaultValue="2017-05-24" style={{ width: 220
-    }} InputLabelProps={{ shrink: true, }} />
-    </form>
+    <form className={classes.container} noValidate>
+    <TextField id="date" label="Birthday"
+    type="date" defaultValue="2017-05-24"
+    className={classes.textField} InputLabelProps={{ shrink:
+    true, }} variant="standard" /> </form>
   </text>
   <heading level="3">
-    Date & Time picker
+    Date & Time pickers
     <link></link>
-    <text>Date & Time picker</text>
+    <text>Date & Time pickers</text>
   </heading>
   <paragraph>
     <text>
@@ -19807,6 +19785,7 @@ exports[`firefox /components/pickers 1`] = `
       Next appointment
       <text>Next appointment</text>
     </label>
+    <statictext> </statictext>
     <textbox value="2017-05-24T10:30">
       Next appointment
       <text>2017-05-24T10:30</text>
@@ -19822,16 +19801,17 @@ exports[`firefox /components/pickers 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <form noValidate> <TextField id="datetime-local"
-    label="Next appointment" type="datetime-local"
-    defaultValue="2017-05-24T10:30" style={{ width: 250
-    }} InputLabelProps={{ shrink: true, }} />
-    </form>
+    <form className={classes.container} noValidate>
+    <TextField id="datetime-local" label="Next
+    appointment" type="datetime-local"
+    defaultValue="2017-05-24T10:30"
+    className={classes.textField} InputLabelProps={{ shrink:
+    true, }} variant="standard" /> </form>
   </text>
   <heading level="3">
-    Time picker
+    Time pickers
     <link></link>
-    <text>Time picker</text>
+    <text>Time pickers</text>
   </heading>
   <paragraph>
     <text>A native time picker example with type="time".</text>
@@ -19845,6 +19825,7 @@ exports[`firefox /components/pickers 1`] = `
       Alarm clock
       <text>Alarm clock</text>
     </label>
+    <statictext> </statictext>
     <InputTime>
       Alarm clock
       <spinbutton value="07" valuetext="07">
@@ -19877,11 +19858,12 @@ exports[`firefox /components/pickers 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <form noValidate> <TextField id="time" label="Alarm
-    clock" type="time" defaultValue="07:30"
-    InputLabelProps={{ shrink: true, }}
-    inputProps={{ step: 300, // 5 min }} style={{
-    width: 150 }} /> </form>
+    <form className={classes.container} noValidate>
+    <TextField id="time" label="Alarm clock"
+    type="time" defaultValue="07:30"
+    className={classes.textField} InputLabelProps={{ shrink:
+    true, }} inputProps={{ step: 300, // 5 min }}
+    variant="standard" /> </form>
   </text>
   <heading level="2">
     API
@@ -22027,7 +22009,7 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>Disabled slider</text>
   </paragraph>
-  <slider disabled="true" orientation="horizontal" value="30" valuetext="30">
+  <slider orientation="horizontal" value="30" valuetext="30">
     Disabled slider
   </slider>
   <toolbar>
@@ -22064,17 +22046,14 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="30°C" valuetext="30°C">
     Temperature
+    <text>30</text>
   </slider>
   <paragraph>
     <text>Disabled</text>
   </paragraph>
-  <slider
-    disabled="true"
-    orientation="horizontal"
-    value="30°C"
-    valuetext="30°C"
-  >
+  <slider orientation="horizontal" value="30°C" valuetext="30°C">
     Disabled
+    <text>30</text>
   </slider>
   <toolbar>
     demo source
@@ -22102,6 +22081,7 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="5e-8°C" valuetext="5e-8°C">
     Small steps
+    <text>5e-8</text>
   </slider>
   <toolbar>
     demo source
@@ -22139,6 +22119,7 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Custom marks
+    <text>20</text>
   </slider>
   <toolbar>
     demo source
@@ -22176,6 +22157,7 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Restricted values
+    <text>2</text>
   </slider>
   <toolbar>
     demo source
@@ -22214,6 +22196,7 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="80°C" valuetext="80°C">
     Always visible
+    <text>80</text>
   </slider>
   <toolbar>
     demo source
@@ -22251,9 +22234,11 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Temperature range
+    <text>20</text>
   </slider>
   <slider orientation="horizontal" value="37°C" valuetext="37°C">
     Temperature range
+    <text>37</text>
   </slider>
   <toolbar>
     demo source
@@ -22325,12 +22310,14 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="60" valuetext="60">
     ios slider
+    <text>60</text>
   </slider>
   <paragraph>
     <text>pretto.fr</text>
   </paragraph>
   <slider orientation="horizontal" value="20" valuetext="20">
     pretto slider
+    <text>20</text>
   </slider>
   <paragraph>
     <text>Tooltip value label</text>
@@ -22371,57 +22358,13 @@ exports[`firefox /components/slider 1`] = `
   <slider orientation="vertical" value="30°C" valuetext="30°C">
     Temperature
   </slider>
-  <slider disabled="true" orientation="vertical" value="30°C" valuetext="30°C">
+  <slider orientation="vertical" value="30°C" valuetext="30°C">
     Temperature
   </slider>
   <slider orientation="vertical" value="20°C" valuetext="20°C">
     Temperature
   </slider>
   <slider orientation="vertical" value="37°C" valuetext="37°C">
-    Temperature
-  </slider>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <paragraph>
-    <text>
-      WARNING: Chrome, Safari and newer Edge versions i.e. any browser based on
-      WebKit exposes <Slider orientation="vertical" /> as
-      horizontal (
-    </text>
-    <link>chromium issue #1158217</link>
-    <text>
-      ). By applying -webkit-appearance: slider-vertical; the slider is exposed
-      as vertical.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      However, by applying -webkit-appearance: slider-vertical; keyboard
-      navigation for horizontal keys (Arrow Left, Arrow Right) is reversed (
-    </text>
-    <link>chromium issue #1162640</link>
-    <text>
-      ). Usually, up and right should increase and left and down should decrease
-      the value. If you apply -webkit-appearance you could prevent keyboard
-      navigation for horizontal arrow keys for a truly vertical slider. This
-      might be less confusing to users compared to a change in direction.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <paragraph>
-    <text>Temperature</text>
-  </paragraph>
-  <slider orientation="vertical" value="30" valuetext="30">
     Temperature
   </slider>
   <toolbar>
@@ -22541,6 +22484,7 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <slider orientation="horizontal" value="1 MB" valuetext="1 MB">
     Storage: 1 MB
+    <text>1 MB</text>
   </slider>
   <toolbar>
     demo source
