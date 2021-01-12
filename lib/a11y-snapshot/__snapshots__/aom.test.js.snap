@@ -22657,7 +22657,12 @@ exports[`firefox /components/switches/ 1`] = `
     <text>Switch</text>
   </heading>
   <paragraph>
-    <text>Switches toggle the state of a single setting on or off.</text>
+    <text>
+      Switches toggle the state of a single setting on or off.Help us keep
+      runningIf you don't mind-tech related ads (no tracking or
+      remarketing), and want to keep us running, please whitelist Material-UI in
+      your blocker.Thank you!
+    </text>
   </paragraph>
   <paragraph>
     <text>
