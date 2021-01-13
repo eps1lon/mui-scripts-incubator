@@ -1260,11 +1260,10 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the icon element if supplied and
-        \`size="small"\`.
-        <text>
-          Styles applied to the icon element if supplied and
-          \`size="small"\`.
-        </text>
+        size="small".
+        <text>Styles applied to the icon element if supplied and</text>
+        <code>$SOME_CODE</code>
+        <text>.</text>
       </gridcell>
     </row>
     <row>
@@ -1278,11 +1277,10 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the icon element if supplied and
-        \`size="medium"\`.
-        <text>
-          Styles applied to the icon element if supplied and
-          \`size="medium"\`.
-        </text>
+        size="medium".
+        <text>Styles applied to the icon element if supplied and</text>
+        <code>$SOME_CODE</code>
+        <text>.</text>
       </gridcell>
     </row>
     <row>
@@ -1296,11 +1294,10 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the icon element if supplied and
-        \`size="large"\`.
-        <text>
-          Styles applied to the icon element if supplied and
-          \`size="large"\`.
-        </text>
+        size="large".
+        <text>Styles applied to the icon element if supplied and</text>
+        <code>$SOME_CODE</code>
+        <text>.</text>
       </gridcell>
     </row>
   </table>
@@ -14693,7 +14690,7 @@ exports[`firefox /api/button/ 1`] = `
       <cell>
         <text>
           Styles applied to the icon element if supplied and
-          \`size="small"\`.
+          size="small".
         </text>
       </cell>
     </row>
@@ -14707,7 +14704,7 @@ exports[`firefox /api/button/ 1`] = `
       <cell>
         <text>
           Styles applied to the icon element if supplied and
-          \`size="medium"\`.
+          size="medium".
         </text>
       </cell>
     </row>
@@ -14721,7 +14718,7 @@ exports[`firefox /api/button/ 1`] = `
       <cell>
         <text>
           Styles applied to the icon element if supplied and
-          \`size="large"\`.
+          size="large".
         </text>
       </cell>
     </row>
