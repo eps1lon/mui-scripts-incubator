@@ -255,7 +255,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.23. View versions page.</link>
+      <link>v5.0.0-alpha.22. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -1260,10 +1260,11 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the icon element if supplied and
-        size="small".
-        <text>Styles applied to the icon element if supplied and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
+        \`size="small"\`.
+        <text>
+          Styles applied to the icon element if supplied and
+          \`size="small"\`.
+        </text>
       </gridcell>
     </row>
     <row>
@@ -1277,10 +1278,11 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the icon element if supplied and
-        size="medium".
-        <text>Styles applied to the icon element if supplied and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
+        \`size="medium"\`.
+        <text>
+          Styles applied to the icon element if supplied and
+          \`size="medium"\`.
+        </text>
       </gridcell>
     </row>
     <row>
@@ -1294,10 +1296,11 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the icon element if supplied and
-        size="large".
-        <text>Styles applied to the icon element if supplied and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
+        \`size="large"\`.
+        <text>
+          Styles applied to the icon element if supplied and
+          \`size="large"\`.
+        </text>
       </gridcell>
     </row>
   </table>
@@ -13901,7 +13904,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.23. View versions page.</link>
+      <link>v5.0.0-alpha.22. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -14690,7 +14693,7 @@ exports[`firefox /api/button/ 1`] = `
       <cell>
         <text>
           Styles applied to the icon element if supplied and
-          size="small".
+          \`size="small"\`.
         </text>
       </cell>
     </row>
@@ -14704,7 +14707,7 @@ exports[`firefox /api/button/ 1`] = `
       <cell>
         <text>
           Styles applied to the icon element if supplied and
-          size="medium".
+          \`size="medium"\`.
         </text>
       </cell>
     </row>
@@ -14718,7 +14721,7 @@ exports[`firefox /api/button/ 1`] = `
       <cell>
         <text>
           Styles applied to the icon element if supplied and
-          size="large".
+          \`size="large"\`.
         </text>
       </cell>
     </row>
