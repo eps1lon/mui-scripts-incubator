@@ -255,7 +255,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.23. View versions page.</link>
+      <link>v5.0.0-alpha.22. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -3064,18 +3064,33 @@ exports[`chromium /components/buttons/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>Dialogs</text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>Modal windows</text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>Forms</text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>Cards</text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>Toolbars</text>
     </listitem>
   </list>
@@ -3180,9 +3195,15 @@ exports[`chromium /components/buttons/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>In dialogs</text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>In cards</text>
     </listitem>
   </list>
@@ -3685,6 +3706,9 @@ exports[`chromium /components/buttons/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>You should add</text>
       <code>$SOME_CODE</code>
       <text>back when you need to display</text>
@@ -3692,6 +3716,9 @@ exports[`chromium /components/buttons/ 1`] = `
       <text>.</text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>
         The cursor won't change if you render something other than a button
         element, for instance, a link
@@ -3726,24 +3753,36 @@ exports[`chromium /components/buttons/ 1`] = `
   </heading>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <Button />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <ButtonBase />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <IconButton />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <LoadingButton />
         <code>$SOME_CODE</code>
@@ -6713,18 +6752,27 @@ exports[`chromium /components/radio-buttons 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <code>$SOME_CODE</code>
       <text>
         (String[optional]): The name used to reference the value of the control.
       </text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <code>$SOME_CODE</code>
       <text>
         (Void[optional]): Callback fired when a radio button is selected.
       </text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <code>$SOME_CODE</code>
       <text>(Any[optional]): Value of the selected radio button.</text>
     </listitem>
@@ -6760,6 +6808,9 @@ exports[`chromium /components/radio-buttons 1`] = `
   </heading>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>Checkboxes vs. Radio Buttons</link>
     </listitem>
   </list>
@@ -6775,6 +6826,9 @@ exports[`chromium /components/radio-buttons 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>
         All form controls should have labels, and this includes radio buttons,
         checkboxes, and switches. In most cases, this is done by using the
@@ -6785,6 +6839,9 @@ exports[`chromium /components/radio-buttons 1`] = `
       <text>).</text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>
         When a label can't be used, it's necessary to add an attribute
         directly to the input component. In this case, you can apply the
@@ -6810,30 +6867,45 @@ exports[`chromium /components/radio-buttons 1`] = `
   </heading>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <FormControl />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <FormControlLabel />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <FormLabel />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <Radio />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <RadioGroup />
         <code>$SOME_CODE</code>
@@ -10202,36 +10274,54 @@ exports[`chromium /components/tabs/ 1`] = `
   </heading>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <Tab />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <TabContext />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <TabList />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <TabPanel />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <TabScrollButton />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <Tabs />
         <code>$SOME_CODE</code>
@@ -11680,12 +11770,18 @@ exports[`chromium /components/text-fields/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>
         Allowing certain non-numeric characters ('e', '+',
         '-', '.') and silently discarding others
       </text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>
         The functionality of scrolling to increment/decrement the number can
         cause accidental and hard-to-notice changes
@@ -11873,6 +11969,9 @@ exports[`chromium /components/text-fields/ 1`] = `
   </Pre>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>If you are using the</text>
       <code>$SOME_CODE</code>
       <text>component, you just have to provide a unique</text>
@@ -11880,6 +11979,9 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>.</text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>If you are composing the component:</text>
     </listitem>
   </list>
@@ -11898,22 +12000,34 @@ exports[`chromium /components/text-fields/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>react-hook-form</link>
       <text>: React hook for form validation.</text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>formik-material-ui</link>
       <text>: Bindings for using Material-UI with</text>
       <link>formik</link>
       <text>.</text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>redux-form-material-ui</link>
       <text>: Bindings for using Material-UI with</text>
       <link>Redux Form</link>
       <text>.</text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>mui-rff</link>
       <text>: Bindings for using Material-UI with</text>
       <link>React Final Form</link>
@@ -11927,54 +12041,81 @@ exports[`chromium /components/text-fields/ 1`] = `
   </heading>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <FilledInput />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <FormControl />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <FormHelperText />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <Input />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <InputAdornment />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <InputBase />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <InputLabel />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <OutlinedInput />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <TextField />
         <code>$SOME_CODE</code>
@@ -13760,7 +13901,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.23. View versions page.</link>
+      <link>v5.0.0-alpha.22. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -16151,23 +16292,28 @@ exports[`firefox /components/buttons/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      Dialogs
+      • Dialogs
+      <ListMarker>•</ListMarker>
       <text>Dialogs</text>
     </listitem>
     <listitem>
-      Modal windows
+      • Modal windows
+      <ListMarker>•</ListMarker>
       <text>Modal windows</text>
     </listitem>
     <listitem>
-      Forms
+      • Forms
+      <ListMarker>•</ListMarker>
       <text>Forms</text>
     </listitem>
     <listitem>
-      Cards
+      • Cards
+      <ListMarker>•</ListMarker>
       <text>Cards</text>
     </listitem>
     <listitem>
-      Toolbars
+      • Toolbars
+      <ListMarker>•</ListMarker>
       <text>Toolbars</text>
     </listitem>
   </list>
@@ -16282,11 +16428,13 @@ exports[`firefox /components/buttons/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      In dialogs
+      • In dialogs
+      <ListMarker>•</ListMarker>
       <text>In dialogs</text>
     </listitem>
     <listitem>
-      In cards
+      • In cards
+      <ListMarker>•</ListMarker>
       <text>In cards</text>
     </listitem>
   </list>
@@ -16799,8 +16947,8 @@ exports[`firefox /components/buttons/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      You should add pointer-events: none; back when you need to display
-      tooltips on disabled elements .
+      • You should add pointer-events: none; back when you need to display
+      tooltips on disabled elements .<ListMarker>•</ListMarker>
       <text>
         You should add pointer-events: none; back when you need to display
       </text>
@@ -16808,8 +16956,9 @@ exports[`firefox /components/buttons/ 1`] = `
       <text>.</text>
     </listitem>
     <listitem>
-      The cursor won't change if you render something other than a button
+      • The cursor won't change if you render something other than a button
       element, for instance, a link <a> element.
+      <ListMarker>•</ListMarker>
       <text>
         The cursor won't change if you render something other than a button
         element, for instance, a link <a> element.
@@ -16841,19 +16990,23 @@ exports[`firefox /components/buttons/ 1`] = `
   </heading>
   <list>
     <listitem>
-      <Button />
+      • <Button />
+      <ListMarker>•</ListMarker>
       <link><Button /></link>
     </listitem>
     <listitem>
-      <ButtonBase />
+      • <ButtonBase />
+      <ListMarker>•</ListMarker>
       <link><ButtonBase /></link>
     </listitem>
     <listitem>
-      <IconButton />
+      • <IconButton />
+      <ListMarker>•</ListMarker>
       <link><IconButton /></link>
     </listitem>
     <listitem>
-      <LoadingButton />
+      • <LoadingButton />
+      <ListMarker>•</ListMarker>
       <link><LoadingButton /></link>
     </listitem>
   </list>
@@ -20099,23 +20252,26 @@ exports[`firefox /components/radio-buttons 1`] = `
   </paragraph>
   <list>
     <listitem>
-      value.name ( String [optional]): The name used to reference the value of
+      • value.name ( String [optional]): The name used to reference the value of
       the control.
+      <ListMarker>•</ListMarker>
       <text>
         value.name (String [optional]): The name used to reference the value of
         the control.
       </text>
     </listitem>
     <listitem>
-      value.onChange ( Void [optional]): Callback fired when a radio button is
+      • value.onChange ( Void [optional]): Callback fired when a radio button is
       selected.
+      <ListMarker>•</ListMarker>
       <text>
         value.onChange (Void [optional]): Callback fired when a radio button is
         selected.
       </text>
     </listitem>
     <listitem>
-      value.value ( Any [optional]): Value of the selected radio button.
+      • value.value ( Any [optional]): Value of the selected radio button.
+      <ListMarker>•</ListMarker>
       <text>
         value.value (Any [optional]): Value of the selected radio button.
       </text>
@@ -20165,7 +20321,8 @@ exports[`firefox /components/radio-buttons 1`] = `
   </heading>
   <list>
     <listitem>
-      Checkboxes vs. Radio Buttons
+      • Checkboxes vs. Radio Buttons
+      <ListMarker>•</ListMarker>
       <link>Checkboxes vs. Radio Buttons</link>
     </listitem>
   </list>
@@ -20181,9 +20338,10 @@ exports[`firefox /components/radio-buttons 1`] = `
   </paragraph>
   <list>
     <listitem>
-      All form controls should have labels, and this includes radio buttons,
+      • All form controls should have labels, and this includes radio buttons,
       checkboxes, and switches. In most cases, this is done by using the
       <label> element ( FormControlLabel ).
+      <ListMarker>•</ListMarker>
       <text>
         All form controls should have labels, and this includes radio buttons,
         checkboxes, and switches. In most cases, this is done by using the
@@ -20193,10 +20351,11 @@ exports[`firefox /components/radio-buttons 1`] = `
       <text>).</text>
     </listitem>
     <listitem>
-      When a label can't be used, it's necessary to add an attribute
+      • When a label can't be used, it's necessary to add an attribute
       directly to the input component. In this case, you can apply the
       additional attribute (e.g. aria-label , aria-labelledby , title ) via the
       inputProps property.
+      <ListMarker>•</ListMarker>
       <text>
         When a label can't be used, it's necessary to add an attribute
         directly to the input component. In this case, you can apply the
@@ -20216,23 +20375,28 @@ exports[`firefox /components/radio-buttons 1`] = `
   </heading>
   <list>
     <listitem>
-      <FormControl />
+      • <FormControl />
+      <ListMarker>•</ListMarker>
       <link><FormControl /></link>
     </listitem>
     <listitem>
-      <FormControlLabel />
+      • <FormControlLabel />
+      <ListMarker>•</ListMarker>
       <link><FormControlLabel /></link>
     </listitem>
     <listitem>
-      <FormLabel />
+      • <FormLabel />
+      <ListMarker>•</ListMarker>
       <link><FormLabel /></link>
     </listitem>
     <listitem>
-      <Radio />
+      • <Radio />
+      <ListMarker>•</ListMarker>
       <link><Radio /></link>
     </listitem>
     <listitem>
-      <RadioGroup />
+      • <RadioGroup />
+      <ListMarker>•</ListMarker>
       <link><RadioGroup /></link>
     </listitem>
   </list>
@@ -23874,27 +24038,33 @@ exports[`firefox /components/tabs/ 1`] = `
   </heading>
   <list>
     <listitem>
-      <Tab />
+      • <Tab />
+      <ListMarker>•</ListMarker>
       <link><Tab /></link>
     </listitem>
     <listitem>
-      <TabContext />
+      • <TabContext />
+      <ListMarker>•</ListMarker>
       <link><TabContext /></link>
     </listitem>
     <listitem>
-      <TabList />
+      • <TabList />
+      <ListMarker>•</ListMarker>
       <link><TabList /></link>
     </listitem>
     <listitem>
-      <TabPanel />
+      • <TabPanel />
+      <ListMarker>•</ListMarker>
       <link><TabPanel /></link>
     </listitem>
     <listitem>
-      <TabScrollButton />
+      • <TabScrollButton />
+      <ListMarker>•</ListMarker>
       <link><TabScrollButton /></link>
     </listitem>
     <listitem>
-      <Tabs />
+      • <Tabs />
+      <ListMarker>•</ListMarker>
       <link><Tabs /></link>
     </listitem>
   </list>
@@ -25408,16 +25578,18 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      Allowing certain non-numeric characters ('e', '+',
+      • Allowing certain non-numeric characters ('e', '+',
       '-', '.') and silently discarding others
+      <ListMarker>•</ListMarker>
       <text>
         Allowing certain non-numeric characters ('e', '+',
         '-', '.') and silently discarding others
       </text>
     </listitem>
     <listitem>
-      The functionality of scrolling to increment/decrement the number can cause
-      accidental and hard-to-notice changes
+      • The functionality of scrolling to increment/decrement the number can
+      cause accidental and hard-to-notice changes
+      <ListMarker>•</ListMarker>
       <text>
         The functionality of scrolling to increment/decrement the number can
         cause accidental and hard-to-notice changes
@@ -25627,15 +25799,16 @@ exports[`firefox /components/text-fields/ 1`] = `
   </text>
   <list>
     <listitem>
-      If you are using the TextField component, you just have to provide a
-      unique id .
+      • If you are using the TextField component, you just have to provide a
+      unique id .<ListMarker>•</ListMarker>
       <text>
         If you are using the TextField component, you just have to provide a
         unique id.
       </text>
     </listitem>
     <listitem>
-      If you are composing the component:
+      • If you are composing the component:
+      <ListMarker>•</ListMarker>
       <text>If you are composing the component:</text>
     </listitem>
   </list>
@@ -25658,26 +25831,30 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      react-hook-form : React hook for form validation.
+      • react-hook-form : React hook for form validation.
+      <ListMarker>•</ListMarker>
       <link>react-hook-form</link>
       <text>: React hook for form validation.</text>
     </listitem>
     <listitem>
-      formik-material-ui : Bindings for using Material-UI with formik .
+      • formik-material-ui : Bindings for using Material-UI with formik .
+      <ListMarker>•</ListMarker>
       <link>formik-material-ui</link>
       <text>: Bindings for using Material-UI with</text>
       <link>formik</link>
       <text>.</text>
     </listitem>
     <listitem>
-      redux-form-material-ui : Bindings for using Material-UI with Redux Form .
+      • redux-form-material-ui : Bindings for using Material-UI with Redux Form
+      .<ListMarker>•</ListMarker>
       <link>redux-form-material-ui</link>
       <text>: Bindings for using Material-UI with</text>
       <link>Redux Form</link>
       <text>.</text>
     </listitem>
     <listitem>
-      mui-rff : Bindings for using Material-UI with React Final Form .
+      • mui-rff : Bindings for using Material-UI with React Final Form .
+      <ListMarker>•</ListMarker>
       <link>mui-rff</link>
       <text>: Bindings for using Material-UI with</text>
       <link>React Final Form</link>
@@ -25691,39 +25868,48 @@ exports[`firefox /components/text-fields/ 1`] = `
   </heading>
   <list>
     <listitem>
-      <FilledInput />
+      • <FilledInput />
+      <ListMarker>•</ListMarker>
       <link><FilledInput /></link>
     </listitem>
     <listitem>
-      <FormControl />
+      • <FormControl />
+      <ListMarker>•</ListMarker>
       <link><FormControl /></link>
     </listitem>
     <listitem>
-      <FormHelperText />
+      • <FormHelperText />
+      <ListMarker>•</ListMarker>
       <link><FormHelperText /></link>
     </listitem>
     <listitem>
-      <Input />
+      • <Input />
+      <ListMarker>•</ListMarker>
       <link><Input /></link>
     </listitem>
     <listitem>
-      <InputAdornment />
+      • <InputAdornment />
+      <ListMarker>•</ListMarker>
       <link><InputAdornment /></link>
     </listitem>
     <listitem>
-      <InputBase />
+      • <InputBase />
+      <ListMarker>•</ListMarker>
       <link><InputBase /></link>
     </listitem>
     <listitem>
-      <InputLabel />
+      • <InputLabel />
+      <ListMarker>•</ListMarker>
       <link><InputLabel /></link>
     </listitem>
     <listitem>
-      <OutlinedInput />
+      • <OutlinedInput />
+      <ListMarker>•</ListMarker>
       <link><OutlinedInput /></link>
     </listitem>
     <listitem>
-      <TextField />
+      • <TextField />
+      <ListMarker>•</ListMarker>
       <link><TextField /></link>
     </listitem>
   </list>
