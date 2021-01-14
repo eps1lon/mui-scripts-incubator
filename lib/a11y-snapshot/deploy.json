@@ -2,14 +2,14 @@
 	"id": "6000661f710ab800090f9c52",
 	"site_id": "64f32322-7c26-4008-b886-60800cd747b0",
 	"build_id": "6000661f710ab800090f9c50",
-	"state": "building",
+	"state": "ready",
 	"name": "material-ui",
 	"url": "http://material-ui.netlify.app",
 	"admin_url": "https://app.netlify.com/sites/material-ui",
 	"deploy_url": "http://next--material-ui.netlify.app",
 	"deploy_ssl_url": "https://next--material-ui.netlify.app",
 	"created_at": "2021-01-14T15:41:19.127Z",
-	"updated_at": "2021-01-14T15:41:21.124Z",
+	"updated_at": "2021-01-14T15:54:43.507Z",
 	"commit_ref": "69eb1d66a7bab366bc6b270faff2baf3cad5b4cd",
 	"review_id": null,
 	"skipped": null,
@@ -21,13 +21,13 @@
 		"url": "https://netlify-builds6.firebaseio.com/builds/6000661f710ab800090f9c50/log",
 		"endpoint": "https://netlify-builds6.firebaseio.com",
 		"path": "/builds/6000661f710ab800090f9c50/log",
-		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2IjowLCJpYXQiOjE2MTA2MzkzMjgsImQiOnsidWlkIjoiIn19.PIshvQcV6uCZAsPONu134plhgWIo3AJpYP0BgrnttHo"
+		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2IjowLCJpYXQiOjE2MTA2NjA2NDksImQiOnsidWlkIjoiIn19.jhR12iSc1V7cM4GFcdTDSOG7xGf8dvA8OmIZw5HS9gk"
 	},
 	"title": "[Badge] Fix TS custom variants (#24407)",
 	"review_url": null,
 	"published_at": null,
 	"context": "branch-deploy",
-	"deploy_time": null,
+	"deploy_time": 802,
 	"public": true,
-	"plugin_state": "none"
+	"plugin_state": "success"
 }
