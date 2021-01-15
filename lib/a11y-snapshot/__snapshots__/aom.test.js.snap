@@ -10,7 +10,7 @@ exports[`chromium / 1`] = `
     <combobox autocomplete="list" haspopup="listbox">
       Search
     </combobox>
-    <text>Ctrl+K</text>
+    <text>CtrlK</text>
     <combobox haspopup="menu">
       Change language
       <text>ENGLISH</text>
@@ -255,7 +255,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.23. View versions page.</link>
+      <link>v5.0.0-alpha.22. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -336,8 +336,8 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        The content of the component.
-        <text>The content of the component.</text>
+        The content of the button.
+        <text>The content of the button.</text>
       </gridcell>
     </row>
     <row>
@@ -417,10 +417,10 @@ exports[`chromium /api/button/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        If true, the component is disabled.
+        If true, the button is disabled.
         <text>If</text>
         <code>$SOME_CODE</code>
-        <text>, the component is disabled.</text>
+        <text>, the button is disabled.</text>
       </gridcell>
     </row>
     <row>
@@ -479,7 +479,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         If true, the ripple effect is disabled. ⚠️ Without a ripple there is no
         styling for :focus-visible by default. Be sure to highlight the element
-        by applying separate styles with the .Mui-focusedVisible class.
+        by applying separate styles with the focusVisibleClassName.
         <text>If</text>
         <code>$SOME_CODE</code>
         <text>, the ripple effect is disabled.</text>
@@ -489,7 +489,7 @@ exports[`chromium /api/button/ 1`] = `
           Be sure to highlight the element by applying separate styles with the
         </text>
         <code>$SOME_CODE</code>
-        <text>class.</text>
+        <text>.</text>
       </gridcell>
     </row>
     <row>
@@ -565,9 +565,8 @@ exports[`chromium /api/button/ 1`] = `
         <text>'medium'</text>
       </gridcell>
       <gridcell>
-        The size of the component. small is equivalent to the dense button
-        styling.
-        <text>The size of the component.</text>
+        The size of the button. small is equivalent to the dense button styling.
+        <text>The size of the button.</text>
         <code>$SOME_CODE</code>
         <text>is equivalent to the dense button styling.</text>
       </gridcell>
@@ -1260,10 +1259,11 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the icon element if supplied and
-        size="small".
-        <text>Styles applied to the icon element if supplied and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
+        \`size="small"\`.
+        <text>
+          Styles applied to the icon element if supplied and
+          \`size="small"\`.
+        </text>
       </gridcell>
     </row>
     <row>
@@ -1277,10 +1277,11 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the icon element if supplied and
-        size="medium".
-        <text>Styles applied to the icon element if supplied and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
+        \`size="medium"\`.
+        <text>
+          Styles applied to the icon element if supplied and
+          \`size="medium"\`.
+        </text>
       </gridcell>
     </row>
     <row>
@@ -1294,10 +1295,11 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the icon element if supplied and
-        size="large".
-        <text>Styles applied to the icon element if supplied and</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
+        \`size="large"\`.
+        <text>
+          Styles applied to the icon element if supplied and
+          \`size="large"\`.
+        </text>
       </gridcell>
     </row>
   </table>
@@ -1497,9 +1499,9 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        The default value. Use when the component is not controlled.
+        The default element value. Use when the component is not controlled.
         <text>
-          The default value. Use when the component is not controlled.
+          The default element value. Use when the component is not controlled.
         </text>
       </gridcell>
     </row>
@@ -1852,11 +1854,11 @@ exports[`chromium /api/select/ 1`] = `
         <text>false</text>
       </gridcell>
       <gridcell>
-        If true, the component is shown. You can only use it when the native
-        prop is false (default).
-        <text>If</text>
+        Control select open state. You can only use it when the native prop is
+        false (default).
+        <text>Control</text>
         <code>$SOME_CODE</code>
-        <text>, the component is shown. You can only use it when the</text>
+        <text>open state. You can only use it when the</text>
         <code>$SOME_CODE</code>
         <text>prop is</text>
         <code>$SOME_CODE</code>
@@ -3054,9 +3056,9 @@ exports[`chromium /components/buttons/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Contained buttons
+    Contained Buttons
     <Anchor></Anchor>
-    <text>Contained buttons</text>
+    <text>Contained Buttons</text>
   </heading>
   <paragraph>
     <link>Contained buttons</link>
@@ -3120,9 +3122,9 @@ exports[`chromium /components/buttons/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Text buttons
+    Text Buttons
     <Anchor></Anchor>
-    <text>Text buttons</text>
+    <text>Text Buttons</text>
   </heading>
   <paragraph>
     <link>Text buttons</link>
@@ -3173,9 +3175,9 @@ exports[`chromium /components/buttons/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Outlined buttons
+    Outlined Buttons
     <Anchor></Anchor>
-    <text>Outlined buttons</text>
+    <text>Outlined Buttons</text>
   </heading>
   <paragraph>
     <link>Outlined buttons</link>
@@ -3337,7 +3339,7 @@ exports[`chromium /components/buttons/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Sometimes you might want to have icons for certain buttons to enhance the
+      Sometimes you might want to have icons for certain button to enhance the
       UX of the application as we recognize logos more easily than plain text.
       For example, if you have a delete button you can label it with a dustbin
       icon.
@@ -3355,22 +3357,35 @@ exports[`chromium /components/buttons/ 1`] = `
     SEND
     <text>SEND</text>
   </button>
+  <button>
+    UPLOAD
+    <text>UPLOAD</text>
+  </button>
+  <button disabled="true">
+    TALK
+    <text>TALK</text>
+  </button>
+  <button>
+    SAVE
+    <text>SAVE</text>
+  </button>
+  <button>
+    SAVE
+    <text>SAVE</text>
+  </button>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
-    Icon button
+    Icon Buttons
     <Anchor></Anchor>
-    <text>Icon button</text>
+    <text>Icon Buttons</text>
   </heading>
   <paragraph>
     <text>Icon buttons are commonly found in app bars and toolbars.</text>
@@ -3522,9 +3537,9 @@ exports[`chromium /components/buttons/ 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
-    Complex buttons
+    Complex Buttons
     <Anchor></Anchor>
-    <text>Complex buttons</text>
+    <text>Complex Buttons</text>
   </heading>
   <paragraph>
     <text>
@@ -3533,7 +3548,7 @@ exports[`chromium /components/buttons/ 1`] = `
     </text>
     <code>$SOME_CODE</code>
     <text>
-      . You can take advantage of this lower-level component to build custom
+      . You can take advantage of this lower level component to build custom
       interactions.
     </text>
   </paragraph>
@@ -6108,9 +6123,9 @@ exports[`chromium /components/pickers 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="3">
-    Date picker
+    Datepickers
     <Anchor></Anchor>
-    <text>Date picker</text>
+    <text>Datepickers</text>
   </heading>
   <paragraph>
     <text>A native datepicker example with</text>
@@ -6125,6 +6140,7 @@ exports[`chromium /components/pickers 1`] = `
     <Label>
       <text>Birthday</text>
     </Label>
+    <text> </text>
     <Date value="2017-05-24">
       Birthday
       <spinbutton value="5" valuemax="12" valuemin="1" valuetext="05">
@@ -6156,9 +6172,9 @@ exports[`chromium /components/pickers 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
-    Date & Time picker
+    Date & Time pickers
     <Anchor></Anchor>
-    <text>Date & Time picker</text>
+    <text>Date & Time pickers</text>
   </heading>
   <paragraph>
     <text>A native date & time picker example with</text>
@@ -6173,6 +6189,7 @@ exports[`chromium /components/pickers 1`] = `
     <Label>
       <text>Next appointment</text>
     </Label>
+    <text> </text>
     <DateTime value="2017-05-24T10:30">
       Next appointment
       <spinbutton value="5" valuemax="12" valuemin="1" valuetext="05">
@@ -6219,9 +6236,9 @@ exports[`chromium /components/pickers 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
-    Time picker
+    Time pickers
     <Anchor></Anchor>
-    <text>Time picker</text>
+    <text>Time pickers</text>
   </heading>
   <paragraph>
     <text>A native time picker example with</text>
@@ -6236,6 +6253,7 @@ exports[`chromium /components/pickers 1`] = `
     <Label>
       <text>Alarm clock</text>
     </Label>
+    <text> </text>
     <InputTime value="07:30">
       Alarm clock
       <spinbutton value="7" valuemax="12" valuemin="1" valuetext="07">
@@ -12482,9 +12500,9 @@ exports[`chromium /components/transfer-list 1`] = `
     </text>
   </paragraph>
   <heading level="2">
-    Basic transfer list
+    Simple Transfer List
     <Anchor></Anchor>
-    <text>Basic transfer list</text>
+    <text>Simple Transfer List</text>
   </heading>
   <paragraph>
     <text>
@@ -12560,9 +12578,9 @@ exports[`chromium /components/transfer-list 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
-    Enhanced transfer list
+    Enhanced Transfer List
     <Anchor></Anchor>
-    <text>Enhanced transfer list</text>
+    <text>Enhanced Transfer List</text>
   </heading>
   <paragraph>
     <text>
@@ -13230,7 +13248,7 @@ exports[`firefox / 1`] = `
     <combobox autocomplete="list" haspopup="true">
       Search
     </combobox>
-    <text>Ctrl+K</text>
+    <text>CtrlK</text>
     <buttonmenu haspopup="true">
       Change language
       <text>ENGLISH</text>
@@ -13495,7 +13513,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.23. View versions page.</link>
+      <link>v5.0.0-alpha.22. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -13569,7 +13587,7 @@ exports[`firefox /api/button/ 1`] = `
       </cell>
       <cell></cell>
       <cell>
-        <text>The content of the component.</text>
+        <text>The content of the button.</text>
       </cell>
     </row>
     <row>
@@ -13633,7 +13651,7 @@ exports[`firefox /api/button/ 1`] = `
         <text>false</text>
       </cell>
       <cell>
-        <text>If true, the component is disabled.</text>
+        <text>If true, the button is disabled.</text>
       </cell>
     </row>
     <row>
@@ -13680,7 +13698,7 @@ exports[`firefox /api/button/ 1`] = `
         <text>
           ⚠️ Without a ripple there is no styling for :focus-visible by default.
           Be sure to highlight the element by applying separate styles with the
-          .Mui-focusedVisible class.
+          focusVisibleClassName.
         </text>
       </cell>
     </row>
@@ -13743,7 +13761,7 @@ exports[`firefox /api/button/ 1`] = `
       </cell>
       <cell>
         <text>
-          The size of the component. small is equivalent to the dense button
+          The size of the button. small is equivalent to the dense button
           styling.
         </text>
       </cell>
@@ -14284,7 +14302,7 @@ exports[`firefox /api/button/ 1`] = `
       <cell>
         <text>
           Styles applied to the icon element if supplied and
-          size="small".
+          \`size="small"\`.
         </text>
       </cell>
     </row>
@@ -14298,7 +14316,7 @@ exports[`firefox /api/button/ 1`] = `
       <cell>
         <text>
           Styles applied to the icon element if supplied and
-          size="medium".
+          \`size="medium"\`.
         </text>
       </cell>
     </row>
@@ -14312,7 +14330,7 @@ exports[`firefox /api/button/ 1`] = `
       <cell>
         <text>
           Styles applied to the icon element if supplied and
-          size="large".
+          \`size="large"\`.
         </text>
       </cell>
     </row>
@@ -14481,7 +14499,7 @@ exports[`firefox /api/select/ 1`] = `
       <cell></cell>
       <cell>
         <text>
-          The default value. Use when the component is not controlled.
+          The default element value. Use when the component is not controlled.
         </text>
       </cell>
     </row>
@@ -14742,8 +14760,8 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell>
         <text>
-          If true, the component is shown. You can only use it when the native
-          prop is false (default).
+          Control select open state. You can only use it when the native prop is
+          false (default).
         </text>
       </cell>
     </row>
@@ -15922,9 +15940,9 @@ exports[`firefox /components/buttons/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Contained buttons
+    Contained Buttons
     <link></link>
-    <text>Contained buttons</text>
+    <text>Contained Buttons</text>
   </heading>
   <paragraph>
     <link>Contained buttons</link>
@@ -15992,9 +16010,9 @@ exports[`firefox /components/buttons/ 1`] = `
     elevation </Button>
   </text>
   <heading level="2">
-    Text buttons
+    Text Buttons
     <link></link>
-    <text>Text buttons</text>
+    <text>Text Buttons</text>
   </heading>
   <paragraph>
     <link>Text buttons</link>
@@ -16050,9 +16068,9 @@ exports[`firefox /components/buttons/ 1`] = `
     href="#text-buttons">Link</Button>
   </text>
   <heading level="2">
-    Outlined buttons
+    Outlined Buttons
     <link></link>
-    <text>Outlined buttons</text>
+    <text>Outlined Buttons</text>
   </heading>
   <paragraph>
     <link>Outlined buttons</link>
@@ -16220,7 +16238,7 @@ exports[`firefox /components/buttons/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Sometimes you might want to have icons for certain buttons to enhance the
+      Sometimes you might want to have icons for certain button to enhance the
       UX of the application as we recognize logos more easily than plain text.
       For example, if you have a delete button you can label it with a dustbin
       icon.
@@ -16238,25 +16256,35 @@ exports[`firefox /components/buttons/ 1`] = `
     SEND
     <text>SEND</text>
   </button>
+  <button>
+    UPLOAD
+    <text>UPLOAD</text>
+  </button>
+  <button disabled="true">
+    TALK
+    <text>TALK</text>
+  </button>
+  <button>
+    SAVE
+    <text>SAVE</text>
+  </button>
+  <button>
+    SAVE
+    <text>SAVE</text>
+  </button>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Button variant="outlined" startIcon={<DeleteIcon
-    />}> Delete </Button> <Button
-    variant="contained" endIcon={<SendIcon />}>
-    Send </Button>
-  </text>
   <heading level="2">
-    Icon button
+    Icon Buttons
     <link></link>
-    <text>Icon button</text>
+    <text>Icon Buttons</text>
   </heading>
   <paragraph>
     <text>Icon buttons are commonly found in app bars and toolbars.</text>
@@ -16425,15 +16453,15 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Complex buttons
+    Complex Buttons
     <link></link>
-    <text>Complex buttons</text>
+    <text>Complex Buttons</text>
   </heading>
   <paragraph>
     <text>
       The Text Buttons, Contained Buttons, Floating Action Buttons and Icon
       Buttons are built on top of the same component: the ButtonBase. You can
-      take advantage of this lower-level component to build custom interactions.
+      take advantage of this lower level component to build custom interactions.
     </text>
   </paragraph>
   <button>
@@ -19270,9 +19298,9 @@ exports[`firefox /components/pickers 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="3">
-    Date picker
+    Datepickers
     <link></link>
-    <text>Date picker</text>
+    <text>Datepickers</text>
   </heading>
   <paragraph>
     <text>A native datepicker example with type="date".</text>
@@ -19286,6 +19314,7 @@ exports[`firefox /components/pickers 1`] = `
       Birthday
       <text>Birthday</text>
     </label>
+    <statictext> </statictext>
     <DateTime>
       Birthday
       <spinbutton value="05" valuetext="05">
@@ -19318,16 +19347,16 @@ exports[`firefox /components/pickers 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <form noValidate> <TextField id="date"
-    label="Birthday" type="date"
-    defaultValue="2017-05-24" style={{ width: 220
-    }} InputLabelProps={{ shrink: true, }} />
-    </form>
+    <form className={classes.container} noValidate>
+    <TextField id="date" label="Birthday"
+    type="date" defaultValue="2017-05-24"
+    className={classes.textField} InputLabelProps={{ shrink:
+    true, }} variant="standard" /> </form>
   </text>
   <heading level="3">
-    Date & Time picker
+    Date & Time pickers
     <link></link>
-    <text>Date & Time picker</text>
+    <text>Date & Time pickers</text>
   </heading>
   <paragraph>
     <text>
@@ -19344,6 +19373,7 @@ exports[`firefox /components/pickers 1`] = `
       Next appointment
       <text>Next appointment</text>
     </label>
+    <statictext> </statictext>
     <textbox value="2017-05-24T10:30">
       Next appointment
       <text>2017-05-24T10:30</text>
@@ -19359,16 +19389,17 @@ exports[`firefox /components/pickers 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <form noValidate> <TextField id="datetime-local"
-    label="Next appointment" type="datetime-local"
-    defaultValue="2017-05-24T10:30" style={{ width: 250
-    }} InputLabelProps={{ shrink: true, }} />
-    </form>
+    <form className={classes.container} noValidate>
+    <TextField id="datetime-local" label="Next
+    appointment" type="datetime-local"
+    defaultValue="2017-05-24T10:30"
+    className={classes.textField} InputLabelProps={{ shrink:
+    true, }} variant="standard" /> </form>
   </text>
   <heading level="3">
-    Time picker
+    Time pickers
     <link></link>
-    <text>Time picker</text>
+    <text>Time pickers</text>
   </heading>
   <paragraph>
     <text>A native time picker example with type="time".</text>
@@ -19382,6 +19413,7 @@ exports[`firefox /components/pickers 1`] = `
       Alarm clock
       <text>Alarm clock</text>
     </label>
+    <statictext> </statictext>
     <InputTime>
       Alarm clock
       <spinbutton value="07" valuetext="07">
@@ -19414,11 +19446,12 @@ exports[`firefox /components/pickers 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <form noValidate> <TextField id="time" label="Alarm
-    clock" type="time" defaultValue="07:30"
-    InputLabelProps={{ shrink: true, }}
-    inputProps={{ step: 300, // 5 min }} style={{
-    width: 150 }} /> </form>
+    <form className={classes.container} noValidate>
+    <TextField id="time" label="Alarm clock"
+    type="time" defaultValue="07:30"
+    className={classes.textField} InputLabelProps={{ shrink:
+    true, }} inputProps={{ step: 300, // 5 min }}
+    variant="standard" /> </form>
   </text>
   <heading level="2">
     API
@@ -26104,9 +26137,9 @@ exports[`firefox /components/transfer-list 1`] = `
     </text>
   </paragraph>
   <heading level="2">
-    Basic transfer list
+    Simple Transfer List
     <link></link>
-    <text>Basic transfer list</text>
+    <text>Simple Transfer List</text>
   </heading>
   <paragraph>
     <text>
@@ -26182,9 +26215,9 @@ exports[`firefox /components/transfer-list 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Enhanced transfer list
+    Enhanced Transfer List
     <link></link>
-    <text>Enhanced transfer list</text>
+    <text>Enhanced Transfer List</text>
   </heading>
   <paragraph>
     <text>
