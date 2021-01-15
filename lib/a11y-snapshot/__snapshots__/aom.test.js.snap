@@ -2625,17 +2625,11 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>The set of links is structured using an ordered list (</text>
       <code>$SOME_CODE</code>
       <text>element).</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>
         To prevent screen reader announcement of the visual separators between
         links, they are hidden with
@@ -2644,9 +2638,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <text>.</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>A nav element labeled with</text>
       <code>$SOME_CODE</code>
       <text>
@@ -2662,27 +2653,18 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </heading>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Breadcrumbs />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Link />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Typography />
         <code>$SOME_CODE</code>
@@ -3011,12 +2993,18 @@ exports[`chromium /components/button-group/ 1`] = `
   </heading>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <Button />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <ButtonGroup />
         <code>$SOME_CODE</code>
@@ -4063,9 +4051,15 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </heading>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>Checkboxes vs. Radio Buttons</link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>Checkboxes vs. Switches</link>
     </listitem>
   </list>
@@ -4081,6 +4075,9 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>
         All form controls should have labels, and this includes radio buttons,
         checkboxes, and switches. In most cases, this is done by using the
@@ -4091,6 +4088,9 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <text>).</text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>
         When a label can't be used, it's necessary to add an attribute
         directly to the input component. In this case, you can apply the
@@ -4116,30 +4116,45 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </heading>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <Checkbox />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <FormControl />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <FormControlLabel />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <FormGroup />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <FormLabel />
         <code>$SOME_CODE</code>
@@ -10166,54 +10181,36 @@ exports[`chromium /components/tabs/ 1`] = `
   </heading>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Tab />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <TabContext />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <TabList />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <TabPanel />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <TabScrollButton />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Tabs />
         <code>$SOME_CODE</code>
@@ -12886,36 +12883,24 @@ exports[`chromium /components/transfer-list 1`] = `
   </heading>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Checkbox />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <List />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <ListItem />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Switch />
         <code>$SOME_CODE</code>
@@ -13359,32 +13344,50 @@ exports[`chromium /components/tree-view/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>
         Arrow keys will not focus disabled items and, the next non-disabled item
         will be focused.
       </text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>
         Typing the first character of a disabled item's label will not
         focus the item.
       </text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>
         Mouse or keyboard interaction will not expand/collapse disabled items.
       </text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>Mouse or keyboard interaction will not select disabled items.</text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>
         Shift + arrow keys will skip disabled items and, the next non-disabled
         item will be selected.
       </text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>Programmatic focus will not focus disabled items.</text>
     </listitem>
   </list>
@@ -13393,29 +13396,47 @@ exports[`chromium /components/tree-view/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>Arrow keys will focus disabled items.</text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>
         Typing the first character of a disabled item's label will focus
         the item.
       </text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>
         Mouse or keyboard interaction will not expand/collapse disabled items.
       </text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>Mouse or keyboard interaction will not select disabled items.</text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>
         Shift + arrow keys will not skip disabled items but, the disabled item
         will not be selected.
       </text>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <text>Programmatic focus will focus disabled items.</text>
     </listitem>
   </list>
@@ -13450,12 +13471,18 @@ exports[`chromium /components/tree-view/ 1`] = `
   </heading>
   <list>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <TreeItem />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
+      <ListMarker>
+        •<text>•</text>
+      </ListMarker>
       <link>
         <TreeView />
         <code>$SOME_CODE</code>
@@ -15727,27 +15754,25 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • The set of links is structured using an ordered list ( <ol>
+      The set of links is structured using an ordered list ( <ol>
       element).
-      <ListMarker>•</ListMarker>
       <text>
         The set of links is structured using an ordered list (<ol>
         element).
       </text>
     </listitem>
     <listitem>
-      • To prevent screen reader announcement of the visual separators between
-      links, they are hidden with aria-hidden .<ListMarker>•</ListMarker>
+      To prevent screen reader announcement of the visual separators between
+      links, they are hidden with aria-hidden .
       <text>
         To prevent screen reader announcement of the visual separators between
         links, they are hidden with aria-hidden.
       </text>
     </listitem>
     <listitem>
-      • A nav element labeled with aria-label identifies the structure as a
+      A nav element labeled with aria-label identifies the structure as a
       breadcrumb trail and makes it a navigation landmark so that it is easy to
       locate.
-      <ListMarker>•</ListMarker>
       <text>
         A nav element labeled with aria-label identifies the structure as a
         breadcrumb trail and makes it a navigation landmark so that it is easy
@@ -15762,18 +15787,15 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </heading>
   <list>
     <listitem>
-      • <Breadcrumbs />
-      <ListMarker>•</ListMarker>
+      <Breadcrumbs />
       <link><Breadcrumbs /></link>
     </listitem>
     <listitem>
-      • <Link />
-      <ListMarker>•</ListMarker>
+      <Link />
       <link><Link /></link>
     </listitem>
     <listitem>
-      • <Typography />
-      <ListMarker>•</ListMarker>
+      <Typography />
       <link><Typography /></link>
     </listitem>
   </list>
@@ -16099,11 +16121,13 @@ exports[`firefox /components/button-group/ 1`] = `
   </heading>
   <list>
     <listitem>
-      <Button />
+      • <Button />
+      <ListMarker>•</ListMarker>
       <link><Button /></link>
     </listitem>
     <listitem>
-      <ButtonGroup />
+      • <ButtonGroup />
+      <ListMarker>•</ListMarker>
       <link><ButtonGroup /></link>
     </listitem>
   </list>
@@ -17228,11 +17252,13 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </heading>
   <list>
     <listitem>
-      Checkboxes vs. Radio Buttons
+      • Checkboxes vs. Radio Buttons
+      <ListMarker>•</ListMarker>
       <link>Checkboxes vs. Radio Buttons</link>
     </listitem>
     <listitem>
-      Checkboxes vs. Switches
+      • Checkboxes vs. Switches
+      <ListMarker>•</ListMarker>
       <link>Checkboxes vs. Switches</link>
     </listitem>
   </list>
@@ -17248,9 +17274,10 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      All form controls should have labels, and this includes radio buttons,
+      • All form controls should have labels, and this includes radio buttons,
       checkboxes, and switches. In most cases, this is done by using the
       <label> element ( FormControlLabel ).
+      <ListMarker>•</ListMarker>
       <text>
         All form controls should have labels, and this includes radio buttons,
         checkboxes, and switches. In most cases, this is done by using the
@@ -17260,10 +17287,11 @@ exports[`firefox /components/checkboxes/ 1`] = `
       <text>).</text>
     </listitem>
     <listitem>
-      When a label can't be used, it's necessary to add an attribute
+      • When a label can't be used, it's necessary to add an attribute
       directly to the input component. In this case, you can apply the
       additional attribute (e.g. aria-label , aria-labelledby , title ) via the
       inputProps prop.
+      <ListMarker>•</ListMarker>
       <text>
         When a label can't be used, it's necessary to add an attribute
         directly to the input component. In this case, you can apply the
@@ -17283,23 +17311,28 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </heading>
   <list>
     <listitem>
-      <Checkbox />
+      • <Checkbox />
+      <ListMarker>•</ListMarker>
       <link><Checkbox /></link>
     </listitem>
     <listitem>
-      <FormControl />
+      • <FormControl />
+      <ListMarker>•</ListMarker>
       <link><FormControl /></link>
     </listitem>
     <listitem>
-      <FormControlLabel />
+      • <FormControlLabel />
+      <ListMarker>•</ListMarker>
       <link><FormControlLabel /></link>
     </listitem>
     <listitem>
-      <FormGroup />
+      • <FormGroup />
+      <ListMarker>•</ListMarker>
       <link><FormGroup /></link>
     </listitem>
     <listitem>
-      <FormLabel />
+      • <FormLabel />
+      <ListMarker>•</ListMarker>
       <link><FormLabel /></link>
     </listitem>
   </list>
@@ -23852,33 +23885,27 @@ exports[`firefox /components/tabs/ 1`] = `
   </heading>
   <list>
     <listitem>
-      • <Tab />
-      <ListMarker>•</ListMarker>
+      <Tab />
       <link><Tab /></link>
     </listitem>
     <listitem>
-      • <TabContext />
-      <ListMarker>•</ListMarker>
+      <TabContext />
       <link><TabContext /></link>
     </listitem>
     <listitem>
-      • <TabList />
-      <ListMarker>•</ListMarker>
+      <TabList />
       <link><TabList /></link>
     </listitem>
     <listitem>
-      • <TabPanel />
-      <ListMarker>•</ListMarker>
+      <TabPanel />
       <link><TabPanel /></link>
     </listitem>
     <listitem>
-      • <TabScrollButton />
-      <ListMarker>•</ListMarker>
+      <TabScrollButton />
       <link><TabScrollButton /></link>
     </listitem>
     <listitem>
-      • <Tabs />
-      <ListMarker>•</ListMarker>
+      <Tabs />
       <link><Tabs /></link>
     </listitem>
   </list>
@@ -26594,23 +26621,19 @@ exports[`firefox /components/transfer-list 1`] = `
   </heading>
   <list>
     <listitem>
-      • <Checkbox />
-      <ListMarker>•</ListMarker>
+      <Checkbox />
       <link><Checkbox /></link>
     </listitem>
     <listitem>
-      • <List />
-      <ListMarker>•</ListMarker>
+      <List />
       <link><List /></link>
     </listitem>
     <listitem>
-      • <ListItem />
-      <ListMarker>•</ListMarker>
+      <ListItem />
       <link><ListItem /></link>
     </listitem>
     <listitem>
-      • <Switch />
-      <ListMarker>•</ListMarker>
+      <Switch />
       <link><Switch /></link>
     </listitem>
   </list>
@@ -27056,41 +27079,47 @@ exports[`firefox /components/tree-view/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      Arrow keys will not focus disabled items and, the next non-disabled item
+      • Arrow keys will not focus disabled items and, the next non-disabled item
       will be focused.
+      <ListMarker>•</ListMarker>
       <text>
         Arrow keys will not focus disabled items and, the next non-disabled item
         will be focused.
       </text>
     </listitem>
     <listitem>
-      Typing the first character of a disabled item's label will not focus
-      the item.
+      • Typing the first character of a disabled item's label will not
+      focus the item.
+      <ListMarker>•</ListMarker>
       <text>
         Typing the first character of a disabled item's label will not
         focus the item.
       </text>
     </listitem>
     <listitem>
-      Mouse or keyboard interaction will not expand/collapse disabled items.
+      • Mouse or keyboard interaction will not expand/collapse disabled items.
+      <ListMarker>•</ListMarker>
       <text>
         Mouse or keyboard interaction will not expand/collapse disabled items.
       </text>
     </listitem>
     <listitem>
-      Mouse or keyboard interaction will not select disabled items.
+      • Mouse or keyboard interaction will not select disabled items.
+      <ListMarker>•</ListMarker>
       <text>Mouse or keyboard interaction will not select disabled items.</text>
     </listitem>
     <listitem>
-      Shift + arrow keys will skip disabled items and, the next non-disabled
+      • Shift + arrow keys will skip disabled items and, the next non-disabled
       item will be selected.
+      <ListMarker>•</ListMarker>
       <text>
         Shift + arrow keys will skip disabled items and, the next non-disabled
         item will be selected.
       </text>
     </listitem>
     <listitem>
-      Programmatic focus will not focus disabled items.
+      • Programmatic focus will not focus disabled items.
+      <ListMarker>•</ListMarker>
       <text>Programmatic focus will not focus disabled items.</text>
     </listitem>
   </list>
@@ -27099,37 +27128,43 @@ exports[`firefox /components/tree-view/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      Arrow keys will focus disabled items.
+      • Arrow keys will focus disabled items.
+      <ListMarker>•</ListMarker>
       <text>Arrow keys will focus disabled items.</text>
     </listitem>
     <listitem>
-      Typing the first character of a disabled item's label will focus the
-      item.
+      • Typing the first character of a disabled item's label will focus
+      the item.
+      <ListMarker>•</ListMarker>
       <text>
         Typing the first character of a disabled item's label will focus
         the item.
       </text>
     </listitem>
     <listitem>
-      Mouse or keyboard interaction will not expand/collapse disabled items.
+      • Mouse or keyboard interaction will not expand/collapse disabled items.
+      <ListMarker>•</ListMarker>
       <text>
         Mouse or keyboard interaction will not expand/collapse disabled items.
       </text>
     </listitem>
     <listitem>
-      Mouse or keyboard interaction will not select disabled items.
+      • Mouse or keyboard interaction will not select disabled items.
+      <ListMarker>•</ListMarker>
       <text>Mouse or keyboard interaction will not select disabled items.</text>
     </listitem>
     <listitem>
-      Shift + arrow keys will not skip disabled items but, the disabled item
+      • Shift + arrow keys will not skip disabled items but, the disabled item
       will not be selected.
+      <ListMarker>•</ListMarker>
       <text>
         Shift + arrow keys will not skip disabled items but, the disabled item
         will not be selected.
       </text>
     </listitem>
     <listitem>
-      Programmatic focus will focus disabled items.
+      • Programmatic focus will focus disabled items.
+      <ListMarker>•</ListMarker>
       <text>Programmatic focus will focus disabled items.</text>
     </listitem>
   </list>
@@ -27161,11 +27196,13 @@ exports[`firefox /components/tree-view/ 1`] = `
   </heading>
   <list>
     <listitem>
-      <TreeItem />
+      • <TreeItem />
+      <ListMarker>•</ListMarker>
       <link><TreeItem /></link>
     </listitem>
     <listitem>
-      <TreeView />
+      • <TreeView />
+      <ListMarker>•</ListMarker>
       <link><TreeView /></link>
     </listitem>
   </list>
