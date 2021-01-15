@@ -1308,17 +1308,11 @@ exports[`chromium /api/button/ 1`] = `
   </text>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>With a</text>
       <link>global class name</link>
       <text>.</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>With a rule name as part of the component's</text>
       <link>
         styleOverrides property
@@ -1334,15 +1328,9 @@ exports[`chromium /api/button/ 1`] = `
   </heading>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>Button Group</link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>Buttons</link>
     </listitem>
   </list>
@@ -2191,9 +2179,6 @@ exports[`chromium /api/select/ 1`] = `
   </text>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>With a rule name of the</text>
       <link>
         classes object prop
@@ -2202,17 +2187,11 @@ exports[`chromium /api/select/ 1`] = `
       <text>.</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>With a</text>
       <link>global class name</link>
       <text>.</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>With a theme and an</text>
       <link>
         styleOverrides property
@@ -2231,9 +2210,6 @@ exports[`chromium /api/select/ 1`] = `
   </heading>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>Selects</link>
     </listitem>
   </list>
@@ -2625,17 +2601,11 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>The set of links is structured using an ordered list (</text>
       <code>$SOME_CODE</code>
       <text>element).</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>
         To prevent screen reader announcement of the visual separators between
         links, they are hidden with
@@ -2644,9 +2614,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <text>.</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>A nav element labeled with</text>
       <code>$SOME_CODE</code>
       <text>
@@ -2662,27 +2629,18 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </heading>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Breadcrumbs />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Link />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Typography />
         <code>$SOME_CODE</code>
@@ -3058,33 +3016,18 @@ exports[`chromium /components/buttons/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>Dialogs</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>Modal windows</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>Forms</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>Cards</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>Toolbars</text>
     </listitem>
   </list>
@@ -3189,15 +3132,9 @@ exports[`chromium /components/buttons/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>In dialogs</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>In cards</text>
     </listitem>
   </list>
@@ -3680,10 +3617,6 @@ exports[`chromium /components/buttons/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
-      <ListMarker>
-        1.
-        <text>1.</text>
-      </ListMarker>
       <text>
         CSS only. You can remove the pointer events style on the disabled state
         of the
@@ -3700,9 +3633,6 @@ exports[`chromium /components/buttons/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>You should add</text>
       <code>$SOME_CODE</code>
       <text>back when you need to display</text>
@@ -3710,9 +3640,6 @@ exports[`chromium /components/buttons/ 1`] = `
       <text>.</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>
         The cursor won't change if you render something other than a button
         element, for instance, a link
@@ -3723,10 +3650,6 @@ exports[`chromium /components/buttons/ 1`] = `
   </list>
   <list>
     <listitem level="1">
-      <ListMarker>
-        2.
-        <text>2.</text>
-      </ListMarker>
       <text>DOM change. You can wrap the button:</text>
     </listitem>
   </list>
@@ -3747,36 +3670,24 @@ exports[`chromium /components/buttons/ 1`] = `
   </heading>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Button />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <ButtonBase />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <IconButton />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <LoadingButton />
         <code>$SOME_CODE</code>
@@ -4228,17 +4139,11 @@ exports[`chromium /components/dialogs/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>
         Choosing an option immediately commits the option and closes the menu
       </text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>
         Touching outside of the dialog, or pressing Back, cancels the action and
         closes the dialog
@@ -4286,17 +4191,11 @@ exports[`chromium /components/dialogs/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>
         Asking a question (e.g. "Delete this conversation?")
       </text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>Making a statement related to the action buttons</text>
     </listitem>
   </list>
@@ -4312,18 +4211,12 @@ exports[`chromium /components/dialogs/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>
         Use a clear question or statement with an explanation in the content
         area, such as "Erase USB storage?".
       </text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>
         Avoid apologies, ambiguity, or questions, such as "Warning!"
         or "Are you sure?"
@@ -4622,16 +4515,10 @@ exports[`chromium /components/dialogs/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <code>$SOME_CODE</code>
       <text>the content of the dialog scrolls within the paper element.</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <code>$SOME_CODE</code>
       <text>the content of the dialog scrolls within the body element.</text>
     </listitem>
@@ -4697,54 +4584,36 @@ exports[`chromium /components/dialogs/ 1`] = `
   </heading>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Dialog />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <DialogActions />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <DialogContent />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <DialogContentText />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <DialogTitle />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Slide />
         <code>$SOME_CODE</code>
@@ -6103,18 +5972,12 @@ exports[`chromium /components/pagination/ 1`] = `
   </heading>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Pagination />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <PaginationItem />
         <code>$SOME_CODE</code>
@@ -7139,9 +7002,6 @@ exports[`chromium /components/rating/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>
         A radio group with its fields visually hidden. It contains six radio
         buttons, one for each star, and another for 0 stars that is checked by
@@ -7151,9 +7011,6 @@ exports[`chromium /components/rating/ 1`] = `
       <text>prop that is unique to the parent form.</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>
         Labels for the radio buttons containing actual text (“1 Star”, “2
         Stars”, …). Be sure to provide a suitable function to the
@@ -7166,9 +7023,6 @@ exports[`chromium /components/rating/ 1`] = `
       <text>, or provide your own.</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>
         A visually distinct appearance for the rating icons. By default, the
         rating component uses both a difference of color and shape (filled and
@@ -7232,9 +7086,6 @@ exports[`chromium /components/rating/ 1`] = `
   </heading>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Rating />
         <code>$SOME_CODE</code>
@@ -8014,9 +7865,6 @@ exports[`chromium /components/slider 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>📦</text>
       <link>22 kB gzipped</link>
       <text>
@@ -8808,9 +8656,6 @@ exports[`chromium /components/slider 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>Each thumb has a user-friendly label (</text>
       <code>$SOME_CODE</code>
       <text>,</text>
@@ -8820,9 +8665,6 @@ exports[`chromium /components/slider 1`] = `
       <text>prop).</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>
         Each thumb has a user-friendly text for its current value. This is not
         required if the value matches the semantics of the label. You can change
@@ -8841,18 +8683,12 @@ exports[`chromium /components/slider 1`] = `
   </heading>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Slider />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <SliderUnstyled />
         <code>$SOME_CODE</code>
@@ -9977,10 +9813,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
-      <ListMarker>
-        1.
-        <text>1.</text>
-      </ListMarker>
       <text>Label</text>
       <code>$SOME_CODE</code>
       <text>via</text>
@@ -9990,10 +9822,6 @@ exports[`chromium /components/tabs/ 1`] = `
       <text>.</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        2.
-        <text>2.</text>
-      </ListMarker>
       <code>$SOME_CODE</code>
       <text>s need to be connected to their corresponding</text>
       <code>$SOME_CODE</code>
@@ -10166,54 +9994,36 @@ exports[`chromium /components/tabs/ 1`] = `
   </heading>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Tab />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <TabContext />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <TabList />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <TabPanel />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <TabScrollButton />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Tabs />
         <code>$SOME_CODE</code>
@@ -11662,18 +11472,12 @@ exports[`chromium /components/text-fields/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>
         Allowing certain non-numeric characters ('e', '+',
         '-', '.') and silently discarding others
       </text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>
         The functionality of scrolling to increment/decrement the number can
         cause accidental and hard-to-notice changes
@@ -11861,9 +11665,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </Pre>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>If you are using the</text>
       <code>$SOME_CODE</code>
       <text>component, you just have to provide a unique</text>
@@ -11871,9 +11672,6 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>.</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <text>If you are composing the component:</text>
     </listitem>
   </list>
@@ -11892,34 +11690,22 @@ exports[`chromium /components/text-fields/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>react-hook-form</link>
       <text>: React hook for form validation.</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>formik-material-ui</link>
       <text>: Bindings for using Material-UI with</text>
       <link>formik</link>
       <text>.</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>redux-form-material-ui</link>
       <text>: Bindings for using Material-UI with</text>
       <link>Redux Form</link>
       <text>.</text>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>mui-rff</link>
       <text>: Bindings for using Material-UI with</text>
       <link>React Final Form</link>
@@ -11933,81 +11719,54 @@ exports[`chromium /components/text-fields/ 1`] = `
   </heading>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <FilledInput />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <FormControl />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <FormHelperText />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Input />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <InputAdornment />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <InputBase />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <InputLabel />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <OutlinedInput />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <TextField />
         <code>$SOME_CODE</code>
@@ -12688,9 +12447,6 @@ exports[`chromium /components/tooltips/ 1`] = `
   </heading>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Tooltip />
         <code>$SOME_CODE</code>
@@ -12886,36 +12642,24 @@ exports[`chromium /components/transfer-list 1`] = `
   </heading>
   <list>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Checkbox />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <List />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <ListItem />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
     <listitem level="1">
-      <ListMarker>
-        •<text>•</text>
-      </ListMarker>
       <link>
         <Switch />
         <code>$SOME_CODE</code>
@@ -14580,15 +14324,13 @@ exports[`firefox /api/button/ 1`] = `
   </text>
   <list>
     <listitem>
-      • With a global class name .<ListMarker>•</ListMarker>
-      <text>With a</text>
+      With a global class name .<text>With a</text>
       <link>global class name</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • With a rule name as part of the component's styleOverrides property
+      With a rule name as part of the component's styleOverrides property
       in a custom theme.
-      <ListMarker>•</ListMarker>
       <text>With a rule name as part of the component's</text>
       <link>styleOverrides property</link>
       <text>in a custom theme.</text>
@@ -14601,13 +14343,11 @@ exports[`firefox /api/button/ 1`] = `
   </heading>
   <list>
     <listitem>
-      • Button Group
-      <ListMarker>•</ListMarker>
+      Button Group
       <link>Button Group</link>
     </listitem>
     <listitem>
-      • Buttons
-      <ListMarker>•</ListMarker>
+      Buttons
       <link>Buttons</link>
     </listitem>
   </list>
@@ -15258,19 +14998,18 @@ exports[`firefox /api/select/ 1`] = `
   </text>
   <list>
     <listitem>
-      • With a rule name of the classes object prop .<ListMarker>•</ListMarker>
+      With a rule name of the classes object prop .
       <text>With a rule name of the</text>
       <link>classes object prop</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • With a global class name .<ListMarker>•</ListMarker>
-      <text>With a</text>
+      With a global class name .<text>With a</text>
       <link>global class name</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • With a theme and an styleOverrides property .<ListMarker>•</ListMarker>
+      With a theme and an styleOverrides property .
       <text>With a theme and an</text>
       <link>styleOverrides property</link>
       <text>.</text>
@@ -15286,8 +15025,7 @@ exports[`firefox /api/select/ 1`] = `
   </heading>
   <list>
     <listitem>
-      • Selects
-      <ListMarker>•</ListMarker>
+      Selects
       <link>Selects</link>
     </listitem>
   </list>
@@ -15727,27 +15465,25 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • The set of links is structured using an ordered list ( <ol>
+      The set of links is structured using an ordered list ( <ol>
       element).
-      <ListMarker>•</ListMarker>
       <text>
         The set of links is structured using an ordered list (<ol>
         element).
       </text>
     </listitem>
     <listitem>
-      • To prevent screen reader announcement of the visual separators between
-      links, they are hidden with aria-hidden .<ListMarker>•</ListMarker>
+      To prevent screen reader announcement of the visual separators between
+      links, they are hidden with aria-hidden .
       <text>
         To prevent screen reader announcement of the visual separators between
         links, they are hidden with aria-hidden.
       </text>
     </listitem>
     <listitem>
-      • A nav element labeled with aria-label identifies the structure as a
+      A nav element labeled with aria-label identifies the structure as a
       breadcrumb trail and makes it a navigation landmark so that it is easy to
       locate.
-      <ListMarker>•</ListMarker>
       <text>
         A nav element labeled with aria-label identifies the structure as a
         breadcrumb trail and makes it a navigation landmark so that it is easy
@@ -15762,18 +15498,15 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </heading>
   <list>
     <listitem>
-      • <Breadcrumbs />
-      <ListMarker>•</ListMarker>
+      <Breadcrumbs />
       <link><Breadcrumbs /></link>
     </listitem>
     <listitem>
-      • <Link />
-      <ListMarker>•</ListMarker>
+      <Link />
       <link><Link /></link>
     </listitem>
     <listitem>
-      • <Typography />
-      <ListMarker>•</ListMarker>
+      <Typography />
       <link><Typography /></link>
     </listitem>
   </list>
@@ -16140,28 +15873,23 @@ exports[`firefox /components/buttons/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • Dialogs
-      <ListMarker>•</ListMarker>
+      Dialogs
       <text>Dialogs</text>
     </listitem>
     <listitem>
-      • Modal windows
-      <ListMarker>•</ListMarker>
+      Modal windows
       <text>Modal windows</text>
     </listitem>
     <listitem>
-      • Forms
-      <ListMarker>•</ListMarker>
+      Forms
       <text>Forms</text>
     </listitem>
     <listitem>
-      • Cards
-      <ListMarker>•</ListMarker>
+      Cards
       <text>Cards</text>
     </listitem>
     <listitem>
-      • Toolbars
-      <ListMarker>•</ListMarker>
+      Toolbars
       <text>Toolbars</text>
     </listitem>
   </list>
@@ -16276,13 +16004,11 @@ exports[`firefox /components/buttons/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • In dialogs
-      <ListMarker>•</ListMarker>
+      In dialogs
       <text>In dialogs</text>
     </listitem>
     <listitem>
-      • In cards
-      <ListMarker>•</ListMarker>
+      In cards
       <text>In cards</text>
     </listitem>
   </list>
@@ -16777,9 +16503,8 @@ exports[`firefox /components/buttons/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      1. CSS only . You can remove the pointer events style on the disabled
-      state of the <button> element:
-      <ListMarker>1.</ListMarker>
+      CSS only . You can remove the pointer events style on the disabled state
+      of the <button> element:
       <text>
         CSS only. You can remove the pointer events style on the disabled state
         of the <button> element:
@@ -16795,8 +16520,8 @@ exports[`firefox /components/buttons/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • You should add pointer-events: none; back when you need to display
-      tooltips on disabled elements .<ListMarker>•</ListMarker>
+      You should add pointer-events: none; back when you need to display
+      tooltips on disabled elements .
       <text>
         You should add pointer-events: none; back when you need to display
       </text>
@@ -16804,9 +16529,8 @@ exports[`firefox /components/buttons/ 1`] = `
       <text>.</text>
     </listitem>
     <listitem>
-      • The cursor won't change if you render something other than a button
+      The cursor won't change if you render something other than a button
       element, for instance, a link <a> element.
-      <ListMarker>•</ListMarker>
       <text>
         The cursor won't change if you render something other than a button
         element, for instance, a link <a> element.
@@ -16815,8 +16539,7 @@ exports[`firefox /components/buttons/ 1`] = `
   </list>
   <list>
     <listitem>
-      2. DOM change . You can wrap the button:
-      <ListMarker>2.</ListMarker>
+      DOM change . You can wrap the button:
       <text>DOM change. You can wrap the button:</text>
     </listitem>
   </list>
@@ -16838,23 +16561,19 @@ exports[`firefox /components/buttons/ 1`] = `
   </heading>
   <list>
     <listitem>
-      • <Button />
-      <ListMarker>•</ListMarker>
+      <Button />
       <link><Button /></link>
     </listitem>
     <listitem>
-      • <ButtonBase />
-      <ListMarker>•</ListMarker>
+      <ButtonBase />
       <link><ButtonBase /></link>
     </listitem>
     <listitem>
-      • <IconButton />
-      <ListMarker>•</ListMarker>
+      <IconButton />
       <link><IconButton /></link>
     </listitem>
     <listitem>
-      • <LoadingButton />
-      <ListMarker>•</ListMarker>
+      <LoadingButton />
       <link><LoadingButton /></link>
     </listitem>
   </list>
@@ -17389,16 +17108,14 @@ exports[`firefox /components/dialogs/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • Choosing an option immediately commits the option and closes the menu
-      <ListMarker>•</ListMarker>
+      Choosing an option immediately commits the option and closes the menu
       <text>
         Choosing an option immediately commits the option and closes the menu
       </text>
     </listitem>
     <listitem>
-      • Touching outside of the dialog, or pressing Back, cancels the action and
+      Touching outside of the dialog, or pressing Back, cancels the action and
       closes the dialog
-      <ListMarker>•</ListMarker>
       <text>
         Touching outside of the dialog, or pressing Back, cancels the action and
         closes the dialog
@@ -17451,15 +17168,13 @@ exports[`firefox /components/dialogs/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • Asking a question (e.g. "Delete this conversation?")
-      <ListMarker>•</ListMarker>
+      Asking a question (e.g. "Delete this conversation?")
       <text>
         Asking a question (e.g. "Delete this conversation?")
       </text>
     </listitem>
     <listitem>
-      • Making a statement related to the action buttons
-      <ListMarker>•</ListMarker>
+      Making a statement related to the action buttons
       <text>Making a statement related to the action buttons</text>
     </listitem>
   </list>
@@ -17475,18 +17190,16 @@ exports[`firefox /components/dialogs/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • Use a clear question or statement with an explanation in the content
-      area, such as "Erase USB storage?".
-      <ListMarker>•</ListMarker>
+      Use a clear question or statement with an explanation in the content area,
+      such as "Erase USB storage?".
       <text>
         Use a clear question or statement with an explanation in the content
         area, such as "Erase USB storage?".
       </text>
     </listitem>
     <listitem>
-      • Avoid apologies, ambiguity, or questions, such as "Warning!"
-      or "Are you sure?"
-      <ListMarker>•</ListMarker>
+      Avoid apologies, ambiguity, or questions, such as "Warning!" or
+      "Are you sure?"
       <text>
         Avoid apologies, ambiguity, or questions, such as "Warning!"
         or "Are you sure?"
@@ -17779,15 +17492,13 @@ exports[`firefox /components/dialogs/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • scroll=paper the content of the dialog scrolls within the paper element.
-      <ListMarker>•</ListMarker>
+      scroll=paper the content of the dialog scrolls within the paper element.
       <text>
         scroll=paper the content of the dialog scrolls within the paper element.
       </text>
     </listitem>
     <listitem>
-      • scroll=body the content of the dialog scrolls within the body element.
-      <ListMarker>•</ListMarker>
+      scroll=body the content of the dialog scrolls within the body element.
       <text>
         scroll=body the content of the dialog scrolls within the body element.
       </text>
@@ -17854,33 +17565,27 @@ exports[`firefox /components/dialogs/ 1`] = `
   </heading>
   <list>
     <listitem>
-      • <Dialog />
-      <ListMarker>•</ListMarker>
+      <Dialog />
       <link><Dialog /></link>
     </listitem>
     <listitem>
-      • <DialogActions />
-      <ListMarker>•</ListMarker>
+      <DialogActions />
       <link><DialogActions /></link>
     </listitem>
     <listitem>
-      • <DialogContent />
-      <ListMarker>•</ListMarker>
+      <DialogContent />
       <link><DialogContent /></link>
     </listitem>
     <listitem>
-      • <DialogContentText />
-      <ListMarker>•</ListMarker>
+      <DialogContentText />
       <link><DialogContentText /></link>
     </listitem>
     <listitem>
-      • <DialogTitle />
-      <ListMarker>•</ListMarker>
+      <DialogTitle />
       <link><DialogTitle /></link>
     </listitem>
     <listitem>
-      • <Slide />
-      <ListMarker>•</ListMarker>
+      <Slide />
       <link><Slide /></link>
     </listitem>
   </list>
@@ -19423,13 +19128,11 @@ exports[`firefox /components/pagination/ 1`] = `
   </heading>
   <list>
     <listitem>
-      • <Pagination />
-      <ListMarker>•</ListMarker>
+      <Pagination />
       <link><Pagination /></link>
     </listitem>
     <listitem>
-      • <PaginationItem />
-      <ListMarker>•</ListMarker>
+      <PaginationItem />
       <link><PaginationItem /></link>
     </listitem>
   </list>
@@ -20850,11 +20553,10 @@ exports[`firefox /components/rating/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • A radio group with its fields visually hidden. It contains six radio
+      A radio group with its fields visually hidden. It contains six radio
       buttons, one for each star, and another for 0 stars that is checked by
       default. Be sure to provide a value for the name prop that is unique to
       the parent form.
-      <ListMarker>•</ListMarker>
       <text>
         A radio group with its fields visually hidden. It contains six radio
         buttons, one for each star, and another for 0 stars that is checked by
@@ -20863,11 +20565,10 @@ exports[`firefox /components/rating/ 1`] = `
       </text>
     </listitem>
     <listitem>
-      • Labels for the radio buttons containing actual text (“1 Star”, “2
-      Stars”, …). Be sure to provide a suitable function to the getLabelText
-      prop when the page is in a language other than English. You can use the
-      included locales , or provide your own.
-      <ListMarker>•</ListMarker>
+      Labels for the radio buttons containing actual text (“1 Star”, “2 Stars”,
+      …). Be sure to provide a suitable function to the getLabelText prop when
+      the page is in a language other than English. You can use the included
+      locales , or provide your own.
       <text>
         Labels for the radio buttons containing actual text (“1 Star”, “2
         Stars”, …). Be sure to provide a suitable function to the getLabelText
@@ -20877,13 +20578,12 @@ exports[`firefox /components/rating/ 1`] = `
       <text>, or provide your own.</text>
     </listitem>
     <listitem>
-      • A visually distinct appearance for the rating icons. By default, the
+      A visually distinct appearance for the rating icons. By default, the
       rating component uses both a difference of color and shape (filled and
       empty icons) to indicate the value. In the event that you are using color
       as the only means to indicate the value, the information should also be
       also displayed as text, as in this demo. This is important to match
       success Criterion 1.4.1 of WCAG2.1.
-      <ListMarker>•</ListMarker>
       <text>
         A visually distinct appearance for the rating icons. By default, the
         rating component uses both a difference of color and shape (filled and
@@ -20951,8 +20651,7 @@ exports[`firefox /components/rating/ 1`] = `
   </heading>
   <list>
     <listitem>
-      • <Rating />
-      <ListMarker>•</ListMarker>
+      <Rating />
       <link><Rating /></link>
     </listitem>
   </list>
@@ -21786,9 +21485,8 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • 📦 22 kB gzipped (but only +8 kB when used together with other
-      Material-UI components).
-      <ListMarker>•</ListMarker>
+      📦 22 kB gzipped (but only +8 kB when used together with other Material-UI
+      components).
       <text>📦</text>
       <link>22 kB gzipped</link>
       <text>
@@ -22419,19 +22117,17 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • Each thumb has a user-friendly label ( aria-label , aria-labelledby or
+      Each thumb has a user-friendly label ( aria-label , aria-labelledby or
       getAriaLabel prop).
-      <ListMarker>•</ListMarker>
       <text>
         Each thumb has a user-friendly label (aria-label, aria-labelledby or
         getAriaLabel prop).
       </text>
     </listitem>
     <listitem>
-      • Each thumb has a user-friendly text for its current value. This is not
+      Each thumb has a user-friendly text for its current value. This is not
       required if the value matches the semantics of the label. You can change
       the name with the getAriaValueText or aria-valuetext prop.
-      <ListMarker>•</ListMarker>
       <text>
         Each thumb has a user-friendly text for its current value. This is not
         required if the value matches the semantics of the label. You can change
@@ -22446,13 +22142,11 @@ exports[`firefox /components/slider 1`] = `
   </heading>
   <list>
     <listitem>
-      • <Slider />
-      <ListMarker>•</ListMarker>
+      <Slider />
       <link><Slider /></link>
     </listitem>
     <listitem>
-      • <SliderUnstyled />
-      <ListMarker>•</ListMarker>
+      <SliderUnstyled />
       <link><SliderUnstyled /></link>
     </listitem>
   </list>
@@ -23680,14 +23374,13 @@ exports[`firefox /components/tabs/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      1. Label Tabs via aria-label or aria-labelledby .
-      <ListMarker>1.</ListMarker>
+      Label Tabs via aria-label or aria-labelledby .
       <text>Label Tabs via aria-label or aria-labelledby.</text>
     </listitem>
     <listitem>
-      2. Tab s need to be connected to their corresponding
+      Tab s need to be connected to their corresponding
       [role="tabpanel"] by setting the correct id , aria-controls and
-      aria-labelledby .<ListMarker>2.</ListMarker>
+      aria-labelledby .
       <text>
         Tabs need to be connected to their corresponding
         [role="tabpanel"] by setting the correct id, aria-controls and
@@ -23852,33 +23545,27 @@ exports[`firefox /components/tabs/ 1`] = `
   </heading>
   <list>
     <listitem>
-      • <Tab />
-      <ListMarker>•</ListMarker>
+      <Tab />
       <link><Tab /></link>
     </listitem>
     <listitem>
-      • <TabContext />
-      <ListMarker>•</ListMarker>
+      <TabContext />
       <link><TabContext /></link>
     </listitem>
     <listitem>
-      • <TabList />
-      <ListMarker>•</ListMarker>
+      <TabList />
       <link><TabList /></link>
     </listitem>
     <listitem>
-      • <TabPanel />
-      <ListMarker>•</ListMarker>
+      <TabPanel />
       <link><TabPanel /></link>
     </listitem>
     <listitem>
-      • <TabScrollButton />
-      <ListMarker>•</ListMarker>
+      <TabScrollButton />
       <link><TabScrollButton /></link>
     </listitem>
     <listitem>
-      • <Tabs />
-      <ListMarker>•</ListMarker>
+      <Tabs />
       <link><Tabs /></link>
     </listitem>
   </list>
@@ -25392,18 +25079,16 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • Allowing certain non-numeric characters ('e', '+',
+      Allowing certain non-numeric characters ('e', '+',
       '-', '.') and silently discarding others
-      <ListMarker>•</ListMarker>
       <text>
         Allowing certain non-numeric characters ('e', '+',
         '-', '.') and silently discarding others
       </text>
     </listitem>
     <listitem>
-      • The functionality of scrolling to increment/decrement the number can
-      cause accidental and hard-to-notice changes
-      <ListMarker>•</ListMarker>
+      The functionality of scrolling to increment/decrement the number can cause
+      accidental and hard-to-notice changes
       <text>
         The functionality of scrolling to increment/decrement the number can
         cause accidental and hard-to-notice changes
@@ -25613,16 +25298,15 @@ exports[`firefox /components/text-fields/ 1`] = `
   </text>
   <list>
     <listitem>
-      • If you are using the TextField component, you just have to provide a
-      unique id .<ListMarker>•</ListMarker>
+      If you are using the TextField component, you just have to provide a
+      unique id .
       <text>
         If you are using the TextField component, you just have to provide a
         unique id.
       </text>
     </listitem>
     <listitem>
-      • If you are composing the component:
-      <ListMarker>•</ListMarker>
+      If you are composing the component:
       <text>If you are composing the component:</text>
     </listitem>
   </list>
@@ -25645,30 +25329,26 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      • react-hook-form : React hook for form validation.
-      <ListMarker>•</ListMarker>
+      react-hook-form : React hook for form validation.
       <link>react-hook-form</link>
       <text>: React hook for form validation.</text>
     </listitem>
     <listitem>
-      • formik-material-ui : Bindings for using Material-UI with formik .
-      <ListMarker>•</ListMarker>
+      formik-material-ui : Bindings for using Material-UI with formik .
       <link>formik-material-ui</link>
       <text>: Bindings for using Material-UI with</text>
       <link>formik</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • redux-form-material-ui : Bindings for using Material-UI with Redux Form
-      .<ListMarker>•</ListMarker>
+      redux-form-material-ui : Bindings for using Material-UI with Redux Form .
       <link>redux-form-material-ui</link>
       <text>: Bindings for using Material-UI with</text>
       <link>Redux Form</link>
       <text>.</text>
     </listitem>
     <listitem>
-      • mui-rff : Bindings for using Material-UI with React Final Form .
-      <ListMarker>•</ListMarker>
+      mui-rff : Bindings for using Material-UI with React Final Form .
       <link>mui-rff</link>
       <text>: Bindings for using Material-UI with</text>
       <link>React Final Form</link>
@@ -25682,48 +25362,39 @@ exports[`firefox /components/text-fields/ 1`] = `
   </heading>
   <list>
     <listitem>
-      • <FilledInput />
-      <ListMarker>•</ListMarker>
+      <FilledInput />
       <link><FilledInput /></link>
     </listitem>
     <listitem>
-      • <FormControl />
-      <ListMarker>•</ListMarker>
+      <FormControl />
       <link><FormControl /></link>
     </listitem>
     <listitem>
-      • <FormHelperText />
-      <ListMarker>•</ListMarker>
+      <FormHelperText />
       <link><FormHelperText /></link>
     </listitem>
     <listitem>
-      • <Input />
-      <ListMarker>•</ListMarker>
+      <Input />
       <link><Input /></link>
     </listitem>
     <listitem>
-      • <InputAdornment />
-      <ListMarker>•</ListMarker>
+      <InputAdornment />
       <link><InputAdornment /></link>
     </listitem>
     <listitem>
-      • <InputBase />
-      <ListMarker>•</ListMarker>
+      <InputBase />
       <link><InputBase /></link>
     </listitem>
     <listitem>
-      • <InputLabel />
-      <ListMarker>•</ListMarker>
+      <InputLabel />
       <link><InputLabel /></link>
     </listitem>
     <listitem>
-      • <OutlinedInput />
-      <ListMarker>•</ListMarker>
+      <OutlinedInput />
       <link><OutlinedInput /></link>
     </listitem>
     <listitem>
-      • <TextField />
-      <ListMarker>•</ListMarker>
+      <TextField />
       <link><TextField /></link>
     </listitem>
   </list>
@@ -26402,8 +26073,7 @@ exports[`firefox /components/tooltips/ 1`] = `
   </heading>
   <list>
     <listitem>
-      • <Tooltip />
-      <ListMarker>•</ListMarker>
+      <Tooltip />
       <link><Tooltip /></link>
     </listitem>
   </list>
@@ -26594,23 +26264,19 @@ exports[`firefox /components/transfer-list 1`] = `
   </heading>
   <list>
     <listitem>
-      • <Checkbox />
-      <ListMarker>•</ListMarker>
+      <Checkbox />
       <link><Checkbox /></link>
     </listitem>
     <listitem>
-      • <List />
-      <ListMarker>•</ListMarker>
+      <List />
       <link><List /></link>
     </listitem>
     <listitem>
-      • <ListItem />
-      <ListMarker>•</ListMarker>
+      <ListItem />
       <link><ListItem /></link>
     </listitem>
     <listitem>
-      • <Switch />
-      <ListMarker>•</ListMarker>
+      <Switch />
       <link><Switch /></link>
     </listitem>
   </list>
