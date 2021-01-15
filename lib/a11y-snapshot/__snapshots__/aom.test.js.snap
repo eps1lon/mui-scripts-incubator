@@ -12482,9 +12482,9 @@ exports[`chromium /components/transfer-list 1`] = `
     </text>
   </paragraph>
   <heading level="2">
-    Simple Transfer List
+    Basic transfer list
     <Anchor></Anchor>
-    <text>Simple Transfer List</text>
+    <text>Basic transfer list</text>
   </heading>
   <paragraph>
     <text>
@@ -12560,9 +12560,9 @@ exports[`chromium /components/transfer-list 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
-    Enhanced Transfer List
+    Enhanced transfer list
     <Anchor></Anchor>
-    <text>Enhanced Transfer List</text>
+    <text>Enhanced transfer list</text>
   </heading>
   <paragraph>
     <text>
@@ -26104,9 +26104,9 @@ exports[`firefox /components/transfer-list 1`] = `
     </text>
   </paragraph>
   <heading level="2">
-    Simple Transfer List
+    Basic transfer list
     <link></link>
-    <text>Simple Transfer List</text>
+    <text>Basic transfer list</text>
   </heading>
   <paragraph>
     <text>
@@ -26182,9 +26182,9 @@ exports[`firefox /components/transfer-list 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Enhanced Transfer List
+    Enhanced transfer list
     <link></link>
-    <text>Enhanced Transfer List</text>
+    <text>Enhanced transfer list</text>
   </heading>
   <paragraph>
     <text>
