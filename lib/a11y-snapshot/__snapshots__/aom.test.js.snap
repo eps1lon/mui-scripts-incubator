@@ -365,11 +365,14 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         'inherit' | 'primary' | 'secondary'
+        | string
         <text>'inherit'</text>
         <LineBreak></LineBreak>
         <text>| 'primary'</text>
         <LineBreak></LineBreak>
         <text>| 'secondary'</text>
+        <LineBreak></LineBreak>
+        <text>| string</text>
       </gridcell>
       <gridcell>
         'primary'
@@ -553,12 +556,14 @@ exports[`chromium /api/button/ 1`] = `
         <text>size</text>
       </gridcell>
       <gridcell>
-        'large' | 'medium' | 'small'
-        <text>'large'</text>
+        'small' | 'medium' | 'large' | string
+        <text>'small'</text>
         <LineBreak></LineBreak>
         <text>| 'medium'</text>
         <LineBreak></LineBreak>
-        <text>| 'small'</text>
+        <text>| 'large'</text>
+        <LineBreak></LineBreak>
+        <text>| string</text>
       </gridcell>
       <gridcell>
         'medium'
@@ -13596,6 +13601,8 @@ exports[`firefox /api/button/ 1`] = `
         <text>| 'primary'</text>
         <whitespace></whitespace>
         <text>| 'secondary'</text>
+        <whitespace></whitespace>
+        <text>| string</text>
       </cell>
       <cell>
         <text>'primary'</text>
@@ -13732,11 +13739,13 @@ exports[`firefox /api/button/ 1`] = `
         <text>size</text>
       </cell>
       <cell>
-        <text>'large'</text>
+        <text>'small'</text>
         <whitespace></whitespace>
         <text>| 'medium'</text>
         <whitespace></whitespace>
-        <text>| 'small'</text>
+        <text>| 'large'</text>
+        <whitespace></whitespace>
+        <text>| string</text>
       </cell>
       <cell>
         <text>'medium'</text>
