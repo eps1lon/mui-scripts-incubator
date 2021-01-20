@@ -12690,6 +12690,398 @@ exports[`chromium /components/tree-view/ 1`] = `
 <main>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
+    Rating
+    <text>Rating</text>
+  </heading>
+  <paragraph>
+    <text>
+      Ratings provide insight regarding others' opinions and experiences,
+      and can allow the user to submit a rating of their own.
+    </text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <link>Feedback</link>
+    </listitem>
+    <listitem level="1">
+      <link>WAI-ARIA</link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>Figma</link>
+    </listitem>
+    <listitem level="1">
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Basic rating
+    <Anchor></Anchor>
+    <text>Basic rating</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Legend>
+    <text>Controlled</text>
+  </Legend>
+  <radio checked="false">1 Star</radio>
+  <radio checked="true">2 Stars</radio>
+  <radio checked="false">3 Stars</radio>
+  <radio checked="false">4 Stars</radio>
+  <radio checked="false">5 Stars</radio>
+  <Legend>
+    <text>Read only</text>
+  </Legend>
+  <img>2 Stars</img>
+  <Legend>
+    <text>Disabled</text>
+  </Legend>
+  <radio checked="false" disabled="true">
+    1 Star
+  </radio>
+  <radio checked="true" disabled="true">
+    2 Stars
+  </radio>
+  <radio checked="false" disabled="true">
+    3 Stars
+  </radio>
+  <radio checked="false" disabled="true">
+    4 Stars
+  </radio>
+  <radio checked="false" disabled="true">
+    5 Stars
+  </radio>
+  <Legend>
+    <text>No rating given</text>
+  </Legend>
+  <radio checked="false">1 Star</radio>
+  <radio checked="false">2 Stars</radio>
+  <radio checked="false">3 Stars</radio>
+  <radio checked="false">4 Stars</radio>
+  <radio checked="false">5 Stars</radio>
+  <radio checked="true">Empty</radio>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Rating precision
+    <Anchor></Anchor>
+    <text>Rating precision</text>
+  </heading>
+  <paragraph>
+    <text>The rating can display any float number with the</text>
+    <code>$SOME_CODE</code>
+    <text>prop. Use the</text>
+    <code>$SOME_CODE</code>
+    <text>prop to define the minimum increment value change allowed.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <radio checked="false">0.5 Stars</radio>
+  <radio checked="false">1 Star</radio>
+  <radio checked="false">1.5 Stars</radio>
+  <radio checked="false">2 Stars</radio>
+  <radio checked="true">2.5 Stars</radio>
+  <radio checked="false">3 Stars</radio>
+  <radio checked="false">3.5 Stars</radio>
+  <radio checked="false">4 Stars</radio>
+  <radio checked="false">4.5 Stars</radio>
+  <radio checked="false">5 Stars</radio>
+  <img>2.5 Stars</img>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Hover feedback
+    <Anchor></Anchor>
+    <text>Hover feedback</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can display a label on hover to help the user pick the correct rating
+      value. The demo uses the
+    </text>
+    <code>$SOME_CODE</code>
+    <text>prop.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <radio checked="false">0.5 Stars</radio>
+  <radio checked="false">1 Star</radio>
+  <radio checked="false">1.5 Stars</radio>
+  <radio checked="true">2 Stars</radio>
+  <radio checked="false">2.5 Stars</radio>
+  <radio checked="false">3 Stars</radio>
+  <radio checked="false">3.5 Stars</radio>
+  <radio checked="false">4 Stars</radio>
+  <radio checked="false">4.5 Stars</radio>
+  <radio checked="false">5 Stars</radio>
+  <text>Poor+</text>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Sizes
+    <Anchor></Anchor>
+    <text>Sizes</text>
+  </heading>
+  <paragraph>
+    <text>For larger or smaller ratings use the</text>
+    <code>$SOME_CODE</code>
+    <text>prop.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <radio checked="false">1 Star</radio>
+  <radio checked="true">2 Stars</radio>
+  <radio checked="false">3 Stars</radio>
+  <radio checked="false">4 Stars</radio>
+  <radio checked="false">5 Stars</radio>
+  <radio checked="false">1 Star</radio>
+  <radio checked="true">2 Stars</radio>
+  <radio checked="false">3 Stars</radio>
+  <radio checked="false">4 Stars</radio>
+  <radio checked="false">5 Stars</radio>
+  <radio checked="false">1 Star</radio>
+  <radio checked="true">2 Stars</radio>
+  <radio checked="false">3 Stars</radio>
+  <radio checked="false">4 Stars</radio>
+  <radio checked="false">5 Stars</radio>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Customized rating
+    <Anchor></Anchor>
+    <text>Customized rating</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here are some examples of customizing the component. You can learn more
+      about this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Legend>
+    <text>Custom icon and color</text>
+  </Legend>
+  <radio checked="false">0.5 Hearts</radio>
+  <radio checked="false">1 Heart</radio>
+  <radio checked="false">1.5 Hearts</radio>
+  <radio checked="true">2 Hearts</radio>
+  <radio checked="false">2.5 Hearts</radio>
+  <radio checked="false">3 Hearts</radio>
+  <radio checked="false">3.5 Hearts</radio>
+  <radio checked="false">4 Hearts</radio>
+  <radio checked="false">4.5 Hearts</radio>
+  <radio checked="false">5 Hearts</radio>
+  <Legend>
+    <text>10 stars</text>
+  </Legend>
+  <radio checked="false">1 Star</radio>
+  <radio checked="true">2 Stars</radio>
+  <radio checked="false">3 Stars</radio>
+  <radio checked="false">4 Stars</radio>
+  <radio checked="false">5 Stars</radio>
+  <radio checked="false">6 Stars</radio>
+  <radio checked="false">7 Stars</radio>
+  <radio checked="false">8 Stars</radio>
+  <radio checked="false">9 Stars</radio>
+  <radio checked="false">10 Stars</radio>
+  <Legend>
+    <text>Custom icon set</text>
+  </Legend>
+  <radio checked="false">Very Dissatisfied</radio>
+  <radio checked="true">Dissatisfied</radio>
+  <radio checked="false">Neutral</radio>
+  <radio checked="false">Satisfied</radio>
+  <radio checked="false">Very Satisfied</radio>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Accessibility
+    <Anchor></Anchor>
+    <text>Accessibility</text>
+  </heading>
+  <paragraph>
+    <text>(</text>
+    <link>WAI tutorial</link>
+    <text>)</text>
+  </paragraph>
+  <paragraph>
+    <text>The accessibility of this component relies on:</text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <text>
+        A radio group with its fields visually hidden. It contains six radio
+        buttons, one for each star, and another for 0 stars that is checked by
+        default. Be sure to provide a value for the
+      </text>
+      <code>$SOME_CODE</code>
+      <text>prop that is unique to the parent form.</text>
+    </listitem>
+    <listitem level="1">
+      <text>
+        Labels for the radio buttons containing actual text (“1 Star”, “2
+        Stars”, …). Be sure to provide a suitable function to the
+      </text>
+      <code>$SOME_CODE</code>
+      <text>
+        prop when the page is in a language other than English. You can use the
+      </text>
+      <link>included locales</link>
+      <text>, or provide your own.</text>
+    </listitem>
+    <listitem level="1">
+      <text>
+        A visually distinct appearance for the rating icons. By default, the
+        rating component uses both a difference of color and shape (filled and
+        empty icons) to indicate the value. In the event that you are using
+        color as the only means to indicate the value, the information should
+        also be also displayed as text, as in this demo. This is important to
+        match
+      </text>
+      <link>success Criterion 1.4.1</link>
+      <text>of WCAG2.1.</text>
+    </listitem>
+  </list>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <img>3.5 Stars</img>
+  <text>Good</text>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="3">
+    ARIA
+    <Anchor></Anchor>
+    <text>ARIA</text>
+  </heading>
+  <paragraph>
+    <text>
+      The read only rating has a role of "img", and an aria-label that
+      describes the displayed rating.
+    </text>
+  </paragraph>
+  <heading level="3">
+    Keyboard
+    <Anchor></Anchor>
+    <text>Keyboard</text>
+  </heading>
+  <paragraph>
+    <text>
+      Because the rating component uses radio buttons, keyboard interaction
+      follows the native browser behavior. Tab will focus the current rating,
+      and cursor keys control the selected rating.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>The read only rating is not focusable.</text>
+  </paragraph>
+  <heading level="2">
+    API
+    <Anchor></Anchor>
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem level="1">
+      <link>
+        <Rating />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+  </list>
+  <FooterAsNonLandmark>
+    <separator orientation="horizontal"></separator>
+    <link>Radio button</link>
+    <group>
+      Was this page helpful?
+      <text>Was this page helpful?</text>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
+    <link>Select</link>
+  </FooterAsNonLandmark>
+</main>;
+
+`;
+
+exports[`chromium /components/tree-view/ 2`] = `
+<main>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
     Tree View
     <text>Tree View</text>
   </heading>
