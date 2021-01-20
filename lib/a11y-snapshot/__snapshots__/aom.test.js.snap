@@ -15055,6 +15055,869 @@ exports[`firefox /components/breadcrumbs 1`] = `
 <landmark>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
+    Button API
+    <text>Button API</text>
+  </heading>
+  <paragraph>
+    <text>
+      API documentation for the React Button component. Learn about the
+      available props, and the CSS API.
+    </text>
+  </paragraph>
+  <heading level="2">
+    Import
+    <link></link>
+    <text>Import</text>
+  </heading>
+  <text>
+    import Button from '@material-ui/core/Button'; // or import {
+    Button } from '@material-ui/core';You can learn about the
+    difference by
+  </text>
+  <link>reading this guide on minimizing bundle size</link>
+  <text>.</text>
+  <heading level="2">
+    Component name
+    <link></link>
+    <text>Component name</text>
+  </heading>
+  <text>The name MuiButton can be used when providing</text>
+  <link>default props</link>
+  <text>or</text>
+  <link>style overrides</link>
+  <text>in the theme.</text>
+  <heading level="2">
+    Props
+    <link></link>
+    <text>Props</text>
+  </heading>
+  <table>
+    <row>
+      <cell>
+        <text>Name</text>
+      </cell>
+      <cell>
+        <text>Type</text>
+      </cell>
+      <cell>
+        <text>Default</text>
+      </cell>
+      <cell>
+        <text>Description</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>children</text>
+      </cell>
+      <cell>
+        <text>node</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>The content of the component.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>classes</text>
+      </cell>
+      <cell>
+        <text>object</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>Override or extend the styles applied to the component. See</text>
+        <link>CSS API</link>
+        <text>below for more details.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>color</text>
+      </cell>
+      <cell>
+        <text>'inherit'</text>
+        <whitespace></whitespace>
+        <text>| 'primary'</text>
+        <whitespace></whitespace>
+        <text>| 'secondary'</text>
+        <whitespace></whitespace>
+        <text>| string</text>
+      </cell>
+      <cell>
+        <text>'primary'</text>
+      </cell>
+      <cell>
+        <text>
+          The color of the component. It supports those theme colors that make
+          sense for this component.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>component</text>
+      </cell>
+      <cell>
+        <text>elementType</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>
+          The component used for the root node. Either a string to use a HTML
+          element or a component.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>disabled</text>
+      </cell>
+      <cell>
+        <text>bool</text>
+      </cell>
+      <cell>
+        <text>false</text>
+      </cell>
+      <cell>
+        <text>If true, the component is disabled.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>disableElevation</text>
+      </cell>
+      <cell>
+        <text>bool</text>
+      </cell>
+      <cell>
+        <text>false</text>
+      </cell>
+      <cell>
+        <text>If true, no elevation is used.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>disableFocusRipple</text>
+      </cell>
+      <cell>
+        <text>bool</text>
+      </cell>
+      <cell>
+        <text>false</text>
+      </cell>
+      <cell>
+        <text>If true, the keyboard focus ripple is disabled.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>disableRipple</text>
+      </cell>
+      <cell>
+        <text>bool</text>
+      </cell>
+      <cell>
+        <text>false</text>
+      </cell>
+      <cell>
+        <text>If true, the ripple effect is disabled.</text>
+        <whitespace></whitespace>
+        <text>
+          ⚠️ Without a ripple there is no styling for :focus-visible by default.
+          Be sure to highlight the element by applying separate styles with the
+          .Mui-focusedVisible class.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>endIcon</text>
+      </cell>
+      <cell>
+        <text>node</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>Element placed after the children.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>fullWidth</text>
+      </cell>
+      <cell>
+        <text>bool</text>
+      </cell>
+      <cell>
+        <text>false</text>
+      </cell>
+      <cell>
+        <text>
+          If true, the button will take up the full width of its container.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>href</text>
+      </cell>
+      <cell>
+        <text>string</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>
+          The URL to link to when the button is clicked. If defined, an a
+          element will be used as the root node.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>size</text>
+      </cell>
+      <cell>
+        <text>'small'</text>
+        <whitespace></whitespace>
+        <text>| 'medium'</text>
+        <whitespace></whitespace>
+        <text>| 'large'</text>
+        <whitespace></whitespace>
+        <text>| string</text>
+      </cell>
+      <cell>
+        <text>'medium'</text>
+      </cell>
+      <cell>
+        <text>
+          The size of the component. small is equivalent to the dense button
+          styling.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>startIcon</text>
+      </cell>
+      <cell>
+        <text>node</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>Element placed before the children.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>sx</text>
+      </cell>
+      <cell>
+        <text>object</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>
+          The system prop that allows defining system overrides as well as
+          additional CSS styles. See the
+        </text>
+        <link>\`sx\` page</link>
+        <text>for more details.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>variant</text>
+      </cell>
+      <cell>
+        <text>'contained'</text>
+        <whitespace></whitespace>
+        <text>| 'outlined'</text>
+        <whitespace></whitespace>
+        <text>| 'text'</text>
+        <whitespace></whitespace>
+        <text>| string</text>
+      </cell>
+      <cell>
+        <text>'text'</text>
+      </cell>
+      <cell>
+        <text>The variant to use.</text>
+      </cell>
+    </row>
+  </table>
+  <whitespace></whitespace>
+  <text>The ref is forwarded to the root element.</text>
+  <whitespace></whitespace>
+  <text>Any other props supplied will be provided to the root element (</text>
+  <link>ButtonBase</link>
+  <text>).</text>
+  <heading level="3">
+    Inheritance
+    <link></link>
+    <text>Inheritance</text>
+  </heading>
+  <text>While not explicitly documented above, the props of the</text>
+  <link>ButtonBase</link>
+  <text>
+    component are also available on Button. You can take advantage of this to
+  </text>
+  <link>target nested components</link>
+  <text>.</text>
+  <heading level="2">
+    CSS
+    <link></link>
+    <text>CSS</text>
+  </heading>
+  <table>
+    <row>
+      <cell>
+        <text>Rule name</text>
+      </cell>
+      <cell>
+        <text>Global class</text>
+      </cell>
+      <cell>
+        <text>Description</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>root</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-root</text>
+      </cell>
+      <cell>
+        <text>Styles applied to the root element.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>label</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-label</text>
+      </cell>
+      <cell>
+        <text>Styles applied to the span element that wraps the children.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>text</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-text</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="text".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>textInherit</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-textInherit</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="text" and
+          color="inherit".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>textPrimary</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-textPrimary</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="text" and
+          color="primary".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>textSecondary</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-textSecondary</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="text" and
+          color="secondary".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>outlined</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-outlined</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="outlined".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>outlinedInherit</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-outlinedInherit</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="outlined" and
+          color="inherit".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>outlinedPrimary</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-outlinedPrimary</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="outlined" and
+          color="primary".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>outlinedSecondary</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-outlinedSecondary</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="outlined" and
+          color="secondary".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>contained</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-contained</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="contained".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>containedInherit</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-containedInherit</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="contained"
+          and color="inherit".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>containedPrimary</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-containedPrimary</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="contained"
+          and color="primary".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>containedSecondary</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-containedSecondary</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if variant="contained"
+          and color="secondary".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>disableElevation</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-disableElevation</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if
+          disableElevation={true}.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>focusVisible</text>
+      </cell>
+      <cell>
+        <text>.Mui-focusVisible</text>
+      </cell>
+      <cell>
+        <text>
+          Pseudo-class applied to the ButtonBase root element if the button is
+          keyboard focused.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>disabled</text>
+      </cell>
+      <cell>
+        <text>.Mui-disabled</text>
+      </cell>
+      <cell>
+        <text>
+          Pseudo-class applied to the root element if disabled={true}.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>colorInherit</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-colorInherit</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if color="inherit".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>textSizeSmall</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-textSizeSmall</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if size="small" and
+          variant="text".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>textSizeMedium</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-textSizeMedium</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if size="medium" and
+          variant="text".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>textSizeLarge</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-textSizeLarge</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if size="large" and
+          variant="text".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>outlinedSizeSmall</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-outlinedSizeSmall</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if size="small" and
+          variant="outlined".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>outlinedSizeMedium</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-outlinedSizeMedium</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if size="medium" and
+          variant="outlined".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>outlinedSizeLarge</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-outlinedSizeLarge</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if size="large" and
+          variant="outlined".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>containedSizeSmall</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-containedSizeSmall</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if size="small" and
+          variant="contained".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>containedSizeMedium</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-containedSizeMedium</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if size="small" and
+          variant="contained".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>containedSizeLarge</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-containedSizeLarge</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if size="large" and
+          variant="contained".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>sizeSmall</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-sizeSmall</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if size="small".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>sizeMedium</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-sizeMedium</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if size="medium".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>sizeLarge</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-sizeLarge</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if size="large".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>fullWidth</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-fullWidth</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the root element if fullWidth={true}.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>startIcon</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-startIcon</text>
+      </cell>
+      <cell>
+        <text>Styles applied to the startIcon element if supplied.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>endIcon</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-endIcon</text>
+      </cell>
+      <cell>
+        <text>Styles applied to the endIcon element if supplied.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>iconSizeSmall</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-iconSizeSmall</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the icon element if supplied and
+          size="small".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>iconSizeMedium</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-iconSizeMedium</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the icon element if supplied and
+          size="medium".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>iconSizeLarge</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-iconSizeLarge</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the icon element if supplied and
+          size="large".
+        </text>
+      </cell>
+    </row>
+  </table>
+  <whitespace></whitespace>
+  <text>
+    You can override the style of the component using one of these customization
+    options:
+  </text>
+  <list>
+    <listitem>
+      With a global class name .<text>With a</text>
+      <link>global class name</link>
+      <text>.</text>
+    </listitem>
+    <listitem>
+      With a rule name as part of the component's styleOverrides property
+      in a custom theme.
+      <text>With a rule name as part of the component's</text>
+      <link>styleOverrides property</link>
+      <text>in a custom theme.</text>
+    </listitem>
+  </list>
+  <heading level="2">
+    Demos
+    <link></link>
+    <text>Demos</text>
+  </heading>
+  <list>
+    <listitem>
+      Button Group
+      <link>Button Group</link>
+    </listitem>
+    <listitem>
+      Buttons
+      <link>Buttons</link>
+    </listitem>
+  </list>
+  <separator></separator>
+  <link>Breadcrumbs</link>
+  <group>
+    Was this page helpful?
+    <text>Was this page helpful?</text>
+    <togglebutton>Yes</togglebutton>
+    <togglebutton>No</togglebutton>
+  </group>
+  <link>ButtonBase</link>
+</landmark>;
+
+`;
+
+exports[`firefox /components/breadcrumbs 2`] = `
+<landmark>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
     Breadcrumbs
     <text>Breadcrumbs</text>
   </heading>
