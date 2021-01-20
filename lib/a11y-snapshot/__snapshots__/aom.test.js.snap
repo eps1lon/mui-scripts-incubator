@@ -266,6 +266,271 @@ exports[`chromium / 1`] = `
 `;
 
 exports[`chromium /api/button/ 1`] = `
+<WebArea>
+  Material-UI: A popular React UI framework
+  <link>Skip to content</link>
+  <banner>
+    <button>Open main navigation</button>
+    <searchbox>Search</searchbox>
+    <combobox autocomplete="list" haspopup="listbox">
+      Search
+    </combobox>
+    <text>Ctrl+K</text>
+    <combobox haspopup="menu">
+      Change language
+      <text>ENGLISH</text>
+    </combobox>
+    <button>Toggle settings drawer</button>
+    <combobox haspopup="menu">Toggle notifications panel</combobox>
+    <link>GitHub repository</link>
+  </banner>
+  <navigation>Main navigation</navigation>
+  <main>
+    <heading level="1">
+      MATERIAL-UI
+      <text>MATERIAL-UI</text>
+    </heading>
+    <paragraph>
+      <text>
+        React components for faster and simpler web development. Build your own
+        design system, or start with Material Design.
+      </text>
+    </paragraph>
+    <link>GET STARTED</link>
+    <link>Star</link>
+    <link>Follow</link>
+    <link>Get Professional Support</link>
+    <text>random sponsor</text>
+    <link>a random quick word</link>
+    <heading level="2">
+      Installation
+      <text>Installation</text>
+    </heading>
+    <text>
+      Install Material-UI's source files via npm. We take care of injecting
+      the CSS needed.
+    </text>
+    <Pre>
+      <code>
+        <text>
+          $ npm install @material-ui/core@next @emotion/react @emotion/styled
+        </text>
+      </code>
+    </Pre>
+    <link>or use a CDN.</link>
+    <text>Load the default Roboto font.</text>
+    <Pre>
+      <code>
+        <text>
+          <linkrel="stylesheet"href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
+        </text>
+      </code>
+    </Pre>
+    <separator orientation="horizontal"></separator>
+    <link>READ INSTALLATION DOCS</link>
+    <heading level="2">
+      Usage
+      <text>Usage</text>
+    </heading>
+    <text>
+      Material-UI components work without any additional setup, and don't
+      pollute the global scope.
+    </text>
+    <Pre>
+      <code>
+        <text>
+          import*asReactfrom'react';import{Button}from'@material-ui/core';functionApp(){return<Button>Hello
+          World</Button>;}
+        </text>
+      </code>
+    </Pre>
+    <separator orientation="horizontal"></separator>
+    <link>EXPLORE THE DOCS</link>
+    <heading level="2">
+      Premium themes
+      <text>Premium themes</text>
+    </heading>
+    <paragraph>
+      <text>
+        Take your project to the next level with premium themes from our store –
+        all built on Material-UI.
+      </text>
+    </paragraph>
+    <link>
+      Browse themes
+      <img>Browse themes</img>
+    </link>
+    <link>BROWSE THEMES</link>
+    <separator orientation="horizontal"></separator>
+    <heading level="2">
+      Material-UI's sponsors
+      <Anchor></Anchor>
+      <text>Material-UI's sponsors</text>
+    </heading>
+    <paragraph>
+      <text>
+        The continued development and maintenance of Material-UI is made
+        possible by these generous sponsors:
+      </text>
+    </paragraph>
+    <heading level="3">
+      Diamond 💎
+      <Anchor></Anchor>
+      <text>Diamond 💎</text>
+    </heading>
+    <link>
+      octopus
+      <img description="Repeatable, reliable deployments">octopus</img>
+    </link>
+    <link>
+      doit-intl
+      <img description="Management Platform for Google Cloud and AWS">
+        doit-intl
+      </img>
+    </link>
+    <paragraph>
+      <text>1/3 slots available</text>
+    </paragraph>
+    <heading level="3">
+      Gold 🏆
+      <Anchor></Anchor>
+      <text>Gold 🏆</text>
+    </heading>
+    <link>
+      tidelift
+      <img description="Enterprise-ready open source software">tidelift</img>
+    </link>
+    <link>
+      bitsrc
+      <img description="The fastest way to share code">bitsrc</img>
+    </link>
+    <link>
+      elevator
+      <img description="The dopest new hip hop, upcoming artsits, music news, culture, and style">
+        elevator
+      </img>
+    </link>
+    <link>
+      call-em-all
+      <img description="Mass Text Messaging & Automated Calling">
+        call-em-all
+      </img>
+    </link>
+    <link>
+      canadacasino
+      <img>canadacasino</img>
+    </link>
+    <heading level="3">
+      There are more!
+      <Anchor></Anchor>
+      <text>There are more!</text>
+    </heading>
+    <paragraph>
+      <text>See the full list of</text>
+      <link>our sponsors</link>
+      <text>
+        , and learn how you can contribute to the future of Material-UI.
+      </text>
+    </paragraph>
+    <separator orientation="horizontal"></separator>
+    <heading level="2">
+      Praise for Material-UI
+      <text>Praise for Material-UI</text>
+    </heading>
+    <paragraph>
+      <text>Here's what some of our users are saying.</text>
+    </paragraph>
+    <link>a random quote about Material-UI</link>
+    <link>a random quote about Material-UI</link>
+    <link>a random quote about Material-UI</link>
+    <separator orientation="horizontal"></separator>
+    <heading level="2">
+      Who's using Material-UI?
+      <text>Who's using Material-UI?</text>
+    </heading>
+    <paragraph>
+      <text>Join these and other great organizations!</text>
+    </paragraph>
+    <img>NASA</img>
+    <img>Walmart Labs</img>
+    <img>Capgemini</img>
+    <img>Uniqlo</img>
+    <img>Bethesda</img>
+    <img>J.P. Morgan</img>
+    <img>Shutterstock</img>
+    <img>Netflix</img>
+    <img>Coursera</img>
+    <img>Amazon</img>
+    <img>Unity</img>
+    <paragraph>
+      <text>Are you using Material-UI?</text>
+    </paragraph>
+    <link>LET US KNOW!</link>
+  </main>
+  <separator orientation="horizontal"></separator>
+  <contentinfo>
+    <link>Material-UI</link>
+    <heading level="2">
+      Community
+      <text>Community</text>
+    </heading>
+    <list>
+      <listitem level="1">
+        <link>GitHub</link>
+      </listitem>
+      <listitem level="1">
+        <link>Twitter</link>
+      </listitem>
+      <listitem level="1">
+        <link>StackOverflow</link>
+      </listitem>
+      <listitem level="1">
+        <link>Team</link>
+      </listitem>
+    </list>
+    <heading level="2">
+      Resources
+      <text>Resources</text>
+    </heading>
+    <list>
+      <listitem level="1">
+        <link>Support</link>
+      </listitem>
+      <listitem level="1">
+        <link>Blog</link>
+      </listitem>
+      <listitem level="1">
+        <link>Material Icons</link>
+      </listitem>
+    </list>
+    <heading level="2">
+      Company
+      <text>Company</text>
+    </heading>
+    <list>
+      <listitem level="1">
+        <link>About</link>
+      </listitem>
+      <listitem level="1">
+        <link>Contact Us</link>
+      </listitem>
+      <listitem level="1">
+        <link>Jobs</link>
+      </listitem>
+    </list>
+    <paragraph>
+      <text>Currently</text>
+      <link>v5.0.0-alpha.23. View versions page.</link>
+      <text>. Released under the</text>
+      <link>MIT License</link>
+      <text>.Copyright ©2021Material-UI.</text>
+    </paragraph>
+  </contentinfo>
+</WebArea>;
+
+`;
+
+exports[`chromium /api/button/ 2`] = `
 <main>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
