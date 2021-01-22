@@ -7116,6 +7116,427 @@ exports[`chromium /components/selects/ 1`] = `
 <main>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
+    Radio
+    <text>Radio</text>
+  </heading>
+  <paragraph>
+    <text>Radio buttons allow the user to select one option from a set.</text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Use radio buttons when the user needs to see all available options. If
+      available options can be collapsed, consider using a dropdown menu because
+      it uses less space.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Radio buttons should have the most commonly used option selected by
+      default.
+    </text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <link>Feedback</link>
+    </listitem>
+    <listitem level="1">
+      <link>WAI-ARIA</link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>Material Design</link>
+    </listitem>
+    <listitem level="1">
+      <link>Figma</link>
+    </listitem>
+    <listitem level="1">
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    RadioGroup
+    <Anchor></Anchor>
+    <text>RadioGroup</text>
+  </heading>
+  <paragraph>
+    <code>$SOME_CODE</code>
+    <text>is a helpful wrapper used to group</text>
+    <code>$SOME_CODE</code>
+    <text>
+      components that provides an easier API, and proper keyboard accessibility
+      to the group.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <group>
+    Gender
+    <Legend>
+      <text>Gender</text>
+    </Legend>
+    <radiogroup>
+      gender
+      <radio checked="true">Female</radio>
+      <radio checked="false">Male</radio>
+      <radio checked="false">Other</radio>
+      <radio checked="false" disabled="true">
+        (Disabled option)
+      </radio>
+    </radiogroup>
+  </group>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <paragraph>
+    <text>To lay out the buttons horizontally, set the</text>
+    <code>$SOME_CODE</code>
+    <text>prop:</text>
+    <code>$SOME_CODE</code>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    Standalone radio buttons
+    <Anchor></Anchor>
+    <text>Standalone radio buttons</text>
+  </heading>
+  <paragraph>
+    <code>$SOME_CODE</code>
+    <text>can also be used standalone, without the RadioGroup wrapper.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <radio checked="true">A</radio>
+  <radio checked="false">B</radio>
+  <radio checked="false">C</radio>
+  <radio checked="false">D</radio>
+  <radio checked="false">E</radio>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Label placement
+    <Anchor></Anchor>
+    <text>Label placement</text>
+  </heading>
+  <paragraph>
+    <text>You can change the placement of the label with the</text>
+    <code>$SOME_CODE</code>
+    <text>component's</text>
+    <code>$SOME_CODE</code>
+    <text>prop:</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <group>
+    labelPlacement
+    <Legend>
+      <text>labelPlacement</text>
+    </Legend>
+    <radiogroup>
+      position
+      <radio checked="true">Top</radio>
+      <radio checked="false">Start</radio>
+      <radio checked="false">Bottom</radio>
+      <radio checked="false">End</radio>
+    </radiogroup>
+  </group>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Show error
+    <Anchor></Anchor>
+    <text>Show error</text>
+  </heading>
+  <paragraph>
+    <text>
+      In general, radio buttons should have a value selected by default. If this
+      is not the case, you can display an error if no value is selected when the
+      form is submitted:
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <group>
+      Pop quiz: Material-UI is...
+      <Legend>
+        <text>Pop quiz: Material-UI is...</text>
+      </Legend>
+      <radiogroup>
+        quiz
+        <radio checked="false">The best!</radio>
+        <radio checked="false">The worst.</radio>
+      </radiogroup>
+      <paragraph>
+        <text>Choose wisely</text>
+      </paragraph>
+      <button>
+        CHECK ANSWER
+        <text>CHECK ANSWER</text>
+      </button>
+    </group>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Customized radios
+    <Anchor></Anchor>
+    <text>Customized radios</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here is an example of customizing the component. You can learn more about
+      this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <group>
+    Gender
+    <Legend>
+      <text>Gender</text>
+    </Legend>
+    <radiogroup>
+      gender
+      <radio checked="true">Female</radio>
+      <radio checked="false">Male</radio>
+      <radio checked="false">Other</radio>
+      <radio checked="false" disabled="true">
+        (Disabled option)
+      </radio>
+    </radiogroup>
+  </group>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    useRadioGroup
+    <Anchor></Anchor>
+    <code>$SOME_CODE</code>
+  </heading>
+  <paragraph>
+    <text>For advanced customization use cases, a</text>
+    <code>$SOME_CODE</code>
+    <text>
+      hook is exposed. It returns the context value of the parent radio group.
+      The Radio component uses this hook internally.
+    </text>
+  </paragraph>
+  <heading level="3">
+    API
+    <Anchor></Anchor>
+    <text>API</text>
+  </heading>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="4">
+    Returns
+    <text>Returns</text>
+  </heading>
+  <paragraph>
+    <code>$SOME_CODE</code>
+    <text>(Object):</text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>
+        (String[optional]): The name used to reference the value of the control.
+      </text>
+    </listitem>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>
+        (Void[optional]): Callback fired when a radio button is selected.
+      </text>
+    </listitem>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>(Any[optional]): Value of the selected radio button.</text>
+    </listitem>
+  </list>
+  <heading level="4">
+    Example
+    <text>Example</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <radiogroup>
+    <radio checked="true">First</radio>
+    <radio checked="false">Second</radio>
+  </radiogroup>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    When to use
+    <Anchor></Anchor>
+    <text>When to use</text>
+  </heading>
+  <list>
+    <listitem level="1">
+      <link>Checkboxes vs. Radio Buttons</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Accessibility
+    <Anchor></Anchor>
+    <text>Accessibility</text>
+  </heading>
+  <paragraph>
+    <text>(WAI-ARIA:</text>
+    <link>https://www.w3.org/TR/wai-aria-practices/#radiobutton</link>
+    <text>)</text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <text>
+        All form controls should have labels, and this includes radio buttons,
+        checkboxes, and switches. In most cases, this is done by using the
+      </text>
+      <code>$SOME_CODE</code>
+      <text>element (</text>
+      <link>FormControlLabel</link>
+      <text>).</text>
+    </listitem>
+    <listitem level="1">
+      <text>
+        When a label can't be used, it's necessary to add an attribute
+        directly to the input component. In this case, you can apply the
+        additional attribute (e.g.
+      </text>
+      <code>$SOME_CODE</code>
+      <text>,</text>
+      <code>$SOME_CODE</code>
+      <text>,</text>
+      <code>$SOME_CODE</code>
+      <text>) via the</text>
+      <code>$SOME_CODE</code>
+      <text>property.</text>
+    </listitem>
+  </list>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    API
+    <Anchor></Anchor>
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem level="1">
+      <link>
+        <FormControl />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <FormControlLabel />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <FormLabel />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <Radio />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <RadioGroup />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+  </list>
+  <FooterAsNonLandmark>
+    <separator orientation="horizontal"></separator>
+    <link>Floating Action Button</link>
+    <group>
+      Was this page helpful?
+      <text>Was this page helpful?</text>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
+    <link>Rating</link>
+  </FooterAsNonLandmark>
+</main>;
+
+`;
+
+exports[`chromium /components/selects/ 2`] = `
+<main>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
     Select
     <text>Select</text>
   </heading>
