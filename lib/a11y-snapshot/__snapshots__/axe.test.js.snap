@@ -12,7 +12,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
     "nodes": Array [
-      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .MuiBreadcrumbs-root.css-1h1un4w-MuiTypography-root[aria-label=\\"breadcrumb\\"]",
+      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .MuiBreadcrumbs-root.css-1eofpco-MuiTypography-root-MuiBreadcrumbs-root[aria-label=\\"breadcrumb\\"]",
     ],
   },
 ]
@@ -45,13 +45,15 @@ exports[`chromium /components/checkboxes/ 1`] = `Array []`;
 
 exports[`chromium /components/dialogs/ 1`] = `Array []`;
 
-exports[`chromium /components/pagination/ 1`] = `
+exports[`chromium /components/pagination/ 1`] = `Array []`;
+
+exports[`chromium /components/pagination/ 2`] = `
 Array [
   Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
     "nodes": Array [
-      ".jss60 > .MuiPagination-text.MuiPagination-root[aria-label=\\"pagination\\\\ navigation\\"]:nth-child(1)",
+      ".jss45 > .MuiPagination-text.MuiPagination-root[aria-label=\\"pagination\\\\ navigation\\"]:nth-child(1)",
     ],
   },
 ]
