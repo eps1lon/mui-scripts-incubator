@@ -65,6 +65,8 @@ exports[`chromium /components/rating/ 1`] = `Array []`;
 
 exports[`chromium /components/selects/ 1`] = `Array []`;
 
+exports[`chromium /components/selects/ 2`] = `Array []`;
+
 exports[`chromium /components/slider 1`] = `
 Array [
   Object {
