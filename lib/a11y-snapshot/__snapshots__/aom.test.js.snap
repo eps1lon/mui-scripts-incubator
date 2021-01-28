@@ -21479,6 +21479,804 @@ exports[`firefox /components/slider 1`] = `
 <landmark>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
+    Select
+    <text>Select</text>
+  </heading>
+  <paragraph>
+    <text>
+      Select components are used for collecting user provided information from a
+      list of options.
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      Feedback
+      <link>Feedback</link>
+    </listitem>
+    <listitem>
+      Scroll down to 'Exports Analysis' for a more detailed report.
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem>
+      Figma
+      <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Basic select
+    <link></link>
+    <text>Basic select</text>
+  </heading>
+  <paragraph>
+    <text>
+      Menus are positioned over their emitting elements such that the currently
+      selected menu item appears on top of the emitting element.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <statictext> </statictext>
+  <button haspopup="true">
+    Age ​<text>​</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <FormControl fullWidth> <InputLabel
+    id="demo-simple-select-label">Age</InputLabel> <Select
+    labelId="demo-simple-select-label"
+    id="demo-simple-select" value={age}
+    onChange={handleChange} > <MenuItem
+    value={10}>Ten</MenuItem> <MenuItem
+    value={20}>Twenty</MenuItem> <MenuItem
+    value={30}>Thirty</MenuItem> </Select>
+    </FormControl>
+  </text>
+  <heading level="2">
+    Advanced features
+    <link></link>
+    <text>Advanced features</text>
+  </heading>
+  <paragraph>
+    <text>
+      The Select component is meant to be interchangeable with a native
+      <select> element.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      If you are looking for more advanced features, like combobox, multiselect,
+      autocomplete, async or creatable support, head to the
+    </text>
+    <link>Autocomplete component</link>
+    <text>
+      . It's meant to be an improved version of the
+      "react-select" and "downshift" packages.
+    </text>
+  </paragraph>
+  <heading level="2">
+    Props
+    <link></link>
+    <text>Props</text>
+  </heading>
+  <paragraph>
+    <text>
+      The Select component is implemented as a custom <input> element of
+      the
+    </text>
+    <link>InputBase</link>
+    <text>. It extends the</text>
+    <link>text field components</link>
+    <text>sub-components, either the</text>
+    <link>Input</link>
+    <text>,</text>
+    <link>FilledInput</link>
+    <text>, or</text>
+    <link>OutlinedInput</link>
+    <text>
+      , depending on the variant selected. It shares the same styles and many of
+      the same props. Refer to the respective component's API page for
+      details.
+    </text>
+  </paragraph>
+  <heading level="3">
+    Filled and outlined variants
+    <link></link>
+    <text>Filled and outlined variants</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <button haspopup="true">
+    Age ​<text>​</text>
+  </button>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <statictext> </statictext>
+  <button haspopup="true">
+    Age ​<text>​</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Labels and helper text
+    <link></link>
+    <text>Labels and helper text</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <statictext> </statictext>
+  <button haspopup="true">
+    Age ​<text>​</text>
+  </button>
+  <paragraph>
+    <text>With label + helper text</text>
+  </paragraph>
+  <statictext> </statictext>
+  <button haspopup="true">
+    Without label
+    <text>None</text>
+  </button>
+  <paragraph>
+    <text>Without label</text>
+  </paragraph>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Auto width
+    <link></link>
+    <text>Auto width</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <statictext> </statictext>
+  <button haspopup="true">
+    Age ​<text>​</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Other props
+    <link></link>
+    <text>Other props</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Name
+    <text>Name</text>
+  </label>
+  <statictext> </statictext>
+  <button disabled="true" haspopup="true">
+    Name ​<text>​</text>
+  </button>
+  <paragraph>
+    <text>Disabled</text>
+  </paragraph>
+  <label>
+    Name
+    <text>Name</text>
+  </label>
+  <statictext> </statictext>
+  <button haspopup="true">
+    Name ​<text>​</text>
+  </button>
+  <paragraph>
+    <text>Error</text>
+  </paragraph>
+  <label>
+    Name
+    <text>Name</text>
+  </label>
+  <statictext> </statictext>
+  <button haspopup="true">
+    Name ​<text>​</text>
+  </button>
+  <paragraph>
+    <text>Read only</text>
+  </paragraph>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <statictext> </statictext>
+  <button haspopup="true">
+    Age ​<text>​</text>
+  </button>
+  <paragraph>
+    <text>Required</text>
+  </paragraph>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Native select
+    <link></link>
+    <text>Native select</text>
+  </heading>
+  <paragraph>
+    <text>
+      As the user experience can be improved on mobile using the native select
+      of the platform, we allow such pattern.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <statictext> </statictext>
+  <combobox haspopup="true" value="Thirty">
+    Age
+    <MenuListPopup>
+      <menuitem>
+        Ten
+        <text>Ten</text>
+      </menuitem>
+      <menuitem>
+        Twenty
+        <text>Twenty</text>
+      </menuitem>
+      <menuitem selected="true">
+        Thirty
+        <text>Thirty</text>
+      </menuitem>
+    </MenuListPopup>
+  </combobox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <FormControl fullWidth> <InputLabel
+    htmlFor="uncontrolled-native">Age</InputLabel>
+    <NativeSelect defaultValue={30} inputProps={{ name:
+    'age', id: 'uncontrolled-native', }} >
+    <option value={10}>Ten</option> <option
+    value={20}>Twenty</option> <option
+    value={30}>Thirty</option> </NativeSelect>
+    </FormControl>
+  </text>
+  <heading level="2">
+    TextField
+    <link></link>
+    <text>TextField</text>
+  </heading>
+  <paragraph>
+    <text>
+      The TextField wrapper component is a complete form control including a
+      label, input and help text. You can find an example with the select mode
+    </text>
+    <link>in this section</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    Customized selects
+    <link></link>
+    <text>Customized selects</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here are some examples of customizing the component. You can learn more
+      about this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <paragraph>
+    <text>
+      The first step is to style the InputBase component. Once it's styled,
+      you can either use it directly as a text field or provide it to the select
+      input prop to have a select field.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <textbox>Age</textbox>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <button haspopup="true">
+    Age ​<text>​</text>
+  </button>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <combobox haspopup="true" value="None">
+    Age
+    <MenuListPopup>
+      <menuitem selected="true">None</menuitem>
+      <menuitem>
+        Ten
+        <text>Ten</text>
+      </menuitem>
+      <menuitem>
+        Twenty
+        <text>Twenty</text>
+      </menuitem>
+      <menuitem>
+        Thirty
+        <text>Thirty</text>
+      </menuitem>
+    </MenuListPopup>
+  </combobox>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <paragraph>
+    <text>🎨 If you are looking for inspiration, you can check</text>
+    <link>MUI Treasury's customization examples</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    Multiple select
+    <link></link>
+    <text>Multiple select</text>
+  </heading>
+  <paragraph>
+    <text>
+      The Select component can handle multiple selections. It's enabled
+      with the multiple prop.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Like with the single selection, you can pull out the new value by
+      accessing event.target.value in the onChange callback. It's always an
+      array.
+    </text>
+  </paragraph>
+  <heading level="3">
+    Default
+    <link></link>
+    <text>Default</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Name
+    <text>Name</text>
+  </label>
+  <statictext> </statictext>
+  <button haspopup="true">
+    Name ​<text>​</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Checkmarks
+    <link></link>
+    <text>Checkmarks</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Tag
+    <text>Tag</text>
+  </label>
+  <statictext> </statictext>
+  <button haspopup="true">
+    Tag ​<text>​</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Chip
+    <link></link>
+    <text>Chip</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Chip
+    <text>Chip</text>
+  </label>
+  <statictext> </statictext>
+  <button haspopup="true">
+    Chip ​<text>​</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Placeholder
+    <link></link>
+    <text>Placeholder</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <statictext> </statictext>
+  <button haspopup="true">
+    Without label
+    <text>Placeholder</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Native
+    <link></link>
+    <text>Native</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Native
+    <text>Native</text>
+  </label>
+  <statictext> </statictext>
+  <listbox multiselectable="true">
+    Native
+    <option>
+      Oliver Hansen
+      <text>Oliver Hansen</text>
+    </option>
+    <option>
+      Van Henry
+      <text>Van Henry</text>
+    </option>
+    <option>
+      April Tucker
+      <text>April Tucker</text>
+    </option>
+    <option>
+      Ralph Hubbard
+      <text>Ralph Hubbard</text>
+    </option>
+    <option>
+      Omar Alexander
+      <text>Omar Alexander</text>
+    </option>
+    <option>
+      Carlos Abbott
+      <text>Carlos Abbott</text>
+    </option>
+    <option>
+      Miriam Wagner
+      <text>Miriam Wagner</text>
+    </option>
+    <option>
+      Bradley Wilkerson
+      <text>Bradley Wilkerson</text>
+    </option>
+    <option>
+      Virginia Andrews
+      <text>Virginia Andrews</text>
+    </option>
+    <option>
+      Kelly Snyder
+      <text>Kelly Snyder</text>
+    </option>
+  </listbox>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Controlled open select
+    <link></link>
+    <text>Controlled open select</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN THE SELECT
+    <text>OPEN THE SELECT</text>
+  </button>
+  <label>
+    Age
+    <text>Age</text>
+  </label>
+  <statictext> </statictext>
+  <button haspopup="true">
+    Age ​<text>​</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    With a dialog
+    <link></link>
+    <text>With a dialog</text>
+  </heading>
+  <paragraph>
+    <text>
+      While it's discouraged by the Material Design specification, you can
+      use a select inside a dialog.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN SELECT DIALOG
+    <text>OPEN SELECT DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Grouping
+    <link></link>
+    <text>Grouping</text>
+  </heading>
+  <paragraph>
+    <text>
+      Display categories with the ListSubheader component or the native
+      <optgroup> element.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Grouping
+    <text>Grouping</text>
+  </label>
+  <statictext> </statictext>
+  <combobox haspopup="true" value="None">
+    Grouping
+    <MenuListPopup>
+      <menuitem selected="true">None</menuitem>
+      <group>
+        Category 1<statictext>Category 1</statictext>
+        <menuitem level="2">
+          Option 1<text>Option 1</text>
+        </menuitem>
+        <menuitem level="2">
+          Option 2<text>Option 2</text>
+        </menuitem>
+      </group>
+      <group>
+        Category 2<statictext>Category 2</statictext>
+        <menuitem level="2">
+          Option 3<text>Option 3</text>
+        </menuitem>
+        <menuitem level="2">
+          Option 4<text>Option 4</text>
+        </menuitem>
+      </group>
+    </MenuListPopup>
+  </combobox>
+  <label>
+    Grouping
+    <text>Grouping</text>
+  </label>
+  <statictext> </statictext>
+  <button haspopup="true">
+    ​<text>​</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Accessibility
+    <link></link>
+    <text>Accessibility</text>
+  </heading>
+  <paragraph>
+    <text>
+      To properly label your Select input you need an extra element with an id
+      that contains a label. That id needs to match the labelId of the Select
+      e.g.
+    </text>
+  </paragraph>
+  <text>
+    <InputLabel id="label">Age</InputLabel> <Select
+    labelId="label" id="select" value="20">
+    <MenuItem value="10">Ten</MenuItem> <MenuItem
+    value="20">Twenty</MenuItem> </Select>
+  </text>
+  <paragraph>
+    <text>
+      Alternatively a TextField with an id and label creates the proper markup
+      and ids for you:
+    </text>
+  </paragraph>
+  <text>
+    <TextField id="select" label="Age"
+    value="20" select> <MenuItem
+    value="10">Ten</MenuItem> <MenuItem
+    value="20">Twenty</MenuItem> </TextField>
+  </text>
+  <paragraph>
+    <text>For a</text>
+    <link>native select</link>
+    <text>
+      , you should mention a label by giving the value of the id attribute of
+      the select element to the InputLabel's htmlFor attribute:
+    </text>
+  </paragraph>
+  <text>
+    <InputLabel htmlFor="select">Age</InputLabel>
+    <NativeSelect id="select"> <option
+    value="10">Ten</option> <option
+    value="20">Twenty</option> </NativeSelect>
+  </text>
+  <heading level="2">
+    API
+    <link></link>
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem>
+      <NativeSelect />
+      <link><NativeSelect /></link>
+    </listitem>
+    <listitem>
+      <Select />
+      <link><Select /></link>
+    </listitem>
+  </list>
+  <separator></separator>
+  <link>Rating</link>
+  <group>
+    Was this page helpful?
+    <text>Was this page helpful?</text>
+    <togglebutton>Yes</togglebutton>
+    <togglebutton>No</togglebutton>
+  </group>
+  <link>Slider</link>
+</landmark>;
+
+`;
+
+exports[`firefox /components/slider 2`] = `
+<landmark>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
     Slider
     <text>Slider</text>
   </heading>
