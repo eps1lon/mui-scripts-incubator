@@ -155,6 +155,10 @@ exports[`chromium / 1`] = `
       canadacasino
       <img>canadacasino</img>
     </link>
+    <link>
+      hoodiebees
+      <img>hoodiebees</img>
+    </link>
     <heading level="3">
       There are more!
       <Anchor></Anchor>
@@ -13388,6 +13392,10 @@ exports[`firefox / 1`] = `
     <link>
       canadacasino
       <img value="https://www.canadacasino.ca/">canadacasino</img>
+    </link>
+    <link>
+      hoodiebees
+      <img value="https://hoodiebees.com/">hoodiebees</img>
     </link>
     <heading level="3">
       There are more!
