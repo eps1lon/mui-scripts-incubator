@@ -6081,6 +6081,7 @@ exports[`chromium /components/pickers 1`] = `
     Choose date, selected date is Aug 18, 2014
     <text>08/18/2014</text>
   </textbox>
+  <button>change date</button>
   <Label>
     <text>Time picker</text>
   </Label>
@@ -19246,6 +19247,7 @@ exports[`firefox /components/pickers 1`] = `
     Choose date, selected date is Aug 18, 2014
     <text>08/18/2014</text>
   </textbox>
+  <button>change date</button>
   <label>
     Time picker
     <text>Time picker</text>
