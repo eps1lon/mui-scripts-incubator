@@ -25283,7 +25283,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     </text>
   </paragraph>
   <text>
-    interface InputElement { focus(): void; value?: string; }const
+    interface InputElement { focus(): void; value?: string; } const
     MyInputComponent = React.forwardRef((props, ref) => { const {
     component: Component, ...other } = props; // implement \`InputElement\`
     interface React.useImperativeHandle(ref, () => ({ focus: () =>
