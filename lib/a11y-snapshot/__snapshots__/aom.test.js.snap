@@ -27,9 +27,8 @@ exports[`chromium / 1`] = `
     </heading>
     <paragraph>
       <text>
-        Material-UI is a simple and customizable component library to build
-        faster, beautiful, and more accessible React applications. Follow your
-        own design system, or start with Material Design.
+        React components for faster and simpler web development. Build your own
+        design system, or start with Material Design.
       </text>
     </paragraph>
     <link>GET STARTED</link>
@@ -13258,9 +13257,8 @@ exports[`firefox / 1`] = `
     </heading>
     <paragraph>
       <text>
-        Material-UI is a simple and customizable component library to build
-        faster, beautiful, and more accessible React applications. Follow your
-        own design system, or start with Material Design.
+        React components for faster and simpler web development. Build your own
+        design system, or start with Material Design.
       </text>
     </paragraph>
     <link>GET STARTED</link>
