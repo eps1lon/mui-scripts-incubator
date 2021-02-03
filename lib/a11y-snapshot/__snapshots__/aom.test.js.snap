@@ -27,9 +27,8 @@ exports[`chromium / 1`] = `
     </heading>
     <paragraph>
       <text>
-        Material-UI is a simple and customizable component library to build
-        faster, beautiful, and more accessible React applications. Follow your
-        own design system, or start with Material Design.
+        React components for faster and simpler web development. Build your own
+        design system, or start with Material Design.
       </text>
     </paragraph>
     <link>GET STARTED</link>
@@ -10630,12 +10629,12 @@ exports[`chromium /components/text-fields/ 1`] = `
   <Label>
     <text>With a start adornment</text>
   </Label>
-  <text> </text>
+  <text> ​</text>
   <textbox>With a start adornment</textbox>
   <Label>
     <text>TextField</text>
   </Label>
-  <text> </text>
+  <text> ​</text>
   <textbox>TextField</textbox>
   <Label>
     <text>With a grid</text>
@@ -13258,9 +13257,8 @@ exports[`firefox / 1`] = `
     </heading>
     <paragraph>
       <text>
-        Material-UI is a simple and customizable component library to build
-        faster, beautiful, and more accessible React applications. Follow your
-        own design system, or start with Material Design.
+        React components for faster and simpler web development. Build your own
+        design system, or start with Material Design.
       </text>
     </paragraph>
     <link>GET STARTED</link>
@@ -24241,12 +24239,14 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>With a start adornment</text>
   </label>
   <statictext> </statictext>
+  <text>​</text>
   <textbox>With a start adornment</textbox>
   <label>
     TextField
     <text>TextField</text>
   </label>
   <statictext> </statictext>
+  <text>​</text>
   <textbox>TextField</textbox>
   <label>
     With a grid
