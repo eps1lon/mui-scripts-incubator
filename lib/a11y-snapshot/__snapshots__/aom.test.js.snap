@@ -10630,12 +10630,12 @@ exports[`chromium /components/text-fields/ 1`] = `
   <Label>
     <text>With a start adornment</text>
   </Label>
-  <text> </text>
+  <text> ​</text>
   <textbox>With a start adornment</textbox>
   <Label>
     <text>TextField</text>
   </Label>
-  <text> </text>
+  <text> ​</text>
   <textbox>TextField</textbox>
   <Label>
     <text>With a grid</text>
@@ -24241,12 +24241,14 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>With a start adornment</text>
   </label>
   <statictext> </statictext>
+  <text>​</text>
   <textbox>With a start adornment</textbox>
   <label>
     TextField
     <text>TextField</text>
   </label>
   <statictext> </statictext>
+  <text>​</text>
   <textbox>TextField</textbox>
   <label>
     With a grid
