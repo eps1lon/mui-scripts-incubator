@@ -12309,6 +12309,34 @@ exports[`chromium /components/tooltips/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
+    Image tooltips
+    <Anchor></Anchor>
+    <text>Image tooltips</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can also include images within tooltips in cases where you wish to
+      show an enlarged version.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <img>Remy Sharp</img>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
     Virtual element
     <Anchor></Anchor>
     <text>Virtual element</text>
@@ -25957,6 +25985,36 @@ exports[`firefox /components/tooltips/ 1`] = `
     followCursor> <Box sx={{ bgcolor: 'text.disabled',
     color: 'background.paper', p: 2 }}> Disabled Action
     </Box> </Tooltip>
+  </text>
+  <heading level="2">
+    Image tooltips
+    <link></link>
+    <text>Image tooltips</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can also include images within tooltips in cases where you wish to
+      show an enlarged version.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <img>Remy Sharp</img>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tooltip placement="left" title={img}> <Avatar
+    alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+    </Tooltip>
   </text>
   <heading level="2">
     Virtual element
