@@ -2704,7 +2704,9 @@ exports[`chromium /components/button-group/ 1`] = `
     <text>Basic button group</text>
   </heading>
   <paragraph>
-    <text>The standard Button variants are supported.</text>
+    <text>The buttons can be grouped by wrapping them with the</text>
+    <code>$SOME_CODE</code>
+    <text>component. They need to be immediate children.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -2725,8 +2727,32 @@ exports[`chromium /components/button-group/ 1`] = `
       <text>THREE</text>
     </button>
   </group>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Button variants
+    <Anchor></Anchor>
+    <text>Button variants</text>
+  </heading>
+  <paragraph>
+    <text>All the standard button variants are supported.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
   <group>
-    contained primary button group
+    outlined button group
     <button>
       ONE
       <text>ONE</text>
@@ -2741,7 +2767,7 @@ exports[`chromium /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    text primary button group
+    text button group
     <button>
       ONE
       <text>ONE</text>
@@ -2757,13 +2783,16 @@ exports[`chromium /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Sizes and colors
     <Anchor></Anchor>
@@ -2774,14 +2803,16 @@ exports[`chromium /components/button-group/ 1`] = `
     <code>$SOME_CODE</code>
     <text>and</text>
     <code>$SOME_CODE</code>
-    <text>props can be used to control the appearance of the ButtonGroup.</text>
+    <text>
+      props can be used to control the appearance of the button group.
+    </text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
   <group>
-    small outlined button group
+    small button group
     <button>
       ONE
       <text>ONE</text>
@@ -2796,7 +2827,7 @@ exports[`chromium /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    outlined secondary button group
+    medium secondary button group
     <button>
       ONE
       <text>ONE</text>
@@ -2811,7 +2842,7 @@ exports[`chromium /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    large outlined primary button group
+    large button group
     <button>
       ONE
       <text>ONE</text>
@@ -2827,20 +2858,23 @@ exports[`chromium /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Vertical group
     <Anchor></Anchor>
     <text>Vertical group</text>
   </heading>
   <paragraph>
-    <text>The ButtonGroup can be displayed veritcally using the</text>
+    <text>The button group can be displayed vertically using the</text>
     <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
@@ -2849,7 +2883,7 @@ exports[`chromium /components/button-group/ 1`] = `
     navigation of our components.
   </button>
   <group>
-    vertical outlined primary button group
+    vertical outlined button group
     <button>
       ONE
       <text>ONE</text>
@@ -2864,7 +2898,7 @@ exports[`chromium /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    vertical contained primary button group
+    vertical contained button group
     <button>
       ONE
       <text>ONE</text>
@@ -2879,7 +2913,7 @@ exports[`chromium /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    vertical contained primary button group
+    vertical contained button group
     <button>
       ONE
       <text>ONE</text>
@@ -2911,7 +2945,7 @@ exports[`chromium /components/button-group/ 1`] = `
     <code>$SOME_CODE</code>
     <text>
       can also be used to create a split button. The dropdown can change the
-      button action (as in this example), or be used to immediately trigger a
+      button action (as in this example) or be used to immediately trigger a
       related action.
     </text>
   </paragraph>
@@ -15578,7 +15612,10 @@ exports[`firefox /components/button-group/ 1`] = `
     <text>Basic button group</text>
   </heading>
   <paragraph>
-    <text>The standard Button variants are supported.</text>
+    <text>
+      The buttons can be grouped by wrapping them with the ButtonGroup
+      component. They need to be immediate children.
+    </text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -15599,8 +15636,35 @@ exports[`firefox /components/button-group/ 1`] = `
       <text>THREE</text>
     </button>
   </group>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <ButtonGroup variant="contained" aria-label="outlined
+    primary button group"> <Button>One</Button>
+    <Button>Two</Button> <Button>Three</Button>
+    </ButtonGroup>
+  </text>
+  <heading level="2">
+    Button variants
+    <link></link>
+    <text>Button variants</text>
+  </heading>
+  <paragraph>
+    <text>All the standard button variants are supported.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
   <group>
-    contained primary button group
+    outlined button group
     <button>
       ONE
       <text>ONE</text>
@@ -15615,7 +15679,7 @@ exports[`firefox /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    text primary button group
+    text button group
     <button>
       ONE
       <text>ONE</text>
@@ -15631,13 +15695,22 @@ exports[`firefox /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <ButtonGroup variant="outlined" aria-label="outlined
+    button group"> <Button>One</Button>
+    <Button>Two</Button> <Button>Three</Button>
+    </ButtonGroup> <ButtonGroup variant="text"
+    aria-label="text button group">
+    <Button>One</Button> <Button>Two</Button>
+    <Button>Three</Button> </ButtonGroup>
+  </text>
   <heading level="2">
     Sizes and colors
     <link></link>
@@ -15646,7 +15719,7 @@ exports[`firefox /components/button-group/ 1`] = `
   <paragraph>
     <text>
       The size and color props can be used to control the appearance of the
-      ButtonGroup.
+      button group.
     </text>
   </paragraph>
   <button>
@@ -15654,7 +15727,7 @@ exports[`firefox /components/button-group/ 1`] = `
     navigation of our components.
   </button>
   <group>
-    small outlined button group
+    small button group
     <button>
       ONE
       <text>ONE</text>
@@ -15669,7 +15742,7 @@ exports[`firefox /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    outlined secondary button group
+    medium secondary button group
     <button>
       ONE
       <text>ONE</text>
@@ -15684,7 +15757,7 @@ exports[`firefox /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    large outlined primary button group
+    large button group
     <button>
       ONE
       <text>ONE</text>
@@ -15700,13 +15773,21 @@ exports[`firefox /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <ButtonGroup size="small" aria-label="small button
+    group"> {buttons} </ButtonGroup> <ButtonGroup
+    color="secondary" aria-label="medium secondary button
+    group"> {buttons} </ButtonGroup> <ButtonGroup
+    size="large" aria-label="large button group">
+    {buttons} </ButtonGroup>
+  </text>
   <heading level="2">
     Vertical group
     <link></link>
@@ -15714,7 +15795,7 @@ exports[`firefox /components/button-group/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      The ButtonGroup can be displayed veritcally using the orientation prop.
+      The button group can be displayed vertically using the orientation prop.
     </text>
   </paragraph>
   <button>
@@ -15722,7 +15803,7 @@ exports[`firefox /components/button-group/ 1`] = `
     navigation of our components.
   </button>
   <group>
-    vertical outlined primary button group
+    vertical outlined button group
     <button>
       ONE
       <text>ONE</text>
@@ -15737,7 +15818,7 @@ exports[`firefox /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    vertical contained primary button group
+    vertical contained button group
     <button>
       ONE
       <text>ONE</text>
@@ -15752,7 +15833,7 @@ exports[`firefox /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    vertical contained primary button group
+    vertical contained button group
     <button>
       ONE
       <text>ONE</text>
@@ -15783,7 +15864,7 @@ exports[`firefox /components/button-group/ 1`] = `
   <paragraph>
     <text>
       ButtonGroup can also be used to create a split button. The dropdown can
-      change the button action (as in this example), or be used to immediately
+      change the button action (as in this example) or be used to immediately
       trigger a related action.
     </text>
   </paragraph>
@@ -15840,9 +15921,9 @@ exports[`firefox /components/button-group/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <ButtonGroup disableElevation variant="contained"
-    color="primary"> <Button>One</Button>
-    <Button>Two</Button> </ButtonGroup>
+    <ButtonGroup disableElevation variant="contained">
+    <Button>One</Button> <Button>Two</Button>
+    </ButtonGroup>
   </text>
   <heading level="2">
     API
