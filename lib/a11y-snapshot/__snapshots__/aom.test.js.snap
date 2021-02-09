@@ -6124,9 +6124,9 @@ exports[`chromium /components/pickers 1`] = `
     <text>Time picker</text>
   </Label>
   <text> </text>
-  <textbox value="09:11 PM">
+  <textbox value="09:11 pm">
     hh:mm (a|p)m
-    <text>09:11 PM</text>
+    <text>09:11 pm</text>
   </textbox>
   <button>change time</button>
   <paragraph>
@@ -19342,9 +19342,9 @@ exports[`firefox /components/pickers 1`] = `
     <text>Time picker</text>
   </label>
   <statictext> </statictext>
-  <textbox value="09:11 PM">
+  <textbox value="09:11 pm">
     hh:mm (a|p)m
-    <text>09:11 PM</text>
+    <text>09:11 pm</text>
   </textbox>
   <button>change time</button>
   <paragraph>
