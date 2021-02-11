@@ -1771,8 +1771,8 @@ exports[`chromium /api/select/ 1`] = `
         Callback fired when a menu item is selected. Signature: function(event:
         object, child?: object) => void event: The event source of the
         callback. You can pull out the new value by accessing event.target.value
-        (any). child: The react element that was selected when native is false
-        (default).
+        (any). Warning: This is a generic event not a change event. child: The
+        react element that was selected when native is false (default).
         <text>Callback fired when a menu item is selected.</text>
         <LineBreak></LineBreak>
         <LineBreak></LineBreak>
@@ -1785,7 +1785,7 @@ exports[`chromium /api/select/ 1`] = `
           by accessing
         </text>
         <code>$SOME_CODE</code>
-        <text>(any).</text>
+        <text>(any).Warning: This is a generic event not a change event.</text>
         <LineBreak></LineBreak>
         <text>child:The react element that was selected when</text>
         <code>$SOME_CODE</code>
@@ -2704,9 +2704,7 @@ exports[`chromium /components/button-group/ 1`] = `
     <text>Basic button group</text>
   </heading>
   <paragraph>
-    <text>The buttons can be grouped by wrapping them with the</text>
-    <code>$SOME_CODE</code>
-    <text>component. They need to be immediate children.</text>
+    <text>The standard Button variants are supported.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -2727,32 +2725,8 @@ exports[`chromium /components/button-group/ 1`] = `
       <text>THREE</text>
     </button>
   </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
-    Button variants
-    <Anchor></Anchor>
-    <text>Button variants</text>
-  </heading>
-  <paragraph>
-    <text>All the standard button variants are supported.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
   <group>
-    outlined button group
+    contained primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -2767,7 +2741,7 @@ exports[`chromium /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    text button group
+    text primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -2783,16 +2757,13 @@ exports[`chromium /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Sizes and colors
     <Anchor></Anchor>
@@ -2803,16 +2774,14 @@ exports[`chromium /components/button-group/ 1`] = `
     <code>$SOME_CODE</code>
     <text>and</text>
     <code>$SOME_CODE</code>
-    <text>
-      props can be used to control the appearance of the button group.
-    </text>
+    <text>props can be used to control the appearance of the ButtonGroup.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
   <group>
-    small button group
+    small outlined button group
     <button>
       ONE
       <text>ONE</text>
@@ -2827,7 +2796,7 @@ exports[`chromium /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    medium secondary button group
+    outlined secondary button group
     <button>
       ONE
       <text>ONE</text>
@@ -2842,7 +2811,7 @@ exports[`chromium /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    large button group
+    large outlined primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -2858,23 +2827,20 @@ exports[`chromium /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Vertical group
     <Anchor></Anchor>
     <text>Vertical group</text>
   </heading>
   <paragraph>
-    <text>The button group can be displayed vertically using the</text>
+    <text>The ButtonGroup can be displayed veritcally using the</text>
     <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
@@ -2883,7 +2849,7 @@ exports[`chromium /components/button-group/ 1`] = `
     navigation of our components.
   </button>
   <group>
-    vertical outlined button group
+    vertical outlined primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -2898,7 +2864,7 @@ exports[`chromium /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    vertical contained button group
+    vertical contained primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -2913,7 +2879,7 @@ exports[`chromium /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    vertical contained button group
+    vertical contained primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -2945,7 +2911,7 @@ exports[`chromium /components/button-group/ 1`] = `
     <code>$SOME_CODE</code>
     <text>
       can also be used to create a split button. The dropdown can change the
-      button action (as in this example) or be used to immediately trigger a
+      button action (as in this example), or be used to immediately trigger a
       related action.
     </text>
   </paragraph>
@@ -6124,9 +6090,9 @@ exports[`chromium /components/pickers 1`] = `
     <text>Time picker</text>
   </Label>
   <text> </text>
-  <textbox value="09:11 pm">
+  <textbox value="09:11 PM">
     hh:mm (a|p)m
-    <text>09:11 pm</text>
+    <text>09:11 PM</text>
   </textbox>
   <button>change time</button>
   <paragraph>
@@ -6339,6 +6305,369 @@ exports[`chromium /components/pickers 1`] = `
 `;
 
 exports[`chromium /components/radio-buttons 1`] = `
+<main>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
+    Checkbox
+    <text>Checkbox</text>
+  </heading>
+  <paragraph>
+    <text>
+      Checkboxes allow the user to select one or more items from a set.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>Checkboxes can be used to turn an option on or off.</text>
+  </paragraph>
+  <paragraph>
+    <text>
+      If you have multiple options appearing in a list, you can preserve space
+      by using checkboxes instead of on/off switches. If you have a single
+      option, avoid using a checkbox and use an on/off switch instead.
+    </text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <link>Feedback</link>
+    </listitem>
+    <listitem level="1">
+      <link>WAI-ARIA</link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>Material Design</link>
+    </listitem>
+    <listitem level="1">
+      <link>Figma</link>
+    </listitem>
+    <listitem level="1">
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Basic checkboxes
+    <Anchor></Anchor>
+    <text>Basic checkboxes</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">primary checkbox</checkbox>
+  <checkbox checked="true">secondary checkbox</checkbox>
+  <checkbox checked="false">uncontrolled-checkbox</checkbox>
+  <checkbox checked="false" disabled="true">
+    disabled checkbox
+  </checkbox>
+  <checkbox checked="true" disabled="true">
+    disabled checked checkbox
+  </checkbox>
+  <checkbox checked="true">indeterminate checkbox</checkbox>
+  <checkbox checked="true">checkbox with default color</checkbox>
+  <checkbox checked="true">checkbox with small size</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Indeterminate
+    <Anchor></Anchor>
+    <text>Indeterminate</text>
+  </heading>
+  <paragraph>
+    <text>
+      A checkbox input can only have two states in a form: checked or unchecked.
+      It either submits its value or doesn't. Visually, there are actually
+      three states a checkbox can be in: checked, unchecked, or indeterminate.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="false">Parent</checkbox>
+  <checkbox checked="true">Child 1</checkbox>
+  <checkbox checked="false">Child 2</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Label
+    <Anchor></Anchor>
+    <text>Label</text>
+  </heading>
+  <paragraph>
+    <code>$SOME_CODE</code>
+    <text>can be provided with a label thanks to the</text>
+    <code>$SOME_CODE</code>
+    <text>component.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Secondary</checkbox>
+  <checkbox checked="true">Primary</checkbox>
+  <checkbox checked="false">Uncontrolled</checkbox>
+  <checkbox checked="false" disabled="true">
+    Disabled
+  </checkbox>
+  <checkbox checked="true" disabled="true">
+    Disabled
+  </checkbox>
+  <checkbox checked="true">Indeterminate</checkbox>
+  <checkbox checked="true">Custom color</checkbox>
+  <checkbox checked="false">Custom icon</checkbox>
+  <checkbox checked="false">Custom size</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    FormGroup
+    <Anchor></Anchor>
+    <text>FormGroup</text>
+  </heading>
+  <paragraph>
+    <code>$SOME_CODE</code>
+    <text>
+      is a helpful wrapper used to group selection controls components that
+      provides an easier API.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <group>
+    Assign responsibility
+    <Legend>
+      <text>Assign responsibility</text>
+    </Legend>
+    <checkbox checked="true">Gilad Gray</checkbox>
+    <checkbox checked="false">Jason Killian</checkbox>
+    <checkbox checked="false">Antoine Llorca</checkbox>
+    <paragraph>
+      <text>Be careful</text>
+    </paragraph>
+  </group>
+  <group>
+    Pick two
+    <Legend>
+      <text>Pick two</text>
+    </Legend>
+    <checkbox checked="true">Gilad Gray</checkbox>
+    <checkbox checked="false">Jason Killian</checkbox>
+    <checkbox checked="false">Antoine Llorca</checkbox>
+    <paragraph>
+      <text>You can display an error</text>
+    </paragraph>
+  </group>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Label placement
+    <Anchor></Anchor>
+    <text>Label placement</text>
+  </heading>
+  <paragraph>
+    <text>You can change the placement of the label:</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <group>
+    Label Placement
+    <Legend>
+      <text>Label Placement</text>
+    </Legend>
+    <checkbox checked="false">Top</checkbox>
+    <checkbox checked="false">Start</checkbox>
+    <checkbox checked="false">Bottom</checkbox>
+    <checkbox checked="false">End</checkbox>
+  </group>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Customized checkbox
+    <Anchor></Anchor>
+    <text>Customized checkbox</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here is an example of customizing the component. You can learn more about
+      this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="false">decorative checkbox</checkbox>
+  <checkbox checked="true">decorative checkbox</checkbox>
+  <checkbox checked="false" disabled="true">
+    decorative checkbox
+  </checkbox>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <paragraph>
+    <text>🎨 If you are looking for inspiration, you can check</text>
+    <link>MUI Treasury's customization examples</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    When to use
+    <Anchor></Anchor>
+    <text>When to use</text>
+  </heading>
+  <list>
+    <listitem level="1">
+      <link>Checkboxes vs. Radio Buttons</link>
+    </listitem>
+    <listitem level="1">
+      <link>Checkboxes vs. Switches</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Accessibility
+    <Anchor></Anchor>
+    <text>Accessibility</text>
+  </heading>
+  <paragraph>
+    <text>(WAI-ARIA:</text>
+    <link>https://www.w3.org/TR/wai-aria-practices/#checkbox</link>
+    <text>)</text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <text>
+        All form controls should have labels, and this includes radio buttons,
+        checkboxes, and switches. In most cases, this is done by using the
+      </text>
+      <code>$SOME_CODE</code>
+      <text>element (</text>
+      <link>FormControlLabel</link>
+      <text>).</text>
+    </listitem>
+    <listitem level="1">
+      <text>
+        When a label can't be used, it's necessary to add an attribute
+        directly to the input component. In this case, you can apply the
+        additional attribute (e.g.
+      </text>
+      <code>$SOME_CODE</code>
+      <text>,</text>
+      <code>$SOME_CODE</code>
+      <text>,</text>
+      <code>$SOME_CODE</code>
+      <text>) via the</text>
+      <code>$SOME_CODE</code>
+      <text>prop.</text>
+    </listitem>
+  </list>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    API
+    <Anchor></Anchor>
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem level="1">
+      <link>
+        <Checkbox />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <FormControl />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <FormControlLabel />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <FormGroup />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <FormLabel />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+  </list>
+  <FooterAsNonLandmark>
+    <separator orientation="horizontal"></separator>
+    <link>Button Group</link>
+    <group>
+      Was this page helpful?
+      <text>Was this page helpful?</text>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
+    <link>Floating Action Button</link>
+  </FooterAsNonLandmark>
+</main>;
+
+`;
+
+exports[`chromium /components/radio-buttons 2`] = `
 <main>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
@@ -14730,7 +15059,8 @@ exports[`firefox /api/select/ 1`] = `
         <whitespace></whitespace>
         <text>
           event: The event source of the callback. You can pull out the new
-          value by accessing event.target.value (any).
+          value by accessing event.target.value (any). Warning: This is a
+          generic event not a change event.
         </text>
         <whitespace></whitespace>
         <text>
@@ -15612,10 +15942,7 @@ exports[`firefox /components/button-group/ 1`] = `
     <text>Basic button group</text>
   </heading>
   <paragraph>
-    <text>
-      The buttons can be grouped by wrapping them with the ButtonGroup
-      component. They need to be immediate children.
-    </text>
+    <text>The standard Button variants are supported.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -15636,35 +15963,8 @@ exports[`firefox /components/button-group/ 1`] = `
       <text>THREE</text>
     </button>
   </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <ButtonGroup variant="contained" aria-label="outlined
-    primary button group"> <Button>One</Button>
-    <Button>Two</Button> <Button>Three</Button>
-    </ButtonGroup>
-  </text>
-  <heading level="2">
-    Button variants
-    <link></link>
-    <text>Button variants</text>
-  </heading>
-  <paragraph>
-    <text>All the standard button variants are supported.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
   <group>
-    outlined button group
+    contained primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -15679,7 +15979,7 @@ exports[`firefox /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    text button group
+    text primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -15695,22 +15995,13 @@ exports[`firefox /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <ButtonGroup variant="outlined" aria-label="outlined
-    button group"> <Button>One</Button>
-    <Button>Two</Button> <Button>Three</Button>
-    </ButtonGroup> <ButtonGroup variant="text"
-    aria-label="text button group">
-    <Button>One</Button> <Button>Two</Button>
-    <Button>Three</Button> </ButtonGroup>
-  </text>
   <heading level="2">
     Sizes and colors
     <link></link>
@@ -15719,7 +16010,7 @@ exports[`firefox /components/button-group/ 1`] = `
   <paragraph>
     <text>
       The size and color props can be used to control the appearance of the
-      button group.
+      ButtonGroup.
     </text>
   </paragraph>
   <button>
@@ -15727,7 +16018,7 @@ exports[`firefox /components/button-group/ 1`] = `
     navigation of our components.
   </button>
   <group>
-    small button group
+    small outlined button group
     <button>
       ONE
       <text>ONE</text>
@@ -15742,7 +16033,7 @@ exports[`firefox /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    medium secondary button group
+    outlined secondary button group
     <button>
       ONE
       <text>ONE</text>
@@ -15757,7 +16048,7 @@ exports[`firefox /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    large button group
+    large outlined primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -15773,21 +16064,13 @@ exports[`firefox /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <ButtonGroup size="small" aria-label="small button
-    group"> {buttons} </ButtonGroup> <ButtonGroup
-    color="secondary" aria-label="medium secondary button
-    group"> {buttons} </ButtonGroup> <ButtonGroup
-    size="large" aria-label="large button group">
-    {buttons} </ButtonGroup>
-  </text>
   <heading level="2">
     Vertical group
     <link></link>
@@ -15795,7 +16078,7 @@ exports[`firefox /components/button-group/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      The button group can be displayed vertically using the orientation prop.
+      The ButtonGroup can be displayed veritcally using the orientation prop.
     </text>
   </paragraph>
   <button>
@@ -15803,7 +16086,7 @@ exports[`firefox /components/button-group/ 1`] = `
     navigation of our components.
   </button>
   <group>
-    vertical outlined button group
+    vertical outlined primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -15818,7 +16101,7 @@ exports[`firefox /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    vertical contained button group
+    vertical contained primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -15833,7 +16116,7 @@ exports[`firefox /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    vertical contained button group
+    vertical contained primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -15864,7 +16147,7 @@ exports[`firefox /components/button-group/ 1`] = `
   <paragraph>
     <text>
       ButtonGroup can also be used to create a split button. The dropdown can
-      change the button action (as in this example) or be used to immediately
+      change the button action (as in this example), or be used to immediately
       trigger a related action.
     </text>
   </paragraph>
@@ -15921,9 +16204,9 @@ exports[`firefox /components/button-group/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <ButtonGroup disableElevation variant="contained">
-    <Button>One</Button> <Button>Two</Button>
-    </ButtonGroup>
+    <ButtonGroup disableElevation variant="contained"
+    color="primary"> <Button>One</Button>
+    <Button>Two</Button> </ButtonGroup>
   </text>
   <heading level="2">
     API
@@ -19342,9 +19625,9 @@ exports[`firefox /components/pickers 1`] = `
     <text>Time picker</text>
   </label>
   <statictext> </statictext>
-  <textbox value="09:11 pm">
+  <textbox value="09:11 PM">
     hh:mm (a|p)m
-    <text>09:11 pm</text>
+    <text>09:11 PM</text>
   </textbox>
   <button>change time</button>
   <paragraph>
