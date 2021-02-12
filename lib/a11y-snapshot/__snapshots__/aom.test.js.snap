@@ -1771,8 +1771,8 @@ exports[`chromium /api/select/ 1`] = `
         Callback fired when a menu item is selected. Signature: function(event:
         object, child?: object) => void event: The event source of the
         callback. You can pull out the new value by accessing event.target.value
-        (any). child: The react element that was selected when native is false
-        (default).
+        (any). Warning: This is a generic event not a change event. child: The
+        react element that was selected when native is false (default).
         <text>Callback fired when a menu item is selected.</text>
         <LineBreak></LineBreak>
         <LineBreak></LineBreak>
@@ -1785,7 +1785,7 @@ exports[`chromium /api/select/ 1`] = `
           by accessing
         </text>
         <code>$SOME_CODE</code>
-        <text>(any).</text>
+        <text>(any).Warning: This is a generic event not a change event.</text>
         <LineBreak></LineBreak>
         <text>child:The react element that was selected when</text>
         <code>$SOME_CODE</code>
@@ -14730,7 +14730,8 @@ exports[`firefox /api/select/ 1`] = `
         <whitespace></whitespace>
         <text>
           event: The event source of the callback. You can pull out the new
-          value by accessing event.target.value (any).
+          value by accessing event.target.value (any). Warning: This is a
+          generic event not a change event.
         </text>
         <whitespace></whitespace>
         <text>
