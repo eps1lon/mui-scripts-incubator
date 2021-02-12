@@ -25339,7 +25339,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>react-text-mask</text>
   </label>
   <statictext> </statictext>
-  <textbox value="(1  )    -    ">
+  <textbox value="(1  )    - ���  ">
     react-text-mask
     <text>(1  )    -    </text>
   </textbox>
