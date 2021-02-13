@@ -27,9 +27,8 @@ exports[`chromium / 1`] = `
     </heading>
     <paragraph>
       <text>
-        Material-UI is a simple and customizable component library to build
-        faster, beautiful, and more accessible React applications. Follow your
-        own design system, or start with Material Design.
+        React components for faster and simpler web development. Build your own
+        design system, or start with Material Design.
       </text>
     </paragraph>
     <link>GET STARTED</link>
@@ -156,10 +155,6 @@ exports[`chromium / 1`] = `
       canadacasino
       <img>canadacasino</img>
     </link>
-    <link>
-      hoodiebees
-      <img>hoodiebees</img>
-    </link>
     <heading level="3">
       There are more!
       <Anchor></Anchor>
@@ -260,7 +255,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.25. View versions page.</link>
+      <link>v5.0.0-alpha.24. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -1771,8 +1766,8 @@ exports[`chromium /api/select/ 1`] = `
         Callback fired when a menu item is selected. Signature: function(event:
         object, child?: object) => void event: The event source of the
         callback. You can pull out the new value by accessing event.target.value
-        (any). Warning: This is a generic event not a change event. child: The
-        react element that was selected when native is false (default).
+        (any). child: The react element that was selected when native is false
+        (default).
         <text>Callback fired when a menu item is selected.</text>
         <LineBreak></LineBreak>
         <LineBreak></LineBreak>
@@ -1785,7 +1780,7 @@ exports[`chromium /api/select/ 1`] = `
           by accessing
         </text>
         <code>$SOME_CODE</code>
-        <text>(any).Warning: This is a generic event not a change event.</text>
+        <text>(any).</text>
         <LineBreak></LineBreak>
         <text>child:The react element that was selected when</text>
         <code>$SOME_CODE</code>
@@ -12540,60 +12535,9 @@ exports[`chromium /components/transfer-list 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <list>
-    <listitem level="1">
-      List item 1<checkbox checked="false">List item 1</checkbox>
-      <text>List item 1</text>
-    </listitem>
-    <listitem level="1">
-      List item 2<checkbox checked="false">List item 2</checkbox>
-      <text>List item 2</text>
-    </listitem>
-    <listitem level="1">
-      List item 3<checkbox checked="false">List item 3</checkbox>
-      <text>List item 3</text>
-    </listitem>
-    <listitem level="1">
-      List item 4<checkbox checked="false">List item 4</checkbox>
-      <text>List item 4</text>
-    </listitem>
-    <listitem level="1"></listitem>
-  </list>
-  <button>
-    move all right
-    <text>≫</text>
-  </button>
-  <button disabled="true">
-    move selected right
-    <text>></text>
-  </button>
-  <button disabled="true">
-    move selected left
-    <text><</text>
-  </button>
-  <button>
-    move all left
-    <text>≪</text>
-  </button>
-  <list>
-    <listitem level="1">
-      List item 5<checkbox checked="false">List item 5</checkbox>
-      <text>List item 5</text>
-    </listitem>
-    <listitem level="1">
-      List item 6<checkbox checked="false">List item 6</checkbox>
-      <text>List item 6</text>
-    </listitem>
-    <listitem level="1">
-      List item 7<checkbox checked="false">List item 7</checkbox>
-      <text>List item 7</text>
-    </listitem>
-    <listitem level="1">
-      List item 8<checkbox checked="false">List item 8</checkbox>
-      <text>List item 8</text>
-    </listitem>
-    <listitem level="1"></listitem>
-  </list>
+  <Pre>
+    <text>SyntaxError: The code did not return a JSX element</text>
+  </Pre>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -12618,58 +12562,9 @@ exports[`chromium /components/transfer-list 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="false">all items selected</checkbox>
-  <text>Choices0/4 selected</text>
-  <separator orientation="horizontal"></separator>
-  <list>
-    <listitem level="1">
-      List item 1<checkbox checked="false">List item 1</checkbox>
-      <text>List item 1</text>
-    </listitem>
-    <listitem level="1">
-      List item 2<checkbox checked="false">List item 2</checkbox>
-      <text>List item 2</text>
-    </listitem>
-    <listitem level="1">
-      List item 3<checkbox checked="false">List item 3</checkbox>
-      <text>List item 3</text>
-    </listitem>
-    <listitem level="1">
-      List item 4<checkbox checked="false">List item 4</checkbox>
-      <text>List item 4</text>
-    </listitem>
-    <listitem level="1"></listitem>
-  </list>
-  <button disabled="true">
-    move selected right
-    <text>></text>
-  </button>
-  <button disabled="true">
-    move selected left
-    <text><</text>
-  </button>
-  <checkbox checked="false">all items selected</checkbox>
-  <text>Chosen0/4 selected</text>
-  <separator orientation="horizontal"></separator>
-  <list>
-    <listitem level="1">
-      List item 5<checkbox checked="false">List item 5</checkbox>
-      <text>List item 5</text>
-    </listitem>
-    <listitem level="1">
-      List item 6<checkbox checked="false">List item 6</checkbox>
-      <text>List item 6</text>
-    </listitem>
-    <listitem level="1">
-      List item 7<checkbox checked="false">List item 7</checkbox>
-      <text>List item 7</text>
-    </listitem>
-    <listitem level="1">
-      List item 8<checkbox checked="false">List item 8</checkbox>
-      <text>List item 8</text>
-    </listitem>
-    <listitem level="1"></listitem>
-  </list>
+  <Pre>
+    <text>SyntaxError: The code did not return a JSX element</text>
+  </Pre>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -12770,17 +12665,20 @@ exports[`chromium /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tree>
-    file system navigator
-    <treeitem level="1">
-      Applications
-      <text>Applications</text>
-    </treeitem>
-    <treeitem level="1">
-      Documents
-      <text>Documents</text>
-    </treeitem>
-  </tree>
+  <region>
+    Code Example
+    <tree>
+      file system navigator
+      <treeitem level="1">
+        Applications
+        <text>Applications</text>
+      </treeitem>
+      <treeitem level="1">
+        Documents
+        <text>Documents</text>
+      </treeitem>
+    </tree>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -12802,17 +12700,20 @@ exports[`chromium /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tree multiselectable="true">
-    multi-select
-    <treeitem level="1">
-      Applications
-      <text>Applications</text>
-    </treeitem>
-    <treeitem level="1">
-      Documents
-      <text>Documents</text>
-    </treeitem>
-  </tree>
+  <region>
+    Code Example
+    <tree multiselectable="true">
+      multi-select
+      <treeitem level="1">
+        Applications
+        <text>Applications</text>
+      </treeitem>
+      <treeitem level="1">
+        Documents
+        <text>Documents</text>
+      </treeitem>
+    </tree>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -12834,25 +12735,28 @@ exports[`chromium /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <button>
-    EXPAND ALL
-    <text>EXPAND ALL</text>
-  </button>
-  <button>
-    SELECT ALL
-    <text>SELECT ALL</text>
-  </button>
-  <tree multiselectable="true">
-    controlled
-    <treeitem level="1">
-      Applications
-      <text>Applications</text>
-    </treeitem>
-    <treeitem level="1">
-      Documents
-      <text>Documents</text>
-    </treeitem>
-  </tree>
+  <region>
+    Code Example
+    <button>
+      EXPAND ALL
+      <text>EXPAND ALL</text>
+    </button>
+    <button>
+      SELECT ALL
+      <text>SELECT ALL</text>
+    </button>
+    <tree multiselectable="true">
+      controlled
+      <treeitem level="1">
+        Applications
+        <text>Applications</text>
+      </treeitem>
+      <treeitem level="1">
+        Documents
+        <text>Documents</text>
+      </treeitem>
+    </tree>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -12890,21 +12794,24 @@ exports[`chromium /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tree>
-    rich object
-    <treeitem expanded="true" level="1">
-      Parent
-      <text>Parent</text>
-      <group>
-        <treeitem level="2">
-          Child - 1<text>Child - 1</text>
-        </treeitem>
-        <treeitem level="2">
-          Child - 3<text>Child - 3</text>
-        </treeitem>
-      </group>
-    </treeitem>
-  </tree>
+  <region>
+    Code Example
+    <tree>
+      rich object
+      <treeitem expanded="true" level="1">
+        Parent
+        <text>Parent</text>
+        <group>
+          <treeitem level="2">
+            Child - 1<text>Child - 1</text>
+          </treeitem>
+          <treeitem level="2">
+            Child - 3<text>Child - 3</text>
+          </treeitem>
+        </group>
+      </treeitem>
+    </tree>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -12933,17 +12840,20 @@ exports[`chromium /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tree>
-    icon expansion
-    <treeitem level="1">
-      Applications
-      <text>Applications</text>
-    </treeitem>
-    <treeitem level="1">
-      Documents
-      <text>Documents</text>
-    </treeitem>
-  </tree>
+  <region>
+    Code Example
+    <tree>
+      icon expansion
+      <treeitem level="1">
+        Applications
+        <text>Applications</text>
+      </treeitem>
+      <treeitem level="1">
+        Documents
+        <text>Documents</text>
+      </treeitem>
+    </tree>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -12960,17 +12870,20 @@ exports[`chromium /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tree>
-    icon expansion
-    <treeitem level="1">
-      Applications
-      <text>Applications</text>
-    </treeitem>
-    <treeitem level="1">
-      Documents
-      <text>Documents</text>
-    </treeitem>
-  </tree>
+  <region>
+    Code Example
+    <tree>
+      icon expansion
+      <treeitem level="1">
+        Applications
+        <text>Applications</text>
+      </treeitem>
+      <treeitem level="1">
+        Documents
+        <text>Documents</text>
+      </treeitem>
+    </tree>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -12994,31 +12907,34 @@ exports[`chromium /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tree>
-    customized
-    <treeitem expanded="true" level="1">
-      Main
-      <text>Main</text>
-      <group>
-        <treeitem level="2">
-          Hello
-          <text>Hello</text>
-        </treeitem>
-        <treeitem level="2">
-          Subtree with children
-          <text>Subtree with children</text>
-        </treeitem>
-        <treeitem level="2">
-          World
-          <text>World</text>
-        </treeitem>
-        <treeitem level="2">
-          Something something
-          <text>Something something</text>
-        </treeitem>
-      </group>
-    </treeitem>
-  </tree>
+  <region>
+    Code Example
+    <tree>
+      customized
+      <treeitem expanded="true" level="1">
+        Main
+        <text>Main</text>
+        <group>
+          <treeitem level="2">
+            Hello
+            <text>Hello</text>
+          </treeitem>
+          <treeitem level="2">
+            Subtree with children
+            <text>Subtree with children</text>
+          </treeitem>
+          <treeitem level="2">
+            World
+            <text>World</text>
+          </treeitem>
+          <treeitem level="2">
+            Something something
+            <text>Something something</text>
+          </treeitem>
+        </group>
+      </treeitem>
+    </tree>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -13037,63 +12953,66 @@ exports[`chromium /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tree>
-    gmail
-    <treeitem level="1">
-      All Mail
-      <paragraph>
-        <text>All Mail</text>
-      </paragraph>
-    </treeitem>
-    <treeitem level="1">
-      Trash
-      <paragraph>
-        <text>Trash</text>
-      </paragraph>
-    </treeitem>
-    <treeitem expanded="true" level="1">
-      Categories
-      <paragraph>
-        <text>Categories</text>
-      </paragraph>
-      <group>
-        <treeitem level="2">
-          Social 90
-          <paragraph>
-            <text>Social</text>
-          </paragraph>
-          <text>90</text>
-        </treeitem>
-        <treeitem level="2">
-          Updates 2,294
-          <paragraph>
-            <text>Updates</text>
-          </paragraph>
-          <text>2,294</text>
-        </treeitem>
-        <treeitem level="2">
-          Forums 3,566
-          <paragraph>
-            <text>Forums</text>
-          </paragraph>
-          <text>3,566</text>
-        </treeitem>
-        <treeitem level="2">
-          Promotions 733
-          <paragraph>
-            <text>Promotions</text>
-          </paragraph>
-          <text>733</text>
-        </treeitem>
-      </group>
-    </treeitem>
-    <treeitem level="1">
-      History
-      <paragraph>
-        <text>History</text>
-      </paragraph>
-    </treeitem>
-  </tree>
+  <region>
+    Code Example
+    <tree>
+      gmail
+      <treeitem level="1">
+        All Mail
+        <paragraph>
+          <text>All Mail</text>
+        </paragraph>
+      </treeitem>
+      <treeitem level="1">
+        Trash
+        <paragraph>
+          <text>Trash</text>
+        </paragraph>
+      </treeitem>
+      <treeitem expanded="true" level="1">
+        Categories
+        <paragraph>
+          <text>Categories</text>
+        </paragraph>
+        <group>
+          <treeitem level="2">
+            Social 90
+            <paragraph>
+              <text>Social</text>
+            </paragraph>
+            <text>90</text>
+          </treeitem>
+          <treeitem level="2">
+            Updates 2,294
+            <paragraph>
+              <text>Updates</text>
+            </paragraph>
+            <text>2,294</text>
+          </treeitem>
+          <treeitem level="2">
+            Forums 3,566
+            <paragraph>
+              <text>Forums</text>
+            </paragraph>
+            <text>3,566</text>
+          </treeitem>
+          <treeitem level="2">
+            Promotions 733
+            <paragraph>
+              <text>Promotions</text>
+            </paragraph>
+            <text>733</text>
+          </treeitem>
+        </group>
+      </treeitem>
+      <treeitem level="1">
+        History
+        <paragraph>
+          <text>History</text>
+        </paragraph>
+      </treeitem>
+    </tree>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -13112,22 +13031,25 @@ exports[`chromium /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="false">Focus disabled items</checkbox>
-  <tree multiselectable="true">
-    disabled items
-    <treeitem level="1">
-      One
-      <text>One</text>
-    </treeitem>
-    <treeitem disabled="true" level="1">
-      Five
-      <text>Five</text>
-    </treeitem>
-    <treeitem level="1">
-      Seven
-      <text>Seven</text>
-    </treeitem>
-  </tree>
+  <region>
+    Code Example
+    <checkbox checked="false">Focus disabled items</checkbox>
+    <tree multiselectable="true">
+      disabled items
+      <treeitem level="1">
+        One
+        <text>One</text>
+      </treeitem>
+      <treeitem disabled="true" level="1">
+        Five
+        <text>Five</text>
+      </treeitem>
+      <treeitem level="1">
+        Seven
+        <text>Seven</text>
+      </treeitem>
+    </tree>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -13292,9 +13214,8 @@ exports[`firefox / 1`] = `
     </heading>
     <paragraph>
       <text>
-        Material-UI is a simple and customizable component library to build
-        faster, beautiful, and more accessible React applications. Follow your
-        own design system, or start with Material Design.
+        React components for faster and simpler web development. Build your own
+        design system, or start with Material Design.
       </text>
     </paragraph>
     <link>GET STARTED</link>
@@ -13429,10 +13350,6 @@ exports[`firefox / 1`] = `
       canadacasino
       <img value="https://www.canadacasino.ca/">canadacasino</img>
     </link>
-    <link>
-      hoodiebees
-      <img value="https://hoodiebees.com/">hoodiebees</img>
-    </link>
     <heading level="3">
       There are more!
       <link></link>
@@ -13544,7 +13461,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.25. View versions page.</link>
+      <link>v5.0.0-alpha.24. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -14730,8 +14647,7 @@ exports[`firefox /api/select/ 1`] = `
         <whitespace></whitespace>
         <text>
           event: The event source of the callback. You can pull out the new
-          value by accessing event.target.value (any). Warning: This is a
-          generic event not a change event.
+          value by accessing event.target.value (any).
         </text>
         <whitespace></whitespace>
         <text>
@@ -26221,60 +26137,63 @@ exports[`firefox /components/transfer-list 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <list>
-    <listitem>
-      List item 1<checkbox>List item 1</checkbox>
-      <text>List item 1</text>
-    </listitem>
-    <listitem>
-      List item 2<checkbox>List item 2</checkbox>
-      <text>List item 2</text>
-    </listitem>
-    <listitem>
-      List item 3<checkbox>List item 3</checkbox>
-      <text>List item 3</text>
-    </listitem>
-    <listitem>
-      List item 4<checkbox>List item 4</checkbox>
-      <text>List item 4</text>
-    </listitem>
-    <listitem></listitem>
-  </list>
-  <button>
-    move all right
-    <text>≫</text>
-  </button>
-  <button disabled="true">
-    move selected right
-    <text>></text>
-  </button>
-  <button disabled="true">
-    move selected left
-    <text><</text>
-  </button>
-  <button>
-    move all left
-    <text>≪</text>
-  </button>
-  <list>
-    <listitem>
-      List item 5<checkbox>List item 5</checkbox>
-      <text>List item 5</text>
-    </listitem>
-    <listitem>
-      List item 6<checkbox>List item 6</checkbox>
-      <text>List item 6</text>
-    </listitem>
-    <listitem>
-      List item 7<checkbox>List item 7</checkbox>
-      <text>List item 7</text>
-    </listitem>
-    <listitem>
-      List item 8<checkbox>List item 8</checkbox>
-      <text>List item 8</text>
-    </listitem>
-    <listitem></listitem>
-  </list>
+  <region>
+    Code Example
+    <list>
+      <listitem>
+        List item 1<checkbox>List item 1</checkbox>
+        <text>List item 1</text>
+      </listitem>
+      <listitem>
+        List item 2<checkbox>List item 2</checkbox>
+        <text>List item 2</text>
+      </listitem>
+      <listitem>
+        List item 3<checkbox>List item 3</checkbox>
+        <text>List item 3</text>
+      </listitem>
+      <listitem>
+        List item 4<checkbox>List item 4</checkbox>
+        <text>List item 4</text>
+      </listitem>
+      <listitem></listitem>
+    </list>
+    <button>
+      move all right
+      <text>≫</text>
+    </button>
+    <button disabled="true">
+      move selected right
+      <text>></text>
+    </button>
+    <button disabled="true">
+      move selected left
+      <text><</text>
+    </button>
+    <button>
+      move all left
+      <text>≪</text>
+    </button>
+    <list>
+      <listitem>
+        List item 5<checkbox>List item 5</checkbox>
+        <text>List item 5</text>
+      </listitem>
+      <listitem>
+        List item 6<checkbox>List item 6</checkbox>
+        <text>List item 6</text>
+      </listitem>
+      <listitem>
+        List item 7<checkbox>List item 7</checkbox>
+        <text>List item 7</text>
+      </listitem>
+      <listitem>
+        List item 8<checkbox>List item 8</checkbox>
+        <text>List item 8</text>
+      </listitem>
+      <listitem></listitem>
+    </list>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -26299,58 +26218,61 @@ exports[`firefox /components/transfer-list 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox>all items selected</checkbox>
-  <text>Choices0/4 selected</text>
-  <separator></separator>
-  <list>
-    <listitem>
-      List item 1<checkbox>List item 1</checkbox>
-      <text>List item 1</text>
-    </listitem>
-    <listitem>
-      List item 2<checkbox>List item 2</checkbox>
-      <text>List item 2</text>
-    </listitem>
-    <listitem>
-      List item 3<checkbox>List item 3</checkbox>
-      <text>List item 3</text>
-    </listitem>
-    <listitem>
-      List item 4<checkbox>List item 4</checkbox>
-      <text>List item 4</text>
-    </listitem>
-    <listitem></listitem>
-  </list>
-  <button disabled="true">
-    move selected right
-    <text>></text>
-  </button>
-  <button disabled="true">
-    move selected left
-    <text><</text>
-  </button>
-  <checkbox>all items selected</checkbox>
-  <text>Chosen0/4 selected</text>
-  <separator></separator>
-  <list>
-    <listitem>
-      List item 5<checkbox>List item 5</checkbox>
-      <text>List item 5</text>
-    </listitem>
-    <listitem>
-      List item 6<checkbox>List item 6</checkbox>
-      <text>List item 6</text>
-    </listitem>
-    <listitem>
-      List item 7<checkbox>List item 7</checkbox>
-      <text>List item 7</text>
-    </listitem>
-    <listitem>
-      List item 8<checkbox>List item 8</checkbox>
-      <text>List item 8</text>
-    </listitem>
-    <listitem></listitem>
-  </list>
+  <region>
+    Code Example
+    <checkbox>all items selected</checkbox>
+    <text>Choices0/4 selected</text>
+    <separator></separator>
+    <list>
+      <listitem>
+        List item 1<checkbox>List item 1</checkbox>
+        <text>List item 1</text>
+      </listitem>
+      <listitem>
+        List item 2<checkbox>List item 2</checkbox>
+        <text>List item 2</text>
+      </listitem>
+      <listitem>
+        List item 3<checkbox>List item 3</checkbox>
+        <text>List item 3</text>
+      </listitem>
+      <listitem>
+        List item 4<checkbox>List item 4</checkbox>
+        <text>List item 4</text>
+      </listitem>
+      <listitem></listitem>
+    </list>
+    <button disabled="true">
+      move selected right
+      <text>></text>
+    </button>
+    <button disabled="true">
+      move selected left
+      <text><</text>
+    </button>
+    <checkbox>all items selected</checkbox>
+    <text>Chosen0/4 selected</text>
+    <separator></separator>
+    <list>
+      <listitem>
+        List item 5<checkbox>List item 5</checkbox>
+        <text>List item 5</text>
+      </listitem>
+      <listitem>
+        List item 6<checkbox>List item 6</checkbox>
+        <text>List item 6</text>
+      </listitem>
+      <listitem>
+        List item 7<checkbox>List item 7</checkbox>
+        <text>List item 7</text>
+      </listitem>
+      <listitem>
+        List item 8<checkbox>List item 8</checkbox>
+        <text>List item 8</text>
+      </listitem>
+      <listitem></listitem>
+    </list>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -26446,17 +26368,20 @@ exports[`firefox /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tree>
-    file system navigator
-    <treeitem level="1">
-      Applications
-      <text>Applications</text>
-    </treeitem>
-    <treeitem level="1">
-      Documents
-      <text>Documents</text>
-    </treeitem>
-  </tree>
+  <region>
+    Code Example
+    <tree>
+      file system navigator
+      <treeitem level="1">
+        Applications
+        <text>Applications</text>
+      </treeitem>
+      <treeitem level="1">
+        Documents
+        <text>Documents</text>
+      </treeitem>
+    </tree>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -26478,17 +26403,20 @@ exports[`firefox /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tree multiselectable="true">
-    multi-select
-    <treeitem level="1">
-      Applications
-      <text>Applications</text>
-    </treeitem>
-    <treeitem level="1">
-      Documents
-      <text>Documents</text>
-    </treeitem>
-  </tree>
+  <region>
+    Code Example
+    <tree multiselectable="true">
+      multi-select
+      <treeitem level="1">
+        Applications
+        <text>Applications</text>
+      </treeitem>
+      <treeitem level="1">
+        Documents
+        <text>Documents</text>
+      </treeitem>
+    </tree>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -26510,25 +26438,28 @@ exports[`firefox /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <button>
-    EXPAND ALL
-    <text>EXPAND ALL</text>
-  </button>
-  <button>
-    SELECT ALL
-    <text>SELECT ALL</text>
-  </button>
-  <tree multiselectable="true">
-    controlled
-    <treeitem level="1">
-      Applications
-      <text>Applications</text>
-    </treeitem>
-    <treeitem level="1">
-      Documents
-      <text>Documents</text>
-    </treeitem>
-  </tree>
+  <region>
+    Code Example
+    <button>
+      EXPAND ALL
+      <text>EXPAND ALL</text>
+    </button>
+    <button>
+      SELECT ALL
+      <text>SELECT ALL</text>
+    </button>
+    <tree multiselectable="true">
+      controlled
+      <treeitem level="1">
+        Applications
+        <text>Applications</text>
+      </treeitem>
+      <treeitem level="1">
+        Documents
+        <text>Documents</text>
+      </treeitem>
+    </tree>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -26564,21 +26495,24 @@ exports[`firefox /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tree>
-    rich object
-    <treeitem expanded="true" level="1">
-      Parent
-      <text>Parent</text>
-      <group>
-        <treeitem level="2">
-          Child - 1<text>Child - 1</text>
-        </treeitem>
-        <treeitem level="2">
-          Child - 3<text>Child - 3</text>
-        </treeitem>
-      </group>
-    </treeitem>
-  </tree>
+  <region>
+    Code Example
+    <tree>
+      rich object
+      <treeitem expanded="true" level="1">
+        Parent
+        <text>Parent</text>
+        <group>
+          <treeitem level="2">
+            Child - 1<text>Child - 1</text>
+          </treeitem>
+          <treeitem level="2">
+            Child - 3<text>Child - 3</text>
+          </treeitem>
+        </group>
+      </treeitem>
+    </tree>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -26606,17 +26540,20 @@ exports[`firefox /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tree>
-    icon expansion
-    <treeitem level="1">
-      Applications
-      <text>Applications</text>
-    </treeitem>
-    <treeitem level="1">
-      Documents
-      <text>Documents</text>
-    </treeitem>
-  </tree>
+  <region>
+    Code Example
+    <tree>
+      icon expansion
+      <treeitem level="1">
+        Applications
+        <text>Applications</text>
+      </treeitem>
+      <treeitem level="1">
+        Documents
+        <text>Documents</text>
+      </treeitem>
+    </tree>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -26633,17 +26570,20 @@ exports[`firefox /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tree>
-    icon expansion
-    <treeitem level="1">
-      Applications
-      <text>Applications</text>
-    </treeitem>
-    <treeitem level="1">
-      Documents
-      <text>Documents</text>
-    </treeitem>
-  </tree>
+  <region>
+    Code Example
+    <tree>
+      icon expansion
+      <treeitem level="1">
+        Applications
+        <text>Applications</text>
+      </treeitem>
+      <treeitem level="1">
+        Documents
+        <text>Documents</text>
+      </treeitem>
+    </tree>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -26667,31 +26607,34 @@ exports[`firefox /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tree>
-    customized
-    <treeitem expanded="true" level="1">
-      Main
-      <text>Main</text>
-      <group>
-        <treeitem level="2">
-          Hello
-          <text>Hello</text>
-        </treeitem>
-        <treeitem level="2">
-          Subtree with children
-          <text>Subtree with children</text>
-        </treeitem>
-        <treeitem level="2">
-          World
-          <text>World</text>
-        </treeitem>
-        <treeitem level="2">
-          Something something
-          <text>Something something</text>
-        </treeitem>
-      </group>
-    </treeitem>
-  </tree>
+  <region>
+    Code Example
+    <tree>
+      customized
+      <treeitem expanded="true" level="1">
+        Main
+        <text>Main</text>
+        <group>
+          <treeitem level="2">
+            Hello
+            <text>Hello</text>
+          </treeitem>
+          <treeitem level="2">
+            Subtree with children
+            <text>Subtree with children</text>
+          </treeitem>
+          <treeitem level="2">
+            World
+            <text>World</text>
+          </treeitem>
+          <treeitem level="2">
+            Something something
+            <text>Something something</text>
+          </treeitem>
+        </group>
+      </treeitem>
+    </tree>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -26710,63 +26653,66 @@ exports[`firefox /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tree>
-    gmail
-    <treeitem level="1">
-      All Mail
-      <paragraph>
-        <text>All Mail</text>
-      </paragraph>
-    </treeitem>
-    <treeitem level="1">
-      Trash
-      <paragraph>
-        <text>Trash</text>
-      </paragraph>
-    </treeitem>
-    <treeitem expanded="true" level="1">
-      Categories
-      <paragraph>
-        <text>Categories</text>
-      </paragraph>
-      <group>
-        <treeitem level="2">
-          Social 90
-          <paragraph>
-            <text>Social</text>
-          </paragraph>
-          <text>90</text>
-        </treeitem>
-        <treeitem level="2">
-          Updates 2,294
-          <paragraph>
-            <text>Updates</text>
-          </paragraph>
-          <text>2,294</text>
-        </treeitem>
-        <treeitem level="2">
-          Forums 3,566
-          <paragraph>
-            <text>Forums</text>
-          </paragraph>
-          <text>3,566</text>
-        </treeitem>
-        <treeitem level="2">
-          Promotions 733
-          <paragraph>
-            <text>Promotions</text>
-          </paragraph>
-          <text>733</text>
-        </treeitem>
-      </group>
-    </treeitem>
-    <treeitem level="1">
-      History
-      <paragraph>
-        <text>History</text>
-      </paragraph>
-    </treeitem>
-  </tree>
+  <region>
+    Code Example
+    <tree>
+      gmail
+      <treeitem level="1">
+        All Mail
+        <paragraph>
+          <text>All Mail</text>
+        </paragraph>
+      </treeitem>
+      <treeitem level="1">
+        Trash
+        <paragraph>
+          <text>Trash</text>
+        </paragraph>
+      </treeitem>
+      <treeitem expanded="true" level="1">
+        Categories
+        <paragraph>
+          <text>Categories</text>
+        </paragraph>
+        <group>
+          <treeitem level="2">
+            Social 90
+            <paragraph>
+              <text>Social</text>
+            </paragraph>
+            <text>90</text>
+          </treeitem>
+          <treeitem level="2">
+            Updates 2,294
+            <paragraph>
+              <text>Updates</text>
+            </paragraph>
+            <text>2,294</text>
+          </treeitem>
+          <treeitem level="2">
+            Forums 3,566
+            <paragraph>
+              <text>Forums</text>
+            </paragraph>
+            <text>3,566</text>
+          </treeitem>
+          <treeitem level="2">
+            Promotions 733
+            <paragraph>
+              <text>Promotions</text>
+            </paragraph>
+            <text>733</text>
+          </treeitem>
+        </group>
+      </treeitem>
+      <treeitem level="1">
+        History
+        <paragraph>
+          <text>History</text>
+        </paragraph>
+      </treeitem>
+    </tree>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -26785,26 +26731,29 @@ exports[`firefox /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <label>
-    Focus disabled items
-    <checkbox>Focus disabled items</checkbox>
-    <text>Focus disabled items</text>
-  </label>
-  <tree multiselectable="true">
-    disabled items
-    <treeitem level="1">
-      One
-      <text>One</text>
-    </treeitem>
-    <treeitem disabled="true" level="1">
-      Five
-      <text>Five</text>
-    </treeitem>
-    <treeitem level="1">
-      Seven
-      <text>Seven</text>
-    </treeitem>
-  </tree>
+  <region>
+    Code Example
+    <label>
+      Focus disabled items
+      <checkbox>Focus disabled items</checkbox>
+      <text>Focus disabled items</text>
+    </label>
+    <tree multiselectable="true">
+      disabled items
+      <treeitem level="1">
+        One
+        <text>One</text>
+      </treeitem>
+      <treeitem disabled="true" level="1">
+        Five
+        <text>Five</text>
+      </treeitem>
+      <treeitem level="1">
+        Seven
+        <text>Seven</text>
+      </treeitem>
+    </tree>
+  </region>
   <toolbar>
     demo source
     <button>Show the source</button>
