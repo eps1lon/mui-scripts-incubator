@@ -9,61 +9,274 @@ exports[`chromium /api/select/ 1`] = `Array []`;
 exports[`chromium /components/breadcrumbs 1`] = `
 Array [
   Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
+    "id": "aria-valid-attr-value",
+    "nodes": Array [
+      "button[aria-controls=\\"demoSource-w7mfcz7d8m\\"]",
+      "button[aria-controls=\\"demoSource-ejkhpd38a9\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
+    "id": "label",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(6) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(14) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+    ],
+  },
+  Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
     "nodes": Array [
-      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .MuiBreadcrumbs-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiTypography-root-MuiBreadcrumbs-root[aria-label=\\"breadcrumb\\"]",
+      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .jssREMOVED_UNSTABLE_JSS_COUNTER[role=\\"region\\"][aria-label=\\"Code\\\\ Example\\"]",
+      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .jssREMOVED_UNSTABLE_JSS_COUNTER[role=\\"region\\"][aria-label=\\"Code\\\\ Example\\"] > .MuiBreadcrumbs-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiTypography-root-MuiBreadcrumbs-root[aria-label=\\"breadcrumb\\"]",
     ],
   },
 ]
 `;
 
-exports[`chromium /components/button-group/ 1`] = `Array []`;
+exports[`chromium /components/button-group/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
+    "id": "aria-valid-attr-value",
+    "nodes": Array [
+      "button[aria-controls=\\"demoSource-mgdcen2b24p\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
+    "id": "label",
+    "nodes": Array [
+      ".npm__react-simple-code-editor__textarea",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/buttons/ 1`] = `
 Array [
   Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
-    "id": "aria-progressbar-name",
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
+    "id": "aria-valid-attr-value",
     "nodes": Array [
-      ".MuiLoadingButton-pendingIndicatorCenter.MuiLoadingButton-pendingIndicator > .MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorInherit",
-      ".MuiLoadingButton-pendingIndicatorStart > .MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorInherit",
+      "button[aria-controls=\\"demoSource-3ypr8rsg7fl\\"]",
+      "button[aria-controls=\\"demoSource-y70q63lpn3\\"]",
+      "button[aria-controls=\\"demoSource-63g10muagv6\\"]",
+      "button[aria-controls=\\"demoSource-75qqaaoqsti\\"]",
+      "button[aria-controls=\\"demoSource-96xiznda8c8\\"]",
+      "button[aria-controls=\\"demoSource-jvf80u5xtp\\"]",
+      "button[aria-controls=\\"demoSource-kc2asjxnxdm\\"]",
     ],
   },
   Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/button-name?application=axeAPI",
-    "id": "button-name",
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
+    "id": "label",
     "nodes": Array [
-      ".MuiLoadingButton-pending.Mui-disabled.MuiLoadingButton-root:nth-child(1)",
-      ".MuiLoadingButton-pending.Mui-disabled.MuiLoadingButton-root:nth-child(2)",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(6) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(8) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(10) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(12) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(18) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(20) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(24) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
     ],
   },
 ]
 `;
 
-exports[`chromium /components/checkboxes/ 1`] = `Array []`;
-
-exports[`chromium /components/dialogs/ 1`] = `Array []`;
-
-exports[`chromium /components/pagination/ 1`] = `
+exports[`chromium /components/checkboxes/ 1`] = `
 Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
+    "id": "aria-valid-attr-value",
+    "nodes": Array [
+      "button[aria-controls=\\"demoSource-1c73gqv92n7\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
+    "id": "label",
+    "nodes": Array [
+      ".npm__react-simple-code-editor__textarea",
+    ],
+  },
   Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
     "nodes": Array [
-      ".jssREMOVED_UNSTABLE_JSS_COUNTER > .MuiPagination-text.MuiPagination-root[aria-label=\\"pagination\\\\ navigation\\"]:nth-child(1)",
+      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .jssREMOVED_UNSTABLE_JSS_COUNTER[role=\\"region\\"][aria-label=\\"Code\\\\ Example\\"]",
     ],
   },
 ]
 `;
 
-exports[`chromium /components/pickers 1`] = `Array []`;
+exports[`chromium /components/dialogs/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
+    "id": "aria-valid-attr-value",
+    "nodes": Array [
+      "button[aria-controls=\\"demoSource-fzbfdsdu6f\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
+    "id": "label",
+    "nodes": Array [
+      ".npm__react-simple-code-editor__textarea",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
+    "id": "landmark-unique",
+    "nodes": Array [
+      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .jssREMOVED_UNSTABLE_JSS_COUNTER[role=\\"region\\"][aria-label=\\"Code\\\\ Example\\"]",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/radio-buttons 1`] = `Array []`;
+exports[`chromium /components/pagination/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
+    "id": "aria-valid-attr-value",
+    "nodes": Array [
+      "button[aria-controls=\\"demoSource-u2vlc8za0x\\"]",
+      "button[aria-controls=\\"demoSource-6fvi5g3brkh\\"]",
+      "button[aria-controls=\\"demoSource-0z79nvsy4jn\\"]",
+      "button[aria-controls=\\"demoSource-3g5pzq7hrnq\\"]",
+      "button[aria-controls=\\"demoSource-8lasg1g06u7\\"]",
+      "button[aria-controls=\\"demoSource-6ix3klft4lu\\"]",
+      "button[aria-controls=\\"demoSource-ohd8v5dzh6\\"]",
+      "button[aria-controls=\\"demoSource-dd6ddrhonz\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
+    "id": "label",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(6) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(8) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(10) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(12) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(14) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(16) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(18) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(24) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/rating/ 1`] = `Array []`;
+exports[`chromium /components/pickers 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
+    "id": "aria-valid-attr-value",
+    "nodes": Array [
+      "button[aria-controls=\\"demoSource-4dfv976sd4y\\"]",
+      "button[aria-controls=\\"demoSource-yii5pk1mmyj\\"]",
+      "button[aria-controls=\\"demoSource-48dxf6nxrnf\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
+    "id": "label",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(8) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(10) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(12) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
+    "id": "landmark-unique",
+    "nodes": Array [
+      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .jssREMOVED_UNSTABLE_JSS_COUNTER[role=\\"region\\"][aria-label=\\"Code\\\\ Example\\"]",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/selects/ 1`] = `Array []`;
+exports[`chromium /components/radio-buttons 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
+    "id": "aria-valid-attr-value",
+    "nodes": Array [
+      "button[aria-controls=\\"demoSource-qlazp08hqtn\\"]",
+      "button[aria-controls=\\"demoSource-r5rdoouj85\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
+    "id": "label",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(14) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(16) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
+    "id": "landmark-unique",
+    "nodes": Array [
+      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .jssREMOVED_UNSTABLE_JSS_COUNTER[role=\\"region\\"][aria-label=\\"Code\\\\ Example\\"]",
+    ],
+  },
+]
+`;
+
+exports[`chromium /components/rating/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
+    "id": "aria-valid-attr-value",
+    "nodes": Array [
+      "button[aria-controls=\\"demoSource-pmh99mh0kv\\"]",
+      "button[aria-controls=\\"demoSource-mvijsdajs19\\"]",
+      "button[aria-controls=\\"demoSource-60uk172vay4\\"]",
+      "button[aria-controls=\\"demoSource-wz9jkmwvxyd\\"]",
+      "button[aria-controls=\\"demoSource-cinsgz5uzjd\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
+    "id": "label",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(6) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(8) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(10) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(12) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(16) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+    ],
+  },
+]
+`;
+
+exports[`chromium /components/selects/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
+    "id": "aria-valid-attr-value",
+    "nodes": Array [
+      "button[aria-controls=\\"demoSource-vuifg3s0wer\\"]",
+      "button[aria-controls=\\"demoSource-tz2frew2wcf\\"]",
+      "button[aria-controls=\\"demoSource-sz5pkzq3xf\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
+    "id": "label",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(6) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(12) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(16) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/slider 1`] = `
 Array [
@@ -71,39 +284,187 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
     "id": "aria-valid-attr-value",
     "nodes": Array [
-      "input[aria-labelledby=\\"discrete-slider-small-steps\\"]",
+      "button[aria-controls=\\"demoSource-8qbxcbqq8gw\\"]",
+      "button[aria-controls=\\"demoSource-v1hqeivenu\\"]",
+      "button[aria-controls=\\"demoSource-khfzvovbcth\\"]",
+      "button[aria-controls=\\"demoSource-1ce6oojncdg\\"]",
+      "button[aria-controls=\\"demoSource-d9de118szi8\\"]",
+      "button[aria-controls=\\"demoSource-viiaidb6rd\\"]",
+      "button[aria-controls=\\"demoSource-k1wx6m5pqbs\\"]",
     ],
   },
   Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
     "id": "label",
     "nodes": Array [
-      "input[value=\\"\\\\31 0\\"][aria-orientation=\\"horizontal\\"][aria-valuemax=\\"\\\\31 00\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(10) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(12) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(14) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(16) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(18) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(32) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(34) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
     ],
   },
 ]
 `;
 
-exports[`chromium /components/switches/ 1`] = `Array []`;
+exports[`chromium /components/switches/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
+    "id": "aria-valid-attr-value",
+    "nodes": Array [
+      "button[aria-controls=\\"demoSource-l2321gozay\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
+    "id": "label",
+    "nodes": Array [
+      ".npm__react-simple-code-editor__textarea",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
+    "id": "landmark-unique",
+    "nodes": Array [
+      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .jssREMOVED_UNSTABLE_JSS_COUNTER[role=\\"region\\"][aria-label=\\"Code\\\\ Example\\"]",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/tabs/ 1`] = `
 Array [
   Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
+    "id": "aria-valid-attr-value",
+    "nodes": Array [
+      "button[aria-controls=\\"demoSource-19pccoxbev3j\\"]",
+      "button[aria-controls=\\"demoSource-7oewrr9cmqp\\"]",
+      "button[aria-controls=\\"demoSource-yfsbhzhedln\\"]",
+      "button[aria-controls=\\"demoSource-vswagiivvl\\"]",
+      "button[aria-controls=\\"demoSource-1eaee6k3gmn\\"]",
+      "button[aria-controls=\\"demoSource-0qylf58t9ex\\"]",
+      "button[aria-controls=\\"demoSource-4vqg91fcb9a\\"]",
+      "button[aria-controls=\\"demoSource-or31c5r9xrm\\"]",
+      "button[aria-controls=\\"demoSource-jkksuhbzd3d\\"]",
+    ],
+  },
+  Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/duplicate-id-aria?application=axeAPI",
     "id": "duplicate-id-aria",
     "nodes": Array [
-      "div[aria-labelledby=\\"demo-a11y-tabs-automatic-label\\"] > .Mui-selected.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiTab-root[aria-controls=\\"a11y-tabpanel-0\\"]",
-      "div[aria-labelledby=\\"demo-a11y-tabs-automatic-label\\"] > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiTab-root.MuiTab-textColorInherit[aria-controls=\\"a11y-tabpanel-1\\"]",
-      "div[aria-labelledby=\\"demo-a11y-tabs-automatic-label\\"] > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiTab-root.MuiTab-textColorInherit[aria-controls=\\"a11y-tabpanel-2\\"]",
+      "div[aria-labelledby=\\"demo-a11y-tabs-automatic-label\\"] > .Mui-selected.MuiTab-textColorInherit[aria-controls=\\"a11y-tabpanel-0\\"]",
+      "div[aria-labelledby=\\"demo-a11y-tabs-automatic-label\\"] > .MuiTab-textColorInherit.MuiTab-root[aria-controls=\\"a11y-tabpanel-1\\"]",
+      "div[aria-labelledby=\\"demo-a11y-tabs-automatic-label\\"] > .MuiTab-textColorInherit.MuiTab-root[aria-controls=\\"a11y-tabpanel-2\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
+    "id": "label",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(6) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(10) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(14) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(16) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(18) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(22) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(30) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(31) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(35) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
+    "id": "landmark-unique",
+    "nodes": Array [
+      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .jssREMOVED_UNSTABLE_JSS_COUNTER[role=\\"region\\"][aria-label=\\"Code\\\\ Example\\"]",
     ],
   },
 ]
 `;
 
-exports[`chromium /components/text-fields/ 1`] = `Array []`;
+exports[`chromium /components/text-fields/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
+    "id": "aria-valid-attr-value",
+    "nodes": Array [
+      "button[aria-controls=\\"demoSource-14hvwmg1rktq\\"]",
+      "button[aria-controls=\\"demoSource-xpe7fqtp1j\\"]",
+      "button[aria-controls=\\"demoSource-igbcw5p4j4l\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
+    "id": "label",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(6) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(38) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(40) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
+    "id": "landmark-unique",
+    "nodes": Array [
+      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .jssREMOVED_UNSTABLE_JSS_COUNTER[role=\\"region\\"][aria-label=\\"Code\\\\ Example\\"]",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/tooltips/ 1`] = `Array []`;
+exports[`chromium /components/tooltips/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
+    "id": "aria-valid-attr-value",
+    "nodes": Array [
+      "button[aria-controls=\\"demoSource-hqlf0e8jo3\\"]",
+      "button[aria-controls=\\"demoSource-wb3fwlknx6\\"]",
+      "button[aria-controls=\\"demoSource-3xf2amfton5\\"]",
+      "button[aria-controls=\\"demoSource-bk8aidii5gt\\"]",
+      "button[aria-controls=\\"demoSource-2e65tsukooo\\"]",
+      "button[aria-controls=\\"demoSource-y8xop03vb7\\"]",
+      "button[aria-controls=\\"demoSource-fjpkcz8frbb\\"]",
+      "button[aria-controls=\\"demoSource-j4ot9sy6sk\\"]",
+      "button[aria-controls=\\"demoSource-roj1rwdk1pl\\"]",
+      "button[aria-controls=\\"demoSource-na9ha6ghex\\"]",
+      "button[aria-controls=\\"demoSource-j0cwmgyszpk\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
+    "id": "label",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(6) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(10) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(12) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(16) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(18) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(20) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(22) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(24) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(26) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(30) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER:nth-child(32) > .MuiCollapse-entered.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-root.MuiCollapse-root > .MuiCollapse-wrapper.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapper.MuiCollapse-vertical > .MuiCollapse-wrapperInner.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiCollapse-wrapperInner.MuiCollapse-vertical > .jssREMOVED_UNSTABLE_JSS_COUNTER > .jssREMOVED_UNSTABLE_JSS_COUNTER > .npm__react-simple-code-editor__textarea.jssREMOVED_UNSTABLE_JSS_COUNTER[autocapitalize=\\"off\\"]",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/transfer-list 1`] = `Array []`;
 
-exports[`chromium /components/tree-view/ 1`] = `Array []`;
+exports[`chromium /components/tree-view/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
+    "id": "landmark-unique",
+    "nodes": Array [
+      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .jssREMOVED_UNSTABLE_JSS_COUNTER[role=\\"region\\"][aria-label=\\"Code\\\\ Example\\"]",
+    ],
+  },
+]
+`;
