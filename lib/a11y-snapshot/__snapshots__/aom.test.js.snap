@@ -6,6 +6,7 @@ exports[`chromium / 1`] = `
   <link>Skip to content</link>
   <banner>
     <button>Open main navigation</button>
+    <text> </text>
     <searchbox>Search</searchbox>
     <combobox autocomplete="list" haspopup="listbox">
       Search
@@ -13271,6 +13272,7 @@ exports[`firefox / 1`] = `
   <link>Skip to content</link>
   <landmark>
     <button>Open main navigation</button>
+    <statictext> </statictext>
     <combobox autocomplete="list" haspopup="true">
       Search
     </combobox>
