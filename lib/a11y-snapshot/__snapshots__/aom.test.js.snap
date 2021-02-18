@@ -6763,21 +6763,18 @@ exports[`chromium /components/rating/ 1`] = `
 <main>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
-    Rating
-    <text>Rating</text>
+    Pagination
+    <text>Pagination</text>
   </heading>
   <paragraph>
     <text>
-      Ratings provide insight regarding others' opinions and experiences,
-      and can allow the user to submit a rating of their own.
+      The Pagination component enables the user to select a specific page from a
+      range of pages.
     </text>
   </paragraph>
   <list>
     <listitem level="1">
       <link>Feedback</link>
-    </listitem>
-    <listitem level="1">
-      <link>WAI-ARIA</link>
     </listitem>
     <listitem level="1">
       <link>
@@ -6792,53 +6789,194 @@ exports[`chromium /components/rating/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Basic rating
+    Basic pagination
     <Anchor></Anchor>
-    <text>Basic rating</text>
+    <text>Basic pagination</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Legend>
-    <text>Controlled</text>
-  </Legend>
-  <radio checked="false">1 Star</radio>
-  <radio checked="true">2 Stars</radio>
-  <radio checked="false">3 Stars</radio>
-  <radio checked="false">4 Stars</radio>
-  <radio checked="false">5 Stars</radio>
-  <Legend>
-    <text>Read only</text>
-  </Legend>
-  <img>2 Stars</img>
-  <Legend>
-    <text>Disabled</text>
-  </Legend>
-  <radio checked="false" disabled="true">
-    1 Star
-  </radio>
-  <radio checked="true" disabled="true">
-    2 Stars
-  </radio>
-  <radio checked="false" disabled="true">
-    3 Stars
-  </radio>
-  <radio checked="false" disabled="true">
-    4 Stars
-  </radio>
-  <radio checked="false" disabled="true">
-    5 Stars
-  </radio>
-  <Legend>
-    <text>No rating given</text>
-  </Legend>
-  <radio checked="false">1 Star</radio>
-  <radio checked="false">2 Stars</radio>
-  <radio checked="false">3 Stars</radio>
-  <radio checked="false">4 Stars</radio>
-  <radio checked="false">5 Stars</radio>
-  <radio checked="true">Empty</radio>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button disabled="true">
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button disabled="true">
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button disabled="true">
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button disabled="true">
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button disabled="true">
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button disabled="true">
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button disabled="true">Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -6852,32 +6990,578 @@ exports[`chromium /components/rating/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Rating precision
+    Outlined pagination
     <Anchor></Anchor>
-    <text>Rating precision</text>
+    <text>Outlined pagination</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button disabled="true">
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button disabled="true">
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button disabled="true">
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button disabled="true">
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button disabled="true">
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button disabled="true">
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button disabled="true">Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Rounded pagination
+    <Anchor></Anchor>
+    <text>Rounded pagination</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Pagination size
+    <Anchor></Anchor>
+    <text>Pagination size</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Buttons
+    <Anchor></Anchor>
+    <text>Buttons</text>
   </heading>
   <paragraph>
-    <text>The rating can display any float number with the</text>
-    <code>$SOME_CODE</code>
-    <text>prop. Use the</text>
-    <code>$SOME_CODE</code>
-    <text>prop to define the minimum increment value change allowed.</text>
+    <text>
+      You can optionally enable first-page and last-page buttons, or disable the
+      previous-page and next-page buttons.
+    </text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <radio checked="false">0.5 Stars</radio>
-  <radio checked="false">1 Star</radio>
-  <radio checked="false">1.5 Stars</radio>
-  <radio checked="false">2 Stars</radio>
-  <radio checked="true">2.5 Stars</radio>
-  <radio checked="false">3 Stars</radio>
-  <radio checked="false">3.5 Stars</radio>
-  <radio checked="false">4 Stars</radio>
-  <radio checked="false">4.5 Stars</radio>
-  <radio checked="false">5 Stars</radio>
-  <img>2.5 Stars</img>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button disabled="true">Go to first page</button>
+      </listitem>
+      <listitem level="1">
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to next page</button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to last page</button>
+      </listitem>
+    </list>
+  </navigation>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+    </list>
+  </navigation>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -6891,15 +7575,17 @@ exports[`chromium /components/rating/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Hover feedback
+    Pagination ranges
     <Anchor></Anchor>
-    <text>Hover feedback</text>
+    <text>Pagination ranges</text>
   </heading>
   <paragraph>
     <text>
-      You can display a label on hover to help the user pick the correct rating
-      value. The demo uses the
+      You can specify how many digits to display either side of current page
+      with the
     </text>
+    <code>$SOME_CODE</code>
+    <text>prop, and adjacent to the start and end page number with the</text>
     <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
@@ -6907,17 +7593,180 @@ exports[`chromium /components/rating/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <radio checked="false">0.5 Stars</radio>
-  <radio checked="false">1 Star</radio>
-  <radio checked="false">1.5 Stars</radio>
-  <radio checked="true">2 Stars</radio>
-  <radio checked="false">2.5 Stars</radio>
-  <radio checked="false">3 Stars</radio>
-  <radio checked="false">3.5 Stars</radio>
-  <radio checked="false">4 Stars</radio>
-  <radio checked="false">4.5 Stars</radio>
-  <radio checked="false">5 Stars</radio>
-  <text>Poor+</text>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button>Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          page 6<text>6</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 11
+          <text>11</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button>Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          page 6<text>6</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 7<text>7</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 11
+          <text>11</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button>Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          page 6<text>6</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 11
+          <text>11</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button>Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          page 6<text>6</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 7<text>7</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 11
+          <text>11</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -6931,34 +7780,62 @@ exports[`chromium /components/rating/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Sizes
+    Controlled pagination
     <Anchor></Anchor>
-    <text>Sizes</text>
+    <text>Controlled pagination</text>
   </heading>
-  <paragraph>
-    <text>For larger or smaller ratings use the</text>
-    <code>$SOME_CODE</code>
-    <text>prop.</text>
-  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <radio checked="false">1 Star</radio>
-  <radio checked="true">2 Stars</radio>
-  <radio checked="false">3 Stars</radio>
-  <radio checked="false">4 Stars</radio>
-  <radio checked="false">5 Stars</radio>
-  <radio checked="false">1 Star</radio>
-  <radio checked="true">2 Stars</radio>
-  <radio checked="false">3 Stars</radio>
-  <radio checked="false">4 Stars</radio>
-  <radio checked="false">5 Stars</radio>
-  <radio checked="false">1 Star</radio>
-  <radio checked="true">2 Stars</radio>
-  <radio checked="false">3 Stars</radio>
-  <radio checked="false">4 Stars</radio>
-  <radio checked="false">5 Stars</radio>
+  <paragraph>
+    <text>Page:1</text>
+  </paragraph>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -6972,56 +7849,59 @@ exports[`chromium /components/rating/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Customized rating
+    Router integration
     <Anchor></Anchor>
-    <text>Customized rating</text>
+    <text>Router integration</text>
   </heading>
-  <paragraph>
-    <text>
-      Here are some examples of customizing the component. You can learn more
-      about this in the
-    </text>
-    <link>overrides documentation page</link>
-    <text>.</text>
-  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Legend>
-    <text>Custom icon and color</text>
-  </Legend>
-  <radio checked="false">0.5 Hearts</radio>
-  <radio checked="false">1 Heart</radio>
-  <radio checked="false">1.5 Hearts</radio>
-  <radio checked="true">2 Hearts</radio>
-  <radio checked="false">2.5 Hearts</radio>
-  <radio checked="false">3 Hearts</radio>
-  <radio checked="false">3.5 Hearts</radio>
-  <radio checked="false">4 Hearts</radio>
-  <radio checked="false">4.5 Hearts</radio>
-  <radio checked="false">5 Hearts</radio>
-  <Legend>
-    <text>10 stars</text>
-  </Legend>
-  <radio checked="false">1 Star</radio>
-  <radio checked="true">2 Stars</radio>
-  <radio checked="false">3 Stars</radio>
-  <radio checked="false">4 Stars</radio>
-  <radio checked="false">5 Stars</radio>
-  <radio checked="false">6 Stars</radio>
-  <radio checked="false">7 Stars</radio>
-  <radio checked="false">8 Stars</radio>
-  <radio checked="false">9 Stars</radio>
-  <radio checked="false">10 Stars</radio>
-  <Legend>
-    <text>Custom icon set</text>
-  </Legend>
-  <radio checked="false">Very Dissatisfied</radio>
-  <radio checked="true">Dissatisfied</radio>
-  <radio checked="false">Neutral</radio>
-  <radio checked="false">Satisfied</radio>
-  <radio checked="false">Very Satisfied</radio>
+  <navigation>
+    pagination navigation
+    <list>
+      <listitem level="1">
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </navigation>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -7032,59 +7912,120 @@ exports[`chromium /components/rating/ 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
-    Accessibility
+    usePagination
     <Anchor></Anchor>
-    <text>Accessibility</text>
+    <code>$SOME_CODE</code>
   </heading>
   <paragraph>
-    <text>(</text>
-    <link>WAI tutorial</link>
-    <text>)</text>
+    <text>For advanced customization use cases, we expose a headless</text>
+    <code>$SOME_CODE</code>
+    <text>
+      hook. It accepts almost the same options as the Pagination component minus
+      all the props related to the rendering of JSX. The Pagination component
+      uses this hook internally.
+    </text>
   </paragraph>
-  <paragraph>
-    <text>The accessibility of this component relies on:</text>
-  </paragraph>
-  <list>
-    <listitem level="1">
-      <text>
-        A radio group with its fields visually hidden. It contains six radio
-        buttons, one for each star, and another for 0 stars that is checked by
-        default. Be sure to provide a value for the
-      </text>
-      <code>$SOME_CODE</code>
-      <text>prop that is unique to the parent form.</text>
-    </listitem>
-    <listitem level="1">
-      <text>
-        Labels for the radio buttons containing actual text (“1 Star”, “2
-        Stars”, …). Be sure to provide a suitable function to the
-      </text>
-      <code>$SOME_CODE</code>
-      <text>
-        prop when the page is in a language other than English. You can use the
-      </text>
-      <link>included locales</link>
-      <text>, or provide your own.</text>
-    </listitem>
-    <listitem level="1">
-      <text>
-        A visually distinct appearance for the rating icons. By default, the
-        rating component uses both a difference of color and shape (filled and
-        empty icons) to indicate the value. In the event that you are using
-        color as the only means to indicate the value, the information should
-        also be also displayed as text, as in this demo. This is important to
-        match
-      </text>
-      <link>success Criterion 1.4.1</link>
-      <text>of WCAG2.1.</text>
-    </listitem>
-  </list>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img>3.5 Stars</img>
-  <text>Good</text>
+  <navigation>
+    <list>
+      <listitem level="1">
+        <button disabled="true">
+          previous
+          <text>previous</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          1<text>1</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          2<text>2</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          3<text>3</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          4<text>4</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          5<text>5</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <text>…</text>
+      </listitem>
+      <listitem level="1">
+        <button>
+          10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        <button>
+          next
+          <text>next</text>
+        </button>
+      </listitem>
+    </list>
+  </navigation>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Table pagination
+    <Anchor></Anchor>
+    <text>Table pagination</text>
+  </heading>
+  <paragraph>
+    <text>The</text>
+    <code>$SOME_CODE</code>
+    <text>
+      component was designed to paginate a list of arbitrary items when infinite
+      loading isn't used. It's preferred in contexts where SEO is
+      important, for instance, a blog.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      For the pagination of a large set of tabular data, you should use the
+    </text>
+    <code>$SOME_CODE</code>
+    <text>component.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Rows per page:</text>
+  </paragraph>
+  <combobox haspopup="listbox">Rows per page: 10</combobox>
+  <textbox value="10"></textbox>
+  <paragraph>
+    <text>21-30 of 100</text>
+  </paragraph>
+  <button description="Go to previous page">Go to previous page</button>
+  <button description="Go to next page">Go to next page</button>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -7097,6 +8038,31 @@ exports[`chromium /components/rating/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
+  <blockquote>
+    <paragraph>
+      <text>⚠️ Note that the</text>
+      <code>$SOME_CODE</code>
+      <text>
+        page prop starts at 1 to match the requirement of including the value in
+        the URL, while the
+      </text>
+      <code>$SOME_CODE</code>
+      <text>
+        page prop stats at 0 to match the requirement of zero-based JavaScript
+        arrays that comes with rendering a lot of tabular data.
+      </text>
+    </paragraph>
+  </blockquote>
+  <paragraph>
+    <text>You can learn more about this use case in the</text>
+    <link>table section</link>
+    <text>of the documentation.</text>
+  </paragraph>
+  <heading level="2">
+    Accessibility
+    <Anchor></Anchor>
+    <text>Accessibility</text>
+  </heading>
   <heading level="3">
     ARIA
     <Anchor></Anchor>
@@ -7104,9 +8070,14 @@ exports[`chromium /components/rating/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      The read only rating has a role of "img", and an aria-label that
-      describes the displayed rating.
+      The root node has a role of "navigation" and aria-label
+      "pagination navigation" by default. The page items have an
+      aria-label that identifies the purpose of the item ("go to first
+      page", "go to previous page", "go to page 1"
+      etc.). You can override these using the
     </text>
+    <code>$SOME_CODE</code>
+    <text>prop.</text>
   </paragraph>
   <heading level="3">
     Keyboard
@@ -7115,13 +8086,8 @@ exports[`chromium /components/rating/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Because the rating component uses radio buttons, keyboard interaction
-      follows the native browser behavior. Tab will focus the current rating,
-      and cursor keys control the selected rating.
+      The pagination items are in tab order, with a tabindex of "0".
     </text>
-  </paragraph>
-  <paragraph>
-    <text>The read only rating is not focusable.</text>
   </paragraph>
   <heading level="2">
     API
@@ -7131,21 +8097,27 @@ exports[`chromium /components/rating/ 1`] = `
   <list>
     <listitem level="1">
       <link>
-        <Rating />
+        <Pagination />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <PaginationItem />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Radio button</link>
+    <link>Menu</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Select</link>
+    <link>Speed Dial</link>
   </FooterAsNonLandmark>
 </main>;
 
@@ -12729,6 +13701,398 @@ exports[`chromium /components/tree-view/ 1`] = `
 <main>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
+    Rating
+    <text>Rating</text>
+  </heading>
+  <paragraph>
+    <text>
+      Ratings provide insight regarding others' opinions and experiences,
+      and can allow the user to submit a rating of their own.
+    </text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <link>Feedback</link>
+    </listitem>
+    <listitem level="1">
+      <link>WAI-ARIA</link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>Figma</link>
+    </listitem>
+    <listitem level="1">
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Basic rating
+    <Anchor></Anchor>
+    <text>Basic rating</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Legend>
+    <text>Controlled</text>
+  </Legend>
+  <radio checked="false">1 Star</radio>
+  <radio checked="true">2 Stars</radio>
+  <radio checked="false">3 Stars</radio>
+  <radio checked="false">4 Stars</radio>
+  <radio checked="false">5 Stars</radio>
+  <Legend>
+    <text>Read only</text>
+  </Legend>
+  <img>2 Stars</img>
+  <Legend>
+    <text>Disabled</text>
+  </Legend>
+  <radio checked="false" disabled="true">
+    1 Star
+  </radio>
+  <radio checked="true" disabled="true">
+    2 Stars
+  </radio>
+  <radio checked="false" disabled="true">
+    3 Stars
+  </radio>
+  <radio checked="false" disabled="true">
+    4 Stars
+  </radio>
+  <radio checked="false" disabled="true">
+    5 Stars
+  </radio>
+  <Legend>
+    <text>No rating given</text>
+  </Legend>
+  <radio checked="false">1 Star</radio>
+  <radio checked="false">2 Stars</radio>
+  <radio checked="false">3 Stars</radio>
+  <radio checked="false">4 Stars</radio>
+  <radio checked="false">5 Stars</radio>
+  <radio checked="true">Empty</radio>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Rating precision
+    <Anchor></Anchor>
+    <text>Rating precision</text>
+  </heading>
+  <paragraph>
+    <text>The rating can display any float number with the</text>
+    <code>$SOME_CODE</code>
+    <text>prop. Use the</text>
+    <code>$SOME_CODE</code>
+    <text>prop to define the minimum increment value change allowed.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <radio checked="false">0.5 Stars</radio>
+  <radio checked="false">1 Star</radio>
+  <radio checked="false">1.5 Stars</radio>
+  <radio checked="false">2 Stars</radio>
+  <radio checked="true">2.5 Stars</radio>
+  <radio checked="false">3 Stars</radio>
+  <radio checked="false">3.5 Stars</radio>
+  <radio checked="false">4 Stars</radio>
+  <radio checked="false">4.5 Stars</radio>
+  <radio checked="false">5 Stars</radio>
+  <img>2.5 Stars</img>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Hover feedback
+    <Anchor></Anchor>
+    <text>Hover feedback</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can display a label on hover to help the user pick the correct rating
+      value. The demo uses the
+    </text>
+    <code>$SOME_CODE</code>
+    <text>prop.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <radio checked="false">0.5 Stars</radio>
+  <radio checked="false">1 Star</radio>
+  <radio checked="false">1.5 Stars</radio>
+  <radio checked="true">2 Stars</radio>
+  <radio checked="false">2.5 Stars</radio>
+  <radio checked="false">3 Stars</radio>
+  <radio checked="false">3.5 Stars</radio>
+  <radio checked="false">4 Stars</radio>
+  <radio checked="false">4.5 Stars</radio>
+  <radio checked="false">5 Stars</radio>
+  <text>Poor+</text>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Sizes
+    <Anchor></Anchor>
+    <text>Sizes</text>
+  </heading>
+  <paragraph>
+    <text>For larger or smaller ratings use the</text>
+    <code>$SOME_CODE</code>
+    <text>prop.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <radio checked="false">1 Star</radio>
+  <radio checked="true">2 Stars</radio>
+  <radio checked="false">3 Stars</radio>
+  <radio checked="false">4 Stars</radio>
+  <radio checked="false">5 Stars</radio>
+  <radio checked="false">1 Star</radio>
+  <radio checked="true">2 Stars</radio>
+  <radio checked="false">3 Stars</radio>
+  <radio checked="false">4 Stars</radio>
+  <radio checked="false">5 Stars</radio>
+  <radio checked="false">1 Star</radio>
+  <radio checked="true">2 Stars</radio>
+  <radio checked="false">3 Stars</radio>
+  <radio checked="false">4 Stars</radio>
+  <radio checked="false">5 Stars</radio>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Customized rating
+    <Anchor></Anchor>
+    <text>Customized rating</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here are some examples of customizing the component. You can learn more
+      about this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Legend>
+    <text>Custom icon and color</text>
+  </Legend>
+  <radio checked="false">0.5 Hearts</radio>
+  <radio checked="false">1 Heart</radio>
+  <radio checked="false">1.5 Hearts</radio>
+  <radio checked="true">2 Hearts</radio>
+  <radio checked="false">2.5 Hearts</radio>
+  <radio checked="false">3 Hearts</radio>
+  <radio checked="false">3.5 Hearts</radio>
+  <radio checked="false">4 Hearts</radio>
+  <radio checked="false">4.5 Hearts</radio>
+  <radio checked="false">5 Hearts</radio>
+  <Legend>
+    <text>10 stars</text>
+  </Legend>
+  <radio checked="false">1 Star</radio>
+  <radio checked="true">2 Stars</radio>
+  <radio checked="false">3 Stars</radio>
+  <radio checked="false">4 Stars</radio>
+  <radio checked="false">5 Stars</radio>
+  <radio checked="false">6 Stars</radio>
+  <radio checked="false">7 Stars</radio>
+  <radio checked="false">8 Stars</radio>
+  <radio checked="false">9 Stars</radio>
+  <radio checked="false">10 Stars</radio>
+  <Legend>
+    <text>Custom icon set</text>
+  </Legend>
+  <radio checked="false">Very Dissatisfied</radio>
+  <radio checked="true">Dissatisfied</radio>
+  <radio checked="false">Neutral</radio>
+  <radio checked="false">Satisfied</radio>
+  <radio checked="false">Very Satisfied</radio>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Accessibility
+    <Anchor></Anchor>
+    <text>Accessibility</text>
+  </heading>
+  <paragraph>
+    <text>(</text>
+    <link>WAI tutorial</link>
+    <text>)</text>
+  </paragraph>
+  <paragraph>
+    <text>The accessibility of this component relies on:</text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <text>
+        A radio group with its fields visually hidden. It contains six radio
+        buttons, one for each star, and another for 0 stars that is checked by
+        default. Be sure to provide a value for the
+      </text>
+      <code>$SOME_CODE</code>
+      <text>prop that is unique to the parent form.</text>
+    </listitem>
+    <listitem level="1">
+      <text>
+        Labels for the radio buttons containing actual text (“1 Star”, “2
+        Stars”, …). Be sure to provide a suitable function to the
+      </text>
+      <code>$SOME_CODE</code>
+      <text>
+        prop when the page is in a language other than English. You can use the
+      </text>
+      <link>included locales</link>
+      <text>, or provide your own.</text>
+    </listitem>
+    <listitem level="1">
+      <text>
+        A visually distinct appearance for the rating icons. By default, the
+        rating component uses both a difference of color and shape (filled and
+        empty icons) to indicate the value. In the event that you are using
+        color as the only means to indicate the value, the information should
+        also be also displayed as text, as in this demo. This is important to
+        match
+      </text>
+      <link>success Criterion 1.4.1</link>
+      <text>of WCAG2.1.</text>
+    </listitem>
+  </list>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <img>3.5 Stars</img>
+  <text>Good</text>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="3">
+    ARIA
+    <Anchor></Anchor>
+    <text>ARIA</text>
+  </heading>
+  <paragraph>
+    <text>
+      The read only rating has a role of "img", and an aria-label that
+      describes the displayed rating.
+    </text>
+  </paragraph>
+  <heading level="3">
+    Keyboard
+    <Anchor></Anchor>
+    <text>Keyboard</text>
+  </heading>
+  <paragraph>
+    <text>
+      Because the rating component uses radio buttons, keyboard interaction
+      follows the native browser behavior. Tab will focus the current rating,
+      and cursor keys control the selected rating.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>The read only rating is not focusable.</text>
+  </paragraph>
+  <heading level="2">
+    API
+    <Anchor></Anchor>
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem level="1">
+      <link>
+        <Rating />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+  </list>
+  <FooterAsNonLandmark>
+    <separator orientation="horizontal"></separator>
+    <link>Radio button</link>
+    <group>
+      Was this page helpful?
+      <text>Was this page helpful?</text>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
+    <link>Select</link>
+  </FooterAsNonLandmark>
+</main>;
+
+`;
+
+exports[`chromium /components/tree-view/ 2`] = `
+<main>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
     Tree View
     <text>Tree View</text>
   </heading>
@@ -13555,6 +14919,296 @@ exports[`firefox / 1`] = `
 `;
 
 exports[`firefox /api/button/ 1`] = `
+<document>
+  Material-UI: A popular React UI framework
+  <link>Skip to content</link>
+  <landmark>
+    <button>Open main navigation</button>
+    <combobox autocomplete="list" haspopup="true">
+      Search
+    </combobox>
+    <text>Ctrl+K</text>
+    <buttonmenu haspopup="true">
+      Change language
+      <text>ENGLISH</text>
+    </buttonmenu>
+    <button>Toggle settings drawer</button>
+    <buttonmenu haspopup="true">Toggle notifications panel</buttonmenu>
+    <link>GitHub repository</link>
+  </landmark>
+  <landmark>Main navigation</landmark>
+  <landmark>
+    <img></img>
+    <heading level="1">
+      MATERIAL-UI
+      <text>MATERIAL-UI</text>
+    </heading>
+    <paragraph>
+      <text>
+        Material-UI is a simple and customizable component library to build
+        faster, beautiful, and more accessible React applications. Follow your
+        own design system, or start with Material Design.
+      </text>
+    </paragraph>
+    <link>GET STARTED</link>
+    <link>Star</link>
+    <link>Follow</link>
+    <link>Get Professional Support</link>
+    <text>random sponsor</text>
+    <link>a random quick word</link>
+    <heading level="2">
+      Installation
+      <text>Installation</text>
+    </heading>
+    <text>
+      Install Material-UI's source files via npm. We take care of injecting
+      the CSS needed.$ npm install @material-ui/core@next @emotion/react
+      @emotion/styled
+    </text>
+    <link>or use a CDN.</link>
+    <text>
+      Load the default Roboto font.<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      />
+    </text>
+    <separator></separator>
+    <link>READ INSTALLATION DOCS</link>
+    <heading level="2">
+      Usage
+      <text>Usage</text>
+    </heading>
+    <text>
+      Material-UI components work without any additional setup, and don't
+      pollute the global scope.import * as React from 'react'; import
+      { Button } from '@material-ui/core'; function App()
+      { return <Button>Hello World</Button>; }
+    </text>
+    <separator></separator>
+    <link>EXPLORE THE DOCS</link>
+    <heading level="2">
+      Premium themes
+      <text>Premium themes</text>
+    </heading>
+    <paragraph>
+      <text>
+        Take your project to the next level with premium themes from our store –
+        all built on Material-UI.
+      </text>
+    </paragraph>
+    <link>
+      Browse themes
+      <img value="https://material-ui.com/store/?utm_source=docs&utm_medium=referral&utm_campaign=home-store">
+        Browse themes
+      </img>
+    </link>
+    <link>BROWSE THEMES</link>
+    <separator></separator>
+    <heading level="2">
+      Material-UI's sponsors
+      <link></link>
+      <text>Material-UI's sponsors</text>
+    </heading>
+    <paragraph>
+      <text>
+        The continued development and maintenance of Material-UI is made
+        possible by these generous sponsors:
+      </text>
+    </paragraph>
+    <heading level="3">
+      Diamond 💎
+      <link></link>
+      <text>Diamond 💎</text>
+    </heading>
+    <link>
+      octopus
+      <img
+        description="Repeatable, reliable deployments"
+        value="https://octopus.com/?utm_source=materialui&utm_medium=referral"
+      >
+        octopus
+      </img>
+    </link>
+    <link>
+      doit-intl
+      <img
+        description="Management Platform for Google Cloud and AWS"
+        value="https://www.doit-intl.com/?utm_source=materialui&utm_medium=referral"
+      >
+        doit-intl
+      </img>
+    </link>
+    <paragraph>
+      <text>1/3 slots available</text>
+    </paragraph>
+    <heading level="3">
+      Gold 🏆
+      <link></link>
+      <text>Gold 🏆</text>
+    </heading>
+    <link>
+      tidelift
+      <img
+        description="Enterprise-ready open source software"
+        value="https://tidelift.com/subscription/pkg/npm-material-ui?utm_source=npm-material-ui&utm_medium=referral&utm_campaign=homepage"
+      >
+        tidelift
+      </img>
+    </link>
+    <link>
+      bitsrc
+      <img description="The fastest way to share code" value="https://bit.dev/">
+        bitsrc
+      </img>
+    </link>
+    <link>
+      elevator
+      <img
+        description="The dopest new hip hop, upcoming artsits, music news, culture, and style"
+        value="https://www.elevatormag.com/"
+      >
+        elevator
+      </img>
+    </link>
+    <link>
+      call-em-all
+      <img
+        description="Mass Text Messaging & Automated Calling"
+        value="https://www.text-em-all.com/"
+      >
+        call-em-all
+      </img>
+    </link>
+    <link>
+      canadacasino
+      <img value="https://www.canadacasino.ca/">canadacasino</img>
+    </link>
+    <link>
+      hoodiebees
+      <img value="https://hoodiebees.com/">hoodiebees</img>
+    </link>
+    <heading level="3">
+      There are more!
+      <link></link>
+      <text>There are more!</text>
+    </heading>
+    <paragraph>
+      <text>See the full list of</text>
+      <link>our sponsors</link>
+      <text>
+        , and learn how you can contribute to the future of Material-UI.
+      </text>
+    </paragraph>
+    <separator></separator>
+    <heading level="2">
+      Praise for Material-UI
+      <text>Praise for Material-UI</text>
+    </heading>
+    <paragraph>
+      <text>Here's what some of our users are saying.</text>
+    </paragraph>
+    <link>a random quote about Material-UI</link>
+    <link>a random quote about Material-UI</link>
+    <link>a random quote about Material-UI</link>
+    <separator></separator>
+    <heading level="2">
+      Who's using Material-UI?
+      <text>Who's using Material-UI?</text>
+    </heading>
+    <paragraph>
+      <text>Join these and other great organizations!</text>
+    </paragraph>
+    <img>NASA</img>
+    <img>Walmart Labs</img>
+    <img>Capgemini</img>
+    <img>Uniqlo</img>
+    <img>Bethesda</img>
+    <img>J.P. Morgan</img>
+    <img>Shutterstock</img>
+    <img>Netflix</img>
+    <img>Coursera</img>
+    <img>Amazon</img>
+    <img>Unity</img>
+    <paragraph>
+      <text>Are you using Material-UI?</text>
+    </paragraph>
+    <link>LET US KNOW!</link>
+  </landmark>
+  <separator></separator>
+  <landmark>
+    <img></img>
+    <link>Material-UI</link>
+    <heading level="2">
+      Community
+      <text>Community</text>
+    </heading>
+    <list>
+      <listitem>
+        GitHub
+        <link>GitHub</link>
+      </listitem>
+      <listitem>
+        Twitter
+        <link>Twitter</link>
+      </listitem>
+      <listitem>
+        StackOverflow
+        <link>StackOverflow</link>
+      </listitem>
+      <listitem>
+        Team
+        <link>Team</link>
+      </listitem>
+    </list>
+    <heading level="2">
+      Resources
+      <text>Resources</text>
+    </heading>
+    <list>
+      <listitem>
+        Support
+        <link>Support</link>
+      </listitem>
+      <listitem>
+        Blog
+        <link>Blog</link>
+      </listitem>
+      <listitem>
+        Material Icons
+        <link>Material Icons</link>
+      </listitem>
+    </list>
+    <heading level="2">
+      Company
+      <text>Company</text>
+    </heading>
+    <list>
+      <listitem>
+        About
+        <link>About</link>
+      </listitem>
+      <listitem>
+        Contact Us
+        <link>Contact Us</link>
+      </listitem>
+      <listitem>
+        Careers HIRING
+        <link>Careers</link>
+        <link>HIRING</link>
+      </listitem>
+    </list>
+    <paragraph>
+      <text>Currently</text>
+      <link>v5.0.0-alpha.25. View versions page.</link>
+      <text>. Released under the</text>
+      <link>MIT License</link>
+      <text>. Copyright © 2021 Material-UI.</text>
+    </paragraph>
+  </landmark>
+</document>;
+
+`;
+
+exports[`firefox /api/button/ 2`] = `
 <landmark>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
@@ -15100,861 +16754,682 @@ exports[`firefox /components/breadcrumbs 1`] = `
 <landmark>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
-    Breadcrumbs
-    <text>Breadcrumbs</text>
+    Select API
+    <text>Select API</text>
   </heading>
   <paragraph>
     <text>
-      Breadcrumbs allow users to make selections from a range of values.
+      API documentation for the React Select component. Learn about the
+      available props, and the CSS API.
     </text>
   </paragraph>
+  <heading level="2">
+    Import
+    <link></link>
+    <text>Import</text>
+  </heading>
+  <text>
+    import Select from '@material-ui/core/Select'; // or import {
+    Select } from '@material-ui/core';You can learn about the
+    difference by
+  </text>
+  <link>reading this guide on minimizing bundle size</link>
+  <text>.</text>
+  <heading level="2">
+    Component name
+    <link></link>
+    <text>Component name</text>
+  </heading>
+  <text>The name MuiSelect can be used when providing</text>
+  <link>default props</link>
+  <text>or</text>
+  <link>style overrides</link>
+  <text>in the theme.</text>
+  <heading level="2">
+    Props
+    <link></link>
+    <text>Props</text>
+  </heading>
+  <table>
+    <row>
+      <cell>
+        <text>Name</text>
+      </cell>
+      <cell>
+        <text>Type</text>
+      </cell>
+      <cell>
+        <text>Default</text>
+      </cell>
+      <cell>
+        <text>Description</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>autoWidth</text>
+      </cell>
+      <cell>
+        <text>bool</text>
+      </cell>
+      <cell>
+        <text>false</text>
+      </cell>
+      <cell>
+        <text>
+          If true, the width of the popover will automatically be set according
+          to the items inside the menu, otherwise it will be at least the width
+          of the select input.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>children</text>
+      </cell>
+      <cell>
+        <text>node</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>
+          The option elements to populate the select with. Can be some MenuItem
+          when native is false and option when native is true.
+        </text>
+        <whitespace></whitespace>
+        <text>
+          ⚠️The MenuItem elements must be direct descendants when native is
+          false.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>classes</text>
+      </cell>
+      <cell>
+        <text>object</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>Override or extend the styles applied to the component. See</text>
+        <link>CSS API</link>
+        <text>below for more details.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>defaultValue</text>
+      </cell>
+      <cell>
+        <text>any</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>
+          The default value. Use when the component is not controlled.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>displayEmpty</text>
+      </cell>
+      <cell>
+        <text>bool</text>
+      </cell>
+      <cell>
+        <text>false</text>
+      </cell>
+      <cell>
+        <text>
+          If true, a value is displayed even if no items are selected.
+        </text>
+        <whitespace></whitespace>
+        <text>
+          In order to display a meaningful value, a function can be passed to
+          the renderValue prop which returns the value to be displayed when no
+          items are selected.
+        </text>
+        <whitespace></whitespace>
+        <text>
+          ⚠️ When using this prop, make sure the label doesn't overlap with
+          the empty displayed value. The label should either be hidden or forced
+          to a shrunk state.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>IconComponent</text>
+      </cell>
+      <cell>
+        <text>elementType</text>
+      </cell>
+      <cell>
+        <text>ArrowDropDownIcon</text>
+      </cell>
+      <cell>
+        <text>The icon that displays the arrow.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>id</text>
+      </cell>
+      <cell>
+        <text>string</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>
+          The id of the wrapper element or the select element when native.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>input</text>
+      </cell>
+      <cell>
+        <text>element</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>
+          An Input element; does not have to be a material-ui specific Input.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>inputProps</text>
+      </cell>
+      <cell>
+        <text>object</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <link>Attributes</link>
+        <text>
+          applied to the input element. When native is true, the attributes are
+          applied on the select element.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>label</text>
+      </cell>
+      <cell>
+        <text>node</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>See</text>
+        <link>OutlinedInput#label</link>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>labelId</text>
+      </cell>
+      <cell>
+        <text>string</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>
+          The ID of an element that acts as an additional label. The Select will
+          be labelled by the additional label and the selected value.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>labelWidth</text>
+      </cell>
+      <cell>
+        <text>number</text>
+      </cell>
+      <cell>
+        <text>0</text>
+      </cell>
+      <cell>
+        <text>See</text>
+        <link>OutlinedInput#label</link>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>MenuProps</text>
+      </cell>
+      <cell>
+        <text>object</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>Props applied to the</text>
+        <link>Menu</link>
+        <text>element.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>multiple</text>
+      </cell>
+      <cell>
+        <text>bool</text>
+      </cell>
+      <cell>
+        <text>false</text>
+      </cell>
+      <cell>
+        <text>
+          If true, value must be an array and the menu will support multiple
+          selections.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>native</text>
+      </cell>
+      <cell>
+        <text>bool</text>
+      </cell>
+      <cell>
+        <text>false</text>
+      </cell>
+      <cell>
+        <text>If true, the component uses a native select element.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>onChange</text>
+      </cell>
+      <cell>
+        <text>func</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>Callback fired when a menu item is selected.</text>
+        <whitespace></whitespace>
+        <whitespace></whitespace>
+        <text>Signature:</text>
+        <whitespace></whitespace>
+        <text>function(event: object, child?: object) => void</text>
+        <whitespace></whitespace>
+        <text>
+          event: The event source of the callback. You can pull out the new
+          value by accessing event.target.value (any). Warning: This is a
+          generic event not a change event.
+        </text>
+        <whitespace></whitespace>
+        <text>
+          child: The react element that was selected when native is false
+          (default).
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>onClose</text>
+      </cell>
+      <cell>
+        <text>func</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>
+          Callback fired when the component requests to be closed. Use in
+          controlled mode (see open).
+        </text>
+        <whitespace></whitespace>
+        <whitespace></whitespace>
+        <text>Signature:</text>
+        <whitespace></whitespace>
+        <text>function(event: object) => void</text>
+        <whitespace></whitespace>
+        <text>event: The event source of the callback.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>onOpen</text>
+      </cell>
+      <cell>
+        <text>func</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>
+          Callback fired when the component requests to be opened. Use in
+          controlled mode (see open).
+        </text>
+        <whitespace></whitespace>
+        <whitespace></whitespace>
+        <text>Signature:</text>
+        <whitespace></whitespace>
+        <text>function(event: object) => void</text>
+        <whitespace></whitespace>
+        <text>event: The event source of the callback.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>open</text>
+      </cell>
+      <cell>
+        <text>bool</text>
+      </cell>
+      <cell>
+        <text>false</text>
+      </cell>
+      <cell>
+        <text>
+          If true, the component is shown. You can only use it when the native
+          prop is false (default).
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>renderValue</text>
+      </cell>
+      <cell>
+        <text>func</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>
+          Render the selected value. You can only use it when the native prop is
+          false (default).
+        </text>
+        <whitespace></whitespace>
+        <whitespace></whitespace>
+        <text>Signature:</text>
+        <whitespace></whitespace>
+        <text>function(value: any) => ReactNode</text>
+        <whitespace></whitespace>
+        <text>value: The value provided to the component.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>SelectDisplayProps</text>
+      </cell>
+      <cell>
+        <text>object</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>Props applied to the clickable div element.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>value</text>
+      </cell>
+      <cell>
+        <text>any</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>
+          The input value. Providing an empty string will select no options. Set
+          to an empty string '' if you don't want any of the
+          available options to be selected.
+        </text>
+        <whitespace></whitespace>
+        <text>
+          If the value is an object it must have reference equality with the
+          option in order to be selected. If the value is not an object, the
+          string representation must match with the string representation of the
+          option in order to be selected.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>variant</text>
+      </cell>
+      <cell>
+        <text>'filled'</text>
+        <whitespace></whitespace>
+        <text>| 'outlined'</text>
+        <whitespace></whitespace>
+        <text>| 'standard'</text>
+      </cell>
+      <cell>
+        <text>'standard'</text>
+      </cell>
+      <cell>
+        <text>The variant to use.</text>
+      </cell>
+    </row>
+  </table>
+  <whitespace></whitespace>
+  <text>The ref is forwarded to the root element.</text>
+  <whitespace></whitespace>
+  <text>Any other props supplied will be provided to the root element (</text>
+  <link>Input</link>
+  <text>).</text>
+  <heading level="3">
+    Inheritance
+    <link></link>
+    <text>Inheritance</text>
+  </heading>
+  <text>While not explicitly documented above, the props of the</text>
+  <link>Input</link>
+  <text>
+    component are also available on Select. You can take advantage of this to
+  </text>
+  <link>target nested components</link>
+  <text>.</text>
+  <heading level="2">
+    CSS
+    <link></link>
+    <text>CSS</text>
+  </heading>
+  <table>
+    <row>
+      <cell>
+        <text>Rule name</text>
+      </cell>
+      <cell>
+        <text>Global class</text>
+      </cell>
+      <cell>
+        <text>Description</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>root</text>
+      </cell>
+      <cell>
+        <text>.MuiSelect-root</text>
+      </cell>
+      <cell>
+        <text>Styles applied to the select component \`root\` class.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>select</text>
+      </cell>
+      <cell>
+        <text>.MuiSelect-select</text>
+      </cell>
+      <cell>
+        <text>Styles applied to the select component \`select\` class.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>filled</text>
+      </cell>
+      <cell>
+        <text>.MuiSelect-filled</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the select component if variant="filled".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>outlined</text>
+      </cell>
+      <cell>
+        <text>.MuiSelect-outlined</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the select component if
+          variant="outlined".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>selectMenu</text>
+      </cell>
+      <cell>
+        <text>.MuiSelect-selectMenu</text>
+      </cell>
+      <cell>
+        <text>Styles applied to the select component \`selectMenu\` class.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>disabled</text>
+      </cell>
+      <cell>
+        <text>.Mui-disabled</text>
+      </cell>
+      <cell>
+        <text>
+          Pseudo-class applied to the select component \`disabled\` class.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>icon</text>
+      </cell>
+      <cell>
+        <text>.MuiSelect-icon</text>
+      </cell>
+      <cell>
+        <text>Styles applied to the icon component.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>iconOpen</text>
+      </cell>
+      <cell>
+        <text>.MuiSelect-iconOpen</text>
+      </cell>
+      <cell>
+        <text>Styles applied to the icon component if the popup is open.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>iconFilled</text>
+      </cell>
+      <cell>
+        <text>.MuiSelect-iconFilled</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the icon component if variant="filled".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>iconOutlined</text>
+      </cell>
+      <cell>
+        <text>.MuiSelect-iconOutlined</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the icon component if variant="outlined".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>nativeInput</text>
+      </cell>
+      <cell>
+        <text>.MuiSelect-nativeInput</text>
+      </cell>
+      <cell>
+        <text>Styles applied to the underlying native input component.</text>
+      </cell>
+    </row>
+  </table>
+  <whitespace></whitespace>
+  <text>
+    You can override the style of the component using one of these customization
+    options:
+  </text>
   <list>
     <listitem>
-      Feedback
-      <link>Feedback</link>
+      With a rule name of the classes object prop .
+      <text>With a rule name of the</text>
+      <link>classes object prop</link>
+      <text>.</text>
     </listitem>
     <listitem>
-      WAI-ARIA
-      <link>WAI-ARIA</link>
+      With a global class name .<text>With a</text>
+      <link>global class name</link>
+      <text>.</text>
     </listitem>
     <listitem>
-      Scroll down to 'Exports Analysis' for a more detailed report.
-      <link>
-        Scroll down to 'Exports Analysis' for a more detailed report.
-      </link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
+      With a theme and an styleOverrides property .
+      <text>With a theme and an</text>
+      <link>styleOverrides property</link>
+      <text>.</text>
     </listitem>
   </list>
+  <text>If that isn't sufficient, you can check the</text>
+  <link>implementation of the component</link>
+  <text>for more detail.</text>
   <heading level="2">
-    Basic breadcrumbs
+    Demos
     <link></link>
-    <text>Basic breadcrumbs</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <landmark>
-    breadcrumb
-    <list>
-      <listitem>
-        Material-UI
-        <link>Material-UI</link>
-      </listitem>
-      <listitem>
-        Core
-        <link>Core</link>
-      </listitem>
-      <listitem>
-        Breadcrumb
-        <paragraph>
-          <text>Breadcrumb</text>
-        </paragraph>
-      </listitem>
-    </list>
-  </landmark>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Breadcrumbs aria-label="breadcrumb"> <Link
-    color="inherit" href="/"
-    onClick={handleClick}> Material-UI </Link> <Link
-    color="inherit" href="/getting-started/installation/"
-    onClick={handleClick} > Core </Link> <Typography
-    color="textPrimary">Breadcrumb</Typography>
-    </Breadcrumbs>
-  </text>
-  <heading level="2">
-    Active last breadcrumb
-    <link></link>
-    <text>Active last breadcrumb</text>
-  </heading>
-  <paragraph>
-    <text>Keep the last breadcrumb interactive.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <landmark>
-    breadcrumb
-    <list>
-      <listitem>
-        Material-UI
-        <link>Material-UI</link>
-      </listitem>
-      <listitem>
-        Core
-        <link>Core</link>
-      </listitem>
-      <listitem>
-        Breadcrumb
-        <link>Breadcrumb</link>
-      </listitem>
-    </list>
-  </landmark>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Custom separator
-    <link></link>
-    <text>Custom separator</text>
-  </heading>
-  <paragraph>
-    <text>
-      In the following examples, we are using two string separators, and an SVG
-      icon.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <landmark>
-    breadcrumb
-    <list>
-      <listitem>
-        Material-UI
-        <link>Material-UI</link>
-      </listitem>
-      <listitem>
-        Core
-        <link>Core</link>
-      </listitem>
-      <listitem>
-        Breadcrumb
-        <paragraph>
-          <text>Breadcrumb</text>
-        </paragraph>
-      </listitem>
-    </list>
-  </landmark>
-  <landmark>
-    breadcrumb
-    <list>
-      <listitem>
-        Material-UI
-        <link>Material-UI</link>
-      </listitem>
-      <listitem>
-        Core
-        <link>Core</link>
-      </listitem>
-      <listitem>
-        Breadcrumb
-        <paragraph>
-          <text>Breadcrumb</text>
-        </paragraph>
-      </listitem>
-    </list>
-  </landmark>
-  <landmark>
-    breadcrumb
-    <list>
-      <listitem>
-        Material-UI
-        <link>Material-UI</link>
-      </listitem>
-      <listitem>
-        Core
-        <link>Core</link>
-      </listitem>
-      <listitem>
-        Breadcrumb
-        <paragraph>
-          <text>Breadcrumb</text>
-        </paragraph>
-      </listitem>
-    </list>
-  </landmark>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Breadcrumbs with icons
-    <link></link>
-    <text>Breadcrumbs with icons</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <landmark>
-    breadcrumb
-    <list>
-      <listitem>
-        Material-UI
-        <link>Material-UI</link>
-      </listitem>
-      <listitem>
-        Core
-        <link>Core</link>
-      </listitem>
-      <listitem>
-        Breadcrumb
-        <text>Breadcrumb</text>
-      </listitem>
-    </list>
-  </landmark>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Collapsed breadcrumbs
-    <link></link>
-    <text>Collapsed breadcrumbs</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <landmark>
-    breadcrumb
-    <list>
-      <listitem>
-        Home
-        <link>Home</link>
-      </listitem>
-      <listitem>
-        Show path
-        <button>Show path</button>
-      </listitem>
-      <listitem>
-        Belts
-        <paragraph>
-          <text>Belts</text>
-        </paragraph>
-      </listitem>
-    </list>
-  </landmark>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Breadcrumbs maxItems={2} aria-label="breadcrumb">
-    <Link color="inherit" href="#"
-    onClick={handleClick}> Home </Link> <Link
-    color="inherit" href="#"
-    onClick={handleClick}> Catalog </Link> <Link
-    color="inherit" href="#"
-    onClick={handleClick}> Accessories </Link> <Link
-    color="inherit" href="#"
-    onClick={handleClick}> New Collection </Link>
-    <Typography color="textPrimary">Belts</Typography>
-    </Breadcrumbs>
-  </text>
-  <heading level="2">
-    Customized breadcrumbs
-    <link></link>
-    <text>Customized breadcrumbs</text>
-  </heading>
-  <paragraph>
-    <text>
-      Here is an example of customizing the component. You can learn more about
-      this in the
-    </text>
-    <link>overrides documentation page</link>
-    <text>.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <landmark>
-    breadcrumb
-    <list>
-      <listitem>
-        Home
-        <link>Home</link>
-      </listitem>
-      <listitem>
-        Catalog
-        <link>Catalog</link>
-      </listitem>
-      <listitem>
-        Accessories
-        <button>
-          Accessories
-          <text>Accessories</text>
-        </button>
-      </listitem>
-    </list>
-  </landmark>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Integration with react-router
-    <link></link>
-    <text>Integration with react-router</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <landmark>
-    breadcrumb
-    <list>
-      <listitem>
-        Home
-        <link>Home</link>
-      </listitem>
-      <listitem>
-        Inbox
-        <paragraph>
-          <text>Inbox</text>
-        </paragraph>
-      </listitem>
-    </list>
-  </landmark>
-  <landmark>
-    mailbox folders
-    <list>
-      <listitem level="1">
-        Inbox
-        <button>
-          Inbox
-          <text>Inbox</text>
-        </button>
-      </listitem>
-      <listitem level="1">
-        Important
-        <list>
-          <listitem level="2">
-            Important
-            <button>
-              Important
-              <text>Important</text>
-            </button>
-          </listitem>
-        </list>
-      </listitem>
-      <listitem level="1">
-        Trash
-        <button>
-          Trash
-          <text>Trash</text>
-        </button>
-      </listitem>
-      <listitem level="1">
-        Spam
-        <button>
-          Spam
-          <text>Spam</text>
-        </button>
-      </listitem>
-    </list>
-  </landmark>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Accessibility
-    <link></link>
-    <text>Accessibility</text>
-  </heading>
-  <paragraph>
-    <text>(WAI-ARIA:</text>
-    <link>https://www.w3.org/TR/wai-aria-practices/#breadcrumb</link>
-    <text>)</text>
-  </paragraph>
-  <paragraph>
-    <text>
-      Be sure to add a aria-label description on the Breadcrumbs component.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>The accessibility of this component relies on:</text>
-  </paragraph>
-  <list>
-    <listitem>
-      The set of links is structured using an ordered list ( <ol>
-      element).
-      <text>
-        The set of links is structured using an ordered list (<ol>
-        element).
-      </text>
-    </listitem>
-    <listitem>
-      To prevent screen reader announcement of the visual separators between
-      links, they are hidden with aria-hidden .
-      <text>
-        To prevent screen reader announcement of the visual separators between
-        links, they are hidden with aria-hidden.
-      </text>
-    </listitem>
-    <listitem>
-      A nav element labeled with aria-label identifies the structure as a
-      breadcrumb trail and makes it a navigation landmark so that it is easy to
-      locate.
-      <text>
-        A nav element labeled with aria-label identifies the structure as a
-        breadcrumb trail and makes it a navigation landmark so that it is easy
-        to locate.
-      </text>
-    </listitem>
-  </list>
-  <heading level="2">
-    API
-    <link></link>
-    <text>API</text>
+    <text>Demos</text>
   </heading>
   <list>
     <listitem>
-      <Breadcrumbs />
-      <link><Breadcrumbs /></link>
-    </listitem>
-    <listitem>
-      <Link />
-      <link><Link /></link>
-    </listitem>
-    <listitem>
-      <Typography />
-      <link><Typography /></link>
+      Selects
+      <link>Selects</link>
     </listitem>
   </list>
   <separator></separator>
-  <link>Bottom Navigation</link>
+  <link>ScopedCssBaseline</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Drawer</link>
+  <link>Skeleton</link>
 </landmark>;
 
 `;
 
 exports[`firefox /components/button-group/ 1`] = `
-<landmark>
-  <link>EDIT THIS PAGE</link>
-  <heading level="1">
-    Button group
-    <text>Button group</text>
-  </heading>
-  <paragraph>
-    <text>The ButtonGroup component can be used to group related buttons.</text>
-  </paragraph>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      Scroll down to 'Exports Analysis' for a more detailed report.
-      <link>
-        Scroll down to 'Exports Analysis' for a more detailed report.
-      </link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-  </list>
-  <heading level="2">
-    Basic button group
-    <link></link>
-    <text>Basic button group</text>
-  </heading>
-  <paragraph>
-    <text>
-      The buttons can be grouped by wrapping them with the ButtonGroup
-      component. They need to be immediate children.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    outlined primary button group
-    <button>
-      ONE
-      <text>ONE</text>
-    </button>
-    <button>
-      TWO
-      <text>TWO</text>
-    </button>
-    <button>
-      THREE
-      <text>THREE</text>
-    </button>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <ButtonGroup variant="contained" aria-label="outlined
-    primary button group"> <Button>One</Button>
-    <Button>Two</Button> <Button>Three</Button>
-    </ButtonGroup>
-  </text>
-  <heading level="2">
-    Button variants
-    <link></link>
-    <text>Button variants</text>
-  </heading>
-  <paragraph>
-    <text>All the standard button variants are supported.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    outlined button group
-    <button>
-      ONE
-      <text>ONE</text>
-    </button>
-    <button>
-      TWO
-      <text>TWO</text>
-    </button>
-    <button>
-      THREE
-      <text>THREE</text>
-    </button>
-  </group>
-  <group>
-    text button group
-    <button>
-      ONE
-      <text>ONE</text>
-    </button>
-    <button>
-      TWO
-      <text>TWO</text>
-    </button>
-    <button>
-      THREE
-      <text>THREE</text>
-    </button>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <ButtonGroup variant="outlined" aria-label="outlined
-    button group"> <Button>One</Button>
-    <Button>Two</Button> <Button>Three</Button>
-    </ButtonGroup> <ButtonGroup variant="text"
-    aria-label="text button group">
-    <Button>One</Button> <Button>Two</Button>
-    <Button>Three</Button> </ButtonGroup>
-  </text>
-  <heading level="2">
-    Sizes and colors
-    <link></link>
-    <text>Sizes and colors</text>
-  </heading>
-  <paragraph>
-    <text>
-      The size and color props can be used to control the appearance of the
-      button group.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    small button group
-    <button>
-      ONE
-      <text>ONE</text>
-    </button>
-    <button>
-      TWO
-      <text>TWO</text>
-    </button>
-    <button>
-      THREE
-      <text>THREE</text>
-    </button>
-  </group>
-  <group>
-    medium secondary button group
-    <button>
-      ONE
-      <text>ONE</text>
-    </button>
-    <button>
-      TWO
-      <text>TWO</text>
-    </button>
-    <button>
-      THREE
-      <text>THREE</text>
-    </button>
-  </group>
-  <group>
-    large button group
-    <button>
-      ONE
-      <text>ONE</text>
-    </button>
-    <button>
-      TWO
-      <text>TWO</text>
-    </button>
-    <button>
-      THREE
-      <text>THREE</text>
-    </button>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <ButtonGroup size="small" aria-label="small button
-    group"> {buttons} </ButtonGroup> <ButtonGroup
-    color="secondary" aria-label="medium secondary button
-    group"> {buttons} </ButtonGroup> <ButtonGroup
-    size="large" aria-label="large button group">
-    {buttons} </ButtonGroup>
-  </text>
-  <heading level="2">
-    Vertical group
-    <link></link>
-    <text>Vertical group</text>
-  </heading>
-  <paragraph>
-    <text>
-      The button group can be displayed vertically using the orientation prop.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    vertical outlined button group
-    <button>
-      ONE
-      <text>ONE</text>
-    </button>
-    <button>
-      TWO
-      <text>TWO</text>
-    </button>
-    <button>
-      THREE
-      <text>THREE</text>
-    </button>
-  </group>
-  <group>
-    vertical contained button group
-    <button>
-      ONE
-      <text>ONE</text>
-    </button>
-    <button>
-      TWO
-      <text>TWO</text>
-    </button>
-    <button>
-      THREE
-      <text>THREE</text>
-    </button>
-  </group>
-  <group>
-    vertical contained button group
-    <button>
-      ONE
-      <text>ONE</text>
-    </button>
-    <button>
-      TWO
-      <text>TWO</text>
-    </button>
-    <button>
-      THREE
-      <text>THREE</text>
-    </button>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Split button
-    <link></link>
-    <text>Split button</text>
-  </heading>
-  <paragraph>
-    <text>
-      ButtonGroup can also be used to create a split button. The dropdown can
-      change the button action (as in this example) or be used to immediately
-      trigger a related action.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    split button
-    <button>
-      SQUASH AND MERGE
-      <text>SQUASH AND MERGE</text>
-    </button>
-    <button haspopup="true">select merge strategy</button>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Disabled elevation
-    <link></link>
-    <text>Disabled elevation</text>
-  </heading>
-  <paragraph>
-    <text>You can remove the elevation with the disableElevation prop.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    <button>
-      ONE
-      <text>ONE</text>
-    </button>
-    <button>
-      TWO
-      <text>TWO</text>
-    </button>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <ButtonGroup disableElevation variant="contained">
-    <Button>One</Button> <Button>Two</Button>
-    </ButtonGroup>
-  </text>
-  <heading level="2">
-    API
-    <link></link>
-    <text>API</text>
-  </heading>
-  <list>
-    <listitem>
-      <Button />
-      <link><Button /></link>
-    </listitem>
-    <listitem>
-      <ButtonGroup />
-      <link><ButtonGroup /></link>
-    </listitem>
-  </list>
-  <separator></separator>
-  <link>Button</link>
-  <group>
-    Was this page helpful?
-    <text>Was this page helpful?</text>
-    <togglebutton>Yes</togglebutton>
-    <togglebutton>No</togglebutton>
-  </group>
-  <link>Checkbox</link>
-</landmark>;
-
-`;
-
-exports[`firefox /components/buttons/ 1`] = `
 <landmark>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
@@ -16691,7 +18166,493 @@ exports[`firefox /components/buttons/ 1`] = `
 
 `;
 
+exports[`firefox /components/buttons/ 1`] = `
+<landmark>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
+    Breadcrumbs
+    <text>Breadcrumbs</text>
+  </heading>
+  <paragraph>
+    <text>
+      Breadcrumbs allow users to make selections from a range of values.
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      Feedback
+      <link>Feedback</link>
+    </listitem>
+    <listitem>
+      WAI-ARIA
+      <link>WAI-ARIA</link>
+    </listitem>
+    <listitem>
+      Scroll down to 'Exports Analysis' for a more detailed report.
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem>
+      Figma
+      <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Basic breadcrumbs
+    <link></link>
+    <text>Basic breadcrumbs</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <landmark>
+    breadcrumb
+    <list>
+      <listitem>
+        Material-UI
+        <link>Material-UI</link>
+      </listitem>
+      <listitem>
+        Core
+        <link>Core</link>
+      </listitem>
+      <listitem>
+        Breadcrumb
+        <paragraph>
+          <text>Breadcrumb</text>
+        </paragraph>
+      </listitem>
+    </list>
+  </landmark>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Breadcrumbs aria-label="breadcrumb"> <Link
+    color="inherit" href="/"
+    onClick={handleClick}> Material-UI </Link> <Link
+    color="inherit" href="/getting-started/installation/"
+    onClick={handleClick} > Core </Link> <Typography
+    color="textPrimary">Breadcrumb</Typography>
+    </Breadcrumbs>
+  </text>
+  <heading level="2">
+    Active last breadcrumb
+    <link></link>
+    <text>Active last breadcrumb</text>
+  </heading>
+  <paragraph>
+    <text>Keep the last breadcrumb interactive.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <landmark>
+    breadcrumb
+    <list>
+      <listitem>
+        Material-UI
+        <link>Material-UI</link>
+      </listitem>
+      <listitem>
+        Core
+        <link>Core</link>
+      </listitem>
+      <listitem>
+        Breadcrumb
+        <link>Breadcrumb</link>
+      </listitem>
+    </list>
+  </landmark>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Custom separator
+    <link></link>
+    <text>Custom separator</text>
+  </heading>
+  <paragraph>
+    <text>
+      In the following examples, we are using two string separators, and an SVG
+      icon.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <landmark>
+    breadcrumb
+    <list>
+      <listitem>
+        Material-UI
+        <link>Material-UI</link>
+      </listitem>
+      <listitem>
+        Core
+        <link>Core</link>
+      </listitem>
+      <listitem>
+        Breadcrumb
+        <paragraph>
+          <text>Breadcrumb</text>
+        </paragraph>
+      </listitem>
+    </list>
+  </landmark>
+  <landmark>
+    breadcrumb
+    <list>
+      <listitem>
+        Material-UI
+        <link>Material-UI</link>
+      </listitem>
+      <listitem>
+        Core
+        <link>Core</link>
+      </listitem>
+      <listitem>
+        Breadcrumb
+        <paragraph>
+          <text>Breadcrumb</text>
+        </paragraph>
+      </listitem>
+    </list>
+  </landmark>
+  <landmark>
+    breadcrumb
+    <list>
+      <listitem>
+        Material-UI
+        <link>Material-UI</link>
+      </listitem>
+      <listitem>
+        Core
+        <link>Core</link>
+      </listitem>
+      <listitem>
+        Breadcrumb
+        <paragraph>
+          <text>Breadcrumb</text>
+        </paragraph>
+      </listitem>
+    </list>
+  </landmark>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Breadcrumbs with icons
+    <link></link>
+    <text>Breadcrumbs with icons</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <landmark>
+    breadcrumb
+    <list>
+      <listitem>
+        Material-UI
+        <link>Material-UI</link>
+      </listitem>
+      <listitem>
+        Core
+        <link>Core</link>
+      </listitem>
+      <listitem>
+        Breadcrumb
+        <text>Breadcrumb</text>
+      </listitem>
+    </list>
+  </landmark>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Collapsed breadcrumbs
+    <link></link>
+    <text>Collapsed breadcrumbs</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <landmark>
+    breadcrumb
+    <list>
+      <listitem>
+        Home
+        <link>Home</link>
+      </listitem>
+      <listitem>
+        Show path
+        <button>Show path</button>
+      </listitem>
+      <listitem>
+        Belts
+        <paragraph>
+          <text>Belts</text>
+        </paragraph>
+      </listitem>
+    </list>
+  </landmark>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Breadcrumbs maxItems={2} aria-label="breadcrumb">
+    <Link color="inherit" href="#"
+    onClick={handleClick}> Home </Link> <Link
+    color="inherit" href="#"
+    onClick={handleClick}> Catalog </Link> <Link
+    color="inherit" href="#"
+    onClick={handleClick}> Accessories </Link> <Link
+    color="inherit" href="#"
+    onClick={handleClick}> New Collection </Link>
+    <Typography color="textPrimary">Belts</Typography>
+    </Breadcrumbs>
+  </text>
+  <heading level="2">
+    Customized breadcrumbs
+    <link></link>
+    <text>Customized breadcrumbs</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here is an example of customizing the component. You can learn more about
+      this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <landmark>
+    breadcrumb
+    <list>
+      <listitem>
+        Home
+        <link>Home</link>
+      </listitem>
+      <listitem>
+        Catalog
+        <link>Catalog</link>
+      </listitem>
+      <listitem>
+        Accessories
+        <button>
+          Accessories
+          <text>Accessories</text>
+        </button>
+      </listitem>
+    </list>
+  </landmark>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Integration with react-router
+    <link></link>
+    <text>Integration with react-router</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <landmark>
+    breadcrumb
+    <list>
+      <listitem>
+        Home
+        <link>Home</link>
+      </listitem>
+      <listitem>
+        Inbox
+        <paragraph>
+          <text>Inbox</text>
+        </paragraph>
+      </listitem>
+    </list>
+  </landmark>
+  <landmark>
+    mailbox folders
+    <list>
+      <listitem level="1">
+        Inbox
+        <button>
+          Inbox
+          <text>Inbox</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        Important
+        <list>
+          <listitem level="2">
+            Important
+            <button>
+              Important
+              <text>Important</text>
+            </button>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        Trash
+        <button>
+          Trash
+          <text>Trash</text>
+        </button>
+      </listitem>
+      <listitem level="1">
+        Spam
+        <button>
+          Spam
+          <text>Spam</text>
+        </button>
+      </listitem>
+    </list>
+  </landmark>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Accessibility
+    <link></link>
+    <text>Accessibility</text>
+  </heading>
+  <paragraph>
+    <text>(WAI-ARIA:</text>
+    <link>https://www.w3.org/TR/wai-aria-practices/#breadcrumb</link>
+    <text>)</text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Be sure to add a aria-label description on the Breadcrumbs component.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>The accessibility of this component relies on:</text>
+  </paragraph>
+  <list>
+    <listitem>
+      The set of links is structured using an ordered list ( <ol>
+      element).
+      <text>
+        The set of links is structured using an ordered list (<ol>
+        element).
+      </text>
+    </listitem>
+    <listitem>
+      To prevent screen reader announcement of the visual separators between
+      links, they are hidden with aria-hidden .
+      <text>
+        To prevent screen reader announcement of the visual separators between
+        links, they are hidden with aria-hidden.
+      </text>
+    </listitem>
+    <listitem>
+      A nav element labeled with aria-label identifies the structure as a
+      breadcrumb trail and makes it a navigation landmark so that it is easy to
+      locate.
+      <text>
+        A nav element labeled with aria-label identifies the structure as a
+        breadcrumb trail and makes it a navigation landmark so that it is easy
+        to locate.
+      </text>
+    </listitem>
+  </list>
+  <heading level="2">
+    API
+    <link></link>
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem>
+      <Breadcrumbs />
+      <link><Breadcrumbs /></link>
+    </listitem>
+    <listitem>
+      <Link />
+      <link><Link /></link>
+    </listitem>
+    <listitem>
+      <Typography />
+      <link><Typography /></link>
+    </listitem>
+  </list>
+  <separator></separator>
+  <link>Bottom Navigation</link>
+  <group>
+    Was this page helpful?
+    <text>Was this page helpful?</text>
+    <togglebutton>Yes</togglebutton>
+    <togglebutton>No</togglebutton>
+  </group>
+  <link>Drawer</link>
+</landmark>;
+
+`;
+
 exports[`firefox /components/checkboxes/ 1`] = `
+<document></document>;
+
+`;
+
+exports[`firefox /components/dialogs/ 1`] = `
 <landmark>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
@@ -17132,573 +19093,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Floating Action Button</link>
-</landmark>;
-
-`;
-
-exports[`firefox /components/dialogs/ 1`] = `
-<landmark>
-  <link>EDIT THIS PAGE</link>
-  <heading level="1">
-    Dialog
-    <text>Dialog</text>
-  </heading>
-  <paragraph>
-    <text>
-      Dialogs inform users about a task and can contain critical information,
-      require decisions, or involve multiple tasks.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>A Dialog is a type of</text>
-    <link>modal</link>
-    <text>
-      window that appears in front of app content to provide critical
-      information or ask for a decision. Dialogs disable all app functionality
-      when they appear, and remain on screen until confirmed, dismissed, or a
-      required action has been taken.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      Dialogs are purposefully interruptive, so they should be used sparingly.
-    </text>
-  </paragraph>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      WAI-ARIA
-      <link>WAI-ARIA</link>
-    </listitem>
-    <listitem>
-      Scroll down to 'Exports Analysis' for a more detailed report.
-      <link>
-        Scroll down to 'Exports Analysis' for a more detailed report.
-      </link>
-    </listitem>
-    <listitem>
-      Material Design
-      <link>Material Design</link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-  </list>
-  <heading level="2">
-    Basic dialog
-    <link></link>
-    <text>Basic dialog</text>
-  </heading>
-  <paragraph>
-    <text>
-      Simple dialogs can provide additional details or actions about a list
-      item. For example, they can display avatars, icons, clarifying subtext, or
-      orthogonal actions (such as adding an account).
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>Touch mechanics:</text>
-  </paragraph>
-  <list>
-    <listitem>
-      Choosing an option immediately commits the option and closes the menu
-      <text>
-        Choosing an option immediately commits the option and closes the menu
-      </text>
-    </listitem>
-    <listitem>
-      Touching outside of the dialog, or pressing Back, cancels the action and
-      closes the dialog
-      <text>
-        Touching outside of the dialog, or pressing Back, cancels the action and
-        closes the dialog
-      </text>
-    </listitem>
-  </list>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <text>Selected: user02@gmail.com</text>
-  <whitespace></whitespace>
-  <button>
-    OPEN SIMPLE DIALOG
-    <text>OPEN SIMPLE DIALOG</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Typography variant="subtitle1" component="div">
-    Selected: {selectedValue} </Typography> <br />
-    <Button variant="outlined"
-    onClick={handleClickOpen}> Open simple dialog </Button>
-    <SimpleDialog selectedValue={selectedValue}
-    open={open} onClose={handleClose} />
-  </text>
-  <heading level="2">
-    Alerts
-    <link></link>
-    <text>Alerts</text>
-  </heading>
-  <paragraph>
-    <text>
-      Alerts are urgent interruptions, requiring acknowledgement, that inform
-      the user about a situation.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      Most alerts don't need titles. They summarize a decision in a
-      sentence or two by either:
-    </text>
-  </paragraph>
-  <list>
-    <listitem>
-      Asking a question (e.g. "Delete this conversation?")
-      <text>
-        Asking a question (e.g. "Delete this conversation?")
-      </text>
-    </listitem>
-    <listitem>
-      Making a statement related to the action buttons
-      <text>Making a statement related to the action buttons</text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>
-      Use title bar alerts only for high-risk situations, such as the potential
-      loss of connectivity. Users should be able to understand the choices based
-      on the title and button text alone.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>If a title is required:</text>
-  </paragraph>
-  <list>
-    <listitem>
-      Use a clear question or statement with an explanation in the content area,
-      such as "Erase USB storage?".
-      <text>
-        Use a clear question or statement with an explanation in the content
-        area, such as "Erase USB storage?".
-      </text>
-    </listitem>
-    <listitem>
-      Avoid apologies, ambiguity, or questions, such as "Warning!" or
-      "Are you sure?"
-      <text>
-        Avoid apologies, ambiguity, or questions, such as "Warning!"
-        or "Are you sure?"
-      </text>
-    </listitem>
-  </list>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    OPEN ALERT DIALOG
-    <text>OPEN ALERT DIALOG</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Transitions
-    <link></link>
-    <text>Transitions</text>
-  </heading>
-  <paragraph>
-    <text>
-      You can also swap out the transition, the next example uses Slide.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    SLIDE IN ALERT DIALOG
-    <text>SLIDE IN ALERT DIALOG</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Form dialogs
-    <link></link>
-    <text>Form dialogs</text>
-  </heading>
-  <paragraph>
-    <text>
-      Form dialogs allow users to fill out form fields within a dialog. For
-      example, if your site prompts for potential subscribers to fill in their
-      email address, they can fill out the email field and touch
-      'Submit'.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    OPEN FORM DIALOG
-    <text>OPEN FORM DIALOG</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Customized dialogs
-    <link></link>
-    <text>Customized dialogs</text>
-  </heading>
-  <paragraph>
-    <text>
-      Here is an example of customizing the component. You can learn more about
-      this in the
-    </text>
-    <link>overrides documentation page</link>
-    <text>.</text>
-  </paragraph>
-  <paragraph>
-    <text>The dialog has a close button added to aide usability.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    OPEN DIALOG
-    <text>OPEN DIALOG</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Full-screen dialogs
-    <link></link>
-    <text>Full-screen dialogs</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    OPEN FULL-SCREEN DIALOG
-    <text>OPEN FULL-SCREEN DIALOG</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Optional sizes
-    <link></link>
-    <text>Optional sizes</text>
-  </heading>
-  <paragraph>
-    <text>
-      You can set a dialog maximum width by using the maxWidth enumerable in
-      combination with the fullWidth boolean. When the fullWidth prop is true,
-      the dialog will adapt based on the maxWidth value.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    OPEN MAX-WIDTH DIALOG
-    <text>OPEN MAX-WIDTH DIALOG</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Responsive full-screen
-    <link></link>
-    <text>Responsive full-screen</text>
-  </heading>
-  <paragraph>
-    <text>You may make a dialog responsively full screen using</text>
-    <link>useMediaQuery</link>
-    <text>.</text>
-  </paragraph>
-  <text>
-    import useMediaQuery from '@material-ui/core/useMediaQuery';
-    function MyComponent() { const theme = useTheme(); const fullScreen =
-    useMediaQuery(theme.breakpoints.down('md')); return <Dialog
-    fullScreen={fullScreen} />; }
-  </text>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    OPEN RESPONSIVE DIALOG
-    <text>OPEN RESPONSIVE DIALOG</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Confirmation dialogs
-    <link></link>
-    <text>Confirmation dialogs</text>
-  </heading>
-  <paragraph>
-    <text>
-      Confirmation dialogs require users to explicitly confirm their choice
-      before an option is committed. For example, users can listen to multiple
-      ringtones but only make a final selection upon touching "OK".
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      Touching "Cancel" in a confirmation dialog, or pressing Back,
-      cancels the action, discards any changes, and closes the dialog.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    <button disabled="true">
-      Interruptions
-      <text>Interruptions</text>
-    </button>
-    <buttonmenu haspopup="true">
-      phone ringtone
-      <text>Phone ringtone</text>
-      <paragraph>
-        <text>Dione</text>
-      </paragraph>
-    </buttonmenu>
-    <button disabled="true">
-      Default notification ringtone Tethys
-      <text>Default notification ringtone</text>
-      <paragraph>
-        <text>Tethys</text>
-      </paragraph>
-    </button>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Draggable dialog
-    <link></link>
-    <text>Draggable dialog</text>
-  </heading>
-  <paragraph>
-    <text>You can create a draggable dialog by using</text>
-    <link>react-draggable</link>
-    <text>
-      . To do so, you can pass the imported Draggable component as the
-      PaperComponent of the Dialog component. This will make the entire dialog
-      draggable.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    OPEN DRAGGABLE DIALOG
-    <text>OPEN DRAGGABLE DIALOG</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Scrolling long content
-    <link></link>
-    <text>Scrolling long content</text>
-  </heading>
-  <paragraph>
-    <text>
-      When dialogs become too long for the user's viewport or device, they
-      scroll.
-    </text>
-  </paragraph>
-  <list>
-    <listitem>
-      scroll=paper the content of the dialog scrolls within the paper element.
-      <text>
-        scroll=paper the content of the dialog scrolls within the paper element.
-      </text>
-    </listitem>
-    <listitem>
-      scroll=body the content of the dialog scrolls within the body element.
-      <text>
-        scroll=body the content of the dialog scrolls within the body element.
-      </text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>Try the demo below to see what we mean:</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    SCROLL=PAPER
-    <text>SCROLL=PAPER</text>
-  </button>
-  <button>
-    SCROLL=BODY
-    <text>SCROLL=BODY</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Performance
-    <link></link>
-    <text>Performance</text>
-  </heading>
-  <paragraph>
-    <text>Follow the</text>
-    <link>Modal performance section</link>
-    <text>.</text>
-  </paragraph>
-  <heading level="2">
-    Limitations
-    <link></link>
-    <text>Limitations</text>
-  </heading>
-  <paragraph>
-    <text>Follow the</text>
-    <link>Modal limitations section</link>
-    <text>.</text>
-  </paragraph>
-  <heading level="2">
-    Accessibility
-    <link></link>
-    <text>Accessibility</text>
-  </heading>
-  <paragraph>
-    <text>Follow the</text>
-    <link>Modal accessibility section</link>
-    <text>.</text>
-  </paragraph>
-  <heading level="2">
-    API
-    <link></link>
-    <text>API</text>
-  </heading>
-  <list>
-    <listitem>
-      <Dialog />
-      <link><Dialog /></link>
-    </listitem>
-    <listitem>
-      <DialogActions />
-      <link><DialogActions /></link>
-    </listitem>
-    <listitem>
-      <DialogContent />
-      <link><DialogContent /></link>
-    </listitem>
-    <listitem>
-      <DialogContentText />
-      <link><DialogContentText /></link>
-    </listitem>
-    <listitem>
-      <DialogTitle />
-      <link><DialogTitle /></link>
-    </listitem>
-    <listitem>
-      <Slide />
-      <link><Slide /></link>
-    </listitem>
-  </list>
-  <separator></separator>
-  <link>Backdrop</link>
-  <group>
-    Was this page helpful?
-    <text>Was this page helpful?</text>
-    <togglebutton>Yes</togglebutton>
-    <togglebutton>No</togglebutton>
-  </group>
-  <link>Progress</link>
 </landmark>;
 
 `;
@@ -19254,6 +20648,573 @@ exports[`firefox /components/pickers 1`] = `
 <landmark>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
+    Dialog
+    <text>Dialog</text>
+  </heading>
+  <paragraph>
+    <text>
+      Dialogs inform users about a task and can contain critical information,
+      require decisions, or involve multiple tasks.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>A Dialog is a type of</text>
+    <link>modal</link>
+    <text>
+      window that appears in front of app content to provide critical
+      information or ask for a decision. Dialogs disable all app functionality
+      when they appear, and remain on screen until confirmed, dismissed, or a
+      required action has been taken.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Dialogs are purposefully interruptive, so they should be used sparingly.
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      Feedback
+      <link>Feedback</link>
+    </listitem>
+    <listitem>
+      WAI-ARIA
+      <link>WAI-ARIA</link>
+    </listitem>
+    <listitem>
+      Scroll down to 'Exports Analysis' for a more detailed report.
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem>
+      Material Design
+      <link>Material Design</link>
+    </listitem>
+    <listitem>
+      Figma
+      <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Basic dialog
+    <link></link>
+    <text>Basic dialog</text>
+  </heading>
+  <paragraph>
+    <text>
+      Simple dialogs can provide additional details or actions about a list
+      item. For example, they can display avatars, icons, clarifying subtext, or
+      orthogonal actions (such as adding an account).
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>Touch mechanics:</text>
+  </paragraph>
+  <list>
+    <listitem>
+      Choosing an option immediately commits the option and closes the menu
+      <text>
+        Choosing an option immediately commits the option and closes the menu
+      </text>
+    </listitem>
+    <listitem>
+      Touching outside of the dialog, or pressing Back, cancels the action and
+      closes the dialog
+      <text>
+        Touching outside of the dialog, or pressing Back, cancels the action and
+        closes the dialog
+      </text>
+    </listitem>
+  </list>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <text>Selected: user02@gmail.com</text>
+  <whitespace></whitespace>
+  <button>
+    OPEN SIMPLE DIALOG
+    <text>OPEN SIMPLE DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Typography variant="subtitle1" component="div">
+    Selected: {selectedValue} </Typography> <br />
+    <Button variant="outlined"
+    onClick={handleClickOpen}> Open simple dialog </Button>
+    <SimpleDialog selectedValue={selectedValue}
+    open={open} onClose={handleClose} />
+  </text>
+  <heading level="2">
+    Alerts
+    <link></link>
+    <text>Alerts</text>
+  </heading>
+  <paragraph>
+    <text>
+      Alerts are urgent interruptions, requiring acknowledgement, that inform
+      the user about a situation.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Most alerts don't need titles. They summarize a decision in a
+      sentence or two by either:
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      Asking a question (e.g. "Delete this conversation?")
+      <text>
+        Asking a question (e.g. "Delete this conversation?")
+      </text>
+    </listitem>
+    <listitem>
+      Making a statement related to the action buttons
+      <text>Making a statement related to the action buttons</text>
+    </listitem>
+  </list>
+  <paragraph>
+    <text>
+      Use title bar alerts only for high-risk situations, such as the potential
+      loss of connectivity. Users should be able to understand the choices based
+      on the title and button text alone.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>If a title is required:</text>
+  </paragraph>
+  <list>
+    <listitem>
+      Use a clear question or statement with an explanation in the content area,
+      such as "Erase USB storage?".
+      <text>
+        Use a clear question or statement with an explanation in the content
+        area, such as "Erase USB storage?".
+      </text>
+    </listitem>
+    <listitem>
+      Avoid apologies, ambiguity, or questions, such as "Warning!" or
+      "Are you sure?"
+      <text>
+        Avoid apologies, ambiguity, or questions, such as "Warning!"
+        or "Are you sure?"
+      </text>
+    </listitem>
+  </list>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN ALERT DIALOG
+    <text>OPEN ALERT DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Transitions
+    <link></link>
+    <text>Transitions</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can also swap out the transition, the next example uses Slide.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    SLIDE IN ALERT DIALOG
+    <text>SLIDE IN ALERT DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Form dialogs
+    <link></link>
+    <text>Form dialogs</text>
+  </heading>
+  <paragraph>
+    <text>
+      Form dialogs allow users to fill out form fields within a dialog. For
+      example, if your site prompts for potential subscribers to fill in their
+      email address, they can fill out the email field and touch
+      'Submit'.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN FORM DIALOG
+    <text>OPEN FORM DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Customized dialogs
+    <link></link>
+    <text>Customized dialogs</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here is an example of customizing the component. You can learn more about
+      this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <paragraph>
+    <text>The dialog has a close button added to aide usability.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN DIALOG
+    <text>OPEN DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Full-screen dialogs
+    <link></link>
+    <text>Full-screen dialogs</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN FULL-SCREEN DIALOG
+    <text>OPEN FULL-SCREEN DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Optional sizes
+    <link></link>
+    <text>Optional sizes</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can set a dialog maximum width by using the maxWidth enumerable in
+      combination with the fullWidth boolean. When the fullWidth prop is true,
+      the dialog will adapt based on the maxWidth value.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN MAX-WIDTH DIALOG
+    <text>OPEN MAX-WIDTH DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Responsive full-screen
+    <link></link>
+    <text>Responsive full-screen</text>
+  </heading>
+  <paragraph>
+    <text>You may make a dialog responsively full screen using</text>
+    <link>useMediaQuery</link>
+    <text>.</text>
+  </paragraph>
+  <text>
+    import useMediaQuery from '@material-ui/core/useMediaQuery';
+    function MyComponent() { const theme = useTheme(); const fullScreen =
+    useMediaQuery(theme.breakpoints.down('md')); return <Dialog
+    fullScreen={fullScreen} />; }
+  </text>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN RESPONSIVE DIALOG
+    <text>OPEN RESPONSIVE DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Confirmation dialogs
+    <link></link>
+    <text>Confirmation dialogs</text>
+  </heading>
+  <paragraph>
+    <text>
+      Confirmation dialogs require users to explicitly confirm their choice
+      before an option is committed. For example, users can listen to multiple
+      ringtones but only make a final selection upon touching "OK".
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Touching "Cancel" in a confirmation dialog, or pressing Back,
+      cancels the action, discards any changes, and closes the dialog.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <group>
+    <button disabled="true">
+      Interruptions
+      <text>Interruptions</text>
+    </button>
+    <buttonmenu haspopup="true">
+      phone ringtone
+      <text>Phone ringtone</text>
+      <paragraph>
+        <text>Dione</text>
+      </paragraph>
+    </buttonmenu>
+    <button disabled="true">
+      Default notification ringtone Tethys
+      <text>Default notification ringtone</text>
+      <paragraph>
+        <text>Tethys</text>
+      </paragraph>
+    </button>
+  </group>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Draggable dialog
+    <link></link>
+    <text>Draggable dialog</text>
+  </heading>
+  <paragraph>
+    <text>You can create a draggable dialog by using</text>
+    <link>react-draggable</link>
+    <text>
+      . To do so, you can pass the imported Draggable component as the
+      PaperComponent of the Dialog component. This will make the entire dialog
+      draggable.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN DRAGGABLE DIALOG
+    <text>OPEN DRAGGABLE DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Scrolling long content
+    <link></link>
+    <text>Scrolling long content</text>
+  </heading>
+  <paragraph>
+    <text>
+      When dialogs become too long for the user's viewport or device, they
+      scroll.
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      scroll=paper the content of the dialog scrolls within the paper element.
+      <text>
+        scroll=paper the content of the dialog scrolls within the paper element.
+      </text>
+    </listitem>
+    <listitem>
+      scroll=body the content of the dialog scrolls within the body element.
+      <text>
+        scroll=body the content of the dialog scrolls within the body element.
+      </text>
+    </listitem>
+  </list>
+  <paragraph>
+    <text>Try the demo below to see what we mean:</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    SCROLL=PAPER
+    <text>SCROLL=PAPER</text>
+  </button>
+  <button>
+    SCROLL=BODY
+    <text>SCROLL=BODY</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Performance
+    <link></link>
+    <text>Performance</text>
+  </heading>
+  <paragraph>
+    <text>Follow the</text>
+    <link>Modal performance section</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    Limitations
+    <link></link>
+    <text>Limitations</text>
+  </heading>
+  <paragraph>
+    <text>Follow the</text>
+    <link>Modal limitations section</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    Accessibility
+    <link></link>
+    <text>Accessibility</text>
+  </heading>
+  <paragraph>
+    <text>Follow the</text>
+    <link>Modal accessibility section</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    API
+    <link></link>
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem>
+      <Dialog />
+      <link><Dialog /></link>
+    </listitem>
+    <listitem>
+      <DialogActions />
+      <link><DialogActions /></link>
+    </listitem>
+    <listitem>
+      <DialogContent />
+      <link><DialogContent /></link>
+    </listitem>
+    <listitem>
+      <DialogContentText />
+      <link><DialogContentText /></link>
+    </listitem>
+    <listitem>
+      <DialogTitle />
+      <link><DialogTitle /></link>
+    </listitem>
+    <listitem>
+      <Slide />
+      <link><Slide /></link>
+    </listitem>
+  </list>
+  <separator></separator>
+  <link>Backdrop</link>
+  <group>
+    Was this page helpful?
+    <text>Was this page helpful?</text>
+    <togglebutton>Yes</togglebutton>
+    <togglebutton>No</togglebutton>
+  </group>
+  <link>Progress</link>
+</landmark>;
+
+`;
+
+exports[`firefox /components/radio-buttons 1`] = `
+<landmark>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
     Date / Time pickers
     <text>Date / Time pickers</text>
   </heading>
@@ -19541,503 +21502,6 @@ exports[`firefox /components/pickers 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Date Picker</link>
-</landmark>;
-
-`;
-
-exports[`firefox /components/radio-buttons 1`] = `
-<landmark>
-  <link>EDIT THIS PAGE</link>
-  <heading level="1">
-    Radio
-    <text>Radio</text>
-  </heading>
-  <paragraph>
-    <text>Radio buttons allow the user to select one option from a set.</text>
-  </paragraph>
-  <paragraph>
-    <text>
-      Use radio buttons when the user needs to see all available options. If
-      available options can be collapsed, consider using a dropdown menu because
-      it uses less space.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      Radio buttons should have the most commonly used option selected by
-      default.
-    </text>
-  </paragraph>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      WAI-ARIA
-      <link>WAI-ARIA</link>
-    </listitem>
-    <listitem>
-      Scroll down to 'Exports Analysis' for a more detailed report.
-      <link>
-        Scroll down to 'Exports Analysis' for a more detailed report.
-      </link>
-    </listitem>
-    <listitem>
-      Material Design
-      <link>Material Design</link>
-    </listitem>
-    <listitem>
-      Figma
-      <link>Figma</link>
-    </listitem>
-    <listitem>
-      Sketch
-      <link>Sketch</link>
-    </listitem>
-  </list>
-  <heading level="2">
-    RadioGroup
-    <link></link>
-    <text>RadioGroup</text>
-  </heading>
-  <paragraph>
-    <text>
-      RadioGroup is a helpful wrapper used to group Radio components that
-      provides an easier API, and proper keyboard accessibility to the group.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    Gender
-    <label>
-      Gender
-      <text>Gender</text>
-    </label>
-    <group>
-      gender
-      <label>
-        Female
-        <radio checked="true">Female</radio>
-        <text>Female</text>
-      </label>
-      <label>
-        Male
-        <radio>Male</radio>
-        <text>Male</text>
-      </label>
-      <label>
-        Other
-        <radio>Other</radio>
-        <text>Other</text>
-      </label>
-      <label>
-        (Disabled option)
-        <radio disabled="true">(Disabled option)</radio>
-        <text>(Disabled option)</text>
-      </label>
-    </group>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <paragraph>
-    <text>
-      To lay out the buttons horizontally, set the row prop: <RadioGroup row
-      />.
-    </text>
-  </paragraph>
-  <heading level="2">
-    Standalone radio buttons
-    <link></link>
-    <text>Standalone radio buttons</text>
-  </heading>
-  <paragraph>
-    <text>
-      Radio can also be used standalone, without the RadioGroup wrapper.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <radio checked="true">A</radio>
-  <radio>B</radio>
-  <radio>C</radio>
-  <radio>D</radio>
-  <radio>E</radio>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Label placement
-    <link></link>
-    <text>Label placement</text>
-  </heading>
-  <paragraph>
-    <text>
-      You can change the placement of the label with the FormControlLabel
-      component's labelPlacement prop:
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    labelPlacement
-    <label>
-      labelPlacement
-      <text>labelPlacement</text>
-    </label>
-    <group>
-      position
-      <label>
-        Top
-        <radio checked="true">Top</radio>
-        <text>Top</text>
-      </label>
-      <label>
-        Start
-        <radio>Start</radio>
-        <text>Start</text>
-      </label>
-      <label>
-        Bottom
-        <radio>Bottom</radio>
-        <text>Bottom</text>
-      </label>
-      <label>
-        End
-        <radio>End</radio>
-        <text>End</text>
-      </label>
-    </group>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Show error
-    <link></link>
-    <text>Show error</text>
-  </heading>
-  <paragraph>
-    <text>
-      In general, radio buttons should have a value selected by default. If this
-      is not the case, you can display an error if no value is selected when the
-      form is submitted:
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <form>
-    <group>
-      Pop quiz: Material-UI is...
-      <label>
-        Pop quiz: Material-UI is...
-        <text>Pop quiz: Material-UI is...</text>
-      </label>
-      <group>
-        quiz
-        <label>
-          The best!
-          <radio>The best!</radio>
-          <text>The best!</text>
-        </label>
-        <label>
-          The worst.
-          <radio>The worst.</radio>
-          <text>The worst.</text>
-        </label>
-      </group>
-      <paragraph>
-        <text>Choose wisely</text>
-      </paragraph>
-      <button>
-        CHECK ANSWER
-        <text>CHECK ANSWER</text>
-      </button>
-    </group>
-  </form>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Customized radios
-    <link></link>
-    <text>Customized radios</text>
-  </heading>
-  <paragraph>
-    <text>
-      Here is an example of customizing the component. You can learn more about
-      this in the
-    </text>
-    <link>overrides documentation page</link>
-    <text>.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    Gender
-    <label>
-      Gender
-      <text>Gender</text>
-    </label>
-    <group>
-      gender
-      <label>
-        Female
-        <radio checked="true">Female</radio>
-        <text>Female</text>
-      </label>
-      <label>
-        Male
-        <radio>Male</radio>
-        <text>Male</text>
-      </label>
-      <label>
-        Other
-        <radio>Other</radio>
-        <text>Other</text>
-      </label>
-      <label>
-        (Disabled option)
-        <radio disabled="true">(Disabled option)</radio>
-        <text>(Disabled option)</text>
-      </label>
-    </group>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <FormControl component="fieldset"> <FormLabel
-    component="legend">Gender</FormLabel> <RadioGroup
-    defaultValue="female" aria-label="gender"
-    name="customized-radios"> <FormControlLabel
-    value="female" control={<StyledRadio />}
-    label="Female" /> <FormControlLabel value="male"
-    control={<StyledRadio />} label="Male" />
-    <FormControlLabel value="other" control={<StyledRadio
-    />} label="Other" /> <FormControlLabel
-    value="disabled" disabled control={<StyledRadio
-    />} label="(Disabled option)" /> </RadioGroup>
-    </FormControl>
-  </text>
-  <heading level="2">
-    useRadioGroup
-    <link></link>
-    <text>useRadioGroup</text>
-  </heading>
-  <paragraph>
-    <text>
-      For advanced customization use cases, a useRadioGroup() hook is exposed.
-      It returns the context value of the parent radio group. The Radio
-      component uses this hook internally.
-    </text>
-  </paragraph>
-  <heading level="3">
-    API
-    <link></link>
-    <text>API</text>
-  </heading>
-  <text>
-    import { useRadioGroup } from
-    '@material-ui/core/RadioGroup';
-  </text>
-  <heading level="4">
-    Returns
-    <text>Returns</text>
-  </heading>
-  <paragraph>
-    <text>value (Object):</text>
-  </paragraph>
-  <list>
-    <listitem>
-      value.name ( String [optional]): The name used to reference the value of
-      the control.
-      <text>
-        value.name (String [optional]): The name used to reference the value of
-        the control.
-      </text>
-    </listitem>
-    <listitem>
-      value.onChange ( Void [optional]): Callback fired when a radio button is
-      selected.
-      <text>
-        value.onChange (Void [optional]): Callback fired when a radio button is
-        selected.
-      </text>
-    </listitem>
-    <listitem>
-      value.value ( Any [optional]): Value of the selected radio button.
-      <text>
-        value.value (Any [optional]): Value of the selected radio button.
-      </text>
-    </listitem>
-  </list>
-  <heading level="4">
-    Example
-    <text>Example</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    <label>
-      First
-      <radio checked="true">First</radio>
-      <text>First</text>
-    </label>
-    <label>
-      Second
-      <radio>Second</radio>
-      <text>Second</text>
-    </label>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <RadioGroup name="use-radio-group"
-    defaultValue="first"> <MyFormControlLabel
-    value="first" label="First" control={<Radio
-    />} /> <MyFormControlLabel value="second"
-    label="Second" control={<Radio />} />
-    </RadioGroup>
-  </text>
-  <heading level="2">
-    When to use
-    <link></link>
-    <text>When to use</text>
-  </heading>
-  <list>
-    <listitem>
-      Checkboxes vs. Radio Buttons
-      <link>Checkboxes vs. Radio Buttons</link>
-    </listitem>
-  </list>
-  <heading level="2">
-    Accessibility
-    <link></link>
-    <text>Accessibility</text>
-  </heading>
-  <paragraph>
-    <text>(WAI-ARIA:</text>
-    <link>https://www.w3.org/TR/wai-aria-practices/#radiobutton</link>
-    <text>)</text>
-  </paragraph>
-  <list>
-    <listitem>
-      All form controls should have labels, and this includes radio buttons,
-      checkboxes, and switches. In most cases, this is done by using the
-      <label> element ( FormControlLabel ).
-      <text>
-        All form controls should have labels, and this includes radio buttons,
-        checkboxes, and switches. In most cases, this is done by using the
-        <label> element (
-      </text>
-      <link>FormControlLabel</link>
-      <text>).</text>
-    </listitem>
-    <listitem>
-      When a label can't be used, it's necessary to add an attribute
-      directly to the input component. In this case, you can apply the
-      additional attribute (e.g. aria-label , aria-labelledby , title ) via the
-      inputProps property.
-      <text>
-        When a label can't be used, it's necessary to add an attribute
-        directly to the input component. In this case, you can apply the
-        additional attribute (e.g. aria-label, aria-labelledby, title) via the
-        inputProps property.
-      </text>
-    </listitem>
-  </list>
-  <text>
-    <RadioButton value="radioA" inputProps={{
-    'aria-label': 'Radio A', }} />
-  </text>
-  <heading level="2">
-    API
-    <link></link>
-    <text>API</text>
-  </heading>
-  <list>
-    <listitem>
-      <FormControl />
-      <link><FormControl /></link>
-    </listitem>
-    <listitem>
-      <FormControlLabel />
-      <link><FormControlLabel /></link>
-    </listitem>
-    <listitem>
-      <FormLabel />
-      <link><FormLabel /></link>
-    </listitem>
-    <listitem>
-      <Radio />
-      <link><Radio /></link>
-    </listitem>
-    <listitem>
-      <RadioGroup />
-      <link><RadioGroup /></link>
-    </listitem>
-  </list>
-  <separator></separator>
-  <link>Floating Action Button</link>
-  <group>
-    Was this page helpful?
-    <text>Was this page helpful?</text>
-    <togglebutton>Yes</togglebutton>
-    <togglebutton>No</togglebutton>
-  </group>
-  <link>Rating</link>
 </landmark>;
 
 `;
@@ -20770,6 +22234,503 @@ exports[`firefox /components/rating/ 1`] = `
 `;
 
 exports[`firefox /components/selects/ 1`] = `
+<landmark>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
+    Radio
+    <text>Radio</text>
+  </heading>
+  <paragraph>
+    <text>Radio buttons allow the user to select one option from a set.</text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Use radio buttons when the user needs to see all available options. If
+      available options can be collapsed, consider using a dropdown menu because
+      it uses less space.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Radio buttons should have the most commonly used option selected by
+      default.
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      Feedback
+      <link>Feedback</link>
+    </listitem>
+    <listitem>
+      WAI-ARIA
+      <link>WAI-ARIA</link>
+    </listitem>
+    <listitem>
+      Scroll down to 'Exports Analysis' for a more detailed report.
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem>
+      Material Design
+      <link>Material Design</link>
+    </listitem>
+    <listitem>
+      Figma
+      <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    RadioGroup
+    <link></link>
+    <text>RadioGroup</text>
+  </heading>
+  <paragraph>
+    <text>
+      RadioGroup is a helpful wrapper used to group Radio components that
+      provides an easier API, and proper keyboard accessibility to the group.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <group>
+    Gender
+    <label>
+      Gender
+      <text>Gender</text>
+    </label>
+    <group>
+      gender
+      <label>
+        Female
+        <radio checked="true">Female</radio>
+        <text>Female</text>
+      </label>
+      <label>
+        Male
+        <radio>Male</radio>
+        <text>Male</text>
+      </label>
+      <label>
+        Other
+        <radio>Other</radio>
+        <text>Other</text>
+      </label>
+      <label>
+        (Disabled option)
+        <radio disabled="true">(Disabled option)</radio>
+        <text>(Disabled option)</text>
+      </label>
+    </group>
+  </group>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <paragraph>
+    <text>
+      To lay out the buttons horizontally, set the row prop: <RadioGroup row
+      />.
+    </text>
+  </paragraph>
+  <heading level="2">
+    Standalone radio buttons
+    <link></link>
+    <text>Standalone radio buttons</text>
+  </heading>
+  <paragraph>
+    <text>
+      Radio can also be used standalone, without the RadioGroup wrapper.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <radio checked="true">A</radio>
+  <radio>B</radio>
+  <radio>C</radio>
+  <radio>D</radio>
+  <radio>E</radio>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Label placement
+    <link></link>
+    <text>Label placement</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can change the placement of the label with the FormControlLabel
+      component's labelPlacement prop:
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <group>
+    labelPlacement
+    <label>
+      labelPlacement
+      <text>labelPlacement</text>
+    </label>
+    <group>
+      position
+      <label>
+        Top
+        <radio checked="true">Top</radio>
+        <text>Top</text>
+      </label>
+      <label>
+        Start
+        <radio>Start</radio>
+        <text>Start</text>
+      </label>
+      <label>
+        Bottom
+        <radio>Bottom</radio>
+        <text>Bottom</text>
+      </label>
+      <label>
+        End
+        <radio>End</radio>
+        <text>End</text>
+      </label>
+    </group>
+  </group>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Show error
+    <link></link>
+    <text>Show error</text>
+  </heading>
+  <paragraph>
+    <text>
+      In general, radio buttons should have a value selected by default. If this
+      is not the case, you can display an error if no value is selected when the
+      form is submitted:
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <group>
+      Pop quiz: Material-UI is...
+      <label>
+        Pop quiz: Material-UI is...
+        <text>Pop quiz: Material-UI is...</text>
+      </label>
+      <group>
+        quiz
+        <label>
+          The best!
+          <radio>The best!</radio>
+          <text>The best!</text>
+        </label>
+        <label>
+          The worst.
+          <radio>The worst.</radio>
+          <text>The worst.</text>
+        </label>
+      </group>
+      <paragraph>
+        <text>Choose wisely</text>
+      </paragraph>
+      <button>
+        CHECK ANSWER
+        <text>CHECK ANSWER</text>
+      </button>
+    </group>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Customized radios
+    <link></link>
+    <text>Customized radios</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here is an example of customizing the component. You can learn more about
+      this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <group>
+    Gender
+    <label>
+      Gender
+      <text>Gender</text>
+    </label>
+    <group>
+      gender
+      <label>
+        Female
+        <radio checked="true">Female</radio>
+        <text>Female</text>
+      </label>
+      <label>
+        Male
+        <radio>Male</radio>
+        <text>Male</text>
+      </label>
+      <label>
+        Other
+        <radio>Other</radio>
+        <text>Other</text>
+      </label>
+      <label>
+        (Disabled option)
+        <radio disabled="true">(Disabled option)</radio>
+        <text>(Disabled option)</text>
+      </label>
+    </group>
+  </group>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <FormControl component="fieldset"> <FormLabel
+    component="legend">Gender</FormLabel> <RadioGroup
+    defaultValue="female" aria-label="gender"
+    name="customized-radios"> <FormControlLabel
+    value="female" control={<StyledRadio />}
+    label="Female" /> <FormControlLabel value="male"
+    control={<StyledRadio />} label="Male" />
+    <FormControlLabel value="other" control={<StyledRadio
+    />} label="Other" /> <FormControlLabel
+    value="disabled" disabled control={<StyledRadio
+    />} label="(Disabled option)" /> </RadioGroup>
+    </FormControl>
+  </text>
+  <heading level="2">
+    useRadioGroup
+    <link></link>
+    <text>useRadioGroup</text>
+  </heading>
+  <paragraph>
+    <text>
+      For advanced customization use cases, a useRadioGroup() hook is exposed.
+      It returns the context value of the parent radio group. The Radio
+      component uses this hook internally.
+    </text>
+  </paragraph>
+  <heading level="3">
+    API
+    <link></link>
+    <text>API</text>
+  </heading>
+  <text>
+    import { useRadioGroup } from
+    '@material-ui/core/RadioGroup';
+  </text>
+  <heading level="4">
+    Returns
+    <text>Returns</text>
+  </heading>
+  <paragraph>
+    <text>value (Object):</text>
+  </paragraph>
+  <list>
+    <listitem>
+      value.name ( String [optional]): The name used to reference the value of
+      the control.
+      <text>
+        value.name (String [optional]): The name used to reference the value of
+        the control.
+      </text>
+    </listitem>
+    <listitem>
+      value.onChange ( Void [optional]): Callback fired when a radio button is
+      selected.
+      <text>
+        value.onChange (Void [optional]): Callback fired when a radio button is
+        selected.
+      </text>
+    </listitem>
+    <listitem>
+      value.value ( Any [optional]): Value of the selected radio button.
+      <text>
+        value.value (Any [optional]): Value of the selected radio button.
+      </text>
+    </listitem>
+  </list>
+  <heading level="4">
+    Example
+    <text>Example</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <group>
+    <label>
+      First
+      <radio checked="true">First</radio>
+      <text>First</text>
+    </label>
+    <label>
+      Second
+      <radio>Second</radio>
+      <text>Second</text>
+    </label>
+  </group>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <RadioGroup name="use-radio-group"
+    defaultValue="first"> <MyFormControlLabel
+    value="first" label="First" control={<Radio
+    />} /> <MyFormControlLabel value="second"
+    label="Second" control={<Radio />} />
+    </RadioGroup>
+  </text>
+  <heading level="2">
+    When to use
+    <link></link>
+    <text>When to use</text>
+  </heading>
+  <list>
+    <listitem>
+      Checkboxes vs. Radio Buttons
+      <link>Checkboxes vs. Radio Buttons</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Accessibility
+    <link></link>
+    <text>Accessibility</text>
+  </heading>
+  <paragraph>
+    <text>(WAI-ARIA:</text>
+    <link>https://www.w3.org/TR/wai-aria-practices/#radiobutton</link>
+    <text>)</text>
+  </paragraph>
+  <list>
+    <listitem>
+      All form controls should have labels, and this includes radio buttons,
+      checkboxes, and switches. In most cases, this is done by using the
+      <label> element ( FormControlLabel ).
+      <text>
+        All form controls should have labels, and this includes radio buttons,
+        checkboxes, and switches. In most cases, this is done by using the
+        <label> element (
+      </text>
+      <link>FormControlLabel</link>
+      <text>).</text>
+    </listitem>
+    <listitem>
+      When a label can't be used, it's necessary to add an attribute
+      directly to the input component. In this case, you can apply the
+      additional attribute (e.g. aria-label , aria-labelledby , title ) via the
+      inputProps property.
+      <text>
+        When a label can't be used, it's necessary to add an attribute
+        directly to the input component. In this case, you can apply the
+        additional attribute (e.g. aria-label, aria-labelledby, title) via the
+        inputProps property.
+      </text>
+    </listitem>
+  </list>
+  <text>
+    <RadioButton value="radioA" inputProps={{
+    'aria-label': 'Radio A', }} />
+  </text>
+  <heading level="2">
+    API
+    <link></link>
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem>
+      <FormControl />
+      <link><FormControl /></link>
+    </listitem>
+    <listitem>
+      <FormControlLabel />
+      <link><FormControlLabel /></link>
+    </listitem>
+    <listitem>
+      <FormLabel />
+      <link><FormLabel /></link>
+    </listitem>
+    <listitem>
+      <Radio />
+      <link><Radio /></link>
+    </listitem>
+    <listitem>
+      <RadioGroup />
+      <link><RadioGroup /></link>
+    </listitem>
+  </list>
+  <separator></separator>
+  <link>Floating Action Button</link>
+  <group>
+    Was this page helpful?
+    <text>Was this page helpful?</text>
+    <togglebutton>Yes</togglebutton>
+    <togglebutton>No</togglebutton>
+  </group>
+  <link>Rating</link>
+</landmark>;
+
+`;
+
+exports[`firefox /components/selects/ 2`] = `
 <landmark>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
