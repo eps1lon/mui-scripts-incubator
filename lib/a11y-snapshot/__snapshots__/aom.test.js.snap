@@ -255,7 +255,8 @@ exports[`chromium / 1`] = `
         <link>Contact Us</link>
       </listitem>
       <listitem level="1">
-        <link>Jobs</link>
+        <link>Careers</link>
+        <link>HIRING</link>
       </listitem>
     </list>
     <paragraph>
@@ -13538,8 +13539,9 @@ exports[`firefox / 1`] = `
         <link>Contact Us</link>
       </listitem>
       <listitem>
-        Jobs
-        <link>Jobs</link>
+        Careers HIRING
+        <link>Careers</link>
+        <link>HIRING</link>
       </listitem>
     </list>
     <paragraph>
