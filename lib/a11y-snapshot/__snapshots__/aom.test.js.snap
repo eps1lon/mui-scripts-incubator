@@ -8660,6 +8660,15 @@ exports[`chromium /components/slider 1`] = `
     <Anchor></Anchor>
     <text>Unstyled slider</text>
   </heading>
+  <paragraph>
+    <text>
+      The slider also comes with an unstyled version. It's ideal for doing
+      heavy customizations and minimizing bundle size.
+    </text>
+  </paragraph>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -22187,6 +22196,15 @@ exports[`firefox /components/slider 1`] = `
     <link></link>
     <text>Unstyled slider</text>
   </heading>
+  <paragraph>
+    <text>
+      The slider also comes with an unstyled version. It's ideal for doing
+      heavy customizations and minimizing bundle size.
+    </text>
+  </paragraph>
+  <text>
+    import SliderUnstyled from '@material-ui/unstyled/SliderUnstyled';
+  </text>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
