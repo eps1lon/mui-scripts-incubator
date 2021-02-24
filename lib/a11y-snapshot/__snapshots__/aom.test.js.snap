@@ -9146,29 +9146,27 @@ exports[`chromium /components/tabs/ 1`] = `
     <text>Basic tabs</text>
   </heading>
   <paragraph>
-    <text>A basic example with no frills.</text>
+    <text>A basic example with tab panels.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <HeaderAsNonLandmark>
-    <tablist level="1">
-      simple tabs example
-      <tab selected="true">
-        ITEM ONE
-        <text>ITEM ONE</text>
-      </tab>
-      <tab>
-        ITEM TWO
-        <text>ITEM TWO</text>
-      </tab>
-      <tab>
-        ITEM THREE
-        <text>ITEM THREE</text>
-      </tab>
-    </tablist>
-  </HeaderAsNonLandmark>
+  <tablist level="1">
+    basic tabs example
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+  </tablist>
   <tabpanel>
     ITEM ONE
     <paragraph>
@@ -9187,7 +9185,56 @@ exports[`chromium /components/tabs/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
-  <heading level="3">
+  <heading level="2">
+    Experimental API
+    <Anchor></Anchor>
+    <text>Experimental API</text>
+  </heading>
+  <paragraph>
+    <code>$SOME_CODE</code>
+    <text>
+      offers utility components that inject props to implement accessible tabs
+      following
+    </text>
+    <link>WAI-ARIA authoring practices</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist level="1">
+    lab API tabs example
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+  </tablist>
+  <tabpanel>
+    ITEM ONE
+    <text>Item One</text>
+  </tabpanel>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
     Wrapped labels
     <Anchor></Anchor>
     <text>Wrapped labels</text>
@@ -9202,45 +9249,76 @@ exports[`chromium /components/tabs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <HeaderAsNonLandmark>
-    <tablist level="1">
-      wrapped label tabs example
-      <tab selected="true">
-        NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION
-        <text>NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION</text>
-      </tab>
-      <tab>
-        ITEM TWO
-        <text>ITEM TWO</text>
-      </tab>
-      <tab>
-        ITEM THREE
-        <text>ITEM THREE</text>
-      </tab>
-    </tablist>
-  </HeaderAsNonLandmark>
-  <tabpanel>
-    NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION
-    <paragraph>
-      <text>Item One</text>
-    </paragraph>
-  </tabpanel>
+  <tablist level="1">
+    wrapped label tabs example
+    <tab selected="true">
+      NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION
+      <text>NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+  </tablist>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <heading level="3">
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Colored tab
+    <Anchor></Anchor>
+    <text>Colored tab</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist level="1">
+    secondary tabs example
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
     Disabled tab
     <Anchor></Anchor>
     <text>Disabled tab</text>
   </heading>
   <paragraph>
-    <text>A Tab can be disabled by setting</text>
+    <text>A tab can be disabled by setting the</text>
     <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
@@ -9282,7 +9360,7 @@ exports[`chromium /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Fixed tabs should be used with a limited number of tabs and when
+      Fixed tabs should be used with a limited number of tabs, and when
       consistent placement will aid muscle memory.
     </text>
   </paragraph>
@@ -9740,58 +9818,53 @@ exports[`chromium /components/tabs/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
-    Nav Tabs
+    Nav tabs
     <Anchor></Anchor>
-    <text>Nav Tabs</text>
+    <text>Nav tabs</text>
   </heading>
   <paragraph>
-    <text>By default tabs use a</text>
+    <text>By default, tabs use a</text>
     <code>$SOME_CODE</code>
     <text>
-      element, but you can provide your own custom tag or component. Here's
-      an example of implementing tabbed navigation:
+      element, but you can provide your custom tag or component. Here's an
+      example of implementing tabbed navigation:
     </text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <HeaderAsNonLandmark>
-    <tablist level="1">
-      nav tabs example
-      <tab selected="true">
-        PAGE ONE
-        <text>PAGE ONE</text>
-      </tab>
-      <tab>
-        PAGE TWO
-        <text>PAGE TWO</text>
-      </tab>
-      <tab>
-        PAGE THREE
-        <text>PAGE THREE</text>
-      </tab>
-    </tablist>
-  </HeaderAsNonLandmark>
-  <tabpanel>
-    PAGE ONE
-    <paragraph>
-      <text>Page One</text>
-    </paragraph>
-  </tabpanel>
+  <tablist level="1">
+    nav tabs example
+    <tab selected="true">
+      PAGE ONE
+      <text>PAGE ONE</text>
+    </tab>
+    <tab>
+      PAGE TWO
+      <text>PAGE TWO</text>
+    </tab>
+    <tab>
+      PAGE THREE
+      <text>PAGE THREE</text>
+    </tab>
+  </tablist>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
-    Icon Tabs
+    Icon tabs
     <Anchor></Anchor>
-    <text>Icon Tabs</text>
+    <text>Icon tabs</text>
   </heading>
   <paragraph>
     <text>Tab labels may be either all icons or all text.</text>
@@ -9925,7 +9998,8 @@ exports[`chromium /components/tabs/ 1`] = `
   <paragraph>
     <text>
       The following two demos only differ in their keyboard navigation behavior.
-      Focus a tab and navigate with arrow keys to notice the difference.
+      Focus a tab and navigate with arrow keys to notice the difference,
+      e.g.Arrow Left.
     </text>
   </paragraph>
   <Pre>
@@ -9935,52 +10009,21 @@ exports[`chromium /components/tabs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <paragraph>
-    <text>Tabs where selection follows focus</text>
-  </paragraph>
-  <HeaderAsNonLandmark>
-    <tablist level="1">
-      Tabs where selection follows focus
-      <tab selected="true">
-        ITEM ONE
-        <text>ITEM ONE</text>
-      </tab>
-      <tab>
-        ITEM TWO
-        <text>ITEM TWO</text>
-      </tab>
-      <tab>
-        ITEM THREE
-        <text>ITEM THREE</text>
-      </tab>
-    </tablist>
-  </HeaderAsNonLandmark>
-  <paragraph>
-    <text>Tabs where each tab needs to be selected manually</text>
-  </paragraph>
-  <HeaderAsNonLandmark>
-    <tablist level="1">
-      Tabs where each tab needs to be selected manually
-      <tab selected="true">
-        ITEM ONE
-        <text>ITEM ONE</text>
-      </tab>
-      <tab>
-        ITEM TWO
-        <text>ITEM TWO</text>
-      </tab>
-      <tab>
-        ITEM THREE
-        <text>ITEM THREE</text>
-      </tab>
-    </tablist>
-  </HeaderAsNonLandmark>
-  <tabpanel>
-    ITEM ONE
-    <paragraph>
-      <text>Item One</text>
-    </paragraph>
-  </tabpanel>
+  <tablist level="1">
+    Tabs where selection follows focus
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+  </tablist>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -9990,57 +10033,37 @@ exports[`chromium /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <heading level="2">
-    Experimental API
-    <Anchor></Anchor>
-    <text>Experimental API</text>
-  </heading>
-  <paragraph>
+  <Pre>
     <code>$SOME_CODE</code>
-    <text>
-      offers utility components that inject props to implement accessible tabs
-      following
-    </text>
-    <link>WAI-ARIA authoring practices</link>
-    <text>.</text>
-  </paragraph>
+  </Pre>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <HeaderAsNonLandmark>
-    <tablist level="1">
-      simple tabs example
-      <tab selected="true">
-        ITEM ONE
-        <text>ITEM ONE</text>
-      </tab>
-      <tab>
-        ITEM TWO
-        <text>ITEM TWO</text>
-      </tab>
-      <tab>
-        ITEM THREE
-        <text>ITEM THREE</text>
-      </tab>
-    </tablist>
-  </HeaderAsNonLandmark>
-  <tabpanel>
-    ITEM ONE
-    <text>Item One</text>
-  </tabpanel>
+  <tablist level="1">
+    Tabs where each tab needs to be selected manually
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+  </tablist>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     API
     <Anchor></Anchor>
@@ -22736,14 +22759,14 @@ exports[`firefox /components/tabs/ 1`] = `
     <text>Basic tabs</text>
   </heading>
   <paragraph>
-    <text>A basic example with no frills.</text>
+    <text>A basic example with tab panels.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
   <tablist>
-    simple tabs example
+    basic tabs example
     <tab selected="true">
       ITEM ONE
       <text>ITEM ONE</text>
@@ -22773,18 +22796,75 @@ exports[`firefox /components/tabs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <AppBar position="static"> <Tabs value={value}
-    onChange={handleChange} aria-label="simple tabs
+    <Box sx={{ borderBottom: 1, borderColor: 'divider'
+    }}> <Tabs value={value}
+    onChange={handleChange} aria-label="basic tabs
     example"> <Tab label="Item One"
     {...a11yProps(0)} /> <Tab label="Item Two"
     {...a11yProps(1)} /> <Tab label="Item Three"
-    {...a11yProps(2)} /> </Tabs> </AppBar> <TabPanel
+    {...a11yProps(2)} /> </Tabs> </Box> <TabPanel
     value={value} index={0}> Item One </TabPanel>
     <TabPanel value={value} index={1}> Item Two
     </TabPanel> <TabPanel value={value}
     index={2}> Item Three </TabPanel>
   </text>
-  <heading level="3">
+  <heading level="2">
+    Experimental API
+    <link></link>
+    <text>Experimental API</text>
+  </heading>
+  <paragraph>
+    <text>
+      @material-ui/lab offers utility components that inject props to implement
+      accessible tabs following
+    </text>
+    <link>WAI-ARIA authoring practices</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    lab API tabs example
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+  </tablist>
+  <tabpanel>
+    ITEM ONE
+    <text>Item One</text>
+  </tabpanel>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <TabContext value={value}> <Box sx={{
+    borderBottom: 1, borderColor: 'divider' }}>
+    <TabList onChange={handleChange} aria-label="lab API tabs
+    example"> <Tab label="Item One" value="1"
+    /> <Tab label="Item Two" value="2" /> <Tab
+    label="Item Three" value="3" /> </TabList>
+    </Box> <TabPanel value="1">Item One</TabPanel>
+    <TabPanel value="2">Item Two</TabPanel> <TabPanel
+    value="3">Item Three</TabPanel> </TabContext>
+  </text>
+  <heading level="2">
     Wrapped labels
     <link></link>
     <text>Wrapped labels</text>
@@ -22814,28 +22894,71 @@ exports[`firefox /components/tabs/ 1`] = `
       <text>ITEM THREE</text>
     </tab>
   </tablist>
-  <tabpanel>
-    NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION
-    <paragraph>
-      <text>Item One</text>
-    </paragraph>
-  </tabpanel>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <heading level="3">
+  <text>
+    <Tabs value={value} onChange={handleChange}
+    aria-label="wrapped label tabs example" > <Tab
+    value="one" label="New Arrivals in the Longest Text of
+    Nonfiction" wrapped /> <Tab value="two"
+    label="Item Two" /> <Tab value="three"
+    label="Item Three" /> </Tabs>
+  </text>
+  <heading level="2">
+    Colored tab
+    <link></link>
+    <text>Colored tab</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    secondary tabs example
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tabs value={value} onChange={handleChange}
+    textColor="secondary" indicatorColor="secondary"
+    aria-label="secondary tabs example" > <Tab
+    value="one" label="Item One" /> <Tab
+    value="two" label="Item Two" /> <Tab
+    value="three" label="Item Three" /> </Tabs>
+  </text>
+  <heading level="2">
     Disabled tab
     <link></link>
     <text>Disabled tab</text>
   </heading>
   <paragraph>
-    <text>A Tab can be disabled by setting disabled prop.</text>
+    <text>A tab can be disabled by setting the disabled prop.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -22866,12 +22989,10 @@ exports[`firefox /components/tabs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Paper square> <Tabs value={value}
-    indicatorColor="primary" textColor="primary"
-    onChange={handleChange} aria-label="disabled tabs
-    example" > <Tab label="Active" /> <Tab
-    label="Disabled" disabled /> <Tab label="Active"
-    /> </Tabs> </Paper>
+    <Tabs value={value} onChange={handleChange}
+    aria-label="disabled tabs example"> <Tab
+    label="Active" /> <Tab label="Disabled" disabled
+    /> <Tab label="Active" /> </Tabs>
   </text>
   <heading level="2">
     Fixed tabs
@@ -22880,7 +23001,7 @@ exports[`firefox /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Fixed tabs should be used with a limited number of tabs and when
+      Fixed tabs should be used with a limited number of tabs, and when
       consistent placement will aid muscle memory.
     </text>
   </paragraph>
@@ -22970,12 +23091,10 @@ exports[`firefox /components/tabs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Paper className={classes.root}> <Tabs
-    value={value} onChange={handleChange}
-    indicatorColor="primary" textColor="primary" centered
-    > <Tab label="Item One" /> <Tab label="Item
-    Two" /> <Tab label="Item Three" /> </Tabs>
-    </Paper>
+    <Tabs value={value} onChange={handleChange}
+    centered> <Tab label="Item One" /> <Tab
+    label="Item Two" /> <Tab label="Item Three" />
+    </Tabs>
   </text>
   <heading level="2">
     Scrollable tabs
@@ -23260,7 +23379,6 @@ exports[`firefox /components/tabs/ 1`] = `
       Tab 3<text>Tab 3</text>
     </tab>
   </tablist>
-  <paragraph></paragraph>
   <tablist>
     styled tabs example
     <tab selected="true">
@@ -23276,7 +23394,6 @@ exports[`firefox /components/tabs/ 1`] = `
       <text>Connections</text>
     </tab>
   </tablist>
-  <paragraph></paragraph>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -23356,15 +23473,14 @@ exports[`firefox /components/tabs/ 1`] = `
     <text>Note that you can restore the scrollbar with visibleScrollbar.</text>
   </paragraph>
   <heading level="2">
-    Nav Tabs
+    Nav tabs
     <link></link>
-    <text>Nav Tabs</text>
+    <text>Nav tabs</text>
   </heading>
   <paragraph>
     <text>
-      By default tabs use a button element, but you can provide your own custom
-      tag or component. Here's an example of implementing tabbed
-      navigation:
+      By default, tabs use a button element, but you can provide your custom tag
+      or component. Here's an example of implementing tabbed navigation:
     </text>
   </paragraph>
   <button>
@@ -23386,25 +23502,26 @@ exports[`firefox /components/tabs/ 1`] = `
       <text>PAGE THREE</text>
     </tab>
   </tablist>
-  <tabpanel>
-    PAGE ONE
-    <paragraph>
-      <text>Page One</text>
-    </paragraph>
-  </tabpanel>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <Tabs value={value} onChange={handleChange}
+    aria-label="nav tabs example"> <LinkTab label="Page
+    One" href="/drafts" /> <LinkTab label="Page
+    Two" href="/trash" /> <LinkTab label="Page
+    Three" href="/spam" /> </Tabs>
+  </text>
   <heading level="2">
-    Icon Tabs
+    Icon tabs
     <link></link>
-    <text>Icon Tabs</text>
+    <text>Icon tabs</text>
   </heading>
   <paragraph>
     <text>Tab labels may be either all icons or all text.</text>
@@ -23429,14 +23546,12 @@ exports[`firefox /components/tabs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Paper square className={classes.root}> <Tabs
-    value={value} onChange={handleChange}
-    variant="fullWidth" indicatorColor="primary"
-    textColor="primary" aria-label="icon tabs example" >
-    <Tab icon={<PhoneIcon />} aria-label="phone"
-    /> <Tab icon={<FavoriteIcon />}
+    <Tabs value={value} onChange={handleChange}
+    aria-label="icon tabs example"> <Tab
+    icon={<PhoneIcon />} aria-label="phone" />
+    <Tab icon={<FavoriteIcon />}
     aria-label="favorite" /> <Tab icon={<PersonPinIcon
-    />} aria-label="person" /> </Tabs> </Paper>
+    />} aria-label="person" /> </Tabs>
   </text>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -23467,15 +23582,12 @@ exports[`firefox /components/tabs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Paper square className={classes.root}> <Tabs
-    value={value} onChange={handleChange}
-    variant="fullWidth" indicatorColor="secondary"
-    textColor="secondary" aria-label="icon label tabs
-    example" > <Tab icon={<PhoneIcon />}
-    label="RECENTS" /> <Tab icon={<FavoriteIcon
-    />} label="FAVORITES" /> <Tab
-    icon={<PersonPinIcon />} label="NEARBY" />
-    </Tabs> </Paper>
+    <Tabs value={value} onChange={handleChange}
+    aria-label="icon label tabs example"> <Tab
+    icon={<PhoneIcon />} label="RECENTS" /> <Tab
+    icon={<FavoriteIcon />} label="FAVORITES" />
+    <Tab icon={<PersonPinIcon />} label="NEARBY"
+    /> </Tabs>
   </text>
   <heading level="2">
     Accessibility
@@ -23540,20 +23652,18 @@ exports[`firefox /components/tabs/ 1`] = `
   <paragraph>
     <text>
       The following two demos only differ in their keyboard navigation behavior.
-      Focus a tab and navigate with arrow keys to notice the difference.
+      Focus a tab and navigate with arrow keys to notice the difference, e.g.
+      Arrow Left.
     </text>
   </paragraph>
   <text>
     /* Tabs where selection follows focus */ <Tabs selectionFollowsFocus
-    /> /* Tabs where each tab needs to be selected manually */ <Tabs />
+    />
   </text>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <paragraph>
-    <text>Tabs where selection follows focus</text>
-  </paragraph>
   <tablist>
     Tabs where selection follows focus
     <tab selected="true">
@@ -23569,9 +23679,22 @@ exports[`firefox /components/tabs/ 1`] = `
       <text>ITEM THREE</text>
     </tab>
   </tablist>
-  <paragraph>
-    <text>Tabs where each tab needs to be selected manually</text>
-  </paragraph>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    /* Tabs where each tab needs to be selected manually */ <Tabs />
+  </text>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
   <tablist>
     Tabs where each tab needs to be selected manually
     <tab selected="true">
@@ -23587,12 +23710,6 @@ exports[`firefox /components/tabs/ 1`] = `
       <text>ITEM THREE</text>
     </tab>
   </tablist>
-  <tabpanel>
-    ITEM ONE
-    <paragraph>
-      <text>Item One</text>
-    </paragraph>
-  </tabpanel>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -23602,63 +23719,6 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <heading level="2">
-    Experimental API
-    <link></link>
-    <text>Experimental API</text>
-  </heading>
-  <paragraph>
-    <text>
-      @material-ui/lab offers utility components that inject props to implement
-      accessible tabs following
-    </text>
-    <link>WAI-ARIA authoring practices</link>
-    <text>.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <tablist>
-    simple tabs example
-    <tab selected="true">
-      ITEM ONE
-      <text>ITEM ONE</text>
-    </tab>
-    <tab>
-      ITEM TWO
-      <text>ITEM TWO</text>
-    </tab>
-    <tab>
-      ITEM THREE
-      <text>ITEM THREE</text>
-    </tab>
-  </tablist>
-  <tabpanel>
-    ITEM ONE
-    <text>Item One</text>
-  </tabpanel>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <TabContext value={value}> <AppBar
-    position="static"> <TabList
-    onChange={handleChange} aria-label="simple tabs
-    example"> <Tab label="Item One" value="1"
-    /> <Tab label="Item Two" value="2" /> <Tab
-    label="Item Three" value="3" /> </TabList>
-    </AppBar> <TabPanel value="1">Item
-    One</TabPanel> <TabPanel value="2">Item
-    Two</TabPanel> <TabPanel value="3">Item
-    Three</TabPanel> </TabContext>
-  </text>
   <heading level="2">
     API
     <link></link>
