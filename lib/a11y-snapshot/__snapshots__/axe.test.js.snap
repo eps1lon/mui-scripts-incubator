@@ -86,19 +86,7 @@ Array [
 
 exports[`chromium /components/switches/ 1`] = `Array []`;
 
-exports[`chromium /components/tabs/ 1`] = `
-Array [
-  Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/duplicate-id-aria?application=axeAPI",
-    "id": "duplicate-id-aria",
-    "nodes": Array [
-      "div[aria-labelledby=\\"demo-a11y-tabs-automatic-label\\"] > .Mui-selected.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiTab-root[aria-controls=\\"a11y-tabpanel-0\\"]",
-      "div[aria-labelledby=\\"demo-a11y-tabs-automatic-label\\"] > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiTab-root.MuiTab-textColorInherit[aria-controls=\\"a11y-tabpanel-1\\"]",
-      "div[aria-labelledby=\\"demo-a11y-tabs-automatic-label\\"] > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiTab-root.MuiTab-textColorInherit[aria-controls=\\"a11y-tabpanel-2\\"]",
-    ],
-  },
-]
-`;
+exports[`chromium /components/tabs/ 1`] = `Array []`;
 
 exports[`chromium /components/text-fields/ 1`] = `Array []`;
 
