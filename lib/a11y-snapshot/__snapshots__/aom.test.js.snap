@@ -11399,24 +11399,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </button>
   <form>
     <Label>
-      <text>Custom CSS</text>
-    </Label>
-    <text> </text>
-    <textbox>Custom CSS</textbox>
-    <Label>
-      <text>Custom CSS</text>
-    </Label>
-    <textbox>Custom CSS</textbox>
-    <Label>
-      <text>ThemeProvider</text>
-    </Label>
-    <text> </text>
-    <textbox>ThemeProvider</textbox>
-    <Label>
-      <text>ThemeProvider</text>
-    </Label>
-    <textbox>ThemeProvider</textbox>
-    <Label>
       <text>Bootstrap</text>
     </Label>
     <textbox value="react-bootstrap">
@@ -11430,10 +11412,10 @@ exports[`chromium /components/text-fields/ 1`] = `
       Reddit
       <text>react-reddit</text>
     </textbox>
-    <textbox value="Naked input">
-      naked
-      <text>Naked input</text>
-    </textbox>
+    <Label>
+      <text>Custom CSS</text>
+    </Label>
+    <textbox>Custom CSS</textbox>
     <Label>
       <text>CSS validation style</text>
     </Label>
@@ -25110,28 +25092,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </button>
   <form>
     <label>
-      Custom CSS
-      <text>Custom CSS</text>
-    </label>
-    <statictext> </statictext>
-    <textbox>Custom CSS</textbox>
-    <label>
-      Custom CSS
-      <text>Custom CSS</text>
-    </label>
-    <textbox>Custom CSS</textbox>
-    <label>
-      ThemeProvider
-      <text>ThemeProvider</text>
-    </label>
-    <statictext> </statictext>
-    <textbox>ThemeProvider</textbox>
-    <label>
-      ThemeProvider
-      <text>ThemeProvider</text>
-    </label>
-    <textbox>ThemeProvider</textbox>
-    <label>
       Bootstrap
       <text>Bootstrap</text>
     </label>
@@ -25147,10 +25107,11 @@ exports[`firefox /components/text-fields/ 1`] = `
       Reddit
       <text>react-reddit</text>
     </textbox>
-    <textbox value="Naked input">
-      naked
-      <text>Naked input</text>
-    </textbox>
+    <label>
+      Custom CSS
+      <text>Custom CSS</text>
+    </label>
+    <textbox>Custom CSS</textbox>
     <label>
       CSS validation style
       <text>CSS validation style</text>
