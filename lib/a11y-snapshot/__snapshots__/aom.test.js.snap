@@ -8015,7 +8015,7 @@ exports[`chromium /components/slider 1`] = `
     value="30"
     valuemax="110"
     valuemin="10"
-    valuetext="30°C"
+    valuetext=""
   >
     Temperature
   </slider>
@@ -8028,7 +8028,7 @@ exports[`chromium /components/slider 1`] = `
     value="30"
     valuemax="110"
     valuemin="10"
-    valuetext="30°C"
+    valuetext=""
   >
     Disabled
   </slider>
@@ -21715,18 +21715,13 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>Temperature</text>
   </paragraph>
-  <slider orientation="horizontal" value="30°C" valuetext="30°C">
+  <slider orientation="horizontal" value="30" valuetext="30">
     Temperature
   </slider>
   <paragraph>
     <text>Disabled</text>
   </paragraph>
-  <slider
-    disabled="true"
-    orientation="horizontal"
-    value="30°C"
-    valuetext="30°C"
-  >
+  <slider disabled="true" orientation="horizontal" value="30" valuetext="30">
     Disabled
   </slider>
   <toolbar>
