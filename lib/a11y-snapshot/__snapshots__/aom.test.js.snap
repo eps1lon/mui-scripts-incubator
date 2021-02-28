@@ -261,7 +261,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.26. View versions page.</link>
+      <link>v5.0.0-alpha.25. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -11399,6 +11399,24 @@ exports[`chromium /components/text-fields/ 1`] = `
   </button>
   <form>
     <Label>
+      <text>Custom CSS</text>
+    </Label>
+    <text> </text>
+    <textbox>Custom CSS</textbox>
+    <Label>
+      <text>Custom CSS</text>
+    </Label>
+    <textbox>Custom CSS</textbox>
+    <Label>
+      <text>ThemeProvider</text>
+    </Label>
+    <text> </text>
+    <textbox>ThemeProvider</textbox>
+    <Label>
+      <text>ThemeProvider</text>
+    </Label>
+    <textbox>ThemeProvider</textbox>
+    <Label>
       <text>Bootstrap</text>
     </Label>
     <textbox value="react-bootstrap">
@@ -11412,10 +11430,10 @@ exports[`chromium /components/text-fields/ 1`] = `
       Reddit
       <text>react-reddit</text>
     </textbox>
-    <Label>
-      <text>Custom CSS</text>
-    </Label>
-    <textbox>Custom CSS</textbox>
+    <textbox value="Naked input">
+      naked
+      <text>Naked input</text>
+    </textbox>
     <Label>
       <text>CSS validation style</text>
     </Label>
@@ -13560,7 +13578,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.26. View versions page.</link>
+      <link>v5.0.0-alpha.25. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -25092,6 +25110,28 @@ exports[`firefox /components/text-fields/ 1`] = `
   </button>
   <form>
     <label>
+      Custom CSS
+      <text>Custom CSS</text>
+    </label>
+    <statictext> </statictext>
+    <textbox>Custom CSS</textbox>
+    <label>
+      Custom CSS
+      <text>Custom CSS</text>
+    </label>
+    <textbox>Custom CSS</textbox>
+    <label>
+      ThemeProvider
+      <text>ThemeProvider</text>
+    </label>
+    <statictext> </statictext>
+    <textbox>ThemeProvider</textbox>
+    <label>
+      ThemeProvider
+      <text>ThemeProvider</text>
+    </label>
+    <textbox>ThemeProvider</textbox>
+    <label>
       Bootstrap
       <text>Bootstrap</text>
     </label>
@@ -25107,11 +25147,10 @@ exports[`firefox /components/text-fields/ 1`] = `
       Reddit
       <text>react-reddit</text>
     </textbox>
-    <label>
-      Custom CSS
-      <text>Custom CSS</text>
-    </label>
-    <textbox>Custom CSS</textbox>
+    <textbox value="Naked input">
+      naked
+      <text>Naked input</text>
+    </textbox>
     <label>
       CSS validation style
       <text>CSS validation style</text>
