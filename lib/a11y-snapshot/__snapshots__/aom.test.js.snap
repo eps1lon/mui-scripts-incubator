@@ -17799,7 +17799,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -17852,7 +17853,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -17905,7 +17907,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -17958,7 +17961,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18035,7 +18039,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18088,7 +18093,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18141,7 +18147,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18194,7 +18201,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18273,7 +18281,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18326,7 +18335,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18402,7 +18412,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18455,7 +18466,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18508,7 +18520,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18594,7 +18607,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18647,7 +18661,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18701,7 +18716,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to start-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         page 6
@@ -18710,7 +18726,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 11
@@ -18739,7 +18756,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to start-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 5
@@ -18760,7 +18778,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 11
@@ -18795,7 +18814,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to start-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         page 6
@@ -18804,7 +18824,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18846,7 +18867,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to start-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 5
@@ -18867,7 +18889,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18957,7 +18980,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -19033,7 +19057,8 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        …<text>…</text>
+        Go to end-ellipsis page
+        <text>…</text>
       </listitem>
       <listitem>
         Go to page 10
