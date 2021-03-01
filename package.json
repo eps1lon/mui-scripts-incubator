@@ -23,7 +23,7 @@
 		"lodash": "^4.17.21",
 		"netlify": "^6.1.9",
 		"node-fetch": "^2.6.1",
-		"playwright": "1.8.0",
+		"playwright": "1.9.1",
 		"playwright-testing-library": "^2.7.0",
 		"prettier": "^2.2.1",
 		"react": "^17.0.1",
