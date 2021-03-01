@@ -3305,13 +3305,16 @@ exports[`chromium /components/buttons/ 1`] = `
   </Label>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Sizes
     <Anchor></Anchor>
@@ -16262,13 +16265,25 @@ exports[`firefox /components/buttons/ 1`] = `
   </label>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <Input accept="image/*" id="contained-button-file"
+    multiple type="file" /> <label
+    htmlFor="contained-button-file"> <Button
+    variant="contained" component="span"> Upload
+    </Button> </label> <Input accept="image/*"
+    id="icon-button-file" type="file" /> <label
+    htmlFor="icon-button-file"> <IconButton
+    color="primary" aria-label="upload picture"
+    component="span"> <PhotoCamera /> </IconButton>
+    </label>
+  </text>
   <heading level="2">
     Sizes
     <link></link>
