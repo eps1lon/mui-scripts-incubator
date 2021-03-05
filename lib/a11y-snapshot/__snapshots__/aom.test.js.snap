@@ -27,9 +27,8 @@ exports[`chromium / 1`] = `
     </heading>
     <paragraph>
       <text>
-        Material-UI is a simple and customizable component library to build
-        faster, beautiful, and more accessible React applications. Follow your
-        own design system, or start with Material Design.
+        React components for faster and simpler web development. Build your own
+        design system, or start with Material Design.
       </text>
     </paragraph>
     <link>GET STARTED</link>
@@ -156,10 +155,6 @@ exports[`chromium / 1`] = `
       canadacasino
       <img>canadacasino</img>
     </link>
-    <link>
-      hoodiebees
-      <img>hoodiebees</img>
-    </link>
     <heading level="3">
       There are more!
       <Anchor></Anchor>
@@ -255,13 +250,12 @@ exports[`chromium / 1`] = `
         <link>Contact Us</link>
       </listitem>
       <listitem level="1">
-        <link>Careers</link>
-        <link>HIRING</link>
+        <link>Jobs</link>
       </listitem>
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.26. View versions page.</link>
+      <link>v5.0.0-alpha.23. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -1772,8 +1766,8 @@ exports[`chromium /api/select/ 1`] = `
         Callback fired when a menu item is selected. Signature: function(event:
         object, child?: object) => void event: The event source of the
         callback. You can pull out the new value by accessing event.target.value
-        (any). Warning: This is a generic event not a change event. child: The
-        react element that was selected when native is false (default).
+        (any). child: The react element that was selected when native is false
+        (default).
         <text>Callback fired when a menu item is selected.</text>
         <LineBreak></LineBreak>
         <LineBreak></LineBreak>
@@ -1786,7 +1780,7 @@ exports[`chromium /api/select/ 1`] = `
           by accessing
         </text>
         <code>$SOME_CODE</code>
-        <text>(any).Warning: This is a generic event not a change event.</text>
+        <text>(any).</text>
         <LineBreak></LineBreak>
         <text>child:The react element that was selected when</text>
         <code>$SOME_CODE</code>
@@ -2705,9 +2699,7 @@ exports[`chromium /components/button-group/ 1`] = `
     <text>Basic button group</text>
   </heading>
   <paragraph>
-    <text>The buttons can be grouped by wrapping them with the</text>
-    <code>$SOME_CODE</code>
-    <text>component. They need to be immediate children.</text>
+    <text>The standard Button variants are supported.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -2728,32 +2720,8 @@ exports[`chromium /components/button-group/ 1`] = `
       <text>THREE</text>
     </button>
   </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
-    Button variants
-    <Anchor></Anchor>
-    <text>Button variants</text>
-  </heading>
-  <paragraph>
-    <text>All the standard button variants are supported.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
   <group>
-    outlined button group
+    contained primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -2768,7 +2736,7 @@ exports[`chromium /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    text button group
+    text primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -2784,16 +2752,13 @@ exports[`chromium /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Sizes and colors
     <Anchor></Anchor>
@@ -2804,16 +2769,14 @@ exports[`chromium /components/button-group/ 1`] = `
     <code>$SOME_CODE</code>
     <text>and</text>
     <code>$SOME_CODE</code>
-    <text>
-      props can be used to control the appearance of the button group.
-    </text>
+    <text>props can be used to control the appearance of the ButtonGroup.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
   <group>
-    small button group
+    small outlined button group
     <button>
       ONE
       <text>ONE</text>
@@ -2828,7 +2791,7 @@ exports[`chromium /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    medium secondary button group
+    outlined secondary button group
     <button>
       ONE
       <text>ONE</text>
@@ -2843,7 +2806,7 @@ exports[`chromium /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    large button group
+    large outlined primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -2859,23 +2822,20 @@ exports[`chromium /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Vertical group
     <Anchor></Anchor>
     <text>Vertical group</text>
   </heading>
   <paragraph>
-    <text>The button group can be displayed vertically using the</text>
+    <text>The ButtonGroup can be displayed veritcally using the</text>
     <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
@@ -2884,7 +2844,7 @@ exports[`chromium /components/button-group/ 1`] = `
     navigation of our components.
   </button>
   <group>
-    vertical outlined button group
+    vertical outlined primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -2899,7 +2859,7 @@ exports[`chromium /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    vertical contained button group
+    vertical contained primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -2914,7 +2874,7 @@ exports[`chromium /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    vertical contained button group
+    vertical contained primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -2946,7 +2906,7 @@ exports[`chromium /components/button-group/ 1`] = `
     <code>$SOME_CODE</code>
     <text>
       can also be used to create a split button. The dropdown can change the
-      button action (as in this example) or be used to immediately trigger a
+      button action (as in this example), or be used to immediately trigger a
       related action.
     </text>
   </paragraph>
@@ -3305,16 +3265,13 @@ exports[`chromium /components/buttons/ 1`] = `
   </Label>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Sizes
     <Anchor></Anchor>
@@ -6128,9 +6085,9 @@ exports[`chromium /components/pickers 1`] = `
     <text>Time picker</text>
   </Label>
   <text> </text>
-  <textbox value="09:11 pm">
+  <textbox value="09:11 PM">
     hh:mm (a|p)m
-    <text>09:11 pm</text>
+    <text>09:11 PM</text>
   </textbox>
   <button>change time</button>
   <paragraph>
@@ -8663,15 +8620,6 @@ exports[`chromium /components/slider 1`] = `
     <Anchor></Anchor>
     <text>Unstyled slider</text>
   </heading>
-  <paragraph>
-    <text>
-      The slider also comes with an unstyled version. It's ideal for doing
-      heavy customizations and minimizing bundle size.
-    </text>
-  </paragraph>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -9149,27 +9097,29 @@ exports[`chromium /components/tabs/ 1`] = `
     <text>Basic tabs</text>
   </heading>
   <paragraph>
-    <text>A basic example with tab panels.</text>
+    <text>A basic example with no frills.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tablist level="1">
-    basic tabs example
-    <tab selected="true">
-      ITEM ONE
-      <text>ITEM ONE</text>
-    </tab>
-    <tab>
-      ITEM TWO
-      <text>ITEM TWO</text>
-    </tab>
-    <tab>
-      ITEM THREE
-      <text>ITEM THREE</text>
-    </tab>
-  </tablist>
+  <HeaderAsNonLandmark>
+    <tablist level="1">
+      simple tabs example
+      <tab selected="true">
+        ITEM ONE
+        <text>ITEM ONE</text>
+      </tab>
+      <tab>
+        ITEM TWO
+        <text>ITEM TWO</text>
+      </tab>
+      <tab>
+        ITEM THREE
+        <text>ITEM THREE</text>
+      </tab>
+    </tablist>
+  </HeaderAsNonLandmark>
   <tabpanel>
     ITEM ONE
     <paragraph>
@@ -9188,56 +9138,7 @@ exports[`chromium /components/tabs/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
-  <heading level="2">
-    Experimental API
-    <Anchor></Anchor>
-    <text>Experimental API</text>
-  </heading>
-  <paragraph>
-    <code>$SOME_CODE</code>
-    <text>
-      offers utility components that inject props to implement accessible tabs
-      following
-    </text>
-    <link>WAI-ARIA authoring practices</link>
-    <text>.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <tablist level="1">
-    lab API tabs example
-    <tab selected="true">
-      ITEM ONE
-      <text>ITEM ONE</text>
-    </tab>
-    <tab>
-      ITEM TWO
-      <text>ITEM TWO</text>
-    </tab>
-    <tab>
-      ITEM THREE
-      <text>ITEM THREE</text>
-    </tab>
-  </tablist>
-  <tabpanel>
-    ITEM ONE
-    <text>Item One</text>
-  </tabpanel>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
+  <heading level="3">
     Wrapped labels
     <Anchor></Anchor>
     <text>Wrapped labels</text>
@@ -9252,76 +9153,45 @@ exports[`chromium /components/tabs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tablist level="1">
-    wrapped label tabs example
-    <tab selected="true">
-      NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION
-      <text>NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION</text>
-    </tab>
-    <tab>
-      ITEM TWO
-      <text>ITEM TWO</text>
-    </tab>
-    <tab>
-      ITEM THREE
-      <text>ITEM THREE</text>
-    </tab>
-  </tablist>
+  <HeaderAsNonLandmark>
+    <tablist level="1">
+      wrapped label tabs example
+      <tab selected="true">
+        NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION
+        <text>NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION</text>
+      </tab>
+      <tab>
+        ITEM TWO
+        <text>ITEM TWO</text>
+      </tab>
+      <tab>
+        ITEM THREE
+        <text>ITEM THREE</text>
+      </tab>
+    </tablist>
+  </HeaderAsNonLandmark>
+  <tabpanel>
+    NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION
+    <paragraph>
+      <text>Item One</text>
+    </paragraph>
+  </tabpanel>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
-    Colored tab
-    <Anchor></Anchor>
-    <text>Colored tab</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <tablist level="1">
-    secondary tabs example
-    <tab selected="true">
-      ITEM ONE
-      <text>ITEM ONE</text>
-    </tab>
-    <tab>
-      ITEM TWO
-      <text>ITEM TWO</text>
-    </tab>
-    <tab>
-      ITEM THREE
-      <text>ITEM THREE</text>
-    </tab>
-  </tablist>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
+  <heading level="3">
     Disabled tab
     <Anchor></Anchor>
     <text>Disabled tab</text>
   </heading>
   <paragraph>
-    <text>A tab can be disabled by setting the</text>
+    <text>A Tab can be disabled by setting</text>
     <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
@@ -9363,7 +9233,7 @@ exports[`chromium /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Fixed tabs should be used with a limited number of tabs, and when
+      Fixed tabs should be used with a limited number of tabs and when
       consistent placement will aid muscle memory.
     </text>
   </paragraph>
@@ -9821,53 +9691,58 @@ exports[`chromium /components/tabs/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
-    Nav tabs
+    Nav Tabs
     <Anchor></Anchor>
-    <text>Nav tabs</text>
+    <text>Nav Tabs</text>
   </heading>
   <paragraph>
-    <text>By default, tabs use a</text>
+    <text>By default tabs use a</text>
     <code>$SOME_CODE</code>
     <text>
-      element, but you can provide your custom tag or component. Here's an
-      example of implementing tabbed navigation:
+      element, but you can provide your own custom tag or component. Here's
+      an example of implementing tabbed navigation:
     </text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tablist level="1">
-    nav tabs example
-    <tab selected="true">
-      PAGE ONE
-      <text>PAGE ONE</text>
-    </tab>
-    <tab>
-      PAGE TWO
-      <text>PAGE TWO</text>
-    </tab>
-    <tab>
-      PAGE THREE
-      <text>PAGE THREE</text>
-    </tab>
-  </tablist>
+  <HeaderAsNonLandmark>
+    <tablist level="1">
+      nav tabs example
+      <tab selected="true">
+        PAGE ONE
+        <text>PAGE ONE</text>
+      </tab>
+      <tab>
+        PAGE TWO
+        <text>PAGE TWO</text>
+      </tab>
+      <tab>
+        PAGE THREE
+        <text>PAGE THREE</text>
+      </tab>
+    </tablist>
+  </HeaderAsNonLandmark>
+  <tabpanel>
+    PAGE ONE
+    <paragraph>
+      <text>Page One</text>
+    </paragraph>
+  </tabpanel>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
-    Icon tabs
+    Icon Tabs
     <Anchor></Anchor>
-    <text>Icon tabs</text>
+    <text>Icon Tabs</text>
   </heading>
   <paragraph>
     <text>Tab labels may be either all icons or all text.</text>
@@ -10001,8 +9876,7 @@ exports[`chromium /components/tabs/ 1`] = `
   <paragraph>
     <text>
       The following two demos only differ in their keyboard navigation behavior.
-      Focus a tab and navigate with arrow keys to notice the difference,
-      e.g.Arrow Left.
+      Focus a tab and navigate with arrow keys to notice the difference.
     </text>
   </paragraph>
   <Pre>
@@ -10012,24 +9886,103 @@ exports[`chromium /components/tabs/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <tablist level="1">
-    Tabs where selection follows focus
-    <tab selected="true">
-      ITEM ONE
-      <text>ITEM ONE</text>
-    </tab>
-    <tab>
-      ITEM TWO
-      <text>ITEM TWO</text>
-    </tab>
-    <tab>
-      ITEM THREE
-      <text>ITEM THREE</text>
-    </tab>
-  </tablist>
+  <paragraph>
+    <text>Tabs where selection follows focus</text>
+  </paragraph>
+  <HeaderAsNonLandmark>
+    <tablist level="1">
+      Tabs where selection follows focus
+      <tab selected="true">
+        ITEM ONE
+        <text>ITEM ONE</text>
+      </tab>
+      <tab>
+        ITEM TWO
+        <text>ITEM TWO</text>
+      </tab>
+      <tab>
+        ITEM THREE
+        <text>ITEM THREE</text>
+      </tab>
+    </tablist>
+  </HeaderAsNonLandmark>
+  <paragraph>
+    <text>Tabs where each tab needs to be selected manually</text>
+  </paragraph>
+  <HeaderAsNonLandmark>
+    <tablist level="1">
+      Tabs where each tab needs to be selected manually
+      <tab selected="true">
+        ITEM ONE
+        <text>ITEM ONE</text>
+      </tab>
+      <tab>
+        ITEM TWO
+        <text>ITEM TWO</text>
+      </tab>
+      <tab>
+        ITEM THREE
+        <text>ITEM THREE</text>
+      </tab>
+    </tablist>
+  </HeaderAsNonLandmark>
+  <tabpanel>
+    ITEM ONE
+    <paragraph>
+      <text>Item One</text>
+    </paragraph>
+  </tabpanel>
   <toolbar>
     demo source
     <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Experimental API
+    <Anchor></Anchor>
+    <text>Experimental API</text>
+  </heading>
+  <paragraph>
+    <code>$SOME_CODE</code>
+    <text>
+      offers utility components that inject props to implement accessible tabs
+      following
+    </text>
+    <link>WAI-ARIA authoring practices</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <HeaderAsNonLandmark>
+    <tablist level="1">
+      simple tabs example
+      <tab selected="true">
+        ITEM ONE
+        <text>ITEM ONE</text>
+      </tab>
+      <tab>
+        ITEM TWO
+        <text>ITEM TWO</text>
+      </tab>
+      <tab>
+        ITEM THREE
+        <text>ITEM THREE</text>
+      </tab>
+    </tablist>
+  </HeaderAsNonLandmark>
+  <tabpanel>
+    ITEM ONE
+    <text>Item One</text>
+  </tabpanel>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
@@ -10039,34 +9992,6 @@ exports[`chromium /components/tabs/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <tablist level="1">
-    Tabs where each tab needs to be selected manually
-    <tab selected="true">
-      ITEM ONE
-      <text>ITEM ONE</text>
-    </tab>
-    <tab>
-      ITEM TWO
-      <text>ITEM TWO</text>
-    </tab>
-    <tab>
-      ITEM THREE
-      <text>ITEM THREE</text>
-    </tab>
-  </tablist>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
   <heading level="2">
     API
     <Anchor></Anchor>
@@ -10700,12 +10625,12 @@ exports[`chromium /components/text-fields/ 1`] = `
   <Label>
     <text>With a start adornment</text>
   </Label>
-  <text> ​</text>
+  <text> </text>
   <textbox>With a start adornment</textbox>
   <Label>
     <text>TextField</text>
   </Label>
-  <text> ​</text>
+  <text> </text>
   <textbox>TextField</textbox>
   <Label>
     <text>With a grid</text>
@@ -11402,6 +11327,24 @@ exports[`chromium /components/text-fields/ 1`] = `
   </button>
   <form>
     <Label>
+      <text>Custom CSS</text>
+    </Label>
+    <text> </text>
+    <textbox>Custom CSS</textbox>
+    <Label>
+      <text>Custom CSS</text>
+    </Label>
+    <textbox>Custom CSS</textbox>
+    <Label>
+      <text>ThemeProvider</text>
+    </Label>
+    <text> </text>
+    <textbox>ThemeProvider</textbox>
+    <Label>
+      <text>ThemeProvider</text>
+    </Label>
+    <textbox>ThemeProvider</textbox>
+    <Label>
       <text>Bootstrap</text>
     </Label>
     <textbox value="react-bootstrap">
@@ -11415,10 +11358,10 @@ exports[`chromium /components/text-fields/ 1`] = `
       Reddit
       <text>react-reddit</text>
     </textbox>
-    <Label>
-      <text>Custom CSS</text>
-    </Label>
-    <textbox>Custom CSS</textbox>
+    <textbox value="Naked input">
+      naked
+      <text>Naked input</text>
+    </textbox>
     <Label>
       <text>CSS validation style</text>
     </Label>
@@ -13310,9 +13253,8 @@ exports[`firefox / 1`] = `
     </heading>
     <paragraph>
       <text>
-        Material-UI is a simple and customizable component library to build
-        faster, beautiful, and more accessible React applications. Follow your
-        own design system, or start with Material Design.
+        React components for faster and simpler web development. Build your own
+        design system, or start with Material Design.
       </text>
     </paragraph>
     <link>GET STARTED</link>
@@ -13447,10 +13389,6 @@ exports[`firefox / 1`] = `
       canadacasino
       <img value="https://www.canadacasino.ca/">canadacasino</img>
     </link>
-    <link>
-      hoodiebees
-      <img value="https://hoodiebees.com/">hoodiebees</img>
-    </link>
     <heading level="3">
       There are more!
       <link></link>
@@ -13556,14 +13494,13 @@ exports[`firefox / 1`] = `
         <link>Contact Us</link>
       </listitem>
       <listitem>
-        Careers HIRING
-        <link>Careers</link>
-        <link>HIRING</link>
+        Jobs
+        <link>Jobs</link>
       </listitem>
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.26. View versions page.</link>
+      <link>v5.0.0-alpha.23. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -14749,8 +14686,7 @@ exports[`firefox /api/select/ 1`] = `
         <whitespace></whitespace>
         <text>
           event: The event source of the callback. You can pull out the new
-          value by accessing event.target.value (any). Warning: This is a
-          generic event not a change event.
+          value by accessing event.target.value (any).
         </text>
         <whitespace></whitespace>
         <text>
@@ -15632,10 +15568,7 @@ exports[`firefox /components/button-group/ 1`] = `
     <text>Basic button group</text>
   </heading>
   <paragraph>
-    <text>
-      The buttons can be grouped by wrapping them with the ButtonGroup
-      component. They need to be immediate children.
-    </text>
+    <text>The standard Button variants are supported.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -15656,35 +15589,8 @@ exports[`firefox /components/button-group/ 1`] = `
       <text>THREE</text>
     </button>
   </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <ButtonGroup variant="contained" aria-label="outlined
-    primary button group"> <Button>One</Button>
-    <Button>Two</Button> <Button>Three</Button>
-    </ButtonGroup>
-  </text>
-  <heading level="2">
-    Button variants
-    <link></link>
-    <text>Button variants</text>
-  </heading>
-  <paragraph>
-    <text>All the standard button variants are supported.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
   <group>
-    outlined button group
+    contained primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -15699,7 +15605,7 @@ exports[`firefox /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    text button group
+    text primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -15715,22 +15621,13 @@ exports[`firefox /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <ButtonGroup variant="outlined" aria-label="outlined
-    button group"> <Button>One</Button>
-    <Button>Two</Button> <Button>Three</Button>
-    </ButtonGroup> <ButtonGroup variant="text"
-    aria-label="text button group">
-    <Button>One</Button> <Button>Two</Button>
-    <Button>Three</Button> </ButtonGroup>
-  </text>
   <heading level="2">
     Sizes and colors
     <link></link>
@@ -15739,7 +15636,7 @@ exports[`firefox /components/button-group/ 1`] = `
   <paragraph>
     <text>
       The size and color props can be used to control the appearance of the
-      button group.
+      ButtonGroup.
     </text>
   </paragraph>
   <button>
@@ -15747,7 +15644,7 @@ exports[`firefox /components/button-group/ 1`] = `
     navigation of our components.
   </button>
   <group>
-    small button group
+    small outlined button group
     <button>
       ONE
       <text>ONE</text>
@@ -15762,7 +15659,7 @@ exports[`firefox /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    medium secondary button group
+    outlined secondary button group
     <button>
       ONE
       <text>ONE</text>
@@ -15777,7 +15674,7 @@ exports[`firefox /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    large button group
+    large outlined primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -15793,21 +15690,13 @@ exports[`firefox /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <ButtonGroup size="small" aria-label="small button
-    group"> {buttons} </ButtonGroup> <ButtonGroup
-    color="secondary" aria-label="medium secondary button
-    group"> {buttons} </ButtonGroup> <ButtonGroup
-    size="large" aria-label="large button group">
-    {buttons} </ButtonGroup>
-  </text>
   <heading level="2">
     Vertical group
     <link></link>
@@ -15815,7 +15704,7 @@ exports[`firefox /components/button-group/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      The button group can be displayed vertically using the orientation prop.
+      The ButtonGroup can be displayed veritcally using the orientation prop.
     </text>
   </paragraph>
   <button>
@@ -15823,7 +15712,7 @@ exports[`firefox /components/button-group/ 1`] = `
     navigation of our components.
   </button>
   <group>
-    vertical outlined button group
+    vertical outlined primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -15838,7 +15727,7 @@ exports[`firefox /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    vertical contained button group
+    vertical contained primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -15853,7 +15742,7 @@ exports[`firefox /components/button-group/ 1`] = `
     </button>
   </group>
   <group>
-    vertical contained button group
+    vertical contained primary button group
     <button>
       ONE
       <text>ONE</text>
@@ -15884,7 +15773,7 @@ exports[`firefox /components/button-group/ 1`] = `
   <paragraph>
     <text>
       ButtonGroup can also be used to create a split button. The dropdown can
-      change the button action (as in this example) or be used to immediately
+      change the button action (as in this example), or be used to immediately
       trigger a related action.
     </text>
   </paragraph>
@@ -15941,9 +15830,9 @@ exports[`firefox /components/button-group/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <ButtonGroup disableElevation variant="contained">
-    <Button>One</Button> <Button>Two</Button>
-    </ButtonGroup>
+    <ButtonGroup disableElevation variant="contained"
+    color="primary"> <Button>One</Button>
+    <Button>Two</Button> </ButtonGroup>
   </text>
   <heading level="2">
     API
@@ -16265,25 +16154,13 @@ exports[`firefox /components/buttons/ 1`] = `
   </label>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Input accept="image/*" id="contained-button-file"
-    multiple type="file" /> <label
-    htmlFor="contained-button-file"> <Button
-    variant="contained" component="span"> Upload
-    </Button> </label> <Input accept="image/*"
-    id="icon-button-file" type="file" /> <label
-    htmlFor="icon-button-file"> <IconButton
-    color="primary" aria-label="upload picture"
-    component="span"> <PhotoCamera /> </IconButton>
-    </label>
-  </text>
   <heading level="2">
     Sizes
     <link></link>
@@ -17814,8 +17691,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -17868,8 +17744,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -17922,8 +17797,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -17976,8 +17850,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18054,8 +17927,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18108,8 +17980,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18162,8 +18033,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18216,8 +18086,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18296,8 +18165,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18350,8 +18218,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18427,8 +18294,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18481,8 +18347,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18535,8 +18400,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18622,8 +18486,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18676,8 +18539,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18731,8 +18593,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to start-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         page 6
@@ -18741,8 +18602,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 11
@@ -18771,8 +18631,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to start-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 5
@@ -18793,8 +18652,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 11
@@ -18829,8 +18687,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to start-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         page 6
@@ -18839,8 +18696,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18882,8 +18738,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to start-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 5
@@ -18904,8 +18759,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -18995,8 +18849,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -19072,8 +18925,7 @@ exports[`firefox /components/pagination/ 1`] = `
         </button>
       </listitem>
       <listitem>
-        Go to end-ellipsis page
-        <text>…</text>
+        …<text>…</text>
       </listitem>
       <listitem>
         Go to page 10
@@ -19399,9 +19251,9 @@ exports[`firefox /components/pickers 1`] = `
     <text>Time picker</text>
   </label>
   <statictext> </statictext>
-  <textbox value="09:11 pm">
+  <textbox value="09:11 PM">
     hh:mm (a|p)m
-    <text>09:11 pm</text>
+    <text>09:11 PM</text>
   </textbox>
   <button>change time</button>
   <paragraph>
@@ -22241,15 +22093,6 @@ exports[`firefox /components/slider 1`] = `
     <link></link>
     <text>Unstyled slider</text>
   </heading>
-  <paragraph>
-    <text>
-      The slider also comes with an unstyled version. It's ideal for doing
-      heavy customizations and minimizing bundle size.
-    </text>
-  </paragraph>
-  <text>
-    import SliderUnstyled from '@material-ui/unstyled/SliderUnstyled';
-  </text>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -22781,14 +22624,14 @@ exports[`firefox /components/tabs/ 1`] = `
     <text>Basic tabs</text>
   </heading>
   <paragraph>
-    <text>A basic example with tab panels.</text>
+    <text>A basic example with no frills.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
   <tablist>
-    basic tabs example
+    simple tabs example
     <tab selected="true">
       ITEM ONE
       <text>ITEM ONE</text>
@@ -22818,75 +22661,18 @@ exports[`firefox /components/tabs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Box sx={{ borderBottom: 1, borderColor: 'divider'
-    }}> <Tabs value={value}
-    onChange={handleChange} aria-label="basic tabs
+    <AppBar position="static"> <Tabs value={value}
+    onChange={handleChange} aria-label="simple tabs
     example"> <Tab label="Item One"
     {...a11yProps(0)} /> <Tab label="Item Two"
     {...a11yProps(1)} /> <Tab label="Item Three"
-    {...a11yProps(2)} /> </Tabs> </Box> <TabPanel
+    {...a11yProps(2)} /> </Tabs> </AppBar> <TabPanel
     value={value} index={0}> Item One </TabPanel>
     <TabPanel value={value} index={1}> Item Two
     </TabPanel> <TabPanel value={value}
     index={2}> Item Three </TabPanel>
   </text>
-  <heading level="2">
-    Experimental API
-    <link></link>
-    <text>Experimental API</text>
-  </heading>
-  <paragraph>
-    <text>
-      @material-ui/lab offers utility components that inject props to implement
-      accessible tabs following
-    </text>
-    <link>WAI-ARIA authoring practices</link>
-    <text>.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <tablist>
-    lab API tabs example
-    <tab selected="true">
-      ITEM ONE
-      <text>ITEM ONE</text>
-    </tab>
-    <tab>
-      ITEM TWO
-      <text>ITEM TWO</text>
-    </tab>
-    <tab>
-      ITEM THREE
-      <text>ITEM THREE</text>
-    </tab>
-  </tablist>
-  <tabpanel>
-    ITEM ONE
-    <text>Item One</text>
-  </tabpanel>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <TabContext value={value}> <Box sx={{
-    borderBottom: 1, borderColor: 'divider' }}>
-    <TabList onChange={handleChange} aria-label="lab API tabs
-    example"> <Tab label="Item One" value="1"
-    /> <Tab label="Item Two" value="2" /> <Tab
-    label="Item Three" value="3" /> </TabList>
-    </Box> <TabPanel value="1">Item One</TabPanel>
-    <TabPanel value="2">Item Two</TabPanel> <TabPanel
-    value="3">Item Three</TabPanel> </TabContext>
-  </text>
-  <heading level="2">
+  <heading level="3">
     Wrapped labels
     <link></link>
     <text>Wrapped labels</text>
@@ -22916,71 +22702,28 @@ exports[`firefox /components/tabs/ 1`] = `
       <text>ITEM THREE</text>
     </tab>
   </tablist>
+  <tabpanel>
+    NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION
+    <paragraph>
+      <text>Item One</text>
+    </paragraph>
+  </tabpanel>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Tabs value={value} onChange={handleChange}
-    aria-label="wrapped label tabs example" > <Tab
-    value="one" label="New Arrivals in the Longest Text of
-    Nonfiction" wrapped /> <Tab value="two"
-    label="Item Two" /> <Tab value="three"
-    label="Item Three" /> </Tabs>
-  </text>
-  <heading level="2">
-    Colored tab
-    <link></link>
-    <text>Colored tab</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <tablist>
-    secondary tabs example
-    <tab selected="true">
-      ITEM ONE
-      <text>ITEM ONE</text>
-    </tab>
-    <tab>
-      ITEM TWO
-      <text>ITEM TWO</text>
-    </tab>
-    <tab>
-      ITEM THREE
-      <text>ITEM THREE</text>
-    </tab>
-  </tablist>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Tabs value={value} onChange={handleChange}
-    textColor="secondary" indicatorColor="secondary"
-    aria-label="secondary tabs example" > <Tab
-    value="one" label="Item One" /> <Tab
-    value="two" label="Item Two" /> <Tab
-    value="three" label="Item Three" /> </Tabs>
-  </text>
-  <heading level="2">
+  <heading level="3">
     Disabled tab
     <link></link>
     <text>Disabled tab</text>
   </heading>
   <paragraph>
-    <text>A tab can be disabled by setting the disabled prop.</text>
+    <text>A Tab can be disabled by setting disabled prop.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -23011,10 +22754,12 @@ exports[`firefox /components/tabs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Tabs value={value} onChange={handleChange}
-    aria-label="disabled tabs example"> <Tab
-    label="Active" /> <Tab label="Disabled" disabled
-    /> <Tab label="Active" /> </Tabs>
+    <Paper square> <Tabs value={value}
+    indicatorColor="primary" textColor="primary"
+    onChange={handleChange} aria-label="disabled tabs
+    example" > <Tab label="Active" /> <Tab
+    label="Disabled" disabled /> <Tab label="Active"
+    /> </Tabs> </Paper>
   </text>
   <heading level="2">
     Fixed tabs
@@ -23023,7 +22768,7 @@ exports[`firefox /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Fixed tabs should be used with a limited number of tabs, and when
+      Fixed tabs should be used with a limited number of tabs and when
       consistent placement will aid muscle memory.
     </text>
   </paragraph>
@@ -23113,10 +22858,12 @@ exports[`firefox /components/tabs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Tabs value={value} onChange={handleChange}
-    centered> <Tab label="Item One" /> <Tab
-    label="Item Two" /> <Tab label="Item Three" />
-    </Tabs>
+    <Paper className={classes.root}> <Tabs
+    value={value} onChange={handleChange}
+    indicatorColor="primary" textColor="primary" centered
+    > <Tab label="Item One" /> <Tab label="Item
+    Two" /> <Tab label="Item Three" /> </Tabs>
+    </Paper>
   </text>
   <heading level="2">
     Scrollable tabs
@@ -23401,6 +23148,7 @@ exports[`firefox /components/tabs/ 1`] = `
       Tab 3<text>Tab 3</text>
     </tab>
   </tablist>
+  <paragraph></paragraph>
   <tablist>
     styled tabs example
     <tab selected="true">
@@ -23416,6 +23164,7 @@ exports[`firefox /components/tabs/ 1`] = `
       <text>Connections</text>
     </tab>
   </tablist>
+  <paragraph></paragraph>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -23495,14 +23244,15 @@ exports[`firefox /components/tabs/ 1`] = `
     <text>Note that you can restore the scrollbar with visibleScrollbar.</text>
   </paragraph>
   <heading level="2">
-    Nav tabs
+    Nav Tabs
     <link></link>
-    <text>Nav tabs</text>
+    <text>Nav Tabs</text>
   </heading>
   <paragraph>
     <text>
-      By default, tabs use a button element, but you can provide your custom tag
-      or component. Here's an example of implementing tabbed navigation:
+      By default tabs use a button element, but you can provide your own custom
+      tag or component. Here's an example of implementing tabbed
+      navigation:
     </text>
   </paragraph>
   <button>
@@ -23524,26 +23274,25 @@ exports[`firefox /components/tabs/ 1`] = `
       <text>PAGE THREE</text>
     </tab>
   </tablist>
+  <tabpanel>
+    PAGE ONE
+    <paragraph>
+      <text>Page One</text>
+    </paragraph>
+  </tabpanel>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Tabs value={value} onChange={handleChange}
-    aria-label="nav tabs example"> <LinkTab label="Page
-    One" href="/drafts" /> <LinkTab label="Page
-    Two" href="/trash" /> <LinkTab label="Page
-    Three" href="/spam" /> </Tabs>
-  </text>
   <heading level="2">
-    Icon tabs
+    Icon Tabs
     <link></link>
-    <text>Icon tabs</text>
+    <text>Icon Tabs</text>
   </heading>
   <paragraph>
     <text>Tab labels may be either all icons or all text.</text>
@@ -23568,12 +23317,14 @@ exports[`firefox /components/tabs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Tabs value={value} onChange={handleChange}
-    aria-label="icon tabs example"> <Tab
-    icon={<PhoneIcon />} aria-label="phone" />
-    <Tab icon={<FavoriteIcon />}
+    <Paper square className={classes.root}> <Tabs
+    value={value} onChange={handleChange}
+    variant="fullWidth" indicatorColor="primary"
+    textColor="primary" aria-label="icon tabs example" >
+    <Tab icon={<PhoneIcon />} aria-label="phone"
+    /> <Tab icon={<FavoriteIcon />}
     aria-label="favorite" /> <Tab icon={<PersonPinIcon
-    />} aria-label="person" /> </Tabs>
+    />} aria-label="person" /> </Tabs> </Paper>
   </text>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -23604,12 +23355,15 @@ exports[`firefox /components/tabs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Tabs value={value} onChange={handleChange}
-    aria-label="icon label tabs example"> <Tab
-    icon={<PhoneIcon />} label="RECENTS" /> <Tab
-    icon={<FavoriteIcon />} label="FAVORITES" />
-    <Tab icon={<PersonPinIcon />} label="NEARBY"
-    /> </Tabs>
+    <Paper square className={classes.root}> <Tabs
+    value={value} onChange={handleChange}
+    variant="fullWidth" indicatorColor="secondary"
+    textColor="secondary" aria-label="icon label tabs
+    example" > <Tab icon={<PhoneIcon />}
+    label="RECENTS" /> <Tab icon={<FavoriteIcon
+    />} label="FAVORITES" /> <Tab
+    icon={<PersonPinIcon />} label="NEARBY" />
+    </Tabs> </Paper>
   </text>
   <heading level="2">
     Accessibility
@@ -23674,18 +23428,20 @@ exports[`firefox /components/tabs/ 1`] = `
   <paragraph>
     <text>
       The following two demos only differ in their keyboard navigation behavior.
-      Focus a tab and navigate with arrow keys to notice the difference, e.g.
-      Arrow Left.
+      Focus a tab and navigate with arrow keys to notice the difference.
     </text>
   </paragraph>
   <text>
     /* Tabs where selection follows focus */ <Tabs selectionFollowsFocus
-    />
+    /> /* Tabs where each tab needs to be selected manually */ <Tabs />
   </text>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Tabs where selection follows focus</text>
+  </paragraph>
   <tablist>
     Tabs where selection follows focus
     <tab selected="true">
@@ -23701,22 +23457,9 @@ exports[`firefox /components/tabs/ 1`] = `
       <text>ITEM THREE</text>
     </tab>
   </tablist>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    /* Tabs where each tab needs to be selected manually */ <Tabs />
-  </text>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
+  <paragraph>
+    <text>Tabs where each tab needs to be selected manually</text>
+  </paragraph>
   <tablist>
     Tabs where each tab needs to be selected manually
     <tab selected="true">
@@ -23732,6 +23475,12 @@ exports[`firefox /components/tabs/ 1`] = `
       <text>ITEM THREE</text>
     </tab>
   </tablist>
+  <tabpanel>
+    ITEM ONE
+    <paragraph>
+      <text>Item One</text>
+    </paragraph>
+  </tabpanel>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -23741,6 +23490,63 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <heading level="2">
+    Experimental API
+    <link></link>
+    <text>Experimental API</text>
+  </heading>
+  <paragraph>
+    <text>
+      @material-ui/lab offers utility components that inject props to implement
+      accessible tabs following
+    </text>
+    <link>WAI-ARIA authoring practices</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    simple tabs example
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+  </tablist>
+  <tabpanel>
+    ITEM ONE
+    <text>Item One</text>
+  </tabpanel>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <TabContext value={value}> <AppBar
+    position="static"> <TabList
+    onChange={handleChange} aria-label="simple tabs
+    example"> <Tab label="Item One" value="1"
+    /> <Tab label="Item Two" value="2" /> <Tab
+    label="Item Three" value="3" /> </TabList>
+    </AppBar> <TabPanel value="1">Item
+    One</TabPanel> <TabPanel value="2">Item
+    Two</TabPanel> <TabPanel value="3">Item
+    Three</TabPanel> </TabContext>
+  </text>
   <heading level="2">
     API
     <link></link>
@@ -24425,14 +24231,12 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>With a start adornment</text>
   </label>
   <statictext> </statictext>
-  <text>​</text>
   <textbox>With a start adornment</textbox>
   <label>
     TextField
     <text>TextField</text>
   </label>
   <statictext> </statictext>
-  <text>​</text>
   <textbox>TextField</textbox>
   <label>
     With a grid
@@ -25132,6 +24936,28 @@ exports[`firefox /components/text-fields/ 1`] = `
   </button>
   <form>
     <label>
+      Custom CSS
+      <text>Custom CSS</text>
+    </label>
+    <statictext> </statictext>
+    <textbox>Custom CSS</textbox>
+    <label>
+      Custom CSS
+      <text>Custom CSS</text>
+    </label>
+    <textbox>Custom CSS</textbox>
+    <label>
+      ThemeProvider
+      <text>ThemeProvider</text>
+    </label>
+    <statictext> </statictext>
+    <textbox>ThemeProvider</textbox>
+    <label>
+      ThemeProvider
+      <text>ThemeProvider</text>
+    </label>
+    <textbox>ThemeProvider</textbox>
+    <label>
       Bootstrap
       <text>Bootstrap</text>
     </label>
@@ -25147,11 +24973,10 @@ exports[`firefox /components/text-fields/ 1`] = `
       Reddit
       <text>react-reddit</text>
     </textbox>
-    <label>
-      Custom CSS
-      <text>Custom CSS</text>
-    </label>
-    <textbox>Custom CSS</textbox>
+    <textbox value="Naked input">
+      naked
+      <text>Naked input</text>
+    </textbox>
     <label>
       CSS validation style
       <text>CSS validation style</text>
@@ -25450,7 +25275,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     </text>
   </paragraph>
   <text>
-    interface InputElement { focus(): void; value?: string; } const
+    interface InputElement { focus(): void; value?: string; }const
     MyInputComponent = React.forwardRef((props, ref) => { const {
     component: Component, ...other } = props; // implement \`InputElement\`
     interface React.useImperativeHandle(ref, () => ({ focus: () =>
