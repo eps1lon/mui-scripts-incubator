@@ -17171,28 +17171,22 @@ exports[`firefox /components/dialogs/ 1`] = `
 <landmark>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
-    Dialog
-    <text>Dialog</text>
+    Checkbox
+    <text>Checkbox</text>
   </heading>
   <paragraph>
     <text>
-      Dialogs inform users about a task and can contain critical information,
-      require decisions, or involve multiple tasks.
+      Checkboxes allow the user to select one or more items from a set.
     </text>
   </paragraph>
   <paragraph>
-    <text>A Dialog is a type of</text>
-    <link>modal</link>
-    <text>
-      window that appears in front of app content to provide critical
-      information or ask for a decision. Dialogs disable all app functionality
-      when they appear, and remain on screen until confirmed, dismissed, or a
-      required action has been taken.
-    </text>
+    <text>Checkboxes can be used to turn an option on or off.</text>
   </paragraph>
   <paragraph>
     <text>
-      Dialogs are purposefully interruptive, so they should be used sparingly.
+      If you have multiple options appearing in a list, you can preserve space
+      by using checkboxes instead of on/off switches. If you have a single
+      option, avoid using a checkbox and use an on/off switch instead.
     </text>
   </paragraph>
   <list>
@@ -17224,46 +17218,62 @@ exports[`firefox /components/dialogs/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Basic dialog
+    Basic checkboxes
     <link></link>
-    <text>Basic dialog</text>
+    <text>Basic checkboxes</text>
   </heading>
-  <paragraph>
-    <text>
-      Simple dialogs can provide additional details or actions about a list
-      item. For example, they can display avatars, icons, clarifying subtext, or
-      orthogonal actions (such as adding an account).
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>Touch mechanics:</text>
-  </paragraph>
-  <list>
-    <listitem>
-      Choosing an option immediately commits the option and closes the menu
-      <text>
-        Choosing an option immediately commits the option and closes the menu
-      </text>
-    </listitem>
-    <listitem>
-      Touching outside of the dialog, or pressing Back, cancels the action and
-      closes the dialog
-      <text>
-        Touching outside of the dialog, or pressing Back, cancels the action and
-        closes the dialog
-      </text>
-    </listitem>
-  </list>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <text>Selected: user02@gmail.com</text>
-  <whitespace></whitespace>
+  <checkbox checked="true">primary checkbox</checkbox>
+  <checkbox checked="true">secondary checkbox</checkbox>
+  <checkbox>uncontrolled-checkbox</checkbox>
+  <checkbox disabled="true">disabled checkbox</checkbox>
+  <checkbox checked="true" disabled="true">
+    disabled checked checkbox
+  </checkbox>
+  <checkbox checked="true">indeterminate checkbox</checkbox>
+  <checkbox checked="true">checkbox with default color</checkbox>
+  <checkbox checked="true">checkbox with small size</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Indeterminate
+    <link></link>
+    <text>Indeterminate</text>
+  </heading>
+  <paragraph>
+    <text>
+      A checkbox input can only have two states in a form: checked or unchecked.
+      It either submits its value or doesn't. Visually, there are actually
+      three states a checkbox can be in: checked, unchecked, or indeterminate.
+    </text>
+  </paragraph>
   <button>
-    OPEN SIMPLE DIALOG
-    <text>OPEN SIMPLE DIALOG</text>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
   </button>
+  <label>
+    Parent
+    <checkbox>Parent</checkbox>
+    <text>Parent</text>
+  </label>
+  <label>
+    Child 1<checkbox checked="true">Child 1</checkbox>
+    <text>Child 1</text>
+  </label>
+  <label>
+    Child 2<checkbox>Child 2</checkbox>
+    <text>Child 2</text>
+  </label>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -17274,78 +17284,74 @@ exports[`firefox /components/dialogs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Typography variant="subtitle1" component="div">
-    Selected: {selectedValue} </Typography> <br />
-    <Button variant="outlined"
-    onClick={handleClickOpen}> Open simple dialog </Button>
-    <SimpleDialog selectedValue={selectedValue}
-    open={open} onClose={handleClose} />
+    <FormControlLabel label="Parent" control={ <Checkbox
+    checked={checked[0] && checked[1]}
+    indeterminate={checked[0] !== checked[1]}
+    onChange={handleChange1} color="primary" /> }
+    /> {children}
   </text>
   <heading level="2">
-    Alerts
+    Label
     <link></link>
-    <text>Alerts</text>
+    <text>Label</text>
   </heading>
   <paragraph>
     <text>
-      Alerts are urgent interruptions, requiring acknowledgement, that inform
-      the user about a situation.
+      Checkbox can be provided with a label thanks to the FormControlLabel
+      component.
     </text>
   </paragraph>
-  <paragraph>
-    <text>
-      Most alerts don't need titles. They summarize a decision in a
-      sentence or two by either:
-    </text>
-  </paragraph>
-  <list>
-    <listitem>
-      Asking a question (e.g. "Delete this conversation?")
-      <text>
-        Asking a question (e.g. "Delete this conversation?")
-      </text>
-    </listitem>
-    <listitem>
-      Making a statement related to the action buttons
-      <text>Making a statement related to the action buttons</text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>
-      Use title bar alerts only for high-risk situations, such as the potential
-      loss of connectivity. Users should be able to understand the choices based
-      on the title and button text alone.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>If a title is required:</text>
-  </paragraph>
-  <list>
-    <listitem>
-      Use a clear question or statement with an explanation in the content area,
-      such as "Erase USB storage?".
-      <text>
-        Use a clear question or statement with an explanation in the content
-        area, such as "Erase USB storage?".
-      </text>
-    </listitem>
-    <listitem>
-      Avoid apologies, ambiguity, or questions, such as "Warning!" or
-      "Are you sure?"
-      <text>
-        Avoid apologies, ambiguity, or questions, such as "Warning!"
-        or "Are you sure?"
-      </text>
-    </listitem>
-  </list>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <button>
-    OPEN ALERT DIALOG
-    <text>OPEN ALERT DIALOG</text>
-  </button>
+  <label>
+    Secondary
+    <checkbox checked="true">Secondary</checkbox>
+    <text>Secondary</text>
+  </label>
+  <label>
+    Primary
+    <checkbox checked="true">Primary</checkbox>
+    <text>Primary</text>
+  </label>
+  <label>
+    Uncontrolled
+    <checkbox>Uncontrolled</checkbox>
+    <text>Uncontrolled</text>
+  </label>
+  <label>
+    Disabled
+    <checkbox disabled="true">Disabled</checkbox>
+    <text>Disabled</text>
+  </label>
+  <label>
+    Disabled
+    <checkbox checked="true" disabled="true">
+      Disabled
+    </checkbox>
+    <text>Disabled</text>
+  </label>
+  <label>
+    Indeterminate
+    <checkbox checked="true">Indeterminate</checkbox>
+    <text>Indeterminate</text>
+  </label>
+  <label>
+    Custom color
+    <checkbox checked="true">Custom color</checkbox>
+    <text>Custom color</text>
+  </label>
+  <label>
+    Custom icon
+    <checkbox>Custom icon</checkbox>
+    <text>Custom icon</text>
+  </label>
+  <label>
+    Custom size
+    <checkbox>Custom size</checkbox>
+    <text>Custom size</text>
+  </label>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -17356,23 +17362,70 @@ exports[`firefox /components/dialogs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Transitions
+    FormGroup
     <link></link>
-    <text>Transitions</text>
+    <text>FormGroup</text>
   </heading>
   <paragraph>
     <text>
-      You can also swap out the transition, the next example uses Slide.
+      FormGroup is a helpful wrapper used to group selection controls components
+      that provides an easier API.
     </text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <button>
-    SLIDE IN ALERT DIALOG
-    <text>SLIDE IN ALERT DIALOG</text>
-  </button>
+  <group>
+    Assign responsibility
+    <label>
+      Assign responsibility
+      <text>Assign responsibility</text>
+    </label>
+    <label>
+      Gilad Gray
+      <checkbox checked="true">Gilad Gray</checkbox>
+      <text>Gilad Gray</text>
+    </label>
+    <label>
+      Jason Killian
+      <checkbox>Jason Killian</checkbox>
+      <text>Jason Killian</text>
+    </label>
+    <label>
+      Antoine Llorca
+      <checkbox>Antoine Llorca</checkbox>
+      <text>Antoine Llorca</text>
+    </label>
+    <paragraph>
+      <text>Be careful</text>
+    </paragraph>
+  </group>
+  <group>
+    Pick two
+    <label>
+      Pick two
+      <text>Pick two</text>
+    </label>
+    <label>
+      Gilad Gray
+      <checkbox checked="true">Gilad Gray</checkbox>
+      <text>Gilad Gray</text>
+    </label>
+    <label>
+      Jason Killian
+      <checkbox>Jason Killian</checkbox>
+      <text>Jason Killian</text>
+    </label>
+    <label>
+      Antoine Llorca
+      <checkbox>Antoine Llorca</checkbox>
+      <text>Antoine Llorca</text>
+    </label>
+    <paragraph>
+      <text>You can display an error</text>
+    </paragraph>
+  </group>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -17383,26 +17436,44 @@ exports[`firefox /components/dialogs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Form dialogs
+    Label placement
     <link></link>
-    <text>Form dialogs</text>
+    <text>Label placement</text>
   </heading>
   <paragraph>
-    <text>
-      Form dialogs allow users to fill out form fields within a dialog. For
-      example, if your site prompts for potential subscribers to fill in their
-      email address, they can fill out the email field and touch
-      'Submit'.
-    </text>
+    <text>You can change the placement of the label:</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <button>
-    OPEN FORM DIALOG
-    <text>OPEN FORM DIALOG</text>
-  </button>
+  <group>
+    Label Placement
+    <label>
+      Label Placement
+      <text>Label Placement</text>
+    </label>
+    <label>
+      Top
+      <checkbox>Top</checkbox>
+      <text>Top</text>
+    </label>
+    <label>
+      Start
+      <checkbox>Start</checkbox>
+      <text>Start</text>
+    </label>
+    <label>
+      Bottom
+      <checkbox>Bottom</checkbox>
+      <text>Bottom</text>
+    </label>
+    <label>
+      End
+      <checkbox>End</checkbox>
+      <text>End</text>
+    </label>
+  </group>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -17413,9 +17484,9 @@ exports[`firefox /components/dialogs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Customized dialogs
+    Customized checkbox
     <link></link>
-    <text>Customized dialogs</text>
+    <text>Customized checkbox</text>
   </heading>
   <paragraph>
     <text>
@@ -17425,17 +17496,13 @@ exports[`firefox /components/dialogs/ 1`] = `
     <link>overrides documentation page</link>
     <text>.</text>
   </paragraph>
-  <paragraph>
-    <text>The dialog has a close button added to aide usability.</text>
-  </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <button>
-    OPEN DIALOG
-    <text>OPEN DIALOG</text>
-  </button>
+  <checkbox>decorative checkbox</checkbox>
+  <checkbox checked="true">decorative checkbox</checkbox>
+  <checkbox disabled="true">decorative checkbox</checkbox>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -17445,251 +17512,66 @@ exports[`firefox /components/dialogs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <heading level="2">
-    Full-screen dialogs
-    <link></link>
-    <text>Full-screen dialogs</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    OPEN FULL-SCREEN DIALOG
-    <text>OPEN FULL-SCREEN DIALOG</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Optional sizes
-    <link></link>
-    <text>Optional sizes</text>
-  </heading>
   <paragraph>
-    <text>
-      You can set a dialog maximum width by using the maxWidth enumerable in
-      combination with the fullWidth boolean. When the fullWidth prop is true,
-      the dialog will adapt based on the maxWidth value.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    OPEN MAX-WIDTH DIALOG
-    <text>OPEN MAX-WIDTH DIALOG</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Responsive full-screen
-    <link></link>
-    <text>Responsive full-screen</text>
-  </heading>
-  <paragraph>
-    <text>You may make a dialog responsively full screen using</text>
-    <link>useMediaQuery</link>
+    <text>🎨 If you are looking for inspiration, you can check</text>
+    <link>MUI Treasury's customization examples</link>
     <text>.</text>
   </paragraph>
-  <text>
-    import useMediaQuery from '@material-ui/core/useMediaQuery';
-    function MyComponent() { const theme = useTheme(); const fullScreen =
-    useMediaQuery(theme.breakpoints.down('md')); return <Dialog
-    fullScreen={fullScreen} />; }
-  </text>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    OPEN RESPONSIVE DIALOG
-    <text>OPEN RESPONSIVE DIALOG</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
   <heading level="2">
-    Confirmation dialogs
+    When to use
     <link></link>
-    <text>Confirmation dialogs</text>
+    <text>When to use</text>
   </heading>
-  <paragraph>
-    <text>
-      Confirmation dialogs require users to explicitly confirm their choice
-      before an option is committed. For example, users can listen to multiple
-      ringtones but only make a final selection upon touching "OK".
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      Touching "Cancel" in a confirmation dialog, or pressing Back,
-      cancels the action, discards any changes, and closes the dialog.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    <button disabled="true">
-      Interruptions
-      <text>Interruptions</text>
-    </button>
-    <buttonmenu haspopup="true">
-      phone ringtone
-      <text>Phone ringtone</text>
-      <paragraph>
-        <text>Dione</text>
-      </paragraph>
-    </buttonmenu>
-    <button disabled="true">
-      Default notification ringtone Tethys
-      <text>Default notification ringtone</text>
-      <paragraph>
-        <text>Tethys</text>
-      </paragraph>
-    </button>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Draggable dialog
-    <link></link>
-    <text>Draggable dialog</text>
-  </heading>
-  <paragraph>
-    <text>You can create a draggable dialog by using</text>
-    <link>react-draggable</link>
-    <text>
-      . To do so, you can pass the imported Draggable component as the
-      PaperComponent of the Dialog component. This will make the entire dialog
-      draggable.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    OPEN DRAGGABLE DIALOG
-    <text>OPEN DRAGGABLE DIALOG</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Scrolling long content
-    <link></link>
-    <text>Scrolling long content</text>
-  </heading>
-  <paragraph>
-    <text>
-      When dialogs become too long for the user's viewport or device, they
-      scroll.
-    </text>
-  </paragraph>
   <list>
     <listitem>
-      scroll=paper the content of the dialog scrolls within the paper element.
-      <text>
-        scroll=paper the content of the dialog scrolls within the paper element.
-      </text>
+      Checkboxes vs. Radio Buttons
+      <link>Checkboxes vs. Radio Buttons</link>
     </listitem>
     <listitem>
-      scroll=body the content of the dialog scrolls within the body element.
-      <text>
-        scroll=body the content of the dialog scrolls within the body element.
-      </text>
+      Checkboxes vs. Switches
+      <link>Checkboxes vs. Switches</link>
     </listitem>
   </list>
-  <paragraph>
-    <text>Try the demo below to see what we mean:</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    SCROLL=PAPER
-    <text>SCROLL=PAPER</text>
-  </button>
-  <button>
-    SCROLL=BODY
-    <text>SCROLL=BODY</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="2">
-    Performance
-    <link></link>
-    <text>Performance</text>
-  </heading>
-  <paragraph>
-    <text>Follow the</text>
-    <link>Modal performance section</link>
-    <text>.</text>
-  </paragraph>
-  <heading level="2">
-    Limitations
-    <link></link>
-    <text>Limitations</text>
-  </heading>
-  <paragraph>
-    <text>Follow the</text>
-    <link>Modal limitations section</link>
-    <text>.</text>
-  </paragraph>
   <heading level="2">
     Accessibility
     <link></link>
     <text>Accessibility</text>
   </heading>
   <paragraph>
-    <text>Follow the</text>
-    <link>Modal accessibility section</link>
-    <text>.</text>
+    <text>(WAI-ARIA:</text>
+    <link>https://www.w3.org/TR/wai-aria-practices/#checkbox</link>
+    <text>)</text>
   </paragraph>
+  <list>
+    <listitem>
+      All form controls should have labels, and this includes radio buttons,
+      checkboxes, and switches. In most cases, this is done by using the
+      <label> element ( FormControlLabel ).
+      <text>
+        All form controls should have labels, and this includes radio buttons,
+        checkboxes, and switches. In most cases, this is done by using the
+        <label> element (
+      </text>
+      <link>FormControlLabel</link>
+      <text>).</text>
+    </listitem>
+    <listitem>
+      When a label can't be used, it's necessary to add an attribute
+      directly to the input component. In this case, you can apply the
+      additional attribute (e.g. aria-label , aria-labelledby , title ) via the
+      inputProps prop.
+      <text>
+        When a label can't be used, it's necessary to add an attribute
+        directly to the input component. In this case, you can apply the
+        additional attribute (e.g. aria-label, aria-labelledby, title) via the
+        inputProps prop.
+      </text>
+    </listitem>
+  </list>
+  <text>
+    <Checkbox value="checkedA" inputProps={{
+    'aria-label': 'Checkbox A', }} />
+  </text>
   <heading level="2">
     API
     <link></link>
@@ -17697,39 +17579,35 @@ exports[`firefox /components/dialogs/ 1`] = `
   </heading>
   <list>
     <listitem>
-      <Dialog />
-      <link><Dialog /></link>
+      <Checkbox />
+      <link><Checkbox /></link>
     </listitem>
     <listitem>
-      <DialogActions />
-      <link><DialogActions /></link>
+      <FormControl />
+      <link><FormControl /></link>
     </listitem>
     <listitem>
-      <DialogContent />
-      <link><DialogContent /></link>
+      <FormControlLabel />
+      <link><FormControlLabel /></link>
     </listitem>
     <listitem>
-      <DialogContentText />
-      <link><DialogContentText /></link>
+      <FormGroup />
+      <link><FormGroup /></link>
     </listitem>
     <listitem>
-      <DialogTitle />
-      <link><DialogTitle /></link>
-    </listitem>
-    <listitem>
-      <Slide />
-      <link><Slide /></link>
+      <FormLabel />
+      <link><FormLabel /></link>
     </listitem>
   </list>
   <separator></separator>
-  <link>Backdrop</link>
+  <link>Button Group</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Progress</link>
+  <link>Floating Action Button</link>
 </landmark>;
 
 `;
