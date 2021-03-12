@@ -23756,7 +23756,7 @@ exports[`firefox /components/tabs/ 1`] = `
       <link><TabContext /></link>
     </listitem>
     <listitem>
-      <TabList />
+      • <TabList />
       <link><TabList /></link>
     </listitem>
     <listitem>
