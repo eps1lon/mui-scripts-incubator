@@ -2335,13 +2335,16 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </navigation>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Custom separator
     <Anchor></Anchor>
@@ -2349,7 +2352,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </heading>
   <paragraph>
     <text>
-      In the following examples, we are using two string separators, and an SVG
+      In the following examples, we are using two string separators and an SVG
       icon.
     </text>
   </paragraph>
@@ -2407,13 +2410,16 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </navigation>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Breadcrumbs with icons
     <Anchor></Anchor>
@@ -2519,13 +2525,16 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </navigation>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Integration with react-router
     <Anchor></Anchor>
@@ -15190,10 +15199,10 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </toolbar>
   <text>
     <Breadcrumbs aria-label="breadcrumb"> <Link
-    color="inherit" href="/"
-    onClick={handleClick}> Material-UI </Link> <Link
-    color="inherit" href="/getting-started/installation/"
-    onClick={handleClick} > Core </Link> <Typography
+    color="inherit" href="/"> Material-UI </Link>
+    <Link color="inherit"
+    href="/getting-started/installation/"> Core </Link>
+    <Typography
     color="textPrimary">Breadcrumb</Typography>
     </Breadcrumbs>
   </text>
@@ -15228,13 +15237,22 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </landmark>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <Breadcrumbs aria-label="breadcrumb"> <Link
+    color="inherit" href="/"> Material-UI </Link>
+    <Link color="inherit"
+    href="/getting-started/installation/"> Core </Link>
+    <Link color="textPrimary"
+    href="/components/breadcrumbs/" aria-current="page" >
+    Breadcrumb </Link> </Breadcrumbs>
+  </text>
   <heading level="2">
     Custom separator
     <link></link>
@@ -15242,7 +15260,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </heading>
   <paragraph>
     <text>
-      In the following examples, we are using two string separators, and an SVG
+      In the following examples, we are using two string separators and an SVG
       icon.
     </text>
   </paragraph>
@@ -15309,13 +15327,22 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </landmark>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <Breadcrumbs separator="›"
+    aria-label="breadcrumb"> {breadcrumbs}
+    </Breadcrumbs> <Breadcrumbs separator="-"
+    aria-label="breadcrumb"> {breadcrumbs}
+    </Breadcrumbs> <Breadcrumbs separator={<NavigateNextIcon
+    fontSize="small" />} aria-label="breadcrumb"
+    > {breadcrumbs} </Breadcrumbs>
+  </text>
   <heading level="2">
     Breadcrumbs with icons
     <link></link>
@@ -15390,15 +15417,12 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </toolbar>
   <text>
     <Breadcrumbs maxItems={2} aria-label="breadcrumb">
-    <Link color="inherit" href="#"
-    onClick={handleClick}> Home </Link> <Link
-    color="inherit" href="#"
-    onClick={handleClick}> Catalog </Link> <Link
-    color="inherit" href="#"
-    onClick={handleClick}> Accessories </Link> <Link
-    color="inherit" href="#"
-    onClick={handleClick}> New Collection </Link>
-    <Typography color="textPrimary">Belts</Typography>
+    <Link color="inherit" href="#"> Home </Link>
+    <Link color="inherit" href="#"> Catalog
+    </Link> <Link color="inherit" href="#">
+    Accessories </Link> <Link color="inherit"
+    href="#"> New Collection </Link> <Typography
+    color="textPrimary">Belts</Typography>
     </Breadcrumbs>
   </text>
   <heading level="2">
@@ -15440,13 +15464,22 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </landmark>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <Breadcrumbs aria-label="breadcrumb"> <StyledBreadcrumb
+    component="a" href="#" label="Home"
+    icon={<HomeIcon fontSize="small" />} />
+    <StyledBreadcrumb component="a" href="#"
+    label="Catalog" /> <StyledBreadcrumb
+    label="Accessories" deleteIcon={<ExpandMoreIcon
+    />} onDelete={handleClick} /> </Breadcrumbs>
+  </text>
   <heading level="2">
     Integration with react-router
     <link></link>
