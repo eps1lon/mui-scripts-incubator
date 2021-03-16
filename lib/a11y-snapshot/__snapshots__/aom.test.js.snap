@@ -11863,6 +11863,1731 @@ exports[`chromium /components/tooltips/ 1`] = `
 <main>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
+    Text Field
+    <text>Text Field</text>
+  </heading>
+  <paragraph>
+    <text>Text fields let users enter and edit text.</text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Text fields allow users to enter text into a UI. They typically appear in
+      forms and dialogs.
+    </text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <link>Feedback</link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>Material Design</link>
+    </listitem>
+    <listitem level="1">
+      <link>Figma</link>
+    </listitem>
+    <listitem level="1">
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    TextField
+    <Anchor></Anchor>
+    <text>TextField</text>
+  </heading>
+  <paragraph>
+    <text>The</text>
+    <code>$SOME_CODE</code>
+    <text>
+      wrapper component is a complete form control including a label, input and
+      help text.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>It supports standard, outlined and filled styling.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <Label>
+      <text>Outlined</text>
+    </Label>
+    <textbox>Outlined</textbox>
+    <Label>
+      <text>Filled</text>
+    </Label>
+    <text> </text>
+    <textbox>Filled</textbox>
+    <Label>
+      <text>Standard</text>
+    </Label>
+    <text> </text>
+    <textbox>Standard</textbox>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <paragraph>
+    <text>Note:The standard variant of the</text>
+    <code>$SOME_CODE</code>
+    <text>is no longer documented in the</text>
+    <link>Material Design guidelines</link>
+    <text>(</text>
+    <link>here's why</link>
+    <text>), but Material-UI will continue to support it.</text>
+  </paragraph>
+  <heading level="2">
+    Form props
+    <Anchor></Anchor>
+    <text>Form props</text>
+  </heading>
+  <paragraph>
+    <text>Standard form attributes are supported e.g.</text>
+    <code>$SOME_CODE</code>
+    <text>,</text>
+    <code>$SOME_CODE</code>
+    <text>,</text>
+    <code>$SOME_CODE</code>
+    <text>, etc. as well as a</text>
+    <code>$SOME_CODE</code>
+    <text>
+      which is used to give context about a field's input, such as how the
+      input will be used.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <Label>
+      <text>Required</text>
+    </Label>
+    <textbox required="true" value="Hello World">
+      Required
+      <text>Hello World</text>
+    </textbox>
+    <Label>
+      <text>Disabled</text>
+    </Label>
+    <textbox disabled="true" value="Hello World">
+      Disabled
+      <text>Hello World</text>
+    </textbox>
+    <Label>
+      <text>Password</text>
+    </Label>
+    <textbox>Password</textbox>
+    <Label>
+      <text>Read Only</text>
+    </Label>
+    <textbox readonly="true" value="Hello World">
+      Read Only
+      <text>Hello World</text>
+    </textbox>
+    <Label>
+      <text>Number</text>
+    </Label>
+    <spinbutton valuetext="">Number</spinbutton>
+    <Label>
+      <text>Search field</text>
+    </Label>
+    <searchbox>Search field</searchbox>
+    <Label>
+      <text>Helper text</text>
+    </Label>
+    <textbox description="Some important text" value="Default Value">
+      Helper text
+      <text>Default Value</text>
+    </textbox>
+    <paragraph>
+      <text>Some important text</text>
+    </paragraph>
+    <Label>
+      <text>Required</text>
+    </Label>
+    <text> </text>
+    <textbox required="true" value="Hello World">
+      Required
+      <text>Hello World</text>
+    </textbox>
+    <Label>
+      <text>Disabled</text>
+    </Label>
+    <text> </text>
+    <textbox disabled="true" value="Hello World">
+      Disabled
+      <text>Hello World</text>
+    </textbox>
+    <Label>
+      <text>Password</text>
+    </Label>
+    <text> </text>
+    <textbox>Password</textbox>
+    <Label>
+      <text>Read Only</text>
+    </Label>
+    <text> </text>
+    <textbox readonly="true" value="Hello World">
+      Read Only
+      <text>Hello World</text>
+    </textbox>
+    <Label>
+      <text>Number</text>
+    </Label>
+    <text> </text>
+    <spinbutton valuetext="">Number</spinbutton>
+    <Label>
+      <text>Search field</text>
+    </Label>
+    <text> </text>
+    <searchbox>Search field</searchbox>
+    <Label>
+      <text>Helper text</text>
+    </Label>
+    <text> </text>
+    <textbox description="Some important text" value="Default Value">
+      Helper text
+      <text>Default Value</text>
+    </textbox>
+    <paragraph>
+      <text>Some important text</text>
+    </paragraph>
+    <Label>
+      <text>Required</text>
+    </Label>
+    <text> </text>
+    <textbox required="true" value="Hello World">
+      Required
+      <text>Hello World</text>
+    </textbox>
+    <Label>
+      <text>Disabled</text>
+    </Label>
+    <text> </text>
+    <textbox disabled="true" value="Hello World">
+      Disabled
+      <text>Hello World</text>
+    </textbox>
+    <Label>
+      <text>Password</text>
+    </Label>
+    <text> </text>
+    <textbox>Password</textbox>
+    <Label>
+      <text>Read Only</text>
+    </Label>
+    <text> </text>
+    <textbox readonly="true" value="Hello World">
+      Read Only
+      <text>Hello World</text>
+    </textbox>
+    <Label>
+      <text>Number</text>
+    </Label>
+    <text> </text>
+    <spinbutton valuetext="">Number</spinbutton>
+    <Label>
+      <text>Search field</text>
+    </Label>
+    <text> </text>
+    <searchbox>Search field</searchbox>
+    <Label>
+      <text>Helper text</text>
+    </Label>
+    <text> </text>
+    <textbox description="Some important text" value="Default Value">
+      Helper text
+      <text>Default Value</text>
+    </textbox>
+    <paragraph>
+      <text>Some important text</text>
+    </paragraph>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Validation
+    <Anchor></Anchor>
+    <text>Validation</text>
+  </heading>
+  <paragraph>
+    <text>The</text>
+    <code>$SOME_CODE</code>
+    <text>prop toggles the error state, the</text>
+    <code>$SOME_CODE</code>
+    <text>
+      prop can then be used to provide feedback to the user about the error.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <Label>
+      <text>Error</text>
+    </Label>
+    <textbox invalid="true" value="Hello World">
+      Error
+      <text>Hello World</text>
+    </textbox>
+    <Label>
+      <text>Error</text>
+    </Label>
+    <textbox description="Incorrect entry." invalid="true" value="Hello World">
+      Error
+      <text>Hello World</text>
+    </textbox>
+    <paragraph>
+      <text>Incorrect entry.</text>
+    </paragraph>
+    <Label>
+      <text>Error</text>
+    </Label>
+    <text> </text>
+    <textbox invalid="true" value="Hello World">
+      Error
+      <text>Hello World</text>
+    </textbox>
+    <Label>
+      <text>Error</text>
+    </Label>
+    <text> </text>
+    <textbox description="Incorrect entry." invalid="true" value="Hello World">
+      Error
+      <text>Hello World</text>
+    </textbox>
+    <paragraph>
+      <text>Incorrect entry.</text>
+    </paragraph>
+    <Label>
+      <text>Error</text>
+    </Label>
+    <text> </text>
+    <textbox invalid="true" value="Hello World">
+      Error
+      <text>Hello World</text>
+    </textbox>
+    <Label>
+      <text>Error</text>
+    </Label>
+    <text> </text>
+    <textbox description="Incorrect entry." invalid="true" value="Hello World">
+      Error
+      <text>Hello World</text>
+    </textbox>
+    <paragraph>
+      <text>Incorrect entry.</text>
+    </paragraph>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Multiline
+    <Anchor></Anchor>
+    <text>Multiline</text>
+  </heading>
+  <paragraph>
+    <text>The</text>
+    <code>$SOME_CODE</code>
+    <text>prop transforms the text field into a</text>
+    <link>
+      <textarea>
+      <code>$SOME_CODE</code>
+    </link>
+    <text>element. Unless the</text>
+    <code>$SOME_CODE</code>
+    <text>
+      prop is set, the height of the text field dynamically matches its content
+      (using
+    </text>
+    <link>TextareaAutosize</link>
+    <text>). You can use the</text>
+    <code>$SOME_CODE</code>
+    <text>and</text>
+    <code>$SOME_CODE</code>
+    <text>props to bound it.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <Label>
+      <text>Multiline</text>
+    </Label>
+    <textbox multiline="true" value="Controlled">
+      Multiline
+      <text>Controlled</text>
+    </textbox>
+    <Label>
+      <text>Multiline Placeholder</text>
+    </Label>
+    <textbox multiline="true">Multiline Placeholder</textbox>
+    <Label>
+      <text>Multiline</text>
+    </Label>
+    <textbox multiline="true" value="Default Value">
+      Multiline
+      <text>Default Value</text>
+    </textbox>
+    <Label>
+      <text>Multiline</text>
+    </Label>
+    <text> </text>
+    <textbox multiline="true" value="Controlled">
+      Multiline
+      <text>Controlled</text>
+    </textbox>
+    <Label>
+      <text>Multiline Placeholder</text>
+    </Label>
+    <text> </text>
+    <textbox multiline="true">Multiline Placeholder</textbox>
+    <Label>
+      <text>Multiline</text>
+    </Label>
+    <text> </text>
+    <textbox multiline="true" value="Default Value">
+      Multiline
+      <text>Default Value</text>
+    </textbox>
+    <Label>
+      <text>Multiline</text>
+    </Label>
+    <text> </text>
+    <textbox multiline="true" value="Controlled">
+      Multiline
+      <text>Controlled</text>
+    </textbox>
+    <Label>
+      <text>Multiline Placeholder</text>
+    </Label>
+    <text> </text>
+    <textbox multiline="true">Multiline Placeholder</textbox>
+    <Label>
+      <text>Multiline</text>
+    </Label>
+    <text> </text>
+    <textbox multiline="true" value="Default Value">
+      Multiline
+      <text>Default Value</text>
+    </textbox>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Select
+    <Anchor></Anchor>
+    <text>Select</text>
+  </heading>
+  <paragraph>
+    <text>The</text>
+    <code>$SOME_CODE</code>
+    <text>prop makes the text field use the</text>
+    <link>Select</link>
+    <text>component internally.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <Label>
+      <text>Select</text>
+    </Label>
+    <combobox description="Please select your currency" haspopup="listbox">
+      Select €
+    </combobox>
+    <textbox value="EUR"></textbox>
+    <paragraph>
+      <text>Please select your currency</text>
+    </paragraph>
+    <Label>
+      <text>Native select</text>
+    </Label>
+    <combobox description="Please select your currency" value="€">
+      Native select
+      <MenuListPopup>
+        <menuitem>$</menuitem>
+        <menuitem selected="true">€</menuitem>
+        <menuitem>฿</menuitem>
+        <menuitem>¥</menuitem>
+      </MenuListPopup>
+    </combobox>
+    <paragraph>
+      <text>Please select your currency</text>
+    </paragraph>
+    <Label>
+      <text>Select</text>
+    </Label>
+    <text> </text>
+    <combobox description="Please select your currency" haspopup="listbox">
+      Select €
+    </combobox>
+    <textbox value="EUR"></textbox>
+    <paragraph>
+      <text>Please select your currency</text>
+    </paragraph>
+    <Label>
+      <text>Native select</text>
+    </Label>
+    <text> </text>
+    <combobox description="Please select your currency" value="€">
+      Native select
+      <MenuListPopup>
+        <menuitem>$</menuitem>
+        <menuitem selected="true">€</menuitem>
+        <menuitem>฿</menuitem>
+        <menuitem>¥</menuitem>
+      </MenuListPopup>
+    </combobox>
+    <paragraph>
+      <text>Please select your currency</text>
+    </paragraph>
+    <Label>
+      <text>Select</text>
+    </Label>
+    <text> </text>
+    <combobox description="Please select your currency" haspopup="listbox">
+      Select €
+    </combobox>
+    <textbox value="EUR"></textbox>
+    <paragraph>
+      <text>Please select your currency</text>
+    </paragraph>
+    <Label>
+      <text>Native select</text>
+    </Label>
+    <text> </text>
+    <combobox description="Please select your currency" value="€">
+      Native select
+      <MenuListPopup>
+        <menuitem>$</menuitem>
+        <menuitem selected="true">€</menuitem>
+        <menuitem>฿</menuitem>
+        <menuitem>¥</menuitem>
+      </MenuListPopup>
+    </combobox>
+    <paragraph>
+      <text>Please select your currency</text>
+    </paragraph>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Icons
+    <Anchor></Anchor>
+    <text>Icons</text>
+  </heading>
+  <paragraph>
+    <text>There are multiple ways to display an icon with a text field.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Label>
+    <text>With a start adornment</text>
+  </Label>
+  <text> ​</text>
+  <textbox>With a start adornment</textbox>
+  <Label>
+    <text>TextField</text>
+  </Label>
+  <text> ​</text>
+  <textbox>TextField</textbox>
+  <Label>
+    <text>With a grid</text>
+  </Label>
+  <text> </text>
+  <textbox>With a grid</textbox>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="3">
+    Input Adornments
+    <Anchor></Anchor>
+    <text>Input Adornments</text>
+  </heading>
+  <paragraph>
+    <text>The main way is with an</text>
+    <code>$SOME_CODE</code>
+    <text>
+      . This can be used to add a prefix, a suffix or an action to an input. For
+      instance, you can use an icon button to hide or reveal the password.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Label>
+    <text>With normal TextField</text>
+  </Label>
+  <paragraph>
+    <text>Kg</text>
+  </paragraph>
+  <textbox>With normal TextField</textbox>
+  <textbox description="Weight">weight</textbox>
+  <paragraph>
+    <text>Kg</text>
+  </paragraph>
+  <paragraph>
+    <text>Weight</text>
+  </paragraph>
+  <Label>
+    <text>Password</text>
+  </Label>
+  <textbox>Password</textbox>
+  <button>toggle password visibility</button>
+  <Label>
+    <text>Amount</text>
+  </Label>
+  <paragraph>
+    <text>$</text>
+  </paragraph>
+  <textbox>Amount</textbox>
+  <Label>
+    <text>With normal TextField</text>
+  </Label>
+  <text> </text>
+  <paragraph>
+    <text>Kg</text>
+  </paragraph>
+  <textbox>With normal TextField</textbox>
+  <text> </text>
+  <textbox description="Weight">weight</textbox>
+  <paragraph>
+    <text>Kg</text>
+  </paragraph>
+  <paragraph>
+    <text>Weight</text>
+  </paragraph>
+  <Label>
+    <text>Password</text>
+  </Label>
+  <text> </text>
+  <textbox>Password</textbox>
+  <button>toggle password visibility</button>
+  <Label>
+    <text>Amount</text>
+  </Label>
+  <text> </text>
+  <paragraph>
+    <text>$</text>
+  </paragraph>
+  <textbox>Amount</textbox>
+  <Label>
+    <text>With normal TextField</text>
+  </Label>
+  <text> </text>
+  <paragraph>
+    <text>Kg</text>
+  </paragraph>
+  <textbox>With normal TextField</textbox>
+  <text> </text>
+  <textbox description="Weight">weight</textbox>
+  <paragraph>
+    <text>Kg</text>
+  </paragraph>
+  <paragraph>
+    <text>Weight</text>
+  </paragraph>
+  <Label>
+    <text>Password</text>
+  </Label>
+  <text> </text>
+  <textbox>Password</textbox>
+  <button>toggle password visibility</button>
+  <Label>
+    <text>Amount</text>
+  </Label>
+  <text> </text>
+  <paragraph>
+    <text>$</text>
+  </paragraph>
+  <textbox>Amount</textbox>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Sizes
+    <Anchor></Anchor>
+    <text>Sizes</text>
+  </heading>
+  <paragraph>
+    <text>Fancy smaller inputs? Use the</text>
+    <code>$SOME_CODE</code>
+    <text>prop.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <Label>
+      <text>Size</text>
+    </Label>
+    <textbox value="Small">
+      Size
+      <text>Small</text>
+    </textbox>
+    <Label>
+      <text>Size</text>
+    </Label>
+    <textbox value="Normal">
+      Size
+      <text>Normal</text>
+    </textbox>
+    <Label>
+      <text>Size</text>
+    </Label>
+    <text> </text>
+    <textbox value="Small">
+      Size
+      <text>Small</text>
+    </textbox>
+    <Label>
+      <text>Size</text>
+    </Label>
+    <text> </text>
+    <textbox value="Normal">
+      Size
+      <text>Normal</text>
+    </textbox>
+    <Label>
+      <text>Size</text>
+    </Label>
+    <text> </text>
+    <textbox value="Small">
+      Size
+      <text>Small</text>
+    </textbox>
+    <Label>
+      <text>Size</text>
+    </Label>
+    <text> </text>
+    <textbox value="Normal">
+      Size
+      <text>Normal</text>
+    </textbox>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <paragraph>
+    <text>The</text>
+    <code>$SOME_CODE</code>
+    <text>
+      variant input height can be further reduced by rendering the label outside
+      of it.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <Label>
+      <text>Hidden label</text>
+    </Label>
+    <text> </text>
+    <textbox value="Small">
+      Hidden label
+      <text>Small</text>
+    </textbox>
+    <Label>
+      <text>Hidden label</text>
+    </Label>
+    <text> </text>
+    <textbox value="Normal">
+      Hidden label
+      <text>Normal</text>
+    </textbox>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Layout
+    <Anchor></Anchor>
+    <text>Layout</text>
+  </heading>
+  <paragraph>
+    <code>$SOME_CODE</code>
+    <text>prop can be used to alter the vertical spacing of inputs. Using</text>
+    <code>$SOME_CODE</code>
+    <text>(default) will not apply margins to the</text>
+    <code>$SOME_CODE</code>
+    <text>, whereas</text>
+    <code>$SOME_CODE</code>
+    <text>and</text>
+    <code>$SOME_CODE</code>
+    <text>will.</text>
+    <code>$SOME_CODE</code>
+    <text>and</text>
+    <code>$SOME_CODE</code>
+    <text>alter other styles to meet the specification.</text>
+  </paragraph>
+  <paragraph>
+    <code>$SOME_CODE</code>
+    <text>
+      can be used to make the input take up the full width of its container.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Label>
+    <text>Label</text>
+  </Label>
+  <textbox description="Full width!">Label</textbox>
+  <paragraph>
+    <text>Full width!</text>
+  </paragraph>
+  <Label>
+    <text>None</text>
+  </Label>
+  <textbox description="Some important text" value="Default Value">
+    None
+    <text>Default Value</text>
+  </textbox>
+  <paragraph>
+    <text>Some important text</text>
+  </paragraph>
+  <Label>
+    <text>Dense</text>
+  </Label>
+  <textbox description="Some important text" value="Default Value">
+    Dense
+    <text>Default Value</text>
+  </textbox>
+  <paragraph>
+    <text>Some important text</text>
+  </paragraph>
+  <Label>
+    <text>Normal</text>
+  </Label>
+  <textbox description="Some important text" value="Default Value">
+    Normal
+    <text>Default Value</text>
+  </textbox>
+  <paragraph>
+    <text>Some important text</text>
+  </paragraph>
+  <Label>
+    <text>Label</text>
+  </Label>
+  <text> </text>
+  <textbox description="Full width!">Label</textbox>
+  <paragraph>
+    <text>Full width!</text>
+  </paragraph>
+  <Label>
+    <text>None</text>
+  </Label>
+  <text> </text>
+  <textbox description="Some important text" value="Default Value">
+    None
+    <text>Default Value</text>
+  </textbox>
+  <paragraph>
+    <text>Some important text</text>
+  </paragraph>
+  <Label>
+    <text>Dense</text>
+  </Label>
+  <text> </text>
+  <textbox description="Some important text" value="Default Value">
+    Dense
+    <text>Default Value</text>
+  </textbox>
+  <paragraph>
+    <text>Some important text</text>
+  </paragraph>
+  <Label>
+    <text>Normal</text>
+  </Label>
+  <text> </text>
+  <textbox description="Some important text" value="Default Value">
+    Normal
+    <text>Default Value</text>
+  </textbox>
+  <paragraph>
+    <text>Some important text</text>
+  </paragraph>
+  <Label>
+    <text>Label</text>
+  </Label>
+  <text> </text>
+  <textbox description="Full width!">Label</textbox>
+  <paragraph>
+    <text>Full width!</text>
+  </paragraph>
+  <Label>
+    <text>None</text>
+  </Label>
+  <text> </text>
+  <textbox description="Some important text" value="Default Value">
+    None
+    <text>Default Value</text>
+  </textbox>
+  <paragraph>
+    <text>Some important text</text>
+  </paragraph>
+  <Label>
+    <text>Dense</text>
+  </Label>
+  <text> </text>
+  <textbox description="Some important text" value="Default Value">
+    Dense
+    <text>Default Value</text>
+  </textbox>
+  <paragraph>
+    <text>Some important text</text>
+  </paragraph>
+  <Label>
+    <text>Normal</text>
+  </Label>
+  <text> </text>
+  <textbox description="Some important text" value="Default Value">
+    Normal
+    <text>Default Value</text>
+  </textbox>
+  <paragraph>
+    <text>Some important text</text>
+  </paragraph>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Uncontrolled vs Controlled
+    <Anchor></Anchor>
+    <text>Uncontrolled vs Controlled</text>
+  </heading>
+  <paragraph>
+    <text>The component can be controlled or uncontrolled.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <Label>
+      <text>Name</text>
+    </Label>
+    <textbox value="Cat in the Hat">
+      Name
+      <text>Cat in the Hat</text>
+    </textbox>
+    <Label>
+      <text>Uncontrolled</text>
+    </Label>
+    <textbox value="foo">
+      Uncontrolled
+      <text>foo</text>
+    </textbox>
+    <Label>
+      <text>Name</text>
+    </Label>
+    <text> </text>
+    <textbox value="Cat in the Hat">
+      Name
+      <text>Cat in the Hat</text>
+    </textbox>
+    <Label>
+      <text>Uncontrolled</text>
+    </Label>
+    <text> </text>
+    <textbox value="foo">
+      Uncontrolled
+      <text>foo</text>
+    </textbox>
+    <Label>
+      <text>Name</text>
+    </Label>
+    <text> </text>
+    <textbox value="Cat in the Hat">
+      Name
+      <text>Cat in the Hat</text>
+    </textbox>
+    <Label>
+      <text>Uncontrolled</text>
+    </Label>
+    <text> </text>
+    <textbox value="foo">
+      Uncontrolled
+      <text>foo</text>
+    </textbox>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Components
+    <Anchor></Anchor>
+    <text>Components</text>
+  </heading>
+  <paragraph>
+    <code>$SOME_CODE</code>
+    <text>is composed of smaller components (</text>
+    <link>
+      FormControl
+      <code>$SOME_CODE</code>
+    </link>
+    <text>,</text>
+    <link>
+      Input
+      <code>$SOME_CODE</code>
+    </link>
+    <text>,</text>
+    <link>
+      FilledInput
+      <code>$SOME_CODE</code>
+    </link>
+    <text>,</text>
+    <link>
+      InputLabel
+      <code>$SOME_CODE</code>
+    </link>
+    <text>,</text>
+    <link>
+      OutlinedInput
+      <code>$SOME_CODE</code>
+    </link>
+    <text>, and</text>
+    <link>
+      FormHelperText
+      <code>$SOME_CODE</code>
+    </link>
+    <text>
+      ) that you can leverage directly to significantly customize your form
+      inputs.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      You might also have noticed that some native HTML input properties are
+      missing from the
+    </text>
+    <code>$SOME_CODE</code>
+    <text>
+      component. This is on purpose. The component takes care of the most used
+      properties, then it's up to the user to use the underlying component
+      shown in the following demo. Still, you can use
+    </text>
+    <code>$SOME_CODE</code>
+    <text>(and</text>
+    <code>$SOME_CODE</code>
+    <text>,</text>
+    <code>$SOME_CODE</code>
+    <text>properties) if you want to avoid some boilerplate.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <Label>
+      <text>Name</text>
+    </Label>
+    <text> </text>
+    <textbox value="Composed TextField">
+      Name
+      <text>Composed TextField</text>
+    </textbox>
+    <Label>
+      <text>Name</text>
+    </Label>
+    <text> </text>
+    <textbox
+      description="Some important helper text"
+      value="Composed TextField"
+    >
+      Name
+      <text>Composed TextField</text>
+    </textbox>
+    <paragraph>
+      <text>Some important helper text</text>
+    </paragraph>
+    <Label>
+      <text>Name</text>
+    </Label>
+    <text> </text>
+    <textbox disabled="true" value="Composed TextField">
+      Name
+      <text>Composed TextField</text>
+    </textbox>
+    <paragraph>
+      <text>Disabled</text>
+    </paragraph>
+    <Label>
+      <text>Name</text>
+    </Label>
+    <text> </text>
+    <textbox description="Error" invalid="true" value="Composed TextField">
+      Name
+      <text>Composed TextField</text>
+    </textbox>
+    <paragraph>
+      <text>Error</text>
+    </paragraph>
+    <Label>
+      <text>Name</text>
+    </Label>
+    <textbox value="Composed TextField">
+      Name
+      <text>Composed TextField</text>
+    </textbox>
+    <Label>
+      <text>Name</text>
+    </Label>
+    <text> </text>
+    <textbox value="Composed TextField">
+      Name
+      <text>Composed TextField</text>
+    </textbox>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Inputs
+    <Anchor></Anchor>
+    <text>Inputs</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <text> </text>
+    <textbox value="Hello world">
+      description
+      <text>Hello world</text>
+    </textbox>
+    <text> </text>
+    <textbox>description</textbox>
+    <text> </text>
+    <textbox disabled="true" value="Disabled">
+      description
+      <text>Disabled</text>
+    </textbox>
+    <text> </text>
+    <textbox invalid="true" value="Error">
+      description
+      <text>Error</text>
+    </textbox>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Color
+    <Anchor></Anchor>
+    <text>Color</text>
+  </heading>
+  <paragraph>
+    <text>The</text>
+    <code>$SOME_CODE</code>
+    <text>
+      prop changes the highlight color of the text field when focused.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <Label>
+      <text>Outlined secondary</text>
+    </Label>
+    <textbox>Outlined secondary</textbox>
+    <Label>
+      <text>Filled secondary</text>
+    </Label>
+    <text> </text>
+    <textbox>Filled secondary</textbox>
+    <Label>
+      <text>Standard secondary</text>
+    </Label>
+    <text> </text>
+    <textbox>Standard secondary</textbox>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Customized inputs
+    <Anchor></Anchor>
+    <text>Customized inputs</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here are some examples of customizing the component. You can learn more
+      about this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <Label>
+      <text>Bootstrap</text>
+    </Label>
+    <textbox value="react-bootstrap">
+      Bootstrap
+      <text>react-bootstrap</text>
+    </textbox>
+    <Label>
+      <text>Reddit</text>
+    </Label>
+    <textbox value="react-reddit">
+      Reddit
+      <text>react-reddit</text>
+    </textbox>
+    <Label>
+      <text>Custom CSS</text>
+    </Label>
+    <textbox>Custom CSS</textbox>
+    <Label>
+      <text>CSS validation style</text>
+    </Label>
+    <textbox required="true" value="Success">
+      CSS validation style
+      <text>Success</text>
+    </textbox>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <paragraph>
+    <text>
+      Customization does not stop at CSS, you can use composition to build
+      custom components and give your app a unique feel. Below is an example
+      using the
+    </text>
+    <link>
+      InputBase
+      <code>$SOME_CODE</code>
+    </link>
+    <text>component, inspired by Google Maps.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <button>menu</button>
+    <textbox>search google maps</textbox>
+    <button>search</button>
+    <separator orientation="horizontal"></separator>
+    <button>directions</button>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <paragraph>
+    <text>🎨 If you are looking for inspiration, you can check</text>
+    <link>MUI Treasury's customization examples</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    Limitations
+    <Anchor></Anchor>
+    <text>Limitations</text>
+  </heading>
+  <heading level="3">
+    Shrink
+    <Anchor></Anchor>
+    <text>Shrink</text>
+  </heading>
+  <paragraph>
+    <text>
+      The input label "shrink" state isn't always correct. The
+      input label is supposed to shrink as soon as the input is displaying
+      something. In some circumstances, we can't determine the
+      "shrink" state (number input, datetime input, Stripe input). You
+      might notice an overlap.
+    </text>
+  </paragraph>
+  <paragraph>
+    <img>shrink</img>
+  </paragraph>
+  <paragraph>
+    <text>
+      To workaround the issue, you can force the "shrink" state of the
+      label.
+    </text>
+  </paragraph>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <paragraph>
+    <text>or</text>
+  </paragraph>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="3">
+    Floating label
+    <Anchor></Anchor>
+    <text>Floating label</text>
+  </heading>
+  <paragraph>
+    <text>
+      The floating label is absolutely positioned, it won't impact the
+      layout of the page. You need to make sure that the input is larger than
+      the label to display correctly.
+    </text>
+  </paragraph>
+  <heading level="3">
+    type="number"
+    <Anchor></Anchor>
+    <text>type="number"</text>
+  </heading>
+  <paragraph>
+    <text>
+      Inputs of type="number" have potential usability issues:
+    </text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <text>
+        Allowing certain non-numeric characters ('e', '+',
+        '-', '.') and silently discarding others
+      </text>
+    </listitem>
+    <listitem level="1">
+      <text>
+        The functionality of scrolling to increment/decrement the number can
+        cause accidental and hard-to-notice changes
+      </text>
+    </listitem>
+  </list>
+  <paragraph>
+    <text>and more - see</text>
+    <link>this article</link>
+    <text>
+      by the GOV.UK Design System team for a more detailed explanation.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      For number validation, one viable alternative is to use the default input
+      type="text" with thepatternattribute, for example:
+    </text>
+  </paragraph>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <paragraph>
+    <text>In the future, we might provide a</text>
+    <link>number input component</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="3">
+    Helper text
+    <Anchor></Anchor>
+    <text>Helper text</text>
+  </heading>
+  <paragraph>
+    <text>
+      The helper text prop affects the height of the text field. If two text
+      fields are placed side by side, one with a helper text and one without,
+      they will have different heights. For example:
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Label>
+    <text>Name</text>
+  </Label>
+  <text> </text>
+  <textbox description="Please enter your name">Name</textbox>
+  <paragraph>
+    <text>Please enter your name</text>
+  </paragraph>
+  <Label>
+    <text>Name</text>
+  </Label>
+  <text> </text>
+  <textbox>Name</textbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <paragraph>
+    <text>This can be fixed by passing a space character to the</text>
+    <code>$SOME_CODE</code>
+    <text>prop:</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Label>
+    <text>Name</text>
+  </Label>
+  <text> </text>
+  <textbox description="Please enter your name">Name</textbox>
+  <paragraph>
+    <text>Please enter your name</text>
+  </paragraph>
+  <Label>
+    <text>Name</text>
+  </Label>
+  <text> </text>
+  <textbox description="​">Name</textbox>
+  <paragraph>
+    <text>​</text>
+  </paragraph>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Integration with 3rd party input libraries
+    <Anchor></Anchor>
+    <text>Integration with 3rd party input libraries</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can use third-party libraries to format an input. You have to provide
+      a custom implementation of the
+    </text>
+    <code>$SOME_CODE</code>
+    <text>element with the</text>
+    <code>$SOME_CODE</code>
+    <text>property.</text>
+  </paragraph>
+  <paragraph>
+    <text>The following demo uses the</text>
+    <link>react-text-mask</link>
+    <text>and</text>
+    <link>react-number-format</link>
+    <text>libraries. The same concept could be applied to</text>
+    <link>e.g. react-stripe-element</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Label>
+    <text>react-text-mask</text>
+  </Label>
+  <text> </text>
+  <textbox value="(1  )    -    ">
+    react-text-mask
+    <text>(1  )    -    </text>
+  </textbox>
+  <Label>
+    <text>react-number-format</text>
+  </Label>
+  <text> </text>
+  <textbox value="$1,320">
+    react-number-format
+    <text>$1,320</text>
+  </textbox>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <paragraph>
+    <text>
+      The provided input component should expose a ref with a value that
+      implements the following interface:
+    </text>
+  </paragraph>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Accessibility
+    <Anchor></Anchor>
+    <text>Accessibility</text>
+  </heading>
+  <paragraph>
+    <text>
+      In order for the text field to be accessible,the input should be linked to
+      the label and the helper text. The underlying DOM nodes should have this
+      structure:
+    </text>
+  </paragraph>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <list>
+    <listitem level="1">
+      <text>If you are using the</text>
+      <code>$SOME_CODE</code>
+      <text>component, you just have to provide a unique</text>
+      <code>$SOME_CODE</code>
+      <text>.</text>
+    </listitem>
+    <listitem level="1">
+      <text>If you are composing the component:</text>
+    </listitem>
+  </list>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Complementary projects
+    <Anchor></Anchor>
+    <text>Complementary projects</text>
+  </heading>
+  <paragraph>
+    <text>
+      For more advanced use cases you might be able to take advantage of:
+    </text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <link>react-hook-form</link>
+      <text>: React hook for form validation.</text>
+    </listitem>
+    <listitem level="1">
+      <link>formik-material-ui</link>
+      <text>: Bindings for using Material-UI with</text>
+      <link>formik</link>
+      <text>.</text>
+    </listitem>
+    <listitem level="1">
+      <link>redux-form-material-ui</link>
+      <text>: Bindings for using Material-UI with</text>
+      <link>Redux Form</link>
+      <text>.</text>
+    </listitem>
+    <listitem level="1">
+      <link>mui-rff</link>
+      <text>: Bindings for using Material-UI with</text>
+      <link>React Final Form</link>
+      <text>.</text>
+    </listitem>
+  </list>
+  <heading level="2">
+    API
+    <Anchor></Anchor>
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem level="1">
+      <link>
+        <FilledInput />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <FormControl />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <FormHelperText />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <Input />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <InputAdornment />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <InputBase />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <InputLabel />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <OutlinedInput />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <TextField />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+  </list>
+  <FooterAsNonLandmark>
+    <separator orientation="horizontal"></separator>
+    <link>Switch</link>
+    <group>
+      Was this page helpful?
+      <text>Was this page helpful?</text>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
+    <link>Transfer List</link>
+  </FooterAsNonLandmark>
+</main>;
+
+`;
+
+exports[`chromium /components/tooltips/ 2`] = `
+<main>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
     Tooltip
     <text>Tooltip</text>
   </heading>
