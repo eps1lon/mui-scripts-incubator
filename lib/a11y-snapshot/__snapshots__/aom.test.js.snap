@@ -24212,7 +24212,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       dynamically matches its content (using
     </text>
     <link>TextareaAutosize</link>
-    <text>). You can use the rowsMin and rowsMax props to bound it.</text>
+    <text>). You can use the minRows and maxRows props to bound it.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
