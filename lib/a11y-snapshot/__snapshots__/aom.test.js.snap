@@ -2335,16 +2335,13 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </navigation>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Custom separator
     <Anchor></Anchor>
@@ -2352,7 +2349,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </heading>
   <paragraph>
     <text>
-      In the following examples, we are using two string separators and an SVG
+      In the following examples, we are using two string separators, and an SVG
       icon.
     </text>
   </paragraph>
@@ -2410,16 +2407,13 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </navigation>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Breadcrumbs with icons
     <Anchor></Anchor>
@@ -2525,16 +2519,13 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </navigation>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Integration with react-router
     <Anchor></Anchor>
@@ -6397,9 +6388,9 @@ exports[`chromium /components/radio-buttons 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Radio group
+    RadioGroup
     <Anchor></Anchor>
-    <text>Radio group</text>
+    <text>RadioGroup</text>
   </heading>
   <paragraph>
     <code>$SOME_CODE</code>
@@ -6424,100 +6415,27 @@ exports[`chromium /components/radio-buttons 1`] = `
       <radio checked="true">Female</radio>
       <radio checked="false">Male</radio>
       <radio checked="false">Other</radio>
-    </radiogroup>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="3">
-    Direction
-    <Anchor></Anchor>
-    <text>Direction</text>
-  </heading>
-  <paragraph>
-    <text>To lay out the buttons horizontally, set the</text>
-    <code>$SOME_CODE</code>
-    <text>prop:</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    Gender
-    <Legend>
-      <text>Gender</text>
-    </Legend>
-    <radiogroup>
-      gender
-      <radio checked="false">Female</radio>
-      <radio checked="false">Male</radio>
-      <radio checked="false">Other</radio>
       <radio checked="false" disabled="true">
-        other
+        (Disabled option)
       </radio>
     </radiogroup>
   </group>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="3">
-    Controllable
-    <Anchor></Anchor>
-    <text>Controllable</text>
-  </heading>
   <paragraph>
-    <text>You can control the radio with the</text>
+    <text>To lay out the buttons horizontally, set the</text>
     <code>$SOME_CODE</code>
-    <text>and</text>
+    <text>prop:</text>
     <code>$SOME_CODE</code>
-    <text>props:</text>
+    <text>.</text>
   </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    Gender
-    <Legend>
-      <text>Gender</text>
-    </Legend>
-    <radiogroup>
-      gender
-      <radio checked="true">Female</radio>
-      <radio checked="false">Male</radio>
-    </radiogroup>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Standalone radio buttons
     <Anchor></Anchor>
@@ -6533,75 +6451,18 @@ exports[`chromium /components/radio-buttons 1`] = `
   </button>
   <radio checked="true">A</radio>
   <radio checked="false">B</radio>
+  <radio checked="false">C</radio>
+  <radio checked="false">D</radio>
+  <radio checked="false">E</radio>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
-    Size
-    <Anchor></Anchor>
-    <text>Size</text>
-  </heading>
-  <paragraph>
-    <text>Use the</text>
-    <code>$SOME_CODE</code>
-    <text>
-      prop or customize the font size of the svg icons to change the size of the
-      radios.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <radio checked="true">a</radio>
-  <radio checked="false">b</radio>
-  <radio checked="false">c</radio>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
-    Color
-    <Anchor></Anchor>
-    <text>Color</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <radio checked="true">a</radio>
-  <radio checked="false">b</radio>
-  <radio checked="false">c</radio>
-  <radio checked="false">d</radio>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Label placement
     <Anchor></Anchor>
@@ -15329,10 +15190,10 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </toolbar>
   <text>
     <Breadcrumbs aria-label="breadcrumb"> <Link
-    color="inherit" href="/"> Material-UI </Link>
-    <Link color="inherit"
-    href="/getting-started/installation/"> Core </Link>
-    <Typography
+    color="inherit" href="/"
+    onClick={handleClick}> Material-UI </Link> <Link
+    color="inherit" href="/getting-started/installation/"
+    onClick={handleClick} > Core </Link> <Typography
     color="textPrimary">Breadcrumb</Typography>
     </Breadcrumbs>
   </text>
@@ -15367,22 +15228,13 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </landmark>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Breadcrumbs aria-label="breadcrumb"> <Link
-    color="inherit" href="/"> Material-UI </Link>
-    <Link color="inherit"
-    href="/getting-started/installation/"> Core </Link>
-    <Link color="textPrimary"
-    href="/components/breadcrumbs/" aria-current="page" >
-    Breadcrumb </Link> </Breadcrumbs>
-  </text>
   <heading level="2">
     Custom separator
     <link></link>
@@ -15390,7 +15242,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </heading>
   <paragraph>
     <text>
-      In the following examples, we are using two string separators and an SVG
+      In the following examples, we are using two string separators, and an SVG
       icon.
     </text>
   </paragraph>
@@ -15457,22 +15309,13 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </landmark>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Breadcrumbs separator="›"
-    aria-label="breadcrumb"> {breadcrumbs}
-    </Breadcrumbs> <Breadcrumbs separator="-"
-    aria-label="breadcrumb"> {breadcrumbs}
-    </Breadcrumbs> <Breadcrumbs separator={<NavigateNextIcon
-    fontSize="small" />} aria-label="breadcrumb"
-    > {breadcrumbs} </Breadcrumbs>
-  </text>
   <heading level="2">
     Breadcrumbs with icons
     <link></link>
@@ -15547,12 +15390,15 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </toolbar>
   <text>
     <Breadcrumbs maxItems={2} aria-label="breadcrumb">
-    <Link color="inherit" href="#"> Home </Link>
-    <Link color="inherit" href="#"> Catalog
-    </Link> <Link color="inherit" href="#">
-    Accessories </Link> <Link color="inherit"
-    href="#"> New Collection </Link> <Typography
-    color="textPrimary">Belts</Typography>
+    <Link color="inherit" href="#"
+    onClick={handleClick}> Home </Link> <Link
+    color="inherit" href="#"
+    onClick={handleClick}> Catalog </Link> <Link
+    color="inherit" href="#"
+    onClick={handleClick}> Accessories </Link> <Link
+    color="inherit" href="#"
+    onClick={handleClick}> New Collection </Link>
+    <Typography color="textPrimary">Belts</Typography>
     </Breadcrumbs>
   </text>
   <heading level="2">
@@ -15594,22 +15440,13 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </landmark>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Breadcrumbs aria-label="breadcrumb"> <StyledBreadcrumb
-    component="a" href="#" label="Home"
-    icon={<HomeIcon fontSize="small" />} />
-    <StyledBreadcrumb component="a" href="#"
-    label="Catalog" /> <StyledBreadcrumb
-    label="Accessories" deleteIcon={<ExpandMoreIcon
-    />} onDelete={handleClick} /> </Breadcrumbs>
-  </text>
   <heading level="2">
     Integration with react-router
     <link></link>
@@ -19816,9 +19653,9 @@ exports[`firefox /components/radio-buttons 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Radio group
+    RadioGroup
     <link></link>
-    <text>Radio group</text>
+    <text>RadioGroup</text>
   </heading>
   <paragraph>
     <text>
@@ -19853,145 +19690,28 @@ exports[`firefox /components/radio-buttons 1`] = `
         <radio>Other</radio>
         <text>Other</text>
       </label>
+      <label>
+        (Disabled option)
+        <radio disabled="true">(Disabled option)</radio>
+        <text>(Disabled option)</text>
+      </label>
     </group>
   </group>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <FormControl component="fieldset"> <FormLabel
-    component="legend">Gender</FormLabel> <RadioGroup
-    aria-label="gender" defaultValue="female"
-    name="radio-buttons-group" > <FormControlLabel
-    value="female" control={<Radio />}
-    label="Female" /> <FormControlLabel value="male"
-    control={<Radio />} label="Male" />
-    <FormControlLabel value="other" control={<Radio
-    />} label="Other" /> </RadioGroup>
-    </FormControl>
-  </text>
-  <heading level="3">
-    Direction
-    <link></link>
-    <text>Direction</text>
-  </heading>
   <paragraph>
-    <text>To lay out the buttons horizontally, set the row prop:</text>
+    <text>
+      To lay out the buttons horizontally, set the row prop: <RadioGroup row
+      />.
+    </text>
   </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    Gender
-    <label>
-      Gender
-      <text>Gender</text>
-    </label>
-    <group>
-      gender
-      <label>
-        Female
-        <radio>Female</radio>
-        <text>Female</text>
-      </label>
-      <label>
-        Male
-        <radio>Male</radio>
-        <text>Male</text>
-      </label>
-      <label>
-        Other
-        <radio>Other</radio>
-        <text>Other</text>
-      </label>
-      <label>
-        other
-        <radio disabled="true">other</radio>
-        <text>other</text>
-      </label>
-    </group>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <FormControl component="fieldset"> <FormLabel
-    component="legend">Gender</FormLabel> <RadioGroup row
-    aria-label="gender" name="row-radio-buttons-group">
-    <FormControlLabel value="female" control={<Radio
-    />} label="Female" /> <FormControlLabel
-    value="male" control={<Radio />}
-    label="Male" /> <FormControlLabel value="other"
-    control={<Radio />} label="Other" />
-    <FormControlLabel value="disabled" disabled
-    control={<Radio />} label="other" />
-    </RadioGroup> </FormControl>
-  </text>
-  <heading level="3">
-    Controllable
-    <link></link>
-    <text>Controllable</text>
-  </heading>
-  <paragraph>
-    <text>You can control the radio with the value and onChange props:</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    Gender
-    <label>
-      Gender
-      <text>Gender</text>
-    </label>
-    <group>
-      gender
-      <label>
-        Female
-        <radio checked="true">Female</radio>
-        <text>Female</text>
-      </label>
-      <label>
-        Male
-        <radio>Male</radio>
-        <text>Male</text>
-      </label>
-    </group>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <FormControl component="fieldset"> <FormLabel
-    component="legend">Gender</FormLabel> <RadioGroup
-    aria-label="gender"
-    name="controlled-radio-buttons-group" value={value}
-    onChange={handleChange} > <FormControlLabel
-    value="female" control={<Radio />}
-    label="Female" /> <FormControlLabel value="male"
-    control={<Radio />} label="Male" />
-    </RadioGroup> </FormControl>
-  </text>
   <heading level="2">
     Standalone radio buttons
     <link></link>
@@ -20008,89 +19728,18 @@ exports[`firefox /components/radio-buttons 1`] = `
   </button>
   <radio checked="true">A</radio>
   <radio>B</radio>
+  <radio>C</radio>
+  <radio>D</radio>
+  <radio>E</radio>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Radio checked={selectedValue === 'a'}
-    onChange={handleChange} value="a"
-    name="radio-buttons" inputProps={{
-    'aria-label': 'A' }} /> <Radio
-    checked={selectedValue === 'b'}
-    onChange={handleChange} value="b"
-    name="radio-buttons" inputProps={{
-    'aria-label': 'B' }} />
-  </text>
-  <heading level="2">
-    Size
-    <link></link>
-    <text>Size</text>
-  </heading>
-  <paragraph>
-    <text>
-      Use the size prop or customize the font size of the svg icons to change
-      the size of the radios.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <radio checked="true">a</radio>
-  <radio>b</radio>
-  <radio>c</radio>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Radio {...controlProps('a')} size="small"
-    /> <Radio {...controlProps('b')} /> <Radio
-    {...controlProps('c')} sx={{ '&
-    .MuiSvgIcon-root': { fontSize: 28, }, }} />
-  </text>
-  <heading level="2">
-    Color
-    <link></link>
-    <text>Color</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <radio checked="true">a</radio>
-  <radio>b</radio>
-  <radio>c</radio>
-  <radio>d</radio>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Radio {...controlProps('a')} /> <Radio
-    {...controlProps('b')} color="primary" />
-    <Radio {...controlProps('c')}
-    color="default" /> <Radio
-    {...controlProps('d')} sx={{ color:
-    green[800], '&.Mui-checked': { color: green[600], },
-    }} />
-  </text>
   <heading level="2">
     Label placement
     <link></link>
@@ -20406,7 +20055,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     </listitem>
   </list>
   <text>
-    <Radio value="radioA" inputProps={{
+    <RadioButton value="radioA" inputProps={{
     'aria-label': 'Radio A', }} />
   </text>
   <heading level="2">
@@ -24530,7 +24179,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       dynamically matches its content (using
     </text>
     <link>TextareaAutosize</link>
-    <text>). You can use the minRows and maxRows props to bound it.</text>
+    <text>). You can use the rowsMin and rowsMax props to bound it.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
