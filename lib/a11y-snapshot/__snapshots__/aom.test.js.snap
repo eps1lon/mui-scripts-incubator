@@ -16548,16 +16548,17 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Input accept="image/*" id="contained-button-file"
-    multiple type="file" /> <label
-    htmlFor="contained-button-file"> <Button
-    variant="contained" component="span"> Upload
-    </Button> </label> <Input accept="image/*"
-    id="icon-button-file" type="file" /> <label
-    htmlFor="icon-button-file"> <IconButton
-    color="primary" aria-label="upload picture"
-    component="span"> <PhotoCamera /> </IconButton>
-    </label>
+    <Stack direction="row" alignItems="center"
+    spacing={1}> <label
+    htmlFor="contained-button-file"> <Input
+    accept="image/*" id="contained-button-file" multiple
+    type="file" /> <Button variant="contained"
+    component="span"> Upload </Button> </label>
+    <label htmlFor="icon-button-file"> <Input
+    accept="image/*" id="icon-button-file"
+    type="file" /> <IconButton color="primary"
+    aria-label="upload picture" component="span">
+    <PhotoCamera /> </IconButton> </label> </Stack>
   </text>
   <heading level="2">
     Sizes
