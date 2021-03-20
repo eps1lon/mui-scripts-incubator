@@ -64,7 +64,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
     "nodes": Array [
-      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .css-REMOVED_UNSTABLE_EMOTION_HASH > .MuiPagination-text.MuiPagination-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiPagination-root:nth-child(1)",
+      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .css-REMOVED_UNSTABLE_EMOTION_HASH-Stack-root > .MuiPagination-text.MuiPagination-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiPagination-root:nth-child(1)",
     ],
   },
 ]
