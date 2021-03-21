@@ -3819,13 +3819,13 @@ exports[`chromium /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">checked checkbox</checkbox>
-  <checkbox checked="false">uncontrolled-checkbox</checkbox>
+  <checkbox checked="true">checked</checkbox>
+  <checkbox checked="false">uncontrolled</checkbox>
   <checkbox checked="false" disabled="true">
-    disabled checkbox
+    disabled
   </checkbox>
   <checkbox checked="true" disabled="true">
-    disabled checked checkbox
+    disabled checked
   </checkbox>
   <toolbar>
     demo source
@@ -3855,7 +3855,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Secondary</checkbox>
+  <checkbox checked="true">Label</checkbox>
   <checkbox checked="false" disabled="true">
     Disabled
   </checkbox>
@@ -3888,9 +3888,9 @@ exports[`chromium /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">small checkbox</checkbox>
-  <checkbox checked="true">normal checkbox</checkbox>
-  <checkbox checked="true">large checkbox</checkbox>
+  <checkbox checked="true">small</checkbox>
+  <checkbox checked="true">normal</checkbox>
+  <checkbox checked="true">large</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -3912,22 +3912,19 @@ exports[`chromium /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true"></checkbox>
-  <checkbox checked="true"></checkbox>
-  <checkbox checked="true"></checkbox>
-  <checkbox checked="true"></checkbox>
+  <checkbox checked="true">secondary</checkbox>
+  <checkbox checked="true">primary</checkbox>
+  <checkbox checked="true">default</checkbox>
+  <checkbox checked="true">custom</checkbox>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Icon
     <Anchor></Anchor>
@@ -3937,8 +3934,8 @@ exports[`chromium /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="false">favorite checkbox</checkbox>
-  <checkbox checked="false">bookmarked checkbox</checkbox>
+  <checkbox checked="false">favorite</checkbox>
+  <checkbox checked="false">bookmarked</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -3967,7 +3964,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">controlled checkbox</checkbox>
+  <checkbox checked="true">controlled</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -4082,9 +4079,9 @@ exports[`chromium /components/checkboxes/ 1`] = `
     navigation of our components.
   </button>
   <group>
-    Label Placement
+    Label placement
     <Legend>
-      <text>Label Placement</text>
+      <text>Label placement</text>
     </Legend>
     <checkbox checked="false">Top</checkbox>
     <checkbox checked="false">Start</checkbox>
@@ -4124,13 +4121,16 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </checkbox>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -6592,9 +6592,9 @@ exports[`chromium /components/radio-buttons 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
-    Controllable
+    Controlled
     <Anchor></Anchor>
-    <text>Controllable</text>
+    <text>Controlled</text>
   </heading>
   <paragraph>
     <text>You can control the radio with the</text>
@@ -9063,33 +9063,35 @@ exports[`chromium /components/switches/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">secondary checkbox</checkbox>
-  <checkbox checked="true">primary checkbox</checkbox>
-  <checkbox checked="false">primary checkbox</checkbox>
-  <checkbox checked="false" disabled="true">
-    disabled checkbox
-  </checkbox>
+  <checkbox checked="true">checked</checkbox>
+  <checkbox checked="false">unchecked</checkbox>
   <checkbox checked="true" disabled="true">
-    primary checkbox
+    disabled checked
   </checkbox>
-  <checkbox checked="true">checkbox with default color</checkbox>
+  <checkbox checked="false" disabled="true">
+    disabled unchecked
+  </checkbox>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
-    Switch with FormControlLabel
+    Label
     <Anchor></Anchor>
-    <text>Switch with FormControlLabel</text>
+    <text>Label</text>
   </heading>
   <paragraph>
+    <text>You can provide a label to the</text>
     <code>$SOME_CODE</code>
-    <text>can be provided with a description thanks to the</text>
+    <text>thanks to the</text>
     <code>$SOME_CODE</code>
     <text>component.</text>
   </paragraph>
@@ -9097,24 +9099,104 @@ exports[`chromium /components/switches/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Secondary</checkbox>
-  <checkbox checked="true">Primary</checkbox>
-  <checkbox checked="false">Uncontrolled</checkbox>
+  <checkbox checked="true">Label</checkbox>
   <checkbox checked="false" disabled="true">
-    Disabled
-  </checkbox>
-  <checkbox checked="true" disabled="true">
     Disabled
   </checkbox>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Size
+    <Anchor></Anchor>
+    <text>Size</text>
+  </heading>
+  <paragraph>
+    <text>Use the</text>
+    <code>$SOME_CODE</code>
+    <text>prop to change the size of the switch.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">small</checkbox>
+  <checkbox checked="true">normal</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Color
+    <Anchor></Anchor>
+    <text>Color</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">secondary</checkbox>
+  <checkbox checked="true">primary</checkbox>
+  <checkbox checked="true">default</checkbox>
+  <checkbox checked="true">custom</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Controlled
+    <Anchor></Anchor>
+    <text>Controlled</text>
+  </heading>
+  <paragraph>
+    <text>You can control the switch with the</text>
+    <code>$SOME_CODE</code>
+    <text>and</text>
+    <code>$SOME_CODE</code>
+    <text>props:</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">controlled</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Switches with FormGroup
     <Anchor></Anchor>
@@ -9173,39 +9255,14 @@ exports[`chromium /components/switches/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Custom color</checkbox>
   <checkbox checked="true">iOS style</checkbox>
-  <checkbox checked="true">Off On</checkbox>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
   <paragraph>
-    <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>MUI Treasury's customization examples</link>
-    <text>.</text>
+    <text>Off</text>
   </paragraph>
-  <heading level="2">
-    Sizes
-    <Anchor></Anchor>
-    <text>Sizes</text>
-  </heading>
+  <checkbox checked="true">ant design</checkbox>
   <paragraph>
-    <text>Fancy smaller switches? Use the</text>
-    <code>$SOME_CODE</code>
-    <text>prop.</text>
+    <text>On</text>
   </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <checkbox checked="false">Small</checkbox>
-  <checkbox checked="false">Normal</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -9218,6 +9275,11 @@ exports[`chromium /components/switches/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
+  <paragraph>
+    <text>🎨 If you are looking for inspiration, you can check</text>
+    <link>MUI Treasury's customization examples</link>
+    <text>.</text>
+  </paragraph>
   <heading level="2">
     Label placement
     <Anchor></Anchor>
@@ -9231,6 +9293,10 @@ exports[`chromium /components/switches/ 1`] = `
     navigation of our components.
   </button>
   <group>
+    Label placement
+    <Legend>
+      <text>Label placement</text>
+    </Legend>
     <checkbox checked="false">Top</checkbox>
     <checkbox checked="false">Start</checkbox>
     <checkbox checked="false">Bottom</checkbox>
@@ -17055,11 +17121,11 @@ exports[`firefox /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">checked checkbox</checkbox>
-  <checkbox>uncontrolled-checkbox</checkbox>
-  <checkbox disabled="true">disabled checkbox</checkbox>
+  <checkbox checked="true">checked</checkbox>
+  <checkbox>uncontrolled</checkbox>
+  <checkbox disabled="true">disabled</checkbox>
   <checkbox checked="true" disabled="true">
-    disabled checked checkbox
+    disabled checked
   </checkbox>
   <toolbar>
     demo source
@@ -17072,13 +17138,12 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </toolbar>
   <text>
     <Checkbox defaultChecked inputProps={{ 'aria-label':
-    'checked checkbox' }} /> <Checkbox
-    inputProps={{ 'aria-label':
-    'uncontrolled-checkbox' }} /> <Checkbox disabled
-    inputProps={{ 'aria-label': 'disabled
-    checkbox' }} /> <Checkbox disabled checked
-    inputProps={{ 'aria-label': 'disabled checked
-    checkbox' }} />
+    'checked' }} /> <Checkbox inputProps={{
+    'aria-label': 'uncontrolled' }} />
+    <Checkbox disabled inputProps={{ 'aria-label':
+    'disabled' }} /> <Checkbox disabled checked
+    inputProps={{ 'aria-label': 'disabled checked'
+    }} />
   </text>
   <heading level="2">
     Label
@@ -17096,9 +17161,9 @@ exports[`firefox /components/checkboxes/ 1`] = `
     navigation of our components.
   </button>
   <label>
-    Secondary
-    <checkbox checked="true">Secondary</checkbox>
-    <text>Secondary</text>
+    Label
+    <checkbox checked="true">Label</checkbox>
+    <text>Label</text>
   </label>
   <label>
     Disabled
@@ -17116,9 +17181,8 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </toolbar>
   <text>
     <FormGroup> <FormControlLabel control={<Checkbox
-    defaultChecked name="checkedA" />}
-    label="Secondary" /> <FormControlLabel disabled
-    control={<Checkbox name="checkedB" />}
+    defaultChecked />} label="Label" />
+    <FormControlLabel disabled control={<Checkbox />}
     label="Disabled" /> </FormGroup>
   </text>
   <heading level="2">
@@ -17136,9 +17200,9 @@ exports[`firefox /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">small checkbox</checkbox>
-  <checkbox checked="true">normal checkbox</checkbox>
-  <checkbox checked="true">large checkbox</checkbox>
+  <checkbox checked="true">small</checkbox>
+  <checkbox checked="true">normal</checkbox>
+  <checkbox checked="true">large</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -17150,10 +17214,10 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </toolbar>
   <text>
     <Checkbox defaultChecked inputProps={{ 'aria-label':
-    'small checkbox' }} size="small" />
-    <Checkbox defaultChecked inputProps={{ 'aria-label':
-    'normal checkbox' }} /> <Checkbox defaultChecked
-    inputProps={{ 'aria-label': 'large checkbox'
+    'small' }} size="small" /> <Checkbox
+    defaultChecked inputProps={{ 'aria-label':
+    'normal' }} /> <Checkbox defaultChecked
+    inputProps={{ 'aria-label': 'large'
     }} sx={{ '& .MuiSvgIcon-root': {
     fontSize: 28 } }} />
   </text>
@@ -17166,28 +17230,19 @@ exports[`firefox /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true"></checkbox>
-  <checkbox checked="true"></checkbox>
-  <checkbox checked="true"></checkbox>
-  <checkbox checked="true"></checkbox>
+  <checkbox checked="true">secondary</checkbox>
+  <checkbox checked="true">primary</checkbox>
+  <checkbox checked="true">default</checkbox>
+  <checkbox checked="true">custom</checkbox>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Checkbox defaultChecked name="checkedA" /> <Checkbox
-    defaultChecked name="checkedB" color="primary" />
-    <Checkbox defaultChecked name="checkedC"
-    color="default" /> <Checkbox defaultChecked
-    name="checkedD" sx={{ color: green[800],
-    '&.Mui-checked': { color: green[600], },
-    }} />
-  </text>
   <heading level="2">
     Icon
     <link></link>
@@ -17197,8 +17252,8 @@ exports[`firefox /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox>favorite checkbox</checkbox>
-  <checkbox>bookmarked checkbox</checkbox>
+  <checkbox>favorite</checkbox>
+  <checkbox>bookmarked</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -17210,13 +17265,11 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </toolbar>
   <text>
     <Checkbox icon={<FavoriteBorder />}
-    checkedIcon={<Favorite />} name="checkedA"
-    inputProps={{ 'aria-label': 'favorite
-    checkbox' }} /> <Checkbox
+    checkedIcon={<Favorite />} inputProps={{
+    'aria-label': 'favorite' }} /> <Checkbox
     icon={<BookmarkBorderIcon />}
-    checkedIcon={<BookmarkIcon />} name="checkedB"
-    inputProps={{ 'aria-label': 'bookmarked
-    checkbox' }} />
+    checkedIcon={<BookmarkIcon />} inputProps={{
+    'aria-label': 'bookmarked' }} />
   </text>
   <heading level="2">
     Controlled
@@ -17230,7 +17283,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">controlled checkbox</checkbox>
+  <checkbox checked="true">controlled</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -17242,8 +17295,8 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </toolbar>
   <text>
     <Checkbox checked={checked} onChange={handleChange}
-    inputProps={{ 'aria-label': 'controlled
-    checkbox' }} />
+    inputProps={{ 'aria-label': 'controlled'
+    }} />
   </text>
   <heading level="2">
     Indeterminate
@@ -17383,10 +17436,10 @@ exports[`firefox /components/checkboxes/ 1`] = `
     navigation of our components.
   </button>
   <group>
-    Label Placement
+    Label placement
     <label>
-      Label Placement
-      <text>Label Placement</text>
+      Label placement
+      <text>Label placement</text>
     </label>
     <label>
       Top
@@ -17440,13 +17493,17 @@ exports[`firefox /components/checkboxes/ 1`] = `
   <checkbox disabled="true">decorative checkbox</checkbox>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <StyledCheckbox /> <StyledCheckbox defaultChecked />
+    <StyledCheckbox disabled />
+  </text>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -20158,9 +20215,9 @@ exports[`firefox /components/radio-buttons 1`] = `
     </RadioGroup> </FormControl>
   </text>
   <heading level="3">
-    Controllable
+    Controlled
     <link></link>
-    <text>Controllable</text>
+    <text>Controlled</text>
   </heading>
   <paragraph>
     <text>You can control the radio with the value and onChange props:</text>
@@ -22947,31 +23004,38 @@ exports[`firefox /components/switches/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">secondary checkbox</checkbox>
-  <checkbox checked="true">primary checkbox</checkbox>
-  <checkbox>primary checkbox</checkbox>
-  <checkbox disabled="true">disabled checkbox</checkbox>
+  <checkbox checked="true">checked</checkbox>
+  <checkbox>unchecked</checkbox>
   <checkbox checked="true" disabled="true">
-    primary checkbox
+    disabled checked
   </checkbox>
-  <checkbox checked="true">checkbox with default color</checkbox>
+  <checkbox disabled="true">disabled unchecked</checkbox>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <Switch defaultChecked inputProps={{ 'aria-label':
+    'checked' }} /> <Switch inputProps={{
+    'aria-label': 'unchecked' }} /> <Switch
+    disabled defaultChecked inputProps={{ 'aria-label':
+    'disabled checked' }} /> <Switch disabled
+    inputProps={{ 'aria-label': 'disabled
+    unchecked' }} />
+  </text>
   <heading level="2">
-    Switch with FormControlLabel
+    Label
     <link></link>
-    <text>Switch with FormControlLabel</text>
+    <text>Label</text>
   </heading>
   <paragraph>
     <text>
-      Switch can be provided with a description thanks to the FormControlLabel
+      You can provide a label to the Switch thanks to the FormControlLabel
       component.
     </text>
   </paragraph>
@@ -22980,41 +23044,118 @@ exports[`firefox /components/switches/ 1`] = `
     navigation of our components.
   </button>
   <label>
-    Secondary
-    <checkbox checked="true">Secondary</checkbox>
-    <text>Secondary</text>
-  </label>
-  <label>
-    Primary
-    <checkbox checked="true">Primary</checkbox>
-    <text>Primary</text>
-  </label>
-  <label>
-    Uncontrolled
-    <checkbox>Uncontrolled</checkbox>
-    <text>Uncontrolled</text>
+    Label
+    <checkbox checked="true">Label</checkbox>
+    <text>Label</text>
   </label>
   <label>
     Disabled
     <checkbox disabled="true">Disabled</checkbox>
     <text>Disabled</text>
   </label>
-  <label>
-    Disabled
-    <checkbox checked="true" disabled="true">
-      Disabled
-    </checkbox>
-    <text>Disabled</text>
-  </label>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <FormGroup> <FormControlLabel control={<Switch
+    defaultChecked />} label="Label" />
+    <FormControlLabel disabled control={<Switch />}
+    label="Disabled" /> </FormGroup>
+  </text>
+  <heading level="2">
+    Size
+    <link></link>
+    <text>Size</text>
+  </heading>
+  <paragraph>
+    <text>Use the size prop to change the size of the switch.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">small</checkbox>
+  <checkbox checked="true">normal</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Switch defaultChecked size="small" inputProps={{
+    'aria-label': 'small' }} /> <Switch
+    defaultChecked inputProps={{ 'aria-label':
+    'normal' }} />
+  </text>
+  <heading level="2">
+    Color
+    <link></link>
+    <text>Color</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">secondary</checkbox>
+  <checkbox checked="true">primary</checkbox>
+  <checkbox checked="true">default</checkbox>
+  <checkbox checked="true">custom</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Switch defaultChecked inputProps={{ 'aria-label':
+    'secondary' }} /> <Switch defaultChecked
+    color="primary" inputProps={{ 'aria-label':
+    'primary' }} /> <Switch defaultChecked
+    color="default" inputProps={{ 'aria-label':
+    'default' }} /> <GreenSwitch defaultChecked
+    inputProps={{ 'aria-label': 'custom'
+    }} />
+  </text>
+  <heading level="2">
+    Controlled
+    <link></link>
+    <text>Controlled</text>
+  </heading>
+  <paragraph>
+    <text>You can control the switch with the value and onChange props:</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">controlled</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Switch checked={checked} onChange={handleChange}
+    inputProps={{ 'aria-label': 'controlled'
+    }} />
+  </text>
   <heading level="2">
     Switches with FormGroup
     <link></link>
@@ -23086,57 +23227,17 @@ exports[`firefox /components/switches/ 1`] = `
     navigation of our components.
   </button>
   <label>
-    Custom color
-    <checkbox checked="true">Custom color</checkbox>
-    <text>Custom color</text>
-  </label>
-  <label>
     iOS style
     <checkbox checked="true">iOS style</checkbox>
     <text>iOS style</text>
   </label>
-  <label>
-    Off On
+  <paragraph>
     <text>Off</text>
-    <checkbox checked="true">Off On</checkbox>
+  </paragraph>
+  <checkbox checked="true">ant design</checkbox>
+  <paragraph>
     <text>On</text>
-  </label>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <paragraph>
-    <text>🎨 If you are looking for inspiration, you can check</text>
-    <link>MUI Treasury's customization examples</link>
-    <text>.</text>
   </paragraph>
-  <heading level="2">
-    Sizes
-    <link></link>
-    <text>Sizes</text>
-  </heading>
-  <paragraph>
-    <text>Fancy smaller switches? Use the size prop.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <label>
-    Small
-    <checkbox>Small</checkbox>
-    <text>Small</text>
-  </label>
-  <label>
-    Normal
-    <checkbox>Normal</checkbox>
-    <text>Normal</text>
-  </label>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -23147,13 +23248,19 @@ exports[`firefox /components/switches/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <FormGroup> <FormControlLabel control={<Switch
-    size="small" checked={checked}
-    onChange={toggleChecked} />} label="Small" />
-    <FormControlLabel control={<Switch checked={checked}
-    onChange={toggleChecked} />} label="Normal"
-    /> </FormGroup>
+    <FormGroup> <FormControlLabel control={<IOSSwitch
+    defaultChecked />} label="iOS style" /> <Stack
+    direction="row" spacing={1}
+    alignItems="center"> <Typography>Off</Typography>
+    <AntSwitch defaultChecked inputProps={{ 'aria-label':
+    'ant design' }} />
+    <Typography>On</Typography> </Stack> </FormGroup>
   </text>
+  <paragraph>
+    <text>🎨 If you are looking for inspiration, you can check</text>
+    <link>MUI Treasury's customization examples</link>
+    <text>.</text>
+  </paragraph>
   <heading level="2">
     Label placement
     <link></link>
@@ -23167,6 +23274,11 @@ exports[`firefox /components/switches/ 1`] = `
     navigation of our components.
   </button>
   <group>
+    Label placement
+    <label>
+      Label placement
+      <text>Label placement</text>
+    </label>
     <label>
       Top
       <checkbox>Top</checkbox>
