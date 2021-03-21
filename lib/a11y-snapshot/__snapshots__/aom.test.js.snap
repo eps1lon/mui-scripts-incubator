@@ -3819,7 +3819,8 @@ exports[`chromium /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">checked checkbox</checkbox>
+  <checkbox checked="true">primary checkbox</checkbox>
+  <checkbox checked="true">secondary checkbox</checkbox>
   <checkbox checked="false">uncontrolled-checkbox</checkbox>
   <checkbox checked="false" disabled="true">
     disabled checkbox
@@ -3827,159 +3828,18 @@ exports[`chromium /components/checkboxes/ 1`] = `
   <checkbox checked="true" disabled="true">
     disabled checked checkbox
   </checkbox>
+  <checkbox checked="true">indeterminate checkbox</checkbox>
+  <checkbox checked="true">checkbox with default color</checkbox>
+  <checkbox checked="true">checkbox with small size</checkbox>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
-    Label
-    <Anchor></Anchor>
-    <text>Label</text>
-  </heading>
-  <paragraph>
-    <text>You can provide a label to the</text>
-    <code>$SOME_CODE</code>
-    <text>thanks to the</text>
-    <code>$SOME_CODE</code>
-    <text>component.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <checkbox checked="true">Secondary</checkbox>
-  <checkbox checked="false" disabled="true">
-    Disabled
-  </checkbox>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
-    Size
-    <Anchor></Anchor>
-    <text>Size</text>
-  </heading>
-  <paragraph>
-    <text>Use the</text>
-    <code>$SOME_CODE</code>
-    <text>
-      prop or customize the font size of the svg icons to change the size of the
-      checkboxes.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <checkbox checked="true">small checkbox</checkbox>
-  <checkbox checked="true">normal checkbox</checkbox>
-  <checkbox checked="true">large checkbox</checkbox>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
-    Color
-    <Anchor></Anchor>
-    <text>Color</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <checkbox checked="true"></checkbox>
-  <checkbox checked="true"></checkbox>
-  <checkbox checked="true"></checkbox>
-  <checkbox checked="true"></checkbox>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
-    Icon
-    <Anchor></Anchor>
-    <text>Icon</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <checkbox checked="false">favorite checkbox</checkbox>
-  <checkbox checked="false">bookmarked checkbox</checkbox>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
-    Controlled
-    <Anchor></Anchor>
-    <text>Controlled</text>
-  </heading>
-  <paragraph>
-    <text>You can control the checkbox with the</text>
-    <code>$SOME_CODE</code>
-    <text>and</text>
-    <code>$SOME_CODE</code>
-    <text>props:</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <checkbox checked="true">controlled checkbox</checkbox>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Indeterminate
     <Anchor></Anchor>
@@ -3988,8 +3848,8 @@ exports[`chromium /components/checkboxes/ 1`] = `
   <paragraph>
     <text>
       A checkbox input can only have two states in a form: checked or unchecked.
-      It either submits its value or doesn't. Visually, there
-      arethreestates a checkbox can be in: checked, unchecked, or indeterminate.
+      It either submits its value or doesn't. Visually, there are actually
+      three states a checkbox can be in: checked, unchecked, or indeterminate.
     </text>
   </paragraph>
   <button>
@@ -4011,16 +3871,43 @@ exports[`chromium /components/checkboxes/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
-  <blockquote>
-    <paragraph>
-      <text>⚠️ When indeterminate is set, the value of the</text>
-      <code>$SOME_CODE</code>
-      <text>
-        prop only impacts the form submitted values. It has no accessibility or
-        UX implications.
-      </text>
-    </paragraph>
-  </blockquote>
+  <heading level="2">
+    Label
+    <Anchor></Anchor>
+    <text>Label</text>
+  </heading>
+  <paragraph>
+    <code>$SOME_CODE</code>
+    <text>can be provided with a label thanks to the</text>
+    <code>$SOME_CODE</code>
+    <text>component.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Secondary</checkbox>
+  <checkbox checked="true">Primary</checkbox>
+  <checkbox checked="false">Uncontrolled</checkbox>
+  <checkbox checked="false" disabled="true">
+    Disabled
+  </checkbox>
+  <checkbox checked="true" disabled="true">
+    Disabled
+  </checkbox>
+  <checkbox checked="true">Indeterminate</checkbox>
+  <checkbox checked="true">Custom color</checkbox>
+  <checkbox checked="false">Custom icon</checkbox>
+  <checkbox checked="false">Custom size</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
   <heading level="2">
     FormGroup
     <Anchor></Anchor>
@@ -4029,7 +3916,8 @@ exports[`chromium /components/checkboxes/ 1`] = `
   <paragraph>
     <code>$SOME_CODE</code>
     <text>
-      is a helpful wrapper used to group selection control components.
+      is a helpful wrapper used to group selection controls components that
+      provides an easier API.
     </text>
   </paragraph>
   <button>
@@ -6509,9 +6397,9 @@ exports[`chromium /components/radio-buttons 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Radio group
+    RadioGroup
     <Anchor></Anchor>
-    <text>Radio group</text>
+    <text>RadioGroup</text>
   </heading>
   <paragraph>
     <code>$SOME_CODE</code>
@@ -6536,100 +6424,27 @@ exports[`chromium /components/radio-buttons 1`] = `
       <radio checked="true">Female</radio>
       <radio checked="false">Male</radio>
       <radio checked="false">Other</radio>
-    </radiogroup>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="3">
-    Direction
-    <Anchor></Anchor>
-    <text>Direction</text>
-  </heading>
-  <paragraph>
-    <text>To lay out the buttons horizontally, set the</text>
-    <code>$SOME_CODE</code>
-    <text>prop:</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    Gender
-    <Legend>
-      <text>Gender</text>
-    </Legend>
-    <radiogroup>
-      gender
-      <radio checked="false">Female</radio>
-      <radio checked="false">Male</radio>
-      <radio checked="false">Other</radio>
       <radio checked="false" disabled="true">
-        other
+        (Disabled option)
       </radio>
     </radiogroup>
   </group>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="3">
-    Controllable
-    <Anchor></Anchor>
-    <text>Controllable</text>
-  </heading>
   <paragraph>
-    <text>You can control the radio with the</text>
+    <text>To lay out the buttons horizontally, set the</text>
     <code>$SOME_CODE</code>
-    <text>and</text>
+    <text>prop:</text>
     <code>$SOME_CODE</code>
-    <text>props:</text>
+    <text>.</text>
   </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    Gender
-    <Legend>
-      <text>Gender</text>
-    </Legend>
-    <radiogroup>
-      gender
-      <radio checked="true">Female</radio>
-      <radio checked="false">Male</radio>
-    </radiogroup>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Standalone radio buttons
     <Anchor></Anchor>
@@ -6645,75 +6460,18 @@ exports[`chromium /components/radio-buttons 1`] = `
   </button>
   <radio checked="true">A</radio>
   <radio checked="false">B</radio>
+  <radio checked="false">C</radio>
+  <radio checked="false">D</radio>
+  <radio checked="false">E</radio>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
-    Size
-    <Anchor></Anchor>
-    <text>Size</text>
-  </heading>
-  <paragraph>
-    <text>Use the</text>
-    <code>$SOME_CODE</code>
-    <text>
-      prop or customize the font size of the svg icons to change the size of the
-      radios.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <radio checked="true">a</radio>
-  <radio checked="false">b</radio>
-  <radio checked="false">c</radio>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
-    Color
-    <Anchor></Anchor>
-    <text>Color</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <radio checked="true">a</radio>
-  <radio checked="false">b</radio>
-  <radio checked="false">c</radio>
-  <radio checked="false">d</radio>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Label placement
     <Anchor></Anchor>
@@ -16548,15 +16306,16 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <label htmlFor="contained-button-file"> <Input
-    accept="image/*" id="contained-button-file" multiple
-    type="file" /> <Button variant="contained"
-    component="span"> Upload </Button> </label>
-    <label htmlFor="icon-button-file"> <Input
-    accept="image/*" id="icon-button-file"
-    type="file" /> <IconButton color="primary"
-    aria-label="upload picture" component="span">
-    <PhotoCamera /> </IconButton> </label>
+    <Input accept="image/*" id="contained-button-file"
+    multiple type="file" /> <label
+    htmlFor="contained-button-file"> <Button
+    variant="contained" component="span"> Upload
+    </Button> </label> <Input accept="image/*"
+    id="icon-button-file" type="file" /> <label
+    htmlFor="icon-button-file"> <IconButton
+    color="primary" aria-label="upload picture"
+    component="span"> <PhotoCamera /> </IconButton>
+    </label>
   </text>
   <heading level="2">
     Sizes
@@ -17055,196 +16814,25 @@ exports[`firefox /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">checked checkbox</checkbox>
+  <checkbox checked="true">primary checkbox</checkbox>
+  <checkbox checked="true">secondary checkbox</checkbox>
   <checkbox>uncontrolled-checkbox</checkbox>
   <checkbox disabled="true">disabled checkbox</checkbox>
   <checkbox checked="true" disabled="true">
     disabled checked checkbox
   </checkbox>
+  <checkbox checked="true">indeterminate checkbox</checkbox>
+  <checkbox checked="true">checkbox with default color</checkbox>
+  <checkbox checked="true">checkbox with small size</checkbox>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Checkbox defaultChecked inputProps={{ 'aria-label':
-    'checked checkbox' }} /> <Checkbox
-    inputProps={{ 'aria-label':
-    'uncontrolled-checkbox' }} /> <Checkbox disabled
-    inputProps={{ 'aria-label': 'disabled
-    checkbox' }} /> <Checkbox disabled checked
-    inputProps={{ 'aria-label': 'disabled checked
-    checkbox' }} />
-  </text>
-  <heading level="2">
-    Label
-    <link></link>
-    <text>Label</text>
-  </heading>
-  <paragraph>
-    <text>
-      You can provide a label to the Checkbox thanks to the FormControlLabel
-      component.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <label>
-    Secondary
-    <checkbox checked="true">Secondary</checkbox>
-    <text>Secondary</text>
-  </label>
-  <label>
-    Disabled
-    <checkbox disabled="true">Disabled</checkbox>
-    <text>Disabled</text>
-  </label>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <FormGroup> <FormControlLabel control={<Checkbox
-    defaultChecked name="checkedA" />}
-    label="Secondary" /> <FormControlLabel disabled
-    control={<Checkbox name="checkedB" />}
-    label="Disabled" /> </FormGroup>
-  </text>
-  <heading level="2">
-    Size
-    <link></link>
-    <text>Size</text>
-  </heading>
-  <paragraph>
-    <text>
-      Use the size prop or customize the font size of the svg icons to change
-      the size of the checkboxes.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <checkbox checked="true">small checkbox</checkbox>
-  <checkbox checked="true">normal checkbox</checkbox>
-  <checkbox checked="true">large checkbox</checkbox>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Checkbox defaultChecked inputProps={{ 'aria-label':
-    'small checkbox' }} size="small" />
-    <Checkbox defaultChecked inputProps={{ 'aria-label':
-    'normal checkbox' }} /> <Checkbox defaultChecked
-    inputProps={{ 'aria-label': 'large checkbox'
-    }} sx={{ '& .MuiSvgIcon-root': {
-    fontSize: 28 } }} />
-  </text>
-  <heading level="2">
-    Color
-    <link></link>
-    <text>Color</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <checkbox checked="true"></checkbox>
-  <checkbox checked="true"></checkbox>
-  <checkbox checked="true"></checkbox>
-  <checkbox checked="true"></checkbox>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Checkbox defaultChecked name="checkedA" /> <Checkbox
-    defaultChecked name="checkedB" color="primary" />
-    <Checkbox defaultChecked name="checkedC"
-    color="default" /> <Checkbox defaultChecked
-    name="checkedD" sx={{ color: green[800],
-    '&.Mui-checked': { color: green[600], },
-    }} />
-  </text>
-  <heading level="2">
-    Icon
-    <link></link>
-    <text>Icon</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <checkbox>favorite checkbox</checkbox>
-  <checkbox>bookmarked checkbox</checkbox>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Checkbox icon={<FavoriteBorder />}
-    checkedIcon={<Favorite />} name="checkedA"
-    inputProps={{ 'aria-label': 'favorite
-    checkbox' }} /> <Checkbox
-    icon={<BookmarkBorderIcon />}
-    checkedIcon={<BookmarkIcon />} name="checkedB"
-    inputProps={{ 'aria-label': 'bookmarked
-    checkbox' }} />
-  </text>
-  <heading level="2">
-    Controlled
-    <link></link>
-    <text>Controlled</text>
-  </heading>
-  <paragraph>
-    <text>You can control the checkbox with the value and onChange props:</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <checkbox checked="true">controlled checkbox</checkbox>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Checkbox checked={checked} onChange={handleChange}
-    inputProps={{ 'aria-label': 'controlled
-    checkbox' }} />
-  </text>
   <heading level="2">
     Indeterminate
     <link></link>
@@ -17253,8 +16841,8 @@ exports[`firefox /components/checkboxes/ 1`] = `
   <paragraph>
     <text>
       A checkbox input can only have two states in a form: checked or unchecked.
-      It either submits its value or doesn't. Visually, there are three
-      states a checkbox can be in: checked, unchecked, or indeterminate.
+      It either submits its value or doesn't. Visually, there are actually
+      three states a checkbox can be in: checked, unchecked, or indeterminate.
     </text>
   </paragraph>
   <button>
@@ -17284,19 +16872,83 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <FormControlLabel control={ <Checkbox checked={checked[0]
-    && checked[1]} indeterminate={checked[0] !==
-    checked[1]} onChange={handleChange1} /> }
-    label="Parent" /> {children}
+    <FormControlLabel label="Parent" control={ <Checkbox
+    checked={checked[0] && checked[1]}
+    indeterminate={checked[0] !== checked[1]}
+    onChange={handleChange1} color="primary" /> }
+    /> {children}
   </text>
-  <blockquote>
-    <paragraph>
-      <text>
-        ⚠️ When indeterminate is set, the value of the checked prop only impacts
-        the form submitted values. It has no accessibility or UX implications.
-      </text>
-    </paragraph>
-  </blockquote>
+  <heading level="2">
+    Label
+    <link></link>
+    <text>Label</text>
+  </heading>
+  <paragraph>
+    <text>
+      Checkbox can be provided with a label thanks to the FormControlLabel
+      component.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Secondary
+    <checkbox checked="true">Secondary</checkbox>
+    <text>Secondary</text>
+  </label>
+  <label>
+    Primary
+    <checkbox checked="true">Primary</checkbox>
+    <text>Primary</text>
+  </label>
+  <label>
+    Uncontrolled
+    <checkbox>Uncontrolled</checkbox>
+    <text>Uncontrolled</text>
+  </label>
+  <label>
+    Disabled
+    <checkbox disabled="true">Disabled</checkbox>
+    <text>Disabled</text>
+  </label>
+  <label>
+    Disabled
+    <checkbox checked="true" disabled="true">
+      Disabled
+    </checkbox>
+    <text>Disabled</text>
+  </label>
+  <label>
+    Indeterminate
+    <checkbox checked="true">Indeterminate</checkbox>
+    <text>Indeterminate</text>
+  </label>
+  <label>
+    Custom color
+    <checkbox checked="true">Custom color</checkbox>
+    <text>Custom color</text>
+  </label>
+  <label>
+    Custom icon
+    <checkbox>Custom icon</checkbox>
+    <text>Custom icon</text>
+  </label>
+  <label>
+    Custom size
+    <checkbox>Custom size</checkbox>
+    <text>Custom size</text>
+  </label>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
   <heading level="2">
     FormGroup
     <link></link>
@@ -17304,7 +16956,8 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      FormGroup is a helpful wrapper used to group selection control components.
+      FormGroup is a helpful wrapper used to group selection controls components
+      that provides an easier API.
     </text>
   </paragraph>
   <button>
@@ -20033,9 +19686,9 @@ exports[`firefox /components/radio-buttons 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Radio group
+    RadioGroup
     <link></link>
-    <text>Radio group</text>
+    <text>RadioGroup</text>
   </heading>
   <paragraph>
     <text>
@@ -20070,145 +19723,28 @@ exports[`firefox /components/radio-buttons 1`] = `
         <radio>Other</radio>
         <text>Other</text>
       </label>
+      <label>
+        (Disabled option)
+        <radio disabled="true">(Disabled option)</radio>
+        <text>(Disabled option)</text>
+      </label>
     </group>
   </group>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <FormControl component="fieldset"> <FormLabel
-    component="legend">Gender</FormLabel> <RadioGroup
-    aria-label="gender" defaultValue="female"
-    name="radio-buttons-group" > <FormControlLabel
-    value="female" control={<Radio />}
-    label="Female" /> <FormControlLabel value="male"
-    control={<Radio />} label="Male" />
-    <FormControlLabel value="other" control={<Radio
-    />} label="Other" /> </RadioGroup>
-    </FormControl>
-  </text>
-  <heading level="3">
-    Direction
-    <link></link>
-    <text>Direction</text>
-  </heading>
   <paragraph>
-    <text>To lay out the buttons horizontally, set the row prop:</text>
+    <text>
+      To lay out the buttons horizontally, set the row prop: <RadioGroup row
+      />.
+    </text>
   </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    Gender
-    <label>
-      Gender
-      <text>Gender</text>
-    </label>
-    <group>
-      gender
-      <label>
-        Female
-        <radio>Female</radio>
-        <text>Female</text>
-      </label>
-      <label>
-        Male
-        <radio>Male</radio>
-        <text>Male</text>
-      </label>
-      <label>
-        Other
-        <radio>Other</radio>
-        <text>Other</text>
-      </label>
-      <label>
-        other
-        <radio disabled="true">other</radio>
-        <text>other</text>
-      </label>
-    </group>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <FormControl component="fieldset"> <FormLabel
-    component="legend">Gender</FormLabel> <RadioGroup row
-    aria-label="gender" name="row-radio-buttons-group">
-    <FormControlLabel value="female" control={<Radio
-    />} label="Female" /> <FormControlLabel
-    value="male" control={<Radio />}
-    label="Male" /> <FormControlLabel value="other"
-    control={<Radio />} label="Other" />
-    <FormControlLabel value="disabled" disabled
-    control={<Radio />} label="other" />
-    </RadioGroup> </FormControl>
-  </text>
-  <heading level="3">
-    Controllable
-    <link></link>
-    <text>Controllable</text>
-  </heading>
-  <paragraph>
-    <text>You can control the radio with the value and onChange props:</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <group>
-    Gender
-    <label>
-      Gender
-      <text>Gender</text>
-    </label>
-    <group>
-      gender
-      <label>
-        Female
-        <radio checked="true">Female</radio>
-        <text>Female</text>
-      </label>
-      <label>
-        Male
-        <radio>Male</radio>
-        <text>Male</text>
-      </label>
-    </group>
-  </group>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <FormControl component="fieldset"> <FormLabel
-    component="legend">Gender</FormLabel> <RadioGroup
-    aria-label="gender"
-    name="controlled-radio-buttons-group" value={value}
-    onChange={handleChange} > <FormControlLabel
-    value="female" control={<Radio />}
-    label="Female" /> <FormControlLabel value="male"
-    control={<Radio />} label="Male" />
-    </RadioGroup> </FormControl>
-  </text>
   <heading level="2">
     Standalone radio buttons
     <link></link>
@@ -20225,89 +19761,18 @@ exports[`firefox /components/radio-buttons 1`] = `
   </button>
   <radio checked="true">A</radio>
   <radio>B</radio>
+  <radio>C</radio>
+  <radio>D</radio>
+  <radio>E</radio>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Radio checked={selectedValue === 'a'}
-    onChange={handleChange} value="a"
-    name="radio-buttons" inputProps={{
-    'aria-label': 'A' }} /> <Radio
-    checked={selectedValue === 'b'}
-    onChange={handleChange} value="b"
-    name="radio-buttons" inputProps={{
-    'aria-label': 'B' }} />
-  </text>
-  <heading level="2">
-    Size
-    <link></link>
-    <text>Size</text>
-  </heading>
-  <paragraph>
-    <text>
-      Use the size prop or customize the font size of the svg icons to change
-      the size of the radios.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <radio checked="true">a</radio>
-  <radio>b</radio>
-  <radio>c</radio>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Radio {...controlProps('a')} size="small"
-    /> <Radio {...controlProps('b')} /> <Radio
-    {...controlProps('c')} sx={{ '&
-    .MuiSvgIcon-root': { fontSize: 28, }, }} />
-  </text>
-  <heading level="2">
-    Color
-    <link></link>
-    <text>Color</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <radio checked="true">a</radio>
-  <radio>b</radio>
-  <radio>c</radio>
-  <radio>d</radio>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Radio {...controlProps('a')} /> <Radio
-    {...controlProps('b')} color="primary" />
-    <Radio {...controlProps('c')}
-    color="default" /> <Radio
-    {...controlProps('d')} sx={{ color:
-    green[800], '&.Mui-checked': { color: green[600], },
-    }} />
-  </text>
   <heading level="2">
     Label placement
     <link></link>
@@ -20623,7 +20088,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     </listitem>
   </list>
   <text>
-    <Radio value="radioA" inputProps={{
+    <RadioButton value="radioA" inputProps={{
     'aria-label': 'Radio A', }} />
   </text>
   <heading level="2">
@@ -24747,7 +24212,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       dynamically matches its content (using
     </text>
     <link>TextareaAutosize</link>
-    <text>). You can use the minRows and maxRows props to bound it.</text>
+    <text>). You can use the rowsMin and rowsMax props to bound it.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
