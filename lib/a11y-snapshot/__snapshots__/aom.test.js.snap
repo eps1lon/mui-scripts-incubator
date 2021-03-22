@@ -20727,6 +20727,685 @@ exports[`firefox /components/rating/ 1`] = `
 <landmark>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
+    Tooltip
+    <text>Tooltip</text>
+  </heading>
+  <paragraph>
+    <text>
+      Tooltips display informative text when users hover over, focus on, or tap
+      an element.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      When activated, Tooltips display a text label identifying an element, such
+      as a description of its function.
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      Feedback
+      <link>Feedback</link>
+    </listitem>
+    <listitem>
+      WAI-ARIA
+      <link>WAI-ARIA</link>
+    </listitem>
+    <listitem>
+      Scroll down to 'Exports Analysis' for a more detailed report.
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem>
+      Material Design
+      <link>Material Design</link>
+    </listitem>
+    <listitem>
+      Figma
+      <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Basic tooltip
+    <link></link>
+    <text>Basic tooltip</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>Delete</button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tooltip title="Delete"> <IconButton> <DeleteIcon
+    /> </IconButton> </Tooltip>
+  </text>
+  <heading level="2">
+    Positioned tooltips
+    <link></link>
+    <text>Positioned tooltips</text>
+  </heading>
+  <paragraph>
+    <text>
+      The Tooltip has 12 placements choice. They don't have directional
+      arrows; instead, they rely on motion emanating from the source to convey
+      direction.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    Add
+    <text>TOP-START</text>
+  </button>
+  <button>
+    Add
+    <text>TOP</text>
+  </button>
+  <button>
+    Add
+    <text>TOP-END</text>
+  </button>
+  <button>
+    Add
+    <text>LEFT-START</text>
+  </button>
+  <whitespace></whitespace>
+  <button>
+    Add
+    <text>LEFT</text>
+  </button>
+  <whitespace></whitespace>
+  <button>
+    Add
+    <text>LEFT-END</text>
+  </button>
+  <button>
+    Add
+    <text>RIGHT-START</text>
+  </button>
+  <button>
+    Add
+    <text>RIGHT</text>
+  </button>
+  <button>
+    Add
+    <text>RIGHT-END</text>
+  </button>
+  <button>
+    Add
+    <text>BOTTOM-START</text>
+  </button>
+  <button>
+    Add
+    <text>BOTTOM</text>
+  </button>
+  <button>
+    Add
+    <text>BOTTOM-END</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Customized tooltips
+    <link></link>
+    <text>Customized tooltips</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here are some examples of customizing the component. You can learn more
+      about this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    Add
+    <text>LIGHT</text>
+  </button>
+  <button>
+    Add
+    <text>BOOTSTRAP</text>
+  </button>
+  <button>
+    HTML
+    <text>HTML</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Arrow tooltips
+    <link></link>
+    <text>Arrow tooltips</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can use the arrow prop to give your tooltip an arrow indicating which
+      element it refers to.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    Add
+    <text>ARROW</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tooltip title="Add" arrow>
+    <Button>Arrow</Button> </Tooltip>
+  </text>
+  <heading level="2">
+    Custom child element
+    <link></link>
+    <text>Custom child element</text>
+  </heading>
+  <paragraph>
+    <text>
+      The tooltip needs to apply DOM event listeners to its child element. If
+      the child is a custom React element, you need to make sure that it spreads
+      its props to the underlying DOM element.
+    </text>
+  </paragraph>
+  <text>
+    const MyComponent = React.forwardRef(function MyComponent(props, ref) {
+    // Spread the props to the underlying DOM element. return <div
+    {...props} ref={ref}>Bin</div> }); // ...
+    <Tooltip title="Delete"> <MyComponent>
+    </Tooltip>
+  </text>
+  <paragraph>
+    <text>You can find a similar concept in the</text>
+    <link>wrapping components</link>
+    <text>guide.</text>
+  </paragraph>
+  <heading level="2">
+    Triggers
+    <link></link>
+    <text>Triggers</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can define the types of events that cause a tooltip to show.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    Add
+    <text>HOVER OR TOUCH</text>
+  </button>
+  <button>
+    Add
+    <text>FOCUS OR TOUCH</text>
+  </button>
+  <button>
+    Add
+    <text>HOVER</text>
+  </button>
+  <button>
+    Add
+    <text>CLICK</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Controlled tooltips
+    <link></link>
+    <text>Controlled tooltips</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can use the open, onOpen and onClose props to control the behavior of
+      the tooltip.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    Add
+    <text>CONTROLLED</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tooltip open={open} onClose={handleClose}
+    onOpen={handleOpen} title="Add">
+    <Button>Controlled</Button> </Tooltip>
+  </text>
+  <heading level="2">
+    Variable width
+    <link></link>
+    <text>Variable width</text>
+  </heading>
+  <paragraph>
+    <text>The Tooltip wraps long text by default to make it readable.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    Aliquam eget finibus ante, non facilisis lectus. Sed vitae dignissim est,
+    vel aliquam tellus. Praesent non nunc mollis, fermentum neque at, semper
+    arcu. Nullam eget est sed sem iaculis gravida eget vitae justo.
+    <text>DEFAULT WIDTH [300PX]</text>
+  </button>
+  <button>
+    Aliquam eget finibus ante, non facilisis lectus. Sed vitae dignissim est,
+    vel aliquam tellus. Praesent non nunc mollis, fermentum neque at, semper
+    arcu. Nullam eget est sed sem iaculis gravida eget vitae justo.
+    <text>CUSTOM WIDTH [500PX]</text>
+  </button>
+  <button>
+    Aliquam eget finibus ante, non facilisis lectus. Sed vitae dignissim est,
+    vel aliquam tellus. Praesent non nunc mollis, fermentum neque at, semper
+    arcu. Nullam eget est sed sem iaculis gravida eget vitae justo.
+    <text>NO WRAPPING</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tooltip title={longText}> <Button
+    className={classes.button}>Default Width [300px]</Button>
+    </Tooltip> <Tooltip title={longText} classes={{
+    tooltip: classes.customWidth }}> <Button
+    className={classes.button}>Custom Width [500px]</Button>
+    </Tooltip> <Tooltip title={longText} classes={{
+    tooltip: classes.noMaxWidth }}> <Button
+    className={classes.button}>No wrapping</Button>
+    </Tooltip>
+  </text>
+  <heading level="2">
+    Interactive
+    <link></link>
+    <text>Interactive</text>
+  </heading>
+  <paragraph>
+    <text>Tooltips are interactive by default (to pass</text>
+    <link>WCAG 2.1 success criterion 1.4.13</link>
+    <text>
+      ). It won't close when the user hovers over the tooltip before the
+      leaveDelay is expired. You can disable this behavior (thus failing the
+      success criterion which is required to reach level AA) by passing
+      disableInteractive.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    Add
+    <text>NOT INTERACTIVE</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tooltip title="Add" disableInteractive> <Button>Not
+    interactive</Button> </Tooltip>
+  </text>
+  <heading level="2">
+    Disabled elements
+    <link></link>
+    <text>Disabled elements</text>
+  </heading>
+  <paragraph>
+    <text>
+      By default disabled elements like <button> do not trigger user
+      interactions so a Tooltip will not activate on normal events like hover.
+      To accommodate disabled elements, add a simple wrapper element, such as a
+      span.
+    </text>
+  </paragraph>
+  <blockquote>
+    <paragraph>
+      <text>
+        ⚠️ In order to work with Safari, you need at least one display block or
+        flex item below the tooltip wrapper.
+      </text>
+    </paragraph>
+  </blockquote>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button disabled="true">
+    A DISABLED BUTTON
+    <text>A DISABLED BUTTON</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tooltip title="You don't have permission to do this">
+    <span> <Button disabled>A Disabled Button</Button>
+    </span> </Tooltip>
+  </text>
+  <blockquote>
+    <paragraph>
+      <text>
+        If you're not wrapping a Material-UI component that inherits from
+        ButtonBase, for instance, a native <button> element, you should
+        also add the CSS property pointer-events: none; to your element when
+        disabled:
+      </text>
+    </paragraph>
+  </blockquote>
+  <text>
+    <Tooltip title="You don't have permission to do this">
+    <span> <button disabled={disabled} style={disabled ?
+    { pointerEvents: 'none' } : {}}> A
+    disabled button </button> </span> </Tooltip>
+  </text>
+  <heading level="2">
+    Transitions
+    <link></link>
+    <text>Transitions</text>
+  </heading>
+  <paragraph>
+    <text>Use a different transition.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    Add
+    <text>GROW</text>
+  </button>
+  <button>
+    Add
+    <text>FADE</text>
+  </button>
+  <button>
+    Add
+    <text>ZOOM</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tooltip title="Add"> <Button>Grow</Button>
+    </Tooltip> <Tooltip TransitionComponent={Fade}
+    TransitionProps={{ timeout: 600 }} title="Add"
+    > <Button>Fade</Button> </Tooltip> <Tooltip
+    TransitionComponent={Zoom} title="Add">
+    <Button>Zoom</Button> </Tooltip>
+  </text>
+  <heading level="2">
+    Follow cursor
+    <link></link>
+    <text>Follow cursor</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can enable the tooltip to follow the cursor by setting
+      followCursor={true}.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <text>Disabled Action</text>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tooltip title="You don't have permission to do this"
+    followCursor> <Box sx={{ bgcolor: 'text.disabled',
+    color: 'background.paper', p: 2 }}> Disabled Action
+    </Box> </Tooltip>
+  </text>
+  <heading level="2">
+    Virtual element
+    <link></link>
+    <text>Virtual element</text>
+  </heading>
+  <paragraph>
+    <text>
+      In the event you need to implement a custom placement, you can use the
+      anchorEl prop: The value of the anchorEl prop can be a reference to a fake
+      DOM element. You need to create an object shaped like the
+    </text>
+    <link>VirtualElement</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <text>Hover</text>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Showing and hiding
+    <link></link>
+    <text>Showing and hiding</text>
+  </heading>
+  <paragraph>
+    <text>
+      The tooltip is normally shown immediately when the user's mouse
+      hovers over the element, and hides immediately when the user's mouse
+      leaves. A delay in showing or hiding the tooltip can be added through the
+      enterDelay and leaveDelay props, as shown in the Controlled Tooltips demo
+      above.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      On mobile, the tooltip is displayed when the user longpresses the element
+      and hides after a delay of 1500ms. You can disable this feature with the
+      disableTouchListener prop.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    Add
+    <text>[500MS, 200MS]</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tooltip title="Add" enterDelay={500}
+    leaveDelay={200}> <Button>[500ms, 200ms]</Button>
+    </Tooltip>
+  </text>
+  <heading level="2">
+    Accessibility
+    <link></link>
+    <text>Accessibility</text>
+  </heading>
+  <paragraph>
+    <text>(WAI-ARIA:</text>
+    <link>https://www.w3.org/TR/wai-aria-practices/#tooltip</link>
+    <text>)</text>
+  </paragraph>
+  <paragraph>
+    <text>
+      By default, the tooltip only labels its child element. This is notably
+      different from title which can either label or describe its child
+      depending on whether the child already has a label. For example, in:
+    </text>
+  </paragraph>
+  <text>
+    <button title="some more information">A
+    button</button>
+  </text>
+  <paragraph>
+    <text>
+      the title acts as an accessible description. If you want the tooltip to
+      act as an accessible description you can pass describeChild. Note that you
+      shouldn't use describeChild if the tooltip provides the only visual
+      label. Otherwise, the child would have no accessible name and the tooltip
+      would violate
+    </text>
+    <link>success criterion 2.5.3 in WCAG 2.1</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>Delete</button>
+  <button description="Does not add if it already exists.">
+    ADD
+    <text>ADD</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tooltip title="Delete"> <IconButton> <DeleteIcon
+    /> </IconButton> </Tooltip> <Tooltip describeChild
+    title="Does not add if it already exists.">
+    <Button>Add</Button> </Tooltip>
+  </text>
+  <heading level="2">
+    API
+    <link></link>
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem>
+      <Tooltip />
+      <link><Tooltip /></link>
+    </listitem>
+  </list>
+  <separator></separator>
+  <link>Table</link>
+  <group>
+    Was this page helpful?
+    <text>Was this page helpful?</text>
+    <togglebutton>Yes</togglebutton>
+    <togglebutton>No</togglebutton>
+  </group>
+  <link>Typography</link>
+</landmark>;
+
+`;
+
+exports[`firefox /components/rating/ 2`] = `
+<landmark>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
     Rating
     <text>Rating</text>
   </heading>
