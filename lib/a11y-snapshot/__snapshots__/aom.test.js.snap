@@ -267,6 +267,313 @@ exports[`chromium / 1`] = `
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <SVGRoot></SVGRoot>
+  <SVGRoot></SVGRoot>
+  <SVGRoot></SVGRoot>
+  <textbox>[Open filter with CMD+SHIFT+L]</textbox>
+  <SVGRoot></SVGRoot>
+  <text>palette</text>
+  <Label>
+    <text>primary</text>
+  </Label>
+  <textbox value="#1976d2">
+    primary
+    <text>#1976d2</text>
+  </textbox>
+  <Label>
+    <text>seconary</text>
+  </Label>
+  <textbox value="#dc004e">
+    seconary
+    <text>#dc004e</text>
+  </textbox>
+  <SVGRoot></SVGRoot>
+  <text>error</text>
+  <Label>
+    <text>contrastText</text>
+  </Label>
+  <textbox value="#ffffff">
+    contrastText
+    <text>#ffffff</text>
+  </textbox>
+  <Label>
+    <text>dark</text>
+  </Label>
+  <textbox value="#d32f2f">
+    dark
+    <text>#d32f2f</text>
+  </textbox>
+  <Label>
+    <text>light</text>
+  </Label>
+  <textbox value="#e57373">
+    light
+    <text>#e57373</text>
+  </textbox>
+  <Label>
+    <text>main</text>
+  </Label>
+  <textbox value="#f44336">
+    main
+    <text>#f44336</text>
+  </textbox>
+  <SVGRoot></SVGRoot>
+  <text>warning</text>
+  <Label>
+    <text>contrastText</text>
+  </Label>
+  <textbox value="#000000de">
+    contrastText
+    <text>#000000de</text>
+  </textbox>
+  <Label>
+    <text>dark</text>
+  </Label>
+  <textbox value="#f57c00">
+    dark
+    <text>#f57c00</text>
+  </textbox>
+  <Label>
+    <text>light</text>
+  </Label>
+  <textbox value="#ffb74d">
+    light
+    <text>#ffb74d</text>
+  </textbox>
+  <Label>
+    <text>main</text>
+  </Label>
+  <textbox value="#ff9800">
+    main
+    <text>#ff9800</text>
+  </textbox>
+  <SVGRoot></SVGRoot>
+  <text>info</text>
+  <Label>
+    <text>contrastText</text>
+  </Label>
+  <textbox value="#ffffff">
+    contrastText
+    <text>#ffffff</text>
+  </textbox>
+  <Label>
+    <text>dark</text>
+  </Label>
+  <textbox value="#1976d2">
+    dark
+    <text>#1976d2</text>
+  </textbox>
+  <Label>
+    <text>light</text>
+  </Label>
+  <textbox value="#64b5f6">
+    light
+    <text>#64b5f6</text>
+  </textbox>
+  <Label>
+    <text>main</text>
+  </Label>
+  <textbox value="#2196f3">
+    main
+    <text>#2196f3</text>
+  </textbox>
+  <SVGRoot></SVGRoot>
+  <text>success</text>
+  <Label>
+    <text>contrastText</text>
+  </Label>
+  <textbox value="#000000de">
+    contrastText
+    <text>#000000de</text>
+  </textbox>
+  <Label>
+    <text>dark</text>
+  </Label>
+  <textbox value="#388e3c">
+    dark
+    <text>#388e3c</text>
+  </textbox>
+  <Label>
+    <text>light</text>
+  </Label>
+  <textbox value="#81c784">
+    light
+    <text>#81c784</text>
+  </textbox>
+  <Label>
+    <text>main</text>
+  </Label>
+  <textbox value="#4caf50">
+    main
+    <text>#4caf50</text>
+  </textbox>
+  <Label>
+    <text>mode</text>
+  </Label>
+  <combobox value="light">
+    mode
+    <MenuListPopup>
+      <menuitem>dark</menuitem>
+      <menuitem selected="true">light</menuitem>
+    </MenuListPopup>
+  </combobox>
+  <text>light</text>
+  <SVGRoot></SVGRoot>
+  <Label>
+    <text>tonalOffset</text>
+  </Label>
+  <textbox value="0.2">
+    tonalOffset
+    <text>0.2</text>
+  </textbox>
+  <Label>
+    <text>contrastThreshold</text>
+  </Label>
+  <textbox value="3.0">
+    contrastThreshold
+    <text>3.0</text>
+  </textbox>
+  <SVGRoot></SVGRoot>
+  <text>common</text>
+  <Label>
+    <text>black</text>
+  </Label>
+  <textbox value="#000000">
+    black
+    <text>#000000</text>
+  </textbox>
+  <Label>
+    <text>white</text>
+  </Label>
+  <textbox value="#ffffff">
+    white
+    <text>#ffffff</text>
+  </textbox>
+  <SVGRoot></SVGRoot>
+  <text>text</text>
+  <Label>
+    <text>disabled</text>
+  </Label>
+  <textbox value="#00000061">
+    disabled
+    <text>#00000061</text>
+  </textbox>
+  <Label>
+    <text>primary</text>
+  </Label>
+  <textbox value="#000000de">
+    primary
+    <text>#000000de</text>
+  </textbox>
+  <Label>
+    <text>secondary</text>
+  </Label>
+  <textbox value="#00000099">
+    secondary
+    <text>#00000099</text>
+  </textbox>
+  <Label>
+    <text>divider</text>
+  </Label>
+  <textbox value="#0000001f">
+    divider
+    <text>#0000001f</text>
+  </textbox>
+  <SVGRoot></SVGRoot>
+  <text>action</text>
+  <Label>
+    <text>activatedOpacity</text>
+  </Label>
+  <textbox value="0.12">
+    activatedOpacity
+    <text>0.12</text>
+  </textbox>
+  <Label>
+    <text>active</text>
+  </Label>
+  <textbox value="#0000008a">
+    active
+    <text>#0000008a</text>
+  </textbox>
+  <Label>
+    <text>disabled</text>
+  </Label>
+  <textbox value="#00000042">
+    disabled
+    <text>#00000042</text>
+  </textbox>
+  <Label>
+    <text>disabledBackground</text>
+  </Label>
+  <textbox value="#0000001f">
+    disabledBackground
+    <text>#0000001f</text>
+  </textbox>
+  <Label>
+    <text>disabledOpacity</text>
+  </Label>
+  <textbox value="0.38">
+    disabledOpacity
+    <text>0.38</text>
+  </textbox>
+  <Label>
+    <text>focus</text>
+  </Label>
+  <textbox value="#0000001f">
+    focus
+    <text>#0000001f</text>
+  </textbox>
+  <Label>
+    <text>focusOpacity</text>
+  </Label>
+  <textbox value="0.12">
+    focusOpacity
+    <text>0.12</text>
+  </textbox>
+  <Label>
+    <text>hover</text>
+  </Label>
+  <textbox value="#0000000a">
+    hover
+    <text>#0000000a</text>
+  </textbox>
+  <Label>
+    <text>hoverOpacity</text>
+  </Label>
+  <textbox value="0.04">
+    hoverOpacity
+    <text>0.04</text>
+  </textbox>
+  <Label>
+    <text>selected</text>
+  </Label>
+  <textbox value="#00000014">
+    selected
+    <text>#00000014</text>
+  </textbox>
+  <Label>
+    <text>selectedOpacity</text>
+  </Label>
+  <textbox value="0.08">
+    selectedOpacity
+    <text>0.08</text>
+  </textbox>
+  <SVGRoot></SVGRoot>
+  <text>background</text>
+  <Label>
+    <text>default</text>
+  </Label>
+  <textbox value="#ffffff">
+    default
+    <text>#ffffff</text>
+  </textbox>
+  <Label>
+    <text>paper</text>
+  </Label>
+  <textbox value="#ffffff">
+    paper
+    <text>#ffffff</text>
+  </textbox>
 </WebArea>;
 
 `;
@@ -13886,6 +14193,359 @@ exports[`firefox / 1`] = `
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <diagram></diagram>
+  <diagram></diagram>
+  <diagram></diagram>
+  <textbox>[Open filter with CMD+SHIFT+L]</textbox>
+  <diagram></diagram>
+  <text>palette</text>
+  <label>
+    primary
+    <text>primary</text>
+  </label>
+  <textbox value="#1976d2">
+    primary
+    <text>#1976d2</text>
+  </textbox>
+  <label>
+    seconary
+    <text>seconary</text>
+  </label>
+  <textbox value="#dc004e">
+    seconary
+    <text>#dc004e</text>
+  </textbox>
+  <diagram></diagram>
+  <text>error</text>
+  <label>
+    contrastText
+    <text>contrastText</text>
+  </label>
+  <textbox value="#ffffff">
+    contrastText
+    <text>#ffffff</text>
+  </textbox>
+  <label>
+    dark
+    <text>dark</text>
+  </label>
+  <textbox value="#d32f2f">
+    dark
+    <text>#d32f2f</text>
+  </textbox>
+  <label>
+    light
+    <text>light</text>
+  </label>
+  <textbox value="#e57373">
+    light
+    <text>#e57373</text>
+  </textbox>
+  <label>
+    main
+    <text>main</text>
+  </label>
+  <textbox value="#f44336">
+    main
+    <text>#f44336</text>
+  </textbox>
+  <diagram></diagram>
+  <text>warning</text>
+  <label>
+    contrastText
+    <text>contrastText</text>
+  </label>
+  <textbox value="#000000de">
+    contrastText
+    <text>#000000de</text>
+  </textbox>
+  <label>
+    dark
+    <text>dark</text>
+  </label>
+  <textbox value="#f57c00">
+    dark
+    <text>#f57c00</text>
+  </textbox>
+  <label>
+    light
+    <text>light</text>
+  </label>
+  <textbox value="#ffb74d">
+    light
+    <text>#ffb74d</text>
+  </textbox>
+  <label>
+    main
+    <text>main</text>
+  </label>
+  <textbox value="#ff9800">
+    main
+    <text>#ff9800</text>
+  </textbox>
+  <diagram></diagram>
+  <text>info</text>
+  <label>
+    contrastText
+    <text>contrastText</text>
+  </label>
+  <textbox value="#ffffff">
+    contrastText
+    <text>#ffffff</text>
+  </textbox>
+  <label>
+    dark
+    <text>dark</text>
+  </label>
+  <textbox value="#1976d2">
+    dark
+    <text>#1976d2</text>
+  </textbox>
+  <label>
+    light
+    <text>light</text>
+  </label>
+  <textbox value="#64b5f6">
+    light
+    <text>#64b5f6</text>
+  </textbox>
+  <label>
+    main
+    <text>main</text>
+  </label>
+  <textbox value="#2196f3">
+    main
+    <text>#2196f3</text>
+  </textbox>
+  <diagram></diagram>
+  <text>success</text>
+  <label>
+    contrastText
+    <text>contrastText</text>
+  </label>
+  <textbox value="#000000de">
+    contrastText
+    <text>#000000de</text>
+  </textbox>
+  <label>
+    dark
+    <text>dark</text>
+  </label>
+  <textbox value="#388e3c">
+    dark
+    <text>#388e3c</text>
+  </textbox>
+  <label>
+    light
+    <text>light</text>
+  </label>
+  <textbox value="#81c784">
+    light
+    <text>#81c784</text>
+  </textbox>
+  <label>
+    main
+    <text>main</text>
+  </label>
+  <textbox value="#4caf50">
+    main
+    <text>#4caf50</text>
+  </textbox>
+  <label>
+    mode
+    <text>mode</text>
+  </label>
+  <combobox haspopup="true" value="light">
+    mode
+    <MenuListPopup>
+      <menuitem>
+        dark
+        <text>dark</text>
+      </menuitem>
+      <menuitem selected="true">
+        light
+        <text>light</text>
+      </menuitem>
+    </MenuListPopup>
+  </combobox>
+  <text>light</text>
+  <diagram></diagram>
+  <label>
+    tonalOffset
+    <text>tonalOffset</text>
+  </label>
+  <textbox value="0.2">
+    tonalOffset
+    <text>0.2</text>
+  </textbox>
+  <label>
+    contrastThreshold
+    <text>contrastThreshold</text>
+  </label>
+  <textbox value="3.0">
+    contrastThreshold
+    <text>3.0</text>
+  </textbox>
+  <diagram></diagram>
+  <text>common</text>
+  <label>
+    black
+    <text>black</text>
+  </label>
+  <textbox value="#000000">
+    black
+    <text>#000000</text>
+  </textbox>
+  <label>
+    white
+    <text>white</text>
+  </label>
+  <textbox value="#ffffff">
+    white
+    <text>#ffffff</text>
+  </textbox>
+  <diagram></diagram>
+  <text>text</text>
+  <label>
+    disabled
+    <text>disabled</text>
+  </label>
+  <textbox value="#00000061">
+    disabled
+    <text>#00000061</text>
+  </textbox>
+  <label>
+    primary
+    <text>primary</text>
+  </label>
+  <textbox value="#000000de">
+    primary
+    <text>#000000de</text>
+  </textbox>
+  <label>
+    secondary
+    <text>secondary</text>
+  </label>
+  <textbox value="#00000099">
+    secondary
+    <text>#00000099</text>
+  </textbox>
+  <label>
+    divider
+    <text>divider</text>
+  </label>
+  <textbox value="#0000001f">
+    divider
+    <text>#0000001f</text>
+  </textbox>
+  <diagram></diagram>
+  <text>action</text>
+  <label>
+    activatedOpacity
+    <text>activatedOpacity</text>
+  </label>
+  <textbox value="0.12">
+    activatedOpacity
+    <text>0.12</text>
+  </textbox>
+  <label>
+    active
+    <text>active</text>
+  </label>
+  <textbox value="#0000008a">
+    active
+    <text>#0000008a</text>
+  </textbox>
+  <label>
+    disabled
+    <text>disabled</text>
+  </label>
+  <textbox value="#00000042">
+    disabled
+    <text>#00000042</text>
+  </textbox>
+  <label>
+    disabledBackground
+    <text>disabledBackground</text>
+  </label>
+  <textbox value="#0000001f">
+    disabledBackground
+    <text>#0000001f</text>
+  </textbox>
+  <label>
+    disabledOpacity
+    <text>disabledOpacity</text>
+  </label>
+  <textbox value="0.38">
+    disabledOpacity
+    <text>0.38</text>
+  </textbox>
+  <label>
+    focus
+    <text>focus</text>
+  </label>
+  <textbox value="#0000001f">
+    focus
+    <text>#0000001f</text>
+  </textbox>
+  <label>
+    focusOpacity
+    <text>focusOpacity</text>
+  </label>
+  <textbox value="0.12">
+    focusOpacity
+    <text>0.12</text>
+  </textbox>
+  <label>
+    hover
+    <text>hover</text>
+  </label>
+  <textbox value="#0000000a">
+    hover
+    <text>#0000000a</text>
+  </textbox>
+  <label>
+    hoverOpacity
+    <text>hoverOpacity</text>
+  </label>
+  <textbox value="0.04">
+    hoverOpacity
+    <text>0.04</text>
+  </textbox>
+  <label>
+    selected
+    <text>selected</text>
+  </label>
+  <textbox value="#00000014">
+    selected
+    <text>#00000014</text>
+  </textbox>
+  <label>
+    selectedOpacity
+    <text>selectedOpacity</text>
+  </label>
+  <textbox value="0.08">
+    selectedOpacity
+    <text>0.08</text>
+  </textbox>
+  <diagram></diagram>
+  <text>background</text>
+  <label>
+    default
+    <text>default</text>
+  </label>
+  <textbox value="#ffffff">
+    default
+    <text>#ffffff</text>
+  </textbox>
+  <label>
+    paper
+    <text>paper</text>
+  </label>
+  <textbox value="#ffffff">
+    paper
+    <text>#ffffff</text>
+  </textbox>
 </document>;
 
 `;
