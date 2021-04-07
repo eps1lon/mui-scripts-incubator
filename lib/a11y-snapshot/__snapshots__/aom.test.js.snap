@@ -7064,6 +7064,14 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">4 Stars</radio>
   <radio checked="false">5 Stars</radio>
   <Legend>
+    <text>Highlight selected value only</text>
+  </Legend>
+  <radio checked="false">1 Star</radio>
+  <radio checked="true">2 Stars</radio>
+  <radio checked="false">3 Stars</radio>
+  <radio checked="false">4 Stars</radio>
+  <radio checked="false">5 Stars</radio>
+  <Legend>
     <text>Read only</text>
   </Legend>
   <img>2 Stars</img>
@@ -7096,16 +7104,13 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="true">Empty</radio>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Rating precision
     <Anchor></Anchor>
@@ -17355,7 +17360,9 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <text>Controlled</text>
   </heading>
   <paragraph>
-    <text>You can control the checkbox with the value and onChange props:</text>
+    <text>
+      You can control the checkbox with the checked and onChange props:
+    </text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -20877,6 +20884,35 @@ exports[`firefox /components/rating/ 1`] = `
   </label>
   <radio>5 Stars</radio>
   <label>
+    Highlight selected value only
+    <text>Highlight selected value only</text>
+  </label>
+  <label>
+    1 Star
+    <text>1 Star</text>
+  </label>
+  <radio>1 Star</radio>
+  <label>
+    2 Stars
+    <text>2 Stars</text>
+  </label>
+  <radio checked="true">2 Stars</radio>
+  <label>
+    3 Stars
+    <text>3 Stars</text>
+  </label>
+  <radio>3 Stars</radio>
+  <label>
+    4 Stars
+    <text>4 Stars</text>
+  </label>
+  <radio>4 Stars</radio>
+  <label>
+    5 Stars
+    <text>5 Stars</text>
+  </label>
+  <radio>5 Stars</radio>
+  <label>
     Read only
     <text>Read only</text>
   </label>
@@ -20948,26 +20984,13 @@ exports[`firefox /components/rating/ 1`] = `
   </label>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Typography component="legend">Controlled</Typography>
-    <Rating name="simple-controlled" value={value}
-    onChange={(event, newValue) => { setValue(newValue);
-    }} /> <Typography component="legend">Read
-    only</Typography> <Rating name="read-only"
-    value={value} readOnly /> <Typography
-    component="legend">Disabled</Typography> <Rating
-    name="disabled" value={value} disabled />
-    <Typography component="legend">No rating
-    given</Typography> <Rating name="no-value"
-    value={null} />
-  </text>
   <heading level="2">
     Rating precision
     <link></link>
@@ -23259,7 +23282,7 @@ exports[`firefox /components/switches/ 1`] = `
     <text>Controlled</text>
   </heading>
   <paragraph>
-    <text>You can control the switch with the value and onChange props:</text>
+    <text>You can control the switch with the checked and onChange props:</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
