@@ -17355,7 +17355,9 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <text>Controlled</text>
   </heading>
   <paragraph>
-    <text>You can control the checkbox with the value and onChange props:</text>
+    <text>
+      You can control the checkbox with the checked and onChange props:
+    </text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -23259,7 +23261,7 @@ exports[`firefox /components/switches/ 1`] = `
     <text>Controlled</text>
   </heading>
   <paragraph>
-    <text>You can control the switch with the value and onChange props:</text>
+    <text>You can control the switch with the checked and onChange props:</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
