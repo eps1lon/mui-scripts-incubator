@@ -261,7 +261,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.29. View versions page.</link>
+      <link>v5.0.0-alpha.28. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -13958,7 +13958,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.29. View versions page.</link>
+      <link>v5.0.0-alpha.28. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -17355,9 +17355,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <text>Controlled</text>
   </heading>
   <paragraph>
-    <text>
-      You can control the checkbox with the checked and onChange props:
-    </text>
+    <text>You can control the checkbox with the value and onChange props:</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -23261,7 +23259,7 @@ exports[`firefox /components/switches/ 1`] = `
     <text>Controlled</text>
   </heading>
   <paragraph>
-    <text>You can control the switch with the checked and onChange props:</text>
+    <text>You can control the switch with the value and onChange props:</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
