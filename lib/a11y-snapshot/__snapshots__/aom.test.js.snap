@@ -16019,6 +16019,754 @@ exports[`firefox /components/button-group/ 1`] = `
 <landmark>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
+    Button
+    <text>Button</text>
+  </heading>
+  <paragraph>
+    <text>
+      Buttons allow users to take actions, and make choices, with a single tap.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Buttons communicate actions that users can take. They are typically placed
+      throughout your UI, in places like:
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      Dialogs
+      <text>Dialogs</text>
+    </listitem>
+    <listitem>
+      Modal windows
+      <text>Modal windows</text>
+    </listitem>
+    <listitem>
+      Forms
+      <text>Forms</text>
+    </listitem>
+    <listitem>
+      Cards
+      <text>Cards</text>
+    </listitem>
+    <listitem>
+      Toolbars
+      <text>Toolbars</text>
+    </listitem>
+  </list>
+  <list>
+    <listitem>
+      Feedback
+      <link>Feedback</link>
+    </listitem>
+    <listitem>
+      WAI-ARIA
+      <link>WAI-ARIA</link>
+    </listitem>
+    <listitem>
+      Scroll down to 'Exports Analysis' for a more detailed report.
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem>
+      Material Design
+      <link>Material Design</link>
+    </listitem>
+    <listitem>
+      Figma
+      <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Contained buttons
+    <link></link>
+    <text>Contained buttons</text>
+  </heading>
+  <paragraph>
+    <link>Contained buttons</link>
+    <text>
+      are high-emphasis, distinguished by their use of elevation and fill. They
+      contain actions that are primary to your app.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    PRIMARY
+    <text>PRIMARY</text>
+  </button>
+  <button>
+    SECONDARY
+    <text>SECONDARY</text>
+  </button>
+  <button disabled="true">
+    DISABLED
+    <text>DISABLED</text>
+  </button>
+  <link>LINK</link>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Button variant="contained">Primary</Button>
+    <Button variant="contained" color="secondary">
+    Secondary </Button> <Button variant="contained"
+    disabled> Disabled </Button> <Button
+    variant="contained" href="#contained-buttons"> Link
+    </Button>
+  </text>
+  <paragraph>
+    <text>You can remove the elevation with the disableElevation prop.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    DISABLE ELEVATION
+    <text>DISABLE ELEVATION</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Button variant="contained" disableElevation> Disable
+    elevation </Button>
+  </text>
+  <heading level="2">
+    Text buttons
+    <link></link>
+    <text>Text buttons</text>
+  </heading>
+  <paragraph>
+    <link>Text buttons</link>
+    <text>
+      are typically used for less-pronounced actions, including those located:
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      In dialogs
+      <text>In dialogs</text>
+    </listitem>
+    <listitem>
+      In cards
+      <text>In cards</text>
+    </listitem>
+  </list>
+  <paragraph>
+    <text>
+      In cards, text buttons help maintain an emphasis on card content.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    PRIMARY
+    <text>PRIMARY</text>
+  </button>
+  <button>
+    SECONDARY
+    <text>SECONDARY</text>
+  </button>
+  <button disabled="true">
+    DISABLED
+    <text>DISABLED</text>
+  </button>
+  <link>LINK</link>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Button>Primary</Button> <Button
+    color="secondary">Secondary</Button> <Button
+    disabled>Disabled</Button> <Button
+    href="#text-buttons">Link</Button>
+  </text>
+  <heading level="2">
+    Outlined buttons
+    <link></link>
+    <text>Outlined buttons</text>
+  </heading>
+  <paragraph>
+    <link>Outlined buttons</link>
+    <text>
+      are medium-emphasis buttons. They contain actions that are important, but
+      aren't the primary action in an app.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Outlined buttons are also a lower emphasis alternative to contained
+      buttons, or a higher emphasis alternative to text buttons.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    PRIMARY
+    <text>PRIMARY</text>
+  </button>
+  <button>
+    SECONDARY
+    <text>SECONDARY</text>
+  </button>
+  <button disabled="true">
+    DISABLED
+    <text>DISABLED</text>
+  </button>
+  <link>LINK</link>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Button variant="outlined">Primary</Button> <Button
+    variant="outlined" color="secondary"> Secondary
+    </Button> <Button variant="outlined" disabled>
+    Disabled </Button> <Button variant="outlined"
+    href="#outlined-buttons"> Link </Button>
+  </text>
+  <heading level="2">
+    Handling clicks
+    <link></link>
+    <text>Handling clicks</text>
+  </heading>
+  <paragraph>
+    <text>
+      All components accept an onClick handler that is applied to the root DOM
+      element.
+    </text>
+  </paragraph>
+  <text>
+    <Button onClick={() => { alert('clicked');
+    }} > Click me </Button>
+  </text>
+  <paragraph>
+    <text>Note that the documentation</text>
+    <link>avoids</link>
+    <text>
+      mentioning native props (there are a lot) in the API section of the
+      components.
+    </text>
+  </paragraph>
+  <heading level="2">
+    Upload button
+    <link></link>
+    <text>Upload button</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    UPLOAD
+    <button>
+      UPLOAD
+      <text>UPLOAD</text>
+    </button>
+  </label>
+  <label>
+    upload picture
+    <button>upload picture</button>
+  </label>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <label htmlFor="contained-button-file"> <Input
+    accept="image/*" id="contained-button-file" multiple
+    type="file" /> <Button variant="contained"
+    component="span"> Upload </Button> </label>
+    <label htmlFor="icon-button-file"> <Input
+    accept="image/*" id="icon-button-file"
+    type="file" /> <IconButton color="primary"
+    aria-label="upload picture" component="span">
+    <PhotoCamera /> </IconButton> </label>
+  </text>
+  <heading level="2">
+    Sizes
+    <link></link>
+    <text>Sizes</text>
+  </heading>
+  <paragraph>
+    <text>For larger or smaller buttons use the size prop.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    SMALL
+    <text>SMALL</text>
+  </button>
+  <button>
+    MEDIUM
+    <text>MEDIUM</text>
+  </button>
+  <button>
+    LARGE
+    <text>LARGE</text>
+  </button>
+  <button>
+    SMALL
+    <text>SMALL</text>
+  </button>
+  <button>
+    MEDIUM
+    <text>MEDIUM</text>
+  </button>
+  <button>
+    LARGE
+    <text>LARGE</text>
+  </button>
+  <button>
+    SMALL
+    <text>SMALL</text>
+  </button>
+  <button>
+    MEDIUM
+    <text>MEDIUM</text>
+  </button>
+  <button>
+    LARGE
+    <text>LARGE</text>
+  </button>
+  <button>delete</button>
+  <button>delete</button>
+  <button>delete</button>
+  <button>delete</button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Buttons with icons and label
+    <link></link>
+    <text>Buttons with icons and label</text>
+  </heading>
+  <paragraph>
+    <text>
+      Sometimes you might want to have icons for certain buttons to enhance the
+      UX of the application as we recognize logos more easily than plain text.
+      For example, if you have a delete button you can label it with a dustbin
+      icon.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    DELETE
+    <text>DELETE</text>
+  </button>
+  <button>
+    SEND
+    <text>SEND</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Button variant="outlined" startIcon={<DeleteIcon
+    />}> Delete </Button> <Button
+    variant="contained" endIcon={<SendIcon />}>
+    Send </Button>
+  </text>
+  <heading level="2">
+    Icon button
+    <link></link>
+    <text>Icon button</text>
+  </heading>
+  <paragraph>
+    <text>Icon buttons are commonly found in app bars and toolbars.</text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Icons are also appropriate for toggle buttons that allow a single choice
+      to be selected or deselected, such as adding or removing a star to an
+      item.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>delete</button>
+  <button disabled="true">delete</button>
+  <button>add an alarm</button>
+  <button>add to shopping cart</button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <IconButton aria-label="delete"> <DeleteIcon />
+    </IconButton> <IconButton aria-label="delete" disabled
+    color="primary"> <DeleteIcon /> </IconButton>
+    <IconButton color="secondary" aria-label="add an
+    alarm"> <AlarmIcon /> </IconButton> <IconButton
+    color="primary" aria-label="add to shopping cart">
+    <AddShoppingCartIcon /> </IconButton>
+  </text>
+  <heading level="2">
+    Customized buttons
+    <link></link>
+    <text>Customized buttons</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here are some examples of customizing the component. You can learn more
+      about this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    CUSTOM CSS
+    <text>CUSTOM CSS</text>
+  </button>
+  <button>
+    THEME PROVIDER
+    <text>THEME PROVIDER</text>
+  </button>
+  <button>
+    Bootstrap
+    <text>Bootstrap</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <paragraph>
+    <text>🎨 If you are looking for inspiration, you can check</text>
+    <link>MUI Treasury's customization examples</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    Loading buttons
+    <link></link>
+    <text>Loading buttons</text>
+  </heading>
+  <paragraph>
+    <text>
+      The loading buttons can show pending state and disable interactions.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button disabled="true">
+    50
+    <progressbar checked="mixed" value="50" valuetext="50">
+      <diagram></diagram>
+    </progressbar>
+  </button>
+  <button disabled="true">
+    LOADING...
+    <text>LOADING...</text>
+  </button>
+  <button disabled="true">
+    50 SAVE
+    <progressbar checked="mixed" value="50" valuetext="50">
+      <diagram></diagram>
+    </progressbar>
+    <text>SAVE</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <LoadingButton pending variant="outlined"> Submit
+    </LoadingButton> <LoadingButton pending
+    pendingIndicator="Loading..." variant="outlined">
+    Fetch data </LoadingButton> <LoadingButton pending
+    pendingPosition="start" startIcon={<SaveIcon />}
+    variant="outlined" > Save </LoadingButton>
+  </text>
+  <paragraph>
+    <text>
+      Toggle the switch to see the transition between the different states.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Pending
+    <checkbox>Pending</checkbox>
+    <text>Pending</text>
+  </label>
+  <button>
+    SUBMIT
+    <text>SUBMIT</text>
+  </button>
+  <button>
+    FETCH DATA
+    <text>FETCH DATA</text>
+  </button>
+  <button>
+    SEND
+    <text>SEND</text>
+  </button>
+  <button>
+    SAVE
+    <text>SAVE</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Complex buttons
+    <link></link>
+    <text>Complex buttons</text>
+  </heading>
+  <paragraph>
+    <text>
+      The Text Buttons, Contained Buttons, Floating Action Buttons and Icon
+      Buttons are built on top of the same component: the ButtonBase. You can
+      take advantage of this lower-level component to build custom interactions.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    Breakfast
+    <text>Breakfast</text>
+  </button>
+  <button>
+    Burgers
+    <text>Burgers</text>
+  </button>
+  <button>
+    Camera
+    <text>Camera</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Third-party routing library
+    <link></link>
+    <text>Third-party routing library</text>
+  </heading>
+  <paragraph>
+    <text>
+      One common use case is to use the button to trigger navigation to a new
+      page. The ButtonBase component provides the component prop to handle this
+      use case. However for certain focus polyfills ButtonBase requires the DOM
+      node of the provided component. This is achieved by attaching a ref to the
+      component and expecting that the component forwards this ref to the
+      underlying DOM node. Given that many of the interactive components rely on
+      ButtonBase, you should be able to take advantage of it everywhere.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>Here is an</text>
+    <link>integration example with react-router</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    Limitations
+    <link></link>
+    <text>Limitations</text>
+  </heading>
+  <heading level="3">
+    Cursor not-allowed
+    <link></link>
+    <text>Cursor not-allowed</text>
+  </heading>
+  <paragraph>
+    <text>
+      The ButtonBase component sets pointer-events: none; on disabled buttons,
+      which prevents the appearance of a disabled cursor.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>If you wish to use not-allowed, you have two options:</text>
+  </paragraph>
+  <list>
+    <listitem>
+      CSS only . You can remove the pointer events style on the disabled state
+      of the <button> element:
+      <text>
+        CSS only. You can remove the pointer events style on the disabled state
+        of the <button> element:
+      </text>
+    </listitem>
+  </list>
+  <text>
+    .MuiButtonBase-root:disabled { cursor: not-allowed; pointer-events:
+    auto; }
+  </text>
+  <paragraph>
+    <text>However:</text>
+  </paragraph>
+  <list>
+    <listitem>
+      You should add pointer-events: none; back when you need to display
+      tooltips on disabled elements .
+      <text>
+        You should add pointer-events: none; back when you need to display
+      </text>
+      <link>tooltips on disabled elements</link>
+      <text>.</text>
+    </listitem>
+    <listitem>
+      The cursor won't change if you render something other than a button
+      element, for instance, a link <a> element.
+      <text>
+        The cursor won't change if you render something other than a button
+        element, for instance, a link <a> element.
+      </text>
+    </listitem>
+  </list>
+  <list>
+    <listitem>
+      DOM change . You can wrap the button:
+      <text>DOM change. You can wrap the button:</text>
+    </listitem>
+  </list>
+  <text>
+    <span style={{ cursor: 'not-allowed' }}>
+    <Button component={Link} disabled> disabled </Button>
+    </span>
+  </text>
+  <paragraph>
+    <text>
+      This has the advantage of supporting any element, for instance, a link
+      <a> element.
+    </text>
+  </paragraph>
+  <heading level="2">
+    API
+    <link></link>
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem>
+      <Button />
+      <link><Button /></link>
+    </listitem>
+    <listitem>
+      <ButtonBase />
+      <link><ButtonBase /></link>
+    </listitem>
+    <listitem>
+      <IconButton />
+      <link><IconButton /></link>
+    </listitem>
+    <listitem>
+      <LoadingButton />
+      <link><LoadingButton /></link>
+    </listitem>
+  </list>
+  <separator></separator>
+  <link>Autocomplete</link>
+  <group>
+    Was this page helpful?
+    <text>Was this page helpful?</text>
+    <togglebutton>Yes</togglebutton>
+    <togglebutton>No</togglebutton>
+  </group>
+  <link>Button Group</link>
+</landmark>;
+
+`;
+
+exports[`firefox /components/button-group/ 2`] = `
+<landmark>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
     Button group
     <text>Button group</text>
   </heading>
