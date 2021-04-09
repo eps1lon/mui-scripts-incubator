@@ -261,7 +261,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.29. View versions page.</link>
+      <link>v5.0.0-alpha.28. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -8499,91 +8499,13 @@ exports[`chromium /components/slider 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
-  <heading level="3">
-    Minimum distance
-    <Anchor></Anchor>
-    <text>Minimum distance</text>
-  </heading>
-  <paragraph>
-    <text>You can enforce a minimum distance between values in the</text>
-    <code>$SOME_CODE</code>
-    <text>
-      event handler. By default, when you move the pointer over a thumb while
-      dragging another thumb, the active thumb will swap to the hovered thumb.
-      You can disable this behavior with the
-    </text>
-    <code>$SOME_CODE</code>
-    <text>
-      prop. If you want the range to shift when reaching minimum distance, you
-      can utilize the
-    </text>
-    <code>$SOME_CODE</code>
-    <text>parameter in</text>
-    <code>$SOME_CODE</code>
-    <text>.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <paragraph>
-    <text>Minimum distance</text>
-  </paragraph>
-  <slider
-    orientation="horizontal"
-    value="20"
-    valuemax="100"
-    valuemin="0"
-    valuetext="20°C"
-  >
-    Minimum distance
-  </slider>
-  <slider
-    orientation="horizontal"
-    value="37"
-    valuemax="100"
-    valuemin="0"
-    valuetext="37°C"
-  >
-    Minimum distance
-  </slider>
-  <paragraph>
-    <text>Minimum distance shift</text>
-  </paragraph>
-  <slider
-    orientation="horizontal"
-    value="20"
-    valuemax="100"
-    valuemin="0"
-    valuetext="20°C"
-  >
-    Minimum distance shift
-  </slider>
-  <slider
-    orientation="horizontal"
-    value="37"
-    valuemax="100"
-    valuemin="0"
-    valuetext="37°C"
-  >
-    Minimum distance shift
-  </slider>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
   <heading level="2">
     Slider with input field
     <Anchor></Anchor>
     <text>Slider with input field</text>
   </heading>
   <paragraph>
-    <text>In this example, an input allows a discrete value to be set.</text>
+    <text>In this example an input allows a discrete value to be set.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -13958,7 +13880,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.29. View versions page.</link>
+      <link>v5.0.0-alpha.28. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -17355,9 +17277,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <text>Controlled</text>
   </heading>
   <paragraph>
-    <text>
-      You can control the checkbox with the checked and onChange props:
-    </text>
+    <text>You can control the checkbox with the value and onChange props:</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -22651,59 +22571,13 @@ exports[`firefox /components/slider 1`] = `
     aria-labelledby="range-slider-demo"
     getAriaValueText={valuetext} />
   </text>
-  <heading level="3">
-    Minimum distance
-    <link></link>
-    <text>Minimum distance</text>
-  </heading>
-  <paragraph>
-    <text>
-      You can enforce a minimum distance between values in the onChange event
-      handler. By default, when you move the pointer over a thumb while dragging
-      another thumb, the active thumb will swap to the hovered thumb. You can
-      disable this behavior with the disableSwap prop. If you want the range to
-      shift when reaching minimum distance, you can utilize the activeThumb
-      parameter in onChange.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <paragraph>
-    <text>Minimum distance</text>
-  </paragraph>
-  <slider orientation="horizontal" value="20°C" valuetext="20°C">
-    Minimum distance
-  </slider>
-  <slider orientation="horizontal" value="37°C" valuetext="37°C">
-    Minimum distance
-  </slider>
-  <paragraph>
-    <text>Minimum distance shift</text>
-  </paragraph>
-  <slider orientation="horizontal" value="20°C" valuetext="20°C">
-    Minimum distance shift
-  </slider>
-  <slider orientation="horizontal" value="37°C" valuetext="37°C">
-    Minimum distance shift
-  </slider>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
   <heading level="2">
     Slider with input field
     <link></link>
     <text>Slider with input field</text>
   </heading>
   <paragraph>
-    <text>In this example, an input allows a discrete value to be set.</text>
+    <text>In this example an input allows a discrete value to be set.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -23261,7 +23135,7 @@ exports[`firefox /components/switches/ 1`] = `
     <text>Controlled</text>
   </heading>
   <paragraph>
-    <text>You can control the switch with the checked and onChange props:</text>
+    <text>You can control the switch with the value and onChange props:</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
