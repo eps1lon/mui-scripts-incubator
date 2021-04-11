@@ -7269,23 +7269,49 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">8 Stars</radio>
   <radio checked="false">9 Stars</radio>
   <radio checked="false">10 Stars</radio>
-  <Legend>
-    <text>Custom icon set</text>
-  </Legend>
-  <radio checked="false">Very Dissatisfied</radio>
-  <radio checked="true">Dissatisfied</radio>
-  <radio checked="false">Neutral</radio>
-  <radio checked="false">Satisfied</radio>
-  <radio checked="false">Very Satisfied</radio>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Radio group
+    <Anchor></Anchor>
+    <text>Radio group</text>
+  </heading>
+  <paragraph>
+    <text>The rating is implemented with a radio group, set</text>
+    <code>$SOME_CODE</code>
+    <text>to restore the natural behavior.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <radio checked="false">1 Star</radio>
+  <radio checked="true">2 Stars</radio>
+  <radio checked="false">3 Stars</radio>
+  <radio checked="false">4 Stars</radio>
+  <radio checked="false">5 Stars</radio>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Accessibility
     <Anchor></Anchor>
@@ -21362,44 +21388,81 @@ exports[`firefox /components/rating/ 1`] = `
     <text>10 Stars</text>
   </label>
   <radio>10 Stars</radio>
-  <label>
-    Custom icon set
-    <text>Custom icon set</text>
-  </label>
-  <label>
-    Very Dissatisfied
-    <text>Very Dissatisfied</text>
-  </label>
-  <radio>Very Dissatisfied</radio>
-  <label>
-    Dissatisfied
-    <text>Dissatisfied</text>
-  </label>
-  <radio checked="true">Dissatisfied</radio>
-  <label>
-    Neutral
-    <text>Neutral</text>
-  </label>
-  <radio>Neutral</radio>
-  <label>
-    Satisfied
-    <text>Satisfied</text>
-  </label>
-  <radio>Satisfied</radio>
-  <label>
-    Very Satisfied
-    <text>Very Satisfied</text>
-  </label>
-  <radio>Very Satisfied</radio>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <Typography component="legend">Custom icon and
+    color</Typography> <StyledRating name="customized-color"
+    defaultValue={2} getLabelText={(value) =>
+    \`\${value} Heart\${value !== 1 ? 's' :
+    ''}\`} precision={0.5}
+    icon={<FavoriteIcon fontSize="inherit" />}
+    emptyIcon={<FavoriteBorderIcon fontSize="inherit"
+    />} /> <Typography component="legend">10
+    stars</Typography> <Rating name="customized-10"
+    defaultValue={2} max={10} />
+  </text>
+  <heading level="2">
+    Radio group
+    <link></link>
+    <text>Radio group</text>
+  </heading>
+  <paragraph>
+    <text>
+      The rating is implemented with a radio group, set highlightSelectedOnly to
+      restore the natural behavior.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    1 Star
+    <text>1 Star</text>
+  </label>
+  <radio>1 Star</radio>
+  <label>
+    2 Stars
+    <text>2 Stars</text>
+  </label>
+  <radio checked="true">2 Stars</radio>
+  <label>
+    3 Stars
+    <text>3 Stars</text>
+  </label>
+  <radio>3 Stars</radio>
+  <label>
+    4 Stars
+    <text>4 Stars</text>
+  </label>
+  <radio>4 Stars</radio>
+  <label>
+    5 Stars
+    <text>5 Stars</text>
+  </label>
+  <radio>5 Stars</radio>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Rating name="highlight-selected-only"
+    defaultValue={2} IconContainerComponent={IconContainer}
+    highlightSelectedOnly />
+  </text>
   <heading level="2">
     Accessibility
     <link></link>
