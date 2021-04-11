@@ -7269,49 +7269,23 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">8 Stars</radio>
   <radio checked="false">9 Stars</radio>
   <radio checked="false">10 Stars</radio>
+  <Legend>
+    <text>Custom icon set</text>
+  </Legend>
+  <radio checked="false">Very Dissatisfied</radio>
+  <radio checked="true">Dissatisfied</radio>
+  <radio checked="false">Neutral</radio>
+  <radio checked="false">Satisfied</radio>
+  <radio checked="false">Very Satisfied</radio>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
-    Radio group
-    <Anchor></Anchor>
-    <text>Radio group</text>
-  </heading>
-  <paragraph>
-    <text>The rating is implemented with a radio group, set</text>
-    <code>$SOME_CODE</code>
-    <text>to restore the natural behavior.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <radio checked="false">1 Star</radio>
-  <radio checked="true">2 Stars</radio>
-  <radio checked="false">3 Stars</radio>
-  <radio checked="false">4 Stars</radio>
-  <radio checked="false">5 Stars</radio>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Accessibility
     <Anchor></Anchor>
@@ -10582,20 +10556,20 @@ exports[`chromium /components/text-fields/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    TextField
+    Basic TextField
     <Anchor></Anchor>
-    <text>TextField</text>
+    <text>Basic TextField</text>
   </heading>
   <paragraph>
     <text>The</text>
     <code>$SOME_CODE</code>
     <text>
-      wrapper component is a complete form control including a label, input and
+      wrapper component is a complete form control including a label, input, and
       help text.
     </text>
   </paragraph>
   <paragraph>
-    <text>It supports standard, outlined and filled styling.</text>
+    <text>It supports standard, outlined, and filled styling.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -10823,7 +10797,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   <paragraph>
     <text>The</text>
     <code>$SOME_CODE</code>
-    <text>prop toggles the error state, the</text>
+    <text>prop toggles the error state. The</text>
     <code>$SOME_CODE</code>
     <text>
       prop can then be used to provide feedback to the user about the error.
@@ -11129,10 +11103,10 @@ exports[`chromium /components/text-fields/ 1`] = `
   <text> ​</text>
   <textbox>TextField</textbox>
   <Label>
-    <text>With a grid</text>
+    <text>With sx</text>
   </Label>
   <text> </text>
-  <textbox>With a grid</textbox>
+  <textbox>With sx</textbox>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -11151,8 +11125,8 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>The main way is with an</text>
     <code>$SOME_CODE</code>
     <text>
-      . This can be used to add a prefix, a suffix or an action to an input. For
-      instance, you can use an icon button to hide or reveal the password.
+      . This can be used to add a prefix, a suffix, or an action to an input.
+      For instance, you can use an icon button to hide or reveal the password.
     </text>
   </paragraph>
   <button>
@@ -11524,9 +11498,9 @@ exports[`chromium /components/text-fields/ 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
-    Uncontrolled vs Controlled
+    Uncontrolled vs. Controlled
     <Anchor></Anchor>
-    <text>Uncontrolled vs Controlled</text>
+    <text>Uncontrolled vs. Controlled</text>
   </heading>
   <paragraph>
     <text>The component can be controlled or uncontrolled.</text>
@@ -11550,48 +11524,19 @@ exports[`chromium /components/text-fields/ 1`] = `
       Uncontrolled
       <text>foo</text>
     </textbox>
-    <Label>
-      <text>Name</text>
-    </Label>
-    <text> </text>
-    <textbox value="Cat in the Hat">
-      Name
-      <text>Cat in the Hat</text>
-    </textbox>
-    <Label>
-      <text>Uncontrolled</text>
-    </Label>
-    <text> </text>
-    <textbox value="foo">
-      Uncontrolled
-      <text>foo</text>
-    </textbox>
-    <Label>
-      <text>Name</text>
-    </Label>
-    <text> </text>
-    <textbox value="Cat in the Hat">
-      Name
-      <text>Cat in the Hat</text>
-    </textbox>
-    <Label>
-      <text>Uncontrolled</text>
-    </Label>
-    <text> </text>
-    <textbox value="foo">
-      Uncontrolled
-      <text>foo</text>
-    </textbox>
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Components
     <Anchor></Anchor>
@@ -11642,7 +11587,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <code>$SOME_CODE</code>
     <text>
       component. This is on purpose. The component takes care of the most used
-      properties, then it's up to the user to use the underlying component
+      properties. Then, it's up to the user to use the underlying component
       shown in the following demo. Still, you can use
     </text>
     <code>$SOME_CODE</code>
@@ -11756,13 +11701,16 @@ exports[`chromium /components/text-fields/ 1`] = `
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Color
     <Anchor></Anchor>
@@ -11859,7 +11807,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   </toolbar>
   <paragraph>
     <text>
-      Customization does not stop at CSS, you can use composition to build
+      Customization does not stop at CSS. You can use composition to build
       custom components and give your app a unique feel. Below is an example
       using the
     </text>
@@ -11938,9 +11886,9 @@ exports[`chromium /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      The floating label is absolutely positioned, it won't impact the
-      layout of the page. You need to make sure that the input is larger than
-      the label to display correctly.
+      The floating label is absolutely positioned. It won't impact the
+      layout of the page. Make sure that the input is larger than the label to
+      display correctly.
     </text>
   </paragraph>
   <heading level="3">
@@ -12007,7 +11955,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   <Label>
     <text>Name</text>
   </Label>
-  <text> </text>
   <textbox description="Please enter your name">Name</textbox>
   <paragraph>
     <text>Please enter your name</text>
@@ -12015,7 +11962,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   <Label>
     <text>Name</text>
   </Label>
-  <text> </text>
   <textbox>Name</textbox>
   <toolbar>
     demo source
@@ -12041,7 +11987,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   <Label>
     <text>Name</text>
   </Label>
-  <text> </text>
   <textbox description="Please enter your name">Name</textbox>
   <paragraph>
     <text>Please enter your name</text>
@@ -12049,7 +11994,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   <Label>
     <text>Name</text>
   </Label>
-  <text> </text>
   <textbox description="​">Name</textbox>
   <paragraph>
     <text>​</text>
@@ -12168,7 +12112,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      For more advanced use cases you might be able to take advantage of:
+      For more advanced use cases, you might be able to take advantage of:
     </text>
   </paragraph>
   <list>
@@ -17381,9 +17325,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <text>Controlled</text>
   </heading>
   <paragraph>
-    <text>
-      You can control the checkbox with the checked and onChange props:
-    </text>
+    <text>You can control the checkbox with the value and onChange props:</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -21388,81 +21330,44 @@ exports[`firefox /components/rating/ 1`] = `
     <text>10 Stars</text>
   </label>
   <radio>10 Stars</radio>
+  <label>
+    Custom icon set
+    <text>Custom icon set</text>
+  </label>
+  <label>
+    Very Dissatisfied
+    <text>Very Dissatisfied</text>
+  </label>
+  <radio>Very Dissatisfied</radio>
+  <label>
+    Dissatisfied
+    <text>Dissatisfied</text>
+  </label>
+  <radio checked="true">Dissatisfied</radio>
+  <label>
+    Neutral
+    <text>Neutral</text>
+  </label>
+  <radio>Neutral</radio>
+  <label>
+    Satisfied
+    <text>Satisfied</text>
+  </label>
+  <radio>Satisfied</radio>
+  <label>
+    Very Satisfied
+    <text>Very Satisfied</text>
+  </label>
+  <radio>Very Satisfied</radio>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Typography component="legend">Custom icon and
-    color</Typography> <StyledRating name="customized-color"
-    defaultValue={2} getLabelText={(value) =>
-    \`\${value} Heart\${value !== 1 ? 's' :
-    ''}\`} precision={0.5}
-    icon={<FavoriteIcon fontSize="inherit" />}
-    emptyIcon={<FavoriteBorderIcon fontSize="inherit"
-    />} /> <Typography component="legend">10
-    stars</Typography> <Rating name="customized-10"
-    defaultValue={2} max={10} />
-  </text>
-  <heading level="2">
-    Radio group
-    <link></link>
-    <text>Radio group</text>
-  </heading>
-  <paragraph>
-    <text>
-      The rating is implemented with a radio group, set highlightSelectedOnly to
-      restore the natural behavior.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <label>
-    1 Star
-    <text>1 Star</text>
-  </label>
-  <radio>1 Star</radio>
-  <label>
-    2 Stars
-    <text>2 Stars</text>
-  </label>
-  <radio checked="true">2 Stars</radio>
-  <label>
-    3 Stars
-    <text>3 Stars</text>
-  </label>
-  <radio>3 Stars</radio>
-  <label>
-    4 Stars
-    <text>4 Stars</text>
-  </label>
-  <radio>4 Stars</radio>
-  <label>
-    5 Stars
-    <text>5 Stars</text>
-  </label>
-  <radio>5 Stars</radio>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Rating name="highlight-selected-only"
-    defaultValue={2} IconContainerComponent={IconContainer}
-    highlightSelectedOnly />
-  </text>
   <heading level="2">
     Accessibility
     <link></link>
@@ -23324,7 +23229,7 @@ exports[`firefox /components/switches/ 1`] = `
     <text>Controlled</text>
   </heading>
   <paragraph>
-    <text>You can control the switch with the checked and onChange props:</text>
+    <text>You can control the switch with the value and onChange props:</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -24695,18 +24600,18 @@ exports[`firefox /components/text-fields/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    TextField
+    Basic TextField
     <link></link>
-    <text>TextField</text>
+    <text>Basic TextField</text>
   </heading>
   <paragraph>
     <text>
       The TextField wrapper component is a complete form control including a
-      label, input and help text.
+      label, input, and help text.
     </text>
   </paragraph>
   <paragraph>
-    <text>It supports standard, outlined and filled styling.</text>
+    <text>It supports standard, outlined, and filled styling.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -24741,12 +24646,10 @@ exports[`firefox /components/text-fields/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <form className={classes.root} noValidate
-    autoComplete="off"> <TextField id="outlined-basic"
-    label="Outlined" /> <TextField id="filled-basic"
-    label="Filled" variant="filled" /> <TextField
-    id="standard-basic" label="Standard"
-    variant="standard" /> </form>
+    <TextField id="outlined-basic" label="Outlined" />
+    <TextField id="filled-basic" label="Filled"
+    variant="filled" /> <TextField id="standard-basic"
+    label="Standard" variant="standard" />
   </text>
   <paragraph>
     <text>
@@ -24955,7 +24858,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      The error prop toggles the error state, the helperText prop can then be
+      The error prop toggles the error state. The helperText prop can then be
       used to provide feedback to the user about the error.
     </text>
   </paragraph>
@@ -25304,11 +25207,11 @@ exports[`firefox /components/text-fields/ 1`] = `
   <text>​</text>
   <textbox>TextField</textbox>
   <label>
-    With a grid
-    <text>With a grid</text>
+    With sx
+    <text>With sx</text>
   </label>
   <statictext> </statictext>
-  <textbox>With a grid</textbox>
+  <textbox>With sx</textbox>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -25326,7 +25229,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   <paragraph>
     <text>
       The main way is with an InputAdornment. This can be used to add a prefix,
-      a suffix or an action to an input. For instance, you can use an icon
+      a suffix, or an action to an input. For instance, you can use an icon
       button to hide or reveal the password.
     </text>
   </paragraph>
@@ -25716,9 +25619,9 @@ exports[`firefox /components/text-fields/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Uncontrolled vs Controlled
+    Uncontrolled vs. Controlled
     <link></link>
-    <text>Uncontrolled vs Controlled</text>
+    <text>Uncontrolled vs. Controlled</text>
   </heading>
   <paragraph>
     <text>The component can be controlled or uncontrolled.</text>
@@ -25744,52 +25647,22 @@ exports[`firefox /components/text-fields/ 1`] = `
       Uncontrolled
       <text>foo</text>
     </textbox>
-    <label>
-      Name
-      <text>Name</text>
-    </label>
-    <statictext> </statictext>
-    <textbox value="Cat in the Hat">
-      Name
-      <text>Cat in the Hat</text>
-    </textbox>
-    <label>
-      Uncontrolled
-      <text>Uncontrolled</text>
-    </label>
-    <statictext> </statictext>
-    <textbox value="foo">
-      Uncontrolled
-      <text>foo</text>
-    </textbox>
-    <label>
-      Name
-      <text>Name</text>
-    </label>
-    <statictext> </statictext>
-    <textbox value="Cat in the Hat">
-      Name
-      <text>Cat in the Hat</text>
-    </textbox>
-    <label>
-      Uncontrolled
-      <text>Uncontrolled</text>
-    </label>
-    <statictext> </statictext>
-    <textbox value="foo">
-      Uncontrolled
-      <text>foo</text>
-    </textbox>
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <TextField id="outlined-name" label="Name"
+    value={name} onChange={handleChange} /> <TextField
+    id="outlined-uncontrolled" label="Uncontrolled"
+    defaultValue="foo" />
+  </text>
   <heading level="2">
     Components
     <link></link>
@@ -25817,7 +25690,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>
       You might also have noticed that some native HTML input properties are
       missing from the TextField component. This is on purpose. The component
-      takes care of the most used properties, then it's up to the user to
+      takes care of the most used properties. Then, it's up to the user to
       use the underlying component shown in the following demo. Still, you can
       use inputProps (and InputProps, InputLabelProps properties) if you want to
       avoid some boilerplate.
@@ -25933,13 +25806,21 @@ exports[`firefox /components/text-fields/ 1`] = `
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <Input defaultValue="Hello world"
+    inputProps={ariaLabel} /> <Input
+    placeholder="Placeholder" inputProps={ariaLabel} />
+    <Input disabled defaultValue="Disabled"
+    inputProps={ariaLabel} /> <Input
+    defaultValue="Error" error inputProps={ariaLabel} />
+  </text>
   <heading level="2">
     Color
     <link></link>
@@ -26041,7 +25922,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <paragraph>
     <text>
-      Customization does not stop at CSS, you can use composition to build
+      Customization does not stop at CSS. You can use composition to build
       custom components and give your app a unique feel. Below is an example
       using the
     </text>
@@ -26115,9 +25996,9 @@ exports[`firefox /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      The floating label is absolutely positioned, it won't impact the
-      layout of the page. You need to make sure that the input is larger than
-      the label to display correctly.
+      The floating label is absolutely positioned. It won't impact the
+      layout of the page. Make sure that the input is larger than the label to
+      display correctly.
     </text>
   </paragraph>
   <heading level="3">
@@ -26190,7 +26071,6 @@ exports[`firefox /components/text-fields/ 1`] = `
     Name
     <text>Name</text>
   </label>
-  <statictext> </statictext>
   <textbox description="Please enter your name">Name</textbox>
   <paragraph>
     <text>Please enter your name</text>
@@ -26199,7 +26079,6 @@ exports[`firefox /components/text-fields/ 1`] = `
     Name
     <text>Name</text>
   </label>
-  <statictext> </statictext>
   <textbox>Name</textbox>
   <toolbar>
     demo source
@@ -26212,10 +26091,9 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <text>
     <TextField helperText="Please enter your name"
-    id="demo-helper-text-misaligned" label="Name"
-    variant="standard" /> <TextField
-    id="demo-helper-text-misaligned-no-helper" label="Name"
-    variant="standard" />
+    id="demo-helper-text-misaligned" label="Name" />
+    <TextField id="demo-helper-text-misaligned-no-helper"
+    label="Name" />
   </text>
   <paragraph>
     <text>
@@ -26230,7 +26108,6 @@ exports[`firefox /components/text-fields/ 1`] = `
     Name
     <text>Name</text>
   </label>
-  <statictext> </statictext>
   <textbox description="Please enter your name">Name</textbox>
   <paragraph>
     <text>Please enter your name</text>
@@ -26239,7 +26116,6 @@ exports[`firefox /components/text-fields/ 1`] = `
     Name
     <text>Name</text>
   </label>
-  <statictext> </statictext>
   <textbox description="​">Name</textbox>
   <paragraph>
     <text>​</text>
@@ -26255,10 +26131,10 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <text>
     <TextField helperText="Please enter your name"
-    id="demo-helper-text-aligned" label="Name"
-    variant="standard" /> <TextField helperText=" "
+    id="demo-helper-text-aligned" label="Name" />
+    <TextField helperText=" "
     id="demo-helper-text-aligned-no-helper" label="Name"
-    variant="standard" />
+    />
   </text>
   <heading level="2">
     Integration with 3rd party input libraries
@@ -26377,7 +26253,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      For more advanced use cases you might be able to take advantage of:
+      For more advanced use cases, you might be able to take advantage of:
     </text>
   </paragraph>
   <list>
