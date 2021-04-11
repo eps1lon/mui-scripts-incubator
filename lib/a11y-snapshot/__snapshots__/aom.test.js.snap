@@ -23084,6 +23084,758 @@ exports[`firefox /components/switches/ 1`] = `
 <landmark>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
+    Slider
+    <text>Slider</text>
+  </heading>
+  <paragraph>
+    <text>Sliders allow users to make selections from a range of values.</text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Sliders reflect a range of values along a bar, from which users may select
+      a single value. They are ideal for adjusting settings such as volume,
+      brightness, or applying image filters.
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      📦 22 kB gzipped (but only +8 kB when used together with other Material-UI
+      components).
+      <text>📦</text>
+      <link>22 kB gzipped</link>
+      <text>
+        (but only +8 kB when used together with other Material-UI components).
+      </text>
+    </listitem>
+  </list>
+  <list>
+    <listitem>
+      Feedback
+      <link>Feedback</link>
+    </listitem>
+    <listitem>
+      WAI-ARIA
+      <link>WAI-ARIA</link>
+    </listitem>
+    <listitem>
+      Scroll down to 'Exports Analysis' for a more detailed report.
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem>
+      Material Design
+      <link>Material Design</link>
+    </listitem>
+    <listitem>
+      Figma
+      <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Continuous sliders
+    <link></link>
+    <text>Continuous sliders</text>
+  </heading>
+  <paragraph>
+    <text>
+      Continuous sliders allow users to select a value along a subjective range.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Volume</text>
+  </paragraph>
+  <slider orientation="horizontal" value="30" valuetext="30">
+    Volume
+  </slider>
+  <paragraph>
+    <text>Disabled slider</text>
+  </paragraph>
+  <slider disabled="true" orientation="horizontal" value="30" valuetext="30">
+    Disabled slider
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Discrete sliders
+    <link></link>
+    <text>Discrete sliders</text>
+  </heading>
+  <paragraph>
+    <text>
+      Discrete sliders can be adjusted to a specific value by referencing its
+      value indicator. By order of demos:
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      You can generate a mark for each step with marks={true}.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Temperature</text>
+  </paragraph>
+  <slider orientation="horizontal" value="30°C" valuetext="30°C">
+    Temperature
+  </slider>
+  <paragraph>
+    <text>Disabled</text>
+  </paragraph>
+  <slider
+    disabled="true"
+    orientation="horizontal"
+    value="30°C"
+    valuetext="30°C"
+  >
+    Disabled
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Small steps
+    <link></link>
+    <text>Small steps</text>
+  </heading>
+  <paragraph>
+    <text>You can change the default step increment.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Small steps</text>
+  </paragraph>
+  <slider orientation="horizontal" value="5e-8°C" valuetext="5e-8°C">
+    Small steps
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Typography id="discrete-slider-small-steps" gutterBottom>
+    Small steps </Typography> <Slider
+    defaultValue={0.00000005} getAriaValueText={valuetext}
+    aria-labelledby="discrete-slider-small-steps"
+    step={0.00000001} marks min={-0.00000005}
+    max={0.0000001} valueLabelDisplay="auto" />
+  </text>
+  <heading level="3">
+    Custom marks
+    <link></link>
+    <text>Custom marks</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can have custom marks by providing a rich array to the marks prop.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Custom marks</text>
+  </paragraph>
+  <slider orientation="horizontal" value="20°C" valuetext="20°C">
+    Custom marks
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Typography id="discrete-slider-custom" gutterBottom> Custom
+    marks </Typography> <Slider defaultValue={20}
+    getAriaValueText={valuetext}
+    aria-labelledby="discrete-slider-custom" step={10}
+    valueLabelDisplay="auto" marks={marks} />
+  </text>
+  <heading level="3">
+    Restricted values
+    <link></link>
+    <text>Restricted values</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can restrict the selectable values to those provided with the marks
+      prop with step={null}.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Restricted values</text>
+  </paragraph>
+  <slider orientation="horizontal" value="20°C" valuetext="20°C">
+    Restricted values
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Typography id="discrete-slider-restrict" gutterBottom>
+    Restricted values </Typography> <Slider defaultValue={20}
+    valueLabelFormat={valueLabelFormat}
+    getAriaValueText={valuetext}
+    aria-labelledby="discrete-slider-restrict" step={null}
+    valueLabelDisplay="auto" marks={marks} />
+  </text>
+  <heading level="3">
+    Label always visible
+    <link></link>
+    <text>Label always visible</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can force the thumb label to be always visible with
+      valueLabelDisplay="on".
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Always visible</text>
+  </paragraph>
+  <slider orientation="horizontal" value="80°C" valuetext="80°C">
+    Always visible
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Typography id="discrete-slider-always" gutterBottom> Always
+    visible </Typography> <Slider defaultValue={80}
+    getAriaValueText={valuetext}
+    aria-labelledby="discrete-slider-always" step={10}
+    marks={marks} valueLabelDisplay="on" />
+  </text>
+  <heading level="2">
+    Range slider
+    <link></link>
+    <text>Range slider</text>
+  </heading>
+  <paragraph>
+    <text>
+      The slider can be used to set the start and end of a range by supplying an
+      array of values to the value prop.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Temperature range</text>
+  </paragraph>
+  <slider orientation="horizontal" value="20°C" valuetext="20°C">
+    Temperature range
+  </slider>
+  <slider orientation="horizontal" value="37°C" valuetext="37°C">
+    Temperature range
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Typography id="range-slider-demo" gutterBottom> Temperature
+    range </Typography> <Slider value={value}
+    onChange={handleChange} valueLabelDisplay="auto"
+    aria-labelledby="range-slider-demo"
+    getAriaValueText={valuetext} />
+  </text>
+  <heading level="3">
+    Minimum distance
+    <link></link>
+    <text>Minimum distance</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can enforce a minimum distance between values in the onChange event
+      handler. By default, when you move the pointer over a thumb while dragging
+      another thumb, the active thumb will swap to the hovered thumb. You can
+      disable this behavior with the disableSwap prop. If you want the range to
+      shift when reaching minimum distance, you can utilize the activeThumb
+      parameter in onChange.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Minimum distance</text>
+  </paragraph>
+  <slider orientation="horizontal" value="20°C" valuetext="20°C">
+    Minimum distance
+  </slider>
+  <slider orientation="horizontal" value="37°C" valuetext="37°C">
+    Minimum distance
+  </slider>
+  <paragraph>
+    <text>Minimum distance shift</text>
+  </paragraph>
+  <slider orientation="horizontal" value="20°C" valuetext="20°C">
+    Minimum distance shift
+  </slider>
+  <slider orientation="horizontal" value="37°C" valuetext="37°C">
+    Minimum distance shift
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Slider with input field
+    <link></link>
+    <text>Slider with input field</text>
+  </heading>
+  <paragraph>
+    <text>In this example, an input allows a discrete value to be set.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Volume</text>
+  </paragraph>
+  <slider orientation="horizontal" value="30" valuetext="30">
+    Volume
+  </slider>
+  <statictext> </statictext>
+  <spinbutton value="30" valuetext="30">
+    Volume
+    <text>30</text>
+  </spinbutton>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Customized sliders
+    <link></link>
+    <text>Customized sliders</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here are some examples of customizing the component. You can learn more
+      about this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>iOS</text>
+  </paragraph>
+  <slider orientation="horizontal" value="60" valuetext="60">
+    ios slider
+  </slider>
+  <paragraph>
+    <text>pretto.fr</text>
+  </paragraph>
+  <slider orientation="horizontal" value="20" valuetext="20">
+    pretto slider
+  </slider>
+  <paragraph>
+    <text>Tooltip value label</text>
+  </paragraph>
+  <slider orientation="horizontal" value="20" valuetext="20">
+    custom thumb label
+  </slider>
+  <paragraph>
+    <text>Airbnb</text>
+  </paragraph>
+  <slider orientation="horizontal" value="20" valuetext="20">
+    Minimum price
+  </slider>
+  <slider orientation="horizontal" value="40" valuetext="40">
+    Maximum price
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Vertical sliders
+    <link></link>
+    <text>Vertical sliders</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Temperature</text>
+  </paragraph>
+  <slider orientation="vertical" value="30°C" valuetext="30°C">
+    Temperature
+  </slider>
+  <slider disabled="true" orientation="vertical" value="30°C" valuetext="30°C">
+    Temperature
+  </slider>
+  <slider orientation="vertical" value="20°C" valuetext="20°C">
+    Temperature
+  </slider>
+  <slider orientation="vertical" value="37°C" valuetext="37°C">
+    Temperature
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <paragraph>
+    <text>
+      WARNING: Chrome, Safari and newer Edge versions i.e. any browser based on
+      WebKit exposes <Slider orientation="vertical" /> as
+      horizontal (
+    </text>
+    <link>chromium issue #1158217</link>
+    <text>
+      ). By applying -webkit-appearance: slider-vertical; the slider is exposed
+      as vertical.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      However, by applying -webkit-appearance: slider-vertical; keyboard
+      navigation for horizontal keys (Arrow Left, Arrow Right) is reversed (
+    </text>
+    <link>chromium issue #1162640</link>
+    <text>
+      ). Usually, up and right should increase and left and down should decrease
+      the value. If you apply -webkit-appearance you could prevent keyboard
+      navigation for horizontal arrow keys for a truly vertical slider. This
+      might be less confusing to users compared to a change in direction.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Temperature</text>
+  </paragraph>
+  <slider orientation="vertical" value="30" valuetext="30">
+    Temperature
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Track
+    <link></link>
+    <text>Track</text>
+  </heading>
+  <paragraph>
+    <text>The track shows the range available for user selection.</text>
+  </paragraph>
+  <heading level="3">
+    Removed track
+    <link></link>
+    <text>Removed track</text>
+  </heading>
+  <paragraph>
+    <text>The track can be turned off with track={false}.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Removed track</text>
+  </paragraph>
+  <slider orientation="horizontal" value="30°C" valuetext="30°C">
+    Removed track
+  </slider>
+  <paragraph>
+    <text>Removed track range slider</text>
+  </paragraph>
+  <slider orientation="horizontal" value="20°C" valuetext="20°C">
+    Removed track range slider
+  </slider>
+  <slider orientation="horizontal" value="37°C" valuetext="37°C">
+    Removed track range slider
+  </slider>
+  <slider orientation="horizontal" value="50°C" valuetext="50°C">
+    Removed track range slider
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Inverted track
+    <link></link>
+    <text>Inverted track</text>
+  </heading>
+  <paragraph>
+    <text>The track can be inverted with track="inverted".</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Inverted track</text>
+  </paragraph>
+  <slider orientation="horizontal" value="30°C" valuetext="30°C">
+    Inverted track
+  </slider>
+  <paragraph>
+    <text>Inverted track range</text>
+  </paragraph>
+  <slider orientation="horizontal" value="20°C" valuetext="20°C">
+    Inverted track range
+  </slider>
+  <slider orientation="horizontal" value="37°C" valuetext="37°C">
+    Inverted track range
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Non-linear scale
+    <link></link>
+    <text>Non-linear scale</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can use the scale prop to represent the value on a different scale.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      In the following demo, the value x represents the value 2^x. Increasing x
+      by one increases the represented value by factor 2.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Storage: 1 MB</text>
+  </paragraph>
+  <slider orientation="horizontal" value="1 MB" valuetext="1 MB">
+    Storage: 1 MB
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Typography id="non-linear-slider" gutterBottom> Storage:
+    {valueLabelFormat(calculateValue(value))} </Typography>
+    <Slider value={value} min={5} step={1}
+    max={30} scale={calculateValue}
+    getAriaValueText={valueLabelFormat}
+    valueLabelFormat={valueLabelFormat}
+    onChange={handleChange} valueLabelDisplay="auto"
+    aria-labelledby="non-linear-slider" />
+  </text>
+  <heading level="2">
+    Unstyled slider
+    <link></link>
+    <text>Unstyled slider</text>
+  </heading>
+  <paragraph>
+    <text>
+      The slider also comes with an unstyled version. It's ideal for doing
+      heavy customizations and minimizing bundle size.
+    </text>
+  </paragraph>
+  <text>
+    import SliderUnstyled from '@material-ui/unstyled/SliderUnstyled';
+  </text>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <slider orientation="horizontal" value="10" valuetext="10"></slider>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text><StyledSlider defaultValue={10} /></text>
+  <heading level="2">
+    Accessibility
+    <link></link>
+    <text>Accessibility</text>
+  </heading>
+  <paragraph>
+    <text>(WAI-ARIA:</text>
+    <link>https://www.w3.org/TR/wai-aria-practices/#slider</link>
+    <text>)</text>
+  </paragraph>
+  <paragraph>
+    <text>
+      The component handles most of the work necessary to make it accessible.
+      However, you need to make sure that:
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      Each thumb has a user-friendly label ( aria-label , aria-labelledby or
+      getAriaLabel prop).
+      <text>
+        Each thumb has a user-friendly label (aria-label, aria-labelledby or
+        getAriaLabel prop).
+      </text>
+    </listitem>
+    <listitem>
+      Each thumb has a user-friendly text for its current value. This is not
+      required if the value matches the semantics of the label. You can change
+      the name with the getAriaValueText or aria-valuetext prop.
+      <text>
+        Each thumb has a user-friendly text for its current value. This is not
+        required if the value matches the semantics of the label. You can change
+        the name with the getAriaValueText or aria-valuetext prop.
+      </text>
+    </listitem>
+  </list>
+  <heading level="2">
+    API
+    <link></link>
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem>
+      <Slider />
+      <link><Slider /></link>
+    </listitem>
+    <listitem>
+      <SliderUnstyled />
+      <link><SliderUnstyled /></link>
+    </listitem>
+  </list>
+  <separator></separator>
+  <link>Select</link>
+  <group>
+    Was this page helpful?
+    <text>Was this page helpful?</text>
+    <togglebutton>Yes</togglebutton>
+    <togglebutton>No</togglebutton>
+  </group>
+  <link>Switch</link>
+</landmark>;
+
+`;
+
+exports[`firefox /components/switches/ 2`] = `
+<landmark>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
     Switch
     <text>Switch</text>
   </heading>
