@@ -261,7 +261,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.29. View versions page.</link>
+      <link>v5.0.0-alpha.30. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -1488,7 +1488,10 @@ exports[`chromium /api/select/ 1`] = `
         object
         <text>object</text>
       </gridcell>
-      <gridcell></gridcell>
+      <gridcell>
+        {}
+        <text>{}</text>
+      </gridcell>
       <gridcell>
         Override or extend the styles applied to the component. See CSS API
         below for more details.
@@ -1921,6 +1924,27 @@ exports[`chromium /api/select/ 1`] = `
     </row>
     <row>
       <gridcell>
+        sx
+        <text>sx</text>
+      </gridcell>
+      <gridcell>
+        object
+        <text>object</text>
+      </gridcell>
+      <gridcell></gridcell>
+      <gridcell>
+        The system prop that allows defining system overrides as well as
+        additional CSS styles. See the \`sx\` page for more details.
+        <text>
+          The system prop that allows defining system overrides as well as
+          additional CSS styles. See the
+        </text>
+        <link>\`sx\` page</link>
+        <text>for more details.</text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
         value
         <text>value</text>
       </gridcell>
@@ -2190,30 +2214,19 @@ exports[`chromium /api/select/ 1`] = `
   </text>
   <list>
     <listitem level="1">
-      <text>With a rule name of the</text>
-      <link>
-        classes object prop
-        <code>$SOME_CODE</code>
-      </link>
-      <text>.</text>
-    </listitem>
-    <listitem level="1">
       <text>With a</text>
       <link>global class name</link>
       <text>.</text>
     </listitem>
     <listitem level="1">
-      <text>With a theme and an</text>
+      <text>With a rule name as part of the component's</text>
       <link>
         styleOverrides property
         <code>$SOME_CODE</code>
       </link>
-      <text>.</text>
+      <text>in a custom theme.</text>
     </listitem>
   </list>
-  <text>If that isn't sufficient, you can check the</text>
-  <link>implementation of the component</link>
-  <text>for more detail.</text>
   <heading level="2">
     Demos
     <Anchor></Anchor>
@@ -10582,20 +10595,20 @@ exports[`chromium /components/text-fields/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    TextField
+    Basic TextField
     <Anchor></Anchor>
-    <text>TextField</text>
+    <text>Basic TextField</text>
   </heading>
   <paragraph>
     <text>The</text>
     <code>$SOME_CODE</code>
     <text>
-      wrapper component is a complete form control including a label, input and
+      wrapper component is a complete form control including a label, input, and
       help text.
     </text>
   </paragraph>
   <paragraph>
-    <text>It supports standard, outlined and filled styling.</text>
+    <text>It supports standard, outlined, and filled styling.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -10823,7 +10836,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   <paragraph>
     <text>The</text>
     <code>$SOME_CODE</code>
-    <text>prop toggles the error state, the</text>
+    <text>prop toggles the error state. The</text>
     <code>$SOME_CODE</code>
     <text>
       prop can then be used to provide feedback to the user about the error.
@@ -11129,10 +11142,10 @@ exports[`chromium /components/text-fields/ 1`] = `
   <text> ​</text>
   <textbox>TextField</textbox>
   <Label>
-    <text>With a grid</text>
+    <text>With sx</text>
   </Label>
   <text> </text>
-  <textbox>With a grid</textbox>
+  <textbox>With sx</textbox>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -11151,8 +11164,8 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>The main way is with an</text>
     <code>$SOME_CODE</code>
     <text>
-      . This can be used to add a prefix, a suffix or an action to an input. For
-      instance, you can use an icon button to hide or reveal the password.
+      . This can be used to add a prefix, a suffix, or an action to an input.
+      For instance, you can use an icon button to hide or reveal the password.
     </text>
   </paragraph>
   <button>
@@ -11524,9 +11537,9 @@ exports[`chromium /components/text-fields/ 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
-    Uncontrolled vs Controlled
+    Uncontrolled vs. Controlled
     <Anchor></Anchor>
-    <text>Uncontrolled vs Controlled</text>
+    <text>Uncontrolled vs. Controlled</text>
   </heading>
   <paragraph>
     <text>The component can be controlled or uncontrolled.</text>
@@ -11550,48 +11563,19 @@ exports[`chromium /components/text-fields/ 1`] = `
       Uncontrolled
       <text>foo</text>
     </textbox>
-    <Label>
-      <text>Name</text>
-    </Label>
-    <text> </text>
-    <textbox value="Cat in the Hat">
-      Name
-      <text>Cat in the Hat</text>
-    </textbox>
-    <Label>
-      <text>Uncontrolled</text>
-    </Label>
-    <text> </text>
-    <textbox value="foo">
-      Uncontrolled
-      <text>foo</text>
-    </textbox>
-    <Label>
-      <text>Name</text>
-    </Label>
-    <text> </text>
-    <textbox value="Cat in the Hat">
-      Name
-      <text>Cat in the Hat</text>
-    </textbox>
-    <Label>
-      <text>Uncontrolled</text>
-    </Label>
-    <text> </text>
-    <textbox value="foo">
-      Uncontrolled
-      <text>foo</text>
-    </textbox>
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Components
     <Anchor></Anchor>
@@ -11642,7 +11626,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     <code>$SOME_CODE</code>
     <text>
       component. This is on purpose. The component takes care of the most used
-      properties, then it's up to the user to use the underlying component
+      properties. Then, it's up to the user to use the underlying component
       shown in the following demo. Still, you can use
     </text>
     <code>$SOME_CODE</code>
@@ -11756,13 +11740,16 @@ exports[`chromium /components/text-fields/ 1`] = `
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Color
     <Anchor></Anchor>
@@ -11859,7 +11846,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   </toolbar>
   <paragraph>
     <text>
-      Customization does not stop at CSS, you can use composition to build
+      Customization does not stop at CSS. You can use composition to build
       custom components and give your app a unique feel. Below is an example
       using the
     </text>
@@ -11938,9 +11925,9 @@ exports[`chromium /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      The floating label is absolutely positioned, it won't impact the
-      layout of the page. You need to make sure that the input is larger than
-      the label to display correctly.
+      The floating label is absolutely positioned. It won't impact the
+      layout of the page. Make sure that the input is larger than the label to
+      display correctly.
     </text>
   </paragraph>
   <heading level="3">
@@ -12007,7 +11994,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   <Label>
     <text>Name</text>
   </Label>
-  <text> </text>
   <textbox description="Please enter your name">Name</textbox>
   <paragraph>
     <text>Please enter your name</text>
@@ -12015,7 +12001,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   <Label>
     <text>Name</text>
   </Label>
-  <text> </text>
   <textbox>Name</textbox>
   <toolbar>
     demo source
@@ -12041,7 +12026,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   <Label>
     <text>Name</text>
   </Label>
-  <text> </text>
   <textbox description="Please enter your name">Name</textbox>
   <paragraph>
     <text>Please enter your name</text>
@@ -12049,7 +12033,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   <Label>
     <text>Name</text>
   </Label>
-  <text> </text>
   <textbox description="​">Name</textbox>
   <paragraph>
     <text>​</text>
@@ -12168,7 +12151,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      For more advanced use cases you might be able to take advantage of:
+      For more advanced use cases, you might be able to take advantage of:
     </text>
   </paragraph>
   <list>
@@ -13984,7 +13967,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.29. View versions page.</link>
+      <link>v5.0.0-alpha.30. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -14957,7 +14940,9 @@ exports[`firefox /api/select/ 1`] = `
       <cell>
         <text>object</text>
       </cell>
-      <cell></cell>
+      <cell>
+        <text>{}</text>
+      </cell>
       <cell>
         <text>Override or extend the styles applied to the component. See</text>
         <link>CSS API</link>
@@ -15277,6 +15262,23 @@ exports[`firefox /api/select/ 1`] = `
     </row>
     <row>
       <cell>
+        <text>sx</text>
+      </cell>
+      <cell>
+        <text>object</text>
+      </cell>
+      <cell></cell>
+      <cell>
+        <text>
+          The system prop that allows defining system overrides as well as
+          additional CSS styles. See the
+        </text>
+        <link>\`sx\` page</link>
+        <text>for more details.</text>
+      </cell>
+    </row>
+    <row>
+      <cell>
         <text>value</text>
       </cell>
       <cell>
@@ -15492,26 +15494,18 @@ exports[`firefox /api/select/ 1`] = `
   </text>
   <list>
     <listitem>
-      With a rule name of the classes object prop .
-      <text>With a rule name of the</text>
-      <link>classes object prop</link>
-      <text>.</text>
-    </listitem>
-    <listitem>
       With a global class name .<text>With a</text>
       <link>global class name</link>
       <text>.</text>
     </listitem>
     <listitem>
-      With a theme and an styleOverrides property .
-      <text>With a theme and an</text>
+      With a rule name as part of the component's styleOverrides property
+      in a custom theme.
+      <text>With a rule name as part of the component's</text>
       <link>styleOverrides property</link>
-      <text>.</text>
+      <text>in a custom theme.</text>
     </listitem>
   </list>
-  <text>If that isn't sufficient, you can check the</text>
-  <link>implementation of the component</link>
-  <text>for more detail.</text>
   <heading level="2">
     Demos
     <link></link>
@@ -24695,18 +24689,18 @@ exports[`firefox /components/text-fields/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    TextField
+    Basic TextField
     <link></link>
-    <text>TextField</text>
+    <text>Basic TextField</text>
   </heading>
   <paragraph>
     <text>
       The TextField wrapper component is a complete form control including a
-      label, input and help text.
+      label, input, and help text.
     </text>
   </paragraph>
   <paragraph>
-    <text>It supports standard, outlined and filled styling.</text>
+    <text>It supports standard, outlined, and filled styling.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -24741,12 +24735,10 @@ exports[`firefox /components/text-fields/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <form className={classes.root} noValidate
-    autoComplete="off"> <TextField id="outlined-basic"
-    label="Outlined" /> <TextField id="filled-basic"
-    label="Filled" variant="filled" /> <TextField
-    id="standard-basic" label="Standard"
-    variant="standard" /> </form>
+    <TextField id="outlined-basic" label="Outlined" />
+    <TextField id="filled-basic" label="Filled"
+    variant="filled" /> <TextField id="standard-basic"
+    label="Standard" variant="standard" />
   </text>
   <paragraph>
     <text>
@@ -24955,7 +24947,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      The error prop toggles the error state, the helperText prop can then be
+      The error prop toggles the error state. The helperText prop can then be
       used to provide feedback to the user about the error.
     </text>
   </paragraph>
@@ -25304,11 +25296,11 @@ exports[`firefox /components/text-fields/ 1`] = `
   <text>​</text>
   <textbox>TextField</textbox>
   <label>
-    With a grid
-    <text>With a grid</text>
+    With sx
+    <text>With sx</text>
   </label>
   <statictext> </statictext>
-  <textbox>With a grid</textbox>
+  <textbox>With sx</textbox>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -25326,7 +25318,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   <paragraph>
     <text>
       The main way is with an InputAdornment. This can be used to add a prefix,
-      a suffix or an action to an input. For instance, you can use an icon
+      a suffix, or an action to an input. For instance, you can use an icon
       button to hide or reveal the password.
     </text>
   </paragraph>
@@ -25716,9 +25708,9 @@ exports[`firefox /components/text-fields/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Uncontrolled vs Controlled
+    Uncontrolled vs. Controlled
     <link></link>
-    <text>Uncontrolled vs Controlled</text>
+    <text>Uncontrolled vs. Controlled</text>
   </heading>
   <paragraph>
     <text>The component can be controlled or uncontrolled.</text>
@@ -25744,52 +25736,22 @@ exports[`firefox /components/text-fields/ 1`] = `
       Uncontrolled
       <text>foo</text>
     </textbox>
-    <label>
-      Name
-      <text>Name</text>
-    </label>
-    <statictext> </statictext>
-    <textbox value="Cat in the Hat">
-      Name
-      <text>Cat in the Hat</text>
-    </textbox>
-    <label>
-      Uncontrolled
-      <text>Uncontrolled</text>
-    </label>
-    <statictext> </statictext>
-    <textbox value="foo">
-      Uncontrolled
-      <text>foo</text>
-    </textbox>
-    <label>
-      Name
-      <text>Name</text>
-    </label>
-    <statictext> </statictext>
-    <textbox value="Cat in the Hat">
-      Name
-      <text>Cat in the Hat</text>
-    </textbox>
-    <label>
-      Uncontrolled
-      <text>Uncontrolled</text>
-    </label>
-    <statictext> </statictext>
-    <textbox value="foo">
-      Uncontrolled
-      <text>foo</text>
-    </textbox>
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <TextField id="outlined-name" label="Name"
+    value={name} onChange={handleChange} /> <TextField
+    id="outlined-uncontrolled" label="Uncontrolled"
+    defaultValue="foo" />
+  </text>
   <heading level="2">
     Components
     <link></link>
@@ -25817,7 +25779,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>
       You might also have noticed that some native HTML input properties are
       missing from the TextField component. This is on purpose. The component
-      takes care of the most used properties, then it's up to the user to
+      takes care of the most used properties. Then, it's up to the user to
       use the underlying component shown in the following demo. Still, you can
       use inputProps (and InputProps, InputLabelProps properties) if you want to
       avoid some boilerplate.
@@ -25933,13 +25895,21 @@ exports[`firefox /components/text-fields/ 1`] = `
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <Input defaultValue="Hello world"
+    inputProps={ariaLabel} /> <Input
+    placeholder="Placeholder" inputProps={ariaLabel} />
+    <Input disabled defaultValue="Disabled"
+    inputProps={ariaLabel} /> <Input
+    defaultValue="Error" error inputProps={ariaLabel} />
+  </text>
   <heading level="2">
     Color
     <link></link>
@@ -26041,7 +26011,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <paragraph>
     <text>
-      Customization does not stop at CSS, you can use composition to build
+      Customization does not stop at CSS. You can use composition to build
       custom components and give your app a unique feel. Below is an example
       using the
     </text>
@@ -26115,9 +26085,9 @@ exports[`firefox /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      The floating label is absolutely positioned, it won't impact the
-      layout of the page. You need to make sure that the input is larger than
-      the label to display correctly.
+      The floating label is absolutely positioned. It won't impact the
+      layout of the page. Make sure that the input is larger than the label to
+      display correctly.
     </text>
   </paragraph>
   <heading level="3">
@@ -26190,7 +26160,6 @@ exports[`firefox /components/text-fields/ 1`] = `
     Name
     <text>Name</text>
   </label>
-  <statictext> </statictext>
   <textbox description="Please enter your name">Name</textbox>
   <paragraph>
     <text>Please enter your name</text>
@@ -26199,7 +26168,6 @@ exports[`firefox /components/text-fields/ 1`] = `
     Name
     <text>Name</text>
   </label>
-  <statictext> </statictext>
   <textbox>Name</textbox>
   <toolbar>
     demo source
@@ -26212,10 +26180,9 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <text>
     <TextField helperText="Please enter your name"
-    id="demo-helper-text-misaligned" label="Name"
-    variant="standard" /> <TextField
-    id="demo-helper-text-misaligned-no-helper" label="Name"
-    variant="standard" />
+    id="demo-helper-text-misaligned" label="Name" />
+    <TextField id="demo-helper-text-misaligned-no-helper"
+    label="Name" />
   </text>
   <paragraph>
     <text>
@@ -26230,7 +26197,6 @@ exports[`firefox /components/text-fields/ 1`] = `
     Name
     <text>Name</text>
   </label>
-  <statictext> </statictext>
   <textbox description="Please enter your name">Name</textbox>
   <paragraph>
     <text>Please enter your name</text>
@@ -26239,7 +26205,6 @@ exports[`firefox /components/text-fields/ 1`] = `
     Name
     <text>Name</text>
   </label>
-  <statictext> </statictext>
   <textbox description="​">Name</textbox>
   <paragraph>
     <text>​</text>
@@ -26255,10 +26220,10 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <text>
     <TextField helperText="Please enter your name"
-    id="demo-helper-text-aligned" label="Name"
-    variant="standard" /> <TextField helperText=" "
+    id="demo-helper-text-aligned" label="Name" />
+    <TextField helperText=" "
     id="demo-helper-text-aligned-no-helper" label="Name"
-    variant="standard" />
+    />
   </text>
   <heading level="2">
     Integration with 3rd party input libraries
@@ -26377,7 +26342,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      For more advanced use cases you might be able to take advantage of:
+      For more advanced use cases, you might be able to take advantage of:
     </text>
   </paragraph>
   <list>
