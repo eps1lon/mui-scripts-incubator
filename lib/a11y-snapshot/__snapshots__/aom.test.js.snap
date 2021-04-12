@@ -4258,6 +4258,481 @@ exports[`chromium /components/dialogs/ 1`] = `
 <main>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
+    Checkbox
+    <text>Checkbox</text>
+  </heading>
+  <paragraph>
+    <text>
+      Checkboxes allow the user to select one or more items from a set.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>Checkboxes can be used to turn an option on or off.</text>
+  </paragraph>
+  <paragraph>
+    <text>
+      If you have multiple options appearing in a list, you can preserve space
+      by using checkboxes instead of on/off switches. If you have a single
+      option, avoid using a checkbox and use an on/off switch instead.
+    </text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <link>Feedback</link>
+    </listitem>
+    <listitem level="1">
+      <link>WAI-ARIA</link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>Material Design</link>
+    </listitem>
+    <listitem level="1">
+      <link>Figma</link>
+    </listitem>
+    <listitem level="1">
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Basic checkboxes
+    <Anchor></Anchor>
+    <text>Basic checkboxes</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">checked</checkbox>
+  <checkbox checked="false">uncontrolled</checkbox>
+  <checkbox checked="false" disabled="true">
+    disabled
+  </checkbox>
+  <checkbox checked="true" disabled="true">
+    disabled checked
+  </checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Label
+    <Anchor></Anchor>
+    <text>Label</text>
+  </heading>
+  <paragraph>
+    <text>You can provide a label to the</text>
+    <code>$SOME_CODE</code>
+    <text>thanks to the</text>
+    <code>$SOME_CODE</code>
+    <text>component.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Label</checkbox>
+  <checkbox checked="false" disabled="true">
+    Disabled
+  </checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Size
+    <Anchor></Anchor>
+    <text>Size</text>
+  </heading>
+  <paragraph>
+    <text>Use the</text>
+    <code>$SOME_CODE</code>
+    <text>
+      prop or customize the font size of the svg icons to change the size of the
+      checkboxes.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">small</checkbox>
+  <checkbox checked="true">normal</checkbox>
+  <checkbox checked="true">large</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Color
+    <Anchor></Anchor>
+    <text>Color</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">secondary</checkbox>
+  <checkbox checked="true">primary</checkbox>
+  <checkbox checked="true">default</checkbox>
+  <checkbox checked="true">custom</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Icon
+    <Anchor></Anchor>
+    <text>Icon</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="false">favorite</checkbox>
+  <checkbox checked="false">bookmarked</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Controlled
+    <Anchor></Anchor>
+    <text>Controlled</text>
+  </heading>
+  <paragraph>
+    <text>You can control the checkbox with the</text>
+    <code>$SOME_CODE</code>
+    <text>and</text>
+    <code>$SOME_CODE</code>
+    <text>props:</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">controlled</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Indeterminate
+    <Anchor></Anchor>
+    <text>Indeterminate</text>
+  </heading>
+  <paragraph>
+    <text>
+      A checkbox input can only have two states in a form: checked or unchecked.
+      It either submits its value or doesn't. Visually, there
+      arethreestates a checkbox can be in: checked, unchecked, or indeterminate.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="false">Parent</checkbox>
+  <checkbox checked="true">Child 1</checkbox>
+  <checkbox checked="false">Child 2</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <blockquote>
+    <paragraph>
+      <text>⚠️ When indeterminate is set, the value of the</text>
+      <code>$SOME_CODE</code>
+      <text>
+        prop only impacts the form submitted values. It has no accessibility or
+        UX implications.
+      </text>
+    </paragraph>
+  </blockquote>
+  <heading level="2">
+    FormGroup
+    <Anchor></Anchor>
+    <text>FormGroup</text>
+  </heading>
+  <paragraph>
+    <code>$SOME_CODE</code>
+    <text>
+      is a helpful wrapper used to group selection control components.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <group>
+    Assign responsibility
+    <Legend>
+      <text>Assign responsibility</text>
+    </Legend>
+    <checkbox checked="true">Gilad Gray</checkbox>
+    <checkbox checked="false">Jason Killian</checkbox>
+    <checkbox checked="false">Antoine Llorca</checkbox>
+    <paragraph>
+      <text>Be careful</text>
+    </paragraph>
+  </group>
+  <group>
+    Pick two
+    <Legend>
+      <text>Pick two</text>
+    </Legend>
+    <checkbox checked="true">Gilad Gray</checkbox>
+    <checkbox checked="false">Jason Killian</checkbox>
+    <checkbox checked="false">Antoine Llorca</checkbox>
+    <paragraph>
+      <text>You can display an error</text>
+    </paragraph>
+  </group>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Label placement
+    <Anchor></Anchor>
+    <text>Label placement</text>
+  </heading>
+  <paragraph>
+    <text>You can change the placement of the label:</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <group>
+    Label placement
+    <Legend>
+      <text>Label placement</text>
+    </Legend>
+    <checkbox checked="false">Top</checkbox>
+    <checkbox checked="false">Start</checkbox>
+    <checkbox checked="false">Bottom</checkbox>
+    <checkbox checked="false">End</checkbox>
+  </group>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Customized checkbox
+    <Anchor></Anchor>
+    <text>Customized checkbox</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here is an example of customizing the component. You can learn more about
+      this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="false">decorative checkbox</checkbox>
+  <checkbox checked="true">decorative checkbox</checkbox>
+  <checkbox checked="false" disabled="true">
+    decorative checkbox
+  </checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <paragraph>
+    <text>🎨 If you are looking for inspiration, you can check</text>
+    <link>MUI Treasury's customization examples</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    When to use
+    <Anchor></Anchor>
+    <text>When to use</text>
+  </heading>
+  <list>
+    <listitem level="1">
+      <link>Checkboxes vs. Radio Buttons</link>
+    </listitem>
+    <listitem level="1">
+      <link>Checkboxes vs. Switches</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Accessibility
+    <Anchor></Anchor>
+    <text>Accessibility</text>
+  </heading>
+  <paragraph>
+    <text>(WAI-ARIA:</text>
+    <link>https://www.w3.org/TR/wai-aria-practices/#checkbox</link>
+    <text>)</text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <text>
+        All form controls should have labels, and this includes radio buttons,
+        checkboxes, and switches. In most cases, this is done by using the
+      </text>
+      <code>$SOME_CODE</code>
+      <text>element (</text>
+      <link>FormControlLabel</link>
+      <text>).</text>
+    </listitem>
+    <listitem level="1">
+      <text>
+        When a label can't be used, it's necessary to add an attribute
+        directly to the input component. In this case, you can apply the
+        additional attribute (e.g.
+      </text>
+      <code>$SOME_CODE</code>
+      <text>,</text>
+      <code>$SOME_CODE</code>
+      <text>,</text>
+      <code>$SOME_CODE</code>
+      <text>) via the</text>
+      <code>$SOME_CODE</code>
+      <text>prop.</text>
+    </listitem>
+  </list>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    API
+    <Anchor></Anchor>
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem level="1">
+      <link>
+        <Checkbox />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <FormControl />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <FormControlLabel />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <FormGroup />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <FormLabel />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+  </list>
+  <FooterAsNonLandmark>
+    <separator orientation="horizontal"></separator>
+    <link>Button Group</link>
+    <group>
+      Was this page helpful?
+      <text>Was this page helpful?</text>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
+    <link>Floating Action Button</link>
+  </FooterAsNonLandmark>
+</main>;
+
+`;
+
+exports[`chromium /components/dialogs/ 2`] = `
+<main>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
     Dialog
     <text>Dialog</text>
   </heading>
