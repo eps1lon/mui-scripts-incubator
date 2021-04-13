@@ -16395,7 +16395,7 @@ exports[`firefox /components/button-group/ 1`] = `
       <link><Button /></link>
     </listitem>
     <listitem>
-      <ButtonGroup />
+      • <ButtonGroup />
       <link><ButtonGroup /></link>
     </listitem>
   </list>
