@@ -24652,6 +24652,1062 @@ exports[`firefox /components/text-fields/ 1`] = `
 <landmark>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
+    Tabs
+    <text>Tabs</text>
+  </heading>
+  <paragraph>
+    <text>
+      Tabs make it easy to explore and switch between different views.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Tabs organize and allow navigation between groups of content that are
+      related and at the same level of hierarchy.
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      Feedback
+      <link>Feedback</link>
+    </listitem>
+    <listitem>
+      WAI-ARIA
+      <link>WAI-ARIA</link>
+    </listitem>
+    <listitem>
+      Scroll down to 'Exports Analysis' for a more detailed report.
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem>
+      Material Design
+      <link>Material Design</link>
+    </listitem>
+    <listitem>
+      Figma
+      <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Basic tabs
+    <link></link>
+    <text>Basic tabs</text>
+  </heading>
+  <paragraph>
+    <text>A basic example with tab panels.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    basic tabs example
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+  </tablist>
+  <tabpanel>
+    ITEM ONE
+    <paragraph>
+      <text>Item One</text>
+    </paragraph>
+  </tabpanel>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Box sx={{ borderBottom: 1, borderColor: 'divider'
+    }}> <Tabs value={value}
+    onChange={handleChange} aria-label="basic tabs
+    example"> <Tab label="Item One"
+    {...a11yProps(0)} /> <Tab label="Item Two"
+    {...a11yProps(1)} /> <Tab label="Item Three"
+    {...a11yProps(2)} /> </Tabs> </Box> <TabPanel
+    value={value} index={0}> Item One </TabPanel>
+    <TabPanel value={value} index={1}> Item Two
+    </TabPanel> <TabPanel value={value}
+    index={2}> Item Three </TabPanel>
+  </text>
+  <heading level="2">
+    Experimental API
+    <link></link>
+    <text>Experimental API</text>
+  </heading>
+  <paragraph>
+    <text>
+      @material-ui/lab offers utility components that inject props to implement
+      accessible tabs following
+    </text>
+    <link>WAI-ARIA authoring practices</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    lab API tabs example
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+  </tablist>
+  <tabpanel>
+    ITEM ONE
+    <text>Item One</text>
+  </tabpanel>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <TabContext value={value}> <Box sx={{
+    borderBottom: 1, borderColor: 'divider' }}>
+    <TabList onChange={handleChange} aria-label="lab API tabs
+    example"> <Tab label="Item One" value="1"
+    /> <Tab label="Item Two" value="2" /> <Tab
+    label="Item Three" value="3" /> </TabList>
+    </Box> <TabPanel value="1">Item One</TabPanel>
+    <TabPanel value="2">Item Two</TabPanel> <TabPanel
+    value="3">Item Three</TabPanel> </TabContext>
+  </text>
+  <heading level="2">
+    Wrapped labels
+    <link></link>
+    <text>Wrapped labels</text>
+  </heading>
+  <paragraph>
+    <text>
+      Long labels will automatically wrap on tabs. If the label is too long for
+      the tab, it will overflow and the text will not be visible.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    wrapped label tabs example
+    <tab selected="true">
+      NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION
+      <text>NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tabs value={value} onChange={handleChange}
+    aria-label="wrapped label tabs example" > <Tab
+    value="one" label="New Arrivals in the Longest Text of
+    Nonfiction" wrapped /> <Tab value="two"
+    label="Item Two" /> <Tab value="three"
+    label="Item Three" /> </Tabs>
+  </text>
+  <heading level="2">
+    Colored tab
+    <link></link>
+    <text>Colored tab</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    secondary tabs example
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tabs value={value} onChange={handleChange}
+    textColor="secondary" indicatorColor="secondary"
+    aria-label="secondary tabs example" > <Tab
+    value="one" label="Item One" /> <Tab
+    value="two" label="Item Two" /> <Tab
+    value="three" label="Item Three" /> </Tabs>
+  </text>
+  <heading level="2">
+    Disabled tab
+    <link></link>
+    <text>Disabled tab</text>
+  </heading>
+  <paragraph>
+    <text>A tab can be disabled by setting the disabled prop.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    disabled tabs example
+    <tab>
+      ACTIVE
+      <text>ACTIVE</text>
+    </tab>
+    <tab disabled="true">
+      DISABLED
+      <text>DISABLED</text>
+    </tab>
+    <tab selected="true">
+      ACTIVE
+      <text>ACTIVE</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tabs value={value} onChange={handleChange}
+    aria-label="disabled tabs example"> <Tab
+    label="Active" /> <Tab label="Disabled" disabled
+    /> <Tab label="Active" /> </Tabs>
+  </text>
+  <heading level="2">
+    Fixed tabs
+    <link></link>
+    <text>Fixed tabs</text>
+  </heading>
+  <paragraph>
+    <text>
+      Fixed tabs should be used with a limited number of tabs, and when
+      consistent placement will aid muscle memory.
+    </text>
+  </paragraph>
+  <heading level="3">
+    Full width
+    <link></link>
+    <text>Full width</text>
+  </heading>
+  <paragraph>
+    <text>
+      The variant="fullWidth" prop should be used for smaller views.
+      This demo also uses
+    </text>
+    <link>react-swipeable-views</link>
+    <text>
+      to animate the Tab transition, and allowing tabs to be swiped on touch
+      devices.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    full width tabs example
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+  </tablist>
+  <tabpanel>
+    ITEM ONE
+    <paragraph>
+      <text>Item One</text>
+    </paragraph>
+  </tabpanel>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Centered
+    <link></link>
+    <text>Centered</text>
+  </heading>
+  <paragraph>
+    <text>The centered prop should be used for larger views.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tabs value={value} onChange={handleChange}
+    centered> <Tab label="Item One" /> <Tab
+    label="Item Two" /> <Tab label="Item Three" />
+    </Tabs>
+  </text>
+  <heading level="2">
+    Scrollable tabs
+    <link></link>
+    <text>Scrollable tabs</text>
+  </heading>
+  <heading level="3">
+    Automatic scroll buttons
+    <link></link>
+    <text>Automatic scroll buttons</text>
+  </heading>
+  <paragraph>
+    <text>
+      By default, left and right scroll buttons are automatically presented on
+      desktop and hidden on mobile. (based on viewport width)
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    scrollable auto tabs example
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+    <tab>
+      ITEM FOUR
+      <text>ITEM FOUR</text>
+    </tab>
+    <tab>
+      ITEM FIVE
+      <text>ITEM FIVE</text>
+    </tab>
+    <tab>
+      ITEM SIX
+      <text>ITEM SIX</text>
+    </tab>
+    <tab>
+      ITEM SEVEN
+      <text>ITEM SEVEN</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tabs value={value} onChange={handleChange}
+    variant="scrollable" scrollButtons="auto"
+    aria-label="scrollable auto tabs example" > <Tab
+    label="Item One" /> <Tab label="Item Two" />
+    <Tab label="Item Three" /> <Tab label="Item
+    Four" /> <Tab label="Item Five" /> <Tab
+    label="Item Six" /> <Tab label="Item Seven" />
+    </Tabs>
+  </text>
+  <heading level="3">
+    Forced scroll buttons
+    <link></link>
+    <text>Forced scroll buttons</text>
+  </heading>
+  <paragraph>
+    <text>
+      Left and right scroll buttons be presented (reserve space) regardless of
+      the viewport width with scrollButtons={true}
+      allowScrollButtonsMobile:
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    scrollable force tabs example
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+    <tab>
+      ITEM FOUR
+      <text>ITEM FOUR</text>
+    </tab>
+    <tab>
+      ITEM FIVE
+      <text>ITEM FIVE</text>
+    </tab>
+    <tab>
+      ITEM SIX
+      <text>ITEM SIX</text>
+    </tab>
+    <tab>
+      ITEM SEVEN
+      <text>ITEM SEVEN</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tabs value={value} onChange={handleChange}
+    variant="scrollable" scrollButtons allowScrollButtonsMobile
+    aria-label="scrollable force tabs example" > <Tab
+    label="Item One" /> <Tab label="Item Two" />
+    <Tab label="Item Three" /> <Tab label="Item
+    Four" /> <Tab label="Item Five" /> <Tab
+    label="Item Six" /> <Tab label="Item Seven" />
+    </Tabs>
+  </text>
+  <paragraph>
+    <text>
+      If you want to make sure the buttons are always visible, you should
+      customize the opacity.
+    </text>
+  </paragraph>
+  <text>.MuiTabs-scrollButtons.Mui-disabled { opacity: 0.3; }</text>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    visible arrows tabs example
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+    <tab>
+      ITEM FOUR
+      <text>ITEM FOUR</text>
+    </tab>
+    <tab>
+      ITEM FIVE
+      <text>ITEM FIVE</text>
+    </tab>
+    <tab>
+      ITEM SIX
+      <text>ITEM SIX</text>
+    </tab>
+    <tab>
+      ITEM SEVEN
+      <text>ITEM SEVEN</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Prevent scroll buttons
+    <link></link>
+    <text>Prevent scroll buttons</text>
+  </heading>
+  <paragraph>
+    <text>
+      Left and right scroll buttons are never be presented with
+      scrollButtons={false}. All scrolling must be initiated through
+      user agent scrolling mechanisms (e.g. left/right swipe, shift-mousewheel,
+      etc.)
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    scrollable prevent tabs example
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+    <tab>
+      ITEM FOUR
+      <text>ITEM FOUR</text>
+    </tab>
+    <tab>
+      ITEM FIVE
+      <text>ITEM FIVE</text>
+    </tab>
+    <tab>
+      ITEM SIX
+      <text>ITEM SIX</text>
+    </tab>
+    <tab>
+      ITEM SEVEN
+      <text>ITEM SEVEN</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tabs value={value} onChange={handleChange}
+    variant="scrollable" scrollButtons={false}
+    aria-label="scrollable prevent tabs example" > <Tab
+    label="Item One" /> <Tab label="Item Two" />
+    <Tab label="Item Three" /> <Tab label="Item
+    Four" /> <Tab label="Item Five" /> <Tab
+    label="Item Six" /> <Tab label="Item Seven" />
+    </Tabs>
+  </text>
+  <heading level="2">
+    Customized tabs
+    <link></link>
+    <text>Customized tabs</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here is an example of customizing the component. You can learn more about
+      this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    ant example
+    <tab selected="true">
+      Tab 1<text>Tab 1</text>
+    </tab>
+    <tab>
+      Tab 2<text>Tab 2</text>
+    </tab>
+    <tab>
+      Tab 3<text>Tab 3</text>
+    </tab>
+  </tablist>
+  <tablist>
+    styled tabs example
+    <tab selected="true">
+      Workflows
+      <text>Workflows</text>
+    </tab>
+    <tab>
+      Datasets
+      <text>Datasets</text>
+    </tab>
+    <tab>
+      Connections
+      <text>Connections</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <paragraph>
+    <text>🎨 If you are looking for inspiration, you can check</text>
+    <link>MUI Treasury's customization examples</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    Vertical tabs
+    <link></link>
+    <text>Vertical tabs</text>
+  </heading>
+  <paragraph>
+    <text>
+      To make vertical tabs instead of default horizontal ones, there is
+      orientation="vertical":
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist orientation="vertical">
+    Vertical tabs example
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+    <tab>
+      ITEM FOUR
+      <text>ITEM FOUR</text>
+    </tab>
+    <tab>
+      ITEM FIVE
+      <text>ITEM FIVE</text>
+    </tab>
+    <tab>
+      ITEM SIX
+      <text>ITEM SIX</text>
+    </tab>
+    <tab>
+      ITEM SEVEN
+      <text>ITEM SEVEN</text>
+    </tab>
+  </tablist>
+  <tabpanel>
+    ITEM ONE
+    <paragraph>
+      <text>Item One</text>
+    </paragraph>
+  </tabpanel>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <paragraph>
+    <text>Note that you can restore the scrollbar with visibleScrollbar.</text>
+  </paragraph>
+  <heading level="2">
+    Nav tabs
+    <link></link>
+    <text>Nav tabs</text>
+  </heading>
+  <paragraph>
+    <text>
+      By default, tabs use a button element, but you can provide your custom tag
+      or component. Here's an example of implementing tabbed navigation:
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    nav tabs example
+    <tab selected="true">
+      PAGE ONE
+      <text>PAGE ONE</text>
+    </tab>
+    <tab>
+      PAGE TWO
+      <text>PAGE TWO</text>
+    </tab>
+    <tab>
+      PAGE THREE
+      <text>PAGE THREE</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tabs value={value} onChange={handleChange}
+    aria-label="nav tabs example"> <LinkTab label="Page
+    One" href="/drafts" /> <LinkTab label="Page
+    Two" href="/trash" /> <LinkTab label="Page
+    Three" href="/spam" /> </Tabs>
+  </text>
+  <heading level="2">
+    Icon tabs
+    <link></link>
+    <text>Icon tabs</text>
+  </heading>
+  <paragraph>
+    <text>Tab labels may be either all icons or all text.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    icon tabs example
+    <tab selected="true">phone</tab>
+    <tab>favorite</tab>
+    <tab>person</tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tabs value={value} onChange={handleChange}
+    aria-label="icon tabs example"> <Tab
+    icon={<PhoneIcon />} aria-label="phone" />
+    <Tab icon={<FavoriteIcon />}
+    aria-label="favorite" /> <Tab icon={<PersonPinIcon
+    />} aria-label="person" /> </Tabs>
+  </text>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    icon label tabs example
+    <tab selected="true">
+      RECENTS
+      <text>RECENTS</text>
+    </tab>
+    <tab>
+      FAVORITES
+      <text>FAVORITES</text>
+    </tab>
+    <tab>
+      NEARBY
+      <text>NEARBY</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tabs value={value} onChange={handleChange}
+    aria-label="icon label tabs example"> <Tab
+    icon={<PhoneIcon />} label="RECENTS" /> <Tab
+    icon={<FavoriteIcon />} label="FAVORITES" />
+    <Tab icon={<PersonPinIcon />} label="NEARBY"
+    /> </Tabs>
+  </text>
+  <heading level="2">
+    Accessibility
+    <link></link>
+    <text>Accessibility</text>
+  </heading>
+  <paragraph>
+    <text>(WAI-ARIA:</text>
+    <link>https://www.w3.org/TR/wai-aria-practices/#tabpanel</link>
+    <text>)</text>
+  </paragraph>
+  <paragraph>
+    <text>
+      The following steps are needed in order to provide necessary information
+      for assistive technologies:
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      Label Tabs via aria-label or aria-labelledby .
+      <text>Label Tabs via aria-label or aria-labelledby.</text>
+    </listitem>
+    <listitem>
+      Tab s need to be connected to their corresponding
+      [role="tabpanel"] by setting the correct id , aria-controls and
+      aria-labelledby .
+      <text>
+        Tabs need to be connected to their corresponding
+        [role="tabpanel"] by setting the correct id, aria-controls and
+        aria-labelledby.
+      </text>
+    </listitem>
+  </list>
+  <paragraph>
+    <text>
+      An example for the current implementation can be found in the demos on
+      this page. We've also published
+    </text>
+    <link>an experimental API</link>
+    <text>in @material-ui/lab that does not require extra work.</text>
+  </paragraph>
+  <heading level="3">
+    Keyboard navigation
+    <link></link>
+    <text>Keyboard navigation</text>
+  </heading>
+  <paragraph>
+    <text>
+      The components implement keyboard navigation using the "manual
+      activation" behavior. If you want to switch to the "selection
+      automatically follows focus" behavior you have pass
+      selectionFollowsFocus to the Tabs component. The WAI-ARIA authoring
+      practices have a detailed guide on
+    </text>
+    <link>how to decide when to make selection automatically follow focus</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="4">
+    Demo
+    <text>Demo</text>
+  </heading>
+  <paragraph>
+    <text>
+      The following two demos only differ in their keyboard navigation behavior.
+      Focus a tab and navigate with arrow keys to notice the difference, e.g.
+      Arrow Left.
+    </text>
+  </paragraph>
+  <text>
+    /* Tabs where selection follows focus */ <Tabs selectionFollowsFocus
+    />
+  </text>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    Tabs where selection follows focus
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    /* Tabs where each tab needs to be selected manually */ <Tabs />
+  </text>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    Tabs where each tab needs to be selected manually
+    <tab selected="true">
+      ITEM ONE
+      <text>ITEM ONE</text>
+    </tab>
+    <tab>
+      ITEM TWO
+      <text>ITEM TWO</text>
+    </tab>
+    <tab>
+      ITEM THREE
+      <text>ITEM THREE</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    API
+    <link></link>
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem>
+      <Tab />
+      <link><Tab /></link>
+    </listitem>
+    <listitem>
+      <TabContext />
+      <link><TabContext /></link>
+    </listitem>
+    <listitem>
+      <TabList />
+      <link><TabList /></link>
+    </listitem>
+    <listitem>
+      <TabPanel />
+      <link><TabPanel /></link>
+    </listitem>
+    <listitem>
+      <TabScrollButton />
+      <link><TabScrollButton /></link>
+    </listitem>
+    <listitem>
+      <Tabs />
+      <link><Tabs /></link>
+    </listitem>
+  </list>
+  <separator></separator>
+  <link>Stepper</link>
+  <group>
+    Was this page helpful?
+    <text>Was this page helpful?</text>
+    <togglebutton>Yes</togglebutton>
+    <togglebutton>No</togglebutton>
+  </group>
+  <link>Accordion</link>
+</landmark>;
+
+`;
+
+exports[`firefox /components/text-fields/ 2`] = `
+<landmark>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
     Text Field
     <text>Text Field</text>
   </heading>
