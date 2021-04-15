@@ -6,7 +6,9 @@ exports[`chromium /api/button/ 1`] = `Array []`;
 
 exports[`chromium /api/select/ 1`] = `Array []`;
 
-exports[`chromium /components/breadcrumbs 1`] = `
+exports[`chromium /components/breadcrumbs 1`] = `Array []`;
+
+exports[`chromium /components/breadcrumbs 2`] = `
 Array [
   Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
