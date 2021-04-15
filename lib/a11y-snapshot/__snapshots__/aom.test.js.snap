@@ -7076,6 +7076,7 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">3 Stars</radio>
   <radio checked="false">4 Stars</radio>
   <radio checked="false">5 Stars</radio>
+  <radio checked="false">Empty</radio>
   <Legend>
     <text>Read only</text>
   </Legend>
@@ -7145,6 +7146,7 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">4 Stars</radio>
   <radio checked="false">4.5 Stars</radio>
   <radio checked="false">5 Stars</radio>
+  <radio checked="false">Empty</radio>
   <img>2.5 Stars</img>
   <toolbar>
     demo source
@@ -7185,6 +7187,7 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">4 Stars</radio>
   <radio checked="false">4.5 Stars</radio>
   <radio checked="false">5 Stars</radio>
+  <radio checked="false">Empty</radio>
   <text>Poor+</text>
   <toolbar>
     demo source
@@ -7217,16 +7220,19 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">3 Stars</radio>
   <radio checked="false">4 Stars</radio>
   <radio checked="false">5 Stars</radio>
+  <radio checked="false">Empty</radio>
   <radio checked="false">1 Star</radio>
   <radio checked="true">2 Stars</radio>
   <radio checked="false">3 Stars</radio>
   <radio checked="false">4 Stars</radio>
   <radio checked="false">5 Stars</radio>
+  <radio checked="false">Empty</radio>
   <radio checked="false">1 Star</radio>
   <radio checked="true">2 Stars</radio>
   <radio checked="false">3 Stars</radio>
   <radio checked="false">4 Stars</radio>
   <radio checked="false">5 Stars</radio>
+  <radio checked="false">Empty</radio>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -7269,6 +7275,7 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">4 Hearts</radio>
   <radio checked="false">4.5 Hearts</radio>
   <radio checked="false">5 Hearts</radio>
+  <radio checked="false">Empty</radio>
   <Legend>
     <text>10 stars</text>
   </Legend>
@@ -7282,6 +7289,7 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">8 Stars</radio>
   <radio checked="false">9 Stars</radio>
   <radio checked="false">10 Stars</radio>
+  <radio checked="false">Empty</radio>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -7313,6 +7321,7 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">3 Stars</radio>
   <radio checked="false">4 Stars</radio>
   <radio checked="false">5 Stars</radio>
+  <radio checked="false">Empty</radio>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -20899,6 +20908,11 @@ exports[`firefox /components/rating/ 1`] = `
   </label>
   <radio>5 Stars</radio>
   <label>
+    Empty
+    <radio>Empty</radio>
+    <text>Empty</text>
+  </label>
+  <label>
     Read only
     <text>Read only</text>
   </label>
@@ -21055,6 +21069,11 @@ exports[`firefox /components/rating/ 1`] = `
     <text>5 Stars</text>
   </label>
   <radio>5 Stars</radio>
+  <label>
+    Empty
+    <radio>Empty</radio>
+    <text>Empty</text>
+  </label>
   <img>2.5 Stars</img>
   <toolbar>
     demo source
@@ -21135,6 +21154,11 @@ exports[`firefox /components/rating/ 1`] = `
     <text>5 Stars</text>
   </label>
   <radio>5 Stars</radio>
+  <label>
+    Empty
+    <radio>Empty</radio>
+    <text>Empty</text>
+  </label>
   <text>Poor+</text>
   <toolbar>
     demo source
@@ -21193,30 +21217,10 @@ exports[`firefox /components/rating/ 1`] = `
   </label>
   <radio>5 Stars</radio>
   <label>
-    1 Star
-    <text>1 Star</text>
+    Empty
+    <radio>Empty</radio>
+    <text>Empty</text>
   </label>
-  <radio>1 Star</radio>
-  <label>
-    2 Stars
-    <text>2 Stars</text>
-  </label>
-  <radio checked="true">2 Stars</radio>
-  <label>
-    3 Stars
-    <text>3 Stars</text>
-  </label>
-  <radio>3 Stars</radio>
-  <label>
-    4 Stars
-    <text>4 Stars</text>
-  </label>
-  <radio>4 Stars</radio>
-  <label>
-    5 Stars
-    <text>5 Stars</text>
-  </label>
-  <radio>5 Stars</radio>
   <label>
     1 Star
     <text>1 Star</text>
@@ -21242,6 +21246,41 @@ exports[`firefox /components/rating/ 1`] = `
     <text>5 Stars</text>
   </label>
   <radio>5 Stars</radio>
+  <label>
+    Empty
+    <radio>Empty</radio>
+    <text>Empty</text>
+  </label>
+  <label>
+    1 Star
+    <text>1 Star</text>
+  </label>
+  <radio>1 Star</radio>
+  <label>
+    2 Stars
+    <text>2 Stars</text>
+  </label>
+  <radio checked="true">2 Stars</radio>
+  <label>
+    3 Stars
+    <text>3 Stars</text>
+  </label>
+  <radio>3 Stars</radio>
+  <label>
+    4 Stars
+    <text>4 Stars</text>
+  </label>
+  <radio>4 Stars</radio>
+  <label>
+    5 Stars
+    <text>5 Stars</text>
+  </label>
+  <radio>5 Stars</radio>
+  <label>
+    Empty
+    <radio>Empty</radio>
+    <text>Empty</text>
+  </label>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -21329,6 +21368,11 @@ exports[`firefox /components/rating/ 1`] = `
   </label>
   <radio>5 Hearts</radio>
   <label>
+    Empty
+    <radio>Empty</radio>
+    <text>Empty</text>
+  </label>
+  <label>
     10 stars
     <text>10 stars</text>
   </label>
@@ -21382,6 +21426,11 @@ exports[`firefox /components/rating/ 1`] = `
     <text>10 Stars</text>
   </label>
   <radio>10 Stars</radio>
+  <label>
+    Empty
+    <radio>Empty</radio>
+    <text>Empty</text>
+  </label>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -21443,6 +21492,11 @@ exports[`firefox /components/rating/ 1`] = `
     <text>5 Stars</text>
   </label>
   <radio>5 Stars</radio>
+  <label>
+    Empty
+    <radio>Empty</radio>
+    <text>Empty</text>
+  </label>
   <toolbar>
     demo source
     <button>Show the full source</button>
