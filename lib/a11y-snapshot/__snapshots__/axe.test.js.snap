@@ -92,6 +92,8 @@ exports[`chromium /components/text-fields/ 1`] = `Array []`;
 
 exports[`chromium /components/tooltips/ 1`] = `Array []`;
 
+exports[`chromium /components/tooltips/ 2`] = `Array []`;
+
 exports[`chromium /components/transfer-list 1`] = `Array []`;
 
 exports[`chromium /components/tree-view/ 1`] = `Array []`;
