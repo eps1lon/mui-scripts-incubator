@@ -1993,8 +1993,8 @@ exports[`chromium /api/select/ 1`] = `
         <text>| 'standard'</text>
       </gridcell>
       <gridcell>
-        'standard'
-        <text>'standard'</text>
+        'outlined'
+        <text>'outlined'</text>
       </gridcell>
       <gridcell>
         The variant to use.
@@ -2008,7 +2008,7 @@ exports[`chromium /api/select/ 1`] = `
   <text>is forwarded to the root element.</text>
   <LineBreak></LineBreak>
   <text>Any other props supplied will be provided to the root element (</text>
-  <link>Input</link>
+  <link>OutlinedInput</link>
   <text>).</text>
   <heading level="3">
     Inheritance
@@ -2016,7 +2016,7 @@ exports[`chromium /api/select/ 1`] = `
     <text>Inheritance</text>
   </heading>
   <text>While not explicitly documented above, the props of the</text>
-  <link>Input</link>
+  <link>OutlinedInput</link>
   <text>
     component are also available on Select. You can take advantage of this to
   </text>
@@ -7501,7 +7501,6 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Age</text>
   </Label>
-  <text> </text>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -7557,11 +7556,11 @@ exports[`chromium /components/selects/ 1`] = `
     <text>. It extends the</text>
     <link>text field components</link>
     <text>sub-components, either the</text>
-    <link>Input</link>
-    <text>,</text>
-    <link>FilledInput</link>
-    <text>, or</text>
     <link>OutlinedInput</link>
+    <text>,</text>
+    <link>Input</link>
+    <text>, or</text>
+    <link>FilledInput</link>
     <text>
       , depending on the variant selected. It shares the same styles and many of
       the same props. Refer to the respective component's API page for
@@ -7569,9 +7568,9 @@ exports[`chromium /components/selects/ 1`] = `
     </text>
   </paragraph>
   <heading level="3">
-    Filled and outlined variants
+    Filled and standard variants
     <Anchor></Anchor>
-    <text>Filled and outlined variants</text>
+    <text>Filled and standard variants</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -7580,6 +7579,7 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Age</text>
   </Label>
+  <text> </text>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -7613,7 +7613,6 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Age</text>
   </Label>
-  <text> </text>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -7621,7 +7620,6 @@ exports[`chromium /components/selects/ 1`] = `
   <paragraph>
     <text>With label + helper text</text>
   </paragraph>
-  <text> </text>
   <combobox haspopup="listbox">
     Without label
     <text>None</text>
@@ -7651,7 +7649,6 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Age</text>
   </Label>
-  <text> </text>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -7675,32 +7672,29 @@ exports[`chromium /components/selects/ 1`] = `
     navigation of our components.
   </button>
   <Label>
-    <text>Name</text>
+    <text>Age</text>
   </Label>
-  <text> </text>
   <combobox disabled="true" haspopup="listbox">
-    Name ​<text>​</text>
+    Age ​<text>​</text>
   </combobox>
   <paragraph>
     <text>Disabled</text>
   </paragraph>
   <Label>
-    <text>Name</text>
+    <text>Age</text>
   </Label>
-  <text> </text>
   <combobox haspopup="listbox">
-    Name ​<text>​</text>
+    Age ​<text>​</text>
   </combobox>
   <textbox></textbox>
   <paragraph>
     <text>Error</text>
   </paragraph>
   <Label>
-    <text>Name</text>
+    <text>Age</text>
   </Label>
-  <text> </text>
   <combobox haspopup="listbox">
-    Name ​<text>​</text>
+    Age ​<text>​</text>
   </combobox>
   <textbox></textbox>
   <paragraph>
@@ -7709,7 +7703,6 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Age</text>
   </Label>
-  <text> </text>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -7803,7 +7796,15 @@ exports[`chromium /components/selects/ 1`] = `
     <code>$SOME_CODE</code>
     <text>prop to have a</text>
     <code>$SOME_CODE</code>
-    <text>field.</text>
+    <text>field. Notice that the</text>
+    <code>$SOME_CODE</code>
+    <text>
+      variant is easier to customize, since it does not wrap the contents in a
+    </text>
+    <code>$SOME_CODE</code>
+    <text>/</text>
+    <code>$SOME_CODE</code>
+    <text>markup.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -7882,7 +7883,6 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Name</text>
   </Label>
-  <text> </text>
   <combobox haspopup="listbox">
     Name ​<text>​</text>
   </combobox>
@@ -7908,7 +7908,6 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Tag</text>
   </Label>
-  <text> </text>
   <combobox haspopup="listbox">
     Tag ​<text>​</text>
   </combobox>
@@ -7934,7 +7933,6 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Chip</text>
   </Label>
-  <text> </text>
   <combobox haspopup="listbox">
     Chip ​<text>​</text>
   </combobox>
@@ -7957,7 +7955,6 @@ exports[`chromium /components/selects/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <text> </text>
   <combobox haspopup="listbox">
     Without label
     <text>Placeholder</text>
@@ -7984,7 +7981,6 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Native</text>
   </Label>
-  <text> </text>
   <listbox multiselectable="true">
     Native
     <option>Oliver Hansen</option>
@@ -8023,7 +8019,6 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Age</text>
   </Label>
-  <text> </text>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -8084,7 +8079,6 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Grouping</text>
   </Label>
-  <text> </text>
   <combobox value="None">
     Grouping
     <MenuListPopup>
@@ -8098,7 +8092,6 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Grouping</text>
   </Label>
-  <text> </text>
   <combobox haspopup="listbox">
     ​<text>​</text>
   </combobox>
@@ -15321,7 +15314,7 @@ exports[`firefox /api/select/ 1`] = `
         <text>| 'standard'</text>
       </cell>
       <cell>
-        <text>'standard'</text>
+        <text>'outlined'</text>
       </cell>
       <cell>
         <text>The variant to use.</text>
@@ -15332,7 +15325,7 @@ exports[`firefox /api/select/ 1`] = `
   <text>The ref is forwarded to the root element.</text>
   <whitespace></whitespace>
   <text>Any other props supplied will be provided to the root element (</text>
-  <link>Input</link>
+  <link>OutlinedInput</link>
   <text>).</text>
   <heading level="3">
     Inheritance
@@ -15340,7 +15333,7 @@ exports[`firefox /api/select/ 1`] = `
     <text>Inheritance</text>
   </heading>
   <text>While not explicitly documented above, the props of the</text>
-  <link>Input</link>
+  <link>OutlinedInput</link>
   <text>
     component are also available on Select. You can take advantage of this to
   </text>
@@ -21693,7 +21686,6 @@ exports[`firefox /components/selects/ 1`] = `
     Age
     <text>Age</text>
   </label>
-  <statictext> </statictext>
   <button haspopup="true">
     Age ​<text>​</text>
   </button>
@@ -21711,7 +21703,7 @@ exports[`firefox /components/selects/ 1`] = `
     id="demo-simple-select-label">Age</InputLabel> <Select
     labelId="demo-simple-select-label"
     id="demo-simple-select" value={age}
-    onChange={handleChange} > <MenuItem
+    label="Age" onChange={handleChange} > <MenuItem
     value={10}>Ten</MenuItem> <MenuItem
     value={20}>Twenty</MenuItem> <MenuItem
     value={30}>Thirty</MenuItem> </Select>
@@ -21753,11 +21745,11 @@ exports[`firefox /components/selects/ 1`] = `
     <text>. It extends the</text>
     <link>text field components</link>
     <text>sub-components, either the</text>
-    <link>Input</link>
-    <text>,</text>
-    <link>FilledInput</link>
-    <text>, or</text>
     <link>OutlinedInput</link>
+    <text>,</text>
+    <link>Input</link>
+    <text>, or</text>
+    <link>FilledInput</link>
     <text>
       , depending on the variant selected. It shares the same styles and many of
       the same props. Refer to the respective component's API page for
@@ -21765,9 +21757,9 @@ exports[`firefox /components/selects/ 1`] = `
     </text>
   </paragraph>
   <heading level="3">
-    Filled and outlined variants
+    Filled and standard variants
     <link></link>
-    <text>Filled and outlined variants</text>
+    <text>Filled and standard variants</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -21777,6 +21769,7 @@ exports[`firefox /components/selects/ 1`] = `
     Age
     <text>Age</text>
   </label>
+  <statictext> </statictext>
   <button haspopup="true">
     Age ​<text>​</text>
   </button>
@@ -21810,14 +21803,12 @@ exports[`firefox /components/selects/ 1`] = `
     Age
     <text>Age</text>
   </label>
-  <statictext> </statictext>
   <button haspopup="true">
     Age ​<text>​</text>
   </button>
   <paragraph>
     <text>With label + helper text</text>
   </paragraph>
-  <statictext> </statictext>
   <button haspopup="true">
     Without label
     <text>None</text>
@@ -21847,7 +21838,6 @@ exports[`firefox /components/selects/ 1`] = `
     Age
     <text>Age</text>
   </label>
-  <statictext> </statictext>
   <button haspopup="true">
     Age ​<text>​</text>
   </button>
@@ -21870,34 +21860,31 @@ exports[`firefox /components/selects/ 1`] = `
     navigation of our components.
   </button>
   <label>
-    Name
-    <text>Name</text>
+    Age
+    <text>Age</text>
   </label>
-  <statictext> </statictext>
   <button disabled="true" haspopup="true">
-    Name ​<text>​</text>
+    Age ​<text>​</text>
   </button>
   <paragraph>
     <text>Disabled</text>
   </paragraph>
   <label>
-    Name
-    <text>Name</text>
+    Age
+    <text>Age</text>
   </label>
-  <statictext> </statictext>
   <button haspopup="true">
-    Name ​<text>​</text>
+    Age ​<text>​</text>
   </button>
   <paragraph>
     <text>Error</text>
   </paragraph>
   <label>
-    Name
-    <text>Name</text>
+    Age
+    <text>Age</text>
   </label>
-  <statictext> </statictext>
   <button haspopup="true">
-    Name ​<text>​</text>
+    Age ​<text>​</text>
   </button>
   <paragraph>
     <text>Read only</text>
@@ -21906,7 +21893,6 @@ exports[`firefox /components/selects/ 1`] = `
     Age
     <text>Age</text>
   </label>
-  <statictext> </statictext>
   <button haspopup="true">
     Age ​<text>​</text>
   </button>
@@ -21969,8 +21955,8 @@ exports[`firefox /components/selects/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <FormControl fullWidth> <InputLabel
-    htmlFor="uncontrolled-native">Age</InputLabel>
+    <FormControl fullWidth> <InputLabel variant="standard"
+    htmlFor="uncontrolled-native"> Age </InputLabel>
     <NativeSelect defaultValue={30} inputProps={{ name:
     'age', id: 'uncontrolled-native', }} >
     <option value={10}>Ten</option> <option
@@ -22008,7 +21994,9 @@ exports[`firefox /components/selects/ 1`] = `
     <text>
       The first step is to style the InputBase component. Once it's styled,
       you can either use it directly as a text field or provide it to the select
-      input prop to have a select field.
+      input prop to have a select field. Notice that the "standard"
+      variant is easier to customize, since it does not wrap the contents in a
+      fieldset/legend markup.
     </text>
   </paragraph>
   <button>
@@ -22094,7 +22082,6 @@ exports[`firefox /components/selects/ 1`] = `
     Name
     <text>Name</text>
   </label>
-  <statictext> </statictext>
   <button haspopup="true">
     Name ​<text>​</text>
   </button>
@@ -22120,7 +22107,6 @@ exports[`firefox /components/selects/ 1`] = `
     Tag
     <text>Tag</text>
   </label>
-  <statictext> </statictext>
   <button haspopup="true">
     Tag ​<text>​</text>
   </button>
@@ -22146,7 +22132,6 @@ exports[`firefox /components/selects/ 1`] = `
     Chip
     <text>Chip</text>
   </label>
-  <statictext> </statictext>
   <button haspopup="true">
     Chip ​<text>​</text>
   </button>
@@ -22168,7 +22153,6 @@ exports[`firefox /components/selects/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <statictext> </statictext>
   <button haspopup="true">
     Without label
     <text>Placeholder</text>
@@ -22195,7 +22179,6 @@ exports[`firefox /components/selects/ 1`] = `
     Native
     <text>Native</text>
   </label>
-  <statictext> </statictext>
   <listbox multiselectable="true">
     Native
     <option>
@@ -22265,7 +22248,6 @@ exports[`firefox /components/selects/ 1`] = `
     Age
     <text>Age</text>
   </label>
-  <statictext> </statictext>
   <button haspopup="true">
     Age ​<text>​</text>
   </button>
@@ -22325,7 +22307,6 @@ exports[`firefox /components/selects/ 1`] = `
     Grouping
     <text>Grouping</text>
   </label>
-  <statictext> </statictext>
   <combobox haspopup="true" value="None">
     Grouping
     <MenuListPopup>
@@ -22354,7 +22335,6 @@ exports[`firefox /components/selects/ 1`] = `
     Grouping
     <text>Grouping</text>
   </label>
-  <statictext> </statictext>
   <button haspopup="true">
     ​<text>​</text>
   </button>
