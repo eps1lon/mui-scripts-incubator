@@ -15611,7 +15611,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <Link color="inherit"
     href="/getting-started/installation/"> Core </Link>
     <Typography
-    color="textPrimary">Breadcrumb</Typography>
+    color="text.primary">Breadcrumb</Typography>
     </Breadcrumbs>
   </text>
   <heading level="2">
@@ -15657,7 +15657,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     color="inherit" href="/"> Material-UI </Link>
     <Link color="inherit"
     href="/getting-started/installation/"> Core </Link>
-    <Link color="textPrimary"
+    <Link color="text.primary"
     href="/components/breadcrumbs/" aria-current="page" >
     Breadcrumb </Link> </Breadcrumbs>
   </text>
@@ -15830,7 +15830,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     </Link> <Link color="inherit" href="#">
     Accessories </Link> <Link color="inherit"
     href="#"> New Collection </Link> <Typography
-    color="textPrimary">Belts</Typography>
+    color="text.primary">Belts</Typography>
     </Breadcrumbs>
   </text>
   <heading level="2">
