@@ -1993,8 +1993,8 @@ exports[`chromium /api/select/ 1`] = `
         <text>| 'standard'</text>
       </gridcell>
       <gridcell>
-        'outlined'
-        <text>'outlined'</text>
+        'standard'
+        <text>'standard'</text>
       </gridcell>
       <gridcell>
         The variant to use.
@@ -2008,7 +2008,7 @@ exports[`chromium /api/select/ 1`] = `
   <text>is forwarded to the root element.</text>
   <LineBreak></LineBreak>
   <text>Any other props supplied will be provided to the root element (</text>
-  <link>OutlinedInput</link>
+  <link>Input</link>
   <text>).</text>
   <heading level="3">
     Inheritance
@@ -2016,7 +2016,7 @@ exports[`chromium /api/select/ 1`] = `
     <text>Inheritance</text>
   </heading>
   <text>While not explicitly documented above, the props of the</text>
-  <link>OutlinedInput</link>
+  <link>Input</link>
   <text>
     component are also available on Select. You can take advantage of this to
   </text>
@@ -7076,7 +7076,6 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">3 Stars</radio>
   <radio checked="false">4 Stars</radio>
   <radio checked="false">5 Stars</radio>
-  <radio checked="false">Empty</radio>
   <Legend>
     <text>Read only</text>
   </Legend>
@@ -7146,7 +7145,6 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">4 Stars</radio>
   <radio checked="false">4.5 Stars</radio>
   <radio checked="false">5 Stars</radio>
-  <radio checked="false">Empty</radio>
   <img>2.5 Stars</img>
   <toolbar>
     demo source
@@ -7187,7 +7185,6 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">4 Stars</radio>
   <radio checked="false">4.5 Stars</radio>
   <radio checked="false">5 Stars</radio>
-  <radio checked="false">Empty</radio>
   <text>Poor+</text>
   <toolbar>
     demo source
@@ -7220,19 +7217,16 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">3 Stars</radio>
   <radio checked="false">4 Stars</radio>
   <radio checked="false">5 Stars</radio>
-  <radio checked="false">Empty</radio>
   <radio checked="false">1 Star</radio>
   <radio checked="true">2 Stars</radio>
   <radio checked="false">3 Stars</radio>
   <radio checked="false">4 Stars</radio>
   <radio checked="false">5 Stars</radio>
-  <radio checked="false">Empty</radio>
   <radio checked="false">1 Star</radio>
   <radio checked="true">2 Stars</radio>
   <radio checked="false">3 Stars</radio>
   <radio checked="false">4 Stars</radio>
   <radio checked="false">5 Stars</radio>
-  <radio checked="false">Empty</radio>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -7275,7 +7269,6 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">4 Hearts</radio>
   <radio checked="false">4.5 Hearts</radio>
   <radio checked="false">5 Hearts</radio>
-  <radio checked="false">Empty</radio>
   <Legend>
     <text>10 stars</text>
   </Legend>
@@ -7289,7 +7282,6 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">8 Stars</radio>
   <radio checked="false">9 Stars</radio>
   <radio checked="false">10 Stars</radio>
-  <radio checked="false">Empty</radio>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -7321,7 +7313,6 @@ exports[`chromium /components/rating/ 1`] = `
   <radio checked="false">3 Stars</radio>
   <radio checked="false">4 Stars</radio>
   <radio checked="false">5 Stars</radio>
-  <radio checked="false">Empty</radio>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -7501,6 +7492,7 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Age</text>
   </Label>
+  <text> </text>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -7556,11 +7548,11 @@ exports[`chromium /components/selects/ 1`] = `
     <text>. It extends the</text>
     <link>text field components</link>
     <text>sub-components, either the</text>
-    <link>OutlinedInput</link>
-    <text>,</text>
     <link>Input</link>
-    <text>, or</text>
+    <text>,</text>
     <link>FilledInput</link>
+    <text>, or</text>
+    <link>OutlinedInput</link>
     <text>
       , depending on the variant selected. It shares the same styles and many of
       the same props. Refer to the respective component's API page for
@@ -7568,9 +7560,9 @@ exports[`chromium /components/selects/ 1`] = `
     </text>
   </paragraph>
   <heading level="3">
-    Filled and standard variants
+    Filled and outlined variants
     <Anchor></Anchor>
-    <text>Filled and standard variants</text>
+    <text>Filled and outlined variants</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -7579,7 +7571,6 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Age</text>
   </Label>
-  <text> </text>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -7613,6 +7604,7 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Age</text>
   </Label>
+  <text> </text>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -7620,6 +7612,7 @@ exports[`chromium /components/selects/ 1`] = `
   <paragraph>
     <text>With label + helper text</text>
   </paragraph>
+  <text> </text>
   <combobox haspopup="listbox">
     Without label
     <text>None</text>
@@ -7649,6 +7642,7 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Age</text>
   </Label>
+  <text> </text>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -7672,29 +7666,32 @@ exports[`chromium /components/selects/ 1`] = `
     navigation of our components.
   </button>
   <Label>
-    <text>Age</text>
+    <text>Name</text>
   </Label>
+  <text> </text>
   <combobox disabled="true" haspopup="listbox">
-    Age ​<text>​</text>
+    Name ​<text>​</text>
   </combobox>
   <paragraph>
     <text>Disabled</text>
   </paragraph>
   <Label>
-    <text>Age</text>
+    <text>Name</text>
   </Label>
+  <text> </text>
   <combobox haspopup="listbox">
-    Age ​<text>​</text>
+    Name ​<text>​</text>
   </combobox>
   <textbox></textbox>
   <paragraph>
     <text>Error</text>
   </paragraph>
   <Label>
-    <text>Age</text>
+    <text>Name</text>
   </Label>
+  <text> </text>
   <combobox haspopup="listbox">
-    Age ​<text>​</text>
+    Name ​<text>​</text>
   </combobox>
   <textbox></textbox>
   <paragraph>
@@ -7703,6 +7700,7 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Age</text>
   </Label>
+  <text> </text>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -7796,15 +7794,7 @@ exports[`chromium /components/selects/ 1`] = `
     <code>$SOME_CODE</code>
     <text>prop to have a</text>
     <code>$SOME_CODE</code>
-    <text>field. Notice that the</text>
-    <code>$SOME_CODE</code>
-    <text>
-      variant is easier to customize, since it does not wrap the contents in a
-    </text>
-    <code>$SOME_CODE</code>
-    <text>/</text>
-    <code>$SOME_CODE</code>
-    <text>markup.</text>
+    <text>field.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -7883,6 +7873,7 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Name</text>
   </Label>
+  <text> </text>
   <combobox haspopup="listbox">
     Name ​<text>​</text>
   </combobox>
@@ -7908,6 +7899,7 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Tag</text>
   </Label>
+  <text> </text>
   <combobox haspopup="listbox">
     Tag ​<text>​</text>
   </combobox>
@@ -7933,6 +7925,7 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Chip</text>
   </Label>
+  <text> </text>
   <combobox haspopup="listbox">
     Chip ​<text>​</text>
   </combobox>
@@ -7955,6 +7948,7 @@ exports[`chromium /components/selects/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <text> </text>
   <combobox haspopup="listbox">
     Without label
     <text>Placeholder</text>
@@ -7981,6 +7975,7 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Native</text>
   </Label>
+  <text> </text>
   <listbox multiselectable="true">
     Native
     <option>Oliver Hansen</option>
@@ -8019,6 +8014,7 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Age</text>
   </Label>
+  <text> </text>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -8079,6 +8075,7 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Grouping</text>
   </Label>
+  <text> </text>
   <combobox value="None">
     Grouping
     <MenuListPopup>
@@ -8092,6 +8089,7 @@ exports[`chromium /components/selects/ 1`] = `
   <Label>
     <text>Grouping</text>
   </Label>
+  <text> </text>
   <combobox haspopup="listbox">
     ​<text>​</text>
   </combobox>
@@ -15314,7 +15312,7 @@ exports[`firefox /api/select/ 1`] = `
         <text>| 'standard'</text>
       </cell>
       <cell>
-        <text>'outlined'</text>
+        <text>'standard'</text>
       </cell>
       <cell>
         <text>The variant to use.</text>
@@ -15325,7 +15323,7 @@ exports[`firefox /api/select/ 1`] = `
   <text>The ref is forwarded to the root element.</text>
   <whitespace></whitespace>
   <text>Any other props supplied will be provided to the root element (</text>
-  <link>OutlinedInput</link>
+  <link>Input</link>
   <text>).</text>
   <heading level="3">
     Inheritance
@@ -15333,7 +15331,7 @@ exports[`firefox /api/select/ 1`] = `
     <text>Inheritance</text>
   </heading>
   <text>While not explicitly documented above, the props of the</text>
-  <link>OutlinedInput</link>
+  <link>Input</link>
   <text>
     component are also available on Select. You can take advantage of this to
   </text>
@@ -15611,7 +15609,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <Link color="inherit"
     href="/getting-started/installation/"> Core </Link>
     <Typography
-    color="text.primary">Breadcrumb</Typography>
+    color="textPrimary">Breadcrumb</Typography>
     </Breadcrumbs>
   </text>
   <heading level="2">
@@ -15657,7 +15655,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     color="inherit" href="/"> Material-UI </Link>
     <Link color="inherit"
     href="/getting-started/installation/"> Core </Link>
-    <Link color="text.primary"
+    <Link color="textPrimary"
     href="/components/breadcrumbs/" aria-current="page" >
     Breadcrumb </Link> </Breadcrumbs>
   </text>
@@ -15830,7 +15828,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     </Link> <Link color="inherit" href="#">
     Accessories </Link> <Link color="inherit"
     href="#"> New Collection </Link> <Typography
-    color="text.primary">Belts</Typography>
+    color="textPrimary">Belts</Typography>
     </Breadcrumbs>
   </text>
   <heading level="2">
@@ -20901,11 +20899,6 @@ exports[`firefox /components/rating/ 1`] = `
   </label>
   <radio>5 Stars</radio>
   <label>
-    Empty
-    <radio>Empty</radio>
-    <text>Empty</text>
-  </label>
-  <label>
     Read only
     <text>Read only</text>
   </label>
@@ -21062,11 +21055,6 @@ exports[`firefox /components/rating/ 1`] = `
     <text>5 Stars</text>
   </label>
   <radio>5 Stars</radio>
-  <label>
-    Empty
-    <radio>Empty</radio>
-    <text>Empty</text>
-  </label>
   <img>2.5 Stars</img>
   <toolbar>
     demo source
@@ -21147,11 +21135,6 @@ exports[`firefox /components/rating/ 1`] = `
     <text>5 Stars</text>
   </label>
   <radio>5 Stars</radio>
-  <label>
-    Empty
-    <radio>Empty</radio>
-    <text>Empty</text>
-  </label>
   <text>Poor+</text>
   <toolbar>
     demo source
@@ -21210,11 +21193,6 @@ exports[`firefox /components/rating/ 1`] = `
   </label>
   <radio>5 Stars</radio>
   <label>
-    Empty
-    <radio>Empty</radio>
-    <text>Empty</text>
-  </label>
-  <label>
     1 Star
     <text>1 Star</text>
   </label>
@@ -21240,11 +21218,6 @@ exports[`firefox /components/rating/ 1`] = `
   </label>
   <radio>5 Stars</radio>
   <label>
-    Empty
-    <radio>Empty</radio>
-    <text>Empty</text>
-  </label>
-  <label>
     1 Star
     <text>1 Star</text>
   </label>
@@ -21269,11 +21242,6 @@ exports[`firefox /components/rating/ 1`] = `
     <text>5 Stars</text>
   </label>
   <radio>5 Stars</radio>
-  <label>
-    Empty
-    <radio>Empty</radio>
-    <text>Empty</text>
-  </label>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -21361,11 +21329,6 @@ exports[`firefox /components/rating/ 1`] = `
   </label>
   <radio>5 Hearts</radio>
   <label>
-    Empty
-    <radio>Empty</radio>
-    <text>Empty</text>
-  </label>
-  <label>
     10 stars
     <text>10 stars</text>
   </label>
@@ -21419,11 +21382,6 @@ exports[`firefox /components/rating/ 1`] = `
     <text>10 Stars</text>
   </label>
   <radio>10 Stars</radio>
-  <label>
-    Empty
-    <radio>Empty</radio>
-    <text>Empty</text>
-  </label>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -21485,11 +21443,6 @@ exports[`firefox /components/rating/ 1`] = `
     <text>5 Stars</text>
   </label>
   <radio>5 Stars</radio>
-  <label>
-    Empty
-    <radio>Empty</radio>
-    <text>Empty</text>
-  </label>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -21686,6 +21639,7 @@ exports[`firefox /components/selects/ 1`] = `
     Age
     <text>Age</text>
   </label>
+  <statictext> </statictext>
   <button haspopup="true">
     Age ​<text>​</text>
   </button>
@@ -21703,7 +21657,7 @@ exports[`firefox /components/selects/ 1`] = `
     id="demo-simple-select-label">Age</InputLabel> <Select
     labelId="demo-simple-select-label"
     id="demo-simple-select" value={age}
-    label="Age" onChange={handleChange} > <MenuItem
+    onChange={handleChange} > <MenuItem
     value={10}>Ten</MenuItem> <MenuItem
     value={20}>Twenty</MenuItem> <MenuItem
     value={30}>Thirty</MenuItem> </Select>
@@ -21745,11 +21699,11 @@ exports[`firefox /components/selects/ 1`] = `
     <text>. It extends the</text>
     <link>text field components</link>
     <text>sub-components, either the</text>
-    <link>OutlinedInput</link>
-    <text>,</text>
     <link>Input</link>
-    <text>, or</text>
+    <text>,</text>
     <link>FilledInput</link>
+    <text>, or</text>
+    <link>OutlinedInput</link>
     <text>
       , depending on the variant selected. It shares the same styles and many of
       the same props. Refer to the respective component's API page for
@@ -21757,9 +21711,9 @@ exports[`firefox /components/selects/ 1`] = `
     </text>
   </paragraph>
   <heading level="3">
-    Filled and standard variants
+    Filled and outlined variants
     <link></link>
-    <text>Filled and standard variants</text>
+    <text>Filled and outlined variants</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -21769,7 +21723,6 @@ exports[`firefox /components/selects/ 1`] = `
     Age
     <text>Age</text>
   </label>
-  <statictext> </statictext>
   <button haspopup="true">
     Age ​<text>​</text>
   </button>
@@ -21803,12 +21756,14 @@ exports[`firefox /components/selects/ 1`] = `
     Age
     <text>Age</text>
   </label>
+  <statictext> </statictext>
   <button haspopup="true">
     Age ​<text>​</text>
   </button>
   <paragraph>
     <text>With label + helper text</text>
   </paragraph>
+  <statictext> </statictext>
   <button haspopup="true">
     Without label
     <text>None</text>
@@ -21838,6 +21793,7 @@ exports[`firefox /components/selects/ 1`] = `
     Age
     <text>Age</text>
   </label>
+  <statictext> </statictext>
   <button haspopup="true">
     Age ​<text>​</text>
   </button>
@@ -21860,31 +21816,34 @@ exports[`firefox /components/selects/ 1`] = `
     navigation of our components.
   </button>
   <label>
-    Age
-    <text>Age</text>
+    Name
+    <text>Name</text>
   </label>
+  <statictext> </statictext>
   <button disabled="true" haspopup="true">
-    Age ​<text>​</text>
+    Name ​<text>​</text>
   </button>
   <paragraph>
     <text>Disabled</text>
   </paragraph>
   <label>
-    Age
-    <text>Age</text>
+    Name
+    <text>Name</text>
   </label>
+  <statictext> </statictext>
   <button haspopup="true">
-    Age ​<text>​</text>
+    Name ​<text>​</text>
   </button>
   <paragraph>
     <text>Error</text>
   </paragraph>
   <label>
-    Age
-    <text>Age</text>
+    Name
+    <text>Name</text>
   </label>
+  <statictext> </statictext>
   <button haspopup="true">
-    Age ​<text>​</text>
+    Name ​<text>​</text>
   </button>
   <paragraph>
     <text>Read only</text>
@@ -21893,6 +21852,7 @@ exports[`firefox /components/selects/ 1`] = `
     Age
     <text>Age</text>
   </label>
+  <statictext> </statictext>
   <button haspopup="true">
     Age ​<text>​</text>
   </button>
@@ -21955,8 +21915,8 @@ exports[`firefox /components/selects/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <FormControl fullWidth> <InputLabel variant="standard"
-    htmlFor="uncontrolled-native"> Age </InputLabel>
+    <FormControl fullWidth> <InputLabel
+    htmlFor="uncontrolled-native">Age</InputLabel>
     <NativeSelect defaultValue={30} inputProps={{ name:
     'age', id: 'uncontrolled-native', }} >
     <option value={10}>Ten</option> <option
@@ -21994,9 +21954,7 @@ exports[`firefox /components/selects/ 1`] = `
     <text>
       The first step is to style the InputBase component. Once it's styled,
       you can either use it directly as a text field or provide it to the select
-      input prop to have a select field. Notice that the "standard"
-      variant is easier to customize, since it does not wrap the contents in a
-      fieldset/legend markup.
+      input prop to have a select field.
     </text>
   </paragraph>
   <button>
@@ -22082,6 +22040,7 @@ exports[`firefox /components/selects/ 1`] = `
     Name
     <text>Name</text>
   </label>
+  <statictext> </statictext>
   <button haspopup="true">
     Name ​<text>​</text>
   </button>
@@ -22107,6 +22066,7 @@ exports[`firefox /components/selects/ 1`] = `
     Tag
     <text>Tag</text>
   </label>
+  <statictext> </statictext>
   <button haspopup="true">
     Tag ​<text>​</text>
   </button>
@@ -22132,6 +22092,7 @@ exports[`firefox /components/selects/ 1`] = `
     Chip
     <text>Chip</text>
   </label>
+  <statictext> </statictext>
   <button haspopup="true">
     Chip ​<text>​</text>
   </button>
@@ -22153,6 +22114,7 @@ exports[`firefox /components/selects/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <statictext> </statictext>
   <button haspopup="true">
     Without label
     <text>Placeholder</text>
@@ -22179,6 +22141,7 @@ exports[`firefox /components/selects/ 1`] = `
     Native
     <text>Native</text>
   </label>
+  <statictext> </statictext>
   <listbox multiselectable="true">
     Native
     <option>
@@ -22248,6 +22211,7 @@ exports[`firefox /components/selects/ 1`] = `
     Age
     <text>Age</text>
   </label>
+  <statictext> </statictext>
   <button haspopup="true">
     Age ​<text>​</text>
   </button>
@@ -22307,6 +22271,7 @@ exports[`firefox /components/selects/ 1`] = `
     Grouping
     <text>Grouping</text>
   </label>
+  <statictext> </statictext>
   <combobox haspopup="true" value="None">
     Grouping
     <MenuListPopup>
@@ -22335,6 +22300,7 @@ exports[`firefox /components/selects/ 1`] = `
     Grouping
     <text>Grouping</text>
   </label>
+  <statictext> </statictext>
   <button haspopup="true">
     ​<text>​</text>
   </button>
