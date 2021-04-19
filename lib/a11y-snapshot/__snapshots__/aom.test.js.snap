@@ -3247,7 +3247,7 @@ exports[`chromium /components/buttons/ 1`] = `
   <paragraph>
     <link>Outlined buttons</link>
     <text>
-      are medium-emphasis buttons. They contain actions that are important, but
+      are medium-emphasis buttons. They contain actions that are important but
       aren't the primary action in an app.
     </text>
   </paragraph>
@@ -3343,7 +3343,7 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>Sizes</text>
   </heading>
   <paragraph>
-    <text>For larger or smaller buttons use the</text>
+    <text>For larger or smaller buttons, use the</text>
     <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
@@ -3646,7 +3646,7 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>component provides the</text>
     <code>$SOME_CODE</code>
     <text>
-      prop to handle this use case. However for certain focus polyfills
+      prop to handle this use case. However, for certain focus polyfills
     </text>
     <code>$SOME_CODE</code>
     <text>
@@ -3688,7 +3688,7 @@ exports[`chromium /components/buttons/ 1`] = `
   <list>
     <listitem level="1">
       <text>
-        CSS only. You can remove the pointer events style on the disabled state
+        CSS only. You can remove the pointer-events style on the disabled state
         of the
       </text>
       <code>$SOME_CODE</code>
@@ -9681,7 +9681,7 @@ exports[`chromium /components/tabs/ 1`] = `
   <paragraph>
     <text>
       Long labels will automatically wrap on tabs. If the label is too long for
-      the tab, it will overflow and the text will not be visible.
+      the tab, it will overflow, and the text will not be visible.
     </text>
   </paragraph>
   <button>
@@ -9799,7 +9799,7 @@ exports[`chromium /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Fixed tabs should be used with a limited number of tabs, and when
+      Fixed tabs should be used with a limited number of tabs, and when a
       consistent placement will aid muscle memory.
     </text>
   </paragraph>
@@ -10081,7 +10081,7 @@ exports[`chromium /components/tabs/ 1`] = `
     <code>$SOME_CODE</code>
     <text>
       . All scrolling must be initiated through user agent scrolling mechanisms
-      (e.g. left/right swipe, shift-mousewheel, etc.)
+      (e.g. left/right swipe, shift mouse wheel, etc.)
     </text>
   </paragraph>
   <button>
@@ -10361,6 +10361,26 @@ exports[`chromium /components/tabs/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
+  <heading level="2">
+    Third-party routing library
+    <Anchor></Anchor>
+    <text>Third-party routing library</text>
+  </heading>
+  <paragraph>
+    <text>
+      One common use case is to perform navigation on the client only, without
+      an HTTP round-trip to the server. The
+    </text>
+    <code>$SOME_CODE</code>
+    <text>component provides the</text>
+    <code>$SOME_CODE</code>
+    <text>prop to handle this use case.</text>
+  </paragraph>
+  <paragraph>
+    <text>Here is an</text>
+    <link>integration example with react-router</link>
+    <text>.</text>
+  </paragraph>
   <heading level="2">
     Accessibility
     <Anchor></Anchor>
@@ -16618,7 +16638,7 @@ exports[`firefox /components/buttons/ 1`] = `
   <paragraph>
     <link>Outlined buttons</link>
     <text>
-      are medium-emphasis buttons. They contain actions that are important, but
+      are medium-emphasis buttons. They contain actions that are important but
       aren't the primary action in an app.
     </text>
   </paragraph>
@@ -16730,7 +16750,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>Sizes</text>
   </heading>
   <paragraph>
-    <text>For larger or smaller buttons use the size prop.</text>
+    <text>For larger or smaller buttons, use the size prop.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -17042,7 +17062,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>
       One common use case is to use the button to trigger navigation to a new
       page. The ButtonBase component provides the component prop to handle this
-      use case. However for certain focus polyfills ButtonBase requires the DOM
+      use case. However, for certain focus polyfills ButtonBase requires the DOM
       node of the provided component. This is achieved by attaching a ref to the
       component and expecting that the component forwards this ref to the
       underlying DOM node. Given that many of the interactive components rely on
@@ -17075,10 +17095,10 @@ exports[`firefox /components/buttons/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      CSS only . You can remove the pointer events style on the disabled state
+      CSS only . You can remove the pointer-events style on the disabled state
       of the <button> element:
       <text>
-        CSS only. You can remove the pointer events style on the disabled state
+        CSS only. You can remove the pointer-events style on the disabled state
         of the <button> element:
       </text>
     </listitem>
@@ -23791,7 +23811,7 @@ exports[`firefox /components/tabs/ 1`] = `
   <paragraph>
     <text>
       Long labels will automatically wrap on tabs. If the label is too long for
-      the tab, it will overflow and the text will not be visible.
+      the tab, it will overflow, and the text will not be visible.
     </text>
   </paragraph>
   <button>
@@ -23920,7 +23940,7 @@ exports[`firefox /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Fixed tabs should be used with a limited number of tabs, and when
+      Fixed tabs should be used with a limited number of tabs, and when a
       consistent placement will aid muscle memory.
     </text>
   </paragraph>
@@ -24211,7 +24231,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <text>
       Left and right scroll buttons are never be presented with
       scrollButtons={false}. All scrolling must be initiated through
-      user agent scrolling mechanisms (e.g. left/right swipe, shift-mousewheel,
+      user agent scrolling mechanisms (e.g. left/right swipe, shift mouse wheel,
       etc.)
     </text>
   </paragraph>
@@ -24508,6 +24528,23 @@ exports[`firefox /components/tabs/ 1`] = `
     <Tab icon={<PersonPinIcon />} label="NEARBY"
     /> </Tabs>
   </text>
+  <heading level="2">
+    Third-party routing library
+    <link></link>
+    <text>Third-party routing library</text>
+  </heading>
+  <paragraph>
+    <text>
+      One common use case is to perform navigation on the client only, without
+      an HTTP round-trip to the server. The Link component provides the
+      component prop to handle this use case.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>Here is an</text>
+    <link>integration example with react-router</link>
+    <text>.</text>
+  </paragraph>
   <heading level="2">
     Accessibility
     <link></link>
