@@ -3247,7 +3247,7 @@ exports[`chromium /components/buttons/ 1`] = `
   <paragraph>
     <link>Outlined buttons</link>
     <text>
-      are medium-emphasis buttons. They contain actions that are important but
+      are medium-emphasis buttons. They contain actions that are important, but
       aren't the primary action in an app.
     </text>
   </paragraph>
@@ -3343,7 +3343,7 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>Sizes</text>
   </heading>
   <paragraph>
-    <text>For larger or smaller buttons, use the</text>
+    <text>For larger or smaller buttons use the</text>
     <code>$SOME_CODE</code>
     <text>prop.</text>
   </paragraph>
@@ -3646,7 +3646,7 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>component provides the</text>
     <code>$SOME_CODE</code>
     <text>
-      prop to handle this use case. However, for certain focus polyfills
+      prop to handle this use case. However for certain focus polyfills
     </text>
     <code>$SOME_CODE</code>
     <text>
@@ -3688,7 +3688,7 @@ exports[`chromium /components/buttons/ 1`] = `
   <list>
     <listitem level="1">
       <text>
-        CSS only. You can remove the pointer-events style on the disabled state
+        CSS only. You can remove the pointer events style on the disabled state
         of the
       </text>
       <code>$SOME_CODE</code>
@@ -3832,13 +3832,13 @@ exports[`chromium /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Checkbox demo</checkbox>
-  <checkbox checked="false">Checkbox demo</checkbox>
+  <checkbox checked="true">checked</checkbox>
+  <checkbox checked="false">uncontrolled</checkbox>
   <checkbox checked="false" disabled="true">
-    Checkbox demo
+    disabled
   </checkbox>
   <checkbox checked="true" disabled="true">
-    Checkbox demo
+    disabled checked
   </checkbox>
   <toolbar>
     demo source
@@ -3901,9 +3901,9 @@ exports[`chromium /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Checkbox demo</checkbox>
-  <checkbox checked="true">Checkbox demo</checkbox>
-  <checkbox checked="true">Checkbox demo</checkbox>
+  <checkbox checked="true">small</checkbox>
+  <checkbox checked="true">normal</checkbox>
+  <checkbox checked="true">large</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -3925,22 +3925,19 @@ exports[`chromium /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Checkbox demo</checkbox>
-  <checkbox checked="true">Checkbox demo</checkbox>
-  <checkbox checked="true">Checkbox demo</checkbox>
-  <checkbox checked="true">Checkbox demo</checkbox>
+  <checkbox checked="true">secondary</checkbox>
+  <checkbox checked="true">primary</checkbox>
+  <checkbox checked="true">default</checkbox>
+  <checkbox checked="true">custom</checkbox>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Icon
     <Anchor></Anchor>
@@ -3950,8 +3947,8 @@ exports[`chromium /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="false">Checkbox demo</checkbox>
-  <checkbox checked="false">Checkbox demo</checkbox>
+  <checkbox checked="false">favorite</checkbox>
+  <checkbox checked="false">bookmarked</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -4130,10 +4127,10 @@ exports[`chromium /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="false">Checkbox demo</checkbox>
-  <checkbox checked="true">Checkbox demo</checkbox>
+  <checkbox checked="false">decorative checkbox</checkbox>
+  <checkbox checked="true">decorative checkbox</checkbox>
   <checkbox checked="false" disabled="true">
-    Checkbox demo
+    decorative checkbox
   </checkbox>
   <toolbar>
     demo source
@@ -9185,13 +9182,13 @@ exports[`chromium /components/switches/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Switch demo</checkbox>
-  <checkbox checked="false">Switch demo</checkbox>
+  <checkbox checked="true">checked</checkbox>
+  <checkbox checked="false">unchecked</checkbox>
   <checkbox checked="true" disabled="true">
-    Switch demo
+    disabled checked
   </checkbox>
   <checkbox checked="false" disabled="true">
-    Switch demo
+    disabled unchecked
   </checkbox>
   <toolbar>
     demo source
@@ -9251,8 +9248,8 @@ exports[`chromium /components/switches/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Switch demo</checkbox>
-  <checkbox checked="true">Switch demo</checkbox>
+  <checkbox checked="true">small</checkbox>
+  <checkbox checked="true">normal</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -9274,10 +9271,10 @@ exports[`chromium /components/switches/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Switch demo</checkbox>
-  <checkbox checked="true">Switch demo</checkbox>
-  <checkbox checked="true">Switch demo</checkbox>
-  <checkbox checked="true">Switch demo</checkbox>
+  <checkbox checked="true">secondary</checkbox>
+  <checkbox checked="true">primary</checkbox>
+  <checkbox checked="true">default</checkbox>
+  <checkbox checked="true">custom</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -9684,7 +9681,7 @@ exports[`chromium /components/tabs/ 1`] = `
   <paragraph>
     <text>
       Long labels will automatically wrap on tabs. If the label is too long for
-      the tab, it will overflow, and the text will not be visible.
+      the tab, it will overflow and the text will not be visible.
     </text>
   </paragraph>
   <button>
@@ -9802,7 +9799,7 @@ exports[`chromium /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Fixed tabs should be used with a limited number of tabs, and when a
+      Fixed tabs should be used with a limited number of tabs, and when
       consistent placement will aid muscle memory.
     </text>
   </paragraph>
@@ -10084,7 +10081,7 @@ exports[`chromium /components/tabs/ 1`] = `
     <code>$SOME_CODE</code>
     <text>
       . All scrolling must be initiated through user agent scrolling mechanisms
-      (e.g. left/right swipe, shift mouse wheel, etc.)
+      (e.g. left/right swipe, shift-mousewheel, etc.)
     </text>
   </paragraph>
   <button>
@@ -10364,26 +10361,6 @@ exports[`chromium /components/tabs/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
-  <heading level="2">
-    Third-party routing library
-    <Anchor></Anchor>
-    <text>Third-party routing library</text>
-  </heading>
-  <paragraph>
-    <text>
-      One common use case is to perform navigation on the client only, without
-      an HTTP round-trip to the server. The
-    </text>
-    <code>$SOME_CODE</code>
-    <text>component provides the</text>
-    <code>$SOME_CODE</code>
-    <text>prop to handle this use case.</text>
-  </paragraph>
-  <paragraph>
-    <text>Here is an</text>
-    <link>integration example with react-router</link>
-    <text>.</text>
-  </paragraph>
   <heading level="2">
     Accessibility
     <Anchor></Anchor>
@@ -16641,7 +16618,7 @@ exports[`firefox /components/buttons/ 1`] = `
   <paragraph>
     <link>Outlined buttons</link>
     <text>
-      are medium-emphasis buttons. They contain actions that are important but
+      are medium-emphasis buttons. They contain actions that are important, but
       aren't the primary action in an app.
     </text>
   </paragraph>
@@ -16753,7 +16730,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>Sizes</text>
   </heading>
   <paragraph>
-    <text>For larger or smaller buttons, use the size prop.</text>
+    <text>For larger or smaller buttons use the size prop.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -17065,7 +17042,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>
       One common use case is to use the button to trigger navigation to a new
       page. The ButtonBase component provides the component prop to handle this
-      use case. However, for certain focus polyfills ButtonBase requires the DOM
+      use case. However for certain focus polyfills ButtonBase requires the DOM
       node of the provided component. This is achieved by attaching a ref to the
       component and expecting that the component forwards this ref to the
       underlying DOM node. Given that many of the interactive components rely on
@@ -17098,10 +17075,10 @@ exports[`firefox /components/buttons/ 1`] = `
   </paragraph>
   <list>
     <listitem>
-      CSS only . You can remove the pointer-events style on the disabled state
+      CSS only . You can remove the pointer events style on the disabled state
       of the <button> element:
       <text>
-        CSS only. You can remove the pointer-events style on the disabled state
+        CSS only. You can remove the pointer events style on the disabled state
         of the <button> element:
       </text>
     </listitem>
@@ -17244,11 +17221,11 @@ exports[`firefox /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Checkbox demo</checkbox>
-  <checkbox>Checkbox demo</checkbox>
-  <checkbox disabled="true">Checkbox demo</checkbox>
+  <checkbox checked="true">checked</checkbox>
+  <checkbox>uncontrolled</checkbox>
+  <checkbox disabled="true">disabled</checkbox>
   <checkbox checked="true" disabled="true">
-    Checkbox demo
+    disabled checked
   </checkbox>
   <toolbar>
     demo source
@@ -17260,9 +17237,13 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Checkbox {...label} defaultChecked /> <Checkbox
-    {...label} /> <Checkbox {...label} disabled />
-    <Checkbox {...label} disabled checked />
+    <Checkbox defaultChecked inputProps={{ 'aria-label':
+    'checked' }} /> <Checkbox inputProps={{
+    'aria-label': 'uncontrolled' }} />
+    <Checkbox disabled inputProps={{ 'aria-label':
+    'disabled' }} /> <Checkbox disabled checked
+    inputProps={{ 'aria-label': 'disabled checked'
+    }} />
   </text>
   <heading level="2">
     Label
@@ -17319,9 +17300,9 @@ exports[`firefox /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Checkbox demo</checkbox>
-  <checkbox checked="true">Checkbox demo</checkbox>
-  <checkbox checked="true">Checkbox demo</checkbox>
+  <checkbox checked="true">small</checkbox>
+  <checkbox checked="true">normal</checkbox>
+  <checkbox checked="true">large</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -17332,10 +17313,13 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Checkbox {...label} defaultChecked size="small"
-    /> <Checkbox {...label} defaultChecked /> <Checkbox
-    {...label} defaultChecked sx={{ '&
-    .MuiSvgIcon-root': { fontSize: 28 } }} />
+    <Checkbox defaultChecked inputProps={{ 'aria-label':
+    'small' }} size="small" /> <Checkbox
+    defaultChecked inputProps={{ 'aria-label':
+    'normal' }} /> <Checkbox defaultChecked
+    inputProps={{ 'aria-label': 'large'
+    }} sx={{ '& .MuiSvgIcon-root': {
+    fontSize: 28 } }} />
   </text>
   <heading level="2">
     Color
@@ -17346,27 +17330,19 @@ exports[`firefox /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Checkbox demo</checkbox>
-  <checkbox checked="true">Checkbox demo</checkbox>
-  <checkbox checked="true">Checkbox demo</checkbox>
-  <checkbox checked="true">Checkbox demo</checkbox>
+  <checkbox checked="true">secondary</checkbox>
+  <checkbox checked="true">primary</checkbox>
+  <checkbox checked="true">default</checkbox>
+  <checkbox checked="true">custom</checkbox>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Checkbox {...label} defaultChecked /> <Checkbox
-    {...label} defaultChecked color="primary" />
-    <Checkbox {...label} defaultChecked color="default"
-    /> <Checkbox {...label} defaultChecked sx={{
-    color: green[800], '&.Mui-checked': { color: green[600],
-    }, }} />
-  </text>
   <heading level="2">
     Icon
     <link></link>
@@ -17376,8 +17352,8 @@ exports[`firefox /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox>Checkbox demo</checkbox>
-  <checkbox>Checkbox demo</checkbox>
+  <checkbox>favorite</checkbox>
+  <checkbox>bookmarked</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -17388,10 +17364,12 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Checkbox {...label} icon={<FavoriteBorder />}
-    checkedIcon={<Favorite />} /> <Checkbox
-    {...label} icon={<BookmarkBorderIcon />}
-    checkedIcon={<BookmarkIcon />} />
+    <Checkbox icon={<FavoriteBorder />}
+    checkedIcon={<Favorite />} inputProps={{
+    'aria-label': 'favorite' }} /> <Checkbox
+    icon={<BookmarkBorderIcon />}
+    checkedIcon={<BookmarkIcon />} inputProps={{
+    'aria-label': 'bookmarked' }} />
   </text>
   <heading level="2">
     Controlled
@@ -17461,10 +17439,10 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <FormControlLabel label="Parent" control={ <Checkbox
-    checked={checked[0] && checked[1]}
-    indeterminate={checked[0] !== checked[1]}
-    onChange={handleChange1} /> } /> {children}
+    <FormControlLabel control={ <Checkbox checked={checked[0]
+    && checked[1]} indeterminate={checked[0] !==
+    checked[1]} onChange={handleChange1} /> }
+    label="Parent" /> {children}
   </text>
   <blockquote>
     <paragraph>
@@ -17612,9 +17590,9 @@ exports[`firefox /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox>Checkbox demo</checkbox>
-  <checkbox checked="true">Checkbox demo</checkbox>
-  <checkbox disabled="true">Checkbox demo</checkbox>
+  <checkbox>decorative checkbox</checkbox>
+  <checkbox checked="true">decorative checkbox</checkbox>
+  <checkbox disabled="true">decorative checkbox</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -23243,12 +23221,12 @@ exports[`firefox /components/switches/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Switch demo</checkbox>
-  <checkbox>Switch demo</checkbox>
+  <checkbox checked="true">checked</checkbox>
+  <checkbox>unchecked</checkbox>
   <checkbox checked="true" disabled="true">
-    Switch demo
+    disabled checked
   </checkbox>
-  <checkbox disabled="true">Switch demo</checkbox>
+  <checkbox disabled="true">disabled unchecked</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -23259,9 +23237,13 @@ exports[`firefox /components/switches/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Switch {...label} defaultChecked /> <Switch
-    {...label} /> <Switch {...label} disabled
-    defaultChecked /> <Switch {...label} disabled />
+    <Switch defaultChecked inputProps={{ 'aria-label':
+    'checked' }} /> <Switch inputProps={{
+    'aria-label': 'unchecked' }} /> <Switch
+    disabled defaultChecked inputProps={{ 'aria-label':
+    'disabled checked' }} /> <Switch disabled
+    inputProps={{ 'aria-label': 'disabled
+    unchecked' }} />
   </text>
   <heading level="2">
     Label
@@ -23315,8 +23297,8 @@ exports[`firefox /components/switches/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Switch demo</checkbox>
-  <checkbox checked="true">Switch demo</checkbox>
+  <checkbox checked="true">small</checkbox>
+  <checkbox checked="true">normal</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -23327,8 +23309,10 @@ exports[`firefox /components/switches/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Switch {...label} defaultChecked size="small" />
-    <Switch {...label} defaultChecked />
+    <Switch defaultChecked size="small" inputProps={{
+    'aria-label': 'small' }} /> <Switch
+    defaultChecked inputProps={{ 'aria-label':
+    'normal' }} />
   </text>
   <heading level="2">
     Color
@@ -23339,10 +23323,10 @@ exports[`firefox /components/switches/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Switch demo</checkbox>
-  <checkbox checked="true">Switch demo</checkbox>
-  <checkbox checked="true">Switch demo</checkbox>
-  <checkbox checked="true">Switch demo</checkbox>
+  <checkbox checked="true">secondary</checkbox>
+  <checkbox checked="true">primary</checkbox>
+  <checkbox checked="true">default</checkbox>
+  <checkbox checked="true">custom</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -23353,10 +23337,14 @@ exports[`firefox /components/switches/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Switch {...label} defaultChecked /> <Switch
-    {...label} defaultChecked color="primary" />
-    <Switch {...label} defaultChecked color="default"
-    /> <GreenSwitch {...label} defaultChecked />
+    <Switch defaultChecked inputProps={{ 'aria-label':
+    'secondary' }} /> <Switch defaultChecked
+    color="primary" inputProps={{ 'aria-label':
+    'primary' }} /> <Switch defaultChecked
+    color="default" inputProps={{ 'aria-label':
+    'default' }} /> <GreenSwitch defaultChecked
+    inputProps={{ 'aria-label': 'custom'
+    }} />
   </text>
   <heading level="2">
     Controlled
@@ -23803,7 +23791,7 @@ exports[`firefox /components/tabs/ 1`] = `
   <paragraph>
     <text>
       Long labels will automatically wrap on tabs. If the label is too long for
-      the tab, it will overflow, and the text will not be visible.
+      the tab, it will overflow and the text will not be visible.
     </text>
   </paragraph>
   <button>
@@ -23932,7 +23920,7 @@ exports[`firefox /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Fixed tabs should be used with a limited number of tabs, and when a
+      Fixed tabs should be used with a limited number of tabs, and when
       consistent placement will aid muscle memory.
     </text>
   </paragraph>
@@ -24223,7 +24211,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <text>
       Left and right scroll buttons are never be presented with
       scrollButtons={false}. All scrolling must be initiated through
-      user agent scrolling mechanisms (e.g. left/right swipe, shift mouse wheel,
+      user agent scrolling mechanisms (e.g. left/right swipe, shift-mousewheel,
       etc.)
     </text>
   </paragraph>
@@ -24520,23 +24508,6 @@ exports[`firefox /components/tabs/ 1`] = `
     <Tab icon={<PersonPinIcon />} label="NEARBY"
     /> </Tabs>
   </text>
-  <heading level="2">
-    Third-party routing library
-    <link></link>
-    <text>Third-party routing library</text>
-  </heading>
-  <paragraph>
-    <text>
-      One common use case is to perform navigation on the client only, without
-      an HTTP round-trip to the server. The Link component provides the
-      component prop to handle this use case.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>Here is an</text>
-    <link>integration example with react-router</link>
-    <text>.</text>
-  </paragraph>
   <heading level="2">
     Accessibility
     <link></link>
