@@ -9032,9 +9032,9 @@ exports[`chromium /components/slider 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Unstyled slider
+    Unstyled
     <Anchor></Anchor>
-    <text>Unstyled slider</text>
+    <text>Unstyled</text>
   </heading>
   <paragraph>
     <text>
@@ -23101,9 +23101,9 @@ exports[`firefox /components/slider 1`] = `
     aria-labelledby="non-linear-slider" />
   </text>
   <heading level="2">
-    Unstyled slider
+    Unstyled
     <link></link>
-    <text>Unstyled slider</text>
+    <text>Unstyled</text>
   </heading>
   <paragraph>
     <text>
