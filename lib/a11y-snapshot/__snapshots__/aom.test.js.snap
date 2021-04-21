@@ -261,7 +261,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.31. View versions page.</link>
+      <link>v5.0.0-alpha.30. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -9032,9 +9032,9 @@ exports[`chromium /components/slider 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Unstyled
+    Unstyled slider
     <Anchor></Anchor>
-    <text>Unstyled</text>
+    <text>Unstyled slider</text>
   </heading>
   <paragraph>
     <text>
@@ -13992,7 +13992,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.31. View versions page.</link>
+      <link>v5.0.0-alpha.30. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -23101,9 +23101,9 @@ exports[`firefox /components/slider 1`] = `
     aria-labelledby="non-linear-slider" />
   </text>
   <heading level="2">
-    Unstyled
+    Unstyled slider
     <link></link>
-    <text>Unstyled</text>
+    <text>Unstyled slider</text>
   </heading>
   <paragraph>
     <text>
