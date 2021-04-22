@@ -8053,6 +8053,295 @@ exports[`chromium /components/slider 1`] = `
 <main>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
+    Date / Time pickers
+    <text>Date / Time pickers</text>
+  </heading>
+  <paragraph>
+    <text>
+      Date pickers and Time pickers provide a simple way to select a single
+      value from a pre-determined set.
+    </text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <text>
+        On mobile, pickers are best suited for display in confirmation dialog.
+      </text>
+    </listitem>
+    <listitem level="1">
+      <text>
+        For inline display, such as on a form, consider using compact controls
+        such as segmented dropdown buttons.
+      </text>
+    </listitem>
+  </list>
+  <list>
+    <listitem level="1">
+      <link>Feedback</link>
+    </listitem>
+    <listitem level="1">
+      <link>WAI-ARIA</link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>Material Design</link>
+    </listitem>
+    <listitem level="1">
+      <link>Figma</link>
+    </listitem>
+    <listitem level="1">
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    React components
+    <text>React components</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Label>
+    <text>Date picker desktop</text>
+  </Label>
+  <text> </text>
+  <textbox description="mm/dd/yyyy" value="08/18/2014">
+    Date picker desktop
+    <text>08/18/2014</text>
+  </textbox>
+  <button>change date</button>
+  <paragraph>
+    <text>mm/dd/yyyy</text>
+  </paragraph>
+  <Label>
+    <text>Date picker mobile</text>
+  </Label>
+  <text> </text>
+  <textbox readonly="true" value="08/18/2014">
+    Choose date, selected date is Aug 18, 2014
+    <text>08/18/2014</text>
+  </textbox>
+  <Label>
+    <text>Time picker</text>
+  </Label>
+  <text> </text>
+  <textbox value="09:11 pm">
+    hh:mm (a|p)m
+    <text>09:11 pm</text>
+  </textbox>
+  <button>change time</button>
+  <paragraph>
+    <text>hh:mm (a|p)m</text>
+  </paragraph>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Native pickers
+    <text>Native pickers</text>
+  </heading>
+  <paragraph>
+    <text>⚠️ Native input controls support by browsers</text>
+    <link>isn't perfect</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="3">
+    Date picker
+    <text>Date picker</text>
+  </heading>
+  <paragraph>
+    <text>A native datepicker example with</text>
+    <code>$SOME_CODE</code>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <Label>
+      <text>Birthday</text>
+    </Label>
+    <Date value="2017-05-24">
+      Birthday
+      <spinbutton value="5" valuemax="12" valuemin="1" valuetext="05">
+        Month
+        <text>05</text>
+      </spinbutton>
+      <text>/</text>
+      <spinbutton value="24" valuemax="31" valuemin="1" valuetext="24">
+        Day
+        <text>24</text>
+      </spinbutton>
+      <text>/</text>
+      <spinbutton value="2017" valuemax="275760" valuemin="1" valuetext="2017">
+        Year
+        <text>2017</text>
+      </spinbutton>
+    </Date>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="3">
+    Date & Time picker
+    <text>Date & Time picker</text>
+  </heading>
+  <paragraph>
+    <text>A native date & time picker example with</text>
+    <code>$SOME_CODE</code>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <Label>
+      <text>Next appointment</text>
+    </Label>
+    <DateTime value="2017-05-24T10:30">
+      Next appointment
+      <spinbutton value="5" valuemax="12" valuemin="1" valuetext="05">
+        Month
+        <text>05</text>
+      </spinbutton>
+      <text>/</text>
+      <spinbutton value="24" valuemax="31" valuemin="1" valuetext="24">
+        Day
+        <text>24</text>
+      </spinbutton>
+      <text>/</text>
+      <spinbutton value="2017" valuemax="275760" valuemin="1" valuetext="2017">
+        Year
+        <text>2017</text>
+      </spinbutton>
+      <text></text>
+      <spinbutton value="10" valuemax="12" valuemin="1" valuetext="10">
+        Hours
+        <text>10</text>
+      </spinbutton>
+      <text>:</text>
+      <spinbutton value="30" valuemax="59" valuemin="0" valuetext="30">
+        Minutes
+        <text>30</text>
+      </spinbutton>
+      <text></text>
+      <spinbutton value="1" valuemax="2" valuemin="1" valuetext="AM">
+        AM/PM
+        <text>AM</text>
+      </spinbutton>
+    </DateTime>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="3">
+    Time picker
+    <text>Time picker</text>
+  </heading>
+  <paragraph>
+    <text>A native time picker example with</text>
+    <code>$SOME_CODE</code>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <Label>
+      <text>Alarm clock</text>
+    </Label>
+    <InputTime value="07:30">
+      Alarm clock
+      <spinbutton value="7" valuemax="12" valuemin="1" valuetext="07">
+        Hours
+        <text>07</text>
+      </spinbutton>
+      <text>:</text>
+      <spinbutton value="30" valuemax="59" valuemin="0" valuetext="30">
+        Minutes
+        <text>30</text>
+      </spinbutton>
+      <text></text>
+      <spinbutton value="1" valuemax="2" valuemin="1" valuetext="AM">
+        AM/PM
+        <text>AM</text>
+      </spinbutton>
+    </InputTime>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    API
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem level="1">
+      <link>
+        <TextField />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+  </list>
+  <FooterAsNonLandmark>
+    <separator orientation="horizontal"></separator>
+    <link>About the lab 🧪</link>
+    <group>
+      Was this page helpful?
+      <text>Was this page helpful?</text>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
+    <link>Date Picker</link>
+  </FooterAsNonLandmark>
+</main>;
+
+`;
+
+exports[`chromium /components/slider 2`] = `
+<main>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
     Slider
     <text>Slider</text>
   </heading>
