@@ -100,7 +100,6 @@ exports[`chromium / 1`] = `
     <separator orientation="horizontal"></separator>
     <heading level="2">
       Material-UI's sponsors
-      <Anchor></Anchor>
       <text>Material-UI's sponsors</text>
     </heading>
     <paragraph>
@@ -111,7 +110,6 @@ exports[`chromium / 1`] = `
     </paragraph>
     <heading level="3">
       Diamond 💎
-      <Anchor></Anchor>
       <text>Diamond 💎</text>
     </heading>
     <link>
@@ -129,7 +127,6 @@ exports[`chromium / 1`] = `
     </paragraph>
     <heading level="3">
       Gold 🏆
-      <Anchor></Anchor>
       <text>Gold 🏆</text>
     </heading>
     <link>
@@ -162,7 +159,6 @@ exports[`chromium / 1`] = `
     </link>
     <heading level="3">
       There are more!
-      <Anchor></Anchor>
       <text>There are more!</text>
     </heading>
     <paragraph>
@@ -286,7 +282,6 @@ exports[`chromium /api/button/ 1`] = `
   </paragraph>
   <heading level="2">
     Import
-    <Anchor></Anchor>
     <text>Import</text>
   </heading>
   <Pre>
@@ -297,7 +292,6 @@ exports[`chromium /api/button/ 1`] = `
   <text>.</text>
   <heading level="2">
     Component name
-    <Anchor></Anchor>
     <text>Component name</text>
   </heading>
   <text>The name</text>
@@ -309,7 +303,6 @@ exports[`chromium /api/button/ 1`] = `
   <text>in the theme.</text>
   <heading level="2">
     Props
-    <Anchor></Anchor>
     <text>Props</text>
   </heading>
   <table>
@@ -654,7 +647,6 @@ exports[`chromium /api/button/ 1`] = `
   <text>).</text>
   <heading level="3">
     Inheritance
-    <Anchor></Anchor>
     <text>Inheritance</text>
   </heading>
   <text>While not explicitly documented above, the props of the</text>
@@ -666,7 +658,6 @@ exports[`chromium /api/button/ 1`] = `
   <text>.</text>
   <heading level="2">
     CSS
-    <Anchor></Anchor>
     <text>CSS</text>
   </heading>
   <table>
@@ -1334,7 +1325,6 @@ exports[`chromium /api/button/ 1`] = `
   </list>
   <heading level="2">
     Demos
-    <Anchor></Anchor>
     <text>Demos</text>
   </heading>
   <list>
@@ -1375,7 +1365,6 @@ exports[`chromium /api/select/ 1`] = `
   </paragraph>
   <heading level="2">
     Import
-    <Anchor></Anchor>
     <text>Import</text>
   </heading>
   <Pre>
@@ -1386,7 +1375,6 @@ exports[`chromium /api/select/ 1`] = `
   <text>.</text>
   <heading level="2">
     Component name
-    <Anchor></Anchor>
     <text>Component name</text>
   </heading>
   <text>The name</text>
@@ -1398,7 +1386,6 @@ exports[`chromium /api/select/ 1`] = `
   <text>in the theme.</text>
   <heading level="2">
     Props
-    <Anchor></Anchor>
     <text>Props</text>
   </heading>
   <table>
@@ -2012,7 +1999,6 @@ exports[`chromium /api/select/ 1`] = `
   <text>).</text>
   <heading level="3">
     Inheritance
-    <Anchor></Anchor>
     <text>Inheritance</text>
   </heading>
   <text>While not explicitly documented above, the props of the</text>
@@ -2024,7 +2010,6 @@ exports[`chromium /api/select/ 1`] = `
   <text>.</text>
   <heading level="2">
     CSS
-    <Anchor></Anchor>
     <text>CSS</text>
   </heading>
   <table>
@@ -2229,7 +2214,6 @@ exports[`chromium /api/select/ 1`] = `
   </list>
   <heading level="2">
     Demos
-    <Anchor></Anchor>
     <text>Demos</text>
   </heading>
   <list>
@@ -2285,7 +2269,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </list>
   <heading level="2">
     Basic breadcrumbs
-    <Anchor></Anchor>
     <text>Basic breadcrumbs</text>
   </heading>
   <button>
@@ -2322,7 +2305,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </Pre>
   <heading level="2">
     Active last breadcrumb
-    <Anchor></Anchor>
     <text>Active last breadcrumb</text>
   </heading>
   <paragraph>
@@ -2360,7 +2342,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </Pre>
   <heading level="2">
     Custom separator
-    <Anchor></Anchor>
     <text>Custom separator</text>
   </heading>
   <paragraph>
@@ -2435,7 +2416,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </Pre>
   <heading level="2">
     Breadcrumbs with icons
-    <Anchor></Anchor>
     <text>Breadcrumbs with icons</text>
   </heading>
   <button>
@@ -2467,7 +2447,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </toolbar>
   <heading level="2">
     Collapsed breadcrumbs
-    <Anchor></Anchor>
     <text>Collapsed breadcrumbs</text>
   </heading>
   <button>
@@ -2504,7 +2483,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </Pre>
   <heading level="2">
     Customized breadcrumbs
-    <Anchor></Anchor>
     <text>Customized breadcrumbs</text>
   </heading>
   <paragraph>
@@ -2550,7 +2528,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </Pre>
   <heading level="2">
     Integration with react-router
-    <Anchor></Anchor>
     <text>Integration with react-router</text>
   </heading>
   <button>
@@ -2614,7 +2591,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </toolbar>
   <heading level="2">
     Accessibility
-    <Anchor></Anchor>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -2657,7 +2633,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </list>
   <heading level="2">
     API
-    <Anchor></Anchor>
     <text>API</text>
   </heading>
   <list>
@@ -2723,7 +2698,6 @@ exports[`chromium /components/button-group/ 1`] = `
   </list>
   <heading level="2">
     Basic button group
-    <Anchor></Anchor>
     <text>Basic button group</text>
   </heading>
   <paragraph>
@@ -2764,7 +2738,6 @@ exports[`chromium /components/button-group/ 1`] = `
   </Pre>
   <heading level="2">
     Button variants
-    <Anchor></Anchor>
     <text>Button variants</text>
   </heading>
   <paragraph>
@@ -2818,7 +2791,6 @@ exports[`chromium /components/button-group/ 1`] = `
   </Pre>
   <heading level="2">
     Sizes and colors
-    <Anchor></Anchor>
     <text>Sizes and colors</text>
   </heading>
   <paragraph>
@@ -2893,7 +2865,6 @@ exports[`chromium /components/button-group/ 1`] = `
   </Pre>
   <heading level="2">
     Vertical group
-    <Anchor></Anchor>
     <text>Vertical group</text>
   </heading>
   <paragraph>
@@ -2961,7 +2932,6 @@ exports[`chromium /components/button-group/ 1`] = `
   </toolbar>
   <heading level="2">
     Split button
-    <Anchor></Anchor>
     <text>Split button</text>
   </heading>
   <paragraph>
@@ -2995,7 +2965,6 @@ exports[`chromium /components/button-group/ 1`] = `
   </toolbar>
   <heading level="2">
     Disabled elevation
-    <Anchor></Anchor>
     <text>Disabled elevation</text>
   </heading>
   <paragraph>
@@ -3031,7 +3000,6 @@ exports[`chromium /components/button-group/ 1`] = `
   </Pre>
   <heading level="2">
     API
-    <Anchor></Anchor>
     <text>API</text>
   </heading>
   <list>
@@ -3122,7 +3090,6 @@ exports[`chromium /components/buttons/ 1`] = `
   </list>
   <heading level="2">
     Contained buttons
-    <Anchor></Anchor>
     <text>Contained buttons</text>
   </heading>
   <paragraph>
@@ -3188,7 +3155,6 @@ exports[`chromium /components/buttons/ 1`] = `
   </Pre>
   <heading level="2">
     Text buttons
-    <Anchor></Anchor>
     <text>Text buttons</text>
   </heading>
   <paragraph>
@@ -3241,7 +3207,6 @@ exports[`chromium /components/buttons/ 1`] = `
   </Pre>
   <heading level="2">
     Outlined buttons
-    <Anchor></Anchor>
     <text>Outlined buttons</text>
   </heading>
   <paragraph>
@@ -3288,7 +3253,6 @@ exports[`chromium /components/buttons/ 1`] = `
   </Pre>
   <heading level="2">
     Handling clicks
-    <Anchor></Anchor>
     <text>Handling clicks</text>
   </heading>
   <paragraph>
@@ -3309,7 +3273,6 @@ exports[`chromium /components/buttons/ 1`] = `
   </paragraph>
   <heading level="2">
     Upload button
-    <Anchor></Anchor>
     <text>Upload button</text>
   </heading>
   <button>
@@ -3339,7 +3302,6 @@ exports[`chromium /components/buttons/ 1`] = `
   </Pre>
   <heading level="2">
     Sizes
-    <Anchor></Anchor>
     <text>Sizes</text>
   </heading>
   <paragraph>
@@ -3402,7 +3364,6 @@ exports[`chromium /components/buttons/ 1`] = `
   </toolbar>
   <heading level="2">
     Buttons with icons and label
-    <Anchor></Anchor>
     <text>Buttons with icons and label</text>
   </heading>
   <paragraph>
@@ -3439,7 +3400,6 @@ exports[`chromium /components/buttons/ 1`] = `
   </Pre>
   <heading level="2">
     Icon button
-    <Anchor></Anchor>
     <text>Icon button</text>
   </heading>
   <paragraph>
@@ -3474,7 +3434,6 @@ exports[`chromium /components/buttons/ 1`] = `
   </Pre>
   <heading level="2">
     Customized buttons
-    <Anchor></Anchor>
     <text>Customized buttons</text>
   </heading>
   <paragraph>
@@ -3517,7 +3476,6 @@ exports[`chromium /components/buttons/ 1`] = `
   </paragraph>
   <heading level="2">
     Loading buttons
-    <Anchor></Anchor>
     <text>Loading buttons</text>
   </heading>
   <paragraph>
@@ -3593,7 +3551,6 @@ exports[`chromium /components/buttons/ 1`] = `
   </toolbar>
   <heading level="2">
     Complex buttons
-    <Anchor></Anchor>
     <text>Complex buttons</text>
   </heading>
   <paragraph>
@@ -3634,7 +3591,6 @@ exports[`chromium /components/buttons/ 1`] = `
   </toolbar>
   <heading level="2">
     Third-party routing library
-    <Anchor></Anchor>
     <text>Third-party routing library</text>
   </heading>
   <paragraph>
@@ -3665,12 +3621,10 @@ exports[`chromium /components/buttons/ 1`] = `
   </paragraph>
   <heading level="2">
     Limitations
-    <Anchor></Anchor>
     <text>Limitations</text>
   </heading>
   <heading level="3">
     Cursor not-allowed
-    <Anchor></Anchor>
     <text>Cursor not-allowed</text>
   </heading>
   <paragraph>
@@ -3735,7 +3689,6 @@ exports[`chromium /components/buttons/ 1`] = `
   </paragraph>
   <heading level="2">
     API
-    <Anchor></Anchor>
     <text>API</text>
   </heading>
   <list>
@@ -3825,7 +3778,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </list>
   <heading level="2">
     Basic checkboxes
-    <Anchor></Anchor>
     <text>Basic checkboxes</text>
   </heading>
   <button>
@@ -3854,7 +3806,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </Pre>
   <heading level="2">
     Label
-    <Anchor></Anchor>
     <text>Label</text>
   </heading>
   <paragraph>
@@ -3886,7 +3837,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </Pre>
   <heading level="2">
     Size
-    <Anchor></Anchor>
     <text>Size</text>
   </heading>
   <paragraph>
@@ -3918,7 +3868,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </Pre>
   <heading level="2">
     Color
-    <Anchor></Anchor>
     <text>Color</text>
   </heading>
   <button>
@@ -3943,7 +3892,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </Pre>
   <heading level="2">
     Icon
-    <Anchor></Anchor>
     <text>Icon</text>
   </heading>
   <button>
@@ -3966,7 +3914,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </Pre>
   <heading level="2">
     Controlled
-    <Anchor></Anchor>
     <text>Controlled</text>
   </heading>
   <paragraph>
@@ -3995,7 +3942,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </Pre>
   <heading level="2">
     Indeterminate
-    <Anchor></Anchor>
     <text>Indeterminate</text>
   </heading>
   <paragraph>
@@ -4036,7 +3982,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </blockquote>
   <heading level="2">
     FormGroup
-    <Anchor></Anchor>
     <text>FormGroup</text>
   </heading>
   <paragraph>
@@ -4084,7 +4029,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </toolbar>
   <heading level="2">
     Label placement
-    <Anchor></Anchor>
     <text>Label placement</text>
   </heading>
   <paragraph>
@@ -4115,7 +4059,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </toolbar>
   <heading level="2">
     Customized checkbox
-    <Anchor></Anchor>
     <text>Customized checkbox</text>
   </heading>
   <paragraph>
@@ -4154,7 +4097,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </paragraph>
   <heading level="2">
     When to use
-    <Anchor></Anchor>
     <text>When to use</text>
   </heading>
   <list>
@@ -4167,7 +4109,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </list>
   <heading level="2">
     Accessibility
-    <Anchor></Anchor>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -4207,7 +4148,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </Pre>
   <heading level="2">
     API
-    <Anchor></Anchor>
     <text>API</text>
   </heading>
   <list>
@@ -4309,7 +4249,6 @@ exports[`chromium /components/dialogs/ 1`] = `
   </list>
   <heading level="2">
     Basic dialog
-    <Anchor></Anchor>
     <text>Basic dialog</text>
   </heading>
   <paragraph>
@@ -4359,7 +4298,6 @@ exports[`chromium /components/dialogs/ 1`] = `
   </Pre>
   <heading level="2">
     Alerts
-    <Anchor></Anchor>
     <text>Alerts</text>
   </heading>
   <paragraph>
@@ -4427,7 +4365,6 @@ exports[`chromium /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Transitions
-    <Anchor></Anchor>
     <text>Transitions</text>
   </heading>
   <paragraph>
@@ -4454,7 +4391,6 @@ exports[`chromium /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Form dialogs
-    <Anchor></Anchor>
     <text>Form dialogs</text>
   </heading>
   <paragraph>
@@ -4484,7 +4420,6 @@ exports[`chromium /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Customized dialogs
-    <Anchor></Anchor>
     <text>Customized dialogs</text>
   </heading>
   <paragraph>
@@ -4517,7 +4452,6 @@ exports[`chromium /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Full-screen dialogs
-    <Anchor></Anchor>
     <text>Full-screen dialogs</text>
   </heading>
   <button>
@@ -4539,7 +4473,6 @@ exports[`chromium /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Optional sizes
-    <Anchor></Anchor>
     <text>Optional sizes</text>
   </heading>
   <paragraph>
@@ -4572,7 +4505,6 @@ exports[`chromium /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Responsive full-screen
-    <Anchor></Anchor>
     <text>Responsive full-screen</text>
   </heading>
   <paragraph>
@@ -4605,7 +4537,6 @@ exports[`chromium /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Confirmation dialogs
-    <Anchor></Anchor>
     <text>Confirmation dialogs</text>
   </heading>
   <paragraph>
@@ -4656,7 +4587,6 @@ exports[`chromium /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Draggable dialog
-    <Anchor></Anchor>
     <text>Draggable dialog</text>
   </heading>
   <paragraph>
@@ -4689,7 +4619,6 @@ exports[`chromium /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Scrolling long content
-    <Anchor></Anchor>
     <text>Scrolling long content</text>
   </heading>
   <paragraph>
@@ -4734,7 +4663,6 @@ exports[`chromium /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Performance
-    <Anchor></Anchor>
     <text>Performance</text>
   </heading>
   <paragraph>
@@ -4744,7 +4672,6 @@ exports[`chromium /components/dialogs/ 1`] = `
   </paragraph>
   <heading level="2">
     Limitations
-    <Anchor></Anchor>
     <text>Limitations</text>
   </heading>
   <paragraph>
@@ -4754,7 +4681,6 @@ exports[`chromium /components/dialogs/ 1`] = `
   </paragraph>
   <heading level="2">
     Accessibility
-    <Anchor></Anchor>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -4764,7 +4690,6 @@ exports[`chromium /components/dialogs/ 1`] = `
   </paragraph>
   <heading level="2">
     API
-    <Anchor></Anchor>
     <text>API</text>
   </heading>
   <list>
@@ -4851,7 +4776,6 @@ exports[`chromium /components/pagination/ 1`] = `
   </list>
   <heading level="2">
     Basic pagination
-    <Anchor></Anchor>
     <text>Basic pagination</text>
   </heading>
   <button>
@@ -5052,7 +4976,6 @@ exports[`chromium /components/pagination/ 1`] = `
   </Pre>
   <heading level="2">
     Outlined pagination
-    <Anchor></Anchor>
     <text>Outlined pagination</text>
   </heading>
   <button>
@@ -5253,7 +5176,6 @@ exports[`chromium /components/pagination/ 1`] = `
   </Pre>
   <heading level="2">
     Rounded pagination
-    <Anchor></Anchor>
     <text>Rounded pagination</text>
   </heading>
   <button>
@@ -5364,7 +5286,6 @@ exports[`chromium /components/pagination/ 1`] = `
   </Pre>
   <heading level="2">
     Pagination size
-    <Anchor></Anchor>
     <text>Pagination size</text>
   </heading>
   <button>
@@ -5520,7 +5441,6 @@ exports[`chromium /components/pagination/ 1`] = `
   </Pre>
   <heading level="2">
     Buttons
-    <Anchor></Anchor>
     <text>Buttons</text>
   </heading>
   <paragraph>
@@ -5637,7 +5557,6 @@ exports[`chromium /components/pagination/ 1`] = `
   </Pre>
   <heading level="2">
     Pagination ranges
-    <Anchor></Anchor>
     <text>Pagination ranges</text>
   </heading>
   <paragraph>
@@ -5842,7 +5761,6 @@ exports[`chromium /components/pagination/ 1`] = `
   </Pre>
   <heading level="2">
     Controlled pagination
-    <Anchor></Anchor>
     <text>Controlled pagination</text>
   </heading>
   <button>
@@ -5911,7 +5829,6 @@ exports[`chromium /components/pagination/ 1`] = `
   </Pre>
   <heading level="2">
     Router integration
-    <Anchor></Anchor>
     <text>Router integration</text>
   </heading>
   <button>
@@ -5974,7 +5891,6 @@ exports[`chromium /components/pagination/ 1`] = `
   </toolbar>
   <heading level="2">
     usePagination
-    <Anchor></Anchor>
     <code>$SOME_CODE</code>
   </heading>
   <paragraph>
@@ -6054,7 +5970,6 @@ exports[`chromium /components/pagination/ 1`] = `
   </toolbar>
   <heading level="2">
     Table pagination
-    <Anchor></Anchor>
     <text>Table pagination</text>
   </heading>
   <paragraph>
@@ -6121,12 +6036,10 @@ exports[`chromium /components/pagination/ 1`] = `
   </paragraph>
   <heading level="2">
     Accessibility
-    <Anchor></Anchor>
     <text>Accessibility</text>
   </heading>
   <heading level="3">
     ARIA
-    <Anchor></Anchor>
     <text>ARIA</text>
   </heading>
   <paragraph>
@@ -6142,7 +6055,6 @@ exports[`chromium /components/pagination/ 1`] = `
   </paragraph>
   <heading level="3">
     Keyboard
-    <Anchor></Anchor>
     <text>Keyboard</text>
   </heading>
   <paragraph>
@@ -6152,7 +6064,6 @@ exports[`chromium /components/pagination/ 1`] = `
   </paragraph>
   <heading level="2">
     API
-    <Anchor></Anchor>
     <text>API</text>
   </heading>
   <list>
@@ -6234,7 +6145,6 @@ exports[`chromium /components/pickers 1`] = `
   </list>
   <heading level="2">
     React components
-    <Anchor></Anchor>
     <text>React components</text>
   </heading>
   <button>
@@ -6284,7 +6194,6 @@ exports[`chromium /components/pickers 1`] = `
   </toolbar>
   <heading level="2">
     Native pickers
-    <Anchor></Anchor>
     <text>Native pickers</text>
   </heading>
   <paragraph>
@@ -6294,7 +6203,6 @@ exports[`chromium /components/pickers 1`] = `
   </paragraph>
   <heading level="3">
     Date picker
-    <Anchor></Anchor>
     <text>Date picker</text>
   </heading>
   <paragraph>
@@ -6342,7 +6250,6 @@ exports[`chromium /components/pickers 1`] = `
   </Pre>
   <heading level="3">
     Date & Time picker
-    <Anchor></Anchor>
     <text>Date & Time picker</text>
   </heading>
   <paragraph>
@@ -6405,7 +6312,6 @@ exports[`chromium /components/pickers 1`] = `
   </Pre>
   <heading level="3">
     Time picker
-    <Anchor></Anchor>
     <text>Time picker</text>
   </heading>
   <paragraph>
@@ -6453,7 +6359,6 @@ exports[`chromium /components/pickers 1`] = `
   </Pre>
   <heading level="2">
     API
-    <Anchor></Anchor>
     <text>API</text>
   </heading>
   <list>
@@ -6526,7 +6431,6 @@ exports[`chromium /components/radio-buttons 1`] = `
   </list>
   <heading level="2">
     Radio group
-    <Anchor></Anchor>
     <text>Radio group</text>
   </heading>
   <paragraph>
@@ -6568,7 +6472,6 @@ exports[`chromium /components/radio-buttons 1`] = `
   </Pre>
   <heading level="3">
     Direction
-    <Anchor></Anchor>
     <text>Direction</text>
   </heading>
   <paragraph>
@@ -6609,7 +6512,6 @@ exports[`chromium /components/radio-buttons 1`] = `
   </Pre>
   <heading level="3">
     Controlled
-    <Anchor></Anchor>
     <text>Controlled</text>
   </heading>
   <paragraph>
@@ -6648,7 +6550,6 @@ exports[`chromium /components/radio-buttons 1`] = `
   </Pre>
   <heading level="2">
     Standalone radio buttons
-    <Anchor></Anchor>
     <text>Standalone radio buttons</text>
   </heading>
   <paragraph>
@@ -6675,7 +6576,6 @@ exports[`chromium /components/radio-buttons 1`] = `
   </Pre>
   <heading level="2">
     Size
-    <Anchor></Anchor>
     <text>Size</text>
   </heading>
   <paragraph>
@@ -6707,7 +6607,6 @@ exports[`chromium /components/radio-buttons 1`] = `
   </Pre>
   <heading level="2">
     Color
-    <Anchor></Anchor>
     <text>Color</text>
   </heading>
   <button>
@@ -6732,7 +6631,6 @@ exports[`chromium /components/radio-buttons 1`] = `
   </Pre>
   <heading level="2">
     Label placement
-    <Anchor></Anchor>
     <text>Label placement</text>
   </heading>
   <paragraph>
@@ -6770,7 +6668,6 @@ exports[`chromium /components/radio-buttons 1`] = `
   </toolbar>
   <heading level="2">
     Show error
-    <Anchor></Anchor>
     <text>Show error</text>
   </heading>
   <paragraph>
@@ -6815,7 +6712,6 @@ exports[`chromium /components/radio-buttons 1`] = `
   </toolbar>
   <heading level="2">
     Customized radios
-    <Anchor></Anchor>
     <text>Customized radios</text>
   </heading>
   <paragraph>
@@ -6859,7 +6755,6 @@ exports[`chromium /components/radio-buttons 1`] = `
   </Pre>
   <heading level="2">
     useRadioGroup
-    <Anchor></Anchor>
     <code>$SOME_CODE</code>
   </heading>
   <paragraph>
@@ -6872,7 +6767,6 @@ exports[`chromium /components/radio-buttons 1`] = `
   </paragraph>
   <heading level="3">
     API
-    <Anchor></Anchor>
     <text>API</text>
   </heading>
   <Pre>
@@ -6930,7 +6824,6 @@ exports[`chromium /components/radio-buttons 1`] = `
   </Pre>
   <heading level="2">
     When to use
-    <Anchor></Anchor>
     <text>When to use</text>
   </heading>
   <list>
@@ -6940,7 +6833,6 @@ exports[`chromium /components/radio-buttons 1`] = `
   </list>
   <heading level="2">
     Accessibility
-    <Anchor></Anchor>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -6980,7 +6872,6 @@ exports[`chromium /components/radio-buttons 1`] = `
   </Pre>
   <heading level="2">
     API
-    <Anchor></Anchor>
     <text>API</text>
   </heading>
   <list>
@@ -7064,7 +6955,6 @@ exports[`chromium /components/rating/ 1`] = `
   </list>
   <heading level="2">
     Basic rating
-    <Anchor></Anchor>
     <text>Basic rating</text>
   </heading>
   <button>
@@ -7125,7 +7015,6 @@ exports[`chromium /components/rating/ 1`] = `
   </Pre>
   <heading level="2">
     Rating precision
-    <Anchor></Anchor>
     <text>Rating precision</text>
   </heading>
   <paragraph>
@@ -7165,7 +7054,6 @@ exports[`chromium /components/rating/ 1`] = `
   </Pre>
   <heading level="2">
     Hover feedback
-    <Anchor></Anchor>
     <text>Hover feedback</text>
   </heading>
   <paragraph>
@@ -7206,7 +7094,6 @@ exports[`chromium /components/rating/ 1`] = `
   </Pre>
   <heading level="2">
     Sizes
-    <Anchor></Anchor>
     <text>Sizes</text>
   </heading>
   <paragraph>
@@ -7250,7 +7137,6 @@ exports[`chromium /components/rating/ 1`] = `
   </Pre>
   <heading level="2">
     Customized rating
-    <Anchor></Anchor>
     <text>Customized rating</text>
   </heading>
   <paragraph>
@@ -7307,7 +7193,6 @@ exports[`chromium /components/rating/ 1`] = `
   </Pre>
   <heading level="2">
     Radio group
-    <Anchor></Anchor>
     <text>Radio group</text>
   </heading>
   <paragraph>
@@ -7339,7 +7224,6 @@ exports[`chromium /components/rating/ 1`] = `
   </Pre>
   <heading level="2">
     Accessibility
-    <Anchor></Anchor>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -7405,7 +7289,6 @@ exports[`chromium /components/rating/ 1`] = `
   </Pre>
   <heading level="3">
     ARIA
-    <Anchor></Anchor>
     <text>ARIA</text>
   </heading>
   <paragraph>
@@ -7416,7 +7299,6 @@ exports[`chromium /components/rating/ 1`] = `
   </paragraph>
   <heading level="3">
     Keyboard
-    <Anchor></Anchor>
     <text>Keyboard</text>
   </heading>
   <paragraph>
@@ -7431,7 +7313,6 @@ exports[`chromium /components/rating/ 1`] = `
   </paragraph>
   <heading level="2">
     API
-    <Anchor></Anchor>
     <text>API</text>
   </heading>
   <list>
@@ -7488,7 +7369,6 @@ exports[`chromium /components/selects/ 1`] = `
   </list>
   <heading level="2">
     Basic select
-    <Anchor></Anchor>
     <text>Basic select</text>
   </heading>
   <paragraph>
@@ -7522,7 +7402,6 @@ exports[`chromium /components/selects/ 1`] = `
   </Pre>
   <heading level="2">
     Advanced features
-    <Anchor></Anchor>
     <text>Advanced features</text>
   </heading>
   <paragraph>
@@ -7548,7 +7427,6 @@ exports[`chromium /components/selects/ 1`] = `
   </paragraph>
   <heading level="2">
     Props
-    <Anchor></Anchor>
     <text>Props</text>
   </heading>
   <paragraph>
@@ -7572,7 +7450,6 @@ exports[`chromium /components/selects/ 1`] = `
   </paragraph>
   <heading level="3">
     Filled and standard variants
-    <Anchor></Anchor>
     <text>Filled and standard variants</text>
   </heading>
   <button>
@@ -7606,7 +7483,6 @@ exports[`chromium /components/selects/ 1`] = `
   </toolbar>
   <heading level="3">
     Labels and helper text
-    <Anchor></Anchor>
     <text>Labels and helper text</text>
   </heading>
   <button>
@@ -7642,7 +7518,6 @@ exports[`chromium /components/selects/ 1`] = `
   </toolbar>
   <heading level="3">
     Auto width
-    <Anchor></Anchor>
     <text>Auto width</text>
   </heading>
   <button>
@@ -7667,7 +7542,6 @@ exports[`chromium /components/selects/ 1`] = `
   </toolbar>
   <heading level="3">
     Other props
-    <Anchor></Anchor>
     <text>Other props</text>
   </heading>
   <button>
@@ -7724,7 +7598,6 @@ exports[`chromium /components/selects/ 1`] = `
   </toolbar>
   <heading level="2">
     Native select
-    <Anchor></Anchor>
     <text>Native select</text>
   </heading>
   <paragraph>
@@ -7763,7 +7636,6 @@ exports[`chromium /components/selects/ 1`] = `
   </Pre>
   <heading level="2">
     TextField
-    <Anchor></Anchor>
     <text>TextField</text>
   </heading>
   <paragraph>
@@ -7778,7 +7650,6 @@ exports[`chromium /components/selects/ 1`] = `
   </paragraph>
   <heading level="2">
     Customized selects
-    <Anchor></Anchor>
     <text>Customized selects</text>
   </heading>
   <paragraph>
@@ -7852,7 +7723,6 @@ exports[`chromium /components/selects/ 1`] = `
   </paragraph>
   <heading level="2">
     Multiple select
-    <Anchor></Anchor>
     <text>Multiple select</text>
   </heading>
   <paragraph>
@@ -7876,7 +7746,6 @@ exports[`chromium /components/selects/ 1`] = `
   </paragraph>
   <heading level="3">
     Default
-    <Anchor></Anchor>
     <text>Default</text>
   </heading>
   <button>
@@ -7901,7 +7770,6 @@ exports[`chromium /components/selects/ 1`] = `
   </toolbar>
   <heading level="3">
     Checkmarks
-    <Anchor></Anchor>
     <text>Checkmarks</text>
   </heading>
   <button>
@@ -7926,7 +7794,6 @@ exports[`chromium /components/selects/ 1`] = `
   </toolbar>
   <heading level="3">
     Chip
-    <Anchor></Anchor>
     <text>Chip</text>
   </heading>
   <button>
@@ -7951,7 +7818,6 @@ exports[`chromium /components/selects/ 1`] = `
   </toolbar>
   <heading level="3">
     Placeholder
-    <Anchor></Anchor>
     <text>Placeholder</text>
   </heading>
   <button>
@@ -7974,7 +7840,6 @@ exports[`chromium /components/selects/ 1`] = `
   </toolbar>
   <heading level="3">
     Native
-    <Anchor></Anchor>
     <text>Native</text>
   </heading>
   <button>
@@ -8008,7 +7873,6 @@ exports[`chromium /components/selects/ 1`] = `
   </toolbar>
   <heading level="2">
     Controlled open select
-    <Anchor></Anchor>
     <text>Controlled open select</text>
   </heading>
   <button>
@@ -8037,7 +7901,6 @@ exports[`chromium /components/selects/ 1`] = `
   </toolbar>
   <heading level="2">
     With a dialog
-    <Anchor></Anchor>
     <text>With a dialog</text>
   </heading>
   <paragraph>
@@ -8065,7 +7928,6 @@ exports[`chromium /components/selects/ 1`] = `
   </toolbar>
   <heading level="2">
     Grouping
-    <Anchor></Anchor>
     <text>Grouping</text>
   </heading>
   <paragraph>
@@ -8110,7 +7972,6 @@ exports[`chromium /components/selects/ 1`] = `
   </toolbar>
   <heading level="2">
     Accessibility
-    <Anchor></Anchor>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -8157,7 +8018,6 @@ exports[`chromium /components/selects/ 1`] = `
   </Pre>
   <heading level="2">
     API
-    <Anchor></Anchor>
     <text>API</text>
   </heading>
   <list>
@@ -8239,7 +8099,6 @@ exports[`chromium /components/slider 1`] = `
   </list>
   <heading level="2">
     Continuous sliders
-    <Anchor></Anchor>
     <text>Continuous sliders</text>
   </heading>
   <paragraph>
@@ -8287,7 +8146,6 @@ exports[`chromium /components/slider 1`] = `
   </toolbar>
   <heading level="2">
     Discrete sliders
-    <Anchor></Anchor>
     <text>Discrete sliders</text>
   </heading>
   <paragraph>
@@ -8341,7 +8199,6 @@ exports[`chromium /components/slider 1`] = `
   </toolbar>
   <heading level="3">
     Small steps
-    <Anchor></Anchor>
     <text>Small steps</text>
   </heading>
   <paragraph>
@@ -8377,7 +8234,6 @@ exports[`chromium /components/slider 1`] = `
   </Pre>
   <heading level="3">
     Custom marks
-    <Anchor></Anchor>
     <text>Custom marks</text>
   </heading>
   <paragraph>
@@ -8415,7 +8271,6 @@ exports[`chromium /components/slider 1`] = `
   </Pre>
   <heading level="3">
     Restricted values
-    <Anchor></Anchor>
     <text>Restricted values</text>
   </heading>
   <paragraph>
@@ -8457,7 +8312,6 @@ exports[`chromium /components/slider 1`] = `
   </Pre>
   <heading level="3">
     Label always visible
-    <Anchor></Anchor>
     <text>Label always visible</text>
   </heading>
   <paragraph>
@@ -8495,7 +8349,6 @@ exports[`chromium /components/slider 1`] = `
   </Pre>
   <heading level="2">
     Range slider
-    <Anchor></Anchor>
     <text>Range slider</text>
   </heading>
   <paragraph>
@@ -8545,7 +8398,6 @@ exports[`chromium /components/slider 1`] = `
   </Pre>
   <heading level="3">
     Minimum distance
-    <Anchor></Anchor>
     <text>Minimum distance</text>
   </heading>
   <paragraph>
@@ -8623,7 +8475,6 @@ exports[`chromium /components/slider 1`] = `
   </toolbar>
   <heading level="2">
     Slider with input field
-    <Anchor></Anchor>
     <text>Slider with input field</text>
   </heading>
   <paragraph>
@@ -8661,7 +8512,6 @@ exports[`chromium /components/slider 1`] = `
   </toolbar>
   <heading level="2">
     Customized sliders
-    <Anchor></Anchor>
     <text>Customized sliders</text>
   </heading>
   <paragraph>
@@ -8744,7 +8594,6 @@ exports[`chromium /components/slider 1`] = `
   </toolbar>
   <heading level="2">
     Vertical sliders
-    <Anchor></Anchor>
     <text>Vertical sliders</text>
   </heading>
   <button>
@@ -8858,7 +8707,6 @@ exports[`chromium /components/slider 1`] = `
   </toolbar>
   <heading level="2">
     Track
-    <Anchor></Anchor>
     <text>Track</text>
   </heading>
   <paragraph>
@@ -8866,7 +8714,6 @@ exports[`chromium /components/slider 1`] = `
   </paragraph>
   <heading level="3">
     Removed track
-    <Anchor></Anchor>
     <text>Removed track</text>
   </heading>
   <paragraph>
@@ -8931,7 +8778,6 @@ exports[`chromium /components/slider 1`] = `
   </toolbar>
   <heading level="3">
     Inverted track
-    <Anchor></Anchor>
     <text>Inverted track</text>
   </heading>
   <paragraph>
@@ -8987,7 +8833,6 @@ exports[`chromium /components/slider 1`] = `
   </toolbar>
   <heading level="2">
     Non-linear scale
-    <Anchor></Anchor>
     <text>Non-linear scale</text>
   </heading>
   <paragraph>
@@ -9033,7 +8878,6 @@ exports[`chromium /components/slider 1`] = `
   </Pre>
   <heading level="2">
     Unstyled
-    <Anchor></Anchor>
     <text>Unstyled</text>
   </heading>
   <paragraph>
@@ -9070,7 +8914,6 @@ exports[`chromium /components/slider 1`] = `
   </Pre>
   <heading level="2">
     Accessibility
-    <Anchor></Anchor>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -9108,7 +8951,6 @@ exports[`chromium /components/slider 1`] = `
   </list>
   <heading level="2">
     API
-    <Anchor></Anchor>
     <text>API</text>
   </heading>
   <list>
@@ -9178,7 +9020,6 @@ exports[`chromium /components/switches/ 1`] = `
   </list>
   <heading level="2">
     Basic switches
-    <Anchor></Anchor>
     <text>Basic switches</text>
   </heading>
   <button>
@@ -9207,7 +9048,6 @@ exports[`chromium /components/switches/ 1`] = `
   </Pre>
   <heading level="2">
     Label
-    <Anchor></Anchor>
     <text>Label</text>
   </heading>
   <paragraph>
@@ -9239,7 +9079,6 @@ exports[`chromium /components/switches/ 1`] = `
   </Pre>
   <heading level="2">
     Size
-    <Anchor></Anchor>
     <text>Size</text>
   </heading>
   <paragraph>
@@ -9267,7 +9106,6 @@ exports[`chromium /components/switches/ 1`] = `
   </Pre>
   <heading level="2">
     Color
-    <Anchor></Anchor>
     <text>Color</text>
   </heading>
   <button>
@@ -9292,7 +9130,6 @@ exports[`chromium /components/switches/ 1`] = `
   </Pre>
   <heading level="2">
     Controlled
-    <Anchor></Anchor>
     <text>Controlled</text>
   </heading>
   <paragraph>
@@ -9321,7 +9158,6 @@ exports[`chromium /components/switches/ 1`] = `
   </Pre>
   <heading level="2">
     Switches with FormGroup
-    <Anchor></Anchor>
     <text>Switches with FormGroup</text>
   </heading>
   <paragraph>
@@ -9362,7 +9198,6 @@ exports[`chromium /components/switches/ 1`] = `
   </toolbar>
   <heading level="2">
     Customized switches
-    <Anchor></Anchor>
     <text>Customized switches</text>
   </heading>
   <paragraph>
@@ -9404,7 +9239,6 @@ exports[`chromium /components/switches/ 1`] = `
   </paragraph>
   <heading level="2">
     Label placement
-    <Anchor></Anchor>
     <text>Label placement</text>
   </heading>
   <paragraph>
@@ -9435,7 +9269,6 @@ exports[`chromium /components/switches/ 1`] = `
   </toolbar>
   <heading level="2">
     When to use
-    <Anchor></Anchor>
     <text>When to use</text>
   </heading>
   <list>
@@ -9445,7 +9278,6 @@ exports[`chromium /components/switches/ 1`] = `
   </list>
   <heading level="2">
     Accessibility
-    <Anchor></Anchor>
     <text>Accessibility</text>
   </heading>
   <list>
@@ -9492,7 +9324,6 @@ exports[`chromium /components/switches/ 1`] = `
   </Pre>
   <heading level="2">
     API
-    <Anchor></Anchor>
     <text>API</text>
   </heading>
   <list>
@@ -9584,7 +9415,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </list>
   <heading level="2">
     Basic tabs
-    <Anchor></Anchor>
     <text>Basic tabs</text>
   </heading>
   <paragraph>
@@ -9629,7 +9459,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </Pre>
   <heading level="2">
     Experimental API
-    <Anchor></Anchor>
     <text>Experimental API</text>
   </heading>
   <paragraph>
@@ -9678,7 +9507,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </Pre>
   <heading level="2">
     Wrapped labels
-    <Anchor></Anchor>
     <text>Wrapped labels</text>
   </heading>
   <paragraph>
@@ -9720,7 +9548,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </Pre>
   <heading level="2">
     Colored tab
-    <Anchor></Anchor>
     <text>Colored tab</text>
   </heading>
   <button>
@@ -9756,7 +9583,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </Pre>
   <heading level="2">
     Disabled tab
-    <Anchor></Anchor>
     <text>Disabled tab</text>
   </heading>
   <paragraph>
@@ -9797,7 +9623,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </Pre>
   <heading level="2">
     Fixed tabs
-    <Anchor></Anchor>
     <text>Fixed tabs</text>
   </heading>
   <paragraph>
@@ -9808,7 +9633,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </paragraph>
   <heading level="3">
     Full width
-    <Anchor></Anchor>
     <text>Full width</text>
   </heading>
   <paragraph>
@@ -9859,7 +9683,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </toolbar>
   <heading level="3">
     Centered
-    <Anchor></Anchor>
     <text>Centered</text>
   </heading>
   <paragraph>
@@ -9899,12 +9722,10 @@ exports[`chromium /components/tabs/ 1`] = `
   </Pre>
   <heading level="2">
     Scrollable tabs
-    <Anchor></Anchor>
     <text>Scrollable tabs</text>
   </heading>
   <heading level="3">
     Automatic scroll buttons
-    <Anchor></Anchor>
     <text>Automatic scroll buttons</text>
   </heading>
   <paragraph>
@@ -9962,7 +9783,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </Pre>
   <heading level="3">
     Forced scroll buttons
-    <Anchor></Anchor>
     <text>Forced scroll buttons</text>
   </heading>
   <paragraph>
@@ -10076,7 +9896,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </toolbar>
   <heading level="3">
     Prevent scroll buttons
-    <Anchor></Anchor>
     <text>Prevent scroll buttons</text>
   </heading>
   <paragraph>
@@ -10136,7 +9955,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </Pre>
   <heading level="2">
     Customized tabs
-    <Anchor></Anchor>
     <text>Customized tabs</text>
   </heading>
   <paragraph>
@@ -10194,7 +10012,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </paragraph>
   <heading level="2">
     Vertical tabs
-    <Anchor></Anchor>
     <text>Vertical tabs</text>
   </heading>
   <paragraph>
@@ -10261,7 +10078,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </paragraph>
   <heading level="2">
     Nav tabs
-    <Anchor></Anchor>
     <text>Nav tabs</text>
   </heading>
   <paragraph>
@@ -10305,7 +10121,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </Pre>
   <heading level="2">
     Icon tabs
-    <Anchor></Anchor>
     <text>Icon tabs</text>
   </heading>
   <paragraph>
@@ -10366,7 +10181,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </Pre>
   <heading level="2">
     Third-party routing library
-    <Anchor></Anchor>
     <text>Third-party routing library</text>
   </heading>
   <paragraph>
@@ -10386,7 +10200,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </paragraph>
   <heading level="2">
     Accessibility
-    <Anchor></Anchor>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -10435,7 +10248,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </paragraph>
   <heading level="3">
     Keyboard navigation
-    <Anchor></Anchor>
     <text>Keyboard navigation</text>
   </heading>
   <paragraph>
@@ -10528,7 +10340,6 @@ exports[`chromium /components/tabs/ 1`] = `
   </toolbar>
   <heading level="2">
     API
-    <Anchor></Anchor>
     <text>API</text>
   </heading>
   <list>
@@ -10621,7 +10432,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </list>
   <heading level="2">
     Basic TextField
-    <Anchor></Anchor>
     <text>Basic TextField</text>
   </heading>
   <paragraph>
@@ -10678,7 +10488,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </paragraph>
   <heading level="2">
     Form props
-    <Anchor></Anchor>
     <text>Form props</text>
   </heading>
   <paragraph>
@@ -10855,7 +10664,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="2">
     Validation
-    <Anchor></Anchor>
     <text>Validation</text>
   </heading>
   <paragraph>
@@ -10939,7 +10747,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="2">
     Multiline
-    <Anchor></Anchor>
     <text>Multiline</text>
   </heading>
   <paragraph>
@@ -11040,7 +10847,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="2">
     Select
-    <Anchor></Anchor>
     <text>Select</text>
   </heading>
   <paragraph>
@@ -11146,7 +10952,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="2">
     Icons
-    <Anchor></Anchor>
     <text>Icons</text>
   </heading>
   <paragraph>
@@ -11182,7 +10987,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="3">
     Input Adornments
-    <Anchor></Anchor>
     <text>Input Adornments</text>
   </heading>
   <paragraph>
@@ -11294,7 +11098,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="2">
     Sizes
-    <Anchor></Anchor>
     <text>Sizes</text>
   </heading>
   <paragraph>
@@ -11404,7 +11207,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="2">
     Layout
-    <Anchor></Anchor>
     <text>Layout</text>
   </heading>
   <paragraph>
@@ -11563,7 +11365,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="2">
     Uncontrolled vs. Controlled
-    <Anchor></Anchor>
     <text>Uncontrolled vs. Controlled</text>
   </heading>
   <paragraph>
@@ -11603,7 +11404,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </Pre>
   <heading level="2">
     Components
-    <Anchor></Anchor>
     <text>Components</text>
   </heading>
   <paragraph>
@@ -11737,7 +11537,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="2">
     Inputs
-    <Anchor></Anchor>
     <text>Inputs</text>
   </heading>
   <button>
@@ -11777,7 +11576,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </Pre>
   <heading level="2">
     Color
-    <Anchor></Anchor>
     <text>Color</text>
   </heading>
   <paragraph>
@@ -11818,7 +11616,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="2">
     Customized inputs
-    <Anchor></Anchor>
     <text>Customized inputs</text>
   </heading>
   <paragraph>
@@ -11908,12 +11705,10 @@ exports[`chromium /components/text-fields/ 1`] = `
   </paragraph>
   <heading level="2">
     Limitations
-    <Anchor></Anchor>
     <text>Limitations</text>
   </heading>
   <heading level="3">
     Shrink
-    <Anchor></Anchor>
     <text>Shrink</text>
   </heading>
   <paragraph>
@@ -11945,7 +11740,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </Pre>
   <heading level="3">
     Floating label
-    <Anchor></Anchor>
     <text>Floating label</text>
   </heading>
   <paragraph>
@@ -11957,7 +11751,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </paragraph>
   <heading level="3">
     type="number"
-    <Anchor></Anchor>
     <text>type="number"</text>
   </heading>
   <paragraph>
@@ -12002,7 +11795,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </paragraph>
   <heading level="3">
     Helper text
-    <Anchor></Anchor>
     <text>Helper text</text>
   </heading>
   <paragraph>
@@ -12076,7 +11868,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </Pre>
   <heading level="2">
     Integration with 3rd party input libraries
-    <Anchor></Anchor>
     <text>Integration with 3rd party input libraries</text>
   </heading>
   <paragraph>
@@ -12141,7 +11932,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </Pre>
   <heading level="2">
     Accessibility
-    <Anchor></Anchor>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -12171,7 +11961,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </Pre>
   <heading level="2">
     Complementary projects
-    <Anchor></Anchor>
     <text>Complementary projects</text>
   </heading>
   <paragraph>
@@ -12205,7 +11994,6 @@ exports[`chromium /components/text-fields/ 1`] = `
   </list>
   <heading level="2">
     API
-    <Anchor></Anchor>
     <text>API</text>
   </heading>
   <list>
@@ -12322,7 +12110,6 @@ exports[`chromium /components/tooltips/ 1`] = `
   </list>
   <heading level="2">
     Basic tooltip
-    <Anchor></Anchor>
     <text>Basic tooltip</text>
   </heading>
   <button>
@@ -12344,7 +12131,6 @@ exports[`chromium /components/tooltips/ 1`] = `
   </Pre>
   <heading level="2">
     Positioned tooltips
-    <Anchor></Anchor>
     <text>Positioned tooltips</text>
   </heading>
   <paragraph>
@@ -12420,7 +12206,6 @@ exports[`chromium /components/tooltips/ 1`] = `
   </toolbar>
   <heading level="2">
     Customized tooltips
-    <Anchor></Anchor>
     <text>Customized tooltips</text>
   </heading>
   <paragraph>
@@ -12458,7 +12243,6 @@ exports[`chromium /components/tooltips/ 1`] = `
   </toolbar>
   <heading level="2">
     Arrow tooltips
-    <Anchor></Anchor>
     <text>Arrow tooltips</text>
   </heading>
   <paragraph>
@@ -12490,7 +12274,6 @@ exports[`chromium /components/tooltips/ 1`] = `
   </Pre>
   <heading level="2">
     Custom child element
-    <Anchor></Anchor>
     <text>Custom child element</text>
   </heading>
   <paragraph>
@@ -12510,7 +12293,6 @@ exports[`chromium /components/tooltips/ 1`] = `
   </paragraph>
   <heading level="2">
     Triggers
-    <Anchor></Anchor>
     <text>Triggers</text>
   </heading>
   <paragraph>
@@ -12549,7 +12331,6 @@ exports[`chromium /components/tooltips/ 1`] = `
   </toolbar>
   <heading level="2">
     Controlled tooltips
-    <Anchor></Anchor>
     <text>Controlled tooltips</text>
   </heading>
   <paragraph>
@@ -12583,7 +12364,6 @@ exports[`chromium /components/tooltips/ 1`] = `
   </Pre>
   <heading level="2">
     Variable width
-    <Anchor></Anchor>
     <text>Variable width</text>
   </heading>
   <paragraph>
@@ -12627,7 +12407,6 @@ exports[`chromium /components/tooltips/ 1`] = `
   </Pre>
   <heading level="2">
     Interactive
-    <Anchor></Anchor>
     <text>Interactive</text>
   </heading>
   <paragraph>
@@ -12666,7 +12445,6 @@ exports[`chromium /components/tooltips/ 1`] = `
   </Pre>
   <heading level="2">
     Disabled elements
-    <Anchor></Anchor>
     <text>Disabled elements</text>
   </heading>
   <paragraph>
@@ -12728,7 +12506,6 @@ exports[`chromium /components/tooltips/ 1`] = `
   </Pre>
   <heading level="2">
     Transitions
-    <Anchor></Anchor>
     <text>Transitions</text>
   </heading>
   <paragraph>
@@ -12764,7 +12541,6 @@ exports[`chromium /components/tooltips/ 1`] = `
   </Pre>
   <heading level="2">
     Follow cursor
-    <Anchor></Anchor>
     <text>Follow cursor</text>
   </heading>
   <paragraph>
@@ -12791,7 +12567,6 @@ exports[`chromium /components/tooltips/ 1`] = `
   </Pre>
   <heading level="2">
     Virtual element
-    <Anchor></Anchor>
     <text>Virtual element</text>
   </heading>
   <paragraph>
@@ -12827,7 +12602,6 @@ exports[`chromium /components/tooltips/ 1`] = `
   </toolbar>
   <heading level="2">
     Showing and hiding
-    <Anchor></Anchor>
     <text>Showing and hiding</text>
   </heading>
   <paragraph>
@@ -12871,7 +12645,6 @@ exports[`chromium /components/tooltips/ 1`] = `
   </Pre>
   <heading level="2">
     Accessibility
-    <Anchor></Anchor>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -12933,7 +12706,6 @@ exports[`chromium /components/tooltips/ 1`] = `
   </Pre>
   <heading level="2">
     API
-    <Anchor></Anchor>
     <text>API</text>
   </heading>
   <list>
@@ -12974,7 +12746,6 @@ exports[`chromium /components/transfer-list 1`] = `
   </paragraph>
   <heading level="2">
     Basic transfer list
-    <Anchor></Anchor>
     <text>Basic transfer list</text>
   </heading>
   <paragraph>
@@ -13052,7 +12823,6 @@ exports[`chromium /components/transfer-list 1`] = `
   </toolbar>
   <heading level="2">
     Enhanced transfer list
-    <Anchor></Anchor>
     <text>Enhanced transfer list</text>
   </heading>
   <paragraph>
@@ -13128,7 +12898,6 @@ exports[`chromium /components/transfer-list 1`] = `
   </toolbar>
   <heading level="2">
     API
-    <Anchor></Anchor>
     <text>API</text>
   </heading>
   <list>
@@ -13210,7 +12979,6 @@ exports[`chromium /components/tree-view/ 1`] = `
   </list>
   <heading level="2">
     Basic tree view
-    <Anchor></Anchor>
     <text>Basic tree view</text>
   </heading>
   <button>
@@ -13239,7 +13007,6 @@ exports[`chromium /components/tree-view/ 1`] = `
   </toolbar>
   <heading level="2">
     Multi-selection
-    <Anchor></Anchor>
     <text>Multi-selection</text>
   </heading>
   <paragraph>
@@ -13271,7 +13038,6 @@ exports[`chromium /components/tree-view/ 1`] = `
   </toolbar>
   <heading level="2">
     Controlled tree view
-    <Anchor></Anchor>
     <text>Controlled tree view</text>
   </heading>
   <paragraph>
@@ -13311,7 +13077,6 @@ exports[`chromium /components/tree-view/ 1`] = `
   </toolbar>
   <heading level="2">
     Rich object
-    <Anchor></Anchor>
     <text>Rich object</text>
   </heading>
   <paragraph>
@@ -13363,7 +13128,6 @@ exports[`chromium /components/tree-view/ 1`] = `
   </toolbar>
   <heading level="2">
     ContentComponent prop
-    <Anchor></Anchor>
     <text>ContentComponent prop</text>
   </heading>
   <paragraph>
@@ -13429,12 +13193,10 @@ exports[`chromium /components/tree-view/ 1`] = `
   </toolbar>
   <heading level="2">
     Customized tree view
-    <Anchor></Anchor>
     <text>Customized tree view</text>
   </heading>
   <heading level="3">
     Custom icons, border and animation
-    <Anchor></Anchor>
     <text>Custom icons, border and animation</text>
   </heading>
   <button>
@@ -13477,7 +13239,6 @@ exports[`chromium /components/tree-view/ 1`] = `
   </toolbar>
   <heading level="3">
     Gmail clone
-    <Anchor></Anchor>
     <text>Gmail clone</text>
   </heading>
   <button>
@@ -13552,7 +13313,6 @@ exports[`chromium /components/tree-view/ 1`] = `
   </toolbar>
   <heading level="2">
     Disabled tree items
-    <Anchor></Anchor>
     <text>Disabled tree items</text>
   </heading>
   <button>
@@ -13656,7 +13416,6 @@ exports[`chromium /components/tree-view/ 1`] = `
   </list>
   <heading level="2">
     Accessibility
-    <Anchor></Anchor>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -13680,7 +13439,6 @@ exports[`chromium /components/tree-view/ 1`] = `
   </paragraph>
   <heading level="2">
     API
-    <Anchor></Anchor>
     <text>API</text>
   </heading>
   <list>
@@ -13799,7 +13557,6 @@ exports[`firefox / 1`] = `
     <separator></separator>
     <heading level="2">
       Material-UI's sponsors
-      <link></link>
       <text>Material-UI's sponsors</text>
     </heading>
     <paragraph>
@@ -13810,7 +13567,6 @@ exports[`firefox / 1`] = `
     </paragraph>
     <heading level="3">
       Diamond 💎
-      <link></link>
       <text>Diamond 💎</text>
     </heading>
     <link>
@@ -13836,7 +13592,6 @@ exports[`firefox / 1`] = `
     </paragraph>
     <heading level="3">
       Gold 🏆
-      <link></link>
       <text>Gold 🏆</text>
     </heading>
     <link>
@@ -13882,7 +13637,6 @@ exports[`firefox / 1`] = `
     </link>
     <heading level="3">
       There are more!
-      <link></link>
       <text>There are more!</text>
     </heading>
     <paragraph>
@@ -14017,7 +13771,6 @@ exports[`firefox /api/button/ 1`] = `
   </paragraph>
   <heading level="2">
     Import
-    <link></link>
     <text>Import</text>
   </heading>
   <text>
@@ -14029,7 +13782,6 @@ exports[`firefox /api/button/ 1`] = `
   <text>.</text>
   <heading level="2">
     Component name
-    <link></link>
     <text>Component name</text>
   </heading>
   <text>The name MuiButton can be used when providing</text>
@@ -14039,7 +13791,6 @@ exports[`firefox /api/button/ 1`] = `
   <text>in the theme.</text>
   <heading level="2">
     Props
-    <link></link>
     <text>Props</text>
   </heading>
   <table>
@@ -14307,7 +14058,6 @@ exports[`firefox /api/button/ 1`] = `
   <text>).</text>
   <heading level="3">
     Inheritance
-    <link></link>
     <text>Inheritance</text>
   </heading>
   <text>While not explicitly documented above, the props of the</text>
@@ -14319,7 +14069,6 @@ exports[`firefox /api/button/ 1`] = `
   <text>.</text>
   <heading level="2">
     CSS
-    <link></link>
     <text>CSS</text>
   </heading>
   <table>
@@ -14839,7 +14588,6 @@ exports[`firefox /api/button/ 1`] = `
   </list>
   <heading level="2">
     Demos
-    <link></link>
     <text>Demos</text>
   </heading>
   <list>
@@ -14880,7 +14628,6 @@ exports[`firefox /api/select/ 1`] = `
   </paragraph>
   <heading level="2">
     Import
-    <link></link>
     <text>Import</text>
   </heading>
   <text>
@@ -14892,7 +14639,6 @@ exports[`firefox /api/select/ 1`] = `
   <text>.</text>
   <heading level="2">
     Component name
-    <link></link>
     <text>Component name</text>
   </heading>
   <text>The name MuiSelect can be used when providing</text>
@@ -14902,7 +14648,6 @@ exports[`firefox /api/select/ 1`] = `
   <text>in the theme.</text>
   <heading level="2">
     Props
-    <link></link>
     <text>Props</text>
   </heading>
   <table>
@@ -15352,7 +15097,6 @@ exports[`firefox /api/select/ 1`] = `
   <text>).</text>
   <heading level="3">
     Inheritance
-    <link></link>
     <text>Inheritance</text>
   </heading>
   <text>While not explicitly documented above, the props of the</text>
@@ -15364,7 +15108,6 @@ exports[`firefox /api/select/ 1`] = `
   <text>.</text>
   <heading level="2">
     CSS
-    <link></link>
     <text>CSS</text>
   </heading>
   <table>
@@ -15533,7 +15276,6 @@ exports[`firefox /api/select/ 1`] = `
   </list>
   <heading level="2">
     Demos
-    <link></link>
     <text>Demos</text>
   </heading>
   <list>
@@ -15593,7 +15335,6 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </list>
   <heading level="2">
     Basic breadcrumbs
-    <link></link>
     <text>Basic breadcrumbs</text>
   </heading>
   <button>
@@ -15639,7 +15380,6 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </text>
   <heading level="2">
     Active last breadcrumb
-    <link></link>
     <text>Active last breadcrumb</text>
   </heading>
   <paragraph>
@@ -15686,7 +15426,6 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </text>
   <heading level="2">
     Custom separator
-    <link></link>
     <text>Custom separator</text>
   </heading>
   <paragraph>
@@ -15776,7 +15515,6 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </text>
   <heading level="2">
     Breadcrumbs with icons
-    <link></link>
     <text>Breadcrumbs with icons</text>
   </heading>
   <button>
@@ -15811,7 +15549,6 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </toolbar>
   <heading level="2">
     Collapsed breadcrumbs
-    <link></link>
     <text>Collapsed breadcrumbs</text>
   </heading>
   <button>
@@ -15858,7 +15595,6 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </text>
   <heading level="2">
     Customized breadcrumbs
-    <link></link>
     <text>Customized breadcrumbs</text>
   </heading>
   <paragraph>
@@ -15913,7 +15649,6 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </text>
   <heading level="2">
     Integration with react-router
-    <link></link>
     <text>Integration with react-router</text>
   </heading>
   <button>
@@ -15984,7 +15719,6 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </toolbar>
   <heading level="2">
     Accessibility
-    <link></link>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -16030,7 +15764,6 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </list>
   <heading level="2">
     API
-    <link></link>
     <text>API</text>
   </heading>
   <list>
@@ -16092,7 +15825,6 @@ exports[`firefox /components/button-group/ 1`] = `
   </list>
   <heading level="2">
     Basic button group
-    <link></link>
     <text>Basic button group</text>
   </heading>
   <paragraph>
@@ -16137,7 +15869,6 @@ exports[`firefox /components/button-group/ 1`] = `
   </text>
   <heading level="2">
     Button variants
-    <link></link>
     <text>Button variants</text>
   </heading>
   <paragraph>
@@ -16197,7 +15928,6 @@ exports[`firefox /components/button-group/ 1`] = `
   </text>
   <heading level="2">
     Sizes and colors
-    <link></link>
     <text>Sizes and colors</text>
   </heading>
   <paragraph>
@@ -16274,7 +16004,6 @@ exports[`firefox /components/button-group/ 1`] = `
   </text>
   <heading level="2">
     Vertical group
-    <link></link>
     <text>Vertical group</text>
   </heading>
   <paragraph>
@@ -16342,7 +16071,6 @@ exports[`firefox /components/button-group/ 1`] = `
   </toolbar>
   <heading level="2">
     Split button
-    <link></link>
     <text>Split button</text>
   </heading>
   <paragraph>
@@ -16375,7 +16103,6 @@ exports[`firefox /components/button-group/ 1`] = `
   </toolbar>
   <heading level="2">
     Disabled elevation
-    <link></link>
     <text>Disabled elevation</text>
   </heading>
   <paragraph>
@@ -16411,7 +16138,6 @@ exports[`firefox /components/button-group/ 1`] = `
   </text>
   <heading level="2">
     API
-    <link></link>
     <text>API</text>
   </heading>
   <list>
@@ -16507,7 +16233,6 @@ exports[`firefox /components/buttons/ 1`] = `
   </list>
   <heading level="2">
     Contained buttons
-    <link></link>
     <text>Contained buttons</text>
   </heading>
   <paragraph>
@@ -16577,7 +16302,6 @@ exports[`firefox /components/buttons/ 1`] = `
   </text>
   <heading level="2">
     Text buttons
-    <link></link>
     <text>Text buttons</text>
   </heading>
   <paragraph>
@@ -16635,7 +16359,6 @@ exports[`firefox /components/buttons/ 1`] = `
   </text>
   <heading level="2">
     Outlined buttons
-    <link></link>
     <text>Outlined buttons</text>
   </heading>
   <paragraph>
@@ -16686,7 +16409,6 @@ exports[`firefox /components/buttons/ 1`] = `
   </text>
   <heading level="2">
     Handling clicks
-    <link></link>
     <text>Handling clicks</text>
   </heading>
   <paragraph>
@@ -16709,7 +16431,6 @@ exports[`firefox /components/buttons/ 1`] = `
   </paragraph>
   <heading level="2">
     Upload button
-    <link></link>
     <text>Upload button</text>
   </heading>
   <button>
@@ -16749,7 +16470,6 @@ exports[`firefox /components/buttons/ 1`] = `
   </text>
   <heading level="2">
     Sizes
-    <link></link>
     <text>Sizes</text>
   </heading>
   <paragraph>
@@ -16810,7 +16530,6 @@ exports[`firefox /components/buttons/ 1`] = `
   </toolbar>
   <heading level="2">
     Buttons with icons and label
-    <link></link>
     <text>Buttons with icons and label</text>
   </heading>
   <paragraph>
@@ -16850,7 +16569,6 @@ exports[`firefox /components/buttons/ 1`] = `
   </text>
   <heading level="2">
     Icon button
-    <link></link>
     <text>Icon button</text>
   </heading>
   <paragraph>
@@ -16891,7 +16609,6 @@ exports[`firefox /components/buttons/ 1`] = `
   </text>
   <heading level="2">
     Customized buttons
-    <link></link>
     <text>Customized buttons</text>
   </heading>
   <paragraph>
@@ -16934,7 +16651,6 @@ exports[`firefox /components/buttons/ 1`] = `
   </paragraph>
   <heading level="2">
     Loading buttons
-    <link></link>
     <text>Loading buttons</text>
   </heading>
   <paragraph>
@@ -17021,7 +16737,6 @@ exports[`firefox /components/buttons/ 1`] = `
   </toolbar>
   <heading level="2">
     Complex buttons
-    <link></link>
     <text>Complex buttons</text>
   </heading>
   <paragraph>
@@ -17058,7 +16773,6 @@ exports[`firefox /components/buttons/ 1`] = `
   </toolbar>
   <heading level="2">
     Third-party routing library
-    <link></link>
     <text>Third-party routing library</text>
   </heading>
   <paragraph>
@@ -17079,12 +16793,10 @@ exports[`firefox /components/buttons/ 1`] = `
   </paragraph>
   <heading level="2">
     Limitations
-    <link></link>
     <text>Limitations</text>
   </heading>
   <heading level="3">
     Cursor not-allowed
-    <link></link>
     <text>Cursor not-allowed</text>
   </heading>
   <paragraph>
@@ -17151,7 +16863,6 @@ exports[`firefox /components/buttons/ 1`] = `
   </paragraph>
   <heading level="2">
     API
-    <link></link>
     <text>API</text>
   </heading>
   <list>
@@ -17237,7 +16948,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </list>
   <heading level="2">
     Basic checkboxes
-    <link></link>
     <text>Basic checkboxes</text>
   </heading>
   <button>
@@ -17266,7 +16976,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </text>
   <heading level="2">
     Label
-    <link></link>
     <text>Label</text>
   </heading>
   <paragraph>
@@ -17306,7 +17015,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </text>
   <heading level="2">
     Size
-    <link></link>
     <text>Size</text>
   </heading>
   <paragraph>
@@ -17339,7 +17047,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </text>
   <heading level="2">
     Color
-    <link></link>
     <text>Color</text>
   </heading>
   <button>
@@ -17369,7 +17076,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </text>
   <heading level="2">
     Icon
-    <link></link>
     <text>Icon</text>
   </heading>
   <button>
@@ -17395,7 +17101,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </text>
   <heading level="2">
     Controlled
-    <link></link>
     <text>Controlled</text>
   </heading>
   <paragraph>
@@ -17424,7 +17129,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </text>
   <heading level="2">
     Indeterminate
-    <link></link>
     <text>Indeterminate</text>
   </heading>
   <paragraph>
@@ -17476,7 +17180,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </blockquote>
   <heading level="2">
     FormGroup
-    <link></link>
     <text>FormGroup</text>
   </heading>
   <paragraph>
@@ -17549,7 +17252,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </toolbar>
   <heading level="2">
     Label placement
-    <link></link>
     <text>Label placement</text>
   </heading>
   <paragraph>
@@ -17597,7 +17299,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </toolbar>
   <heading level="2">
     Customized checkbox
-    <link></link>
     <text>Customized checkbox</text>
   </heading>
   <paragraph>
@@ -17635,7 +17336,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </paragraph>
   <heading level="2">
     When to use
-    <link></link>
     <text>When to use</text>
   </heading>
   <list>
@@ -17650,7 +17350,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </list>
   <heading level="2">
     Accessibility
-    <link></link>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -17690,7 +17389,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </text>
   <heading level="2">
     API
-    <link></link>
     <text>API</text>
   </heading>
   <list>
@@ -17786,7 +17484,6 @@ exports[`firefox /components/dialogs/ 1`] = `
   </list>
   <heading level="2">
     Basic dialog
-    <link></link>
     <text>Basic dialog</text>
   </heading>
   <paragraph>
@@ -17844,7 +17541,6 @@ exports[`firefox /components/dialogs/ 1`] = `
   </text>
   <heading level="2">
     Alerts
-    <link></link>
     <text>Alerts</text>
   </heading>
   <paragraph>
@@ -17918,7 +17614,6 @@ exports[`firefox /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Transitions
-    <link></link>
     <text>Transitions</text>
   </heading>
   <paragraph>
@@ -17945,7 +17640,6 @@ exports[`firefox /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Form dialogs
-    <link></link>
     <text>Form dialogs</text>
   </heading>
   <paragraph>
@@ -17975,7 +17669,6 @@ exports[`firefox /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Customized dialogs
-    <link></link>
     <text>Customized dialogs</text>
   </heading>
   <paragraph>
@@ -18008,7 +17701,6 @@ exports[`firefox /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Full-screen dialogs
-    <link></link>
     <text>Full-screen dialogs</text>
   </heading>
   <button>
@@ -18030,7 +17722,6 @@ exports[`firefox /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Optional sizes
-    <link></link>
     <text>Optional sizes</text>
   </heading>
   <paragraph>
@@ -18059,7 +17750,6 @@ exports[`firefox /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Responsive full-screen
-    <link></link>
     <text>Responsive full-screen</text>
   </heading>
   <paragraph>
@@ -18092,7 +17782,6 @@ exports[`firefox /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Confirmation dialogs
-    <link></link>
     <text>Confirmation dialogs</text>
   </heading>
   <paragraph>
@@ -18143,7 +17832,6 @@ exports[`firefox /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Draggable dialog
-    <link></link>
     <text>Draggable dialog</text>
   </heading>
   <paragraph>
@@ -18174,7 +17862,6 @@ exports[`firefox /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Scrolling long content
-    <link></link>
     <text>Scrolling long content</text>
   </heading>
   <paragraph>
@@ -18223,7 +17910,6 @@ exports[`firefox /components/dialogs/ 1`] = `
   </toolbar>
   <heading level="2">
     Performance
-    <link></link>
     <text>Performance</text>
   </heading>
   <paragraph>
@@ -18233,7 +17919,6 @@ exports[`firefox /components/dialogs/ 1`] = `
   </paragraph>
   <heading level="2">
     Limitations
-    <link></link>
     <text>Limitations</text>
   </heading>
   <paragraph>
@@ -18243,7 +17928,6 @@ exports[`firefox /components/dialogs/ 1`] = `
   </paragraph>
   <heading level="2">
     Accessibility
-    <link></link>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -18253,7 +17937,6 @@ exports[`firefox /components/dialogs/ 1`] = `
   </paragraph>
   <heading level="2">
     API
-    <link></link>
     <text>API</text>
   </heading>
   <list>
@@ -18330,7 +18013,6 @@ exports[`firefox /components/pagination/ 1`] = `
   </list>
   <heading level="2">
     Basic pagination
-    <link></link>
     <text>Basic pagination</text>
   </heading>
   <button>
@@ -18570,7 +18252,6 @@ exports[`firefox /components/pagination/ 1`] = `
   </text>
   <heading level="2">
     Outlined pagination
-    <link></link>
     <text>Outlined pagination</text>
   </heading>
   <button>
@@ -18812,7 +18493,6 @@ exports[`firefox /components/pagination/ 1`] = `
   </text>
   <heading level="2">
     Rounded pagination
-    <link></link>
     <text>Rounded pagination</text>
   </heading>
   <button>
@@ -18943,7 +18623,6 @@ exports[`firefox /components/pagination/ 1`] = `
   </text>
   <heading level="2">
     Pagination size
-    <link></link>
     <text>Pagination size</text>
   </heading>
   <button>
@@ -19128,7 +18807,6 @@ exports[`firefox /components/pagination/ 1`] = `
   </text>
   <heading level="2">
     Buttons
-    <link></link>
     <text>Buttons</text>
   </heading>
   <paragraph>
@@ -19264,7 +18942,6 @@ exports[`firefox /components/pagination/ 1`] = `
   </text>
   <heading level="2">
     Pagination ranges
-    <link></link>
     <text>Pagination ranges</text>
   </heading>
   <paragraph>
@@ -19508,7 +19185,6 @@ exports[`firefox /components/pagination/ 1`] = `
   </text>
   <heading level="2">
     Controlled pagination
-    <link></link>
     <text>Controlled pagination</text>
   </heading>
   <button>
@@ -19588,7 +19264,6 @@ exports[`firefox /components/pagination/ 1`] = `
   </text>
   <heading level="2">
     Router integration
-    <link></link>
     <text>Router integration</text>
   </heading>
   <button>
@@ -19660,7 +19335,6 @@ exports[`firefox /components/pagination/ 1`] = `
   </toolbar>
   <heading level="2">
     usePagination
-    <link></link>
     <text>usePagination</text>
   </heading>
   <paragraph>
@@ -19748,7 +19422,6 @@ exports[`firefox /components/pagination/ 1`] = `
   </toolbar>
   <heading level="2">
     Table pagination
-    <link></link>
     <text>Table pagination</text>
   </heading>
   <paragraph>
@@ -19812,12 +19485,10 @@ exports[`firefox /components/pagination/ 1`] = `
   </paragraph>
   <heading level="2">
     Accessibility
-    <link></link>
     <text>Accessibility</text>
   </heading>
   <heading level="3">
     ARIA
-    <link></link>
     <text>ARIA</text>
   </heading>
   <paragraph>
@@ -19831,7 +19502,6 @@ exports[`firefox /components/pagination/ 1`] = `
   </paragraph>
   <heading level="3">
     Keyboard
-    <link></link>
     <text>Keyboard</text>
   </heading>
   <paragraph>
@@ -19841,7 +19511,6 @@ exports[`firefox /components/pagination/ 1`] = `
   </paragraph>
   <heading level="2">
     API
-    <link></link>
     <text>API</text>
   </heading>
   <list>
@@ -19926,7 +19595,6 @@ exports[`firefox /components/pickers 1`] = `
   </list>
   <heading level="2">
     React components
-    <link></link>
     <text>React components</text>
   </heading>
   <button>
@@ -19979,7 +19647,6 @@ exports[`firefox /components/pickers 1`] = `
   </toolbar>
   <heading level="2">
     Native pickers
-    <link></link>
     <text>Native pickers</text>
   </heading>
   <paragraph>
@@ -19989,7 +19656,6 @@ exports[`firefox /components/pickers 1`] = `
   </paragraph>
   <heading level="3">
     Date picker
-    <link></link>
     <text>Date picker</text>
   </heading>
   <paragraph>
@@ -20044,7 +19710,6 @@ exports[`firefox /components/pickers 1`] = `
   </text>
   <heading level="3">
     Date & Time picker
-    <link></link>
     <text>Date & Time picker</text>
   </heading>
   <paragraph>
@@ -20085,7 +19750,6 @@ exports[`firefox /components/pickers 1`] = `
   </text>
   <heading level="3">
     Time picker
-    <link></link>
     <text>Time picker</text>
   </heading>
   <paragraph>
@@ -20140,7 +19804,6 @@ exports[`firefox /components/pickers 1`] = `
   </text>
   <heading level="2">
     API
-    <link></link>
     <text>API</text>
   </heading>
   <list>
@@ -20215,7 +19878,6 @@ exports[`firefox /components/radio-buttons 1`] = `
   </list>
   <heading level="2">
     Radio group
-    <link></link>
     <text>Radio group</text>
   </heading>
   <paragraph>
@@ -20276,7 +19938,6 @@ exports[`firefox /components/radio-buttons 1`] = `
   </text>
   <heading level="3">
     Direction
-    <link></link>
     <text>Direction</text>
   </heading>
   <paragraph>
@@ -20340,7 +20001,6 @@ exports[`firefox /components/radio-buttons 1`] = `
   </text>
   <heading level="3">
     Controlled
-    <link></link>
     <text>Controlled</text>
   </heading>
   <paragraph>
@@ -20392,7 +20052,6 @@ exports[`firefox /components/radio-buttons 1`] = `
   </text>
   <heading level="2">
     Standalone radio buttons
-    <link></link>
     <text>Standalone radio buttons</text>
   </heading>
   <paragraph>
@@ -20427,7 +20086,6 @@ exports[`firefox /components/radio-buttons 1`] = `
   </text>
   <heading level="2">
     Size
-    <link></link>
     <text>Size</text>
   </heading>
   <paragraph>
@@ -20460,7 +20118,6 @@ exports[`firefox /components/radio-buttons 1`] = `
   </text>
   <heading level="2">
     Color
-    <link></link>
     <text>Color</text>
   </heading>
   <button>
@@ -20491,7 +20148,6 @@ exports[`firefox /components/radio-buttons 1`] = `
   </text>
   <heading level="2">
     Label placement
-    <link></link>
     <text>Label placement</text>
   </heading>
   <paragraph>
@@ -20545,7 +20201,6 @@ exports[`firefox /components/radio-buttons 1`] = `
   </toolbar>
   <heading level="2">
     Show error
-    <link></link>
     <text>Show error</text>
   </heading>
   <paragraph>
@@ -20599,7 +20254,6 @@ exports[`firefox /components/radio-buttons 1`] = `
   </toolbar>
   <heading level="2">
     Customized radios
-    <link></link>
     <text>Customized radios</text>
   </heading>
   <paragraph>
@@ -20669,7 +20323,6 @@ exports[`firefox /components/radio-buttons 1`] = `
   </text>
   <heading level="2">
     useRadioGroup
-    <link></link>
     <text>useRadioGroup</text>
   </heading>
   <paragraph>
@@ -20681,7 +20334,6 @@ exports[`firefox /components/radio-buttons 1`] = `
   </paragraph>
   <heading level="3">
     API
-    <link></link>
     <text>API</text>
   </heading>
   <text>
@@ -20758,7 +20410,6 @@ exports[`firefox /components/radio-buttons 1`] = `
   </text>
   <heading level="2">
     When to use
-    <link></link>
     <text>When to use</text>
   </heading>
   <list>
@@ -20769,7 +20420,6 @@ exports[`firefox /components/radio-buttons 1`] = `
   </list>
   <heading level="2">
     Accessibility
-    <link></link>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -20809,7 +20459,6 @@ exports[`firefox /components/radio-buttons 1`] = `
   </text>
   <heading level="2">
     API
-    <link></link>
     <text>API</text>
   </heading>
   <list>
@@ -20886,7 +20535,6 @@ exports[`firefox /components/rating/ 1`] = `
   </list>
   <heading level="2">
     Basic rating
-    <link></link>
     <text>Basic rating</text>
   </heading>
   <button>
@@ -21021,7 +20669,6 @@ exports[`firefox /components/rating/ 1`] = `
   </text>
   <heading level="2">
     Rating precision
-    <link></link>
     <text>Rating precision</text>
   </heading>
   <paragraph>
@@ -21106,7 +20753,6 @@ exports[`firefox /components/rating/ 1`] = `
   </text>
   <heading level="2">
     Hover feedback
-    <link></link>
     <text>Hover feedback</text>
   </heading>
   <paragraph>
@@ -21196,7 +20842,6 @@ exports[`firefox /components/rating/ 1`] = `
   </text>
   <heading level="2">
     Sizes
-    <link></link>
     <text>Sizes</text>
   </heading>
   <paragraph>
@@ -21313,7 +20958,6 @@ exports[`firefox /components/rating/ 1`] = `
   </text>
   <heading level="2">
     Customized rating
-    <link></link>
     <text>Customized rating</text>
   </heading>
   <paragraph>
@@ -21469,7 +21113,6 @@ exports[`firefox /components/rating/ 1`] = `
   </text>
   <heading level="2">
     Radio group
-    <link></link>
     <text>Radio group</text>
   </heading>
   <paragraph>
@@ -21528,7 +21171,6 @@ exports[`firefox /components/rating/ 1`] = `
   </text>
   <heading level="2">
     Accessibility
-    <link></link>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -21608,7 +21250,6 @@ exports[`firefox /components/rating/ 1`] = `
   </text>
   <heading level="3">
     ARIA
-    <link></link>
     <text>ARIA</text>
   </heading>
   <paragraph>
@@ -21619,7 +21260,6 @@ exports[`firefox /components/rating/ 1`] = `
   </paragraph>
   <heading level="3">
     Keyboard
-    <link></link>
     <text>Keyboard</text>
   </heading>
   <paragraph>
@@ -21634,7 +21274,6 @@ exports[`firefox /components/rating/ 1`] = `
   </paragraph>
   <heading level="2">
     API
-    <link></link>
     <text>API</text>
   </heading>
   <list>
@@ -21691,7 +21330,6 @@ exports[`firefox /components/selects/ 1`] = `
   </list>
   <heading level="2">
     Basic select
-    <link></link>
     <text>Basic select</text>
   </heading>
   <paragraph>
@@ -21733,7 +21371,6 @@ exports[`firefox /components/selects/ 1`] = `
   </text>
   <heading level="2">
     Advanced features
-    <link></link>
     <text>Advanced features</text>
   </heading>
   <paragraph>
@@ -21755,7 +21392,6 @@ exports[`firefox /components/selects/ 1`] = `
   </paragraph>
   <heading level="2">
     Props
-    <link></link>
     <text>Props</text>
   </heading>
   <paragraph>
@@ -21780,7 +21416,6 @@ exports[`firefox /components/selects/ 1`] = `
   </paragraph>
   <heading level="3">
     Filled and standard variants
-    <link></link>
     <text>Filled and standard variants</text>
   </heading>
   <button>
@@ -21814,7 +21449,6 @@ exports[`firefox /components/selects/ 1`] = `
   </toolbar>
   <heading level="3">
     Labels and helper text
-    <link></link>
     <text>Labels and helper text</text>
   </heading>
   <button>
@@ -21849,7 +21483,6 @@ exports[`firefox /components/selects/ 1`] = `
   </toolbar>
   <heading level="3">
     Auto width
-    <link></link>
     <text>Auto width</text>
   </heading>
   <button>
@@ -21874,7 +21507,6 @@ exports[`firefox /components/selects/ 1`] = `
   </toolbar>
   <heading level="3">
     Other props
-    <link></link>
     <text>Other props</text>
   </heading>
   <button>
@@ -21932,7 +21564,6 @@ exports[`firefox /components/selects/ 1`] = `
   </toolbar>
   <heading level="2">
     Native select
-    <link></link>
     <text>Native select</text>
   </heading>
   <paragraph>
@@ -21988,7 +21619,6 @@ exports[`firefox /components/selects/ 1`] = `
   </text>
   <heading level="2">
     TextField
-    <link></link>
     <text>TextField</text>
   </heading>
   <paragraph>
@@ -22001,7 +21631,6 @@ exports[`firefox /components/selects/ 1`] = `
   </paragraph>
   <heading level="2">
     Customized selects
-    <link></link>
     <text>Customized selects</text>
   </heading>
   <paragraph>
@@ -22075,7 +21704,6 @@ exports[`firefox /components/selects/ 1`] = `
   </paragraph>
   <heading level="2">
     Multiple select
-    <link></link>
     <text>Multiple select</text>
   </heading>
   <paragraph>
@@ -22093,7 +21721,6 @@ exports[`firefox /components/selects/ 1`] = `
   </paragraph>
   <heading level="3">
     Default
-    <link></link>
     <text>Default</text>
   </heading>
   <button>
@@ -22118,7 +21745,6 @@ exports[`firefox /components/selects/ 1`] = `
   </toolbar>
   <heading level="3">
     Checkmarks
-    <link></link>
     <text>Checkmarks</text>
   </heading>
   <button>
@@ -22143,7 +21769,6 @@ exports[`firefox /components/selects/ 1`] = `
   </toolbar>
   <heading level="3">
     Chip
-    <link></link>
     <text>Chip</text>
   </heading>
   <button>
@@ -22168,7 +21793,6 @@ exports[`firefox /components/selects/ 1`] = `
   </toolbar>
   <heading level="3">
     Placeholder
-    <link></link>
     <text>Placeholder</text>
   </heading>
   <button>
@@ -22190,7 +21814,6 @@ exports[`firefox /components/selects/ 1`] = `
   </toolbar>
   <heading level="3">
     Native
-    <link></link>
     <text>Native</text>
   </heading>
   <button>
@@ -22255,7 +21878,6 @@ exports[`firefox /components/selects/ 1`] = `
   </toolbar>
   <heading level="2">
     Controlled open select
-    <link></link>
     <text>Controlled open select</text>
   </heading>
   <button>
@@ -22284,7 +21906,6 @@ exports[`firefox /components/selects/ 1`] = `
   </toolbar>
   <heading level="2">
     With a dialog
-    <link></link>
     <text>With a dialog</text>
   </heading>
   <paragraph>
@@ -22312,7 +21933,6 @@ exports[`firefox /components/selects/ 1`] = `
   </toolbar>
   <heading level="2">
     Grouping
-    <link></link>
     <text>Grouping</text>
   </heading>
   <paragraph>
@@ -22371,7 +21991,6 @@ exports[`firefox /components/selects/ 1`] = `
   </toolbar>
   <heading level="2">
     Accessibility
-    <link></link>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -22415,7 +22034,6 @@ exports[`firefox /components/selects/ 1`] = `
   </text>
   <heading level="2">
     API
-    <link></link>
     <text>API</text>
   </heading>
   <list>
@@ -22499,7 +22117,6 @@ exports[`firefox /components/slider 1`] = `
   </list>
   <heading level="2">
     Continuous sliders
-    <link></link>
     <text>Continuous sliders</text>
   </heading>
   <paragraph>
@@ -22534,7 +22151,6 @@ exports[`firefox /components/slider 1`] = `
   </toolbar>
   <heading level="2">
     Discrete sliders
-    <link></link>
     <text>Discrete sliders</text>
   </heading>
   <paragraph>
@@ -22580,7 +22196,6 @@ exports[`firefox /components/slider 1`] = `
   </toolbar>
   <heading level="3">
     Small steps
-    <link></link>
     <text>Small steps</text>
   </heading>
   <paragraph>
@@ -22615,7 +22230,6 @@ exports[`firefox /components/slider 1`] = `
   </text>
   <heading level="3">
     Custom marks
-    <link></link>
     <text>Custom marks</text>
   </heading>
   <paragraph>
@@ -22651,7 +22265,6 @@ exports[`firefox /components/slider 1`] = `
   </text>
   <heading level="3">
     Restricted values
-    <link></link>
     <text>Restricted values</text>
   </heading>
   <paragraph>
@@ -22689,7 +22302,6 @@ exports[`firefox /components/slider 1`] = `
   </text>
   <heading level="3">
     Label always visible
-    <link></link>
     <text>Label always visible</text>
   </heading>
   <paragraph>
@@ -22726,7 +22338,6 @@ exports[`firefox /components/slider 1`] = `
   </text>
   <heading level="2">
     Range slider
-    <link></link>
     <text>Range slider</text>
   </heading>
   <paragraph>
@@ -22766,7 +22377,6 @@ exports[`firefox /components/slider 1`] = `
   </text>
   <heading level="3">
     Minimum distance
-    <link></link>
     <text>Minimum distance</text>
   </heading>
   <paragraph>
@@ -22812,7 +22422,6 @@ exports[`firefox /components/slider 1`] = `
   </toolbar>
   <heading level="2">
     Slider with input field
-    <link></link>
     <text>Slider with input field</text>
   </heading>
   <paragraph>
@@ -22844,7 +22453,6 @@ exports[`firefox /components/slider 1`] = `
   </toolbar>
   <heading level="2">
     Customized sliders
-    <link></link>
     <text>Customized sliders</text>
   </heading>
   <paragraph>
@@ -22897,7 +22505,6 @@ exports[`firefox /components/slider 1`] = `
   </toolbar>
   <heading level="2">
     Vertical sliders
-    <link></link>
     <text>Vertical sliders</text>
   </heading>
   <button>
@@ -22974,7 +22581,6 @@ exports[`firefox /components/slider 1`] = `
   </toolbar>
   <heading level="2">
     Track
-    <link></link>
     <text>Track</text>
   </heading>
   <paragraph>
@@ -22982,7 +22588,6 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <heading level="3">
     Removed track
-    <link></link>
     <text>Removed track</text>
   </heading>
   <paragraph>
@@ -23021,7 +22626,6 @@ exports[`firefox /components/slider 1`] = `
   </toolbar>
   <heading level="3">
     Inverted track
-    <link></link>
     <text>Inverted track</text>
   </heading>
   <paragraph>
@@ -23057,7 +22661,6 @@ exports[`firefox /components/slider 1`] = `
   </toolbar>
   <heading level="2">
     Non-linear scale
-    <link></link>
     <text>Non-linear scale</text>
   </heading>
   <paragraph>
@@ -23102,7 +22705,6 @@ exports[`firefox /components/slider 1`] = `
   </text>
   <heading level="2">
     Unstyled
-    <link></link>
     <text>Unstyled</text>
   </heading>
   <paragraph>
@@ -23131,7 +22733,6 @@ exports[`firefox /components/slider 1`] = `
   <text><StyledSlider defaultValue={10} /></text>
   <heading level="2">
     Accessibility
-    <link></link>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -23167,7 +22768,6 @@ exports[`firefox /components/slider 1`] = `
   </list>
   <heading level="2">
     API
-    <link></link>
     <text>API</text>
   </heading>
   <list>
@@ -23236,7 +22836,6 @@ exports[`firefox /components/switches/ 1`] = `
   </list>
   <heading level="2">
     Basic switches
-    <link></link>
     <text>Basic switches</text>
   </heading>
   <button>
@@ -23265,7 +22864,6 @@ exports[`firefox /components/switches/ 1`] = `
   </text>
   <heading level="2">
     Label
-    <link></link>
     <text>Label</text>
   </heading>
   <paragraph>
@@ -23305,7 +22903,6 @@ exports[`firefox /components/switches/ 1`] = `
   </text>
   <heading level="2">
     Size
-    <link></link>
     <text>Size</text>
   </heading>
   <paragraph>
@@ -23332,7 +22929,6 @@ exports[`firefox /components/switches/ 1`] = `
   </text>
   <heading level="2">
     Color
-    <link></link>
     <text>Color</text>
   </heading>
   <button>
@@ -23360,7 +22956,6 @@ exports[`firefox /components/switches/ 1`] = `
   </text>
   <heading level="2">
     Controlled
-    <link></link>
     <text>Controlled</text>
   </heading>
   <paragraph>
@@ -23387,7 +22982,6 @@ exports[`firefox /components/switches/ 1`] = `
   </text>
   <heading level="2">
     Switches with FormGroup
-    <link></link>
     <text>Switches with FormGroup</text>
   </heading>
   <paragraph>
@@ -23440,7 +23034,6 @@ exports[`firefox /components/switches/ 1`] = `
   </toolbar>
   <heading level="2">
     Customized switches
-    <link></link>
     <text>Customized switches</text>
   </heading>
   <paragraph>
@@ -23492,7 +23085,6 @@ exports[`firefox /components/switches/ 1`] = `
   </paragraph>
   <heading level="2">
     Label placement
-    <link></link>
     <text>Label placement</text>
   </heading>
   <paragraph>
@@ -23540,7 +23132,6 @@ exports[`firefox /components/switches/ 1`] = `
   </toolbar>
   <heading level="2">
     When to use
-    <link></link>
     <text>When to use</text>
   </heading>
   <list>
@@ -23551,7 +23142,6 @@ exports[`firefox /components/switches/ 1`] = `
   </list>
   <heading level="2">
     Accessibility
-    <link></link>
     <text>Accessibility</text>
   </heading>
   <list>
@@ -23600,7 +23190,6 @@ exports[`firefox /components/switches/ 1`] = `
   </text>
   <heading level="2">
     API
-    <link></link>
     <text>API</text>
   </heading>
   <list>
@@ -23686,7 +23275,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </list>
   <heading level="2">
     Basic tabs
-    <link></link>
     <text>Basic tabs</text>
   </heading>
   <paragraph>
@@ -23741,7 +23329,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </text>
   <heading level="2">
     Experimental API
-    <link></link>
     <text>Experimental API</text>
   </heading>
   <paragraph>
@@ -23797,7 +23384,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </text>
   <heading level="2">
     Wrapped labels
-    <link></link>
     <text>Wrapped labels</text>
   </heading>
   <paragraph>
@@ -23844,7 +23430,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </text>
   <heading level="2">
     Colored tab
-    <link></link>
     <text>Colored tab</text>
   </heading>
   <button>
@@ -23885,7 +23470,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </text>
   <heading level="2">
     Disabled tab
-    <link></link>
     <text>Disabled tab</text>
   </heading>
   <paragraph>
@@ -23927,7 +23511,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </text>
   <heading level="2">
     Fixed tabs
-    <link></link>
     <text>Fixed tabs</text>
   </heading>
   <paragraph>
@@ -23938,7 +23521,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </paragraph>
   <heading level="3">
     Full width
-    <link></link>
     <text>Full width</text>
   </heading>
   <paragraph>
@@ -23988,7 +23570,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </toolbar>
   <heading level="3">
     Centered
-    <link></link>
     <text>Centered</text>
   </heading>
   <paragraph>
@@ -24029,12 +23610,10 @@ exports[`firefox /components/tabs/ 1`] = `
   </text>
   <heading level="2">
     Scrollable tabs
-    <link></link>
     <text>Scrollable tabs</text>
   </heading>
   <heading level="3">
     Automatic scroll buttons
-    <link></link>
     <text>Automatic scroll buttons</text>
   </heading>
   <paragraph>
@@ -24099,7 +23678,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </text>
   <heading level="3">
     Forced scroll buttons
-    <link></link>
     <text>Forced scroll buttons</text>
   </heading>
   <paragraph>
@@ -24216,7 +23794,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </toolbar>
   <heading level="3">
     Prevent scroll buttons
-    <link></link>
     <text>Prevent scroll buttons</text>
   </heading>
   <paragraph>
@@ -24283,7 +23860,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </text>
   <heading level="2">
     Customized tabs
-    <link></link>
     <text>Customized tabs</text>
   </heading>
   <paragraph>
@@ -24341,7 +23917,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </paragraph>
   <heading level="2">
     Vertical tabs
-    <link></link>
     <text>Vertical tabs</text>
   </heading>
   <paragraph>
@@ -24405,7 +23980,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </paragraph>
   <heading level="2">
     Nav tabs
-    <link></link>
     <text>Nav tabs</text>
   </heading>
   <paragraph>
@@ -24451,7 +24025,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </text>
   <heading level="2">
     Icon tabs
-    <link></link>
     <text>Icon tabs</text>
   </heading>
   <paragraph>
@@ -24522,7 +24095,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </text>
   <heading level="2">
     Third-party routing library
-    <link></link>
     <text>Third-party routing library</text>
   </heading>
   <paragraph>
@@ -24539,7 +24111,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </paragraph>
   <heading level="2">
     Accessibility
-    <link></link>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -24579,7 +24150,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </paragraph>
   <heading level="3">
     Keyboard navigation
-    <link></link>
     <text>Keyboard navigation</text>
   </heading>
   <paragraph>
@@ -24669,7 +24239,6 @@ exports[`firefox /components/tabs/ 1`] = `
   </toolbar>
   <heading level="2">
     API
-    <link></link>
     <text>API</text>
   </heading>
   <list>
@@ -24753,7 +24322,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </list>
   <heading level="2">
     Basic TextField
-    <link></link>
     <text>Basic TextField</text>
   </heading>
   <paragraph>
@@ -24814,7 +24382,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <heading level="2">
     Form props
-    <link></link>
     <text>Form props</text>
   </heading>
   <paragraph>
@@ -25005,7 +24572,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="2">
     Validation
-    <link></link>
     <text>Validation</text>
   </heading>
   <paragraph>
@@ -25092,7 +24658,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="2">
     Multiline
-    <link></link>
     <text>Multiline</text>
   </heading>
   <paragraph>
@@ -25191,7 +24756,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="2">
     Select
-    <link></link>
     <text>Select</text>
   </heading>
   <paragraph>
@@ -25334,7 +24898,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="2">
     Icons
-    <link></link>
     <text>Icons</text>
   </heading>
   <paragraph>
@@ -25375,7 +24938,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="3">
     Input Adornments
-    <link></link>
     <text>Input Adornments</text>
   </heading>
   <paragraph>
@@ -25495,7 +25057,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="2">
     Sizes
-    <link></link>
     <text>Sizes</text>
   </heading>
   <paragraph>
@@ -25609,7 +25170,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="2">
     Layout
-    <link></link>
     <text>Layout</text>
   </heading>
   <paragraph>
@@ -25772,7 +25332,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="2">
     Uncontrolled vs. Controlled
-    <link></link>
     <text>Uncontrolled vs. Controlled</text>
   </heading>
   <paragraph>
@@ -25817,7 +25376,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </text>
   <heading level="2">
     Components
-    <link></link>
     <text>Components</text>
   </heading>
   <paragraph>
@@ -25930,7 +25488,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="2">
     Inputs
-    <link></link>
     <text>Inputs</text>
   </heading>
   <button>
@@ -25975,7 +25532,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </text>
   <heading level="2">
     Color
-    <link></link>
     <text>Color</text>
   </heading>
   <paragraph>
@@ -26017,7 +25573,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </toolbar>
   <heading level="2">
     Customized inputs
-    <link></link>
     <text>Customized inputs</text>
   </heading>
   <paragraph>
@@ -26108,12 +25663,10 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <heading level="2">
     Limitations
-    <link></link>
     <text>Limitations</text>
   </heading>
   <heading level="3">
     Shrink
-    <link></link>
     <text>Shrink</text>
   </heading>
   <paragraph>
@@ -26143,7 +25696,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   <text><InputLabel shrink>Count</InputLabel></text>
   <heading level="3">
     Floating label
-    <link></link>
     <text>Floating label</text>
   </heading>
   <paragraph>
@@ -26155,7 +25707,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <heading level="3">
     type="number"
-    <link></link>
     <text>type="number"</text>
   </heading>
   <paragraph>
@@ -26205,7 +25756,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <heading level="3">
     Helper text
-    <link></link>
     <text>Helper text</text>
   </heading>
   <paragraph>
@@ -26290,7 +25840,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </text>
   <heading level="2">
     Integration with 3rd party input libraries
-    <link></link>
     <text>Integration with 3rd party input libraries</text>
   </heading>
   <paragraph>
@@ -26360,7 +25909,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </text>
   <heading level="2">
     Accessibility
-    <link></link>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -26400,7 +25948,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </text>
   <heading level="2">
     Complementary projects
-    <link></link>
     <text>Complementary projects</text>
   </heading>
   <paragraph>
@@ -26438,7 +25985,6 @@ exports[`firefox /components/text-fields/ 1`] = `
   </list>
   <heading level="2">
     API
-    <link></link>
     <text>API</text>
   </heading>
   <list>
@@ -26541,7 +26087,6 @@ exports[`firefox /components/tooltips/ 1`] = `
   </list>
   <heading level="2">
     Basic tooltip
-    <link></link>
     <text>Basic tooltip</text>
   </heading>
   <button>
@@ -26564,7 +26109,6 @@ exports[`firefox /components/tooltips/ 1`] = `
   </text>
   <heading level="2">
     Positioned tooltips
-    <link></link>
     <text>Positioned tooltips</text>
   </heading>
   <paragraph>
@@ -26639,7 +26183,6 @@ exports[`firefox /components/tooltips/ 1`] = `
   </toolbar>
   <heading level="2">
     Customized tooltips
-    <link></link>
     <text>Customized tooltips</text>
   </heading>
   <paragraph>
@@ -26677,7 +26220,6 @@ exports[`firefox /components/tooltips/ 1`] = `
   </toolbar>
   <heading level="2">
     Arrow tooltips
-    <link></link>
     <text>Arrow tooltips</text>
   </heading>
   <paragraph>
@@ -26709,7 +26251,6 @@ exports[`firefox /components/tooltips/ 1`] = `
   </text>
   <heading level="2">
     Custom child element
-    <link></link>
     <text>Custom child element</text>
   </heading>
   <paragraph>
@@ -26733,7 +26274,6 @@ exports[`firefox /components/tooltips/ 1`] = `
   </paragraph>
   <heading level="2">
     Triggers
-    <link></link>
     <text>Triggers</text>
   </heading>
   <paragraph>
@@ -26772,7 +26312,6 @@ exports[`firefox /components/tooltips/ 1`] = `
   </toolbar>
   <heading level="2">
     Controlled tooltips
-    <link></link>
     <text>Controlled tooltips</text>
   </heading>
   <paragraph>
@@ -26805,7 +26344,6 @@ exports[`firefox /components/tooltips/ 1`] = `
   </text>
   <heading level="2">
     Variable width
-    <link></link>
     <text>Variable width</text>
   </heading>
   <paragraph>
@@ -26855,7 +26393,6 @@ exports[`firefox /components/tooltips/ 1`] = `
   </text>
   <heading level="2">
     Interactive
-    <link></link>
     <text>Interactive</text>
   </heading>
   <paragraph>
@@ -26891,7 +26428,6 @@ exports[`firefox /components/tooltips/ 1`] = `
   </text>
   <heading level="2">
     Disabled elements
-    <link></link>
     <text>Disabled elements</text>
   </heading>
   <paragraph>
@@ -26950,7 +26486,6 @@ exports[`firefox /components/tooltips/ 1`] = `
   </text>
   <heading level="2">
     Transitions
-    <link></link>
     <text>Transitions</text>
   </heading>
   <paragraph>
@@ -26991,7 +26526,6 @@ exports[`firefox /components/tooltips/ 1`] = `
   </text>
   <heading level="2">
     Follow cursor
-    <link></link>
     <text>Follow cursor</text>
   </heading>
   <paragraph>
@@ -27022,7 +26556,6 @@ exports[`firefox /components/tooltips/ 1`] = `
   </text>
   <heading level="2">
     Virtual element
-    <link></link>
     <text>Virtual element</text>
   </heading>
   <paragraph>
@@ -27050,7 +26583,6 @@ exports[`firefox /components/tooltips/ 1`] = `
   </toolbar>
   <heading level="2">
     Showing and hiding
-    <link></link>
     <text>Showing and hiding</text>
   </heading>
   <paragraph>
@@ -27093,7 +26625,6 @@ exports[`firefox /components/tooltips/ 1`] = `
   </text>
   <heading level="2">
     Accessibility
-    <link></link>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -27149,7 +26680,6 @@ exports[`firefox /components/tooltips/ 1`] = `
   </text>
   <heading level="2">
     API
-    <link></link>
     <text>API</text>
   </heading>
   <list>
@@ -27186,7 +26716,6 @@ exports[`firefox /components/transfer-list 1`] = `
   </paragraph>
   <heading level="2">
     Basic transfer list
-    <link></link>
     <text>Basic transfer list</text>
   </heading>
   <paragraph>
@@ -27264,7 +26793,6 @@ exports[`firefox /components/transfer-list 1`] = `
   </toolbar>
   <heading level="2">
     Enhanced transfer list
-    <link></link>
     <text>Enhanced transfer list</text>
   </heading>
   <paragraph>
@@ -27340,7 +26868,6 @@ exports[`firefox /components/transfer-list 1`] = `
   </toolbar>
   <heading level="2">
     API
-    <link></link>
     <text>API</text>
   </heading>
   <list>
@@ -27417,7 +26944,6 @@ exports[`firefox /components/tree-view/ 1`] = `
   </list>
   <heading level="2">
     Basic tree view
-    <link></link>
     <text>Basic tree view</text>
   </heading>
   <button>
@@ -27446,7 +26972,6 @@ exports[`firefox /components/tree-view/ 1`] = `
   </toolbar>
   <heading level="2">
     Multi-selection
-    <link></link>
     <text>Multi-selection</text>
   </heading>
   <paragraph>
@@ -27478,7 +27003,6 @@ exports[`firefox /components/tree-view/ 1`] = `
   </toolbar>
   <heading level="2">
     Controlled tree view
-    <link></link>
     <text>Controlled tree view</text>
   </heading>
   <paragraph>
@@ -27518,7 +27042,6 @@ exports[`firefox /components/tree-view/ 1`] = `
   </toolbar>
   <heading level="2">
     Rich object
-    <link></link>
     <text>Rich object</text>
   </heading>
   <paragraph>
@@ -27568,7 +27091,6 @@ exports[`firefox /components/tree-view/ 1`] = `
   </toolbar>
   <heading level="2">
     ContentComponent prop
-    <link></link>
     <text>ContentComponent prop</text>
   </heading>
   <paragraph>
@@ -27633,12 +27155,10 @@ exports[`firefox /components/tree-view/ 1`] = `
   </toolbar>
   <heading level="2">
     Customized tree view
-    <link></link>
     <text>Customized tree view</text>
   </heading>
   <heading level="3">
     Custom icons, border and animation
-    <link></link>
     <text>Custom icons, border and animation</text>
   </heading>
   <button>
@@ -27681,7 +27201,6 @@ exports[`firefox /components/tree-view/ 1`] = `
   </toolbar>
   <heading level="3">
     Gmail clone
-    <link></link>
     <text>Gmail clone</text>
   </heading>
   <button>
@@ -27756,7 +27275,6 @@ exports[`firefox /components/tree-view/ 1`] = `
   </toolbar>
   <heading level="2">
     Disabled tree items
-    <link></link>
     <text>Disabled tree items</text>
   </heading>
   <button>
@@ -27882,7 +27400,6 @@ exports[`firefox /components/tree-view/ 1`] = `
   </list>
   <heading level="2">
     Accessibility
-    <link></link>
     <text>Accessibility</text>
   </heading>
   <paragraph>
@@ -27903,7 +27420,6 @@ exports[`firefox /components/tree-view/ 1`] = `
   </paragraph>
   <heading level="2">
     API
-    <link></link>
     <text>API</text>
   </heading>
   <list>
