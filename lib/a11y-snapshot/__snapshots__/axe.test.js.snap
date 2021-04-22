@@ -1,13 +1,50 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`chromium / 1`] = `Array []`;
+exports[`chromium / 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /api/button/ 1`] = `Array []`;
+exports[`chromium /api/button/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /api/select/ 1`] = `Array []`;
+exports[`chromium /api/select/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/breadcrumbs 1`] = `
 Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
   Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
@@ -18,7 +55,17 @@ Array [
 ]
 `;
 
-exports[`chromium /components/button-group/ 1`] = `Array []`;
+exports[`chromium /components/button-group/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/buttons/ 1`] = `
 Array [
@@ -26,6 +73,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
     "id": "aria-progressbar-name",
     "nodes": Array [
+      ".MuiNProgressBar-root",
       ".MuiLoadingButton-pendingIndicatorCenter.MuiLoadingButton-pendingIndicator > .MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorInherit",
       ".MuiLoadingButton-pendingIndicatorStart > .MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorInherit",
     ],
@@ -41,12 +89,39 @@ Array [
 ]
 `;
 
-exports[`chromium /components/checkboxes/ 1`] = `Array []`;
+exports[`chromium /components/checkboxes/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/dialogs/ 1`] = `Array []`;
+exports[`chromium /components/dialogs/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/pagination/ 1`] = `
 Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
   Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
@@ -57,16 +132,63 @@ Array [
 ]
 `;
 
-exports[`chromium /components/pickers 1`] = `Array []`;
+exports[`chromium /components/pickers 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/radio-buttons 1`] = `Array []`;
+exports[`chromium /components/radio-buttons 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/rating/ 1`] = `Array []`;
+exports[`chromium /components/rating/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/selects/ 1`] = `Array []`;
+exports[`chromium /components/selects/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/slider 1`] = `
 Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
   Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
     "id": "aria-valid-attr-value",
@@ -84,14 +206,74 @@ Array [
 ]
 `;
 
-exports[`chromium /components/switches/ 1`] = `Array []`;
+exports[`chromium /components/switches/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/tabs/ 1`] = `Array []`;
+exports[`chromium /components/tabs/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/text-fields/ 1`] = `Array []`;
+exports[`chromium /components/text-fields/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/tooltips/ 1`] = `Array []`;
+exports[`chromium /components/tooltips/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/transfer-list 1`] = `Array []`;
+exports[`chromium /components/transfer-list 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/tree-view/ 1`] = `Array []`;
+exports[`chromium /components/tree-view/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "id": "aria-progressbar-name",
+    "nodes": Array [
+      ".MuiNProgressBar-root",
+    ],
+  },
+]
+`;
