@@ -21299,6 +21299,558 @@ exports[`firefox /components/selects/ 1`] = `
 <landmark>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
+    Dialog
+    <text>Dialog</text>
+  </heading>
+  <paragraph>
+    <text>
+      Dialogs inform users about a task and can contain critical information,
+      require decisions, or involve multiple tasks.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>A Dialog is a type of</text>
+    <link>modal</link>
+    <text>
+      window that appears in front of app content to provide critical
+      information or ask for a decision. Dialogs disable all app functionality
+      when they appear, and remain on screen until confirmed, dismissed, or a
+      required action has been taken.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Dialogs are purposefully interruptive, so they should be used sparingly.
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      Feedback
+      <link>Feedback</link>
+    </listitem>
+    <listitem>
+      WAI-ARIA
+      <link>WAI-ARIA</link>
+    </listitem>
+    <listitem>
+      Scroll down to 'Exports Analysis' for a more detailed report.
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem>
+      Material Design
+      <link>Material Design</link>
+    </listitem>
+    <listitem>
+      Figma
+      <link>Figma</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Basic dialog
+    <text>Basic dialog</text>
+  </heading>
+  <paragraph>
+    <text>
+      Simple dialogs can provide additional details or actions about a list
+      item. For example, they can display avatars, icons, clarifying subtext, or
+      orthogonal actions (such as adding an account).
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>Touch mechanics:</text>
+  </paragraph>
+  <list>
+    <listitem>
+      Choosing an option immediately commits the option and closes the menu
+      <text>
+        Choosing an option immediately commits the option and closes the menu
+      </text>
+    </listitem>
+    <listitem>
+      Touching outside of the dialog, or pressing Back, cancels the action and
+      closes the dialog
+      <text>
+        Touching outside of the dialog, or pressing Back, cancels the action and
+        closes the dialog
+      </text>
+    </listitem>
+  </list>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <text>Selected: user02@gmail.com</text>
+  <whitespace></whitespace>
+  <button>
+    OPEN SIMPLE DIALOG
+    <text>OPEN SIMPLE DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Typography variant="subtitle1" component="div">
+    Selected: {selectedValue} </Typography> <br />
+    <Button variant="outlined"
+    onClick={handleClickOpen}> Open simple dialog </Button>
+    <SimpleDialog selectedValue={selectedValue}
+    open={open} onClose={handleClose} />
+  </text>
+  <heading level="2">
+    Alerts
+    <text>Alerts</text>
+  </heading>
+  <paragraph>
+    <text>
+      Alerts are urgent interruptions, requiring acknowledgement, that inform
+      the user about a situation.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Most alerts don't need titles. They summarize a decision in a
+      sentence or two by either:
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      Asking a question (e.g. "Delete this conversation?")
+      <text>
+        Asking a question (e.g. "Delete this conversation?")
+      </text>
+    </listitem>
+    <listitem>
+      Making a statement related to the action buttons
+      <text>Making a statement related to the action buttons</text>
+    </listitem>
+  </list>
+  <paragraph>
+    <text>
+      Use title bar alerts only for high-risk situations, such as the potential
+      loss of connectivity. Users should be able to understand the choices based
+      on the title and button text alone.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>If a title is required:</text>
+  </paragraph>
+  <list>
+    <listitem>
+      Use a clear question or statement with an explanation in the content area,
+      such as "Erase USB storage?".
+      <text>
+        Use a clear question or statement with an explanation in the content
+        area, such as "Erase USB storage?".
+      </text>
+    </listitem>
+    <listitem>
+      Avoid apologies, ambiguity, or questions, such as "Warning!" or
+      "Are you sure?"
+      <text>
+        Avoid apologies, ambiguity, or questions, such as "Warning!"
+        or "Are you sure?"
+      </text>
+    </listitem>
+  </list>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN ALERT DIALOG
+    <text>OPEN ALERT DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Transitions
+    <text>Transitions</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can also swap out the transition, the next example uses Slide.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    SLIDE IN ALERT DIALOG
+    <text>SLIDE IN ALERT DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Form dialogs
+    <text>Form dialogs</text>
+  </heading>
+  <paragraph>
+    <text>
+      Form dialogs allow users to fill out form fields within a dialog. For
+      example, if your site prompts for potential subscribers to fill in their
+      email address, they can fill out the email field and touch
+      'Submit'.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN FORM DIALOG
+    <text>OPEN FORM DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Customized dialogs
+    <text>Customized dialogs</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here is an example of customizing the component. You can learn more about
+      this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <paragraph>
+    <text>The dialog has a close button added to aide usability.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN DIALOG
+    <text>OPEN DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Full-screen dialogs
+    <text>Full-screen dialogs</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN FULL-SCREEN DIALOG
+    <text>OPEN FULL-SCREEN DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Optional sizes
+    <text>Optional sizes</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can set a dialog maximum width by using the maxWidth enumerable in
+      combination with the fullWidth boolean. When the fullWidth prop is true,
+      the dialog will adapt based on the maxWidth value.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN MAX-WIDTH DIALOG
+    <text>OPEN MAX-WIDTH DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Responsive full-screen
+    <text>Responsive full-screen</text>
+  </heading>
+  <paragraph>
+    <text>You may make a dialog responsively full screen using</text>
+    <link>useMediaQuery</link>
+    <text>.</text>
+  </paragraph>
+  <text>
+    import useMediaQuery from '@material-ui/core/useMediaQuery';
+    function MyComponent() { const theme = useTheme(); const fullScreen =
+    useMediaQuery(theme.breakpoints.down('md')); return <Dialog
+    fullScreen={fullScreen} />; }
+  </text>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN RESPONSIVE DIALOG
+    <text>OPEN RESPONSIVE DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Confirmation dialogs
+    <text>Confirmation dialogs</text>
+  </heading>
+  <paragraph>
+    <text>
+      Confirmation dialogs require users to explicitly confirm their choice
+      before an option is committed. For example, users can listen to multiple
+      ringtones but only make a final selection upon touching "OK".
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Touching "Cancel" in a confirmation dialog, or pressing Back,
+      cancels the action, discards any changes, and closes the dialog.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <group>
+    <button disabled="true">
+      Interruptions
+      <text>Interruptions</text>
+    </button>
+    <buttonmenu haspopup="true">
+      phone ringtone
+      <text>Phone ringtone</text>
+      <paragraph>
+        <text>Dione</text>
+      </paragraph>
+    </buttonmenu>
+    <button disabled="true">
+      Default notification ringtone Tethys
+      <text>Default notification ringtone</text>
+      <paragraph>
+        <text>Tethys</text>
+      </paragraph>
+    </button>
+  </group>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Draggable dialog
+    <text>Draggable dialog</text>
+  </heading>
+  <paragraph>
+    <text>You can create a draggable dialog by using</text>
+    <link>react-draggable</link>
+    <text>
+      . To do so, you can pass the imported Draggable component as the
+      PaperComponent of the Dialog component. This will make the entire dialog
+      draggable.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    OPEN DRAGGABLE DIALOG
+    <text>OPEN DRAGGABLE DIALOG</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Scrolling long content
+    <text>Scrolling long content</text>
+  </heading>
+  <paragraph>
+    <text>
+      When dialogs become too long for the user's viewport or device, they
+      scroll.
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      scroll=paper the content of the dialog scrolls within the paper element.
+      <text>
+        scroll=paper the content of the dialog scrolls within the paper element.
+      </text>
+    </listitem>
+    <listitem>
+      scroll=body the content of the dialog scrolls within the body element.
+      <text>
+        scroll=body the content of the dialog scrolls within the body element.
+      </text>
+    </listitem>
+  </list>
+  <paragraph>
+    <text>Try the demo below to see what we mean:</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    SCROLL=PAPER
+    <text>SCROLL=PAPER</text>
+  </button>
+  <button>
+    SCROLL=BODY
+    <text>SCROLL=BODY</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Performance
+    <text>Performance</text>
+  </heading>
+  <paragraph>
+    <text>Follow the</text>
+    <link>Modal performance section</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    Limitations
+    <text>Limitations</text>
+  </heading>
+  <paragraph>
+    <text>Follow the</text>
+    <link>Modal limitations section</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    Accessibility
+    <text>Accessibility</text>
+  </heading>
+  <paragraph>
+    <text>Follow the</text>
+    <link>Modal accessibility section</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    API
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem>
+      <Dialog />
+      <link><Dialog /></link>
+    </listitem>
+    <listitem>
+      <DialogActions />
+      <link><DialogActions /></link>
+    </listitem>
+    <listitem>
+      <DialogContent />
+      <link><DialogContent /></link>
+    </listitem>
+    <listitem>
+      <DialogContentText />
+      <link><DialogContentText /></link>
+    </listitem>
+    <listitem>
+      <DialogTitle />
+      <link><DialogTitle /></link>
+    </listitem>
+    <listitem>
+      <Slide />
+      <link><Slide /></link>
+    </listitem>
+  </list>
+  <separator></separator>
+  <link>Backdrop</link>
+  <group>
+    Was this page helpful?
+    <text>Was this page helpful?</text>
+    <togglebutton>Yes</togglebutton>
+    <togglebutton>No</togglebutton>
+  </group>
+  <link>Progress</link>
+</landmark>;
+
+`;
+
+exports[`firefox /components/selects/ 2`] = `
+<landmark>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
     Select
     <text>Select</text>
   </heading>
