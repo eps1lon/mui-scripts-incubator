@@ -26,16 +26,16 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
     "id": "aria-progressbar-name",
     "nodes": Array [
-      ".MuiLoadingButton-pendingIndicatorCenter.MuiLoadingButton-pendingIndicator > .MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorInherit",
-      ".MuiLoadingButton-pendingIndicatorStart > .MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorInherit",
+      ".MuiLoadingButton-loadingIndicatorCenter.MuiLoadingButton-loadingIndicator > .MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorInherit",
+      ".MuiLoadingButton-loadingIndicatorStart > .MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorInherit",
     ],
   },
   Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/button-name?application=axeAPI",
     "id": "button-name",
     "nodes": Array [
-      ".MuiLoadingButton-pending.Mui-disabled.MuiLoadingButton-root:nth-child(1)",
-      ".MuiLoadingButton-pending.Mui-disabled.MuiLoadingButton-root:nth-child(2)",
+      ".MuiLoadingButton-loading.Mui-disabled.MuiLoadingButton-root:nth-child(1)",
+      ".MuiLoadingButton-loading.Mui-disabled.MuiLoadingButton-root:nth-child(2)",
     ],
   },
 ]
