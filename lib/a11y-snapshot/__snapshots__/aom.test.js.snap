@@ -2264,9 +2264,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem level="1">
-      <link>Adobe</link>
-    </listitem>
-    <listitem level="1">
       <link>Sketch</link>
     </listitem>
   </list>
@@ -2696,9 +2693,6 @@ exports[`chromium /components/button-group/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem level="1">
-      <link>Adobe</link>
-    </listitem>
-    <listitem level="1">
       <link>Sketch</link>
     </listitem>
   </list>
@@ -3089,9 +3083,6 @@ exports[`chromium /components/buttons/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -3782,9 +3773,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem level="1">
-      <link>Adobe</link>
-    </listitem>
-    <listitem level="1">
       <link>Sketch</link>
     </listitem>
   </list>
@@ -4254,9 +4242,6 @@ exports[`chromium /components/dialogs/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -4784,9 +4769,6 @@ exports[`chromium /components/pagination/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -6158,9 +6140,6 @@ exports[`chromium /components/pickers 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem level="1">
-      <link>Adobe</link>
-    </listitem>
-    <listitem level="1">
       <link>Sketch</link>
     </listitem>
   </list>
@@ -6445,9 +6424,6 @@ exports[`chromium /components/radio-buttons 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -6974,9 +6950,6 @@ exports[`chromium /components/rating/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem level="1">
-      <link>Adobe</link>
-    </listitem>
-    <listitem level="1">
       <link>Sketch</link>
     </listitem>
   </list>
@@ -7389,9 +7362,6 @@ exports[`chromium /components/selects/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -8122,9 +8092,6 @@ exports[`chromium /components/slider 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -9048,9 +9015,6 @@ exports[`chromium /components/switches/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem level="1">
-      <link>Adobe</link>
-    </listitem>
-    <listitem level="1">
       <link>Sketch</link>
     </listitem>
   </list>
@@ -9444,9 +9408,6 @@ exports[`chromium /components/tabs/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -10464,9 +10425,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -12147,9 +12105,6 @@ exports[`chromium /components/tooltips/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem level="1">
-      <link>Adobe</link>
-    </listitem>
-    <listitem level="1">
       <link>Sketch</link>
     </listitem>
   </list>
@@ -13017,9 +12972,6 @@ exports[`chromium /components/tree-view/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -15377,10 +15329,6 @@ exports[`firefox /components/breadcrumbs 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem>
-      Adobe
-      <link>Adobe</link>
-    </listitem>
-    <listitem>
       Sketch
       <link>Sketch</link>
     </listitem>
@@ -15871,10 +15819,6 @@ exports[`firefox /components/button-group/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem>
-      Adobe
-      <link>Adobe</link>
-    </listitem>
-    <listitem>
       Sketch
       <link>Sketch</link>
     </listitem>
@@ -16281,10 +16225,6 @@ exports[`firefox /components/buttons/ 1`] = `
     <listitem>
       Figma
       <link>Figma</link>
-    </listitem>
-    <listitem>
-      Adobe
-      <link>Adobe</link>
     </listitem>
     <listitem>
       Sketch
@@ -17002,10 +16942,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem>
-      Adobe
-      <link>Adobe</link>
-    </listitem>
-    <listitem>
       Sketch
       <link>Sketch</link>
     </listitem>
@@ -17542,10 +17478,6 @@ exports[`firefox /components/dialogs/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem>
-      Adobe
-      <link>Adobe</link>
-    </listitem>
-    <listitem>
       Sketch
       <link>Sketch</link>
     </listitem>
@@ -18073,10 +18005,6 @@ exports[`firefox /components/pagination/ 1`] = `
     <listitem>
       Figma
       <link>Figma</link>
-    </listitem>
-    <listitem>
-      Adobe
-      <link>Adobe</link>
     </listitem>
     <listitem>
       Sketch
@@ -19661,10 +19589,6 @@ exports[`firefox /components/pickers 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem>
-      Adobe
-      <link>Adobe</link>
-    </listitem>
-    <listitem>
       Sketch
       <link>Sketch</link>
     </listitem>
@@ -19946,10 +19870,6 @@ exports[`firefox /components/radio-buttons 1`] = `
     <listitem>
       Figma
       <link>Figma</link>
-    </listitem>
-    <listitem>
-      Adobe
-      <link>Adobe</link>
     </listitem>
     <listitem>
       Sketch
@@ -20607,10 +20527,6 @@ exports[`firefox /components/rating/ 1`] = `
     <listitem>
       Figma
       <link>Figma</link>
-    </listitem>
-    <listitem>
-      Adobe
-      <link>Adobe</link>
     </listitem>
     <listitem>
       Sketch
@@ -21408,10 +21324,6 @@ exports[`firefox /components/selects/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem>
-      Adobe
-      <link>Adobe</link>
-    </listitem>
-    <listitem>
       Sketch
       <link>Sketch</link>
     </listitem>
@@ -22199,10 +22111,6 @@ exports[`firefox /components/slider 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem>
-      Adobe
-      <link>Adobe</link>
-    </listitem>
-    <listitem>
       Sketch
       <link>Sketch</link>
     </listitem>
@@ -22922,10 +22830,6 @@ exports[`firefox /components/switches/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem>
-      Adobe
-      <link>Adobe</link>
-    </listitem>
-    <listitem>
       Sketch
       <link>Sketch</link>
     </listitem>
@@ -23363,10 +23267,6 @@ exports[`firefox /components/tabs/ 1`] = `
     <listitem>
       Figma
       <link>Figma</link>
-    </listitem>
-    <listitem>
-      Adobe
-      <link>Adobe</link>
     </listitem>
     <listitem>
       Sketch
@@ -24414,10 +24314,6 @@ exports[`firefox /components/text-fields/ 1`] = `
     <listitem>
       Figma
       <link>Figma</link>
-    </listitem>
-    <listitem>
-      Adobe
-      <link>Adobe</link>
     </listitem>
     <listitem>
       Sketch
@@ -26185,10 +26081,6 @@ exports[`firefox /components/tooltips/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem>
-      Adobe
-      <link>Adobe</link>
-    </listitem>
-    <listitem>
       Sketch
       <link>Sketch</link>
     </listitem>
@@ -27044,10 +26936,6 @@ exports[`firefox /components/tree-view/ 1`] = `
     <listitem>
       Figma
       <link>Figma</link>
-    </listitem>
-    <listitem>
-      Adobe
-      <link>Adobe</link>
     </listitem>
     <listitem>
       Sketch
