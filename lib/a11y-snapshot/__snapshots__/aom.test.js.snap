@@ -257,7 +257,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.32. View versions page.</link>
+      <link>v5.0.0-alpha.31. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -9083,6 +9083,47 @@ exports[`chromium /components/switches/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
+    Variants
+    <text>Variants</text>
+  </heading>
+  <paragraph>
+    <text>If you need an contained switch, use the</text>
+    <code>$SOME_CODE</code>
+    <text>prop.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Switch demo</checkbox>
+  <checkbox checked="false">Switch demo</checkbox>
+  <checkbox checked="true" disabled="true">
+    Switch demo
+  </checkbox>
+  <checkbox checked="false" disabled="true">
+    Switch demo
+  </checkbox>
+  <checkbox checked="true">Switch demo</checkbox>
+  <checkbox checked="false">Switch demo</checkbox>
+  <checkbox checked="true" disabled="true">
+    Switch demo
+  </checkbox>
+  <checkbox checked="false" disabled="true">
+    Switch demo
+  </checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
     Label
     <text>Label</text>
   </heading>
@@ -13794,7 +13835,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.32. View versions page.</link>
+      <link>v5.0.0-alpha.31. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -22957,6 +22998,51 @@ exports[`firefox /components/switches/ 1`] = `
     <Switch {...label} defaultChecked /> <Switch
     {...label} /> <Switch {...label} disabled
     defaultChecked /> <Switch {...label} disabled />
+  </text>
+  <heading level="2">
+    Variants
+    <text>Variants</text>
+  </heading>
+  <paragraph>
+    <text>If you need an contained switch, use the variant prop.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Switch demo</checkbox>
+  <checkbox>Switch demo</checkbox>
+  <checkbox checked="true" disabled="true">
+    Switch demo
+  </checkbox>
+  <checkbox disabled="true">Switch demo</checkbox>
+  <checkbox checked="true">Switch demo</checkbox>
+  <checkbox>Switch demo</checkbox>
+  <checkbox checked="true" disabled="true">
+    Switch demo
+  </checkbox>
+  <checkbox disabled="true">Switch demo</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Switch {...label} defaultChecked variant="contained"
+    /> <Switch {...label} variant="contained" />
+    <Switch {...label} disabled defaultChecked
+    variant="contained" /> <Switch {...label} disabled
+    variant="contained" /> <Switch {...label}
+    defaultChecked size="small" variant="contained" />
+    <Switch {...label} size="small"
+    variant="contained" /> <Switch {...label} disabled
+    defaultChecked size="small" variant="contained" />
+    <Switch {...label} disabled size="small"
+    variant="contained" />
   </text>
   <heading level="2">
     Label
