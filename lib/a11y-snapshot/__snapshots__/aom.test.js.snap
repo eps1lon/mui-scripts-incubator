@@ -17132,7 +17132,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
   </toolbar>
   <text>
     <Checkbox {...label} defaultChecked /> <Checkbox
-    {...label} defaultChecked color="primary" />
+    {...label} defaultChecked color="secondary" />
     <Checkbox {...label} defaultChecked color="default"
     /> <Checkbox {...label} defaultChecked sx={{
     color: green[800], '&.Mui-checked': { color: green[600],
