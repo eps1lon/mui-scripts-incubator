@@ -17494,6 +17494,540 @@ exports[`firefox /components/dialogs/ 1`] = `
 <landmark>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
+    Checkbox
+    <text>Checkbox</text>
+  </heading>
+  <paragraph>
+    <text>
+      Checkboxes allow the user to select one or more items from a set.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>Checkboxes can be used to turn an option on or off.</text>
+  </paragraph>
+  <paragraph>
+    <text>
+      If you have multiple options appearing in a list, you can preserve space
+      by using checkboxes instead of on/off switches. If you have a single
+      option, avoid using a checkbox and use an on/off switch instead.
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      Feedback
+      <link>Feedback</link>
+    </listitem>
+    <listitem>
+      WAI-ARIA
+      <link>WAI-ARIA</link>
+    </listitem>
+    <listitem>
+      Scroll down to 'Exports Analysis' for a more detailed report.
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem>
+      Material Design
+      <link>Material Design</link>
+    </listitem>
+    <listitem>
+      Figma
+      <link>Figma</link>
+    </listitem>
+    <listitem>
+      Adobe
+      <link>Adobe</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Basic checkboxes
+    <text>Basic checkboxes</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Checkbox demo</checkbox>
+  <checkbox>Checkbox demo</checkbox>
+  <checkbox disabled="true">Checkbox demo</checkbox>
+  <checkbox checked="true" disabled="true">
+    Checkbox demo
+  </checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Checkbox {...label} defaultChecked /> <Checkbox
+    {...label} /> <Checkbox {...label} disabled />
+    <Checkbox {...label} disabled checked />
+  </text>
+  <heading level="2">
+    Label
+    <text>Label</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can provide a label to the Checkbox thanks to the FormControlLabel
+      component.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Label
+    <checkbox checked="true">Label</checkbox>
+    <text>Label</text>
+  </label>
+  <label>
+    Disabled
+    <checkbox disabled="true">Disabled</checkbox>
+    <text>Disabled</text>
+  </label>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <FormGroup> <FormControlLabel control={<Checkbox
+    defaultChecked />} label="Label" />
+    <FormControlLabel disabled control={<Checkbox />}
+    label="Disabled" /> </FormGroup>
+  </text>
+  <heading level="2">
+    Size
+    <text>Size</text>
+  </heading>
+  <paragraph>
+    <text>
+      Use the size prop or customize the font size of the svg icons to change
+      the size of the checkboxes.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Checkbox demo</checkbox>
+  <checkbox checked="true">Checkbox demo</checkbox>
+  <checkbox checked="true">Checkbox demo</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Checkbox {...label} defaultChecked size="small"
+    /> <Checkbox {...label} defaultChecked /> <Checkbox
+    {...label} defaultChecked sx={{ '&
+    .MuiSvgIcon-root': { fontSize: 28 } }} />
+  </text>
+  <heading level="2">
+    Color
+    <text>Color</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Checkbox demo</checkbox>
+  <checkbox checked="true">Checkbox demo</checkbox>
+  <checkbox checked="true">Checkbox demo</checkbox>
+  <checkbox checked="true">Checkbox demo</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Checkbox {...label} defaultChecked /> <Checkbox
+    {...label} defaultChecked color="primary" />
+    <Checkbox {...label} defaultChecked color="default"
+    /> <Checkbox {...label} defaultChecked sx={{
+    color: green[800], '&.Mui-checked': { color: green[600],
+    }, }} />
+  </text>
+  <heading level="2">
+    Icon
+    <text>Icon</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox>Checkbox demo</checkbox>
+  <checkbox>Checkbox demo</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Checkbox {...label} icon={<FavoriteBorder />}
+    checkedIcon={<Favorite />} /> <Checkbox
+    {...label} icon={<BookmarkBorderIcon />}
+    checkedIcon={<BookmarkIcon />} />
+  </text>
+  <heading level="2">
+    Controlled
+    <text>Controlled</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can control the checkbox with the checked and onChange props:
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">controlled</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Checkbox checked={checked} onChange={handleChange}
+    inputProps={{ 'aria-label': 'controlled'
+    }} />
+  </text>
+  <heading level="2">
+    Indeterminate
+    <text>Indeterminate</text>
+  </heading>
+  <paragraph>
+    <text>
+      A checkbox input can only have two states in a form: checked or unchecked.
+      It either submits its value or doesn't. Visually, there are three
+      states a checkbox can be in: checked, unchecked, or indeterminate.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Parent
+    <checkbox>Parent</checkbox>
+    <text>Parent</text>
+  </label>
+  <label>
+    Child 1<checkbox checked="true">Child 1</checkbox>
+    <text>Child 1</text>
+  </label>
+  <label>
+    Child 2<checkbox>Child 2</checkbox>
+    <text>Child 2</text>
+  </label>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <FormControlLabel label="Parent" control={ <Checkbox
+    checked={checked[0] && checked[1]}
+    indeterminate={checked[0] !== checked[1]}
+    onChange={handleChange1} /> } /> {children}
+  </text>
+  <blockquote>
+    <paragraph>
+      <text>
+        ⚠️ When indeterminate is set, the value of the checked prop only impacts
+        the form submitted values. It has no accessibility or UX implications.
+      </text>
+    </paragraph>
+  </blockquote>
+  <heading level="2">
+    FormGroup
+    <text>FormGroup</text>
+  </heading>
+  <paragraph>
+    <text>
+      FormGroup is a helpful wrapper used to group selection control components.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <group>
+    Assign responsibility
+    <label>
+      Assign responsibility
+      <text>Assign responsibility</text>
+    </label>
+    <label>
+      Gilad Gray
+      <checkbox checked="true">Gilad Gray</checkbox>
+      <text>Gilad Gray</text>
+    </label>
+    <label>
+      Jason Killian
+      <checkbox>Jason Killian</checkbox>
+      <text>Jason Killian</text>
+    </label>
+    <label>
+      Antoine Llorca
+      <checkbox>Antoine Llorca</checkbox>
+      <text>Antoine Llorca</text>
+    </label>
+    <paragraph>
+      <text>Be careful</text>
+    </paragraph>
+  </group>
+  <group>
+    Pick two
+    <label>
+      Pick two
+      <text>Pick two</text>
+    </label>
+    <label>
+      Gilad Gray
+      <checkbox checked="true">Gilad Gray</checkbox>
+      <text>Gilad Gray</text>
+    </label>
+    <label>
+      Jason Killian
+      <checkbox>Jason Killian</checkbox>
+      <text>Jason Killian</text>
+    </label>
+    <label>
+      Antoine Llorca
+      <checkbox>Antoine Llorca</checkbox>
+      <text>Antoine Llorca</text>
+    </label>
+    <paragraph>
+      <text>You can display an error</text>
+    </paragraph>
+  </group>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Label placement
+    <text>Label placement</text>
+  </heading>
+  <paragraph>
+    <text>You can change the placement of the label:</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <group>
+    Label placement
+    <label>
+      Label placement
+      <text>Label placement</text>
+    </label>
+    <label>
+      Top
+      <checkbox>Top</checkbox>
+      <text>Top</text>
+    </label>
+    <label>
+      Start
+      <checkbox>Start</checkbox>
+      <text>Start</text>
+    </label>
+    <label>
+      Bottom
+      <checkbox>Bottom</checkbox>
+      <text>Bottom</text>
+    </label>
+    <label>
+      End
+      <checkbox>End</checkbox>
+      <text>End</text>
+    </label>
+  </group>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Customized checkbox
+    <text>Customized checkbox</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here is an example of customizing the component. You can learn more about
+      this in the
+    </text>
+    <link>overrides documentation page</link>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox>Checkbox demo</checkbox>
+  <checkbox checked="true">Checkbox demo</checkbox>
+  <checkbox disabled="true">Checkbox demo</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <StyledCheckbox /> <StyledCheckbox defaultChecked />
+    <StyledCheckbox disabled />
+  </text>
+  <paragraph>
+    <text>🎨 If you are looking for inspiration, you can check</text>
+    <link>MUI Treasury's customization examples</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    When to use
+    <text>When to use</text>
+  </heading>
+  <list>
+    <listitem>
+      Checkboxes vs. Radio Buttons
+      <link>Checkboxes vs. Radio Buttons</link>
+    </listitem>
+    <listitem>
+      Checkboxes vs. Switches
+      <link>Checkboxes vs. Switches</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Accessibility
+    <text>Accessibility</text>
+  </heading>
+  <paragraph>
+    <text>(WAI-ARIA:</text>
+    <link>https://www.w3.org/TR/wai-aria-practices/#checkbox</link>
+    <text>)</text>
+  </paragraph>
+  <list>
+    <listitem>
+      All form controls should have labels, and this includes radio buttons,
+      checkboxes, and switches. In most cases, this is done by using the
+      <label> element ( FormControlLabel ).
+      <text>
+        All form controls should have labels, and this includes radio buttons,
+        checkboxes, and switches. In most cases, this is done by using the
+        <label> element (
+      </text>
+      <link>FormControlLabel</link>
+      <text>).</text>
+    </listitem>
+    <listitem>
+      When a label can't be used, it's necessary to add an attribute
+      directly to the input component. In this case, you can apply the
+      additional attribute (e.g. aria-label , aria-labelledby , title ) via the
+      inputProps prop.
+      <text>
+        When a label can't be used, it's necessary to add an attribute
+        directly to the input component. In this case, you can apply the
+        additional attribute (e.g. aria-label, aria-labelledby, title) via the
+        inputProps prop.
+      </text>
+    </listitem>
+  </list>
+  <text>
+    <Checkbox value="checkedA" inputProps={{
+    'aria-label': 'Checkbox A', }} />
+  </text>
+  <heading level="2">
+    API
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem>
+      <Checkbox />
+      <link><Checkbox /></link>
+    </listitem>
+    <listitem>
+      <FormControl />
+      <link><FormControl /></link>
+    </listitem>
+    <listitem>
+      <FormControlLabel />
+      <link><FormControlLabel /></link>
+    </listitem>
+    <listitem>
+      <FormGroup />
+      <link><FormGroup /></link>
+    </listitem>
+    <listitem>
+      <FormLabel />
+      <link><FormLabel /></link>
+    </listitem>
+  </list>
+  <separator></separator>
+  <link>Button Group</link>
+  <group>
+    Was this page helpful?
+    <text>Was this page helpful?</text>
+    <togglebutton>Yes</togglebutton>
+    <togglebutton>No</togglebutton>
+  </group>
+  <link>Floating Action Button</link>
+</landmark>;
+
+`;
+
+exports[`firefox /components/dialogs/ 2`] = `
+<landmark>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
     Dialog
     <text>Dialog</text>
   </heading>
