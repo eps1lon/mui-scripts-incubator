@@ -6,6 +6,8 @@ exports[`chromium /api/button/ 1`] = `Array []`;
 
 exports[`chromium /api/select/ 1`] = `Array []`;
 
+exports[`chromium /api/select/ 2`] = `Array []`;
+
 exports[`chromium /components/breadcrumbs 1`] = `
 Array [
   Object {
