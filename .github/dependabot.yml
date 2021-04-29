@@ -6,17 +6,3 @@ updates:
       interval: monthly
       time: "04:00"
     open-pull-requests-limit: 99
-    ignore:
-      - dependency-name: playwright
-        versions:
-          - 1.9.1
-      - dependency-name: axe-core
-        versions:
-          - 4.1.2
-      - dependency-name: "@babel/core"
-        versions:
-          - 7.13.8
-      - dependency-name: "@octokit/rest"
-        versions:
-          - 18.0.15
-          - 18.1.0
