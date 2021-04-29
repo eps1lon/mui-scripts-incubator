@@ -84,7 +84,26 @@ Array [
 ]
 `;
 
-exports[`chromium /components/switches/ 1`] = `Array []`;
+exports[`chromium /components/switches/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
+    "id": "aria-valid-attr-value",
+    "nodes": Array [
+      "input[aria-labelledby=\\"discrete-slider-small-steps\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
+    "id": "label",
+    "nodes": Array [
+      "input[value=\\"\\\\31 0\\"][aria-orientation=\\"horizontal\\"][aria-valuemax=\\"\\\\31 00\\"]",
+    ],
+  },
+]
+`;
+
+exports[`chromium /components/switches/ 2`] = `Array []`;
 
 exports[`chromium /components/tabs/ 1`] = `Array []`;
 
