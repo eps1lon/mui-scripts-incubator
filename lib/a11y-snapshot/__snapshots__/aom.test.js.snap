@@ -257,7 +257,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.32. View versions page.</link>
+      <link>v5.0.0-alpha.31. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -2264,9 +2264,6 @@ exports[`chromium /components/breadcrumbs 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem level="1">
-      <link>Adobe</link>
-    </listitem>
-    <listitem level="1">
       <link>Sketch</link>
     </listitem>
   </list>
@@ -2696,9 +2693,6 @@ exports[`chromium /components/button-group/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem level="1">
-      <link>Adobe</link>
-    </listitem>
-    <listitem level="1">
       <link>Sketch</link>
     </listitem>
   </list>
@@ -3089,9 +3083,6 @@ exports[`chromium /components/buttons/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -3489,7 +3480,7 @@ exports[`chromium /components/buttons/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      The loading buttons can show loading state and disable interactions.
+      The loading buttons can show pending state and disable interactions.
     </text>
   </paragraph>
   <button>
@@ -3532,7 +3523,7 @@ exports[`chromium /components/buttons/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="false">Loading</checkbox>
+  <checkbox checked="false">Pending</checkbox>
   <button>
     SUBMIT
     <text>SUBMIT</text>
@@ -3780,9 +3771,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -4254,9 +4242,6 @@ exports[`chromium /components/dialogs/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -4784,9 +4769,6 @@ exports[`chromium /components/pagination/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -5912,12 +5894,12 @@ exports[`chromium /components/pagination/ 1`] = `
     <code>$SOME_CODE</code>
   </heading>
   <paragraph>
-    <text>For advanced customization use cases, we expose a headless</text>
+    <text>For advanced customization use cases, a headless</text>
     <code>$SOME_CODE</code>
     <text>
-      hook. It accepts almost the same options as the Pagination component minus
-      all the props related to the rendering of JSX. The Pagination component
-      uses this hook internally.
+      hook is exposed. It accepts almost the same options as the Pagination
+      component minus all the props related to the rendering of JSX. The
+      Pagination component is built on this hook.
     </text>
   </paragraph>
   <Pre>
@@ -6156,9 +6138,6 @@ exports[`chromium /components/pickers 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -6445,9 +6424,6 @@ exports[`chromium /components/radio-buttons 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -6974,9 +6950,6 @@ exports[`chromium /components/rating/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem level="1">
-      <link>Adobe</link>
-    </listitem>
-    <listitem level="1">
       <link>Sketch</link>
     </listitem>
   </list>
@@ -7389,9 +7362,6 @@ exports[`chromium /components/selects/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -8122,9 +8092,6 @@ exports[`chromium /components/slider 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -9048,9 +9015,6 @@ exports[`chromium /components/switches/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem level="1">
-      <link>Adobe</link>
-    </listitem>
-    <listitem level="1">
       <link>Sketch</link>
     </listitem>
   </list>
@@ -9444,9 +9408,6 @@ exports[`chromium /components/tabs/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -10464,9 +10425,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -11746,6 +11704,172 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
+    useFormControl
+    <code>$SOME_CODE</code>
+  </heading>
+  <paragraph>
+    <text>For advanced customization use cases, a</text>
+    <code>$SOME_CODE</code>
+    <text>
+      hook is exposed. This hook returns the context value of the parent
+    </text>
+    <code>$SOME_CODE</code>
+    <text>component.</text>
+  </paragraph>
+  <paragraph>
+    <text>API</text>
+  </paragraph>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <paragraph>
+    <text>Returns</text>
+  </paragraph>
+  <paragraph>
+    <code>$SOME_CODE</code>
+    <text>(object):</text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>(bool): Indicate whether the child</text>
+      <code>$SOME_CODE</code>
+      <text>or</text>
+      <code>$SOME_CODE</code>
+      <text>component has a start adornment.</text>
+    </listitem>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>(func): Setter function for</text>
+      <code>$SOME_CODE</code>
+      <text>state value.</text>
+    </listitem>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>(string): The theme color is being used, inherited from</text>
+      <code>$SOME_CODE</code>
+      <code>$SOME_CODE</code>
+      <text>prop .</text>
+    </listitem>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>
+        (bool): Indicate whether the component is being displayed in a disabled
+        state, inherited from
+      </text>
+      <code>$SOME_CODE</code>
+      <code>$SOME_CODE</code>
+      <text>prop.</text>
+    </listitem>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>
+        (bool): Indicate whether the component is being displayed in an error
+        state, inherited from
+      </text>
+      <code>$SOME_CODE</code>
+      <code>$SOME_CODE</code>
+      <text>prop</text>
+    </listitem>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>(bool): Indicate whether input is filled</text>
+    </listitem>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>
+        (bool): Indicate whether the component and its children are being
+        displayed in a focused state
+      </text>
+    </listitem>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>
+        (bool): Indicate whether the component is taking up the full width of
+        its container, inherited from
+      </text>
+      <code>$SOME_CODE</code>
+      <code>$SOME_CODE</code>
+      <text>prop</text>
+    </listitem>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>
+        (bool): Indicate whether the label is being hidden, inherited from
+      </text>
+      <code>$SOME_CODE</code>
+      <code>$SOME_CODE</code>
+      <text>prop</text>
+    </listitem>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>
+        (bool): Indicate whether the label is indicating that the input is
+        required input, inherited from the
+      </text>
+      <code>$SOME_CODE</code>
+      <code>$SOME_CODE</code>
+      <text>prop</text>
+    </listitem>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>(string): The size of the component, inherited from the</text>
+      <code>$SOME_CODE</code>
+      <code>$SOME_CODE</code>
+      <text>prop</text>
+    </listitem>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>(string): The variant is being used by the</text>
+      <code>$SOME_CODE</code>
+      <text>component and its children, inherited from</text>
+      <code>$SOME_CODE</code>
+      <code>$SOME_CODE</code>
+      <text>prop</text>
+    </listitem>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>(func): Should be called when the input is blurred</text>
+    </listitem>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>(func): Should be called when the input is focused</text>
+    </listitem>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>(func): Should be called when the input is emptied</text>
+    </listitem>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>(func): Should be called when the input is filled</text>
+    </listitem>
+  </list>
+  <paragraph>
+    <text>Example</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <textbox>Please enter text</textbox>
+    <paragraph>
+      <text>Helper text</text>
+    </paragraph>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
     Limitations
     <text>Limitations</text>
   </heading>
@@ -12145,9 +12269,6 @@ exports[`chromium /components/tooltips/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>Figma</link>
-    </listitem>
-    <listitem level="1">
-      <link>Adobe</link>
     </listitem>
     <listitem level="1">
       <link>Sketch</link>
@@ -13019,9 +13140,6 @@ exports[`chromium /components/tree-view/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem level="1">
-      <link>Adobe</link>
-    </listitem>
-    <listitem level="1">
       <link>Sketch</link>
     </listitem>
   </list>
@@ -13794,7 +13912,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.32. View versions page.</link>
+      <link>v5.0.0-alpha.31. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -15377,10 +15495,6 @@ exports[`firefox /components/breadcrumbs 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem>
-      Adobe
-      <link>Adobe</link>
-    </listitem>
-    <listitem>
       Sketch
       <link>Sketch</link>
     </listitem>
@@ -15871,10 +15985,6 @@ exports[`firefox /components/button-group/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem>
-      Adobe
-      <link>Adobe</link>
-    </listitem>
-    <listitem>
       Sketch
       <link>Sketch</link>
     </listitem>
@@ -16281,10 +16391,6 @@ exports[`firefox /components/buttons/ 1`] = `
     <listitem>
       Figma
       <link>Figma</link>
-    </listitem>
-    <listitem>
-      Adobe
-      <link>Adobe</link>
     </listitem>
     <listitem>
       Sketch
@@ -16715,7 +16821,7 @@ exports[`firefox /components/buttons/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      The loading buttons can show loading state and disable interactions.
+      The loading buttons can show pending state and disable interactions.
     </text>
   </paragraph>
   <button>
@@ -16749,11 +16855,11 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <LoadingButton loading variant="outlined"> Submit
-    </LoadingButton> <LoadingButton loading
-    loadingIndicator="Loading..." variant="outlined">
-    Fetch data </LoadingButton> <LoadingButton loading
-    loadingPosition="start" startIcon={<SaveIcon />}
+    <LoadingButton pending variant="outlined"> Submit
+    </LoadingButton> <LoadingButton pending
+    pendingIndicator="Loading..." variant="outlined">
+    Fetch data </LoadingButton> <LoadingButton pending
+    pendingPosition="start" startIcon={<SaveIcon />}
     variant="outlined" > Save </LoadingButton>
   </text>
   <paragraph>
@@ -16766,9 +16872,9 @@ exports[`firefox /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <label>
-    Loading
-    <checkbox>Loading</checkbox>
-    <text>Loading</text>
+    Pending
+    <checkbox>Pending</checkbox>
+    <text>Pending</text>
   </label>
   <button>
     SUBMIT
@@ -17000,10 +17106,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <listitem>
       Figma
       <link>Figma</link>
-    </listitem>
-    <listitem>
-      Adobe
-      <link>Adobe</link>
     </listitem>
     <listitem>
       Sketch
@@ -17542,10 +17644,6 @@ exports[`firefox /components/dialogs/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem>
-      Adobe
-      <link>Adobe</link>
-    </listitem>
-    <listitem>
       Sketch
       <link>Sketch</link>
     </listitem>
@@ -18073,10 +18171,6 @@ exports[`firefox /components/pagination/ 1`] = `
     <listitem>
       Figma
       <link>Figma</link>
-    </listitem>
-    <listitem>
-      Adobe
-      <link>Adobe</link>
     </listitem>
     <listitem>
       Sketch
@@ -19411,10 +19505,10 @@ exports[`firefox /components/pagination/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      For advanced customization use cases, we expose a headless usePagination()
-      hook. It accepts almost the same options as the Pagination component minus
-      all the props related to the rendering of JSX. The Pagination component
-      uses this hook internally.
+      For advanced customization use cases, a headless usePagination() hook is
+      exposed. It accepts almost the same options as the Pagination component
+      minus all the props related to the rendering of JSX. The Pagination
+      component is built on this hook.
     </text>
   </paragraph>
   <text>
@@ -19659,10 +19753,6 @@ exports[`firefox /components/pickers 1`] = `
     <listitem>
       Figma
       <link>Figma</link>
-    </listitem>
-    <listitem>
-      Adobe
-      <link>Adobe</link>
     </listitem>
     <listitem>
       Sketch
@@ -19946,10 +20036,6 @@ exports[`firefox /components/radio-buttons 1`] = `
     <listitem>
       Figma
       <link>Figma</link>
-    </listitem>
-    <listitem>
-      Adobe
-      <link>Adobe</link>
     </listitem>
     <listitem>
       Sketch
@@ -20607,10 +20693,6 @@ exports[`firefox /components/rating/ 1`] = `
     <listitem>
       Figma
       <link>Figma</link>
-    </listitem>
-    <listitem>
-      Adobe
-      <link>Adobe</link>
     </listitem>
     <listitem>
       Sketch
@@ -21408,10 +21490,6 @@ exports[`firefox /components/selects/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem>
-      Adobe
-      <link>Adobe</link>
-    </listitem>
-    <listitem>
       Sketch
       <link>Sketch</link>
     </listitem>
@@ -22199,10 +22277,6 @@ exports[`firefox /components/slider 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem>
-      Adobe
-      <link>Adobe</link>
-    </listitem>
-    <listitem>
       Sketch
       <link>Sketch</link>
     </listitem>
@@ -22922,10 +22996,6 @@ exports[`firefox /components/switches/ 1`] = `
       <link>Figma</link>
     </listitem>
     <listitem>
-      Adobe
-      <link>Adobe</link>
-    </listitem>
-    <listitem>
       Sketch
       <link>Sketch</link>
     </listitem>
@@ -23363,10 +23433,6 @@ exports[`firefox /components/tabs/ 1`] = `
     <listitem>
       Figma
       <link>Figma</link>
-    </listitem>
-    <listitem>
-      Adobe
-      <link>Adobe</link>
     </listitem>
     <listitem>
       Sketch
@@ -24414,10 +24480,6 @@ exports[`firefox /components/text-fields/ 1`] = `
     <listitem>
       Figma
       <link>Figma</link>
-    </listitem>
-    <listitem>
-      Adobe
-      <link>Adobe</link>
     </listitem>
     <listitem>
       Sketch
@@ -25766,6 +25828,174 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
+    useFormControl
+    <text>useFormControl</text>
+  </heading>
+  <paragraph>
+    <text>
+      For advanced customization use cases, a useFormControl() hook is exposed.
+      This hook returns the context value of the parent FormControl component.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>API</text>
+  </paragraph>
+  <text>
+    import { useFormControl } from
+    '@material-ui/core/FormControl';
+  </text>
+  <paragraph>
+    <text>Returns</text>
+  </paragraph>
+  <paragraph>
+    <text>value (object):</text>
+  </paragraph>
+  <list>
+    <listitem>
+      value.adornedStart ( bool ): Indicate whether the child Input or Select
+      component has a start adornment.
+      <text>
+        value.adornedStart (bool): Indicate whether the child Input or Select
+        component has a start adornment.
+      </text>
+    </listitem>
+    <listitem>
+      value.setAdornedStart ( func ): Setter function for adornedStart state
+      value.
+      <text>
+        value.setAdornedStart (func): Setter function for adornedStart state
+        value.
+      </text>
+    </listitem>
+    <listitem>
+      value.color ( string ): The theme color is being used, inherited from
+      FormControl color prop .
+      <text>
+        value.color (string): The theme color is being used, inherited from
+        FormControl color prop .
+      </text>
+    </listitem>
+    <listitem>
+      value.disabled ( bool ): Indicate whether the component is being displayed
+      in a disabled state, inherited from FormControl disabled prop.
+      <text>
+        value.disabled (bool): Indicate whether the component is being displayed
+        in a disabled state, inherited from FormControl disabled prop.
+      </text>
+    </listitem>
+    <listitem>
+      value.error ( bool ): Indicate whether the component is being displayed in
+      an error state, inherited from FormControl error prop
+      <text>
+        value.error (bool): Indicate whether the component is being displayed in
+        an error state, inherited from FormControl error prop
+      </text>
+    </listitem>
+    <listitem>
+      value.filled ( bool ): Indicate whether input is filled
+      <text>value.filled (bool): Indicate whether input is filled</text>
+    </listitem>
+    <listitem>
+      value.focused ( bool ): Indicate whether the component and its children
+      are being displayed in a focused state
+      <text>
+        value.focused (bool): Indicate whether the component and its children
+        are being displayed in a focused state
+      </text>
+    </listitem>
+    <listitem>
+      value.fullWidth ( bool ): Indicate whether the component is taking up the
+      full width of its container, inherited from FormControl fullWidth prop
+      <text>
+        value.fullWidth (bool): Indicate whether the component is taking up the
+        full width of its container, inherited from FormControl fullWidth prop
+      </text>
+    </listitem>
+    <listitem>
+      value.hiddenLabel ( bool ): Indicate whether the label is being hidden,
+      inherited from FormControl hiddenLabel prop
+      <text>
+        value.hiddenLabel (bool): Indicate whether the label is being hidden,
+        inherited from FormControl hiddenLabel prop
+      </text>
+    </listitem>
+    <listitem>
+      value.required ( bool ): Indicate whether the label is indicating that the
+      input is required input, inherited from the FormControl required prop
+      <text>
+        value.required (bool): Indicate whether the label is indicating that the
+        input is required input, inherited from the FormControl required prop
+      </text>
+    </listitem>
+    <listitem>
+      value.size ( string ): The size of the component, inherited from the
+      FormControl size prop
+      <text>
+        value.size (string): The size of the component, inherited from the
+        FormControl size prop
+      </text>
+    </listitem>
+    <listitem>
+      value.variant ( string ): The variant is being used by the FormControl
+      component and its children, inherited from FormControl variant prop
+      <text>
+        value.variant (string): The variant is being used by the FormControl
+        component and its children, inherited from FormControl variant prop
+      </text>
+    </listitem>
+    <listitem>
+      value.onBlur ( func ): Should be called when the input is blurred
+      <text>
+        value.onBlur (func): Should be called when the input is blurred
+      </text>
+    </listitem>
+    <listitem>
+      value.onFocus ( func ): Should be called when the input is focused
+      <text>
+        value.onFocus (func): Should be called when the input is focused
+      </text>
+    </listitem>
+    <listitem>
+      value.onEmpty ( func ): Should be called when the input is emptied
+      <text>
+        value.onEmpty (func): Should be called when the input is emptied
+      </text>
+    </listitem>
+    <listitem>
+      value.onFilled ( func ): Should be called when the input is filled
+      <text>
+        value.onFilled (func): Should be called when the input is filled
+      </text>
+    </listitem>
+  </list>
+  <paragraph>
+    <text>Example</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <textbox>Please enter text</textbox>
+    <paragraph>
+      <text>Helper text</text>
+    </paragraph>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <FormControl sx={{ width: '25ch' }}>
+    <OutlinedInput placeholder="Please enter text" />
+    <MyFormHelperText /> </FormControl>
+  </text>
+  <heading level="2">
     Limitations
     <text>Limitations</text>
   </heading>
@@ -26183,10 +26413,6 @@ exports[`firefox /components/tooltips/ 1`] = `
     <listitem>
       Figma
       <link>Figma</link>
-    </listitem>
-    <listitem>
-      Adobe
-      <link>Adobe</link>
     </listitem>
     <listitem>
       Sketch
@@ -27044,10 +27270,6 @@ exports[`firefox /components/tree-view/ 1`] = `
     <listitem>
       Figma
       <link>Figma</link>
-    </listitem>
-    <listitem>
-      Adobe
-      <link>Adobe</link>
     </listitem>
     <listitem>
       Sketch
