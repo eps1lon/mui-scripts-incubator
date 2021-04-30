@@ -1665,24 +1665,6 @@ exports[`chromium /api/select/ 1`] = `
     </row>
     <row>
       <gridcell>
-        labelWidth
-        <text>labelWidth</text>
-      </gridcell>
-      <gridcell>
-        number
-        <text>number</text>
-      </gridcell>
-      <gridcell>
-        0<text>0</text>
-      </gridcell>
-      <gridcell>
-        See OutlinedInput#label
-        <text>See</text>
-        <link>OutlinedInput#label</link>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
         MenuProps
         <text>MenuProps</text>
       </gridcell>
@@ -15059,21 +15041,6 @@ exports[`firefox /api/select/ 1`] = `
           The ID of an element that acts as an additional label. The Select will
           be labelled by the additional label and the selected value.
         </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>labelWidth</text>
-      </cell>
-      <cell>
-        <text>number</text>
-      </cell>
-      <cell>
-        <text>0</text>
-      </cell>
-      <cell>
-        <text>See</text>
-        <link>OutlinedInput#label</link>
       </cell>
     </row>
     <row>
