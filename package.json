@@ -51,7 +51,7 @@
 		"@actions/core": "^1.2.7",
 		"@actions/github": "^4.0.0",
 		"eslint": "^7.21.0",
-		"eslint-plugin-react": "^7.22.0"
+		"eslint-plugin-react": "^7.23.2"
 	},
 	"resolutions": {
 		"**/minimist": "^1.2.1"
