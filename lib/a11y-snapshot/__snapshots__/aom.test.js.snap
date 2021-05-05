@@ -2071,6 +2071,22 @@ exports[`chromium /api/select/ 1`] = `
     </row>
     <row>
       <gridcell>
+        standard
+        <text>standard</text>
+      </gridcell>
+      <gridcell>
+        .MuiSelect-standard
+        <text>.MuiSelect-standard</text>
+      </gridcell>
+      <gridcell>
+        Styles applied to the select component if variant="standard".
+        <text>Styles applied to the select component if</text>
+        <code>$SOME_CODE</code>
+        <text>.</text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
         selectMenu
         <text>selectMenu</text>
       </gridcell>
@@ -2154,6 +2170,22 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the icon component if variant="outlined".
+        <text>Styles applied to the icon component if</text>
+        <code>$SOME_CODE</code>
+        <text>.</text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
+        iconStandard
+        <text>iconStandard</text>
+      </gridcell>
+      <gridcell>
+        .MuiSelect-iconStandard
+        <text>.MuiSelect-iconStandard</text>
+      </gridcell>
+      <gridcell>
+        Styles applied to the icon component if variant="standard".
         <text>Styles applied to the icon component if</text>
         <code>$SOME_CODE</code>
         <text>.</text>
@@ -15354,6 +15386,20 @@ exports[`firefox /api/select/ 1`] = `
     </row>
     <row>
       <cell>
+        <text>standard</text>
+      </cell>
+      <cell>
+        <text>.MuiSelect-standard</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the select component if
+          variant="standard".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
         <text>selectMenu</text>
       </cell>
       <cell>
@@ -15421,6 +15467,19 @@ exports[`firefox /api/select/ 1`] = `
       <cell>
         <text>
           Styles applied to the icon component if variant="outlined".
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>iconStandard</text>
+      </cell>
+      <cell>
+        <text>.MuiSelect-iconStandard</text>
+      </cell>
+      <cell>
+        <text>
+          Styles applied to the icon component if variant="standard".
         </text>
       </cell>
     </row>
