@@ -2303,7 +2303,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
       <listitem level="1">
         <paragraph>
-          <text>Breadcrumb</text>
+          <text>Breadcrumbs</text>
         </paragraph>
       </listitem>
     </list>
@@ -2341,22 +2341,19 @@ exports[`chromium /components/breadcrumbs 1`] = `
         <link>Core</link>
       </listitem>
       <listitem level="1">
-        <link>Breadcrumb</link>
+        <link>Breadcrumbs</link>
       </listitem>
     </list>
   </navigation>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Custom separator
     <text>Custom separator</text>
@@ -15597,9 +15594,9 @@ exports[`firefox /components/breadcrumbs 1`] = `
         <link>Core</link>
       </listitem>
       <listitem>
-        Breadcrumb
+        Breadcrumbs
         <paragraph>
-          <text>Breadcrumb</text>
+          <text>Breadcrumbs</text>
         </paragraph>
       </listitem>
     </list>
@@ -15615,11 +15612,11 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </toolbar>
   <text>
     <Breadcrumbs aria-label="breadcrumb"> <Link
-    color="inherit" href="/"> Material-UI </Link>
-    <Link color="inherit"
-    href="/getting-started/installation/"> Core </Link>
-    <Typography
-    color="text.primary">Breadcrumb</Typography>
+    underline="hover" color="inherit" href="/">
+    Material-UI </Link> <Link underline="hover"
+    color="inherit" href="/getting-started/installation/"
+    > Core </Link> <Typography
+    color="text.primary">Breadcrumbs</Typography>
     </Breadcrumbs>
   </text>
   <heading level="2">
@@ -15645,29 +15642,20 @@ exports[`firefox /components/breadcrumbs 1`] = `
         <link>Core</link>
       </listitem>
       <listitem>
-        Breadcrumb
-        <link>Breadcrumb</link>
+        Breadcrumbs
+        <link>Breadcrumbs</link>
       </listitem>
     </list>
   </landmark>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Breadcrumbs aria-label="breadcrumb"> <Link
-    color="inherit" href="/"> Material-UI </Link>
-    <Link color="inherit"
-    href="/getting-started/installation/"> Core </Link>
-    <Link color="text.primary"
-    href="/components/breadcrumbs/" aria-current="page" >
-    Breadcrumb </Link> </Breadcrumbs>
-  </text>
   <heading level="2">
     Custom separator
     <text>Custom separator</text>
@@ -15829,10 +15817,12 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </toolbar>
   <text>
     <Breadcrumbs maxItems={2} aria-label="breadcrumb">
-    <Link color="inherit" href="#"> Home </Link>
-    <Link color="inherit" href="#"> Catalog
-    </Link> <Link color="inherit" href="#">
-    Accessories </Link> <Link color="inherit"
+    <Link underline="hover" color="inherit"
+    href="#"> Home </Link> <Link
+    underline="hover" color="inherit" href="#">
+    Catalog </Link> <Link underline="hover"
+    color="inherit" href="#"> Accessories </Link>
+    <Link underline="hover" color="inherit"
     href="#"> New Collection </Link> <Typography
     color="text.primary">Belts</Typography>
     </Breadcrumbs>
