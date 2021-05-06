@@ -13226,13 +13226,16 @@ exports[`chromium /components/tree-view/ 1`] = `
   </tree>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Multi-selection
     <text>Multi-selection</text>
@@ -27435,13 +27438,26 @@ exports[`firefox /components/tree-view/ 1`] = `
   </tree>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <TreeView aria-label="file system navigator"
+    defaultCollapseIcon={<ExpandMoreIcon />}
+    defaultExpandIcon={<ChevronRightIcon />} sx={{
+    height: 240, flexGrow: 1, maxWidth: 400 }} > <TreeItem
+    nodeId="1" label="Applications"> <TreeItem
+    nodeId="2" label="Calendar" /> </TreeItem>
+    <TreeItem nodeId="5" label="Documents">
+    <TreeItem nodeId="10" label="OSS" /> <TreeItem
+    nodeId="6" label="Material-UI"> <TreeItem
+    nodeId="8" label="index.js" /> </TreeItem>
+    </TreeItem> </TreeView>
+  </text>
   <heading level="2">
     Multi-selection
     <text>Multi-selection</text>
