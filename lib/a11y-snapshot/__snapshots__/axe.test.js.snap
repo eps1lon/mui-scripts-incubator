@@ -9,7 +9,7 @@ exports[`chromium /api/select/ 1`] = `Array []`;
 exports[`chromium /components/breadcrumbs 1`] = `
 Array [
   Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
     "nodes": Array [
       "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > div[role=\\"presentation\\"] > .MuiBreadcrumbs-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiTypography-root-MuiBreadcrumbs-root[aria-label=\\"breadcrumb\\"]",
@@ -23,7 +23,7 @@ exports[`chromium /components/button-group/ 1`] = `Array []`;
 exports[`chromium /components/buttons/ 1`] = `
 Array [
   Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-progressbar-name?application=axeAPI",
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-progressbar-name?application=axeAPI",
     "id": "aria-progressbar-name",
     "nodes": Array [
       ".MuiLoadingButton-loadingIndicatorCenter.MuiLoadingButton-loadingIndicator > .MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorInherit",
@@ -31,7 +31,7 @@ Array [
     ],
   },
   Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/button-name?application=axeAPI",
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
     "id": "button-name",
     "nodes": Array [
       ".MuiLoadingButton-loading.Mui-disabled.MuiLoadingButton-root:nth-child(1)",
@@ -48,7 +48,7 @@ exports[`chromium /components/dialogs/ 1`] = `Array []`;
 exports[`chromium /components/pagination/ 1`] = `
 Array [
   Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/landmark-unique?application=axeAPI",
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
     "nodes": Array [
       "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .css-REMOVED_UNSTABLE_EMOTION_HASH-Stack-root > .MuiPagination-text.MuiPagination-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiPagination-root:nth-child(1)",
@@ -68,14 +68,14 @@ exports[`chromium /components/selects/ 1`] = `Array []`;
 exports[`chromium /components/slider 1`] = `
 Array [
   Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/aria-valid-attr-value?application=axeAPI",
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-valid-attr-value?application=axeAPI",
     "id": "aria-valid-attr-value",
     "nodes": Array [
       "input[aria-labelledby=\\"discrete-slider-small-steps\\"]",
     ],
   },
   Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.1/label?application=axeAPI",
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/label?application=axeAPI",
     "id": "label",
     "nodes": Array [
       "input[value=\\"\\\\31 0\\"][aria-orientation=\\"horizontal\\"][aria-valuemax=\\"\\\\31 00\\"]",
@@ -94,4 +94,23 @@ exports[`chromium /components/tooltips/ 1`] = `Array []`;
 
 exports[`chromium /components/transfer-list 1`] = `Array []`;
 
-exports[`chromium /components/tree-view/ 1`] = `Array []`;
+exports[`chromium /components/tree-view/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-required-parent?application=axeAPI",
+    "id": "aria-required-parent",
+    "nodes": Array [
+      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
+      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
+      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
+      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
+      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
+      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
+      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
+      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
+      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
+      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
+    ],
+  },
+]
+`;
