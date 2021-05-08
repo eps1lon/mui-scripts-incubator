@@ -20413,7 +20413,7 @@ exports[`firefox /components/radio-buttons 1`] = `
   </toolbar>
   <text>
     <Radio {...controlProps('a')} /> <Radio
-    {...controlProps('b')} color="primary" />
+    {...controlProps('b')} color="secondary" />
     <Radio {...controlProps('c')}
     color="default" /> <Radio
     {...controlProps('d')} sx={{ color:
