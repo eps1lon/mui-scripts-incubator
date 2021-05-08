@@ -23240,7 +23240,7 @@ exports[`firefox /components/switches/ 1`] = `
   </toolbar>
   <text>
     <Switch {...label} defaultChecked /> <Switch
-    {...label} defaultChecked color="primary" />
+    {...label} defaultChecked color="secondary" />
     <Switch {...label} defaultChecked color="default"
     /> <GreenSwitch {...label} defaultChecked />
   </text>
