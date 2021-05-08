@@ -1,6 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`chromium / 1`] = `Array []`;
+exports[`chromium / 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-roles?application=axeAPI",
+    "id": "aria-roles",
+    "nodes": Array [
+      ".nprogress-bar",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/dlitem?application=axeAPI",
+    "id": "dlitem",
+    "nodes": Array [
+      "dt",
+      "dd",
+    ],
+  },
+]
+`;
 
 exports[`chromium /api/button/ 1`] = `Array []`;
 
