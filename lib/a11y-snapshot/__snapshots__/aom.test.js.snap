@@ -263,6 +263,7 @@ exports[`chromium / 1`] = `
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <alert></alert>
 </WebArea>;
 
 `;
@@ -13982,6 +13983,9 @@ exports[`firefox / 1`] = `
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <text>
+    <alert></alert>
+  </text>
 </document>;
 
 `;
