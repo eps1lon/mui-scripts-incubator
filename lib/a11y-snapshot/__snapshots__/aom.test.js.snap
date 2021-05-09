@@ -257,12 +257,13 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.32. View versions page.</link>
+      <link>v5.0.0-alpha.33. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <alert></alert>
 </WebArea>;
 
 `;
@@ -13976,12 +13977,15 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.32. View versions page.</link>
+      <link>v5.0.0-alpha.33. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <text>
+    <alert></alert>
+  </text>
 </document>;
 
 `;
