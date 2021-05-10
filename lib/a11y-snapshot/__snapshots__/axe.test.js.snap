@@ -2,9 +2,45 @@
 
 exports[`chromium / 1`] = `Array []`;
 
-exports[`chromium /api/button/ 1`] = `Array []`;
+exports[`chromium /api/button/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-roles?application=axeAPI",
+    "id": "aria-roles",
+    "nodes": Array [
+      ".nprogress-bar",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/dlitem?application=axeAPI",
+    "id": "dlitem",
+    "nodes": Array [
+      "dt",
+      "dd",
+    ],
+  },
+]
+`;
 
-exports[`chromium /api/select/ 1`] = `Array []`;
+exports[`chromium /api/select/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-roles?application=axeAPI",
+    "id": "aria-roles",
+    "nodes": Array [
+      ".nprogress-bar",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/dlitem?application=axeAPI",
+    "id": "dlitem",
+    "nodes": Array [
+      "dt",
+      "dd",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/breadcrumbs 1`] = `
 Array [
@@ -31,11 +67,26 @@ Array [
     ],
   },
   Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-roles?application=axeAPI",
+    "id": "aria-roles",
+    "nodes": Array [
+      ".nprogress-bar",
+    ],
+  },
+  Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
     "id": "button-name",
     "nodes": Array [
       ".MuiLoadingButton-loading.Mui-disabled.MuiLoadingButton-root:nth-child(1)",
       ".MuiLoadingButton-loading.Mui-disabled.MuiLoadingButton-root:nth-child(2)",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/dlitem?application=axeAPI",
+    "id": "dlitem",
+    "nodes": Array [
+      "dt",
+      "dd",
     ],
   },
 ]
@@ -57,7 +108,25 @@ Array [
 ]
 `;
 
-exports[`chromium /components/pickers 1`] = `Array []`;
+exports[`chromium /components/pickers 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-roles?application=axeAPI",
+    "id": "aria-roles",
+    "nodes": Array [
+      ".nprogress-bar",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/dlitem?application=axeAPI",
+    "id": "dlitem",
+    "nodes": Array [
+      "dt",
+      "dd",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/radio-buttons 1`] = `Array []`;
 
@@ -84,7 +153,25 @@ Array [
 ]
 `;
 
-exports[`chromium /components/switches/ 1`] = `Array []`;
+exports[`chromium /components/switches/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-roles?application=axeAPI",
+    "id": "aria-roles",
+    "nodes": Array [
+      ".nprogress-bar",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/dlitem?application=axeAPI",
+    "id": "dlitem",
+    "nodes": Array [
+      "dt",
+      "dd",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/tabs/ 1`] = `Array []`;
 
