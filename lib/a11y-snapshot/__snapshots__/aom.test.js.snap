@@ -263,6 +263,7 @@ exports[`chromium / 1`] = `
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <alert></alert>
 </WebArea>;
 
 `;
@@ -2232,6 +2233,9 @@ exports[`chromium /api/select/ 1`] = `
   </heading>
   <list>
     <listitem level="1">
+      <link>Select Fields</link>
+    </listitem>
+    <listitem level="1">
       <link>Selects</link>
     </listitem>
   </list>
@@ -2244,7 +2248,7 @@ exports[`chromium /api/select/ 1`] = `
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Skeleton</link>
+    <link>SelectField</link>
   </FooterAsNonLandmark>
 </main>;
 
@@ -8087,7 +8091,7 @@ exports[`chromium /components/selects/ 1`] = `
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Slider</link>
+    <link>Select Field</link>
   </FooterAsNonLandmark>
 </main>;
 
@@ -9016,7 +9020,7 @@ exports[`chromium /components/slider 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Select</link>
+    <link>Select Field</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
@@ -13982,6 +13986,9 @@ exports[`firefox / 1`] = `
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <text>
+    <alert></alert>
+  </text>
 </document>;
 
 `;
@@ -15522,6 +15529,10 @@ exports[`firefox /api/select/ 1`] = `
   </heading>
   <list>
     <listitem>
+      Select Fields
+      <link>Select Fields</link>
+    </listitem>
+    <listitem>
       Selects
       <link>Selects</link>
     </listitem>
@@ -15534,7 +15545,7 @@ exports[`firefox /api/select/ 1`] = `
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Skeleton</link>
+  <link>SelectField</link>
 </landmark>;
 
 `;
@@ -22336,7 +22347,7 @@ exports[`firefox /components/selects/ 1`] = `
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Slider</link>
+  <link>Select Field</link>
 </landmark>;
 
 `;
@@ -23067,7 +23078,7 @@ exports[`firefox /components/slider 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Select</link>
+  <link>Select Field</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
