@@ -9262,8 +9262,6 @@ exports[`chromium /components/switches/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Material-UI switch</checkbox>
-  <checkbox checked="true">Android 12</checkbox>
   <checkbox checked="true">iOS style</checkbox>
   <paragraph>
     <text>Off</text>
@@ -9274,13 +9272,16 @@ exports[`chromium /components/switches/ 1`] = `
   </paragraph>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -13225,16 +13226,13 @@ exports[`chromium /components/tree-view/ 1`] = `
   </tree>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Multi-selection
     <text>Multi-selection</text>
@@ -23339,16 +23337,6 @@ exports[`firefox /components/switches/ 1`] = `
     navigation of our components.
   </button>
   <label>
-    Material-UI switch
-    <checkbox checked="true">Material-UI switch</checkbox>
-    <text>Material-UI switch</text>
-  </label>
-  <label>
-    Android 12
-    <checkbox checked="true">Android 12</checkbox>
-    <text>Android 12</text>
-  </label>
-  <label>
     iOS style
     <checkbox checked="true">iOS style</checkbox>
     <text>iOS style</text>
@@ -23362,13 +23350,22 @@ exports[`firefox /components/switches/ 1`] = `
   </paragraph>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <FormGroup> <FormControlLabel control={<IOSSwitch
+    defaultChecked />} label="iOS style" /> <Stack
+    direction="row" spacing={1}
+    alignItems="center"> <Typography>Off</Typography>
+    <AntSwitch defaultChecked inputProps={{ 'aria-label':
+    'ant design' }} />
+    <Typography>On</Typography> </Stack> </FormGroup>
+  </text>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -26852,13 +26849,15 @@ exports[`firefox /components/tooltips/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Tooltip title={longText}> <Button sx={{ m: 1
-    }}>Default Width [300px]</Button> </Tooltip>
-    <CustomWidthTooltip title={longText}> <Button
-    sx={{ m: 1 }}>Custom Width [500px]</Button>
-    </CustomWidthTooltip> <NoMaxWidthTooltip
-    title={longText}> <Button sx={{ m: 1
-    }}>No wrapping</Button> </NoMaxWidthTooltip>
+    <Tooltip title={longText}> <Button
+    className={classes.button}>Default Width [300px]</Button>
+    </Tooltip> <Tooltip title={longText} classes={{
+    tooltip: classes.customWidth }}> <Button
+    className={classes.button}>Custom Width [500px]</Button>
+    </Tooltip> <Tooltip title={longText} classes={{
+    tooltip: classes.noMaxWidth }}> <Button
+    className={classes.button}>No wrapping</Button>
+    </Tooltip>
   </text>
   <heading level="2">
     Interactive
@@ -27436,26 +27435,13 @@ exports[`firefox /components/tree-view/ 1`] = `
   </tree>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <TreeView aria-label="file system navigator"
-    defaultCollapseIcon={<ExpandMoreIcon />}
-    defaultExpandIcon={<ChevronRightIcon />} sx={{
-    height: 240, flexGrow: 1, maxWidth: 400 }} > <TreeItem
-    nodeId="1" label="Applications"> <TreeItem
-    nodeId="2" label="Calendar" /> </TreeItem>
-    <TreeItem nodeId="5" label="Documents">
-    <TreeItem nodeId="10" label="OSS" /> <TreeItem
-    nodeId="6" label="Material-UI"> <TreeItem
-    nodeId="8" label="index.js" /> </TreeItem>
-    </TreeItem> </TreeView>
-  </text>
   <heading level="2">
     Multi-selection
     <text>Multi-selection</text>
