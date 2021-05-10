@@ -257,12 +257,13 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.32. View versions page.</link>
+      <link>v5.0.0-alpha.33. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <alert></alert>
 </WebArea>;
 
 `;
@@ -13976,12 +13977,15 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.32. View versions page.</link>
+      <link>v5.0.0-alpha.33. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <text>
+    <alert></alert>
+  </text>
 </document>;
 
 `;
@@ -23240,7 +23244,7 @@ exports[`firefox /components/switches/ 1`] = `
   </toolbar>
   <text>
     <Switch {...label} defaultChecked /> <Switch
-    {...label} defaultChecked color="primary" />
+    {...label} defaultChecked color="secondary" />
     <Switch {...label} defaultChecked color="default"
     /> <GreenSwitch {...label} defaultChecked />
   </text>
@@ -27447,11 +27451,12 @@ exports[`firefox /components/tree-view/ 1`] = `
     <TreeView aria-label="file system navigator"
     defaultCollapseIcon={<ExpandMoreIcon />}
     defaultExpandIcon={<ChevronRightIcon />} sx={{
-    height: 240, flexGrow: 1, maxWidth: 400 }} > <TreeItem
-    nodeId="1" label="Applications"> <TreeItem
-    nodeId="2" label="Calendar" /> </TreeItem>
-    <TreeItem nodeId="5" label="Documents">
-    <TreeItem nodeId="10" label="OSS" /> <TreeItem
+    height: 240, flexGrow: 1, maxWidth: 400, overflowY: 'auto'
+    }} > <TreeItem nodeId="1"
+    label="Applications"> <TreeItem nodeId="2"
+    label="Calendar" /> </TreeItem> <TreeItem
+    nodeId="5" label="Documents"> <TreeItem
+    nodeId="10" label="OSS" /> <TreeItem
     nodeId="6" label="Material-UI"> <TreeItem
     nodeId="8" label="index.js" /> </TreeItem>
     </TreeItem> </TreeView>
