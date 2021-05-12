@@ -2019,8 +2019,8 @@ exports[`chromium /api/select/ 1`] = `
         <text>.MuiSelect-root</text>
       </gridcell>
       <gridcell>
-        Styles applied to the select component \`root\` class.
-        <text>Styles applied to the select component \`root\` class.</text>
+        Styles applied to the root element.
+        <text>Styles applied to the root element.</text>
       </gridcell>
     </row>
     <row>
@@ -2083,20 +2083,6 @@ exports[`chromium /api/select/ 1`] = `
         <text>Styles applied to the select component if</text>
         <code>$SOME_CODE</code>
         <text>.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        selectMenu
-        <text>selectMenu</text>
-      </gridcell>
-      <gridcell>
-        .MuiSelect-selectMenu
-        <text>.MuiSelect-selectMenu</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the select component \`selectMenu\` class.
-        <text>Styles applied to the select component \`selectMenu\` class.</text>
       </gridcell>
     </row>
     <row>
@@ -15345,7 +15331,7 @@ exports[`firefox /api/select/ 1`] = `
         <text>.MuiSelect-root</text>
       </cell>
       <cell>
-        <text>Styles applied to the select component \`root\` class.</text>
+        <text>Styles applied to the root element.</text>
       </cell>
     </row>
     <row>
@@ -15398,17 +15384,6 @@ exports[`firefox /api/select/ 1`] = `
           Styles applied to the select component if
           variant="standard".
         </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>selectMenu</text>
-      </cell>
-      <cell>
-        <text>.MuiSelect-selectMenu</text>
-      </cell>
-      <cell>
-        <text>Styles applied to the select component \`selectMenu\` class.</text>
       </cell>
     </row>
     <row>
