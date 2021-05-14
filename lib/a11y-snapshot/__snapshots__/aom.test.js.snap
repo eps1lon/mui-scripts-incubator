@@ -6338,7 +6338,7 @@ exports[`chromium /components/pickers 1`] = `
         Year
         <text>2017</text>
       </spinbutton>
-      <text>,</text>
+      <text></text>
       <spinbutton value="10" valuemax="12" valuemin="1" valuetext="10">
         Hours
         <text>10</text>
@@ -19947,10 +19947,14 @@ exports[`firefox /components/pickers 1`] = `
     Time picker
     <text>Time picker</text>
   </label>
-  <textbox readonly="true" value="09:11 pm">
-    Choose time, selected time is 9:11 PM
+  <textbox value="09:11 pm">
+    hh:mm (a|p)m
     <text>09:11 pm</text>
   </textbox>
+  <button>Choose time, selected time is 9:11 PM</button>
+  <paragraph>
+    <text>hh:mm (a|p)m</text>
+  </paragraph>
   <toolbar>
     demo source
     <button>Show the source</button>
