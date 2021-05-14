@@ -257,12 +257,13 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.32. View versions page.</link>
+      <link>v5.0.0-alpha.33. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <alert></alert>
 </WebArea>;
 
 `;
@@ -2019,8 +2020,8 @@ exports[`chromium /api/select/ 1`] = `
         <text>.MuiSelect-root</text>
       </gridcell>
       <gridcell>
-        Styles applied to the select component \`root\` class.
-        <text>Styles applied to the select component \`root\` class.</text>
+        Styles applied to the root element.
+        <text>Styles applied to the root element.</text>
       </gridcell>
     </row>
     <row>
@@ -2083,20 +2084,6 @@ exports[`chromium /api/select/ 1`] = `
         <text>Styles applied to the select component if</text>
         <code>$SOME_CODE</code>
         <text>.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        selectMenu
-        <text>selectMenu</text>
-      </gridcell>
-      <gridcell>
-        .MuiSelect-selectMenu
-        <text>.MuiSelect-selectMenu</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the select component \`selectMenu\` class.
-        <text>Styles applied to the select component \`selectMenu\` class.</text>
       </gridcell>
     </row>
     <row>
@@ -3112,6 +3099,82 @@ exports[`chromium /components/buttons/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
+    Basic Button
+    <text>Basic Button</text>
+  </heading>
+  <paragraph>
+    <text>The</text>
+    <code>$SOME_CODE</code>
+    <text>
+      comes with three variants: text (default), contained, and outlined.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    TEXT
+    <text>TEXT</text>
+  </button>
+  <button>
+    CONTAINED
+    <text>CONTAINED</text>
+  </button>
+  <button>
+    OUTLINED
+    <text>OUTLINED</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="3">
+    Text buttons
+    <text>Text buttons</text>
+  </heading>
+  <paragraph>
+    <link>Text buttons</link>
+    <text>
+      are typically used for less-pronounced actions, including those located:
+      in dialogs, in cards. In cards, text buttons help maintain an emphasis on
+      card content.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    PRIMARY
+    <text>PRIMARY</text>
+  </button>
+  <button disabled="true">
+    DISABLED
+    <text>DISABLED</text>
+  </button>
+  <link>LINK</link>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="3">
     Contained buttons
     <text>Contained buttons</text>
   </heading>
@@ -3127,12 +3190,8 @@ exports[`chromium /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    PRIMARY
-    <text>PRIMARY</text>
-  </button>
-  <button>
-    SECONDARY
-    <text>SECONDARY</text>
+    CONTAINED
+    <text>CONTAINED</text>
   </button>
   <button disabled="true">
     DISABLED
@@ -3176,59 +3235,7 @@ exports[`chromium /components/buttons/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
-  <heading level="2">
-    Text buttons
-    <text>Text buttons</text>
-  </heading>
-  <paragraph>
-    <link>Text buttons</link>
-    <text>
-      are typically used for less-pronounced actions, including those located:
-    </text>
-  </paragraph>
-  <list>
-    <listitem level="1">
-      <text>In dialogs</text>
-    </listitem>
-    <listitem level="1">
-      <text>In cards</text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>
-      In cards, text buttons help maintain an emphasis on card content.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    PRIMARY
-    <text>PRIMARY</text>
-  </button>
-  <button>
-    SECONDARY
-    <text>SECONDARY</text>
-  </button>
-  <button disabled="true">
-    DISABLED
-    <text>DISABLED</text>
-  </button>
-  <link>LINK</link>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
+  <heading level="3">
     Outlined buttons
     <text>Outlined buttons</text>
   </heading>
@@ -3252,10 +3259,6 @@ exports[`chromium /components/buttons/ 1`] = `
   <button>
     PRIMARY
     <text>PRIMARY</text>
-  </button>
-  <button>
-    SECONDARY
-    <text>SECONDARY</text>
   </button>
   <button disabled="true">
     DISABLED
@@ -3295,22 +3298,25 @@ exports[`chromium /components/buttons/ 1`] = `
     </text>
   </paragraph>
   <heading level="2">
-    Upload button
-    <text>Upload button</text>
+    Color
+    <text>Color</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
-    <button>
-      UPLOAD
-      <text>UPLOAD</text>
-    </button>
-  </Label>
-  <Label>
-    <button>upload picture</button>
-  </Label>
+  <button>
+    SECONDARY
+    <text>SECONDARY</text>
+  </button>
+  <button>
+    SECONDARY
+    <text>SECONDARY</text>
+  </button>
+  <button>
+    SECONDARY
+    <text>SECONDARY</text>
+  </button>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -3323,6 +3329,14 @@ exports[`chromium /components/buttons/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
+  <paragraph>
+    <text>
+      In addition to using the default button colors, you can add custom ones,
+      or disable any you don't need. See the
+    </text>
+    <link>Adding new colors</link>
+    <text>example for more info.</text>
+  </paragraph>
   <heading level="2">
     Sizes
     <text>Sizes</text>
@@ -3385,6 +3399,35 @@ exports[`chromium /components/buttons/ 1`] = `
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <heading level="2">
+    Upload button
+    <text>Upload button</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Label>
+    <button>
+      UPLOAD
+      <text>UPLOAD</text>
+    </button>
+  </Label>
+  <Label>
+    <button>upload picture</button>
+  </Label>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Buttons with icons and label
     <text>Buttons with icons and label</text>
@@ -3474,10 +3517,6 @@ exports[`chromium /components/buttons/ 1`] = `
   <button>
     CUSTOM CSS
     <text>CUSTOM CSS</text>
-  </button>
-  <button>
-    THEME PROVIDER
-    <text>THEME PROVIDER</text>
   </button>
   <button>
     Bootstrap
@@ -3618,28 +3657,14 @@ exports[`chromium /components/buttons/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      One common use case is to use the button to trigger navigation to a new
-      page. The
+      One frequent use case is to perform navigation on the client only, without
+      an HTTP round-trip to the server. The
     </text>
     <code>$SOME_CODE</code>
     <text>component provides the</text>
     <code>$SOME_CODE</code>
-    <text>
-      prop to handle this use case. However, for certain focus polyfills
-    </text>
-    <code>$SOME_CODE</code>
-    <text>
-      requires the DOM node of the provided component. This is achieved by
-      attaching a ref to the component and expecting that the component forwards
-      this ref to the underlying DOM node. Given that many of the interactive
-      components rely on
-    </text>
-    <code>$SOME_CODE</code>
-    <text>, you should be able to take advantage of it everywhere.</text>
-  </paragraph>
-  <paragraph>
-    <text>Here is an</text>
-    <link>integration example with react-router</link>
+    <text>prop to handle this use case. Here is a</text>
+    <link>more detailed guide</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -6189,19 +6214,17 @@ exports[`chromium /components/pickers 1`] = `
   <Label>
     <text>Date picker desktop</text>
   </Label>
-  <text> </text>
-  <textbox description="mm/dd/yyyy" value="08/18/2014">
-    Date picker desktop
+  <textbox value="08/18/2014">
+    mm/dd/yyyy
     <text>08/18/2014</text>
   </textbox>
-  <button>change date</button>
+  <button>Choose date, selected date is Aug 18, 2014</button>
   <paragraph>
     <text>mm/dd/yyyy</text>
   </paragraph>
   <Label>
     <text>Date picker mobile</text>
   </Label>
-  <text> </text>
   <textbox readonly="true" value="08/18/2014">
     Choose date, selected date is Aug 18, 2014
     <text>08/18/2014</text>
@@ -6209,12 +6232,11 @@ exports[`chromium /components/pickers 1`] = `
   <Label>
     <text>Time picker</text>
   </Label>
-  <text> </text>
   <textbox value="09:11 pm">
     hh:mm (a|p)m
     <text>09:11 pm</text>
   </textbox>
-  <button>change time</button>
+  <button>Choose time, selected time is 9:11 PM</button>
   <paragraph>
     <text>hh:mm (a|p)m</text>
   </paragraph>
@@ -10237,17 +10259,14 @@ exports[`chromium /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      One common use case is to perform navigation on the client only, without
+      One frequent use case is to perform navigation on the client only, without
       an HTTP round-trip to the server. The
     </text>
     <code>$SOME_CODE</code>
     <text>component provides the</text>
     <code>$SOME_CODE</code>
-    <text>prop to handle this use case.</text>
-  </paragraph>
-  <paragraph>
-    <text>Here is an</text>
-    <link>integration example with react-router</link>
+    <text>prop to handle this use case. Here is a</text>
+    <link>more detailed guide</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -10494,11 +10513,9 @@ exports[`chromium /components/text-fields/ 1`] = `
     <code>$SOME_CODE</code>
     <text>
       wrapper component is a complete form control including a label, input, and
-      help text.
+      help text. It comes with three variants: outlined (default), filled, and
+      standard.
     </text>
-  </paragraph>
-  <paragraph>
-    <text>It supports standard, outlined, and filled styling.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -13976,12 +13993,15 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.32. View versions page.</link>
+      <link>v5.0.0-alpha.33. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <text>
+    <alert></alert>
+  </text>
 </document>;
 
 `;
@@ -15345,7 +15365,7 @@ exports[`firefox /api/select/ 1`] = `
         <text>.MuiSelect-root</text>
       </cell>
       <cell>
-        <text>Styles applied to the select component \`root\` class.</text>
+        <text>Styles applied to the root element.</text>
       </cell>
     </row>
     <row>
@@ -15398,17 +15418,6 @@ exports[`firefox /api/select/ 1`] = `
           Styles applied to the select component if
           variant="standard".
         </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>selectMenu</text>
-      </cell>
-      <cell>
-        <text>.MuiSelect-selectMenu</text>
-      </cell>
-      <cell>
-        <text>Styles applied to the select component \`selectMenu\` class.</text>
       </cell>
     </row>
     <row>
@@ -16486,14 +16495,55 @@ exports[`firefox /components/buttons/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Contained buttons
-    <text>Contained buttons</text>
+    Basic Button
+    <text>Basic Button</text>
   </heading>
   <paragraph>
-    <link>Contained buttons</link>
     <text>
-      are high-emphasis, distinguished by their use of elevation and fill. They
-      contain actions that are primary to your app.
+      The Button comes with three variants: text (default), contained, and
+      outlined.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    TEXT
+    <text>TEXT</text>
+  </button>
+  <button>
+    CONTAINED
+    <text>CONTAINED</text>
+  </button>
+  <button>
+    OUTLINED
+    <text>OUTLINED</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Button variant="text">Text</Button> <Button
+    variant="contained">Contained</Button> <Button
+    variant="outlined">Outlined</Button>
+  </text>
+  <heading level="3">
+    Text buttons
+    <text>Text buttons</text>
+  </heading>
+  <paragraph>
+    <link>Text buttons</link>
+    <text>
+      are typically used for less-pronounced actions, including those located:
+      in dialogs, in cards. In cards, text buttons help maintain an emphasis on
+      card content.
     </text>
   </paragraph>
   <button>
@@ -16503,10 +16553,6 @@ exports[`firefox /components/buttons/ 1`] = `
   <button>
     PRIMARY
     <text>PRIMARY</text>
-  </button>
-  <button>
-    SECONDARY
-    <text>SECONDARY</text>
   </button>
   <button disabled="true">
     DISABLED
@@ -16523,12 +16569,48 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Button variant="contained">Primary</Button>
-    <Button variant="contained" color="secondary">
-    Secondary </Button> <Button variant="contained"
-    disabled> Disabled </Button> <Button
-    variant="contained" href="#contained-buttons"> Link
-    </Button>
+    <Button>Primary</Button> <Button
+    disabled>Disabled</Button> <Button
+    href="#text-buttons">Link</Button>
+  </text>
+  <heading level="3">
+    Contained buttons
+    <text>Contained buttons</text>
+  </heading>
+  <paragraph>
+    <link>Contained buttons</link>
+    <text>
+      are high-emphasis, distinguished by their use of elevation and fill. They
+      contain actions that are primary to your app.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    CONTAINED
+    <text>CONTAINED</text>
+  </button>
+  <button disabled="true">
+    DISABLED
+    <text>DISABLED</text>
+  </button>
+  <link>LINK</link>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Button variant="contained">Contained</Button>
+    <Button variant="contained" disabled> Disabled
+    </Button> <Button variant="contained"
+    href="#contained-buttons"> Link </Button>
   </text>
   <paragraph>
     <text>You can remove the elevation with the disableElevation prop.</text>
@@ -16554,64 +16636,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <Button variant="contained" disableElevation> Disable
     elevation </Button>
   </text>
-  <heading level="2">
-    Text buttons
-    <text>Text buttons</text>
-  </heading>
-  <paragraph>
-    <link>Text buttons</link>
-    <text>
-      are typically used for less-pronounced actions, including those located:
-    </text>
-  </paragraph>
-  <list>
-    <listitem>
-      In dialogs
-      <text>In dialogs</text>
-    </listitem>
-    <listitem>
-      In cards
-      <text>In cards</text>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>
-      In cards, text buttons help maintain an emphasis on card content.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    PRIMARY
-    <text>PRIMARY</text>
-  </button>
-  <button>
-    SECONDARY
-    <text>SECONDARY</text>
-  </button>
-  <button disabled="true">
-    DISABLED
-    <text>DISABLED</text>
-  </button>
-  <link>LINK</link>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Button>Primary</Button> <Button
-    color="secondary">Secondary</Button> <Button
-    disabled>Disabled</Button> <Button
-    href="#text-buttons">Link</Button>
-  </text>
-  <heading level="2">
+  <heading level="3">
     Outlined buttons
     <text>Outlined buttons</text>
   </heading>
@@ -16636,10 +16661,6 @@ exports[`firefox /components/buttons/ 1`] = `
     PRIMARY
     <text>PRIMARY</text>
   </button>
-  <button>
-    SECONDARY
-    <text>SECONDARY</text>
-  </button>
   <button disabled="true">
     DISABLED
     <text>DISABLED</text>
@@ -16656,9 +16677,8 @@ exports[`firefox /components/buttons/ 1`] = `
   </toolbar>
   <text>
     <Button variant="outlined">Primary</Button> <Button
-    variant="outlined" color="secondary"> Secondary
-    </Button> <Button variant="outlined" disabled>
-    Disabled </Button> <Button variant="outlined"
+    variant="outlined" disabled> Disabled </Button>
+    <Button variant="outlined"
     href="#outlined-buttons"> Link </Button>
   </text>
   <heading level="2">
@@ -16684,24 +16704,25 @@ exports[`firefox /components/buttons/ 1`] = `
     </text>
   </paragraph>
   <heading level="2">
-    Upload button
-    <text>Upload button</text>
+    Color
+    <text>Color</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <label>
-    UPLOAD
-    <button>
-      UPLOAD
-      <text>UPLOAD</text>
-    </button>
-  </label>
-  <label>
-    upload picture
-    <button>upload picture</button>
-  </label>
+  <button>
+    SECONDARY
+    <text>SECONDARY</text>
+  </button>
+  <button>
+    SECONDARY
+    <text>SECONDARY</text>
+  </button>
+  <button>
+    SECONDARY
+    <text>SECONDARY</text>
+  </button>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -16712,16 +16733,19 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <label htmlFor="contained-button-file"> <Input
-    accept="image/*" id="contained-button-file" multiple
-    type="file" /> <Button variant="contained"
-    component="span"> Upload </Button> </label>
-    <label htmlFor="icon-button-file"> <Input
-    accept="image/*" id="icon-button-file"
-    type="file" /> <IconButton color="primary"
-    aria-label="upload picture" component="span">
-    <PhotoCamera /> </IconButton> </label>
+    <Button color="secondary">Secondary</Button>
+    <Button variant="contained" color="secondary">
+    Secondary </Button> <Button variant="outlined"
+    color="secondary"> Secondary </Button>
   </text>
+  <paragraph>
+    <text>
+      In addition to using the default button colors, you can add custom ones,
+      or disable any you don't need. See the
+    </text>
+    <link>Adding new colors</link>
+    <text>example for more info.</text>
+  </paragraph>
   <heading level="2">
     Sizes
     <text>Sizes</text>
@@ -16782,6 +16806,45 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <heading level="2">
+    Upload button
+    <text>Upload button</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    UPLOAD
+    <button>
+      UPLOAD
+      <text>UPLOAD</text>
+    </button>
+  </label>
+  <label>
+    upload picture
+    <button>upload picture</button>
+  </label>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <label htmlFor="contained-button-file"> <Input
+    accept="image/*" id="contained-button-file" multiple
+    type="file" /> <Button variant="contained"
+    component="span"> Upload </Button> </label>
+    <label htmlFor="icon-button-file"> <Input
+    accept="image/*" id="icon-button-file"
+    type="file" /> <IconButton color="primary"
+    aria-label="upload picture" component="span">
+    <PhotoCamera /> </IconButton> </label>
+  </text>
   <heading level="2">
     Buttons with icons and label
     <text>Buttons with icons and label</text>
@@ -16880,10 +16943,6 @@ exports[`firefox /components/buttons/ 1`] = `
   <button>
     CUSTOM CSS
     <text>CUSTOM CSS</text>
-  </button>
-  <button>
-    THEME PROVIDER
-    <text>THEME PROVIDER</text>
   </button>
   <button>
     Bootstrap
@@ -17031,18 +17090,11 @@ exports[`firefox /components/buttons/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      One common use case is to use the button to trigger navigation to a new
-      page. The ButtonBase component provides the component prop to handle this
-      use case. However, for certain focus polyfills ButtonBase requires the DOM
-      node of the provided component. This is achieved by attaching a ref to the
-      component and expecting that the component forwards this ref to the
-      underlying DOM node. Given that many of the interactive components rely on
-      ButtonBase, you should be able to take advantage of it everywhere.
+      One frequent use case is to perform navigation on the client only, without
+      an HTTP round-trip to the server. The ButtonBase component provides the
+      component prop to handle this use case. Here is a
     </text>
-  </paragraph>
-  <paragraph>
-    <text>Here is an</text>
-    <link>integration example with react-router</link>
+    <link>more detailed guide</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -17584,8 +17636,8 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <StyledCheckbox /> <StyledCheckbox defaultChecked />
-    <StyledCheckbox disabled />
+    <BpCheckbox /> <BpCheckbox defaultChecked /> <BpCheckbox
+    disabled />
   </text>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
@@ -19875,12 +19927,11 @@ exports[`firefox /components/pickers 1`] = `
     Date picker desktop
     <text>Date picker desktop</text>
   </label>
-  <statictext> </statictext>
-  <textbox description="mm/dd/yyyy" value="08/18/2014">
-    Date picker desktop
+  <textbox value="08/18/2014">
+    mm/dd/yyyy
     <text>08/18/2014</text>
   </textbox>
-  <button>change date</button>
+  <button>Choose date, selected date is Aug 18, 2014</button>
   <paragraph>
     <text>mm/dd/yyyy</text>
   </paragraph>
@@ -19888,7 +19939,6 @@ exports[`firefox /components/pickers 1`] = `
     Date picker mobile
     <text>Date picker mobile</text>
   </label>
-  <statictext> </statictext>
   <textbox readonly="true" value="08/18/2014">
     Choose date, selected date is Aug 18, 2014
     <text>08/18/2014</text>
@@ -19897,12 +19947,11 @@ exports[`firefox /components/pickers 1`] = `
     Time picker
     <text>Time picker</text>
   </label>
-  <statictext> </statictext>
   <textbox value="09:11 pm">
     hh:mm (a|p)m
     <text>09:11 pm</text>
   </textbox>
-  <button>change time</button>
+  <button>Choose time, selected time is 9:11 PM</button>
   <paragraph>
     <text>hh:mm (a|p)m</text>
   </paragraph>
@@ -19974,9 +20023,8 @@ exports[`firefox /components/pickers 1`] = `
   <text>
     <form noValidate> <TextField id="date"
     label="Birthday" type="date"
-    defaultValue="2017-05-24" style={{ width: 220
-    }} InputLabelProps={{ shrink: true, }} />
-    </form>
+    defaultValue="2017-05-24" sx={{ width: 220 }}
+    InputLabelProps={{ shrink: true, }} /> </form>
   </text>
   <heading level="3">
     Date & Time picker
@@ -20014,7 +20062,7 @@ exports[`firefox /components/pickers 1`] = `
   <text>
     <form noValidate> <TextField id="datetime-local"
     label="Next appointment" type="datetime-local"
-    defaultValue="2017-05-24T10:30" style={{ width: 250
+    defaultValue="2017-05-24T10:30" sx={{ width: 250
     }} InputLabelProps={{ shrink: true, }} />
     </form>
   </text>
@@ -20069,7 +20117,7 @@ exports[`firefox /components/pickers 1`] = `
     <form noValidate> <TextField id="time" label="Alarm
     clock" type="time" defaultValue="07:30"
     InputLabelProps={{ shrink: true, }}
-    inputProps={{ step: 300, // 5 min }} style={{
+    inputProps={{ step: 300, // 5 min }} sx={{
     width: 150 }} /> </form>
   </text>
   <heading level="2">
@@ -20413,7 +20461,7 @@ exports[`firefox /components/radio-buttons 1`] = `
   </toolbar>
   <text>
     <Radio {...controlProps('a')} /> <Radio
-    {...controlProps('b')} color="primary" />
+    {...controlProps('b')} color="secondary" />
     <Radio {...controlProps('c')}
     color="default" /> <Radio
     {...controlProps('d')} sx={{ color:
@@ -20586,13 +20634,13 @@ exports[`firefox /components/radio-buttons 1`] = `
     component="legend">Gender</FormLabel> <RadioGroup
     defaultValue="female" aria-label="gender"
     name="customized-radios"> <FormControlLabel
-    value="female" control={<StyledRadio />}
+    value="female" control={<BpRadio />}
     label="Female" /> <FormControlLabel value="male"
-    control={<StyledRadio />} label="Male" />
-    <FormControlLabel value="other" control={<StyledRadio
+    control={<BpRadio />} label="Male" />
+    <FormControlLabel value="other" control={<BpRadio
     />} label="Other" /> <FormControlLabel
-    value="disabled" disabled control={<StyledRadio
-    />} label="(Disabled option)" /> </RadioGroup>
+    value="disabled" disabled control={<BpRadio />}
+    label="(Disabled option)" /> </RadioGroup>
     </FormControl>
   </text>
   <heading level="2">
@@ -23240,7 +23288,7 @@ exports[`firefox /components/switches/ 1`] = `
   </toolbar>
   <text>
     <Switch {...label} defaultChecked /> <Switch
-    {...label} defaultChecked color="primary" />
+    {...label} defaultChecked color="secondary" />
     <Switch {...label} defaultChecked color="default"
     /> <GreenSwitch {...label} defaultChecked />
   </text>
@@ -24394,14 +24442,11 @@ exports[`firefox /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      One common use case is to perform navigation on the client only, without
-      an HTTP round-trip to the server. The Link component provides the
-      component prop to handle this use case.
+      One frequent use case is to perform navigation on the client only, without
+      an HTTP round-trip to the server. The Tab component provides the component
+      prop to handle this use case. Here is a
     </text>
-  </paragraph>
-  <paragraph>
-    <text>Here is an</text>
-    <link>integration example with react-router</link>
+    <link>more detailed guide</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -24626,11 +24671,9 @@ exports[`firefox /components/text-fields/ 1`] = `
   <paragraph>
     <text>
       The TextField wrapper component is a complete form control including a
-      label, input, and help text.
+      label, input, and help text. It comes with three variants: outlined
+      (default), filled, and standard.
     </text>
-  </paragraph>
-  <paragraph>
-    <text>It supports standard, outlined, and filled styling.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -24665,10 +24708,11 @@ exports[`firefox /components/text-fields/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <TextField id="outlined-basic" label="Outlined" />
-    <TextField id="filled-basic" label="Filled"
-    variant="filled" /> <TextField id="standard-basic"
-    label="Standard" variant="standard" />
+    <TextField id="outlined-basic" label="Outlined"
+    variant="outlined" /> <TextField id="filled-basic"
+    label="Filled" variant="filled" /> <TextField
+    id="standard-basic" label="Standard"
+    variant="standard" />
   </text>
   <paragraph>
     <text>
@@ -27447,11 +27491,12 @@ exports[`firefox /components/tree-view/ 1`] = `
     <TreeView aria-label="file system navigator"
     defaultCollapseIcon={<ExpandMoreIcon />}
     defaultExpandIcon={<ChevronRightIcon />} sx={{
-    height: 240, flexGrow: 1, maxWidth: 400 }} > <TreeItem
-    nodeId="1" label="Applications"> <TreeItem
-    nodeId="2" label="Calendar" /> </TreeItem>
-    <TreeItem nodeId="5" label="Documents">
-    <TreeItem nodeId="10" label="OSS" /> <TreeItem
+    height: 240, flexGrow: 1, maxWidth: 400, overflowY: 'auto'
+    }} > <TreeItem nodeId="1"
+    label="Applications"> <TreeItem nodeId="2"
+    label="Calendar" /> </TreeItem> <TreeItem
+    nodeId="5" label="Documents"> <TreeItem
+    nodeId="10" label="OSS" /> <TreeItem
     nodeId="6" label="Material-UI"> <TreeItem
     nodeId="8" label="index.js" /> </TreeItem>
     </TreeItem> </TreeView>
