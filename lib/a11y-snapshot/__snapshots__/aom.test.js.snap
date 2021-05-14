@@ -257,12 +257,13 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.32. View versions page.</link>
+      <link>v5.0.0-alpha.33. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <alert></alert>
 </WebArea>;
 
 `;
@@ -6189,19 +6190,17 @@ exports[`chromium /components/pickers 1`] = `
   <Label>
     <text>Date picker desktop</text>
   </Label>
-  <text> </text>
-  <textbox description="mm/dd/yyyy" value="08/18/2014">
-    Date picker desktop
+  <textbox value="08/18/2014">
+    mm/dd/yyyy
     <text>08/18/2014</text>
   </textbox>
-  <button>change date</button>
+  <button>Choose date, selected date is Aug 18, 2014</button>
   <paragraph>
     <text>mm/dd/yyyy</text>
   </paragraph>
   <Label>
     <text>Date picker mobile</text>
   </Label>
-  <text> </text>
   <textbox readonly="true" value="08/18/2014">
     Choose date, selected date is Aug 18, 2014
     <text>08/18/2014</text>
@@ -6209,12 +6208,11 @@ exports[`chromium /components/pickers 1`] = `
   <Label>
     <text>Time picker</text>
   </Label>
-  <text> </text>
   <textbox value="09:11 pm">
     hh:mm (a|p)m
     <text>09:11 pm</text>
   </textbox>
-  <button>change time</button>
+  <button>Choose time, selected time is 9:11 PM</button>
   <paragraph>
     <text>hh:mm (a|p)m</text>
   </paragraph>
@@ -13976,12 +13974,15 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.32. View versions page.</link>
+      <link>v5.0.0-alpha.33. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <text>
+    <alert></alert>
+  </text>
 </document>;
 
 `;
@@ -19875,12 +19876,11 @@ exports[`firefox /components/pickers 1`] = `
     Date picker desktop
     <text>Date picker desktop</text>
   </label>
-  <statictext> </statictext>
-  <textbox description="mm/dd/yyyy" value="08/18/2014">
-    Date picker desktop
+  <textbox value="08/18/2014">
+    mm/dd/yyyy
     <text>08/18/2014</text>
   </textbox>
-  <button>change date</button>
+  <button>Choose date, selected date is Aug 18, 2014</button>
   <paragraph>
     <text>mm/dd/yyyy</text>
   </paragraph>
@@ -19888,7 +19888,6 @@ exports[`firefox /components/pickers 1`] = `
     Date picker mobile
     <text>Date picker mobile</text>
   </label>
-  <statictext> </statictext>
   <textbox readonly="true" value="08/18/2014">
     Choose date, selected date is Aug 18, 2014
     <text>08/18/2014</text>
@@ -19897,12 +19896,11 @@ exports[`firefox /components/pickers 1`] = `
     Time picker
     <text>Time picker</text>
   </label>
-  <statictext> </statictext>
   <textbox value="09:11 pm">
     hh:mm (a|p)m
     <text>09:11 pm</text>
   </textbox>
-  <button>change time</button>
+  <button>Choose time, selected time is 9:11 PM</button>
   <paragraph>
     <text>hh:mm (a|p)m</text>
   </paragraph>
@@ -19974,9 +19972,8 @@ exports[`firefox /components/pickers 1`] = `
   <text>
     <form noValidate> <TextField id="date"
     label="Birthday" type="date"
-    defaultValue="2017-05-24" style={{ width: 220
-    }} InputLabelProps={{ shrink: true, }} />
-    </form>
+    defaultValue="2017-05-24" sx={{ width: 220 }}
+    InputLabelProps={{ shrink: true, }} /> </form>
   </text>
   <heading level="3">
     Date & Time picker
@@ -20014,7 +20011,7 @@ exports[`firefox /components/pickers 1`] = `
   <text>
     <form noValidate> <TextField id="datetime-local"
     label="Next appointment" type="datetime-local"
-    defaultValue="2017-05-24T10:30" style={{ width: 250
+    defaultValue="2017-05-24T10:30" sx={{ width: 250
     }} InputLabelProps={{ shrink: true, }} />
     </form>
   </text>
@@ -20069,7 +20066,7 @@ exports[`firefox /components/pickers 1`] = `
     <form noValidate> <TextField id="time" label="Alarm
     clock" type="time" defaultValue="07:30"
     InputLabelProps={{ shrink: true, }}
-    inputProps={{ step: 300, // 5 min }} style={{
+    inputProps={{ step: 300, // 5 min }} sx={{
     width: 150 }} /> </form>
   </text>
   <heading level="2">
@@ -20413,7 +20410,7 @@ exports[`firefox /components/radio-buttons 1`] = `
   </toolbar>
   <text>
     <Radio {...controlProps('a')} /> <Radio
-    {...controlProps('b')} color="primary" />
+    {...controlProps('b')} color="secondary" />
     <Radio {...controlProps('c')}
     color="default" /> <Radio
     {...controlProps('d')} sx={{ color:
@@ -20586,13 +20583,13 @@ exports[`firefox /components/radio-buttons 1`] = `
     component="legend">Gender</FormLabel> <RadioGroup
     defaultValue="female" aria-label="gender"
     name="customized-radios"> <FormControlLabel
-    value="female" control={<StyledRadio />}
+    value="female" control={<BpRadio />}
     label="Female" /> <FormControlLabel value="male"
-    control={<StyledRadio />} label="Male" />
-    <FormControlLabel value="other" control={<StyledRadio
+    control={<BpRadio />} label="Male" />
+    <FormControlLabel value="other" control={<BpRadio
     />} label="Other" /> <FormControlLabel
-    value="disabled" disabled control={<StyledRadio
-    />} label="(Disabled option)" /> </RadioGroup>
+    value="disabled" disabled control={<BpRadio />}
+    label="(Disabled option)" /> </RadioGroup>
     </FormControl>
   </text>
   <heading level="2">
