@@ -18,7 +18,25 @@ Array [
 ]
 `;
 
-exports[`chromium /components/button-group/ 1`] = `Array []`;
+exports[`chromium /components/button-group/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-roles?application=axeAPI",
+    "id": "aria-roles",
+    "nodes": Array [
+      ".nprogress-bar",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/dlitem?application=axeAPI",
+    "id": "dlitem",
+    "nodes": Array [
+      "dt",
+      "dd",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/buttons/ 1`] = `
 Array [
@@ -31,11 +49,26 @@ Array [
     ],
   },
   Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-roles?application=axeAPI",
+    "id": "aria-roles",
+    "nodes": Array [
+      ".nprogress-bar",
+    ],
+  },
+  Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
     "id": "button-name",
     "nodes": Array [
       ".MuiLoadingButton-loading.Mui-disabled.MuiLoadingButton-root:nth-child(1)",
       ".MuiLoadingButton-loading.Mui-disabled.MuiLoadingButton-root:nth-child(2)",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/dlitem?application=axeAPI",
+    "id": "dlitem",
+    "nodes": Array [
+      "dt",
+      "dd",
     ],
   },
 ]
@@ -92,7 +125,25 @@ exports[`chromium /components/text-fields/ 1`] = `Array []`;
 
 exports[`chromium /components/tooltips/ 1`] = `Array []`;
 
-exports[`chromium /components/transfer-list 1`] = `Array []`;
+exports[`chromium /components/transfer-list 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-roles?application=axeAPI",
+    "id": "aria-roles",
+    "nodes": Array [
+      ".nprogress-bar",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/dlitem?application=axeAPI",
+    "id": "dlitem",
+    "nodes": Array [
+      "dt",
+      "dd",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/tree-view/ 1`] = `
 Array [
