@@ -88,7 +88,18 @@ exports[`chromium /components/switches/ 1`] = `Array []`;
 
 exports[`chromium /components/tabs/ 1`] = `Array []`;
 
-exports[`chromium /components/text-fields/ 1`] = `Array []`;
+exports[`chromium /components/text-fields/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/label?application=axeAPI",
+    "id": "label",
+    "nodes": Array [
+      "#filled-hidden-label-small",
+      "#filled-hidden-label-normal",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/tooltips/ 1`] = `Array []`;
 
