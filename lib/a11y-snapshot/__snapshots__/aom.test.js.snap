@@ -9019,6 +9019,24 @@ exports[`chromium /components/slider 1`] = `
     </listitem>
   </list>
   <heading level="2">
+    Limitations
+    <text>Limitations</text>
+  </heading>
+  <heading level="3">
+    IE 11
+    <text>IE 11</text>
+  </heading>
+  <paragraph>
+    <text>
+      The slider's value label is not centered in IE 11. The alignement is
+      not handled to make customizations easier with the lastest browsers. You
+      can solve the issue with:
+    </text>
+  </paragraph>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
     API
     <text>API</text>
   </heading>
@@ -23100,6 +23118,22 @@ exports[`firefox /components/slider 1`] = `
       </text>
     </listitem>
   </list>
+  <heading level="2">
+    Limitations
+    <text>Limitations</text>
+  </heading>
+  <heading level="3">
+    IE 11
+    <text>IE 11</text>
+  </heading>
+  <paragraph>
+    <text>
+      The slider's value label is not centered in IE 11. The alignement is
+      not handled to make customizations easier with the lastest browsers. You
+      can solve the issue with:
+    </text>
+  </paragraph>
+  <text>.MuiSlider-valueLabel { left: calc(-50% - 4px); }</text>
   <heading level="2">
     API
     <text>API</text>
