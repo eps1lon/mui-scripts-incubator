@@ -11269,32 +11269,27 @@ exports[`chromium /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <form>
-    <Label>
-      <text>Hidden label</text>
-    </Label>
     <text> </text>
     <textbox value="Small">
-      Hidden label
       <text>Small</text>
     </textbox>
-    <Label>
-      <text>Hidden label</text>
-    </Label>
     <text> </text>
     <textbox value="Normal">
-      Hidden label
       <text>Normal</text>
     </textbox>
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Layout
     <text>Layout</text>
@@ -25517,34 +25512,31 @@ exports[`firefox /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <form>
-    <label>
-      Hidden label
-      <text>Hidden label</text>
-    </label>
     <statictext> </statictext>
     <textbox value="Small">
-      Hidden label
       <text>Small</text>
     </textbox>
-    <label>
-      Hidden label
-      <text>Hidden label</text>
-    </label>
     <statictext> </statictext>
     <textbox value="Normal">
-      Hidden label
       <text>Normal</text>
     </textbox>
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <TextField hiddenLabel id="filled-hidden-label-small"
+    defaultValue="Small" variant="filled"
+    size="small" /> <TextField hiddenLabel
+    id="filled-hidden-label-normal" defaultValue="Normal"
+    variant="filled" />
+  </text>
   <heading level="2">
     Layout
     <text>Layout</text>
