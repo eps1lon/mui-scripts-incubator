@@ -257,13 +257,12 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.33. View versions page.</link>
+      <link>v5.0.0-alpha.32. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
-  <alert></alert>
 </WebArea>;
 
 `;
@@ -2020,8 +2019,8 @@ exports[`chromium /api/select/ 1`] = `
         <text>.MuiSelect-root</text>
       </gridcell>
       <gridcell>
-        Styles applied to the root element.
-        <text>Styles applied to the root element.</text>
+        Styles applied to the select component \`root\` class.
+        <text>Styles applied to the select component \`root\` class.</text>
       </gridcell>
     </row>
     <row>
@@ -2072,18 +2071,16 @@ exports[`chromium /api/select/ 1`] = `
     </row>
     <row>
       <gridcell>
-        standard
-        <text>standard</text>
+        selectMenu
+        <text>selectMenu</text>
       </gridcell>
       <gridcell>
-        .MuiSelect-standard
-        <text>.MuiSelect-standard</text>
+        .MuiSelect-selectMenu
+        <text>.MuiSelect-selectMenu</text>
       </gridcell>
       <gridcell>
-        Styles applied to the select component if variant="standard".
-        <text>Styles applied to the select component if</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
+        Styles applied to the select component \`selectMenu\` class.
+        <text>Styles applied to the select component \`selectMenu\` class.</text>
       </gridcell>
     </row>
     <row>
@@ -2157,22 +2154,6 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell>
         Styles applied to the icon component if variant="outlined".
-        <text>Styles applied to the icon component if</text>
-        <code>$SOME_CODE</code>
-        <text>.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        iconStandard
-        <text>iconStandard</text>
-      </gridcell>
-      <gridcell>
-        .MuiSelect-iconStandard
-        <text>.MuiSelect-iconStandard</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the icon component if variant="standard".
         <text>Styles applied to the icon component if</text>
         <code>$SOME_CODE</code>
         <text>.</text>
@@ -3099,82 +3080,6 @@ exports[`chromium /components/buttons/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Basic Button
-    <text>Basic Button</text>
-  </heading>
-  <paragraph>
-    <text>The</text>
-    <code>$SOME_CODE</code>
-    <text>
-      comes with three variants: text (default), contained, and outlined.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    TEXT
-    <text>TEXT</text>
-  </button>
-  <button>
-    CONTAINED
-    <text>CONTAINED</text>
-  </button>
-  <button>
-    OUTLINED
-    <text>OUTLINED</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="3">
-    Text buttons
-    <text>Text buttons</text>
-  </heading>
-  <paragraph>
-    <link>Text buttons</link>
-    <text>
-      are typically used for less-pronounced actions, including those located:
-      in dialogs, in cards. In cards, text buttons help maintain an emphasis on
-      card content.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    PRIMARY
-    <text>PRIMARY</text>
-  </button>
-  <button disabled="true">
-    DISABLED
-    <text>DISABLED</text>
-  </button>
-  <link>LINK</link>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="3">
     Contained buttons
     <text>Contained buttons</text>
   </heading>
@@ -3190,8 +3095,12 @@ exports[`chromium /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    CONTAINED
-    <text>CONTAINED</text>
+    PRIMARY
+    <text>PRIMARY</text>
+  </button>
+  <button>
+    SECONDARY
+    <text>SECONDARY</text>
   </button>
   <button disabled="true">
     DISABLED
@@ -3235,7 +3144,59 @@ exports[`chromium /components/buttons/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
-  <heading level="3">
+  <heading level="2">
+    Text buttons
+    <text>Text buttons</text>
+  </heading>
+  <paragraph>
+    <link>Text buttons</link>
+    <text>
+      are typically used for less-pronounced actions, including those located:
+    </text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <text>In dialogs</text>
+    </listitem>
+    <listitem level="1">
+      <text>In cards</text>
+    </listitem>
+  </list>
+  <paragraph>
+    <text>
+      In cards, text buttons help maintain an emphasis on card content.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    PRIMARY
+    <text>PRIMARY</text>
+  </button>
+  <button>
+    SECONDARY
+    <text>SECONDARY</text>
+  </button>
+  <button disabled="true">
+    DISABLED
+    <text>DISABLED</text>
+  </button>
+  <link>LINK</link>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
     Outlined buttons
     <text>Outlined buttons</text>
   </heading>
@@ -3259,6 +3220,10 @@ exports[`chromium /components/buttons/ 1`] = `
   <button>
     PRIMARY
     <text>PRIMARY</text>
+  </button>
+  <button>
+    SECONDARY
+    <text>SECONDARY</text>
   </button>
   <button disabled="true">
     DISABLED
@@ -3298,25 +3263,22 @@ exports[`chromium /components/buttons/ 1`] = `
     </text>
   </paragraph>
   <heading level="2">
-    Color
-    <text>Color</text>
+    Upload button
+    <text>Upload button</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <button>
-    SECONDARY
-    <text>SECONDARY</text>
-  </button>
-  <button>
-    SECONDARY
-    <text>SECONDARY</text>
-  </button>
-  <button>
-    SECONDARY
-    <text>SECONDARY</text>
-  </button>
+  <Label>
+    <button>
+      UPLOAD
+      <text>UPLOAD</text>
+    </button>
+  </Label>
+  <Label>
+    <button>upload picture</button>
+  </Label>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -3329,14 +3291,6 @@ exports[`chromium /components/buttons/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
-  <paragraph>
-    <text>
-      In addition to using the default button colors, you can add custom ones,
-      or disable any you don't need. See the
-    </text>
-    <link>Adding new colors</link>
-    <text>example for more info.</text>
-  </paragraph>
   <heading level="2">
     Sizes
     <text>Sizes</text>
@@ -3399,35 +3353,6 @@ exports[`chromium /components/buttons/ 1`] = `
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <heading level="2">
-    Upload button
-    <text>Upload button</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <Label>
-    <button>
-      UPLOAD
-      <text>UPLOAD</text>
-    </button>
-  </Label>
-  <Label>
-    <button>upload picture</button>
-  </Label>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Buttons with icons and label
     <text>Buttons with icons and label</text>
@@ -3517,6 +3442,10 @@ exports[`chromium /components/buttons/ 1`] = `
   <button>
     CUSTOM CSS
     <text>CUSTOM CSS</text>
+  </button>
+  <button>
+    THEME PROVIDER
+    <text>THEME PROVIDER</text>
   </button>
   <button>
     Bootstrap
@@ -3657,14 +3586,28 @@ exports[`chromium /components/buttons/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      One frequent use case is to perform navigation on the client only, without
-      an HTTP round-trip to the server. The
+      One common use case is to use the button to trigger navigation to a new
+      page. The
     </text>
     <code>$SOME_CODE</code>
     <text>component provides the</text>
     <code>$SOME_CODE</code>
-    <text>prop to handle this use case. Here is a</text>
-    <link>more detailed guide</link>
+    <text>
+      prop to handle this use case. However, for certain focus polyfills
+    </text>
+    <code>$SOME_CODE</code>
+    <text>
+      requires the DOM node of the provided component. This is achieved by
+      attaching a ref to the component and expecting that the component forwards
+      this ref to the underlying DOM node. Given that many of the interactive
+      components rely on
+    </text>
+    <code>$SOME_CODE</code>
+    <text>, you should be able to take advantage of it everywhere.</text>
+  </paragraph>
+  <paragraph>
+    <text>Here is an</text>
+    <link>integration example with react-router</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -6214,17 +6157,19 @@ exports[`chromium /components/pickers 1`] = `
   <Label>
     <text>Date picker desktop</text>
   </Label>
-  <textbox value="08/18/2014">
-    mm/dd/yyyy
+  <text> </text>
+  <textbox description="mm/dd/yyyy" value="08/18/2014">
+    Date picker desktop
     <text>08/18/2014</text>
   </textbox>
-  <button>Choose date, selected date is Aug 18, 2014</button>
+  <button>change date</button>
   <paragraph>
     <text>mm/dd/yyyy</text>
   </paragraph>
   <Label>
     <text>Date picker mobile</text>
   </Label>
+  <text> </text>
   <textbox readonly="true" value="08/18/2014">
     Choose date, selected date is Aug 18, 2014
     <text>08/18/2014</text>
@@ -6232,11 +6177,12 @@ exports[`chromium /components/pickers 1`] = `
   <Label>
     <text>Time picker</text>
   </Label>
+  <text> </text>
   <textbox value="09:11 pm">
     hh:mm (a|p)m
     <text>09:11 pm</text>
   </textbox>
-  <button>Choose time, selected time is 9:11 PM</button>
+  <button>change time</button>
   <paragraph>
     <text>hh:mm (a|p)m</text>
   </paragraph>
@@ -6838,24 +6784,24 @@ exports[`chromium /components/radio-buttons 1`] = `
   </heading>
   <paragraph>
     <code>$SOME_CODE</code>
-    <text>(object):</text>
+    <text>(Object):</text>
   </paragraph>
   <list>
     <listitem level="1">
       <code>$SOME_CODE</code>
       <text>
-        (string[optional]): The name used to reference the value of the control.
+        (String[optional]): The name used to reference the value of the control.
       </text>
     </listitem>
     <listitem level="1">
       <code>$SOME_CODE</code>
       <text>
-        (func[optional]): Callback fired when a radio button is selected.
+        (Void[optional]): Callback fired when a radio button is selected.
       </text>
     </listitem>
     <listitem level="1">
       <code>$SOME_CODE</code>
-      <text>(any[optional]): Value of the selected radio button.</text>
+      <text>(Any[optional]): Value of the selected radio button.</text>
     </listitem>
   </list>
   <heading level="4">
@@ -9019,24 +8965,6 @@ exports[`chromium /components/slider 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Limitations
-    <text>Limitations</text>
-  </heading>
-  <heading level="3">
-    IE 11
-    <text>IE 11</text>
-  </heading>
-  <paragraph>
-    <text>
-      The slider's value label is not centered in IE 11. The alignement is
-      not handled to make customizations easier with the lastest browsers. You
-      can solve the issue with:
-    </text>
-  </paragraph>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
     API
     <text>API</text>
   </heading>
@@ -9302,8 +9230,6 @@ exports[`chromium /components/switches/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Material-UI switch</checkbox>
-  <checkbox checked="true">Android 12</checkbox>
   <checkbox checked="true">iOS style</checkbox>
   <paragraph>
     <text>Off</text>
@@ -9314,13 +9240,16 @@ exports[`chromium /components/switches/ 1`] = `
   </paragraph>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -10531,9 +10460,11 @@ exports[`chromium /components/text-fields/ 1`] = `
     <code>$SOME_CODE</code>
     <text>
       wrapper component is a complete form control including a label, input, and
-      help text. It comes with three variants: outlined (default), filled, and
-      standard.
+      help text.
     </text>
+  </paragraph>
+  <paragraph>
+    <text>It supports standard, outlined, and filled styling.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -13260,16 +13191,13 @@ exports[`chromium /components/tree-view/ 1`] = `
   </tree>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Multi-selection
     <text>Multi-selection</text>
@@ -14011,15 +13939,12 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.33. View versions page.</link>
+      <link>v5.0.0-alpha.32. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
-  <text>
-    <alert></alert>
-  </text>
 </document>;
 
 `;
@@ -15383,7 +15308,7 @@ exports[`firefox /api/select/ 1`] = `
         <text>.MuiSelect-root</text>
       </cell>
       <cell>
-        <text>Styles applied to the root element.</text>
+        <text>Styles applied to the select component \`root\` class.</text>
       </cell>
     </row>
     <row>
@@ -15426,16 +15351,13 @@ exports[`firefox /api/select/ 1`] = `
     </row>
     <row>
       <cell>
-        <text>standard</text>
+        <text>selectMenu</text>
       </cell>
       <cell>
-        <text>.MuiSelect-standard</text>
+        <text>.MuiSelect-selectMenu</text>
       </cell>
       <cell>
-        <text>
-          Styles applied to the select component if
-          variant="standard".
-        </text>
+        <text>Styles applied to the select component \`selectMenu\` class.</text>
       </cell>
     </row>
     <row>
@@ -15496,19 +15418,6 @@ exports[`firefox /api/select/ 1`] = `
       <cell>
         <text>
           Styles applied to the icon component if variant="outlined".
-        </text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>iconStandard</text>
-      </cell>
-      <cell>
-        <text>.MuiSelect-iconStandard</text>
-      </cell>
-      <cell>
-        <text>
-          Styles applied to the icon component if variant="standard".
         </text>
       </cell>
     </row>
@@ -16513,85 +16422,6 @@ exports[`firefox /components/buttons/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Basic Button
-    <text>Basic Button</text>
-  </heading>
-  <paragraph>
-    <text>
-      The Button comes with three variants: text (default), contained, and
-      outlined.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    TEXT
-    <text>TEXT</text>
-  </button>
-  <button>
-    CONTAINED
-    <text>CONTAINED</text>
-  </button>
-  <button>
-    OUTLINED
-    <text>OUTLINED</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Button variant="text">Text</Button> <Button
-    variant="contained">Contained</Button> <Button
-    variant="outlined">Outlined</Button>
-  </text>
-  <heading level="3">
-    Text buttons
-    <text>Text buttons</text>
-  </heading>
-  <paragraph>
-    <link>Text buttons</link>
-    <text>
-      are typically used for less-pronounced actions, including those located:
-      in dialogs, in cards. In cards, text buttons help maintain an emphasis on
-      card content.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    PRIMARY
-    <text>PRIMARY</text>
-  </button>
-  <button disabled="true">
-    DISABLED
-    <text>DISABLED</text>
-  </button>
-  <link>LINK</link>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Button>Primary</Button> <Button
-    disabled>Disabled</Button> <Button
-    href="#text-buttons">Link</Button>
-  </text>
-  <heading level="3">
     Contained buttons
     <text>Contained buttons</text>
   </heading>
@@ -16607,8 +16437,12 @@ exports[`firefox /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    CONTAINED
-    <text>CONTAINED</text>
+    PRIMARY
+    <text>PRIMARY</text>
+  </button>
+  <button>
+    SECONDARY
+    <text>SECONDARY</text>
   </button>
   <button disabled="true">
     DISABLED
@@ -16625,10 +16459,12 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Button variant="contained">Contained</Button>
-    <Button variant="contained" disabled> Disabled
-    </Button> <Button variant="contained"
-    href="#contained-buttons"> Link </Button>
+    <Button variant="contained">Primary</Button>
+    <Button variant="contained" color="secondary">
+    Secondary </Button> <Button variant="contained"
+    disabled> Disabled </Button> <Button
+    variant="contained" href="#contained-buttons"> Link
+    </Button>
   </text>
   <paragraph>
     <text>You can remove the elevation with the disableElevation prop.</text>
@@ -16654,7 +16490,64 @@ exports[`firefox /components/buttons/ 1`] = `
     <Button variant="contained" disableElevation> Disable
     elevation </Button>
   </text>
-  <heading level="3">
+  <heading level="2">
+    Text buttons
+    <text>Text buttons</text>
+  </heading>
+  <paragraph>
+    <link>Text buttons</link>
+    <text>
+      are typically used for less-pronounced actions, including those located:
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      In dialogs
+      <text>In dialogs</text>
+    </listitem>
+    <listitem>
+      In cards
+      <text>In cards</text>
+    </listitem>
+  </list>
+  <paragraph>
+    <text>
+      In cards, text buttons help maintain an emphasis on card content.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    PRIMARY
+    <text>PRIMARY</text>
+  </button>
+  <button>
+    SECONDARY
+    <text>SECONDARY</text>
+  </button>
+  <button disabled="true">
+    DISABLED
+    <text>DISABLED</text>
+  </button>
+  <link>LINK</link>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Button>Primary</Button> <Button
+    color="secondary">Secondary</Button> <Button
+    disabled>Disabled</Button> <Button
+    href="#text-buttons">Link</Button>
+  </text>
+  <heading level="2">
     Outlined buttons
     <text>Outlined buttons</text>
   </heading>
@@ -16679,6 +16572,10 @@ exports[`firefox /components/buttons/ 1`] = `
     PRIMARY
     <text>PRIMARY</text>
   </button>
+  <button>
+    SECONDARY
+    <text>SECONDARY</text>
+  </button>
   <button disabled="true">
     DISABLED
     <text>DISABLED</text>
@@ -16695,8 +16592,9 @@ exports[`firefox /components/buttons/ 1`] = `
   </toolbar>
   <text>
     <Button variant="outlined">Primary</Button> <Button
-    variant="outlined" disabled> Disabled </Button>
-    <Button variant="outlined"
+    variant="outlined" color="secondary"> Secondary
+    </Button> <Button variant="outlined" disabled>
+    Disabled </Button> <Button variant="outlined"
     href="#outlined-buttons"> Link </Button>
   </text>
   <heading level="2">
@@ -16722,25 +16620,24 @@ exports[`firefox /components/buttons/ 1`] = `
     </text>
   </paragraph>
   <heading level="2">
-    Color
-    <text>Color</text>
+    Upload button
+    <text>Upload button</text>
   </heading>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <button>
-    SECONDARY
-    <text>SECONDARY</text>
-  </button>
-  <button>
-    SECONDARY
-    <text>SECONDARY</text>
-  </button>
-  <button>
-    SECONDARY
-    <text>SECONDARY</text>
-  </button>
+  <label>
+    UPLOAD
+    <button>
+      UPLOAD
+      <text>UPLOAD</text>
+    </button>
+  </label>
+  <label>
+    upload picture
+    <button>upload picture</button>
+  </label>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -16751,19 +16648,16 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Button color="secondary">Secondary</Button>
-    <Button variant="contained" color="secondary">
-    Secondary </Button> <Button variant="outlined"
-    color="secondary"> Secondary </Button>
+    <label htmlFor="contained-button-file"> <Input
+    accept="image/*" id="contained-button-file" multiple
+    type="file" /> <Button variant="contained"
+    component="span"> Upload </Button> </label>
+    <label htmlFor="icon-button-file"> <Input
+    accept="image/*" id="icon-button-file"
+    type="file" /> <IconButton color="primary"
+    aria-label="upload picture" component="span">
+    <PhotoCamera /> </IconButton> </label>
   </text>
-  <paragraph>
-    <text>
-      In addition to using the default button colors, you can add custom ones,
-      or disable any you don't need. See the
-    </text>
-    <link>Adding new colors</link>
-    <text>example for more info.</text>
-  </paragraph>
   <heading level="2">
     Sizes
     <text>Sizes</text>
@@ -16824,45 +16718,6 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <heading level="2">
-    Upload button
-    <text>Upload button</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <label>
-    UPLOAD
-    <button>
-      UPLOAD
-      <text>UPLOAD</text>
-    </button>
-  </label>
-  <label>
-    upload picture
-    <button>upload picture</button>
-  </label>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <label htmlFor="contained-button-file"> <Input
-    accept="image/*" id="contained-button-file" multiple
-    type="file" /> <Button variant="contained"
-    component="span"> Upload </Button> </label>
-    <label htmlFor="icon-button-file"> <Input
-    accept="image/*" id="icon-button-file"
-    type="file" /> <IconButton color="primary"
-    aria-label="upload picture" component="span">
-    <PhotoCamera /> </IconButton> </label>
-  </text>
   <heading level="2">
     Buttons with icons and label
     <text>Buttons with icons and label</text>
@@ -16961,6 +16816,10 @@ exports[`firefox /components/buttons/ 1`] = `
   <button>
     CUSTOM CSS
     <text>CUSTOM CSS</text>
+  </button>
+  <button>
+    THEME PROVIDER
+    <text>THEME PROVIDER</text>
   </button>
   <button>
     Bootstrap
@@ -17108,11 +16967,18 @@ exports[`firefox /components/buttons/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      One frequent use case is to perform navigation on the client only, without
-      an HTTP round-trip to the server. The ButtonBase component provides the
-      component prop to handle this use case. Here is a
+      One common use case is to use the button to trigger navigation to a new
+      page. The ButtonBase component provides the component prop to handle this
+      use case. However, for certain focus polyfills ButtonBase requires the DOM
+      node of the provided component. This is achieved by attaching a ref to the
+      component and expecting that the component forwards this ref to the
+      underlying DOM node. Given that many of the interactive components rely on
+      ButtonBase, you should be able to take advantage of it everywhere.
     </text>
-    <link>more detailed guide</link>
+  </paragraph>
+  <paragraph>
+    <text>Here is an</text>
+    <link>integration example with react-router</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -17654,8 +17520,8 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <BpCheckbox /> <BpCheckbox defaultChecked /> <BpCheckbox
-    disabled />
+    <StyledCheckbox /> <StyledCheckbox defaultChecked />
+    <StyledCheckbox disabled />
   </text>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
@@ -19945,11 +19811,12 @@ exports[`firefox /components/pickers 1`] = `
     Date picker desktop
     <text>Date picker desktop</text>
   </label>
-  <textbox value="08/18/2014">
-    mm/dd/yyyy
+  <statictext> </statictext>
+  <textbox description="mm/dd/yyyy" value="08/18/2014">
+    Date picker desktop
     <text>08/18/2014</text>
   </textbox>
-  <button>Choose date, selected date is Aug 18, 2014</button>
+  <button>change date</button>
   <paragraph>
     <text>mm/dd/yyyy</text>
   </paragraph>
@@ -19957,6 +19824,7 @@ exports[`firefox /components/pickers 1`] = `
     Date picker mobile
     <text>Date picker mobile</text>
   </label>
+  <statictext> </statictext>
   <textbox readonly="true" value="08/18/2014">
     Choose date, selected date is Aug 18, 2014
     <text>08/18/2014</text>
@@ -19965,11 +19833,12 @@ exports[`firefox /components/pickers 1`] = `
     Time picker
     <text>Time picker</text>
   </label>
+  <statictext> </statictext>
   <textbox value="09:11 pm">
     hh:mm (a|p)m
     <text>09:11 pm</text>
   </textbox>
-  <button>Choose time, selected time is 9:11 PM</button>
+  <button>change time</button>
   <paragraph>
     <text>hh:mm (a|p)m</text>
   </paragraph>
@@ -20041,8 +19910,9 @@ exports[`firefox /components/pickers 1`] = `
   <text>
     <form noValidate> <TextField id="date"
     label="Birthday" type="date"
-    defaultValue="2017-05-24" sx={{ width: 220 }}
-    InputLabelProps={{ shrink: true, }} /> </form>
+    defaultValue="2017-05-24" style={{ width: 220
+    }} InputLabelProps={{ shrink: true, }} />
+    </form>
   </text>
   <heading level="3">
     Date & Time picker
@@ -20080,7 +19950,7 @@ exports[`firefox /components/pickers 1`] = `
   <text>
     <form noValidate> <TextField id="datetime-local"
     label="Next appointment" type="datetime-local"
-    defaultValue="2017-05-24T10:30" sx={{ width: 250
+    defaultValue="2017-05-24T10:30" style={{ width: 250
     }} InputLabelProps={{ shrink: true, }} />
     </form>
   </text>
@@ -20135,7 +20005,7 @@ exports[`firefox /components/pickers 1`] = `
     <form noValidate> <TextField id="time" label="Alarm
     clock" type="time" defaultValue="07:30"
     InputLabelProps={{ shrink: true, }}
-    inputProps={{ step: 300, // 5 min }} sx={{
+    inputProps={{ step: 300, // 5 min }} style={{
     width: 150 }} /> </form>
   </text>
   <heading level="2">
@@ -20479,7 +20349,7 @@ exports[`firefox /components/radio-buttons 1`] = `
   </toolbar>
   <text>
     <Radio {...controlProps('a')} /> <Radio
-    {...controlProps('b')} color="secondary" />
+    {...controlProps('b')} color="primary" />
     <Radio {...controlProps('c')}
     color="default" /> <Radio
     {...controlProps('d')} sx={{ color:
@@ -20652,13 +20522,13 @@ exports[`firefox /components/radio-buttons 1`] = `
     component="legend">Gender</FormLabel> <RadioGroup
     defaultValue="female" aria-label="gender"
     name="customized-radios"> <FormControlLabel
-    value="female" control={<BpRadio />}
+    value="female" control={<StyledRadio />}
     label="Female" /> <FormControlLabel value="male"
-    control={<BpRadio />} label="Male" />
-    <FormControlLabel value="other" control={<BpRadio
+    control={<StyledRadio />} label="Male" />
+    <FormControlLabel value="other" control={<StyledRadio
     />} label="Other" /> <FormControlLabel
-    value="disabled" disabled control={<BpRadio />}
-    label="(Disabled option)" /> </RadioGroup>
+    value="disabled" disabled control={<StyledRadio
+    />} label="(Disabled option)" /> </RadioGroup>
     </FormControl>
   </text>
   <heading level="2">
@@ -20685,29 +20555,29 @@ exports[`firefox /components/radio-buttons 1`] = `
     <text>Returns</text>
   </heading>
   <paragraph>
-    <text>value (object):</text>
+    <text>value (Object):</text>
   </paragraph>
   <list>
     <listitem>
-      value.name ( string [optional]): The name used to reference the value of
+      value.name ( String [optional]): The name used to reference the value of
       the control.
       <text>
-        value.name (string [optional]): The name used to reference the value of
+        value.name (String [optional]): The name used to reference the value of
         the control.
       </text>
     </listitem>
     <listitem>
-      value.onChange ( func [optional]): Callback fired when a radio button is
+      value.onChange ( Void [optional]): Callback fired when a radio button is
       selected.
       <text>
-        value.onChange (func [optional]): Callback fired when a radio button is
+        value.onChange (Void [optional]): Callback fired when a radio button is
         selected.
       </text>
     </listitem>
     <listitem>
-      value.value ( any [optional]): Value of the selected radio button.
+      value.value ( Any [optional]): Value of the selected radio button.
       <text>
-        value.value (any [optional]): Value of the selected radio button.
+        value.value (Any [optional]): Value of the selected radio button.
       </text>
     </listitem>
   </list>
@@ -20837,6 +20707,1568 @@ exports[`firefox /components/radio-buttons 1`] = `
 `;
 
 exports[`firefox /components/rating/ 1`] = `
+<landmark>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
+    Pagination
+    <text>Pagination</text>
+  </heading>
+  <paragraph>
+    <text>
+      The Pagination component enables the user to select a specific page from a
+      range of pages.
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      Feedback
+      <link>Feedback</link>
+    </listitem>
+    <listitem>
+      Scroll down to 'Exports Analysis' for a more detailed report.
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem>
+      Figma
+      <link>Figma</link>
+    </listitem>
+    <listitem>
+      Adobe
+      <link>Adobe</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Basic pagination
+    <text>Basic pagination</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem>
+        page 1
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 3
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 4
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem>
+        page 1
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 3
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 4
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem>
+        page 1
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 3
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 4
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem>
+        page 1
+        <button disabled="true">
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button disabled="true">
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 3
+        <button disabled="true">
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 4
+        <button disabled="true">
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button disabled="true">
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button disabled="true">
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button disabled="true">Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Pagination count={10} /> <Pagination
+    count={10} color="primary" /> <Pagination
+    count={10} color="secondary" /> <Pagination
+    count={10} disabled />
+  </text>
+  <heading level="2">
+    Outlined pagination
+    <text>Outlined pagination</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem>
+        page 1
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 3
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 4
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem>
+        page 1
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 3
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 4
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem>
+        page 1
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 3
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 4
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem>
+        page 1
+        <button disabled="true">
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button disabled="true">
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 3
+        <button disabled="true">
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 4
+        <button disabled="true">
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button disabled="true">
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button disabled="true">
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button disabled="true">Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Pagination count={10} variant="outlined" />
+    <Pagination count={10} variant="outlined"
+    color="primary" /> <Pagination count={10}
+    variant="outlined" color="secondary" />
+    <Pagination count={10} variant="outlined" disabled
+    />
+  </text>
+  <heading level="2">
+    Rounded pagination
+    <text>Rounded pagination</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem>
+        page 1
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 3
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 4
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem>
+        page 1
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 3
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 4
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Pagination count={10} shape="rounded" />
+    <Pagination count={10} variant="outlined"
+    shape="rounded" />
+  </text>
+  <heading level="2">
+    Pagination size
+    <text>Pagination size</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem>
+        page 1
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 3
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 4
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem>
+        page 1
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 3
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 4
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem>
+        page 1
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 3
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 4
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Pagination count={10} size="small" />
+    <Pagination count={10} /> <Pagination
+    count={10} size="large" />
+  </text>
+  <heading level="2">
+    Buttons
+    <text>Buttons</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can optionally enable first-page and last-page buttons, or disable the
+      previous-page and next-page buttons.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to first page
+        <button disabled="true">Go to first page</button>
+      </listitem>
+      <listitem>
+        Go to previous page
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem>
+        page 1
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 3
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 4
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button>Go to next page</button>
+      </listitem>
+      <listitem>
+        Go to last page
+        <button>Go to last page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        page 1
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 3
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 4
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+    </list>
+  </landmark>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Pagination count={10} showFirstButton showLastButton />
+    <Pagination count={10} hidePrevButton hideNextButton />
+  </text>
+  <heading level="2">
+    Pagination ranges
+    <text>Pagination ranges</text>
+  </heading>
+  <paragraph>
+    <text>
+      You can specify how many digits to display either side of current page
+      with the siblingRange prop, and adjacent to the start and end page number
+      with the boundaryRange prop.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button>Go to previous page</button>
+      </listitem>
+      <listitem>
+        Go to page 1
+        <button>
+          Go to page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to start-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        page 6
+        <button>
+          page 6<text>6</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 11
+        <button>
+          Go to page 11
+          <text>11</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button>Go to previous page</button>
+      </listitem>
+      <listitem>
+        Go to page 1
+        <button>
+          Go to page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to start-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        page 6
+        <button>
+          page 6<text>6</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 7
+        <button>
+          Go to page 7<text>7</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 11
+        <button>
+          Go to page 11
+          <text>11</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button>Go to previous page</button>
+      </listitem>
+      <listitem>
+        Go to page 1
+        <button>
+          Go to page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to start-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        page 6
+        <button>
+          page 6<text>6</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 11
+        <button>
+          Go to page 11
+          <text>11</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button>Go to previous page</button>
+      </listitem>
+      <listitem>
+        Go to page 1
+        <button>
+          Go to page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to start-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        page 6
+        <button>
+          page 6<text>6</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 7
+        <button>
+          Go to page 7<text>7</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 11
+        <button>
+          Go to page 11
+          <text>11</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Pagination count={11} defaultPage={6}
+    siblingCount={0} /> <Pagination count={11}
+    defaultPage={6} /> {/* Default ranges */}
+    <Pagination count={11} defaultPage={6}
+    siblingCount={0} boundaryCount={2} /> <Pagination
+    count={11} defaultPage={6} boundaryCount={2}
+    />
+  </text>
+  <heading level="2">
+    Controlled pagination
+    <text>Controlled pagination</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Page: 1</text>
+  </paragraph>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem>
+        page 1
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 3
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 4
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Typography>Page: {page}</Typography> <Pagination
+    count={10} page={page} onChange={handleChange}
+    />
+  </text>
+  <heading level="2">
+    Router integration
+    <text>Router integration</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <landmark>
+    pagination navigation
+    <list>
+      <listitem>
+        Go to previous page
+        <button disabled="true">Go to previous page</button>
+      </listitem>
+      <listitem>
+        page 1
+        <button>
+          page 1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 3
+        <button>
+          Go to page 3<text>3</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 4
+        <button>
+          Go to page 4<text>4</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to end-ellipsis page
+        <text>…</text>
+      </listitem>
+      <listitem>
+        Go to page 10
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        Go to next page
+        <button>Go to next page</button>
+      </listitem>
+    </list>
+  </landmark>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    usePagination
+    <text>usePagination</text>
+  </heading>
+  <paragraph>
+    <text>
+      For advanced customization use cases, a headless usePagination() hook is
+      exposed. It accepts almost the same options as the Pagination component
+      minus all the props related to the rendering of JSX. The Pagination
+      component is built on this hook.
+    </text>
+  </paragraph>
+  <text>
+    import { usePagination } from
+    '@material-ui/core/Pagination';
+  </text>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <landmark>
+    <list>
+      <listitem>
+        previous
+        <button disabled="true">
+          previous
+          <text>previous</text>
+        </button>
+      </listitem>
+      <listitem>
+        1
+        <button>
+          1<text>1</text>
+        </button>
+      </listitem>
+      <listitem>
+        2
+        <button>
+          2<text>2</text>
+        </button>
+      </listitem>
+      <listitem>
+        3
+        <button>
+          3<text>3</text>
+        </button>
+      </listitem>
+      <listitem>
+        4
+        <button>
+          4<text>4</text>
+        </button>
+      </listitem>
+      <listitem>
+        5
+        <button>
+          5<text>5</text>
+        </button>
+      </listitem>
+      <listitem>
+        …<text>…</text>
+      </listitem>
+      <listitem>
+        10
+        <button>
+          10
+          <text>10</text>
+        </button>
+      </listitem>
+      <listitem>
+        next
+        <button>
+          next
+          <text>next</text>
+        </button>
+      </listitem>
+    </list>
+  </landmark>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Table pagination
+    <text>Table pagination</text>
+  </heading>
+  <paragraph>
+    <text>
+      The Pagination component was designed to paginate a list of arbitrary
+      items when infinite loading isn't used. It's preferred in
+      contexts where SEO is important, for instance, a blog.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      For the pagination of a large set of tabular data, you should use the
+      TablePagination component.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Rows per page:</text>
+  </paragraph>
+  <button haspopup="true">
+    Rows per page: 10
+    <text>10</text>
+  </button>
+  <paragraph>
+    <text>21-30 of 100</text>
+  </paragraph>
+  <button>Go to previous page</button>
+  <button>Go to next page</button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <TablePagination component="div" count={100}
+    page={page} onPageChange={handleChangePage}
+    rowsPerPage={rowsPerPage}
+    onRowsPerPageChange={handleChangeRowsPerPage} />
+  </text>
+  <blockquote>
+    <paragraph>
+      <text>
+        ⚠️ Note that the Pagination page prop starts at 1 to match the
+        requirement of including the value in the URL, while the TablePagination
+        page prop stats at 0 to match the requirement of zero-based JavaScript
+        arrays that comes with rendering a lot of tabular data.
+      </text>
+    </paragraph>
+  </blockquote>
+  <paragraph>
+    <text>You can learn more about this use case in the</text>
+    <link>table section</link>
+    <text>of the documentation.</text>
+  </paragraph>
+  <heading level="2">
+    Accessibility
+    <text>Accessibility</text>
+  </heading>
+  <heading level="3">
+    ARIA
+    <text>ARIA</text>
+  </heading>
+  <paragraph>
+    <text>
+      The root node has a role of "navigation" and aria-label
+      "pagination navigation" by default. The page items have an
+      aria-label that identifies the purpose of the item ("go to first
+      page", "go to previous page", "go to page 1"
+      etc.). You can override these using the getItemAriaLabel prop.
+    </text>
+  </paragraph>
+  <heading level="3">
+    Keyboard
+    <text>Keyboard</text>
+  </heading>
+  <paragraph>
+    <text>
+      The pagination items are in tab order, with a tabindex of "0".
+    </text>
+  </paragraph>
+  <heading level="2">
+    API
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem>
+      <Pagination />
+      <link><Pagination /></link>
+    </listitem>
+    <listitem>
+      <PaginationItem />
+      <link><PaginationItem /></link>
+    </listitem>
+  </list>
+  <separator></separator>
+  <link>Menu</link>
+  <group>
+    Was this page helpful?
+    <text>Was this page helpful?</text>
+    <togglebutton>Yes</togglebutton>
+    <togglebutton>No</togglebutton>
+  </group>
+  <link>Speed Dial</link>
+</landmark>;
+
+`;
+
+exports[`firefox /components/rating/ 2`] = `
 <landmark>
   <link>EDIT THIS PAGE</link>
   <heading level="1">
@@ -23119,22 +24551,6 @@ exports[`firefox /components/slider 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Limitations
-    <text>Limitations</text>
-  </heading>
-  <heading level="3">
-    IE 11
-    <text>IE 11</text>
-  </heading>
-  <paragraph>
-    <text>
-      The slider's value label is not centered in IE 11. The alignement is
-      not handled to make customizations easier with the lastest browsers. You
-      can solve the issue with:
-    </text>
-  </paragraph>
-  <text>.MuiSlider-valueLabel { left: calc(-50% - 4px); }</text>
-  <heading level="2">
     API
     <text>API</text>
   </heading>
@@ -23322,7 +24738,7 @@ exports[`firefox /components/switches/ 1`] = `
   </toolbar>
   <text>
     <Switch {...label} defaultChecked /> <Switch
-    {...label} defaultChecked color="secondary" />
+    {...label} defaultChecked color="primary" />
     <Switch {...label} defaultChecked color="default"
     /> <GreenSwitch {...label} defaultChecked />
   </text>
@@ -23421,16 +24837,6 @@ exports[`firefox /components/switches/ 1`] = `
     navigation of our components.
   </button>
   <label>
-    Material-UI switch
-    <checkbox checked="true">Material-UI switch</checkbox>
-    <text>Material-UI switch</text>
-  </label>
-  <label>
-    Android 12
-    <checkbox checked="true">Android 12</checkbox>
-    <text>Android 12</text>
-  </label>
-  <label>
     iOS style
     <checkbox checked="true">iOS style</checkbox>
     <text>iOS style</text>
@@ -23444,13 +24850,22 @@ exports[`firefox /components/switches/ 1`] = `
   </paragraph>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <FormGroup> <FormControlLabel control={<IOSSwitch
+    defaultChecked />} label="iOS style" /> <Stack
+    direction="row" spacing={1}
+    alignItems="center"> <Typography>Off</Typography>
+    <AntSwitch defaultChecked inputProps={{ 'aria-label':
+    'ant design' }} />
+    <Typography>On</Typography> </Stack> </FormGroup>
+  </text>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -24476,11 +25891,14 @@ exports[`firefox /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      One frequent use case is to perform navigation on the client only, without
-      an HTTP round-trip to the server. The Tab component provides the component
-      prop to handle this use case. Here is a
+      One common use case is to perform navigation on the client only, without
+      an HTTP round-trip to the server. The Link component provides the
+      component prop to handle this use case.
     </text>
-    <link>more detailed guide</link>
+  </paragraph>
+  <paragraph>
+    <text>Here is an</text>
+    <link>integration example with react-router</link>
     <text>.</text>
   </paragraph>
   <heading level="2">
@@ -24705,9 +26123,11 @@ exports[`firefox /components/text-fields/ 1`] = `
   <paragraph>
     <text>
       The TextField wrapper component is a complete form control including a
-      label, input, and help text. It comes with three variants: outlined
-      (default), filled, and standard.
+      label, input, and help text.
     </text>
+  </paragraph>
+  <paragraph>
+    <text>It supports standard, outlined, and filled styling.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -24742,11 +26162,10 @@ exports[`firefox /components/text-fields/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <TextField id="outlined-basic" label="Outlined"
-    variant="outlined" /> <TextField id="filled-basic"
-    label="Filled" variant="filled" /> <TextField
-    id="standard-basic" label="Standard"
-    variant="standard" />
+    <TextField id="outlined-basic" label="Outlined" />
+    <TextField id="filled-basic" label="Filled"
+    variant="filled" /> <TextField id="standard-basic"
+    label="Standard" variant="standard" />
   </text>
   <paragraph>
     <text>
@@ -26930,13 +28349,15 @@ exports[`firefox /components/tooltips/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Tooltip title={longText}> <Button sx={{ m: 1
-    }}>Default Width [300px]</Button> </Tooltip>
-    <CustomWidthTooltip title={longText}> <Button
-    sx={{ m: 1 }}>Custom Width [500px]</Button>
-    </CustomWidthTooltip> <NoMaxWidthTooltip
-    title={longText}> <Button sx={{ m: 1
-    }}>No wrapping</Button> </NoMaxWidthTooltip>
+    <Tooltip title={longText}> <Button
+    className={classes.button}>Default Width [300px]</Button>
+    </Tooltip> <Tooltip title={longText} classes={{
+    tooltip: classes.customWidth }}> <Button
+    className={classes.button}>Custom Width [500px]</Button>
+    </Tooltip> <Tooltip title={longText} classes={{
+    tooltip: classes.noMaxWidth }}> <Button
+    className={classes.button}>No wrapping</Button>
+    </Tooltip>
   </text>
   <heading level="2">
     Interactive
@@ -27514,27 +28935,13 @@ exports[`firefox /components/tree-view/ 1`] = `
   </tree>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <TreeView aria-label="file system navigator"
-    defaultCollapseIcon={<ExpandMoreIcon />}
-    defaultExpandIcon={<ChevronRightIcon />} sx={{
-    height: 240, flexGrow: 1, maxWidth: 400, overflowY: 'auto'
-    }} > <TreeItem nodeId="1"
-    label="Applications"> <TreeItem nodeId="2"
-    label="Calendar" /> </TreeItem> <TreeItem
-    nodeId="5" label="Documents"> <TreeItem
-    nodeId="10" label="OSS" /> <TreeItem
-    nodeId="6" label="Material-UI"> <TreeItem
-    nodeId="8" label="index.js" /> </TreeItem>
-    </TreeItem> </TreeView>
-  </text>
   <heading level="2">
     Multi-selection
     <text>Multi-selection</text>
