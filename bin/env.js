@@ -16,6 +16,9 @@ async function main() {
 	const yarnVersion = await new Promise((resolve, reject) => {
 		const yarnProcess = childProcess.spawnSync("yarn", ["--version"]);
 		console.log(yarnProcess);
+		if (yarnProcess.stderr) {
+			reject(yarnProcess.stderr);
+		}
 		resolve(yarnProcess.stdout);
 	});
 
