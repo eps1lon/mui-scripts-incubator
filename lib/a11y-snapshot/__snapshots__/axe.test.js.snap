@@ -71,13 +71,14 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-valid-attr-value?application=axeAPI",
     "id": "aria-valid-attr-value",
     "nodes": Array [
-      "input[aria-labelledby=\\"discrete-slider-small-steps\\"]",
+      "input[aria-label=\\"Small\\\\ steps\\"]",
     ],
   },
   Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/label?application=axeAPI",
     "id": "label",
     "nodes": Array [
+      ".Mui-disabled.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiSlider-thumb.MuiSlider-thumbColorPrimary > input[aria-valuemax=\\"\\\\31 10\\"][aria-valuemin=\\"\\\\31 0\\"][min=\\"\\\\31 0\\"]",
       "input[value=\\"\\\\31 0\\"][aria-orientation=\\"horizontal\\"][aria-valuemax=\\"\\\\31 00\\"]",
     ],
   },
@@ -88,7 +89,18 @@ exports[`chromium /components/switches/ 1`] = `Array []`;
 
 exports[`chromium /components/tabs/ 1`] = `Array []`;
 
-exports[`chromium /components/text-fields/ 1`] = `Array []`;
+exports[`chromium /components/text-fields/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/label?application=axeAPI",
+    "id": "label",
+    "nodes": Array [
+      "#filled-hidden-label-small",
+      "#filled-hidden-label-normal",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/tooltips/ 1`] = `Array []`;
 
