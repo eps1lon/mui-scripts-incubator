@@ -67,7 +67,7 @@ async function main(argv) {
 	);
 
 	await a11ySnapshot({
-		argv: "--updateSnapshot --runInBand --detectOpenHandles",
+		argv: ["--updateSnapshot", "--runInBand", "--detectOpenHandles"],
 		targetUrl,
 	});
 
