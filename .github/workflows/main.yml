@@ -23,7 +23,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v1
         with:
-          node-version: "12.x"
+          node-version: "16.x"
       # TODO: Fails on scheduled and repository dispatch events e.g. https://github.com/eps1lon/mui-scripts-incubator/runs/1506954046?check_suite_focus=true
       # - name: Cache modules
       #   uses: actions/cache@v2
@@ -38,7 +38,8 @@ jobs:
       #       cache-v1-${{ runner.os }}
       - uses: microsoft/playwright-github-action@v1
       - name: install
-        run: yarn install
+        # TODO: Bump supported node versions in screen-reader-testing-library
+        run: yarn install --ignore-engines
       - name: Check environment
         run: |
           node bin/env.js
