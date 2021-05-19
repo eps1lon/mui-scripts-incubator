@@ -22,6 +22,7 @@ async function main() {
 		resolve(yarnProcess.stdout);
 	});
 
+	console.log(process.env);
 	console.log("Node\t%s", process.version);
 	console.log("OS\t%s, %s, %s, %s", os.platform, os.type, os.version, os.arch);
 	console.log("yarn\t%s", yarnVersion);

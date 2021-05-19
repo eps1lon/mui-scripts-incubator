@@ -36,6 +36,7 @@ jobs:
       #     key: cache-v1-${{ runner.os }}-${{ hashFiles('yarn.lock') }}
       #     restore-keys: |
       #       cache-v1-${{ runner.os }}
+      - run: Write-Host "$Env:Path"
       - uses: microsoft/playwright-github-action@v1
       - name: install
         run: yarn install
