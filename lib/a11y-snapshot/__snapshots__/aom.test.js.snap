@@ -257,7 +257,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.34. View versions page.</link>
+      <link>v5.0.0-alpha.33. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -8179,6 +8179,9 @@ exports[`chromium /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Volume</text>
+  </paragraph>
   <slider
     orientation="horizontal"
     value="30"
@@ -8188,6 +8191,9 @@ exports[`chromium /components/slider 1`] = `
   >
     Volume
   </slider>
+  <paragraph>
+    <text>Disabled slider</text>
+  </paragraph>
   <slider
     disabled="true"
     orientation="horizontal"
@@ -8200,16 +8206,13 @@ exports[`chromium /components/slider 1`] = `
   </slider>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Discrete sliders
     <text>Discrete sliders</text>
@@ -8217,8 +8220,11 @@ exports[`chromium /components/slider 1`] = `
   <paragraph>
     <text>
       Discrete sliders can be adjusted to a specific value by referencing its
-      value indicator. You can generate a mark for each step with
+      value indicator. By order of demos:
     </text>
+  </paragraph>
+  <paragraph>
+    <text>You can generate a mark for each step with</text>
     <code>$SOME_CODE</code>
     <text>.</text>
   </paragraph>
@@ -8226,6 +8232,9 @@ exports[`chromium /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Temperature</text>
+  </paragraph>
   <slider
     orientation="horizontal"
     value="30"
@@ -8235,26 +8244,28 @@ exports[`chromium /components/slider 1`] = `
   >
     Temperature
   </slider>
+  <paragraph>
+    <text>Disabled</text>
+  </paragraph>
   <slider
     disabled="true"
     orientation="horizontal"
     value="30"
     valuemax="110"
     valuemin="10"
-    valuetext=""
-  ></slider>
+    valuetext="30°C"
+  >
+    Disabled
+  </slider>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="3">
     Small steps
     <text>Small steps</text>
@@ -8266,6 +8277,9 @@ exports[`chromium /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Small steps</text>
+  </paragraph>
   <slider
     orientation="horizontal"
     value="5.000000058430487e-8"
@@ -8300,6 +8314,9 @@ exports[`chromium /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Custom marks</text>
+  </paragraph>
   <slider
     orientation="horizontal"
     value="20"
@@ -8338,6 +8355,9 @@ exports[`chromium /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Restricted values</text>
+  </paragraph>
   <slider
     orientation="horizontal"
     value="20"
@@ -8372,6 +8392,9 @@ exports[`chromium /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Always visible</text>
+  </paragraph>
   <slider
     orientation="horizontal"
     value="80"
@@ -8409,6 +8432,9 @@ exports[`chromium /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Temperature range</text>
+  </paragraph>
   <slider
     orientation="horizontal"
     value="20"
@@ -8465,6 +8491,9 @@ exports[`chromium /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Minimum distance</text>
+  </paragraph>
   <slider
     orientation="horizontal"
     value="20"
@@ -8483,6 +8512,9 @@ exports[`chromium /components/slider 1`] = `
   >
     Minimum distance
   </slider>
+  <paragraph>
+    <text>Minimum distance shift</text>
+  </paragraph>
   <slider
     orientation="horizontal"
     value="20"
@@ -8503,16 +8535,13 @@ exports[`chromium /components/slider 1`] = `
   </slider>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Slider with input field
     <text>Slider with input field</text>
@@ -8550,35 +8579,6 @@ exports[`chromium /components/slider 1`] = `
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <heading level="2">
-    Color
-    <text>Color</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <slider
-    orientation="horizontal"
-    value="30"
-    valuemax="100"
-    valuemin="0"
-    valuetext="30°C"
-  >
-    Temperature
-  </slider>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Customized sliders
     <text>Customized sliders</text>
@@ -8669,6 +8669,9 @@ exports[`chromium /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Temperature</text>
+  </paragraph>
   <slider
     orientation="horizontal"
     value="30"
@@ -8684,7 +8687,7 @@ exports[`chromium /components/slider 1`] = `
     value="30"
     valuemax="100"
     valuemin="0"
-    valuetext=""
+    valuetext="30°C"
   >
     Temperature
   </slider>
@@ -8750,6 +8753,9 @@ exports[`chromium /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Temperature</text>
+  </paragraph>
   <slider
     orientation="vertical"
     value="30"
@@ -8761,16 +8767,13 @@ exports[`chromium /components/slider 1`] = `
   </slider>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Track
     <text>Track</text>
@@ -9015,24 +9018,6 @@ exports[`chromium /components/slider 1`] = `
       <text>prop.</text>
     </listitem>
   </list>
-  <heading level="2">
-    Limitations
-    <text>Limitations</text>
-  </heading>
-  <heading level="3">
-    IE 11
-    <text>IE 11</text>
-  </heading>
-  <paragraph>
-    <text>
-      The slider's value label is not centered in IE 11. The alignement is
-      not handled to make customizations easier with the lastest browsers. You
-      can solve the issue with:
-    </text>
-  </paragraph>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     API
     <text>API</text>
@@ -11266,27 +11251,32 @@ exports[`chromium /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <form>
+    <Label>
+      <text>Hidden label</text>
+    </Label>
     <text> </text>
     <textbox value="Small">
+      Hidden label
       <text>Small</text>
     </textbox>
+    <Label>
+      <text>Hidden label</text>
+    </Label>
     <text> </text>
     <textbox value="Normal">
+      Hidden label
       <text>Normal</text>
     </textbox>
   </form>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Layout
     <text>Layout</text>
@@ -14003,7 +13993,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.34. View versions page.</link>
+      <link>v5.0.0-alpha.33. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -22472,29 +22462,27 @@ exports[`firefox /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Volume</text>
+  </paragraph>
   <slider orientation="horizontal" value="30" valuetext="30">
     Volume
   </slider>
+  <paragraph>
+    <text>Disabled slider</text>
+  </paragraph>
   <slider disabled="true" orientation="horizontal" value="30" valuetext="30">
     Disabled slider
   </slider>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Stack spacing={2} direction="row" sx={{
-    mb: 1 }}> <VolumeDown /> <Slider
-    aria-label="Volume" value={value}
-    onChange={handleChange} /> <VolumeUp /> </Stack>
-    <Slider disabled defaultValue={30} aria-label="Disabled
-    slider" />
-  </text>
   <heading level="2">
     Discrete sliders
     <text>Discrete sliders</text>
@@ -22502,39 +22490,44 @@ exports[`firefox /components/slider 1`] = `
   <paragraph>
     <text>
       Discrete sliders can be adjusted to a specific value by referencing its
-      value indicator. You can generate a mark for each step with
-      marks={true}.
+      value indicator. By order of demos:
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      You can generate a mark for each step with marks={true}.
     </text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Temperature</text>
+  </paragraph>
   <slider orientation="horizontal" value="30°C" valuetext="30°C">
     Temperature
   </slider>
+  <paragraph>
+    <text>Disabled</text>
+  </paragraph>
   <slider
     disabled="true"
     orientation="horizontal"
-    value="30"
-    valuetext="30"
-  ></slider>
+    value="30°C"
+    valuetext="30°C"
+  >
+    Disabled
+  </slider>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Slider aria-label="Temperature" defaultValue={30}
-    getAriaValueText={valuetext} valueLabelDisplay="auto"
-    step={10} marks min={10} max={110} />
-    <Slider defaultValue={30} step={10} marks
-    min={10} max={110} disabled />
-  </text>
   <heading level="3">
     Small steps
     <text>Small steps</text>
@@ -22546,6 +22539,9 @@ exports[`firefox /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Small steps</text>
+  </paragraph>
   <slider orientation="horizontal" value="5e-8°C" valuetext="5e-8°C">
     Small steps
   </slider>
@@ -22559,8 +22555,10 @@ exports[`firefox /components/slider 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Slider aria-label="Small steps"
+    <Typography id="discrete-slider-small-steps" gutterBottom>
+    Small steps </Typography> <Slider
     defaultValue={0.00000005} getAriaValueText={valuetext}
+    aria-labelledby="discrete-slider-small-steps"
     step={0.00000001} marks min={-0.00000005}
     max={0.0000001} valueLabelDisplay="auto" />
   </text>
@@ -22577,6 +22575,9 @@ exports[`firefox /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Custom marks</text>
+  </paragraph>
   <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Custom marks
   </slider>
@@ -22590,8 +22591,10 @@ exports[`firefox /components/slider 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Slider aria-label="Custom marks" defaultValue={20}
-    getAriaValueText={valuetext} step={10}
+    <Typography id="discrete-slider-custom" gutterBottom> Custom
+    marks </Typography> <Slider defaultValue={20}
+    getAriaValueText={valuetext}
+    aria-labelledby="discrete-slider-custom" step={10}
     valueLabelDisplay="auto" marks={marks} />
   </text>
   <heading level="3">
@@ -22608,6 +22611,9 @@ exports[`firefox /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Restricted values</text>
+  </paragraph>
   <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Restricted values
   </slider>
@@ -22621,9 +22627,11 @@ exports[`firefox /components/slider 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Slider aria-label="Restricted values"
-    defaultValue={20} valueLabelFormat={valueLabelFormat}
-    getAriaValueText={valuetext} step={null}
+    <Typography id="discrete-slider-restrict" gutterBottom>
+    Restricted values </Typography> <Slider defaultValue={20}
+    valueLabelFormat={valueLabelFormat}
+    getAriaValueText={valuetext}
+    aria-labelledby="discrete-slider-restrict" step={null}
     valueLabelDisplay="auto" marks={marks} />
   </text>
   <heading level="3">
@@ -22640,6 +22648,9 @@ exports[`firefox /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Always visible</text>
+  </paragraph>
   <slider orientation="horizontal" value="80°C" valuetext="80°C">
     Always visible
   </slider>
@@ -22653,8 +22664,10 @@ exports[`firefox /components/slider 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Slider aria-label="Always visible" defaultValue={80}
-    getAriaValueText={valuetext} step={10}
+    <Typography id="discrete-slider-always" gutterBottom> Always
+    visible </Typography> <Slider defaultValue={80}
+    getAriaValueText={valuetext}
+    aria-labelledby="discrete-slider-always" step={10}
     marks={marks} valueLabelDisplay="on" />
   </text>
   <heading level="2">
@@ -22671,6 +22684,9 @@ exports[`firefox /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Temperature range</text>
+  </paragraph>
   <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Temperature range
   </slider>
@@ -22687,10 +22703,11 @@ exports[`firefox /components/slider 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <Slider getAriaLabel={() => 'Temperature range'}
-    value={value} onChange={handleChange}
-    valueLabelDisplay="auto" getAriaValueText={valuetext}
-    />
+    <Typography id="range-slider-demo" gutterBottom> Temperature
+    range </Typography> <Slider value={value}
+    onChange={handleChange} valueLabelDisplay="auto"
+    aria-labelledby="range-slider-demo"
+    getAriaValueText={valuetext} />
   </text>
   <heading level="3">
     Minimum distance
@@ -22710,12 +22727,18 @@ exports[`firefox /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Minimum distance</text>
+  </paragraph>
   <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Minimum distance
   </slider>
   <slider orientation="horizontal" value="37°C" valuetext="37°C">
     Minimum distance
   </slider>
+  <paragraph>
+    <text>Minimum distance shift</text>
+  </paragraph>
   <slider orientation="horizontal" value="20°C" valuetext="20°C">
     Minimum distance shift
   </slider>
@@ -22724,22 +22747,13 @@ exports[`firefox /components/slider 1`] = `
   </slider>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Slider getAriaLabel={() => 'Minimum distance'}
-    value={value1} onChange={handleChange1}
-    valueLabelDisplay="auto" getAriaValueText={valuetext}
-    disableSwap /> <Slider getAriaLabel={() => 'Minimum
-    distance shift'} value={value2}
-    onChange={handleChange2} valueLabelDisplay="auto"
-    getAriaValueText={valuetext} disableSwap />
-  </text>
   <heading level="2">
     Slider with input field
     <text>Slider with input field</text>
@@ -22771,30 +22785,6 @@ exports[`firefox /components/slider 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <heading level="2">
-    Color
-    <text>Color</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <slider orientation="horizontal" value="30°C" valuetext="30°C">
-    Temperature
-  </slider>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Slider aria-label="Temperature" defaultValue={30}
-    getAriaValueText={valuetext} color="secondary" />
-  </text>
   <heading level="2">
     Customized sliders
     <text>Customized sliders</text>
@@ -22855,10 +22845,13 @@ exports[`firefox /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Temperature</text>
+  </paragraph>
   <slider orientation="vertical" value="30°C" valuetext="30°C">
     Temperature
   </slider>
-  <slider disabled="true" orientation="vertical" value="30" valuetext="30">
+  <slider disabled="true" orientation="vertical" value="30°C" valuetext="30°C">
     Temperature
   </slider>
   <slider orientation="vertical" value="20°C" valuetext="20°C">
@@ -22905,25 +22898,21 @@ exports[`firefox /components/slider 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <paragraph>
+    <text>Temperature</text>
+  </paragraph>
   <slider orientation="vertical" value="30" valuetext="30">
     Temperature
   </slider>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Slider sx={{ '& input[type="range"]':
-    { WebkitAppearance: 'slider-vertical', }, }}
-    orientation="vertical" defaultValue={30}
-    aria-label="Temperature"
-    onKeyDown={preventHorizontalKeyboardNavigation} />
-  </text>
   <heading level="2">
     Track
     <text>Track</text>
@@ -23111,22 +23100,6 @@ exports[`firefox /components/slider 1`] = `
       </text>
     </listitem>
   </list>
-  <heading level="2">
-    Limitations
-    <text>Limitations</text>
-  </heading>
-  <heading level="3">
-    IE 11
-    <text>IE 11</text>
-  </heading>
-  <paragraph>
-    <text>
-      The slider's value label is not centered in IE 11. The alignement is
-      not handled to make customizations easier with the lastest browsers. You
-      can solve the issue with:
-    </text>
-  </paragraph>
-  <text>.MuiSlider-valueLabel { left: calc(-50% - 4px); }</text>
   <heading level="2">
     API
     <text>API</text>
@@ -25510,31 +25483,34 @@ exports[`firefox /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <form>
+    <label>
+      Hidden label
+      <text>Hidden label</text>
+    </label>
     <statictext> </statictext>
     <textbox value="Small">
+      Hidden label
       <text>Small</text>
     </textbox>
+    <label>
+      Hidden label
+      <text>Hidden label</text>
+    </label>
     <statictext> </statictext>
     <textbox value="Normal">
+      Hidden label
       <text>Normal</text>
     </textbox>
   </form>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <TextField hiddenLabel id="filled-hidden-label-small"
-    defaultValue="Small" variant="filled"
-    size="small" /> <TextField hiddenLabel
-    id="filled-hidden-label-normal" defaultValue="Normal"
-    variant="filled" />
-  </text>
   <heading level="2">
     Layout
     <text>Layout</text>
