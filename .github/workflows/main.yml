@@ -23,7 +23,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v1
         with:
-          node-version: "12.x"
+          node-version: "16.x"
       # TODO: Fails on scheduled and repository dispatch events e.g. https://github.com/eps1lon/mui-scripts-incubator/runs/1506954046?check_suite_focus=true
       # - name: Cache modules
       #   uses: actions/cache@v2
