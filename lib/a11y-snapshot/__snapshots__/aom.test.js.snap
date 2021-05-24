@@ -8134,15 +8134,6 @@ exports[`chromium /components/slider 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
-      <text>📦</text>
-      <link>22 kB gzipped</link>
-      <text>
-        (but only +8 kB when used together with other Material-UI components).
-      </text>
-    </listitem>
-  </list>
-  <list>
-    <listitem level="1">
       <link>Feedback</link>
     </listitem>
     <listitem level="1">
@@ -8946,6 +8937,12 @@ exports[`chromium /components/slider 1`] = `
     Unstyled
     <text>Unstyled</text>
   </heading>
+  <list>
+    <listitem level="1">
+      <text>📦</text>
+      <link>5.6 kB gzipped</link>
+    </listitem>
+  </list>
   <paragraph>
     <text>
       The slider also comes with an unstyled version. It's ideal for doing
@@ -22418,17 +22415,6 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <list>
     <listitem>
-      📦 22 kB gzipped (but only +8 kB when used together with other Material-UI
-      components).
-      <text>📦</text>
-      <link>22 kB gzipped</link>
-      <text>
-        (but only +8 kB when used together with other Material-UI components).
-      </text>
-    </listitem>
-  </list>
-  <list>
-    <listitem>
       Feedback
       <link>Feedback</link>
     </listitem>
@@ -23052,6 +23038,13 @@ exports[`firefox /components/slider 1`] = `
     Unstyled
     <text>Unstyled</text>
   </heading>
+  <list>
+    <listitem>
+      📦 5.6 kB gzipped
+      <text>📦</text>
+      <link>5.6 kB gzipped</link>
+    </listitem>
+  </list>
   <paragraph>
     <text>
       The slider also comes with an unstyled version. It's ideal for doing
