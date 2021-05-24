@@ -52,8 +52,7 @@ steps:
     displayName: Cache screen-reader binaries
 
   - script: |
-      # TODO: Bump supported node versions in screen-reader-testing-library
-      yarn install --ignore-engines
+      yarn install
     displayName: "install dependencies"
 
   - script: |
