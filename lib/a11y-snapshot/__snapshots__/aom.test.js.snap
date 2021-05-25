@@ -263,6 +263,7 @@ exports[`chromium / 1`] = `
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <Iframe>Netlify Drawer</Iframe>
   <alert></alert>
 </WebArea>;
 
@@ -8134,6 +8135,15 @@ exports[`chromium /components/slider 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
+      <text>📦</text>
+      <link>22 kB gzipped</link>
+      <text>
+        (but only +8 kB when used together with other Material-UI components).
+      </text>
+    </listitem>
+  </list>
+  <list>
+    <listitem level="1">
       <link>Feedback</link>
     </listitem>
     <listitem level="1">
@@ -8937,12 +8947,6 @@ exports[`chromium /components/slider 1`] = `
     Unstyled
     <text>Unstyled</text>
   </heading>
-  <list>
-    <listitem level="1">
-      <text>📦</text>
-      <link>5.6 kB gzipped</link>
-    </listitem>
-  </list>
   <paragraph>
     <text>
       The slider also comes with an unstyled version. It's ideal for doing
@@ -14006,6 +14010,19 @@ exports[`firefox / 1`] = `
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <iframe>
+    Netlify Drawer
+    <document>
+      Netlify Drawer
+      <button>
+        Open Netlify Drawer
+        <img>Logo</img>
+      </button>
+      <text>
+        <alert></alert>
+      </text>
+    </document>
+  </iframe>
   <text>
     <alert></alert>
   </text>
@@ -22415,6 +22432,17 @@ exports[`firefox /components/slider 1`] = `
   </paragraph>
   <list>
     <listitem>
+      📦 22 kB gzipped (but only +8 kB when used together with other Material-UI
+      components).
+      <text>📦</text>
+      <link>22 kB gzipped</link>
+      <text>
+        (but only +8 kB when used together with other Material-UI components).
+      </text>
+    </listitem>
+  </list>
+  <list>
+    <listitem>
       Feedback
       <link>Feedback</link>
     </listitem>
@@ -23038,13 +23066,6 @@ exports[`firefox /components/slider 1`] = `
     Unstyled
     <text>Unstyled</text>
   </heading>
-  <list>
-    <listitem>
-      📦 5.6 kB gzipped
-      <text>📦</text>
-      <link>5.6 kB gzipped</link>
-    </listitem>
-  </list>
   <paragraph>
     <text>
       The slider also comes with an unstyled version. It's ideal for doing
