@@ -21,7 +21,7 @@
 		"url": "https://netlify-builds5.firebaseio.com/builds/60ab9484dbd14d0007fa88e3/log",
 		"endpoint": "https://netlify-builds5.firebaseio.com",
 		"path": "/builds/60ab9484dbd14d0007fa88e3/log",
-		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2IjowLCJpYXQiOjE2MjE4NjA2MTcsImQiOnsidWlkIjoiIn19.IjK6i6FBHZj3wwnYMQs1ayVu5-OtMr8o-A5qxWN2FSk"
+		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2IjowLCJpYXQiOjE2MjE5Mjg4OTAsImQiOnsidWlkIjoiIn19.4rxrFLUE24YP3rX8GoLRe5ILkuqN6svCG3LVqZRVc1E"
 	},
 	"title": "[core] Batch small changes (#26434)",
 	"review_url": null,
