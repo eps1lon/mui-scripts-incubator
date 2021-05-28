@@ -9608,8 +9608,12 @@ exports[`chromium /components/tabs/ 1`] = `
   <tablist level="1">
     wrapped label tabs example
     <tab selected="true">
-      NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION
-      <text>NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION</text>
+      NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION THAT SHOULD APPEAR IN THE
+      NEXT LINE
+      <text>
+        NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION THAT SHOULD APPEAR IN THE
+        NEXT LINE
+      </text>
     </tab>
     <tab>
       ITEM TWO
@@ -23762,8 +23766,12 @@ exports[`firefox /components/tabs/ 1`] = `
   <tablist>
     wrapped label tabs example
     <tab selected="true">
-      NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION
-      <text>NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION</text>
+      NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION THAT SHOULD APPEAR IN THE
+      NEXT LINE
+      <text>
+        NEW ARRIVALS IN THE LONGEST TEXT OF NONFICTION THAT SHOULD APPEAR IN THE
+        NEXT LINE
+      </text>
     </tab>
     <tab>
       ITEM TWO
@@ -23787,9 +23795,9 @@ exports[`firefox /components/tabs/ 1`] = `
     <Tabs value={value} onChange={handleChange}
     aria-label="wrapped label tabs example" > <Tab
     value="one" label="New Arrivals in the Longest Text of
-    Nonfiction" wrapped /> <Tab value="two"
-    label="Item Two" /> <Tab value="three"
-    label="Item Three" /> </Tabs>
+    Nonfiction that should appear in the next line" wrapped /> <Tab
+    value="two" label="Item Two" /> <Tab
+    value="three" label="Item Three" /> </Tabs>
   </text>
   <heading level="2">
     Colored tab
