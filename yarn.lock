@@ -3687,7 +3687,7 @@ got@^9.6.0:
     to-readable-stream "^1.0.0"
     url-parse-lax "^3.0.0"
 
-graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.2, graceful-fs@^4.2.4:
+graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.2, graceful-fs@^4.2.4:
   version "4.2.6"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
@@ -5893,10 +5893,10 @@ playwright-testing-library@^2.7.2:
     "@testing-library/dom" "^7.22.2"
     wait-for-expect "^3.0.2"
 
-playwright@1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.10.0.tgz#a14d295f1ad886caf4cc5e674afe03ac832066bc"
-  integrity sha512-b7SGBcCPq4W3pb4ImEDmNXtO0ZkJbZMuWiShsaNJd+rGfY/6fqwgllsAojmxGSgFmijYw7WxCoPiAIEDIH16Kw==
+playwright@1.11.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.11.1.tgz#c5f2946db5195bd099a57ce4e188c01057876cff"
+  integrity sha512-UuMrYuvzttbJXUD7sTVcQBsGRojelGepvuQPD+QtVm/n5zyKvkiUErU/DGRXfX8VDZRdQ5D6qVqZndrydC2b4w==
   dependencies:
     commander "^6.1.0"
     debug "^4.1.1"
@@ -5911,6 +5911,7 @@ playwright@1.10.0:
     rimraf "^3.0.2"
     stack-utils "^2.0.3"
     ws "^7.3.1"
+    yazl "^2.5.1"
 
 pngjs@^5.0.0:
   version "5.0.0"
@@ -6026,16 +6027,7 @@ prop-types@^15.6.2, prop-types@^15.7.2:
     object-assign "^4.1.1"
     react-is "^16.8.1"
 
-proper-lockfile@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/proper-lockfile/-/proper-lockfile-4.1.1.tgz#284cf9db9e30a90e647afad69deb7cb06881262c"
-  integrity sha512-1w6rxXodisVpn7QYvLk706mzprPTAPCYAqxMvctmPN3ekuRk/kuGkGc82pangZiAt4R3lwSuUzheTTn0/Yb7Zg==
-  dependencies:
-    graceful-fs "^4.1.11"
-    retry "^0.12.0"
-    signal-exit "^3.0.2"
-
-proper-lockfile@^4.1.2:
+proper-lockfile@^4.1.1, proper-lockfile@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/proper-lockfile/-/proper-lockfile-4.1.2.tgz#c8b9de2af6b2f1601067f98e01ac66baa223141f"
   integrity sha512-TjNPblN4BwAWMXU8s9AEz4JmQxnD1NNL7bNOY/AKUzyamc379FWASUhc/K1pL2noVb+XmZKLL68cjzLsiOAMaA==
@@ -7659,6 +7651,13 @@ yauzl@^2.10.0:
   dependencies:
     buffer-crc32 "~0.2.3"
     fd-slicer "~1.1.0"
+
+yazl@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/yazl/-/yazl-2.5.1.tgz#a3d65d3dd659a5b0937850e8609f22fffa2b5c35"
+  integrity sha512-phENi2PLiHnHb6QBVot+dJnaAZ0xosj7p3fWl+znIjBDlnMI2PsZCJZ306BPTFOaHf5qdDEI8x5qFrSOBN5vrw==
+  dependencies:
+    buffer-crc32 "~0.2.3"
 
 yoga-layout-prebuilt@^1.9.3:
   version "1.9.3"
