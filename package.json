@@ -48,7 +48,7 @@
 		"lib"
 	],
 	"devDependencies": {
-		"@actions/core": "^1.2.7",
+		"@actions/core": "^1.3.0",
 		"@actions/github": "^4.0.0",
 		"eslint": "^7.25.0",
 		"eslint-plugin-react": "^7.23.2"
