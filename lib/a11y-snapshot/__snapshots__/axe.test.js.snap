@@ -61,7 +61,17 @@ exports[`chromium /components/pickers 1`] = `Array []`;
 
 exports[`chromium /components/radio-buttons 1`] = `Array []`;
 
-exports[`chromium /components/rating/ 1`] = `Array []`;
+exports[`chromium /components/rating/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/duplicate-id-aria?application=axeAPI",
+    "id": "duplicate-id-aria",
+    "nodes": Array [
+      "input[name=\\"simple-controlled\\"][value=\\"\\\\33 \\"][type=\\"radio\\"]",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/selects/ 1`] = `Array []`;
 
