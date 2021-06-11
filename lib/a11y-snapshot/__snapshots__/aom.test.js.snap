@@ -257,7 +257,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.35. View versions page.</link>
+      <link>v5.0.0-alpha.36. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -365,12 +365,21 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         'inherit' | 'primary' | 'secondary'
-        | string
+        | 'success' | 'error' | 'info'
+        | 'warning' | string
         <text>'inherit'</text>
         <LineBreak></LineBreak>
         <text>| 'primary'</text>
         <LineBreak></LineBreak>
         <text>| 'secondary'</text>
+        <LineBreak></LineBreak>
+        <text>| 'success'</text>
+        <LineBreak></LineBreak>
+        <text>| 'error'</text>
+        <LineBreak></LineBreak>
+        <text>| 'info'</text>
+        <LineBreak></LineBreak>
+        <text>| 'warning'</text>
         <LineBreak></LineBreak>
         <text>| string</text>
       </gridcell>
@@ -688,20 +697,6 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         Styles applied to the root element.
         <text>Styles applied to the root element.</text>
-      </gridcell>
-    </row>
-    <row>
-      <gridcell>
-        label
-        <text>label</text>
-      </gridcell>
-      <gridcell>
-        .MuiButton-label
-        <text>.MuiButton-label</text>
-      </gridcell>
-      <gridcell>
-        Styles applied to the span element that wraps the children.
-        <text>Styles applied to the span element that wraps the children.</text>
       </gridcell>
     </row>
     <row>
@@ -3550,12 +3545,15 @@ exports[`chromium /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button disabled="true">
+    SUBMIT
     <progressbar valuetext="">
       <SVGRoot></SVGRoot>
     </progressbar>
+    <text>SUBMIT</text>
   </button>
   <button disabled="true">
-    <text>LOADING...</text>
+    LOADING... FETCH DATA
+    <text>LOADING...FETCH DATA</text>
   </button>
   <button disabled="true">
     SAVE
@@ -14004,7 +14002,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.35. View versions page.</link>
+      <link>v5.0.0-alpha.36. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -14105,6 +14103,14 @@ exports[`firefox /api/button/ 1`] = `
         <text>| 'primary'</text>
         <whitespace></whitespace>
         <text>| 'secondary'</text>
+        <whitespace></whitespace>
+        <text>| 'success'</text>
+        <whitespace></whitespace>
+        <text>| 'error'</text>
+        <whitespace></whitespace>
+        <text>| 'info'</text>
+        <whitespace></whitespace>
+        <text>| 'warning'</text>
         <whitespace></whitespace>
         <text>| string</text>
       </cell>
@@ -14353,17 +14359,6 @@ exports[`firefox /api/button/ 1`] = `
       </cell>
       <cell>
         <text>Styles applied to the root element.</text>
-      </cell>
-    </row>
-    <row>
-      <cell>
-        <text>label</text>
-      </cell>
-      <cell>
-        <text>.MuiButton-label</text>
-      </cell>
-      <cell>
-        <text>Styles applied to the span element that wraps the children.</text>
       </cell>
     </row>
     <row>
@@ -16987,14 +16982,15 @@ exports[`firefox /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <button disabled="true">
-    50
+    50 SUBMIT
     <progressbar checked="mixed" value="50" valuetext="50">
       <diagram></diagram>
     </progressbar>
+    <text>SUBMIT</text>
   </button>
   <button disabled="true">
-    LOADING...
-    <text>LOADING...</text>
+    LOADING... FETCH DATA
+    <text>LOADING...FETCH DATA</text>
   </button>
   <button disabled="true">
     50 SAVE

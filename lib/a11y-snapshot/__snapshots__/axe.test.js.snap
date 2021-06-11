@@ -30,14 +30,6 @@ Array [
       ".MuiLoadingButton-loadingIndicatorStart > .MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorInherit",
     ],
   },
-  Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
-    "id": "button-name",
-    "nodes": Array [
-      ".MuiLoadingButton-loading.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root.MuiLoadingButton-root:nth-child(1)",
-      ".MuiLoadingButton-loading.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root.MuiLoadingButton-root:nth-child(2)",
-    ],
-  },
 ]
 `;
 
