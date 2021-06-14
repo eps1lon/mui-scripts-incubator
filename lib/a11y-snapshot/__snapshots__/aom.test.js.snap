@@ -7969,8 +7969,8 @@ exports[`chromium /components/selects/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      While it's discouraged by the Material Design specification, you can
-      use a select inside a dialog.
+      While it's discouraged by the Material Design guidelines, you can use
+      a select inside a dialog.
     </text>
   </paragraph>
   <button>
@@ -22247,8 +22247,8 @@ exports[`firefox /components/selects/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      While it's discouraged by the Material Design specification, you can
-      use a select inside a dialog.
+      While it's discouraged by the Material Design guidelines, you can use
+      a select inside a dialog.
     </text>
   </paragraph>
   <button>
