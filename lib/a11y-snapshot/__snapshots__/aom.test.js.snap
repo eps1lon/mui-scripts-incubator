@@ -263,6 +263,7 @@ exports[`chromium / 1`] = `
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <Iframe>Netlify Drawer</Iframe>
   <alert></alert>
 </WebArea>;
 
@@ -306,11 +307,6 @@ exports[`chromium /api/button/ 1`] = `
     Props
     <text>Props</text>
   </heading>
-  <paragraph>
-    <text>Props of the</text>
-    <link>ButtonBase</link>
-    <text>component are also available.</text>
-  </paragraph>
   <table>
     <row>
       <columnheader>
@@ -656,6 +652,10 @@ exports[`chromium /api/button/ 1`] = `
   <text>The</text>
   <code>$SOME_CODE</code>
   <text>is forwarded to the root element.</text>
+  <LineBreak></LineBreak>
+  <text>Any other props supplied will be provided to the root element (</text>
+  <link>ButtonBase</link>
+  <text>).</text>
   <heading level="3">
     Inheritance
     <text>Inheritance</text>
@@ -1385,11 +1385,6 @@ exports[`chromium /api/select/ 1`] = `
     Props
     <text>Props</text>
   </heading>
-  <paragraph>
-    <text>Props of the</text>
-    <link>OutlinedInput</link>
-    <text>component are also available.</text>
-  </paragraph>
   <table>
     <row>
       <columnheader>
@@ -1977,6 +1972,10 @@ exports[`chromium /api/select/ 1`] = `
   <text>The</text>
   <code>$SOME_CODE</code>
   <text>is forwarded to the root element.</text>
+  <LineBreak></LineBreak>
+  <text>Any other props supplied will be provided to the root element (</text>
+  <link>OutlinedInput</link>
+  <text>).</text>
   <heading level="3">
     Inheritance
     <text>Inheritance</text>
@@ -3380,6 +3379,10 @@ exports[`chromium /components/buttons/ 1`] = `
     LARGE
     <text>LARGE</text>
   </button>
+  <button>delete</button>
+  <button>delete</button>
+  <button>delete</button>
+  <button>delete</button>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -3488,35 +3491,6 @@ exports[`chromium /components/buttons/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
-  <heading level="3">
-    Sizes
-    <text>Sizes</text>
-  </heading>
-  <paragraph>
-    <text>For larger or smaller icon buttons, use the</text>
-    <code>$SOME_CODE</code>
-    <text>prop.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>delete</button>
-  <button>delete</button>
-  <button>delete</button>
-  <button>delete</button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Customized buttons
     <text>Customized buttons</text>
@@ -3600,8 +3574,7 @@ exports[`chromium /components/buttons/ 1`] = `
   </Pre>
   <paragraph>
     <text>
-      Toggle the loading switch to see the transition between the different
-      states.
+      Toggle the switch to see the transition between the different states.
     </text>
   </paragraph>
   <button>
@@ -3609,9 +3582,9 @@ exports[`chromium /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <checkbox checked="false">Loading</checkbox>
-  <button disabled="true">
-    DISABLED
-    <text>DISABLED</text>
+  <button>
+    SUBMIT
+    <text>SUBMIT</text>
   </button>
   <button>
     FETCH DATA
@@ -8225,49 +8198,6 @@ exports[`chromium /components/slider 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Sizes
-    <text>Sizes</text>
-  </heading>
-  <paragraph>
-    <text>For smaller slider, use the prop</text>
-    <code>$SOME_CODE</code>
-    <text>.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <slider
-    orientation="horizontal"
-    value="70"
-    valuemax="100"
-    valuemin="0"
-    valuetext=""
-  >
-    Small
-  </slider>
-  <slider
-    orientation="horizontal"
-    value="50"
-    valuemax="100"
-    valuemin="0"
-    valuetext=""
-  >
-    Default
-  </slider>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
     Discrete sliders
     <text>Discrete sliders</text>
   </heading>
@@ -8708,58 +8638,6 @@ exports[`chromium /components/slider 1`] = `
     valuetext=""
   >
     Maximum price
-  </slider>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <heading level="3">
-    Music player
-    <text>Music player</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <img>can't win - Chilling Sunday</img>
-  <text>Jun Pulse</text>
-  <paragraph>
-    <text>คนเก่าเขาทำไว้ดี (Can't win)</text>
-  </paragraph>
-  <paragraph>
-    <text>Chilling Sunday — คนเก่าเขาทำไว้ดี</text>
-  </paragraph>
-  <slider
-    orientation="horizontal"
-    value="32"
-    valuemax="200"
-    valuemin="0"
-    valuetext=""
-  >
-    time-indicator
-  </slider>
-  <paragraph>
-    <text>0:32</text>
-  </paragraph>
-  <paragraph>
-    <text>-2:48</text>
-  </paragraph>
-  <button>previous song</button>
-  <button>pause</button>
-  <button>next song</button>
-  <slider
-    orientation="horizontal"
-    value="30"
-    valuemax="100"
-    valuemin="0"
-    valuetext=""
-  >
-    Volume
   </slider>
   <toolbar>
     demo source
@@ -14047,6 +13925,20 @@ exports[`firefox / 1`] = `
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <iframe>
+    Netlify Drawer
+    <document>
+      Netlify Drawer
+      <button>
+        Open Netlify Drawer
+        <img>Logo</img>
+        <diagram></diagram>
+      </button>
+      <text>
+        <alert></alert>
+      </text>
+    </document>
+  </iframe>
   <text>
     <alert></alert>
   </text>
@@ -14091,11 +13983,6 @@ exports[`firefox /api/button/ 1`] = `
     Props
     <text>Props</text>
   </heading>
-  <paragraph>
-    <text>Props of the</text>
-    <link>ButtonBase</link>
-    <text>component are also available.</text>
-  </paragraph>
   <table>
     <row>
       <cell>
@@ -14363,6 +14250,10 @@ exports[`firefox /api/button/ 1`] = `
   </table>
   <whitespace></whitespace>
   <text>The ref is forwarded to the root element.</text>
+  <whitespace></whitespace>
+  <text>Any other props supplied will be provided to the root element (</text>
+  <link>ButtonBase</link>
+  <text>).</text>
   <heading level="3">
     Inheritance
     <text>Inheritance</text>
@@ -14946,11 +14837,6 @@ exports[`firefox /api/select/ 1`] = `
     Props
     <text>Props</text>
   </heading>
-  <paragraph>
-    <text>Props of the</text>
-    <link>OutlinedInput</link>
-    <text>component are also available.</text>
-  </paragraph>
   <table>
     <row>
       <cell>
@@ -15377,6 +15263,10 @@ exports[`firefox /api/select/ 1`] = `
   </table>
   <whitespace></whitespace>
   <text>The ref is forwarded to the root element.</text>
+  <whitespace></whitespace>
+  <text>Any other props supplied will be provided to the root element (</text>
+  <link>OutlinedInput</link>
+  <text>).</text>
   <heading level="3">
     Inheritance
     <text>Inheritance</text>
@@ -16833,6 +16723,10 @@ exports[`firefox /components/buttons/ 1`] = `
     LARGE
     <text>LARGE</text>
   </button>
+  <button>delete</button>
+  <button>delete</button>
+  <button>delete</button>
+  <button>delete</button>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -16960,40 +16854,6 @@ exports[`firefox /components/buttons/ 1`] = `
     color="primary" aria-label="add to shopping cart">
     <AddShoppingCartIcon /> </IconButton>
   </text>
-  <heading level="3">
-    Sizes
-    <text>Sizes</text>
-  </heading>
-  <paragraph>
-    <text>For larger or smaller icon buttons, use the size prop.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>delete</button>
-  <button>delete</button>
-  <button>delete</button>
-  <button>delete</button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <IconButton aria-label="delete" size="small">
-    <DeleteIcon fontSize="inherit" /> </IconButton>
-    <IconButton aria-label="delete" size="small">
-    <DeleteIcon fontSize="small" /> </IconButton>
-    <IconButton aria-label="delete" size="large">
-    <DeleteIcon /> </IconButton> <IconButton
-    aria-label="delete" size="large"> <DeleteIcon
-    fontSize="inherit" /> </IconButton>
-  </text>
   <heading level="2">
     Customized buttons
     <text>Customized buttons</text>
@@ -17082,8 +16942,7 @@ exports[`firefox /components/buttons/ 1`] = `
   </text>
   <paragraph>
     <text>
-      Toggle the loading switch to see the transition between the different
-      states.
+      Toggle the switch to see the transition between the different states.
     </text>
   </paragraph>
   <button>
@@ -17095,9 +16954,9 @@ exports[`firefox /components/buttons/ 1`] = `
     <checkbox>Loading</checkbox>
     <text>Loading</text>
   </label>
-  <button disabled="true">
-    DISABLED
-    <text>DISABLED</text>
+  <button>
+    SUBMIT
+    <text>SUBMIT</text>
   </button>
   <button>
     FETCH DATA
@@ -22540,43 +22399,11 @@ exports[`firefox /components/slider 1`] = `
   </toolbar>
   <text>
     <Stack spacing={2} direction="row" sx={{
-    mb: 1 }} alignItems="center"> <VolumeDown />
-    <Slider aria-label="Volume" value={value}
+    mb: 1 }}> <VolumeDown /> <Slider
+    aria-label="Volume" value={value}
     onChange={handleChange} /> <VolumeUp /> </Stack>
     <Slider disabled defaultValue={30} aria-label="Disabled
     slider" />
-  </text>
-  <heading level="2">
-    Sizes
-    <text>Sizes</text>
-  </heading>
-  <paragraph>
-    <text>For smaller slider, use the prop size="small".</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <slider orientation="horizontal" value="70" valuetext="70">
-    Small
-  </slider>
-  <slider orientation="horizontal" value="50" valuetext="50">
-    Default
-  </slider>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <Slider size="small" defaultValue={70}
-    aria-label="Small" valueLabelDisplay="auto" />
-    <Slider defaultValue={50} aria-label="Default"
-    valueLabelDisplay="auto" />
   </text>
   <heading level="2">
     Discrete sliders
@@ -22920,42 +22747,6 @@ exports[`firefox /components/slider 1`] = `
   </slider>
   <slider orientation="horizontal" value="40" valuetext="40">
     Maximum price
-  </slider>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="3">
-    Music player
-    <text>Music player</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <img>can't win - Chilling Sunday</img>
-  <text>
-    Jun Pulseคนเก่าเขาทำไว้ดี (Can't win)Chilling Sunday — คนเก่าเขาทำไว้ดี
-  </text>
-  <slider orientation="horizontal" value="32" valuetext="32">
-    time-indicator
-  </slider>
-  <paragraph>
-    <text>0:32</text>
-  </paragraph>
-  <paragraph>
-    <text>-2:48</text>
-  </paragraph>
-  <button>previous song</button>
-  <button>pause</button>
-  <button>next song</button>
-  <slider orientation="horizontal" value="30" valuetext="30">
-    Volume
   </slider>
   <toolbar>
     demo source
