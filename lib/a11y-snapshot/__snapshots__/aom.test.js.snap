@@ -263,6 +263,7 @@ exports[`chromium / 1`] = `
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <Iframe>Netlify Drawer</Iframe>
   <alert></alert>
 </WebArea>;
 
@@ -3600,8 +3601,7 @@ exports[`chromium /components/buttons/ 1`] = `
   </Pre>
   <paragraph>
     <text>
-      Toggle the loading switch to see the transition between the different
-      states.
+      Toggle the switch to see the transition between the different states.
     </text>
   </paragraph>
   <button>
@@ -3609,9 +3609,9 @@ exports[`chromium /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <checkbox checked="false">Loading</checkbox>
-  <button disabled="true">
-    DISABLED
-    <text>DISABLED</text>
+  <button>
+    SUBMIT
+    <text>SUBMIT</text>
   </button>
   <button>
     FETCH DATA
@@ -14047,6 +14047,20 @@ exports[`firefox / 1`] = `
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <iframe>
+    Netlify Drawer
+    <document>
+      Netlify Drawer
+      <button>
+        Open Netlify Drawer
+        <img>Logo</img>
+        <diagram></diagram>
+      </button>
+      <text>
+        <alert></alert>
+      </text>
+    </document>
+  </iframe>
   <text>
     <alert></alert>
   </text>
@@ -17082,8 +17096,7 @@ exports[`firefox /components/buttons/ 1`] = `
   </text>
   <paragraph>
     <text>
-      Toggle the loading switch to see the transition between the different
-      states.
+      Toggle the switch to see the transition between the different states.
     </text>
   </paragraph>
   <button>
@@ -17095,9 +17108,9 @@ exports[`firefox /components/buttons/ 1`] = `
     <checkbox>Loading</checkbox>
     <text>Loading</text>
   </label>
-  <button disabled="true">
-    DISABLED
-    <text>DISABLED</text>
+  <button>
+    SUBMIT
+    <text>SUBMIT</text>
   </button>
   <button>
     FETCH DATA
