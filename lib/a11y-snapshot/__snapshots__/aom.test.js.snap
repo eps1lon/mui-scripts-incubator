@@ -257,7 +257,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.36. View versions page.</link>
+      <link>v5.0.0-alpha.37. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -306,6 +306,11 @@ exports[`chromium /api/button/ 1`] = `
     Props
     <text>Props</text>
   </heading>
+  <paragraph>
+    <text>Props of the</text>
+    <link>ButtonBase</link>
+    <text>component are also available.</text>
+  </paragraph>
   <table>
     <row>
       <columnheader>
@@ -651,10 +656,6 @@ exports[`chromium /api/button/ 1`] = `
   <text>The</text>
   <code>$SOME_CODE</code>
   <text>is forwarded to the root element.</text>
-  <LineBreak></LineBreak>
-  <text>Any other props supplied will be provided to the root element (</text>
-  <link>ButtonBase</link>
-  <text>).</text>
   <heading level="3">
     Inheritance
     <text>Inheritance</text>
@@ -1384,6 +1385,11 @@ exports[`chromium /api/select/ 1`] = `
     Props
     <text>Props</text>
   </heading>
+  <paragraph>
+    <text>Props of the</text>
+    <link>OutlinedInput</link>
+    <text>component are also available.</text>
+  </paragraph>
   <table>
     <row>
       <columnheader>
@@ -1971,10 +1977,6 @@ exports[`chromium /api/select/ 1`] = `
   <text>The</text>
   <code>$SOME_CODE</code>
   <text>is forwarded to the root element.</text>
-  <LineBreak></LineBreak>
-  <text>Any other props supplied will be provided to the root element (</text>
-  <link>OutlinedInput</link>
-  <text>).</text>
   <heading level="3">
     Inheritance
     <text>Inheritance</text>
@@ -2285,7 +2287,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
       </listitem>
       <listitem level="1">
         <paragraph>
-          <text>Breadcrumb</text>
+          <text>Breadcrumbs</text>
         </paragraph>
       </listitem>
     </list>
@@ -2323,22 +2325,19 @@ exports[`chromium /components/breadcrumbs 1`] = `
         <link>Core</link>
       </listitem>
       <listitem level="1">
-        <link>Breadcrumb</link>
+        <link>Breadcrumbs</link>
       </listitem>
     </list>
   </navigation>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Custom separator
     <text>Custom separator</text>
@@ -3381,10 +3380,6 @@ exports[`chromium /components/buttons/ 1`] = `
     LARGE
     <text>LARGE</text>
   </button>
-  <button>delete</button>
-  <button>delete</button>
-  <button>delete</button>
-  <button>delete</button>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -3493,6 +3488,35 @@ exports[`chromium /components/buttons/ 1`] = `
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
+  <heading level="3">
+    Sizes
+    <text>Sizes</text>
+  </heading>
+  <paragraph>
+    <text>For larger or smaller icon buttons, use the</text>
+    <code>$SOME_CODE</code>
+    <text>prop.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>delete</button>
+  <button>delete</button>
+  <button>delete</button>
+  <button>delete</button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Customized buttons
     <text>Customized buttons</text>
@@ -3576,7 +3600,8 @@ exports[`chromium /components/buttons/ 1`] = `
   </Pre>
   <paragraph>
     <text>
-      Toggle the switch to see the transition between the different states.
+      Toggle the loading switch to see the transition between the different
+      states.
     </text>
   </paragraph>
   <button>
@@ -3584,9 +3609,9 @@ exports[`chromium /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <checkbox checked="false">Loading</checkbox>
-  <button>
-    SUBMIT
-    <text>SUBMIT</text>
+  <button disabled="true">
+    DISABLED
+    <text>DISABLED</text>
   </button>
   <button>
     FETCH DATA
@@ -8200,6 +8225,49 @@ exports[`chromium /components/slider 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
+    Sizes
+    <text>Sizes</text>
+  </heading>
+  <paragraph>
+    <text>For smaller slider, use the prop</text>
+    <code>$SOME_CODE</code>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <slider
+    orientation="horizontal"
+    value="70"
+    valuemax="100"
+    valuemin="0"
+    valuetext=""
+  >
+    Small
+  </slider>
+  <slider
+    orientation="horizontal"
+    value="50"
+    valuemax="100"
+    valuemin="0"
+    valuetext=""
+  >
+    Default
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
     Discrete sliders
     <text>Discrete sliders</text>
   </heading>
@@ -8640,6 +8708,58 @@ exports[`chromium /components/slider 1`] = `
     valuetext=""
   >
     Maximum price
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="3">
+    Music player
+    <text>Music player</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <img>can't win - Chilling Sunday</img>
+  <text>Jun Pulse</text>
+  <paragraph>
+    <text>คนเก่าเขาทำไว้ดี (Can't win)</text>
+  </paragraph>
+  <paragraph>
+    <text>Chilling Sunday — คนเก่าเขาทำไว้ดี</text>
+  </paragraph>
+  <slider
+    orientation="horizontal"
+    value="32"
+    valuemax="200"
+    valuemin="0"
+    valuetext=""
+  >
+    time-indicator
+  </slider>
+  <paragraph>
+    <text>0:32</text>
+  </paragraph>
+  <paragraph>
+    <text>-2:48</text>
+  </paragraph>
+  <button>previous song</button>
+  <button>pause</button>
+  <button>next song</button>
+  <slider
+    orientation="horizontal"
+    value="30"
+    valuemax="100"
+    valuemin="0"
+    valuetext=""
+  >
+    Volume
   </slider>
   <toolbar>
     demo source
@@ -11287,25 +11407,56 @@ exports[`chromium /components/text-fields/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Layout
-    <text>Layout</text>
+    Margin
+    <text>Margin</text>
   </heading>
   <paragraph>
+    <text>The</text>
     <code>$SOME_CODE</code>
-    <text>prop can be used to alter the vertical spacing of inputs. Using</text>
+    <text>
+      prop can be used to alter the vertical spacing of the text field. Using
+    </text>
     <code>$SOME_CODE</code>
-    <text>(default) will not apply margins to the</text>
+    <text>(default) doesn't apply margins to the</text>
     <code>$SOME_CODE</code>
-    <text>, whereas</text>
+    <text>whereas</text>
     <code>$SOME_CODE</code>
     <text>and</text>
     <code>$SOME_CODE</code>
-    <text>will.</text>
-    <code>$SOME_CODE</code>
-    <text>and</text>
-    <code>$SOME_CODE</code>
-    <text>alter other styles to meet the specification.</text>
+    <text>do.</text>
   </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Label>
+    <text>margin="none"</text>
+  </Label>
+  <textbox>margin="none"</textbox>
+  <Label>
+    <text>margin="dense"</text>
+  </Label>
+  <textbox>margin="dense"</textbox>
+  <Label>
+    <text>margin="normal"</text>
+  </Label>
+  <textbox>margin="normal"</textbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Full width
+    <text>Full width</text>
+  </heading>
   <paragraph>
     <code>$SOME_CODE</code>
     <text>
@@ -11317,133 +11468,21 @@ exports[`chromium /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <Label>
-    <text>Label</text>
+    <text>fullWidth</text>
   </Label>
-  <textbox description="Full width!">Label</textbox>
-  <paragraph>
-    <text>Full width!</text>
-  </paragraph>
-  <Label>
-    <text>None</text>
-  </Label>
-  <textbox description="Some important text" value="Default Value">
-    None
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <Label>
-    <text>Dense</text>
-  </Label>
-  <textbox description="Some important text" value="Default Value">
-    Dense
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <Label>
-    <text>Normal</text>
-  </Label>
-  <textbox description="Some important text" value="Default Value">
-    Normal
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <Label>
-    <text>Label</text>
-  </Label>
-  <text> </text>
-  <textbox description="Full width!">Label</textbox>
-  <paragraph>
-    <text>Full width!</text>
-  </paragraph>
-  <Label>
-    <text>None</text>
-  </Label>
-  <text> </text>
-  <textbox description="Some important text" value="Default Value">
-    None
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <Label>
-    <text>Dense</text>
-  </Label>
-  <text> </text>
-  <textbox description="Some important text" value="Default Value">
-    Dense
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <Label>
-    <text>Normal</text>
-  </Label>
-  <text> </text>
-  <textbox description="Some important text" value="Default Value">
-    Normal
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <Label>
-    <text>Label</text>
-  </Label>
-  <text> </text>
-  <textbox description="Full width!">Label</textbox>
-  <paragraph>
-    <text>Full width!</text>
-  </paragraph>
-  <Label>
-    <text>None</text>
-  </Label>
-  <text> </text>
-  <textbox description="Some important text" value="Default Value">
-    None
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <Label>
-    <text>Dense</text>
-  </Label>
-  <text> </text>
-  <textbox description="Some important text" value="Default Value">
-    Dense
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <Label>
-    <text>Normal</text>
-  </Label>
-  <text> </text>
-  <textbox description="Some important text" value="Default Value">
-    Normal
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
+  <textbox>fullWidth</textbox>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Uncontrolled vs. Controlled
     <text>Uncontrolled vs. Controlled</text>
@@ -14002,7 +14041,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.36. View versions page.</link>
+      <link>v5.0.0-alpha.37. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -14052,6 +14091,11 @@ exports[`firefox /api/button/ 1`] = `
     Props
     <text>Props</text>
   </heading>
+  <paragraph>
+    <text>Props of the</text>
+    <link>ButtonBase</link>
+    <text>component are also available.</text>
+  </paragraph>
   <table>
     <row>
       <cell>
@@ -14319,10 +14363,6 @@ exports[`firefox /api/button/ 1`] = `
   </table>
   <whitespace></whitespace>
   <text>The ref is forwarded to the root element.</text>
-  <whitespace></whitespace>
-  <text>Any other props supplied will be provided to the root element (</text>
-  <link>ButtonBase</link>
-  <text>).</text>
   <heading level="3">
     Inheritance
     <text>Inheritance</text>
@@ -14906,6 +14946,11 @@ exports[`firefox /api/select/ 1`] = `
     Props
     <text>Props</text>
   </heading>
+  <paragraph>
+    <text>Props of the</text>
+    <link>OutlinedInput</link>
+    <text>component are also available.</text>
+  </paragraph>
   <table>
     <row>
       <cell>
@@ -15332,10 +15377,6 @@ exports[`firefox /api/select/ 1`] = `
   </table>
   <whitespace></whitespace>
   <text>The ref is forwarded to the root element.</text>
-  <whitespace></whitespace>
-  <text>Any other props supplied will be provided to the root element (</text>
-  <link>OutlinedInput</link>
-  <text>).</text>
   <heading level="3">
     Inheritance
     <text>Inheritance</text>
@@ -15614,9 +15655,9 @@ exports[`firefox /components/breadcrumbs 1`] = `
         <link>Core</link>
       </listitem>
       <listitem>
-        Breadcrumb
+        Breadcrumbs
         <paragraph>
-          <text>Breadcrumb</text>
+          <text>Breadcrumbs</text>
         </paragraph>
       </listitem>
     </list>
@@ -15632,11 +15673,11 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </toolbar>
   <text>
     <Breadcrumbs aria-label="breadcrumb"> <Link
-    color="inherit" href="/"> Material-UI </Link>
-    <Link color="inherit"
-    href="/getting-started/installation/"> Core </Link>
-    <Typography
-    color="text.primary">Breadcrumb</Typography>
+    underline="hover" color="inherit" href="/">
+    Material-UI </Link> <Link underline="hover"
+    color="inherit" href="/getting-started/installation/"
+    > Core </Link> <Typography
+    color="text.primary">Breadcrumbs</Typography>
     </Breadcrumbs>
   </text>
   <heading level="2">
@@ -15662,29 +15703,20 @@ exports[`firefox /components/breadcrumbs 1`] = `
         <link>Core</link>
       </listitem>
       <listitem>
-        Breadcrumb
-        <link>Breadcrumb</link>
+        Breadcrumbs
+        <link>Breadcrumbs</link>
       </listitem>
     </list>
   </landmark>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Breadcrumbs aria-label="breadcrumb"> <Link
-    color="inherit" href="/"> Material-UI </Link>
-    <Link color="inherit"
-    href="/getting-started/installation/"> Core </Link>
-    <Link color="text.primary"
-    href="/components/breadcrumbs/" aria-current="page" >
-    Breadcrumb </Link> </Breadcrumbs>
-  </text>
   <heading level="2">
     Custom separator
     <text>Custom separator</text>
@@ -15846,10 +15878,12 @@ exports[`firefox /components/breadcrumbs 1`] = `
   </toolbar>
   <text>
     <Breadcrumbs maxItems={2} aria-label="breadcrumb">
-    <Link color="inherit" href="#"> Home </Link>
-    <Link color="inherit" href="#"> Catalog
-    </Link> <Link color="inherit" href="#">
-    Accessories </Link> <Link color="inherit"
+    <Link underline="hover" color="inherit"
+    href="#"> Home </Link> <Link
+    underline="hover" color="inherit" href="#">
+    Catalog </Link> <Link underline="hover"
+    color="inherit" href="#"> Accessories </Link>
+    <Link underline="hover" color="inherit"
     href="#"> New Collection </Link> <Typography
     color="text.primary">Belts</Typography>
     </Breadcrumbs>
@@ -16799,10 +16833,6 @@ exports[`firefox /components/buttons/ 1`] = `
     LARGE
     <text>LARGE</text>
   </button>
-  <button>delete</button>
-  <button>delete</button>
-  <button>delete</button>
-  <button>delete</button>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -16930,6 +16960,40 @@ exports[`firefox /components/buttons/ 1`] = `
     color="primary" aria-label="add to shopping cart">
     <AddShoppingCartIcon /> </IconButton>
   </text>
+  <heading level="3">
+    Sizes
+    <text>Sizes</text>
+  </heading>
+  <paragraph>
+    <text>For larger or smaller icon buttons, use the size prop.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>delete</button>
+  <button>delete</button>
+  <button>delete</button>
+  <button>delete</button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <IconButton aria-label="delete" size="small">
+    <DeleteIcon fontSize="inherit" /> </IconButton>
+    <IconButton aria-label="delete" size="small">
+    <DeleteIcon fontSize="small" /> </IconButton>
+    <IconButton aria-label="delete" size="large">
+    <DeleteIcon /> </IconButton> <IconButton
+    aria-label="delete" size="large"> <DeleteIcon
+    fontSize="inherit" /> </IconButton>
+  </text>
   <heading level="2">
     Customized buttons
     <text>Customized buttons</text>
@@ -17018,7 +17082,8 @@ exports[`firefox /components/buttons/ 1`] = `
   </text>
   <paragraph>
     <text>
-      Toggle the switch to see the transition between the different states.
+      Toggle the loading switch to see the transition between the different
+      states.
     </text>
   </paragraph>
   <button>
@@ -17030,9 +17095,9 @@ exports[`firefox /components/buttons/ 1`] = `
     <checkbox>Loading</checkbox>
     <text>Loading</text>
   </label>
-  <button>
-    SUBMIT
-    <text>SUBMIT</text>
+  <button disabled="true">
+    DISABLED
+    <text>DISABLED</text>
   </button>
   <button>
     FETCH DATA
@@ -22475,11 +22540,43 @@ exports[`firefox /components/slider 1`] = `
   </toolbar>
   <text>
     <Stack spacing={2} direction="row" sx={{
-    mb: 1 }}> <VolumeDown /> <Slider
-    aria-label="Volume" value={value}
+    mb: 1 }} alignItems="center"> <VolumeDown />
+    <Slider aria-label="Volume" value={value}
     onChange={handleChange} /> <VolumeUp /> </Stack>
     <Slider disabled defaultValue={30} aria-label="Disabled
     slider" />
+  </text>
+  <heading level="2">
+    Sizes
+    <text>Sizes</text>
+  </heading>
+  <paragraph>
+    <text>For smaller slider, use the prop size="small".</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <slider orientation="horizontal" value="70" valuetext="70">
+    Small
+  </slider>
+  <slider orientation="horizontal" value="50" valuetext="50">
+    Default
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Slider size="small" defaultValue={70}
+    aria-label="Small" valueLabelDisplay="auto" />
+    <Slider defaultValue={50} aria-label="Default"
+    valueLabelDisplay="auto" />
   </text>
   <heading level="2">
     Discrete sliders
@@ -22823,6 +22920,42 @@ exports[`firefox /components/slider 1`] = `
   </slider>
   <slider orientation="horizontal" value="40" valuetext="40">
     Maximum price
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Music player
+    <text>Music player</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <img>can't win - Chilling Sunday</img>
+  <text>
+    Jun Pulseคนเก่าเขาทำไว้ดี (Can't win)Chilling Sunday — คนเก่าเขาทำไว้ดี
+  </text>
+  <slider orientation="horizontal" value="32" valuetext="32">
+    time-indicator
+  </slider>
+  <paragraph>
+    <text>0:32</text>
+  </paragraph>
+  <paragraph>
+    <text>-2:48</text>
+  </paragraph>
+  <button>previous song</button>
+  <button>pause</button>
+  <button>next song</button>
+  <slider orientation="horizontal" value="30" valuetext="30">
+    Volume
   </slider>
   <toolbar>
     demo source
@@ -25533,17 +25666,58 @@ exports[`firefox /components/text-fields/ 1`] = `
     variant="filled" />
   </text>
   <heading level="2">
-    Layout
-    <text>Layout</text>
+    Margin
+    <text>Margin</text>
   </heading>
   <paragraph>
     <text>
-      margin prop can be used to alter the vertical spacing of inputs. Using
-      none (default) will not apply margins to the FormControl, whereas dense
-      and normal will. dense and normal alter other styles to meet the
-      specification.
+      The margin prop can be used to alter the vertical spacing of the text
+      field. Using none (default) doesn't apply margins to the FormControl
+      whereas dense and normal do.
     </text>
   </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    margin="none"
+    <text>margin="none"</text>
+  </label>
+  <textbox>margin="none"</textbox>
+  <label>
+    margin="dense"
+    <text>margin="dense"</text>
+  </label>
+  <textbox>margin="dense"</textbox>
+  <label>
+    margin="normal"
+    <text>margin="normal"</text>
+  </label>
+  <textbox>margin="normal"</textbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <RedBar /> <TextField
+    label={'margin="none"'}
+    id="margin-none" /> <RedBar /> <TextField
+    label={'margin="dense"'}
+    id="margin-dense" margin="dense" /> <RedBar />
+    <TextField label={'margin="normal"'}
+    id="margin-normal" margin="normal" /> <RedBar
+    />
+  </text>
+  <heading level="2">
+    Full width
+    <text>Full width</text>
+  </heading>
   <paragraph>
     <text>
       fullWidth can be used to make the input take up the full width of its
@@ -25555,145 +25729,23 @@ exports[`firefox /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <label>
-    Label
-    <text>Label</text>
+    fullWidth
+    <text>fullWidth</text>
   </label>
-  <textbox description="Full width!">Label</textbox>
-  <paragraph>
-    <text>Full width!</text>
-  </paragraph>
-  <label>
-    None
-    <text>None</text>
-  </label>
-  <textbox description="Some important text" value="Default Value">
-    None
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <label>
-    Dense
-    <text>Dense</text>
-  </label>
-  <textbox description="Some important text" value="Default Value">
-    Dense
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <label>
-    Normal
-    <text>Normal</text>
-  </label>
-  <textbox description="Some important text" value="Default Value">
-    Normal
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <label>
-    Label
-    <text>Label</text>
-  </label>
-  <statictext> </statictext>
-  <textbox description="Full width!">Label</textbox>
-  <paragraph>
-    <text>Full width!</text>
-  </paragraph>
-  <label>
-    None
-    <text>None</text>
-  </label>
-  <statictext> </statictext>
-  <textbox description="Some important text" value="Default Value">
-    None
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <label>
-    Dense
-    <text>Dense</text>
-  </label>
-  <statictext> </statictext>
-  <textbox description="Some important text" value="Default Value">
-    Dense
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <label>
-    Normal
-    <text>Normal</text>
-  </label>
-  <statictext> </statictext>
-  <textbox description="Some important text" value="Default Value">
-    Normal
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <label>
-    Label
-    <text>Label</text>
-  </label>
-  <statictext> </statictext>
-  <textbox description="Full width!">Label</textbox>
-  <paragraph>
-    <text>Full width!</text>
-  </paragraph>
-  <label>
-    None
-    <text>None</text>
-  </label>
-  <statictext> </statictext>
-  <textbox description="Some important text" value="Default Value">
-    None
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <label>
-    Dense
-    <text>Dense</text>
-  </label>
-  <statictext> </statictext>
-  <textbox description="Some important text" value="Default Value">
-    Dense
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
-  <label>
-    Normal
-    <text>Normal</text>
-  </label>
-  <statictext> </statictext>
-  <textbox description="Some important text" value="Default Value">
-    Normal
-    <text>Default Value</text>
-  </textbox>
-  <paragraph>
-    <text>Some important text</text>
-  </paragraph>
+  <textbox>fullWidth</textbox>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <TextField fullWidth label={'fullWidth'}
+    id="fullWidth" />
+  </text>
   <heading level="2">
     Uncontrolled vs. Controlled
     <text>Uncontrolled vs. Controlled</text>
