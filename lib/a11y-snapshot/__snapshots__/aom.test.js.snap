@@ -263,6 +263,7 @@ exports[`chromium / 1`] = `
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <Iframe>Netlify Drawer</Iframe>
   <alert></alert>
 </WebArea>;
 
@@ -306,11 +307,6 @@ exports[`chromium /api/button/ 1`] = `
     Props
     <text>Props</text>
   </heading>
-  <paragraph>
-    <text>Props of the</text>
-    <link>ButtonBase</link>
-    <text>component are also available.</text>
-  </paragraph>
   <table>
     <row>
       <columnheader>
@@ -656,6 +652,10 @@ exports[`chromium /api/button/ 1`] = `
   <text>The</text>
   <code>$SOME_CODE</code>
   <text>is forwarded to the root element.</text>
+  <LineBreak></LineBreak>
+  <text>Any other props supplied will be provided to the root element (</text>
+  <link>ButtonBase</link>
+  <text>).</text>
   <heading level="3">
     Inheritance
     <text>Inheritance</text>
@@ -1385,11 +1385,6 @@ exports[`chromium /api/select/ 1`] = `
     Props
     <text>Props</text>
   </heading>
-  <paragraph>
-    <text>Props of the</text>
-    <link>OutlinedInput</link>
-    <text>component are also available.</text>
-  </paragraph>
   <table>
     <row>
       <columnheader>
@@ -1977,6 +1972,10 @@ exports[`chromium /api/select/ 1`] = `
   <text>The</text>
   <code>$SOME_CODE</code>
   <text>is forwarded to the root element.</text>
+  <LineBreak></LineBreak>
+  <text>Any other props supplied will be provided to the root element (</text>
+  <link>OutlinedInput</link>
+  <text>).</text>
   <heading level="3">
     Inheritance
     <text>Inheritance</text>
@@ -3600,8 +3599,7 @@ exports[`chromium /components/buttons/ 1`] = `
   </Pre>
   <paragraph>
     <text>
-      Toggle the loading switch to see the transition between the different
-      states.
+      Toggle the switch to see the transition between the different states.
     </text>
   </paragraph>
   <button>
@@ -3609,9 +3607,9 @@ exports[`chromium /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <checkbox checked="false">Loading</checkbox>
-  <button disabled="true">
-    DISABLED
-    <text>DISABLED</text>
+  <button>
+    SUBMIT
+    <text>SUBMIT</text>
   </button>
   <button>
     FETCH DATA
@@ -14047,6 +14045,20 @@ exports[`firefox / 1`] = `
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <iframe>
+    Netlify Drawer
+    <document>
+      Netlify Drawer
+      <button>
+        Open Netlify Drawer
+        <img>Logo</img>
+        <diagram></diagram>
+      </button>
+      <text>
+        <alert></alert>
+      </text>
+    </document>
+  </iframe>
   <text>
     <alert></alert>
   </text>
@@ -14091,11 +14103,6 @@ exports[`firefox /api/button/ 1`] = `
     Props
     <text>Props</text>
   </heading>
-  <paragraph>
-    <text>Props of the</text>
-    <link>ButtonBase</link>
-    <text>component are also available.</text>
-  </paragraph>
   <table>
     <row>
       <cell>
@@ -14363,6 +14370,10 @@ exports[`firefox /api/button/ 1`] = `
   </table>
   <whitespace></whitespace>
   <text>The ref is forwarded to the root element.</text>
+  <whitespace></whitespace>
+  <text>Any other props supplied will be provided to the root element (</text>
+  <link>ButtonBase</link>
+  <text>).</text>
   <heading level="3">
     Inheritance
     <text>Inheritance</text>
@@ -14946,11 +14957,6 @@ exports[`firefox /api/select/ 1`] = `
     Props
     <text>Props</text>
   </heading>
-  <paragraph>
-    <text>Props of the</text>
-    <link>OutlinedInput</link>
-    <text>component are also available.</text>
-  </paragraph>
   <table>
     <row>
       <cell>
@@ -15377,6 +15383,10 @@ exports[`firefox /api/select/ 1`] = `
   </table>
   <whitespace></whitespace>
   <text>The ref is forwarded to the root element.</text>
+  <whitespace></whitespace>
+  <text>Any other props supplied will be provided to the root element (</text>
+  <link>OutlinedInput</link>
+  <text>).</text>
   <heading level="3">
     Inheritance
     <text>Inheritance</text>
@@ -17082,8 +17092,7 @@ exports[`firefox /components/buttons/ 1`] = `
   </text>
   <paragraph>
     <text>
-      Toggle the loading switch to see the transition between the different
-      states.
+      Toggle the switch to see the transition between the different states.
     </text>
   </paragraph>
   <button>
@@ -17095,9 +17104,9 @@ exports[`firefox /components/buttons/ 1`] = `
     <checkbox>Loading</checkbox>
     <text>Loading</text>
   </label>
-  <button disabled="true">
-    DISABLED
-    <text>DISABLED</text>
+  <button>
+    SUBMIT
+    <text>SUBMIT</text>
   </button>
   <button>
     FETCH DATA
