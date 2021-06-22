@@ -263,6 +263,7 @@ exports[`chromium / 1`] = `
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <Iframe>Netlify Drawer</Iframe>
   <alert></alert>
 </WebArea>;
 
@@ -2549,20 +2550,32 @@ exports[`chromium /components/breadcrumbs 1`] = `
     mailbox folders
     <list>
       <listitem level="1">
-        <link>Inbox</link>
+        <button>
+          Inbox
+          <text>Inbox</text>
+        </button>
       </listitem>
       <listitem level="1">
         <list>
           <listitem level="2">
-            <link>Important</link>
+            <button>
+              Important
+              <text>Important</text>
+            </button>
           </listitem>
         </list>
       </listitem>
       <listitem level="1">
-        <link>Trash</link>
+        <button>
+          Trash
+          <text>Trash</text>
+        </button>
       </listitem>
       <listitem level="1">
-        <link>Spam</link>
+        <button>
+          Spam
+          <text>Spam</text>
+        </button>
       </listitem>
     </list>
   </navigation>
@@ -3588,8 +3601,7 @@ exports[`chromium /components/buttons/ 1`] = `
   </Pre>
   <paragraph>
     <text>
-      Toggle the loading switch to see the transition between the different
-      states.
+      Toggle the switch to see the transition between the different states.
     </text>
   </paragraph>
   <button>
@@ -3597,9 +3609,9 @@ exports[`chromium /components/buttons/ 1`] = `
     navigation of our components.
   </button>
   <checkbox checked="false">Loading</checkbox>
-  <button disabled="true">
-    DISABLED
-    <text>DISABLED</text>
+  <button>
+    SUBMIT
+    <text>SUBMIT</text>
   </button>
   <button>
     FETCH DATA
@@ -5907,31 +5919,44 @@ exports[`chromium /components/pagination/ 1`] = `
     pagination navigation
     <list>
       <listitem level="1">
-        <link disabled="true">Go to previous page</link>
+        <button disabled="true">Go to previous page</button>
       </listitem>
       <listitem level="1">
-        <link>page 1</link>
+        <button>
+          page 1<text>1</text>
+        </button>
       </listitem>
       <listitem level="1">
-        <link>Go to page 2</link>
+        <button>
+          Go to page 2<text>2</text>
+        </button>
       </listitem>
       <listitem level="1">
-        <link>Go to page 3</link>
+        <button>
+          Go to page 3<text>3</text>
+        </button>
       </listitem>
       <listitem level="1">
-        <link>Go to page 4</link>
+        <button>
+          Go to page 4<text>4</text>
+        </button>
       </listitem>
       <listitem level="1">
-        <link>Go to page 5</link>
+        <button>
+          Go to page 5<text>5</text>
+        </button>
       </listitem>
       <listitem level="1">
         <text>…</text>
       </listitem>
       <listitem level="1">
-        <link>Go to page 10</link>
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
       </listitem>
       <listitem level="1">
-        <link>Go to next page</link>
+        <button>Go to next page</button>
       </listitem>
     </list>
   </navigation>
@@ -14022,6 +14047,15 @@ exports[`firefox / 1`] = `
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <iframe>
+    Netlify Drawer
+    <document>
+      Netlify Drawer
+      <text>
+        <alert></alert>
+      </text>
+    </document>
+  </iframe>
   <text>
     <alert></alert>
   </text>
@@ -15945,24 +15979,36 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <list>
       <listitem level="1">
         Inbox
-        <link>Inbox</link>
+        <button>
+          Inbox
+          <text>Inbox</text>
+        </button>
       </listitem>
       <listitem level="1">
         Important
         <list>
           <listitem level="2">
             Important
-            <link>Important</link>
+            <button>
+              Important
+              <text>Important</text>
+            </button>
           </listitem>
         </list>
       </listitem>
       <listitem level="1">
         Trash
-        <link>Trash</link>
+        <button>
+          Trash
+          <text>Trash</text>
+        </button>
       </listitem>
       <listitem level="1">
         Spam
-        <link>Spam</link>
+        <button>
+          Spam
+          <text>Spam</text>
+        </button>
       </listitem>
     </list>
   </landmark>
@@ -17045,8 +17091,7 @@ exports[`firefox /components/buttons/ 1`] = `
   </text>
   <paragraph>
     <text>
-      Toggle the loading switch to see the transition between the different
-      states.
+      Toggle the switch to see the transition between the different states.
     </text>
   </paragraph>
   <button>
@@ -17058,9 +17103,9 @@ exports[`firefox /components/buttons/ 1`] = `
     <checkbox>Loading</checkbox>
     <text>Loading</text>
   </label>
-  <button disabled="true">
-    DISABLED
-    <text>DISABLED</text>
+  <button>
+    SUBMIT
+    <text>SUBMIT</text>
   </button>
   <button>
     FETCH DATA
@@ -19628,22 +19673,37 @@ exports[`firefox /components/pagination/ 1`] = `
     <list>
       <listitem>
         Go to previous page
-        <link disabled="true">Go to previous page</link>
+        <button disabled="true">Go to previous page</button>
       </listitem>
       <listitem>
-        page 1<link>page 1</link>
+        page 1
+        <button>
+          page 1<text>1</text>
+        </button>
       </listitem>
       <listitem>
-        Go to page 2<link>Go to page 2</link>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
       </listitem>
       <listitem>
-        Go to page 3<link>Go to page 3</link>
+        Go to page 3
+        <button>
+          Go to page 3<text>3</text>
+        </button>
       </listitem>
       <listitem>
-        Go to page 4<link>Go to page 4</link>
+        Go to page 4
+        <button>
+          Go to page 4<text>4</text>
+        </button>
       </listitem>
       <listitem>
-        Go to page 5<link>Go to page 5</link>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
       </listitem>
       <listitem>
         Go to end-ellipsis page
@@ -19651,11 +19711,14 @@ exports[`firefox /components/pagination/ 1`] = `
       </listitem>
       <listitem>
         Go to page 10
-        <link>Go to page 10</link>
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
       </listitem>
       <listitem>
         Go to next page
-        <link>Go to next page</link>
+        <button>Go to next page</button>
       </listitem>
     </list>
   </landmark>
