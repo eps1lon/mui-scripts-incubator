@@ -2549,32 +2549,20 @@ exports[`chromium /components/breadcrumbs 1`] = `
     mailbox folders
     <list>
       <listitem level="1">
-        <button>
-          Inbox
-          <text>Inbox</text>
-        </button>
+        <link>Inbox</link>
       </listitem>
       <listitem level="1">
         <list>
           <listitem level="2">
-            <button>
-              Important
-              <text>Important</text>
-            </button>
+            <link>Important</link>
           </listitem>
         </list>
       </listitem>
       <listitem level="1">
-        <button>
-          Trash
-          <text>Trash</text>
-        </button>
+        <link>Trash</link>
       </listitem>
       <listitem level="1">
-        <button>
-          Spam
-          <text>Spam</text>
-        </button>
+        <link>Spam</link>
       </listitem>
     </list>
   </navigation>
@@ -5919,44 +5907,31 @@ exports[`chromium /components/pagination/ 1`] = `
     pagination navigation
     <list>
       <listitem level="1">
-        <button disabled="true">Go to previous page</button>
+        <link disabled="true">Go to previous page</link>
       </listitem>
       <listitem level="1">
-        <button>
-          page 1<text>1</text>
-        </button>
+        <link>page 1</link>
       </listitem>
       <listitem level="1">
-        <button>
-          Go to page 2<text>2</text>
-        </button>
+        <link>Go to page 2</link>
       </listitem>
       <listitem level="1">
-        <button>
-          Go to page 3<text>3</text>
-        </button>
+        <link>Go to page 3</link>
       </listitem>
       <listitem level="1">
-        <button>
-          Go to page 4<text>4</text>
-        </button>
+        <link>Go to page 4</link>
       </listitem>
       <listitem level="1">
-        <button>
-          Go to page 5<text>5</text>
-        </button>
+        <link>Go to page 5</link>
       </listitem>
       <listitem level="1">
         <text>…</text>
       </listitem>
       <listitem level="1">
-        <button>
-          Go to page 10
-          <text>10</text>
-        </button>
+        <link>Go to page 10</link>
       </listitem>
       <listitem level="1">
-        <button>Go to next page</button>
+        <link>Go to next page</link>
       </listitem>
     </list>
   </navigation>
@@ -15970,36 +15945,24 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <list>
       <listitem level="1">
         Inbox
-        <button>
-          Inbox
-          <text>Inbox</text>
-        </button>
+        <link>Inbox</link>
       </listitem>
       <listitem level="1">
         Important
         <list>
           <listitem level="2">
             Important
-            <button>
-              Important
-              <text>Important</text>
-            </button>
+            <link>Important</link>
           </listitem>
         </list>
       </listitem>
       <listitem level="1">
         Trash
-        <button>
-          Trash
-          <text>Trash</text>
-        </button>
+        <link>Trash</link>
       </listitem>
       <listitem level="1">
         Spam
-        <button>
-          Spam
-          <text>Spam</text>
-        </button>
+        <link>Spam</link>
       </listitem>
     </list>
   </landmark>
@@ -19665,37 +19628,22 @@ exports[`firefox /components/pagination/ 1`] = `
     <list>
       <listitem>
         Go to previous page
-        <button disabled="true">Go to previous page</button>
+        <link disabled="true">Go to previous page</link>
       </listitem>
       <listitem>
-        page 1
-        <button>
-          page 1<text>1</text>
-        </button>
+        page 1<link>page 1</link>
       </listitem>
       <listitem>
-        Go to page 2
-        <button>
-          Go to page 2<text>2</text>
-        </button>
+        Go to page 2<link>Go to page 2</link>
       </listitem>
       <listitem>
-        Go to page 3
-        <button>
-          Go to page 3<text>3</text>
-        </button>
+        Go to page 3<link>Go to page 3</link>
       </listitem>
       <listitem>
-        Go to page 4
-        <button>
-          Go to page 4<text>4</text>
-        </button>
+        Go to page 4<link>Go to page 4</link>
       </listitem>
       <listitem>
-        Go to page 5
-        <button>
-          Go to page 5<text>5</text>
-        </button>
+        Go to page 5<link>Go to page 5</link>
       </listitem>
       <listitem>
         Go to end-ellipsis page
@@ -19703,14 +19651,11 @@ exports[`firefox /components/pagination/ 1`] = `
       </listitem>
       <listitem>
         Go to page 10
-        <button>
-          Go to page 10
-          <text>10</text>
-        </button>
+        <link>Go to page 10</link>
       </listitem>
       <listitem>
         Go to next page
-        <button>Go to next page</button>
+        <link>Go to next page</link>
       </listitem>
     </list>
   </landmark>
