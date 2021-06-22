@@ -9,10 +9,17 @@ exports[`chromium /api/select/ 1`] = `Array []`;
 exports[`chromium /components/breadcrumbs 1`] = `
 Array [
   Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-allowed-role?application=axeAPI",
+    "id": "aria-allowed-role",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+  Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
     "nodes": Array [
-      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > div[role=\\"presentation\\"] > .MuiBreadcrumbs-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiTypography-root-MuiBreadcrumbs-root[aria-label=\\"breadcrumb\\"]",
+      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .MuiBreadcrumbs-root[aria-label=\\"breadcrumb\\"]",
     ],
   },
 ]
@@ -20,22 +27,21 @@ Array [
 
 exports[`chromium /components/button-group/ 1`] = `Array []`;
 
-exports[`chromium /components/buttons/ 1`] = `
+exports[`chromium /components/buttons/ 1`] = `Array []`;
+
+exports[`chromium /components/checkboxes/ 1`] = `Array []`;
+
+exports[`chromium /components/dialogs/ 1`] = `
 Array [
   Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-progressbar-name?application=axeAPI",
-    "id": "aria-progressbar-name",
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/heading-order?application=axeAPI",
+    "id": "heading-order",
     "nodes": Array [
-      ".MuiLoadingButton-loadingIndicatorCenter.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiLoadingButton-loadingIndicator.MuiLoadingButton-loadingIndicator > .MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorInherit",
-      ".MuiLoadingButton-loadingIndicatorStart > .MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorInherit",
+      "h6",
     ],
   },
 ]
 `;
-
-exports[`chromium /components/checkboxes/ 1`] = `Array []`;
-
-exports[`chromium /components/dialogs/ 1`] = `Array []`;
 
 exports[`chromium /components/pagination/ 1`] = `
 Array [
@@ -43,7 +49,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
     "nodes": Array [
-      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .css-REMOVED_UNSTABLE_EMOTION_HASH-Stack-root > .MuiPagination-text.MuiPagination-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiPagination-root:nth-child(1)",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER > .MuiPagination-root[aria-label=\\"pagination\\\\ navigation\\"]:nth-child(1)",
     ],
   },
 ]
@@ -60,18 +66,26 @@ exports[`chromium /components/selects/ 1`] = `Array []`;
 exports[`chromium /components/slider 1`] = `
 Array [
   Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-valid-attr-value?application=axeAPI",
-    "id": "aria-valid-attr-value",
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-input-field-name?application=axeAPI",
+    "id": "aria-input-field-name",
     "nodes": Array [
-      "input[aria-label=\\"Small\\\\ steps\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER[aria-labelledby=\\"range-slider\\"][aria-valuetext=\\"\\\\32 0°C\\"]",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER[aria-labelledby=\\"range-slider\\"][aria-valuetext=\\"\\\\33 7°C\\"]",
     ],
   },
   Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/label?application=axeAPI",
-    "id": "label",
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-valid-attr-value?application=axeAPI",
+    "id": "aria-valid-attr-value",
     "nodes": Array [
-      ".Mui-disabled.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiSlider-thumb.MuiSlider-thumbSizeMedium > input[aria-valuemax=\\"\\\\31 10\\"][aria-valuemin=\\"\\\\31 0\\"][min=\\"\\\\31 0\\"]",
-      "input[value=\\"\\\\31 0\\"][aria-orientation=\\"horizontal\\"][aria-valuemax=\\"\\\\31 00\\"]",
+      "span[aria-labelledby=\\"discrete-slider-small-steps\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/duplicate-id-aria?application=axeAPI",
+    "id": "duplicate-id-aria",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER > .MuiTypography-body1.MuiTypography-gutterBottom:nth-child(1)",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER.markdown-body:nth-child(14) > h2 > .anchor-link",
     ],
   },
 ]
@@ -79,20 +93,21 @@ Array [
 
 exports[`chromium /components/switches/ 1`] = `Array []`;
 
-exports[`chromium /components/tabs/ 1`] = `Array []`;
-
-exports[`chromium /components/text-fields/ 1`] = `
+exports[`chromium /components/tabs/ 1`] = `
 Array [
   Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/label?application=axeAPI",
-    "id": "label",
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/duplicate-id-aria?application=axeAPI",
+    "id": "duplicate-id-aria",
     "nodes": Array [
-      "#filled-hidden-label-small",
-      "#filled-hidden-label-normal",
+      "div[aria-labelledby=\\"demo-a11y-tabs-automatic-label\\"] > .Mui-selected.MuiTab-textColorInherit[aria-controls=\\"a11y-tabpanel-0\\"]",
+      "div[aria-labelledby=\\"demo-a11y-tabs-automatic-label\\"] > .MuiTab-textColorInherit.MuiTab-root[aria-controls=\\"a11y-tabpanel-1\\"]",
+      "div[aria-labelledby=\\"demo-a11y-tabs-automatic-label\\"] > .MuiTab-textColorInherit.MuiTab-root[aria-controls=\\"a11y-tabpanel-2\\"]",
     ],
   },
 ]
 `;
+
+exports[`chromium /components/text-fields/ 1`] = `Array []`;
 
 exports[`chromium /components/tooltips/ 1`] = `Array []`;
 
@@ -104,16 +119,16 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-required-parent?application=axeAPI",
     "id": "aria-required-parent",
     "nodes": Array [
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER > .Mui-expanded.MuiTreeItem-root[role=\\"treeitem\\"] > .MuiTreeItem-group.MuiCollapse-container[role=\\"group\\"] > .MuiCollapse-wrapper > .MuiCollapse-wrapperInner > .MuiTreeItem-root[role=\\"treeitem\\"]:nth-child(1)",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER > .Mui-expanded.MuiTreeItem-root[role=\\"treeitem\\"] > .MuiTreeItem-group.MuiCollapse-container[role=\\"group\\"] > .MuiCollapse-wrapper > .MuiCollapse-wrapperInner > .MuiTreeItem-root[role=\\"treeitem\\"]:nth-child(2)",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER > .MuiCollapse-wrapper > .MuiCollapse-wrapperInner > .MuiTreeItem-root[role=\\"treeitem\\"]:nth-child(1)",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER > .MuiCollapse-wrapper > .MuiCollapse-wrapperInner > .MuiTreeItem-root[role=\\"treeitem\\"]:nth-child(2)",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER > .MuiCollapse-wrapper > .MuiCollapse-wrapperInner > .MuiTreeItem-root[role=\\"treeitem\\"]:nth-child(3)",
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER > .MuiCollapse-wrapper > .MuiCollapse-wrapperInner > .MuiTreeItem-root[role=\\"treeitem\\"]:nth-child(4)",
+      ".MuiCollapse-wrapperInner > .jssREMOVED_UNSTABLE_JSS_COUNTER.MuiTreeItem-root[role=\\"treeitem\\"]:nth-child(1)",
+      ".MuiCollapse-wrapperInner > .jssREMOVED_UNSTABLE_JSS_COUNTER.MuiTreeItem-root[role=\\"treeitem\\"]:nth-child(2)",
+      ".MuiCollapse-wrapperInner > .jssREMOVED_UNSTABLE_JSS_COUNTER.MuiTreeItem-root[role=\\"treeitem\\"]:nth-child(3)",
+      ".MuiCollapse-wrapperInner > .jssREMOVED_UNSTABLE_JSS_COUNTER.MuiTreeItem-root[role=\\"treeitem\\"]:nth-child(4)",
     ],
   },
 ]
