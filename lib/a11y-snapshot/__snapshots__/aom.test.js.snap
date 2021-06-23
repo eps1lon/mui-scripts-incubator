@@ -3292,12 +3292,12 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>SECONDARY</text>
   </button>
   <button>
-    SECONDARY
-    <text>SECONDARY</text>
+    SUCCESS
+    <text>SUCCESS</text>
   </button>
   <button>
-    SECONDARY
-    <text>SECONDARY</text>
+    ERROR
+    <text>ERROR</text>
   </button>
   <toolbar>
     demo source
@@ -3493,6 +3493,33 @@ exports[`chromium /components/buttons/ 1`] = `
   <button>delete</button>
   <button>delete</button>
   <button>delete</button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="3">
+    Colors
+    <text>Colors</text>
+  </heading>
+  <paragraph>
+    <text>Use</text>
+    <code>$SOME_CODE</code>
+    <text>prop to apply theme color palette to component.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>fingerprint</button>
+  <button>fingerprint</button>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -3936,6 +3963,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <checkbox checked="true">Checkbox demo</checkbox>
   <checkbox checked="true">Checkbox demo</checkbox>
   <checkbox checked="true">Checkbox demo</checkbox>
   <checkbox checked="true">Checkbox demo</checkbox>
@@ -6675,6 +6703,7 @@ exports[`chromium /components/radio-buttons 1`] = `
   <radio checked="false">b</radio>
   <radio checked="false">c</radio>
   <radio checked="false">d</radio>
+  <radio checked="false">e</radio>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -9293,6 +9322,7 @@ exports[`chromium /components/switches/ 1`] = `
   <checkbox checked="true">Switch demo</checkbox>
   <checkbox checked="true">Switch demo</checkbox>
   <checkbox checked="true">Switch demo</checkbox>
+  <checkbox checked="true">Switch demo</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -11688,27 +11718,30 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Outlined secondary</text>
     </Label>
-    <textbox>Outlined secondary</textbox>
+    <textbox></textbox>
     <Label>
-      <text>Filled secondary</text>
+      <text>Filled success</text>
     </Label>
     <text> </text>
-    <textbox>Filled secondary</textbox>
+    <textbox></textbox>
     <Label>
-      <text>Standard secondary</text>
+      <text>Standard warning</text>
     </Label>
     <text> </text>
-    <textbox>Standard secondary</textbox>
+    <textbox></textbox>
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Customized inputs
     <text>Customized inputs</text>
@@ -16719,12 +16752,12 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>SECONDARY</text>
   </button>
   <button>
-    SECONDARY
-    <text>SECONDARY</text>
+    SUCCESS
+    <text>SUCCESS</text>
   </button>
   <button>
-    SECONDARY
-    <text>SECONDARY</text>
+    ERROR
+    <text>ERROR</text>
   </button>
   <toolbar>
     demo source
@@ -16737,9 +16770,9 @@ exports[`firefox /components/buttons/ 1`] = `
   </toolbar>
   <text>
     <Button color="secondary">Secondary</Button>
-    <Button variant="contained" color="secondary">
-    Secondary </Button> <Button variant="outlined"
-    color="secondary"> Secondary </Button>
+    <Button variant="contained" color="success">
+    Success </Button> <Button variant="outlined"
+    color="error"> Error </Button>
   </text>
   <paragraph>
     <text>
@@ -16956,6 +16989,34 @@ exports[`firefox /components/buttons/ 1`] = `
     <DeleteIcon /> </IconButton> <IconButton
     aria-label="delete" size="large"> <DeleteIcon
     fontSize="inherit" /> </IconButton>
+  </text>
+  <heading level="3">
+    Colors
+    <text>Colors</text>
+  </heading>
+  <paragraph>
+    <text>Use color prop to apply theme color palette to component.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>fingerprint</button>
+  <button>fingerprint</button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <IconButton aria-label="fingerprint"
+    color="secondary"> <Fingerprint /> </IconButton>
+    <IconButton aria-label="fingerprint"
+    color="success"> <Fingerprint /> </IconButton>
   </text>
   <heading level="2">
     Customized buttons
@@ -17402,6 +17463,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
   <checkbox checked="true">Checkbox demo</checkbox>
   <checkbox checked="true">Checkbox demo</checkbox>
   <checkbox checked="true">Checkbox demo</checkbox>
+  <checkbox checked="true">Checkbox demo</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -17414,10 +17476,12 @@ exports[`firefox /components/checkboxes/ 1`] = `
   <text>
     <Checkbox {...label} defaultChecked /> <Checkbox
     {...label} defaultChecked color="secondary" />
-    <Checkbox {...label} defaultChecked color="default"
-    /> <Checkbox {...label} defaultChecked sx={{
-    color: green[800], '&.Mui-checked': { color: green[600],
-    }, }} />
+    <Checkbox {...label} defaultChecked color="success"
+    /> <Checkbox {...label} defaultChecked
+    color="default" /> <Checkbox {...label}
+    defaultChecked sx={{ color: pink[800],
+    '&.Mui-checked': { color: pink[600], }, }}
+    />
   </text>
   <heading level="2">
     Icon
@@ -20467,6 +20531,7 @@ exports[`firefox /components/radio-buttons 1`] = `
   <radio>b</radio>
   <radio>c</radio>
   <radio>d</radio>
+  <radio>e</radio>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -20480,9 +20545,10 @@ exports[`firefox /components/radio-buttons 1`] = `
     <Radio {...controlProps('a')} /> <Radio
     {...controlProps('b')} color="secondary" />
     <Radio {...controlProps('c')}
-    color="default" /> <Radio
-    {...controlProps('d')} sx={{ color:
-    green[800], '&.Mui-checked': { color: green[600], },
+    color="success" /> <Radio
+    {...controlProps('d')} color="default" />
+    <Radio {...controlProps('e')} sx={{ color:
+    pink[800], '&.Mui-checked': { color: pink[600], },
     }} />
   </text>
   <heading level="2">
@@ -23375,6 +23441,7 @@ exports[`firefox /components/switches/ 1`] = `
   <checkbox checked="true">Switch demo</checkbox>
   <checkbox checked="true">Switch demo</checkbox>
   <checkbox checked="true">Switch demo</checkbox>
+  <checkbox checked="true">Switch demo</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -23387,8 +23454,10 @@ exports[`firefox /components/switches/ 1`] = `
   <text>
     <Switch {...label} defaultChecked /> <Switch
     {...label} defaultChecked color="secondary" />
-    <Switch {...label} defaultChecked color="default"
-    /> <GreenSwitch {...label} defaultChecked />
+    <Switch {...label} defaultChecked color="warning"
+    /> <Switch {...label} defaultChecked
+    color="default" /> <GreenSwitch {...label}
+    defaultChecked />
   </text>
   <heading level="2">
     Controlled
@@ -25909,29 +25978,36 @@ exports[`firefox /components/text-fields/ 1`] = `
       Outlined secondary
       <text>Outlined secondary</text>
     </label>
-    <textbox>Outlined secondary</textbox>
+    <textbox></textbox>
     <label>
-      Filled secondary
-      <text>Filled secondary</text>
+      Filled success
+      <text>Filled success</text>
     </label>
     <statictext> </statictext>
-    <textbox>Filled secondary</textbox>
+    <textbox></textbox>
     <label>
-      Standard secondary
-      <text>Standard secondary</text>
+      Standard warning
+      <text>Standard warning</text>
     </label>
     <statictext> </statictext>
-    <textbox>Standard secondary</textbox>
+    <textbox></textbox>
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <TextField label="Outlined secondary"
+    color="secondary" focused /> <TextField label="Filled
+    success" variant="filled" color="success" focused
+    /> <TextField label="Standard warning"
+    variant="standard" color="warning" focused />
+  </text>
   <heading level="2">
     Customized inputs
     <text>Customized inputs</text>

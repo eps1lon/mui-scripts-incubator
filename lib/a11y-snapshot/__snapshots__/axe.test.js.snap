@@ -89,6 +89,9 @@ Array [
     "nodes": Array [
       "#filled-hidden-label-small",
       "#filled-hidden-label-normal",
+      ".MuiInputBase-colorSecondary > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiInputBase-input-MuiOutlinedInput-input.MuiOutlinedInput-input[value=\\"\\"]",
+      ".MuiInputBase-colorSuccess > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiInputBase-input-MuiFilledInput-input.MuiFilledInput-input[value=\\"\\"]",
+      ".MuiInputBase-colorWarning > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiInputBase-input-MuiInput-input.MuiInput-input[value=\\"\\"]",
     ],
   },
 ]
