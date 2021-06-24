@@ -1,13 +1,50 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`chromium / 1`] = `Array []`;
+exports[`chromium / 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+]
+`;
 
-exports[`chromium /api/button/ 1`] = `Array []`;
+exports[`chromium /api/button/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+]
+`;
 
-exports[`chromium /api/select/ 1`] = `Array []`;
+exports[`chromium /api/select/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/breadcrumbs 1`] = `
 Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
   Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
@@ -18,7 +55,17 @@ Array [
 ]
 `;
 
-exports[`chromium /components/button-group/ 1`] = `Array []`;
+exports[`chromium /components/button-group/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/buttons/ 1`] = `
 Array [
@@ -30,15 +77,49 @@ Array [
       ".MuiLoadingButton-loadingIndicatorStart > .MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorInherit",
     ],
   },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
 ]
 `;
 
-exports[`chromium /components/checkboxes/ 1`] = `Array []`;
+exports[`chromium /components/checkboxes/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/dialogs/ 1`] = `Array []`;
+exports[`chromium /components/dialogs/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/pagination/ 1`] = `
 Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
   Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
@@ -49,13 +130,53 @@ Array [
 ]
 `;
 
-exports[`chromium /components/pickers 1`] = `Array []`;
+exports[`chromium /components/pickers 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/radio-buttons 1`] = `Array []`;
+exports[`chromium /components/radio-buttons 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/rating/ 1`] = `Array []`;
+exports[`chromium /components/rating/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/selects/ 1`] = `Array []`;
+exports[`chromium /components/selects/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/slider 1`] = `
 Array [
@@ -64,6 +185,13 @@ Array [
     "id": "aria-valid-attr-value",
     "nodes": Array [
       "input[aria-label=\\"Small\\\\ steps\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
     ],
   },
   Object {
@@ -77,12 +205,39 @@ Array [
 ]
 `;
 
-exports[`chromium /components/switches/ 1`] = `Array []`;
+exports[`chromium /components/switches/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/tabs/ 1`] = `Array []`;
+exports[`chromium /components/tabs/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/text-fields/ 1`] = `
 Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
   Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/label?application=axeAPI",
     "id": "label",
@@ -97,9 +252,29 @@ Array [
 ]
 `;
 
-exports[`chromium /components/tooltips/ 1`] = `Array []`;
+exports[`chromium /components/tooltips/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/transfer-list 1`] = `Array []`;
+exports[`chromium /components/transfer-list 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/tree-view/ 1`] = `
 Array [
@@ -117,6 +292,13 @@ Array [
       "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
       "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
       "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
     ],
   },
 ]
