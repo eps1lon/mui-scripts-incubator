@@ -263,6 +263,7 @@ exports[`chromium / 1`] = `
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <Iframe>Netlify Drawer</Iframe>
   <alert></alert>
 </WebArea>;
 
@@ -6245,6 +6246,9 @@ exports[`chromium /components/pickers 1`] = `
     <text>08/18/2014</text>
   </textbox>
   <button>Choose date, selected date is Aug 18, 2014</button>
+  <paragraph>
+    <text>mm/dd/yyyy</text>
+  </paragraph>
   <Label>
     <text>Date picker mobile</text>
   </Label>
@@ -6260,6 +6264,9 @@ exports[`chromium /components/pickers 1`] = `
     <text>09:11 pm</text>
   </textbox>
   <button>Choose time, selected time is 9:11 PM</button>
+  <paragraph>
+    <text>hh:mm (a|p)m</text>
+  </paragraph>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -14049,6 +14056,20 @@ exports[`firefox / 1`] = `
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <iframe>
+    Netlify Drawer
+    <document>
+      Netlify Drawer
+      <button>
+        Open Netlify Drawer
+        <img>Logo</img>
+        <diagram></diagram>
+      </button>
+      <text>
+        <alert></alert>
+      </text>
+    </document>
+  </iframe>
   <text>
     <alert></alert>
   </text>
@@ -20007,6 +20028,9 @@ exports[`firefox /components/pickers 1`] = `
     <text>08/18/2014</text>
   </textbox>
   <button>Choose date, selected date is Aug 18, 2014</button>
+  <paragraph>
+    <text>mm/dd/yyyy</text>
+  </paragraph>
   <label>
     Date picker mobile
     <text>Date picker mobile</text>
@@ -20024,6 +20048,9 @@ exports[`firefox /components/pickers 1`] = `
     <text>09:11 pm</text>
   </textbox>
   <button>Choose time, selected time is 9:11 PM</button>
+  <paragraph>
+    <text>hh:mm (a|p)m</text>
+  </paragraph>
   <toolbar>
     demo source
     <button>Show the source</button>
