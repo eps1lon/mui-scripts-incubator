@@ -6245,9 +6245,6 @@ exports[`chromium /components/pickers 1`] = `
     <text>08/18/2014</text>
   </textbox>
   <button>Choose date, selected date is Aug 18, 2014</button>
-  <paragraph>
-    <text>mm/dd/yyyy</text>
-  </paragraph>
   <Label>
     <text>Date picker mobile</text>
   </Label>
@@ -6263,9 +6260,6 @@ exports[`chromium /components/pickers 1`] = `
     <text>09:11 pm</text>
   </textbox>
   <button>Choose time, selected time is 9:11 PM</button>
-  <paragraph>
-    <text>hh:mm (a|p)m</text>
-  </paragraph>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -20013,9 +20007,6 @@ exports[`firefox /components/pickers 1`] = `
     <text>08/18/2014</text>
   </textbox>
   <button>Choose date, selected date is Aug 18, 2014</button>
-  <paragraph>
-    <text>mm/dd/yyyy</text>
-  </paragraph>
   <label>
     Date picker mobile
     <text>Date picker mobile</text>
@@ -20033,9 +20024,6 @@ exports[`firefox /components/pickers 1`] = `
     <text>09:11 pm</text>
   </textbox>
   <button>Choose time, selected time is 9:11 PM</button>
-  <paragraph>
-    <text>hh:mm (a|p)m</text>
-  </paragraph>
   <toolbar>
     demo source
     <button>Show the source</button>
