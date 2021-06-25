@@ -257,12 +257,13 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.38. View versions page.</link>
+      <link>v5.0.0-alpha.37. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <Iframe>Netlify Drawer</Iframe>
   <alert></alert>
 </WebArea>;
 
@@ -2549,20 +2550,32 @@ exports[`chromium /components/breadcrumbs 1`] = `
     mailbox folders
     <list>
       <listitem level="1">
-        <link>Inbox</link>
+        <button>
+          Inbox
+          <text>Inbox</text>
+        </button>
       </listitem>
       <listitem level="1">
         <list>
           <listitem level="2">
-            <link>Important</link>
+            <button>
+              Important
+              <text>Important</text>
+            </button>
           </listitem>
         </list>
       </listitem>
       <listitem level="1">
-        <link>Trash</link>
+        <button>
+          Trash
+          <text>Trash</text>
+        </button>
       </listitem>
       <listitem level="1">
-        <link>Spam</link>
+        <button>
+          Spam
+          <text>Spam</text>
+        </button>
       </listitem>
     </list>
   </navigation>
@@ -3292,12 +3305,12 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>SECONDARY</text>
   </button>
   <button>
-    SUCCESS
-    <text>SUCCESS</text>
+    SECONDARY
+    <text>SECONDARY</text>
   </button>
   <button>
-    ERROR
-    <text>ERROR</text>
+    SECONDARY
+    <text>SECONDARY</text>
   </button>
   <toolbar>
     demo source
@@ -3493,33 +3506,6 @@ exports[`chromium /components/buttons/ 1`] = `
   <button>delete</button>
   <button>delete</button>
   <button>delete</button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="3">
-    Colors
-    <text>Colors</text>
-  </heading>
-  <paragraph>
-    <text>Use</text>
-    <code>$SOME_CODE</code>
-    <text>prop to apply theme color palette to component.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>fingerprint</button>
-  <button>fingerprint</button>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -3963,7 +3949,6 @@ exports[`chromium /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Checkbox demo</checkbox>
   <checkbox checked="true">Checkbox demo</checkbox>
   <checkbox checked="true">Checkbox demo</checkbox>
   <checkbox checked="true">Checkbox demo</checkbox>
@@ -5935,31 +5920,44 @@ exports[`chromium /components/pagination/ 1`] = `
     pagination navigation
     <list>
       <listitem level="1">
-        <link disabled="true">Go to previous page</link>
+        <button disabled="true">Go to previous page</button>
       </listitem>
       <listitem level="1">
-        <link>page 1</link>
+        <button>
+          page 1<text>1</text>
+        </button>
       </listitem>
       <listitem level="1">
-        <link>Go to page 2</link>
+        <button>
+          Go to page 2<text>2</text>
+        </button>
       </listitem>
       <listitem level="1">
-        <link>Go to page 3</link>
+        <button>
+          Go to page 3<text>3</text>
+        </button>
       </listitem>
       <listitem level="1">
-        <link>Go to page 4</link>
+        <button>
+          Go to page 4<text>4</text>
+        </button>
       </listitem>
       <listitem level="1">
-        <link>Go to page 5</link>
+        <button>
+          Go to page 5<text>5</text>
+        </button>
       </listitem>
       <listitem level="1">
         <text>…</text>
       </listitem>
       <listitem level="1">
-        <link>Go to page 10</link>
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
       </listitem>
       <listitem level="1">
-        <link>Go to next page</link>
+        <button>Go to next page</button>
       </listitem>
     </list>
   </navigation>
@@ -6245,6 +6243,9 @@ exports[`chromium /components/pickers 1`] = `
     <text>08/18/2014</text>
   </textbox>
   <button>Choose date, selected date is Aug 18, 2014</button>
+  <paragraph>
+    <text>mm/dd/yyyy</text>
+  </paragraph>
   <Label>
     <text>Date picker mobile</text>
   </Label>
@@ -6260,6 +6261,9 @@ exports[`chromium /components/pickers 1`] = `
     <text>09:11 pm</text>
   </textbox>
   <button>Choose time, selected time is 9:11 PM</button>
+  <paragraph>
+    <text>hh:mm (a|p)m</text>
+  </paragraph>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -6697,7 +6701,6 @@ exports[`chromium /components/radio-buttons 1`] = `
   <radio checked="false">b</radio>
   <radio checked="false">c</radio>
   <radio checked="false">d</radio>
-  <radio checked="false">e</radio>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -9316,7 +9319,6 @@ exports[`chromium /components/switches/ 1`] = `
   <checkbox checked="true">Switch demo</checkbox>
   <checkbox checked="true">Switch demo</checkbox>
   <checkbox checked="true">Switch demo</checkbox>
-  <checkbox checked="true">Switch demo</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -11712,30 +11714,27 @@ exports[`chromium /components/text-fields/ 1`] = `
     <Label>
       <text>Outlined secondary</text>
     </Label>
-    <textbox></textbox>
+    <textbox>Outlined secondary</textbox>
     <Label>
-      <text>Filled success</text>
+      <text>Filled secondary</text>
     </Label>
     <text> </text>
-    <textbox></textbox>
+    <textbox>Filled secondary</textbox>
     <Label>
-      <text>Standard warning</text>
+      <text>Standard secondary</text>
     </Label>
     <text> </text>
-    <textbox></textbox>
+    <textbox>Standard secondary</textbox>
   </form>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Customized inputs
     <text>Customized inputs</text>
@@ -14043,12 +14042,26 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-alpha.38. View versions page.</link>
+      <link>v5.0.0-alpha.37. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <iframe>
+    Netlify Drawer
+    <document>
+      Netlify Drawer
+      <button>
+        Open Netlify Drawer
+        <img>Logo</img>
+        <diagram></diagram>
+      </button>
+      <text>
+        <alert></alert>
+      </text>
+    </document>
+  </iframe>
   <text>
     <alert></alert>
   </text>
@@ -15972,24 +15985,36 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <list>
       <listitem level="1">
         Inbox
-        <link>Inbox</link>
+        <button>
+          Inbox
+          <text>Inbox</text>
+        </button>
       </listitem>
       <listitem level="1">
         Important
         <list>
           <listitem level="2">
             Important
-            <link>Important</link>
+            <button>
+              Important
+              <text>Important</text>
+            </button>
           </listitem>
         </list>
       </listitem>
       <listitem level="1">
         Trash
-        <link>Trash</link>
+        <button>
+          Trash
+          <text>Trash</text>
+        </button>
       </listitem>
       <listitem level="1">
         Spam
-        <link>Spam</link>
+        <button>
+          Spam
+          <text>Spam</text>
+        </button>
       </listitem>
     </list>
   </landmark>
@@ -16746,12 +16771,12 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>SECONDARY</text>
   </button>
   <button>
-    SUCCESS
-    <text>SUCCESS</text>
+    SECONDARY
+    <text>SECONDARY</text>
   </button>
   <button>
-    ERROR
-    <text>ERROR</text>
+    SECONDARY
+    <text>SECONDARY</text>
   </button>
   <toolbar>
     demo source
@@ -16764,9 +16789,9 @@ exports[`firefox /components/buttons/ 1`] = `
   </toolbar>
   <text>
     <Button color="secondary">Secondary</Button>
-    <Button variant="contained" color="success">
-    Success </Button> <Button variant="outlined"
-    color="error"> Error </Button>
+    <Button variant="contained" color="secondary">
+    Secondary </Button> <Button variant="outlined"
+    color="secondary"> Secondary </Button>
   </text>
   <paragraph>
     <text>
@@ -16983,34 +17008,6 @@ exports[`firefox /components/buttons/ 1`] = `
     <DeleteIcon /> </IconButton> <IconButton
     aria-label="delete" size="large"> <DeleteIcon
     fontSize="inherit" /> </IconButton>
-  </text>
-  <heading level="3">
-    Colors
-    <text>Colors</text>
-  </heading>
-  <paragraph>
-    <text>Use color prop to apply theme color palette to component.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>fingerprint</button>
-  <button>fingerprint</button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <IconButton aria-label="fingerprint"
-    color="secondary"> <Fingerprint /> </IconButton>
-    <IconButton aria-label="fingerprint"
-    color="success"> <Fingerprint /> </IconButton>
   </text>
   <heading level="2">
     Customized buttons
@@ -17457,7 +17454,6 @@ exports[`firefox /components/checkboxes/ 1`] = `
   <checkbox checked="true">Checkbox demo</checkbox>
   <checkbox checked="true">Checkbox demo</checkbox>
   <checkbox checked="true">Checkbox demo</checkbox>
-  <checkbox checked="true">Checkbox demo</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -17470,12 +17466,10 @@ exports[`firefox /components/checkboxes/ 1`] = `
   <text>
     <Checkbox {...label} defaultChecked /> <Checkbox
     {...label} defaultChecked color="secondary" />
-    <Checkbox {...label} defaultChecked color="success"
-    /> <Checkbox {...label} defaultChecked
-    color="default" /> <Checkbox {...label}
-    defaultChecked sx={{ color: pink[800],
-    '&.Mui-checked': { color: pink[600], }, }}
-    />
+    <Checkbox {...label} defaultChecked color="default"
+    /> <Checkbox {...label} defaultChecked sx={{
+    color: green[800], '&.Mui-checked': { color: green[600],
+    }, }} />
   </text>
   <heading level="2">
     Icon
@@ -19686,22 +19680,37 @@ exports[`firefox /components/pagination/ 1`] = `
     <list>
       <listitem>
         Go to previous page
-        <link disabled="true">Go to previous page</link>
+        <button disabled="true">Go to previous page</button>
       </listitem>
       <listitem>
-        page 1<link>page 1</link>
+        page 1
+        <button>
+          page 1<text>1</text>
+        </button>
       </listitem>
       <listitem>
-        Go to page 2<link>Go to page 2</link>
+        Go to page 2
+        <button>
+          Go to page 2<text>2</text>
+        </button>
       </listitem>
       <listitem>
-        Go to page 3<link>Go to page 3</link>
+        Go to page 3
+        <button>
+          Go to page 3<text>3</text>
+        </button>
       </listitem>
       <listitem>
-        Go to page 4<link>Go to page 4</link>
+        Go to page 4
+        <button>
+          Go to page 4<text>4</text>
+        </button>
       </listitem>
       <listitem>
-        Go to page 5<link>Go to page 5</link>
+        Go to page 5
+        <button>
+          Go to page 5<text>5</text>
+        </button>
       </listitem>
       <listitem>
         Go to end-ellipsis page
@@ -19709,11 +19718,14 @@ exports[`firefox /components/pagination/ 1`] = `
       </listitem>
       <listitem>
         Go to page 10
-        <link>Go to page 10</link>
+        <button>
+          Go to page 10
+          <text>10</text>
+        </button>
       </listitem>
       <listitem>
         Go to next page
-        <link>Go to next page</link>
+        <button>Go to next page</button>
       </listitem>
     </list>
   </landmark>
@@ -20007,6 +20019,9 @@ exports[`firefox /components/pickers 1`] = `
     <text>08/18/2014</text>
   </textbox>
   <button>Choose date, selected date is Aug 18, 2014</button>
+  <paragraph>
+    <text>mm/dd/yyyy</text>
+  </paragraph>
   <label>
     Date picker mobile
     <text>Date picker mobile</text>
@@ -20024,6 +20039,9 @@ exports[`firefox /components/pickers 1`] = `
     <text>09:11 pm</text>
   </textbox>
   <button>Choose time, selected time is 9:11 PM</button>
+  <paragraph>
+    <text>hh:mm (a|p)m</text>
+  </paragraph>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -20519,7 +20537,6 @@ exports[`firefox /components/radio-buttons 1`] = `
   <radio>b</radio>
   <radio>c</radio>
   <radio>d</radio>
-  <radio>e</radio>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -20533,10 +20550,9 @@ exports[`firefox /components/radio-buttons 1`] = `
     <Radio {...controlProps('a')} /> <Radio
     {...controlProps('b')} color="secondary" />
     <Radio {...controlProps('c')}
-    color="success" /> <Radio
-    {...controlProps('d')} color="default" />
-    <Radio {...controlProps('e')} sx={{ color:
-    pink[800], '&.Mui-checked': { color: pink[600], },
+    color="default" /> <Radio
+    {...controlProps('d')} sx={{ color:
+    green[800], '&.Mui-checked': { color: green[600], },
     }} />
   </text>
   <heading level="2">
@@ -23429,7 +23445,6 @@ exports[`firefox /components/switches/ 1`] = `
   <checkbox checked="true">Switch demo</checkbox>
   <checkbox checked="true">Switch demo</checkbox>
   <checkbox checked="true">Switch demo</checkbox>
-  <checkbox checked="true">Switch demo</checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -23442,10 +23457,8 @@ exports[`firefox /components/switches/ 1`] = `
   <text>
     <Switch {...label} defaultChecked /> <Switch
     {...label} defaultChecked color="secondary" />
-    <Switch {...label} defaultChecked color="warning"
-    /> <Switch {...label} defaultChecked
-    color="default" /> <GreenSwitch {...label}
-    defaultChecked />
+    <Switch {...label} defaultChecked color="default"
+    /> <GreenSwitch {...label} defaultChecked />
   </text>
   <heading level="2">
     Controlled
@@ -25966,36 +25979,29 @@ exports[`firefox /components/text-fields/ 1`] = `
       Outlined secondary
       <text>Outlined secondary</text>
     </label>
-    <textbox></textbox>
+    <textbox>Outlined secondary</textbox>
     <label>
-      Filled success
-      <text>Filled success</text>
+      Filled secondary
+      <text>Filled secondary</text>
     </label>
     <statictext> </statictext>
-    <textbox></textbox>
+    <textbox>Filled secondary</textbox>
     <label>
-      Standard warning
-      <text>Standard warning</text>
+      Standard secondary
+      <text>Standard secondary</text>
     </label>
     <statictext> </statictext>
-    <textbox></textbox>
+    <textbox>Standard secondary</textbox>
   </form>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <TextField label="Outlined secondary"
-    color="secondary" focused /> <TextField label="Filled
-    success" variant="filled" color="success" focused
-    /> <TextField label="Standard warning"
-    variant="standard" color="warning" focused />
-  </text>
   <heading level="2">
     Customized inputs
     <text>Customized inputs</text>
