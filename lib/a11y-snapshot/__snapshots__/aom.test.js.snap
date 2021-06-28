@@ -9807,10 +9807,7 @@ exports[`chromium /components/tabs/ 1`] = `
       ACTIVE
       <text>ACTIVE</text>
     </tab>
-    <tab disabled="true">
-      DISABLED
-      <text>DISABLED</text>
-    </tab>
+    <tab disabled="true">DISABLED</tab>
     <tab selected="true">
       ACTIVE
       <text>ACTIVE</text>
@@ -10178,30 +10175,15 @@ exports[`chromium /components/tabs/ 1`] = `
   </button>
   <tablist level="1">
     ant example
-    <tab selected="true">
-      Tab 1<text>Tab 1</text>
-    </tab>
-    <tab>
-      Tab 2<text>Tab 2</text>
-    </tab>
-    <tab>
-      Tab 3<text>Tab 3</text>
-    </tab>
+    <tab selected="true">Tab 1</tab>
+    <tab>Tab 2</tab>
+    <tab>Tab 3</tab>
   </tablist>
   <tablist level="1">
     styled tabs example
-    <tab selected="true">
-      Workflows
-      <text>Workflows</text>
-    </tab>
-    <tab>
-      Datasets
-      <text>Datasets</text>
-    </tab>
-    <tab>
-      Connections
-      <text>Connections</text>
-    </tab>
+    <tab selected="true">Workflows</tab>
+    <tab>Datasets</tab>
+    <tab>Connections</tab>
   </tablist>
   <toolbar>
     demo source
