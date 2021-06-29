@@ -157,10 +157,6 @@ exports[`chromium / 1`] = `
       hoodiebees
       <img>hoodiebees</img>
     </link>
-    <link>
-      hoodiebees
-      <img>hoodiebees</img>
-    </link>
     <heading level="3">
       There are more!
       <text>There are more!</text>
@@ -267,6 +263,7 @@ exports[`chromium / 1`] = `
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <Iframe>Netlify Drawer</Iframe>
   <alert></alert>
 </WebArea>;
 
@@ -9811,7 +9808,10 @@ exports[`chromium /components/tabs/ 1`] = `
       ACTIVE
       <text>ACTIVE</text>
     </tab>
-    <tab disabled="true">DISABLED</tab>
+    <tab disabled="true">
+      DISABLED
+      <text>DISABLED</text>
+    </tab>
     <tab selected="true">
       ACTIVE
       <text>ACTIVE</text>
@@ -10179,15 +10179,30 @@ exports[`chromium /components/tabs/ 1`] = `
   </button>
   <tablist level="1">
     ant example
-    <tab selected="true">Tab 1</tab>
-    <tab>Tab 2</tab>
-    <tab>Tab 3</tab>
+    <tab selected="true">
+      Tab 1<text>Tab 1</text>
+    </tab>
+    <tab>
+      Tab 2<text>Tab 2</text>
+    </tab>
+    <tab>
+      Tab 3<text>Tab 3</text>
+    </tab>
   </tablist>
   <tablist level="1">
     styled tabs example
-    <tab selected="true">Workflows</tab>
-    <tab>Datasets</tab>
-    <tab>Connections</tab>
+    <tab selected="true">
+      Workflows
+      <text>Workflows</text>
+    </tab>
+    <tab>
+      Datasets
+      <text>Datasets</text>
+    </tab>
+    <tab>
+      Connections
+      <text>Connections</text>
+    </tab>
   </tablist>
   <toolbar>
     demo source
@@ -13918,10 +13933,6 @@ exports[`firefox / 1`] = `
       hoodiebees
       <img value="https://hoodiebees.com/">hoodiebees</img>
     </link>
-    <link>
-      hoodiebees
-      <img value="https://www.movavi.com/">hoodiebees</img>
-    </link>
     <heading level="3">
       There are more!
       <text>There are more!</text>
@@ -14039,6 +14050,20 @@ exports[`firefox / 1`] = `
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <iframe>
+    Netlify Drawer
+    <document>
+      Netlify Drawer
+      <button>
+        Open Netlify Drawer
+        <img>Logo</img>
+        <diagram></diagram>
+      </button>
+      <text>
+        <alert></alert>
+      </text>
+    </document>
+  </iframe>
   <text>
     <alert></alert>
   </text>
