@@ -157,6 +157,10 @@ exports[`chromium / 1`] = `
       hoodiebees
       <img>hoodiebees</img>
     </link>
+    <link>
+      hoodiebees
+      <img>hoodiebees</img>
+    </link>
     <heading level="3">
       There are more!
       <text>There are more!</text>
@@ -13913,6 +13917,10 @@ exports[`firefox / 1`] = `
     <link>
       hoodiebees
       <img value="https://hoodiebees.com/">hoodiebees</img>
+    </link>
+    <link>
+      hoodiebees
+      <img value="https://www.movavi.com/">hoodiebees</img>
     </link>
     <heading level="3">
       There are more!
