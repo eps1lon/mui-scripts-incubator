@@ -263,6 +263,7 @@ exports[`chromium / 1`] = `
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <Iframe>Netlify Drawer</Iframe>
   <alert></alert>
 </WebArea>;
 
@@ -11283,6 +11284,77 @@ exports[`chromium /components/text-fields/ 1`] = `
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <heading level="3">
+    Start Adornments
+    <text>Start Adornments</text>
+  </heading>
+  <paragraph>
+    <text>
+      When using a start adornment, the label is always shrunk by default. You
+      can prevent this with the
+    </text>
+    <code>$SOME_CODE</code>
+    <text>prop.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <Label>
+    <text>Amount</text>
+  </Label>
+  <paragraph>
+    <text>$</text>
+  </paragraph>
+  <textbox>Amount</textbox>
+  <Label>
+    <text>With startAdornmentWidth</text>
+  </Label>
+  <paragraph>
+    <text>$</text>
+  </paragraph>
+  <textbox>With startAdornmentWidth</textbox>
+  <Label>
+    <text>Amount</text>
+  </Label>
+  <text> </text>
+  <paragraph>
+    <text>$</text>
+  </paragraph>
+  <textbox>Amount</textbox>
+  <Label>
+    <text>With startAdornmentWidth</text>
+  </Label>
+  <text> </text>
+  <paragraph>
+    <text>$</text>
+  </paragraph>
+  <textbox>With startAdornmentWidth</textbox>
+  <Label>
+    <text>Amount</text>
+  </Label>
+  <text> </text>
+  <paragraph>
+    <text>$</text>
+  </paragraph>
+  <textbox>Amount</textbox>
+  <Label>
+    <text>With startAdornmentWidth</text>
+  </Label>
+  <text> </text>
+  <paragraph>
+    <text>$</text>
+  </paragraph>
+  <textbox>With startAdornmentWidth</textbox>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
   <heading level="2">
     Sizes
     <text>Sizes</text>
@@ -11921,6 +11993,15 @@ exports[`chromium /components/text-fields/ 1`] = `
       <code>$SOME_CODE</code>
       <code>$SOME_CODE</code>
       <text>prop</text>
+    </listitem>
+    <listitem level="1">
+      <code>$SOME_CODE</code>
+      <text>
+        (number): The width of the start adornment, inherited from the
+      </text>
+      <code>$SOME_CODE</code>
+      <code>$SOME_CODE</code>
+      <text>prop.</text>
     </listitem>
     <listitem level="1">
       <code>$SOME_CODE</code>
@@ -14031,6 +14112,20 @@ exports[`firefox / 1`] = `
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <iframe>
+    Netlify Drawer
+    <document>
+      Netlify Drawer
+      <button>
+        Open Netlify Drawer
+        <img>Logo</img>
+        <diagram></diagram>
+      </button>
+      <text>
+        <alert></alert>
+      </text>
+    </document>
+  </iframe>
   <text>
     <alert></alert>
   </text>
@@ -25539,6 +25634,81 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <heading level="3">
+    Start Adornments
+    <text>Start Adornments</text>
+  </heading>
+  <paragraph>
+    <text>
+      When using a start adornment, the label is always shrunk by default. You
+      can prevent this with the startAdornmentWidth prop.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <label>
+    Amount
+    <text>Amount</text>
+  </label>
+  <paragraph>
+    <text>$</text>
+  </paragraph>
+  <textbox>Amount</textbox>
+  <label>
+    With startAdornmentWidth
+    <text>With startAdornmentWidth</text>
+  </label>
+  <paragraph>
+    <text>$</text>
+  </paragraph>
+  <textbox>With startAdornmentWidth</textbox>
+  <label>
+    Amount
+    <text>Amount</text>
+  </label>
+  <statictext> </statictext>
+  <paragraph>
+    <text>$</text>
+  </paragraph>
+  <textbox>Amount</textbox>
+  <label>
+    With startAdornmentWidth
+    <text>With startAdornmentWidth</text>
+  </label>
+  <statictext> </statictext>
+  <paragraph>
+    <text>$</text>
+  </paragraph>
+  <textbox>With startAdornmentWidth</textbox>
+  <label>
+    Amount
+    <text>Amount</text>
+  </label>
+  <statictext> </statictext>
+  <paragraph>
+    <text>$</text>
+  </paragraph>
+  <textbox>Amount</textbox>
+  <label>
+    With startAdornmentWidth
+    <text>With startAdornmentWidth</text>
+  </label>
+  <statictext> </statictext>
+  <paragraph>
+    <text>$</text>
+  </paragraph>
+  <textbox>With startAdornmentWidth</textbox>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
   <heading level="2">
     Sizes
     <text>Sizes</text>
@@ -26174,6 +26344,14 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>
         value.size (string): The size of the component, inherited from the
         FormControl size prop
+      </text>
+    </listitem>
+    <listitem>
+      value.startAdornmentWidth ( number ): The width of the start adornment,
+      inherited from the FormControl startAdornmentWidth prop.
+      <text>
+        value.startAdornmentWidth (number): The width of the start adornment,
+        inherited from the FormControl startAdornmentWidth prop.
       </text>
     </listitem>
     <listitem>
