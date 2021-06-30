@@ -267,6 +267,7 @@ exports[`chromium / 1`] = `
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <Iframe>Netlify Drawer</Iframe>
   <alert></alert>
 </WebArea>;
 
@@ -4380,6 +4381,24 @@ exports[`chromium /components/dialogs/ 1`] = `
   <button>
     OPEN SIMPLE DIALOG
     <text>OPEN SIMPLE DIALOG</text>
+  </button>
+  <paragraph>
+    <text>This demo had a runtime error!</text>
+  </paragraph>
+  <paragraph>
+    <text>We would appreciate it if you</text>
+    <link>report this error</link>
+    <text>
+      directly in our issue tracker. You will be provided with a prefilled
+      description that includes valuable information about this error.
+    </text>
+  </paragraph>
+  <Pre>
+    <text>Error: test</text>
+  </Pre>
+  <button>
+    RESET DEMO
+    <text>RESET DEMO</text>
   </button>
   <toolbar>
     demo source
@@ -14039,6 +14058,20 @@ exports[`firefox / 1`] = `
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <iframe>
+    Netlify Drawer
+    <document>
+      Netlify Drawer
+      <button>
+        Open Netlify Drawer
+        <img>Logo</img>
+        <diagram></diagram>
+      </button>
+      <text>
+        <alert></alert>
+      </text>
+    </document>
+  </iframe>
   <text>
     <alert></alert>
   </text>
@@ -17918,6 +17951,22 @@ exports[`firefox /components/dialogs/ 1`] = `
   <button>
     OPEN SIMPLE DIALOG
     <text>OPEN SIMPLE DIALOG</text>
+  </button>
+  <paragraph>
+    <text>This demo had a runtime error!</text>
+  </paragraph>
+  <paragraph>
+    <text>We would appreciate it if you</text>
+    <link>report this error</link>
+    <text>
+      directly in our issue tracker. You will be provided with a prefilled
+      description that includes valuable information about this error.
+    </text>
+  </paragraph>
+  <text>Error: test</text>
+  <button>
+    RESET DEMO
+    <text>RESET DEMO</text>
   </button>
   <toolbar>
     demo source
