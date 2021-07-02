@@ -157,10 +157,6 @@ exports[`chromium / 1`] = `
       hoodiebees
       <img>hoodiebees</img>
     </link>
-    <link>
-      hoodiebees
-      <img>hoodiebees</img>
-    </link>
     <heading level="3">
       There are more!
       <text>There are more!</text>
@@ -261,12 +257,13 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-beta.0. View versions page.</link>
+      <link>v5.0.0-alpha.38. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <Iframe>Netlify Drawer</Iframe>
   <alert></alert>
 </WebArea>;
 
@@ -12156,7 +12153,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   </paragraph>
   <paragraph>
     <text>The following demo uses the</text>
-    <link>react-text-mask</link>
+    <link>react-imask</link>
     <text>and</text>
     <link>react-number-format</link>
     <text>libraries. The same concept could be applied to</text>
@@ -12168,12 +12165,12 @@ exports[`chromium /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <Label>
-    <text>react-text-mask</text>
+    <text>react-imask</text>
   </Label>
   <text> </text>
-  <textbox value="(1  )    -    ">
-    react-text-mask
-    <text>(1  )    -    </text>
+  <textbox value="(100) 000-0000">
+    react-imask
+    <text>(100) 000-0000</text>
   </textbox>
   <Label>
     <text>react-number-format</text>
@@ -13918,10 +13915,6 @@ exports[`firefox / 1`] = `
       hoodiebees
       <img value="https://hoodiebees.com/">hoodiebees</img>
     </link>
-    <link>
-      hoodiebees
-      <img value="https://www.movavi.com/">hoodiebees</img>
-    </link>
     <heading level="3">
       There are more!
       <text>There are more!</text>
@@ -14033,12 +14026,26 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-beta.0. View versions page.</link>
+      <link>v5.0.0-alpha.38. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <iframe>
+    Netlify Drawer
+    <document>
+      Netlify Drawer
+      <button>
+        Open Netlify Drawer
+        <img>Logo</img>
+        <diagram></diagram>
+      </button>
+      <text>
+        <alert></alert>
+      </text>
+    </document>
+  </iframe>
   <text>
     <alert></alert>
   </text>
@@ -26434,7 +26441,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <paragraph>
     <text>The following demo uses the</text>
-    <link>react-text-mask</link>
+    <link>react-imask</link>
     <text>and</text>
     <link>react-number-format</link>
     <text>libraries. The same concept could be applied to</text>
@@ -26446,13 +26453,13 @@ exports[`firefox /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <label>
-    react-text-mask
-    <text>react-text-mask</text>
+    react-imask
+    <text>react-imask</text>
   </label>
   <statictext> </statictext>
-  <textbox value="(1  )    -    ">
-    react-text-mask
-    <text>(1  )    -    </text>
+  <textbox value="(100) 000-0000">
+    react-imask
+    <text>(100) 000-0000</text>
   </textbox>
   <label>
     react-number-format
