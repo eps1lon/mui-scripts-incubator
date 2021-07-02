@@ -30,7 +30,7 @@ yargs
 					type: "string",
 				})
 				.option("delay", {
-					default: 3000,
+					default: 500,
 					describe: "Delay in milliseconds between each request to github.com",
 					type: "number",
 				});
