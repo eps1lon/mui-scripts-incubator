@@ -157,10 +157,6 @@ exports[`chromium / 1`] = `
       hoodiebees
       <img>hoodiebees</img>
     </link>
-    <link>
-      hoodiebees
-      <img>hoodiebees</img>
-    </link>
     <heading level="3">
       There are more!
       <text>There are more!</text>
@@ -261,12 +257,13 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-beta.0. View versions page.</link>
+      <link>v5.0.0-alpha.38. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
     </paragraph>
   </contentinfo>
+  <Iframe>Netlify Drawer</Iframe>
   <alert></alert>
 </WebArea>;
 
@@ -13918,10 +13915,6 @@ exports[`firefox / 1`] = `
       hoodiebees
       <img value="https://hoodiebees.com/">hoodiebees</img>
     </link>
-    <link>
-      hoodiebees
-      <img value="https://www.movavi.com/">hoodiebees</img>
-    </link>
     <heading level="3">
       There are more!
       <text>There are more!</text>
@@ -14033,12 +14026,26 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-beta.0. View versions page.</link>
+      <link>v5.0.0-alpha.38. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <iframe>
+    Netlify Drawer
+    <document>
+      Netlify Drawer
+      <button>
+        Open Netlify Drawer
+        <img>Logo</img>
+        <diagram></diagram>
+      </button>
+      <text>
+        <alert></alert>
+      </text>
+    </document>
+  </iframe>
   <text>
     <alert></alert>
   </text>
