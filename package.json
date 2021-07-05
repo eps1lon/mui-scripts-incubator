@@ -17,8 +17,7 @@
 		"cheerio": "1.0.0-rc.3",
 		"fs-extra": "10.0.0",
 		"ink": "2.7.1",
-		"jest": "26.6.3",
-		"jest-circus": "26.6.3",
+		"jest": "27.0.6",
 		"lighthouse": "8.0.0",
 		"lodash": "4.17.21",
 		"netlify": "7.0.1",
@@ -36,7 +35,7 @@
 		"url": "ssh://git@github.com:eps1lon/mui-scripts-incubator.git"
 	},
 	"scripts": {
-		"a11y-snapshot": "jest -c lib/a11y-snapshot/jest.config.js",
+		"a11y-snapshot": "jest --forceExit -c lib/a11y-snapshot/jest.config.js",
 		"format:base": "prettier --ignore-path ./config/.prettierignore .",
 		"format:check": "yarn format:base --check",
 		"format": "yarn format:base --write",
