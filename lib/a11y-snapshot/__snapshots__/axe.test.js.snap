@@ -101,23 +101,4 @@ exports[`chromium /components/tooltips/ 1`] = `Array []`;
 
 exports[`chromium /components/transfer-list 1`] = `Array []`;
 
-exports[`chromium /components/tree-view/ 1`] = `
-Array [
-  Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.2/aria-required-parent?application=axeAPI",
-    "id": "aria-required-parent",
-    "nodes": Array [
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-      "#mui-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT",
-    ],
-  },
-]
-`;
+exports[`chromium /components/tree-view/ 1`] = `Array []`;
