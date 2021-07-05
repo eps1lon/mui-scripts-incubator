@@ -5546,10 +5546,10 @@ pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
-playwright-testing-library@2.7.2:
-  version "2.7.2"
-  resolved "https://registry.yarnpkg.com/playwright-testing-library/-/playwright-testing-library-2.7.2.tgz#ea7d6e1e4e297830981f3b9dc9c46fe31a5886d6"
-  integrity sha512-encp7MQTrshDPb6eh3iQbn8Fqas+grsAa46TZ4VGRzjbAAJzW5NQKUus2fx8jak2eQznJYrl+7ifTy6esBGnBQ==
+playwright-testing-library@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/playwright-testing-library/-/playwright-testing-library-3.0.0.tgz#e2e0690ff8dd7500b4ab57fd4f11db944d26d8bd"
+  integrity sha512-D4jR2ccwBcYwELQdO8Qh49haFxxgRRyRrgsGR8PnKE0vhSAf388GUrsGhIHhY4VNaKfuyeuIJnlqxqfHqpe9yA==
   dependencies:
     "@testing-library/dom" "^7.22.2"
     wait-for-expect "^3.0.2"

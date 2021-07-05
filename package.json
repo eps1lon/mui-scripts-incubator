@@ -24,7 +24,7 @@
 		"netlify": "7.0.1",
 		"node-fetch": "2.6.1",
 		"playwright": "1.10.0",
-		"playwright-testing-library": "2.7.2",
+		"playwright-testing-library": "3.0.0",
 		"prettier": "2.2.1",
 		"react": "17.0.1",
 		"screen-reader-testing-library": "0.0.8",
