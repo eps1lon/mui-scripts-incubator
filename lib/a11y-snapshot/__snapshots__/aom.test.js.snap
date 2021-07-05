@@ -7705,12 +7705,12 @@ exports[`chromium /components/selects/ 1`] = `
     <text>Age</text>
   </Label>
   <text> </text>
-  <combobox value="Thirty">
+  <combobox value="Ten">
     Age
     <MenuListPopup>
-      <menuitem>Ten</menuitem>
+      <menuitem selected="true">Ten</menuitem>
       <menuitem>Twenty</menuitem>
-      <menuitem selected="true">Thirty</menuitem>
+      <menuitem>Thirty</menuitem>
     </MenuListPopup>
   </combobox>
   <toolbar>
@@ -14039,6 +14039,15 @@ exports[`firefox / 1`] = `
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <iframe>
+    Netlify Drawer
+    <document>
+      Netlify Drawer
+      <text>
+        <alert></alert>
+      </text>
+    </document>
+  </iframe>
   <text>
     <alert></alert>
   </text>
@@ -21972,10 +21981,10 @@ exports[`firefox /components/selects/ 1`] = `
     <text>Age</text>
   </label>
   <statictext> </statictext>
-  <combobox haspopup="true" value="Thirty">
+  <combobox haspopup="true" value="Ten">
     Age
     <MenuListPopup>
-      <menuitem>
+      <menuitem selected="true">
         Ten
         <text>Ten</text>
       </menuitem>
@@ -21983,7 +21992,7 @@ exports[`firefox /components/selects/ 1`] = `
         Twenty
         <text>Twenty</text>
       </menuitem>
-      <menuitem selected="true">
+      <menuitem>
         Thirty
         <text>Thirty</text>
       </menuitem>
