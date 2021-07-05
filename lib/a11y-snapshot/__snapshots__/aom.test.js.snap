@@ -3389,15 +3389,15 @@ exports[`chromium /components/buttons/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <button>
       UPLOAD
       <text>UPLOAD</text>
     </button>
-  </Label>
-  <Label>
+  </LabelText>
+  <LabelText>
     <button>upload picture</button>
-  </Label>
+  </LabelText>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -3590,7 +3590,7 @@ exports[`chromium /components/buttons/ 1`] = `
   <button disabled="true">
     SUBMIT
     <progressbar valuetext="">
-      <SVGRoot></SVGRoot>
+      <SvgRoot></SvgRoot>
     </progressbar>
     <text>SUBMIT</text>
   </button>
@@ -3601,7 +3601,7 @@ exports[`chromium /components/buttons/ 1`] = `
   <button disabled="true">
     SAVE
     <progressbar valuetext="">
-      <SVGRoot></SVGRoot>
+      <SvgRoot></SvgRoot>
     </progressbar>
     <text>SAVE</text>
   </button>
@@ -3627,7 +3627,10 @@ exports[`chromium /components/buttons/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="false">Loading</checkbox>
+  <LabelText>
+    <checkbox checked="false">Loading</checkbox>
+    <text>Loading</text>
+  </LabelText>
   <button disabled="true">
     DISABLED
     <text>DISABLED</text>
@@ -3912,10 +3915,16 @@ exports[`chromium /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Label</checkbox>
-  <checkbox checked="false" disabled="true">
-    Disabled
-  </checkbox>
+  <LabelText>
+    <checkbox checked="true">Label</checkbox>
+    <text>Label</text>
+  </LabelText>
+  <LabelText>
+    <checkbox checked="false" disabled="true">
+      Disabled
+    </checkbox>
+    <text>Disabled</text>
+  </LabelText>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -4049,9 +4058,18 @@ exports[`chromium /components/checkboxes/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="false">Parent</checkbox>
-  <checkbox checked="true">Child 1</checkbox>
-  <checkbox checked="false">Child 2</checkbox>
+  <LabelText>
+    <checkbox checked="false">Parent</checkbox>
+    <text>Parent</text>
+  </LabelText>
+  <LabelText>
+    <checkbox checked="true">Child 1</checkbox>
+    <text>Child 1</text>
+  </LabelText>
+  <LabelText>
+    <checkbox checked="false">Child 2</checkbox>
+    <text>Child 2</text>
+  </LabelText>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -4093,9 +4111,18 @@ exports[`chromium /components/checkboxes/ 1`] = `
     <Legend>
       <text>Assign responsibility</text>
     </Legend>
-    <checkbox checked="true">Gilad Gray</checkbox>
-    <checkbox checked="false">Jason Killian</checkbox>
-    <checkbox checked="false">Antoine Llorca</checkbox>
+    <LabelText>
+      <checkbox checked="true">Gilad Gray</checkbox>
+      <text>Gilad Gray</text>
+    </LabelText>
+    <LabelText>
+      <checkbox checked="false">Jason Killian</checkbox>
+      <text>Jason Killian</text>
+    </LabelText>
+    <LabelText>
+      <checkbox checked="false">Antoine Llorca</checkbox>
+      <text>Antoine Llorca</text>
+    </LabelText>
     <paragraph>
       <text>Be careful</text>
     </paragraph>
@@ -4105,9 +4132,18 @@ exports[`chromium /components/checkboxes/ 1`] = `
     <Legend>
       <text>Pick two</text>
     </Legend>
-    <checkbox checked="true">Gilad Gray</checkbox>
-    <checkbox checked="false">Jason Killian</checkbox>
-    <checkbox checked="false">Antoine Llorca</checkbox>
+    <LabelText>
+      <checkbox checked="true">Gilad Gray</checkbox>
+      <text>Gilad Gray</text>
+    </LabelText>
+    <LabelText>
+      <checkbox checked="false">Jason Killian</checkbox>
+      <text>Jason Killian</text>
+    </LabelText>
+    <LabelText>
+      <checkbox checked="false">Antoine Llorca</checkbox>
+      <text>Antoine Llorca</text>
+    </LabelText>
     <paragraph>
       <text>You can display an error</text>
     </paragraph>
@@ -4137,10 +4173,22 @@ exports[`chromium /components/checkboxes/ 1`] = `
     <Legend>
       <text>Label placement</text>
     </Legend>
-    <checkbox checked="false">Top</checkbox>
-    <checkbox checked="false">Start</checkbox>
-    <checkbox checked="false">Bottom</checkbox>
-    <checkbox checked="false">End</checkbox>
+    <LabelText>
+      <checkbox checked="false">Top</checkbox>
+      <text>Top</text>
+    </LabelText>
+    <LabelText>
+      <checkbox checked="false">Start</checkbox>
+      <text>Start</text>
+    </LabelText>
+    <LabelText>
+      <checkbox checked="false">Bottom</checkbox>
+      <text>Bottom</text>
+    </LabelText>
+    <LabelText>
+      <checkbox checked="false">End</checkbox>
+      <text>End</text>
+    </LabelText>
   </group>
   <toolbar>
     demo source
@@ -6241,24 +6289,24 @@ exports[`chromium /components/pickers 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>Date picker desktop</text>
-  </Label>
+  </LabelText>
   <textbox value="08/18/2014">
     mm/dd/yyyy
     <text>08/18/2014</text>
   </textbox>
   <button>Choose date, selected date is Aug 18, 2014</button>
-  <Label>
+  <LabelText>
     <text>Date picker mobile</text>
-  </Label>
+  </LabelText>
   <textbox readonly="true" value="08/18/2014">
     Choose date, selected date is Aug 18, 2014
     <text>08/18/2014</text>
   </textbox>
-  <Label>
+  <LabelText>
     <text>Time picker</text>
-  </Label>
+  </LabelText>
   <textbox value="09:11 pm">
     hh:mm (a|p)m
     <text>09:11 pm</text>
@@ -6296,9 +6344,9 @@ exports[`chromium /components/pickers 1`] = `
     navigation of our components.
   </button>
   <form>
-    <Label>
+    <LabelText>
       <text>Birthday</text>
-    </Label>
+    </LabelText>
     <Date value="2017-05-24">
       Birthday
       <spinbutton value="5" valuemax="12" valuemin="1" valuetext="05">
@@ -6343,9 +6391,9 @@ exports[`chromium /components/pickers 1`] = `
     navigation of our components.
   </button>
   <form>
-    <Label>
+    <LabelText>
       <text>Next appointment</text>
-    </Label>
+    </LabelText>
     <DateTime value="2017-05-24T10:30">
       Next appointment
       <spinbutton value="5" valuemax="12" valuemin="1" valuetext="05">
@@ -6405,9 +6453,9 @@ exports[`chromium /components/pickers 1`] = `
     navigation of our components.
   </button>
   <form>
-    <Label>
+    <LabelText>
       <text>Alarm clock</text>
-    </Label>
+    </LabelText>
     <InputTime value="07:30">
       Alarm clock
       <spinbutton value="7" valuemax="12" valuemin="1" valuetext="07">
@@ -6537,9 +6585,18 @@ exports[`chromium /components/radio-buttons 1`] = `
     </Legend>
     <radiogroup>
       gender
-      <radio checked="true">Female</radio>
-      <radio checked="false">Male</radio>
-      <radio checked="false">Other</radio>
+      <LabelText>
+        <radio checked="true">Female</radio>
+        <text>Female</text>
+      </LabelText>
+      <LabelText>
+        <radio checked="false">Male</radio>
+        <text>Male</text>
+      </LabelText>
+      <LabelText>
+        <radio checked="false">Other</radio>
+        <text>Other</text>
+      </LabelText>
     </radiogroup>
   </group>
   <toolbar>
@@ -6574,12 +6631,24 @@ exports[`chromium /components/radio-buttons 1`] = `
     </Legend>
     <radiogroup>
       gender
-      <radio checked="false">Female</radio>
-      <radio checked="false">Male</radio>
-      <radio checked="false">Other</radio>
-      <radio checked="false" disabled="true">
-        other
-      </radio>
+      <LabelText>
+        <radio checked="false">Female</radio>
+        <text>Female</text>
+      </LabelText>
+      <LabelText>
+        <radio checked="false">Male</radio>
+        <text>Male</text>
+      </LabelText>
+      <LabelText>
+        <radio checked="false">Other</radio>
+        <text>Other</text>
+      </LabelText>
+      <LabelText>
+        <radio checked="false" disabled="true">
+          other
+        </radio>
+        <text>other</text>
+      </LabelText>
     </radiogroup>
   </group>
   <toolbar>
@@ -6616,8 +6685,14 @@ exports[`chromium /components/radio-buttons 1`] = `
     </Legend>
     <radiogroup>
       gender
-      <radio checked="true">Female</radio>
-      <radio checked="false">Male</radio>
+      <LabelText>
+        <radio checked="true">Female</radio>
+        <text>Female</text>
+      </LabelText>
+      <LabelText>
+        <radio checked="false">Male</radio>
+        <text>Male</text>
+      </LabelText>
     </radiogroup>
   </group>
   <toolbar>
@@ -6736,10 +6811,22 @@ exports[`chromium /components/radio-buttons 1`] = `
     </Legend>
     <radiogroup>
       position
-      <radio checked="true">Top</radio>
-      <radio checked="false">Start</radio>
-      <radio checked="false">Bottom</radio>
-      <radio checked="false">End</radio>
+      <LabelText>
+        <radio checked="true">Top</radio>
+        <text>Top</text>
+      </LabelText>
+      <LabelText>
+        <radio checked="false">Start</radio>
+        <text>Start</text>
+      </LabelText>
+      <LabelText>
+        <radio checked="false">Bottom</radio>
+        <text>Bottom</text>
+      </LabelText>
+      <LabelText>
+        <radio checked="false">End</radio>
+        <text>End</text>
+      </LabelText>
     </radiogroup>
   </group>
   <toolbar>
@@ -6774,8 +6861,14 @@ exports[`chromium /components/radio-buttons 1`] = `
       </Legend>
       <radiogroup>
         quiz
-        <radio checked="false">The best!</radio>
-        <radio checked="false">The worst.</radio>
+        <LabelText>
+          <radio checked="false">The best!</radio>
+          <text>The best!</text>
+        </LabelText>
+        <LabelText>
+          <radio checked="false">The worst.</radio>
+          <text>The worst.</text>
+        </LabelText>
       </radiogroup>
       <paragraph>
         <text>Choose wisely</text>
@@ -6818,12 +6911,24 @@ exports[`chromium /components/radio-buttons 1`] = `
     </Legend>
     <radiogroup>
       gender
-      <radio checked="true">Female</radio>
-      <radio checked="false">Male</radio>
-      <radio checked="false">Other</radio>
-      <radio checked="false" disabled="true">
-        (Disabled option)
-      </radio>
+      <LabelText>
+        <radio checked="true">Female</radio>
+        <text>Female</text>
+      </LabelText>
+      <LabelText>
+        <radio checked="false">Male</radio>
+        <text>Male</text>
+      </LabelText>
+      <LabelText>
+        <radio checked="false">Other</radio>
+        <text>Other</text>
+      </LabelText>
+      <LabelText>
+        <radio checked="false" disabled="true">
+          (Disabled option)
+        </radio>
+        <text>(Disabled option)</text>
+      </LabelText>
     </radiogroup>
   </group>
   <toolbar>
@@ -6892,8 +6997,14 @@ exports[`chromium /components/radio-buttons 1`] = `
     navigation of our components.
   </button>
   <radiogroup>
-    <radio checked="true">First</radio>
-    <radio checked="false">Second</radio>
+    <LabelText>
+      <radio checked="true">First</radio>
+      <text>First</text>
+    </LabelText>
+    <LabelText>
+      <radio checked="false">Second</radio>
+      <text>Second</text>
+    </LabelText>
   </radiogroup>
   <toolbar>
     demo source
@@ -7052,12 +7163,30 @@ exports[`chromium /components/rating/ 1`] = `
   <Legend>
     <text>Controlled</text>
   </Legend>
+  <LabelText>
+    <text>1 Star</text>
+  </LabelText>
   <radio checked="false">1 Star</radio>
+  <LabelText>
+    <text>2 Stars</text>
+  </LabelText>
   <radio checked="true">2 Stars</radio>
+  <LabelText>
+    <text>3 Stars</text>
+  </LabelText>
   <radio checked="false">3 Stars</radio>
+  <LabelText>
+    <text>4 Stars</text>
+  </LabelText>
   <radio checked="false">4 Stars</radio>
+  <LabelText>
+    <text>5 Stars</text>
+  </LabelText>
   <radio checked="false">5 Stars</radio>
-  <radio checked="false">Empty</radio>
+  <LabelText>
+    <radio checked="false">Empty</radio>
+    <text>Empty</text>
+  </LabelText>
   <Legend>
     <text>Read only</text>
   </Legend>
@@ -7065,30 +7194,63 @@ exports[`chromium /components/rating/ 1`] = `
   <Legend>
     <text>Disabled</text>
   </Legend>
+  <LabelText>
+    <text>1 Star</text>
+  </LabelText>
   <radio checked="false" disabled="true">
     1 Star
   </radio>
+  <LabelText>
+    <text>2 Stars</text>
+  </LabelText>
   <radio checked="true" disabled="true">
     2 Stars
   </radio>
+  <LabelText>
+    <text>3 Stars</text>
+  </LabelText>
   <radio checked="false" disabled="true">
     3 Stars
   </radio>
+  <LabelText>
+    <text>4 Stars</text>
+  </LabelText>
   <radio checked="false" disabled="true">
     4 Stars
   </radio>
+  <LabelText>
+    <text>5 Stars</text>
+  </LabelText>
   <radio checked="false" disabled="true">
     5 Stars
   </radio>
   <Legend>
     <text>No rating given</text>
   </Legend>
+  <LabelText>
+    <text>1 Star</text>
+  </LabelText>
   <radio checked="false">1 Star</radio>
+  <LabelText>
+    <text>2 Stars</text>
+  </LabelText>
   <radio checked="false">2 Stars</radio>
+  <LabelText>
+    <text>3 Stars</text>
+  </LabelText>
   <radio checked="false">3 Stars</radio>
+  <LabelText>
+    <text>4 Stars</text>
+  </LabelText>
   <radio checked="false">4 Stars</radio>
+  <LabelText>
+    <text>5 Stars</text>
+  </LabelText>
   <radio checked="false">5 Stars</radio>
-  <radio checked="true">Empty</radio>
+  <LabelText>
+    <radio checked="true">Empty</radio>
+    <text>Empty</text>
+  </LabelText>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -7116,17 +7278,50 @@ exports[`chromium /components/rating/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <LabelText>
+    <text>0.5 Stars</text>
+  </LabelText>
   <radio checked="false">0.5 Stars</radio>
+  <LabelText>
+    <text>1 Star</text>
+  </LabelText>
   <radio checked="false">1 Star</radio>
+  <LabelText>
+    <text>1.5 Stars</text>
+  </LabelText>
   <radio checked="false">1.5 Stars</radio>
+  <LabelText>
+    <text>2 Stars</text>
+  </LabelText>
   <radio checked="false">2 Stars</radio>
+  <LabelText>
+    <text>2.5 Stars</text>
+  </LabelText>
   <radio checked="true">2.5 Stars</radio>
+  <LabelText>
+    <text>3 Stars</text>
+  </LabelText>
   <radio checked="false">3 Stars</radio>
+  <LabelText>
+    <text>3.5 Stars</text>
+  </LabelText>
   <radio checked="false">3.5 Stars</radio>
+  <LabelText>
+    <text>4 Stars</text>
+  </LabelText>
   <radio checked="false">4 Stars</radio>
+  <LabelText>
+    <text>4.5 Stars</text>
+  </LabelText>
   <radio checked="false">4.5 Stars</radio>
+  <LabelText>
+    <text>5 Stars</text>
+  </LabelText>
   <radio checked="false">5 Stars</radio>
-  <radio checked="false">Empty</radio>
+  <LabelText>
+    <radio checked="false">Empty</radio>
+    <text>Empty</text>
+  </LabelText>
   <img>2.5 Stars</img>
   <toolbar>
     demo source
@@ -7156,17 +7351,50 @@ exports[`chromium /components/rating/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <LabelText>
+    <text>0.5 Stars</text>
+  </LabelText>
   <radio checked="false">0.5 Stars</radio>
+  <LabelText>
+    <text>1 Star</text>
+  </LabelText>
   <radio checked="false">1 Star</radio>
+  <LabelText>
+    <text>1.5 Stars</text>
+  </LabelText>
   <radio checked="false">1.5 Stars</radio>
+  <LabelText>
+    <text>2 Stars</text>
+  </LabelText>
   <radio checked="true">2 Stars</radio>
+  <LabelText>
+    <text>2.5 Stars</text>
+  </LabelText>
   <radio checked="false">2.5 Stars</radio>
+  <LabelText>
+    <text>3 Stars</text>
+  </LabelText>
   <radio checked="false">3 Stars</radio>
+  <LabelText>
+    <text>3.5 Stars</text>
+  </LabelText>
   <radio checked="false">3.5 Stars</radio>
+  <LabelText>
+    <text>4 Stars</text>
+  </LabelText>
   <radio checked="false">4 Stars</radio>
+  <LabelText>
+    <text>4.5 Stars</text>
+  </LabelText>
   <radio checked="false">4.5 Stars</radio>
+  <LabelText>
+    <text>5 Stars</text>
+  </LabelText>
   <radio checked="false">5 Stars</radio>
-  <radio checked="false">Empty</radio>
+  <LabelText>
+    <radio checked="false">Empty</radio>
+    <text>Empty</text>
+  </LabelText>
   <text>Poor+</text>
   <toolbar>
     demo source
@@ -7193,24 +7421,78 @@ exports[`chromium /components/rating/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <LabelText>
+    <text>1 Star</text>
+  </LabelText>
   <radio checked="false">1 Star</radio>
+  <LabelText>
+    <text>2 Stars</text>
+  </LabelText>
   <radio checked="true">2 Stars</radio>
+  <LabelText>
+    <text>3 Stars</text>
+  </LabelText>
   <radio checked="false">3 Stars</radio>
+  <LabelText>
+    <text>4 Stars</text>
+  </LabelText>
   <radio checked="false">4 Stars</radio>
+  <LabelText>
+    <text>5 Stars</text>
+  </LabelText>
   <radio checked="false">5 Stars</radio>
-  <radio checked="false">Empty</radio>
+  <LabelText>
+    <radio checked="false">Empty</radio>
+    <text>Empty</text>
+  </LabelText>
+  <LabelText>
+    <text>1 Star</text>
+  </LabelText>
   <radio checked="false">1 Star</radio>
+  <LabelText>
+    <text>2 Stars</text>
+  </LabelText>
   <radio checked="true">2 Stars</radio>
+  <LabelText>
+    <text>3 Stars</text>
+  </LabelText>
   <radio checked="false">3 Stars</radio>
+  <LabelText>
+    <text>4 Stars</text>
+  </LabelText>
   <radio checked="false">4 Stars</radio>
+  <LabelText>
+    <text>5 Stars</text>
+  </LabelText>
   <radio checked="false">5 Stars</radio>
-  <radio checked="false">Empty</radio>
+  <LabelText>
+    <radio checked="false">Empty</radio>
+    <text>Empty</text>
+  </LabelText>
+  <LabelText>
+    <text>1 Star</text>
+  </LabelText>
   <radio checked="false">1 Star</radio>
+  <LabelText>
+    <text>2 Stars</text>
+  </LabelText>
   <radio checked="true">2 Stars</radio>
+  <LabelText>
+    <text>3 Stars</text>
+  </LabelText>
   <radio checked="false">3 Stars</radio>
+  <LabelText>
+    <text>4 Stars</text>
+  </LabelText>
   <radio checked="false">4 Stars</radio>
+  <LabelText>
+    <text>5 Stars</text>
+  </LabelText>
   <radio checked="false">5 Stars</radio>
-  <radio checked="false">Empty</radio>
+  <LabelText>
+    <radio checked="false">Empty</radio>
+    <text>Empty</text>
+  </LabelText>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -7242,31 +7524,97 @@ exports[`chromium /components/rating/ 1`] = `
   <Legend>
     <text>Custom icon and color</text>
   </Legend>
+  <LabelText>
+    <text>0.5 Hearts</text>
+  </LabelText>
   <radio checked="false">0.5 Hearts</radio>
+  <LabelText>
+    <text>1 Heart</text>
+  </LabelText>
   <radio checked="false">1 Heart</radio>
+  <LabelText>
+    <text>1.5 Hearts</text>
+  </LabelText>
   <radio checked="false">1.5 Hearts</radio>
+  <LabelText>
+    <text>2 Hearts</text>
+  </LabelText>
   <radio checked="true">2 Hearts</radio>
+  <LabelText>
+    <text>2.5 Hearts</text>
+  </LabelText>
   <radio checked="false">2.5 Hearts</radio>
+  <LabelText>
+    <text>3 Hearts</text>
+  </LabelText>
   <radio checked="false">3 Hearts</radio>
+  <LabelText>
+    <text>3.5 Hearts</text>
+  </LabelText>
   <radio checked="false">3.5 Hearts</radio>
+  <LabelText>
+    <text>4 Hearts</text>
+  </LabelText>
   <radio checked="false">4 Hearts</radio>
+  <LabelText>
+    <text>4.5 Hearts</text>
+  </LabelText>
   <radio checked="false">4.5 Hearts</radio>
+  <LabelText>
+    <text>5 Hearts</text>
+  </LabelText>
   <radio checked="false">5 Hearts</radio>
-  <radio checked="false">Empty</radio>
+  <LabelText>
+    <radio checked="false">Empty</radio>
+    <text>Empty</text>
+  </LabelText>
   <Legend>
     <text>10 stars</text>
   </Legend>
+  <LabelText>
+    <text>1 Star</text>
+  </LabelText>
   <radio checked="false">1 Star</radio>
+  <LabelText>
+    <text>2 Stars</text>
+  </LabelText>
   <radio checked="true">2 Stars</radio>
+  <LabelText>
+    <text>3 Stars</text>
+  </LabelText>
   <radio checked="false">3 Stars</radio>
+  <LabelText>
+    <text>4 Stars</text>
+  </LabelText>
   <radio checked="false">4 Stars</radio>
+  <LabelText>
+    <text>5 Stars</text>
+  </LabelText>
   <radio checked="false">5 Stars</radio>
+  <LabelText>
+    <text>6 Stars</text>
+  </LabelText>
   <radio checked="false">6 Stars</radio>
+  <LabelText>
+    <text>7 Stars</text>
+  </LabelText>
   <radio checked="false">7 Stars</radio>
+  <LabelText>
+    <text>8 Stars</text>
+  </LabelText>
   <radio checked="false">8 Stars</radio>
+  <LabelText>
+    <text>9 Stars</text>
+  </LabelText>
   <radio checked="false">9 Stars</radio>
+  <LabelText>
+    <text>10 Stars</text>
+  </LabelText>
   <radio checked="false">10 Stars</radio>
-  <radio checked="false">Empty</radio>
+  <LabelText>
+    <radio checked="false">Empty</radio>
+    <text>Empty</text>
+  </LabelText>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -7292,12 +7640,30 @@ exports[`chromium /components/rating/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <LabelText>
+    <text>1 Star</text>
+  </LabelText>
   <radio checked="false">1 Star</radio>
+  <LabelText>
+    <text>2 Stars</text>
+  </LabelText>
   <radio checked="true">2 Stars</radio>
+  <LabelText>
+    <text>3 Stars</text>
+  </LabelText>
   <radio checked="false">3 Stars</radio>
+  <LabelText>
+    <text>4 Stars</text>
+  </LabelText>
   <radio checked="false">4 Stars</radio>
+  <LabelText>
+    <text>5 Stars</text>
+  </LabelText>
   <radio checked="false">5 Stars</radio>
-  <radio checked="false">Empty</radio>
+  <LabelText>
+    <radio checked="false">Empty</radio>
+    <text>Empty</text>
+  </LabelText>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -7472,9 +7838,9 @@ exports[`chromium /components/selects/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>Age</text>
-  </Label>
+  </LabelText>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -7547,17 +7913,17 @@ exports[`chromium /components/selects/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>Age</text>
-  </Label>
+  </LabelText>
   <text> </text>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
   <textbox></textbox>
-  <Label>
+  <LabelText>
     <text>Age</text>
-  </Label>
+  </LabelText>
   <text> </text>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
@@ -7580,9 +7946,9 @@ exports[`chromium /components/selects/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>Age</text>
-  </Label>
+  </LabelText>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -7615,9 +7981,9 @@ exports[`chromium /components/selects/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>Age</text>
-  </Label>
+  </LabelText>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -7639,18 +8005,18 @@ exports[`chromium /components/selects/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>Age</text>
-  </Label>
+  </LabelText>
   <combobox disabled="true" haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
   <paragraph>
     <text>Disabled</text>
   </paragraph>
-  <Label>
+  <LabelText>
     <text>Age</text>
-  </Label>
+  </LabelText>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -7658,9 +8024,9 @@ exports[`chromium /components/selects/ 1`] = `
   <paragraph>
     <text>Error</text>
   </paragraph>
-  <Label>
+  <LabelText>
     <text>Age</text>
-  </Label>
+  </LabelText>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -7668,9 +8034,9 @@ exports[`chromium /components/selects/ 1`] = `
   <paragraph>
     <text>Read only</text>
   </paragraph>
-  <Label>
+  <LabelText>
     <text>Age</text>
-  </Label>
+  </LabelText>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -7701,9 +8067,9 @@ exports[`chromium /components/selects/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>Age</text>
-  </Label>
+  </LabelText>
   <text> </text>
   <combobox value="Thirty">
     Age
@@ -7775,20 +8141,20 @@ exports[`chromium /components/selects/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>Age</text>
-  </Label>
+  </LabelText>
   <textbox>Age</textbox>
-  <Label>
+  <LabelText>
     <text>Age</text>
-  </Label>
+  </LabelText>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
   <textbox></textbox>
-  <Label>
+  <LabelText>
     <text>Age</text>
-  </Label>
+  </LabelText>
   <combobox value="None">
     Age
     <MenuListPopup>
@@ -7843,9 +8209,9 @@ exports[`chromium /components/selects/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>Name</text>
-  </Label>
+  </LabelText>
   <combobox haspopup="listbox">
     Name ​<text>​</text>
   </combobox>
@@ -7867,9 +8233,9 @@ exports[`chromium /components/selects/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>Tag</text>
-  </Label>
+  </LabelText>
   <combobox haspopup="listbox">
     Tag ​<text>​</text>
   </combobox>
@@ -7891,9 +8257,9 @@ exports[`chromium /components/selects/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>Chip</text>
-  </Label>
+  </LabelText>
   <combobox haspopup="listbox">
     Chip ​<text>​</text>
   </combobox>
@@ -7937,9 +8303,9 @@ exports[`chromium /components/selects/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>Native</text>
-  </Label>
+  </LabelText>
   <listbox multiselectable="true">
     Native
     <option>Oliver Hansen</option>
@@ -7974,9 +8340,9 @@ exports[`chromium /components/selects/ 1`] = `
     OPEN THE SELECT
     <text>OPEN THE SELECT</text>
   </button>
-  <Label>
+  <LabelText>
     <text>Age</text>
-  </Label>
+  </LabelText>
   <combobox haspopup="listbox">
     Age ​<text>​</text>
   </combobox>
@@ -8032,9 +8398,9 @@ exports[`chromium /components/selects/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>Grouping</text>
-  </Label>
+  </LabelText>
   <combobox value="None">
     Grouping
     <MenuListPopup>
@@ -8045,9 +8411,9 @@ exports[`chromium /components/selects/ 1`] = `
       <menuitem>Option 4</menuitem>
     </MenuListPopup>
   </combobox>
-  <Label>
+  <LabelText>
     <text>Grouping</text>
-  </Label>
+  </LabelText>
   <combobox haspopup="listbox">
     ​<text>​</text>
   </combobox>
@@ -9265,10 +9631,16 @@ exports[`chromium /components/switches/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Label</checkbox>
-  <checkbox checked="false" disabled="true">
-    Disabled
-  </checkbox>
+  <LabelText>
+    <checkbox checked="true">Label</checkbox>
+    <text>Label</text>
+  </LabelText>
+  <LabelText>
+    <checkbox checked="false" disabled="true">
+      Disabled
+    </checkbox>
+    <text>Disabled</text>
+  </LabelText>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -9385,9 +9757,18 @@ exports[`chromium /components/switches/ 1`] = `
     <Legend>
       <text>Assign responsibility</text>
     </Legend>
-    <checkbox checked="true">Gilad Gray</checkbox>
-    <checkbox checked="false">Jason Killian</checkbox>
-    <checkbox checked="true">Antoine Llorca</checkbox>
+    <LabelText>
+      <checkbox checked="true">Gilad Gray</checkbox>
+      <text>Gilad Gray</text>
+    </LabelText>
+    <LabelText>
+      <checkbox checked="false">Jason Killian</checkbox>
+      <text>Jason Killian</text>
+    </LabelText>
+    <LabelText>
+      <checkbox checked="true">Antoine Llorca</checkbox>
+      <text>Antoine Llorca</text>
+    </LabelText>
     <paragraph>
       <text>Be careful</text>
     </paragraph>
@@ -9417,9 +9798,18 @@ exports[`chromium /components/switches/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="true">Material-UI switch</checkbox>
-  <checkbox checked="true">Android 12</checkbox>
-  <checkbox checked="true">iOS style</checkbox>
+  <LabelText>
+    <checkbox checked="true">Material-UI switch</checkbox>
+    <text>Material-UI switch</text>
+  </LabelText>
+  <LabelText>
+    <checkbox checked="true">Android 12</checkbox>
+    <text>Android 12</text>
+  </LabelText>
+  <LabelText>
+    <checkbox checked="true">iOS style</checkbox>
+    <text>iOS style</text>
+  </LabelText>
   <paragraph>
     <text>Off</text>
   </paragraph>
@@ -9457,10 +9847,22 @@ exports[`chromium /components/switches/ 1`] = `
     <Legend>
       <text>Label placement</text>
     </Legend>
-    <checkbox checked="false">Top</checkbox>
-    <checkbox checked="false">Start</checkbox>
-    <checkbox checked="false">Bottom</checkbox>
-    <checkbox checked="false">End</checkbox>
+    <LabelText>
+      <checkbox checked="false">Top</checkbox>
+      <text>Top</text>
+    </LabelText>
+    <LabelText>
+      <checkbox checked="false">Start</checkbox>
+      <text>Start</text>
+    </LabelText>
+    <LabelText>
+      <checkbox checked="false">Bottom</checkbox>
+      <text>Bottom</text>
+    </LabelText>
+    <LabelText>
+      <checkbox checked="false">End</checkbox>
+      <text>End</text>
+    </LabelText>
   </group>
   <toolbar>
     demo source
@@ -10641,18 +11043,18 @@ exports[`chromium /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <form>
-    <Label>
+    <LabelText>
       <text>Outlined</text>
-    </Label>
+    </LabelText>
     <textbox>Outlined</textbox>
-    <Label>
+    <LabelText>
       <text>Filled</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox>Filled</textbox>
-    <Label>
+    <LabelText>
       <text>Standard</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox>Standard</textbox>
   </form>
@@ -10700,42 +11102,42 @@ exports[`chromium /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <form>
-    <Label>
+    <LabelText>
       <text>Required</text>
-    </Label>
+    </LabelText>
     <textbox required="true" value="Hello World">
       Required
       <text>Hello World</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Disabled</text>
-    </Label>
+    </LabelText>
     <textbox disabled="true" value="Hello World">
       Disabled
       <text>Hello World</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Password</text>
-    </Label>
+    </LabelText>
     <textbox>Password</textbox>
-    <Label>
+    <LabelText>
       <text>Read Only</text>
-    </Label>
+    </LabelText>
     <textbox readonly="true" value="Hello World">
       Read Only
       <text>Hello World</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Number</text>
-    </Label>
+    </LabelText>
     <spinbutton valuetext="">Number</spinbutton>
-    <Label>
+    <LabelText>
       <text>Search field</text>
-    </Label>
+    </LabelText>
     <searchbox>Search field</searchbox>
-    <Label>
+    <LabelText>
       <text>Helper text</text>
-    </Label>
+    </LabelText>
     <textbox description="Some important text" value="Default Value">
       Helper text
       <text>Default Value</text>
@@ -10743,48 +11145,48 @@ exports[`chromium /components/text-fields/ 1`] = `
     <paragraph>
       <text>Some important text</text>
     </paragraph>
-    <Label>
+    <LabelText>
       <text>Required</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox required="true" value="Hello World">
       Required
       <text>Hello World</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Disabled</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox disabled="true" value="Hello World">
       Disabled
       <text>Hello World</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Password</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox>Password</textbox>
-    <Label>
+    <LabelText>
       <text>Read Only</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox readonly="true" value="Hello World">
       Read Only
       <text>Hello World</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Number</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <spinbutton valuetext="">Number</spinbutton>
-    <Label>
+    <LabelText>
       <text>Search field</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <searchbox>Search field</searchbox>
-    <Label>
+    <LabelText>
       <text>Helper text</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox description="Some important text" value="Default Value">
       Helper text
@@ -10793,48 +11195,48 @@ exports[`chromium /components/text-fields/ 1`] = `
     <paragraph>
       <text>Some important text</text>
     </paragraph>
-    <Label>
+    <LabelText>
       <text>Required</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox required="true" value="Hello World">
       Required
       <text>Hello World</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Disabled</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox disabled="true" value="Hello World">
       Disabled
       <text>Hello World</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Password</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox>Password</textbox>
-    <Label>
+    <LabelText>
       <text>Read Only</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox readonly="true" value="Hello World">
       Read Only
       <text>Hello World</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Number</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <spinbutton valuetext="">Number</spinbutton>
-    <Label>
+    <LabelText>
       <text>Search field</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <searchbox>Search field</searchbox>
-    <Label>
+    <LabelText>
       <text>Helper text</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox description="Some important text" value="Default Value">
       Helper text
@@ -10871,16 +11273,16 @@ exports[`chromium /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <form>
-    <Label>
+    <LabelText>
       <text>Error</text>
-    </Label>
+    </LabelText>
     <textbox invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Error</text>
-    </Label>
+    </LabelText>
     <textbox description="Incorrect entry." invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
@@ -10888,17 +11290,17 @@ exports[`chromium /components/text-fields/ 1`] = `
     <paragraph>
       <text>Incorrect entry.</text>
     </paragraph>
-    <Label>
+    <LabelText>
       <text>Error</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Error</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox description="Incorrect entry." invalid="true" value="Hello World">
       Error
@@ -10907,17 +11309,17 @@ exports[`chromium /components/text-fields/ 1`] = `
     <paragraph>
       <text>Incorrect entry.</text>
     </paragraph>
-    <Label>
+    <LabelText>
       <text>Error</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox invalid="true" value="Hello World">
       Error
       <text>Hello World</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Error</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox description="Incorrect entry." invalid="true" value="Hello World">
       Error
@@ -10966,61 +11368,61 @@ exports[`chromium /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <form>
-    <Label>
+    <LabelText>
       <text>Multiline</text>
-    </Label>
+    </LabelText>
     <textbox multiline="true" value="Controlled">
       Multiline
       <text>Controlled</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Multiline Placeholder</text>
-    </Label>
+    </LabelText>
     <textbox multiline="true">Multiline Placeholder</textbox>
-    <Label>
+    <LabelText>
       <text>Multiline</text>
-    </Label>
+    </LabelText>
     <textbox multiline="true" value="Default Value">
       Multiline
       <text>Default Value</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Multiline</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox multiline="true" value="Controlled">
       Multiline
       <text>Controlled</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Multiline Placeholder</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox multiline="true">Multiline Placeholder</textbox>
-    <Label>
+    <LabelText>
       <text>Multiline</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox multiline="true" value="Default Value">
       Multiline
       <text>Default Value</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Multiline</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox multiline="true" value="Controlled">
       Multiline
       <text>Controlled</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Multiline Placeholder</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox multiline="true">Multiline Placeholder</textbox>
-    <Label>
+    <LabelText>
       <text>Multiline</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox multiline="true" value="Default Value">
       Multiline
@@ -11052,9 +11454,9 @@ exports[`chromium /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <form>
-    <Label>
+    <LabelText>
       <text>Select</text>
-    </Label>
+    </LabelText>
     <combobox description="Please select your currency" haspopup="listbox">
       Select €
     </combobox>
@@ -11062,9 +11464,9 @@ exports[`chromium /components/text-fields/ 1`] = `
     <paragraph>
       <text>Please select your currency</text>
     </paragraph>
-    <Label>
+    <LabelText>
       <text>Native select</text>
-    </Label>
+    </LabelText>
     <combobox description="Please select your currency" value="€">
       Native select
       <MenuListPopup>
@@ -11077,9 +11479,9 @@ exports[`chromium /components/text-fields/ 1`] = `
     <paragraph>
       <text>Please select your currency</text>
     </paragraph>
-    <Label>
+    <LabelText>
       <text>Select</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <combobox description="Please select your currency" haspopup="listbox">
       Select €
@@ -11088,9 +11490,9 @@ exports[`chromium /components/text-fields/ 1`] = `
     <paragraph>
       <text>Please select your currency</text>
     </paragraph>
-    <Label>
+    <LabelText>
       <text>Native select</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <combobox description="Please select your currency" value="€">
       Native select
@@ -11104,9 +11506,9 @@ exports[`chromium /components/text-fields/ 1`] = `
     <paragraph>
       <text>Please select your currency</text>
     </paragraph>
-    <Label>
+    <LabelText>
       <text>Select</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <combobox description="Please select your currency" haspopup="listbox">
       Select €
@@ -11115,9 +11517,9 @@ exports[`chromium /components/text-fields/ 1`] = `
     <paragraph>
       <text>Please select your currency</text>
     </paragraph>
-    <Label>
+    <LabelText>
       <text>Native select</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <combobox description="Please select your currency" value="€">
       Native select
@@ -11152,19 +11554,19 @@ exports[`chromium /components/text-fields/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>With a start adornment</text>
-  </Label>
+  </LabelText>
   <text> ​</text>
   <textbox>With a start adornment</textbox>
-  <Label>
+  <LabelText>
     <text>TextField</text>
-  </Label>
+  </LabelText>
   <text> ​</text>
   <textbox>TextField</textbox>
-  <Label>
+  <LabelText>
     <text>With sx</text>
-  </Label>
+  </LabelText>
   <text> </text>
   <textbox>With sx</textbox>
   <toolbar>
@@ -11192,9 +11594,9 @@ exports[`chromium /components/text-fields/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>With normal TextField</text>
-  </Label>
+  </LabelText>
   <paragraph>
     <text>Kg</text>
   </paragraph>
@@ -11206,21 +11608,21 @@ exports[`chromium /components/text-fields/ 1`] = `
   <paragraph>
     <text>Weight</text>
   </paragraph>
-  <Label>
+  <LabelText>
     <text>Password</text>
-  </Label>
+  </LabelText>
   <textbox>Password</textbox>
   <button>toggle password visibility</button>
-  <Label>
+  <LabelText>
     <text>Amount</text>
-  </Label>
+  </LabelText>
   <paragraph>
     <text>$</text>
   </paragraph>
   <textbox>Amount</textbox>
-  <Label>
+  <LabelText>
     <text>With normal TextField</text>
-  </Label>
+  </LabelText>
   <text> </text>
   <paragraph>
     <text>Kg</text>
@@ -11234,23 +11636,23 @@ exports[`chromium /components/text-fields/ 1`] = `
   <paragraph>
     <text>Weight</text>
   </paragraph>
-  <Label>
+  <LabelText>
     <text>Password</text>
-  </Label>
+  </LabelText>
   <text> </text>
   <textbox>Password</textbox>
   <button>toggle password visibility</button>
-  <Label>
+  <LabelText>
     <text>Amount</text>
-  </Label>
+  </LabelText>
   <text> </text>
   <paragraph>
     <text>$</text>
   </paragraph>
   <textbox>Amount</textbox>
-  <Label>
+  <LabelText>
     <text>With normal TextField</text>
-  </Label>
+  </LabelText>
   <text> </text>
   <paragraph>
     <text>Kg</text>
@@ -11264,15 +11666,15 @@ exports[`chromium /components/text-fields/ 1`] = `
   <paragraph>
     <text>Weight</text>
   </paragraph>
-  <Label>
+  <LabelText>
     <text>Password</text>
-  </Label>
+  </LabelText>
   <text> </text>
   <textbox>Password</textbox>
   <button>toggle password visibility</button>
-  <Label>
+  <LabelText>
     <text>Amount</text>
-  </Label>
+  </LabelText>
   <text> </text>
   <paragraph>
     <text>$</text>
@@ -11301,47 +11703,47 @@ exports[`chromium /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <form>
-    <Label>
+    <LabelText>
       <text>Size</text>
-    </Label>
+    </LabelText>
     <textbox value="Small">
       Size
       <text>Small</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Size</text>
-    </Label>
+    </LabelText>
     <textbox value="Normal">
       Size
       <text>Normal</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Size</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox value="Small">
       Size
       <text>Small</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Size</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox value="Normal">
       Size
       <text>Normal</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Size</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox value="Small">
       Size
       <text>Small</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Size</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox value="Normal">
       Size
@@ -11414,17 +11816,17 @@ exports[`chromium /components/text-fields/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>margin="none"</text>
-  </Label>
+  </LabelText>
   <textbox>margin="none"</textbox>
-  <Label>
+  <LabelText>
     <text>margin="dense"</text>
-  </Label>
+  </LabelText>
   <textbox>margin="dense"</textbox>
-  <Label>
+  <LabelText>
     <text>margin="normal"</text>
-  </Label>
+  </LabelText>
   <textbox>margin="normal"</textbox>
   <toolbar>
     demo source
@@ -11452,9 +11854,9 @@ exports[`chromium /components/text-fields/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>fullWidth</text>
-  </Label>
+  </LabelText>
   <textbox>fullWidth</textbox>
   <toolbar>
     demo source
@@ -11480,16 +11882,16 @@ exports[`chromium /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <form>
-    <Label>
+    <LabelText>
       <text>Name</text>
-    </Label>
+    </LabelText>
     <textbox value="Cat in the Hat">
       Name
       <text>Cat in the Hat</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Uncontrolled</text>
-    </Label>
+    </LabelText>
     <textbox value="foo">
       Uncontrolled
       <text>foo</text>
@@ -11571,17 +11973,17 @@ exports[`chromium /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <form>
-    <Label>
+    <LabelText>
       <text>Name</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox value="Composed TextField">
       Name
       <text>Composed TextField</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Name</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox
       description="Some important helper text"
@@ -11593,9 +11995,9 @@ exports[`chromium /components/text-fields/ 1`] = `
     <paragraph>
       <text>Some important helper text</text>
     </paragraph>
-    <Label>
+    <LabelText>
       <text>Name</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox disabled="true" value="Composed TextField">
       Name
@@ -11604,9 +12006,9 @@ exports[`chromium /components/text-fields/ 1`] = `
     <paragraph>
       <text>Disabled</text>
     </paragraph>
-    <Label>
+    <LabelText>
       <text>Name</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox description="Error" invalid="true" value="Composed TextField">
       Name
@@ -11615,16 +12017,16 @@ exports[`chromium /components/text-fields/ 1`] = `
     <paragraph>
       <text>Error</text>
     </paragraph>
-    <Label>
+    <LabelText>
       <text>Name</text>
-    </Label>
+    </LabelText>
     <textbox value="Composed TextField">
       Name
       <text>Composed TextField</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Name</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox value="Composed TextField">
       Name
@@ -11695,18 +12097,18 @@ exports[`chromium /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <form>
-    <Label>
+    <LabelText>
       <text>Outlined secondary</text>
-    </Label>
+    </LabelText>
     <textbox></textbox>
-    <Label>
+    <LabelText>
       <text>Filled success</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox></textbox>
-    <Label>
+    <LabelText>
       <text>Standard warning</text>
-    </Label>
+    </LabelText>
     <text> </text>
     <textbox></textbox>
   </form>
@@ -11739,27 +12141,27 @@ exports[`chromium /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <form>
-    <Label>
+    <LabelText>
       <text>Bootstrap</text>
-    </Label>
+    </LabelText>
     <textbox value="react-bootstrap">
       Bootstrap
       <text>react-bootstrap</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Reddit</text>
-    </Label>
+    </LabelText>
     <textbox value="react-reddit">
       Reddit
       <text>react-reddit</text>
     </textbox>
-    <Label>
+    <LabelText>
       <text>Custom CSS</text>
-    </Label>
+    </LabelText>
     <textbox>Custom CSS</textbox>
-    <Label>
+    <LabelText>
       <text>CSS validation style</text>
-    </Label>
+    </LabelText>
     <textbox required="true" value="Success">
       CSS validation style
       <text>Success</text>
@@ -12082,16 +12484,16 @@ exports[`chromium /components/text-fields/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>Name</text>
-  </Label>
+  </LabelText>
   <textbox description="Please enter your name">Name</textbox>
   <paragraph>
     <text>Please enter your name</text>
   </paragraph>
-  <Label>
+  <LabelText>
     <text>Name</text>
-  </Label>
+  </LabelText>
   <textbox>Name</textbox>
   <toolbar>
     demo source
@@ -12114,16 +12516,16 @@ exports[`chromium /components/text-fields/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>Name</text>
-  </Label>
+  </LabelText>
   <textbox description="Please enter your name">Name</textbox>
   <paragraph>
     <text>Please enter your name</text>
   </paragraph>
-  <Label>
+  <LabelText>
     <text>Name</text>
-  </Label>
+  </LabelText>
   <textbox description="​">Name</textbox>
   <paragraph>
     <text>​</text>
@@ -12167,17 +12569,17 @@ exports[`chromium /components/text-fields/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <Label>
+  <LabelText>
     <text>react-text-mask</text>
-  </Label>
+  </LabelText>
   <text> </text>
   <textbox value="(1  )    -    ">
     react-text-mask
     <text>(1  )    -    </text>
   </textbox>
-  <Label>
+  <LabelText>
     <text>react-number-format</text>
-  </Label>
+  </LabelText>
   <text> </text>
   <textbox value="$1,320">
     react-number-format
@@ -13602,7 +14004,10 @@ exports[`chromium /components/tree-view/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <checkbox checked="false">Focus disabled items</checkbox>
+  <LabelText>
+    <checkbox checked="false">Focus disabled items</checkbox>
+    <text>Focus disabled items</text>
+  </LabelText>
   <tree multiselectable="true">
     disabled items
     <treeitem level="1">
