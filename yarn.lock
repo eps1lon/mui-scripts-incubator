@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@actions/core@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@actions/core/-/core-1.3.0.tgz#f5e4b24c889e7f2e58b466cc8c7481292284eba0"
-  integrity sha512-xxtX0Cwdhb8LcgatfJkokqT8KzPvcIbwL9xpLU09nOwBzaStbfm0dNncsP0M4us+EpoPdWy7vbzU5vSOH7K6pg==
+"@actions/core@1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@actions/core/-/core-1.4.0.tgz#cf2e6ee317e314b03886adfeb20e448d50d6e524"
+  integrity sha512-CGx2ilGq5i7zSLgiiGUtBCxhRRxibJYU6Fim0Q1Wg2aQL2LTnF27zbqZOrxfvFQ55eSBW0L8uVStgtKMpa0Qlg==
 
 "@actions/github@4.0.0":
   version "4.0.0"
@@ -5546,10 +5546,10 @@ pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
-playwright-testing-library@2.7.2:
-  version "2.7.2"
-  resolved "https://registry.yarnpkg.com/playwright-testing-library/-/playwright-testing-library-2.7.2.tgz#ea7d6e1e4e297830981f3b9dc9c46fe31a5886d6"
-  integrity sha512-encp7MQTrshDPb6eh3iQbn8Fqas+grsAa46TZ4VGRzjbAAJzW5NQKUus2fx8jak2eQznJYrl+7ifTy6esBGnBQ==
+playwright-testing-library@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/playwright-testing-library/-/playwright-testing-library-3.0.0.tgz#e2e0690ff8dd7500b4ab57fd4f11db944d26d8bd"
+  integrity sha512-D4jR2ccwBcYwELQdO8Qh49haFxxgRRyRrgsGR8PnKE0vhSAf388GUrsGhIHhY4VNaKfuyeuIJnlqxqfHqpe9yA==
   dependencies:
     "@testing-library/dom" "^7.22.2"
     wait-for-expect "^3.0.2"
