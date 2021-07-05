@@ -44,7 +44,7 @@ async function main({ token, cursor: initalCursor, limit }) {
 	while (true) {
 		const response = await graphql(
 			`
-				query($cursor: String, $limit: Int) {
+				query ($cursor: String, $limit: Int) {
 					repository(owner: "mui-org", name: "material-ui") {
 						pullRequests(states: MERGED, last: $limit, before: $cursor) {
 							nodes {
