@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Setup node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
           node-version: "16.x"
       # TODO: Fails on scheduled and repository dispatch events e.g. https://github.com/eps1lon/mui-scripts-incubator/runs/1506954046?check_suite_focus=true
