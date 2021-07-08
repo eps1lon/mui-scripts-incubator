@@ -158,8 +158,8 @@ exports[`chromium / 1`] = `
       <img>hoodiebees</img>
     </link>
     <link>
-      hoodiebees
-      <img>hoodiebees</img>
+      Screen recorder for Mac
+      <img>Screen recorder for Mac</img>
     </link>
     <heading level="3">
       There are more!
@@ -9832,6 +9832,193 @@ exports[`chromium /components/switches/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
+    Unstyled switches
+    <text>Unstyled switches</text>
+  </heading>
+  <paragraph>
+    <text>
+      The switch also comes with an unstyled version. It's ideal for doing
+      heavy customizations and minimizing bundle size.
+    </text>
+  </paragraph>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <paragraph>
+    <text>The</text>
+    <code>$SOME_CODE</code>
+    <text>
+      component provides default components and assigns CSS classes you can
+      style entirely on your own. You are free to choose any styling solution -
+      plain CSS classes, a CSS framework, Emotion, etc. It is also possible to
+      replace these default components by other HTML elements or custom
+      components.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>There are three components you can override by the</text>
+    <code>$SOME_CODE</code>
+    <text>prop:</text>
+    <code>$SOME_CODE</code>
+    <text>,</text>
+    <code>$SOME_CODE</code>
+    <text>and</text>
+    <code>$SOME_CODE</code>
+    <text>. Each one's props can be set using the</text>
+    <code>$SOME_CODE</code>
+    <text>object.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Demo switch</checkbox>
+  <checkbox checked="false">Demo switch</checkbox>
+  <checkbox checked="true" disabled="true">
+    Demo switch
+  </checkbox>
+  <checkbox checked="false" disabled="true">
+    Demo switch
+  </checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="3">
+    Recreation of Material-UI's Switch
+    <text>Recreation of Material-UI's Switch</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Switch demo</checkbox>
+  <checkbox checked="false">Switch demo</checkbox>
+  <checkbox checked="true" disabled="true">
+    Switch demo
+  </checkbox>
+  <checkbox checked="false" disabled="true">
+    Switch demo
+  </checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="3">
+    useSwitch hook
+    <text>useSwitch hook</text>
+  </heading>
+  <paragraph>
+    <text>For the ultimate customizability, a</text>
+    <code>$SOME_CODE</code>
+    <text>
+      hook is available. It accepts almost the same options as the
+      SwitchUnstyled component minus the
+    </text>
+    <code>$SOME_CODE</code>
+    <text>,</text>
+    <code>$SOME_CODE</code>
+    <text>, and</text>
+    <code>$SOME_CODE</code>
+    <text>props.</text>
+  </paragraph>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="4">
+    Basic example
+    <text>Basic example</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Demo switch</checkbox>
+  <checkbox checked="false">Demo switch</checkbox>
+  <checkbox checked="true" disabled="true">
+    Demo switch
+  </checkbox>
+  <checkbox checked="false" disabled="true">
+    Demo switch
+  </checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="4">
+    Customized look and feel
+    <text>Customized look and feel</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Demo switch</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="4">
+    Recreation of Material-UI's Switch
+    <text>Recreation of Material-UI's Switch</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Switch demo</checkbox>
+  <checkbox checked="false">Switch demo</checkbox>
+  <checkbox checked="true" disabled="true">
+    Switch demo
+  </checkbox>
+  <checkbox checked="false" disabled="true">
+    Switch demo
+  </checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
     Label placement
     <text>Label placement</text>
   </heading>
@@ -9960,6 +10147,12 @@ exports[`chromium /components/switches/ 1`] = `
     <listitem level="1">
       <link>
         <Switch />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <SwitchUnstyled />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
@@ -14324,8 +14517,8 @@ exports[`firefox / 1`] = `
       <img value="https://hoodiebees.com/">hoodiebees</img>
     </link>
     <link>
-      hoodiebees
-      <img value="https://www.movavi.com/">hoodiebees</img>
+      Screen recorder for Mac
+      <img value="https://www.movavi.com/">Screen recorder for Mac</img>
     </link>
     <heading level="3">
       There are more!
@@ -23973,6 +24166,182 @@ exports[`firefox /components/switches/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
+    Unstyled switches
+    <text>Unstyled switches</text>
+  </heading>
+  <paragraph>
+    <text>
+      The switch also comes with an unstyled version. It's ideal for doing
+      heavy customizations and minimizing bundle size.
+    </text>
+  </paragraph>
+  <text>
+    import SwitchUnstyled from '@material-ui/unstyled/SwitchUnstyled';
+  </text>
+  <paragraph>
+    <text>
+      The SwitchUnstyled component provides default components and assigns CSS
+      classes you can style entirely on your own. You are free to choose any
+      styling solution - plain CSS classes, a CSS framework, Emotion, etc. It is
+      also possible to replace these default components by other HTML elements
+      or custom components.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      There are three components you can override by the components prop: Root,
+      Thumb and Input. Each one's props can be set using the
+      componentsProps object.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Demo switch</checkbox>
+  <checkbox>Demo switch</checkbox>
+  <checkbox checked="true" disabled="true">
+    Demo switch
+  </checkbox>
+  <checkbox disabled="true">Demo switch</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <SwitchUnstyled component={Root} {...label}
+    defaultChecked /> <SwitchUnstyled component={Root}
+    {...label} /> <SwitchUnstyled component={Root}
+    {...label} defaultChecked disabled /> <SwitchUnstyled
+    component={Root} {...label} disabled />
+  </text>
+  <heading level="3">
+    Recreation of Material-UI's Switch
+    <text>Recreation of Material-UI's Switch</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Switch demo</checkbox>
+  <checkbox>Switch demo</checkbox>
+  <checkbox checked="true" disabled="true">
+    Switch demo
+  </checkbox>
+  <checkbox disabled="true">Switch demo</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <ThemeProvider theme={createTheme()}> <Switch
+    {...label} defaultChecked /> <Switch {...label}
+    color="secondary" /> <Switch {...label} disabled
+    defaultChecked /> <Switch {...label} disabled />
+    </ThemeProvider>
+  </text>
+  <heading level="3">
+    useSwitch hook
+    <text>useSwitch hook</text>
+  </heading>
+  <paragraph>
+    <text>
+      For the ultimate customizability, a useSwitch hook is available. It
+      accepts almost the same options as the SwitchUnstyled component minus the
+      component, components, and componentsProps props.
+    </text>
+  </paragraph>
+  <text>
+    import { useSwitch } from
+    '@material-ui/unstyled/SwitchUnstyled';
+  </text>
+  <heading level="4">
+    Basic example
+    <text>Basic example</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Demo switch</checkbox>
+  <checkbox>Demo switch</checkbox>
+  <checkbox checked="true" disabled="true">
+    Demo switch
+  </checkbox>
+  <checkbox disabled="true">Demo switch</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <BasicSwitch defaultChecked /> <BasicSwitch /> <BasicSwitch
+    defaultChecked disabled /> <BasicSwitch disabled />
+  </text>
+  <heading level="4">
+    Customized look and feel
+    <text>Customized look and feel</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Demo switch</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text><MUISwitch defaultChecked /></text>
+  <heading level="4">
+    Recreation of Material-UI's Switch
+    <text>Recreation of Material-UI's Switch</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Switch demo</checkbox>
+  <checkbox>Switch demo</checkbox>
+  <checkbox checked="true" disabled="true">
+    Switch demo
+  </checkbox>
+  <checkbox disabled="true">Switch demo</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <ThemeProvider theme={createTheme()}> <Switch
+    {...label} defaultChecked /> <Switch {...label}
+    color="secondary" /> <Switch {...label} disabled
+    defaultChecked /> <Switch {...label} disabled />
+    </ThemeProvider>
+  </text>
+  <heading level="2">
     Label placement
     <text>Label placement</text>
   </heading>
@@ -24101,6 +24470,10 @@ exports[`firefox /components/switches/ 1`] = `
     <listitem>
       <Switch />
       <link><Switch /></link>
+    </listitem>
+    <listitem>
+      <SwitchUnstyled />
+      <link><SwitchUnstyled /></link>
     </listitem>
   </list>
   <separator></separator>
@@ -26140,8 +26513,8 @@ exports[`firefox /components/text-fields/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <TextField fullWidth label={'fullWidth'}
-    id="fullWidth" />
+    <TextField fullWidth label="fullWidth" id="fullWidth"
+    />
   </text>
   <heading level="2">
     Uncontrolled vs. Controlled
