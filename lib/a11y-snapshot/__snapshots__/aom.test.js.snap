@@ -158,8 +158,8 @@ exports[`chromium / 1`] = `
       <img>hoodiebees</img>
     </link>
     <link>
-      Screen recorder for Mac
-      <img>Screen recorder for Mac</img>
+      hoodiebees
+      <img>hoodiebees</img>
     </link>
     <heading level="3">
       There are more!
@@ -14517,8 +14517,8 @@ exports[`firefox / 1`] = `
       <img value="https://hoodiebees.com/">hoodiebees</img>
     </link>
     <link>
-      Screen recorder for Mac
-      <img value="https://www.movavi.com/">Screen recorder for Mac</img>
+      hoodiebees
+      <img value="https://www.movavi.com/">hoodiebees</img>
     </link>
     <heading level="3">
       There are more!
@@ -26513,8 +26513,8 @@ exports[`firefox /components/text-fields/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text>
-    <TextField fullWidth label="fullWidth" id="fullWidth"
-    />
+    <TextField fullWidth label={'fullWidth'}
+    id="fullWidth" />
   </text>
   <heading level="2">
     Uncontrolled vs. Controlled
