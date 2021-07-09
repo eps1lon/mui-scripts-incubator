@@ -500,7 +500,7 @@ exports[`chromium /api/button/ 1`] = `
       <gridcell>
         If true, the ripple effect is disabled. ⚠️ Without a ripple there is no
         styling for :focus-visible by default. Be sure to highlight the element
-        by applying separate styles with the .Mui-focusedVisible class.
+        by applying separate styles with the .Mui-focusVisible class.
         <text>If</text>
         <code>$SOME_CODE</code>
         <text>, the ripple effect is disabled.</text>
@@ -14831,7 +14831,7 @@ exports[`firefox /api/button/ 1`] = `
         <text>
           ⚠️ Without a ripple there is no styling for :focus-visible by default.
           Be sure to highlight the element by applying separate styles with the
-          .Mui-focusedVisible class.
+          .Mui-focusVisible class.
         </text>
       </cell>
     </row>
