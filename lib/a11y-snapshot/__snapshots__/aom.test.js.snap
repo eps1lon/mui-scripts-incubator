@@ -12751,7 +12751,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   </paragraph>
   <paragraph>
     <text>The following demo uses the</text>
-    <link>react-text-mask</link>
+    <link>react-imask</link>
     <text>and</text>
     <link>react-number-format</link>
     <text>libraries. The same concept could be applied to</text>
@@ -12763,12 +12763,12 @@ exports[`chromium /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <LabelText>
-    <text>react-text-mask</text>
+    <text>react-imask</text>
   </LabelText>
   <text> </text>
-  <textbox value="(1  )    -    ">
-    react-text-mask
-    <text>(1  )    -    </text>
+  <textbox value="(100) 000-0000">
+    react-imask
+    <text>(100) 000-0000</text>
   </textbox>
   <LabelText>
     <text>react-number-format</text>
@@ -27212,7 +27212,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <paragraph>
     <text>The following demo uses the</text>
-    <link>react-text-mask</link>
+    <link>react-imask</link>
     <text>and</text>
     <link>react-number-format</link>
     <text>libraries. The same concept could be applied to</text>
@@ -27224,13 +27224,13 @@ exports[`firefox /components/text-fields/ 1`] = `
     navigation of our components.
   </button>
   <label>
-    react-text-mask
-    <text>react-text-mask</text>
+    react-imask
+    <text>react-imask</text>
   </label>
   <statictext> </statictext>
-  <textbox value="(1  )    -    ">
-    react-text-mask
-    <text>(1  )    -    </text>
+  <textbox value="(100) 000-0000">
+    react-imask
+    <text>(100) 000-0000</text>
   </textbox>
   <label>
     react-number-format
