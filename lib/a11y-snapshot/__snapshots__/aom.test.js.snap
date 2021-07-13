@@ -19,7 +19,7 @@ exports[`chromium / 1`] = `
     <combobox haspopup="menu">Toggle notifications panel</combobox>
     <link>GitHub repository</link>
   </banner>
-  <navigation>Main navigation</navigation>
+  <navigation>documentation</navigation>
   <main>
     <heading level="1">
       MATERIAL-UI
@@ -1347,6 +1347,34 @@ exports[`chromium /api/button/ 1`] = `
     </group>
     <link>ButtonBase</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Import</link>
+      </listitem>
+      <listitem level="1">
+        <link>Component name</link>
+      </listitem>
+      <listitem level="1">
+        <link>Props</link>
+        <list>
+          <listitem level="2">
+            <link>Inheritance</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>CSS</link>
+      </listitem>
+      <listitem level="1">
+        <link>Demos</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -2234,6 +2262,34 @@ exports[`chromium /api/select/ 1`] = `
     </group>
     <link>Skeleton</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Import</link>
+      </listitem>
+      <listitem level="1">
+        <link>Component name</link>
+      </listitem>
+      <listitem level="1">
+        <link>Props</link>
+        <list>
+          <listitem level="2">
+            <link>Inheritance</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>CSS</link>
+      </listitem>
+      <listitem level="1">
+        <link>Demos</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -2656,6 +2712,41 @@ exports[`chromium /components/breadcrumbs 1`] = `
     </group>
     <link>Drawer</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Basic breadcrumbs</link>
+      </listitem>
+      <listitem level="1">
+        <link>Active last breadcrumb</link>
+      </listitem>
+      <listitem level="1">
+        <link>Custom separator</link>
+      </listitem>
+      <listitem level="1">
+        <link>Breadcrumbs with icons</link>
+      </listitem>
+      <listitem level="1">
+        <link>Collapsed breadcrumbs</link>
+      </listitem>
+      <listitem level="1">
+        <link>Customized breadcrumbs</link>
+      </listitem>
+      <listitem level="1">
+        <link>Integration with react-router</link>
+      </listitem>
+      <listitem level="1">
+        <link>Accessibility</link>
+      </listitem>
+      <listitem level="1">
+        <link>API</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -3020,6 +3111,35 @@ exports[`chromium /components/button-group/ 1`] = `
     </group>
     <link>Checkbox</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Basic button group</link>
+      </listitem>
+      <listitem level="1">
+        <link>Button variants</link>
+      </listitem>
+      <listitem level="1">
+        <link>Sizes and colors</link>
+      </listitem>
+      <listitem level="1">
+        <link>Vertical group</link>
+      </listitem>
+      <listitem level="1">
+        <link>Split button</link>
+      </listitem>
+      <listitem level="1">
+        <link>Disabled elevation</link>
+      </listitem>
+      <listitem level="1">
+        <link>API</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -3821,6 +3941,77 @@ exports[`chromium /components/buttons/ 1`] = `
     </group>
     <link>Button Group</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Basic Button</link>
+        <list>
+          <listitem level="2">
+            <link>Text buttons</link>
+          </listitem>
+          <listitem level="2">
+            <link>Contained buttons</link>
+          </listitem>
+          <listitem level="2">
+            <link>Outlined buttons</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>Handling clicks</link>
+      </listitem>
+      <listitem level="1">
+        <link>Color</link>
+      </listitem>
+      <listitem level="1">
+        <link>Sizes</link>
+      </listitem>
+      <listitem level="1">
+        <link>Upload button</link>
+      </listitem>
+      <listitem level="1">
+        <link>Buttons with icons and label</link>
+      </listitem>
+      <listitem level="1">
+        <link>Icon button</link>
+        <list>
+          <listitem level="2">
+            <link>Sizes</link>
+          </listitem>
+          <listitem level="2">
+            <link>Colors</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>Customized buttons</link>
+      </listitem>
+      <listitem level="1">
+        <link>Loading buttons</link>
+      </listitem>
+      <listitem level="1">
+        <link>Complex buttons</link>
+      </listitem>
+      <listitem level="1">
+        <link>Third-party routing library</link>
+      </listitem>
+      <listitem level="1">
+        <link>Limitations</link>
+        <list>
+          <listitem level="2">
+            <link>Cursor not-allowed</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>API</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -4335,6 +4526,53 @@ exports[`chromium /components/checkboxes/ 1`] = `
     </group>
     <link>Floating Action Button</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Basic checkboxes</link>
+      </listitem>
+      <listitem level="1">
+        <link>Label</link>
+      </listitem>
+      <listitem level="1">
+        <link>Size</link>
+      </listitem>
+      <listitem level="1">
+        <link>Color</link>
+      </listitem>
+      <listitem level="1">
+        <link>Icon</link>
+      </listitem>
+      <listitem level="1">
+        <link>Controlled</link>
+      </listitem>
+      <listitem level="1">
+        <link>Indeterminate</link>
+      </listitem>
+      <listitem level="1">
+        <link>FormGroup</link>
+      </listitem>
+      <listitem level="1">
+        <link>Label placement</link>
+      </listitem>
+      <listitem level="1">
+        <link>Customized checkbox</link>
+      </listitem>
+      <listitem level="1">
+        <link>When to use</link>
+      </listitem>
+      <listitem level="1">
+        <link>Accessibility</link>
+      </listitem>
+      <listitem level="1">
+        <link>API</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -4886,6 +5124,59 @@ exports[`chromium /components/dialogs/ 1`] = `
     </group>
     <link>Progress</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Basic dialog</link>
+      </listitem>
+      <listitem level="1">
+        <link>Alerts</link>
+      </listitem>
+      <listitem level="1">
+        <link>Transitions</link>
+      </listitem>
+      <listitem level="1">
+        <link>Form dialogs</link>
+      </listitem>
+      <listitem level="1">
+        <link>Customized dialogs</link>
+      </listitem>
+      <listitem level="1">
+        <link>Full-screen dialogs</link>
+      </listitem>
+      <listitem level="1">
+        <link>Optional sizes</link>
+      </listitem>
+      <listitem level="1">
+        <link>Responsive full-screen</link>
+      </listitem>
+      <listitem level="1">
+        <link>Confirmation dialogs</link>
+      </listitem>
+      <listitem level="1">
+        <link>Draggable dialog</link>
+      </listitem>
+      <listitem level="1">
+        <link>Scrolling long content</link>
+      </listitem>
+      <listitem level="1">
+        <link>Performance</link>
+      </listitem>
+      <listitem level="1">
+        <link>Limitations</link>
+      </listitem>
+      <listitem level="1">
+        <link>Accessibility</link>
+      </listitem>
+      <listitem level="1">
+        <link>API</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -6226,6 +6517,58 @@ exports[`chromium /components/pagination/ 1`] = `
     </group>
     <link>Speed Dial</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Basic pagination</link>
+      </listitem>
+      <listitem level="1">
+        <link>Outlined pagination</link>
+      </listitem>
+      <listitem level="1">
+        <link>Rounded pagination</link>
+      </listitem>
+      <listitem level="1">
+        <link>Pagination size</link>
+      </listitem>
+      <listitem level="1">
+        <link>Buttons</link>
+      </listitem>
+      <listitem level="1">
+        <link>Pagination ranges</link>
+      </listitem>
+      <listitem level="1">
+        <link>Controlled pagination</link>
+      </listitem>
+      <listitem level="1">
+        <link>Router integration</link>
+      </listitem>
+      <listitem level="1">
+        <link>usePagination</link>
+      </listitem>
+      <listitem level="1">
+        <link>Table pagination</link>
+      </listitem>
+      <listitem level="1">
+        <link>Accessibility</link>
+        <list>
+          <listitem level="2">
+            <link>ARIA</link>
+          </listitem>
+          <listitem level="2">
+            <link>Keyboard</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>API</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -6509,6 +6852,34 @@ exports[`chromium /components/pickers 1`] = `
     </group>
     <link>Date Picker</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>React components</link>
+      </listitem>
+      <listitem level="1">
+        <link>Native pickers</link>
+        <list>
+          <listitem level="2">
+            <link>Date picker</link>
+          </listitem>
+          <listitem level="2">
+            <link>Date & Time picker</link>
+          </listitem>
+          <listitem level="2">
+            <link>Time picker</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>API</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -7113,6 +7484,60 @@ exports[`chromium /components/radio-buttons 1`] = `
     </group>
     <link>Rating</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Radio group</link>
+        <list>
+          <listitem level="2">
+            <link>Direction</link>
+          </listitem>
+          <listitem level="2">
+            <link>Controlled</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>Standalone radio buttons</link>
+      </listitem>
+      <listitem level="1">
+        <link>Size</link>
+      </listitem>
+      <listitem level="1">
+        <link>Color</link>
+      </listitem>
+      <listitem level="1">
+        <link>Label placement</link>
+      </listitem>
+      <listitem level="1">
+        <link>Show error</link>
+      </listitem>
+      <listitem level="1">
+        <link>Customized radios</link>
+      </listitem>
+      <listitem level="1">
+        <link>useRadioGroup</link>
+        <list>
+          <listitem level="2">
+            <link>API</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>When to use</link>
+      </listitem>
+      <listitem level="1">
+        <link>Accessibility</link>
+      </listitem>
+      <listitem level="1">
+        <link>API</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -7788,6 +8213,46 @@ exports[`chromium /components/rating/ 1`] = `
     </group>
     <link>Select</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Basic rating</link>
+      </listitem>
+      <listitem level="1">
+        <link>Rating precision</link>
+      </listitem>
+      <listitem level="1">
+        <link>Hover feedback</link>
+      </listitem>
+      <listitem level="1">
+        <link>Sizes</link>
+      </listitem>
+      <listitem level="1">
+        <link>Customized rating</link>
+      </listitem>
+      <listitem level="1">
+        <link>Radio group</link>
+      </listitem>
+      <listitem level="1">
+        <link>Accessibility</link>
+        <list>
+          <listitem level="2">
+            <link>ARIA</link>
+          </listitem>
+          <listitem level="2">
+            <link>Keyboard</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>API</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -8502,6 +8967,81 @@ exports[`chromium /components/selects/ 1`] = `
     </group>
     <link>Slider</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Basic select</link>
+      </listitem>
+      <listitem level="1">
+        <link>Advanced features</link>
+      </listitem>
+      <listitem level="1">
+        <link>Props</link>
+        <list>
+          <listitem level="2">
+            <link>Filled and standard variants</link>
+          </listitem>
+          <listitem level="2">
+            <link>Labels and helper text</link>
+          </listitem>
+          <listitem level="2">
+            <link>Auto width</link>
+          </listitem>
+          <listitem level="2">
+            <link>Other props</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>Native select</link>
+      </listitem>
+      <listitem level="1">
+        <link>TextField</link>
+      </listitem>
+      <listitem level="1">
+        <link>Customized selects</link>
+      </listitem>
+      <listitem level="1">
+        <link>Multiple select</link>
+        <list>
+          <listitem level="2">
+            <link>Default</link>
+          </listitem>
+          <listitem level="2">
+            <link>Checkmarks</link>
+          </listitem>
+          <listitem level="2">
+            <link>Chip</link>
+          </listitem>
+          <listitem level="2">
+            <link>Placeholder</link>
+          </listitem>
+          <listitem level="2">
+            <link>Native</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>Controlled open select</link>
+      </listitem>
+      <listitem level="1">
+        <link>With a dialog</link>
+      </listitem>
+      <listitem level="1">
+        <link>Grouping</link>
+      </listitem>
+      <listitem level="1">
+        <link>Accessibility</link>
+      </listitem>
+      <listitem level="1">
+        <link>API</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -9545,6 +10085,93 @@ exports[`chromium /components/slider 1`] = `
     </group>
     <link>Switch</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Continuous sliders</link>
+      </listitem>
+      <listitem level="1">
+        <link>Sizes</link>
+      </listitem>
+      <listitem level="1">
+        <link>Discrete sliders</link>
+        <list>
+          <listitem level="2">
+            <link>Small steps</link>
+          </listitem>
+          <listitem level="2">
+            <link>Custom marks</link>
+          </listitem>
+          <listitem level="2">
+            <link>Restricted values</link>
+          </listitem>
+          <listitem level="2">
+            <link>Label always visible</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>Range slider</link>
+        <list>
+          <listitem level="2">
+            <link>Minimum distance</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>Slider with input field</link>
+      </listitem>
+      <listitem level="1">
+        <link>Color</link>
+      </listitem>
+      <listitem level="1">
+        <link>Customized sliders</link>
+        <list>
+          <listitem level="2">
+            <link>Music player</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>Vertical sliders</link>
+      </listitem>
+      <listitem level="1">
+        <link>Track</link>
+        <list>
+          <listitem level="2">
+            <link>Removed track</link>
+          </listitem>
+          <listitem level="2">
+            <link>Inverted track</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>Non-linear scale</link>
+      </listitem>
+      <listitem level="1">
+        <link>Unstyled</link>
+      </listitem>
+      <listitem level="1">
+        <link>Accessibility</link>
+      </listitem>
+      <listitem level="1">
+        <link>Limitations</link>
+        <list>
+          <listitem level="2">
+            <link>IE 11</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>API</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -10168,6 +10795,58 @@ exports[`chromium /components/switches/ 1`] = `
     </group>
     <link>Text field</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Basic switches</link>
+      </listitem>
+      <listitem level="1">
+        <link>Label</link>
+      </listitem>
+      <listitem level="1">
+        <link>Size</link>
+      </listitem>
+      <listitem level="1">
+        <link>Color</link>
+      </listitem>
+      <listitem level="1">
+        <link>Controlled</link>
+      </listitem>
+      <listitem level="1">
+        <link>Switches with FormGroup</link>
+      </listitem>
+      <listitem level="1">
+        <link>Customized switches</link>
+      </listitem>
+      <listitem level="1">
+        <link>Unstyled switches</link>
+        <list>
+          <listitem level="2">
+            <link>Recreation of Material-UI's Switch</link>
+          </listitem>
+          <listitem level="2">
+            <link>useSwitch hook</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>Label placement</link>
+      </listitem>
+      <listitem level="1">
+        <link>When to use</link>
+      </listitem>
+      <listitem level="1">
+        <link>Accessibility</link>
+      </listitem>
+      <listitem level="1">
+        <link>API</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -11176,6 +11855,80 @@ exports[`chromium /components/tabs/ 1`] = `
     </group>
     <link>Accordion</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Basic tabs</link>
+      </listitem>
+      <listitem level="1">
+        <link>Experimental API</link>
+      </listitem>
+      <listitem level="1">
+        <link>Wrapped labels</link>
+      </listitem>
+      <listitem level="1">
+        <link>Colored tab</link>
+      </listitem>
+      <listitem level="1">
+        <link>Disabled tab</link>
+      </listitem>
+      <listitem level="1">
+        <link>Fixed tabs</link>
+        <list>
+          <listitem level="2">
+            <link>Full width</link>
+          </listitem>
+          <listitem level="2">
+            <link>Centered</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>Scrollable tabs</link>
+        <list>
+          <listitem level="2">
+            <link>Automatic scroll buttons</link>
+          </listitem>
+          <listitem level="2">
+            <link>Forced scroll buttons</link>
+          </listitem>
+          <listitem level="2">
+            <link>Prevent scroll buttons</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>Customized tabs</link>
+      </listitem>
+      <listitem level="1">
+        <link>Vertical tabs</link>
+      </listitem>
+      <listitem level="1">
+        <link>Nav tabs</link>
+      </listitem>
+      <listitem level="1">
+        <link>Icon tabs</link>
+      </listitem>
+      <listitem level="1">
+        <link>Third-party routing library</link>
+      </listitem>
+      <listitem level="1">
+        <link>Accessibility</link>
+        <list>
+          <listitem level="2">
+            <link>Keyboard navigation</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>API</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -12932,6 +13685,93 @@ exports[`chromium /components/text-fields/ 1`] = `
     </group>
     <link>Transfer List</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Basic TextField</link>
+      </listitem>
+      <listitem level="1">
+        <link>Form props</link>
+      </listitem>
+      <listitem level="1">
+        <link>Validation</link>
+      </listitem>
+      <listitem level="1">
+        <link>Multiline</link>
+      </listitem>
+      <listitem level="1">
+        <link>Select</link>
+      </listitem>
+      <listitem level="1">
+        <link>Icons</link>
+        <list>
+          <listitem level="2">
+            <link>Input Adornments</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>Sizes</link>
+      </listitem>
+      <listitem level="1">
+        <link>Margin</link>
+      </listitem>
+      <listitem level="1">
+        <link>Full width</link>
+      </listitem>
+      <listitem level="1">
+        <link>Uncontrolled vs. Controlled</link>
+      </listitem>
+      <listitem level="1">
+        <link>Components</link>
+      </listitem>
+      <listitem level="1">
+        <link>Inputs</link>
+      </listitem>
+      <listitem level="1">
+        <link>Color</link>
+      </listitem>
+      <listitem level="1">
+        <link>Customized inputs</link>
+      </listitem>
+      <listitem level="1">
+        <link>useFormControl</link>
+      </listitem>
+      <listitem level="1">
+        <link>Limitations</link>
+        <list>
+          <listitem level="2">
+            <link>Shrink</link>
+          </listitem>
+          <listitem level="2">
+            <link>Floating label</link>
+          </listitem>
+          <listitem level="2">
+            <link>type="number"</link>
+          </listitem>
+          <listitem level="2">
+            <link>Helper text</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>Integration with 3rd party input libraries</link>
+      </listitem>
+      <listitem level="1">
+        <link>Accessibility</link>
+      </listitem>
+      <listitem level="1">
+        <link>Complementary projects</link>
+      </listitem>
+      <listitem level="1">
+        <link>API</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -13599,6 +14439,62 @@ exports[`chromium /components/tooltips/ 1`] = `
     </group>
     <link>Typography</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Basic tooltip</link>
+      </listitem>
+      <listitem level="1">
+        <link>Positioned tooltips</link>
+      </listitem>
+      <listitem level="1">
+        <link>Customized tooltips</link>
+      </listitem>
+      <listitem level="1">
+        <link>Arrow tooltips</link>
+      </listitem>
+      <listitem level="1">
+        <link>Custom child element</link>
+      </listitem>
+      <listitem level="1">
+        <link>Triggers</link>
+      </listitem>
+      <listitem level="1">
+        <link>Controlled tooltips</link>
+      </listitem>
+      <listitem level="1">
+        <link>Variable width</link>
+      </listitem>
+      <listitem level="1">
+        <link>Interactive</link>
+      </listitem>
+      <listitem level="1">
+        <link>Disabled elements</link>
+      </listitem>
+      <listitem level="1">
+        <link>Transitions</link>
+      </listitem>
+      <listitem level="1">
+        <link>Follow cursor</link>
+      </listitem>
+      <listitem level="1">
+        <link>Virtual element</link>
+      </listitem>
+      <listitem level="1">
+        <link>Showing and hiding</link>
+      </listitem>
+      <listitem level="1">
+        <link>Accessibility</link>
+      </listitem>
+      <listitem level="1">
+        <link>API</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -13809,6 +14705,23 @@ exports[`chromium /components/transfer-list 1`] = `
     </group>
     <link>Toggle Button</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Basic transfer list</link>
+      </listitem>
+      <listitem level="1">
+        <link>Enhanced transfer list</link>
+      </listitem>
+      <listitem level="1">
+        <link>API</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -14347,6 +15260,49 @@ exports[`chromium /components/tree-view/ 1`] = `
     </group>
     <link>Accordion</link>
   </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Basic tree view</link>
+      </listitem>
+      <listitem level="1">
+        <link>Multi-selection</link>
+      </listitem>
+      <listitem level="1">
+        <link>Controlled tree view</link>
+      </listitem>
+      <listitem level="1">
+        <link>Rich object</link>
+      </listitem>
+      <listitem level="1">
+        <link>ContentComponent prop</link>
+      </listitem>
+      <listitem level="1">
+        <link>Customized tree view</link>
+        <list>
+          <listitem level="2">
+            <link>Custom icons, border and animation</link>
+          </listitem>
+          <listitem level="2">
+            <link>Gmail clone</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>Disabled tree items</link>
+      </listitem>
+      <listitem level="1">
+        <link>Accessibility</link>
+      </listitem>
+      <listitem level="1">
+        <link>API</link>
+      </listitem>
+    </list>
+  </navigation>
 </main>;
 
 `;
@@ -14369,7 +15325,7 @@ exports[`firefox / 1`] = `
     <buttonmenu haspopup="true">Toggle notifications panel</buttonmenu>
     <link>GitHub repository</link>
   </landmark>
-  <landmark>Main navigation</landmark>
+  <landmark>documentation</landmark>
   <landmark>
     <img></img>
     <heading level="1">
@@ -15495,6 +16451,40 @@ exports[`firefox /api/button/ 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>ButtonBase</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        Import
+        <link>Import</link>
+      </listitem>
+      <listitem level="1">
+        Component name
+        <link>Component name</link>
+      </listitem>
+      <listitem level="1">
+        PropsInheritance
+        <link>Props</link>
+        <list>
+          <listitem level="2">
+            Inheritance
+            <link>Inheritance</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        CSS
+        <link>CSS</link>
+      </listitem>
+      <listitem level="1">
+        Demos
+        <link>Demos</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
@@ -16181,6 +17171,40 @@ exports[`firefox /api/select/ 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Skeleton</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        Import
+        <link>Import</link>
+      </listitem>
+      <listitem level="1">
+        Component name
+        <link>Component name</link>
+      </listitem>
+      <listitem level="1">
+        PropsInheritance
+        <link>Props</link>
+        <list>
+          <listitem level="2">
+            Inheritance
+            <link>Inheritance</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        CSS
+        <link>CSS</link>
+      </listitem>
+      <listitem level="1">
+        Demos
+        <link>Demos</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
@@ -16662,6 +17686,50 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Drawer</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem>
+        Basic breadcrumbs
+        <link>Basic breadcrumbs</link>
+      </listitem>
+      <listitem>
+        Active last breadcrumb
+        <link>Active last breadcrumb</link>
+      </listitem>
+      <listitem>
+        Custom separator
+        <link>Custom separator</link>
+      </listitem>
+      <listitem>
+        Breadcrumbs with icons
+        <link>Breadcrumbs with icons</link>
+      </listitem>
+      <listitem>
+        Collapsed breadcrumbs
+        <link>Collapsed breadcrumbs</link>
+      </listitem>
+      <listitem>
+        Customized breadcrumbs
+        <link>Customized breadcrumbs</link>
+      </listitem>
+      <listitem>
+        Integration with react-router
+        <link>Integration with react-router</link>
+      </listitem>
+      <listitem>
+        Accessibility
+        <link>Accessibility</link>
+      </listitem>
+      <listitem>
+        API
+        <link>API</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
@@ -17036,6 +18104,42 @@ exports[`firefox /components/button-group/ 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Checkbox</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem>
+        Basic button group
+        <link>Basic button group</link>
+      </listitem>
+      <listitem>
+        Button variants
+        <link>Button variants</link>
+      </listitem>
+      <listitem>
+        Sizes and colors
+        <link>Sizes and colors</link>
+      </listitem>
+      <listitem>
+        Vertical group
+        <link>Vertical group</link>
+      </listitem>
+      <listitem>
+        Split button
+        <link>Split button</link>
+      </listitem>
+      <listitem>
+        Disabled elevation
+        <link>Disabled elevation</link>
+      </listitem>
+      <listitem>
+        API
+        <link>API</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
@@ -17876,6 +18980,96 @@ exports[`firefox /components/buttons/ 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Button Group</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        Basic ButtonText buttonsContained buttonsOutlined buttons
+        <link>Basic Button</link>
+        <list>
+          <listitem level="2">
+            Text buttons
+            <link>Text buttons</link>
+          </listitem>
+          <listitem level="2">
+            Contained buttons
+            <link>Contained buttons</link>
+          </listitem>
+          <listitem level="2">
+            Outlined buttons
+            <link>Outlined buttons</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        Handling clicks
+        <link>Handling clicks</link>
+      </listitem>
+      <listitem level="1">
+        Color
+        <link>Color</link>
+      </listitem>
+      <listitem level="1">
+        Sizes
+        <link>Sizes</link>
+      </listitem>
+      <listitem level="1">
+        Upload button
+        <link>Upload button</link>
+      </listitem>
+      <listitem level="1">
+        Buttons with icons and label
+        <link>Buttons with icons and label</link>
+      </listitem>
+      <listitem level="1">
+        Icon buttonSizesColors
+        <link>Icon button</link>
+        <list>
+          <listitem level="2">
+            Sizes
+            <link>Sizes</link>
+          </listitem>
+          <listitem level="2">
+            Colors
+            <link>Colors</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        Customized buttons
+        <link>Customized buttons</link>
+      </listitem>
+      <listitem level="1">
+        Loading buttons
+        <link>Loading buttons</link>
+      </listitem>
+      <listitem level="1">
+        Complex buttons
+        <link>Complex buttons</link>
+      </listitem>
+      <listitem level="1">
+        Third-party routing library
+        <link>Third-party routing library</link>
+      </listitem>
+      <listitem level="1">
+        LimitationsCursor not-allowed
+        <link>Limitations</link>
+        <list>
+          <listitem level="2">
+            Cursor not-allowed
+            <link>Cursor not-allowed</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        API
+        <link>API</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
@@ -18413,6 +19607,66 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Floating Action Button</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem>
+        Basic checkboxes
+        <link>Basic checkboxes</link>
+      </listitem>
+      <listitem>
+        Label
+        <link>Label</link>
+      </listitem>
+      <listitem>
+        Size
+        <link>Size</link>
+      </listitem>
+      <listitem>
+        Color
+        <link>Color</link>
+      </listitem>
+      <listitem>
+        Icon
+        <link>Icon</link>
+      </listitem>
+      <listitem>
+        Controlled
+        <link>Controlled</link>
+      </listitem>
+      <listitem>
+        Indeterminate
+        <link>Indeterminate</link>
+      </listitem>
+      <listitem>
+        FormGroup
+        <link>FormGroup</link>
+      </listitem>
+      <listitem>
+        Label placement
+        <link>Label placement</link>
+      </listitem>
+      <listitem>
+        Customized checkbox
+        <link>Customized checkbox</link>
+      </listitem>
+      <listitem>
+        When to use
+        <link>When to use</link>
+      </listitem>
+      <listitem>
+        Accessibility
+        <link>Accessibility</link>
+      </listitem>
+      <listitem>
+        API
+        <link>API</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
@@ -18969,6 +20223,74 @@ exports[`firefox /components/dialogs/ 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Progress</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem>
+        Basic dialog
+        <link>Basic dialog</link>
+      </listitem>
+      <listitem>
+        Alerts
+        <link>Alerts</link>
+      </listitem>
+      <listitem>
+        Transitions
+        <link>Transitions</link>
+      </listitem>
+      <listitem>
+        Form dialogs
+        <link>Form dialogs</link>
+      </listitem>
+      <listitem>
+        Customized dialogs
+        <link>Customized dialogs</link>
+      </listitem>
+      <listitem>
+        Full-screen dialogs
+        <link>Full-screen dialogs</link>
+      </listitem>
+      <listitem>
+        Optional sizes
+        <link>Optional sizes</link>
+      </listitem>
+      <listitem>
+        Responsive full-screen
+        <link>Responsive full-screen</link>
+      </listitem>
+      <listitem>
+        Confirmation dialogs
+        <link>Confirmation dialogs</link>
+      </listitem>
+      <listitem>
+        Draggable dialog
+        <link>Draggable dialog</link>
+      </listitem>
+      <listitem>
+        Scrolling long content
+        <link>Scrolling long content</link>
+      </listitem>
+      <listitem>
+        Performance
+        <link>Performance</link>
+      </listitem>
+      <listitem>
+        Limitations
+        <link>Limitations</link>
+      </listitem>
+      <listitem>
+        Accessibility
+        <link>Accessibility</link>
+      </listitem>
+      <listitem>
+        API
+        <link>API</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
@@ -20513,6 +21835,72 @@ exports[`firefox /components/pagination/ 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Speed Dial</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        Basic pagination
+        <link>Basic pagination</link>
+      </listitem>
+      <listitem level="1">
+        Outlined pagination
+        <link>Outlined pagination</link>
+      </listitem>
+      <listitem level="1">
+        Rounded pagination
+        <link>Rounded pagination</link>
+      </listitem>
+      <listitem level="1">
+        Pagination size
+        <link>Pagination size</link>
+      </listitem>
+      <listitem level="1">
+        Buttons
+        <link>Buttons</link>
+      </listitem>
+      <listitem level="1">
+        Pagination ranges
+        <link>Pagination ranges</link>
+      </listitem>
+      <listitem level="1">
+        Controlled pagination
+        <link>Controlled pagination</link>
+      </listitem>
+      <listitem level="1">
+        Router integration
+        <link>Router integration</link>
+      </listitem>
+      <listitem level="1">
+        usePagination
+        <link>usePagination</link>
+      </listitem>
+      <listitem level="1">
+        Table pagination
+        <link>Table pagination</link>
+      </listitem>
+      <listitem level="1">
+        AccessibilityARIAKeyboard
+        <link>Accessibility</link>
+        <list>
+          <listitem level="2">
+            ARIA
+            <link>ARIA</link>
+          </listitem>
+          <listitem level="2">
+            Keyboard
+            <link>Keyboard</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        API
+        <link>API</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
@@ -20796,6 +22184,40 @@ exports[`firefox /components/pickers 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Date Picker</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        React components
+        <link>React components</link>
+      </listitem>
+      <listitem level="1">
+        Native pickersDate pickerDate & Time pickerTime picker
+        <link>Native pickers</link>
+        <list>
+          <listitem level="2">
+            Date picker
+            <link>Date picker</link>
+          </listitem>
+          <listitem level="2">
+            Date & Time picker
+            <link>Date & Time picker</link>
+          </listitem>
+          <listitem level="2">
+            Time picker
+            <link>Time picker</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        API
+        <link>API</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
@@ -21473,6 +22895,74 @@ exports[`firefox /components/radio-buttons 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Rating</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        Radio groupDirectionControlled
+        <link>Radio group</link>
+        <list>
+          <listitem level="2">
+            Direction
+            <link>Direction</link>
+          </listitem>
+          <listitem level="2">
+            Controlled
+            <link>Controlled</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        Standalone radio buttons
+        <link>Standalone radio buttons</link>
+      </listitem>
+      <listitem level="1">
+        Size
+        <link>Size</link>
+      </listitem>
+      <listitem level="1">
+        Color
+        <link>Color</link>
+      </listitem>
+      <listitem level="1">
+        Label placement
+        <link>Label placement</link>
+      </listitem>
+      <listitem level="1">
+        Show error
+        <link>Show error</link>
+      </listitem>
+      <listitem level="1">
+        Customized radios
+        <link>Customized radios</link>
+      </listitem>
+      <listitem level="1">
+        useRadioGroupAPI
+        <link>useRadioGroup</link>
+        <list>
+          <listitem level="2">
+            API
+            <link>API</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        When to use
+        <link>When to use</link>
+      </listitem>
+      <listitem level="1">
+        Accessibility
+        <link>Accessibility</link>
+      </listitem>
+      <listitem level="1">
+        API
+        <link>API</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
@@ -22276,6 +23766,56 @@ exports[`firefox /components/rating/ 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Select</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        Basic rating
+        <link>Basic rating</link>
+      </listitem>
+      <listitem level="1">
+        Rating precision
+        <link>Rating precision</link>
+      </listitem>
+      <listitem level="1">
+        Hover feedback
+        <link>Hover feedback</link>
+      </listitem>
+      <listitem level="1">
+        Sizes
+        <link>Sizes</link>
+      </listitem>
+      <listitem level="1">
+        Customized rating
+        <link>Customized rating</link>
+      </listitem>
+      <listitem level="1">
+        Radio group
+        <link>Radio group</link>
+      </listitem>
+      <listitem level="1">
+        AccessibilityARIAKeyboard
+        <link>Accessibility</link>
+        <list>
+          <listitem level="2">
+            ARIA
+            <link>ARIA</link>
+          </listitem>
+          <listitem level="2">
+            Keyboard
+            <link>Keyboard</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        API
+        <link>API</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
@@ -23044,6 +24584,103 @@ exports[`firefox /components/selects/ 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Slider</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        Basic select
+        <link>Basic select</link>
+      </listitem>
+      <listitem level="1">
+        Advanced features
+        <link>Advanced features</link>
+      </listitem>
+      <listitem level="1">
+        PropsFilled and standard variantsLabels and helper textAuto widthOther
+        props
+        <link>Props</link>
+        <list>
+          <listitem level="2">
+            Filled and standard variants
+            <link>Filled and standard variants</link>
+          </listitem>
+          <listitem level="2">
+            Labels and helper text
+            <link>Labels and helper text</link>
+          </listitem>
+          <listitem level="2">
+            Auto width
+            <link>Auto width</link>
+          </listitem>
+          <listitem level="2">
+            Other props
+            <link>Other props</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        Native select
+        <link>Native select</link>
+      </listitem>
+      <listitem level="1">
+        TextField
+        <link>TextField</link>
+      </listitem>
+      <listitem level="1">
+        Customized selects
+        <link>Customized selects</link>
+      </listitem>
+      <listitem level="1">
+        Multiple selectDefaultCheckmarksChipPlaceholderNative
+        <link>Multiple select</link>
+        <list>
+          <listitem level="2">
+            Default
+            <link>Default</link>
+          </listitem>
+          <listitem level="2">
+            Checkmarks
+            <link>Checkmarks</link>
+          </listitem>
+          <listitem level="2">
+            Chip
+            <link>Chip</link>
+          </listitem>
+          <listitem level="2">
+            Placeholder
+            <link>Placeholder</link>
+          </listitem>
+          <listitem level="2">
+            Native
+            <link>Native</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        Controlled open select
+        <link>Controlled open select</link>
+      </listitem>
+      <listitem level="1">
+        With a dialog
+        <link>With a dialog</link>
+      </listitem>
+      <listitem level="1">
+        Grouping
+        <link>Grouping</link>
+      </listitem>
+      <listitem level="1">
+        Accessibility
+        <link>Accessibility</link>
+      </listitem>
+      <listitem level="1">
+        API
+        <link>API</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
@@ -23863,6 +25500,117 @@ exports[`firefox /components/slider 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Switch</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        Continuous sliders
+        <link>Continuous sliders</link>
+      </listitem>
+      <listitem level="1">
+        Sizes
+        <link>Sizes</link>
+      </listitem>
+      <listitem level="1">
+        Discrete slidersSmall stepsCustom marksRestricted valuesLabel always
+        visible
+        <link>Discrete sliders</link>
+        <list>
+          <listitem level="2">
+            Small steps
+            <link>Small steps</link>
+          </listitem>
+          <listitem level="2">
+            Custom marks
+            <link>Custom marks</link>
+          </listitem>
+          <listitem level="2">
+            Restricted values
+            <link>Restricted values</link>
+          </listitem>
+          <listitem level="2">
+            Label always visible
+            <link>Label always visible</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        Range sliderMinimum distance
+        <link>Range slider</link>
+        <list>
+          <listitem level="2">
+            Minimum distance
+            <link>Minimum distance</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        Slider with input field
+        <link>Slider with input field</link>
+      </listitem>
+      <listitem level="1">
+        Color
+        <link>Color</link>
+      </listitem>
+      <listitem level="1">
+        Customized slidersMusic player
+        <link>Customized sliders</link>
+        <list>
+          <listitem level="2">
+            Music player
+            <link>Music player</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        Vertical sliders
+        <link>Vertical sliders</link>
+      </listitem>
+      <listitem level="1">
+        TrackRemoved trackInverted track
+        <link>Track</link>
+        <list>
+          <listitem level="2">
+            Removed track
+            <link>Removed track</link>
+          </listitem>
+          <listitem level="2">
+            Inverted track
+            <link>Inverted track</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        Non-linear scale
+        <link>Non-linear scale</link>
+      </listitem>
+      <listitem level="1">
+        Unstyled
+        <link>Unstyled</link>
+      </listitem>
+      <listitem level="1">
+        Accessibility
+        <link>Accessibility</link>
+      </listitem>
+      <listitem level="1">
+        LimitationsIE 11
+        <link>Limitations</link>
+        <list>
+          <listitem level="2">
+            IE 11
+            <link>IE 11</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        API
+        <link>API</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
@@ -24485,6 +26233,72 @@ exports[`firefox /components/switches/ 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Text field</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        Basic switches
+        <link>Basic switches</link>
+      </listitem>
+      <listitem level="1">
+        Label
+        <link>Label</link>
+      </listitem>
+      <listitem level="1">
+        Size
+        <link>Size</link>
+      </listitem>
+      <listitem level="1">
+        Color
+        <link>Color</link>
+      </listitem>
+      <listitem level="1">
+        Controlled
+        <link>Controlled</link>
+      </listitem>
+      <listitem level="1">
+        Switches with FormGroup
+        <link>Switches with FormGroup</link>
+      </listitem>
+      <listitem level="1">
+        Customized switches
+        <link>Customized switches</link>
+      </listitem>
+      <listitem level="1">
+        Unstyled switchesRecreation of Material-UI's SwitchuseSwitch hook
+        <link>Unstyled switches</link>
+        <list>
+          <listitem level="2">
+            Recreation of Material-UI's Switch
+            <link>Recreation of Material-UI's Switch</link>
+          </listitem>
+          <listitem level="2">
+            useSwitch hook
+            <link>useSwitch hook</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        Label placement
+        <link>Label placement</link>
+      </listitem>
+      <listitem level="1">
+        When to use
+        <link>When to use</link>
+      </listitem>
+      <listitem level="1">
+        Accessibility
+        <link>Accessibility</link>
+      </listitem>
+      <listitem level="1">
+        API
+        <link>API</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
@@ -25543,6 +27357,101 @@ exports[`firefox /components/tabs/ 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Accordion</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        Basic tabs
+        <link>Basic tabs</link>
+      </listitem>
+      <listitem level="1">
+        Experimental API
+        <link>Experimental API</link>
+      </listitem>
+      <listitem level="1">
+        Wrapped labels
+        <link>Wrapped labels</link>
+      </listitem>
+      <listitem level="1">
+        Colored tab
+        <link>Colored tab</link>
+      </listitem>
+      <listitem level="1">
+        Disabled tab
+        <link>Disabled tab</link>
+      </listitem>
+      <listitem level="1">
+        Fixed tabsFull widthCentered
+        <link>Fixed tabs</link>
+        <list>
+          <listitem level="2">
+            Full width
+            <link>Full width</link>
+          </listitem>
+          <listitem level="2">
+            Centered
+            <link>Centered</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        Scrollable tabsAutomatic scroll buttonsForced scroll buttonsPrevent
+        scroll buttons
+        <link>Scrollable tabs</link>
+        <list>
+          <listitem level="2">
+            Automatic scroll buttons
+            <link>Automatic scroll buttons</link>
+          </listitem>
+          <listitem level="2">
+            Forced scroll buttons
+            <link>Forced scroll buttons</link>
+          </listitem>
+          <listitem level="2">
+            Prevent scroll buttons
+            <link>Prevent scroll buttons</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        Customized tabs
+        <link>Customized tabs</link>
+      </listitem>
+      <listitem level="1">
+        Vertical tabs
+        <link>Vertical tabs</link>
+      </listitem>
+      <listitem level="1">
+        Nav tabs
+        <link>Nav tabs</link>
+      </listitem>
+      <listitem level="1">
+        Icon tabs
+        <link>Icon tabs</link>
+      </listitem>
+      <listitem level="1">
+        Third-party routing library
+        <link>Third-party routing library</link>
+      </listitem>
+      <listitem level="1">
+        AccessibilityKeyboard navigation
+        <link>Accessibility</link>
+        <list>
+          <listitem level="2">
+            Keyboard navigation
+            <link>Keyboard navigation</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        API
+        <link>API</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
@@ -27395,6 +29304,118 @@ exports[`firefox /components/text-fields/ 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Transfer List</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        Basic TextField
+        <link>Basic TextField</link>
+      </listitem>
+      <listitem level="1">
+        Form props
+        <link>Form props</link>
+      </listitem>
+      <listitem level="1">
+        Validation
+        <link>Validation</link>
+      </listitem>
+      <listitem level="1">
+        Multiline
+        <link>Multiline</link>
+      </listitem>
+      <listitem level="1">
+        Select
+        <link>Select</link>
+      </listitem>
+      <listitem level="1">
+        IconsInput Adornments
+        <link>Icons</link>
+        <list>
+          <listitem level="2">
+            Input Adornments
+            <link>Input Adornments</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        Sizes
+        <link>Sizes</link>
+      </listitem>
+      <listitem level="1">
+        Margin
+        <link>Margin</link>
+      </listitem>
+      <listitem level="1">
+        Full width
+        <link>Full width</link>
+      </listitem>
+      <listitem level="1">
+        Uncontrolled vs. Controlled
+        <link>Uncontrolled vs. Controlled</link>
+      </listitem>
+      <listitem level="1">
+        Components
+        <link>Components</link>
+      </listitem>
+      <listitem level="1">
+        Inputs
+        <link>Inputs</link>
+      </listitem>
+      <listitem level="1">
+        Color
+        <link>Color</link>
+      </listitem>
+      <listitem level="1">
+        Customized inputs
+        <link>Customized inputs</link>
+      </listitem>
+      <listitem level="1">
+        useFormControl
+        <link>useFormControl</link>
+      </listitem>
+      <listitem level="1">
+        LimitationsShrinkFloating labeltype="number"Helper text
+        <link>Limitations</link>
+        <list>
+          <listitem level="2">
+            Shrink
+            <link>Shrink</link>
+          </listitem>
+          <listitem level="2">
+            Floating label
+            <link>Floating label</link>
+          </listitem>
+          <listitem level="2">
+            type="number"
+            <link>type="number"</link>
+          </listitem>
+          <listitem level="2">
+            Helper text
+            <link>Helper text</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        Integration with 3rd party input libraries
+        <link>Integration with 3rd party input libraries</link>
+      </listitem>
+      <listitem level="1">
+        Accessibility
+        <link>Accessibility</link>
+      </listitem>
+      <listitem level="1">
+        Complementary projects
+        <link>Complementary projects</link>
+      </listitem>
+      <listitem level="1">
+        API
+        <link>API</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
@@ -28060,6 +30081,78 @@ exports[`firefox /components/tooltips/ 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Typography</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem>
+        Basic tooltip
+        <link>Basic tooltip</link>
+      </listitem>
+      <listitem>
+        Positioned tooltips
+        <link>Positioned tooltips</link>
+      </listitem>
+      <listitem>
+        Customized tooltips
+        <link>Customized tooltips</link>
+      </listitem>
+      <listitem>
+        Arrow tooltips
+        <link>Arrow tooltips</link>
+      </listitem>
+      <listitem>
+        Custom child element
+        <link>Custom child element</link>
+      </listitem>
+      <listitem>
+        Triggers
+        <link>Triggers</link>
+      </listitem>
+      <listitem>
+        Controlled tooltips
+        <link>Controlled tooltips</link>
+      </listitem>
+      <listitem>
+        Variable width
+        <link>Variable width</link>
+      </listitem>
+      <listitem>
+        Interactive
+        <link>Interactive</link>
+      </listitem>
+      <listitem>
+        Disabled elements
+        <link>Disabled elements</link>
+      </listitem>
+      <listitem>
+        Transitions
+        <link>Transitions</link>
+      </listitem>
+      <listitem>
+        Follow cursor
+        <link>Follow cursor</link>
+      </listitem>
+      <listitem>
+        Virtual element
+        <link>Virtual element</link>
+      </listitem>
+      <listitem>
+        Showing and hiding
+        <link>Showing and hiding</link>
+      </listitem>
+      <listitem>
+        Accessibility
+        <link>Accessibility</link>
+      </listitem>
+      <listitem>
+        API
+        <link>API</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
@@ -28260,6 +30353,26 @@ exports[`firefox /components/transfer-list 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Toggle Button</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem>
+        Basic transfer list
+        <link>Basic transfer list</link>
+      </listitem>
+      <listitem>
+        Enhanced transfer list
+        <link>Enhanced transfer list</link>
+      </listitem>
+      <listitem>
+        API
+        <link>API</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
@@ -28822,6 +30935,60 @@ exports[`firefox /components/tree-view/ 1`] = `
     <togglebutton>No</togglebutton>
   </group>
   <link>Accordion</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        Basic tree view
+        <link>Basic tree view</link>
+      </listitem>
+      <listitem level="1">
+        Multi-selection
+        <link>Multi-selection</link>
+      </listitem>
+      <listitem level="1">
+        Controlled tree view
+        <link>Controlled tree view</link>
+      </listitem>
+      <listitem level="1">
+        Rich object
+        <link>Rich object</link>
+      </listitem>
+      <listitem level="1">
+        ContentComponent prop
+        <link>ContentComponent prop</link>
+      </listitem>
+      <listitem level="1">
+        Customized tree viewCustom icons, border and animationGmail clone
+        <link>Customized tree view</link>
+        <list>
+          <listitem level="2">
+            Custom icons, border and animation
+            <link>Custom icons, border and animation</link>
+          </listitem>
+          <listitem level="2">
+            Gmail clone
+            <link>Gmail clone</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        Disabled tree items
+        <link>Disabled tree items</link>
+      </listitem>
+      <listitem level="1">
+        Accessibility
+        <link>Accessibility</link>
+      </listitem>
+      <listitem level="1">
+        API
+        <link>API</link>
+      </listitem>
+    </list>
+  </landmark>
 </landmark>;
 
 `;
