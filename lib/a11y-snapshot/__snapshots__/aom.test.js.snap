@@ -12544,12 +12544,12 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>With normal TextField</text>
   </LabelText>
   <paragraph>
-    <text>Kg</text>
+    <text>kg</text>
   </paragraph>
   <textbox>With normal TextField</textbox>
   <textbox description="Weight">weight</textbox>
   <paragraph>
-    <text>Kg</text>
+    <text>kg</text>
   </paragraph>
   <paragraph>
     <text>Weight</text>
@@ -12571,13 +12571,13 @@ exports[`chromium /components/text-fields/ 1`] = `
   </LabelText>
   <text> </text>
   <paragraph>
-    <text>Kg</text>
+    <text>kg</text>
   </paragraph>
   <textbox>With normal TextField</textbox>
   <text> </text>
   <textbox description="Weight">weight</textbox>
   <paragraph>
-    <text>Kg</text>
+    <text>kg</text>
   </paragraph>
   <paragraph>
     <text>Weight</text>
@@ -12601,13 +12601,13 @@ exports[`chromium /components/text-fields/ 1`] = `
   </LabelText>
   <text> </text>
   <paragraph>
-    <text>Kg</text>
+    <text>kg</text>
   </paragraph>
   <textbox>With normal TextField</textbox>
   <text> </text>
   <textbox description="Weight">weight</textbox>
   <paragraph>
-    <text>Kg</text>
+    <text>kg</text>
   </paragraph>
   <paragraph>
     <text>Weight</text>
@@ -28135,12 +28135,12 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>With normal TextField</text>
   </label>
   <paragraph>
-    <text>Kg</text>
+    <text>kg</text>
   </paragraph>
   <textbox>With normal TextField</textbox>
   <textbox description="Weight">weight</textbox>
   <paragraph>
-    <text>Kg</text>
+    <text>kg</text>
   </paragraph>
   <paragraph>
     <text>Weight</text>
@@ -28165,13 +28165,13 @@ exports[`firefox /components/text-fields/ 1`] = `
   </label>
   <statictext> </statictext>
   <paragraph>
-    <text>Kg</text>
+    <text>kg</text>
   </paragraph>
   <textbox>With normal TextField</textbox>
   <statictext> </statictext>
   <textbox description="Weight">weight</textbox>
   <paragraph>
-    <text>Kg</text>
+    <text>kg</text>
   </paragraph>
   <paragraph>
     <text>Weight</text>
@@ -28198,13 +28198,13 @@ exports[`firefox /components/text-fields/ 1`] = `
   </label>
   <statictext> </statictext>
   <paragraph>
-    <text>Kg</text>
+    <text>kg</text>
   </paragraph>
   <textbox>With normal TextField</textbox>
   <statictext> </statictext>
   <textbox description="Weight">weight</textbox>
   <paragraph>
-    <text>Kg</text>
+    <text>kg</text>
   </paragraph>
   <paragraph>
     <text>Weight</text>
