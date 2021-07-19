@@ -1338,14 +1338,14 @@ exports[`chromium /api/button/ 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Breadcrumbs</link>
+    <link>BREADCRUMBS</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>ButtonBase</link>
+    <link>BUTTONBASE</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -2253,14 +2253,14 @@ exports[`chromium /api/select/ 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>ScopedCssBaseline</link>
+    <link>SCOPEDCSSBASELINE</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Skeleton</link>
+    <link>SKELETON</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -2703,14 +2703,14 @@ exports[`chromium /components/breadcrumbs 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Bottom Navigation</link>
+    <link>BOTTOM NAVIGATION</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Drawer</link>
+    <link>DRAWER</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -3102,14 +3102,14 @@ exports[`chromium /components/button-group/ 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Button</link>
+    <link>BUTTON</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Checkbox</link>
+    <link>CHECKBOX</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -3932,14 +3932,14 @@ exports[`chromium /components/buttons/ 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Autocomplete</link>
+    <link>AUTOCOMPLETE</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Button Group</link>
+    <link>BUTTON GROUP</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -4517,14 +4517,14 @@ exports[`chromium /components/checkboxes/ 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Button Group</link>
+    <link>BUTTON GROUP</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Floating Action Button</link>
+    <link>FLOATING ACTION BUTTON</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -5115,14 +5115,14 @@ exports[`chromium /components/dialogs/ 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Backdrop</link>
+    <link>BACKDROP</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Progress</link>
+    <link>PROGRESS</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -6508,14 +6508,14 @@ exports[`chromium /components/pagination/ 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Menu</link>
+    <link>MENU</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Speed Dial</link>
+    <link>SPEED DIAL</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -6843,14 +6843,14 @@ exports[`chromium /components/pickers 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>About the lab 🧪</link>
+    <link>ABOUT THE LAB 🧪</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Date Picker</link>
+    <link>DATE PICKER</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -7475,14 +7475,14 @@ exports[`chromium /components/radio-buttons 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Floating Action Button</link>
+    <link>FLOATING ACTION BUTTON</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Rating</link>
+    <link>RATING</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -8204,14 +8204,14 @@ exports[`chromium /components/rating/ 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Radio button</link>
+    <link>RADIO BUTTON</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Select</link>
+    <link>SELECT</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -8958,14 +8958,14 @@ exports[`chromium /components/selects/ 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Rating</link>
+    <link>RATING</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Slider</link>
+    <link>SLIDER</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -10076,14 +10076,14 @@ exports[`chromium /components/slider 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Select</link>
+    <link>SELECT</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Switch</link>
+    <link>SWITCH</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -10786,14 +10786,14 @@ exports[`chromium /components/switches/ 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Slider</link>
+    <link>SLIDER</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Text field</link>
+    <link>TEXT FIELD</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -11846,14 +11846,14 @@ exports[`chromium /components/tabs/ 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Stepper</link>
+    <link>STEPPER</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Accordion</link>
+    <link>ACCORDION</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -13676,14 +13676,14 @@ exports[`chromium /components/text-fields/ 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Switch</link>
+    <link>SWITCH</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Transfer List</link>
+    <link>TRANSFER LIST</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -14430,14 +14430,14 @@ exports[`chromium /components/tooltips/ 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Table</link>
+    <link>TABLE</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Typography</link>
+    <link>TYPOGRAPHY</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -14696,14 +14696,14 @@ exports[`chromium /components/transfer-list 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Text field</link>
+    <link>TEXT FIELD</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Toggle Button</link>
+    <link>TOGGLE BUTTON</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -15251,14 +15251,14 @@ exports[`chromium /components/tree-view/ 1`] = `
   </list>
   <FooterAsNonLandmark>
     <separator orientation="horizontal"></separator>
-    <link>Trap Focus</link>
+    <link>TRAP FOCUS</link>
     <group>
       Was this page helpful?
       <text>Was this page helpful?</text>
       <button pressed="false">Yes</button>
       <button pressed="false">No</button>
     </group>
-    <link>Accordion</link>
+    <link>ACCORDION</link>
   </FooterAsNonLandmark>
   <navigation>
     Page table of contents
@@ -16443,14 +16443,14 @@ exports[`firefox /api/button/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Breadcrumbs</link>
+  <link>BREADCRUMBS</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>ButtonBase</link>
+  <link>BUTTONBASE</link>
   <landmark>
     Page table of contents
     <paragraph>
@@ -17163,14 +17163,14 @@ exports[`firefox /api/select/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>ScopedCssBaseline</link>
+  <link>SCOPEDCSSBASELINE</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Skeleton</link>
+  <link>SKELETON</link>
   <landmark>
     Page table of contents
     <paragraph>
@@ -17678,14 +17678,14 @@ exports[`firefox /components/breadcrumbs 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Bottom Navigation</link>
+  <link>BOTTOM NAVIGATION</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Drawer</link>
+  <link>DRAWER</link>
   <landmark>
     Page table of contents
     <paragraph>
@@ -18096,14 +18096,14 @@ exports[`firefox /components/button-group/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Button</link>
+  <link>BUTTON</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Checkbox</link>
+  <link>CHECKBOX</link>
   <landmark>
     Page table of contents
     <paragraph>
@@ -18972,14 +18972,14 @@ exports[`firefox /components/buttons/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Autocomplete</link>
+  <link>AUTOCOMPLETE</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Button Group</link>
+  <link>BUTTON GROUP</link>
   <landmark>
     Page table of contents
     <paragraph>
@@ -19599,14 +19599,14 @@ exports[`firefox /components/checkboxes/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Button Group</link>
+  <link>BUTTON GROUP</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Floating Action Button</link>
+  <link>FLOATING ACTION BUTTON</link>
   <landmark>
     Page table of contents
     <paragraph>
@@ -20215,14 +20215,14 @@ exports[`firefox /components/dialogs/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Backdrop</link>
+  <link>BACKDROP</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Progress</link>
+  <link>PROGRESS</link>
   <landmark>
     Page table of contents
     <paragraph>
@@ -21827,14 +21827,14 @@ exports[`firefox /components/pagination/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Menu</link>
+  <link>MENU</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Speed Dial</link>
+  <link>SPEED DIAL</link>
   <landmark>
     Page table of contents
     <paragraph>
@@ -22176,14 +22176,14 @@ exports[`firefox /components/pickers 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>About the lab 🧪</link>
+  <link>ABOUT THE LAB 🧪</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Date Picker</link>
+  <link>DATE PICKER</link>
   <landmark>
     Page table of contents
     <paragraph>
@@ -22887,14 +22887,14 @@ exports[`firefox /components/radio-buttons 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Floating Action Button</link>
+  <link>FLOATING ACTION BUTTON</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Rating</link>
+  <link>RATING</link>
   <landmark>
     Page table of contents
     <paragraph>
@@ -23758,14 +23758,14 @@ exports[`firefox /components/rating/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Radio button</link>
+  <link>RADIO BUTTON</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Select</link>
+  <link>SELECT</link>
   <landmark>
     Page table of contents
     <paragraph>
@@ -24576,14 +24576,14 @@ exports[`firefox /components/selects/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Rating</link>
+  <link>RATING</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Slider</link>
+  <link>SLIDER</link>
   <landmark>
     Page table of contents
     <paragraph>
@@ -25492,14 +25492,14 @@ exports[`firefox /components/slider 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Select</link>
+  <link>SELECT</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Switch</link>
+  <link>SWITCH</link>
   <landmark>
     Page table of contents
     <paragraph>
@@ -26225,14 +26225,14 @@ exports[`firefox /components/switches/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Slider</link>
+  <link>SLIDER</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Text field</link>
+  <link>TEXT FIELD</link>
   <landmark>
     Page table of contents
     <paragraph>
@@ -27349,14 +27349,14 @@ exports[`firefox /components/tabs/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Stepper</link>
+  <link>STEPPER</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Accordion</link>
+  <link>ACCORDION</link>
   <landmark>
     Page table of contents
     <paragraph>
@@ -29296,14 +29296,14 @@ exports[`firefox /components/text-fields/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Switch</link>
+  <link>SWITCH</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Transfer List</link>
+  <link>TRANSFER LIST</link>
   <landmark>
     Page table of contents
     <paragraph>
@@ -30073,14 +30073,14 @@ exports[`firefox /components/tooltips/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Table</link>
+  <link>TABLE</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Typography</link>
+  <link>TYPOGRAPHY</link>
   <landmark>
     Page table of contents
     <paragraph>
@@ -30345,14 +30345,14 @@ exports[`firefox /components/transfer-list 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Text field</link>
+  <link>TEXT FIELD</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Toggle Button</link>
+  <link>TOGGLE BUTTON</link>
   <landmark>
     Page table of contents
     <paragraph>
@@ -30927,14 +30927,14 @@ exports[`firefox /components/tree-view/ 1`] = `
     </listitem>
   </list>
   <separator></separator>
-  <link>Trap Focus</link>
+  <link>TRAP FOCUS</link>
   <group>
     Was this page helpful?
     <text>Was this page helpful?</text>
     <togglebutton>Yes</togglebutton>
     <togglebutton>No</togglebutton>
   </group>
-  <link>Accordion</link>
+  <link>ACCORDION</link>
   <landmark>
     Page table of contents
     <paragraph>
