@@ -8883,6 +8883,13 @@ exports[`chromium /components/selects/ 1`] = `
     ​<text>​</text>
   </combobox>
   <textbox></textbox>
+  <LabelText>
+    <text>Grouping</text>
+  </LabelText>
+  <combobox haspopup="listbox">
+    ​<text>​</text>
+  </combobox>
+  <textbox></textbox>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -12544,12 +12551,12 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text>With normal TextField</text>
   </LabelText>
   <paragraph>
-    <text>kg</text>
+    <text>Kg</text>
   </paragraph>
   <textbox>With normal TextField</textbox>
   <textbox description="Weight">weight</textbox>
   <paragraph>
-    <text>kg</text>
+    <text>Kg</text>
   </paragraph>
   <paragraph>
     <text>Weight</text>
@@ -12571,13 +12578,13 @@ exports[`chromium /components/text-fields/ 1`] = `
   </LabelText>
   <text> </text>
   <paragraph>
-    <text>kg</text>
+    <text>Kg</text>
   </paragraph>
   <textbox>With normal TextField</textbox>
   <text> </text>
   <textbox description="Weight">weight</textbox>
   <paragraph>
-    <text>kg</text>
+    <text>Kg</text>
   </paragraph>
   <paragraph>
     <text>Weight</text>
@@ -12601,13 +12608,13 @@ exports[`chromium /components/text-fields/ 1`] = `
   </LabelText>
   <text> </text>
   <paragraph>
-    <text>kg</text>
+    <text>Kg</text>
   </paragraph>
   <textbox>With normal TextField</textbox>
   <text> </text>
   <textbox description="Weight">weight</textbox>
   <paragraph>
-    <text>kg</text>
+    <text>Kg</text>
   </paragraph>
   <paragraph>
     <text>Weight</text>
@@ -24509,6 +24516,13 @@ exports[`firefox /components/selects/ 1`] = `
   <button haspopup="true">
     ​<text>​</text>
   </button>
+  <label>
+    Grouping
+    <text>Grouping</text>
+  </label>
+  <button haspopup="true">
+    ​<text>​</text>
+  </button>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -28135,12 +28149,12 @@ exports[`firefox /components/text-fields/ 1`] = `
     <text>With normal TextField</text>
   </label>
   <paragraph>
-    <text>kg</text>
+    <text>Kg</text>
   </paragraph>
   <textbox>With normal TextField</textbox>
   <textbox description="Weight">weight</textbox>
   <paragraph>
-    <text>kg</text>
+    <text>Kg</text>
   </paragraph>
   <paragraph>
     <text>Weight</text>
@@ -28165,13 +28179,13 @@ exports[`firefox /components/text-fields/ 1`] = `
   </label>
   <statictext> </statictext>
   <paragraph>
-    <text>kg</text>
+    <text>Kg</text>
   </paragraph>
   <textbox>With normal TextField</textbox>
   <statictext> </statictext>
   <textbox description="Weight">weight</textbox>
   <paragraph>
-    <text>kg</text>
+    <text>Kg</text>
   </paragraph>
   <paragraph>
     <text>Weight</text>
@@ -28198,13 +28212,13 @@ exports[`firefox /components/text-fields/ 1`] = `
   </label>
   <statictext> </statictext>
   <paragraph>
-    <text>kg</text>
+    <text>Kg</text>
   </paragraph>
   <textbox>With normal TextField</textbox>
   <statictext> </statictext>
   <textbox description="Weight">weight</textbox>
   <paragraph>
-    <text>kg</text>
+    <text>Kg</text>
   </paragraph>
   <paragraph>
     <text>Weight</text>
