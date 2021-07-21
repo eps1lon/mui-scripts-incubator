@@ -75,9 +75,12 @@ exports[`chromium / 1`] = `
     <Pre>
       <code>
         <text>
-          import*asReactfrom'react';import{Button}from'@material-ui/core';functionApp(){return<Button>Hello
-          World</Button>;}
+          import*asReactfrom'react';import{Button}from'@material-ui/core';functionApp(){return<
         </text>
+        <link>Button</link>
+        <text>>Hello World</</text>
+        <link>Button</link>
+        <text>>;}</text>
       </code>
     </Pre>
     <separator orientation="horizontal"></separator>
@@ -15370,8 +15373,12 @@ exports[`firefox / 1`] = `
       Material-UI components work without any additional setup, and don't
       pollute the global scope.import * as React from 'react'; import
       { Button } from '@material-ui/core'; function App()
-      { return <Button>Hello World</Button>; }
+      { return <
     </text>
+    <link>Button</link>
+    <text>>Hello World</</text>
+    <link>Button</link>
+    <text>>; }</text>
     <separator></separator>
     <link>EXPLORE THE DOCS</link>
     <heading level="2">
@@ -17285,15 +17292,29 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Breadcrumbs</link>
+  <text>aria-label="breadcrumb"> <</text>
+  <link>Link</link>
   <text>
-    <Breadcrumbs aria-label="breadcrumb"> <Link
     underline="hover" color="inherit" href="/">
-    Material-UI </Link> <Link underline="hover"
-    color="inherit" href="/getting-started/installation/"
-    > Core </Link> <Typography
-    color="text.primary">Breadcrumbs</Typography>
-    </Breadcrumbs>
+    Material-UI </
   </text>
+  <link>Link</link>
+  <text>> <</text>
+  <link>Link</link>
+  <text>
+    underline="hover" color="inherit"
+    href="/getting-started/installation/" > Core </
+  </text>
+  <link>Link</link>
+  <text>> <</text>
+  <link>Typography</link>
+  <text>color="text.primary">Breadcrumbs</</text>
+  <link>Typography</link>
+  <text>> </</text>
+  <link>Breadcrumbs</link>
+  <text>></text>
   <heading level="2">
     Active last breadcrumb
     <text>Active last breadcrumb</text>
@@ -17411,15 +17432,28 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Breadcrumbs</link>
   <text>
-    <Breadcrumbs separator="›"
-    aria-label="breadcrumb"> {breadcrumbs}
-    </Breadcrumbs> <Breadcrumbs separator="-"
-    aria-label="breadcrumb"> {breadcrumbs}
-    </Breadcrumbs> <Breadcrumbs separator={<NavigateNextIcon
-    fontSize="small" />} aria-label="breadcrumb"
-    > {breadcrumbs} </Breadcrumbs>
+    separator="›" aria-label="breadcrumb">
+    {breadcrumbs} </
   </text>
+  <link>Breadcrumbs</link>
+  <text>> <</text>
+  <link>Breadcrumbs</link>
+  <text>
+    separator="-" aria-label="breadcrumb">
+    {breadcrumbs} </
+  </text>
+  <link>Breadcrumbs</link>
+  <text>> <</text>
+  <link>Breadcrumbs</link>
+  <text>
+    separator={<NavigateNextIcon fontSize="small" />}
+    aria-label="breadcrumb" > {breadcrumbs} </
+  </text>
+  <link>Breadcrumbs</link>
+  <text>></text>
   <heading level="2">
     Breadcrumbs with icons
     <text>Breadcrumbs with icons</text>
@@ -17490,18 +17524,43 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Breadcrumbs</link>
+  <text>maxItems={2} aria-label="breadcrumb"> <</text>
+  <link>Link</link>
   <text>
-    <Breadcrumbs maxItems={2} aria-label="breadcrumb">
-    <Link underline="hover" color="inherit"
-    href="#"> Home </Link> <Link
     underline="hover" color="inherit" href="#">
-    Catalog </Link> <Link underline="hover"
-    color="inherit" href="#"> Accessories </Link>
-    <Link underline="hover" color="inherit"
-    href="#"> New Collection </Link> <Typography
-    color="text.primary">Belts</Typography>
-    </Breadcrumbs>
+    Home </
   </text>
+  <link>Link</link>
+  <text>> <</text>
+  <link>Link</link>
+  <text>
+    underline="hover" color="inherit" href="#">
+    Catalog </
+  </text>
+  <link>Link</link>
+  <text>> <</text>
+  <link>Link</link>
+  <text>
+    underline="hover" color="inherit" href="#">
+    Accessories </
+  </text>
+  <link>Link</link>
+  <text>> <</text>
+  <link>Link</link>
+  <text>
+    underline="hover" color="inherit" href="#">
+    New Collection </
+  </text>
+  <link>Link</link>
+  <text>> <</text>
+  <link>Typography</link>
+  <text>color="text.primary">Belts</</text>
+  <link>Typography</link>
+  <text>> </</text>
+  <link>Breadcrumbs</link>
+  <text>></text>
   <heading level="2">
     Customized breadcrumbs
     <text>Customized breadcrumbs</text>
@@ -17547,15 +17606,19 @@ exports[`firefox /components/breadcrumbs 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Breadcrumbs</link>
   <text>
-    <Breadcrumbs aria-label="breadcrumb"> <StyledBreadcrumb
+    aria-label="breadcrumb"> <StyledBreadcrumb
     component="a" href="#" label="Home"
     icon={<HomeIcon fontSize="small" />} />
     <StyledBreadcrumb component="a" href="#"
     label="Catalog" /> <StyledBreadcrumb
     label="Accessories" deleteIcon={<ExpandMoreIcon
-    />} onDelete={handleClick} /> </Breadcrumbs>
+    />} onDelete={handleClick} /> </
   </text>
+  <link>Breadcrumbs</link>
+  <text>></text>
   <heading level="2">
     Integration with react-router
     <text>Integration with react-router</text>
@@ -17806,12 +17869,26 @@ exports[`firefox /components/button-group/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>ButtonGroup</link>
   <text>
-    <ButtonGroup variant="contained" aria-label="outlined
-    primary button group"> <Button>One</Button>
-    <Button>Two</Button> <Button>Three</Button>
-    </ButtonGroup>
+    variant="contained" aria-label="outlined primary button
+    group"> <
   </text>
+  <link>Button</link>
+  <text>>One</</text>
+  <link>Button</link>
+  <text>> <</text>
+  <link>Button</link>
+  <text>>Two</</text>
+  <link>Button</link>
+  <text>> <</text>
+  <link>Button</link>
+  <text>>Three</</text>
+  <link>Button</link>
+  <text>> </</text>
+  <link>ButtonGroup</link>
+  <text>></text>
   <heading level="2">
     Button variants
     <text>Button variants</text>
@@ -17862,15 +17939,44 @@ exports[`firefox /components/button-group/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>ButtonGroup</link>
   <text>
-    <ButtonGroup variant="outlined" aria-label="outlined
-    button group"> <Button>One</Button>
-    <Button>Two</Button> <Button>Three</Button>
-    </ButtonGroup> <ButtonGroup variant="text"
-    aria-label="text button group">
-    <Button>One</Button> <Button>Two</Button>
-    <Button>Three</Button> </ButtonGroup>
+    variant="outlined" aria-label="outlined button
+    group"> <
   </text>
+  <link>Button</link>
+  <text>>One</</text>
+  <link>Button</link>
+  <text>> <</text>
+  <link>Button</link>
+  <text>>Two</</text>
+  <link>Button</link>
+  <text>> <</text>
+  <link>Button</link>
+  <text>>Three</</text>
+  <link>Button</link>
+  <text>> </</text>
+  <link>ButtonGroup</link>
+  <text>> <</text>
+  <link>ButtonGroup</link>
+  <text>
+    variant="text" aria-label="text button group"> <
+  </text>
+  <link>Button</link>
+  <text>>One</</text>
+  <link>Button</link>
+  <text>> <</text>
+  <link>Button</link>
+  <text>>Two</</text>
+  <link>Button</link>
+  <text>> <</text>
+  <link>Button</link>
+  <text>>Three</</text>
+  <link>Button</link>
+  <text>> </</text>
+  <link>ButtonGroup</link>
+  <text>></text>
   <heading level="2">
     Sizes and colors
     <text>Sizes and colors</text>
@@ -17939,14 +18045,28 @@ exports[`firefox /components/button-group/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>ButtonGroup</link>
   <text>
-    <ButtonGroup size="small" aria-label="small button
-    group"> {buttons} </ButtonGroup> <ButtonGroup
-    color="secondary" aria-label="medium secondary button
-    group"> {buttons} </ButtonGroup> <ButtonGroup
-    size="large" aria-label="large button group">
-    {buttons} </ButtonGroup>
+    size="small" aria-label="small button group">
+    {buttons} </
   </text>
+  <link>ButtonGroup</link>
+  <text>> <</text>
+  <link>ButtonGroup</link>
+  <text>
+    color="secondary" aria-label="medium secondary button
+    group"> {buttons} </
+  </text>
+  <link>ButtonGroup</link>
+  <text>> <</text>
+  <link>ButtonGroup</link>
+  <text>
+    size="large" aria-label="large button group">
+    {buttons} </
+  </text>
+  <link>ButtonGroup</link>
+  <text>></text>
   <heading level="2">
     Vertical group
     <text>Vertical group</text>
@@ -18076,11 +18196,19 @@ exports[`firefox /components/button-group/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <ButtonGroup disableElevation variant="contained">
-    <Button>One</Button> <Button>Two</Button>
-    </ButtonGroup>
-  </text>
+  <text><</text>
+  <link>ButtonGroup</link>
+  <text>disableElevation variant="contained"> <</text>
+  <link>Button</link>
+  <text>>One</</text>
+  <link>Button</link>
+  <text>> <</text>
+  <link>Button</link>
+  <text>>Two</</text>
+  <link>Button</link>
+  <text>> </</text>
+  <link>ButtonGroup</link>
+  <text>></text>
   <heading level="2">
     API
     <text>API</text>
@@ -18251,11 +18379,19 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Button variant="text">Text</Button> <Button
-    variant="contained">Contained</Button> <Button
-    variant="outlined">Outlined</Button>
-  </text>
+  <text><</text>
+  <link>Button</link>
+  <text>variant="text">Text</</text>
+  <link>Button</link>
+  <text>> <</text>
+  <link>Button</link>
+  <text>variant="contained">Contained</</text>
+  <link>Button</link>
+  <text>> <</text>
+  <link>Button</link>
+  <text>variant="outlined">Outlined</</text>
+  <link>Button</link>
+  <text>></text>
   <heading level="3">
     Text buttons
     <text>Text buttons</text>
@@ -18290,11 +18426,19 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Button>Primary</Button> <Button
-    disabled>Disabled</Button> <Button
-    href="#text-buttons">Link</Button>
-  </text>
+  <text><</text>
+  <link>Button</link>
+  <text>>Primary</</text>
+  <link>Button</link>
+  <text>> <</text>
+  <link>Button</link>
+  <text>disabled>Disabled</</text>
+  <link>Button</link>
+  <text>> <</text>
+  <link>Button</link>
+  <text>href="#text-buttons">Link</</text>
+  <link>Button</link>
+  <text>></text>
   <heading level="3">
     Contained buttons
     <text>Contained buttons</text>
@@ -18328,12 +18472,22 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Button</link>
+  <text>variant="contained">Contained</</text>
+  <link>Button</link>
+  <text>> <</text>
+  <link>Button</link>
+  <text>variant="contained" disabled> Disabled </</text>
+  <link>Button</link>
+  <text>> <</text>
+  <link>Button</link>
   <text>
-    <Button variant="contained">Contained</Button>
-    <Button variant="contained" disabled> Disabled
-    </Button> <Button variant="contained"
-    href="#contained-buttons"> Link </Button>
+    variant="contained" href="#contained-buttons"> Link
+    </
   </text>
+  <link>Button</link>
+  <text>></text>
   <paragraph>
     <text>You can remove the elevation with the disableElevation prop.</text>
   </paragraph>
@@ -18354,10 +18508,13 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Button</link>
   <text>
-    <Button variant="contained" disableElevation> Disable
-    elevation </Button>
+    variant="contained" disableElevation> Disable elevation </
   </text>
+  <link>Button</link>
+  <text>></text>
   <heading level="3">
     Outlined buttons
     <text>Outlined buttons</text>
@@ -18397,12 +18554,22 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Button</link>
+  <text>variant="outlined">Primary</</text>
+  <link>Button</link>
+  <text>> <</text>
+  <link>Button</link>
+  <text>variant="outlined" disabled> Disabled </</text>
+  <link>Button</link>
+  <text>> <</text>
+  <link>Button</link>
   <text>
-    <Button variant="outlined">Primary</Button> <Button
-    variant="outlined" disabled> Disabled </Button>
-    <Button variant="outlined"
-    href="#outlined-buttons"> Link </Button>
+    variant="outlined" href="#outlined-buttons"> Link
+    </
   </text>
+  <link>Button</link>
+  <text>></text>
   <heading level="2">
     Handling clicks
     <text>Handling clicks</text>
@@ -18413,10 +18580,14 @@ exports[`firefox /components/buttons/ 1`] = `
       element.
     </text>
   </paragraph>
+  <text><</text>
+  <link>Button</link>
   <text>
-    <Button onClick={() => { alert('clicked');
-    }} > Click me </Button>
+    onClick={() => { alert('clicked'); }} >
+    Click me </
   </text>
+  <link>Button</link>
+  <text>></text>
   <paragraph>
     <text>Note that the documentation</text>
     <link>avoids</link>
@@ -18454,12 +18625,23 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Button</link>
+  <text>color="secondary">Secondary</</text>
+  <link>Button</link>
+  <text>> <</text>
+  <link>Button</link>
   <text>
-    <Button color="secondary">Secondary</Button>
-    <Button variant="contained" color="success">
-    Success </Button> <Button variant="outlined"
-    color="error"> Error </Button>
+    variant="contained" color="success"> Success </
   </text>
+  <link>Button</link>
+  <text>> <</text>
+  <link>Button</link>
+  <text>
+    variant="outlined" color="error"> Error </
+  </text>
+  <link>Button</link>
+  <text>></text>
   <paragraph>
     <text>
       In addition to using the default button colors, you can add custom ones,
@@ -18552,17 +18734,32 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><label htmlFor="contained-button-file"> <</text>
+  <link>Input</link>
   <text>
-    <label htmlFor="contained-button-file"> <Input
     accept="image/*" id="contained-button-file" multiple
-    type="file" /> <Button variant="contained"
-    component="span"> Upload </Button> </label>
-    <label htmlFor="icon-button-file"> <Input
-    accept="image/*" id="icon-button-file"
-    type="file" /> <IconButton color="primary"
-    aria-label="upload picture" component="span">
-    <PhotoCamera /> </IconButton> </label>
+    type="file" /> <
   </text>
+  <link>Button</link>
+  <text>
+    variant="contained" component="span"> Upload </
+  </text>
+  <link>Button</link>
+  <text>
+    > </label> <label htmlFor="icon-button-file"> <
+  </text>
+  <link>Input</link>
+  <text>
+    accept="image/*" id="icon-button-file"
+    type="file" /> <
+  </text>
+  <link>IconButton</link>
+  <text>
+    color="primary" aria-label="upload picture"
+    component="span"> <PhotoCamera /> </
+  </text>
+  <link>IconButton</link>
+  <text>> </label></text>
   <heading level="2">
     Buttons with icons and label
     <text>Buttons with icons and label</text>
@@ -18596,12 +18793,21 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Button</link>
   <text>
-    <Button variant="outlined" startIcon={<DeleteIcon
-    />}> Delete </Button> <Button
-    variant="contained" endIcon={<SendIcon />}>
-    Send </Button>
+    variant="outlined" startIcon={<DeleteIcon />}>
+    Delete </
   </text>
+  <link>Button</link>
+  <text>> <</text>
+  <link>Button</link>
+  <text>
+    variant="contained" endIcon={<SendIcon />}>
+    Send </
+  </text>
+  <link>Button</link>
+  <text>></text>
   <heading level="2">
     Icon button
     <text>Icon button</text>
@@ -18633,15 +18839,32 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>IconButton</link>
+  <text>aria-label="delete"> <DeleteIcon /> </</text>
+  <link>IconButton</link>
+  <text>> <</text>
+  <link>IconButton</link>
   <text>
-    <IconButton aria-label="delete"> <DeleteIcon />
-    </IconButton> <IconButton aria-label="delete" disabled
-    color="primary"> <DeleteIcon /> </IconButton>
-    <IconButton color="secondary" aria-label="add an
-    alarm"> <AlarmIcon /> </IconButton> <IconButton
-    color="primary" aria-label="add to shopping cart">
-    <AddShoppingCartIcon /> </IconButton>
+    aria-label="delete" disabled color="primary">
+    <DeleteIcon /> </
   </text>
+  <link>IconButton</link>
+  <text>> <</text>
+  <link>IconButton</link>
+  <text>
+    color="secondary" aria-label="add an alarm">
+    <AlarmIcon /> </
+  </text>
+  <link>IconButton</link>
+  <text>> <</text>
+  <link>IconButton</link>
+  <text>
+    color="primary" aria-label="add to shopping cart">
+    <AddShoppingCartIcon /> </
+  </text>
+  <link>IconButton</link>
+  <text>></text>
   <heading level="3">
     Sizes
     <text>Sizes</text>
@@ -18666,16 +18889,35 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>IconButton</link>
   <text>
-    <IconButton aria-label="delete" size="small">
-    <DeleteIcon fontSize="inherit" /> </IconButton>
-    <IconButton aria-label="delete" size="small">
-    <DeleteIcon fontSize="small" /> </IconButton>
-    <IconButton aria-label="delete" size="large">
-    <DeleteIcon /> </IconButton> <IconButton
-    aria-label="delete" size="large"> <DeleteIcon
-    fontSize="inherit" /> </IconButton>
+    aria-label="delete" size="small"> <DeleteIcon
+    fontSize="inherit" /> </
   </text>
+  <link>IconButton</link>
+  <text>> <</text>
+  <link>IconButton</link>
+  <text>
+    aria-label="delete" size="small"> <DeleteIcon
+    fontSize="small" /> </
+  </text>
+  <link>IconButton</link>
+  <text>> <</text>
+  <link>IconButton</link>
+  <text>
+    aria-label="delete" size="large"> <DeleteIcon
+    /> </
+  </text>
+  <link>IconButton</link>
+  <text>> <</text>
+  <link>IconButton</link>
+  <text>
+    aria-label="delete" size="large"> <DeleteIcon
+    fontSize="inherit" /> </
+  </text>
+  <link>IconButton</link>
+  <text>></text>
   <heading level="3">
     Colors
     <text>Colors</text>
@@ -18698,12 +18940,21 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>IconButton</link>
   <text>
-    <IconButton aria-label="fingerprint"
-    color="secondary"> <Fingerprint /> </IconButton>
-    <IconButton aria-label="fingerprint"
-    color="success"> <Fingerprint /> </IconButton>
+    aria-label="fingerprint" color="secondary">
+    <Fingerprint /> </
   </text>
+  <link>IconButton</link>
+  <text>> <</text>
+  <link>IconButton</link>
+  <text>
+    aria-label="fingerprint" color="success">
+    <Fingerprint /> </
+  </text>
+  <link>IconButton</link>
+  <text>></text>
   <heading level="2">
     Customized buttons
     <text>Customized buttons</text>
@@ -18782,14 +19033,25 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>LoadingButton</link>
+  <text>loading variant="outlined"> Submit </</text>
+  <link>LoadingButton</link>
+  <text>> <</text>
+  <link>LoadingButton</link>
   <text>
-    <LoadingButton loading variant="outlined"> Submit
-    </LoadingButton> <LoadingButton loading
-    loadingIndicator="Loading..." variant="outlined">
-    Fetch data </LoadingButton> <LoadingButton loading
-    loadingPosition="start" startIcon={<SaveIcon />}
-    variant="outlined" > Save </LoadingButton>
+    loading loadingIndicator="Loading..."
+    variant="outlined"> Fetch data </
   </text>
+  <link>LoadingButton</link>
+  <text>> <</text>
+  <link>LoadingButton</link>
+  <text>
+    loading loadingPosition="start" startIcon={<SaveIcon
+    />} variant="outlined" > Save </
+  </text>
+  <link>LoadingButton</link>
+  <text>></text>
   <paragraph>
     <text>
       Toggle the loading switch to see the transition between the different
@@ -18940,9 +19202,12 @@ exports[`firefox /components/buttons/ 1`] = `
   </list>
   <text>
     <span style={{ cursor: 'not-allowed' }}>
-    <Button component={Link} disabled> disabled </Button>
-    </span>
+    <
   </text>
+  <link>Button</link>
+  <text>component={Link} disabled> disabled </</text>
+  <link>Button</link>
+  <text>> </span></text>
   <paragraph>
     <text>
       This has the advantage of supporting any element, for instance, a link
@@ -19151,11 +19416,15 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Checkbox {...label} defaultChecked /> <Checkbox
-    {...label} /> <Checkbox {...label} disabled />
-    <Checkbox {...label} disabled checked />
-  </text>
+  <text><</text>
+  <link>Checkbox</link>
+  <text>{...label} defaultChecked /> <</text>
+  <link>Checkbox</link>
+  <text>{...label} /> <</text>
+  <link>Checkbox</link>
+  <text>{...label} disabled /> <</text>
+  <link>Checkbox</link>
+  <text>{...label} disabled checked /></text>
   <heading level="2">
     Label
     <text>Label</text>
@@ -19189,12 +19458,19 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <FormGroup> <FormControlLabel control={<Checkbox
-    defaultChecked />} label="Label" />
-    <FormControlLabel disabled control={<Checkbox />}
-    label="Disabled" /> </FormGroup>
-  </text>
+  <text><</text>
+  <link>FormGroup</link>
+  <text>> <</text>
+  <link>FormControlLabel</link>
+  <text>control={<</text>
+  <link>Checkbox</link>
+  <text>defaultChecked />} label="Label" /> <</text>
+  <link>FormControlLabel</link>
+  <text>disabled control={<</text>
+  <link>Checkbox</link>
+  <text>/>} label="Disabled" /> </</text>
+  <link>FormGroup</link>
+  <text>></text>
   <heading level="2">
     Size
     <text>Size</text>
@@ -19221,9 +19497,15 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Checkbox</link>
   <text>
-    <Checkbox {...label} defaultChecked size="small"
-    /> <Checkbox {...label} defaultChecked /> <Checkbox
+    {...label} defaultChecked size="small" /> <
+  </text>
+  <link>Checkbox</link>
+  <text>{...label} defaultChecked /> <</text>
+  <link>Checkbox</link>
+  <text>
     {...label} defaultChecked sx={{ '&
     .MuiSvgIcon-root': { fontSize: 28 } }} />
   </text>
@@ -19249,13 +19531,24 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Checkbox</link>
+  <text>{...label} defaultChecked /> <</text>
+  <link>Checkbox</link>
   <text>
-    <Checkbox {...label} defaultChecked /> <Checkbox
-    {...label} defaultChecked color="secondary" />
-    <Checkbox {...label} defaultChecked color="success"
-    /> <Checkbox {...label} defaultChecked
-    color="default" /> <Checkbox {...label}
-    defaultChecked sx={{ color: pink[800],
+    {...label} defaultChecked color="secondary" /> <
+  </text>
+  <link>Checkbox</link>
+  <text>
+    {...label} defaultChecked color="success" /> <
+  </text>
+  <link>Checkbox</link>
+  <text>
+    {...label} defaultChecked color="default" /> <
+  </text>
+  <link>Checkbox</link>
+  <text>
+    {...label} defaultChecked sx={{ color: pink[800],
     '&.Mui-checked': { color: pink[600], }, }}
     />
   </text>
@@ -19278,9 +19571,14 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Checkbox</link>
   <text>
-    <Checkbox {...label} icon={<FavoriteBorder />}
-    checkedIcon={<Favorite />} /> <Checkbox
+    {...label} icon={<FavoriteBorder />}
+    checkedIcon={<Favorite />} /> <
+  </text>
+  <link>Checkbox</link>
+  <text>
     {...label} icon={<BookmarkBorderIcon />}
     checkedIcon={<BookmarkIcon />} />
   </text>
@@ -19307,8 +19605,10 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Checkbox</link>
   <text>
-    <Checkbox checked={checked} onChange={handleChange}
+    checked={checked} onChange={handleChange}
     inputProps={{ 'aria-label': 'controlled'
     }} />
   </text>
@@ -19349,8 +19649,11 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>FormControlLabel</link>
+  <text>label="Parent" control={ <</text>
+  <link>Checkbox</link>
   <text>
-    <FormControlLabel label="Parent" control={ <Checkbox
     checked={checked[0] && checked[1]}
     indeterminate={checked[0] !== checked[1]}
     onChange={handleChange1} /> } /> {children}
@@ -19568,9 +19871,11 @@ exports[`firefox /components/checkboxes/ 1`] = `
       </text>
     </listitem>
   </list>
+  <text><</text>
+  <link>Checkbox</link>
   <text>
-    <Checkbox value="checkedA" inputProps={{
-    'aria-label': 'Checkbox A', }} />
+    value="checkedA" inputProps={{ 'aria-label':
+    'Checkbox A', }} />
   </text>
   <heading level="2">
     API
@@ -19780,12 +20085,22 @@ exports[`firefox /components/dialogs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Typography</link>
   <text>
-    <Typography variant="subtitle1" component="div">
-    Selected: {selectedValue} </Typography> <br />
-    <Button variant="outlined"
-    onClick={handleClickOpen}> Open simple dialog </Button>
-    <SimpleDialog selectedValue={selectedValue}
+    variant="subtitle1" component="div"> Selected:
+    {selectedValue} </
+  </text>
+  <link>Typography</link>
+  <text>> <br /> <</text>
+  <link>Button</link>
+  <text>
+    variant="outlined" onClick={handleClickOpen}> Open
+    simple dialog </
+  </text>
+  <link>Button</link>
+  <text>
+    > <SimpleDialog selectedValue={selectedValue}
     open={open} onClose={handleClose} />
   </text>
   <heading level="2">
@@ -20009,9 +20324,10 @@ exports[`firefox /components/dialogs/ 1`] = `
   <text>
     import useMediaQuery from '@material-ui/core/useMediaQuery';
     function MyComponent() { const theme = useTheme(); const fullScreen =
-    useMediaQuery(theme.breakpoints.down('md')); return <Dialog
-    fullScreen={fullScreen} />; }
+    useMediaQuery(theme.breakpoints.down('md')); return <
   </text>
+  <link>Dialog</link>
+  <text>fullScreen={fullScreen} />; }</text>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -20565,12 +20881,15 @@ exports[`firefox /components/pagination/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Pagination count={10} /> <Pagination
-    count={10} color="primary" /> <Pagination
-    count={10} color="secondary" /> <Pagination
-    count={10} disabled />
-  </text>
+  <text><</text>
+  <link>Pagination</link>
+  <text>count={10} /> <</text>
+  <link>Pagination</link>
+  <text>count={10} color="primary" /> <</text>
+  <link>Pagination</link>
+  <text>count={10} color="secondary" /> <</text>
+  <link>Pagination</link>
+  <text>count={10} disabled /></text>
   <heading level="2">
     Outlined pagination
     <text>Outlined pagination</text>
@@ -20804,14 +21123,21 @@ exports[`firefox /components/pagination/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Pagination</link>
+  <text>count={10} variant="outlined" /> <</text>
+  <link>Pagination</link>
   <text>
-    <Pagination count={10} variant="outlined" />
-    <Pagination count={10} variant="outlined"
-    color="primary" /> <Pagination count={10}
-    variant="outlined" color="secondary" />
-    <Pagination count={10} variant="outlined" disabled
-    />
+    count={10} variant="outlined" color="primary"
+    /> <
   </text>
+  <link>Pagination</link>
+  <text>
+    count={10} variant="outlined"
+    color="secondary" /> <
+  </text>
+  <link>Pagination</link>
+  <text>count={10} variant="outlined" disabled /></text>
   <heading level="2">
     Rounded pagination
     <text>Rounded pagination</text>
@@ -20937,10 +21263,13 @@ exports[`firefox /components/pagination/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Pagination</link>
+  <text>count={10} shape="rounded" /> <</text>
+  <link>Pagination</link>
   <text>
-    <Pagination count={10} shape="rounded" />
-    <Pagination count={10} variant="outlined"
-    shape="rounded" />
+    count={10} variant="outlined" shape="rounded"
+    />
   </text>
   <heading level="2">
     Pagination size
@@ -21121,11 +21450,13 @@ exports[`firefox /components/pagination/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Pagination count={10} size="small" />
-    <Pagination count={10} /> <Pagination
-    count={10} size="large" />
-  </text>
+  <text><</text>
+  <link>Pagination</link>
+  <text>count={10} size="small" /> <</text>
+  <link>Pagination</link>
+  <text>count={10} /> <</text>
+  <link>Pagination</link>
+  <text>count={10} size="large" /></text>
   <heading level="2">
     Buttons
     <text>Buttons</text>
@@ -21257,10 +21588,11 @@ exports[`firefox /components/pagination/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Pagination count={10} showFirstButton showLastButton />
-    <Pagination count={10} hidePrevButton hideNextButton />
-  </text>
+  <text><</text>
+  <link>Pagination</link>
+  <text>count={10} showFirstButton showLastButton /> <</text>
+  <link>Pagination</link>
+  <text>count={10} hidePrevButton hideNextButton /></text>
   <heading level="2">
     Pagination ranges
     <text>Pagination ranges</text>
@@ -21495,12 +21827,24 @@ exports[`firefox /components/pagination/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Pagination</link>
   <text>
-    <Pagination count={11} defaultPage={6}
-    siblingCount={0} /> <Pagination count={11}
-    defaultPage={6} /> {/* Default ranges */}
-    <Pagination count={11} defaultPage={6}
-    siblingCount={0} boundaryCount={2} /> <Pagination
+    count={11} defaultPage={6} siblingCount={0}
+    /> <
+  </text>
+  <link>Pagination</link>
+  <text>
+    count={11} defaultPage={6} /> {/* Default ranges
+    */} <
+  </text>
+  <link>Pagination</link>
+  <text>
+    count={11} defaultPage={6} siblingCount={0}
+    boundaryCount={2} /> <
+  </text>
+  <link>Pagination</link>
+  <text>
     count={11} defaultPage={6} boundaryCount={2}
     />
   </text>
@@ -21578,8 +21922,13 @@ exports[`firefox /components/pagination/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Typography</link>
+  <text>>Page: {page}</</text>
+  <link>Typography</link>
+  <text>> <</text>
+  <link>Pagination</link>
   <text>
-    <Typography>Page: {page}</Typography> <Pagination
     count={10} page={page} onChange={handleChange}
     />
   </text>
@@ -21765,9 +22114,11 @@ exports[`firefox /components/pagination/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>TablePagination</link>
   <text>
-    <TablePagination component="div" count={100}
-    page={page} onPageChange={handleChangePage}
+    component="div" count={100} page={page}
+    onPageChange={handleChangePage}
     rowsPerPage={rowsPerPage}
     onRowsPerPageChange={handleChangeRowsPerPage} />
   </text>
@@ -22065,9 +22416,10 @@ exports[`firefox /components/pickers 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><form noValidate> <</text>
+  <link>TextField</link>
   <text>
-    <form noValidate> <TextField id="date"
-    label="Birthday" type="date"
+    id="date" label="Birthday" type="date"
     defaultValue="2017-05-24" sx={{ width: 220 }}
     InputLabelProps={{ shrink: true, }} /> </form>
   </text>
@@ -22104,12 +22456,13 @@ exports[`firefox /components/pickers 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><form noValidate> <</text>
+  <link>TextField</link>
   <text>
-    <form noValidate> <TextField id="datetime-local"
-    label="Next appointment" type="datetime-local"
-    defaultValue="2017-05-24T10:30" sx={{ width: 250
-    }} InputLabelProps={{ shrink: true, }} />
-    </form>
+    id="datetime-local" label="Next appointment"
+    type="datetime-local" defaultValue="2017-05-24T10:30"
+    sx={{ width: 250 }} InputLabelProps={{ shrink:
+    true, }} /> </form>
   </text>
   <heading level="3">
     Time picker
@@ -22158,12 +22511,13 @@ exports[`firefox /components/pickers 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><form noValidate> <</text>
+  <link>TextField</link>
   <text>
-    <form noValidate> <TextField id="time" label="Alarm
-    clock" type="time" defaultValue="07:30"
-    InputLabelProps={{ shrink: true, }}
-    inputProps={{ step: 300, // 5 min }} sx={{
-    width: 150 }} /> </form>
+    id="time" label="Alarm clock" type="time"
+    defaultValue="07:30" InputLabelProps={{ shrink: true,
+    }} inputProps={{ step: 300, // 5 min }}
+    sx={{ width: 150 }} /> </form>
   </text>
   <heading level="2">
     API
@@ -22325,18 +22679,34 @@ exports[`firefox /components/radio-buttons 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>FormControl</link>
+  <text>component="fieldset"> <</text>
+  <link>FormLabel</link>
+  <text>component="legend">Gender</</text>
+  <link>FormLabel</link>
+  <text>> <</text>
+  <link>RadioGroup</link>
   <text>
-    <FormControl component="fieldset"> <FormLabel
-    component="legend">Gender</FormLabel> <RadioGroup
     aria-label="gender" defaultValue="female"
-    name="radio-buttons-group" > <FormControlLabel
-    value="female" control={<Radio />}
-    label="Female" /> <FormControlLabel value="male"
-    control={<Radio />} label="Male" />
-    <FormControlLabel value="other" control={<Radio
-    />} label="Other" /> </RadioGroup>
-    </FormControl>
+    name="radio-buttons-group" > <
   </text>
+  <link>FormControlLabel</link>
+  <text>value="female" control={<</text>
+  <link>Radio</link>
+  <text>/>} label="Female" /> <</text>
+  <link>FormControlLabel</link>
+  <text>value="male" control={<</text>
+  <link>Radio</link>
+  <text>/>} label="Male" /> <</text>
+  <link>FormControlLabel</link>
+  <text>value="other" control={<</text>
+  <link>Radio</link>
+  <text>/>} label="Other" /> </</text>
+  <link>RadioGroup</link>
+  <text>> </</text>
+  <link>FormControl</link>
+  <text>></text>
   <heading level="3">
     Direction
     <text>Direction</text>
@@ -22387,19 +22757,38 @@ exports[`firefox /components/radio-buttons 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>FormControl</link>
+  <text>component="fieldset"> <</text>
+  <link>FormLabel</link>
+  <text>component="legend">Gender</</text>
+  <link>FormLabel</link>
+  <text>> <</text>
+  <link>RadioGroup</link>
   <text>
-    <FormControl component="fieldset"> <FormLabel
-    component="legend">Gender</FormLabel> <RadioGroup row
-    aria-label="gender" name="row-radio-buttons-group">
-    <FormControlLabel value="female" control={<Radio
-    />} label="Female" /> <FormControlLabel
-    value="male" control={<Radio />}
-    label="Male" /> <FormControlLabel value="other"
-    control={<Radio />} label="Other" />
-    <FormControlLabel value="disabled" disabled
-    control={<Radio />} label="other" />
-    </RadioGroup> </FormControl>
+    row aria-label="gender"
+    name="row-radio-buttons-group"> <
   </text>
+  <link>FormControlLabel</link>
+  <text>value="female" control={<</text>
+  <link>Radio</link>
+  <text>/>} label="Female" /> <</text>
+  <link>FormControlLabel</link>
+  <text>value="male" control={<</text>
+  <link>Radio</link>
+  <text>/>} label="Male" /> <</text>
+  <link>FormControlLabel</link>
+  <text>value="other" control={<</text>
+  <link>Radio</link>
+  <text>/>} label="Other" /> <</text>
+  <link>FormControlLabel</link>
+  <text>value="disabled" disabled control={<</text>
+  <link>Radio</link>
+  <text>/>} label="other" /> </</text>
+  <link>RadioGroup</link>
+  <text>> </</text>
+  <link>FormControl</link>
+  <text>></text>
   <heading level="3">
     Controlled
     <text>Controlled</text>
@@ -22440,17 +22829,31 @@ exports[`firefox /components/radio-buttons 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>FormControl</link>
+  <text>component="fieldset"> <</text>
+  <link>FormLabel</link>
+  <text>component="legend">Gender</</text>
+  <link>FormLabel</link>
+  <text>> <</text>
+  <link>RadioGroup</link>
   <text>
-    <FormControl component="fieldset"> <FormLabel
-    component="legend">Gender</FormLabel> <RadioGroup
     aria-label="gender"
     name="controlled-radio-buttons-group" value={value}
-    onChange={handleChange} > <FormControlLabel
-    value="female" control={<Radio />}
-    label="Female" /> <FormControlLabel value="male"
-    control={<Radio />} label="Male" />
-    </RadioGroup> </FormControl>
+    onChange={handleChange} > <
   </text>
+  <link>FormControlLabel</link>
+  <text>value="female" control={<</text>
+  <link>Radio</link>
+  <text>/>} label="Female" /> <</text>
+  <link>FormControlLabel</link>
+  <text>value="male" control={<</text>
+  <link>Radio</link>
+  <text>/>} label="Male" /> </</text>
+  <link>RadioGroup</link>
+  <text>> </</text>
+  <link>FormControl</link>
+  <text>></text>
   <heading level="2">
     Standalone radio buttons
     <text>Standalone radio buttons</text>
@@ -22475,11 +22878,16 @@ exports[`firefox /components/radio-buttons 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Radio</link>
   <text>
-    <Radio checked={selectedValue === 'a'}
+    checked={selectedValue === 'a'}
     onChange={handleChange} value="a"
     name="radio-buttons" inputProps={{
-    'aria-label': 'A' }} /> <Radio
+    'aria-label': 'A' }} /> <
+  </text>
+  <link>Radio</link>
+  <text>
     checked={selectedValue === 'b'}
     onChange={handleChange} value="b"
     name="radio-buttons" inputProps={{
@@ -22710,20 +23118,42 @@ exports[`firefox /components/radio-buttons 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>FormControl</link>
+  <text>component="fieldset"> <</text>
+  <link>FormLabel</link>
+  <text>component="legend">Gender</</text>
+  <link>FormLabel</link>
+  <text>> <</text>
+  <link>RadioGroup</link>
   <text>
-    <FormControl component="fieldset"> <FormLabel
-    component="legend">Gender</FormLabel> <RadioGroup
     defaultValue="female" aria-label="gender"
-    name="customized-radios"> <FormControlLabel
-    value="female" control={<BpRadio />}
-    label="Female" /> <FormControlLabel value="male"
-    control={<BpRadio />} label="Male" />
-    <FormControlLabel value="other" control={<BpRadio
-    />} label="Other" /> <FormControlLabel
-    value="disabled" disabled control={<BpRadio />}
-    label="(Disabled option)" /> </RadioGroup>
-    </FormControl>
+    name="customized-radios"> <
   </text>
+  <link>FormControlLabel</link>
+  <text>
+    value="female" control={<BpRadio />}
+    label="Female" /> <
+  </text>
+  <link>FormControlLabel</link>
+  <text>
+    value="male" control={<BpRadio />}
+    label="Male" /> <
+  </text>
+  <link>FormControlLabel</link>
+  <text>
+    value="other" control={<BpRadio />}
+    label="Other" /> <
+  </text>
+  <link>FormControlLabel</link>
+  <text>
+    value="disabled" disabled control={<BpRadio />}
+    label="(Disabled option)" /> </
+  </text>
+  <link>RadioGroup</link>
+  <text>> </</text>
+  <link>FormControl</link>
+  <text>></text>
   <heading level="2">
     useRadioGroup
     <text>useRadioGroup</text>
@@ -22803,14 +23233,22 @@ exports[`firefox /components/radio-buttons 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>RadioGroup</link>
   <text>
-    <RadioGroup name="use-radio-group"
-    defaultValue="first"> <MyFormControlLabel
-    value="first" label="First" control={<Radio
-    />} /> <MyFormControlLabel value="second"
-    label="Second" control={<Radio />} />
-    </RadioGroup>
+    name="use-radio-group" defaultValue="first">
+    <MyFormControlLabel value="first" label="First"
+    control={<
   </text>
+  <link>Radio</link>
+  <text>
+    />} /> <MyFormControlLabel value="second"
+    label="Second" control={<
+  </text>
+  <link>Radio</link>
+  <text>/>} /> </</text>
+  <link>RadioGroup</link>
+  <text>></text>
   <heading level="2">
     When to use
     <text>When to use</text>
@@ -22856,9 +23294,11 @@ exports[`firefox /components/radio-buttons 1`] = `
       </text>
     </listitem>
   </list>
+  <text><</text>
+  <link>Radio</link>
   <text>
-    <Radio value="radioA" inputProps={{
-    'aria-label': 'Radio A', }} />
+    value="radioA" inputProps={{ 'aria-label':
+    'Radio A', }} />
   </text>
   <heading level="2">
     API
@@ -23129,19 +23569,39 @@ exports[`firefox /components/rating/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Typography</link>
+  <text>component="legend">Controlled</</text>
+  <link>Typography</link>
+  <text>> <</text>
+  <link>Rating</link>
   <text>
-    <Typography component="legend">Controlled</Typography>
-    <Rating name="simple-controlled" value={value}
+    name="simple-controlled" value={value}
     onChange={(event, newValue) => { setValue(newValue);
-    }} /> <Typography component="legend">Read
-    only</Typography> <Rating name="read-only"
-    value={value} readOnly /> <Typography
-    component="legend">Disabled</Typography> <Rating
-    name="disabled" value={value} disabled />
-    <Typography component="legend">No rating
-    given</Typography> <Rating name="no-value"
-    value={null} />
+    }} /> <
   </text>
+  <link>Typography</link>
+  <text>component="legend">Read only</</text>
+  <link>Typography</link>
+  <text>> <</text>
+  <link>Rating</link>
+  <text>
+    name="read-only" value={value} readOnly /> <
+  </text>
+  <link>Typography</link>
+  <text>component="legend">Disabled</</text>
+  <link>Typography</link>
+  <text>> <</text>
+  <link>Rating</link>
+  <text>
+    name="disabled" value={value} disabled /> <
+  </text>
+  <link>Typography</link>
+  <text>component="legend">No rating given</</text>
+  <link>Typography</link>
+  <text>> <</text>
+  <link>Rating</link>
+  <text>name="no-value" value={null} /></text>
   <heading level="2">
     Rating precision
     <text>Rating precision</text>
@@ -23221,10 +23681,16 @@ exports[`firefox /components/rating/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Rating</link>
   <text>
-    <Rating name="half-rating" defaultValue={2.5}
-    precision={0.5} /> <Rating name="half-rating-read"
-    defaultValue={2.5} precision={0.5} readOnly />
+    name="half-rating" defaultValue={2.5}
+    precision={0.5} /> <
+  </text>
+  <link>Rating</link>
+  <text>
+    name="half-rating-read" defaultValue={2.5}
+    precision={0.5} readOnly />
   </text>
   <heading level="2">
     Hover feedback
@@ -23305,8 +23771,10 @@ exports[`firefox /components/rating/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Rating</link>
   <text>
-    <Rating name="hover-feedback" value={value}
+    name="hover-feedback" value={value}
     precision={0.5} onChange={(event, newValue) => {
     setValue(newValue); }} onChangeActive={(event, newHover)
     => { setHover(newHover); }} emptyIcon={<StarIcon
@@ -23425,11 +23893,20 @@ exports[`firefox /components/rating/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Rating</link>
   <text>
-    <Rating name="size-small" defaultValue={2}
-    size="small" /> <Rating name="size-medium"
-    defaultValue={2} /> <Rating name="size-large"
-    defaultValue={2} size="large" />
+    name="size-small" defaultValue={2}
+    size="small" /> <
+  </text>
+  <link>Rating</link>
+  <text>
+    name="size-medium" defaultValue={2} /> <
+  </text>
+  <link>Rating</link>
+  <text>
+    name="size-large" defaultValue={2}
+    size="large" />
   </text>
   <heading level="2">
     Customized rating
@@ -23574,17 +24051,27 @@ exports[`firefox /components/rating/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Typography</link>
+  <text>component="legend">Custom icon and color</</text>
+  <link>Typography</link>
   <text>
-    <Typography component="legend">Custom icon and
-    color</Typography> <StyledRating name="customized-color"
+    > <StyledRating name="customized-color"
     defaultValue={2} getLabelText={(value) =>
     \`\${value} Heart\${value !== 1 ? 's' :
     ''}\`} precision={0.5}
     icon={<FavoriteIcon fontSize="inherit" />}
     emptyIcon={<FavoriteBorderIcon fontSize="inherit"
-    />} /> <Typography component="legend">10
-    stars</Typography> <Rating name="customized-10"
-    defaultValue={2} max={10} />
+    />} /> <
+  </text>
+  <link>Typography</link>
+  <text>component="legend">10 stars</</text>
+  <link>Typography</link>
+  <text>> <</text>
+  <link>Rating</link>
+  <text>
+    name="customized-10" defaultValue={2} max={10}
+    />
   </text>
   <heading level="2">
     Radio group
@@ -23639,10 +24126,11 @@ exports[`firefox /components/rating/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Rating</link>
   <text>
-    <Rating name="highlight-selected-only"
-    defaultValue={2} IconContainerComponent={IconContainer}
-    highlightSelectedOnly />
+    name="highlight-selected-only" defaultValue={2}
+    IconContainerComponent={IconContainer} highlightSelectedOnly />
   </text>
   <heading level="2">
     Accessibility
@@ -23716,8 +24204,10 @@ exports[`firefox /components/rating/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Rating</link>
   <text>
-    <Rating name="text-feedback" value={value} readOnly
+    name="text-feedback" value={value} readOnly
     precision={0.5} emptyIcon={<StarIcon style={{
     opacity: 0.55 }} fontSize="inherit" />} />
     <Box sx={{ ml: 2
@@ -23887,17 +24377,35 @@ exports[`firefox /components/selects/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>FormControl</link>
+  <text>fullWidth> <</text>
+  <link>InputLabel</link>
+  <text>id="demo-simple-select-label">Age</</text>
+  <link>InputLabel</link>
+  <text>> <</text>
+  <link>Select</link>
   <text>
-    <FormControl fullWidth> <InputLabel
-    id="demo-simple-select-label">Age</InputLabel> <Select
     labelId="demo-simple-select-label"
     id="demo-simple-select" value={age}
-    label="Age" onChange={handleChange} > <MenuItem
-    value={10}>Ten</MenuItem> <MenuItem
-    value={20}>Twenty</MenuItem> <MenuItem
-    value={30}>Thirty</MenuItem> </Select>
-    </FormControl>
+    label="Age" onChange={handleChange} > <
   </text>
+  <link>MenuItem</link>
+  <text>value={10}>Ten</</text>
+  <link>MenuItem</link>
+  <text>> <</text>
+  <link>MenuItem</link>
+  <text>value={20}>Twenty</</text>
+  <link>MenuItem</link>
+  <text>> <</text>
+  <link>MenuItem</link>
+  <text>value={30}>Thirty</</text>
+  <link>MenuItem</link>
+  <text>> </</text>
+  <link>Select</link>
+  <text>> </</text>
+  <link>FormControl</link>
+  <text>></text>
   <heading level="2">
     Advanced features
     <text>Advanced features</text>
@@ -24136,16 +24644,28 @@ exports[`firefox /components/selects/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>FormControl</link>
+  <text>fullWidth> <</text>
+  <link>InputLabel</link>
   <text>
-    <FormControl fullWidth> <InputLabel variant="standard"
-    htmlFor="uncontrolled-native"> Age </InputLabel>
-    <NativeSelect defaultValue={30} inputProps={{ name:
-    'age', id: 'uncontrolled-native', }} >
-    <option value={10}>Ten</option> <option
-    value={20}>Twenty</option> <option
-    value={30}>Thirty</option> </NativeSelect>
-    </FormControl>
+    variant="standard" htmlFor="uncontrolled-native"> Age
+    </
   </text>
+  <link>InputLabel</link>
+  <text>> <</text>
+  <link>NativeSelect</link>
+  <text>
+    defaultValue={30} inputProps={{ name: 'age',
+    id: 'uncontrolled-native', }} > <option
+    value={10}>Ten</option> <option
+    value={20}>Twenty</option> <option
+    value={30}>Thirty</option> </
+  </text>
+  <link>NativeSelect</link>
+  <text>> </</text>
+  <link>FormControl</link>
+  <text>></text>
   <heading level="2">
     TextField
     <text>TextField</text>
@@ -24529,24 +25049,48 @@ exports[`firefox /components/selects/ 1`] = `
       e.g.
     </text>
   </paragraph>
+  <text><</text>
+  <link>InputLabel</link>
+  <text>id="label">Age</</text>
+  <link>InputLabel</link>
+  <text>> <</text>
+  <link>Select</link>
   <text>
-    <InputLabel id="label">Age</InputLabel> <Select
     labelId="label" id="select" value="20">
-    <MenuItem value="10">Ten</MenuItem> <MenuItem
-    value="20">Twenty</MenuItem> </Select>
+    <
   </text>
+  <link>MenuItem</link>
+  <text>value="10">Ten</</text>
+  <link>MenuItem</link>
+  <text>> <</text>
+  <link>MenuItem</link>
+  <text>value="20">Twenty</</text>
+  <link>MenuItem</link>
+  <text>> </</text>
+  <link>Select</link>
+  <text>></text>
   <paragraph>
     <text>
       Alternatively a TextField with an id and label creates the proper markup
       and ids for you:
     </text>
   </paragraph>
+  <text><</text>
+  <link>TextField</link>
   <text>
-    <TextField id="select" label="Age"
-    value="20" select> <MenuItem
-    value="10">Ten</MenuItem> <MenuItem
-    value="20">Twenty</MenuItem> </TextField>
+    id="select" label="Age" value="20" select>
+    <
   </text>
+  <link>MenuItem</link>
+  <text>value="10">Ten</</text>
+  <link>MenuItem</link>
+  <text>> <</text>
+  <link>MenuItem</link>
+  <text>value="20">Twenty</</text>
+  <link>MenuItem</link>
+  <text>> </</text>
+  <link>TextField</link>
+  <text>></text>
   <paragraph>
     <text>For a</text>
     <link>native select</link>
@@ -24555,12 +25099,19 @@ exports[`firefox /components/selects/ 1`] = `
       the select element to the InputLabel's htmlFor attribute:
     </text>
   </paragraph>
+  <text><</text>
+  <link>InputLabel</link>
+  <text>htmlFor="select">Age</</text>
+  <link>InputLabel</link>
+  <text>> <</text>
+  <link>NativeSelect</link>
   <text>
-    <InputLabel htmlFor="select">Age</InputLabel>
-    <NativeSelect id="select"> <option
+    id="select"> <option
     value="10">Ten</option> <option
-    value="20">Twenty</option> </NativeSelect>
+    value="20">Twenty</option> </
   </text>
+  <link>NativeSelect</link>
+  <text>></text>
   <heading level="2">
     API
     <text>API</text>
@@ -24762,13 +25313,23 @@ exports[`firefox /components/slider 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Stack</link>
   <text>
-    <Stack spacing={2} direction="row" sx={{
-    mb: 1 }} alignItems="center"> <VolumeDown />
-    <Slider aria-label="Volume" value={value}
-    onChange={handleChange} /> <VolumeUp /> </Stack>
-    <Slider disabled defaultValue={30} aria-label="Disabled
-    slider" />
+    spacing={2} direction="row" sx={{ mb: 1
+    }} alignItems="center"> <VolumeDown /> <
+  </text>
+  <link>Slider</link>
+  <text>
+    aria-label="Volume" value={value}
+    onChange={handleChange} /> <VolumeUp /> </
+  </text>
+  <link>Stack</link>
+  <text>> <</text>
+  <link>Slider</link>
+  <text>
+    disabled defaultValue={30} aria-label="Disabled slider"
+    />
   </text>
   <heading level="2">
     Sizes
@@ -24796,10 +25357,15 @@ exports[`firefox /components/slider 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Slider</link>
   <text>
-    <Slider size="small" defaultValue={70}
-    aria-label="Small" valueLabelDisplay="auto" />
-    <Slider defaultValue={50} aria-label="Default"
+    size="small" defaultValue={70}
+    aria-label="Small" valueLabelDisplay="auto" /> <
+  </text>
+  <link>Slider</link>
+  <text>
+    defaultValue={50} aria-label="Default"
     valueLabelDisplay="auto" />
   </text>
   <heading level="2">
@@ -24835,12 +25401,17 @@ exports[`firefox /components/slider 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Slider</link>
   <text>
-    <Slider aria-label="Temperature" defaultValue={30}
+    aria-label="Temperature" defaultValue={30}
     getAriaValueText={valuetext} valueLabelDisplay="auto"
-    step={10} marks min={10} max={110} />
-    <Slider defaultValue={30} step={10} marks
-    min={10} max={110} disabled />
+    step={10} marks min={10} max={110} /> <
+  </text>
+  <link>Slider</link>
+  <text>
+    defaultValue={30} step={10} marks min={10}
+    max={110} disabled />
   </text>
   <heading level="3">
     Small steps
@@ -24865,11 +25436,13 @@ exports[`firefox /components/slider 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Slider</link>
   <text>
-    <Slider aria-label="Small steps"
-    defaultValue={0.00000005} getAriaValueText={valuetext}
-    step={0.00000001} marks min={-0.00000005}
-    max={0.0000001} valueLabelDisplay="auto" />
+    aria-label="Small steps" defaultValue={0.00000005}
+    getAriaValueText={valuetext} step={0.00000001} marks
+    min={-0.00000005} max={0.0000001}
+    valueLabelDisplay="auto" />
   </text>
   <heading level="3">
     Custom marks
@@ -24896,8 +25469,10 @@ exports[`firefox /components/slider 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Slider</link>
   <text>
-    <Slider aria-label="Custom marks" defaultValue={20}
+    aria-label="Custom marks" defaultValue={20}
     getAriaValueText={valuetext} step={10}
     valueLabelDisplay="auto" marks={marks} />
   </text>
@@ -24927,9 +25502,11 @@ exports[`firefox /components/slider 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Slider</link>
   <text>
-    <Slider aria-label="Restricted values"
-    defaultValue={20} valueLabelFormat={valueLabelFormat}
+    aria-label="Restricted values" defaultValue={20}
+    valueLabelFormat={valueLabelFormat}
     getAriaValueText={valuetext} step={null}
     valueLabelDisplay="auto" marks={marks} />
   </text>
@@ -24959,8 +25536,10 @@ exports[`firefox /components/slider 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Slider</link>
   <text>
-    <Slider aria-label="Always visible" defaultValue={80}
+    aria-label="Always visible" defaultValue={80}
     getAriaValueText={valuetext} step={10}
     marks={marks} valueLabelDisplay="on" />
   </text>
@@ -24993,8 +25572,10 @@ exports[`firefox /components/slider 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Slider</link>
   <text>
-    <Slider getAriaLabel={() => 'Temperature range'}
+    getAriaLabel={() => 'Temperature range'}
     value={value} onChange={handleChange}
     valueLabelDisplay="auto" getAriaValueText={valuetext}
     />
@@ -25038,14 +25619,20 @@ exports[`firefox /components/slider 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Slider</link>
   <text>
-    <Slider getAriaLabel={() => 'Minimum distance'}
+    getAriaLabel={() => 'Minimum distance'}
     value={value1} onChange={handleChange1}
     valueLabelDisplay="auto" getAriaValueText={valuetext}
-    disableSwap /> <Slider getAriaLabel={() => 'Minimum
-    distance shift'} value={value2}
-    onChange={handleChange2} valueLabelDisplay="auto"
-    getAriaValueText={valuetext} disableSwap />
+    disableSwap /> <
+  </text>
+  <link>Slider</link>
+  <text>
+    getAriaLabel={() => 'Minimum distance shift'}
+    value={value2} onChange={handleChange2}
+    valueLabelDisplay="auto" getAriaValueText={valuetext}
+    disableSwap />
   </text>
   <heading level="2">
     Slider with input field
@@ -25098,8 +25685,10 @@ exports[`firefox /components/slider 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Slider</link>
   <text>
-    <Slider aria-label="Temperature" defaultValue={30}
+    aria-label="Temperature" defaultValue={30}
     getAriaValueText={valuetext} color="secondary" />
   </text>
   <heading level="2">
@@ -25260,9 +25849,11 @@ exports[`firefox /components/slider 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Slider</link>
   <text>
-    <Slider sx={{ '& input[type="range"]':
-    { WebkitAppearance: 'slider-vertical', }, }}
+    sx={{ '& input[type="range"]': {
+    WebkitAppearance: 'slider-vertical', }, }}
     orientation="vertical" defaultValue={30}
     aria-label="Temperature"
     onKeyDown={preventHorizontalKeyboardNavigation} />
@@ -25381,10 +25972,17 @@ exports[`firefox /components/slider 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Typography</link>
   <text>
-    <Typography id="non-linear-slider" gutterBottom> Storage:
-    {valueLabelFormat(calculateValue(value))} </Typography>
-    <Slider value={value} min={5} step={1}
+    id="non-linear-slider" gutterBottom> Storage:
+    {valueLabelFormat(calculateValue(value))} </
+  </text>
+  <link>Typography</link>
+  <text>> <</text>
+  <link>Slider</link>
+  <text>
+    value={value} min={5} step={1}
     max={30} scale={calculateValue}
     getAriaValueText={valueLabelFormat}
     valueLabelFormat={valueLabelFormat}
@@ -25683,11 +26281,15 @@ exports[`firefox /components/switches/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Switch {...label} defaultChecked /> <Switch
-    {...label} /> <Switch {...label} disabled
-    defaultChecked /> <Switch {...label} disabled />
-  </text>
+  <text><</text>
+  <link>Switch</link>
+  <text>{...label} defaultChecked /> <</text>
+  <link>Switch</link>
+  <text>{...label} /> <</text>
+  <link>Switch</link>
+  <text>{...label} disabled defaultChecked /> <</text>
+  <link>Switch</link>
+  <text>{...label} disabled /></text>
   <heading level="2">
     Label
     <text>Label</text>
@@ -25721,12 +26323,19 @@ exports[`firefox /components/switches/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <FormGroup> <FormControlLabel control={<Switch
-    defaultChecked />} label="Label" />
-    <FormControlLabel disabled control={<Switch />}
-    label="Disabled" /> </FormGroup>
-  </text>
+  <text><</text>
+  <link>FormGroup</link>
+  <text>> <</text>
+  <link>FormControlLabel</link>
+  <text>control={<</text>
+  <link>Switch</link>
+  <text>defaultChecked />} label="Label" /> <</text>
+  <link>FormControlLabel</link>
+  <text>disabled control={<</text>
+  <link>Switch</link>
+  <text>/>} label="Disabled" /> </</text>
+  <link>FormGroup</link>
+  <text>></text>
   <heading level="2">
     Size
     <text>Size</text>
@@ -25749,10 +26358,13 @@ exports[`firefox /components/switches/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Switch</link>
   <text>
-    <Switch {...label} defaultChecked size="small" />
-    <Switch {...label} defaultChecked />
+    {...label} defaultChecked size="small" /> <
   </text>
+  <link>Switch</link>
+  <text>{...label} defaultChecked /></text>
   <heading level="2">
     Color
     <text>Color</text>
@@ -25775,13 +26387,21 @@ exports[`firefox /components/switches/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Switch</link>
+  <text>{...label} defaultChecked /> <</text>
+  <link>Switch</link>
   <text>
-    <Switch {...label} defaultChecked /> <Switch
-    {...label} defaultChecked color="secondary" />
-    <Switch {...label} defaultChecked color="warning"
-    /> <Switch {...label} defaultChecked
-    color="default" /> <GreenSwitch {...label}
-    defaultChecked />
+    {...label} defaultChecked color="secondary" /> <
+  </text>
+  <link>Switch</link>
+  <text>
+    {...label} defaultChecked color="warning" /> <
+  </text>
+  <link>Switch</link>
+  <text>
+    {...label} defaultChecked color="default" />
+    <GreenSwitch {...label} defaultChecked />
   </text>
   <heading level="2">
     Controlled
@@ -25804,8 +26424,10 @@ exports[`firefox /components/switches/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Switch</link>
   <text>
-    <Switch checked={checked} onChange={handleChange}
+    checked={checked} onChange={handleChange}
     inputProps={{ 'aria-label': 'controlled'
     }} />
   </text>
@@ -25961,13 +26583,20 @@ exports[`firefox /components/switches/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>SwitchUnstyled</link>
   <text>
-    <SwitchUnstyled component={Root} {...label}
-    defaultChecked /> <SwitchUnstyled component={Root}
-    {...label} /> <SwitchUnstyled component={Root}
-    {...label} defaultChecked disabled /> <SwitchUnstyled
-    component={Root} {...label} disabled />
+    component={Root} {...label} defaultChecked /> <
   </text>
+  <link>SwitchUnstyled</link>
+  <text>component={Root} {...label} /> <</text>
+  <link>SwitchUnstyled</link>
+  <text>
+    component={Root} {...label} defaultChecked disabled
+    /> <
+  </text>
+  <link>SwitchUnstyled</link>
+  <text>component={Root} {...label} disabled /></text>
   <heading level="3">
     Recreation of Material-UI's Switch
     <text>Recreation of Material-UI's Switch</text>
@@ -25991,13 +26620,15 @@ exports[`firefox /components/switches/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <ThemeProvider theme={createTheme()}> <Switch
-    {...label} defaultChecked /> <Switch {...label}
-    color="secondary" /> <Switch {...label} disabled
-    defaultChecked /> <Switch {...label} disabled />
-    </ThemeProvider>
-  </text>
+  <text><ThemeProvider theme={createTheme()}> <</text>
+  <link>Switch</link>
+  <text>{...label} defaultChecked /> <</text>
+  <link>Switch</link>
+  <text>{...label} color="secondary" /> <</text>
+  <link>Switch</link>
+  <text>{...label} disabled defaultChecked /> <</text>
+  <link>Switch</link>
+  <text>{...label} disabled /> </ThemeProvider></text>
   <heading level="3">
     useSwitch hook
     <text>useSwitch hook</text>
@@ -26082,13 +26713,15 @@ exports[`firefox /components/switches/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <ThemeProvider theme={createTheme()}> <Switch
-    {...label} defaultChecked /> <Switch {...label}
-    color="secondary" /> <Switch {...label} disabled
-    defaultChecked /> <Switch {...label} disabled />
-    </ThemeProvider>
-  </text>
+  <text><ThemeProvider theme={createTheme()}> <</text>
+  <link>Switch</link>
+  <text>{...label} defaultChecked /> <</text>
+  <link>Switch</link>
+  <text>{...label} color="secondary" /> <</text>
+  <link>Switch</link>
+  <text>{...label} disabled defaultChecked /> <</text>
+  <link>Switch</link>
+  <text>{...label} disabled /> </ThemeProvider></text>
   <heading level="2">
     Label placement
     <text>Label placement</text>
@@ -26190,9 +26823,11 @@ exports[`firefox /components/switches/ 1`] = `
       </text>
     </listitem>
   </list>
+  <text><</text>
+  <link>Switch</link>
   <text>
-    <Switch value="checkedA" inputProps={{
-    'aria-label': 'Switch A' }} />
+    value="checkedA" inputProps={{ 'aria-label':
+    'Switch A' }} />
   </text>
   <heading level="2">
     API
@@ -26396,17 +27031,30 @@ exports[`firefox /components/tabs/ 1`] = `
   </toolbar>
   <text>
     <Box sx={{ borderBottom: 1, borderColor: 'divider'
-    }}> <Tabs value={value}
-    onChange={handleChange} aria-label="basic tabs
-    example"> <Tab label="Item One"
-    {...a11yProps(0)} /> <Tab label="Item Two"
-    {...a11yProps(1)} /> <Tab label="Item Three"
-    {...a11yProps(2)} /> </Tabs> </Box> <TabPanel
-    value={value} index={0}> Item One </TabPanel>
-    <TabPanel value={value} index={1}> Item Two
-    </TabPanel> <TabPanel value={value}
-    index={2}> Item Three </TabPanel>
+    }}> <
   </text>
+  <link>Tabs</link>
+  <text>
+    value={value} onChange={handleChange}
+    aria-label="basic tabs example"> <Tab label="Item
+    One" {...a11yProps(0)} /> <Tab label="Item
+    Two" {...a11yProps(1)} /> <Tab label="Item
+    Three" {...a11yProps(2)} /> </
+  </text>
+  <link>Tabs</link>
+  <text>> </Box> <</text>
+  <link>TabPanel</link>
+  <text>value={value} index={0}> Item One </</text>
+  <link>TabPanel</link>
+  <text>> <</text>
+  <link>TabPanel</link>
+  <text>value={value} index={1}> Item Two </</text>
+  <link>TabPanel</link>
+  <text>> <</text>
+  <link>TabPanel</link>
+  <text>value={value} index={2}> Item Three </</text>
+  <link>TabPanel</link>
+  <text>></text>
   <heading level="2">
     Experimental API
     <text>Experimental API</text>
@@ -26451,17 +27099,39 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>TabContext</link>
   <text>
-    <TabContext value={value}> <Box sx={{
-    borderBottom: 1, borderColor: 'divider' }}>
-    <TabList onChange={handleChange} aria-label="lab API tabs
-    example"> <Tab label="Item One" value="1"
-    /> <Tab label="Item Two" value="2" /> <Tab
-    label="Item Three" value="3" /> </TabList>
-    </Box> <TabPanel value="1">Item One</TabPanel>
-    <TabPanel value="2">Item Two</TabPanel> <TabPanel
-    value="3">Item Three</TabPanel> </TabContext>
+    value={value}> <Box sx={{ borderBottom: 1,
+    borderColor: 'divider' }}> <
   </text>
+  <link>TabList</link>
+  <text>
+    onChange={handleChange} aria-label="lab API tabs
+    example"> <
+  </text>
+  <link>Tab</link>
+  <text>label="Item One" value="1" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Two" value="2" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Three" value="3" /> </</text>
+  <link>TabList</link>
+  <text>> </Box> <</text>
+  <link>TabPanel</link>
+  <text>value="1">Item One</</text>
+  <link>TabPanel</link>
+  <text>> <</text>
+  <link>TabPanel</link>
+  <text>value="2">Item Two</</text>
+  <link>TabPanel</link>
+  <text>> <</text>
+  <link>TabPanel</link>
+  <text>value="3">Item Three</</text>
+  <link>TabPanel</link>
+  <text>> </</text>
+  <link>TabContext</link>
+  <text>></text>
   <heading level="2">
     Wrapped labels
     <text>Wrapped labels</text>
@@ -26504,14 +27174,23 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Tabs</link>
   <text>
-    <Tabs value={value} onChange={handleChange}
-    aria-label="wrapped label tabs example" > <Tab
-    value="one" label="New Arrivals in the Longest Text of
-    Nonfiction that should appear in the next line" wrapped /> <Tab
-    value="two" label="Item Two" /> <Tab
-    value="three" label="Item Three" /> </Tabs>
+    value={value} onChange={handleChange}
+    aria-label="wrapped label tabs example" > <
   </text>
+  <link>Tab</link>
+  <text>
+    value="one" label="New Arrivals in the Longest Text of
+    Nonfiction that should appear in the next line" wrapped /> <
+  </text>
+  <link>Tab</link>
+  <text>value="two" label="Item Two" /> <</text>
+  <link>Tab</link>
+  <text>value="three" label="Item Three" /> </</text>
+  <link>Tabs</link>
+  <text>></text>
   <heading level="2">
     Colored tab
     <text>Colored tab</text>
@@ -26544,14 +27223,21 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Tabs</link>
   <text>
-    <Tabs value={value} onChange={handleChange}
+    value={value} onChange={handleChange}
     textColor="secondary" indicatorColor="secondary"
-    aria-label="secondary tabs example" > <Tab
-    value="one" label="Item One" /> <Tab
-    value="two" label="Item Two" /> <Tab
-    value="three" label="Item Three" /> </Tabs>
+    aria-label="secondary tabs example" > <
   </text>
+  <link>Tab</link>
+  <text>value="one" label="Item One" /> <</text>
+  <link>Tab</link>
+  <text>value="two" label="Item Two" /> <</text>
+  <link>Tab</link>
+  <text>value="three" label="Item Three" /> </</text>
+  <link>Tabs</link>
+  <text>></text>
   <heading level="2">
     Disabled tab
     <text>Disabled tab</text>
@@ -26587,12 +27273,20 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Tabs</link>
   <text>
-    <Tabs value={value} onChange={handleChange}
-    aria-label="disabled tabs example"> <Tab
-    label="Active" /> <Tab label="Disabled" disabled
-    /> <Tab label="Active" /> </Tabs>
+    value={value} onChange={handleChange}
+    aria-label="disabled tabs example"> <
   </text>
+  <link>Tab</link>
+  <text>label="Active" /> <</text>
+  <link>Tab</link>
+  <text>label="Disabled" disabled /> <</text>
+  <link>Tab</link>
+  <text>label="Active" /> </</text>
+  <link>Tabs</link>
+  <text>></text>
   <heading level="2">
     Fixed tabs
     <text>Fixed tabs</text>
@@ -26686,12 +27380,19 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Tabs</link>
   <text>
-    <Tabs value={value} onChange={handleChange}
-    centered> <Tab label="Item One" /> <Tab
-    label="Item Two" /> <Tab label="Item Three" />
-    </Tabs>
+    value={value} onChange={handleChange} centered> <
   </text>
+  <link>Tab</link>
+  <text>label="Item One" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Two" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Three" /> </</text>
+  <link>Tabs</link>
+  <text>></text>
   <heading level="2">
     Scrollable tabs
     <text>Scrollable tabs</text>
@@ -26750,16 +27451,29 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Tabs</link>
   <text>
-    <Tabs value={value} onChange={handleChange}
+    value={value} onChange={handleChange}
     variant="scrollable" scrollButtons="auto"
-    aria-label="scrollable auto tabs example" > <Tab
-    label="Item One" /> <Tab label="Item Two" />
-    <Tab label="Item Three" /> <Tab label="Item
-    Four" /> <Tab label="Item Five" /> <Tab
-    label="Item Six" /> <Tab label="Item Seven" />
-    </Tabs>
+    aria-label="scrollable auto tabs example" > <
   </text>
+  <link>Tab</link>
+  <text>label="Item One" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Two" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Three" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Four" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Five" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Six" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Seven" /> </</text>
+  <link>Tabs</link>
+  <text>></text>
   <heading level="3">
     Forced scroll buttons
     <text>Forced scroll buttons</text>
@@ -26815,16 +27529,29 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Tabs</link>
   <text>
-    <Tabs value={value} onChange={handleChange}
+    value={value} onChange={handleChange}
     variant="scrollable" scrollButtons allowScrollButtonsMobile
-    aria-label="scrollable force tabs example" > <Tab
-    label="Item One" /> <Tab label="Item Two" />
-    <Tab label="Item Three" /> <Tab label="Item
-    Four" /> <Tab label="Item Five" /> <Tab
-    label="Item Six" /> <Tab label="Item Seven" />
-    </Tabs>
+    aria-label="scrollable force tabs example" > <
   </text>
+  <link>Tab</link>
+  <text>label="Item One" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Two" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Three" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Four" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Five" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Six" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Seven" /> </</text>
+  <link>Tabs</link>
+  <text>></text>
   <paragraph>
     <text>
       If you want to make sure the buttons are always visible, you should
@@ -26932,16 +27659,29 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Tabs</link>
   <text>
-    <Tabs value={value} onChange={handleChange}
+    value={value} onChange={handleChange}
     variant="scrollable" scrollButtons={false}
-    aria-label="scrollable prevent tabs example" > <Tab
-    label="Item One" /> <Tab label="Item Two" />
-    <Tab label="Item Three" /> <Tab label="Item
-    Four" /> <Tab label="Item Five" /> <Tab
-    label="Item Six" /> <Tab label="Item Seven" />
-    </Tabs>
+    aria-label="scrollable prevent tabs example" > <
   </text>
+  <link>Tab</link>
+  <text>label="Item One" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Two" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Three" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Four" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Five" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Six" /> <</text>
+  <link>Tab</link>
+  <text>label="Item Seven" /> </</text>
+  <link>Tabs</link>
+  <text>></text>
   <heading level="2">
     Customized tabs
     <text>Customized tabs</text>
@@ -27100,13 +27840,17 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Tabs</link>
   <text>
-    <Tabs value={value} onChange={handleChange}
+    value={value} onChange={handleChange}
     aria-label="nav tabs example"> <LinkTab label="Page
     One" href="/drafts" /> <LinkTab label="Page
     Two" href="/trash" /> <LinkTab label="Page
-    Three" href="/spam" /> </Tabs>
+    Three" href="/spam" /> </
   </text>
+  <link>Tabs</link>
+  <text>></text>
   <heading level="2">
     Icon tabs
     <text>Icon tabs</text>
@@ -27133,14 +27877,28 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Tabs</link>
   <text>
-    <Tabs value={value} onChange={handleChange}
-    aria-label="icon tabs example"> <Tab
-    icon={<PhoneIcon />} aria-label="phone" />
-    <Tab icon={<FavoriteIcon />}
-    aria-label="favorite" /> <Tab icon={<PersonPinIcon
-    />} aria-label="person" /> </Tabs>
+    value={value} onChange={handleChange}
+    aria-label="icon tabs example"> <
   </text>
+  <link>Tab</link>
+  <text>
+    icon={<PhoneIcon />} aria-label="phone" /> <
+  </text>
+  <link>Tab</link>
+  <text>
+    icon={<FavoriteIcon />} aria-label="favorite"
+    /> <
+  </text>
+  <link>Tab</link>
+  <text>
+    icon={<PersonPinIcon />} aria-label="person" />
+    </
+  </text>
+  <link>Tabs</link>
+  <text>></text>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -27169,14 +27927,28 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Tabs</link>
   <text>
-    <Tabs value={value} onChange={handleChange}
-    aria-label="icon label tabs example"> <Tab
-    icon={<PhoneIcon />} label="RECENTS" /> <Tab
-    icon={<FavoriteIcon />} label="FAVORITES" />
-    <Tab icon={<PersonPinIcon />} label="NEARBY"
-    /> </Tabs>
+    value={value} onChange={handleChange}
+    aria-label="icon label tabs example"> <
   </text>
+  <link>Tab</link>
+  <text>
+    icon={<PhoneIcon />} label="RECENTS" /> <
+  </text>
+  <link>Tab</link>
+  <text>
+    icon={<FavoriteIcon />} label="FAVORITES" />
+    <
+  </text>
+  <link>Tab</link>
+  <text>
+    icon={<PersonPinIcon />} label="NEARBY" />
+    </
+  </text>
+  <link>Tabs</link>
+  <text>></text>
   <heading level="2">
     Third-party routing library
     <text>Third-party routing library</text>
@@ -27255,10 +28027,9 @@ exports[`firefox /components/tabs/ 1`] = `
       Arrow Left.
     </text>
   </paragraph>
-  <text>
-    /* Tabs where selection follows focus */ <Tabs selectionFollowsFocus
-    />
-  </text>
+  <text>/* Tabs where selection follows focus */ <</text>
+  <link>Tabs</link>
+  <text>selectionFollowsFocus /></text>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -27287,9 +28058,9 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    /* Tabs where each tab needs to be selected manually */ <Tabs />
-  </text>
+  <text>/* Tabs where each tab needs to be selected manually */ <</text>
+  <link>Tabs</link>
+  <text>/></text>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -27543,10 +28314,19 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>TextField</link>
   <text>
-    <TextField id="outlined-basic" label="Outlined"
-    variant="outlined" /> <TextField id="filled-basic"
-    label="Filled" variant="filled" /> <TextField
+    id="outlined-basic" label="Outlined"
+    variant="outlined" /> <
+  </text>
+  <link>TextField</link>
+  <text>
+    id="filled-basic" label="Filled"
+    variant="filled" /> <
+  </text>
+  <link>TextField</link>
+  <text>
     id="standard-basic" label="Standard"
     variant="standard" />
   </text>
@@ -28337,12 +29117,17 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>TextField</link>
   <text>
-    <TextField hiddenLabel id="filled-hidden-label-small"
+    hiddenLabel id="filled-hidden-label-small"
     defaultValue="Small" variant="filled"
-    size="small" /> <TextField hiddenLabel
-    id="filled-hidden-label-normal" defaultValue="Normal"
-    variant="filled" />
+    size="small" /> <
+  </text>
+  <link>TextField</link>
+  <text>
+    hiddenLabel id="filled-hidden-label-normal"
+    defaultValue="Normal" variant="filled" />
   </text>
   <heading level="2">
     Margin
@@ -28383,13 +29168,21 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><RedBar /> <</text>
+  <link>TextField</link>
   <text>
-    <RedBar /> <TextField
     label={'margin="none"'}
-    id="margin-none" /> <RedBar /> <TextField
+    id="margin-none" /> <RedBar /> <
+  </text>
+  <link>TextField</link>
+  <text>
     label={'margin="dense"'}
     id="margin-dense" margin="dense" /> <RedBar />
-    <TextField label={'margin="normal"'}
+    <
+  </text>
+  <link>TextField</link>
+  <text>
+    label={'margin="normal"'}
     id="margin-normal" margin="normal" /> <RedBar
     />
   </text>
@@ -28421,9 +29214,10 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>TextField</link>
   <text>
-    <TextField fullWidth label="fullWidth" id="fullWidth"
-    />
+    fullWidth label="fullWidth" id="fullWidth" />
   </text>
   <heading level="2">
     Uncontrolled vs. Controlled
@@ -28463,9 +29257,14 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>TextField</link>
   <text>
-    <TextField id="outlined-name" label="Name"
-    value={name} onChange={handleChange} /> <TextField
+    id="outlined-name" label="Name" value={name}
+    onChange={handleChange} /> <
+  </text>
+  <link>TextField</link>
+  <text>
     id="outlined-uncontrolled" label="Uncontrolled"
     defaultValue="foo" />
   </text>
@@ -28617,12 +29416,24 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Input</link>
   <text>
-    <Input defaultValue="Hello world"
-    inputProps={ariaLabel} /> <Input
+    defaultValue="Hello world" inputProps={ariaLabel} />
+    <
+  </text>
+  <link>Input</link>
+  <text>
     placeholder="Placeholder" inputProps={ariaLabel} />
-    <Input disabled defaultValue="Disabled"
-    inputProps={ariaLabel} /> <Input
+    <
+  </text>
+  <link>Input</link>
+  <text>
+    disabled defaultValue="Disabled" inputProps={ariaLabel}
+    /> <
+  </text>
+  <link>Input</link>
+  <text>
     defaultValue="Error" error inputProps={ariaLabel} />
   </text>
   <heading level="2">
@@ -28666,12 +29477,21 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>TextField</link>
   <text>
-    <TextField label="Outlined secondary"
-    color="secondary" focused /> <TextField label="Filled
-    success" variant="filled" color="success" focused
-    /> <TextField label="Standard warning"
-    variant="standard" color="warning" focused />
+    label="Outlined secondary" color="secondary" focused
+    /> <
+  </text>
+  <link>TextField</link>
+  <text>
+    label="Filled success" variant="filled"
+    color="success" focused /> <
+  </text>
+  <link>TextField</link>
+  <text>
+    label="Standard warning" variant="standard"
+    color="warning" focused />
   </text>
   <heading level="2">
     Customized inputs
@@ -28926,11 +29746,16 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>FormControl</link>
+  <text>sx={{ width: '25ch' }}> <</text>
+  <link>OutlinedInput</link>
   <text>
-    <FormControl sx={{ width: '25ch' }}>
-    <OutlinedInput placeholder="Please enter text" />
-    <MyFormHelperText /> </FormControl>
+    placeholder="Please enter text" /> <MyFormHelperText />
+    </
   </text>
+  <link>FormControl</link>
+  <text>></text>
   <heading level="2">
     Limitations
     <text>Limitations</text>
@@ -28957,13 +29782,17 @@ exports[`firefox /components/text-fields/ 1`] = `
       label.
     </text>
   </paragraph>
-  <text>
-    <TextField InputLabelProps={{ shrink: true }} />
-  </text>
+  <text><</text>
+  <link>TextField</link>
+  <text>InputLabelProps={{ shrink: true }} /></text>
   <paragraph>
     <text>or</text>
   </paragraph>
-  <text><InputLabel shrink>Count</InputLabel></text>
+  <text><</text>
+  <link>InputLabel</link>
+  <text>shrink>Count</</text>
+  <link>InputLabel</link>
+  <text>></text>
   <heading level="3">
     Floating label
     <text>Floating label</text>
@@ -29015,9 +29844,11 @@ exports[`firefox /components/text-fields/ 1`] = `
       type="text" with the pattern attribute, for example:
     </text>
   </paragraph>
+  <text><</text>
+  <link>TextField</link>
   <text>
-    <TextField inputProps={{ inputMode: 'numeric',
-    pattern: '[0-9]*' }} />
+    inputProps={{ inputMode: 'numeric', pattern:
+    '[0-9]*' }} />
   </text>
   <paragraph>
     <text>In the future, we might provide a</text>
@@ -29061,11 +29892,16 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>TextField</link>
   <text>
-    <TextField helperText="Please enter your name"
-    id="demo-helper-text-misaligned" label="Name" />
-    <TextField id="demo-helper-text-misaligned-no-helper"
-    label="Name" />
+    helperText="Please enter your name"
+    id="demo-helper-text-misaligned" label="Name" /> <
+  </text>
+  <link>TextField</link>
+  <text>
+    id="demo-helper-text-misaligned-no-helper" label="Name"
+    />
   </text>
   <paragraph>
     <text>
@@ -29101,12 +29937,16 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>TextField</link>
   <text>
-    <TextField helperText="Please enter your name"
-    id="demo-helper-text-aligned" label="Name" />
-    <TextField helperText=" "
-    id="demo-helper-text-aligned-no-helper" label="Name"
-    />
+    helperText="Please enter your name"
+    id="demo-helper-text-aligned" label="Name" /> <
+  </text>
+  <link>TextField</link>
+  <text>
+    helperText=" " id="demo-helper-text-aligned-no-helper"
+    label="Name" />
   </text>
   <heading level="2">
     Integration with 3rd party input libraries
@@ -29173,7 +30013,10 @@ exports[`firefox /components/text-fields/ 1`] = `
     { // logic to focus the rendered component from 3rd party belongs here
     }, // hiding the value e.g. react-stripe-elements })); //
     \`Component\` will be your \`SomeThirdPartyComponent\` from below return
-    <Component {...other} />; }); // usage <TextField
+    <Component {...other} />; }); // usage <
+  </text>
+  <link>TextField</link>
+  <text>
     InputProps={{ inputComponent: MyInputComponent, inputProps: {
     component: SomeThirdPartyComponent, }, }} />;
   </text>
@@ -29209,13 +30052,26 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>If you are composing the component:</text>
     </listitem>
   </list>
+  <text><</text>
+  <link>FormControl</link>
+  <text>> <</text>
+  <link>InputLabel</link>
+  <text>htmlFor="my-input">Email address</</text>
+  <link>InputLabel</link>
+  <text>> <</text>
+  <link>Input</link>
   <text>
-    <FormControl> <InputLabel htmlFor="my-input">Email
-    address</InputLabel> <Input id="my-input"
-    aria-describedby="my-helper-text" /> <FormHelperText
-    id="my-helper-text">We'll never share your
-    email.</FormHelperText> </FormControl>
+    id="my-input" aria-describedby="my-helper-text" />
+    <
   </text>
+  <link>FormHelperText</link>
+  <text>
+    id="my-helper-text">We'll never share your email.</
+  </text>
+  <link>FormHelperText</link>
+  <text>> </</text>
+  <link>FormControl</link>
+  <text>></text>
   <heading level="2">
     Complementary projects
     <text>Complementary projects</text>
@@ -29489,10 +30345,15 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Tooltip title="Delete"> <IconButton> <DeleteIcon
-    /> </IconButton> </Tooltip>
-  </text>
+  <text><</text>
+  <link>Tooltip</link>
+  <text>title="Delete"> <</text>
+  <link>IconButton</link>
+  <text>> <DeleteIcon /> </</text>
+  <link>IconButton</link>
+  <text>> </</text>
+  <link>Tooltip</link>
+  <text>></text>
   <heading level="2">
     Positioned tooltips
     <text>Positioned tooltips</text>
@@ -29631,10 +30492,15 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Tooltip title="Add" arrow>
-    <Button>Arrow</Button> </Tooltip>
-  </text>
+  <text><</text>
+  <link>Tooltip</link>
+  <text>title="Add" arrow> <</text>
+  <link>Button</link>
+  <text>>Arrow</</text>
+  <link>Button</link>
+  <text>> </</text>
+  <link>Tooltip</link>
+  <text>></text>
   <heading level="2">
     Custom child element
     <text>Custom child element</text>
@@ -29650,9 +30516,12 @@ exports[`firefox /components/tooltips/ 1`] = `
     const MyComponent = React.forwardRef(function MyComponent(props, ref) {
     // Spread the props to the underlying DOM element. return <div
     {...props} ref={ref}>Bin</div> }); // ...
-    <Tooltip title="Delete"> <MyComponent>
-    </Tooltip>
+    <
   </text>
+  <link>Tooltip</link>
+  <text>title="Delete"> <MyComponent> </</text>
+  <link>Tooltip</link>
+  <text>></text>
   <paragraph>
     <text>You can find a similar concept in the</text>
     <link>wrapping components</link>
@@ -29723,11 +30592,18 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Tooltip</link>
   <text>
-    <Tooltip open={open} onClose={handleClose}
-    onOpen={handleOpen} title="Add">
-    <Button>Controlled</Button> </Tooltip>
+    open={open} onClose={handleClose}
+    onOpen={handleOpen} title="Add"> <
   </text>
+  <link>Button</link>
+  <text>>Controlled</</text>
+  <link>Button</link>
+  <text>> </</text>
+  <link>Tooltip</link>
+  <text>></text>
   <heading level="2">
     Variable width
     <text>Variable width</text>
@@ -29766,15 +30642,26 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Tooltip</link>
+  <text>title={longText}> <</text>
+  <link>Button</link>
+  <text>sx={{ m: 1 }}>Default Width [300px]</</text>
+  <link>Button</link>
+  <text>> </</text>
+  <link>Tooltip</link>
+  <text>> <CustomWidthTooltip title={longText}> <</text>
+  <link>Button</link>
+  <text>sx={{ m: 1 }}>Custom Width [500px]</</text>
+  <link>Button</link>
   <text>
-    <Tooltip title={longText}> <Button sx={{ m: 1
-    }}>Default Width [300px]</Button> </Tooltip>
-    <CustomWidthTooltip title={longText}> <Button
-    sx={{ m: 1 }}>Custom Width [500px]</Button>
-    </CustomWidthTooltip> <NoMaxWidthTooltip
-    title={longText}> <Button sx={{ m: 1
-    }}>No wrapping</Button> </NoMaxWidthTooltip>
+    > </CustomWidthTooltip> <NoMaxWidthTooltip
+    title={longText}> <
   </text>
+  <link>Button</link>
+  <text>sx={{ m: 1 }}>No wrapping</</text>
+  <link>Button</link>
+  <text>> </NoMaxWidthTooltip></text>
   <heading level="2">
     Interactive
     <text>Interactive</text>
@@ -29806,10 +30693,15 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <Tooltip title="Add" disableInteractive> <Button>Not
-    interactive</Button> </Tooltip>
-  </text>
+  <text><</text>
+  <link>Tooltip</link>
+  <text>title="Add" disableInteractive> <</text>
+  <link>Button</link>
+  <text>>Not interactive</</text>
+  <link>Button</link>
+  <text>> </</text>
+  <link>Tooltip</link>
+  <text>></text>
   <heading level="2">
     Disabled elements
     <text>Disabled elements</text>
@@ -29847,11 +30739,18 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Tooltip</link>
   <text>
-    <Tooltip title="You don't have permission to do this">
-    <span> <Button disabled>A Disabled Button</Button>
-    </span> </Tooltip>
+    title="You don't have permission to do this"> <span>
+    <
   </text>
+  <link>Button</link>
+  <text>disabled>A Disabled Button</</text>
+  <link>Button</link>
+  <text>> </span> </</text>
+  <link>Tooltip</link>
+  <text>></text>
   <blockquote>
     <paragraph>
       <text>
@@ -29862,12 +30761,16 @@ exports[`firefox /components/tooltips/ 1`] = `
       </text>
     </paragraph>
   </blockquote>
+  <text><</text>
+  <link>Tooltip</link>
   <text>
-    <Tooltip title="You don't have permission to do this">
-    <span> <button disabled={disabled} style={disabled ?
-    { pointerEvents: 'none' } : {}}> A
-    disabled button </button> </span> </Tooltip>
+    title="You don't have permission to do this"> <span>
+    <button disabled={disabled} style={disabled ? {
+    pointerEvents: 'none' } : {}}> A disabled
+    button </button> </span> </
   </text>
+  <link>Tooltip</link>
+  <text>></text>
   <heading level="2">
     Transitions
     <text>Transitions</text>
@@ -29900,14 +30803,36 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Tooltip</link>
+  <text>title="Add"> <</text>
+  <link>Button</link>
+  <text>>Grow</</text>
+  <link>Button</link>
+  <text>> </</text>
+  <link>Tooltip</link>
+  <text>> <</text>
+  <link>Tooltip</link>
   <text>
-    <Tooltip title="Add"> <Button>Grow</Button>
-    </Tooltip> <Tooltip TransitionComponent={Fade}
-    TransitionProps={{ timeout: 600 }} title="Add"
-    > <Button>Fade</Button> </Tooltip> <Tooltip
-    TransitionComponent={Zoom} title="Add">
-    <Button>Zoom</Button> </Tooltip>
+    TransitionComponent={Fade} TransitionProps={{ timeout:
+    600 }} title="Add" > <
   </text>
+  <link>Button</link>
+  <text>>Fade</</text>
+  <link>Button</link>
+  <text>> </</text>
+  <link>Tooltip</link>
+  <text>> <</text>
+  <link>Tooltip</link>
+  <text>
+    TransitionComponent={Zoom} title="Add"> <
+  </text>
+  <link>Button</link>
+  <text>>Zoom</</text>
+  <link>Button</link>
+  <text>> </</text>
+  <link>Tooltip</link>
+  <text>></text>
   <heading level="2">
     Follow cursor
     <text>Follow cursor</text>
@@ -29932,12 +30857,16 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Tooltip</link>
   <text>
-    <Tooltip title="You don't have permission to do this"
-    followCursor> <Box sx={{ bgcolor: 'text.disabled',
-    color: 'background.paper', p: 2 }}> Disabled Action
-    </Box> </Tooltip>
+    title="You don't have permission to do this" followCursor>
+    <Box sx={{ bgcolor: 'text.disabled', color:
+    'background.paper', p: 2 }}> Disabled Action
+    </Box> </
   </text>
+  <link>Tooltip</link>
+  <text>></text>
   <heading level="2">
     Virtual element
     <text>Virtual element</text>
@@ -30002,11 +30931,18 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Tooltip</link>
   <text>
-    <Tooltip title="Add" enterDelay={500}
-    leaveDelay={200}> <Button>[500ms, 200ms]</Button>
-    </Tooltip>
+    title="Add" enterDelay={500}
+    leaveDelay={200}> <
   </text>
+  <link>Button</link>
+  <text>>[500ms, 200ms]</</text>
+  <link>Button</link>
+  <text>> </</text>
+  <link>Tooltip</link>
+  <text>></text>
   <heading level="2">
     Accessibility
     <text>Accessibility</text>
@@ -30056,12 +30992,25 @@ exports[`firefox /components/tooltips/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>Tooltip</link>
+  <text>title="Delete"> <</text>
+  <link>IconButton</link>
+  <text>> <DeleteIcon /> </</text>
+  <link>IconButton</link>
+  <text>> </</text>
+  <link>Tooltip</link>
+  <text>> <</text>
+  <link>Tooltip</link>
   <text>
-    <Tooltip title="Delete"> <IconButton> <DeleteIcon
-    /> </IconButton> </Tooltip> <Tooltip describeChild
-    title="Does not add if it already exists.">
-    <Button>Add</Button> </Tooltip>
+    describeChild title="Does not add if it already exists."> <
   </text>
+  <link>Button</link>
+  <text>>Add</</text>
+  <link>Button</link>
+  <text>> </</text>
+  <link>Tooltip</link>
+  <text>></text>
   <heading level="2">
     API
     <text>API</text>
@@ -30450,20 +31399,35 @@ exports[`firefox /components/tree-view/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text><</text>
+  <link>TreeView</link>
   <text>
-    <TreeView aria-label="file system navigator"
+    aria-label="file system navigator"
     defaultCollapseIcon={<ExpandMoreIcon />}
     defaultExpandIcon={<ChevronRightIcon />} sx={{
     height: 240, flexGrow: 1, maxWidth: 400, overflowY: 'auto'
-    }} > <TreeItem nodeId="1"
-    label="Applications"> <TreeItem nodeId="2"
-    label="Calendar" /> </TreeItem> <TreeItem
-    nodeId="5" label="Documents"> <TreeItem
-    nodeId="10" label="OSS" /> <TreeItem
-    nodeId="6" label="Material-UI"> <TreeItem
-    nodeId="8" label="index.js" /> </TreeItem>
-    </TreeItem> </TreeView>
+    }} > <
   </text>
+  <link>TreeItem</link>
+  <text>nodeId="1" label="Applications"> <</text>
+  <link>TreeItem</link>
+  <text>nodeId="2" label="Calendar" /> </</text>
+  <link>TreeItem</link>
+  <text>> <</text>
+  <link>TreeItem</link>
+  <text>nodeId="5" label="Documents"> <</text>
+  <link>TreeItem</link>
+  <text>nodeId="10" label="OSS" /> <</text>
+  <link>TreeItem</link>
+  <text>nodeId="6" label="Material-UI"> <</text>
+  <link>TreeItem</link>
+  <text>nodeId="8" label="index.js" /> </</text>
+  <link>TreeItem</link>
+  <text>> </</text>
+  <link>TreeItem</link>
+  <text>> </</text>
+  <link>TreeView</link>
+  <text>></text>
   <heading level="2">
     Multi-selection
     <text>Multi-selection</text>
