@@ -4,6 +4,11 @@ const github = require("@actions/github");
 const thisRepo = { owner: "eps1lon", repo: "mui-scripts-incubator" };
 const muiRepo = { owner: "mui-org", repo: "material-ui" };
 
+/**
+ * `github.getOctokit()` produces `any`
+ * @typedef {import('@octokit/core').Octokit & { rest: import('@octokit/rest').RestEndpointMethodTypes }} Octokit
+ */
+
 main().catch((error) => {
 	core.error(error.stdout);
 	core.error(error.stderr);
@@ -17,7 +22,7 @@ async function main() {
 
 /**
  * Deletes PRs tracking a Material-UI PR that is resolved (closed or merged)
- * @param {import('@actions/github').GitHub} octokit
+ * @param {Octokit} octokit
  */
 async function cleanupSnapshotPrsForClosedMuiPrs(octokit) {
 	// find branches for Material-UI PRs
@@ -26,7 +31,7 @@ async function cleanupSnapshotPrsForClosedMuiPrs(octokit) {
 		`found ${branchesRelatedToMui.length} branches related to Material-UI`
 	);
 	const tasks = branchesRelatedToMui.map(async (branch) => {
-		const { data: pullRequest } = await octokit.pulls.get({
+		const { data: pullRequest } = await octokit.rest.pulls.get({
 			...muiRepo,
 			pull_number: branch.muiPrNumber,
 		});
@@ -44,7 +49,7 @@ async function cleanupSnapshotPrsForClosedMuiPrs(octokit) {
 		core.info(
 			`Deleting ref '${ref}' for Material-UI PR #${branch.muiPrNumber} since it is '${pullRequest.state}'.`
 		);
-		return octokit.git
+		return octokit.rest.git
 			.deleteRef({
 				...thisRepo,
 				ref: `heads/${branch.name}`,
@@ -59,10 +64,10 @@ async function cleanupSnapshotPrsForClosedMuiPrs(octokit) {
 }
 /**
  * Only finds branches within the first 100 of the repository
- * @param {import('@actions/github').GitHub} octokit
+ * @param {Octokit} octokit
  */
 async function findBranchesRelatedToMui(octokit) {
-	const { data: branches } = await octokit.repos.listBranches({
+	const { data: branches } = await octokit.rest.repos.listBranches({
 		...thisRepo,
 		per_page: 100,
 	});
