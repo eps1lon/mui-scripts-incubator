@@ -9781,6 +9781,50 @@ exports[`chromium /components/slider 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
+    Theming
+    <text>Theming</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here is an example of theming the component. You can learn more about this
+      in the
+    </text>
+    <link>theming page</link>
+    <text>and</text>
+    <link>theme components page</link>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <slider
+    orientation="horizontal"
+    value="25"
+    valuemax="100"
+    valuemin="0"
+    valuetext="25°C"
+  >
+    Temperature
+  </slider>
+  <slider
+    orientation="horizontal"
+    value="50"
+    valuemax="100"
+    valuemin="0"
+    valuetext="50°C"
+  >
+    Temperature
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
     Track
     <text>Track</text>
   </heading>
@@ -10130,6 +10174,9 @@ exports[`chromium /components/slider 1`] = `
       </listitem>
       <listitem level="1">
         <link>Vertical sliders</link>
+      </listitem>
+      <listitem level="1">
+        <link>Theming</link>
       </listitem>
       <listitem level="1">
         <link>Track</link>
@@ -11482,6 +11529,50 @@ exports[`chromium /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <heading level="2">
+    Theming
+    <text>Theming</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here is an example of theming the component. You can learn more about this
+      in the
+    </text>
+    <link>theming page</link>
+    <text>and</text>
+    <link>theme components page</link>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist level="1">
+    theme example
+    <tab selected="true">
+      Yesterday
+      <text>Yesterday</text>
+    </tab>
+    <tab>
+      Today
+      <text>Today</text>
+    </tab>
+    <tab>
+      Tomorrow
+      <text>Tomorrow</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -11913,6 +12004,9 @@ exports[`chromium /components/tabs/ 1`] = `
       </listitem>
       <listitem level="1">
         <link>Customized tabs</link>
+      </listitem>
+      <listitem level="1">
+        <link>Theming</link>
       </listitem>
       <listitem level="1">
         <link>Vertical tabs</link>
@@ -15603,6 +15697,20 @@ exports[`firefox / 1`] = `
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <iframe>
+    Netlify Drawer
+    <document>
+      Netlify Drawer
+      <button>
+        Open Netlify Drawer
+        <img>Logo</img>
+        <diagram></diagram>
+      </button>
+      <text>
+        <alert></alert>
+      </text>
+    </document>
+  </iframe>
   <text>
     <alert></alert>
   </text>
@@ -25266,6 +25374,38 @@ exports[`firefox /components/slider 1`] = `
     onKeyDown={preventHorizontalKeyboardNavigation} />
   </text>
   <heading level="2">
+    Theming
+    <text>Theming</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here is an example of theming the component. You can learn more about this
+      in the
+    </text>
+    <link>theming page</link>
+    <text>and</text>
+    <link>theme components page</link>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <slider orientation="vertical" value="25°C" valuetext="25°C">
+    Temperature
+  </slider>
+  <slider orientation="vertical" value="50°C" valuetext="50°C">
+    Temperature
+  </slider>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
     Track
     <text>Track</text>
   </heading>
@@ -25566,6 +25706,10 @@ exports[`firefox /components/slider 1`] = `
       <listitem level="1">
         Vertical sliders
         <link>Vertical sliders</link>
+      </listitem>
+      <listitem level="1">
+        Theming
+        <link>Theming</link>
       </listitem>
       <listitem level="1">
         TrackRemoved trackInverted track
@@ -26992,6 +27136,54 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <heading level="2">
+    Theming
+    <text>Theming</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here is an example of theming the component. You can learn more about this
+      in the
+    </text>
+    <link>theming page</link>
+    <text>and</text>
+    <link>theme components page</link>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    theme example
+    <tab selected="true">
+      Yesterday
+      <text>Yesterday</text>
+    </tab>
+    <tab>
+      Today
+      <text>Today</text>
+    </tab>
+    <tab>
+      Tomorrow
+      <text>Tomorrow</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <ThemeProvider theme={theme}> <Tabs
+    value={value} onChange={handleChange}
+    aria-label="theme example"> <Tab label="Yesterday"
+    /> <Tab label="Today" /> <Tab
+    label="Tomorrow" /> </Tabs> </ThemeProvider>
+  </text>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -27417,6 +27609,10 @@ exports[`firefox /components/tabs/ 1`] = `
       <listitem level="1">
         Customized tabs
         <link>Customized tabs</link>
+      </listitem>
+      <listitem level="1">
+        Theming
+        <link>Theming</link>
       </listitem>
       <listitem level="1">
         Vertical tabs
