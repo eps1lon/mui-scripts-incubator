@@ -1775,30 +1775,8 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        Callback fired when a menu item is selected. Signature: function(event:
-        object, child?: object) => void event: The event source of the
-        callback. You can pull out the new value by accessing event.target.value
-        (any). Warning: This is a generic event not a change event. child: The
-        react element that was selected when native is false (default).
+        Callback fired when a menu item is selected.
         <text>Callback fired when a menu item is selected.</text>
-        <LineBreak></LineBreak>
-        <LineBreak></LineBreak>
-        <text>Signature:</text>
-        <LineBreak></LineBreak>
-        <code>$SOME_CODE</code>
-        <LineBreak></LineBreak>
-        <text>
-          event:The event source of the callback. You can pull out the new value
-          by accessing
-        </text>
-        <code>$SOME_CODE</code>
-        <text>(any).Warning: This is a generic event not a change event.</text>
-        <LineBreak></LineBreak>
-        <text>child:The react element that was selected when</text>
-        <code>$SOME_CODE</code>
-        <text>is</text>
-        <code>$SOME_CODE</code>
-        <text>(default).</text>
       </gridcell>
     </row>
     <row>
@@ -16783,22 +16761,6 @@ exports[`firefox /api/select/ 1`] = `
       <cell></cell>
       <cell>
         <text>Callback fired when a menu item is selected.</text>
-        <whitespace></whitespace>
-        <whitespace></whitespace>
-        <text>Signature:</text>
-        <whitespace></whitespace>
-        <text>function(event: object, child?: object) => void</text>
-        <whitespace></whitespace>
-        <text>
-          event: The event source of the callback. You can pull out the new
-          value by accessing event.target.value (any). Warning: This is a
-          generic event not a change event.
-        </text>
-        <whitespace></whitespace>
-        <text>
-          child: The react element that was selected when native is false
-          (default).
-        </text>
       </cell>
     </row>
     <row>
