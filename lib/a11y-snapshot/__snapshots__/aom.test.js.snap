@@ -261,7 +261,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-beta.2. View versions page.</link>
+      <link>v5.0.0-beta.1. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -1775,8 +1775,30 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        Callback fired when a menu item is selected.
+        Callback fired when a menu item is selected. Signature: function(event:
+        object, child?: object) => void event: The event source of the
+        callback. You can pull out the new value by accessing event.target.value
+        (any). Warning: This is a generic event not a change event. child: The
+        react element that was selected when native is false (default).
         <text>Callback fired when a menu item is selected.</text>
+        <LineBreak></LineBreak>
+        <LineBreak></LineBreak>
+        <text>Signature:</text>
+        <LineBreak></LineBreak>
+        <code>$SOME_CODE</code>
+        <LineBreak></LineBreak>
+        <text>
+          event:The event source of the callback. You can pull out the new value
+          by accessing
+        </text>
+        <code>$SOME_CODE</code>
+        <text>(any).Warning: This is a generic event not a change event.</text>
+        <LineBreak></LineBreak>
+        <text>child:The react element that was selected when</text>
+        <code>$SOME_CODE</code>
+        <text>is</text>
+        <code>$SOME_CODE</code>
+        <text>(default).</text>
       </gridcell>
     </row>
     <row>
@@ -2334,6 +2356,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -2371,6 +2394,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -2442,6 +2466,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -2476,6 +2501,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -2509,6 +2535,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -2554,6 +2581,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -2608,6 +2636,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -2790,6 +2819,7 @@ exports[`chromium /components/button-group/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -2843,6 +2873,7 @@ exports[`chromium /components/button-group/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -2917,6 +2948,7 @@ exports[`chromium /components/button-group/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -2987,6 +3019,7 @@ exports[`chromium /components/button-group/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -3020,6 +3053,7 @@ exports[`chromium /components/button-group/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -3052,6 +3086,7 @@ exports[`chromium /components/button-group/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -3213,6 +3248,7 @@ exports[`chromium /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -3250,6 +3286,7 @@ exports[`chromium /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -3286,6 +3323,7 @@ exports[`chromium /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -3311,6 +3349,7 @@ exports[`chromium /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -3353,6 +3392,7 @@ exports[`chromium /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -3405,6 +3445,7 @@ exports[`chromium /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -3474,6 +3515,7 @@ exports[`chromium /components/buttons/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -3500,6 +3542,7 @@ exports[`chromium /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -3536,6 +3579,7 @@ exports[`chromium /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -3570,6 +3614,7 @@ exports[`chromium /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -3599,6 +3644,7 @@ exports[`chromium /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -3626,6 +3672,7 @@ exports[`chromium /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -3662,6 +3709,7 @@ exports[`chromium /components/buttons/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -3707,6 +3755,7 @@ exports[`chromium /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -3749,6 +3798,7 @@ exports[`chromium /components/buttons/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -3789,6 +3839,7 @@ exports[`chromium /components/buttons/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4061,6 +4112,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4098,6 +4150,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4129,6 +4182,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4154,6 +4208,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4176,6 +4231,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4204,6 +4260,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4243,6 +4300,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4321,6 +4379,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4363,6 +4422,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4393,6 +4453,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4649,6 +4710,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4719,6 +4781,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4745,6 +4808,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4774,6 +4838,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4806,6 +4871,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4827,6 +4893,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4859,6 +4926,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4891,6 +4959,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4941,6 +5010,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -4973,6 +5043,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -5017,6 +5088,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -5383,6 +5455,7 @@ exports[`chromium /components/pagination/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -5583,6 +5656,7 @@ exports[`chromium /components/pagination/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -5693,6 +5767,7 @@ exports[`chromium /components/pagination/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -5848,6 +5923,7 @@ exports[`chromium /components/pagination/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -5964,6 +6040,7 @@ exports[`chromium /components/pagination/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -6168,6 +6245,7 @@ exports[`chromium /components/pagination/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -6236,6 +6314,7 @@ exports[`chromium /components/pagination/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -6288,6 +6367,7 @@ exports[`chromium /components/pagination/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -6367,6 +6447,7 @@ exports[`chromium /components/pagination/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -6413,6 +6494,7 @@ exports[`chromium /components/pagination/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -6563,14 +6645,14 @@ exports[`chromium /components/pickers 1`] = `
   </heading>
   <paragraph>
     <text>
-      Date pickers and Time pickers allow selecting a single value from a
-      pre-determined set.
+      Date pickers and Time pickers provide a simple way to select a single
+      value from a pre-determined set.
     </text>
   </paragraph>
   <list>
     <listitem level="1">
       <text>
-        On mobile, pickers are best suited for display in a confirmation dialog.
+        On mobile, pickers are best suited for display in confirmation dialog.
       </text>
     </listitem>
     <listitem level="1">
@@ -6614,7 +6696,7 @@ exports[`chromium /components/pickers 1`] = `
     navigation of our components.
   </button>
   <LabelText>
-    <text>Date desktop</text>
+    <text>Date picker desktop</text>
   </LabelText>
   <textbox value="08/18/2014">
     mm/dd/yyyy
@@ -6622,85 +6704,30 @@ exports[`chromium /components/pickers 1`] = `
   </textbox>
   <button>Choose date, selected date is Aug 18, 2014</button>
   <LabelText>
-    <text>Date mobile</text>
+    <text>Date picker mobile</text>
   </LabelText>
   <textbox readonly="true" value="08/18/2014">
     Choose date, selected date is Aug 18, 2014
     <text>08/18/2014</text>
   </textbox>
   <LabelText>
-    <text>Time</text>
+    <text>Time picker</text>
   </LabelText>
   <textbox value="09:11 pm">
     hh:mm (a|p)m
     <text>09:11 pm</text>
   </textbox>
   <button>Choose time, selected time is 9:11 PM</button>
-  <LabelText>
-    <text>Date&Time picker</text>
-  </LabelText>
-  <textbox value="08/18/2014 09:11 pm">
-    mm/dd/yyyy hh:mm (a|p)m
-    <text>08/18/2014 09:11 pm</text>
-  </textbox>
-  <button>Choose date, selected date is Aug 18, 2014</button>
   <toolbar>
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <heading level="3">
-    Setup
-    <text>Setup</text>
-  </heading>
-  <paragraph>
-    <text>
-      You need to provide a date-library that is used by the pickers by setting
-      the
-    </text>
-    <code>$SOME_CODE</code>
-    <text>to an adapter of your choosing.</text>
-  </paragraph>
-  <paragraph>
-    <text>We currently support 4 different date-libraries:</text>
-  </paragraph>
-  <list>
-    <listitem level="1">
-      <link>date-fns</link>
-    </listitem>
-    <listitem level="1">
-      <link>Day.js</link>
-    </listitem>
-    <listitem level="1">
-      <link>Luxon</link>
-    </listitem>
-    <listitem level="1">
-      <link>Moment.js</link>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>
-      First you have to install the adapter package for the date-library you
-      want to use:
-    </text>
-  </paragraph>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <paragraph>
-    <text>Then you have to set the</text>
-    <code>$SOME_CODE</code>
-    <text>prop of the</text>
-    <code>$SOME_CODE</code>
-    <text>accordingly:</text>
-  </paragraph>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Native pickers
     <text>Native pickers</text>
@@ -6710,14 +6737,14 @@ exports[`chromium /components/pickers 1`] = `
     <link>isn't perfect</link>
     <text>.</text>
   </paragraph>
+  <heading level="3">
+    Date picker
+    <text>Date picker</text>
+  </heading>
   <paragraph>
-    <text>Native date (</text>
+    <text>A native datepicker example with</text>
     <code>$SOME_CODE</code>
-    <text>), time (</text>
-    <code>$SOME_CODE</code>
-    <text>) and date&time (</text>
-    <code>$SOME_CODE</code>
-    <text>) pickers.</text>
+    <text>.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -6744,26 +6771,34 @@ exports[`chromium /components/pickers 1`] = `
         <text>2017</text>
       </spinbutton>
     </Date>
-    <LabelText>
-      <text>Alarm clock</text>
-    </LabelText>
-    <InputTime value="07:30">
-      Alarm clock
-      <spinbutton value="7" valuemax="12" valuemin="1" valuetext="07">
-        Hours
-        <text>07</text>
-      </spinbutton>
-      <text>:</text>
-      <spinbutton value="30" valuemax="59" valuemin="0" valuetext="30">
-        Minutes
-        <text>30</text>
-      </spinbutton>
-      <text></text>
-      <spinbutton value="1" valuemax="2" valuemin="1" valuetext="AM">
-        AM/PM
-        <text>AM</text>
-      </spinbutton>
-    </InputTime>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="3">
+    Date & Time picker
+    <text>Date & Time picker</text>
+  </heading>
+  <paragraph>
+    <text>A native date & time picker example with</text>
+    <code>$SOME_CODE</code>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
     <LabelText>
       <text>Next appointment</text>
     </LabelText>
@@ -6802,13 +6837,65 @@ exports[`chromium /components/pickers 1`] = `
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="3">
+    Time picker
+    <text>Time picker</text>
+  </heading>
+  <paragraph>
+    <text>A native time picker example with</text>
+    <code>$SOME_CODE</code>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <LabelText>
+      <text>Alarm clock</text>
+    </LabelText>
+    <InputTime value="07:30">
+      Alarm clock
+      <spinbutton value="7" valuemax="12" valuemin="1" valuetext="07">
+        Hours
+        <text>07</text>
+      </spinbutton>
+      <text>:</text>
+      <spinbutton value="30" valuemax="59" valuemin="0" valuetext="30">
+        Minutes
+        <text>30</text>
+      </spinbutton>
+      <text></text>
+      <spinbutton value="1" valuemax="2" valuemin="1" valuetext="AM">
+        AM/PM
+        <text>AM</text>
+      </spinbutton>
+    </InputTime>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     API
     <text>API</text>
@@ -6816,25 +6903,7 @@ exports[`chromium /components/pickers 1`] = `
   <list>
     <listitem level="1">
       <link>
-        <DatePicker />
-        <code>$SOME_CODE</code>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        <DateTimePicker />
-        <code>$SOME_CODE</code>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
         <TextField />
-        <code>$SOME_CODE</code>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        <TimePicker />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
@@ -6858,14 +6927,20 @@ exports[`chromium /components/pickers 1`] = `
     <list>
       <listitem level="1">
         <link>React components</link>
-        <list>
-          <listitem level="2">
-            <link>Setup</link>
-          </listitem>
-        </list>
       </listitem>
       <listitem level="1">
         <link>Native pickers</link>
+        <list>
+          <listitem level="2">
+            <link>Date picker</link>
+          </listitem>
+          <listitem level="2">
+            <link>Date & Time picker</link>
+          </listitem>
+          <listitem level="2">
+            <link>Time picker</link>
+          </listitem>
+        </list>
       </listitem>
       <listitem level="1">
         <link>API</link>
@@ -6966,6 +7041,7 @@ exports[`chromium /components/radio-buttons 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -7018,6 +7094,7 @@ exports[`chromium /components/radio-buttons 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -7062,6 +7139,7 @@ exports[`chromium /components/radio-buttons 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -7088,6 +7166,7 @@ exports[`chromium /components/radio-buttons 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -7119,6 +7198,7 @@ exports[`chromium /components/radio-buttons 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -7144,6 +7224,7 @@ exports[`chromium /components/radio-buttons 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -7196,6 +7277,7 @@ exports[`chromium /components/radio-buttons 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -7246,6 +7328,7 @@ exports[`chromium /components/radio-buttons 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -7298,6 +7381,7 @@ exports[`chromium /components/radio-buttons 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -7373,6 +7457,7 @@ exports[`chromium /components/radio-buttons 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -7672,6 +7757,7 @@ exports[`chromium /components/rating/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -7744,6 +7830,7 @@ exports[`chromium /components/rating/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -7817,6 +7904,7 @@ exports[`chromium /components/rating/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -7914,6 +8002,7 @@ exports[`chromium /components/rating/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -8036,6 +8125,7 @@ exports[`chromium /components/rating/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -8085,6 +8175,7 @@ exports[`chromium /components/rating/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -8150,6 +8241,7 @@ exports[`chromium /components/rating/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -8306,6 +8398,7 @@ exports[`chromium /components/selects/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -8390,6 +8483,7 @@ exports[`chromium /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -8425,6 +8519,7 @@ exports[`chromium /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -8449,6 +8544,7 @@ exports[`chromium /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -8505,6 +8601,7 @@ exports[`chromium /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -8540,6 +8637,7 @@ exports[`chromium /components/selects/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -8625,6 +8723,7 @@ exports[`chromium /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -8677,6 +8776,7 @@ exports[`chromium /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -8701,6 +8801,7 @@ exports[`chromium /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -8725,6 +8826,7 @@ exports[`chromium /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -8747,6 +8849,7 @@ exports[`chromium /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -8780,6 +8883,7 @@ exports[`chromium /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -8808,6 +8912,7 @@ exports[`chromium /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -8835,6 +8940,7 @@ exports[`chromium /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -8879,6 +8985,7 @@ exports[`chromium /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9116,6 +9223,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9159,6 +9267,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9204,6 +9313,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9236,6 +9346,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9270,6 +9381,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9308,6 +9420,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9342,6 +9455,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9388,6 +9502,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9462,6 +9577,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9502,6 +9618,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9528,6 +9645,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9613,6 +9731,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9665,6 +9784,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9719,6 +9839,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9772,6 +9893,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9846,6 +9968,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9901,6 +10024,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9943,6 +10067,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -9985,6 +10110,7 @@ exports[`chromium /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -10227,6 +10353,7 @@ exports[`chromium /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -10264,6 +10391,7 @@ exports[`chromium /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -10291,6 +10419,7 @@ exports[`chromium /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -10316,6 +10445,7 @@ exports[`chromium /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -10344,6 +10474,7 @@ exports[`chromium /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -10396,6 +10527,7 @@ exports[`chromium /components/switches/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -10440,6 +10572,7 @@ exports[`chromium /components/switches/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -10503,6 +10636,7 @@ exports[`chromium /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -10531,6 +10665,7 @@ exports[`chromium /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -10580,6 +10715,7 @@ exports[`chromium /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -10601,6 +10737,7 @@ exports[`chromium /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -10629,6 +10766,7 @@ exports[`chromium /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -10674,6 +10812,7 @@ exports[`chromium /components/switches/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -10922,6 +11061,7 @@ exports[`chromium /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -10970,6 +11110,7 @@ exports[`chromium /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -11015,6 +11156,7 @@ exports[`chromium /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -11050,6 +11192,7 @@ exports[`chromium /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -11090,6 +11233,7 @@ exports[`chromium /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -11153,6 +11297,7 @@ exports[`chromium /components/tabs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -11189,6 +11334,7 @@ exports[`chromium /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -11250,6 +11396,7 @@ exports[`chromium /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -11310,6 +11457,7 @@ exports[`chromium /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -11366,6 +11514,7 @@ exports[`chromium /components/tabs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -11422,6 +11571,7 @@ exports[`chromium /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -11477,6 +11627,7 @@ exports[`chromium /components/tabs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -11543,6 +11694,7 @@ exports[`chromium /components/tabs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -11588,6 +11740,7 @@ exports[`chromium /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -11617,6 +11770,7 @@ exports[`chromium /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -11648,6 +11802,7 @@ exports[`chromium /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -11776,6 +11931,7 @@ exports[`chromium /components/tabs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -11807,6 +11963,7 @@ exports[`chromium /components/tabs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -12018,6 +12175,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -12206,6 +12364,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -12289,6 +12448,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -12389,6 +12549,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -12494,6 +12655,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -12529,6 +12691,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -12640,6 +12803,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -12710,6 +12874,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -12741,6 +12906,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -12788,6 +12954,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -12818,6 +12985,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -12857,6 +13025,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -12993,6 +13162,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -13029,6 +13199,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -13072,6 +13243,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -13127,6 +13299,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -13159,6 +13332,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -13327,6 +13501,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -13455,6 +13630,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -13490,6 +13666,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -13545,6 +13722,7 @@ exports[`chromium /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -13843,6 +14021,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -13921,6 +14100,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -13958,6 +14138,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -13986,6 +14167,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -14046,6 +14228,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -14076,6 +14259,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -14119,6 +14303,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -14157,6 +14342,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -14201,6 +14387,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -14253,6 +14440,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -14279,6 +14467,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -14317,6 +14506,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -14357,6 +14547,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -14418,6 +14609,7 @@ exports[`chromium /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -14594,6 +14786,7 @@ exports[`chromium /components/transfer-list 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -14669,6 +14862,7 @@ exports[`chromium /components/transfer-list 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -14798,6 +14992,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -14832,6 +15027,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -14871,6 +15067,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -14922,6 +15119,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -14960,6 +15158,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -14987,6 +15186,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -15033,6 +15233,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -15107,6 +15308,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -15143,6 +15345,7 @@ exports[`chromium /components/tree-view/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -15597,12 +15800,26 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-beta.2. View versions page.</link>
+      <link>v5.0.0-beta.1. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <iframe>
+    Netlify Drawer
+    <document>
+      Netlify Drawer
+      <button>
+        Open Netlify Drawer
+        <img>Logo</img>
+        <diagram></diagram>
+      </button>
+      <text>
+        <alert></alert>
+      </text>
+    </document>
+  </iframe>
   <text>
     <alert></alert>
   </text>
@@ -16793,6 +17010,22 @@ exports[`firefox /api/select/ 1`] = `
       <cell></cell>
       <cell>
         <text>Callback fired when a menu item is selected.</text>
+        <whitespace></whitespace>
+        <whitespace></whitespace>
+        <text>Signature:</text>
+        <whitespace></whitespace>
+        <text>function(event: object, child?: object) => void</text>
+        <whitespace></whitespace>
+        <text>
+          event: The event source of the callback. You can pull out the new
+          value by accessing event.target.value (any). Warning: This is a
+          generic event not a change event.
+        </text>
+        <whitespace></whitespace>
+        <text>
+          child: The react element that was selected when native is false
+          (default).
+        </text>
       </cell>
     </row>
     <row>
@@ -17274,6 +17507,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -17320,6 +17554,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -17400,6 +17635,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -17443,6 +17679,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -17479,6 +17716,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -17536,6 +17774,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -17603,6 +17842,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -17795,6 +18035,7 @@ exports[`firefox /components/button-group/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -17851,6 +18092,7 @@ exports[`firefox /components/button-group/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -17928,6 +18170,7 @@ exports[`firefox /components/button-group/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18003,6 +18246,7 @@ exports[`firefox /components/button-group/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18035,6 +18279,7 @@ exports[`firefox /components/button-group/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18065,6 +18310,7 @@ exports[`firefox /components/button-group/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18240,6 +18486,7 @@ exports[`firefox /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18279,6 +18526,7 @@ exports[`firefox /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18317,6 +18565,7 @@ exports[`firefox /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18343,6 +18592,7 @@ exports[`firefox /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18386,6 +18636,7 @@ exports[`firefox /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18443,6 +18694,7 @@ exports[`firefox /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18513,6 +18765,7 @@ exports[`firefox /components/buttons/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18541,6 +18794,7 @@ exports[`firefox /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18585,6 +18839,7 @@ exports[`firefox /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18622,6 +18877,7 @@ exports[`firefox /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18655,6 +18911,7 @@ exports[`firefox /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18687,6 +18944,7 @@ exports[`firefox /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18726,6 +18984,7 @@ exports[`firefox /components/buttons/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18771,6 +19030,7 @@ exports[`firefox /components/buttons/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18819,6 +19079,7 @@ exports[`firefox /components/buttons/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -18855,6 +19116,7 @@ exports[`firefox /components/buttons/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -19140,6 +19402,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -19178,6 +19441,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -19210,6 +19474,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -19238,6 +19503,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -19267,6 +19533,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -19296,6 +19563,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -19338,6 +19606,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -19424,6 +19693,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -19471,6 +19741,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -19499,6 +19770,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -19769,6 +20041,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -19850,6 +20123,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -19876,6 +20150,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -19905,6 +20180,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -19937,6 +20213,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -19958,6 +20235,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -19986,6 +20264,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -20018,6 +20297,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -20068,6 +20348,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -20098,6 +20379,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -20146,6 +20428,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -20554,6 +20837,7 @@ exports[`firefox /components/pagination/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -20793,6 +21077,7 @@ exports[`firefox /components/pagination/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -20926,6 +21211,7 @@ exports[`firefox /components/pagination/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -21110,6 +21396,7 @@ exports[`firefox /components/pagination/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -21246,6 +21533,7 @@ exports[`firefox /components/pagination/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -21484,6 +21772,7 @@ exports[`firefox /components/pagination/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -21567,6 +21856,7 @@ exports[`firefox /components/pagination/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -21625,6 +21915,7 @@ exports[`firefox /components/pagination/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -21712,6 +22003,7 @@ exports[`firefox /components/pagination/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -21754,6 +22046,7 @@ exports[`firefox /components/pagination/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -21908,15 +22201,15 @@ exports[`firefox /components/pickers 1`] = `
   </heading>
   <paragraph>
     <text>
-      Date pickers and Time pickers allow selecting a single value from a
-      pre-determined set.
+      Date pickers and Time pickers provide a simple way to select a single
+      value from a pre-determined set.
     </text>
   </paragraph>
   <list>
     <listitem>
-      On mobile, pickers are best suited for display in a confirmation dialog.
+      On mobile, pickers are best suited for display in confirmation dialog.
       <text>
-        On mobile, pickers are best suited for display in a confirmation dialog.
+        On mobile, pickers are best suited for display in confirmation dialog.
       </text>
     </listitem>
     <listitem>
@@ -21969,8 +22262,8 @@ exports[`firefox /components/pickers 1`] = `
     navigation of our components.
   </button>
   <label>
-    Date desktop
-    <text>Date desktop</text>
+    Date picker desktop
+    <text>Date picker desktop</text>
   </label>
   <textbox value="08/18/2014">
     mm/dd/yyyy
@@ -21978,99 +22271,32 @@ exports[`firefox /components/pickers 1`] = `
   </textbox>
   <button>Choose date, selected date is Aug 18, 2014</button>
   <label>
-    Date mobile
-    <text>Date mobile</text>
+    Date picker mobile
+    <text>Date picker mobile</text>
   </label>
   <textbox readonly="true" value="08/18/2014">
     Choose date, selected date is Aug 18, 2014
     <text>08/18/2014</text>
   </textbox>
   <label>
-    Time
-    <text>Time</text>
+    Time picker
+    <text>Time picker</text>
   </label>
   <textbox value="09:11 pm">
     hh:mm (a|p)m
     <text>09:11 pm</text>
   </textbox>
   <button>Choose time, selected time is 9:11 PM</button>
-  <label>
-    Date&Time picker
-    <text>Date&Time picker</text>
-  </label>
-  <textbox value="08/18/2014 09:11 pm">
-    mm/dd/yyyy hh:mm (a|p)m
-    <text>08/18/2014 09:11 pm</text>
-  </textbox>
-  <button>Choose date, selected date is Aug 18, 2014</button>
   <toolbar>
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <heading level="3">
-    Setup
-    <text>Setup</text>
-  </heading>
-  <paragraph>
-    <text>
-      You need to provide a date-library that is used by the pickers by setting
-      the dateAdapter to an adapter of your choosing.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>We currently support 4 different date-libraries:</text>
-  </paragraph>
-  <list>
-    <listitem>
-      date-fns
-      <link>date-fns</link>
-    </listitem>
-    <listitem>
-      Day.js
-      <link>Day.js</link>
-    </listitem>
-    <listitem>
-      Luxon
-      <link>Luxon</link>
-    </listitem>
-    <listitem>
-      Moment.js
-      <link>Moment.js</link>
-    </listitem>
-  </list>
-  <paragraph>
-    <text>
-      First you have to install the adapter package for the date-library you
-      want to use:
-    </text>
-  </paragraph>
-  <text>
-    // date-fns npm install @date-io/date-fns // or for Day.js npm install -s
-    @date-io/dayjs // or for Luxon npm install -s @date-io/luxon // or for
-    Moment.js npm install @date-io/moment
-  </text>
-  <paragraph>
-    <text>
-      Then you have to set the dateAdapter prop of the LocalizationProvider
-      accordingly:
-    </text>
-  </paragraph>
-  <text>
-    // date-fns import DateAdapter from
-    '@material-ui/lab/AdapterDateFns'; // or for Day.js import
-    DateAdapter from '@material-ui/lab/AdapterDayjs'; // or for Luxon
-    import DateAdapter from '@material-ui/lab/AdapterLuxon'; // or for
-    Moment.js import DateAdapter from
-    '@material-ui/lab/AdapterMoment'; function App({ children
-    }) { return ( <LocalizationProvider
-    dateAdapter={DateAdapter}>{children}</LocalizationProvider>
-    ); }
-  </text>
   <heading level="2">
     Native pickers
     <text>Native pickers</text>
@@ -22080,11 +22306,12 @@ exports[`firefox /components/pickers 1`] = `
     <link>isn't perfect</link>
     <text>.</text>
   </paragraph>
+  <heading level="3">
+    Date picker
+    <text>Date picker</text>
+  </heading>
   <paragraph>
-    <text>
-      Native date (type="date"), time (type="time") and
-      date&time (type="datetime-local") pickers.
-    </text>
+    <text>A native datepicker example with type="date".</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -22116,6 +22343,76 @@ exports[`firefox /components/pickers 1`] = `
         <diagram></diagram>
       </button>
     </DateTime>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <form noValidate> <TextField id="date"
+    label="Birthday" type="date"
+    defaultValue="2017-05-24" sx={{ width: 220 }}
+    InputLabelProps={{ shrink: true, }} /> </form>
+  </text>
+  <heading level="3">
+    Date & Time picker
+    <text>Date & Time picker</text>
+  </heading>
+  <paragraph>
+    <text>
+      A native date & time picker example with
+      type="datetime-local".
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
+    <label>
+      Next appointment
+      <text>Next appointment</text>
+    </label>
+    <textbox value="2017-05-24T10:30">
+      Next appointment
+      <text>2017-05-24T10:30</text>
+    </textbox>
+  </form>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <form noValidate> <TextField id="datetime-local"
+    label="Next appointment" type="datetime-local"
+    defaultValue="2017-05-24T10:30" sx={{ width: 250
+    }} InputLabelProps={{ shrink: true, }} />
+    </form>
+  </text>
+  <heading level="3">
+    Time picker
+    <text>Time picker</text>
+  </heading>
+  <paragraph>
+    <text>A native time picker example with type="time".</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <form>
     <label>
       Alarm clock
       <text>Alarm clock</text>
@@ -22141,44 +22438,32 @@ exports[`firefox /components/pickers 1`] = `
         <diagram></diagram>
       </button>
     </InputTime>
-    <label>
-      Next appointment
-      <text>Next appointment</text>
-    </label>
-    <textbox value="2017-05-24T10:30">
-      Next appointment
-      <text>2017-05-24T10:30</text>
-    </textbox>
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    <form noValidate> <TextField id="time" label="Alarm
+    clock" type="time" defaultValue="07:30"
+    InputLabelProps={{ shrink: true, }}
+    inputProps={{ step: 300, // 5 min }} sx={{
+    width: 150 }} /> </form>
+  </text>
   <heading level="2">
     API
     <text>API</text>
   </heading>
   <list>
     <listitem>
-      <DatePicker />
-      <link><DatePicker /></link>
-    </listitem>
-    <listitem>
-      <DateTimePicker />
-      <link><DateTimePicker /></link>
-    </listitem>
-    <listitem>
       <TextField />
       <link><TextField /></link>
-    </listitem>
-    <listitem>
-      <TimePicker />
-      <link><TimePicker /></link>
     </listitem>
   </list>
   <separator></separator>
@@ -22197,18 +22482,26 @@ exports[`firefox /components/pickers 1`] = `
     </paragraph>
     <list>
       <listitem level="1">
-        React componentsSetup
+        React components
         <link>React components</link>
-        <list>
-          <listitem level="2">
-            Setup
-            <link>Setup</link>
-          </listitem>
-        </list>
       </listitem>
       <listitem level="1">
-        Native pickers
+        Native pickersDate pickerDate & Time pickerTime picker
         <link>Native pickers</link>
+        <list>
+          <listitem level="2">
+            Date picker
+            <link>Date picker</link>
+          </listitem>
+          <listitem level="2">
+            Date & Time picker
+            <link>Date & Time picker</link>
+          </listitem>
+          <listitem level="2">
+            Time picker
+            <link>Time picker</link>
+          </listitem>
+        </list>
       </listitem>
       <listitem level="1">
         API
@@ -22318,6 +22611,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -22380,6 +22674,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -22433,6 +22728,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -22468,6 +22764,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -22504,6 +22801,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -22532,6 +22830,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -22595,6 +22894,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -22648,6 +22948,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -22703,6 +23004,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -22796,6 +23098,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -23122,6 +23425,7 @@ exports[`firefox /components/rating/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -23214,6 +23518,7 @@ exports[`firefox /components/rating/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -23298,6 +23603,7 @@ exports[`firefox /components/rating/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -23418,6 +23724,7 @@ exports[`firefox /components/rating/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -23567,6 +23874,7 @@ exports[`firefox /components/rating/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -23632,6 +23940,7 @@ exports[`firefox /components/rating/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -23709,6 +24018,7 @@ exports[`firefox /components/rating/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -23880,6 +24190,7 @@ exports[`firefox /components/selects/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -23969,6 +24280,7 @@ exports[`firefox /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24003,6 +24315,7 @@ exports[`firefox /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24027,6 +24340,7 @@ exports[`firefox /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24084,6 +24398,7 @@ exports[`firefox /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24129,6 +24444,7 @@ exports[`firefox /components/selects/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24219,6 +24535,7 @@ exports[`firefox /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24265,6 +24582,7 @@ exports[`firefox /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24289,6 +24607,7 @@ exports[`firefox /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24313,6 +24632,7 @@ exports[`firefox /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24334,6 +24654,7 @@ exports[`firefox /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24398,6 +24719,7 @@ exports[`firefox /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24426,6 +24748,7 @@ exports[`firefox /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24453,6 +24776,7 @@ exports[`firefox /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24511,6 +24835,7 @@ exports[`firefox /components/selects/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24755,6 +25080,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24789,6 +25115,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24828,6 +25155,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24858,6 +25186,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24889,6 +25218,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24920,6 +25250,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24952,6 +25283,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -24986,6 +25318,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25031,6 +25364,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25071,6 +25405,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25091,6 +25426,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25147,6 +25483,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25183,6 +25520,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25212,6 +25550,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25253,6 +25592,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25305,6 +25645,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25340,6 +25681,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25374,6 +25716,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25418,6 +25761,7 @@ exports[`firefox /components/slider 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25676,6 +26020,7 @@ exports[`firefox /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25714,6 +26059,7 @@ exports[`firefox /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25742,6 +26088,7 @@ exports[`firefox /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25768,6 +26115,7 @@ exports[`firefox /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25797,6 +26145,7 @@ exports[`firefox /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25854,6 +26203,7 @@ exports[`firefox /components/switches/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25901,6 +26251,7 @@ exports[`firefox /components/switches/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25954,6 +26305,7 @@ exports[`firefox /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -25984,6 +26336,7 @@ exports[`firefox /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -26029,6 +26382,7 @@ exports[`firefox /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -26051,6 +26405,7 @@ exports[`firefox /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -26075,6 +26430,7 @@ exports[`firefox /components/switches/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -26129,6 +26485,7 @@ exports[`firefox /components/switches/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -26387,6 +26744,7 @@ exports[`firefox /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -26444,6 +26802,7 @@ exports[`firefox /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -26497,6 +26856,7 @@ exports[`firefox /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -26537,6 +26897,7 @@ exports[`firefox /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -26580,6 +26941,7 @@ exports[`firefox /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -26645,6 +27007,7 @@ exports[`firefox /components/tabs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -26679,6 +27042,7 @@ exports[`firefox /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -26743,6 +27107,7 @@ exports[`firefox /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -26808,6 +27173,7 @@ exports[`firefox /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -26869,6 +27235,7 @@ exports[`firefox /components/tabs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -26925,6 +27292,7 @@ exports[`firefox /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -26987,6 +27355,7 @@ exports[`firefox /components/tabs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -27052,6 +27421,7 @@ exports[`firefox /components/tabs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -27093,6 +27463,7 @@ exports[`firefox /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -27126,6 +27497,7 @@ exports[`firefox /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -27162,6 +27534,7 @@ exports[`firefox /components/tabs/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -27280,6 +27653,7 @@ exports[`firefox /components/tabs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -27311,6 +27685,7 @@ exports[`firefox /components/tabs/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -27536,6 +27911,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -27742,6 +28118,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -27828,6 +28205,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -27926,6 +28304,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -28068,6 +28447,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -28108,6 +28488,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -28227,6 +28608,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -28301,6 +28683,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -28330,6 +28713,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -28376,6 +28760,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -28414,6 +28799,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -28456,6 +28842,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -28574,6 +28961,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -28610,6 +28998,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -28659,6 +29048,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -28722,6 +29112,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -28751,6 +29142,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -28919,6 +29311,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -29054,6 +29447,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -29094,6 +29488,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -29152,6 +29547,7 @@ exports[`firefox /components/text-fields/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -29482,6 +29878,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -29560,6 +29957,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -29597,6 +29995,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -29624,6 +30023,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -29689,6 +30089,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -29716,6 +30117,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -29759,6 +30161,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -29799,6 +30202,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -29840,6 +30244,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -29893,6 +30298,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -29925,6 +30331,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -29958,6 +30365,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -29995,6 +30403,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -30049,6 +30458,7 @@ exports[`firefox /components/tooltips/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -30240,6 +30650,7 @@ exports[`firefox /components/transfer-list 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -30315,6 +30726,7 @@ exports[`firefox /components/transfer-list 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -30443,6 +30855,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     demo source
     <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -30488,6 +30901,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -30527,6 +30941,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -30576,6 +30991,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -30613,6 +31029,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -30640,6 +31057,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -30686,6 +31104,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -30760,6 +31179,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
@@ -30797,6 +31217,7 @@ exports[`firefox /components/tree-view/ 1`] = `
     demo source
     <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
     <button>Reset focus to test keyboard navigation</button>
     <button>Reset demo</button>
