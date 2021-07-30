@@ -13643,12 +13643,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     </listitem>
     <listitem level="1">
       <link>
-        <FormControlUnstyled />
-        <code>$SOME_CODE</code>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
         <FormHelperText />
         <code>$SOME_CODE</code>
       </link>
@@ -15609,6 +15603,20 @@ exports[`firefox / 1`] = `
       <text>. Copyright © 2021 Material-UI.</text>
     </paragraph>
   </landmark>
+  <iframe>
+    Netlify Drawer
+    <document>
+      Netlify Drawer
+      <button>
+        Open Netlify Drawer
+        <img>Logo</img>
+        <diagram></diagram>
+      </button>
+      <text>
+        <alert></alert>
+      </text>
+    </document>
+  </iframe>
   <text>
     <alert></alert>
   </text>
@@ -29269,10 +29277,6 @@ exports[`firefox /components/text-fields/ 1`] = `
     <listitem>
       <FormControl />
       <link><FormControl /></link>
-    </listitem>
-    <listitem>
-      <FormControlUnstyled />
-      <link><FormControlUnstyled /></link>
     </listitem>
     <listitem>
       <FormHelperText />
