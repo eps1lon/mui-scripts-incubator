@@ -21,7 +21,7 @@
 		"jest-circus": "26.6.3",
 		"lighthouse": "8.1.0",
 		"lodash": "4.17.21",
-		"netlify": "7.0.1",
+		"netlify": "8.0.0",
 		"node-fetch": "2.6.1",
 		"playwright": "1.13.1",
 		"playwright-testing-library": "3.0.0",
