@@ -949,10 +949,10 @@ exports[`chromium /api/button/ 1`] = `
         <text>.Mui-focusVisible</text>
       </gridcell>
       <gridcell>
-        Pseudo-class applied to the ButtonBase root element if the button is
+        State class applied to the ButtonBase root element if the button is
         keyboard focused.
         <text>
-          Pseudo-class applied to the ButtonBase root element if the button is
+          State class applied to the ButtonBase root element if the button is
           keyboard focused.
         </text>
       </gridcell>
@@ -967,8 +967,8 @@ exports[`chromium /api/button/ 1`] = `
         <text>.Mui-disabled</text>
       </gridcell>
       <gridcell>
-        Pseudo-class applied to the root element if disabled={true}.
-        <text>Pseudo-class applied to the root element if</text>
+        State class applied to the root element if disabled={true}.
+        <text>State class applied to the root element if</text>
         <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
@@ -2103,9 +2103,9 @@ exports[`chromium /api/select/ 1`] = `
         <text>.Mui-disabled</text>
       </gridcell>
       <gridcell>
-        Pseudo-class applied to the select component \`disabled\` class.
+        State class applied to the select component \`disabled\` class.
         <text>
-          Pseudo-class applied to the select component \`disabled\` class.
+          State class applied to the select component \`disabled\` class.
         </text>
       </gridcell>
     </row>
@@ -2523,8 +2523,8 @@ exports[`chromium /components/breadcrumbs 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Customized breadcrumbs
-    <text>Customized breadcrumbs</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -2719,7 +2719,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
         <link>Collapsed breadcrumbs</link>
       </listitem>
       <listitem level="1">
-        <link>Customized breadcrumbs</link>
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         <link>Integration with react-router</link>
@@ -3660,8 +3660,8 @@ exports[`chromium /components/buttons/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Customized buttons
-    <text>Customized buttons</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -3995,7 +3995,7 @@ exports[`chromium /components/buttons/ 1`] = `
         </list>
       </listitem>
       <listitem level="1">
-        <link>Customized buttons</link>
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         <link>Loading buttons</link>
@@ -4407,8 +4407,8 @@ exports[`chromium /components/checkboxes/ 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
-    Customized checkbox
-    <text>Customized checkbox</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -4577,7 +4577,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
         <link>Label placement</link>
       </listitem>
       <listitem level="1">
-        <link>Customized checkbox</link>
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         <link>When to use</link>
@@ -4823,8 +4823,8 @@ exports[`chromium /components/dialogs/ 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
-    Customized dialogs
-    <text>Customized dialogs</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -5171,7 +5171,7 @@ exports[`chromium /components/dialogs/ 1`] = `
         <link>Form dialogs</link>
       </listitem>
       <listitem level="1">
-        <link>Customized dialogs</link>
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         <link>Full-screen dialogs</link>
@@ -7322,8 +7322,8 @@ exports[`chromium /components/radio-buttons 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
-    Customized radios
-    <text>Customized radios</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -7581,7 +7581,7 @@ exports[`chromium /components/radio-buttons 1`] = `
         <link>Show error</link>
       </listitem>
       <listitem level="1">
-        <link>Customized radios</link>
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         <link>useRadioGroup</link>
@@ -7999,8 +7999,8 @@ exports[`chromium /components/rating/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Customized rating
-    <text>Customized rating</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -8303,7 +8303,7 @@ exports[`chromium /components/rating/ 1`] = `
         <link>Sizes</link>
       </listitem>
       <listitem level="1">
-        <link>Customized rating</link>
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         <link>Radio group</link>
@@ -8648,8 +8648,8 @@ exports[`chromium /components/selects/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
-    Customized selects
-    <text>Customized selects</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -9089,7 +9089,7 @@ exports[`chromium /components/selects/ 1`] = `
         <link>TextField</link>
       </listitem>
       <listitem level="1">
-        <link>Customized selects</link>
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         <link>Multiple select</link>
@@ -9642,8 +9642,8 @@ exports[`chromium /components/slider 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Customized sliders
-    <text>Customized sliders</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -10234,7 +10234,7 @@ exports[`chromium /components/slider 1`] = `
         <link>Color</link>
       </listitem>
       <listitem level="1">
-        <link>Customized sliders</link>
+        <link>Customization</link>
         <list>
           <listitem level="2">
             <link>Music player</link>
@@ -10521,8 +10521,8 @@ exports[`chromium /components/switches/ 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
-    Customized switches
-    <text>Customized switches</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -10938,7 +10938,7 @@ exports[`chromium /components/switches/ 1`] = `
         <link>Switches with FormGroup</link>
       </listitem>
       <listitem level="1">
-        <link>Customized switches</link>
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         <link>Unstyled switches</link>
@@ -11568,8 +11568,8 @@ exports[`chromium /components/tabs/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Customized tabs
-    <text>Customized tabs</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -12056,7 +12056,7 @@ exports[`chromium /components/tabs/ 1`] = `
         </list>
       </listitem>
       <listitem level="1">
-        <link>Customized tabs</link>
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         <link>Vertical tabs</link>
@@ -13240,8 +13240,8 @@ exports[`chromium /components/text-fields/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
-    Customized inputs
-    <text>Customized inputs</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -13917,7 +13917,7 @@ exports[`chromium /components/text-fields/ 1`] = `
         <link>Color</link>
       </listitem>
       <listitem level="1">
-        <link>Customized inputs</link>
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         <link>useFormControl</link>
@@ -14100,8 +14100,8 @@ exports[`chromium /components/tooltips/ 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
-    Customized tooltips
-    <text>Customized tooltips</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -14647,7 +14647,7 @@ exports[`chromium /components/tooltips/ 1`] = `
         <link>Positioned tooltips</link>
       </listitem>
       <listitem level="1">
-        <link>Customized tooltips</link>
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         <link>Arrow tooltips</link>
@@ -15186,8 +15186,8 @@ exports[`chromium /components/tree-view/ 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
-    Customized tree view
-    <text>Customized tree view</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <heading level="3">
     Custom icons, border and animation
@@ -15488,7 +15488,7 @@ exports[`chromium /components/tree-view/ 1`] = `
         <link>ContentComponent prop</link>
       </listitem>
       <listitem level="1">
-        <link>Customized tree view</link>
+        <link>Customization</link>
         <list>
           <listitem level="2">
             <link>Custom icons, border and animation</link>
@@ -16341,7 +16341,7 @@ exports[`firefox /api/button/ 1`] = `
       </cell>
       <cell>
         <text>
-          Pseudo-class applied to the ButtonBase root element if the button is
+          State class applied to the ButtonBase root element if the button is
           keyboard focused.
         </text>
       </cell>
@@ -16355,7 +16355,7 @@ exports[`firefox /api/button/ 1`] = `
       </cell>
       <cell>
         <text>
-          Pseudo-class applied to the root element if disabled={true}.
+          State class applied to the root element if disabled={true}.
         </text>
       </cell>
     </row>
@@ -17246,7 +17246,7 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell>
         <text>
-          Pseudo-class applied to the select component \`disabled\` class.
+          State class applied to the select component \`disabled\` class.
         </text>
       </cell>
     </row>
@@ -17698,8 +17698,8 @@ exports[`firefox /components/breadcrumbs 1`] = `
     </Breadcrumbs>
   </text>
   <heading level="2">
-    Customized breadcrumbs
-    <text>Customized breadcrumbs</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -17910,8 +17910,8 @@ exports[`firefox /components/breadcrumbs 1`] = `
         <link>Collapsed breadcrumbs</link>
       </listitem>
       <listitem>
-        Customized breadcrumbs
-        <link>Customized breadcrumbs</link>
+        Customization
+        <link>Customization</link>
       </listitem>
       <listitem>
         Integration with react-router
@@ -18920,8 +18920,8 @@ exports[`firefox /components/buttons/ 1`] = `
     color="success"> <Fingerprint /> </IconButton>
   </text>
   <heading level="2">
-    Customized buttons
-    <text>Customized buttons</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -19258,8 +19258,8 @@ exports[`firefox /components/buttons/ 1`] = `
         </list>
       </listitem>
       <listitem level="1">
-        Customized buttons
-        <link>Customized buttons</link>
+        Customization
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         Loading buttons
@@ -19711,8 +19711,8 @@ exports[`firefox /components/checkboxes/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Customized checkbox
-    <text>Customized checkbox</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -19879,8 +19879,8 @@ exports[`firefox /components/checkboxes/ 1`] = `
         <link>Label placement</link>
       </listitem>
       <listitem>
-        Customized checkbox
-        <link>Customized checkbox</link>
+        Customization
+        <link>Customization</link>
       </listitem>
       <listitem>
         When to use
@@ -20150,8 +20150,8 @@ exports[`firefox /components/dialogs/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Customized dialogs
-    <text>Customized dialogs</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -20486,8 +20486,8 @@ exports[`firefox /components/dialogs/ 1`] = `
         <link>Form dialogs</link>
       </listitem>
       <listitem>
-        Customized dialogs
-        <link>Customized dialogs</link>
+        Customization
+        <link>Customization</link>
       </listitem>
       <listitem>
         Full-screen dialogs
@@ -22920,8 +22920,8 @@ exports[`firefox /components/radio-buttons 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Customized radios
-    <text>Customized radios</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -23202,8 +23202,8 @@ exports[`firefox /components/radio-buttons 1`] = `
         <link>Show error</link>
       </listitem>
       <listitem level="1">
-        Customized radios
-        <link>Customized radios</link>
+        Customization
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         useRadioGroupAPI
@@ -23702,8 +23702,8 @@ exports[`firefox /components/rating/ 1`] = `
     defaultValue={2} size="large" />
   </text>
   <heading level="2">
-    Customized rating
-    <text>Customized rating</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -24062,8 +24062,8 @@ exports[`firefox /components/rating/ 1`] = `
         <link>Sizes</link>
       </listitem>
       <listitem level="1">
-        Customized rating
-        <link>Customized rating</link>
+        Customization
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         Radio group
@@ -24438,8 +24438,8 @@ exports[`firefox /components/selects/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
-    Customized selects
-    <text>Customized selects</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -24918,8 +24918,8 @@ exports[`firefox /components/selects/ 1`] = `
         <link>TextField</link>
       </listitem>
       <listitem level="1">
-        Customized selects
-        <link>Customized selects</link>
+        Customization
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         Multiple selectDefaultCheckmarksChipPlaceholderNative
@@ -25402,8 +25402,8 @@ exports[`firefox /components/slider 1`] = `
     getAriaValueText={valuetext} color="secondary" />
   </text>
   <heading level="2">
-    Customized sliders
-    <text>Customized sliders</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -25863,8 +25863,8 @@ exports[`firefox /components/slider 1`] = `
         <link>Color</link>
       </listitem>
       <listitem level="1">
-        Customized slidersMusic player
-        <link>Customized sliders</link>
+        CustomizationMusic player
+        <link>Customization</link>
         <list>
           <listitem level="2">
             Music player
@@ -26175,8 +26175,8 @@ exports[`firefox /components/switches/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Customized switches
-    <text>Customized switches</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -26584,8 +26584,8 @@ exports[`firefox /components/switches/ 1`] = `
         <link>Switches with FormGroup</link>
       </listitem>
       <listitem level="1">
-        Customized switches
-        <link>Customized switches</link>
+        Customization
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         Unstyled switchesRecreation of Material-UI's SwitchuseSwitch hook
@@ -27274,8 +27274,8 @@ exports[`firefox /components/tabs/ 1`] = `
     </Tabs>
   </text>
   <heading level="2">
-    Customized tabs
-    <text>Customized tabs</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -27755,8 +27755,8 @@ exports[`firefox /components/tabs/ 1`] = `
         </list>
       </listitem>
       <listitem level="1">
-        Customized tabs
-        <link>Customized tabs</link>
+        Customization
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         Vertical tabs
@@ -29027,8 +29027,8 @@ exports[`firefox /components/text-fields/ 1`] = `
     variant="standard" color="warning" focused />
   </text>
   <heading level="2">
-    Customized inputs
-    <text>Customized inputs</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -29732,8 +29732,8 @@ exports[`firefox /components/text-fields/ 1`] = `
         <link>Color</link>
       </listitem>
       <listitem level="1">
-        Customized inputs
-        <link>Customized inputs</link>
+        Customization
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         useFormControl
@@ -29933,8 +29933,8 @@ exports[`firefox /components/tooltips/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Customized tooltips
-    <text>Customized tooltips</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <paragraph>
     <text>
@@ -30473,8 +30473,8 @@ exports[`firefox /components/tooltips/ 1`] = `
         <link>Positioned tooltips</link>
       </listitem>
       <listitem>
-        Customized tooltips
-        <link>Customized tooltips</link>
+        Customization
+        <link>Customization</link>
       </listitem>
       <listitem>
         Arrow tooltips
@@ -31033,8 +31033,8 @@ exports[`firefox /components/tree-view/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Customized tree view
-    <text>Customized tree view</text>
+    Customization
+    <text>Customization</text>
   </heading>
   <heading level="3">
     Custom icons, border and animation
@@ -31350,8 +31350,8 @@ exports[`firefox /components/tree-view/ 1`] = `
         <link>ContentComponent prop</link>
       </listitem>
       <listitem level="1">
-        Customized tree viewCustom icons, border and animationGmail clone
-        <link>Customized tree view</link>
+        CustomizationCustom icons, border and animationGmail clone
+        <link>Customization</link>
         <list>
           <listitem level="2">
             Custom icons, border and animation
