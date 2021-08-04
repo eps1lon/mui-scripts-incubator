@@ -949,10 +949,10 @@ exports[`chromium /api/button/ 1`] = `
         <text>.Mui-focusVisible</text>
       </gridcell>
       <gridcell>
-        Pseudo-class applied to the ButtonBase root element if the button is
+        State class applied to the ButtonBase root element if the button is
         keyboard focused.
         <text>
-          Pseudo-class applied to the ButtonBase root element if the button is
+          State class applied to the ButtonBase root element if the button is
           keyboard focused.
         </text>
       </gridcell>
@@ -967,8 +967,8 @@ exports[`chromium /api/button/ 1`] = `
         <text>.Mui-disabled</text>
       </gridcell>
       <gridcell>
-        Pseudo-class applied to the root element if disabled={true}.
-        <text>Pseudo-class applied to the root element if</text>
+        State class applied to the root element if disabled={true}.
+        <text>State class applied to the root element if</text>
         <code>$SOME_CODE</code>
         <text>.</text>
       </gridcell>
@@ -2103,9 +2103,9 @@ exports[`chromium /api/select/ 1`] = `
         <text>.Mui-disabled</text>
       </gridcell>
       <gridcell>
-        Pseudo-class applied to the select component \`disabled\` class.
+        State class applied to the select component \`disabled\` class.
         <text>
-          Pseudo-class applied to the select component \`disabled\` class.
+          State class applied to the select component \`disabled\` class.
         </text>
       </gridcell>
     </row>
@@ -16341,7 +16341,7 @@ exports[`firefox /api/button/ 1`] = `
       </cell>
       <cell>
         <text>
-          Pseudo-class applied to the ButtonBase root element if the button is
+          State class applied to the ButtonBase root element if the button is
           keyboard focused.
         </text>
       </cell>
@@ -16355,7 +16355,7 @@ exports[`firefox /api/button/ 1`] = `
       </cell>
       <cell>
         <text>
-          Pseudo-class applied to the root element if disabled={true}.
+          State class applied to the root element if disabled={true}.
         </text>
       </cell>
     </row>
@@ -17246,7 +17246,7 @@ exports[`firefox /api/select/ 1`] = `
       </cell>
       <cell>
         <text>
-          Pseudo-class applied to the select component \`disabled\` class.
+          State class applied to the select component \`disabled\` class.
         </text>
       </cell>
     </row>
