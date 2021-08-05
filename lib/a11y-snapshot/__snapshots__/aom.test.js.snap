@@ -1775,8 +1775,34 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        Callback fired when a menu item is selected.
+        Callback fired when a menu item is selected. Signature: function(event:
+        SelectChangeEvent<T>, child?: object) => void event: The event
+        source of the callback. You can pull out the new value by accessing
+        event.target.value (any). Warning: This is a generic event not a change
+        event unless the change event is caused by browser autofill. child: The
+        react element that was selected when native is false (default).
         <text>Callback fired when a menu item is selected.</text>
+        <LineBreak></LineBreak>
+        <LineBreak></LineBreak>
+        <text>Signature:</text>
+        <LineBreak></LineBreak>
+        <code>$SOME_CODE</code>
+        <LineBreak></LineBreak>
+        <text>
+          event:The event source of the callback. You can pull out the new value
+          by accessing
+        </text>
+        <code>$SOME_CODE</code>
+        <text>
+          (any).Warning: This is a generic event not a change event unless the
+          change event is caused by browser autofill.
+        </text>
+        <LineBreak></LineBreak>
+        <text>child:The react element that was selected when</text>
+        <code>$SOME_CODE</code>
+        <text>is</text>
+        <code>$SOME_CODE</code>
+        <text>(default).</text>
       </gridcell>
     </row>
     <row>
@@ -11620,6 +11646,51 @@ exports[`chromium /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <heading level="2">
+    Theming
+    <text>Theming</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here is an example of theming the component. You can learn more about this
+      in the
+    </text>
+    <link>theming page</link>
+    <text>and</text>
+    <link>theme components page</link>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist level="1">
+    theme example
+    <tab selected="true">
+      Yesterday
+      <text>Yesterday</text>
+    </tab>
+    <tab>
+      Today
+      <text>Today</text>
+    </tab>
+    <tab>
+      Tomorrow
+      <text>Tomorrow</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -12057,6 +12128,9 @@ exports[`chromium /components/tabs/ 1`] = `
       </listitem>
       <listitem level="1">
         <link>Customization</link>
+      </listitem>
+      <listitem level="1">
+        <link>Theming</link>
       </listitem>
       <listitem level="1">
         <link>Vertical tabs</link>
@@ -16989,6 +17063,25 @@ exports[`firefox /api/select/ 1`] = `
       <cell></cell>
       <cell>
         <text>Callback fired when a menu item is selected.</text>
+        <whitespace></whitespace>
+        <whitespace></whitespace>
+        <text>Signature:</text>
+        <whitespace></whitespace>
+        <text>
+          function(event: SelectChangeEvent<T>, child?: object) => void
+        </text>
+        <whitespace></whitespace>
+        <text>
+          event: The event source of the callback. You can pull out the new
+          value by accessing event.target.value (any). Warning: This is a
+          generic event not a change event unless the change event is caused by
+          browser autofill.
+        </text>
+        <whitespace></whitespace>
+        <text>
+          child: The react element that was selected when native is false
+          (default).
+        </text>
       </cell>
     </row>
     <row>
@@ -27326,6 +27419,55 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <heading level="2">
+    Theming
+    <text>Theming</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here is an example of theming the component. You can learn more about this
+      in the
+    </text>
+    <link>theming page</link>
+    <text>and</text>
+    <link>theme components page</link>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    theme example
+    <tab selected="true">
+      Yesterday
+      <text>Yesterday</text>
+    </tab>
+    <tab>
+      Today
+      <text>Today</text>
+    </tab>
+    <tab>
+      Tomorrow
+      <text>Tomorrow</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <ThemeProvider theme={theme}> <Tabs
+    value={value} onChange={handleChange}
+    aria-label="theme example"> <Tab label="Yesterday"
+    /> <Tab label="Today" /> <Tab
+    label="Tomorrow" /> </Tabs> </ThemeProvider>
+  </text>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -27757,6 +27899,10 @@ exports[`firefox /components/tabs/ 1`] = `
       <listitem level="1">
         Customization
         <link>Customization</link>
+      </listitem>
+      <listitem level="1">
+        Theming
+        <link>Theming</link>
       </listitem>
       <listitem level="1">
         Vertical tabs
