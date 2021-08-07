@@ -72,6 +72,7 @@ exports[`chromium / 1`] = `
       Material-UI components work without any additional setup, and don't
       pollute the global scope.
     </text>
+    <button></button>
     <Pre>
       <code>
         <text>
@@ -293,6 +294,11 @@ exports[`chromium /api/button/ 1`] = `
     Import
     <text>Import</text>
   </heading>
+  <button></button>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -1400,6 +1406,11 @@ exports[`chromium /api/select/ 1`] = `
     Import
     <text>Import</text>
   </heading>
+  <button></button>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -3418,6 +3429,7 @@ exports[`chromium /components/buttons/ 1`] = `
     <code>$SOME_CODE</code>
     <text>handler that is applied to the root DOM element.</text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -3899,6 +3911,7 @@ exports[`chromium /components/buttons/ 1`] = `
       <text>element:</text>
     </listitem>
   </list>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -3927,6 +3940,7 @@ exports[`chromium /components/buttons/ 1`] = `
       <text>DOM change. You can wrap the button:</text>
     </listitem>
   </list>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -4523,6 +4537,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
       <text>prop.</text>
     </listitem>
   </list>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -4952,6 +4967,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     </link>
     <text>.</text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -6394,6 +6410,7 @@ exports[`chromium /components/pagination/ 1`] = `
       Pagination component is built on this hook.
     </text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -6779,6 +6796,7 @@ exports[`chromium /components/pickers 1`] = `
       want to use:
     </text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -6789,6 +6807,7 @@ exports[`chromium /components/pickers 1`] = `
     <code>$SOME_CODE</code>
     <text>accordingly:</text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -7423,6 +7442,7 @@ exports[`chromium /components/radio-buttons 1`] = `
     API
     <text>API</text>
   </heading>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -7528,6 +7548,7 @@ exports[`chromium /components/radio-buttons 1`] = `
       <text>property.</text>
     </listitem>
   </list>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -9025,6 +9046,7 @@ exports[`chromium /components/selects/ 1`] = `
     <code>$SOME_CODE</code>
     <text>e.g.</text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -9037,6 +9059,7 @@ exports[`chromium /components/selects/ 1`] = `
     <code>$SOME_CODE</code>
     <text>creates the proper markup and ids for you:</text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -9051,6 +9074,7 @@ exports[`chromium /components/selects/ 1`] = `
     <code>$SOME_CODE</code>
     <text>attribute:</text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -10109,6 +10133,7 @@ exports[`chromium /components/slider 1`] = `
       heavy customizations and minimizing bundle size.
     </text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -10188,6 +10213,7 @@ exports[`chromium /components/slider 1`] = `
       can solve the issue with:
     </text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -10610,6 +10636,7 @@ exports[`chromium /components/switches/ 1`] = `
       heavy customizations and minimizing bundle size.
     </text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -10709,6 +10736,7 @@ exports[`chromium /components/switches/ 1`] = `
     <code>$SOME_CODE</code>
     <text>props.</text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -10887,6 +10915,7 @@ exports[`chromium /components/switches/ 1`] = `
       <text>prop.</text>
     </listitem>
   </list>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -11489,6 +11518,7 @@ exports[`chromium /components/tabs/ 1`] = `
       customize the opacity.
     </text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -11967,6 +11997,7 @@ exports[`chromium /components/tabs/ 1`] = `
       e.g.Arrow Left.
     </text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -11999,6 +12030,7 @@ exports[`chromium /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -13424,6 +13456,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   <paragraph>
     <text>API</text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -13601,12 +13634,14 @@ exports[`chromium /components/text-fields/ 1`] = `
       label.
     </text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
   <paragraph>
     <text>or</text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -13657,6 +13692,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       type="text" with thepatternattribute, for example:
     </text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -13799,9 +13835,11 @@ exports[`chromium /components/text-fields/ 1`] = `
       implements the following interface:
     </text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -13816,6 +13854,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       structure:
     </text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -13831,6 +13870,7 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>If you are composing the component:</text>
     </listitem>
   </list>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -14258,6 +14298,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       its props to the underlying DOM element.
     </text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -14481,6 +14522,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       </text>
     </paragraph>
   </blockquote>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -14647,6 +14689,7 @@ exports[`chromium /components/tooltips/ 1`] = `
       already has a label. For example, in:
     </text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -15164,6 +15207,7 @@ exports[`chromium /components/tree-view/ 1`] = `
       can be used to handle it.
     </text>
   </paragraph>
+  <button></button>
   <Pre>
     <code>$SOME_CODE</code>
   </Pre>
@@ -15652,9 +15696,13 @@ exports[`firefox / 1`] = `
     </heading>
     <text>
       Material-UI components work without any additional setup, and don't
-      pollute the global scope.import * as React from 'react'; import
-      { Button } from '@material-ui/core'; function App()
-      { return <Button>Hello World</Button>; }
+      pollute the global scope.
+    </text>
+    <button></button>
+    <text>
+      import * as React from 'react'; import { Button } from
+      '@material-ui/core'; function App() { return
+      <Button>Hello World</Button>; }
     </text>
     <separator></separator>
     <link>EXPLORE THE DOCS</link>
@@ -15907,10 +15955,12 @@ exports[`firefox /api/button/ 1`] = `
     Import
     <text>Import</text>
   </heading>
+  <button></button>
+  <text>import Button from '@material-ui/core/Button';</text>
+  <button></button>
   <text>
-    import Button from '@material-ui/core/Button'; // or import {
-    Button } from '@material-ui/core';You can learn about the
-    difference by
+    import { Button } from '@material-ui/core';You can learn
+    about the difference by
   </text>
   <link>reading this guide on minimizing bundle size</link>
   <text>.</text>
@@ -16796,10 +16846,12 @@ exports[`firefox /api/select/ 1`] = `
     Import
     <text>Import</text>
   </heading>
+  <button></button>
+  <text>import Select from '@material-ui/core/Select';</text>
+  <button></button>
   <text>
-    import Select from '@material-ui/core/Select'; // or import {
-    Select } from '@material-ui/core';You can learn about the
-    difference by
+    import { Select } from '@material-ui/core';You can learn
+    about the difference by
   </text>
   <link>reading this guide on minimizing bundle size</link>
   <text>.</text>
@@ -18724,6 +18776,7 @@ exports[`firefox /components/buttons/ 1`] = `
       element.
     </text>
   </paragraph>
+  <button></button>
   <text>
     <Button onClick={() => { alert('clicked');
     }} > Click me </Button>
@@ -19228,6 +19281,7 @@ exports[`firefox /components/buttons/ 1`] = `
       </text>
     </listitem>
   </list>
+  <button></button>
   <text>
     .MuiButtonBase-root:disabled { cursor: not-allowed; pointer-events:
     auto; }
@@ -19260,6 +19314,7 @@ exports[`firefox /components/buttons/ 1`] = `
       <text>DOM change. You can wrap the button:</text>
     </listitem>
   </list>
+  <button></button>
   <text>
     <span style={{ cursor: 'not-allowed' }}>
     <Button component={Link} disabled> disabled </Button>
@@ -19900,6 +19955,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
       </text>
     </listitem>
   </list>
+  <button></button>
   <text>
     <Checkbox value="checkedA" inputProps={{
     'aria-label': 'Checkbox A', }} />
@@ -20345,6 +20401,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <link>useMediaQuery</link>
     <text>.</text>
   </paragraph>
+  <button></button>
   <text>
     import useMediaQuery from '@material-ui/core/useMediaQuery';
     function MyComponent() { const theme = useTheme(); const fullScreen =
@@ -21999,6 +22056,7 @@ exports[`firefox /components/pagination/ 1`] = `
       component is built on this hook.
     </text>
   </paragraph>
+  <button></button>
   <text>
     import { usePagination } from
     '@material-ui/core/Pagination';
@@ -22409,6 +22467,7 @@ exports[`firefox /components/pickers 1`] = `
       want to use:
     </text>
   </paragraph>
+  <button></button>
   <text>
     // date-fns npm install @date-io/date-fns // or for Day.js npm install -s
     @date-io/dayjs // or for Luxon npm install -s @date-io/luxon // or for
@@ -22420,6 +22479,7 @@ exports[`firefox /components/pickers 1`] = `
       accordingly:
     </text>
   </paragraph>
+  <button></button>
   <text>
     // date-fns import DateAdapter from
     '@material-ui/lab/AdapterDateFns'; // or for Day.js import
@@ -23107,6 +23167,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     API
     <text>API</text>
   </heading>
+  <button></button>
   <text>
     import { useRadioGroup } from
     '@material-ui/core/RadioGroup';
@@ -23225,6 +23286,7 @@ exports[`firefox /components/radio-buttons 1`] = `
       </text>
     </listitem>
   </list>
+  <button></button>
   <text>
     <Radio value="radioA" inputProps={{
     'aria-label': 'Radio A', }} />
@@ -24920,6 +24982,7 @@ exports[`firefox /components/selects/ 1`] = `
       e.g.
     </text>
   </paragraph>
+  <button></button>
   <text>
     <InputLabel id="label">Age</InputLabel> <Select
     labelId="label" id="select" value="20">
@@ -24932,6 +24995,7 @@ exports[`firefox /components/selects/ 1`] = `
       and ids for you:
     </text>
   </paragraph>
+  <button></button>
   <text>
     <TextField id="select" label="Age"
     value="20" select> <MenuItem
@@ -24946,6 +25010,7 @@ exports[`firefox /components/selects/ 1`] = `
       the select element to the InputLabel's htmlFor attribute:
     </text>
   </paragraph>
+  <button></button>
   <text>
     <InputLabel htmlFor="select">Age</InputLabel>
     <NativeSelect id="select"> <option
@@ -25817,6 +25882,7 @@ exports[`firefox /components/slider 1`] = `
       heavy customizations and minimizing bundle size.
     </text>
   </paragraph>
+  <button></button>
   <text>
     import SliderUnstyled from '@material-ui/unstyled/SliderUnstyled';
   </text>
@@ -25886,6 +25952,7 @@ exports[`firefox /components/slider 1`] = `
       can solve the issue with:
     </text>
   </paragraph>
+  <button></button>
   <text>.MuiSlider-valueLabel { left: calc(-50% - 4px); }</text>
   <heading level="2">
     API
@@ -26340,6 +26407,7 @@ exports[`firefox /components/switches/ 1`] = `
       heavy customizations and minimizing bundle size.
     </text>
   </paragraph>
+  <button></button>
   <text>
     import SwitchUnstyled from '@material-ui/unstyled/SwitchUnstyled';
   </text>
@@ -26428,6 +26496,7 @@ exports[`firefox /components/switches/ 1`] = `
       component, components, and componentsProps props.
     </text>
   </paragraph>
+  <button></button>
   <text>
     import { useSwitch } from
     '@material-ui/unstyled/SwitchUnstyled';
@@ -26613,6 +26682,7 @@ exports[`firefox /components/switches/ 1`] = `
       </text>
     </listitem>
   </list>
+  <button></button>
   <text>
     <Switch value="checkedA" inputProps={{
     'aria-label': 'Switch A' }} />
@@ -27263,6 +27333,7 @@ exports[`firefox /components/tabs/ 1`] = `
       customize the opacity.
     </text>
   </paragraph>
+  <button></button>
   <text>.MuiTabs-scrollButtons.Mui-disabled { opacity: 0.3; }</text>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -27743,6 +27814,7 @@ exports[`firefox /components/tabs/ 1`] = `
       Arrow Left.
     </text>
   </paragraph>
+  <button></button>
   <text>
     /* Tabs where selection follows focus */ <Tabs selectionFollowsFocus
     />
@@ -27776,6 +27848,7 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <button></button>
   <text>
     /* Tabs where each tab needs to be selected manually */ <Tabs />
   </text>
@@ -29287,6 +29360,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   <paragraph>
     <text>API</text>
   </paragraph>
+  <button></button>
   <text>
     import { useFormControl } from
     '@material-ui/core/FormControl';
@@ -29469,12 +29543,14 @@ exports[`firefox /components/text-fields/ 1`] = `
       label.
     </text>
   </paragraph>
+  <button></button>
   <text>
     <TextField InputLabelProps={{ shrink: true }} />
   </text>
   <paragraph>
     <text>or</text>
   </paragraph>
+  <button></button>
   <text><InputLabel shrink>Count</InputLabel></text>
   <heading level="3">
     Floating label
@@ -29527,6 +29603,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       type="text" with the pattern attribute, for example:
     </text>
   </paragraph>
+  <button></button>
   <text>
     <TextField inputProps={{ inputMode: 'numeric',
     pattern: '[0-9]*' }} />
@@ -29680,17 +29757,22 @@ exports[`firefox /components/text-fields/ 1`] = `
       implements the following interface:
     </text>
   </paragraph>
+  <button></button>
   <text>
-    interface InputElement { focus(): void; value?: string; } const
-    MyInputComponent = React.forwardRef((props, ref) => { const {
-    component: Component, ...other } = props; // implement \`InputElement\`
-    interface React.useImperativeHandle(ref, () => ({ focus: () =>
-    { // logic to focus the rendered component from 3rd party belongs here
-    }, // hiding the value e.g. react-stripe-elements })); //
-    \`Component\` will be your \`SomeThirdPartyComponent\` from below return
-    <Component {...other} />; }); // usage <TextField
-    InputProps={{ inputComponent: MyInputComponent, inputProps: {
-    component: SomeThirdPartyComponent, }, }} />;
+    interface InputElement { focus(): void; value?: string; }
+  </text>
+  <button></button>
+  <text>
+    const MyInputComponent = React.forwardRef((props, ref) => { const
+    { component: Component, ...other } = props; // implement
+    \`InputElement\` interface React.useImperativeHandle(ref, () => ({
+    focus: () => { // logic to focus the rendered component from 3rd
+    party belongs here }, // hiding the value e.g. react-stripe-elements
+    })); // \`Component\` will be your \`SomeThirdPartyComponent\` from below
+    return <Component {...other} />; }); // usage
+    <TextField InputProps={{ inputComponent: MyInputComponent,
+    inputProps: { component: SomeThirdPartyComponent, }, }}
+    />;
   </text>
   <heading level="2">
     Accessibility
@@ -29703,6 +29785,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       this structure:
     </text>
   </paragraph>
+  <button></button>
   <text>
     <div class="form-control"> <label
     for="my-input">Email address</label> <input
@@ -29724,6 +29807,7 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>If you are composing the component:</text>
     </listitem>
   </list>
+  <button></button>
   <text>
     <FormControl> <InputLabel htmlFor="my-input">Email
     address</InputLabel> <Input id="my-input"
@@ -30169,6 +30253,7 @@ exports[`firefox /components/tooltips/ 1`] = `
       its props to the underlying DOM element.
     </text>
   </paragraph>
+  <button></button>
   <text>
     const MyComponent = React.forwardRef(function MyComponent(props, ref) {
     // Spread the props to the underlying DOM element. return <div
@@ -30390,6 +30475,7 @@ exports[`firefox /components/tooltips/ 1`] = `
       </text>
     </paragraph>
   </blockquote>
+  <button></button>
   <text>
     <Tooltip title="You don't have permission to do this">
     <span> <button disabled={disabled} style={disabled ?
@@ -30555,6 +30641,7 @@ exports[`firefox /components/tooltips/ 1`] = `
       depending on whether the child already has a label. For example, in:
     </text>
   </paragraph>
+  <button></button>
   <text>
     <button title="some more information">A
     button</button>
@@ -31088,6 +31175,7 @@ exports[`firefox /components/tree-view/ 1`] = `
       can be used to handle it.
     </text>
   </paragraph>
+  <button></button>
   <text>
     const data = { id: 'root', name: 'Parent',
     children: [ { id: '1', name: 'Child - 1', },

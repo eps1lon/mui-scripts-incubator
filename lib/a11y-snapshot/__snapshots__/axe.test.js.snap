@@ -1,10 +1,42 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`chromium / 1`] = `Array []`;
+exports[`chromium / 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+]
+`;
 
-exports[`chromium /api/button/ 1`] = `Array []`;
+exports[`chromium /api/button/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      "div:nth-child(4) > .markdown-body.css-REMOVED_UNSTABLE_EMOTION_HASH > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-category=\\"demo\\"]",
+      "div:nth-child(5) > .markdown-body.css-REMOVED_UNSTABLE_EMOTION_HASH > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-category=\\"demo\\"]",
+    ],
+  },
+]
+`;
 
-exports[`chromium /api/select/ 1`] = `Array []`;
+exports[`chromium /api/select/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      "div:nth-child(4) > .markdown-body.css-REMOVED_UNSTABLE_EMOTION_HASH > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-category=\\"demo\\"]",
+      "div:nth-child(5) > .markdown-body.css-REMOVED_UNSTABLE_EMOTION_HASH > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-category=\\"demo\\"]",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/breadcrumbs 1`] = `
 Array [
@@ -30,15 +62,51 @@ Array [
       ".MuiLoadingButton-loadingIndicatorStart > .MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorInherit",
     ],
   },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      "div:nth-child(16) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(40) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(42) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+    ],
+  },
 ]
 `;
 
-exports[`chromium /components/checkboxes/ 1`] = `Array []`;
+exports[`chromium /components/checkboxes/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/dialogs/ 1`] = `Array []`;
+exports[`chromium /components/dialogs/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/pagination/ 1`] = `
 Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
   Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
@@ -49,13 +117,47 @@ Array [
 ]
 `;
 
-exports[`chromium /components/pickers 1`] = `Array []`;
+exports[`chromium /components/pickers 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      "div:nth-child(8) > .markdown-body.css-REMOVED_UNSTABLE_EMOTION_HASH > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(10) > .markdown-body.css-REMOVED_UNSTABLE_EMOTION_HASH > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/radio-buttons 1`] = `Array []`;
+exports[`chromium /components/radio-buttons 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      "div:nth-child(24) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(28) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/rating/ 1`] = `Array []`;
 
-exports[`chromium /components/selects/ 1`] = `Array []`;
+exports[`chromium /components/selects/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      "div:nth-child(36) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(38) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(40) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/slider 1`] = `
 Array [
@@ -64,6 +166,14 @@ Array [
     "id": "aria-valid-attr-value",
     "nodes": Array [
       "input[aria-label=\\"Small\\\\ steps\\"]",
+    ],
+  },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      "div:nth-child(42) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(45) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
     ],
   },
   Object {
@@ -77,12 +187,50 @@ Array [
 ]
 `;
 
-exports[`chromium /components/switches/ 1`] = `Array []`;
+exports[`chromium /components/switches/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      "div:nth-child(20) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(26) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(36) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/tabs/ 1`] = `Array []`;
+exports[`chromium /components/tabs/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      "div:nth-child(24) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(40) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(42) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/text-fields/ 1`] = `
 Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      "div:nth-child(40) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(44) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(46) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(48) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(56) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(57) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(59) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(61) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+    ],
+  },
   Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/label?application=axeAPI",
     "id": "label",
@@ -97,8 +245,30 @@ Array [
 ]
 `;
 
-exports[`chromium /components/tooltips/ 1`] = `Array []`;
+exports[`chromium /components/tooltips/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      "div:nth-child(14) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(26) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+      "div:nth-child(36) > .css-REMOVED_UNSTABLE_EMOTION_HASH.markdown-body > .jssREMOVED_UNSTABLE_JSS_COUNTER.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiButtonBase-root-MuiIconButton-root[data-ga-event-action=\\"copy\\"]",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/transfer-list 1`] = `Array []`;
 
-exports[`chromium /components/tree-view/ 1`] = `Array []`;
+exports[`chromium /components/tree-view/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/button-name?application=axeAPI",
+    "id": "button-name",
+    "nodes": Array [
+      ".jssREMOVED_UNSTABLE_JSS_COUNTER",
+    ],
+  },
+]
+`;
