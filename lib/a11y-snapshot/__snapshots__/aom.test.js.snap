@@ -265,7 +265,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-beta.2. View versions page.</link>
+      <link>v5.0.0-beta.3. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -14785,6 +14785,16 @@ exports[`chromium /components/transfer-list 1`] = `
       more list items between lists.
     </text>
   </paragraph>
+  <list>
+    <listitem level="1">
+      <link>Feedback</link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+  </list>
   <heading level="2">
     Basic transfer list
     <text>Basic transfer list</text>
@@ -15877,7 +15887,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-beta.2. View versions page.</link>
+      <link>v5.0.0-beta.3. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -30703,6 +30713,18 @@ exports[`firefox /components/transfer-list 1`] = `
       more list items between lists.
     </text>
   </paragraph>
+  <list>
+    <listitem>
+      Feedback
+      <link>Feedback</link>
+    </listitem>
+    <listitem>
+      Scroll down to 'Exports Analysis' for a more detailed report.
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+  </list>
   <heading level="2">
     Basic transfer list
     <text>Basic transfer list</text>
