@@ -4053,6 +4053,579 @@ exports[`chromium /components/buttons/ 1`] = `
 
 `;
 
+exports[`chromium /components/cards/ 1`] = `
+<main>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
+    Card
+    <text>Card</text>
+  </heading>
+  <paragraph>
+    <text>Cards contain content and actions about a single subject.</text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Cards are surfaces that display content and actions on a single topic.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      They should be easy to scan for relevant and actionable information.
+      Elements, like text and images, should be placed on them in a way that
+      clearly indicates hierarchy.
+    </text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <link>Feedback</link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>Material Design</link>
+    </listitem>
+    <listitem level="1">
+      <link>Figma</link>
+    </listitem>
+    <listitem level="1">
+      <link>Adobe</link>
+    </listitem>
+    <listitem level="1">
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Basic card
+    <text>Basic card</text>
+  </heading>
+  <paragraph>
+    <text>
+      Although cards can support multiple actions, UI controls, and an overflow
+      menu, use restraint and remember that cards are entry points to more
+      complex and detailed information.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Word of the Day</text>
+  </paragraph>
+  <text>be•nev•o•lent</text>
+  <paragraph>
+    <text>adjective</text>
+  </paragraph>
+  <paragraph>
+    <text>well meaning and kindly.</text>
+    <LineBreak></LineBreak>
+    <text>"a benevolent smile"</text>
+  </paragraph>
+  <button>
+    LEARN MORE
+    <text>LEARN MORE</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="3">
+    Outlined Card
+    <text>Outlined Card</text>
+  </heading>
+  <paragraph>
+    <text>Set</text>
+    <code>$SOME_CODE</code>
+    <text>to render an outlined card.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Word of the Day</text>
+  </paragraph>
+  <text>be•nev•o•lent</text>
+  <paragraph>
+    <text>adjective</text>
+  </paragraph>
+  <paragraph>
+    <text>well meaning and kindly.</text>
+    <LineBreak></LineBreak>
+    <text>"a benevolent smile"</text>
+  </paragraph>
+  <button>
+    LEARN MORE
+    <text>LEARN MORE</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
+    Complex Interaction
+    <text>Complex Interaction</text>
+  </heading>
+  <paragraph>
+    <text>
+      On desktop, card content can expand. (Click the downward chevron to view
+      the recipe.)
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <text>RShrimp and Chorizo PaellaSeptember 14, 2016</text>
+  <button>settings</button>
+  <paragraph>
+    <text>
+      This impressive paella is a perfect party dish and a fun meal to cook
+      together with your guests. Add 1 cup of frozen peas along with the
+      mussels, if you like.
+    </text>
+  </paragraph>
+  <button>add to favorites</button>
+  <button>share</button>
+  <button>show more</button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Media
+    <text>Media</text>
+  </heading>
+  <paragraph>
+    <text>Example of a card using an image to reinforce the content.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <text>Lizard</text>
+  <paragraph>
+    <text>
+      Lizards are a widespread group of squamate reptiles, with over 6,000
+      species, ranging across all continents except Antarctica
+    </text>
+  </paragraph>
+  <button>
+    SHARE
+    <text>SHARE</text>
+  </button>
+  <button>
+    LEARN MORE
+    <text>LEARN MORE</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <paragraph>
+    <text>By default, we use the combination of a</text>
+    <code>$SOME_CODE</code>
+    <text>
+      element and abackground imageto display the media. It can be problematic
+      in some situations, for example, you might want to display a video or a
+      responsive image. Use the
+    </text>
+    <code>$SOME_CODE</code>
+    <text>prop for these use cases:</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <img description="Contemplative Reptile">Contemplative Reptile</img>
+  <text>Lizard</text>
+  <paragraph>
+    <text>
+      Lizards are a widespread group of squamate reptiles, with over 6,000
+      species, ranging across all continents except Antarctica
+    </text>
+  </paragraph>
+  <button>
+    SHARE
+    <text>SHARE</text>
+  </button>
+  <button>
+    LEARN MORE
+    <text>LEARN MORE</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <blockquote>
+    <paragraph>
+      <text>⚠️ When</text>
+      <code>$SOME_CODE</code>
+      <text>, CardMedia relies on</text>
+      <code>$SOME_CODE</code>
+      <text>for centering the image. It's not supported by IE11.</text>
+    </paragraph>
+  </blockquote>
+  <heading level="2">
+    Primary action
+    <text>Primary action</text>
+  </heading>
+  <paragraph>
+    <text>
+      Often a card allow users to interact with the entirety of its surface to
+      trigger its main action, be it an expansion, a link to another screen or
+      some other behavior. The action area of the card can be specified by
+      wrapping its contents in a
+    </text>
+    <code>$SOME_CODE</code>
+    <text>component.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    Contemplative Reptile Lizard Lizards are a widespread group of squamate
+    reptiles, with over 6,000 species, ranging across all continents except
+    Antarctica
+    <text>Lizard</text>
+    <paragraph>
+      <text>
+        Lizards are a widespread group of squamate reptiles, with over 6,000
+        species, ranging across all continents except Antarctica
+      </text>
+    </paragraph>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <paragraph>
+    <text>
+      A card can also offer supplemental actions which should stand detached
+      from the main action area in order to avoid event overlap.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    Contemplative Reptile Lizard Lizards are a widespread group of squamate
+    reptiles, with over 6,000 species, ranging across all continents except
+    Antarctica
+    <text>Lizard</text>
+    <paragraph>
+      <text>
+        Lizards are a widespread group of squamate reptiles, with over 6,000
+        species, ranging across all continents except Antarctica
+      </text>
+    </paragraph>
+  </button>
+  <button>
+    SHARE
+    <text>SHARE</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    UI Controls
+    <text>UI Controls</text>
+  </heading>
+  <paragraph>
+    <text>
+      Supplemental actions within the card are explicitly called out using
+      icons, text, and UI controls, typically placed at the bottom of the card.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>Here's an example of a media control card.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <text>Live From SpaceMac Miller</text>
+  <button>previous</button>
+  <button>play/pause</button>
+  <button>next</button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="2">
+    Theming
+    <text>Theming</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here is an example of theming the component. You can learn more about this
+      in the
+    </text>
+    <link>theming page</link>
+    <text>and</text>
+    <link>theme components page</link>
+  </paragraph>
+  <heading level="3">
+    Task Card
+    <text>Task Card</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <text>March 25thCheck for the API response and return the proper method</text>
+  <img></img>
+  <paragraph>
+    <text>Assigned to</text>
+  </paragraph>
+  <paragraph>
+    <text>Michael Scott</text>
+  </paragraph>
+  <progressbar
+    value="60"
+    valuemax="100"
+    valuemin="0"
+    valuetext=""
+  ></progressbar>
+  <paragraph>
+    <text>60%</text>
+  </paragraph>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="3">
+    Player Card
+    <text>Player Card</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <img></img>
+  <paragraph>
+    <text>Ultraviolet</text>
+  </paragraph>
+  <text>Basement • Beside Myself</text>
+  <button disabled="true"></button>
+  <button></button>
+  <button disabled="true"></button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <heading level="3">
+    Notification Card
+    <text>Notification Card</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <img></img>
+  <text>Angela Erickson12:50Great news</text>
+  <paragraph>
+    <text>Hey! Check this out, just a few minutes.</text>
+  </paragraph>
+  <text>3</text>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <paragraph>
+    <text>🎨 If you are looking for inspiration, you can check</text>
+    <link>MUI Treasury's customization examples</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    API
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem level="1">
+      <link>
+        <Card />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <CardActionArea />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <CardActions />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <CardContent />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <CardHeader />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <CardMedia />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <Collapse />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <Paper />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+  </list>
+  <FooterAsNonLandmark>
+    <separator orientation="horizontal"></separator>
+    <link>App Bar</link>
+    <group>
+      Was this page helpful?
+      <text>Was this page helpful?</text>
+      <button pressed="false">Yes</button>
+      <button pressed="false">No</button>
+    </group>
+    <link>Paper</link>
+  </FooterAsNonLandmark>
+  <navigation>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        <link>Basic card</link>
+        <list>
+          <listitem level="2">
+            <link>Outlined Card</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>Complex Interaction</link>
+      </listitem>
+      <listitem level="1">
+        <link>Media</link>
+      </listitem>
+      <listitem level="1">
+        <link>Primary action</link>
+      </listitem>
+      <listitem level="1">
+        <link>UI Controls</link>
+      </listitem>
+      <listitem level="1">
+        <link>Theming</link>
+        <list>
+          <listitem level="2">
+            <link>Task Card</link>
+          </listitem>
+          <listitem level="2">
+            <link>Player Card</link>
+          </listitem>
+          <listitem level="2">
+            <link>Notification Card</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        <link>API</link>
+      </listitem>
+    </list>
+  </navigation>
+</main>;
+
+`;
+
 exports[`chromium /components/checkboxes/ 1`] = `
 <main>
   <link>EDIT THIS PAGE</link>
@@ -19393,6 +19966,563 @@ exports[`firefox /components/buttons/ 1`] = `
           <listitem level="2">
             Cursor not-allowed
             <link>Cursor not-allowed</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        API
+        <link>API</link>
+      </listitem>
+    </list>
+  </landmark>
+</landmark>;
+
+`;
+
+exports[`firefox /components/cards/ 1`] = `
+<landmark>
+  <link>EDIT THIS PAGE</link>
+  <heading level="1">
+    Card
+    <text>Card</text>
+  </heading>
+  <paragraph>
+    <text>Cards contain content and actions about a single subject.</text>
+  </paragraph>
+  <paragraph>
+    <text>
+      Cards are surfaces that display content and actions on a single topic.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      They should be easy to scan for relevant and actionable information.
+      Elements, like text and images, should be placed on them in a way that
+      clearly indicates hierarchy.
+    </text>
+  </paragraph>
+  <list>
+    <listitem>
+      Feedback
+      <link>Feedback</link>
+    </listitem>
+    <listitem>
+      Scroll down to 'Exports Analysis' for a more detailed report.
+      <link>
+        Scroll down to 'Exports Analysis' for a more detailed report.
+      </link>
+    </listitem>
+    <listitem>
+      Material Design
+      <link>Material Design</link>
+    </listitem>
+    <listitem>
+      Figma
+      <link>Figma</link>
+    </listitem>
+    <listitem>
+      Adobe
+      <link>Adobe</link>
+    </listitem>
+    <listitem>
+      Sketch
+      <link>Sketch</link>
+    </listitem>
+  </list>
+  <heading level="2">
+    Basic card
+    <text>Basic card</text>
+  </heading>
+  <paragraph>
+    <text>
+      Although cards can support multiple actions, UI controls, and an overflow
+      menu, use restraint and remember that cards are entry points to more
+      complex and detailed information.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Word of the Day</text>
+  </paragraph>
+  <text>be•nev•o•lent</text>
+  <paragraph>
+    <text>adjective</text>
+  </paragraph>
+  <paragraph>
+    <text>well meaning and kindly.</text>
+    <whitespace></whitespace>
+    <text>"a benevolent smile"</text>
+  </paragraph>
+  <button>
+    LEARN MORE
+    <text>LEARN MORE</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Outlined Card
+    <text>Outlined Card</text>
+  </heading>
+  <paragraph>
+    <text>Set variant="outlined" to render an outlined card.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <paragraph>
+    <text>Word of the Day</text>
+  </paragraph>
+  <text>be•nev•o•lent</text>
+  <paragraph>
+    <text>adjective</text>
+  </paragraph>
+  <paragraph>
+    <text>well meaning and kindly.</text>
+    <whitespace></whitespace>
+    <text>"a benevolent smile"</text>
+  </paragraph>
+  <button>
+    LEARN MORE
+    <text>LEARN MORE</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Card variant="outlined">{card}</Card>
+  </text>
+  <heading level="2">
+    Complex Interaction
+    <text>Complex Interaction</text>
+  </heading>
+  <paragraph>
+    <text>
+      On desktop, card content can expand. (Click the downward chevron to view
+      the recipe.)
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <text>RShrimp and Chorizo PaellaSeptember 14, 2016</text>
+  <button>settings</button>
+  <paragraph>
+    <text>
+      This impressive paella is a perfect party dish and a fun meal to cook
+      together with your guests. Add 1 cup of frozen peas along with the
+      mussels, if you like.
+    </text>
+  </paragraph>
+  <button>add to favorites</button>
+  <button>share</button>
+  <button>show more</button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Media
+    <text>Media</text>
+  </heading>
+  <paragraph>
+    <text>Example of a card using an image to reinforce the content.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <text>Lizard</text>
+  <paragraph>
+    <text>
+      Lizards are a widespread group of squamate reptiles, with over 6,000
+      species, ranging across all continents except Antarctica
+    </text>
+  </paragraph>
+  <button>
+    SHARE
+    <text>SHARE</text>
+  </button>
+  <button>
+    LEARN MORE
+    <text>LEARN MORE</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <paragraph>
+    <text>
+      By default, we use the combination of a <div> element and a
+      background image to display the media. It can be problematic in some
+      situations, for example, you might want to display a video or a responsive
+      image. Use the component prop for these use cases:
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <img>Contemplative Reptile</img>
+  <text>Lizard</text>
+  <paragraph>
+    <text>
+      Lizards are a widespread group of squamate reptiles, with over 6,000
+      species, ranging across all continents except Antarctica
+    </text>
+  </paragraph>
+  <button>
+    SHARE
+    <text>SHARE</text>
+  </button>
+  <button>
+    LEARN MORE
+    <text>LEARN MORE</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <blockquote>
+    <paragraph>
+      <text>
+        ⚠️ When component="img", CardMedia relies on object-fit for
+        centering the image. It's not supported by IE11.
+      </text>
+    </paragraph>
+  </blockquote>
+  <heading level="2">
+    Primary action
+    <text>Primary action</text>
+  </heading>
+  <paragraph>
+    <text>
+      Often a card allow users to interact with the entirety of its surface to
+      trigger its main action, be it an expansion, a link to another screen or
+      some other behavior. The action area of the card can be specified by
+      wrapping its contents in a CardActionArea component.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    Contemplative Reptile Lizard Lizards are a widespread group of squamate
+    reptiles, with over 6,000 species, ranging across all continents except
+    Antarctica
+    <text>Lizard</text>
+    <paragraph>
+      <text>
+        Lizards are a widespread group of squamate reptiles, with over 6,000
+        species, ranging across all continents except Antarctica
+      </text>
+    </paragraph>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <paragraph>
+    <text>
+      A card can also offer supplemental actions which should stand detached
+      from the main action area in order to avoid event overlap.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <button>
+    Contemplative Reptile Lizard Lizards are a widespread group of squamate
+    reptiles, with over 6,000 species, ranging across all continents except
+    Antarctica
+    <text>Lizard</text>
+    <paragraph>
+      <text>
+        Lizards are a widespread group of squamate reptiles, with over 6,000
+        species, ranging across all continents except Antarctica
+      </text>
+    </paragraph>
+  </button>
+  <button>
+    SHARE
+    <text>SHARE</text>
+  </button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    UI Controls
+    <text>UI Controls</text>
+  </heading>
+  <paragraph>
+    <text>
+      Supplemental actions within the card are explicitly called out using
+      icons, text, and UI controls, typically placed at the bottom of the card.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>Here's an example of a media control card.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <text>Live From SpaceMac Miller</text>
+  <button>previous</button>
+  <button>play/pause</button>
+  <button>next</button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="2">
+    Theming
+    <text>Theming</text>
+  </heading>
+  <paragraph>
+    <text>
+      Here is an example of theming the component. You can learn more about this
+      in the
+    </text>
+    <link>theming page</link>
+    <text>and</text>
+    <link>theme components page</link>
+  </paragraph>
+  <heading level="3">
+    Task Card
+    <text>Task Card</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <text>March 25thCheck for the API response and return the proper method</text>
+  <img></img>
+  <paragraph>
+    <text>Assigned to</text>
+  </paragraph>
+  <paragraph>
+    <text>Michael Scott</text>
+  </paragraph>
+  <progressbar value="60" valuetext="60"></progressbar>
+  <paragraph>
+    <text>60%</text>
+  </paragraph>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Player Card
+    <text>Player Card</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <img></img>
+  <paragraph>
+    <text>Ultraviolet</text>
+  </paragraph>
+  <text>Basement • Beside Myself</text>
+  <button disabled="true"></button>
+  <button></button>
+  <button disabled="true"></button>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <heading level="3">
+    Notification Card
+    <text>Notification Card</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <img></img>
+  <text>
+    Angela Erickson12:50Great newsHey! Check this out, just a few minutes.3
+  </text>
+  <toolbar>
+    demo source
+    <button>Show the source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <paragraph>
+    <text>🎨 If you are looking for inspiration, you can check</text>
+    <link>MUI Treasury's customization examples</link>
+    <text>.</text>
+  </paragraph>
+  <heading level="2">
+    API
+    <text>API</text>
+  </heading>
+  <list>
+    <listitem>
+      <Card />
+      <link><Card /></link>
+    </listitem>
+    <listitem>
+      <CardActionArea />
+      <link><CardActionArea /></link>
+    </listitem>
+    <listitem>
+      <CardActions />
+      <link><CardActions /></link>
+    </listitem>
+    <listitem>
+      <CardContent />
+      <link><CardContent /></link>
+    </listitem>
+    <listitem>
+      <CardHeader />
+      <link><CardHeader /></link>
+    </listitem>
+    <listitem>
+      <CardMedia />
+      <link><CardMedia /></link>
+    </listitem>
+    <listitem>
+      <Collapse />
+      <link><Collapse /></link>
+    </listitem>
+    <listitem>
+      <Paper />
+      <link><Paper /></link>
+    </listitem>
+  </list>
+  <separator></separator>
+  <link>App Bar</link>
+  <group>
+    Was this page helpful?
+    <text>Was this page helpful?</text>
+    <togglebutton>Yes</togglebutton>
+    <togglebutton>No</togglebutton>
+  </group>
+  <link>Paper</link>
+  <landmark>
+    Page table of contents
+    <paragraph>
+      <text>Contents</text>
+    </paragraph>
+    <list>
+      <listitem level="1">
+        Basic cardOutlined Card
+        <link>Basic card</link>
+        <list>
+          <listitem level="2">
+            Outlined Card
+            <link>Outlined Card</link>
+          </listitem>
+        </list>
+      </listitem>
+      <listitem level="1">
+        Complex Interaction
+        <link>Complex Interaction</link>
+      </listitem>
+      <listitem level="1">
+        Media
+        <link>Media</link>
+      </listitem>
+      <listitem level="1">
+        Primary action
+        <link>Primary action</link>
+      </listitem>
+      <listitem level="1">
+        UI Controls
+        <link>UI Controls</link>
+      </listitem>
+      <listitem level="1">
+        ThemingTask CardPlayer CardNotification Card
+        <link>Theming</link>
+        <list>
+          <listitem level="2">
+            Task Card
+            <link>Task Card</link>
+          </listitem>
+          <listitem level="2">
+            Player Card
+            <link>Player Card</link>
+          </listitem>
+          <listitem level="2">
+            Notification Card
+            <link>Notification Card</link>
           </listitem>
         </list>
       </listitem>
