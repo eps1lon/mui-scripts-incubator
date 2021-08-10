@@ -15358,16 +15358,6 @@ exports[`chromium /components/transfer-list 1`] = `
       more list items between lists.
     </text>
   </paragraph>
-  <list>
-    <listitem level="1">
-      <link>Feedback</link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Scroll down to 'Exports Analysis' for a more detailed report.
-      </link>
-    </listitem>
-  </list>
   <heading level="2">
     Basic transfer list
     <text>Basic transfer list</text>
@@ -31843,18 +31833,6 @@ exports[`firefox /components/transfer-list 1`] = `
       more list items between lists.
     </text>
   </paragraph>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      Scroll down to 'Exports Analysis' for a more detailed report.
-      <link>
-        Scroll down to 'Exports Analysis' for a more detailed report.
-      </link>
-    </listitem>
-  </list>
   <heading level="2">
     Basic transfer list
     <text>Basic transfer list</text>
