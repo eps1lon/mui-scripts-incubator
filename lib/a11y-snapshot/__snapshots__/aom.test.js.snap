@@ -138,8 +138,10 @@ exports[`chromium / 1`] = `
       <img description="The fastest way to share code">bitsrc</img>
     </link>
     <link>
-      Next gen digital product studio.
-      <img>Next gen digital product studio.</img>
+      elevator
+      <img description="The dopest new hip hop, upcoming artsits, music news, culture, and style">
+        elevator
+      </img>
     </link>
     <link>
       call-em-all
@@ -158,12 +160,6 @@ exports[`chromium / 1`] = `
     <link>
       Screen recorder for Mac
       <img>Screen recorder for Mac</img>
-    </link>
-    <link>
-      elevator
-      <img description="The dopest new hip hop, upcoming artsits, music news, culture, and style">
-        elevator
-      </img>
     </link>
     <heading level="3">
       There are more!
@@ -265,7 +261,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-beta.3. View versions page.</link>
+      <link>v5.0.0-beta.2. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -1779,34 +1775,8 @@ exports[`chromium /api/select/ 1`] = `
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
-        Callback fired when a menu item is selected. Signature: function(event:
-        SelectChangeEvent<T>, child?: object) => void event: The event
-        source of the callback. You can pull out the new value by accessing
-        event.target.value (any). Warning: This is a generic event not a change
-        event unless the change event is caused by browser autofill. child: The
-        react element that was selected when native is false (default).
+        Callback fired when a menu item is selected.
         <text>Callback fired when a menu item is selected.</text>
-        <LineBreak></LineBreak>
-        <LineBreak></LineBreak>
-        <text>Signature:</text>
-        <LineBreak></LineBreak>
-        <code>$SOME_CODE</code>
-        <LineBreak></LineBreak>
-        <text>
-          event:The event source of the callback. You can pull out the new value
-          by accessing
-        </text>
-        <code>$SOME_CODE</code>
-        <text>
-          (any).Warning: This is a generic event not a change event unless the
-          change event is caused by browser autofill.
-        </text>
-        <LineBreak></LineBreak>
-        <text>child:The react element that was selected when</text>
-        <code>$SOME_CODE</code>
-        <text>is</text>
-        <code>$SOME_CODE</code>
-        <text>(default).</text>
       </gridcell>
     </row>
     <row>
@@ -4410,103 +4380,9 @@ exports[`chromium /components/cards/ 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
-    Theming
-    <text>Theming</text>
+    Customization
+    <text>Customization</text>
   </heading>
-  <paragraph>
-    <text>
-      Here is an example of theming the component. You can learn more about this
-      in the
-    </text>
-    <link>theming page</link>
-    <text>and</text>
-    <link>theme components page</link>
-  </paragraph>
-  <heading level="3">
-    Task Card
-    <text>Task Card</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <text>March 25thCheck for the API response and return the proper method</text>
-  <img></img>
-  <paragraph>
-    <text>Assigned to</text>
-  </paragraph>
-  <paragraph>
-    <text>Michael Scott</text>
-  </paragraph>
-  <progressbar
-    value="60"
-    valuemax="100"
-    valuemin="0"
-    valuetext=""
-  ></progressbar>
-  <paragraph>
-    <text>60%</text>
-  </paragraph>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <heading level="3">
-    Player Card
-    <text>Player Card</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <img></img>
-  <paragraph>
-    <text>Ultraviolet</text>
-  </paragraph>
-  <text>Basement • Beside Myself</text>
-  <button disabled="true"></button>
-  <button></button>
-  <button disabled="true"></button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <heading level="3">
-    Notification Card
-    <text>Notification Card</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <img></img>
-  <text>Angela Erickson12:50Great news</text>
-  <paragraph>
-    <text>Hey! Check this out, just a few minutes.</text>
-  </paragraph>
-  <text>3</text>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -4604,18 +4480,7 @@ exports[`chromium /components/cards/ 1`] = `
         <link>UI Controls</link>
       </listitem>
       <listitem level="1">
-        <link>Theming</link>
-        <list>
-          <listitem level="2">
-            <link>Task Card</link>
-          </listitem>
-          <listitem level="2">
-            <link>Player Card</link>
-          </listitem>
-          <listitem level="2">
-            <link>Notification Card</link>
-          </listitem>
-        </list>
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         <link>API</link>
@@ -12223,51 +12088,6 @@ exports[`chromium /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <heading level="2">
-    Theming
-    <text>Theming</text>
-  </heading>
-  <paragraph>
-    <text>
-      Here is an example of theming the component. You can learn more about this
-      in the
-    </text>
-    <link>theming page</link>
-    <text>and</text>
-    <link>theme components page</link>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <tablist level="1">
-    theme example
-    <tab selected="true">
-      Yesterday
-      <text>Yesterday</text>
-    </tab>
-    <tab>
-      Today
-      <text>Today</text>
-    </tab>
-    <tab>
-      Tomorrow
-      <text>Tomorrow</text>
-    </tab>
-  </tablist>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -12705,9 +12525,6 @@ exports[`chromium /components/tabs/ 1`] = `
       </listitem>
       <listitem level="1">
         <link>Customization</link>
-      </listitem>
-      <listitem level="1">
-        <link>Theming</link>
       </listitem>
       <listitem level="1">
         <link>Vertical tabs</link>
@@ -15358,16 +15175,6 @@ exports[`chromium /components/transfer-list 1`] = `
       more list items between lists.
     </text>
   </paragraph>
-  <list>
-    <listitem level="1">
-      <link>Feedback</link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        Scroll down to 'Exports Analysis' for a more detailed report.
-      </link>
-    </listitem>
-  </list>
   <heading level="2">
     Basic transfer list
     <text>Basic transfer list</text>
@@ -16314,9 +16121,12 @@ exports[`firefox / 1`] = `
       </img>
     </link>
     <link>
-      Next gen digital product studio.
-      <img value="https://spicefactory.co/">
-        Next gen digital product studio.
+      elevator
+      <img
+        description="The dopest new hip hop, upcoming artsits, music news, culture, and style"
+        value="https://www.elevatormag.com/"
+      >
+        elevator
       </img>
     </link>
     <link>
@@ -16339,15 +16149,6 @@ exports[`firefox / 1`] = `
     <link>
       Screen recorder for Mac
       <img value="https://www.movavi.com/">Screen recorder for Mac</img>
-    </link>
-    <link>
-      elevator
-      <img
-        description="The dopest new hip hop, upcoming artsits, music news, culture, and style"
-        value="https://www.elevatormag.com/"
-      >
-        elevator
-      </img>
     </link>
     <heading level="3">
       There are more!
@@ -16460,7 +16261,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-beta.3. View versions page.</link>
+      <link>v5.0.0-beta.2. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -17656,25 +17457,6 @@ exports[`firefox /api/select/ 1`] = `
       <cell></cell>
       <cell>
         <text>Callback fired when a menu item is selected.</text>
-        <whitespace></whitespace>
-        <whitespace></whitespace>
-        <text>Signature:</text>
-        <whitespace></whitespace>
-        <text>
-          function(event: SelectChangeEvent<T>, child?: object) => void
-        </text>
-        <whitespace></whitespace>
-        <text>
-          event: The event source of the callback. You can pull out the new
-          value by accessing event.target.value (any). Warning: This is a
-          generic event not a change event unless the change event is caused by
-          browser autofill.
-        </text>
-        <whitespace></whitespace>
-        <text>
-          child: The react element that was selected when native is false
-          (default).
-        </text>
       </cell>
     </row>
     <row>
@@ -20334,96 +20116,9 @@ exports[`firefox /components/cards/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Theming
-    <text>Theming</text>
+    Customization
+    <text>Customization</text>
   </heading>
-  <paragraph>
-    <text>
-      Here is an example of theming the component. You can learn more about this
-      in the
-    </text>
-    <link>theming page</link>
-    <text>and</text>
-    <link>theme components page</link>
-  </paragraph>
-  <heading level="3">
-    Task Card
-    <text>Task Card</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <text>March 25thCheck for the API response and return the proper method</text>
-  <img></img>
-  <paragraph>
-    <text>Assigned to</text>
-  </paragraph>
-  <paragraph>
-    <text>Michael Scott</text>
-  </paragraph>
-  <progressbar value="60" valuetext="60"></progressbar>
-  <paragraph>
-    <text>60%</text>
-  </paragraph>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="3">
-    Player Card
-    <text>Player Card</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <img></img>
-  <paragraph>
-    <text>Ultraviolet</text>
-  </paragraph>
-  <text>Basement • Beside Myself</text>
-  <button disabled="true"></button>
-  <button></button>
-  <button disabled="true"></button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="3">
-    Notification Card
-    <text>Notification Card</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <img></img>
-  <text>
-    Angela Erickson12:50Great newsHey! Check this out, just a few minutes.3
-  </text>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -20509,22 +20204,8 @@ exports[`firefox /components/cards/ 1`] = `
         <link>UI Controls</link>
       </listitem>
       <listitem level="1">
-        ThemingTask CardPlayer CardNotification Card
-        <link>Theming</link>
-        <list>
-          <listitem level="2">
-            Task Card
-            <link>Task Card</link>
-          </listitem>
-          <listitem level="2">
-            Player Card
-            <link>Player Card</link>
-          </listitem>
-          <listitem level="2">
-            Notification Card
-            <link>Notification Card</link>
-          </listitem>
-        </list>
+        Customization
+        <link>Customization</link>
       </listitem>
       <listitem level="1">
         API
@@ -28569,55 +28250,6 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <heading level="2">
-    Theming
-    <text>Theming</text>
-  </heading>
-  <paragraph>
-    <text>
-      Here is an example of theming the component. You can learn more about this
-      in the
-    </text>
-    <link>theming page</link>
-    <text>and</text>
-    <link>theme components page</link>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <tablist>
-    theme example
-    <tab selected="true">
-      Yesterday
-      <text>Yesterday</text>
-    </tab>
-    <tab>
-      Today
-      <text>Today</text>
-    </tab>
-    <tab>
-      Tomorrow
-      <text>Tomorrow</text>
-    </tab>
-  </tablist>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <ThemeProvider theme={theme}> <Tabs
-    value={value} onChange={handleChange}
-    aria-label="theme example"> <Tab label="Yesterday"
-    /> <Tab label="Today" /> <Tab
-    label="Tomorrow" /> </Tabs> </ThemeProvider>
-  </text>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -29049,10 +28681,6 @@ exports[`firefox /components/tabs/ 1`] = `
       <listitem level="1">
         Customization
         <link>Customization</link>
-      </listitem>
-      <listitem level="1">
-        Theming
-        <link>Theming</link>
       </listitem>
       <listitem level="1">
         Vertical tabs
@@ -31843,18 +31471,6 @@ exports[`firefox /components/transfer-list 1`] = `
       more list items between lists.
     </text>
   </paragraph>
-  <list>
-    <listitem>
-      Feedback
-      <link>Feedback</link>
-    </listitem>
-    <listitem>
-      Scroll down to 'Exports Analysis' for a more detailed report.
-      <link>
-        Scroll down to 'Exports Analysis' for a more detailed report.
-      </link>
-    </listitem>
-  </list>
   <heading level="2">
     Basic transfer list
     <text>Basic transfer list</text>
