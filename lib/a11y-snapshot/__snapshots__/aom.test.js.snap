@@ -15523,6 +15523,35 @@ exports[`chromium /components/transfer-list 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
+    Limitations
+    <text>Limitations</text>
+  </heading>
+  <paragraph>
+    <text>The component comes with a couple of limitations:</text>
+  </paragraph>
+  <list>
+    <listitem level="1">
+      <text>
+        It only works on desktop. If you have a limited amount of options to
+        select, prefer the
+      </text>
+      <link>Autocomplete</link>
+      <text>
+        component. If mobile support is important for you, have a look at
+      </text>
+      <link>#27579</link>
+      <text>.</text>
+    </listitem>
+    <listitem level="1">
+      <text>
+        There are no high-level components exported from npm. The demos are
+        based on composition. If this is important for you, have a look at
+      </text>
+      <link>#27579</link>
+      <text>.</text>
+    </listitem>
+  </list>
+  <heading level="2">
     API
     <text>API</text>
   </heading>
@@ -15574,6 +15603,9 @@ exports[`chromium /components/transfer-list 1`] = `
       </listitem>
       <listitem level="1">
         <link>Enhanced transfer list</link>
+      </listitem>
+      <listitem level="1">
+        <link>Limitations</link>
       </listitem>
       <listitem level="1">
         <link>API</link>
@@ -32010,6 +32042,40 @@ exports[`firefox /components/transfer-list 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
+    Limitations
+    <text>Limitations</text>
+  </heading>
+  <paragraph>
+    <text>The component comes with a couple of limitations:</text>
+  </paragraph>
+  <list>
+    <listitem>
+      It only works on desktop. If you have a limited amount of options to
+      select, prefer the Autocomplete component. If mobile support is important
+      for you, have a look at #27579 .
+      <text>
+        It only works on desktop. If you have a limited amount of options to
+        select, prefer the
+      </text>
+      <link>Autocomplete</link>
+      <text>
+        component. If mobile support is important for you, have a look at
+      </text>
+      <link>#27579</link>
+      <text>.</text>
+    </listitem>
+    <listitem>
+      There are no high-level components exported from npm. The demos are based
+      on composition. If this is important for you, have a look at #27579 .
+      <text>
+        There are no high-level components exported from npm. The demos are
+        based on composition. If this is important for you, have a look at
+      </text>
+      <link>#27579</link>
+      <text>.</text>
+    </listitem>
+  </list>
+  <heading level="2">
     API
     <text>API</text>
   </heading>
@@ -32053,6 +32119,10 @@ exports[`firefox /components/transfer-list 1`] = `
       <listitem>
         Enhanced transfer list
         <link>Enhanced transfer list</link>
+      </listitem>
+      <listitem>
+        Limitations
+        <link>Limitations</link>
       </listitem>
       <listitem>
         API
