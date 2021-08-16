@@ -6,18 +6,18 @@ exports[`chromium / 1`] = `
   <link>Skip to content</link>
   <banner>
     <button>Open main navigation</button>
+    <combobox haspopup="menu">
+      Change language
+      <text>English</text>
+    </combobox>
     <searchbox>Search</searchbox>
     <combobox autocomplete="list" haspopup="listbox">
       Search
     </combobox>
     <text>Ctrl+K</text>
-    <combobox haspopup="menu">
-      Change language
-      <text>ENGLISH</text>
-    </combobox>
-    <button>Toggle settings drawer</button>
-    <combobox haspopup="menu">Toggle notifications panel</combobox>
     <link>GitHub repository</link>
+    <combobox haspopup="menu">Toggle notifications panel</combobox>
+    <button>Toggle settings drawer</button>
   </banner>
   <navigation>documentation</navigation>
   <main>
@@ -32,7 +32,7 @@ exports[`chromium / 1`] = `
         own design system, or start with Material Design.
       </text>
     </paragraph>
-    <link>GET STARTED</link>
+    <link>Get Started</link>
     <link>Star</link>
     <link>Follow</link>
     <link>Get Professional Support</link>
@@ -63,7 +63,7 @@ exports[`chromium / 1`] = `
       </code>
     </Pre>
     <separator orientation="horizontal"></separator>
-    <link>READ INSTALLATION DOCS</link>
+    <link>Read installation docs</link>
     <heading level="2">
       Usage
       <text>Usage</text>
@@ -81,7 +81,7 @@ exports[`chromium / 1`] = `
       </code>
     </Pre>
     <separator orientation="horizontal"></separator>
-    <link>EXPLORE THE DOCS</link>
+    <link>Explore the docs</link>
     <heading level="2">
       Premium themes
       <text>Premium themes</text>
@@ -96,7 +96,7 @@ exports[`chromium / 1`] = `
       Browse themes
       <img>Browse themes</img>
     </link>
-    <link>BROWSE THEMES</link>
+    <link>Browse themes</link>
     <separator orientation="horizontal"></separator>
     <heading level="2">
       Material-UI's sponsors
@@ -209,7 +209,7 @@ exports[`chromium / 1`] = `
     <paragraph>
       <text>Are you using Material-UI?</text>
     </paragraph>
-    <link>LET US KNOW!</link>
+    <link>Let us know!</link>
   </main>
   <separator orientation="horizontal"></separator>
   <contentinfo>
@@ -265,7 +265,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-beta.4. View versions page.</link>
+      <link>v5.0.0-beta.3. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -278,7 +278,7 @@ exports[`chromium / 1`] = `
 
 exports[`chromium /api/button/ 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Button API
     <text>ButtonAPI</text>
@@ -1385,7 +1385,7 @@ exports[`chromium /api/button/ 1`] = `
 
 exports[`chromium /api/select/ 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Select API
     <text>SelectAPI</text>
@@ -2304,7 +2304,7 @@ exports[`chromium /api/select/ 1`] = `
 
 exports[`chromium /components/breadcrumbs 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Breadcrumbs
     <text>Breadcrumbs</text>
@@ -2768,7 +2768,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
 
 exports[`chromium /components/button-group/ 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Button group
     <text>Button group</text>
@@ -3167,7 +3167,7 @@ exports[`chromium /components/button-group/ 1`] = `
 
 exports[`chromium /components/buttons/ 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Button
     <text>Button</text>
@@ -4055,7 +4055,7 @@ exports[`chromium /components/buttons/ 1`] = `
 
 exports[`chromium /components/cards/ 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Card
     <text>Card</text>
@@ -4628,7 +4628,7 @@ exports[`chromium /components/cards/ 1`] = `
 
 exports[`chromium /components/checkboxes/ 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Checkbox
     <text>Checkbox</text>
@@ -5199,7 +5199,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
 
 exports[`chromium /components/dialogs/ 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Dialog
     <text>Dialog</text>
@@ -5814,7 +5814,7 @@ exports[`chromium /components/dialogs/ 1`] = `
 
 exports[`chromium /components/pagination/ 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Pagination
     <text>Pagination</text>
@@ -7219,7 +7219,7 @@ exports[`chromium /components/pagination/ 1`] = `
 
 exports[`chromium /components/pickers 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Date / Time pickers
     <text>Date / Time pickers</text>
@@ -7543,7 +7543,7 @@ exports[`chromium /components/pickers 1`] = `
 
 exports[`chromium /components/radio-buttons 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Radio
     <text>Radio</text>
@@ -8211,7 +8211,7 @@ exports[`chromium /components/radio-buttons 1`] = `
 
 exports[`chromium /components/rating/ 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Rating
     <text>Rating</text>
@@ -8933,7 +8933,7 @@ exports[`chromium /components/rating/ 1`] = `
 
 exports[`chromium /components/selects/ 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Select
     <text>Select</text>
@@ -9737,7 +9737,7 @@ exports[`chromium /components/selects/ 1`] = `
 
 exports[`chromium /components/slider 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Slider
     <text>Slider</text>
@@ -10886,7 +10886,7 @@ exports[`chromium /components/slider 1`] = `
 
 exports[`chromium /components/switches/ 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Switch
     <text>Switch</text>
@@ -11574,7 +11574,7 @@ exports[`chromium /components/switches/ 1`] = `
 
 exports[`chromium /components/tabs/ 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Tabs
     <text>Tabs</text>
@@ -12740,7 +12740,7 @@ exports[`chromium /components/tabs/ 1`] = `
 
 exports[`chromium /components/text-fields/ 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Text Field
     <text>Text Field</text>
@@ -14610,7 +14610,7 @@ exports[`chromium /components/text-fields/ 1`] = `
 
 exports[`chromium /components/tooltips/ 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Tooltip
     <text>Tooltip</text>
@@ -15347,7 +15347,7 @@ exports[`chromium /components/tooltips/ 1`] = `
 
 exports[`chromium /components/transfer-list 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Transfer List
     <text>Transfer List</text>
@@ -15523,35 +15523,6 @@ exports[`chromium /components/transfer-list 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
-    Limitations
-    <text>Limitations</text>
-  </heading>
-  <paragraph>
-    <text>The component comes with a couple of limitations:</text>
-  </paragraph>
-  <list>
-    <listitem level="1">
-      <text>
-        It only works on desktop. If you have a limited amount of options to
-        select, prefer the
-      </text>
-      <link>Autocomplete</link>
-      <text>
-        component. If mobile support is important for you, have a look at
-      </text>
-      <link>#27579</link>
-      <text>.</text>
-    </listitem>
-    <listitem level="1">
-      <text>
-        There are no high-level components exported from npm. The demos are
-        based on composition. If this is important for you, have a look at
-      </text>
-      <link>#27579</link>
-      <text>.</text>
-    </listitem>
-  </list>
-  <heading level="2">
     API
     <text>API</text>
   </heading>
@@ -15605,9 +15576,6 @@ exports[`chromium /components/transfer-list 1`] = `
         <link>Enhanced transfer list</link>
       </listitem>
       <listitem level="1">
-        <link>Limitations</link>
-      </listitem>
-      <listitem level="1">
         <link>API</link>
       </listitem>
     </list>
@@ -15618,7 +15586,7 @@ exports[`chromium /components/transfer-list 1`] = `
 
 exports[`chromium /components/tree-view/ 1`] = `
 <main>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Tree View
     <text>Tree View</text>
@@ -16212,17 +16180,17 @@ exports[`firefox / 1`] = `
   <link>Skip to content</link>
   <landmark>
     <button>Open main navigation</button>
+    <buttonmenu haspopup="true">
+      Change language
+      <text>English</text>
+    </buttonmenu>
     <combobox autocomplete="list" haspopup="true">
       Search
     </combobox>
     <text>Ctrl+K</text>
-    <buttonmenu haspopup="true">
-      Change language
-      <text>ENGLISH</text>
-    </buttonmenu>
-    <button>Toggle settings drawer</button>
-    <buttonmenu haspopup="true">Toggle notifications panel</buttonmenu>
     <link>GitHub repository</link>
+    <buttonmenu haspopup="true">Toggle notifications panel</buttonmenu>
+    <button>Toggle settings drawer</button>
   </landmark>
   <landmark>documentation</landmark>
   <landmark>
@@ -16238,7 +16206,7 @@ exports[`firefox / 1`] = `
         own design system, or start with Material Design.
       </text>
     </paragraph>
-    <link>GET STARTED</link>
+    <link>Get Started</link>
     <link>Star</link>
     <link>Follow</link>
     <link>Get Professional Support</link>
@@ -16260,7 +16228,7 @@ exports[`firefox / 1`] = `
       />
     </text>
     <separator></separator>
-    <link>READ INSTALLATION DOCS</link>
+    <link>Read installation docs</link>
     <heading level="2">
       Usage
       <text>Usage</text>
@@ -16272,7 +16240,7 @@ exports[`firefox / 1`] = `
       { return <Button>Hello World</Button>; }
     </text>
     <separator></separator>
-    <link>EXPLORE THE DOCS</link>
+    <link>Explore the docs</link>
     <heading level="2">
       Premium themes
       <text>Premium themes</text>
@@ -16289,7 +16257,7 @@ exports[`firefox / 1`] = `
         Browse themes
       </img>
     </link>
-    <link>BROWSE THEMES</link>
+    <link>Browse themes</link>
     <separator></separator>
     <heading level="2">
       Material-UI's sponsors
@@ -16425,7 +16393,7 @@ exports[`firefox / 1`] = `
     <paragraph>
       <text>Are you using Material-UI?</text>
     </paragraph>
-    <link>LET US KNOW!</link>
+    <link>Let us know!</link>
   </landmark>
   <separator></separator>
   <landmark>
@@ -16492,7 +16460,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-beta.4. View versions page.</link>
+      <link>v5.0.0-beta.3. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -16507,7 +16475,7 @@ exports[`firefox / 1`] = `
 
 exports[`firefox /api/button/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Button API
     <text>Button API</text>
@@ -17371,7 +17339,7 @@ exports[`firefox /api/button/ 1`] = `
         <link>Component name</link>
       </listitem>
       <listitem level="1">
-        PropsInheritance
+        Props Inheritance
         <link>Props</link>
         <list>
           <listitem level="2">
@@ -17396,7 +17364,7 @@ exports[`firefox /api/button/ 1`] = `
 
 exports[`firefox /api/select/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Select API
     <text>Select API</text>
@@ -18094,7 +18062,7 @@ exports[`firefox /api/select/ 1`] = `
         <link>Component name</link>
       </listitem>
       <listitem level="1">
-        PropsInheritance
+        Props Inheritance
         <link>Props</link>
         <list>
           <listitem level="2">
@@ -18119,7 +18087,7 @@ exports[`firefox /api/select/ 1`] = `
 
 exports[`firefox /components/breadcrumbs 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Breadcrumbs
     <text>Breadcrumbs</text>
@@ -18651,7 +18619,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
 
 exports[`firefox /components/button-group/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Button group
     <text>Button group</text>
@@ -19067,7 +19035,7 @@ exports[`firefox /components/button-group/ 1`] = `
 
 exports[`firefox /components/buttons/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Button
     <text>Button</text>
@@ -19924,7 +19892,7 @@ exports[`firefox /components/buttons/ 1`] = `
     </paragraph>
     <list>
       <listitem level="1">
-        Basic ButtonText buttonsContained buttonsOutlined buttons
+        Basic Button Text buttons Contained buttons Outlined buttons
         <link>Basic Button</link>
         <list>
           <listitem level="2">
@@ -19962,7 +19930,7 @@ exports[`firefox /components/buttons/ 1`] = `
         <link>Buttons with icons and label</link>
       </listitem>
       <listitem level="1">
-        Icon buttonSizesColors
+        Icon button Sizes Colors
         <link>Icon button</link>
         <list>
           <listitem level="2">
@@ -19992,7 +19960,7 @@ exports[`firefox /components/buttons/ 1`] = `
         <link>Third-party routing library</link>
       </listitem>
       <listitem level="1">
-        LimitationsCursor not-allowed
+        Limitations Cursor not-allowed
         <link>Limitations</link>
         <list>
           <listitem level="2">
@@ -20013,7 +19981,7 @@ exports[`firefox /components/buttons/ 1`] = `
 
 exports[`firefox /components/cards/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Card
     <text>Card</text>
@@ -20515,7 +20483,7 @@ exports[`firefox /components/cards/ 1`] = `
     </paragraph>
     <list>
       <listitem level="1">
-        Basic cardOutlined Card
+        Basic card Outlined Card
         <link>Basic card</link>
         <list>
           <listitem level="2">
@@ -20541,7 +20509,7 @@ exports[`firefox /components/cards/ 1`] = `
         <link>UI Controls</link>
       </listitem>
       <listitem level="1">
-        ThemingTask CardPlayer CardNotification Card
+        Theming Task Card Player Card Notification Card
         <link>Theming</link>
         <list>
           <listitem level="2">
@@ -20570,7 +20538,7 @@ exports[`firefox /components/cards/ 1`] = `
 
 exports[`firefox /components/checkboxes/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Checkbox
     <text>Checkbox</text>
@@ -21177,7 +21145,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
 
 exports[`firefox /components/dialogs/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Dialog
     <text>Dialog</text>
@@ -21812,7 +21780,7 @@ exports[`firefox /components/dialogs/ 1`] = `
 
 exports[`firefox /components/pagination/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Pagination
     <text>Pagination</text>
@@ -23407,7 +23375,7 @@ exports[`firefox /components/pagination/ 1`] = `
         <link>Table pagination</link>
       </listitem>
       <listitem level="1">
-        AccessibilityARIAKeyboard
+        Accessibility ARIA Keyboard
         <link>Accessibility</link>
         <list>
           <listitem level="2">
@@ -23432,7 +23400,7 @@ exports[`firefox /components/pagination/ 1`] = `
 
 exports[`firefox /components/pickers 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Date / Time pickers
     <text>Date / Time pickers</text>
@@ -23730,7 +23698,7 @@ exports[`firefox /components/pickers 1`] = `
     </paragraph>
     <list>
       <listitem level="1">
-        React componentsSetup
+        React components Setup
         <link>React components</link>
         <list>
           <listitem level="2">
@@ -23755,7 +23723,7 @@ exports[`firefox /components/pickers 1`] = `
 
 exports[`firefox /components/radio-buttons 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Radio
     <text>Radio</text>
@@ -24443,7 +24411,7 @@ exports[`firefox /components/radio-buttons 1`] = `
     </paragraph>
     <list>
       <listitem level="1">
-        Radio groupDirectionControlled
+        Radio group Direction Controlled
         <link>Radio group</link>
         <list>
           <listitem level="2">
@@ -24481,7 +24449,7 @@ exports[`firefox /components/radio-buttons 1`] = `
         <link>Customization</link>
       </listitem>
       <listitem level="1">
-        useRadioGroupAPI
+        useRadioGroup API
         <link>useRadioGroup</link>
         <list>
           <listitem level="2">
@@ -24510,7 +24478,7 @@ exports[`firefox /components/radio-buttons 1`] = `
 
 exports[`firefox /components/rating/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Rating
     <text>Rating</text>
@@ -25345,7 +25313,7 @@ exports[`firefox /components/rating/ 1`] = `
         <link>Radio group</link>
       </listitem>
       <listitem level="1">
-        AccessibilityARIAKeyboard
+        Accessibility ARIA Keyboard
         <link>Accessibility</link>
         <list>
           <listitem level="2">
@@ -25370,7 +25338,7 @@ exports[`firefox /components/rating/ 1`] = `
 
 exports[`firefox /components/selects/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Select
     <text>Select</text>
@@ -26162,8 +26130,8 @@ exports[`firefox /components/selects/ 1`] = `
         <link>Advanced features</link>
       </listitem>
       <listitem level="1">
-        PropsFilled and standard variantsLabels and helper textAuto widthOther
-        props
+        Props Filled and standard variants Labels and helper text Auto width
+        Other props
         <link>Props</link>
         <list>
           <listitem level="2">
@@ -26197,7 +26165,7 @@ exports[`firefox /components/selects/ 1`] = `
         <link>Customization</link>
       </listitem>
       <listitem level="1">
-        Multiple selectDefaultCheckmarksChipPlaceholderNative
+        Multiple select Default Checkmarks Chip Placeholder Native
         <link>Multiple select</link>
         <list>
           <listitem level="2">
@@ -26250,7 +26218,7 @@ exports[`firefox /components/selects/ 1`] = `
 
 exports[`firefox /components/slider 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Slider
     <text>Slider</text>
@@ -27097,7 +27065,7 @@ exports[`firefox /components/slider 1`] = `
         <link>Sizes</link>
       </listitem>
       <listitem level="1">
-        Discrete slidersSmall stepsCustom marksRestricted valuesLabel always
+        Discrete sliders Small steps Custom marks Restricted values Label always
         visible
         <link>Discrete sliders</link>
         <list>
@@ -27120,7 +27088,7 @@ exports[`firefox /components/slider 1`] = `
         </list>
       </listitem>
       <listitem level="1">
-        Range sliderMinimum distance
+        Range slider Minimum distance
         <link>Range slider</link>
         <list>
           <listitem level="2">
@@ -27138,7 +27106,7 @@ exports[`firefox /components/slider 1`] = `
         <link>Color</link>
       </listitem>
       <listitem level="1">
-        CustomizationMusic player
+        Customization Music player
         <link>Customization</link>
         <list>
           <listitem level="2">
@@ -27152,7 +27120,7 @@ exports[`firefox /components/slider 1`] = `
         <link>Vertical sliders</link>
       </listitem>
       <listitem level="1">
-        TrackRemoved trackInverted track
+        Track Removed track Inverted track
         <link>Track</link>
         <list>
           <listitem level="2">
@@ -27178,7 +27146,7 @@ exports[`firefox /components/slider 1`] = `
         <link>Accessibility</link>
       </listitem>
       <listitem level="1">
-        LimitationsIE 11
+        Limitations IE 11
         <link>Limitations</link>
         <list>
           <listitem level="2">
@@ -27199,7 +27167,7 @@ exports[`firefox /components/slider 1`] = `
 
 exports[`firefox /components/switches/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Switch
     <text>Switch</text>
@@ -27863,7 +27831,7 @@ exports[`firefox /components/switches/ 1`] = `
         <link>Customization</link>
       </listitem>
       <listitem level="1">
-        Unstyled switchesRecreation of Material-UI's SwitchuseSwitch hook
+        Unstyled switches Recreation of Material-UI's Switch useSwitch hook
         <link>Unstyled switches</link>
         <list>
           <listitem level="2">
@@ -27900,7 +27868,7 @@ exports[`firefox /components/switches/ 1`] = `
 
 exports[`firefox /components/tabs/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Tabs
     <text>Tabs</text>
@@ -29046,7 +29014,7 @@ exports[`firefox /components/tabs/ 1`] = `
         <link>Disabled tab</link>
       </listitem>
       <listitem level="1">
-        Fixed tabsFull widthCentered
+        Fixed tabs Full width Centered
         <link>Fixed tabs</link>
         <list>
           <listitem level="2">
@@ -29060,7 +29028,7 @@ exports[`firefox /components/tabs/ 1`] = `
         </list>
       </listitem>
       <listitem level="1">
-        Scrollable tabsAutomatic scroll buttonsForced scroll buttonsPrevent
+        Scrollable tabs Automatic scroll buttons Forced scroll buttons Prevent
         scroll buttons
         <link>Scrollable tabs</link>
         <list>
@@ -29103,7 +29071,7 @@ exports[`firefox /components/tabs/ 1`] = `
         <link>Third-party routing library</link>
       </listitem>
       <listitem level="1">
-        AccessibilityKeyboard navigation
+        Accessibility Keyboard navigation
         <link>Accessibility</link>
         <list>
           <listitem level="2">
@@ -29124,7 +29092,7 @@ exports[`firefox /components/tabs/ 1`] = `
 
 exports[`firefox /components/text-fields/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Text Field
     <text>Text Field</text>
@@ -31022,7 +30990,7 @@ exports[`firefox /components/text-fields/ 1`] = `
         <link>Select</link>
       </listitem>
       <listitem level="1">
-        IconsInput Adornments
+        Icons Input Adornments
         <link>Icons</link>
         <list>
           <listitem level="2">
@@ -31068,7 +31036,7 @@ exports[`firefox /components/text-fields/ 1`] = `
         <link>useFormControl</link>
       </listitem>
       <listitem level="1">
-        LimitationsShrinkFloating labeltype="number"Helper text
+        Limitations Shrink Floating label type="number" Helper text
         <link>Limitations</link>
         <list>
           <listitem level="2">
@@ -31113,7 +31081,7 @@ exports[`firefox /components/text-fields/ 1`] = `
 
 exports[`firefox /components/tooltips/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Tooltip
     <text>Tooltip</text>
@@ -31864,7 +31832,7 @@ exports[`firefox /components/tooltips/ 1`] = `
 
 exports[`firefox /components/transfer-list 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Transfer List
     <text>Transfer List</text>
@@ -32042,40 +32010,6 @@ exports[`firefox /components/transfer-list 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Limitations
-    <text>Limitations</text>
-  </heading>
-  <paragraph>
-    <text>The component comes with a couple of limitations:</text>
-  </paragraph>
-  <list>
-    <listitem>
-      It only works on desktop. If you have a limited amount of options to
-      select, prefer the Autocomplete component. If mobile support is important
-      for you, have a look at #27579 .
-      <text>
-        It only works on desktop. If you have a limited amount of options to
-        select, prefer the
-      </text>
-      <link>Autocomplete</link>
-      <text>
-        component. If mobile support is important for you, have a look at
-      </text>
-      <link>#27579</link>
-      <text>.</text>
-    </listitem>
-    <listitem>
-      There are no high-level components exported from npm. The demos are based
-      on composition. If this is important for you, have a look at #27579 .
-      <text>
-        There are no high-level components exported from npm. The demos are
-        based on composition. If this is important for you, have a look at
-      </text>
-      <link>#27579</link>
-      <text>.</text>
-    </listitem>
-  </list>
-  <heading level="2">
     API
     <text>API</text>
   </heading>
@@ -32121,10 +32055,6 @@ exports[`firefox /components/transfer-list 1`] = `
         <link>Enhanced transfer list</link>
       </listitem>
       <listitem>
-        Limitations
-        <link>Limitations</link>
-      </listitem>
-      <listitem>
         API
         <link>API</link>
       </listitem>
@@ -32136,7 +32066,7 @@ exports[`firefox /components/transfer-list 1`] = `
 
 exports[`firefox /components/tree-view/ 1`] = `
 <landmark>
-  <link>EDIT THIS PAGE</link>
+  <link>Edit this page</link>
   <heading level="1">
     Tree View
     <text>Tree View</text>
@@ -32728,7 +32658,7 @@ exports[`firefox /components/tree-view/ 1`] = `
         <link>ContentComponent prop</link>
       </listitem>
       <listitem level="1">
-        CustomizationCustom icons, border and animationGmail clone
+        Customization Custom icons, border and animation Gmail clone
         <link>Customization</link>
         <list>
           <listitem level="2">
