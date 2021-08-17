@@ -4196,6 +4196,7 @@ exports[`chromium /components/cards/ 1`] = `
   </button>
   <text>RShrimp and Chorizo PaellaSeptember 14, 2016</text>
   <button>settings</button>
+  <img>Paella dish</img>
   <paragraph>
     <text>
       This impressive paella is a perfect party dish and a fun meal to cook
@@ -4227,6 +4228,7 @@ exports[`chromium /components/cards/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <img>green iguana</img>
   <text>Lizard</text>
   <paragraph>
     <text>
@@ -4267,7 +4269,7 @@ exports[`chromium /components/cards/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img description="Contemplative Reptile">Contemplative Reptile</img>
+  <img>green iguana</img>
   <text>Lizard</text>
   <paragraph>
     <text>
@@ -4321,9 +4323,9 @@ exports[`chromium /components/cards/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    Contemplative Reptile Lizard Lizards are a widespread group of squamate
-    reptiles, with over 6,000 species, ranging across all continents except
-    Antarctica
+    green iguana Lizard Lizards are a widespread group of squamate reptiles,
+    with over 6,000 species, ranging across all continents except Antarctica
+    <img>green iguana</img>
     <text>Lizard</text>
     <paragraph>
       <text>
@@ -4353,9 +4355,9 @@ exports[`chromium /components/cards/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    Contemplative Reptile Lizard Lizards are a widespread group of squamate
-    reptiles, with over 6,000 species, ranging across all continents except
-    Antarctica
+    green iguana Lizard Lizards are a widespread group of squamate reptiles,
+    with over 6,000 species, ranging across all continents except Antarctica
+    <img>green iguana</img>
     <text>Lizard</text>
     <paragraph>
       <text>
@@ -4399,6 +4401,7 @@ exports[`chromium /components/cards/ 1`] = `
   <button>previous</button>
   <button>play/pause</button>
   <button>next</button>
+  <img>Live from space album cover</img>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -4431,7 +4434,7 @@ exports[`chromium /components/cards/ 1`] = `
     navigation of our components.
   </button>
   <text>March 25thCheck for the API response and return the proper method</text>
-  <img></img>
+  <img>Michael Scott</img>
   <paragraph>
     <text>Assigned to</text>
   </paragraph>
@@ -4465,14 +4468,14 @@ exports[`chromium /components/cards/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img></img>
+  <img>Beside Myself album cover</img>
   <paragraph>
     <text>Ultraviolet</text>
   </paragraph>
   <text>Basement • Beside Myself</text>
-  <button disabled="true"></button>
-  <button></button>
-  <button disabled="true"></button>
+  <button disabled="true">fast rewind</button>
+  <button>play</button>
+  <button disabled="true">fast forward</button>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -4491,7 +4494,7 @@ exports[`chromium /components/cards/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img></img>
+  <img>Angela Erickson</img>
   <text>Angela Erickson12:50Great news</text>
   <paragraph>
     <text>Hey! Check this out, just a few minutes.</text>
@@ -20158,6 +20161,7 @@ exports[`firefox /components/cards/ 1`] = `
   </button>
   <text>RShrimp and Chorizo PaellaSeptember 14, 2016</text>
   <button>settings</button>
+  <img>Paella dish</img>
   <paragraph>
     <text>
       This impressive paella is a perfect party dish and a fun meal to cook
@@ -20189,6 +20193,7 @@ exports[`firefox /components/cards/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
+  <img>green iguana</img>
   <text>Lizard</text>
   <paragraph>
     <text>
@@ -20226,7 +20231,7 @@ exports[`firefox /components/cards/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img>Contemplative Reptile</img>
+  <img>green iguana</img>
   <text>Lizard</text>
   <paragraph>
     <text>
@@ -20277,9 +20282,9 @@ exports[`firefox /components/cards/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    Contemplative Reptile Lizard Lizards are a widespread group of squamate
-    reptiles, with over 6,000 species, ranging across all continents except
-    Antarctica
+    green iguana Lizard Lizards are a widespread group of squamate reptiles,
+    with over 6,000 species, ranging across all continents except Antarctica
+    <img>green iguana</img>
     <text>Lizard</text>
     <paragraph>
       <text>
@@ -20309,9 +20314,9 @@ exports[`firefox /components/cards/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    Contemplative Reptile Lizard Lizards are a widespread group of squamate
-    reptiles, with over 6,000 species, ranging across all continents except
-    Antarctica
+    green iguana Lizard Lizards are a widespread group of squamate reptiles,
+    with over 6,000 species, ranging across all continents except Antarctica
+    <img>green iguana</img>
     <text>Lizard</text>
     <paragraph>
       <text>
@@ -20355,6 +20360,7 @@ exports[`firefox /components/cards/ 1`] = `
   <button>previous</button>
   <button>play/pause</button>
   <button>next</button>
+  <img>Live from space album cover</img>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -20387,7 +20393,7 @@ exports[`firefox /components/cards/ 1`] = `
     navigation of our components.
   </button>
   <text>March 25thCheck for the API response and return the proper method</text>
-  <img></img>
+  <img>Michael Scott</img>
   <paragraph>
     <text>Assigned to</text>
   </paragraph>
@@ -20416,14 +20422,14 @@ exports[`firefox /components/cards/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img></img>
+  <img>Beside Myself album cover</img>
   <paragraph>
     <text>Ultraviolet</text>
   </paragraph>
   <text>Basement • Beside Myself</text>
-  <button disabled="true"></button>
-  <button></button>
-  <button disabled="true"></button>
+  <button disabled="true">fast rewind</button>
+  <button>play</button>
+  <button disabled="true">fast forward</button>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -20442,7 +20448,7 @@ exports[`firefox /components/cards/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img></img>
+  <img>Angela Erickson</img>
   <text>
     Angela Erickson12:50Great newsHey! Check this out, just a few minutes.3
   </text>
