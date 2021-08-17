@@ -4196,7 +4196,6 @@ exports[`chromium /components/cards/ 1`] = `
   </button>
   <text>RShrimp and Chorizo PaellaSeptember 14, 2016</text>
   <button>settings</button>
-  <img>Paella dish</img>
   <paragraph>
     <text>
       This impressive paella is a perfect party dish and a fun meal to cook
@@ -4228,7 +4227,6 @@ exports[`chromium /components/cards/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img>green iguana</img>
   <text>Lizard</text>
   <paragraph>
     <text>
@@ -4269,7 +4267,7 @@ exports[`chromium /components/cards/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img>green iguana</img>
+  <img description="Contemplative Reptile">Contemplative Reptile</img>
   <text>Lizard</text>
   <paragraph>
     <text>
@@ -4323,9 +4321,9 @@ exports[`chromium /components/cards/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    green iguana Lizard Lizards are a widespread group of squamate reptiles,
-    with over 6,000 species, ranging across all continents except Antarctica
-    <img>green iguana</img>
+    Contemplative Reptile Lizard Lizards are a widespread group of squamate
+    reptiles, with over 6,000 species, ranging across all continents except
+    Antarctica
     <text>Lizard</text>
     <paragraph>
       <text>
@@ -4355,9 +4353,9 @@ exports[`chromium /components/cards/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    green iguana Lizard Lizards are a widespread group of squamate reptiles,
-    with over 6,000 species, ranging across all continents except Antarctica
-    <img>green iguana</img>
+    Contemplative Reptile Lizard Lizards are a widespread group of squamate
+    reptiles, with over 6,000 species, ranging across all continents except
+    Antarctica
     <text>Lizard</text>
     <paragraph>
       <text>
@@ -4401,7 +4399,6 @@ exports[`chromium /components/cards/ 1`] = `
   <button>previous</button>
   <button>play/pause</button>
   <button>next</button>
-  <img>Live from space album cover</img>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -4434,7 +4431,7 @@ exports[`chromium /components/cards/ 1`] = `
     navigation of our components.
   </button>
   <text>March 25thCheck for the API response and return the proper method</text>
-  <img>Michael Scott</img>
+  <img></img>
   <paragraph>
     <text>Assigned to</text>
   </paragraph>
@@ -4468,14 +4465,14 @@ exports[`chromium /components/cards/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img>Beside Myself album cover</img>
+  <img></img>
   <paragraph>
     <text>Ultraviolet</text>
   </paragraph>
   <text>Basement • Beside Myself</text>
-  <button disabled="true">fast rewind</button>
-  <button>play</button>
-  <button disabled="true">fast forward</button>
+  <button disabled="true"></button>
+  <button></button>
+  <button disabled="true"></button>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -4494,7 +4491,7 @@ exports[`chromium /components/cards/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img>Angela Erickson</img>
+  <img></img>
   <text>Angela Erickson12:50Great news</text>
   <paragraph>
     <text>Hey! Check this out, just a few minutes.</text>
@@ -15526,35 +15523,6 @@ exports[`chromium /components/transfer-list 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
-    Limitations
-    <text>Limitations</text>
-  </heading>
-  <paragraph>
-    <text>The component comes with a couple of limitations:</text>
-  </paragraph>
-  <list>
-    <listitem level="1">
-      <text>
-        It only works on desktop. If you have a limited amount of options to
-        select, prefer the
-      </text>
-      <link>Autocomplete</link>
-      <text>
-        component. If mobile support is important for you, have a look at
-      </text>
-      <link>#27579</link>
-      <text>.</text>
-    </listitem>
-    <listitem level="1">
-      <text>
-        There are no high-level components exported from npm. The demos are
-        based on composition. If this is important for you, have a look at
-      </text>
-      <link>#27579</link>
-      <text>.</text>
-    </listitem>
-  </list>
-  <heading level="2">
     API
     <text>API</text>
   </heading>
@@ -15606,9 +15574,6 @@ exports[`chromium /components/transfer-list 1`] = `
       </listitem>
       <listitem level="1">
         <link>Enhanced transfer list</link>
-      </listitem>
-      <listitem level="1">
-        <link>Limitations</link>
       </listitem>
       <listitem level="1">
         <link>API</link>
@@ -20161,7 +20126,6 @@ exports[`firefox /components/cards/ 1`] = `
   </button>
   <text>RShrimp and Chorizo PaellaSeptember 14, 2016</text>
   <button>settings</button>
-  <img>Paella dish</img>
   <paragraph>
     <text>
       This impressive paella is a perfect party dish and a fun meal to cook
@@ -20193,7 +20157,6 @@ exports[`firefox /components/cards/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img>green iguana</img>
   <text>Lizard</text>
   <paragraph>
     <text>
@@ -20231,7 +20194,7 @@ exports[`firefox /components/cards/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img>green iguana</img>
+  <img>Contemplative Reptile</img>
   <text>Lizard</text>
   <paragraph>
     <text>
@@ -20282,9 +20245,9 @@ exports[`firefox /components/cards/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    green iguana Lizard Lizards are a widespread group of squamate reptiles,
-    with over 6,000 species, ranging across all continents except Antarctica
-    <img>green iguana</img>
+    Contemplative Reptile Lizard Lizards are a widespread group of squamate
+    reptiles, with over 6,000 species, ranging across all continents except
+    Antarctica
     <text>Lizard</text>
     <paragraph>
       <text>
@@ -20314,9 +20277,9 @@ exports[`firefox /components/cards/ 1`] = `
     navigation of our components.
   </button>
   <button>
-    green iguana Lizard Lizards are a widespread group of squamate reptiles,
-    with over 6,000 species, ranging across all continents except Antarctica
-    <img>green iguana</img>
+    Contemplative Reptile Lizard Lizards are a widespread group of squamate
+    reptiles, with over 6,000 species, ranging across all continents except
+    Antarctica
     <text>Lizard</text>
     <paragraph>
       <text>
@@ -20360,7 +20323,6 @@ exports[`firefox /components/cards/ 1`] = `
   <button>previous</button>
   <button>play/pause</button>
   <button>next</button>
-  <img>Live from space album cover</img>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -20393,7 +20355,7 @@ exports[`firefox /components/cards/ 1`] = `
     navigation of our components.
   </button>
   <text>March 25thCheck for the API response and return the proper method</text>
-  <img>Michael Scott</img>
+  <img></img>
   <paragraph>
     <text>Assigned to</text>
   </paragraph>
@@ -20422,14 +20384,14 @@ exports[`firefox /components/cards/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img>Beside Myself album cover</img>
+  <img></img>
   <paragraph>
     <text>Ultraviolet</text>
   </paragraph>
   <text>Basement • Beside Myself</text>
-  <button disabled="true">fast rewind</button>
-  <button>play</button>
-  <button disabled="true">fast forward</button>
+  <button disabled="true"></button>
+  <button></button>
+  <button disabled="true"></button>
   <toolbar>
     demo source
     <button>Show the source</button>
@@ -20448,7 +20410,7 @@ exports[`firefox /components/cards/ 1`] = `
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
   </button>
-  <img>Angela Erickson</img>
+  <img></img>
   <text>
     Angela Erickson12:50Great newsHey! Check this out, just a few minutes.3
   </text>
@@ -32048,40 +32010,6 @@ exports[`firefox /components/transfer-list 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Limitations
-    <text>Limitations</text>
-  </heading>
-  <paragraph>
-    <text>The component comes with a couple of limitations:</text>
-  </paragraph>
-  <list>
-    <listitem>
-      It only works on desktop. If you have a limited amount of options to
-      select, prefer the Autocomplete component. If mobile support is important
-      for you, have a look at #27579 .
-      <text>
-        It only works on desktop. If you have a limited amount of options to
-        select, prefer the
-      </text>
-      <link>Autocomplete</link>
-      <text>
-        component. If mobile support is important for you, have a look at
-      </text>
-      <link>#27579</link>
-      <text>.</text>
-    </listitem>
-    <listitem>
-      There are no high-level components exported from npm. The demos are based
-      on composition. If this is important for you, have a look at #27579 .
-      <text>
-        There are no high-level components exported from npm. The demos are
-        based on composition. If this is important for you, have a look at
-      </text>
-      <link>#27579</link>
-      <text>.</text>
-    </listitem>
-  </list>
-  <heading level="2">
     API
     <text>API</text>
   </heading>
@@ -32125,10 +32053,6 @@ exports[`firefox /components/transfer-list 1`] = `
       <listitem>
         Enhanced transfer list
         <link>Enhanced transfer list</link>
-      </listitem>
-      <listitem>
-        Limitations
-        <link>Limitations</link>
       </listitem>
       <listitem>
         API
