@@ -4412,104 +4412,6 @@ exports[`chromium /components/cards/ 1`] = `
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <heading level="2">
-    Theming
-    <text>Theming</text>
-  </heading>
-  <paragraph>
-    <text>
-      Here is an example of theming the component. You can learn more about this
-      in the
-    </text>
-    <link>theming page</link>
-    <text>and</text>
-    <link>theme components page</link>
-  </paragraph>
-  <heading level="3">
-    Task Card
-    <text>Task Card</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <text>March 25thCheck for the API response and return the proper method</text>
-  <img>Michael Scott</img>
-  <paragraph>
-    <text>Assigned to</text>
-  </paragraph>
-  <paragraph>
-    <text>Michael Scott</text>
-  </paragraph>
-  <progressbar
-    value="60"
-    valuemax="100"
-    valuemin="0"
-    valuetext=""
-  ></progressbar>
-  <paragraph>
-    <text>60%</text>
-  </paragraph>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <heading level="3">
-    Player Card
-    <text>Player Card</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <img>Beside Myself album cover</img>
-  <paragraph>
-    <text>Ultraviolet</text>
-  </paragraph>
-  <text>Basement • Beside Myself</text>
-  <button disabled="true">fast rewind</button>
-  <button>play</button>
-  <button disabled="true">fast forward</button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <heading level="3">
-    Notification Card
-    <text>Notification Card</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <img>Angela Erickson</img>
-  <text>Angela Erickson12:50Great news</text>
-  <paragraph>
-    <text>Hey! Check this out, just a few minutes.</text>
-  </paragraph>
-  <text>3</text>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -4605,20 +4507,6 @@ exports[`chromium /components/cards/ 1`] = `
       </listitem>
       <listitem level="1">
         <link>UI Controls</link>
-      </listitem>
-      <listitem level="1">
-        <link>Theming</link>
-        <list>
-          <listitem level="2">
-            <link>Task Card</link>
-          </listitem>
-          <listitem level="2">
-            <link>Player Card</link>
-          </listitem>
-          <listitem level="2">
-            <link>Notification Card</link>
-          </listitem>
-        </list>
       </listitem>
       <listitem level="1">
         <link>API</link>
@@ -12226,51 +12114,6 @@ exports[`chromium /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <heading level="2">
-    Theming
-    <text>Theming</text>
-  </heading>
-  <paragraph>
-    <text>
-      Here is an example of theming the component. You can learn more about this
-      in the
-    </text>
-    <link>theming page</link>
-    <text>and</text>
-    <link>theme components page</link>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <tablist level="1">
-    theme example
-    <tab selected="true">
-      Yesterday
-      <text>Yesterday</text>
-    </tab>
-    <tab>
-      Today
-      <text>Today</text>
-    </tab>
-    <tab>
-      Tomorrow
-      <text>Tomorrow</text>
-    </tab>
-  </tablist>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -12708,9 +12551,6 @@ exports[`chromium /components/tabs/ 1`] = `
       </listitem>
       <listitem level="1">
         <link>Customization</link>
-      </listitem>
-      <listitem level="1">
-        <link>Theming</link>
       </listitem>
       <listitem level="1">
         <link>Vertical tabs</link>
@@ -20371,97 +20211,6 @@ exports[`firefox /components/cards/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <heading level="2">
-    Theming
-    <text>Theming</text>
-  </heading>
-  <paragraph>
-    <text>
-      Here is an example of theming the component. You can learn more about this
-      in the
-    </text>
-    <link>theming page</link>
-    <text>and</text>
-    <link>theme components page</link>
-  </paragraph>
-  <heading level="3">
-    Task Card
-    <text>Task Card</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <text>March 25thCheck for the API response and return the proper method</text>
-  <img>Michael Scott</img>
-  <paragraph>
-    <text>Assigned to</text>
-  </paragraph>
-  <paragraph>
-    <text>Michael Scott</text>
-  </paragraph>
-  <progressbar value="60" valuetext="60"></progressbar>
-  <paragraph>
-    <text>60%</text>
-  </paragraph>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="3">
-    Player Card
-    <text>Player Card</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <img>Beside Myself album cover</img>
-  <paragraph>
-    <text>Ultraviolet</text>
-  </paragraph>
-  <text>Basement • Beside Myself</text>
-  <button disabled="true">fast rewind</button>
-  <button>play</button>
-  <button disabled="true">fast forward</button>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <heading level="3">
-    Notification Card
-    <text>Notification Card</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <img>Angela Erickson</img>
-  <text>
-    Angela Erickson12:50Great newsHey! Check this out, just a few minutes.3
-  </text>
-  <toolbar>
-    demo source
-    <button>Show the source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -20545,24 +20294,6 @@ exports[`firefox /components/cards/ 1`] = `
       <listitem level="1">
         UI Controls
         <link>UI Controls</link>
-      </listitem>
-      <listitem level="1">
-        ThemingTask CardPlayer CardNotification Card
-        <link>Theming</link>
-        <list>
-          <listitem level="2">
-            Task Card
-            <link>Task Card</link>
-          </listitem>
-          <listitem level="2">
-            Player Card
-            <link>Player Card</link>
-          </listitem>
-          <listitem level="2">
-            Notification Card
-            <link>Notification Card</link>
-          </listitem>
-        </list>
       </listitem>
       <listitem level="1">
         API
@@ -28607,55 +28338,6 @@ exports[`firefox /components/tabs/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <heading level="2">
-    Theming
-    <text>Theming</text>
-  </heading>
-  <paragraph>
-    <text>
-      Here is an example of theming the component. You can learn more about this
-      in the
-    </text>
-    <link>theming page</link>
-    <text>and</text>
-    <link>theme components page</link>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <tablist>
-    theme example
-    <tab selected="true">
-      Yesterday
-      <text>Yesterday</text>
-    </tab>
-    <tab>
-      Today
-      <text>Today</text>
-    </tab>
-    <tab>
-      Tomorrow
-      <text>Tomorrow</text>
-    </tab>
-  </tablist>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <ThemeProvider theme={theme}> <Tabs
-    value={value} onChange={handleChange}
-    aria-label="theme example"> <Tab label="Yesterday"
-    /> <Tab label="Today" /> <Tab
-    label="Tomorrow" /> </Tabs> </ThemeProvider>
-  </text>
   <paragraph>
     <text>🎨 If you are looking for inspiration, you can check</text>
     <link>MUI Treasury's customization examples</link>
@@ -29087,10 +28769,6 @@ exports[`firefox /components/tabs/ 1`] = `
       <listitem level="1">
         Customization
         <link>Customization</link>
-      </listitem>
-      <listitem level="1">
-        Theming
-        <link>Theming</link>
       </listitem>
       <listitem level="1">
         Vertical tabs
