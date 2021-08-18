@@ -33,17 +33,7 @@ Array [
 ]
 `;
 
-exports[`chromium /components/cards/ 1`] = `
-Array [
-  Object {
-    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/aria-progressbar-name?application=axeAPI",
-    "id": "aria-progressbar-name",
-    "nodes": Array [
-      ".MuiLinearProgress-root",
-    ],
-  },
-]
-`;
+exports[`chromium /components/cards/ 1`] = `Array []`;
 
 exports[`chromium /components/checkboxes/ 1`] = `Array []`;
 
