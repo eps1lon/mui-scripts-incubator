@@ -5329,7 +5329,7 @@ exports[`chromium /components/dialogs/ 1`] = `
     <text>.</text>
   </paragraph>
   <paragraph>
-    <text>The dialog has a close button added to aide usability.</text>
+    <text>The dialog has a close button added to aid usability.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -21174,7 +21174,7 @@ exports[`firefox /components/dialogs/ 1`] = `
     <text>.</text>
   </paragraph>
   <paragraph>
-    <text>The dialog has a close button added to aide usability.</text>
+    <text>The dialog has a close button added to aid usability.</text>
   </paragraph>
   <button>
     A generic container that is programmatically focused to test keyboard
