@@ -23,6 +23,13 @@ exports[`chromium /components/button-group/ 1`] = `Array []`;
 exports[`chromium /components/buttons/ 1`] = `
 Array [
   Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/aria-allowed-role?application=axeAPI",
+    "id": "aria-allowed-role",
+    "nodes": Array [
+      ".css-REMOVED_UNSTABLE_EMOTION_HASH",
+    ],
+  },
+  Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/aria-progressbar-name?application=axeAPI",
     "id": "aria-progressbar-name",
     "nodes": Array [
