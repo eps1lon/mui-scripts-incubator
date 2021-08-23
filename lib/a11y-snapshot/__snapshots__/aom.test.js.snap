@@ -3185,9 +3185,6 @@ exports[`chromium /components/buttons/ 1`] = `
   </paragraph>
   <list>
     <listitem level="1">
-      <text>Dialogs</text>
-    </listitem>
-    <listitem level="1">
       <text>Modal windows</text>
     </listitem>
     <listitem level="1">
@@ -18927,10 +18924,6 @@ exports[`firefox /components/buttons/ 1`] = `
     </text>
   </paragraph>
   <list>
-    <listitem>
-      Dialogs
-      <text>Dialogs</text>
-    </listitem>
     <listitem>
       Modal windows
       <text>Modal windows</text>
