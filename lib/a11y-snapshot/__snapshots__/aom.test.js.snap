@@ -16344,7 +16344,7 @@ exports[`firefox / 1`] = `
       octopus
       <img
         description="Repeatable, reliable deployments"
-        value="https://octopus.com/?utm_source=materialui&utm_medium=referral"
+        value="https://octopus.com/?utm_source=MUI&utm_medium=referral"
       >
         octopus
       </img>
@@ -16353,7 +16353,7 @@ exports[`firefox / 1`] = `
       doit-intl
       <img
         description="Management Platform for Google Cloud and AWS"
-        value="https://www.doit-intl.com/?utm_source=materialui&utm_medium=referral"
+        value="https://www.doit-intl.com/?utm_source=MUI&utm_medium=referral"
       >
         doit-intl
       </img>
