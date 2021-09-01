@@ -2,9 +2,29 @@
 
 exports[`chromium / 1`] = `Array []`;
 
-exports[`chromium /api/button/ 1`] = `Array []`;
+exports[`chromium /api/button/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /api/select/ 1`] = `Array []`;
+exports[`chromium /api/select/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/breadcrumbs 1`] = `
 Array [
@@ -15,10 +35,27 @@ Array [
       "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > div[role=\\"presentation\\"] > .MuiBreadcrumbs-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiTypography-root-MuiBreadcrumbs-root[aria-label=\\"breadcrumb\\"]",
     ],
   },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root.MuiList-root",
+    ],
+  },
 ]
 `;
 
-exports[`chromium /components/button-group/ 1`] = `Array []`;
+exports[`chromium /components/button-group/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/buttons/ 1`] = `
 Array [
@@ -30,14 +67,51 @@ Array [
       ".MuiLoadingButton-loadingIndicatorStart > .MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorInherit",
     ],
   },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+    ],
+  },
 ]
 `;
 
-exports[`chromium /components/cards/ 1`] = `Array []`;
+exports[`chromium /components/cards/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/checkboxes/ 1`] = `Array []`;
+exports[`chromium /components/checkboxes/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/dialogs/ 1`] = `Array []`;
+exports[`chromium /components/dialogs/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root.MuiList-root",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/pagination/ 1`] = `
 Array [
@@ -48,16 +122,63 @@ Array [
       "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiStack-root > .MuiPagination-text.MuiPagination-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiPagination-root:nth-child(1)",
     ],
   },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+    ],
+  },
 ]
 `;
 
-exports[`chromium /components/pickers 1`] = `Array []`;
+exports[`chromium /components/pickers 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/radio-buttons 1`] = `Array []`;
+exports[`chromium /components/radio-buttons 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/rating/ 1`] = `Array []`;
+exports[`chromium /components/rating/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/selects/ 1`] = `Array []`;
+exports[`chromium /components/selects/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/slider 1`] = `
 Array [
@@ -76,12 +197,39 @@ Array [
       "input[value=\\"\\\\31 0\\"][aria-orientation=\\"horizontal\\"][aria-valuemax=\\"\\\\31 00\\"]",
     ],
   },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+    ],
+  },
 ]
 `;
 
-exports[`chromium /components/switches/ 1`] = `Array []`;
+exports[`chromium /components/switches/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/tabs/ 1`] = `Array []`;
+exports[`chromium /components/tabs/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+    ],
+  },
+]
+`;
 
 exports[`chromium /components/text-fields/ 1`] = `
 Array [
@@ -96,11 +244,48 @@ Array [
       ".MuiInputBase-colorWarning > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiInputBase-input-MuiInput-input.MuiInput-input[value=\\"\\"]",
     ],
   },
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+    ],
+  },
 ]
 `;
 
-exports[`chromium /components/tooltips/ 1`] = `Array []`;
+exports[`chromium /components/tooltips/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/transfer-list 1`] = `Array []`;
+exports[`chromium /components/transfer-list 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+    ],
+  },
+]
+`;
 
-exports[`chromium /components/tree-view/ 1`] = `Array []`;
+exports[`chromium /components/tree-view/ 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
+    "id": "list",
+    "nodes": Array [
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+    ],
+  },
+]
+`;
