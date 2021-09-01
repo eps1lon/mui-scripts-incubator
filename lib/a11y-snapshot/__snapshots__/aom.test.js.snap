@@ -6,15 +6,15 @@ exports[`chromium / 1`] = `
   <link>Skip to content</link>
   <banner>
     <button>Open main navigation</button>
-    <combobox haspopup="menu">
-      Change language
-      <text>English</text>
-    </combobox>
     <searchbox>Search</searchbox>
     <combobox autocomplete="list" haspopup="listbox">
       Search
     </combobox>
     <text>Ctrl+K</text>
+    <combobox haspopup="menu">
+      Change language
+      <text>English</text>
+    </combobox>
     <link>GitHub repository</link>
     <combobox haspopup="menu">Toggle notifications panel</combobox>
     <button>Toggle settings drawer</button>
@@ -49,7 +49,7 @@ exports[`chromium / 1`] = `
     <Pre>
       <code>
         <text>
-          $ npm install @material-ui/core@next @emotion/react @emotion/styled
+          $ npm install @mui/material@next @emotion/react @emotion/styled
         </text>
       </code>
     </Pre>
@@ -75,7 +75,7 @@ exports[`chromium / 1`] = `
     <Pre>
       <code>
         <text>
-          import*asReactfrom'react';import{Button}from'@material-ui/core';functionApp(){return<Button>Hello
+          import*asReactfrom'react';import{Button}from'@mui/material';functionApp(){return<Button>Hello
           World</Button>;}
         </text>
       </code>
@@ -16247,14 +16247,14 @@ exports[`firefox / 1`] = `
   <link>Skip to content</link>
   <landmark>
     <button>Open main navigation</button>
-    <buttonmenu haspopup="true">
-      Change language
-      <text>English</text>
-    </buttonmenu>
     <combobox autocomplete="list" haspopup="true">
       Search
     </combobox>
     <text>Ctrl+K</text>
+    <buttonmenu haspopup="true">
+      Change language
+      <text>English</text>
+    </buttonmenu>
     <link>GitHub repository</link>
     <buttonmenu haspopup="true">Toggle notifications panel</buttonmenu>
     <button>Toggle settings drawer</button>
@@ -16285,7 +16285,7 @@ exports[`firefox / 1`] = `
     </heading>
     <text>
       Install Material-UI's source files via npm. We take care of injecting
-      the CSS needed.$ npm install @material-ui/core@next @emotion/react
+      the CSS needed.$ npm install @mui/material@next @emotion/react
       @emotion/styled
     </text>
     <link>or use a CDN.</link>
@@ -16303,8 +16303,8 @@ exports[`firefox / 1`] = `
     <text>
       Material-UI components work without any additional setup, and don't
       pollute the global scope.import * as React from 'react'; import
-      { Button } from '@material-ui/core'; function App()
-      { return <Button>Hello World</Button>; }
+      { Button } from '@mui/material'; function App() {
+      return <Button>Hello World</Button>; }
     </text>
     <separator></separator>
     <link>Explore the docs</link>
@@ -16558,9 +16558,8 @@ exports[`firefox /api/button/ 1`] = `
     <text>Import</text>
   </heading>
   <text>
-    import Button from '@material-ui/core/Button'; // or import {
-    Button } from '@material-ui/core';You can learn about the
-    difference by
+    import Button from '@mui/core/Button'; // or import { Button
+    } from '@mui/core';You can learn about the difference by
   </text>
   <link>reading this guide on minimizing bundle size</link>
   <text>.</text>
@@ -17447,9 +17446,8 @@ exports[`firefox /api/select/ 1`] = `
     <text>Import</text>
   </heading>
   <text>
-    import Select from '@material-ui/core/Select'; // or import {
-    Select } from '@material-ui/core';You can learn about the
-    difference by
+    import Select from '@mui/core/Select'; // or import { Select
+    } from '@mui/core';You can learn about the difference by
   </text>
   <link>reading this guide on minimizing bundle size</link>
   <text>.</text>
@@ -19931,9 +19929,7 @@ exports[`firefox /components/buttons/ 1`] = `
     Unstyled component
     <text>Unstyled component</text>
   </heading>
-  <text>
-    import ButtonUnstyled from '@material-ui/unstyled/ButtonUnstyled';
-  </text>
+  <text>import ButtonUnstyled from '@mui/core/ButtonUnstyled';</text>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -20039,8 +20035,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>useButton hook</text>
   </heading>
   <text>
-    import { useButton } from
-    '@material-ui/unstyled/ButtonUnstyled';
+    import { useButton } from '@mui/core/ButtonUnstyled';
   </text>
   <paragraph>
     <text>
@@ -21627,8 +21622,8 @@ exports[`firefox /components/dialogs/ 1`] = `
     <text>.</text>
   </paragraph>
   <text>
-    import useMediaQuery from '@material-ui/core/useMediaQuery';
-    function MyComponent() { const theme = useTheme(); const fullScreen =
+    import useMediaQuery from '@mui/material/useMediaQuery'; function
+    MyComponent() { const theme = useTheme(); const fullScreen =
     useMediaQuery(theme.breakpoints.down('md')); return <Dialog
     fullScreen={fullScreen} />; }
   </text>
@@ -23282,7 +23277,7 @@ exports[`firefox /components/pagination/ 1`] = `
   </paragraph>
   <text>
     import { usePagination } from
-    '@material-ui/core/Pagination';
+    '@mui/material/Pagination';
   </text>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -23702,13 +23697,12 @@ exports[`firefox /components/pickers 1`] = `
     </text>
   </paragraph>
   <text>
-    // date-fns import DateAdapter from
-    '@material-ui/lab/AdapterDateFns'; // or for Day.js import
-    DateAdapter from '@material-ui/lab/AdapterDayjs'; // or for Luxon
-    import DateAdapter from '@material-ui/lab/AdapterLuxon'; // or for
-    Moment.js import DateAdapter from
-    '@material-ui/lab/AdapterMoment'; function App({ children
-    }) { return ( <LocalizationProvider
+    // date-fns import DateAdapter from '@mui/lab/AdapterDateFns'; //
+    or for Day.js import DateAdapter from '@mui/lab/AdapterDayjs'; //
+    or for Luxon import DateAdapter from '@mui/lab/AdapterLuxon'; //
+    or for Moment.js import DateAdapter from '@mui/lab/AdapterMoment';
+    function App({ children }) { return (
+    <LocalizationProvider
     dateAdapter={DateAdapter}>{children}</LocalizationProvider>
     ); }
   </text>
@@ -24390,7 +24384,7 @@ exports[`firefox /components/radio-buttons 1`] = `
   </heading>
   <text>
     import { useRadioGroup } from
-    '@material-ui/core/RadioGroup';
+    '@mui/material/RadioGroup';
   </text>
   <heading level="4">
     Returns
@@ -27098,9 +27092,7 @@ exports[`firefox /components/slider 1`] = `
       heavy customizations and minimizing bundle size.
     </text>
   </paragraph>
-  <text>
-    import SliderUnstyled from '@material-ui/unstyled/SliderUnstyled';
-  </text>
+  <text>import SliderUnstyled from '@mui/core/SliderUnstyled';</text>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -27621,9 +27613,7 @@ exports[`firefox /components/switches/ 1`] = `
       heavy customizations and minimizing bundle size.
     </text>
   </paragraph>
-  <text>
-    import SwitchUnstyled from '@material-ui/unstyled/SwitchUnstyled';
-  </text>
+  <text>import SwitchUnstyled from '@mui/core/SwitchUnstyled';</text>
   <paragraph>
     <text>
       The SwitchUnstyled component provides default components and assigns CSS
@@ -27710,8 +27700,7 @@ exports[`firefox /components/switches/ 1`] = `
     </text>
   </paragraph>
   <text>
-    import { useSwitch } from
-    '@material-ui/unstyled/SwitchUnstyled';
+    import { useSwitch } from '@mui/core/SwitchUnstyled';
   </text>
   <heading level="4">
     Basic example
@@ -28118,7 +28107,7 @@ exports[`firefox /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      @material-ui/lab offers utility components that inject props to implement
+      @mui/lab offers utility components that inject props to implement
       accessible tabs following
     </text>
     <link>WAI-ARIA authoring practices</link>
@@ -28947,7 +28936,7 @@ exports[`firefox /components/tabs/ 1`] = `
       this page. We've also published
     </text>
     <link>an experimental API</link>
-    <text>in @material-ui/lab that does not require extra work.</text>
+    <text>in @mui/lab that does not require extra work.</text>
   </paragraph>
   <heading level="3">
     Keyboard navigation
@@ -30517,7 +30506,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <text>
     import { useFormControl } from
-    '@material-ui/core/FormControl';
+    '@mui/material/FormControl';
   </text>
   <paragraph>
     <text>Returns</text>
