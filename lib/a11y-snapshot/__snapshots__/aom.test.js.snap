@@ -3025,7 +3025,7 @@ exports[`chromium /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
@@ -3033,6 +3033,9 @@ exports[`chromium /components/button-group/ 1`] = `
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Split button
     <text>Split button</text>
@@ -13326,7 +13329,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
@@ -13334,6 +13337,9 @@ exports[`chromium /components/text-fields/ 1`] = `
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
   <heading level="2">
     Icons
     <text>Icons</text>
@@ -18958,7 +18964,7 @@ exports[`firefox /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
@@ -18966,6 +18972,7 @@ exports[`firefox /components/button-group/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>{buttons} ButtonGroup></text>
   <heading level="2">
     Split button
     <text>Split button</text>
@@ -29783,7 +29790,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   </form>
   <toolbar>
     demo source
-    <button>Show the source</button>
+    <button>Show the full source</button>
     <button>Edit in CodeSandbox</button>
     <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
@@ -29791,6 +29798,11 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
+  <text>
+    {currencies.map((option) => ( <option
+    key={option.value} value={option.value}>
+    {option.label} </option> ))} TextField> v>
+  </text>
   <heading level="2">
     Icons
     <text>Icons</text>
