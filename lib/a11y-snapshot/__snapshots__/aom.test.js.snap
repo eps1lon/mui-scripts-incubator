@@ -11,12 +11,9 @@ exports[`chromium / 1`] = `
       Search
     </combobox>
     <text>Ctrl+K</text>
-    <combobox haspopup="menu">
-      Change language
-      <text>English</text>
-    </combobox>
     <link>GitHub repository</link>
     <combobox haspopup="menu">Toggle notifications panel</combobox>
+    <combobox haspopup="menu">Change language</combobox>
     <button>Toggle settings drawer</button>
   </banner>
   <navigation>documentation</navigation>
@@ -3025,7 +3022,7 @@ exports[`chromium /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
@@ -3033,9 +3030,6 @@ exports[`chromium /components/button-group/ 1`] = `
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Split button
     <text>Split button</text>
@@ -13329,7 +13323,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   </form>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
@@ -13337,9 +13331,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Icons
     <text>Icons</text>
@@ -16257,12 +16248,9 @@ exports[`firefox / 1`] = `
       Search
     </combobox>
     <text>Ctrl+K</text>
-    <buttonmenu haspopup="true">
-      Change language
-      <text>English</text>
-    </buttonmenu>
     <link>GitHub repository</link>
     <buttonmenu haspopup="true">Toggle notifications panel</buttonmenu>
+    <buttonmenu haspopup="true">Change language</buttonmenu>
     <button>Toggle settings drawer</button>
   </landmark>
   <landmark>documentation</landmark>
@@ -18964,7 +18952,7 @@ exports[`firefox /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
@@ -18972,7 +18960,6 @@ exports[`firefox /components/button-group/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>{buttons} ButtonGroup></text>
   <heading level="2">
     Split button
     <text>Split button</text>
@@ -29790,7 +29777,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   </form>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
@@ -29798,11 +29785,6 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    {currencies.map((option) => ( <option
-    key={option.value} value={option.value}>
-    {option.label} </option> ))} TextField> v>
-  </text>
   <heading level="2">
     Icons
     <text>Icons</text>
