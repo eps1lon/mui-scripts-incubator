@@ -265,7 +265,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-beta.5. View versions page.</link>
+      <link>v5.0.0-rc.0. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -286,7 +286,7 @@ exports[`chromium /api/button/ 1`] = `
   <paragraph>
     <text>
       API documentation for the React Button component. Learn about the
-      available props, and the CSS API.
+      available props and the CSS API.
     </text>
   </paragraph>
   <heading level="2">
@@ -1393,7 +1393,7 @@ exports[`chromium /api/select/ 1`] = `
   <paragraph>
     <text>
       API documentation for the React Select component. Learn about the
-      available props, and the CSS API.
+      available props and the CSS API.
     </text>
   </paragraph>
   <heading level="2">
@@ -16533,7 +16533,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-beta.5. View versions page.</link>
+      <link>v5.0.0-rc.0. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -16556,7 +16556,7 @@ exports[`firefox /api/button/ 1`] = `
   <paragraph>
     <text>
       API documentation for the React Button component. Learn about the
-      available props, and the CSS API.
+      available props and the CSS API.
     </text>
   </paragraph>
   <heading level="2">
@@ -17444,7 +17444,7 @@ exports[`firefox /api/select/ 1`] = `
   <paragraph>
     <text>
       API documentation for the React Select component. Learn about the
-      available props, and the CSS API.
+      available props and the CSS API.
     </text>
   </paragraph>
   <heading level="2">
