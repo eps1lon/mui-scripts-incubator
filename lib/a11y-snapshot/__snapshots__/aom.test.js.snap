@@ -11,12 +11,9 @@ exports[`chromium / 1`] = `
       Search
     </combobox>
     <text>Ctrl+K</text>
-    <combobox haspopup="menu">
-      Change language
-      <text>English</text>
-    </combobox>
     <link>GitHub repository</link>
     <combobox haspopup="menu">Toggle notifications panel</combobox>
+    <combobox haspopup="menu">Change language</combobox>
     <button>Toggle settings drawer</button>
   </banner>
   <navigation>documentation</navigation>
@@ -16257,12 +16254,9 @@ exports[`firefox / 1`] = `
       Search
     </combobox>
     <text>Ctrl+K</text>
-    <buttonmenu haspopup="true">
-      Change language
-      <text>English</text>
-    </buttonmenu>
     <link>GitHub repository</link>
     <buttonmenu haspopup="true">Toggle notifications panel</buttonmenu>
+    <buttonmenu haspopup="true">Change language</buttonmenu>
     <button>Toggle settings drawer</button>
   </landmark>
   <landmark>documentation</landmark>
