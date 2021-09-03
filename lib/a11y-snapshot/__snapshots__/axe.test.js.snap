@@ -8,7 +8,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH",
     ],
   },
 ]
@@ -20,7 +20,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH",
     ],
   },
 ]
@@ -32,14 +32,14 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
     "nodes": Array [
-      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > div[role=\\"presentation\\"] > .MuiBreadcrumbs-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiTypography-root-MuiBreadcrumbs-root[aria-label=\\"breadcrumb\\"]",
+      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > div[role=\\"presentation\\"] > .MuiBreadcrumbs-root.css-REMOVED_UNSTABLE_EMOTION_HASH[aria-label=\\"breadcrumb\\"]",
     ],
   },
   Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root.MuiList-root",
+      ".MuiPaper-elevation0 > div > .css-REMOVED_UNSTABLE_EMOTION_HASH.MuiList-root",
     ],
   },
 ]
@@ -51,7 +51,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH",
     ],
   },
 ]
@@ -63,7 +63,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/aria-progressbar-name?application=axeAPI",
     "id": "aria-progressbar-name",
     "nodes": Array [
-      ".MuiLoadingButton-loadingIndicatorCenter.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiLoadingButton-loadingIndicator.MuiLoadingButton-loadingIndicator > .MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorInherit",
+      ".MuiLoadingButton-loadingIndicatorCenter.css-REMOVED_UNSTABLE_EMOTION_HASH.MuiLoadingButton-loadingIndicator > .MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorInherit",
       ".MuiLoadingButton-loadingIndicatorStart > .MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorInherit",
     ],
   },
@@ -71,7 +71,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH",
     ],
   },
 ]
@@ -83,7 +83,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH",
     ],
   },
 ]
@@ -95,7 +95,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH",
     ],
   },
 ]
@@ -107,7 +107,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root.MuiList-root",
+      ".MuiPaper-elevation0 > div > .css-REMOVED_UNSTABLE_EMOTION_HASH.MuiList-root",
     ],
   },
 ]
@@ -119,14 +119,14 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/landmark-unique?application=axeAPI",
     "id": "landmark-unique",
     "nodes": Array [
-      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiStack-root > .MuiPagination-text.MuiPagination-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiPagination-root:nth-child(1)",
+      "#demo-REMOVED_UNSTABLE_USE_ID_VALUE_FROM_SNAPSHOT > .css-REMOVED_UNSTABLE_EMOTION_HASH > .MuiPagination-text.MuiPagination-root.css-REMOVED_UNSTABLE_EMOTION_HASH:nth-child(1)",
     ],
   },
   Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH",
     ],
   },
 ]
@@ -138,7 +138,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH",
     ],
   },
 ]
@@ -150,7 +150,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH",
     ],
   },
 ]
@@ -162,7 +162,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH",
     ],
   },
 ]
@@ -174,7 +174,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH",
     ],
   },
 ]
@@ -193,7 +193,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/label?application=axeAPI",
     "id": "label",
     "nodes": Array [
-      ".Mui-disabled.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiSlider-thumb.MuiSlider-thumbSizeMedium > input[aria-valuemax=\\"\\\\31 10\\"][aria-valuemin=\\"\\\\31 0\\"][min=\\"\\\\31 0\\"]",
+      ".Mui-disabled.css-REMOVED_UNSTABLE_EMOTION_HASH.MuiSlider-thumbSizeMedium > input[aria-valuemax=\\"\\\\31 10\\"][aria-valuemin=\\"\\\\31 0\\"][min=\\"\\\\31 0\\"]",
       "input[value=\\"\\\\31 0\\"][aria-orientation=\\"horizontal\\"][aria-valuemax=\\"\\\\31 00\\"]",
     ],
   },
@@ -201,7 +201,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH",
     ],
   },
 ]
@@ -213,7 +213,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH",
     ],
   },
 ]
@@ -225,7 +225,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH",
     ],
   },
 ]
@@ -239,16 +239,16 @@ Array [
     "nodes": Array [
       "#filled-hidden-label-small",
       "#filled-hidden-label-normal",
-      ".MuiInputBase-colorSecondary > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiInputBase-input-MuiOutlinedInput-input.MuiOutlinedInput-input[value=\\"\\"]",
-      ".MuiInputBase-colorSuccess > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiInputBase-input-MuiFilledInput-input.MuiFilledInput-input[value=\\"\\"]",
-      ".MuiInputBase-colorWarning > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiInputBase-input-MuiInput-input.MuiInput-input[value=\\"\\"]",
+      ".MuiInputBase-colorSecondary > .css-REMOVED_UNSTABLE_EMOTION_HASH.MuiOutlinedInput-input[value=\\"\\"]",
+      ".MuiInputBase-colorSuccess > .css-REMOVED_UNSTABLE_EMOTION_HASH.MuiFilledInput-input[value=\\"\\"]",
+      ".MuiInputBase-colorWarning > .css-REMOVED_UNSTABLE_EMOTION_HASH.MuiInput-input[value=\\"\\"]",
     ],
   },
   Object {
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH",
     ],
   },
 ]
@@ -260,7 +260,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH",
     ],
   },
 ]
@@ -272,7 +272,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+      ".MuiPaper-elevation0 > div > .css-REMOVED_UNSTABLE_EMOTION_HASH",
     ],
   },
 ]
@@ -284,7 +284,7 @@ Array [
     "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/list?application=axeAPI",
     "id": "list",
     "nodes": Array [
-      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH-MuiList-root",
+      ".MuiPaper-elevation0 > div > .MuiList-root.css-REMOVED_UNSTABLE_EMOTION_HASH",
     ],
   },
 ]
