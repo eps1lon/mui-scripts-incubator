@@ -29,7 +29,7 @@ exports[`chromium / 1`] = `
         own design system, or start with Material Design.
       </text>
     </paragraph>
-    <link>Get Started</link>
+    <link>GET STARTED</link>
     <link>Star</link>
     <link>Follow</link>
     <link>Get Professional Support</link>
@@ -60,7 +60,7 @@ exports[`chromium / 1`] = `
       </code>
     </Pre>
     <separator orientation="horizontal"></separator>
-    <link>Read installation docs</link>
+    <link>READ INSTALLATION DOCS</link>
     <heading level="2">
       Usage
       <text>Usage</text>
@@ -78,7 +78,7 @@ exports[`chromium / 1`] = `
       </code>
     </Pre>
     <separator orientation="horizontal"></separator>
-    <link>Explore the docs</link>
+    <link>EXPLORE THE DOCS</link>
     <heading level="2">
       Premium themes
       <text>Premium themes</text>
@@ -93,7 +93,7 @@ exports[`chromium / 1`] = `
       Browse themes
       <img>Browse themes</img>
     </link>
-    <link>Browse themes</link>
+    <link>BROWSE THEMES</link>
     <separator orientation="horizontal"></separator>
     <heading level="2">
       Material-UI's sponsors
@@ -143,10 +143,6 @@ exports[`chromium / 1`] = `
       <img description="Mass Text Messaging & Automated Calling">
         call-em-all
       </img>
-    </link>
-    <link>
-      canadacasino
-      <img>canadacasino</img>
     </link>
     <link>
       hoodiebees
@@ -206,7 +202,7 @@ exports[`chromium / 1`] = `
     <paragraph>
       <text>Are you using Material-UI?</text>
     </paragraph>
-    <link>Let us know!</link>
+    <link>LET US KNOW!</link>
   </main>
   <separator orientation="horizontal"></separator>
   <contentinfo>
@@ -275,7 +271,7 @@ exports[`chromium / 1`] = `
 
 exports[`chromium /api/button/ 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Button API
     <text>ButtonAPI</text>
@@ -1382,7 +1378,7 @@ exports[`chromium /api/button/ 1`] = `
 
 exports[`chromium /api/select/ 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Select API
     <text>SelectAPI</text>
@@ -2301,7 +2297,7 @@ exports[`chromium /api/select/ 1`] = `
 
 exports[`chromium /components/breadcrumbs 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Breadcrumbs
     <text>Breadcrumbs</text>
@@ -2765,7 +2761,7 @@ exports[`chromium /components/breadcrumbs 1`] = `
 
 exports[`chromium /components/button-group/ 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Button group
     <text>Button group</text>
@@ -3167,7 +3163,7 @@ exports[`chromium /components/button-group/ 1`] = `
 
 exports[`chromium /components/buttons/ 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Button
     <text>Button</text>
@@ -4247,7 +4243,7 @@ exports[`chromium /components/buttons/ 1`] = `
 
 exports[`chromium /components/cards/ 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Card
     <text>Card</text>
@@ -4711,7 +4707,7 @@ exports[`chromium /components/cards/ 1`] = `
 
 exports[`chromium /components/checkboxes/ 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Checkbox
     <text>Checkbox</text>
@@ -5282,7 +5278,7 @@ exports[`chromium /components/checkboxes/ 1`] = `
 
 exports[`chromium /components/dialogs/ 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Dialog
     <text>Dialog</text>
@@ -5897,7 +5893,7 @@ exports[`chromium /components/dialogs/ 1`] = `
 
 exports[`chromium /components/pagination/ 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Pagination
     <text>Pagination</text>
@@ -7302,7 +7298,7 @@ exports[`chromium /components/pagination/ 1`] = `
 
 exports[`chromium /components/pickers 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Date / Time pickers
     <text>Date / Time pickers</text>
@@ -7626,7 +7622,7 @@ exports[`chromium /components/pickers 1`] = `
 
 exports[`chromium /components/radio-buttons 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Radio
     <text>Radio</text>
@@ -8294,7 +8290,7 @@ exports[`chromium /components/radio-buttons 1`] = `
 
 exports[`chromium /components/rating/ 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Rating
     <text>Rating</text>
@@ -9016,7 +9012,7 @@ exports[`chromium /components/rating/ 1`] = `
 
 exports[`chromium /components/selects/ 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Select
     <text>Select</text>
@@ -9820,7 +9816,7 @@ exports[`chromium /components/selects/ 1`] = `
 
 exports[`chromium /components/slider 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Slider
     <text>Slider</text>
@@ -10969,7 +10965,7 @@ exports[`chromium /components/slider 1`] = `
 
 exports[`chromium /components/switches/ 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Switch
     <text>Switch</text>
@@ -11657,7 +11653,7 @@ exports[`chromium /components/switches/ 1`] = `
 
 exports[`chromium /components/tabs/ 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Tabs
     <text>Tabs</text>
@@ -12775,7 +12771,7 @@ exports[`chromium /components/tabs/ 1`] = `
 
 exports[`chromium /components/text-fields/ 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Text Field
     <text>Text Field</text>
@@ -14648,7 +14644,7 @@ exports[`chromium /components/text-fields/ 1`] = `
 
 exports[`chromium /components/tooltips/ 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Tooltip
     <text>Tooltip</text>
@@ -15385,7 +15381,7 @@ exports[`chromium /components/tooltips/ 1`] = `
 
 exports[`chromium /components/transfer-list 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Transfer List
     <text>Transfer List</text>
@@ -15656,7 +15652,7 @@ exports[`chromium /components/transfer-list 1`] = `
 
 exports[`chromium /components/tree-view/ 1`] = `
 <main>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Tree View
     <text>Tree View</text>
@@ -16273,7 +16269,7 @@ exports[`firefox / 1`] = `
         own design system, or start with Material Design.
       </text>
     </paragraph>
-    <link>Get Started</link>
+    <link>GET STARTED</link>
     <link>Star</link>
     <link>Follow</link>
     <link>Get Professional Support</link>
@@ -16295,7 +16291,7 @@ exports[`firefox / 1`] = `
       />
     </text>
     <separator></separator>
-    <link>Read installation docs</link>
+    <link>READ INSTALLATION DOCS</link>
     <heading level="2">
       Usage
       <text>Usage</text>
@@ -16307,7 +16303,7 @@ exports[`firefox / 1`] = `
       return <Button>Hello World</Button>; }
     </text>
     <separator></separator>
-    <link>Explore the docs</link>
+    <link>EXPLORE THE DOCS</link>
     <heading level="2">
       Premium themes
       <text>Premium themes</text>
@@ -16324,7 +16320,7 @@ exports[`firefox / 1`] = `
         Browse themes
       </img>
     </link>
-    <link>Browse themes</link>
+    <link>BROWSE THEMES</link>
     <separator></separator>
     <heading level="2">
       Material-UI's sponsors
@@ -16396,10 +16392,6 @@ exports[`firefox / 1`] = `
       </img>
     </link>
     <link>
-      canadacasino
-      <img value="https://www.canadacasino.ca/">canadacasino</img>
-    </link>
-    <link>
       hoodiebees
       <img value="https://hoodiebees.com/">hoodiebees</img>
     </link>
@@ -16460,7 +16452,7 @@ exports[`firefox / 1`] = `
     <paragraph>
       <text>Are you using Material-UI?</text>
     </paragraph>
-    <link>Let us know!</link>
+    <link>LET US KNOW!</link>
   </landmark>
   <separator></separator>
   <landmark>
@@ -16542,7 +16534,7 @@ exports[`firefox / 1`] = `
 
 exports[`firefox /api/button/ 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Button API
     <text>Button API</text>
@@ -17430,7 +17422,7 @@ exports[`firefox /api/button/ 1`] = `
 
 exports[`firefox /api/select/ 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Select API
     <text>Select API</text>
@@ -18152,7 +18144,7 @@ exports[`firefox /api/select/ 1`] = `
 
 exports[`firefox /components/breadcrumbs 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Breadcrumbs
     <text>Breadcrumbs</text>
@@ -18684,7 +18676,7 @@ exports[`firefox /components/breadcrumbs 1`] = `
 
 exports[`firefox /components/button-group/ 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Button group
     <text>Button group</text>
@@ -19101,7 +19093,7 @@ exports[`firefox /components/button-group/ 1`] = `
 
 exports[`firefox /components/buttons/ 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Button
     <text>Button</text>
@@ -20224,7 +20216,7 @@ exports[`firefox /components/buttons/ 1`] = `
 
 exports[`firefox /components/cards/ 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Card
     <text>Card</text>
@@ -20675,7 +20667,7 @@ exports[`firefox /components/cards/ 1`] = `
 
 exports[`firefox /components/checkboxes/ 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Checkbox
     <text>Checkbox</text>
@@ -21282,7 +21274,7 @@ exports[`firefox /components/checkboxes/ 1`] = `
 
 exports[`firefox /components/dialogs/ 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Dialog
     <text>Dialog</text>
@@ -21917,7 +21909,7 @@ exports[`firefox /components/dialogs/ 1`] = `
 
 exports[`firefox /components/pagination/ 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Pagination
     <text>Pagination</text>
@@ -23537,7 +23529,7 @@ exports[`firefox /components/pagination/ 1`] = `
 
 exports[`firefox /components/pickers 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Date / Time pickers
     <text>Date / Time pickers</text>
@@ -23859,7 +23851,7 @@ exports[`firefox /components/pickers 1`] = `
 
 exports[`firefox /components/radio-buttons 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Radio
     <text>Radio</text>
@@ -24614,7 +24606,7 @@ exports[`firefox /components/radio-buttons 1`] = `
 
 exports[`firefox /components/rating/ 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Rating
     <text>Rating</text>
@@ -25474,7 +25466,7 @@ exports[`firefox /components/rating/ 1`] = `
 
 exports[`firefox /components/selects/ 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Select
     <text>Select</text>
@@ -26354,7 +26346,7 @@ exports[`firefox /components/selects/ 1`] = `
 
 exports[`firefox /components/slider 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Slider
     <text>Slider</text>
@@ -27301,7 +27293,7 @@ exports[`firefox /components/slider 1`] = `
 
 exports[`firefox /components/switches/ 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Switch
     <text>Switch</text>
@@ -27999,7 +27991,7 @@ exports[`firefox /components/switches/ 1`] = `
 
 exports[`firefox /components/tabs/ 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Tabs
     <text>Tabs</text>
@@ -29170,7 +29162,7 @@ exports[`firefox /components/tabs/ 1`] = `
 
 exports[`firefox /components/text-fields/ 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Text Field
     <text>Text Field</text>
@@ -31164,7 +31156,7 @@ exports[`firefox /components/text-fields/ 1`] = `
 
 exports[`firefox /components/tooltips/ 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Tooltip
     <text>Tooltip</text>
@@ -31915,7 +31907,7 @@ exports[`firefox /components/tooltips/ 1`] = `
 
 exports[`firefox /components/transfer-list 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Transfer List
     <text>Transfer List</text>
@@ -32187,7 +32179,7 @@ exports[`firefox /components/transfer-list 1`] = `
 
 exports[`firefox /components/tree-view/ 1`] = `
 <landmark>
-  <link>Edit this page</link>
+  <link>EDIT THIS PAGE</link>
   <heading level="1">
     Tree View
     <text>Tree View</text>
