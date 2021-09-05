@@ -20590,7 +20590,7 @@ exports[`firefox /components/cards/ 1`] = `
       <link><CardActionArea /></link>
     </listitem>
     <listitem>
-      <CardActions />
+      �� <CardActions />
       <link><CardActions /></link>
     </listitem>
     <listitem>
