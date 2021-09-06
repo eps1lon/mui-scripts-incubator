@@ -11315,35 +11315,6 @@ exports[`chromium /components/switches/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
-    Recreation of Material-UI's Switch
-    <text>Recreation of Material-UI's Switch</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <checkbox checked="true">Switch demo</checkbox>
-  <checkbox checked="false">Switch demo</checkbox>
-  <checkbox checked="true" disabled="true">
-    Switch demo
-  </checkbox>
-  <checkbox checked="false" disabled="true">
-    Switch demo
-  </checkbox>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="3">
     useSwitch hook
     <text>useSwitch hook</text>
   </heading>
@@ -11402,35 +11373,6 @@ exports[`chromium /components/switches/ 1`] = `
     navigation of our components.
   </button>
   <checkbox checked="true">Demo switch</checkbox>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="4">
-    Recreation of Material-UI's Switch
-    <text>Recreation of Material-UI's Switch</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <checkbox checked="true">Switch demo</checkbox>
-  <checkbox checked="false">Switch demo</checkbox>
-  <checkbox checked="true" disabled="true">
-    Switch demo
-  </checkbox>
-  <checkbox checked="false" disabled="true">
-    Switch demo
-  </checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -11625,9 +11567,6 @@ exports[`chromium /components/switches/ 1`] = `
       <listitem level="1">
         <link>Unstyled switches</link>
         <list>
-          <listitem level="2">
-            <link>Recreation of Material-UI's Switch</link>
-          </listitem>
           <listitem level="2">
             <link>useSwitch hook</link>
           </listitem>
@@ -27651,37 +27590,6 @@ exports[`firefox /components/switches/ 1`] = `
     component={Root} {...label} disabled />
   </text>
   <heading level="3">
-    Recreation of Material-UI's Switch
-    <text>Recreation of Material-UI's Switch</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <checkbox checked="true">Switch demo</checkbox>
-  <checkbox>Switch demo</checkbox>
-  <checkbox checked="true" disabled="true">
-    Switch demo
-  </checkbox>
-  <checkbox disabled="true">Switch demo</checkbox>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <ThemeProvider theme={createTheme()}> <Switch
-    {...label} defaultChecked /> <Switch {...label}
-    color="secondary" /> <Switch {...label} disabled
-    defaultChecked /> <Switch {...label} disabled />
-    </ThemeProvider>
-  </text>
-  <heading level="3">
     useSwitch hook
     <text>useSwitch hook</text>
   </heading>
@@ -27743,37 +27651,6 @@ exports[`firefox /components/switches/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text><MUISwitch defaultChecked /></text>
-  <heading level="4">
-    Recreation of Material-UI's Switch
-    <text>Recreation of Material-UI's Switch</text>
-  </heading>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <checkbox checked="true">Switch demo</checkbox>
-  <checkbox>Switch demo</checkbox>
-  <checkbox checked="true" disabled="true">
-    Switch demo
-  </checkbox>
-  <checkbox disabled="true">Switch demo</checkbox>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <ThemeProvider theme={createTheme()}> <Switch
-    {...label} defaultChecked /> <Switch {...label}
-    color="secondary" /> <Switch {...label} disabled
-    defaultChecked /> <Switch {...label} disabled />
-    </ThemeProvider>
-  </text>
   <heading level="2">
     Label placement
     <text>Label placement</text>
@@ -27954,13 +27831,9 @@ exports[`firefox /components/switches/ 1`] = `
         <link>Customization</link>
       </listitem>
       <listitem level="1">
-        Unstyled switches Recreation of Material-UI's Switch useSwitch hook
+        Unstyled switches useSwitch hook
         <link>Unstyled switches</link>
         <list>
-          <listitem level="2">
-            Recreation of Material-UI's Switch
-            <link>Recreation of Material-UI's Switch</link>
-          </listitem>
           <listitem level="2">
             useSwitch hook
             <link>useSwitch hook</link>
