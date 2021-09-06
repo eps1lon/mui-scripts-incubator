@@ -11,9 +11,12 @@ exports[`chromium / 1`] = `
       Search
     </combobox>
     <text>Ctrl+K</text>
+    <combobox haspopup="menu">
+      Change language
+      <text>English</text>
+    </combobox>
     <link>GitHub repository</link>
     <combobox haspopup="menu">Toggle notifications panel</combobox>
-    <combobox haspopup="menu">Change language</combobox>
     <button>Toggle settings drawer</button>
   </banner>
   <navigation>documentation</navigation>
@@ -143,6 +146,10 @@ exports[`chromium / 1`] = `
       <img description="Mass Text Messaging & Automated Calling">
         call-em-all
       </img>
+    </link>
+    <link>
+      canadacasino
+      <img>canadacasino</img>
     </link>
     <link>
       hoodiebees
@@ -16250,9 +16257,12 @@ exports[`firefox / 1`] = `
       Search
     </combobox>
     <text>Ctrl+K</text>
+    <buttonmenu haspopup="true">
+      Change language
+      <text>English</text>
+    </buttonmenu>
     <link>GitHub repository</link>
     <buttonmenu haspopup="true">Toggle notifications panel</buttonmenu>
-    <buttonmenu haspopup="true">Change language</buttonmenu>
     <button>Toggle settings drawer</button>
   </landmark>
   <landmark>documentation</landmark>
@@ -16390,6 +16400,10 @@ exports[`firefox / 1`] = `
       >
         call-em-all
       </img>
+    </link>
+    <link>
+      canadacasino
+      <img value="https://www.canadacasino.ca/">canadacasino</img>
     </link>
     <link>
       hoodiebees
