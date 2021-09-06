@@ -13774,9 +13774,9 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Name</text>
     </LabelText>
     <text> </text>
-    <textbox value="Composed TextField">
+    <textbox value="Composed Text Field">
       Name
-      <text>Composed TextField</text>
+      <text>Composed Text Field</text>
     </textbox>
     <LabelText>
       <text>Name</text>
@@ -13784,10 +13784,10 @@ exports[`chromium /components/text-fields/ 1`] = `
     <text> </text>
     <textbox
       description="Some important helper text"
-      value="Composed TextField"
+      value="Composed Text Field"
     >
       Name
-      <text>Composed TextField</text>
+      <text>Composed Text Field</text>
     </textbox>
     <paragraph>
       <text>Some important helper text</text>
@@ -13796,9 +13796,9 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Name</text>
     </LabelText>
     <text> </text>
-    <textbox disabled="true" value="Composed TextField">
+    <textbox disabled="true" value="Composed Text Field">
       Name
-      <text>Composed TextField</text>
+      <text>Composed Text Field</text>
     </textbox>
     <paragraph>
       <text>Disabled</text>
@@ -13807,9 +13807,9 @@ exports[`chromium /components/text-fields/ 1`] = `
       <text>Name</text>
     </LabelText>
     <text> </text>
-    <textbox description="Error" invalid="true" value="Composed TextField">
+    <textbox description="Error" invalid="true" value="Composed Text Field">
       Name
-      <text>Composed TextField</text>
+      <text>Composed Text Field</text>
     </textbox>
     <paragraph>
       <text>Error</text>
@@ -13817,17 +13817,17 @@ exports[`chromium /components/text-fields/ 1`] = `
     <LabelText>
       <text>Name</text>
     </LabelText>
-    <textbox value="Composed TextField">
+    <textbox value="Composed Text Field">
       Name
-      <text>Composed TextField</text>
+      <text>Composed Text Field</text>
     </textbox>
     <LabelText>
       <text>Name</text>
     </LabelText>
     <text> </text>
-    <textbox value="Composed TextField">
+    <textbox value="Composed Text Field">
       Name
-      <text>Composed TextField</text>
+      <text>Composed Text Field</text>
     </textbox>
   </form>
   <toolbar>
@@ -30232,9 +30232,9 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Name</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Composed TextField">
+    <textbox value="Composed Text Field">
       Name
-      <text>Composed TextField</text>
+      <text>Composed Text Field</text>
     </textbox>
     <label>
       Name
@@ -30243,10 +30243,10 @@ exports[`firefox /components/text-fields/ 1`] = `
     <statictext> </statictext>
     <textbox
       description="Some important helper text"
-      value="Composed TextField"
+      value="Composed Text Field"
     >
       Name
-      <text>Composed TextField</text>
+      <text>Composed Text Field</text>
     </textbox>
     <paragraph>
       <text>Some important helper text</text>
@@ -30256,9 +30256,9 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Name</text>
     </label>
     <statictext> </statictext>
-    <textbox disabled="true" value="Composed TextField">
+    <textbox disabled="true" value="Composed Text Field">
       Name
-      <text>Composed TextField</text>
+      <text>Composed Text Field</text>
     </textbox>
     <paragraph>
       <text>Disabled</text>
@@ -30268,9 +30268,9 @@ exports[`firefox /components/text-fields/ 1`] = `
       <text>Name</text>
     </label>
     <statictext> </statictext>
-    <textbox description="Error" invalid="true" value="Composed TextField">
+    <textbox description="Error" invalid="true" value="Composed Text Field">
       Name
-      <text>Composed TextField</text>
+      <text>Composed Text Field</text>
     </textbox>
     <paragraph>
       <text>Error</text>
@@ -30279,18 +30279,18 @@ exports[`firefox /components/text-fields/ 1`] = `
       Name
       <text>Name</text>
     </label>
-    <textbox value="Composed TextField">
+    <textbox value="Composed Text Field">
       Name
-      <text>Composed TextField</text>
+      <text>Composed Text Field</text>
     </textbox>
     <label>
       Name
       <text>Name</text>
     </label>
     <statictext> </statictext>
-    <textbox value="Composed TextField">
+    <textbox value="Composed Text Field">
       Name
-      <text>Composed TextField</text>
+      <text>Composed Text Field</text>
     </textbox>
   </form>
   <toolbar>
