@@ -16489,8 +16489,9 @@ exports[`firefox /api/button/ 1`] = `
     <text>Import</text>
   </heading>
   <text>
-    import Button from '@mui/core/Button'; // or import { Button
-    } from '@mui/core';You can learn about the difference by
+    import Button from '@mui/material/Button'; // or import {
+    Button } from '@mui/material';You can learn about the
+    difference by
   </text>
   <link>reading this guide on minimizing bundle size</link>
   <text>.</text>
@@ -17377,8 +17378,9 @@ exports[`firefox /api/select/ 1`] = `
     <text>Import</text>
   </heading>
   <text>
-    import Select from '@mui/core/Select'; // or import { Select
-    } from '@mui/core';You can learn about the difference by
+    import Select from '@mui/material/Select'; // or import {
+    Select } from '@mui/material';You can learn about the
+    difference by
   </text>
   <link>reading this guide on minimizing bundle size</link>
   <text>.</text>
