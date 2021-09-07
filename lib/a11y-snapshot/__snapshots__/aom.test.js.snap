@@ -19960,10 +19960,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <ThemeProvider theme={createTheme()}>
-    <SvgButton>Button</SvgButton> </ThemeProvider>
-  </text>
+  <text><SvgButton>Button</SvgButton></text>
   <heading level="3">
     useButton hook
     <text>useButton hook</text>
