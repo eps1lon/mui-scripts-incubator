@@ -3931,8 +3931,8 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>element.</text>
   </paragraph>
   <heading level="2">
-    Unstyled button
-    <text>Unstyled button</text>
+    Unstyled
+    <text>Unstyled</text>
   </heading>
   <paragraph>
     <text>
@@ -4019,7 +4019,7 @@ exports[`chromium /components/buttons/ 1`] = `
   </Pre>
   <paragraph>
     <text>
-      Compare the attributes on the span with the button from the previous demo
+      Compare the attributes on the span with the button from the previous demo.
     </text>
   </paragraph>
   <heading level="4">
@@ -4222,7 +4222,7 @@ exports[`chromium /components/buttons/ 1`] = `
         </list>
       </listitem>
       <listitem level="1">
-        <link>Unstyled button</link>
+        <link>Unstyled</link>
         <list>
           <listitem level="2">
             <link>Unstyled component</link>
@@ -19850,8 +19850,8 @@ exports[`firefox /components/buttons/ 1`] = `
     </text>
   </paragraph>
   <heading level="2">
-    Unstyled button
-    <text>Unstyled button</text>
+    Unstyled
+    <text>Unstyled</text>
   </heading>
   <paragraph>
     <text>
@@ -19930,7 +19930,7 @@ exports[`firefox /components/buttons/ 1`] = `
   </text>
   <paragraph>
     <text>
-      Compare the attributes on the span with the button from the previous demo
+      Compare the attributes on the span with the button from the previous demo.
     </text>
   </paragraph>
   <heading level="4">
@@ -19960,10 +19960,7 @@ exports[`firefox /components/buttons/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    <ThemeProvider theme={createTheme()}>
-    <SvgButton>Button</SvgButton> </ThemeProvider>
-  </text>
+  <text><SvgButton>Button</SvgButton></text>
   <heading level="3">
     useButton hook
     <text>useButton hook</text>
@@ -20132,8 +20129,8 @@ exports[`firefox /components/buttons/ 1`] = `
         </list>
       </listitem>
       <listitem level="1">
-        Unstyled button Unstyled component useButton hook
-        <link>Unstyled button</link>
+        Unstyled Unstyled component useButton hook
+        <link>Unstyled</link>
         <list>
           <listitem level="2">
             Unstyled component
