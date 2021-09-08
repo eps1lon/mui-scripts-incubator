@@ -258,7 +258,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-rc.0. View versions page.</link>
+      <link>v5.0.0-rc.1. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -3018,7 +3018,7 @@ exports[`chromium /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
@@ -3026,9 +3026,6 @@ exports[`chromium /components/button-group/ 1`] = `
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Split button
     <text>Split button</text>
@@ -13261,7 +13258,7 @@ exports[`chromium /components/text-fields/ 1`] = `
   </form>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
@@ -13269,9 +13266,6 @@ exports[`chromium /components/text-fields/ 1`] = `
     <button>Reset demo</button>
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
   <heading level="2">
     Icons
     <text>Icons</text>
@@ -16458,7 +16452,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-rc.0. View versions page.</link>
+      <link>v5.0.0-rc.1. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -18891,7 +18885,7 @@ exports[`firefox /components/button-group/ 1`] = `
   </group>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
@@ -18899,7 +18893,6 @@ exports[`firefox /components/button-group/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>{buttons} ButtonGroup></text>
   <heading level="2">
     Split button
     <text>Split button</text>
@@ -25157,7 +25150,7 @@ exports[`firefox /components/rating/ 1`] = `
   <text>
     <Typography component="legend">Custom icon and
     color</Typography> <StyledRating name="customized-color"
-    defaultValue={2} getLabelText={(value) =>
+    defaultValue={2} getLabelText={(value: number) =>
     \`\${value} Heart\${value !== 1 ? 's' :
     ''}\`} precision={0.5}
     icon={<FavoriteIcon fontSize="inherit" />}
@@ -29648,7 +29641,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   </form>
   <toolbar>
     demo source
-    <button>Show the full source</button>
+    <button>Show the source</button>
     <button>Edit in CodeSandbox</button>
     <button>Edit in StackBlitz</button>
     <button>Copy the source</button>
@@ -29656,11 +29649,6 @@ exports[`firefox /components/text-fields/ 1`] = `
     <button>Reset demo</button>
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
-  <text>
-    {currencies.map((option) => ( <option
-    key={option.value} value={option.value}>
-    {option.label} </option> ))} TextField> v>
-  </text>
   <heading level="2">
     Icons
     <text>Icons</text>
