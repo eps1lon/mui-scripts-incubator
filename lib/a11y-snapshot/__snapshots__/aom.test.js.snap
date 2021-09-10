@@ -45,9 +45,7 @@ exports[`chromium / 1`] = `
     </text>
     <Pre>
       <code>
-        <text>
-          $ npm install @mui/material@next @emotion/react @emotion/styled
-        </text>
+        <text>$ npm install @mui/material @emotion/react @emotion/styled</text>
       </code>
     </Pre>
     <link>or use a CDN.</link>
@@ -16214,8 +16212,7 @@ exports[`firefox / 1`] = `
     </heading>
     <text>
       Install Material-UI's source files via npm. We take care of injecting
-      the CSS needed.$ npm install @mui/material@next @emotion/react
-      @emotion/styled
+      the CSS needed.$ npm install @mui/material @emotion/react @emotion/styled
     </text>
     <link>or use a CDN.</link>
     <text>
