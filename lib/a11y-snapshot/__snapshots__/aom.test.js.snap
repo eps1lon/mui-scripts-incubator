@@ -6,6 +6,10 @@ exports[`chromium / 1`] = `
   <link>Skip to content</link>
   <banner>
     <button>Open main navigation</button>
+    <combobox haspopup="menu">
+      Change language
+      <text>English</text>
+    </combobox>
     <searchbox>Search</searchbox>
     <combobox autocomplete="list" haspopup="listbox">
       Search
@@ -13,7 +17,6 @@ exports[`chromium / 1`] = `
     <text>Ctrl+K</text>
     <link>GitHub repository</link>
     <combobox haspopup="menu">Toggle notifications panel</combobox>
-    <combobox haspopup="menu">Change language</combobox>
     <button>Toggle settings drawer</button>
   </banner>
   <navigation>documentation</navigation>
@@ -45,7 +48,9 @@ exports[`chromium / 1`] = `
     </text>
     <Pre>
       <code>
-        <text>$ npm install @mui/material @emotion/react @emotion/styled</text>
+        <text>
+          $ npm install @material-ui/core@next @emotion/react @emotion/styled
+        </text>
       </code>
     </Pre>
     <link>or use a CDN.</link>
@@ -70,7 +75,7 @@ exports[`chromium / 1`] = `
     <Pre>
       <code>
         <text>
-          import*asReactfrom'react';import{Button}from'@mui/material';functionApp(){return<Button>Hello
+          import*asReactfrom'react';import{Button}from'@material-ui/core';functionApp(){return<Button>Hello
           World</Button>;}
         </text>
       </code>
@@ -141,6 +146,10 @@ exports[`chromium / 1`] = `
       <img description="Mass Text Messaging & Automated Calling">
         call-em-all
       </img>
+    </link>
+    <link>
+      canadacasino
+      <img>canadacasino</img>
     </link>
     <link>
       hoodiebees
@@ -256,7 +265,7 @@ exports[`chromium / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-rc.1. View versions page.</link>
+      <link>v5.0.0-beta.5. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>.Copyright ©2021Material-UI.</text>
@@ -277,7 +286,7 @@ exports[`chromium /api/button/ 1`] = `
   <paragraph>
     <text>
       API documentation for the React Button component. Learn about the
-      available props and the CSS API.
+      available props, and the CSS API.
     </text>
   </paragraph>
   <heading level="2">
@@ -1384,7 +1393,7 @@ exports[`chromium /api/select/ 1`] = `
   <paragraph>
     <text>
       API documentation for the React Select component. Learn about the
-      available props and the CSS API.
+      available props, and the CSS API.
     </text>
   </paragraph>
   <heading level="2">
@@ -3926,184 +3935,6 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>element.</text>
   </paragraph>
   <heading level="2">
-    Unstyled
-    <text>Unstyled</text>
-  </heading>
-  <paragraph>
-    <text>
-      The button also comes with an unstyled version. It's ideal for doing
-      heavy customizations and minimizing bundle size.
-    </text>
-  </paragraph>
-  <heading level="3">
-    Unstyled component
-    <text>Unstyled component</text>
-  </heading>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    Button
-    <text>Button</text>
-  </button>
-  <button disabled="true">
-    Disabled
-    <text>Disabled</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="4">
-    Customizing the root element
-    <text>Customizing the root element</text>
-  </heading>
-  <paragraph>
-    <text>By default, the</text>
-    <code>$SOME_CODE</code>
-    <text>renders a native</text>
-    <code>$SOME_CODE</code>
-    <text>element. You are free to override this by setting the</text>
-    <code>$SOME_CODE</code>
-    <text>or</text>
-    <code>$SOME_CODE</code>
-    <text>
-      prop. If a non-interactive element (such as a span) is provided this way,
-      the
-    </text>
-    <code>$SOME_CODE</code>
-    <text>will take care of adding accessibility attributes.</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    Button
-    <text>Button</text>
-  </button>
-  <button disabled="true">
-    Disabled
-    <text>Disabled</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <paragraph>
-    <text>
-      Compare the attributes on the span with the button from the previous demo.
-    </text>
-  </paragraph>
-  <heading level="4">
-    Complex customization
-    <text>Complex customization</text>
-  </heading>
-  <paragraph>
-    <text>
-      You are not limited to using HTML elements for the button structure. SVG
-      elements, even with complex structure, are equally acceptable.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    BUTTON
-    <text>BUTTON</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="3">
-    useButton hook
-    <text>useButton hook</text>
-  </heading>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <paragraph>
-    <text>
-      If you need to use Button's functionality in another component, you
-      can use the
-    </text>
-    <code>$SOME_CODE</code>
-    <text>
-      hook. It returns props to be placed on a custom button element and fields
-      representing the internal state of the button.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>The</text>
-    <code>$SOME_CODE</code>
-    <text>
-      hook requires the ref of the element it'll be used on. Additionally,
-      you need to provide the
-    </text>
-    <code>$SOME_CODE</code>
-    <text>prop (unless you intend to use the plain</text>
-    <code>$SOME_CODE</code>
-    <text>).</text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    Button
-    <text>Button</text>
-  </button>
-  <button disabled="true">
-    Disabled
-    <text>Disabled</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <combobox haspopup="menu">See more</combobox>
-  </toolbar>
-  <Pre>
-    <code>$SOME_CODE</code>
-  </Pre>
-  <heading level="2">
     API
     <text>API</text>
   </heading>
@@ -4117,12 +3948,6 @@ exports[`chromium /components/buttons/ 1`] = `
     <listitem level="1">
       <link>
         <ButtonBase />
-        <code>$SOME_CODE</code>
-      </link>
-    </listitem>
-    <listitem level="1">
-      <link>
-        <ButtonUnstyled />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
@@ -4213,17 +4038,6 @@ exports[`chromium /components/buttons/ 1`] = `
         <list>
           <listitem level="2">
             <link>Cursor not-allowed</link>
-          </listitem>
-        </list>
-      </listitem>
-      <listitem level="1">
-        <link>Unstyled</link>
-        <list>
-          <listitem level="2">
-            <link>Unstyled component</link>
-          </listitem>
-          <listitem level="2">
-            <link>useButton hook</link>
           </listitem>
         </list>
       </listitem>
@@ -11310,6 +11124,35 @@ exports[`chromium /components/switches/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
+    Recreation of Material-UI's Switch
+    <text>Recreation of Material-UI's Switch</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Switch demo</checkbox>
+  <checkbox checked="false">Switch demo</checkbox>
+  <checkbox checked="true" disabled="true">
+    Switch demo
+  </checkbox>
+  <checkbox checked="false" disabled="true">
+    Switch demo
+  </checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="3">
     useSwitch hook
     <text>useSwitch hook</text>
   </heading>
@@ -11368,6 +11211,35 @@ exports[`chromium /components/switches/ 1`] = `
     navigation of our components.
   </button>
   <checkbox checked="true">Demo switch</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="4">
+    Recreation of Material-UI's Switch
+    <text>Recreation of Material-UI's Switch</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Switch demo</checkbox>
+  <checkbox checked="false">Switch demo</checkbox>
+  <checkbox checked="true" disabled="true">
+    Switch demo
+  </checkbox>
+  <checkbox checked="false" disabled="true">
+    Switch demo
+  </checkbox>
   <toolbar>
     demo source
     <button>Show the full source</button>
@@ -11562,6 +11434,9 @@ exports[`chromium /components/switches/ 1`] = `
       <listitem level="1">
         <link>Unstyled switches</link>
         <list>
+          <listitem level="2">
+            <link>Recreation of Material-UI's Switch</link>
+          </listitem>
           <listitem level="2">
             <link>useSwitch hook</link>
           </listitem>
@@ -16177,13 +16052,16 @@ exports[`firefox / 1`] = `
   <link>Skip to content</link>
   <landmark>
     <button>Open main navigation</button>
+    <buttonmenu haspopup="true">
+      Change language
+      <text>English</text>
+    </buttonmenu>
     <combobox autocomplete="list" haspopup="true">
       Search
     </combobox>
     <text>Ctrl+K</text>
     <link>GitHub repository</link>
     <buttonmenu haspopup="true">Toggle notifications panel</buttonmenu>
-    <buttonmenu haspopup="true">Change language</buttonmenu>
     <button>Toggle settings drawer</button>
   </landmark>
   <landmark>documentation</landmark>
@@ -16212,7 +16090,8 @@ exports[`firefox / 1`] = `
     </heading>
     <text>
       Install Material-UI's source files via npm. We take care of injecting
-      the CSS needed.$ npm install @mui/material @emotion/react @emotion/styled
+      the CSS needed.$ npm install @material-ui/core@next @emotion/react
+      @emotion/styled
     </text>
     <link>or use a CDN.</link>
     <text>
@@ -16229,8 +16108,8 @@ exports[`firefox / 1`] = `
     <text>
       Material-UI components work without any additional setup, and don't
       pollute the global scope.import * as React from 'react'; import
-      { Button } from '@mui/material'; function App() {
-      return <Button>Hello World</Button>; }
+      { Button } from '@material-ui/core'; function App()
+      { return <Button>Hello World</Button>; }
     </text>
     <separator></separator>
     <link>Explore the docs</link>
@@ -16320,6 +16199,10 @@ exports[`firefox / 1`] = `
       >
         call-em-all
       </img>
+    </link>
+    <link>
+      canadacasino
+      <img value="https://www.canadacasino.ca/">canadacasino</img>
     </link>
     <link>
       hoodiebees
@@ -16449,7 +16332,7 @@ exports[`firefox / 1`] = `
     </list>
     <paragraph>
       <text>Currently</text>
-      <link>v5.0.0-rc.1. View versions page.</link>
+      <link>v5.0.0-beta.5. View versions page.</link>
       <text>. Released under the</text>
       <link>MIT License</link>
       <text>. Copyright © 2021 Material-UI.</text>
@@ -16472,7 +16355,7 @@ exports[`firefox /api/button/ 1`] = `
   <paragraph>
     <text>
       API documentation for the React Button component. Learn about the
-      available props and the CSS API.
+      available props, and the CSS API.
     </text>
   </paragraph>
   <heading level="2">
@@ -16480,8 +16363,8 @@ exports[`firefox /api/button/ 1`] = `
     <text>Import</text>
   </heading>
   <text>
-    import Button from '@mui/material/Button'; // or import {
-    Button } from '@mui/material';You can learn about the
+    import Button from '@material-ui/core/Button'; // or import {
+    Button } from '@material-ui/core';You can learn about the
     difference by
   </text>
   <link>reading this guide on minimizing bundle size</link>
@@ -17361,7 +17244,7 @@ exports[`firefox /api/select/ 1`] = `
   <paragraph>
     <text>
       API documentation for the React Select component. Learn about the
-      available props and the CSS API.
+      available props, and the CSS API.
     </text>
   </paragraph>
   <heading level="2">
@@ -17369,8 +17252,8 @@ exports[`firefox /api/select/ 1`] = `
     <text>Import</text>
   </heading>
   <text>
-    import Select from '@mui/material/Select'; // or import {
-    Select } from '@mui/material';You can learn about the
+    import Select from '@material-ui/core/Select'; // or import {
+    Select } from '@material-ui/core';You can learn about the
     difference by
   </text>
   <link>reading this guide on minimizing bundle size</link>
@@ -19840,166 +19723,6 @@ exports[`firefox /components/buttons/ 1`] = `
     </text>
   </paragraph>
   <heading level="2">
-    Unstyled
-    <text>Unstyled</text>
-  </heading>
-  <paragraph>
-    <text>
-      The button also comes with an unstyled version. It's ideal for doing
-      heavy customizations and minimizing bundle size.
-    </text>
-  </paragraph>
-  <heading level="3">
-    Unstyled component
-    <text>Unstyled component</text>
-  </heading>
-  <text>import ButtonUnstyled from '@mui/core/ButtonUnstyled';</text>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    Button
-    <text>Button</text>
-  </button>
-  <button disabled="true">
-    Disabled
-    <text>Disabled</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <CustomButton>Button</CustomButton> <CustomButton
-    disabled>Disabled</CustomButton>
-  </text>
-  <heading level="4">
-    Customizing the root element
-    <text>Customizing the root element</text>
-  </heading>
-  <paragraph>
-    <text>
-      By default, the ButtonUnstyled renders a native button element. You are
-      free to override this by setting the component or components.Root prop. If
-      a non-interactive element (such as a span) is provided this way, the
-      ButtonUnstyled will take care of adding accessibility attributes.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    Button
-    <text>Button</text>
-  </button>
-  <button disabled="true">
-    Disabled
-    <text>Disabled</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <CustomButton>Button</CustomButton> <CustomButton
-    disabled>Disabled</CustomButton>
-  </text>
-  <paragraph>
-    <text>
-      Compare the attributes on the span with the button from the previous demo.
-    </text>
-  </paragraph>
-  <heading level="4">
-    Complex customization
-    <text>Complex customization</text>
-  </heading>
-  <paragraph>
-    <text>
-      You are not limited to using HTML elements for the button structure. SVG
-      elements, even with complex structure, are equally acceptable.
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    <text>BUTTON</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text><SvgButton>Button</SvgButton></text>
-  <heading level="3">
-    useButton hook
-    <text>useButton hook</text>
-  </heading>
-  <text>
-    import { useButton } from '@mui/core/ButtonUnstyled';
-  </text>
-  <paragraph>
-    <text>
-      If you need to use Button's functionality in another component, you
-      can use the useButton hook. It returns props to be placed on a custom
-      button element and fields representing the internal state of the button.
-    </text>
-  </paragraph>
-  <paragraph>
-    <text>
-      The useButton hook requires the ref of the element it'll be used on.
-      Additionally, you need to provide the component prop (unless you intend to
-      use the plain button).
-    </text>
-  </paragraph>
-  <button>
-    A generic container that is programmatically focused to test keyboard
-    navigation of our components.
-  </button>
-  <button>
-    Button
-    <text>Button</text>
-  </button>
-  <button disabled="true">
-    Disabled
-    <text>Disabled</text>
-  </button>
-  <toolbar>
-    demo source
-    <button>Show the full source</button>
-    <button>Edit in CodeSandbox</button>
-    <button>Edit in StackBlitz</button>
-    <button>Copy the source</button>
-    <button>Reset focus to test keyboard navigation</button>
-    <button>Reset demo</button>
-    <buttonmenu haspopup="true">See more</buttonmenu>
-  </toolbar>
-  <text>
-    <CustomButton onClick={() =>
-    console.log('click!')}>Button</CustomButton>
-    <CustomButton disabled>Disabled</CustomButton>
-  </text>
-  <heading level="2">
     API
     <text>API</text>
   </heading>
@@ -20011,10 +19734,6 @@ exports[`firefox /components/buttons/ 1`] = `
     <listitem>
       <ButtonBase />
       <link><ButtonBase /></link>
-    </listitem>
-    <listitem>
-      <ButtonUnstyled />
-      <link><ButtonUnstyled /></link>
     </listitem>
     <listitem>
       <IconButton />
@@ -20115,20 +19834,6 @@ exports[`firefox /components/buttons/ 1`] = `
           <listitem level="2">
             Cursor not-allowed
             <link>Cursor not-allowed</link>
-          </listitem>
-        </list>
-      </listitem>
-      <listitem level="1">
-        Unstyled Unstyled component useButton hook
-        <link>Unstyled</link>
-        <list>
-          <listitem level="2">
-            Unstyled component
-            <link>Unstyled component</link>
-          </listitem>
-          <listitem level="2">
-            useButton hook
-            <link>useButton hook</link>
           </listitem>
         </list>
       </listitem>
@@ -21543,8 +21248,8 @@ exports[`firefox /components/dialogs/ 1`] = `
     <text>.</text>
   </paragraph>
   <text>
-    import useMediaQuery from '@mui/material/useMediaQuery'; function
-    MyComponent() { const theme = useTheme(); const fullScreen =
+    import useMediaQuery from '@material-ui/core/useMediaQuery';
+    function MyComponent() { const theme = useTheme(); const fullScreen =
     useMediaQuery(theme.breakpoints.down('md')); return <Dialog
     fullScreen={fullScreen} />; }
   </text>
@@ -23198,7 +22903,7 @@ exports[`firefox /components/pagination/ 1`] = `
   </paragraph>
   <text>
     import { usePagination } from
-    '@mui/material/Pagination';
+    '@material-ui/core/Pagination';
   </text>
   <button>
     A generic container that is programmatically focused to test keyboard
@@ -23618,12 +23323,13 @@ exports[`firefox /components/pickers 1`] = `
     </text>
   </paragraph>
   <text>
-    // date-fns import DateAdapter from '@mui/lab/AdapterDateFns'; //
-    or for Day.js import DateAdapter from '@mui/lab/AdapterDayjs'; //
-    or for Luxon import DateAdapter from '@mui/lab/AdapterLuxon'; //
-    or for Moment.js import DateAdapter from '@mui/lab/AdapterMoment';
-    function App({ children }) { return (
-    <LocalizationProvider
+    // date-fns import DateAdapter from
+    '@material-ui/lab/AdapterDateFns'; // or for Day.js import
+    DateAdapter from '@material-ui/lab/AdapterDayjs'; // or for Luxon
+    import DateAdapter from '@material-ui/lab/AdapterLuxon'; // or for
+    Moment.js import DateAdapter from
+    '@material-ui/lab/AdapterMoment'; function App({ children
+    }) { return ( <LocalizationProvider
     dateAdapter={DateAdapter}>{children}</LocalizationProvider>
     ); }
   </text>
@@ -24305,7 +24011,7 @@ exports[`firefox /components/radio-buttons 1`] = `
   </heading>
   <text>
     import { useRadioGroup } from
-    '@mui/material/RadioGroup';
+    '@material-ui/core/RadioGroup';
   </text>
   <heading level="4">
     Returns
@@ -25147,7 +24853,7 @@ exports[`firefox /components/rating/ 1`] = `
   <text>
     <Typography component="legend">Custom icon and
     color</Typography> <StyledRating name="customized-color"
-    defaultValue={2} getLabelText={(value: number) =>
+    defaultValue={2} getLabelText={(value) =>
     \`\${value} Heart\${value !== 1 ? 's' :
     ''}\`} precision={0.5}
     icon={<FavoriteIcon fontSize="inherit" />}
@@ -27013,7 +26719,9 @@ exports[`firefox /components/slider 1`] = `
       heavy customizations and minimizing bundle size.
     </text>
   </paragraph>
-  <text>import SliderUnstyled from '@mui/core/SliderUnstyled';</text>
+  <text>
+    import SliderUnstyled from '@material-ui/unstyled/SliderUnstyled';
+  </text>
   <button>
     A generic container that is programmatically focused to test keyboard
     navigation of our components.
@@ -27534,7 +27242,9 @@ exports[`firefox /components/switches/ 1`] = `
       heavy customizations and minimizing bundle size.
     </text>
   </paragraph>
-  <text>import SwitchUnstyled from '@mui/core/SwitchUnstyled';</text>
+  <text>
+    import SwitchUnstyled from '@material-ui/unstyled/SwitchUnstyled';
+  </text>
   <paragraph>
     <text>
       The SwitchUnstyled component provides default components and assigns CSS
@@ -27579,6 +27289,37 @@ exports[`firefox /components/switches/ 1`] = `
     component={Root} {...label} disabled />
   </text>
   <heading level="3">
+    Recreation of Material-UI's Switch
+    <text>Recreation of Material-UI's Switch</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Switch demo</checkbox>
+  <checkbox>Switch demo</checkbox>
+  <checkbox checked="true" disabled="true">
+    Switch demo
+  </checkbox>
+  <checkbox disabled="true">Switch demo</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <ThemeProvider theme={createTheme()}> <Switch
+    {...label} defaultChecked /> <Switch {...label}
+    color="secondary" /> <Switch {...label} disabled
+    defaultChecked /> <Switch {...label} disabled />
+    </ThemeProvider>
+  </text>
+  <heading level="3">
     useSwitch hook
     <text>useSwitch hook</text>
   </heading>
@@ -27590,7 +27331,8 @@ exports[`firefox /components/switches/ 1`] = `
     </text>
   </paragraph>
   <text>
-    import { useSwitch } from '@mui/core/SwitchUnstyled';
+    import { useSwitch } from
+    '@material-ui/unstyled/SwitchUnstyled';
   </text>
   <heading level="4">
     Basic example
@@ -27640,6 +27382,37 @@ exports[`firefox /components/switches/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <text><MUISwitch defaultChecked /></text>
+  <heading level="4">
+    Recreation of Material-UI's Switch
+    <text>Recreation of Material-UI's Switch</text>
+  </heading>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <checkbox checked="true">Switch demo</checkbox>
+  <checkbox>Switch demo</checkbox>
+  <checkbox checked="true" disabled="true">
+    Switch demo
+  </checkbox>
+  <checkbox disabled="true">Switch demo</checkbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <ThemeProvider theme={createTheme()}> <Switch
+    {...label} defaultChecked /> <Switch {...label}
+    color="secondary" /> <Switch {...label} disabled
+    defaultChecked /> <Switch {...label} disabled />
+    </ThemeProvider>
+  </text>
   <heading level="2">
     Label placement
     <text>Label placement</text>
@@ -27820,9 +27593,13 @@ exports[`firefox /components/switches/ 1`] = `
         <link>Customization</link>
       </listitem>
       <listitem level="1">
-        Unstyled switches useSwitch hook
+        Unstyled switches Recreation of Material-UI's Switch useSwitch hook
         <link>Unstyled switches</link>
         <list>
+          <listitem level="2">
+            Recreation of Material-UI's Switch
+            <link>Recreation of Material-UI's Switch</link>
+          </listitem>
           <listitem level="2">
             useSwitch hook
             <link>useSwitch hook</link>
@@ -27962,7 +27739,7 @@ exports[`firefox /components/tabs/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      @mui/lab offers utility components that inject props to implement
+      @material-ui/lab offers utility components that inject props to implement
       accessible tabs following
     </text>
     <link>WAI-ARIA authoring practices</link>
@@ -28791,7 +28568,7 @@ exports[`firefox /components/tabs/ 1`] = `
       this page. We've also published
     </text>
     <link>an experimental API</link>
-    <text>in @mui/lab that does not require extra work.</text>
+    <text>in @material-ui/lab that does not require extra work.</text>
   </paragraph>
   <heading level="3">
     Keyboard navigation
@@ -30361,7 +30138,7 @@ exports[`firefox /components/text-fields/ 1`] = `
   </paragraph>
   <text>
     import { useFormControl } from
-    '@mui/material/FormControl';
+    '@material-ui/core/FormControl';
   </text>
   <paragraph>
     <text>Returns</text>
