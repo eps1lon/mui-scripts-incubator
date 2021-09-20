@@ -5,7 +5,7 @@ exports[`chromium / 1`] = `
   MUI: The React component library you always wanted
   <banner>
     <link>
-      Goto homepage
+      Go to homepage
       <SvgRoot></SvgRoot>
     </link>
     <navigation>
@@ -16342,7 +16342,7 @@ exports[`firefox / 1`] = `
   MUI: The React component library you always wanted
   <landmark>
     <link>
-      Goto homepage
+      Go to homepage
       <diagram></diagram>
     </link>
     <landmark>
