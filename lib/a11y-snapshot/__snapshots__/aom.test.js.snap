@@ -145,9 +145,9 @@ exports[`chromium / 1`] = `
       </text>
     </paragraph>
     <button>
-      MUI Core Ready to use, free foverer, foundational components. Go to core
+      MUI Core Ready-to-use foundational components, free forever. Go to core
       components page
-      <text>MUI CoreReady to use, free foverer, foundational components.</text>
+      <text>MUI CoreReady-to-use foundational components, free forever.</text>
       <link>Go to core components page</link>
     </button>
     <button>
@@ -16406,10 +16406,10 @@ exports[`firefox / 1`] = `
       </text>
     </paragraph>
     <button>
-      MUI Core Ready to use, free foverer, foundational components. Go to core
+      MUI Core Ready-to-use foundational components, free forever. Go to core
       components page
       <img></img>
-      <text>MUI CoreReady to use, free foverer, foundational components.</text>
+      <text>MUI CoreReady-to-use foundational components, free forever.</text>
       <link>Go to core components page</link>
     </button>
     <button>
