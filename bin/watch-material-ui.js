@@ -8,7 +8,7 @@ const { updateDeploy } = require("../lib/a11y-snapshot/deploy");
 
 const exec = promisify(childProcess.exec);
 
-const muiMainBranch = "next";
+const muiMainBranch = "master";
 const githubToken = process.env.GITHUB_TOKEN;
 
 yargs
