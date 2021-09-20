@@ -1,6 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`chromium / 1`] = `Array []`;
+exports[`chromium / 1`] = `
+Array [
+  Object {
+    "canMismatch__helpUrl": "https://dequeuniversity.com/rules/axe/4.3/nested-interactive?application=axeAPI",
+    "id": "nested-interactive",
+    "nodes": Array [
+      ".css-REMOVED_UNSTABLE_EMOTION_HASH",
+      ".css-REMOVED_UNSTABLE_EMOTION_HASH[type=\\"button\\"]:nth-child(2)",
+      ".css-REMOVED_UNSTABLE_EMOTION_HASH[type=\\"button\\"]:nth-child(3)",
+      ".css-REMOVED_UNSTABLE_EMOTION_HASH[type=\\"button\\"]:nth-child(4)",
+    ],
+  },
+]
+`;
 
 exports[`chromium /api/button/ 1`] = `
 Array [
