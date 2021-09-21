@@ -5,7 +5,7 @@ exports[`chromium / 1`] = `
   MUI: The React component library you always wanted
   <banner>
     <link>
-      Go to homepage
+      Goto homepage
       <SvgRoot></SvgRoot>
     </link>
     <navigation>
@@ -145,9 +145,9 @@ exports[`chromium / 1`] = `
       </text>
     </paragraph>
     <button>
-      MUI Core Ready-to-use foundational components, free forever. Go to core
+      MUI Core Ready to use, free foverer, foundational components. Go to core
       components page
-      <text>MUI CoreReady-to-use foundational components, free forever.</text>
+      <text>MUI CoreReady to use, free foverer, foundational components.</text>
       <link>Go to core components page</link>
     </button>
     <button>
@@ -16342,7 +16342,7 @@ exports[`firefox / 1`] = `
   MUI: The React component library you always wanted
   <landmark>
     <link>
-      Go to homepage
+      Goto homepage
       <diagram></diagram>
     </link>
     <landmark>
@@ -16406,10 +16406,10 @@ exports[`firefox / 1`] = `
       </text>
     </paragraph>
     <button>
-      MUI Core Ready-to-use foundational components, free forever. Go to core
+      MUI Core Ready to use, free foverer, foundational components. Go to core
       components page
       <img></img>
-      <text>MUI CoreReady-to-use foundational components, free forever.</text>
+      <text>MUI CoreReady to use, free foverer, foundational components.</text>
       <link>Go to core components page</link>
     </button>
     <button>
