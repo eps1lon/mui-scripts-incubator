@@ -51,41 +51,6 @@ exports[`chromium / 1`] = `
     <checkbox checked="false">Themed Switch</checkbox>
     <button>React</button>
     <button>Javascript</button>
-    <button>Folder Name sorted ascending</button>
-    <button>Size</button>
-    <button>calendar view is open, switch to year view</button>
-    <button description="Previous month">Previous month</button>
-    <button description="Next month">Next month</button>
-    <button>Sep 1, 2021</button>
-    <button>Sep 2, 2021</button>
-    <button>Sep 3, 2021</button>
-    <button>Sep 4, 2021</button>
-    <button>Sep 5, 2021</button>
-    <button>Sep 6, 2021</button>
-    <button>Sep 7, 2021</button>
-    <button>Sep 8, 2021</button>
-    <button>Sep 9, 2021</button>
-    <button>Sep 10, 2021</button>
-    <button>Sep 11, 2021</button>
-    <button>Sep 12, 2021</button>
-    <button>Sep 13, 2021</button>
-    <button>Sep 14, 2021</button>
-    <button>Sep 15, 2021</button>
-    <button>Sep 16, 2021</button>
-    <button>Sep 17, 2021</button>
-    <button>Sep 18, 2021</button>
-    <button>Sep 19, 2021</button>
-    <button>Sep 20, 2021</button>
-    <button>Sep 21, 2021</button>
-    <button>Sep 22, 2021</button>
-    <button>Sep 23, 2021</button>
-    <button>Sep 24, 2021</button>
-    <button>Sep 25, 2021</button>
-    <button>Sep 26, 2021</button>
-    <button>Sep 27, 2021</button>
-    <button>Sep 28, 2021</button>
-    <button>Sep 29, 2021</button>
-    <button>Sep 30, 2021</button>
     <tab selected="true">Yesterday</tab>
     <tab>Today</tab>
     <tab>Tomorrow</tab>
@@ -114,10 +79,6 @@ exports[`chromium / 1`] = `
     <button pressed="false">sidebar</button>
     <button>Buy now</button>
     <button>Buy now</button>
-    <button>Fonts Typefaces used in this branding project.</button>
-    <button disabled="true">
-      Hacks Some of our secrets to make this website.
-    </button>
     <img>Spotify logo</img>
     <img>Amazon logo</img>
     <img>Nasa logo</img>
