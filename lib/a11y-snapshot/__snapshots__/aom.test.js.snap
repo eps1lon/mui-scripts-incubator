@@ -3896,7 +3896,7 @@ exports[`chromium /components/buttons/ 1`] = `
   </button>
   <button disabled="true">
     SUBMIT
-    <progressbar valuetext="">
+    <progressbar valuemax="100" valuemin="0" valuetext="">
       <SvgRoot></SvgRoot>
     </progressbar>
     <text>SUBMIT</text>
@@ -3907,7 +3907,7 @@ exports[`chromium /components/buttons/ 1`] = `
   </button>
   <button disabled="true">
     SAVE
-    <progressbar valuetext="">
+    <progressbar valuemax="100" valuemin="0" valuetext="">
       <SvgRoot></SvgRoot>
     </progressbar>
     <text>SAVE</text>
