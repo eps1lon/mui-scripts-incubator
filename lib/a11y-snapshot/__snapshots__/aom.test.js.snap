@@ -19,11 +19,10 @@ exports[`chromium / 1`] = `
         <link>About us</link>
       </menubar>
     </navigation>
-    <searchbox>Search</searchbox>
-    <combobox autocomplete="list" haspopup="listbox">
-      Search
-    </combobox>
-    <text>Ctrl+K</text>
+    <button>
+      Search… Ctrl+K
+      <text>Search…Ctrl+K</text>
+    </button>
     <button>Turn off the light</button>
   </banner>
   <main>
@@ -3380,8 +3379,8 @@ exports[`chromium /components/buttons/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Basic Button
-    <text>Basic Button</text>
+    Basic button
+    <text>Basic button</text>
   </heading>
   <paragraph>
     <text>The</text>
@@ -3420,8 +3419,8 @@ exports[`chromium /components/buttons/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
-    Text buttons
-    <text>Text buttons</text>
+    Text button
+    <text>Text button</text>
   </heading>
   <paragraph>
     <link>Text buttons</link>
@@ -3458,8 +3457,8 @@ exports[`chromium /components/buttons/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
-    Contained buttons
-    <text>Contained buttons</text>
+    Contained button
+    <text>Contained button</text>
   </heading>
   <paragraph>
     <link>Contained buttons</link>
@@ -3521,8 +3520,8 @@ exports[`chromium /components/buttons/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="3">
-    Outlined buttons
-    <text>Outlined buttons</text>
+    Outlined button
+    <text>Outlined button</text>
   </heading>
   <paragraph>
     <link>Outlined buttons</link>
@@ -3883,8 +3882,8 @@ exports[`chromium /components/buttons/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
-    Loading buttons
-    <text>Loading buttons</text>
+    Loading button
+    <text>Loading button</text>
   </heading>
   <paragraph>
     <text>
@@ -3967,8 +3966,8 @@ exports[`chromium /components/buttons/ 1`] = `
     <combobox haspopup="menu">See more</combobox>
   </toolbar>
   <heading level="2">
-    Complex buttons
-    <text>Complex buttons</text>
+    Complex button
+    <text>Complex button</text>
   </heading>
   <paragraph>
     <text>
@@ -4323,16 +4322,16 @@ exports[`chromium /components/buttons/ 1`] = `
     </paragraph>
     <list>
       <listitem level="1">
-        <link>Basic Button</link>
+        <link>Basic button</link>
         <list>
           <listitem level="2">
-            <link>Text buttons</link>
+            <link>Text button</link>
           </listitem>
           <listitem level="2">
-            <link>Contained buttons</link>
+            <link>Contained button</link>
           </listitem>
           <listitem level="2">
-            <link>Outlined buttons</link>
+            <link>Outlined button</link>
           </listitem>
         </list>
       </listitem>
@@ -4366,10 +4365,10 @@ exports[`chromium /components/buttons/ 1`] = `
         <link>Customization</link>
       </listitem>
       <listitem level="1">
-        <link>Loading buttons</link>
+        <link>Loading button</link>
       </listitem>
       <listitem level="1">
-        <link>Complex buttons</link>
+        <link>Complex button</link>
       </listitem>
       <listitem level="1">
         <link>Third-party routing library</link>
@@ -16356,10 +16355,9 @@ exports[`firefox / 1`] = `
         <link>About us</link>
       </menubar>
     </landmark>
-    <combobox autocomplete="list" haspopup="true">
-      Search
-    </combobox>
-    <text>Ctrl+K</text>
+    <button>
+      Search… Ctrl+ K<text>Search…Ctrl+K</text>
+    </button>
     <button>Turn off the light</button>
   </landmark>
   <landmark>
@@ -19366,8 +19364,8 @@ exports[`firefox /components/buttons/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
-    Basic Button
-    <text>Basic Button</text>
+    Basic button
+    <text>Basic button</text>
   </heading>
   <paragraph>
     <text>
@@ -19407,8 +19405,8 @@ exports[`firefox /components/buttons/ 1`] = `
     variant="outlined">Outlined</Button>
   </text>
   <heading level="3">
-    Text buttons
-    <text>Text buttons</text>
+    Text button
+    <text>Text button</text>
   </heading>
   <paragraph>
     <link>Text buttons</link>
@@ -19447,8 +19445,8 @@ exports[`firefox /components/buttons/ 1`] = `
     href="#text-buttons">Link</Button>
   </text>
   <heading level="3">
-    Contained buttons
-    <text>Contained buttons</text>
+    Contained button
+    <text>Contained button</text>
   </heading>
   <paragraph>
     <link>Contained buttons</link>
@@ -19512,8 +19510,8 @@ exports[`firefox /components/buttons/ 1`] = `
     elevation </Button>
   </text>
   <heading level="3">
-    Outlined buttons
-    <text>Outlined buttons</text>
+    Outlined button
+    <text>Outlined button</text>
   </heading>
   <paragraph>
     <link>Outlined buttons</link>
@@ -19905,8 +19903,8 @@ exports[`firefox /components/buttons/ 1`] = `
     <text>.</text>
   </paragraph>
   <heading level="2">
-    Loading buttons
-    <text>Loading buttons</text>
+    Loading button
+    <text>Loading button</text>
   </heading>
   <paragraph>
     <text>
@@ -19995,8 +19993,8 @@ exports[`firefox /components/buttons/ 1`] = `
     <buttonmenu haspopup="true">See more</buttonmenu>
   </toolbar>
   <heading level="2">
-    Complex buttons
-    <text>Complex buttons</text>
+    Complex button
+    <text>Complex button</text>
   </heading>
   <paragraph>
     <text>
@@ -20316,20 +20314,20 @@ exports[`firefox /components/buttons/ 1`] = `
     </paragraph>
     <list>
       <listitem level="1">
-        Basic Button Text buttons Contained buttons Outlined buttons
-        <link>Basic Button</link>
+        Basic button Text button Contained button Outlined button
+        <link>Basic button</link>
         <list>
           <listitem level="2">
-            Text buttons
-            <link>Text buttons</link>
+            Text button
+            <link>Text button</link>
           </listitem>
           <listitem level="2">
-            Contained buttons
-            <link>Contained buttons</link>
+            Contained button
+            <link>Contained button</link>
           </listitem>
           <listitem level="2">
-            Outlined buttons
-            <link>Outlined buttons</link>
+            Outlined button
+            <link>Outlined button</link>
           </listitem>
         </list>
       </listitem>
@@ -20372,12 +20370,12 @@ exports[`firefox /components/buttons/ 1`] = `
         <link>Customization</link>
       </listitem>
       <listitem level="1">
-        Loading buttons
-        <link>Loading buttons</link>
+        Loading button
+        <link>Loading button</link>
       </listitem>
       <listitem level="1">
-        Complex buttons
-        <link>Complex buttons</link>
+        Complex button
+        <link>Complex button</link>
       </listitem>
       <listitem level="1">
         Third-party routing library
