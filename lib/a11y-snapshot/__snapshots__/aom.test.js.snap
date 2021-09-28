@@ -20562,7 +20562,7 @@ exports[`firefox /components/cards/ 1`] = `
   </button>
   <text>RShrimp and Chorizo PaellaSeptember 14, 2016</text>
   <button>settings</button>
-  <img>Paella dish</img>
+  <statictext>Paella dish</statictext>
   <paragraph>
     <text>
       This impressive paella is a perfect party dish and a fun meal to cook
