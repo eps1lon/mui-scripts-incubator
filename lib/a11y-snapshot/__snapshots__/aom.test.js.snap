@@ -52,60 +52,6 @@ exports[`chromium / 1`] = `
     <button>Javascript</button>
     <button>Folder Name sorted ascending</button>
     <button>Size</button>
-    <button>calendar view is open, switch to year view</button>
-    <button description="Previous month">Previous month</button>
-    <button description="Next month">Next month</button>
-    <button>Sep 1, 2021</button>
-    <button>Sep 2, 2021</button>
-    <button>Sep 3, 2021</button>
-    <button>Sep 4, 2021</button>
-    <button>Sep 5, 2021</button>
-    <button>Sep 6, 2021</button>
-    <button>Sep 7, 2021</button>
-    <button>Sep 8, 2021</button>
-    <button>Sep 9, 2021</button>
-    <button>Sep 10, 2021</button>
-    <button>Sep 11, 2021</button>
-    <button>Sep 12, 2021</button>
-    <button>Sep 13, 2021</button>
-    <button>Sep 14, 2021</button>
-    <button>Sep 15, 2021</button>
-    <button>Sep 16, 2021</button>
-    <button>Sep 17, 2021</button>
-    <button>Sep 18, 2021</button>
-    <button>Sep 19, 2021</button>
-    <button>Sep 20, 2021</button>
-    <button>Sep 21, 2021</button>
-    <button>Sep 22, 2021</button>
-    <button>Sep 23, 2021</button>
-    <button>Sep 24, 2021</button>
-    <button>Sep 25, 2021</button>
-    <button>Sep 26, 2021</button>
-    <button>Sep 27, 2021</button>
-    <button>Sep 28, 2021</button>
-    <button>Sep 29, 2021</button>
-    <button>Sep 30, 2021</button>
-    <tab selected="true">Yesterday</tab>
-    <tab>Today</tab>
-    <tab>Tomorrow</tab>
-    <slider
-      orientation="horizontal"
-      value="25"
-      valuemax="100"
-      valuemin="0"
-      valuetext="25°C"
-    >
-      Temperature
-    </slider>
-    <slider
-      orientation="horizontal"
-      value="50"
-      valuemax="100"
-      valuemin="0"
-      valuetext="50°C"
-    >
-      Temperature
-    </slider>
     <button pressed="true">quilt</button>
     <button pressed="false">module</button>
     <button pressed="false">agenda</button>
@@ -113,10 +59,6 @@ exports[`chromium / 1`] = `
     <button pressed="false">sidebar</button>
     <button>Buy now</button>
     <button>Buy now</button>
-    <button>Fonts Typefaces used in this branding project.</button>
-    <button disabled="true">
-      Hacks Some of our secrets to make this website.
-    </button>
     <img>Spotify logo</img>
     <img>Amazon logo</img>
     <img>Nasa logo</img>
@@ -730,6 +672,30 @@ exports[`chromium /api/button/ 1`] = `
     </row>
     <row>
       <gridcell>
+        inclusiveDisabled
+        <text>inclusiveDisabled</text>
+      </gridcell>
+      <gridcell>
+        bool
+        <text>bool</text>
+      </gridcell>
+      <gridcell>
+        false
+        <text>false</text>
+      </gridcell>
+      <gridcell>
+        If true, the component is disabled but allows cursor interactions such
+        as mouse hover (for tooltips) and focus.
+        <text>If</text>
+        <code>$SOME_CODE</code>
+        <text>
+          , the component is disabled but allows cursor interactions such as
+          mouse hover (for tooltips) and focus.
+        </text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
         size
         <text>size</text>
       </gridcell>
@@ -1128,6 +1094,23 @@ exports[`chromium /api/button/ 1`] = `
       </gridcell>
       <gridcell>
         State class applied to the root element if disabled={true}.
+        <text>State class applied to the root element if</text>
+        <code>$SOME_CODE</code>
+        <text>.</text>
+      </gridcell>
+    </row>
+    <row>
+      <gridcell>
+        inclusiveDisabled
+        <text>inclusiveDisabled</text>
+      </gridcell>
+      <gridcell>
+        .MuiButton-inclusiveDisabled
+        <text>.MuiButton-inclusiveDisabled</text>
+      </gridcell>
+      <gridcell>
+        State class applied to the root element if
+        inclusiveDisabled={true}.
         <text>State class applied to the root element if</text>
         <code>$SOME_CODE</code>
         <text>.</text>
@@ -16971,6 +16954,23 @@ exports[`firefox /api/button/ 1`] = `
     </row>
     <row>
       <cell>
+        <text>inclusiveDisabled</text>
+      </cell>
+      <cell>
+        <text>bool</text>
+      </cell>
+      <cell>
+        <text>false</text>
+      </cell>
+      <cell>
+        <text>
+          If true, the component is disabled but allows cursor interactions such
+          as mouse hover (for tooltips) and focus.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
         <text>size</text>
       </cell>
       <cell>
@@ -17285,6 +17285,20 @@ exports[`firefox /api/button/ 1`] = `
       <cell>
         <text>
           State class applied to the root element if disabled={true}.
+        </text>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <text>inclusiveDisabled</text>
+      </cell>
+      <cell>
+        <text>.MuiButton-inclusiveDisabled</text>
+      </cell>
+      <cell>
+        <text>
+          State class applied to the root element if
+          inclusiveDisabled={true}.
         </text>
       </cell>
     </row>
