@@ -85,9 +85,6 @@ exports[`chromium / 1`] = `
     <button>Sep 28, 2021</button>
     <button>Sep 29, 2021</button>
     <button>Sep 30, 2021</button>
-    <tab selected="true">Yesterday</tab>
-    <tab>Today</tab>
-    <tab>Tomorrow</tab>
     <slider
       orientation="horizontal"
       value="25"
