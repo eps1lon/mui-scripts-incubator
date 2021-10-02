@@ -277,6 +277,19 @@ exports[`chromium / 1`] = `
         <text>Management platform for Google Cloud and AWS.</text>
       </paragraph>
     </link>
+    <link>
+      Aptugo Build scalable Web and Mobile Apps fast and easy with Aptugo's
+      visual interface.
+      <paragraph>
+        <text>Aptugo</text>
+      </paragraph>
+      <paragraph>
+        <text>
+          Build scalable Web and Mobile Apps fast and easy with Aptugo's
+          visual interface.
+        </text>
+      </paragraph>
+    </link>
     <link>Become MUI sponsor</link>
     <paragraph>
       <text>Become our sponsor!</text>
@@ -16546,6 +16559,21 @@ exports[`firefox / 1`] = `
       <paragraph>
         <text value="https://www.doit-intl.com/?utm_source=MUI&utm_medium=referral&utm_content=homepage">
           Management platform for Google Cloud and AWS.
+        </text>
+      </paragraph>
+    </link>
+    <link>
+      Aptugo Build scalable Web and Mobile Apps fast and easy with Aptugo's
+      visual interface.
+      <paragraph>
+        <text value="https://www.aptugo.com/?utm_source=MUI&utm_medium=referral&utm_content=homepage">
+          Aptugo
+        </text>
+      </paragraph>
+      <paragraph>
+        <text value="https://www.aptugo.com/?utm_source=MUI&utm_medium=referral&utm_content=homepage">
+          Build scalable Web and Mobile Apps fast and easy with Aptugo's
+          visual interface.
         </text>
       </paragraph>
     </link>
