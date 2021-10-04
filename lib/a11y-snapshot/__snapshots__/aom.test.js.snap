@@ -9222,8 +9222,8 @@ exports[`chromium /components/selects/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Menus are positioned over their emitting elements such that the currently
-      selected menu item appears on top of the emitting element.
+      Menus are positioned under their emitting elements, unless they are close
+      to the bottom of the viewport.
     </text>
   </paragraph>
   <button>
@@ -25737,8 +25737,8 @@ exports[`firefox /components/selects/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Menus are positioned over their emitting elements such that the currently
-      selected menu item appears on top of the emitting element.
+      Menus are positioned under their emitting elements, unless they are close
+      to the bottom of the viewport.
     </text>
   </paragraph>
   <button>
