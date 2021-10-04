@@ -107,17 +107,6 @@ exports[`chromium / 1`] = `
     >
       Temperature
     </slider>
-    <button pressed="true">quilt</button>
-    <button pressed="false">module</button>
-    <button pressed="false">agenda</button>
-    <button pressed="false">week</button>
-    <button pressed="false">sidebar</button>
-    <button>Buy now</button>
-    <button>Buy now</button>
-    <button>Fonts Typefaces used in this branding project.</button>
-    <button disabled="true">
-      Hacks Some of our secrets to make this website.
-    </button>
     <img>Spotify logo</img>
     <img>Amazon logo</img>
     <img>Nasa logo</img>
