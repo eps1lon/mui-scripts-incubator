@@ -290,15 +290,6 @@ exports[`chromium / 1`] = `
         </text>
       </paragraph>
     </link>
-    <link>Become MUI sponsor</link>
-    <paragraph>
-      <text>Become our sponsor!</text>
-    </paragraph>
-    <paragraph>
-      <text>To join us, contact us at</text>
-      <link>diamond@mui.com</link>
-      <text>for pre-approval.</text>
-    </paragraph>
     <heading level="3">
       Gold
       <text>Gold</text>
@@ -16577,15 +16568,6 @@ exports[`firefox / 1`] = `
         </text>
       </paragraph>
     </link>
-    <link>Become MUI sponsor</link>
-    <paragraph>
-      <text>Become our sponsor!</text>
-    </paragraph>
-    <paragraph>
-      <text>To join us, contact us at</text>
-      <link>diamond@mui.com</link>
-      <text>for pre-approval.</text>
-    </paragraph>
     <heading level="3">
       Gold
       <text>Gold</text>
