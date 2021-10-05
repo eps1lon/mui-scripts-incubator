@@ -86,34 +86,11 @@ exports[`chromium / 1`] = `
     <button>Oct 29, 2021</button>
     <button>Oct 30, 2021</button>
     <button>Oct 31, 2021</button>
-    <tab selected="true">Yesterday</tab>
-    <tab>Today</tab>
-    <tab>Tomorrow</tab>
-    <slider
-      orientation="horizontal"
-      value="25"
-      valuemax="100"
-      valuemin="0"
-      valuetext="25°C"
-    >
-      Temperature
-    </slider>
-    <slider
-      orientation="horizontal"
-      value="50"
-      valuemax="100"
-      valuemin="0"
-      valuetext="50°C"
-    >
-      Temperature
-    </slider>
     <button pressed="true">quilt</button>
     <button pressed="false">module</button>
     <button pressed="false">agenda</button>
     <button pressed="false">week</button>
     <button pressed="false">sidebar</button>
-    <button>Buy now</button>
-    <button>Buy now</button>
     <button>Fonts Typefaces used in this branding project.</button>
     <button disabled="true">
       Hacks Some of our secrets to make this website.
