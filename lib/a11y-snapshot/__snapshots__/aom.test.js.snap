@@ -52,40 +52,6 @@ exports[`chromium / 1`] = `
     <button>Javascript</button>
     <button>Folder Name sorted ascending</button>
     <button>Size</button>
-    <button>calendar view is open, switch to year view</button>
-    <button description="Previous month">Previous month</button>
-    <button description="Next month">Next month</button>
-    <button>Oct 1, 2021</button>
-    <button>Oct 2, 2021</button>
-    <button>Oct 3, 2021</button>
-    <button>Oct 4, 2021</button>
-    <button>Oct 5, 2021</button>
-    <button>Oct 6, 2021</button>
-    <button>Oct 7, 2021</button>
-    <button>Oct 8, 2021</button>
-    <button>Oct 9, 2021</button>
-    <button>Oct 10, 2021</button>
-    <button>Oct 11, 2021</button>
-    <button>Oct 12, 2021</button>
-    <button>Oct 13, 2021</button>
-    <button>Oct 14, 2021</button>
-    <button>Oct 15, 2021</button>
-    <button>Oct 16, 2021</button>
-    <button>Oct 17, 2021</button>
-    <button>Oct 18, 2021</button>
-    <button>Oct 19, 2021</button>
-    <button>Oct 20, 2021</button>
-    <button>Oct 21, 2021</button>
-    <button>Oct 22, 2021</button>
-    <button>Oct 23, 2021</button>
-    <button>Oct 24, 2021</button>
-    <button>Oct 25, 2021</button>
-    <button>Oct 26, 2021</button>
-    <button>Oct 27, 2021</button>
-    <button>Oct 28, 2021</button>
-    <button>Oct 29, 2021</button>
-    <button>Oct 30, 2021</button>
-    <button>Oct 31, 2021</button>
     <tab selected="true">Yesterday</tab>
     <tab>Today</tab>
     <tab>Tomorrow</tab>
@@ -9222,8 +9188,8 @@ exports[`chromium /components/selects/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Menus are positioned under their emitting elements, unless they are close
-      to the bottom of the viewport.
+      Menus are positioned over their emitting elements such that the currently
+      selected menu item appears on top of the emitting element.
     </text>
   </paragraph>
   <button>
@@ -25737,8 +25703,8 @@ exports[`firefox /components/selects/ 1`] = `
   </heading>
   <paragraph>
     <text>
-      Menus are positioned under their emitting elements, unless they are close
-      to the bottom of the viewport.
+      Menus are positioned over their emitting elements such that the currently
+      selected menu item appears on top of the emitting element.
     </text>
   </paragraph>
   <button>
