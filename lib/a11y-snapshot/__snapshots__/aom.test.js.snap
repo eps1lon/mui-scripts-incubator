@@ -290,15 +290,6 @@ exports[`chromium / 1`] = `
         </text>
       </paragraph>
     </link>
-    <link>Become MUI sponsor</link>
-    <paragraph>
-      <text>Become our sponsor!</text>
-    </paragraph>
-    <paragraph>
-      <text>To join us, contact us at</text>
-      <link>diamond@mui.com</link>
-      <text>for pre-approval.</text>
-    </paragraph>
     <heading level="3">
       Gold
       <text>Gold</text>
@@ -7347,7 +7338,7 @@ exports[`chromium /components/pagination/ 1`] = `
       </text>
       <code>$SOME_CODE</code>
       <text>
-        page prop stats at 0 to match the requirement of zero-based JavaScript
+        page prop starts at 0 to match the requirement of zero-based JavaScript
         arrays that comes with rendering a lot of tabular data.
       </text>
     </paragraph>
@@ -16577,15 +16568,6 @@ exports[`firefox / 1`] = `
         </text>
       </paragraph>
     </link>
-    <link>Become MUI sponsor</link>
-    <paragraph>
-      <text>Become our sponsor!</text>
-    </paragraph>
-    <paragraph>
-      <text>To join us, contact us at</text>
-      <link>diamond@mui.com</link>
-      <text>for pre-approval.</text>
-    </paragraph>
     <heading level="3">
       Gold
       <text>Gold</text>
@@ -23628,7 +23610,7 @@ exports[`firefox /components/pagination/ 1`] = `
       <text>
         ⚠️ Note that the Pagination page prop starts at 1 to match the
         requirement of including the value in the URL, while the TablePagination
-        page prop stats at 0 to match the requirement of zero-based JavaScript
+        page prop starts at 0 to match the requirement of zero-based JavaScript
         arrays that comes with rendering a lot of tabular data.
       </text>
     </paragraph>
