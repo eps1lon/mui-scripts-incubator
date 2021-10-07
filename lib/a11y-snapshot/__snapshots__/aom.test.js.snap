@@ -20814,7 +20814,7 @@ exports[`firefox /components/cards/ 1`] = `
       <link><CardHeader /></link>
     </listitem>
     <listitem>
-      <CardMedia />
+      • <CardMedia />
       <link><CardMedia /></link>
     </listitem>
     <listitem>
