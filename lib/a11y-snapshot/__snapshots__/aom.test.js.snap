@@ -86,38 +86,6 @@ exports[`chromium / 1`] = `
     <button>Oct 29, 2021</button>
     <button>Oct 30, 2021</button>
     <button>Oct 31, 2021</button>
-    <tab selected="true">Yesterday</tab>
-    <tab>Today</tab>
-    <tab>Tomorrow</tab>
-    <slider
-      orientation="horizontal"
-      value="25"
-      valuemax="100"
-      valuemin="0"
-      valuetext="25°C"
-    >
-      Temperature
-    </slider>
-    <slider
-      orientation="horizontal"
-      value="50"
-      valuemax="100"
-      valuemin="0"
-      valuetext="50°C"
-    >
-      Temperature
-    </slider>
-    <button pressed="true">quilt</button>
-    <button pressed="false">module</button>
-    <button pressed="false">agenda</button>
-    <button pressed="false">week</button>
-    <button pressed="false">sidebar</button>
-    <button>Buy now</button>
-    <button>Buy now</button>
-    <button>Fonts Typefaces used in this branding project.</button>
-    <button disabled="true">
-      Hacks Some of our secrets to make this website.
-    </button>
     <img>Spotify logo</img>
     <img>Amazon logo</img>
     <img>Nasa logo</img>
@@ -290,6 +258,15 @@ exports[`chromium / 1`] = `
         </text>
       </paragraph>
     </link>
+    <link>Become MUI sponsor</link>
+    <paragraph>
+      <text>Become our sponsor!</text>
+    </paragraph>
+    <paragraph>
+      <text>To join us, contact us at</text>
+      <link>diamond@mui.com</link>
+      <text>for pre-approval.</text>
+    </paragraph>
     <heading level="3">
       Gold
       <text>Gold</text>
@@ -7338,7 +7315,7 @@ exports[`chromium /components/pagination/ 1`] = `
       </text>
       <code>$SOME_CODE</code>
       <text>
-        page prop starts at 0 to match the requirement of zero-based JavaScript
+        page prop stats at 0 to match the requirement of zero-based JavaScript
         arrays that comes with rendering a lot of tabular data.
       </text>
     </paragraph>
@@ -16568,6 +16545,15 @@ exports[`firefox / 1`] = `
         </text>
       </paragraph>
     </link>
+    <link>Become MUI sponsor</link>
+    <paragraph>
+      <text>Become our sponsor!</text>
+    </paragraph>
+    <paragraph>
+      <text>To join us, contact us at</text>
+      <link>diamond@mui.com</link>
+      <text>for pre-approval.</text>
+    </paragraph>
     <heading level="3">
       Gold
       <text>Gold</text>
@@ -20814,7 +20800,7 @@ exports[`firefox /components/cards/ 1`] = `
       <link><CardHeader /></link>
     </listitem>
     <listitem>
-      • <CardMedia />
+      <CardMedia />
       <link><CardMedia /></link>
     </listitem>
     <listitem>
@@ -23610,7 +23596,7 @@ exports[`firefox /components/pagination/ 1`] = `
       <text>
         ⚠️ Note that the Pagination page prop starts at 1 to match the
         requirement of including the value in the URL, while the TablePagination
-        page prop starts at 0 to match the requirement of zero-based JavaScript
+        page prop stats at 0 to match the requirement of zero-based JavaScript
         arrays that comes with rendering a lot of tabular data.
       </text>
     </paragraph>
