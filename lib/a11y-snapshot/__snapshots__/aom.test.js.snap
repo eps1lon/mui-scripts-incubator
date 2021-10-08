@@ -14576,6 +14576,87 @@ exports[`chromium /components/text-fields/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
+    Unstyled
+    <text>Unstyled</text>
+  </heading>
+  <paragraph>
+    <text>
+      For advanced customization scenarios, you can use the unstyled primitives.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>The basic building blocks are the</text>
+    <code>$SOME_CODE</code>
+    <text>component and the</text>
+    <code>$SOME_CODE</code>
+    <text>hook.</text>
+  </paragraph>
+  <heading level="3">
+    Unstyled component
+    <text>Unstyled component</text>
+  </heading>
+  <paragraph>
+    <text>The</text>
+    <code>$SOME_CODE</code>
+    <text>component wraps the native</text>
+    <code>$SOME_CODE</code>
+    <text>or</text>
+    <code>$SOME_CODE</code>
+    <text>
+      element. You can, optionally, provide a custom component to be rendered
+      instead.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <textbox>Demo input</textbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="3">
+    Hook
+    <text>Hook</text>
+  </heading>
+  <paragraph>
+    <text>The</text>
+    <code>$SOME_CODE</code>
+    <text>hook is the headless version of the</text>
+    <code>$SOME_CODE</code>
+    <text>
+      component. Use it for even greater control over the rendered output.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <textbox>Demo input</textbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
     API
     <text>API</text>
   </heading>
@@ -14625,6 +14706,12 @@ exports[`chromium /components/text-fields/ 1`] = `
     <listitem level="1">
       <link>
         <InputLabel />
+        <code>$SOME_CODE</code>
+      </link>
+    </listitem>
+    <listitem level="1">
+      <link>
+        <InputUnstyled />
         <code>$SOME_CODE</code>
       </link>
     </listitem>
@@ -14733,6 +14820,17 @@ exports[`chromium /components/text-fields/ 1`] = `
       </listitem>
       <listitem level="1">
         <link>Complementary projects</link>
+      </listitem>
+      <listitem level="1">
+        <link>Unstyled</link>
+        <list>
+          <listitem level="2">
+            <link>Unstyled component</link>
+          </listitem>
+          <listitem level="2">
+            <link>Hook</link>
+          </listitem>
+        </list>
       </listitem>
       <listitem level="1">
         <link>API</link>
@@ -31100,6 +31198,79 @@ exports[`firefox /components/text-fields/ 1`] = `
     </listitem>
   </list>
   <heading level="2">
+    Unstyled
+    <text>Unstyled</text>
+  </heading>
+  <paragraph>
+    <text>
+      For advanced customization scenarios, you can use the unstyled primitives.
+    </text>
+  </paragraph>
+  <paragraph>
+    <text>
+      The basic building blocks are the InputUnstyled component and the useInput
+      hook.
+    </text>
+  </paragraph>
+  <heading level="3">
+    Unstyled component
+    <text>Unstyled component</text>
+  </heading>
+  <paragraph>
+    <text>
+      The InputUnstyled component wraps the native input or textarea element.
+      You can, optionally, provide a custom component to be rendered instead.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <textbox>Demo input</textbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <CustomInput aria-label="Demo input" placeholder="Type
+    something..." />
+  </text>
+  <heading level="3">
+    Hook
+    <text>Hook</text>
+  </heading>
+  <paragraph>
+    <text>
+      The useInput hook is the headless version of the InputUnstyled component.
+      Use it for even greater control over the rendered output.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <textbox>Demo input</textbox>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <CustomInput aria-label="Demo input" placeholder="Type
+    something..." />
+  </text>
+  <heading level="2">
     API
     <text>API</text>
   </heading>
@@ -31135,6 +31306,10 @@ exports[`firefox /components/text-fields/ 1`] = `
     <listitem>
       <InputLabel />
       <link><InputLabel /></link>
+    </listitem>
+    <listitem>
+      <InputUnstyled />
+      <link><InputUnstyled /></link>
     </listitem>
     <listitem>
       <OutlinedInput />
@@ -31259,6 +31434,20 @@ exports[`firefox /components/text-fields/ 1`] = `
       <listitem level="1">
         Complementary projects
         <link>Complementary projects</link>
+      </listitem>
+      <listitem level="1">
+        Unstyled Unstyled component Hook
+        <link>Unstyled</link>
+        <list>
+          <listitem level="2">
+            Unstyled component
+            <link>Unstyled component</link>
+          </listitem>
+          <listitem level="2">
+            Hook
+            <link>Hook</link>
+          </listitem>
+        </list>
       </listitem>
       <listitem level="1">
         API
