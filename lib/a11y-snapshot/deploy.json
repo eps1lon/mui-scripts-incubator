@@ -21,7 +21,7 @@
 		"url": "https://netlify-builds2.firebaseio.com/builds/616daeb2ff20980007e3d733/log",
 		"endpoint": "https://netlify-builds2.firebaseio.com",
 		"path": "/builds/616daeb2ff20980007e3d733/log",
-		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2IjowLCJpYXQiOjE2MzQ1ODUyNDcsImQiOnsidWlkIjoiIn19.SeIsdvZpl32ifmeWIYxqUjdN_15Vgou3B2DHuRbo7JI"
+		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2IjowLCJpYXQiOjE2MzQ1ODg5NjgsImQiOnsidWlkIjoiIn19.XhkH0QnliZOIxGCcurO8hXKkQvgW4b6DFjZa1bCy2-s"
 	},
 	"title": "[pricing] Add tooltip to pricing icon (#28959)\n\n* Add tooltip to pricing icon\r\n* available → included\r\n\r\nCo-authored-by: danilo leal <daniloleal09@gmail.com>",
 	"review_url": null,
