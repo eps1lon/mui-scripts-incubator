@@ -12585,6 +12585,57 @@ exports[`chromium /components/tabs/ 1`] = `
     <code>$SOME_CODE</code>
   </Pre>
   <heading level="2">
+    Icon position
+    <text>Icon position</text>
+  </heading>
+  <paragraph>
+    <text>By default, the icon is positioned at the</text>
+    <code>$SOME_CODE</code>
+    <text>of a tab. Other supported positions are</text>
+    <code>$SOME_CODE</code>
+    <text>,</text>
+    <code>$SOME_CODE</code>
+    <text>,</text>
+    <code>$SOME_CODE</code>
+    <text>.</text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist level="1">
+    icon position tabs example
+    <tab selected="true">
+      TOP
+      <text>TOP</text>
+    </tab>
+    <tab>
+      START
+      <text>START</text>
+    </tab>
+    <tab>
+      END
+      <text>END</text>
+    </tab>
+    <tab>
+      BOTTOM
+      <text>BOTTOM</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <combobox haspopup="menu">See more</combobox>
+  </toolbar>
+  <Pre>
+    <code>$SOME_CODE</code>
+  </Pre>
+  <heading level="2">
     Third-party routing library
     <text>Third-party routing library</text>
   </heading>
@@ -12852,6 +12903,9 @@ exports[`chromium /components/tabs/ 1`] = `
       </listitem>
       <listitem level="1">
         <link>Icon tabs</link>
+      </listitem>
+      <listitem level="1">
+        <link>Icon position</link>
       </listitem>
       <listitem level="1">
         <link>Third-party routing library</link>
@@ -29099,6 +29153,59 @@ exports[`firefox /components/tabs/ 1`] = `
     /> </Tabs>
   </text>
   <heading level="2">
+    Icon position
+    <text>Icon position</text>
+  </heading>
+  <paragraph>
+    <text>
+      By default, the icon is positioned at the top of a tab. Other supported
+      positions are start, end, bottom.
+    </text>
+  </paragraph>
+  <button>
+    A generic container that is programmatically focused to test keyboard
+    navigation of our components.
+  </button>
+  <tablist>
+    icon position tabs example
+    <tab selected="true">
+      TOP
+      <text>TOP</text>
+    </tab>
+    <tab>
+      START
+      <text>START</text>
+    </tab>
+    <tab>
+      END
+      <text>END</text>
+    </tab>
+    <tab>
+      BOTTOM
+      <text>BOTTOM</text>
+    </tab>
+  </tablist>
+  <toolbar>
+    demo source
+    <button>Show the full source</button>
+    <button>Edit in CodeSandbox</button>
+    <button>Edit in StackBlitz</button>
+    <button>Copy the source</button>
+    <button>Reset focus to test keyboard navigation</button>
+    <button>Reset demo</button>
+    <buttonmenu haspopup="true">See more</buttonmenu>
+  </toolbar>
+  <text>
+    <Tabs value={value} onChange={handleChange}
+    aria-label="icon position tabs example" > <Tab
+    icon={<PhoneIcon />} label="top" /> <Tab
+    icon={<PhoneMissedIcon />} iconPosition="start"
+    label="start" /> <Tab icon={<FavoriteIcon
+    />} iconPosition="end" label="end" /> <Tab
+    icon={<PersonPinIcon />} iconPosition="bottom"
+    label="bottom" /> </Tabs>
+  </text>
+  <heading level="2">
     Third-party routing library
     <text>Third-party routing library</text>
   </heading>
@@ -29354,6 +29461,10 @@ exports[`firefox /components/tabs/ 1`] = `
       <listitem level="1">
         Icon tabs
         <link>Icon tabs</link>
+      </listitem>
+      <listitem level="1">
+        Icon position
+        <link>Icon position</link>
       </listitem>
       <listitem level="1">
         Third-party routing library
