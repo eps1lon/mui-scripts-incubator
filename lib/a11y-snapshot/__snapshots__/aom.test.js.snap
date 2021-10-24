@@ -781,8 +781,10 @@ exports[`chromium /api/button/ 1`] = `
         <text>sx</text>
       </gridcell>
       <gridcell>
-        object
-        <text>object</text>
+        func | object
+        <text>func</text>
+        <LineBreak></LineBreak>
+        <text>| object</text>
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
@@ -2100,8 +2102,10 @@ exports[`chromium /api/select/ 1`] = `
         <text>sx</text>
       </gridcell>
       <gridcell>
-        object
-        <text>object</text>
+        func | object
+        <text>func</text>
+        <LineBreak></LineBreak>
+        <text>| object</text>
       </gridcell>
       <gridcell></gridcell>
       <gridcell>
@@ -17172,7 +17176,9 @@ exports[`firefox /api/button/ 1`] = `
         <text>sx</text>
       </cell>
       <cell>
-        <text>object</text>
+        <text>func</text>
+        <whitespace></whitespace>
+        <text>| object</text>
       </cell>
       <cell></cell>
       <cell>
@@ -18202,7 +18208,9 @@ exports[`firefox /api/select/ 1`] = `
         <text>sx</text>
       </cell>
       <cell>
-        <text>object</text>
+        <text>func</text>
+        <whitespace></whitespace>
+        <text>| object</text>
       </cell>
       <cell></cell>
       <cell>
