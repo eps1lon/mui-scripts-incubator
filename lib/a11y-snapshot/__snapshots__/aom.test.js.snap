@@ -781,8 +781,12 @@ exports[`chromium /api/button/ 1`] = `
         <text>sx</text>
       </gridcell>
       <gridcell>
-        func | object
-        <text>func</text>
+        Array<func | object> | func | object
+        <text>Array<func</text>
+        <LineBreak></LineBreak>
+        <text>| object></text>
+        <LineBreak></LineBreak>
+        <text>| func</text>
         <LineBreak></LineBreak>
         <text>| object</text>
       </gridcell>
@@ -2102,8 +2106,12 @@ exports[`chromium /api/select/ 1`] = `
         <text>sx</text>
       </gridcell>
       <gridcell>
-        func | object
-        <text>func</text>
+        Array<func | object> | func | object
+        <text>Array<func</text>
+        <LineBreak></LineBreak>
+        <text>| object></text>
+        <LineBreak></LineBreak>
+        <text>| func</text>
         <LineBreak></LineBreak>
         <text>| object</text>
       </gridcell>
@@ -17176,7 +17184,11 @@ exports[`firefox /api/button/ 1`] = `
         <text>sx</text>
       </cell>
       <cell>
-        <text>func</text>
+        <text>Array<func</text>
+        <whitespace></whitespace>
+        <text>| object></text>
+        <whitespace></whitespace>
+        <text>| func</text>
         <whitespace></whitespace>
         <text>| object</text>
       </cell>
@@ -18208,7 +18220,11 @@ exports[`firefox /api/select/ 1`] = `
         <text>sx</text>
       </cell>
       <cell>
-        <text>func</text>
+        <text>Array<func</text>
+        <whitespace></whitespace>
+        <text>| object></text>
+        <whitespace></whitespace>
+        <text>| func</text>
         <whitespace></whitespace>
         <text>| object</text>
       </cell>
@@ -20974,7 +20990,7 @@ exports[`firefox /components/cards/ 1`] = `
       <link><CardHeader /></link>
     </listitem>
     <listitem>
-      • <CardMedia />
+      <CardMedia />
       <link><CardMedia /></link>
     </listitem>
     <listitem>
