@@ -1274,10 +1274,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@netlify/open-api@^2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-2.5.0.tgz#d0d947ec21a0a8e8dd46f542c60b6cb25609b0f2"
-  integrity sha512-KiXfYPO/X24p7EYQjcjBTizoyfY3U8zPv68Rte0EtayW2ZSqIslLLpNNd2gteqdh0Q83mzSiESdhlQHd0Ckjjg==
+"@netlify/open-api@^2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-2.7.0.tgz#d8147396a0c41b5e9de1f52889004ad2a1d59163"
+  integrity sha512-WzedpLK6XFs67naFDX1K3QWk3GKlUQVCuIlMuXb0dWvJvfB71R/Njk1bq0FqVllIWw2RRCQMkCIywEABbnB2Yg==
 
 "@octokit/auth-token@^2.4.4":
   version "2.5.0"
@@ -4697,12 +4697,12 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-netlify@8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/netlify/-/netlify-8.0.1.tgz#2e6f1d43ef0c966ea3868357bf973318df356ead"
-  integrity sha512-bAUay/JDmUdmFSfW6BQuUGHuj498ALr/aS4Se3Juhgv1N0q1Whrp1uwGlkIgatrlP0lLL/zkTWc6hxmG1TqQcQ==
+netlify@10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/netlify/-/netlify-10.1.0.tgz#fb7dc14ab96e382f013f50df993d7e4af0353364"
+  integrity sha512-c6ljxmQKc6CHXVlkAvxQc+YrI7vqnm2rHocucGflycRIm981sWkEM/GzMirF4ykgPAeMGltLBhFdjOO7OTI2Hw==
   dependencies:
-    "@netlify/open-api" "^2.5.0"
+    "@netlify/open-api" "^2.7.0"
     lodash.camelcase "^4.3.0"
     micro-api-client "^3.3.0"
     node-fetch "^2.6.1"
