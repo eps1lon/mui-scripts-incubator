@@ -19,7 +19,7 @@ jobs:
     env:
       NVDA_LOG_FILE_PATH: '${{ github.workspace }}\lib\a11y-snapshot\nvda.log'
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Setup node
         uses: actions/setup-node@v2
         with:
