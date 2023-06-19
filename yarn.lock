@@ -1414,7 +1414,7 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@testing-library/dom@^7.22.2":
+"@testing-library/dom@^7.31.2":
   version "7.31.2"
   resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-7.31.2.tgz#df361db38f5212b88555068ab8119f5d841a8c4a"
   integrity sha512-3UqjCpey6HiTZT92vODYLPxTBWlM8ZOOjr3LX5F37/VRipW2M1kX6I/Cm4VXzteZqfGfagg8yXywpcOgQBlNsQ==
@@ -5139,12 +5139,12 @@ pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
-playwright-testing-library@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/playwright-testing-library/-/playwright-testing-library-3.0.1.tgz#7f9009aae948d7a08274206dc2d8c50871760e72"
-  integrity sha512-Dl7R+Sj2VuWygrNLqRP0OR/qDQm/3iWJJvlz2sBU1Rj/B1f3nVv3ayuuRdhpOZ+neFukXQ44Mpi5VXJk35xpZg==
+playwright-testing-library@4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/playwright-testing-library/-/playwright-testing-library-4.5.0.tgz#abe31799e966b89b61dbf51fb539c853da05c2ab"
+  integrity sha512-jgeb/L9Xs1PI3LMQ0eup5w5AyYhHAvc0WyoIFn4RHxc16eZUqamu7Hkq7BYO24zP+byMAbUfk1G+xob/JlOqTg==
   dependencies:
-    "@testing-library/dom" "^7.22.2"
+    "@testing-library/dom" "^7.31.2"
     wait-for-expect "^3.0.2"
 
 playwright@1.15.1:
